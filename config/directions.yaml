@@ -1,0 +1,107 @@
+version: 1
+
+directions:
+
+  mechanical_properties:
+    display_name: "AM Mechanical Properties"
+    color: "#2E7D6B"
+    sources:
+      arxiv_categories: ["cond-mat.mtrl-sci"]
+      openalex_concepts: []
+      openalex_keywords:
+        - "additive manufacturing mechanical properties"
+        - "tensile properties additive manufacturing"
+        - "selective laser melting mechanical properties"
+        - "build orientation anisotropy"
+      pubmed_terms:
+        - "additive manufacturing mechanical properties implant"
+    strong_keywords:
+      - "tensile strength"
+      - "yield strength"
+      - "ultimate tensile strength"
+      - "elongation"
+      - "mechanical anisotropy"
+      - "build orientation"
+      - "fracture toughness"
+      - "strain hardening"
+      - "ductility"
+    must_pair_with: &am_terms
+      - "additive manufacturing"
+      - "selective laser melting"
+      - "laser powder bed fusion"
+      - "powder bed fusion"
+      - "electron beam melting"
+      - "directed energy deposition"
+      - "wire arc additive"
+      - "slm"
+      - "lpbf"
+      - "l-pbf"
+      - "ebm"
+      - "waam"
+
+  fatigue:
+    display_name: "AM Fatigue"
+    color: "#C0392B"
+    sources:
+      arxiv_categories: ["cond-mat.mtrl-sci"]
+      openalex_concepts: []
+      openalex_keywords:
+        - "additive manufacturing fatigue"
+        - "fatigue selective laser melting"
+        - "fatigue life laser powder bed fusion"
+        - "defect fatigue additive manufacturing"
+      pubmed_terms:
+        - "additive manufacturing implant fatigue"
+    strong_keywords:
+      - "fatigue life"
+      - "fatigue strength"
+      - "fatigue behavior"
+      - "fatigue performance"
+      - "s-n curve"
+      - "high cycle fatigue"
+      - "very high cycle fatigue"
+      - "fatigue crack growth"
+      - "fatigue crack initiation"
+    must_pair_with: *am_terms
+
+  ti6al4v_postprocess_hip:
+    display_name: "Ti-6Al-4V Post-processing & HIP"
+    color: "#8A6D3B"
+    sources:
+      arxiv_categories: ["cond-mat.mtrl-sci"]
+      openalex_concepts: []
+      openalex_keywords:
+        - "Ti-6Al-4V hot isostatic pressing"
+        - "heat treatment additive manufacturing titanium"
+        - "hot isostatic pressing porosity additive"
+        - "post-processing additive manufacturing titanium"
+      pubmed_terms:
+        - "Ti-6Al-4V additive manufacturing heat treatment"
+    strong_keywords:
+      - "hot isostatic pressing"
+      - "Ti-6Al-4V"
+      - "Ti6Al4V"
+    must_pair_with: *am_terms
+
+  am_femoral_stem:
+    display_name: "Femoral Stem (AM + traditional)"
+    color: "#1F6FB2"
+    sources:
+      arxiv_categories: ["cond-mat.mtrl-sci"]
+      openalex_concepts: []
+      openalex_keywords:
+        - "additive manufacturing femoral stem"
+        - "porous titanium hip stem"
+        - "lattice femoral stem"
+        - "cementless femoral stem"
+        - "femoral stem stress shielding"
+        - "femoral stem design"
+      pubmed_terms:
+        - "femoral stem"
+        - "hip stem design"
+    strong_keywords:
+      - "femoral stem"
+      - "hip stem"
+      - "short stem"
+      - "porous stem"
+      - "lattice stem"

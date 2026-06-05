@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.python-version
+
+# Secrets - never commit
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project caches
+data/cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Historical-mode month outputs are PoC artifacts, not source-of-truth
+# (regenerable via `python -m pipeline.run_historical ...`); only the
+# `*_summary.json` counts files are committed as durable baselines.
+data/historical/*.json
+!data/historical/*_summary.json
+
+# uv lock SHOULD be committed - it's how we lock versions
+# uv.lock
+
+# Build artifacts (from pip install -e .)
+*.egg-info/
+*.bak
+
+# ADR-0015 v1->v2 migration archive (rollback target, regenerable)
+data/_archive_v1/
+
+# ADR-0016 scoring-failure raw-response cache (debug artifacts, regenerable)
+data/llm_cache/
+data/llm_cache/failures/
+
+# Review harness PDF + extracted-text caches (regenerable via Unpaywall +
+# pymupdf/pdfplumber on next `review_harness.py next`). The state.json,
+# summaries/, and audit log are committed; the raw blobs are not.
+data/review/pdf_cache/
+data/review/text/
