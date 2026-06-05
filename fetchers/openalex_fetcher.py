@@ -33,12 +33,17 @@ def _build_filter(concepts: list[str], from_date: str,
 
 
 def _fetch_one(flt: str, search_query: str | None, per_page: int,
-               max_pages: int) -> list[dict]:
-    """One cursor-paginated OpenAlex query → list of normalised paper dicts.
+               max_pages: int) -> tuple[list[dict], bool]:
+    """One cursor-paginated OpenAlex query → (results, truncated).
 
     Extracted so the AND→OR dispatch in :func:`fetch` can issue two
     independent queries and union their results without duplicating the
     pagination loop.
+
+    `truncated` is True when the loop hit max_pages while OpenAlex still
+    advertised more results via `next_cursor`. The caller is responsible
+    for logging and surfacing this to its own caller (run_daily /
+    run_historical), so silent over-cap drops never go unnoticed.
     """
     results: list[dict] = []
     cursor = "*"
@@ -62,8 +67,25 @@ def _fetch_one(flt: str, search_query: str | None, per_page: int,
         cursor = data.get("meta", {}).get("next_cursor")
         if not cursor:
             break
+    else:
+        # Loop ran the full max_pages without breaking — if `cursor` is
+        # still non-None, OpenAlex had more rows and we silently capped.
+        return results, bool(cursor)
 
-    return results
+    return results, False
+
+
+def _emit_truncation(events: list[dict] | None, query_desc: str, n: int) -> None:
+    """Log a loud truncation warning and append to `events` if provided.
+
+    `events` is the opt-in surface for callers (run_daily, run_historical)
+    that want to raise a quality flag. Callers that don't pass an events
+    list still see the log line.
+    """
+    print(f"OpenAlex TRUNCATED at {n} results for query {query_desc}",
+          flush=True)
+    if events is not None:
+        events.append({"query": query_desc, "results_at_cap": n})
 
 
 def fetch(
@@ -74,6 +96,7 @@ def fetch(
     max_pages: int | None = None,
     from_date: str | None = None,
     to_date: str | None = None,
+    truncation_events: list[dict] | None = None,
 ) -> list[dict]:
     """Returns a list of normalized paper dicts.
 
@@ -102,6 +125,14 @@ def fetch(
     selection, and `max_pages` semantics are unchanged — each query in
     the fan-out is capped at `effective_max_pages` independently.
     Callers may always override `max_pages` explicitly.
+
+    `truncation_events`: optional list the caller passes in. Whenever a
+    sub-query hits max_pages while OpenAlex still has more results, we
+    log "OpenAlex TRUNCATED at N results for query <q>" and append a
+    record describing the capped query. Callers (run_daily,
+    run_historical) inspect this list to raise an `openalex_truncated`
+    quality flag — silent over-cap drops are how Radar lost recall in
+    the past (ADR-0023).
     """
     historical = bool(from_date and to_date)
     if historical:
@@ -121,8 +152,18 @@ def fetch(
         flt_concepts = _build_filter(concepts, effective_from, effective_to)
         flt_no_concepts = _build_filter([], effective_from, effective_to)
         search_query = " OR ".join(f'"{k}"' for k in keywords)
-        rows_a = _fetch_one(flt_concepts, None, per_page, effective_max_pages)
-        rows_b = _fetch_one(flt_no_concepts, search_query, per_page, effective_max_pages)
+        rows_a, trunc_a = _fetch_one(
+            flt_concepts, None, per_page, effective_max_pages
+        )
+        rows_b, trunc_b = _fetch_one(
+            flt_no_concepts, search_query, per_page, effective_max_pages
+        )
+        if trunc_a:
+            _emit_truncation(truncation_events, flt_concepts, len(rows_a))
+        if trunc_b:
+            _emit_truncation(
+                truncation_events, f"search={search_query}", len(rows_b)
+            )
         # Union with stable A-first ordering, dedup by OpenAlex work id.
         seen: set[str] = set()
         merged: list[dict] = []
@@ -138,7 +179,14 @@ def fetch(
     # Single-query path (keywords-only or concepts-only) — unchanged.
     flt = _build_filter(concepts, effective_from, effective_to)
     search_query = " OR ".join(f'"{k}"' for k in keywords) if has_keywords else None
-    return _fetch_one(flt, search_query, per_page, effective_max_pages)
+    rows, trunc = _fetch_one(flt, search_query, per_page, effective_max_pages)
+    if trunc:
+        _emit_truncation(
+            truncation_events,
+            f"search={search_query}" if search_query else flt,
+            len(rows),
+        )
+    return rows
 
 
 def _normalize(work: dict) -> dict:

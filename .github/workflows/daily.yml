@@ -1,8 +1,13 @@
 name: daily-research-radar
 
 on:
-  schedule:
-    - cron: "0 3 * * *"
+  # Schedule intentionally disabled for AM radar. Only workflow_dispatch is
+  # active until the user explicitly re-enables it. When re-enabling, the
+  # cron MUST be "30 4 * * *" — staggered from the sister radar's 03:00 UTC
+  # OpenAlex window to avoid colliding on the shared OPENALEX_EMAIL polite
+  # pool.
+  # schedule:
+  #   - cron: "30 4 * * *"
   workflow_dispatch:
 
 permissions:
@@ -24,18 +29,15 @@ jobs:
       - run: pip install -e .
 
       - name: Fetch and process papers
+        # AM radar: no ZOTERO_* env vars — Zotero sync is skipped by default
+        # in pipeline.run_daily. Do not re-add them without flipping the
+        # default first.
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           MODEL_NAME: ${{ vars.MODEL_NAME }}
           OPENALEX_EMAIL: ${{ vars.OPENALEX_EMAIL }}
           PUBMED_EMAIL: ${{ vars.PUBMED_EMAIL }}
-          ZOTERO_USER_ID: ${{ secrets.ZOTERO_USER_ID }}
-          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
-          ZOT_COL_BIOPRINTING: ${{ vars.ZOT_COL_BIOPRINTING }}
-          ZOT_COL_HIP: ${{ vars.ZOT_COL_HIP }}
-          ZOT_COL_FEA: ${{ vars.ZOT_COL_FEA }}
-          ZOT_COL_AM: ${{ vars.ZOT_COL_AM }}
           SCORER_PROMPT_FILE: scorer_v3.txt
         run: python -m pipeline.run_daily
 

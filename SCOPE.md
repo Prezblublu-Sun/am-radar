@@ -28,7 +28,7 @@ Concretely, it:
 Properties:
 - Runs autonomously on GitHub Actions (no local machine required)
 - ~¥0.5/day operating cost (DeepSeek LLM calls)
-- 4-layer data persistence (Pages / main / Releases / Zotero)
+- Corpus persistence: data/ on the main branch ONLY — never split across main + GitHub Releases, and there is no monthly archive workflow in this repo.
 - Versioned (config snapshots, prompt versions, model snapshots, package versions)
 
 ---

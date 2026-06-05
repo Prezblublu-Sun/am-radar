@@ -1,8 +1,10 @@
 name: weekly-research-radar
 
 on:
-  schedule:
-    - cron: "0 4 * * 1"   # Every Monday 04:00 UTC
+  # Schedule intentionally disabled for AM radar. Only workflow_dispatch is
+  # active until the user explicitly re-enables it.
+  # schedule:
+  #   - cron: "0 4 * * 1"   # Every Monday 04:00 UTC
   workflow_dispatch:
 
 permissions:

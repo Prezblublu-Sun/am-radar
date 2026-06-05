@@ -1,8 +1,13 @@
-"""Daily pipeline orchestrator. Integrates four traceability patches:
+"""Daily pipeline orchestrator. Integrates three traceability patches:
   1. Per-day run_manifest.json with git commit, hashes, package versions
   2. Auto-maintained CHANGELOG.md on config/prompt drift
   3. Versioned scorer prompt (loaded from prompts/scorer_vN.txt)
-  4. Pruned daily data is archived to GitHub Releases monthly
+
+Corpus persistence: data/daily/ + data/manifests/ + data/discovery_log/
+live ONLY on the main branch of this repo. There is no monthly archival
+to GitHub Releases, no pruning, no archive workflow — and there must
+never be one. The corpus must not be split across main + Releases; tools
+that walk the corpus assume a single source of truth on main.
 """
 
 from __future__ import annotations
@@ -42,7 +47,10 @@ def _print(msg: str):
 # with pipeline.run_historical. Keep changes there, not here.
 
 
-def run(days_back: int = 2, skip_zotero: bool = False, force: bool = False) -> dict:
+def run(days_back: int = 2, skip_zotero: bool = True, force: bool = False) -> dict:
+    # AM radar: Zotero sync is OFF by default. The shared zotero_sync module
+    # is kept in the tree for parity with the sister radar, but this radar
+    # does not push to Zotero unless the caller flips skip_zotero=False.
     cfg = yaml.safe_load(CONFIG.read_text())
     directions = cfg["directions"]
     exclusions = cfg.get("exclusions", {})
@@ -74,6 +82,10 @@ def run(days_back: int = 2, skip_zotero: bool = False, force: bool = False) -> d
     # A source that was not attempted (empty config) stays absent; a source whose
     # try block raised stays absent too (the except branch already logged it).
     source_counts: dict[str, int] = {}
+    # OpenAlex hand-back channel for page-cap truncation events. The fetcher
+    # appends one record per sub-query that hit max_pages while OpenAlex still
+    # had more rows; we surface that as an `openalex_truncated` quality flag.
+    openalex_truncation_events: list[dict] = []
 
     if arxiv_cats:
         _print(f"Fetching arxiv (lookback={arxiv_lookback}d): {sorted(arxiv_cats)}")
@@ -91,6 +103,7 @@ def run(days_back: int = 2, skip_zotero: bool = False, force: bool = False) -> d
                 concepts=sorted(openalex_concepts),
                 keywords=sorted(openalex_kws),
                 days_back=openalex_lookback,
+                truncation_events=openalex_truncation_events,
             ))
             source_counts["openalex"] = len(all_lists[-1])
             _print(f"  -> {len(all_lists[-1])} papers")
@@ -256,6 +269,14 @@ def run(days_back: int = 2, skip_zotero: bool = False, force: bool = False) -> d
     for src, count in source_counts.items():
         if count == 0:
             quality_flags.append(f"{src}_returned_zero")
+    # OpenAlex page-cap truncation: the fetcher silently caps each sub-query
+    # at max_pages * per_page; raising a flag here so we never confuse "API
+    # quota hit" with "we recalled everything in the window".
+    if openalex_truncation_events:
+        quality_flags.append("openalex_truncated")
+        _print(f"  ! openalex hit page cap on "
+               f"{len(openalex_truncation_events)} sub-query/queries; "
+               f"raw events: {openalex_truncation_events}")
     # =================================
 
 
@@ -334,7 +355,10 @@ def run(days_back: int = 2, skip_zotero: bool = False, force: bool = False) -> d
 if __name__ == "__main__":
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     days = int(args[0]) if args else 1
-    skip_zot = "--skip-zotero" in sys.argv
+    # AM radar default: Zotero sync is OFF. --skip-zotero stays accepted
+    # as a no-op so old wrapper scripts don't break. --enable-zotero opts
+    # back in for the rare case the user wants Zotero from this radar.
+    skip_zot = not ("--enable-zotero" in sys.argv)
     force = "--force" in sys.argv
     if force:
         print("[!] --force enabled: dedup will be bypassed")

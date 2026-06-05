@@ -214,6 +214,15 @@ def _run_month(month_key: str, window_from: str, window_to: str,
     by_source = {"arxiv": 0, "openalex": 0, "pubmed": 0}
     fetched_lists: list[list[dict]] = []
 
+    # Per-source success-only counts, mirroring pipeline.run_daily's
+    # `source_counts`: only populated when a fetcher was attempted AND
+    # completed without raising. Drives the per-source zero-return quality
+    # flag below — a source that wasn't attempted (empty config) or raised
+    # an exception (logged on its own line) stays absent here, so we never
+    # confuse "no config" with "configured but silently returned nothing".
+    source_counts: dict[str, int] = {}
+    openalex_truncation_events: list[dict] = []
+
     if terms["arxiv_categories"]:
         try:
             r = arxiv_fetcher.fetch(
@@ -221,6 +230,7 @@ def _run_month(month_key: str, window_from: str, window_to: str,
                 from_date=window_from, to_date=window_to,
             )
             by_source["arxiv"] = len(r)
+            source_counts["arxiv"] = len(r)
             fetched_lists.append(r)
             log(f"  arxiv    -> {len(r)} papers")
         except Exception as e:
@@ -232,8 +242,10 @@ def _run_month(month_key: str, window_from: str, window_to: str,
                 concepts=terms["openalex_concepts"],
                 keywords=terms["openalex_keywords"],
                 from_date=window_from, to_date=window_to,
+                truncation_events=openalex_truncation_events,
             )
             by_source["openalex"] = len(r)
+            source_counts["openalex"] = len(r)
             fetched_lists.append(r)
             log(f"  openalex -> {len(r)} papers")
         except Exception as e:
@@ -246,12 +258,30 @@ def _run_month(month_key: str, window_from: str, window_to: str,
                 from_date=window_from, to_date=window_to,
             )
             by_source["pubmed"] = len(r)
+            source_counts["pubmed"] = len(r)
             fetched_lists.append(r)
             log(f"  pubmed   -> {len(r)} papers")
         except Exception as e:
             log(f"  ! pubmed fetch failed: {e}")
 
     fetched_total = sum(by_source.values())
+
+    # Per-source silent-zero detection: any source that we successfully
+    # contacted but which returned 0 papers raises its own quality flag,
+    # so single-source outages can't be masked by the other sources
+    # keeping fetched_total healthy. Mirror of pipeline.run_daily and
+    # ADR-0023's root-cause finding.
+    quality_flags: list[str] = []
+    for src, count in source_counts.items():
+        if count == 0:
+            quality_flags.append(f"{src}_returned_zero")
+            log(f"  ! {src} returned 0 papers for window "
+                f"{window_from}..{window_to} — possible silent failure")
+    if openalex_truncation_events:
+        quality_flags.append("openalex_truncated")
+        log(f"  ! openalex hit page cap on "
+            f"{len(openalex_truncation_events)} sub-query/queries; "
+            f"raw events: {openalex_truncation_events}")
 
     # Dedup across sources within this month + against dois_seen across months.
     keyed: dict[str, dict] = {}
@@ -412,6 +442,8 @@ def _run_month(month_key: str, window_from: str, window_to: str,
         # v2 diagnostics
         "touched_buckets": touched_buckets,
         "papers_with_missing_date": missing_date,
+        # Per-source zero-return + OpenAlex truncation surfacing (ADR-0023).
+        "quality_flags": quality_flags,
     }
     if dry_run:
         log(f"  -> dry-run: routed {after_routing}, scored 0; "
@@ -484,6 +516,11 @@ def run(from_date: str, to_date: str, dry_run: bool,
     _write_progress(progress_path, progress)
 
     completed = 0
+    # Aggregate quality flags across every month we run this session, so the
+    # top-level report surfaces any silent zero / OpenAlex truncation that
+    # happened in any window. A run with even one flag must not be read as
+    # "all clean" by downstream tooling.
+    run_quality_flags: dict[str, list[str]] = {}
     for mk, ws, we in months:
         m_info = progress["months"].get(
             mk,
@@ -537,6 +574,9 @@ def run(from_date: str, to_date: str, dry_run: bool,
         progress["dois_seen"] = sorted(dois_seen)
         progress["last_updated_at"] = _now_iso()
         _write_progress(progress_path, progress)
+        month_flags = counts.get("quality_flags") or []
+        if month_flags:
+            run_quality_flags[mk] = month_flags
         completed += 1
 
     return {
@@ -544,6 +584,7 @@ def run(from_date: str, to_date: str, dry_run: bool,
         "months_completed": completed,
         "progress_file": str(progress_path),
         "dry_run": dry_run,
+        "quality_flags": run_quality_flags,
     }
 
 
