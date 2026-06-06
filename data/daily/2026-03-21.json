@@ -1,0 +1,147 @@
+{
+  "schema_version": "v2",
+  "date": "2026-03-21",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7139977363",
+      "doi": "10.1016/j.ijfatigue.2026.109641",
+      "title": "3D convolutional neural network based multi-modal data fusion for fatigue life prediction of additively manufactured Ti-6Al-4V alloy",
+      "abstract": "",
+      "authors": [
+        "Jianrui Zhang",
+        "Qianqian Wu",
+        "Haijie Wang",
+        "Enxiang Fan",
+        "Bo Li"
+      ],
+      "first_author_affiliation": "Additive Manufacturing and Intelligent Equipment Research Institute, East China University of Science and Technology, Shanghai 200237, China",
+      "corresponding_authors": [
+        {
+          "name": "Haijie Wang",
+          "affiliation": "School of Mechanical and Power Engineering, East China University of Science and Technology, Shanghai 200237, China"
+        },
+        {
+          "name": "Bo Li",
+          "affiliation": "Additive Manufacturing and Intelligent Equipment Research Institute, East China University of Science and Technology, Shanghai 200237, China"
+        }
+      ],
+      "venue": "International Journal of Fatigue",
+      "year": 2026,
+      "date": "2026-03-21",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2026.109641",
+      "cited_by_count": 1,
+      "concepts": [
+        "Convolutional neural network",
+        "Interpretability",
+        "Computer science",
+        "Artificial intelligence",
+        "Process (computing)",
+        "Scalability",
+        "Reliability (semiconductor)",
+        "Artificial neural network",
+        "Fuse (electrical)",
+        "Feature (linguistics)",
+        "Fusion",
+        "Deep learning",
+        "Pattern recognition (psychology)",
+        "Sensor fusion",
+        "Machine learning"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "fatigue",
+      "direction_name": "AM Fatigue",
+      "routing_matches": {
+        "fatigue": [
+          "fatigue life"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "Ti-6Al-4V"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对增材制造Ti-6Al-4V合金的疲劳寿命预测，与您的AM疲劳研究方向高度相关。",
+        "why_not_core": "This paper focuses on fatigue life prediction using deep learning, but does not address implant design, stress shielding, or osseointegration.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "AM",
+          "Fatigue",
+          "CNN",
+          "Multi-modal",
+          "Ti-6Al-4V"
+        ],
+        "summary_zh": {
+          "motivation": "利用3D CNN融合多模态数据预测增材制造钛合金疲劳寿命",
+          "method": "构建3D卷积神经网络整合多种数据模态进行疲劳寿命预测",
+          "result": "实现了高精度疲劳寿命预测",
+          "validation": "通过增材制造Ti-6Al-4V疲劳实验验证"
+        },
+        "summary_en": {
+          "motivation": "To improve fatigue life prediction for additively manufactured Ti-6Al-4V using multi-modal data fusion.",
+          "method": "A 3D convolutional neural network integrates multiple data modalities for fatigue life prediction.",
+          "result": "The model achieves high accuracy in fatigue life prediction.",
+          "validation": "Validated with fatigue experiments on additively manufactured Ti-6Al-4V alloy."
+        },
+        "key_terms": [
+          {
+            "en": "3D convolutional neural network",
+            "zh": "三维卷积神经网络"
+          },
+          {
+            "en": "fatigue life prediction",
+            "zh": "疲劳寿命预测"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "multi-modal data fusion",
+            "zh": "多模态数据融合"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:20:36Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "High": 1
+    }
+  }
+}

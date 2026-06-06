@@ -1,0 +1,459 @@
+{
+  "schema_version": "v2",
+  "date": "2025-07-21",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2507.16005v2",
+      "doi": "",
+      "arxiv_id": "2507.16005v2",
+      "title": "Autonomous Multi-objective Alloy Design through Simulation-guided Optimization",
+      "abstract": "Alloy discovery is constrained by vast compositional spaces, competing objectives, and prohibitive experimental costs. Although simulations and machine learning have each accelerated parts of this process, unifying scientific knowledge, scalable search, and experimental confirmation into a data-efficient workflow remains challenging. Here, we present AutoMAT, a hierarchical autonomous framework spanning ideation to experimental validation. Integrating large language models, automated CALPHAD simulations, residual-learning-based correction, and AI-guided optimization, AutoMAT translates design targets into candidate alloys, refines compositions through closed-loop computational search, and validates results experimentally without hand-curated datasets. Targeting lightweight, high-strength alloys, AutoMAT identifies a titanium alloy 8.1% less dense and 13.0% stronger than the aerospace benchmark Ti-185, achieving the highest specific strength among benchmarked systems. In a second case, AutoMAT discovers a high-entropy alloy with 28.2% higher yield strength than the baseline while preserving high ductility. AutoMAT compresses alloy discovery from years to weeks, establishing a generalizable route toward autonomous materials design.",
+      "authors": [
+        "Penghui Yang",
+        "Chendong Zhao",
+        "Bijun Tang",
+        "Zhonghan Zhang",
+        "Xinrun Wang",
+        "Yanchen Deng",
+        "Xuyu Dong",
+        "Yuhao Lu",
+        "Jianguo Huang",
+        "Yixuan Li",
+        "Yushan Xiao",
+        "Cuntai Guan",
+        "Zheng Liu",
+        "Bo An"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-07-21",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2507.16005v2",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "yield strength",
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文专注于合金设计，不涉及增材制造机械性能评估。",
+        "why_not_core": "Paper does not address additive manufacturing processes, mechanical properties of AM parts, or any biomedical implant context.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "alloy design",
+          "multi-objective optimization",
+          "CALPHAD",
+          "machine learning",
+          "lightweight alloys"
+        ],
+        "summary_zh": {
+          "motivation": "加速合金发现，解决多目标优化和实验成本问题。",
+          "method": "提出AutoMAT框架，融合大语言模型、CALPHAD模拟和AI优化。",
+          "result": "发现钛合金密度降低8.1%、强度提升13.0%，高熵合金强度提升28.2%。",
+          "validation": "通过实验合成和力学测试验证合金性能。"
+        },
+        "summary_en": {
+          "motivation": "Accelerate alloy discovery by addressing vast compositional spaces and high experimental costs.",
+          "method": "Proposes AutoMAT, a hierarchical framework integrating large language models, automated CALPHAD simulations, residual-learning correction, and AI-guided optimization.",
+          "result": "Identifies a titanium alloy with 8.1% lower density and 13.0% higher strength than Ti-185, and a high-entropy alloy with 28.2% higher yield strength.",
+          "validation": "Experimental synthesis and mechanical testing confirm the predicted alloy properties."
+        },
+        "key_terms": [
+          {
+            "en": "alloy design",
+            "zh": "合金设计"
+          },
+          {
+            "en": "CALPHAD",
+            "zh": "CALPHAD方法"
+          },
+          {
+            "en": "multi-objective optimization",
+            "zh": "多目标优化"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "titanium alloy",
+            "zh": "钛合金"
+          },
+          {
+            "en": "high-entropy alloy",
+            "zh": "高熵合金"
+          },
+          {
+            "en": "specific strength",
+            "zh": "比强度"
+          },
+          {
+            "en": "lightweight",
+            "zh": "轻量化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:11:37Z"
+    },
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2507.15447v2",
+      "doi": "",
+      "arxiv_id": "2507.15447v2",
+      "title": "Effect of Co partitioning to the γ matrix on the microstructural stablity of a Ti-rich Ni-Base Superalloy",
+      "abstract": "The microstructural stability and mechanical properties of superalloys at high temperatures are significantly influenced by the composition and nature of the solutes they contain. Most of the alloys with high solvus temperature have higher gamma prime coarsening resistance, while the larger lattice misfit is attributed to higher gamma prime coarsening rate. In this work, we explore the influence of Co on the microstructure evolution, thermophysical/mechanical properties and gamma prime precipitate coarsening kinetics in a Ti-rich Ni-Co-Cr-Al-Ti based alloy. More specifically, we focus on the effect of partitioning of Co into the gamma matrix on the redistribution of other solutes across the interface. We observe a significant increase in the coarsening resistance and a twofold increase in the activation energy with the increase in the Co composition from 10at.%Co to 30at.%Co, even though the gamma prime solvus reduces by 75C. As otherwise, a higher solvus, usually, indicates better microstructural stability at high temperatures. We employed a combined experimental and theoretical approach by atom probe tomography (APT) and CALPHAD simulations to probe the critical role of Co partitioning to gamma matrix on the solute transport in the gamma matrix and flux across the gamma/gamma prime interfaces, which is found to control the overall gamma prime coarsening behavior in the alloy. The observed behavior was rationlised by the proposition of a simplistic unified coarsening rate expression that successfully decouples thermodynamic and kinetic contributions. Additionally, we also observe that the gamma prime volume fraction dominates over the gamma prime precipitate size on the 0.2% yield strength (YS) of the alloys.",
+      "authors": [
+        "Sudeepta Mukherjee",
+        "Hemant Kumar",
+        "B. S. Murty",
+        "Satyam Suwas",
+        "Surendra Kumar Makineni"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-07-21",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2507.15447v2",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "yield strength"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是高温镍基合金的微观结构稳定性与力学性能，但完全不涉及增材制造工艺，与用户研究方向的AM力学性能无关。",
+        "why_not_core": "This paper does not involve any additive manufacturing process, AM-specific microstructures, or AM mechanical property characterization.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ni-base superalloy",
+          "gamma prime coarsening",
+          "Co partitioning",
+          "CALPHAD",
+          "atom probe tomography"
+        ],
+        "summary_zh": {
+          "motivation": "研究Co分配对Ti-rich镍基合金中γ'相粗化行为的影响",
+          "method": "结合原子探针层析和CALPHAD模拟分析合金元素分布",
+          "result": "增加Co含量显著提高粗化抗性且活化能增加两倍",
+          "validation": "实验与CALPHAD模拟验证"
+        },
+        "summary_en": {
+          "motivation": "Investigate the effect of Co partitioning on γ' precipitate coarsening in Ti-rich Ni-base superalloys",
+          "method": "Combine atom probe tomography and CALPHAD simulations to analyze elemental redistribution",
+          "result": "Increasing Co content from 10 to 30 at.% leads to a significant increase in coarsening resistance and a twofold increase in activation energy",
+          "validation": "Validated through experimental characterization and thermodynamic simulations"
+        },
+        "key_terms": [
+          {
+            "en": "gamma prime coarsening",
+            "zh": "γ'相粗化"
+          },
+          {
+            "en": "Co partitioning",
+            "zh": "Co分配"
+          },
+          {
+            "en": "CALPHAD",
+            "zh": "CALPHAD方法"
+          },
+          {
+            "en": "atom probe tomography",
+            "zh": "原子探针层析"
+          },
+          {
+            "en": "lattice misfit",
+            "zh": "晶格错配"
+          },
+          {
+            "en": "Ni-base superalloy",
+            "zh": "镍基高温合金"
+          },
+          {
+            "en": "microstructural stability",
+            "zh": "微观结构稳定性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:11:37Z"
+    },
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2507.22073v1",
+      "doi": "10.1179/1743284713Y.0000000468",
+      "arxiv_id": "2507.22073v1",
+      "title": "Local texture of three-stage CVD SiC fibre by precession electron diffraction (PED) and XRD",
+      "abstract": "SiC fibre with the transverse isotropic properties is very important to it reinforced metal matrix composites. In this paper, local texture of the CVD SiC fibre was investigated by means of X-ray diffraction (XRD) and precession electron diffraction (PED) on transmission electron microscopy(TEM). The result from XRD is in agreement with the result obtained from PED. And the result shown that at the first stage of deposition, the preferred direction of SiC grains is almost random and the distribution of grain size is scattered. At the second and third stages of deposition, there are two kinds of texture in SiC fibre, that is, (110),111. and (110),115.. Furthermore, the grain size at the second and third stages is about 200 nm and it is lower at the third stage than at the second stage because of the lower temperature at the third stage. The [110] preferred direction along axial direction for SiC fibre is beneficial to the axial tensile strength.",
+      "authors": [
+        "B. Huang",
+        "Y. Q. Yang",
+        "M. H. Li",
+        "Y. X. Chen",
+        "X. Luo",
+        "M. S. Fu",
+        "Y. Chen",
+        "Xierong Zeng"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-07-21",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2507.22073v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "tensile strength"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是CVD SiC纤维的织构，与增材制造和生物医学植入物方向无关。",
+        "why_not_core": "The paper studies texture in CVD SiC fibres, with no additive manufacturing context, biomedical application, or mechanical property validation relevant to the user's directions.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "SiC fibre",
+          "texture",
+          "CVD",
+          "XRD",
+          "PED"
+        ],
+        "summary_zh": {
+          "motivation": "研究CVD SiC纤维的局部织构以理解其力学性能。",
+          "method": "使用XRD和PED技术表征纤维不同沉积阶段的织构。",
+          "result": "发现第二、三沉积阶段存在(110)<111>和(110)<115>织构，且第三阶段晶粒更细。",
+          "validation": "XRD和PED结果相互验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the local texture of CVD SiC fibres for understanding their anisotropic mechanical properties.",
+          "method": "X-ray diffraction (XRD) and precession electron diffraction (PED) in TEM were used to characterize texture across different deposition stages.",
+          "result": "Two types of texture, (110)<111> and (110)<115>, were identified in the second and third stages, with finer grain size at the third stage due to lower temperature.",
+          "validation": "Agreement between XRD and PED results cross-validated the texture analysis."
+        },
+        "key_terms": [
+          {
+            "en": "SiC fibre",
+            "zh": "碳化硅纤维"
+          },
+          {
+            "en": "texture",
+            "zh": "织构"
+          },
+          {
+            "en": "CVD",
+            "zh": "化学气相沉积"
+          },
+          {
+            "en": "precession electron diffraction",
+            "zh": "旋进电子衍射"
+          },
+          {
+            "en": "XRD",
+            "zh": "X射线衍射"
+          },
+          {
+            "en": "grain size",
+            "zh": "晶粒尺寸"
+          },
+          {
+            "en": "transverse isotropic",
+            "zh": "横向各向同性"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "拉伸强度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:11:37Z"
+    },
+    {
+      "source": "pubmed",
+      "id": "pubmed:40690133",
+      "doi": "10.1007/s11701-025-02594-w",
+      "pmid": "40690133",
+      "title": "Comparison of traditional and robotic size prediction methods and stem positioning outcomes following prediction discrepancies in hip arthroplasty.",
+      "abstract": "This study aims to evaluate the accuracy of prosthesis size prediction in MAKO robotic-assisted total hip arthroplasty (RATHA) and to assess the impact of discrepancies between the preoperative robotic plan and the actual sizes of femoral prostheses applied during surgery on the postoperative stem position. We conducted a retrospective analysis of preoperative planning, intraoperative records, and postoperative imaging data from patients who underwent RATHA. We predicted prosthesis sizes using both traditional 2D methods and robotic systems, comparing their accuracy. The cases were categorized into four groups based on the consistency between the robotic planned and applied femoral sizes: matched group, reduced group, enlarged group, and deviated group. The postoperative measurements of stem position were compared across these groups. The prediction accuracy of the robotic system for the acetabular cup (90.3% vs. 69.7%, P < 0.01) and femoral stem (75.7% vs. 59.5%, P < 0.01) was significantly higher than that of the traditional 2-D method. The absolute values of coronal plane angulation (CA) varied significantly among the three groups: 0.55° (0.15°-1.08°) in the enlarged group, 1.25° (0.40°-2.40°) in the matched group, and 2.55° (1.45°-3.13°) in the reduced group (P < 0.001). The safe zone ratio was higher in the enlarged (100%, P < 0.01) and matched groups (83.6%, P < 0.01) compared to the reduced group (60.7%). A larger stem was associated with a higher canal fill ratio (CFR) in planes C (P = 0.02) and D (P < 0.01). All data from the deviated group differed significantly from those of the other three groups. The robotic system provides a more accurate prediction of prosthesis size compared to traditional methods. The use of a smaller stem than planned was linked to a larger absolute CA and a smaller CFR. Conversely, applying a larger stem facilitates a more neutral stem position and improved press fitting. If the applied size is reduced by two or more compared to the postoperative plan, poor positioning of the femoral prosthesis should be suspected.",
+      "authors": [
+        "Wenzhe Wang",
+        "Fan Chen",
+        "Zian Zhang",
+        "Chaoqun Yu",
+        "Chang Liu",
+        "Zhenchao Huang",
+        "Qianqian Wang",
+        "Haining Zhang"
+      ],
+      "first_author_affiliation": "Department of Joint Surgery, The Affiliated Hospital of Qingdao University, Qingdao, 266000, Shandong, China.",
+      "corresponding_authors": [
+        {
+          "name": "Haining Zhang",
+          "affiliation": "Department of Joint Surgery, The Affiliated Hospital of Qingdao University, Qingdao, 266000, Shandong, China. hainingzhang76@163.com."
+        }
+      ],
+      "venue": "Journal of robotic surgery",
+      "year": 2025,
+      "date": "2025-07-21",
+      "date_precision": "day",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40690133/",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [],
+      "raw_type": "journal article",
+      "directions": [
+        "am_femoral_stem"
+      ],
+      "direction": "am_femoral_stem",
+      "direction_name": "Femoral Stem (AM + traditional)",
+      "routing_matches": {
+        "am_femoral_stem": [
+          "femoral stem"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文探讨了机器人辅助全髋关节置换术中的假体尺寸预测和柄位置，但未涉及应力遮挡、微动、骨整合或任何生物力学或FEA建模。",
+        "why_not_core": "This paper is a clinical retrospective study on robotic vs. traditional size prediction in THA, with no implant mechanics (stress shielding, micromotion), no FEA, no AI/ML model, and no AM/additive manufacturing. It does not address any of the user's core directions.",
+        "validation_kind": "clinical",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "hip arthroplasty",
+          "stem positioning",
+          "robotic surgery",
+          "size prediction"
+        ],
+        "summary_zh": {
+          "motivation": "比较传统与机器人两种假体尺寸预测方法在THA中的准确性差异。",
+          "method": "回顾性分析RATHA患者数据，按计划与实际尺寸匹配情况分组并比较柄位置。",
+          "result": "机器人系统预测更准确，使用较小柄导致冠状面成角增大和填充比降低。",
+          "validation": "通过术后影像学测量对比各组柄位置参数。"
+        },
+        "summary_en": {
+          "motivation": "This study compares the accuracy of traditional 2D and robotic MAKO methods for predicting prosthesis size in total hip arthroplasty.",
+          "method": "A retrospective analysis was conducted on patients who underwent robotic-assisted THA, categorizing cases into matched, reduced, enlarged, and deviated groups based on plan-actual size consistency, and postoperative stem positioning was compared.",
+          "result": "The robotic system showed higher prediction accuracy for both cup and stem, and using a smaller stem than planned was associated with larger coronal plane angulation and reduced canal fill ratio.",
+          "validation": "Validation was performed via retrospective clinical data and postoperative imaging measurements."
+        },
+        "key_terms": [
+          {
+            "en": "total hip arthroplasty",
+            "zh": "全髋关节置换术"
+          },
+          {
+            "en": "robotic-assisted surgery",
+            "zh": "机器人辅助手术"
+          },
+          {
+            "en": "stem positioning",
+            "zh": "柄位置"
+          },
+          {
+            "en": "canal fill ratio",
+            "zh": "髓腔填充比"
+          },
+          {
+            "en": "coronal plane angulation",
+            "zh": "冠状面成角"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:11:37Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 4,
+    "by_source": {
+      "arxiv": 3,
+      "pubmed": 1
+    },
+    "after_dedup": 4,
+    "after_routing": 4,
+    "by_direction": {
+      "mechanical_properties": 3,
+      "am_femoral_stem": 1
+    },
+    "routed_by_source": {
+      "arxiv": 3,
+      "pubmed": 1
+    },
+    "scored": 4,
+    "priority_counts": {
+      "Exclude": 3,
+      "Low": 1
+    }
+  }
+}

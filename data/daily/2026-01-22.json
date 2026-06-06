@@ -1,0 +1,155 @@
+{
+  "schema_version": "v2",
+  "date": "2026-01-22",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7125377145",
+      "doi": "10.3991/ijoe.v22i01.58385",
+      "title": "Topological Optimization of the Femoral Stem",
+      "abstract": "The present study evaluates the structural behavior of a topologically optimized femoral stem, comparing two metallic materials commonly used in orthopedics: Ti-6Al-4V titanium and cobalt-chrome alloy (CoCr). The three-dimensional model was developed in SolidWorks and analyzed using finite element simulations in ANSYS, following the guidelines of ASTM F2996-20. Six optimized configurations were defined by varying the percentage of retained mass (25%, 35%, and 45%) for each material, assessing displacements, von Mises stresses, and mass reduction. The results show that the configurations with higher retained mass (J1 and J5) exhibited less deformation and more uniformly distributed stresses, remaining within the elastic regime. The optimized design in Ti-6Al-4V with 25% retained mass stood out, achieving a 27.9% weight reduction with high structural safety factors. This study confirms that topological optimization, when applied to clinically approved metallic materials, enables the development of orthopedic implants that are stronger, lighter, and mechanically compatible, contributing to sustainable surgical solutions.",
+      "authors": [
+        "José L. Serna-Landivar",
+        "Madelaine Violeta Risco Sernaqué",
+        "Daniela Milagros Anticona-Valderrama",
+        "Marleni Mendoza Damas",
+        "Maria Ysabel Garcia-Alvarez",
+        "William C. Algoner"
+      ],
+      "first_author_affiliation": "Universidad Científica del Sur, Lima, Peru",
+      "corresponding_authors": [
+        {
+          "name": "José L. Serna-Landivar",
+          "affiliation": "Universidad Científica del Sur, Lima, Peru"
+        }
+      ],
+      "venue": "International Journal of Online and Biomedical Engineering (iJOE)",
+      "year": 2026,
+      "date": "2026-01-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3991/ijoe.v22i01.58385",
+      "cited_by_count": 0,
+      "concepts": [
+        "Finite element method",
+        "Topology (electrical circuits)",
+        "Deformation (meteorology)",
+        "Titanium alloy",
+        "Reduction (mathematics)",
+        "von Mises yield criterion",
+        "Structural engineering",
+        "Materials science",
+        "Topology optimization",
+        "Alloy",
+        "Mechanical engineering",
+        "Titanium",
+        "Engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess_hip",
+        "am_femoral_stem"
+      ],
+      "direction": "ti6al4v_postprocess_hip",
+      "direction_name": "Ti-6Al-4V Post-processing & HIP",
+      "routing_matches": {
+        "ti6al4v_postprocess_hip": [
+          "Ti-6Al-4V"
+        ],
+        "am_femoral_stem": [
+          "femoral stem"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文关注拓扑优化设计，与Ti-6Al-4V后处理及热等静压方向无直接关联。",
+        "why_not_core": "This paper focuses on topological optimization of femoral stem design and FEA, with no coverage of post-processing or Hot Isostatic Pressing (HIP) of Ti-6Al-4V.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "topological optimization",
+          "femoral stem",
+          "finite element analysis",
+          "Ti-6Al-4V",
+          "cobalt-chrome",
+          "ASTM F2996-20"
+        ],
+        "summary_zh": {
+          "motivation": "评估拓扑优化股骨柄的结构性能",
+          "method": "SolidWorks建模与ANSYS有限元分析，改变保留质量百分比",
+          "result": "Ti-6Al-4V 25%保留质量设计减重27.9%，安全系数高",
+          "validation": "基于ASTM F2996-20标准进行数值模拟验证"
+        },
+        "summary_en": {
+          "motivation": "To evaluate the structural behavior of a topologically optimized femoral stem using clinically approved metallic materials.",
+          "method": "Three-dimensional modeling in SolidWorks and finite element simulations in ANSYS with varying mass retention percentages.",
+          "result": "The Ti-6Al-4V design with 25% retained mass achieved a 27.9% weight reduction with high structural safety factors.",
+          "validation": "Numerical simulation following ASTM F2996-20 guidelines."
+        },
+        "key_terms": [
+          {
+            "en": "topological optimization",
+            "zh": "拓扑优化"
+          },
+          {
+            "en": "femoral stem",
+            "zh": "股骨柄"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
+          },
+          {
+            "en": "cobalt-chrome alloy",
+            "zh": "钴铬合金"
+          },
+          {
+            "en": "mass reduction",
+            "zh": "减重"
+          },
+          {
+            "en": "stress distribution",
+            "zh": "应力分布"
+          },
+          {
+            "en": "ASTM F2996-20",
+            "zh": "ASTM F2996-20标准"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:18:22Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess_hip": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

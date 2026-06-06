@@ -1,0 +1,129 @@
+{
+  "schema_version": "v2",
+  "date": "2026-05-22",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2605.23342v1",
+      "doi": "",
+      "arxiv_id": "2605.23342v1",
+      "title": "Studying Creep-Fatigue interaction of Nickel-Based Superalloys using Crystal Plasticity and Entropy-Based life prediction model",
+      "abstract": "Creep-fatigue interaction in single-crystal nickel superalloys is difficult to predict because the response depends on the combined effects of loading parameters, hold time, temperature, and the underlying deformation mechanisms. This is important for turbine blade applications, where components experience both fatigue and creep during service. In the present work, a crystal plasticity finite element (CPFE) framework is used to study the creep-fatigue response of a single-crystal nickel superalloy under a range of practically relevant thermo-mechanical loading conditions. In particular, the effects of strain amplitude, R-ratio, hold duration, and temperature on cyclic deformation, stress relaxation, damage evolution, and creep-fatigue life are examined. Particular attention is given to separate the roles of fatigue and creep damage, understanding their interaction, and identify the creep-dominated and fatigue-dominated regimes as a function of strain amplitude and hold time. The study brings together these effects within a single framework and shows that the predicted trends in cyclic response and life are in good agreement with experimental observations reported in the literature.",
+      "authors": [
+        "Santosh Kumar Shaw",
+        "Sabyasachi Chatterjee",
+        "Alankar Alankar",
+        "Ayan Bhowmik"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-05-22",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2605.23342v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "fatigue"
+      ],
+      "direction": "fatigue",
+      "direction_name": "AM Fatigue",
+      "routing_matches": {
+        "fatigue": [
+          "fatigue life"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究镍基高温合金的蠕变-疲劳交互作用，未涉及增材制造工艺或材料，因此与AM疲劳方向相关性较低。",
+        "why_not_core": "Does not address AM-specific microstructures, defects, or process-induced anisotropy relevant to fatigue in additively manufactured components.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "creep-fatigue",
+          "crystal plasticity",
+          "entropy-based life prediction",
+          "nickel superalloy"
+        ],
+        "summary_zh": {
+          "motivation": "预测单晶镍基高温合金在热-机械载荷下的蠕变-疲劳寿命",
+          "method": "采用晶体塑性有限元框架和基于熵的寿命预测模型分析蠕变-疲劳交互作用",
+          "result": "揭示了应变幅、保载时间等参数对循环变形和寿命的影响，与文献实验吻合",
+          "validation": "与文献中的实验观测结果进行对比验证"
+        },
+        "summary_en": {
+          "motivation": "To predict creep-fatigue life of single-crystal nickel superalloys under thermo-mechanical loading, which is critical for turbine blade applications.",
+          "method": "A crystal plasticity finite element (CPFE) framework combined with an entropy-based life prediction model was used to simulate creep-fatigue interaction across various loading conditions.",
+          "result": "The study identified creep-dominated and fatigue-dominated regimes and showed that predicted cyclic responses and lives agree well with experimental data from the literature.",
+          "validation": "Validation was performed by comparing predicted trends in cyclic deformation and life with experimental observations reported in the literature."
+        },
+        "key_terms": [
+          {
+            "en": "creep-fatigue interaction",
+            "zh": "蠕变-疲劳交互作用"
+          },
+          {
+            "en": "crystal plasticity finite element",
+            "zh": "晶体塑性有限元"
+          },
+          {
+            "en": "entropy-based life prediction",
+            "zh": "基于熵的寿命预测"
+          },
+          {
+            "en": "single-crystal nickel superalloy",
+            "zh": "单晶镍基高温合金"
+          },
+          {
+            "en": "thermo-mechanical loading",
+            "zh": "热-机械载荷"
+          },
+          {
+            "en": "hold time",
+            "zh": "保载时间"
+          },
+          {
+            "en": "strain amplitude",
+            "zh": "应变幅"
+          },
+          {
+            "en": "damage evolution",
+            "zh": "损伤演化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:23:10Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "fatigue": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

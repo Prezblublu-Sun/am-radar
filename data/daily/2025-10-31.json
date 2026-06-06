@@ -1,0 +1,129 @@
+{
+  "schema_version": "v2",
+  "date": "2025-10-31",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2510.27228v1",
+      "doi": "",
+      "arxiv_id": "2510.27228v1",
+      "title": "High thermal conductivity of rutile-GeO$_2$ films grown by MOCVD: $52.9~\\mathrm{W\\,m^{-1}\\,K^{-1}}$",
+      "abstract": "Rutile germanium dioxide (r-GeO2) has recently emerged as a promising ultrawide-bandgap (UWBG) semiconductor owing to its wide bandgap (~4.4-5.1 eV), ambipolar doping potential, and high theoretical thermal conductivity. However, experimental data on the thermal conductivity of r-GeO2 epitaxial layers have not been reported, primarily due to challenges in phase control and surface roughness. Here, we report a high thermal conductivity of 52.9 +/- 6.6 W m^-1 K^-1 for high-quality (002) r-GeO2 films grown by metal-organic chemical vapor deposition (MOCVD) and characterized using time-domain thermoreflectance (TDTR). The phase control was achieved through a seed-driven stepwise crystallization (SDSC) approach, and the surface roughness was significantly reduced from 76 nm to 16 nm (locally as low as 1 A) via chemical mechanical polishing (CMP). These results highlight the promise of r-GeO2 as a UWBG oxide platform for power electronics applications.",
+      "authors": [
+        "Imteaz Rahaman",
+        "Michael E. Liao",
+        "Ziqi Wang",
+        "Eugene Y. Kwon",
+        "Rui Sun",
+        "Botong Li",
+        "Hunter D. Ellis",
+        "Bobby G. Duersch",
+        "Dali Sun",
+        "Jun Liu",
+        "Mark S. Goorsky",
+        "Michael A. Scarpulla",
+        "Kai Fu"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-10-31",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2510.27228v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究二氧化锗薄膜的热导率，与增材制造力学性能无关。",
+        "why_not_core": "This paper does not involve additive manufacturing, mechanical testing, or any biomedical or implant-related context.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [],
+        "summary_zh": {
+          "motivation": "探索氧化锗薄膜的热导率性能",
+          "method": "采用MOCVD生长并抛光薄膜",
+          "result": "测得高热导率52.9 W/mK",
+          "validation": "时域热反射法验证"
+        },
+        "summary_en": {
+          "motivation": "To experimentally determine the thermal conductivity of rutile GeO2 epitaxial films for power electronics.",
+          "method": "High-quality (002) r-GeO2 films were grown by MOCVD and polished via CMP, then characterized by TDTR.",
+          "result": "A high thermal conductivity of 52.9 W m^-1 K^-1 was achieved, demonstrating promise for UWBG applications.",
+          "validation": "Thermal conductivity measured by time-domain thermoreflectance (TDTR) with uncertainty quantification."
+        },
+        "key_terms": [
+          {
+            "en": "rutile GeO2",
+            "zh": "金红石型二氧化锗"
+          },
+          {
+            "en": "thermal conductivity",
+            "zh": "热导率"
+          },
+          {
+            "en": "MOCVD",
+            "zh": "金属有机化学气相沉积"
+          },
+          {
+            "en": "TDTR",
+            "zh": "时域热反射法"
+          },
+          {
+            "en": "ultrawide-bandgap semiconductor",
+            "zh": "超宽禁带半导体"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:14:51Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

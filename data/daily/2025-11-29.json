@@ -1,0 +1,139 @@
+{
+  "schema_version": "v2",
+  "date": "2025-11-29",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2512.00512v1",
+      "doi": "10.1016/j.actamat.2026.122290",
+      "arxiv_id": "2512.00512v1",
+      "title": "Dual Role of Nb in Defect-Mediated Strength and Ductility of γ-TiAl Alloys",
+      "abstract": "The origin of the superior high-temperature strength of γ-TiAl with high Nb addition remains highly controversial, largely due to the unclear role of Nb atoms. Using large-scale hybrid Monte Carlo and molecular dynamics simulations with a self-developed neural network potential,we show that Nb atoms predominantly occupy Ti sites and form short-range order with neighboring Al atoms, but a non-negligible fraction also occupies Al sites (NbAl) and promotes the formation of antisite defects (TiAl). Both the NbAl and TiAl antisites exceptionally reduce stacking fault energies and facilitate deformation twinning, thereby enhancing plasticity. Meanwhile, these substitutional and antisite defects also increase the Peierls stress of both screw and edge dislocations, which hinders dislocation motion to cause pronounced solid-solution strengthening. This work provides mechanistic insights into the dual role of Nb in enhancing both strength and ductility in γ-TiAl and further offers guidance for defect and composition engineering in advanced alloy systems.",
+      "authors": [
+        "Zhiqiang Zhao",
+        "Siyao Shuang",
+        "Kepeng Ouyang",
+        "Maolin Yu",
+        "Junping Du",
+        "Liangli Chu",
+        "Xiaokai Chen",
+        "Shigenobu Ogata",
+        "Wanlin Guo",
+        "Zhuhua Zhang",
+        "Yong-Wei Zhang"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-11-29",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2512.00512v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.atom-ph"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究γ-TiAl合金中Nb的双重作用，与增材制造、生物医学植入物或力学代理建模无关。",
+        "why_not_core": "No additive manufacturing, implant mechanics, FEA surrogate, or biomedical context; pure atomistic simulation of high-temperature alloy.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "γ-TiAl",
+          "niobium",
+          "antisite defects",
+          "molecular dynamics",
+          "neural network potential",
+          "strength-ductility tradeoff"
+        ],
+        "summary_zh": {
+          "motivation": "揭示Nb在γ-TiAl合金中同时增强强度与塑性的微观机制",
+          "method": "使用神经网络势进行大规模混合蒙特卡洛和分子动力学模拟",
+          "result": "Nb占据Ti位形成短程有序，部分占据Al位促进反位缺陷，降低层错能并增加Peierls应力",
+          "validation": "仅通过模拟结果与文献对比，无实验验证"
+        },
+        "summary_en": {
+          "motivation": "To resolve the controversy over Nb's role in the high-temperature strength of γ-TiAl alloys by elucidating atomic-scale mechanisms.",
+          "method": "Large-scale hybrid Monte Carlo and molecular dynamics simulations using a self-developed neural network interatomic potential.",
+          "result": "Nb substitutional and antisite defects reduce stacking fault energies, enabling deformation twinning for ductility, while increasing Peierls stress for solid-solution strengthening.",
+          "validation": "Validation limited to comparison with prior experimental trends; no direct experimental or benchmark validation in this study."
+        },
+        "key_terms": [
+          {
+            "en": "γ-TiAl alloy",
+            "zh": "γ-TiAl合金"
+          },
+          {
+            "en": "antisite defect",
+            "zh": "反位缺陷"
+          },
+          {
+            "en": "neural network potential",
+            "zh": "神经网络势"
+          },
+          {
+            "en": "Peierls stress",
+            "zh": "Peierls应力"
+          },
+          {
+            "en": "stacking fault energy",
+            "zh": "层错能"
+          },
+          {
+            "en": "short-range order",
+            "zh": "短程有序"
+          },
+          {
+            "en": "deformation twinning",
+            "zh": "变形孪晶"
+          },
+          {
+            "en": "solid-solution strengthening",
+            "zh": "固溶强化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:15:55Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": "v2",
+  "date": "2025-11-26",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2511.21172v2",
+      "doi": "10.1038/s41467-025-67333-z",
+      "arxiv_id": "2511.21172v2",
+      "title": "Accelerated Discovery of Crystalline Materials with Record Ultralow Lattice Thermal Conductivity via a Universal Descriptor",
+      "abstract": "Ultralow glass-like lattice thermal conductivity in crystalline materials is crucial for enhancing energy conversion efficiency in thermoelectrics and thermal insulators. We introduce a universal descriptor for thermal conductivity that relies only on the atomic number in the primitive cell and the sound velocity, enabling fast and scalable materials screening. Coupled with high-throughput workflows and universal machine learning potentials, we identify the candidate materials with ultralow thermal conductivity from over 25, 000 materials. We further validate this approach by experimentally confirming record-low thermal conductivity values of 0.15-0.16 W/m/K from 170 to 400 K in the halide metal CsAg2I3. Combining inelastic neutron scattering with first-principles calculations, we attribute the ultralow thermal conductivity to the intrinsically small sound velocity, strong anharmonicity, and structural complexity. Our work illustrates how a universal descriptor, combined with high-throughput screening, machine-learning potential and experiment, enables the efficient discovery of materials with ultralow thermal conductivity.",
+      "authors": [
+        "Xingchen Shen",
+        "Jiongzhi Zheng",
+        "Michael Marek Koza",
+        "Petr Levinsky",
+        "Jiri Hejtmanek",
+        "Philippe Boullay",
+        "Bernard Raveau",
+        "Jinghui Wang",
+        "Jun Li",
+        "Pierric Lemoine",
+        "Christophe Candolfi",
+        "Emmanuel Guilmeau"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-11-26",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2511.21172v2",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文关注超低热导率材料的发现，与增材制造力学性能（如疲劳、强度）无关。",
+        "why_not_core": "Does not address mechanical properties (strength, fatigue, fracture) of additively manufactured materials; focuses solely on thermal conductivity of crystalline materials.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "thermal conductivity",
+          "materials discovery",
+          "machine learning",
+          "descriptor"
+        ],
+        "summary_zh": {
+          "motivation": "寻找超低热导率的晶体材料以提升热电效率。",
+          "method": "提出通用描述符结合机器学习势进行高通量筛选。",
+          "result": "发现卤化物金属CsAg2I3具有记录级的低热导率。",
+          "validation": "非弹性中子散射和第一性原理计算验证。"
+        },
+        "summary_en": {
+          "motivation": "To efficiently discover crystalline materials with ultralow lattice thermal conductivity for energy conversion.",
+          "method": "Introduced a universal descriptor based on atomic number and sound velocity, coupled with high-throughput screening and machine learning potentials.",
+          "result": "Identified CsAg2I3 with record-low thermal conductivity of 0.15-0.16 W/m/K.",
+          "validation": "Validated experimentally via inelastic neutron scattering and first-principles calculations."
+        },
+        "key_terms": [
+          {
+            "en": "lattice thermal conductivity",
+            "zh": "晶格热导率"
+          },
+          {
+            "en": "universal descriptor",
+            "zh": "通用描述符"
+          },
+          {
+            "en": "machine learning potential",
+            "zh": "机器学习势"
+          },
+          {
+            "en": "high-throughput screening",
+            "zh": "高通量筛选"
+          },
+          {
+            "en": "thermoelectric",
+            "zh": "热电"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:15:55Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

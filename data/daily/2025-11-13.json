@@ -1,0 +1,140 @@
+{
+  "schema_version": "v2",
+  "date": "2025-11-13",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2511.10108v1",
+      "doi": "",
+      "arxiv_id": "2511.10108v1",
+      "title": "MATAI: A Generalist Machine Learning Framework for Property Prediction and Inverse Design of Advanced Alloys",
+      "abstract": "The discovery of advanced metallic alloys is hindered by vast composition spaces, competing property objectives, and real-world constraints on manufacturability. Here we introduce MATAI, a generalist machine learning framework for property prediction and inverse design of as-cast alloys. MATAI integrates a curated alloy database, deep neural network-based property predictors, a constraint-aware optimization engine, and an iterative AI-experiment feedback loop. The framework estimates key mechanical propertie, sincluding density, yield strength, ultimate tensile strength, and elongation, directly from composition, using multi-task learning and physics-informed inductive biases. Alloy design is framed as a constrained optimization problem and solved using a bi-level approach that combines local search with symbolic constraint programming. We demonstrate MATAI's capabilities on the Ti-based alloy system, a canonical class of lightweight structural materials, where it rapidly identifies candidates that simultaneously achieve lower density (<4.45 g/cm3), higher strength (>1000 MPa) and appreciable ductility (>5%) through only seven iterations. Experimental validation confirms that MATAI-designed alloys outperform commercial references such as TC4, highlighting the framework's potential to accelerate the discovery of lightweight, high-performance materials under real-world design constraints.",
+      "authors": [
+        "Yanchen Deng",
+        "Chendong Zhao",
+        "Yixuan Li",
+        "Bijun Tang",
+        "Xinrun Wang",
+        "Zhonghan Zhang",
+        "Yuhao Lu",
+        "Penghui Yang",
+        "Jianguo Huang",
+        "Yushan Xiao",
+        "Cuntai Guan",
+        "Zheng Liu",
+        "Bo An"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-11-13",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2511.10108v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cs.AI"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "tensile strength",
+          "yield strength",
+          "ultimate tensile strength",
+          "elongation",
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文提出了一个针对合金性能预测和逆向设计的通用机器学习框架，虽未直接涉及生物医学植入物或增材制造，但其方法和实验验证对生物医学合金的力学性能优化具有参考价值。",
+        "why_not_core": "Does not focus on biomedical implants, does not involve AM-specific processing, and lacks patient-specific or implant-related context.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "machine learning",
+          "alloy design",
+          "property prediction",
+          "inverse design",
+          "Ti alloys"
+        ],
+        "summary_zh": {
+          "motivation": "加速高性能合金的发现，应对成分空间大和制造约束。",
+          "method": "整合数据库、多任务神经网络和约束优化框架进行性能预测和逆向设计。",
+          "result": "仅7次迭代就找到了密度低、强度高、延展性好的钛合金候选。",
+          "validation": "通过实验验证设计的合金性能优于TC4商业合金。"
+        },
+        "summary_en": {
+          "motivation": "Accelerate the discovery of advanced alloys with complex composition spaces and competing property constraints.",
+          "method": "Integrate a curated database, multi-task deep neural networks, and a constraint-aware optimization engine for property prediction and inverse design.",
+          "result": "Identified Ti-based alloy candidates with density <4.45 g/cm³, yield strength >1000 MPa, and elongation >5% within seven iterations.",
+          "validation": "Experimentally validated that MATAI-designed alloys outperform commercial TC4 reference."
+        },
+        "key_terms": [
+          {
+            "en": "alloy design",
+            "zh": "合金设计"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "property prediction",
+            "zh": "性能预测"
+          },
+          {
+            "en": "inverse design",
+            "zh": "逆向设计"
+          },
+          {
+            "en": "multi-task learning",
+            "zh": "多任务学习"
+          },
+          {
+            "en": "constrained optimization",
+            "zh": "约束优化"
+          },
+          {
+            "en": "Ti alloys",
+            "zh": "钛合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:15:55Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Medium": 1
+    }
+  }
+}

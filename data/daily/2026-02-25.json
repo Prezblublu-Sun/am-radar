@@ -1,0 +1,126 @@
+{
+  "schema_version": "v2",
+  "date": "2026-02-25",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2602.21989v1",
+      "doi": "",
+      "arxiv_id": "2602.21989v1",
+      "title": "Intrinsic Instabilities and Mechanical Anisotropy in Halide Perovskite Monolayers",
+      "abstract": "Halide perovskites have been extensively studied owing to their excellent optoelectronic properties and their unique lattice characteristics, that are very soft and anharmonic. Recent studies indicate the importance of a deep understanding of their surfaces and, in the limit, the properties of low-dimensional structures based on these materials. To investigate the structural and electronic properties of halide perovskite monolayers (i.e., perovskenes), this work uses first-principles simulations. We have studied three different stoichiometries (ABX3, ABX4, and A2BX4) and structural phases for iodide, bromide, and chloride perovskite monolayers. Their thermodynamic behavior was evaluated through the construction of phase diagrams, highlighting the instability of the ABX4 stoichiometry, which was further supported by its mechanical instability. Structurally, the covalent characteristics of the Pb--X bond, in contrast to the Cs--X bonds, induce a strong anisotropy in the Young's modulus and Poisson's ratio along different crystallographic directions, and also account for the lower stiffness observed in the phases where the octahedra are not aligned. The electronic properties are somewhat similar to those of their 3D counterparts, but with a slightly larger band gap; in the monolayers, the band gap increases with halogen electronegativity (I, Br, Cl) and octahedral tilting. Moreover, the non-symmetric ABX3 stoichiometry exhibited a spin splitting due to the internal dipole moment in these layers. Overall, our work lays the groundwork for a deeper understanding of low-dimensional structures based on halide perovskites.",
+      "authors": [
+        "Gabriel X. Pereira",
+        "Lucas M. Farigliano",
+        "Roberto H. Miwa",
+        "Gustavo M. Dalpian"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-02-25",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2602.21989v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "mechanical anisotropy"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "与用户方向无关，因为该论文研究的是钙钛矿单层的力学性质，而非增材制造材料的力学性能。",
+        "why_not_core": "This paper investigates intrinsic mechanical properties of halide perovskite monolayers via first-principles simulations, with no connection to additive manufacturing, experimental mechanical testing, or biomedical implant materials.",
+        "validation_kind": "theoretical",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "halide perovskites",
+          "first-principles",
+          "mechanical anisotropy",
+          "monolayers",
+          "no AM"
+        ],
+        "summary_zh": {
+          "motivation": "研究钙钛矿单层的力学性质",
+          "method": "第一性原理模拟",
+          "result": "发现ABX4化学计量比结构不稳定，力学性质各向异性强",
+          "validation": "相图和力学稳定性分析"
+        },
+        "summary_en": {
+          "motivation": "To investigate the structural and mechanical properties of halide perovskite monolayers for low-dimensional optoelectronics.",
+          "method": "First-principles DFT simulations of various stoichiometries and phases.",
+          "result": "ABX4 stoichiometry is thermodynamically and mechanically unstable, and the monolayers exhibit strong mechanical anisotropy.",
+          "validation": "Phase diagrams and elastic constant calculations from DFT."
+        },
+        "key_terms": [
+          {
+            "en": "halide perovskites",
+            "zh": "卤化物钙钛矿"
+          },
+          {
+            "en": "first-principles simulations",
+            "zh": "第一性原理模拟"
+          },
+          {
+            "en": "Young's modulus",
+            "zh": "杨氏模量"
+          },
+          {
+            "en": "Poisson's ratio",
+            "zh": "泊松比"
+          },
+          {
+            "en": "mechanical anisotropy",
+            "zh": "力学各向异性"
+          },
+          {
+            "en": "ABX3 stoichiometry",
+            "zh": "ABX3化学计量比"
+          },
+          {
+            "en": "perovskene",
+            "zh": "钙钛矿烯"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:19:20Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

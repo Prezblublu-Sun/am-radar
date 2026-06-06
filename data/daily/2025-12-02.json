@@ -1,0 +1,124 @@
+{
+  "schema_version": "v2",
+  "date": "2025-12-02",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2512.02592v1",
+      "doi": "",
+      "arxiv_id": "2512.02592v1",
+      "title": "Strengthening and toughening mechanisms in heterostructured laminates revealed by a phase field-enhanced crystal plasticity simulation",
+      "abstract": "Heterostructured (HS) materials exhibit excellent mechanical properties, combining high strength and significant ductility. Hetero-deformation-induced (HDI) hardening and strain de-localization are key to their strength-ductility synergy. However, existing models often fall short in addressing these aspects. In this work, a coupled framework integrating strain gradient crystal plasticity and phase field damage models is developed. The interface dominated HDI hardening in HS laminates is handled by introducing a heterogeneity coefficient into the back stress. The phase field model accounts for defect energy-driven damage and accurately represents the materials ductile damage behavior by accounting for effects of microstructure on crack initiation and propagation. Simulation results on HS laminates align well with experimental results and reflect the distribution of geometrically necessary dislocations and back stresses at interfaces between regions with dissimilar microstructure. Crack initiation and propagation are accurately described, providing valuable insights into fracture behavior. The model can predict how strength and ductility change upon variations of the HS laminate microstructure, thus providing an essential tool for microstructure optimization. This work enhances the understanding of deformation mechanisms in HS laminates and provides valuable insights for design and optimization of this class of materials.",
+      "authors": [
+        "Yukai Xiong",
+        "Jianfeng Zhao",
+        "Jinling Liu",
+        "Jie Wang",
+        "Michael Zaiser",
+        "Xu Zhang"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-12-02",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2512.02592v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了异质结构层状材料的力学性能，但未涉及增材制造工艺或AM特定微观结构。",
+        "why_not_core": "This paper does not address additive manufacturing processes, AM-specific microstructures, or any AM-related mechanical property characterization.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "heterostructured laminates",
+          "crystal plasticity",
+          "phase field",
+          "HDI hardening",
+          "strength-ductility synergy"
+        ],
+        "summary_zh": {
+          "motivation": "揭示异质层状材料强度-韧性协同机制",
+          "method": "耦合应变梯度晶体塑性与相场损伤模型模拟",
+          "result": "模型准确预测了HDI硬化和裂纹扩展行为",
+          "validation": "与文献实验数据对比验证"
+        },
+        "summary_en": {
+          "motivation": "To understand the strengthening and toughening mechanisms in heterostructured laminates that enable strength-ductility synergy.",
+          "method": "A coupled framework integrating strain gradient crystal plasticity and phase field damage models was developed to simulate deformation and fracture.",
+          "result": "The model accurately captures HDI hardening, crack initiation, and propagation, and predicts how microstructure variations affect strength and ductility.",
+          "validation": "Simulation results were validated against experimental data from the literature."
+        },
+        "key_terms": [
+          {
+            "en": "heterostructured laminates",
+            "zh": "异质结构层状材料"
+          },
+          {
+            "en": "HDI hardening",
+            "zh": "异质变形诱导硬化"
+          },
+          {
+            "en": "phase field damage model",
+            "zh": "相场损伤模型"
+          },
+          {
+            "en": "crystal plasticity",
+            "zh": "晶体塑性"
+          },
+          {
+            "en": "geometrically necessary dislocations",
+            "zh": "几何必要位错"
+          },
+          {
+            "en": "back stress",
+            "zh": "背应力"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:17:08Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "schema_version": "v2",
+  "date": "2025-07-16",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2507.12685v1",
+      "doi": "",
+      "arxiv_id": "2507.12685v1",
+      "title": "Extreme Thermal Insulation in Nano-Bubble Wrap Materials",
+      "abstract": "Achieving ultra-low thermal conductivity under ambient conditions is a fundamental challenge constrained by classical heat transport limits and material design trade-offs. Here, we introduce a new class of nano-bubble wrap architectures that achieve exceptionally low thermal conductivity by integrating nanoscale gas confinement with atomically thin, weakly coupled van der Waals solids. Using scalable patterning of 2D monolayers into periodic nano-bubbles and nano-wrinkles, we construct materials with structural analogies to macroscopic bubble wrap but engineered at length scales much shorter than the mean free path of air and the mean free path of phonons in the atomically thin monolayers. Time-domain thermoreflectance measurements reveal out-of-plane thermal conductivities nearly an order of magnitude lower than that of air and commercial aerogels, reaching critical values below 0.001 W $\\cdot$ M$^{-1}$K$^{-1}$ under room temperature and atmospheric pressure. This extreme thermal resistance arises from the combined suppression of gas-phase conduction, phonon transport, and interfacial coupling. Our findings establish nano-bubble wraps as a versatile platform for tuning heat flow in ultrathin materials and open new pathways for designing thermal metamaterials and energy-efficient technologies.",
+      "authors": [
+        "Amalya C. Johnson",
+        "Sorren Warkander",
+        "Archana Raja",
+        "Fang Liu"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-07-16",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2507.12685v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究纳米气泡包装材料的极低热导率，与用户的生物制造、植入物力学或FEA代理方向无关。",
+        "why_not_core": "This paper does not involve additive manufacturing, biomedical implants, mechanical properties of orthopedic implants, or surrogate modeling for finite element analysis.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "thermal conductivity",
+          "2D materials",
+          "nano-bubble",
+          "thermal insulation",
+          "metamaterials"
+        ],
+        "summary_zh": {
+          "motivation": "寻求在环境条件下实现超低热导率的新方法。",
+          "method": "利用2D单层材料构建周期性纳米气泡和纳米褶皱结构。",
+          "result": "测得热导率低于空气和气凝胶，达到0.001 W/(m·K)以下。",
+          "validation": "通过时域热反射法进行实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To achieve ultra-low thermal conductivity in ambient conditions, this work explores the combination of nanoscale gas confinement and weakly coupled van der Waals solids.",
+          "method": "Periodic nano-bubbles and nano-wrinkles are patterned in 2D monolayers to create a material analogous to macroscopic bubble wrap but at length scales below the mean free path of air and phonons.",
+          "result": "Time-domain thermoreflectance measurements show out-of-plane thermal conductivities as low as 0.001 W·m⁻¹·K⁻¹, nearly an order of magnitude lower than air and commercial aerogels.",
+          "validation": "Experimental validation using time-domain thermoreflectance at room temperature and atmospheric pressure confirms the extreme thermal resistance."
+        },
+        "key_terms": [
+          {
+            "en": "thermal conductivity",
+            "zh": "热导率"
+          },
+          {
+            "en": "nano-bubble wrap",
+            "zh": "纳米气泡包装"
+          },
+          {
+            "en": "2D monolayers",
+            "zh": "二维单层材料"
+          },
+          {
+            "en": "van der Waals solids",
+            "zh": "范德瓦尔斯固体"
+          },
+          {
+            "en": "time-domain thermoreflectance",
+            "zh": "时域热反射法"
+          },
+          {
+            "en": "phonon transport",
+            "zh": "声子输运"
+          },
+          {
+            "en": "thermal metamaterials",
+            "zh": "热超材料"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:11:37Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "schema_version": "v2",
+  "date": "2025-07-26",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2508.06505v1",
+      "doi": "",
+      "arxiv_id": "2508.06505v1",
+      "title": "Fracture toughness and auxeticity in disordered metamaterials",
+      "abstract": "Auxetic metamaterials are commonly thought to exhibit favorable mechanical properties, notably high energy absorption. Here we investigate disordered metamaterials obtained from random beam networks by optimizing simultaneously auxeticity and the energy absorbed before fracture. By giving different weights to these optimization targets, we demonstrate that the optimal configurations are connected along a Pareto front where high auxeticity implies comparatively low energy absorption and vice versa. We study the mechanical properties of the resulting metamaterials and characterize the different deformation modes obtained for distinct optimization targets. The simulation and optimization results are validated by comparison with the deformation behavior of additively manufactured samples. Our work provides an illustration of the potentials and limitations of multi-objective optimization in the design of disordered mechanical metamaterials",
+      "authors": [
+        "Hannes Holey",
+        "Andrea Lorenzo Henri Sergio Detry",
+        "Silvia Bonfanti",
+        "Roberto Guerra",
+        "Anshul D. S. Parmar",
+        "Jacopo Fiocchi",
+        "Ausonio Tuissi",
+        "Michael Zaiser",
+        "Stefano Zapperi"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-07-26",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2508.06505v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.dis-nn",
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "fracture toughness"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了无序超材料的负泊松比与断裂韧性，其多目标优化方法和增材制造验证技术可迁移至生物医学植入物的力学性能设计。",
+        "why_not_core": "This paper does not address biomedical implant design, patient-specific geometries, or osseointegration, and lacks in vivo or clinical validation.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "auxetic",
+          "metamaterial",
+          "fracture toughness",
+          "multi-objective optimization",
+          "additive manufacturing"
+        ],
+        "summary_zh": {
+          "motivation": "研究无序超材料的负泊松比与断裂韧性的权衡关系。",
+          "method": "通过多目标优化随机梁网络实现同时优化负泊松比和断裂能吸收。",
+          "result": "发现高负泊松比与高能量吸收之间存在帕累托前沿，两者不可兼得。",
+          "validation": "使用增材制造样品进行变形行为验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the trade-off between auxeticity and fracture toughness in disordered metamaterials.",
+          "method": "Multi-objective optimization of random beam networks to simultaneously maximize auxeticity and energy absorption before fracture.",
+          "result": "Optimal configurations form a Pareto front where high auxeticity corresponds to relatively low energy absorption.",
+          "validation": "Deformation behavior validated with additively manufactured samples."
+        },
+        "key_terms": [
+          {
+            "en": "auxeticity",
+            "zh": "负泊松比"
+          },
+          {
+            "en": "metamaterial",
+            "zh": "超材料"
+          },
+          {
+            "en": "fracture toughness",
+            "zh": "断裂韧性"
+          },
+          {
+            "en": "energy absorption",
+            "zh": "能量吸收"
+          },
+          {
+            "en": "Pareto front",
+            "zh": "帕累托前沿"
+          },
+          {
+            "en": "multi-objective optimization",
+            "zh": "多目标优化"
+          },
+          {
+            "en": "disordered network",
+            "zh": "无序网络"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:11:37Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Medium": 1
+    }
+  }
+}

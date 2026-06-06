@@ -1,0 +1,357 @@
+{
+  "schema_version": "v2",
+  "date": "2025-08-06",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2508.04898v1",
+      "doi": "10.1021/acs.jpclett.5c01632",
+      "arxiv_id": "2508.04898v1",
+      "title": "Intrinsic Layer-Dependent Surface Energy and Exfoliation Energy of van der Waals Materials",
+      "abstract": "Stacking and twisting 2D van der Waals (vdW) layers have become versatile platforms to tune electron correlation. These platforms rely on exfoliating vdW materials down to a single and few vdW layers. We calculate the intrinsic layer-dependent surface and exfoliation energies of typical vdW materials such as, graphite, h-BN, black P, MX$_2$ (M=Mo and W, X=S, Se and Te), MX (M=Ga and In, X=S, Se and Te), Bi$_2$Te$_3$ and MnBi$_2$Te$_4$ using density functional theory. For exchange-correlation functionals with explicit vdW interaction, a single vdW layer always has the smallest surface energy, giving a surface energy reduction when compared to thicker vdW layers. However, the magnitude of this surface energy reduction quickly decreases with increasing number of atomic layers inside the single vdW layer for different vdW materials. Such atomic-layer-dependence in surface energy reduction helps explain the different effectiveness of exfoliation for different vdW materials down to a single vdW layer.",
+      "authors": [
+        "Lin-Lin Wang",
+        "Jiaqiang Yan",
+        "Yong Han",
+        "Claire C. Wang",
+        "Jian-Xiang Qiu",
+        "Su-Yang Xu",
+        "Adam Kaminski",
+        "Michael C. Tringides",
+        "Paul C. Canfield"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-08-06",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2508.04898v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "与增材制造力学性能方向无关，涉及二维材料表面能，不涉及增材制造或植入物力学。",
+        "why_not_core": "This paper focuses on 2D van der Waals materials and their exfoliation energies, with no connection to additive manufacturing, mechanical properties of implants, or biomedical contexts.",
+        "validation_kind": "theoretical",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "2D materials",
+          "van der Waals",
+          "surface energy",
+          "DFT",
+          "exfoliation"
+        ],
+        "summary_zh": {
+          "motivation": "计算二维范德华材料的层依赖表面能和剥离能",
+          "method": "使用密度泛函理论，考虑范德华相互作用",
+          "result": "单层表面能最小，且减少幅度随层内原子层数增加而减小",
+          "validation": "理论计算，无实验验证"
+        },
+        "summary_en": {
+          "motivation": "To calculate the intrinsic layer-dependent surface and exfoliation energies of van der Waals materials for understanding exfoliation effectiveness.",
+          "method": "Density functional theory with exchange-correlation functionals that account for explicit van der Waals interactions.",
+          "result": "Single van der Waals layers have the smallest surface energy, and the reduction diminishes with increasing atomic layers within the layer.",
+          "validation": "Theoretical calculations only, no experimental validation."
+        },
+        "key_terms": [
+          {
+            "en": "van der Waals materials",
+            "zh": "范德华材料"
+          },
+          {
+            "en": "exfoliation energy",
+            "zh": "剥离能"
+          },
+          {
+            "en": "surface energy",
+            "zh": "表面能"
+          },
+          {
+            "en": "density functional theory",
+            "zh": "密度泛函理论"
+          },
+          {
+            "en": "layer-dependent",
+            "zh": "层依赖"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:12:37Z"
+    },
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2508.04841v1",
+      "doi": "",
+      "arxiv_id": "2508.04841v1",
+      "title": "Data Driven Insights into Composition Property Relationships in FCC High Entropy Alloys",
+      "abstract": "Structural High Entropy Alloys (HEAs) are crucial in advancing technology across various sectors, including aerospace, automotive, and defense industries. However, the scarcity of integrated chemistry, process, structure, and property data presents significant challenges for predictive property modeling. Given the vast design space of these alloys, uncovering the underlying patterns is essential yet difficult, requiring advanced methods capable of learning from limited and heterogeneous datasets. This work presents several sensitivity analyses, highlighting key elemental contributions to mechanical behavior, including insights into the compositional factors associated with brittle and fractured responses observed during nanoindentation testing in the BIRDSHOT center NiCoFeCrVMnCuAl system dataset. Several encoder decoder based chemistry property models, carefully tuned through Bayesian multi objective hyperparameter optimization, are evaluated for mapping alloy composition to six mechanical properties. The models achieve competitive or superior performance to conventional regressors across all properties, particularly for yield strength and the UTS/YS ratio, demonstrating their effectiveness in capturing complex composition property relationships.",
+      "authors": [
+        "Nicolas Flores",
+        "Daniel Salas Mula",
+        "Wenle Xu",
+        "Sahu Bibhu",
+        "Daniel Lewis",
+        "Alexandra Eve Salinas",
+        "Samantha Mitra",
+        "Raj Mahat",
+        "Surya R. Kalidindi",
+        "Justin Wilkerson",
+        "James Paramore",
+        "Ankit Srivastiva",
+        "George Pharr",
+        "Douglas Allaire",
+        "Ibrahim Karaman",
+        "Brady Butler",
+        "Vahid Attari",
+        "Raymundo Arroyave"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-08-06",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2508.04841v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cs.LG"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "yield strength"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文不涉及增材制造工艺或生物医学领域，而是关于高熵合金成分与力学性能的机器学习建模。",
+        "why_not_core": "No additive manufacturing process or biomedical implant context; focuses on composition-property modeling for structural HEAs without AM-specific mechanical characterization.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "high entropy alloys",
+          "composition-property modeling",
+          "machine learning",
+          "encoder-decoder",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "利用机器学习从有限数据中揭示高熵合金成分与力学性能的关系",
+          "method": "采用基于编码器-解码器的模型结合贝叶斯多目标超参数优化",
+          "result": "模型在屈服强度和UTS/YS比等六个性能上达到或优于传统回归方法",
+          "validation": "基于BIRDSHOT系统的纳米压痕数据集进行数值验证"
+        },
+        "summary_en": {
+          "motivation": "To uncover composition-property relationships in high entropy alloys despite limited and heterogeneous data using advanced machine learning methods.",
+          "method": "Encoder-decoder based chemistry-property models with Bayesian multi-objective hyperparameter optimization are evaluated for mapping alloy composition to six mechanical properties.",
+          "result": "The models achieve competitive or superior performance compared to conventional regressors, particularly for yield strength and UTS/YS ratio.",
+          "validation": "Models are validated on the BIRDSHOT nanoindentation dataset by comparing predictions to measured mechanical properties."
+        },
+        "key_terms": [
+          {
+            "en": "high entropy alloys",
+            "zh": "高熵合金"
+          },
+          {
+            "en": "composition-property relationship",
+            "zh": "成分-性能关系"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "encoder-decoder model",
+            "zh": "编码器-解码器模型"
+          },
+          {
+            "en": "Bayesian optimization",
+            "zh": "贝叶斯优化"
+          },
+          {
+            "en": "yield strength",
+            "zh": "屈服强度"
+          },
+          {
+            "en": "nanoindentation",
+            "zh": "纳米压痕"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:12:37Z"
+    },
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2508.04662v1",
+      "doi": "10.1002/app.70307",
+      "arxiv_id": "2508.04662v1",
+      "title": "Tailored Thermal and Mechanical Performance of Biodegradable PLA-P(VDF-TrFE) Polymer Blends",
+      "abstract": "The development of polymer blends has emerged as a strategic approach for designing multifunctional materials with enhanced tailored characteristics. Current work investigates and reports for the first time, the structure-property relationships in free-standing blend films of poly(vinylidene fluoride-trifluoroethylene) (P(VDF-TrFE)) and polylactic acid (PLA), prepared to evaluate their suitability for functional applications. For this investigation, films of approximately 40 $μ$m thick were fabricated by systematically varying the P(VDF-TrFE):PLA ratio. Thermal analysis revealed a higher PLA crystallinity at 25\\% P(VDF-TrFE) content, while Fourier-transform infrared spectroscopy showed the electroactive $β$-phase fraction to be highest in the 50:50 composition. These findings correlated with tensile strength measurements and morphology, demonstrating that molecular ordering and phase distribution significantly influence the mechanical performance. The 25:75 blend exhibited superior mechanical strength due to enhanced PLA crystallization and polymer chain alignment. In contrast, the 50:50 blend achieved a balance between tensile modulus and electroactive phase development, marking it a promising candidate for sensors and 3D printing applications. At higher P(VDF-TrFE) content, reduced crystallinity in PLA resulted in softer, more compliant films which would be suitable for flexible electronic applications. These results establish a pathway to tune mechanical and functional properties in semicrystalline polymer blends through facile compositional control.",
+      "authors": [
+        "G Suresh",
+        "B. Satyanarayana",
+        "C. Thirmal",
+        "Kaushal Jagarlamudi",
+        "T Komala",
+        "Jimlee Patowary",
+        "Ashutosh Kumar"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-08-06",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2508.04662v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.soft"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "tensile strength"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究PLA-P(VDF-TrFE)聚合物共混薄膜的热机械性能，与用户的AM金属植入物力学性能方向无关。",
+        "why_not_core": "This paper does not involve LPBF/AM for metallic biomedical implants, does not address hip implant stress shielding or osseointegration, and does not include any FEA or surrogate modeling of mechanical behavior.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "polymer blends",
+          "PLA",
+          "P(VDF-TrFE)",
+          "biodegradable",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "开发具有可调热机械性能的聚合物共混材料。",
+          "method": "通过改变P(VDF-TrFE):PLA比例制备薄膜，并表征其结构、热和力学性能。",
+          "result": "25:75共混比因PLA结晶增强表现出最优机械强度，50:50共混比平衡了模量和电活性相。",
+          "validation": "通过DSC、FTIR和拉伸测试验证结构与性能关系。"
+        },
+        "summary_en": {
+          "motivation": "To design biodegradable polymer blends with tailored thermal and mechanical performance for functional applications including sensors and 3D printing.",
+          "method": "Free-standing blend films of P(VDF-TrFE) and PLA were fabricated at varying ratios and characterized by thermal analysis, FTIR, and tensile testing to study structure-property relationships.",
+          "result": "The 25:75 blend exhibited superior mechanical strength due to enhanced PLA crystallinity and chain alignment, while the 50:50 blend balanced tensile modulus and electroactive phase content.",
+          "validation": "Mechanical testing, DSC, and FTIR were used to correlate composition with crystallinity, beta-phase fraction, and mechanical performance."
+        },
+        "key_terms": [
+          {
+            "en": "polymer blend",
+            "zh": "聚合物共混物"
+          },
+          {
+            "en": "PLA (polylactic acid)",
+            "zh": "聚乳酸"
+          },
+          {
+            "en": "P(VDF-TrFE)",
+            "zh": "聚偏氟乙烯-三氟乙烯共聚物"
+          },
+          {
+            "en": "crystallinity",
+            "zh": "结晶度"
+          },
+          {
+            "en": "electroactive beta-phase",
+            "zh": "电活性β相"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "biodegradable",
+            "zh": "可生物降解"
+          },
+          {
+            "en": "3D printing",
+            "zh": "3D打印"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:12:37Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 3,
+    "by_source": {
+      "arxiv": 3
+    },
+    "after_dedup": 3,
+    "after_routing": 3,
+    "by_direction": {
+      "mechanical_properties": 3
+    },
+    "routed_by_source": {
+      "arxiv": 3
+    },
+    "scored": 3,
+    "priority_counts": {
+      "Exclude": 2,
+      "Low": 1
+    }
+  }
+}

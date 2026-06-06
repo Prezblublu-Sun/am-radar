@@ -1,0 +1,129 @@
+{
+  "schema_version": "v2",
+  "date": "2026-03-07",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2603.07115v1",
+      "doi": "",
+      "arxiv_id": "2603.07115v1",
+      "title": "High Thermal Conductivity in Back-End-of-Line Compatible AlN Thin Films",
+      "abstract": "With thermal issues becoming a major challenge to the development of integrated circuits (ICs), high-thermal-conductivity (high-TC) materials are gaining interest from both the industry and academia, especially for high-density back-end-of-line (BEOL) structures. Aluminum nitride (AlN) is an insulating material with high TC, suitable for thermal management in electronic devices. Furthermore, polycrystalline AlN thin films can be deposited at BEOL-compatible low temperatures (lower than 400 C) while retaining relatively high TC, rendering AlN a promising candidate for BEOL heat dissipation. Still, AlN deposition should aim at achieving high TC on a variety of substrates used in IC processes. In this work, we obtained 600- and 1200-nm BEOL-compatible AlN thin film samples on Si, SiO, SiN, and Al2O3 substrates for structural and thermal characterizations. Specifically, time-domain thermoreflectance (TDTR) measurements revealed consistently high TC (higher than 45 W m-1 K-1) on different substrates. Moreover, finite element analysis (FEA) simulations of AlN capped on top of an indium-tin-oxide (ITO) transistor showed a reduction of up to 44% in peak device temperature. Our work provided experimental and calculational evidence for the practicality of leveraging AlN as a high-TC, BEOL-compatible heat spreader material.",
+      "authors": [
+        "Xufei Guo",
+        "Zirou Chen",
+        "Zifeng Huang",
+        "Yuxiang Wang",
+        "Jinwen Liu",
+        "Zhe Cheng"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-03-07",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2603.07115v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究AlN薄膜的热管理性能，与增材制造力学性能方向无关。",
+        "why_not_core": "This paper does not address additive manufacturing, mechanical properties, or biomedical implants; it focuses on thermal management in integrated circuits.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "AlN thin film",
+          "thermal conductivity",
+          "BEOL",
+          "TDTR",
+          "FEA thermal simulation"
+        ],
+        "summary_zh": {
+          "motivation": "IC散热问题亟需高导热绝缘材料",
+          "method": "制备AlN薄膜并用TDTR测量热导率，结合FEA模拟热管理效果",
+          "result": "AlN薄膜在多种衬底上热导率>45 W/mK，可使器件温度降低44%",
+          "validation": "TDTR实验测量与FEA仿真计算相互验证"
+        },
+        "summary_en": {
+          "motivation": "Thermal management in integrated circuits demands high thermal conductivity insulating materials compatible with back-end-of-line processing.",
+          "method": "AlN thin films were deposited on various substrates and characterized by time-domain thermoreflectance, with finite element simulations of thermal performance.",
+          "result": "AlN films exhibited thermal conductivity above 45 W m⁻¹ K⁻¹ on all substrates, achieving up to a 44% reduction in peak device temperature in simulations.",
+          "validation": "Experimental TDTR measurements were combined with FEA simulations to validate thermal performance."
+        },
+        "key_terms": [
+          {
+            "en": "AlN thin film",
+            "zh": "氮化铝薄膜"
+          },
+          {
+            "en": "thermal conductivity",
+            "zh": "热导率"
+          },
+          {
+            "en": "back-end-of-line",
+            "zh": "后道工艺"
+          },
+          {
+            "en": "heat spreader",
+            "zh": "散热器"
+          },
+          {
+            "en": "time-domain thermoreflectance",
+            "zh": "时域热反射法"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:20:36Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

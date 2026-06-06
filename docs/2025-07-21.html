@@ -1,0 +1,292 @@
+<!doctype html><html lang="zh"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Research Radar — 2025-07-21</title>
+<style>
+:root{
+--c-brand:#1B4D7E;--c-accent:#E89C3A;--c-bg:#FAFAF7;--c-card-bg:#FFFFFF;--c-card-border:#ECEAE3;
+--c-text-primary:#1F2937;--c-text-secondary:#4B5563;--c-text-meta:#8B8980;--c-text-muted:#B5B3AA;
+--c-priority-h:#C8362A;--c-priority-m:#E89C3A;--c-priority-l:#A0A0A0;--c-priority-x:#D5D5D5;
+--c-mark-toread:#E8B538;--c-mark-read:#5B8C5A;--c-mark-int:#4A6FB5;--c-mark-ignore:#999999;
+--space-xs:4px;--space-sm:8px;--space-md:12px;--space-lg:20px;--space-xl:32px;
+--radius-sm:4px;--radius-md:8px;--radius-lg:12px;
+--text-xs:11px;--text-sm:13px;--text-md:14px;--text-lg:16px;--text-xl:22px;--text-h1:28px;
+--shadow-card:0 1px 3px rgba(0,0,0,0.04),0 1px 2px rgba(0,0,0,0.06);
+--shadow-hover:0 4px 12px rgba(27,77,126,0.10),0 2px 4px rgba(0,0,0,0.06);
+}
+
+body{font-family:-apple-system,'PingFang SC',BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:980px;margin:2rem auto;padding:0 1rem;background:var(--c-bg);color:var(--c-text-primary);line-height:1.5}
+h1{font-size:var(--text-h1);font-weight:600;margin:0 0 var(--space-xs);color:var(--c-brand)}
+.subtitle{color:var(--c-text-meta);font-size:var(--text-sm);margin-bottom:var(--space-xl)}
+.topbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:10px 0;margin-bottom:1.25rem;border-bottom:1px solid var(--c-card-border)}
+.navbtn{font-size:var(--text-sm);background:var(--c-card-bg);color:var(--c-text-secondary);padding:6px 12px;border:1px solid var(--c-card-border);border-radius:var(--radius-md);text-decoration:none}
+.navbtn:hover{background:var(--c-brand);color:#fff;border-color:var(--c-brand)}
+.navbtn.disabled{color:var(--c-text-muted);background:var(--c-bg);cursor:default}
+.archive-select{font-size:var(--text-sm);padding:6px 10px;border:1px solid var(--c-card-border);border-radius:var(--radius-md);background:var(--c-card-bg);color:var(--c-text-secondary);cursor:pointer}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--space-md);margin-bottom:1.5rem}
+.stat{background:var(--c-card-bg);border:1px solid var(--c-card-border);border-radius:var(--radius-md);padding:.75rem 1rem}
+.stat-label{font-size:12px;color:var(--c-text-meta)}
+.stat-val{font-size:var(--text-xl);font-weight:600;margin-top:2px}
+.tabs,.prio-filter{display:flex;gap:var(--space-sm);flex-wrap:wrap;margin-bottom:.75rem}
+.tab,.pf{background:transparent;border:1px solid var(--c-card-border);border-radius:var(--radius-md);padding:6px 14px;font-size:var(--text-sm);cursor:pointer;color:var(--c-text-secondary)}
+.tab.active,.pf.active{background:var(--c-brand);color:#fff;border-color:var(--c-brand)}
+.paper{background:var(--c-card-bg);border:1px solid var(--c-card-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin-bottom:var(--space-md)}
+.paper-head{display:flex;gap:var(--space-sm);align-items:center;flex-wrap:wrap;margin-bottom:var(--space-sm)}
+.priority{font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px}
+.direction-pill{font-size:var(--text-xs);padding:3px 8px;border-radius:var(--radius-md)}
+.source{font-size:var(--text-xs);color:var(--c-text-muted);text-transform:uppercase}
+.flag{font-size:var(--text-xs);background:#EEF2F8;color:var(--c-brand);padding:2px 7px;border-radius:6px}
+.paper-title{font-size:15px;font-weight:600;line-height:1.4;margin:4px 0;color:var(--c-text-primary)}
+.meta{font-size:12px;color:var(--c-text-meta);margin-bottom:10px}
+.meta>span{margin-right:12px}
+.relevance{font-size:var(--text-sm);background:var(--c-bg);padding:6px 10px;border-radius:6px;margin-bottom:var(--space-sm)}
+.summary{font-size:var(--text-sm);line-height:1.65}
+.summary>div{margin-bottom:4px}
+.tags-row{margin-top:var(--space-sm)}
+.tag{font-size:var(--text-xs);background:#EEF2F8;color:var(--c-brand);padding:2px 8px;border-radius:10px;font-weight:500;margin-right:4px}
+.paper[data-hidden="1"]{display:none}
+footer.run-info{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--c-card-border);font-size:12px;color:var(--c-text-meta)}
+footer.run-info summary{cursor:pointer;color:var(--c-text-secondary)}
+footer.run-info table{margin-top:var(--space-sm);font-family:ui-monospace,monospace;font-size:var(--text-xs)}
+footer.run-info td{padding:2px 12px 2px 0;vertical-align:top}
+footer.run-info td:first-child{color:var(--c-text-meta);width:140px}
+details.summary-en{margin-top:var(--space-sm);background:var(--c-bg);border-radius:var(--radius-md);padding:6px 12px;border:1px solid var(--c-card-border)}
+details.summary-en summary{cursor:pointer;font-size:12px;color:var(--c-text-secondary);font-weight:600}
+details.summary-en[open] summary{margin-bottom:var(--space-sm)}
+.summary.en{font-size:var(--text-sm);color:var(--c-text-secondary);line-height:1.55}
+.summary.en>div{margin-bottom:3px}
+.key-terms{margin-top:var(--space-sm);display:flex;flex-wrap:wrap;gap:6px}
+.term{font-size:var(--text-xs);background:var(--c-card-bg);border:1px solid var(--c-card-border);padding:3px 8px;border-radius:6px;color:var(--c-text-secondary)}
+.term b{color:var(--c-text-primary);font-weight:600}
+.affiliations{font-size:12px;color:var(--c-text-meta);margin-top:6px;padding-left:6px;border-left:2px solid var(--c-card-border)}
+.affiliations b{color:var(--c-text-secondary);font-weight:600}
+.corresponding{font-size:12px;color:var(--c-text-secondary);margin-top:3px;padding-left:6px;border-left:2px solid #aac}
+.corresponding b{color:#3F2E7E;font-weight:600}
+.corresp-aff{color:var(--c-text-meta)}
+.corresponding i{color:var(--c-text-meta);font-size:var(--text-xs)}
+.relevance-level{font-size:var(--text-xs);padding:3px 8px;border-radius:var(--radius-md);font-weight:600}
+.lvl-direct{background:#D4EBC4;color:#2D5A14}
+.lvl-transferable{background:#E0DDF4;color:#3F2E7E}
+.lvl-peripheral{background:#F1EFE8;color:#666}
+.read-action{font-size:var(--text-xs);padding:3px 8px;border-radius:var(--radius-md);font-weight:600;font-style:italic}
+.act-read-now{background:#FFE8D6;color:#7D4515}
+.act-save-for-project{background:#E6E1F5;color:#3A2C7A}
+.act-skim-only{background:#F0F0E8;color:#5C5C50}
+.act-background-only{background:#F5F5F0;color:#777}
+.act-ignore{background:#F5E8E8;color:#7A3A3A}
+.validation-kind{font-size:10px;background:#EDF4FA;color:#1F4A6B;padding:2px 7px;border-radius:6px}
+.why-not-core{font-size:12px;background:#FCF5E8;border-left:3px solid var(--c-accent);padding:5px 10px;margin-top:4px;color:#5A4318;border-radius:0 6px 6px 0}
+</style><link rel="stylesheet" href="radar-ui.css"><script src="radar-ui.js" defer></script></head><body>
+<h1>Research Radar</h1>
+<div class="subtitle">2025-07-21 · AM Mechanical Properties / AM Fatigue / Ti-6Al-4V Post-processing &amp; HIP / Femoral Stem (AM + traditional)</div>
+<div class="topbar"><a class="navbtn" href="2025-07-18.html">← 2025-07-18</a><select class="archive-select" onchange="if(this.value)window.location.href=this.value"><option value="2026-07-01.html">2026-07-01</option><option value="2026-06-01.html">2026-06-01</option><option value="2026-05-31.html">2026-05-31</option><option value="2026-05-28.html">2026-05-28</option><option value="2026-05-26.html">2026-05-26</option><option value="2026-05-24.html">2026-05-24</option><option value="2026-05-22.html">2026-05-22</option><option value="2026-05-21.html">2026-05-21</option><option value="2026-05-19.html">2026-05-19</option><option value="2026-05-18.html">2026-05-18</option><option value="2026-05-15.html">2026-05-15</option><option value="2026-05-14.html">2026-05-14</option><option value="2026-05-13.html">2026-05-13</option><option value="2026-05-12.html">2026-05-12</option><option value="2026-05-11.html">2026-05-11</option><option value="2026-05-07.html">2026-05-07</option><option value="2026-05-06.html">2026-05-06</option><option value="2026-05-03.html">2026-05-03</option><option value="2026-05-01.html">2026-05-01</option><option value="2026-04-30.html">2026-04-30</option><option value="2026-04-28.html">2026-04-28</option><option value="2026-04-27.html">2026-04-27</option><option value="2026-04-25.html">2026-04-25</option><option value="2026-04-23.html">2026-04-23</option><option value="2026-04-22.html">2026-04-22</option><option value="2026-04-21.html">2026-04-21</option><option value="2026-04-20.html">2026-04-20</option><option value="2026-04-17.html">2026-04-17</option><option value="2026-04-16.html">2026-04-16</option><option value="2026-04-14.html">2026-04-14</option><option value="2026-04-10.html">2026-04-10</option><option value="2026-04-09.html">2026-04-09</option><option value="2026-04-08.html">2026-04-08</option><option value="2026-04-07.html">2026-04-07</option><option value="2026-04-04.html">2026-04-04</option><option value="2026-04-03.html">2026-04-03</option><option value="2026-04-02.html">2026-04-02</option><option value="2026-04-01.html">2026-04-01</option><option value="2026-03-31.html">2026-03-31</option><option value="2026-03-30.html">2026-03-30</option><option value="2026-03-26.html">2026-03-26</option><option value="2026-03-25.html">2026-03-25</option><option value="2026-03-21.html">2026-03-21</option><option value="2026-03-20.html">2026-03-20</option><option value="2026-03-19.html">2026-03-19</option><option value="2026-03-17.html">2026-03-17</option><option value="2026-03-16.html">2026-03-16</option><option value="2026-03-14.html">2026-03-14</option><option value="2026-03-13.html">2026-03-13</option><option value="2026-03-12.html">2026-03-12</option><option value="2026-03-10.html">2026-03-10</option><option value="2026-03-09.html">2026-03-09</option><option value="2026-03-07.html">2026-03-07</option><option value="2026-03-06.html">2026-03-06</option><option value="2026-03-05.html">2026-03-05</option><option value="2026-03-04.html">2026-03-04</option><option value="2026-03-01.html">2026-03-01</option><option value="2026-02-28.html">2026-02-28</option><option value="2026-02-25.html">2026-02-25</option><option value="2026-02-24.html">2026-02-24</option><option value="2026-02-23.html">2026-02-23</option><option value="2026-02-21.html">2026-02-21</option><option value="2026-02-20.html">2026-02-20</option><option value="2026-02-19.html">2026-02-19</option><option value="2026-02-16.html">2026-02-16</option><option value="2026-02-15.html">2026-02-15</option><option value="2026-02-13.html">2026-02-13</option><option value="2026-02-11.html">2026-02-11</option><option value="2026-02-10.html">2026-02-10</option><option value="2026-02-08.html">2026-02-08</option><option value="2026-02-07.html">2026-02-07</option><option value="2026-02-06.html">2026-02-06</option><option value="2026-02-05.html">2026-02-05</option><option value="2026-02-02.html">2026-02-02</option><option value="2026-02-01.html">2026-02-01</option><option value="2026-01-31.html">2026-01-31</option><option value="2026-01-29.html">2026-01-29</option><option value="2026-01-27.html">2026-01-27</option><option value="2026-01-25.html">2026-01-25</option><option value="2026-01-24.html">2026-01-24</option><option value="2026-01-23.html">2026-01-23</option><option value="2026-01-22.html">2026-01-22</option><option value="2026-01-21.html">2026-01-21</option><option value="2026-01-20.html">2026-01-20</option><option value="2026-01-18.html">2026-01-18</option><option value="2026-01-17.html">2026-01-17</option><option value="2026-01-16.html">2026-01-16</option><option value="2026-01-14.html">2026-01-14</option><option value="2026-01-13.html">2026-01-13</option><option value="2026-01-12.html">2026-01-12</option><option value="2026-01-11.html">2026-01-11</option><option value="2026-01-09.html">2026-01-09</option><option value="2026-01-08.html">2026-01-08</option><option value="2026-01-07.html">2026-01-07</option><option value="2026-01-06.html">2026-01-06</option><option value="2026-01-05.html">2026-01-05</option><option value="2026-01-02.html">2026-01-02</option><option value="2026-01-01.html">2026-01-01</option><option value="2025-12-27.html">2025-12-27</option><option value="2025-12-26.html">2025-12-26</option><option value="2025-12-23.html">2025-12-23</option><option value="2025-12-22.html">2025-12-22</option><option value="2025-12-21.html">2025-12-21</option><option value="2025-12-20.html">2025-12-20</option><option value="2025-12-19.html">2025-12-19</option><option value="2025-12-18.html">2025-12-18</option><option value="2025-12-17.html">2025-12-17</option><option value="2025-12-14.html">2025-12-14</option><option value="2025-12-10.html">2025-12-10</option><option value="2025-12-08.html">2025-12-08</option><option value="2025-12-05.html">2025-12-05</option><option value="2025-12-04.html">2025-12-04</option><option value="2025-12-03.html">2025-12-03</option><option value="2025-12-02.html">2025-12-02</option><option value="2025-12-01.html">2025-12-01</option><option value="2025-11-29.html">2025-11-29</option><option value="2025-11-28.html">2025-11-28</option><option value="2025-11-26.html">2025-11-26</option><option value="2025-11-24.html">2025-11-24</option><option value="2025-11-22.html">2025-11-22</option><option value="2025-11-20.html">2025-11-20</option><option value="2025-11-17.html">2025-11-17</option><option value="2025-11-14.html">2025-11-14</option><option value="2025-11-13.html">2025-11-13</option><option value="2025-11-11.html">2025-11-11</option><option value="2025-11-10.html">2025-11-10</option><option value="2025-11-09.html">2025-11-09</option><option value="2025-11-07.html">2025-11-07</option><option value="2025-11-05.html">2025-11-05</option><option value="2025-11-04.html">2025-11-04</option><option value="2025-11-01.html">2025-11-01</option><option value="2025-10-31.html">2025-10-31</option><option value="2025-10-30.html">2025-10-30</option><option value="2025-10-28.html">2025-10-28</option><option value="2025-10-27.html">2025-10-27</option><option value="2025-10-23.html">2025-10-23</option><option value="2025-10-22.html">2025-10-22</option><option value="2025-10-21.html">2025-10-21</option><option value="2025-10-17.html">2025-10-17</option><option value="2025-10-16.html">2025-10-16</option><option value="2025-10-15.html">2025-10-15</option><option value="2025-10-14.html">2025-10-14</option><option value="2025-10-09.html">2025-10-09</option><option value="2025-10-08.html">2025-10-08</option><option value="2025-10-07.html">2025-10-07</option><option value="2025-10-06.html">2025-10-06</option><option value="2025-10-05.html">2025-10-05</option><option value="2025-10-03.html">2025-10-03</option><option value="2025-10-02.html">2025-10-02</option><option value="2025-10-01.html">2025-10-01</option><option value="2025-09-28.html">2025-09-28</option><option value="2025-09-25.html">2025-09-25</option><option value="2025-09-23.html">2025-09-23</option><option value="2025-09-20.html">2025-09-20</option><option value="2025-09-18.html">2025-09-18</option><option value="2025-09-17.html">2025-09-17</option><option value="2025-09-15.html">2025-09-15</option><option value="2025-09-14.html">2025-09-14</option><option value="2025-09-11.html">2025-09-11</option><option value="2025-09-10.html">2025-09-10</option><option value="2025-09-06.html">2025-09-06</option><option value="2025-09-05.html">2025-09-05</option><option value="2025-09-03.html">2025-09-03</option><option value="2025-09-02.html">2025-09-02</option><option value="2025-09-01.html">2025-09-01</option><option value="2025-08-29.html">2025-08-29</option><option value="2025-08-28.html">2025-08-28</option><option value="2025-08-25.html">2025-08-25</option><option value="2025-08-24.html">2025-08-24</option><option value="2025-08-22.html">2025-08-22</option><option value="2025-08-21.html">2025-08-21</option><option value="2025-08-20.html">2025-08-20</option><option value="2025-08-19.html">2025-08-19</option><option value="2025-08-18.html">2025-08-18</option><option value="2025-08-15.html">2025-08-15</option><option value="2025-08-13.html">2025-08-13</option><option value="2025-08-12.html">2025-08-12</option><option value="2025-08-09.html">2025-08-09</option><option value="2025-08-07.html">2025-08-07</option><option value="2025-08-06.html">2025-08-06</option><option value="2025-08-04.html">2025-08-04</option><option value="2025-08-01.html">2025-08-01</option><option value="2025-07-30.html">2025-07-30</option><option value="2025-07-28.html">2025-07-28</option><option value="2025-07-27.html">2025-07-27</option><option value="2025-07-26.html">2025-07-26</option><option value="2025-07-25.html">2025-07-25</option><option value="2025-07-23.html">2025-07-23</option><option value="2025-07-21.html" selected>2025-07-21</option><option value="2025-07-18.html">2025-07-18</option><option value="2025-07-17.html">2025-07-17</option><option value="2025-07-16.html">2025-07-16</option><option value="2025-07-14.html">2025-07-14</option><option value="2025-07-11.html">2025-07-11</option><option value="2025-07-09.html">2025-07-09</option><option value="2025-07-06.html">2025-07-06</option><option value="2025-07-05.html">2025-07-05</option><option value="2025-07-04.html">2025-07-04</option><option value="2025-07-01.html">2025-07-01</option><option value="2025-06-30.html">2025-06-30</option><option value="2025-06-28.html">2025-06-28</option><option value="2025-06-27.html">2025-06-27</option><option value="2025-06-25.html">2025-06-25</option><option value="2025-06-24.html">2025-06-24</option><option value="2025-06-23.html">2025-06-23</option><option value="2025-06-22.html">2025-06-22</option><option value="2025-06-21.html">2025-06-21</option><option value="2025-06-20.html">2025-06-20</option><option value="2025-06-17.html">2025-06-17</option><option value="2025-06-15.html">2025-06-15</option><option value="2025-06-14.html">2025-06-14</option><option value="2025-06-13.html">2025-06-13</option><option value="2025-06-11.html">2025-06-11</option><option value="2025-06-10.html">2025-06-10</option><option value="2025-06-09.html">2025-06-09</option><option value="2025-06-08.html">2025-06-08</option><option value="2025-06-05.html">2025-06-05</option><option value="2025-06-04.html">2025-06-04</option><option value="2025-06-02.html">2025-06-02</option><option value="2025-06-01.html">2025-06-01</option><option value="2025-05-28.html">2025-05-28</option><option value="2025-05-24.html">2025-05-24</option><option value="2025-05-01.html">2025-05-01</option><option value="2025-01-01.html">2025-01-01</option></select><a class="navbtn" href="2025-07-23.html">2025-07-23 →</a><a class="navbtn" href="index.html">☀️ Calendar</a><a class="navbtn" href="weekly/index.html">📅 Weekly</a><a class="navbtn" href="status.html">📊 Status</a><a class="navbtn" href="search.html">🔍 Search</a><a class="navbtn" href="high-priority.html">⭐ High</a><a class="navbtn" href="my-marks.html">🔖 Marks</a><a class="navbtn" href="my-promotes.html">➜ Promote</a></div>
+<div class="stats"><div class="stat"><div class="stat-label">Total scored</div><div class="stat-val">4</div></div><div class="stat"><div class="stat-label">High</div><div class="stat-val" style="color:#27500A">0</div></div><div class="stat"><div class="stat-label">Medium</div><div class="stat-val" style="color:#633806">0</div></div><div class="stat"><div class="stat-label">Low</div><div class="stat-val" style="color:#5F5E5A">1</div></div></div>
+<div class="tabs"><button class="tab active" data-filter="all">All</button><button class="tab" data-filter="mechanical_properties">AM Mechanical Properties</button><button class="tab" data-filter="fatigue">AM Fatigue</button><button class="tab" data-filter="ti6al4v_postprocess_hip">Ti-6Al-4V Post-processing &amp; HIP</button><button class="tab" data-filter="am_femoral_stem">Femoral Stem (AM + traditional)</button></div>
+<div class="rui-filter-bar" id="rui-priority-filter"><b>Priority:</b> <label><input type="checkbox" class="rui-pf-cb" value="High" checked>High</label> <label><input type="checkbox" class="rui-pf-cb" value="Medium" checked>Medium</label> <label><input type="checkbox" class="rui-pf-cb" value="Low">Low</label> <label><input type="checkbox" class="rui-pf-cb" value="Exclude">Exclude</label></div>
+<div class="rui-filter-bar" id="rui-marks-filter"><b>My marks:</b> <label><input type="checkbox" class="rui-mf-cb" value="to-read" checked>to-read</label><label><input type="checkbox" class="rui-mf-cb" value="read" checked>read</label><label><input type="checkbox" class="rui-mf-cb" value="interesting" checked>interesting</label><label><input type="checkbox" class="rui-mf-cb" value="ignore" checked>ignore</label><label><input type="checkbox" class="rui-mf-cb" value="none" checked>(no mark)</label></div>
+
+<article class="paper" id="doi-10-1007-s11701-025-02594-w" data-direction="am_femoral_stem" data-priority="Low" data-identity-key="doi:10.1007/s11701-025-02594-w" data-title="Comparison of traditional and robotic size prediction methods and stem positioning outcomes following prediction discrepancies in hip arthroplasty." data-date="2025-07-21">
+  <div class="paper-head">
+    <span class="priority" style="background:#F1EFE8;color:#5F5E5A">Low</span>
+    <span class="direction-pill" style="background:#1F6FB220;color:#1F6FB2">Femoral Stem (AM + traditional)</span>
+    <span class="source">pubmed</span>
+    <span class="relevance-level lvl-peripheral">Peripheral</span>
+    <span class="read-action act-background-only">Background only</span>
+    <span class="validation-kind">clinical</span>
+    
+  </div>
+  <h3 class="paper-title">Comparison of traditional and robotic size prediction methods and stem positioning outcomes following prediction discrepancies in hip arthroplasty.</h3>
+  <div class="meta">
+    <span class="authors">Wenzhe Wang, Fan Chen, Zian Zhang, Chaoqun Yu, Chang Liu et al.</span>
+    <span class="venue">Journal of robotic surgery</span>
+    <span class="date">2025-07-21</span>
+    <span class="doi"><a href="https://doi.org/10.1007/s11701-025-02594-w" target="_blank">10.1007/s11701-025-02594-w</a></span>
+  </div>
+  <div class="affiliations"><b>单位:</b> Department of Joint Surgery, The Affiliated Hospital of Qingdao University, Qingdao, 266000, Shandong, China.</div>
+  <div class="corresponding"><b>通讯:</b> Haining Zhang <span class="corresp-aff">@ Department of Joint Surgery, The Affiliated Hospital of Qingdao University, Qingdao, 266000, Shandong, China. hainingzha</span></div>
+  <div class="relevance"><b>相关性:</b> 该论文探讨了机器人辅助全髋关节置换术中的假体尺寸预测和柄位置，但未涉及应力遮挡、微动、骨整合或任何生物力学或FEA建模。</div>
+  <div class="why-not-core"><b>边界:</b> This paper is a clinical retrospective study on robotic vs. traditional size prediction in THA, with no implant mechanics (stress shielding, micromotion), no FEA, no AI/ML model, and no AM/additive manufacturing. It does not address any of the user&#x27;s core directions.</div>
+  <div class="summary">
+    <div><b>动机·</b> 比较传统与机器人两种假体尺寸预测方法在THA中的准确性差异。</div>
+    <div><b>方法·</b> 回顾性分析RATHA患者数据，按计划与实际尺寸匹配情况分组并比较柄位置。</div>
+    <div><b>结果·</b> 机器人系统预测更准确，使用较小柄导致冠状面成角增大和填充比降低。</div>
+    <div><b>验证·</b> 通过术后影像学测量对比各组柄位置参数。</div>
+  </div>
+  <details class="summary-en">
+    <summary>English summary &amp; terms</summary>
+    <div class="summary en">
+      <div><b>Motivation·</b> This study compares the accuracy of traditional 2D and robotic MAKO methods for predicting prosthesis size in total hip arthroplasty.</div>
+      <div><b>Method·</b> A retrospective analysis was conducted on patients who underwent robotic-assisted THA, categorizing cases into matched, reduced, enlarged, and deviated groups based on plan-actual size consistency, and postoperative stem positioning was compared.</div>
+      <div><b>Result·</b> The robotic system showed higher prediction accuracy for both cup and stem, and using a smaller stem than planned was associated with larger coronal plane angulation and reduced canal fill ratio.</div>
+      <div><b>Validation·</b> Validation was performed via retrospective clinical data and postoperative imaging measurements.</div>
+    </div>
+    <div class="key-terms">
+      <span class="term"><b>total hip arthroplasty</b> · 全髋关节置换术</span><span class="term"><b>robotic-assisted surgery</b> · 机器人辅助手术</span><span class="term"><b>stem positioning</b> · 柄位置</span><span class="term"><b>canal fill ratio</b> · 髓腔填充比</span><span class="term"><b>coronal plane angulation</b> · 冠状面成角</span>
+    </div>
+  </details>
+  <div class="tags-row"><span class="tag">hip arthroplasty</span> <span class="tag">stem positioning</span> <span class="tag">robotic surgery</span> <span class="tag">size prediction</span></div>
+  
+  
+  <div class="rui-card-tools">
+    <span class="rui-mark-group"><b>Mark:</b> <label class="m-to-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1007-s11701-025-02594-w" value="to-read">to-read</label><label class="m-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1007-s11701-025-02594-w" value="read">read</label><label class="m-interesting"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1007-s11701-025-02594-w" value="interesting">interesting</label><label class="m-ignore"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1007-s11701-025-02594-w" value="ignore">ignore</label></span>
+    <button type="button" class="rui-note-btn">Note</button>
+    <button type="button" class="rui-promote-btn">Send to lit-system</button>
+    <div class="rui-note-wrap">
+      <textarea class="rui-note-ta" placeholder="Private note (saved on blur, this browser only)"></textarea>
+    </div>
+  </div>
+</article>
+<article class="paper" id="arxiv-2507-16005v2" data-direction="mechanical_properties" data-priority="Exclude" data-identity-key="arxiv:2507.16005v2" data-title="Autonomous Multi-objective Alloy Design through Simulation-guided Optimization" data-date="2025-07-21">
+  <div class="paper-head">
+    <span class="priority" style="background:#FCEBEB;color:#791F1F">Exclude</span>
+    <span class="direction-pill" style="background:#2E7D6B20;color:#2E7D6B">AM Mechanical Properties</span>
+    <span class="source">arxiv</span>
+    <span class="relevance-level lvl-peripheral">Peripheral</span>
+    <span class="read-action act-ignore">Ignore</span>
+    <span class="validation-kind">mechanical_testing</span>
+    <span class="flag">Exp. validation</span>
+  </div>
+  <h3 class="paper-title">Autonomous Multi-objective Alloy Design through Simulation-guided Optimization</h3>
+  <div class="meta">
+    <span class="authors">Penghui Yang, Chendong Zhao, Bijun Tang, Zhonghan Zhang, Xinrun Wang et al.</span>
+    <span class="venue">arXiv preprint</span>
+    <span class="date">2025-07-21</span>
+    <span class="doi"><a href="http://arxiv.org/abs/2507.16005v2" target="_blank">link</a></span>
+  </div>
+  
+  
+  <div class="relevance"><b>相关性:</b> 该论文专注于合金设计，不涉及增材制造机械性能评估。</div>
+  <div class="why-not-core"><b>边界:</b> Paper does not address additive manufacturing processes, mechanical properties of AM parts, or any biomedical implant context.</div>
+  <div class="summary">
+    <div><b>动机·</b> 加速合金发现，解决多目标优化和实验成本问题。</div>
+    <div><b>方法·</b> 提出AutoMAT框架，融合大语言模型、CALPHAD模拟和AI优化。</div>
+    <div><b>结果·</b> 发现钛合金密度降低8.1%、强度提升13.0%，高熵合金强度提升28.2%。</div>
+    <div><b>验证·</b> 通过实验合成和力学测试验证合金性能。</div>
+  </div>
+  <details class="summary-en">
+    <summary>English summary &amp; terms</summary>
+    <div class="summary en">
+      <div><b>Motivation·</b> Accelerate alloy discovery by addressing vast compositional spaces and high experimental costs.</div>
+      <div><b>Method·</b> Proposes AutoMAT, a hierarchical framework integrating large language models, automated CALPHAD simulations, residual-learning correction, and AI-guided optimization.</div>
+      <div><b>Result·</b> Identifies a titanium alloy with 8.1% lower density and 13.0% higher strength than Ti-185, and a high-entropy alloy with 28.2% higher yield strength.</div>
+      <div><b>Validation·</b> Experimental synthesis and mechanical testing confirm the predicted alloy properties.</div>
+    </div>
+    <div class="key-terms">
+      <span class="term"><b>alloy design</b> · 合金设计</span><span class="term"><b>CALPHAD</b> · CALPHAD方法</span><span class="term"><b>multi-objective optimization</b> · 多目标优化</span><span class="term"><b>machine learning</b> · 机器学习</span><span class="term"><b>titanium alloy</b> · 钛合金</span><span class="term"><b>high-entropy alloy</b> · 高熵合金</span><span class="term"><b>specific strength</b> · 比强度</span><span class="term"><b>lightweight</b> · 轻量化</span>
+    </div>
+  </details>
+  <div class="tags-row"><span class="tag">alloy design</span> <span class="tag">multi-objective optimization</span> <span class="tag">CALPHAD</span> <span class="tag">machine learning</span> <span class="tag">lightweight alloys</span></div>
+  
+  
+  <div class="rui-card-tools">
+    <span class="rui-mark-group"><b>Mark:</b> <label class="m-to-read"><input type="radio" class="rui-mark-radio" name="rui-mark-arxiv-2507-16005v2" value="to-read">to-read</label><label class="m-read"><input type="radio" class="rui-mark-radio" name="rui-mark-arxiv-2507-16005v2" value="read">read</label><label class="m-interesting"><input type="radio" class="rui-mark-radio" name="rui-mark-arxiv-2507-16005v2" value="interesting">interesting</label><label class="m-ignore"><input type="radio" class="rui-mark-radio" name="rui-mark-arxiv-2507-16005v2" value="ignore">ignore</label></span>
+    <button type="button" class="rui-note-btn">Note</button>
+    <button type="button" class="rui-promote-btn">Send to lit-system</button>
+    <div class="rui-note-wrap">
+      <textarea class="rui-note-ta" placeholder="Private note (saved on blur, this browser only)"></textarea>
+    </div>
+  </div>
+</article>
+<article class="paper" id="arxiv-2507-15447v2" data-direction="mechanical_properties" data-priority="Exclude" data-identity-key="arxiv:2507.15447v2" data-title="Effect of Co partitioning to the γ matrix on the microstructural stablity of a Ti-rich Ni-Base Superalloy" data-date="2025-07-21">
+  <div class="paper-head">
+    <span class="priority" style="background:#FCEBEB;color:#791F1F">Exclude</span>
+    <span class="direction-pill" style="background:#2E7D6B20;color:#2E7D6B">AM Mechanical Properties</span>
+    <span class="source">arxiv</span>
+    <span class="relevance-level lvl-peripheral">Peripheral</span>
+    <span class="read-action act-ignore">Ignore</span>
+    <span class="validation-kind">none</span>
+    <span class="flag">Exp. validation</span>
+  </div>
+  <h3 class="paper-title">Effect of Co partitioning to the γ matrix on the microstructural stablity of a Ti-rich Ni-Base Superalloy</h3>
+  <div class="meta">
+    <span class="authors">Sudeepta Mukherjee, Hemant Kumar, B. S. Murty, Satyam Suwas, Surendra Kumar Makineni</span>
+    <span class="venue">arXiv preprint</span>
+    <span class="date">2025-07-21</span>
+    <span class="doi"><a href="http://arxiv.org/abs/2507.15447v2" target="_blank">link</a></span>
+  </div>
+  
+  
+  <div class="relevance"><b>相关性:</b> 该论文研究的是高温镍基合金的微观结构稳定性与力学性能，但完全不涉及增材制造工艺，与用户研究方向的AM力学性能无关。</div>
+  <div class="why-not-core"><b>边界:</b> This paper does not involve any additive manufacturing process, AM-specific microstructures, or AM mechanical property characterization.</div>
+  <div class="summary">
+    <div><b>动机·</b> 研究Co分配对Ti-rich镍基合金中γ&#x27;相粗化行为的影响</div>
+    <div><b>方法·</b> 结合原子探针层析和CALPHAD模拟分析合金元素分布</div>
+    <div><b>结果·</b> 增加Co含量显著提高粗化抗性且活化能增加两倍</div>
+    <div><b>验证·</b> 实验与CALPHAD模拟验证</div>
+  </div>
+  <details class="summary-en">
+    <summary>English summary &amp; terms</summary>
+    <div class="summary en">
+      <div><b>Motivation·</b> Investigate the effect of Co partitioning on γ&#x27; precipitate coarsening in Ti-rich Ni-base superalloys</div>
+      <div><b>Method·</b> Combine atom probe tomography and CALPHAD simulations to analyze elemental redistribution</div>
+      <div><b>Result·</b> Increasing Co content from 10 to 30 at.% leads to a significant increase in coarsening resistance and a twofold increase in activation energy</div>
+      <div><b>Validation·</b> Validated through experimental characterization and thermodynamic simulations</div>
+    </div>
+    <div class="key-terms">
+      <span class="term"><b>gamma prime coarsening</b> · γ&#x27;相粗化</span><span class="term"><b>Co partitioning</b> · Co分配</span><span class="term"><b>CALPHAD</b> · CALPHAD方法</span><span class="term"><b>atom probe tomography</b> · 原子探针层析</span><span class="term"><b>lattice misfit</b> · 晶格错配</span><span class="term"><b>Ni-base superalloy</b> · 镍基高温合金</span><span class="term"><b>microstructural stability</b> · 微观结构稳定性</span>
+    </div>
+  </details>
+  <div class="tags-row"><span class="tag">Ni-base superalloy</span> <span class="tag">gamma prime coarsening</span> <span class="tag">Co partitioning</span> <span class="tag">CALPHAD</span> <span class="tag">atom probe tomography</span></div>
+  
+  
+  <div class="rui-card-tools">
+    <span class="rui-mark-group"><b>Mark:</b> <label class="m-to-read"><input type="radio" class="rui-mark-radio" name="rui-mark-arxiv-2507-15447v2" value="to-read">to-read</label><label class="m-read"><input type="radio" class="rui-mark-radio" name="rui-mark-arxiv-2507-15447v2" value="read">read</label><label class="m-interesting"><input type="radio" class="rui-mark-radio" name="rui-mark-arxiv-2507-15447v2" value="interesting">interesting</label><label class="m-ignore"><input type="radio" class="rui-mark-radio" name="rui-mark-arxiv-2507-15447v2" value="ignore">ignore</label></span>
+    <button type="button" class="rui-note-btn">Note</button>
+    <button type="button" class="rui-promote-btn">Send to lit-system</button>
+    <div class="rui-note-wrap">
+      <textarea class="rui-note-ta" placeholder="Private note (saved on blur, this browser only)"></textarea>
+    </div>
+  </div>
+</article>
+<article class="paper" id="doi-10-1179-1743284713Y-0000000468" data-direction="mechanical_properties" data-priority="Exclude" data-identity-key="doi:10.1179/1743284713Y.0000000468" data-title="Local texture of three-stage CVD SiC fibre by precession electron diffraction (PED) and XRD" data-date="2025-07-21">
+  <div class="paper-head">
+    <span class="priority" style="background:#FCEBEB;color:#791F1F">Exclude</span>
+    <span class="direction-pill" style="background:#2E7D6B20;color:#2E7D6B">AM Mechanical Properties</span>
+    <span class="source">arxiv</span>
+    <span class="relevance-level lvl-peripheral">Peripheral</span>
+    <span class="read-action act-ignore">Ignore</span>
+    <span class="validation-kind">none</span>
+    <span class="flag">Exp. validation</span>
+  </div>
+  <h3 class="paper-title">Local texture of three-stage CVD SiC fibre by precession electron diffraction (PED) and XRD</h3>
+  <div class="meta">
+    <span class="authors">B. Huang, Y. Q. Yang, M. H. Li, Y. X. Chen, X. Luo et al.</span>
+    <span class="venue">arXiv preprint</span>
+    <span class="date">2025-07-21</span>
+    <span class="doi"><a href="https://doi.org/10.1179/1743284713Y.0000000468" target="_blank">10.1179/1743284713Y.0000000468</a></span>
+  </div>
+  
+  
+  <div class="relevance"><b>相关性:</b> 该论文研究的是CVD SiC纤维的织构，与增材制造和生物医学植入物方向无关。</div>
+  <div class="why-not-core"><b>边界:</b> The paper studies texture in CVD SiC fibres, with no additive manufacturing context, biomedical application, or mechanical property validation relevant to the user&#x27;s directions.</div>
+  <div class="summary">
+    <div><b>动机·</b> 研究CVD SiC纤维的局部织构以理解其力学性能。</div>
+    <div><b>方法·</b> 使用XRD和PED技术表征纤维不同沉积阶段的织构。</div>
+    <div><b>结果·</b> 发现第二、三沉积阶段存在(110)&lt;111&gt;和(110)&lt;115&gt;织构，且第三阶段晶粒更细。</div>
+    <div><b>验证·</b> XRD和PED结果相互验证。</div>
+  </div>
+  <details class="summary-en">
+    <summary>English summary &amp; terms</summary>
+    <div class="summary en">
+      <div><b>Motivation·</b> To investigate the local texture of CVD SiC fibres for understanding their anisotropic mechanical properties.</div>
+      <div><b>Method·</b> X-ray diffraction (XRD) and precession electron diffraction (PED) in TEM were used to characterize texture across different deposition stages.</div>
+      <div><b>Result·</b> Two types of texture, (110)&lt;111&gt; and (110)&lt;115&gt;, were identified in the second and third stages, with finer grain size at the third stage due to lower temperature.</div>
+      <div><b>Validation·</b> Agreement between XRD and PED results cross-validated the texture analysis.</div>
+    </div>
+    <div class="key-terms">
+      <span class="term"><b>SiC fibre</b> · 碳化硅纤维</span><span class="term"><b>texture</b> · 织构</span><span class="term"><b>CVD</b> · 化学气相沉积</span><span class="term"><b>precession electron diffraction</b> · 旋进电子衍射</span><span class="term"><b>XRD</b> · X射线衍射</span><span class="term"><b>grain size</b> · 晶粒尺寸</span><span class="term"><b>transverse isotropic</b> · 横向各向同性</span><span class="term"><b>tensile strength</b> · 拉伸强度</span>
+    </div>
+  </details>
+  <div class="tags-row"><span class="tag">SiC fibre</span> <span class="tag">texture</span> <span class="tag">CVD</span> <span class="tag">XRD</span> <span class="tag">PED</span></div>
+  
+  
+  <div class="rui-card-tools">
+    <span class="rui-mark-group"><b>Mark:</b> <label class="m-to-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1179-1743284713Y-0000000468" value="to-read">to-read</label><label class="m-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1179-1743284713Y-0000000468" value="read">read</label><label class="m-interesting"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1179-1743284713Y-0000000468" value="interesting">interesting</label><label class="m-ignore"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1179-1743284713Y-0000000468" value="ignore">ignore</label></span>
+    <button type="button" class="rui-note-btn">Note</button>
+    <button type="button" class="rui-promote-btn">Send to lit-system</button>
+    <div class="rui-note-wrap">
+      <textarea class="rui-note-ta" placeholder="Private note (saved on blur, this browser only)"></textarea>
+    </div>
+  </div>
+</article>
+
+</body></html>

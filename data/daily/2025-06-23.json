@@ -1,0 +1,132 @@
+{
+  "schema_version": "v2",
+  "date": "2025-06-23",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2506.18342v1",
+      "doi": "",
+      "arxiv_id": "2506.18342v1",
+      "title": "Wide-field Hyperspectral Optical Microscopy for Rapid Characterization of Two-Dimensional Semiconductors and Heterostructures",
+      "abstract": "Electronic and optoelectronic applications of two-dimensional (2D) semiconductors demand precise control over material quality, including thickness, composition, doping, and defect density. Conventional benchmarking methods (e.g., charge transport, confocal mapping, electron or scanning probe microscopy) are slow, perturb sample quality, or involve trade-offs between speed, resolution, and scan area. To accelerate assessment of 2D semiconductors, we demonstrate a broadband, wide-field hyperspectral optical microscope for 2D materials (2D-HOM) that rapidly captures a spatial-spectral data cube within seconds. The data cube includes x-y spatial coordinate (a 300 * 300 $μ\\mathrm{m}^2$ field, with ~ 1 $μ\\mathrm{m}$ resolution) and a selectable wavelength range between 1100 to 200 nm at each pixel. Using synthesized films and heterostructures of transition metal dichalcogenides ($\\mathrm{MoS}_{2}$, $\\mathrm{WS}_{2}$, $\\mathrm{V}_{x}\\mathrm{W}_{1-x}\\mathrm{S}_{2}$, and $\\mathrm{WSe}_{2}$), we show that this cost-effective technique detects spectral fingerprints of material identity, doping, grain boundaries, and alloy composition, and enables advanced analysis, including unsupervised machine learning for spatial segmentation.",
+      "authors": [
+        "Zhenghan Peng",
+        "Adeyemi Uthman",
+        "Zhepeng Zhang",
+        "Anh Tuan Hoang",
+        "Xiang Zhu",
+        "Eric Pop",
+        "Andrew J. Mannix"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-06-23",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2506.18342v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文专注于二维半导体的光学表征，与用户的研究方向（生物打印、髋关节植入物、有限元代理建模、增材制造生物医学）无关。",
+        "why_not_core": "This paper does not involve biomedical implants, bioprinting, finite element analysis, or any context relevant to the user's directions; it is purely about materials characterization for 2D semiconductors.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "2D materials",
+          "hyperspectral imaging",
+          "machine learning",
+          "semiconductors"
+        ],
+        "summary_zh": {
+          "motivation": "快速表征二维半导体材料质量的需求。",
+          "method": "使用宽场高光谱显微镜采集空间-光谱数据立方体，结合机器学习分析。",
+          "result": "成功识别材料身份、掺杂、晶界等特性，实现空间分割。",
+          "validation": "在合成薄膜和异质结构上验证光谱指纹检测能力。"
+        },
+        "summary_en": {
+          "motivation": "The need for rapid, non-destructive characterization of two-dimensional semiconductors.",
+          "method": "A broadband wide-field hyperspectral microscope captures spatial-spectral data cubes, analyzed with unsupervised machine learning.",
+          "result": "The method detects spectral fingerprints of material identity, doping, grain boundaries, and alloy composition.",
+          "validation": "Demonstrated on synthesized films and heterostructures of transition metal dichalcogenides."
+        },
+        "key_terms": [
+          {
+            "en": "hyperspectral microscopy",
+            "zh": "高光谱显微镜"
+          },
+          {
+            "en": "two-dimensional semiconductors",
+            "zh": "二维半导体"
+          },
+          {
+            "en": "transition metal dichalcogenides",
+            "zh": "过渡金属硫族化合物"
+          },
+          {
+            "en": "grain boundaries",
+            "zh": "晶界"
+          },
+          {
+            "en": "spatial-spectral data cube",
+            "zh": "空间-光谱数据立方体"
+          },
+          {
+            "en": "unsupervised machine learning",
+            "zh": "无监督机器学习"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:10:24Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

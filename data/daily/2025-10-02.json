@@ -1,0 +1,118 @@
+{
+  "schema_version": "v2",
+  "date": "2025-10-02",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2510.03355v1",
+      "doi": "",
+      "arxiv_id": "2510.03355v1",
+      "title": "High Cycle S-N curve prediction for Al 7075-T6 alloy using Recurrent Neural Networks (RNNs)",
+      "abstract": "Aluminum is a widely used alloy, which is susceptible to fatigue failure. Characterizing fatigue performance for materials is extremely time and cost demanding, especially for high cycle data. To help mitigate this, a transfer learning based framework has been developed using Long short-term memory networks (LSTMs) in which a source LSTM model is trained based on pure axial fatigue data for Aluminum 7075-T6 alloy which is then transferred to predict high cycle torsional S-N curves. The framework was able to accurately predict Al torsional S-N curves for a much higher cycle range. It is the belief that this framework will help to drastically mitigate the cost of gathering fatigue characteristics for different materials and help prioritize tests with better cost and time constraints.",
+      "authors": [
+        "Aryan Patel"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-10-02",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2510.03355v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cs.LG",
+        "cond-mat.mtrl-sci",
+        "physics.app-ph"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "fatigue"
+      ],
+      "direction": "fatigue",
+      "direction_name": "AM Fatigue",
+      "routing_matches": {
+        "fatigue": [
+          "fatigue performance",
+          "s-n curve"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文使用RNN预测铝合金的高周疲劳S-N曲线，但未涉及增材制造工艺或材料，与AM疲劳方向相关性弱。",
+        "why_not_core": "This paper focuses on wrought aluminum fatigue prediction with no consideration of AM process-induced defects, microstructure, or experimental validation on AM materials.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "fatigue",
+          "neural network",
+          "transfer learning",
+          "aluminum",
+          "S-N curve"
+        ],
+        "summary_zh": {
+          "motivation": "降低高周疲劳测试成本和时间。",
+          "method": "基于LSTM的迁移学习框架预测扭转S-N曲线。",
+          "result": "准确预测高循环范围的扭转S-N曲线。",
+          "validation": "使用现有铝合金轴向疲劳数据验证模型。"
+        },
+        "summary_en": {
+          "motivation": "To reduce the cost and time of high-cycle fatigue characterization for materials.",
+          "method": "A transfer learning framework using LSTM networks trained on axial fatigue data is applied to predict torsional S-N curves.",
+          "result": "The framework accurately predicts torsional S-N curves for high cycle ranges.",
+          "validation": "Model validation using existing fatigue data for aluminum 7075-T6 alloy."
+        },
+        "key_terms": [
+          {
+            "en": "high cycle fatigue",
+            "zh": "高周疲劳"
+          },
+          {
+            "en": "S-N curve",
+            "zh": "S-N曲线"
+          },
+          {
+            "en": "Long short-term memory",
+            "zh": "长短期记忆网络"
+          },
+          {
+            "en": "transfer learning",
+            "zh": "迁移学习"
+          },
+          {
+            "en": "aluminum 7075-T6",
+            "zh": "7075-T6铝合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:14:51Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "fatigue": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "v2",
+  "date": "2025-06-09",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2506.07908v2",
+      "doi": "10.1103/c2hc-lyp2",
+      "arxiv_id": "2506.07908v2",
+      "title": "A common origin of photoplastic and electroplastic effects in ZnS",
+      "abstract": "Dislocation motion--the atomic-scale mechanism of crystal plasticity--governs the strength and ductility of materials. In functional materials, external stimuli beyond mechanical stress can also affect dislocation glide. In the wide band gap semiconductor ZnS, optical illumination suppresses plasticity, whereas electric fields can enhance dislocation motion. Here, we show that the common underlying mechanism for these phenomena is the charged dislocations that respond to the changes in carrier concentration. Our prior theoretical work showed that locally charged dislocations in ZnS trap excess carriers, triggering core reconstructions that modify their mobility, with the positively charged Zn-rich core dislocations showing the most drastic change. Here, we validate this prediction experimentally by showing that either optical excitation or electronic doping selectively inhibits the glide of Zn-rich dislocations in epitaxially grown ZnS. First, imaging individual interface misfit dislocations under different optical excitation conditions shows that Zn-core glide is strongly reduced as optical power is increased, while the S-core dislocations show negligible sensitivity to light, marking the first, single misfit dislocation imaging of the photoplastic effect. Next, we show that a similar behavior is observed with direct electron (n-type) doping of ZnS epitaxial layers grown beyond the critical thickness. As the n-type dopant density is increased, the resulting Zn-core dislocation density is reduced by more than one order of magnitude, while the S-core density remains essentially unchanged, causing a sign reversal of the strain-anisotropy with n-type doping. These results demonstrate a common origin for the opto-electronic sensitivity of dislocations in ZnS and provide a pathway for the engineering of dislocation content in compound semiconductors.",
+      "authors": [
+        "Alexandra Fonseca Montenegro",
+        "Sevim Genlik Polat",
+        "Md Mohsinur Rahman Adnan",
+        "Maryam Ghazisaeidi",
+        "Roberto C. Myers"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-06-09",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2506.07908v2",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究ZnS半导体中位错的光塑性和电塑性效应，与增材制造力学性能无关。",
+        "why_not_core": "This paper focuses on dislocation dynamics in ZnS semiconductors under optical and electrical stimuli, with no connection to additive manufacturing, biomedical implants, or mechanical testing of AM materials.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "ZnS",
+          "dislocation",
+          "photoplastic effect",
+          "electroplastic effect",
+          "semiconductor"
+        ],
+        "summary_zh": {
+          "motivation": "探究光塑性和电塑性效应在ZnS中的共同物理机制",
+          "method": "通过光学激发和电子掺杂实验，观察ZnS中不同核结构位错的运动",
+          "result": "Zn核位错对光照和n型掺杂敏感，S核位错不敏感，证实了带电位错捕获载流子的机制",
+          "validation": "单根位错成像和掺杂实验验证了理论预测"
+        },
+        "summary_en": {
+          "motivation": "This work aims to identify the common underlying mechanism of photoplastic and electroplastic effects in ZnS.",
+          "method": "The study uses optical excitation and n-type doping experiments to observe the glide behavior of individual misfit dislocations in epitaxial ZnS.",
+          "result": "Zn-core dislocations exhibit strong suppression under both optical power increase and n-type doping, while S-core dislocations remain unaffected, confirming the charged dislocation mechanism.",
+          "validation": "Experimental validation is achieved through single-misfit-dislocation imaging under varied optical conditions and doping levels."
+        },
+        "key_terms": [
+          {
+            "en": "dislocation",
+            "zh": "位错"
+          },
+          {
+            "en": "photoplastic effect",
+            "zh": "光塑性效应"
+          },
+          {
+            "en": "electroplastic effect",
+            "zh": "电塑性效应"
+          },
+          {
+            "en": "ZnS",
+            "zh": "硫化锌"
+          },
+          {
+            "en": "epitaxial layer",
+            "zh": "外延层"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:10:24Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

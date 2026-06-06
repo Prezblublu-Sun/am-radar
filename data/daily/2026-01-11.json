@@ -1,0 +1,143 @@
+{
+  "schema_version": "v2",
+  "date": "2026-01-11",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2601.06820v1",
+      "doi": "",
+      "arxiv_id": "2601.06820v1",
+      "title": "Bgolearn: a Unified Bayesian Optimization Framework for Accelerating Materials Discovery",
+      "abstract": "Efficient exploration of vast compositional and processing spaces is essential for accelerated materials discovery. Bayesian optimization (BO) provides a principled strategy for identifying optimal materials with minimal experiments, yet its adoption in materials science is hindered by implementation complexity and limited domain-specific tools. Here, we present Bgolearn, a comprehensive Python framework that makes BO accessible and practical for materials research through an intuitive interface, robust algorithms, and materials-oriented workflows. Bgolearn supports both single-objective and multi-objective Bayesian optimization with multiple acquisition functions (e.g., expected improvement, upper confidence bound, probability of improvement, and expected hypervolume improvement etc.), diverse surrogate models (including Gaussian processes, random forests, and gradient boosting etc.), and bootstrap-based uncertainty quantification. Benchmark studies show that Bgolearn reduces the number of required experiments by 40-60% compared with random search, grid search, and genetic algorithms, while maintaining comparable or superior solution quality. Its effectiveness is demonstrated not only through the studies presented in this paper, such as the identification of maximum-elastic-modulus triply periodic minimal surface structures, ultra-high-hardness high-entropy alloys, and high-strength, high-ductility medium-Mn steels, but also by numerous publications that have proven its impact in material discovery. With a modular architecture that integrates seamlessly into existing materials workflows and a graphical user interface (BgoFace) that removes programming barriers, Bgolearn establishes a practical and reliable platform for Bayesian optimization in materials science, and is openly available at https://github.com/Bin-Cao/Bgolearn.",
+      "authors": [
+        "Bin Cao",
+        "Jie Xiong",
+        "Jiaxuan Ma",
+        "Yuan Tian",
+        "Yirui Hu",
+        "Mengwei He",
+        "Longhan Zhang",
+        "Jiayu Wang",
+        "Jian Hui",
+        "Li Liu",
+        "Dezhen Xue",
+        "Turab Lookman",
+        "Tong-Yi Zhang"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-01-11",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2601.06820v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文介绍通用的贝叶斯优化框架，未涉及增材制造力学性能或生物医学植入物验证。",
+        "why_not_core": "This paper presents a Bayesian optimization framework for general materials discovery, without any focus on additive manufacturing, mechanical testing, or biomedical implant applications.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": true,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Bayesian optimization",
+          "materials discovery",
+          "surrogate modeling",
+          "Gaussian processes",
+          "multi-objective optimization"
+        ],
+        "summary_zh": {
+          "motivation": "加速材料发现，降低实验成本",
+          "method": "开发统一贝叶斯优化框架Bgolearn，集成多种代理模型和采集函数",
+          "result": "相比随机搜索等方法减少40-60%实验次数",
+          "validation": "通过基准测试和三个材料发现案例验证"
+        },
+        "summary_en": {
+          "motivation": "Efficient exploration of compositional and processing spaces is essential for accelerated materials discovery, but Bayesian optimization adoption is hindered by complexity.",
+          "method": "We present Bgolearn, a Python framework offering intuitive interfaces, multiple surrogate models, acquisition functions, and bootstrap-based uncertainty quantification for single and multi-objective optimization.",
+          "result": "Bgolearn reduces required experiments by 40-60% compared with traditional search methods while maintaining solution quality.",
+          "validation": "Validation includes benchmark studies and case studies on triply periodic minimal surface structures, high-entropy alloys, and high-strength steels."
+        },
+        "key_terms": [
+          {
+            "en": "Bayesian optimization",
+            "zh": "贝叶斯优化"
+          },
+          {
+            "en": "materials discovery",
+            "zh": "材料发现"
+          },
+          {
+            "en": "surrogate model",
+            "zh": "代理模型"
+          },
+          {
+            "en": "Gaussian process",
+            "zh": "高斯过程"
+          },
+          {
+            "en": "acquisition function",
+            "zh": "采集函数"
+          },
+          {
+            "en": "multi-objective optimization",
+            "zh": "多目标优化"
+          },
+          {
+            "en": "uncertainty quantification",
+            "zh": "不确定性量化"
+          },
+          {
+            "en": "high-entropy alloys",
+            "zh": "高熵合金"
+          },
+          {
+            "en": "triply periodic minimal surface",
+            "zh": "三周期极小曲面"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:18:22Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

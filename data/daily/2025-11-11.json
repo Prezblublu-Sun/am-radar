@@ -1,0 +1,121 @@
+{
+  "schema_version": "v2",
+  "date": "2025-11-11",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2511.08062v1",
+      "doi": "",
+      "arxiv_id": "2511.08062v1",
+      "title": "Non-destructive 3D characterization of microtextured regions in the bulk of Ti-6Al-4V alloy",
+      "abstract": "In this study we present spatially resolved texture and orientation maps from a cube-shaped sample of Ti-6Al-4V alloy, reconstructed by means of texture tomography (TT). Unlike grain resolved 3DXRD techniques which require \"spotty\" diffraction patterns, TT can reconstruct local (voxelized) orientation distribution function (ODFs) from continuous diffraction patterns collected in a 3D scanning procedure. Reconstructions of the same sample, scanned in two different settings and subsequent EBSD analysis parallel to one of the sample faces show excellent mutual agreement and validate the single-axis data collection and reconstruction procedure for this class of materials. The reconstruction reveals the presence and the 3D shape of several micro-textured regions, showing a sharp unimodal texture of the $α$-phase with a clear link of the orientation and spatial alignment of these zones to the rolling, transverse and normal directions of the rolled material.",
+      "authors": [
+        "Mads Carlsen",
+        "Xiaohan Zeng",
+        "Haixing Fang",
+        "Moritz Frewein",
+        "Tilman A. Grünewald",
+        "Joao Quinta da Fonseca",
+        "Wolfgang Ludwig"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-11-11",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2511.08062v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "ti6al4v_postprocess_hip",
+      "direction_name": "Ti-6Al-4V Post-processing & HIP",
+      "routing_matches": {
+        "ti6al4v_postprocess_hip": [
+          "Ti-6Al-4V"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文聚焦于Ti-6Al-4V合金的微观织构三维表征，未涉及后处理或热等静压工艺，因此与用户研究方向的相关性较低。",
+        "why_not_core": "This paper does not address any post-processing or HIP treatment; it only characterizes the as-rolled texture without any processing modification.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "texture tomography",
+          "Ti-6Al-4V",
+          "microtextured regions",
+          "EBSD",
+          "non-destructive characterization"
+        ],
+        "summary_zh": {
+          "motivation": "在三维空间内表征Ti-6Al-4V合金中的微织构区域",
+          "method": "采用X射线衍射织构层析成像（TT）技术重构体素化取向分布函数",
+          "result": "识别出多个尖锐单峰织构的微织构区域，其取向与轧制方向一致",
+          "validation": "通过相同样品的EBSD分析验证单轴扫描重建的准确性"
+        },
+        "summary_en": {
+          "motivation": "To characterize microtextured regions in Ti-6Al-4V alloy in three dimensions using a non-destructive technique.",
+          "method": "Texture tomography (TT) reconstructs voxelized orientation distribution functions from continuous diffraction patterns collected in a 3D scanning procedure.",
+          "result": "Several microtextured regions with sharp unimodal α-phase texture are identified, showing clear orientation alignment with the rolling, transverse, and normal directions.",
+          "validation": "The reconstruction is validated by excellent agreement with EBSD analysis performed on the same sample."
+        },
+        "key_terms": [
+          {
+            "en": "texture tomography",
+            "zh": "织构层析成像"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "microtextured regions",
+            "zh": "微织构区域"
+          },
+          {
+            "en": "orientation distribution function",
+            "zh": "取向分布函数"
+          },
+          {
+            "en": "EBSD",
+            "zh": "电子背散射衍射"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:15:55Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess_hip": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

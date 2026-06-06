@@ -1,0 +1,143 @@
+{
+  "schema_version": "v2",
+  "date": "2025-06-17",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2507.00024v1",
+      "doi": "",
+      "arxiv_id": "2507.00024v1",
+      "title": "AIMatDesign: Knowledge-Augmented Reinforcement Learning for Inverse Materials Design under Data Scarcity",
+      "abstract": "With the growing demand for novel materials, machine learning-driven inverse design methods face significant challenges in reconciling the high-dimensional materials composition space with limited experimental data. Existing approaches suffer from two major limitations: (I) machine learning models often lack reliability in high-dimensional spaces, leading to prediction biases during the design process; (II) these models fail to effectively incorporate domain expert knowledge, limiting their capacity to support knowledge-guided inverse design. To address these challenges, we introduce AIMatDesign, a reinforcement learning framework that addresses these limitations by augmenting experimental data using difference-based algorithms to build a trusted experience pool, accelerating model convergence. To enhance model reliability, an automated refinement strategy guided by large language models (LLMs) dynamically corrects prediction inconsistencies, reinforcing alignment between reward signals and state value functions. Additionally, a knowledge-based reward function leverages expert domain rules to improve stability and efficiency during training. Our experiments demonstrate that AIMatDesign significantly surpasses traditional machine learning and reinforcement learning methods in discovery efficiency, convergence speed, and success rates. Among the numerous candidates proposed by AIMatDesign, experimental synthesis of representative Zr-based alloys yielded a top-performing BMG with 1.7GPa yield strength and 10.2\\% elongation, closely matching predictions. Moreover, the framework accurately captured the trend of yield strength variation with composition, demonstrating its reliability and potential for closed-loop materials discovery.",
+      "authors": [
+        "Yeyong Yu",
+        "Xilei Bian",
+        "Jie Xiong",
+        "Xing Wu",
+        "Quan Qian"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-06-17",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2507.00024v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cs.LG",
+        "cond-mat.mtrl-sci",
+        "cs.AI"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "yield strength",
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及材料逆设计，但未涉及增材制造工艺或AM部件的力学性能，与用户方向无关。",
+        "why_not_core": "This paper focuses on inverse design of bulk metallic glass compositions using reinforcement learning, without any connection to additive manufacturing, AM mechanical properties, or process-structure-property relationships.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "materials design",
+          "reinforcement learning",
+          "inverse design",
+          "bulk metallic glass",
+          "large language model",
+          "composition optimization"
+        ],
+        "summary_zh": {
+          "motivation": "解决高维材料成分空间中实验数据稀缺下逆向设计不可靠的问题",
+          "method": "构建基于差异算法的可信经验池，用LLM自动修正预测偏差，结合知识驱动奖励函数",
+          "result": "发现新型锆基BMG，屈服强度1.7GPa延伸率10.2%，与预测吻合",
+          "validation": "实验合成代表性合金并测试力学性能验证预测结果"
+        },
+        "summary_en": {
+          "motivation": "Machine learning-driven inverse materials design faces challenges of high-dimensional composition spaces and limited experimental data, leading to unreliable predictions.",
+          "method": "AIMatDesign augments experimental data via difference-based algorithms, corrects predictions using LLM-guided refinement, and incorporates expert domain rules into a knowledge-based reward function.",
+          "result": "The framework discovers novel Zr-based bulk metallic glasses with yield strength of 1.7 GPa and elongation of 10.2%, closely matching experimental results.",
+          "validation": "Experimental synthesis and mechanical testing of candidate alloys validate the framework's predictions and trend capture."
+        },
+        "key_terms": [
+          {
+            "en": "inverse materials design",
+            "zh": "逆向材料设计"
+          },
+          {
+            "en": "reinforcement learning",
+            "zh": "强化学习"
+          },
+          {
+            "en": "bulk metallic glass",
+            "zh": "块体金属玻璃"
+          },
+          {
+            "en": "large language model",
+            "zh": "大语言模型"
+          },
+          {
+            "en": "knowledge augmentation",
+            "zh": "知识增强"
+          },
+          {
+            "en": "composition optimization",
+            "zh": "成分优化"
+          },
+          {
+            "en": "yield strength",
+            "zh": "屈服强度"
+          },
+          {
+            "en": "elongation",
+            "zh": "延伸率"
+          },
+          {
+            "en": "experimental validation",
+            "zh": "实验验证"
+          },
+          {
+            "en": "data scarcity",
+            "zh": "数据稀缺"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:10:24Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

@@ -1,0 +1,496 @@
+<!doctype html><html lang="zh"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Research Radar — 2025-08-01</title>
+<style>
+:root{
+--c-brand:#1B4D7E;--c-accent:#E89C3A;--c-bg:#FAFAF7;--c-card-bg:#FFFFFF;--c-card-border:#ECEAE3;
+--c-text-primary:#1F2937;--c-text-secondary:#4B5563;--c-text-meta:#8B8980;--c-text-muted:#B5B3AA;
+--c-priority-h:#C8362A;--c-priority-m:#E89C3A;--c-priority-l:#A0A0A0;--c-priority-x:#D5D5D5;
+--c-mark-toread:#E8B538;--c-mark-read:#5B8C5A;--c-mark-int:#4A6FB5;--c-mark-ignore:#999999;
+--space-xs:4px;--space-sm:8px;--space-md:12px;--space-lg:20px;--space-xl:32px;
+--radius-sm:4px;--radius-md:8px;--radius-lg:12px;
+--text-xs:11px;--text-sm:13px;--text-md:14px;--text-lg:16px;--text-xl:22px;--text-h1:28px;
+--shadow-card:0 1px 3px rgba(0,0,0,0.04),0 1px 2px rgba(0,0,0,0.06);
+--shadow-hover:0 4px 12px rgba(27,77,126,0.10),0 2px 4px rgba(0,0,0,0.06);
+}
+
+body{font-family:-apple-system,'PingFang SC',BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:980px;margin:2rem auto;padding:0 1rem;background:var(--c-bg);color:var(--c-text-primary);line-height:1.5}
+h1{font-size:var(--text-h1);font-weight:600;margin:0 0 var(--space-xs);color:var(--c-brand)}
+.subtitle{color:var(--c-text-meta);font-size:var(--text-sm);margin-bottom:var(--space-xl)}
+.topbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:10px 0;margin-bottom:1.25rem;border-bottom:1px solid var(--c-card-border)}
+.navbtn{font-size:var(--text-sm);background:var(--c-card-bg);color:var(--c-text-secondary);padding:6px 12px;border:1px solid var(--c-card-border);border-radius:var(--radius-md);text-decoration:none}
+.navbtn:hover{background:var(--c-brand);color:#fff;border-color:var(--c-brand)}
+.navbtn.disabled{color:var(--c-text-muted);background:var(--c-bg);cursor:default}
+.archive-select{font-size:var(--text-sm);padding:6px 10px;border:1px solid var(--c-card-border);border-radius:var(--radius-md);background:var(--c-card-bg);color:var(--c-text-secondary);cursor:pointer}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--space-md);margin-bottom:1.5rem}
+.stat{background:var(--c-card-bg);border:1px solid var(--c-card-border);border-radius:var(--radius-md);padding:.75rem 1rem}
+.stat-label{font-size:12px;color:var(--c-text-meta)}
+.stat-val{font-size:var(--text-xl);font-weight:600;margin-top:2px}
+.tabs,.prio-filter{display:flex;gap:var(--space-sm);flex-wrap:wrap;margin-bottom:.75rem}
+.tab,.pf{background:transparent;border:1px solid var(--c-card-border);border-radius:var(--radius-md);padding:6px 14px;font-size:var(--text-sm);cursor:pointer;color:var(--c-text-secondary)}
+.tab.active,.pf.active{background:var(--c-brand);color:#fff;border-color:var(--c-brand)}
+.paper{background:var(--c-card-bg);border:1px solid var(--c-card-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin-bottom:var(--space-md)}
+.paper-head{display:flex;gap:var(--space-sm);align-items:center;flex-wrap:wrap;margin-bottom:var(--space-sm)}
+.priority{font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px}
+.direction-pill{font-size:var(--text-xs);padding:3px 8px;border-radius:var(--radius-md)}
+.source{font-size:var(--text-xs);color:var(--c-text-muted);text-transform:uppercase}
+.flag{font-size:var(--text-xs);background:#EEF2F8;color:var(--c-brand);padding:2px 7px;border-radius:6px}
+.paper-title{font-size:15px;font-weight:600;line-height:1.4;margin:4px 0;color:var(--c-text-primary)}
+.meta{font-size:12px;color:var(--c-text-meta);margin-bottom:10px}
+.meta>span{margin-right:12px}
+.relevance{font-size:var(--text-sm);background:var(--c-bg);padding:6px 10px;border-radius:6px;margin-bottom:var(--space-sm)}
+.summary{font-size:var(--text-sm);line-height:1.65}
+.summary>div{margin-bottom:4px}
+.tags-row{margin-top:var(--space-sm)}
+.tag{font-size:var(--text-xs);background:#EEF2F8;color:var(--c-brand);padding:2px 8px;border-radius:10px;font-weight:500;margin-right:4px}
+.paper[data-hidden="1"]{display:none}
+footer.run-info{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--c-card-border);font-size:12px;color:var(--c-text-meta)}
+footer.run-info summary{cursor:pointer;color:var(--c-text-secondary)}
+footer.run-info table{margin-top:var(--space-sm);font-family:ui-monospace,monospace;font-size:var(--text-xs)}
+footer.run-info td{padding:2px 12px 2px 0;vertical-align:top}
+footer.run-info td:first-child{color:var(--c-text-meta);width:140px}
+details.summary-en{margin-top:var(--space-sm);background:var(--c-bg);border-radius:var(--radius-md);padding:6px 12px;border:1px solid var(--c-card-border)}
+details.summary-en summary{cursor:pointer;font-size:12px;color:var(--c-text-secondary);font-weight:600}
+details.summary-en[open] summary{margin-bottom:var(--space-sm)}
+.summary.en{font-size:var(--text-sm);color:var(--c-text-secondary);line-height:1.55}
+.summary.en>div{margin-bottom:3px}
+.key-terms{margin-top:var(--space-sm);display:flex;flex-wrap:wrap;gap:6px}
+.term{font-size:var(--text-xs);background:var(--c-card-bg);border:1px solid var(--c-card-border);padding:3px 8px;border-radius:6px;color:var(--c-text-secondary)}
+.term b{color:var(--c-text-primary);font-weight:600}
+.affiliations{font-size:12px;color:var(--c-text-meta);margin-top:6px;padding-left:6px;border-left:2px solid var(--c-card-border)}
+.affiliations b{color:var(--c-text-secondary);font-weight:600}
+.corresponding{font-size:12px;color:var(--c-text-secondary);margin-top:3px;padding-left:6px;border-left:2px solid #aac}
+.corresponding b{color:#3F2E7E;font-weight:600}
+.corresp-aff{color:var(--c-text-meta)}
+.corresponding i{color:var(--c-text-meta);font-size:var(--text-xs)}
+.relevance-level{font-size:var(--text-xs);padding:3px 8px;border-radius:var(--radius-md);font-weight:600}
+.lvl-direct{background:#D4EBC4;color:#2D5A14}
+.lvl-transferable{background:#E0DDF4;color:#3F2E7E}
+.lvl-peripheral{background:#F1EFE8;color:#666}
+.read-action{font-size:var(--text-xs);padding:3px 8px;border-radius:var(--radius-md);font-weight:600;font-style:italic}
+.act-read-now{background:#FFE8D6;color:#7D4515}
+.act-save-for-project{background:#E6E1F5;color:#3A2C7A}
+.act-skim-only{background:#F0F0E8;color:#5C5C50}
+.act-background-only{background:#F5F5F0;color:#777}
+.act-ignore{background:#F5E8E8;color:#7A3A3A}
+.validation-kind{font-size:10px;background:#EDF4FA;color:#1F4A6B;padding:2px 7px;border-radius:6px}
+.why-not-core{font-size:12px;background:#FCF5E8;border-left:3px solid var(--c-accent);padding:5px 10px;margin-top:4px;color:#5A4318;border-radius:0 6px 6px 0}
+</style><link rel="stylesheet" href="radar-ui.css"><script src="radar-ui.js" defer></script></head><body>
+<h1>Research Radar</h1>
+<div class="subtitle">2025-08-01 · AM Mechanical Properties / AM Fatigue / Ti-6Al-4V Post-processing &amp; HIP / Femoral Stem (AM + traditional)</div>
+<div class="topbar"><a class="navbtn" href="2025-07-30.html">← 2025-07-30</a><select class="archive-select" onchange="if(this.value)window.location.href=this.value"><option value="2026-07-01.html">2026-07-01</option><option value="2026-06-01.html">2026-06-01</option><option value="2026-05-31.html">2026-05-31</option><option value="2026-05-28.html">2026-05-28</option><option value="2026-05-26.html">2026-05-26</option><option value="2026-05-24.html">2026-05-24</option><option value="2026-05-22.html">2026-05-22</option><option value="2026-05-21.html">2026-05-21</option><option value="2026-05-19.html">2026-05-19</option><option value="2026-05-18.html">2026-05-18</option><option value="2026-05-15.html">2026-05-15</option><option value="2026-05-14.html">2026-05-14</option><option value="2026-05-13.html">2026-05-13</option><option value="2026-05-12.html">2026-05-12</option><option value="2026-05-11.html">2026-05-11</option><option value="2026-05-07.html">2026-05-07</option><option value="2026-05-06.html">2026-05-06</option><option value="2026-05-03.html">2026-05-03</option><option value="2026-05-01.html">2026-05-01</option><option value="2026-04-30.html">2026-04-30</option><option value="2026-04-28.html">2026-04-28</option><option value="2026-04-27.html">2026-04-27</option><option value="2026-04-25.html">2026-04-25</option><option value="2026-04-23.html">2026-04-23</option><option value="2026-04-22.html">2026-04-22</option><option value="2026-04-21.html">2026-04-21</option><option value="2026-04-20.html">2026-04-20</option><option value="2026-04-17.html">2026-04-17</option><option value="2026-04-16.html">2026-04-16</option><option value="2026-04-14.html">2026-04-14</option><option value="2026-04-10.html">2026-04-10</option><option value="2026-04-09.html">2026-04-09</option><option value="2026-04-08.html">2026-04-08</option><option value="2026-04-07.html">2026-04-07</option><option value="2026-04-04.html">2026-04-04</option><option value="2026-04-03.html">2026-04-03</option><option value="2026-04-02.html">2026-04-02</option><option value="2026-04-01.html">2026-04-01</option><option value="2026-03-31.html">2026-03-31</option><option value="2026-03-30.html">2026-03-30</option><option value="2026-03-26.html">2026-03-26</option><option value="2026-03-25.html">2026-03-25</option><option value="2026-03-21.html">2026-03-21</option><option value="2026-03-20.html">2026-03-20</option><option value="2026-03-19.html">2026-03-19</option><option value="2026-03-17.html">2026-03-17</option><option value="2026-03-16.html">2026-03-16</option><option value="2026-03-14.html">2026-03-14</option><option value="2026-03-13.html">2026-03-13</option><option value="2026-03-12.html">2026-03-12</option><option value="2026-03-10.html">2026-03-10</option><option value="2026-03-09.html">2026-03-09</option><option value="2026-03-07.html">2026-03-07</option><option value="2026-03-06.html">2026-03-06</option><option value="2026-03-05.html">2026-03-05</option><option value="2026-03-04.html">2026-03-04</option><option value="2026-03-01.html">2026-03-01</option><option value="2026-02-28.html">2026-02-28</option><option value="2026-02-25.html">2026-02-25</option><option value="2026-02-24.html">2026-02-24</option><option value="2026-02-23.html">2026-02-23</option><option value="2026-02-21.html">2026-02-21</option><option value="2026-02-20.html">2026-02-20</option><option value="2026-02-19.html">2026-02-19</option><option value="2026-02-16.html">2026-02-16</option><option value="2026-02-15.html">2026-02-15</option><option value="2026-02-13.html">2026-02-13</option><option value="2026-02-11.html">2026-02-11</option><option value="2026-02-10.html">2026-02-10</option><option value="2026-02-08.html">2026-02-08</option><option value="2026-02-07.html">2026-02-07</option><option value="2026-02-06.html">2026-02-06</option><option value="2026-02-05.html">2026-02-05</option><option value="2026-02-02.html">2026-02-02</option><option value="2026-02-01.html">2026-02-01</option><option value="2026-01-31.html">2026-01-31</option><option value="2026-01-29.html">2026-01-29</option><option value="2026-01-27.html">2026-01-27</option><option value="2026-01-25.html">2026-01-25</option><option value="2026-01-24.html">2026-01-24</option><option value="2026-01-23.html">2026-01-23</option><option value="2026-01-22.html">2026-01-22</option><option value="2026-01-21.html">2026-01-21</option><option value="2026-01-20.html">2026-01-20</option><option value="2026-01-18.html">2026-01-18</option><option value="2026-01-17.html">2026-01-17</option><option value="2026-01-16.html">2026-01-16</option><option value="2026-01-14.html">2026-01-14</option><option value="2026-01-13.html">2026-01-13</option><option value="2026-01-12.html">2026-01-12</option><option value="2026-01-11.html">2026-01-11</option><option value="2026-01-09.html">2026-01-09</option><option value="2026-01-08.html">2026-01-08</option><option value="2026-01-07.html">2026-01-07</option><option value="2026-01-06.html">2026-01-06</option><option value="2026-01-05.html">2026-01-05</option><option value="2026-01-02.html">2026-01-02</option><option value="2026-01-01.html">2026-01-01</option><option value="2025-12-27.html">2025-12-27</option><option value="2025-12-26.html">2025-12-26</option><option value="2025-12-23.html">2025-12-23</option><option value="2025-12-22.html">2025-12-22</option><option value="2025-12-21.html">2025-12-21</option><option value="2025-12-20.html">2025-12-20</option><option value="2025-12-19.html">2025-12-19</option><option value="2025-12-18.html">2025-12-18</option><option value="2025-12-17.html">2025-12-17</option><option value="2025-12-14.html">2025-12-14</option><option value="2025-12-10.html">2025-12-10</option><option value="2025-12-08.html">2025-12-08</option><option value="2025-12-05.html">2025-12-05</option><option value="2025-12-04.html">2025-12-04</option><option value="2025-12-03.html">2025-12-03</option><option value="2025-12-02.html">2025-12-02</option><option value="2025-12-01.html">2025-12-01</option><option value="2025-11-29.html">2025-11-29</option><option value="2025-11-28.html">2025-11-28</option><option value="2025-11-26.html">2025-11-26</option><option value="2025-11-24.html">2025-11-24</option><option value="2025-11-22.html">2025-11-22</option><option value="2025-11-20.html">2025-11-20</option><option value="2025-11-17.html">2025-11-17</option><option value="2025-11-14.html">2025-11-14</option><option value="2025-11-13.html">2025-11-13</option><option value="2025-11-11.html">2025-11-11</option><option value="2025-11-10.html">2025-11-10</option><option value="2025-11-09.html">2025-11-09</option><option value="2025-11-07.html">2025-11-07</option><option value="2025-11-05.html">2025-11-05</option><option value="2025-11-04.html">2025-11-04</option><option value="2025-11-01.html">2025-11-01</option><option value="2025-10-31.html">2025-10-31</option><option value="2025-10-30.html">2025-10-30</option><option value="2025-10-28.html">2025-10-28</option><option value="2025-10-27.html">2025-10-27</option><option value="2025-10-23.html">2025-10-23</option><option value="2025-10-22.html">2025-10-22</option><option value="2025-10-21.html">2025-10-21</option><option value="2025-10-17.html">2025-10-17</option><option value="2025-10-16.html">2025-10-16</option><option value="2025-10-15.html">2025-10-15</option><option value="2025-10-14.html">2025-10-14</option><option value="2025-10-09.html">2025-10-09</option><option value="2025-10-08.html">2025-10-08</option><option value="2025-10-07.html">2025-10-07</option><option value="2025-10-06.html">2025-10-06</option><option value="2025-10-05.html">2025-10-05</option><option value="2025-10-03.html">2025-10-03</option><option value="2025-10-02.html">2025-10-02</option><option value="2025-10-01.html">2025-10-01</option><option value="2025-09-28.html">2025-09-28</option><option value="2025-09-25.html">2025-09-25</option><option value="2025-09-23.html">2025-09-23</option><option value="2025-09-20.html">2025-09-20</option><option value="2025-09-18.html">2025-09-18</option><option value="2025-09-17.html">2025-09-17</option><option value="2025-09-15.html">2025-09-15</option><option value="2025-09-14.html">2025-09-14</option><option value="2025-09-11.html">2025-09-11</option><option value="2025-09-10.html">2025-09-10</option><option value="2025-09-06.html">2025-09-06</option><option value="2025-09-05.html">2025-09-05</option><option value="2025-09-03.html">2025-09-03</option><option value="2025-09-02.html">2025-09-02</option><option value="2025-09-01.html">2025-09-01</option><option value="2025-08-29.html">2025-08-29</option><option value="2025-08-28.html">2025-08-28</option><option value="2025-08-25.html">2025-08-25</option><option value="2025-08-24.html">2025-08-24</option><option value="2025-08-22.html">2025-08-22</option><option value="2025-08-21.html">2025-08-21</option><option value="2025-08-20.html">2025-08-20</option><option value="2025-08-19.html">2025-08-19</option><option value="2025-08-18.html">2025-08-18</option><option value="2025-08-15.html">2025-08-15</option><option value="2025-08-13.html">2025-08-13</option><option value="2025-08-12.html">2025-08-12</option><option value="2025-08-09.html">2025-08-09</option><option value="2025-08-07.html">2025-08-07</option><option value="2025-08-06.html">2025-08-06</option><option value="2025-08-04.html">2025-08-04</option><option value="2025-08-01.html" selected>2025-08-01</option><option value="2025-07-30.html">2025-07-30</option><option value="2025-07-28.html">2025-07-28</option><option value="2025-07-27.html">2025-07-27</option><option value="2025-07-26.html">2025-07-26</option><option value="2025-07-25.html">2025-07-25</option><option value="2025-07-23.html">2025-07-23</option><option value="2025-07-21.html">2025-07-21</option><option value="2025-07-18.html">2025-07-18</option><option value="2025-07-17.html">2025-07-17</option><option value="2025-07-16.html">2025-07-16</option><option value="2025-07-14.html">2025-07-14</option><option value="2025-07-11.html">2025-07-11</option><option value="2025-07-09.html">2025-07-09</option><option value="2025-07-06.html">2025-07-06</option><option value="2025-07-05.html">2025-07-05</option><option value="2025-07-04.html">2025-07-04</option><option value="2025-07-01.html">2025-07-01</option><option value="2025-06-30.html">2025-06-30</option><option value="2025-06-28.html">2025-06-28</option><option value="2025-06-27.html">2025-06-27</option><option value="2025-06-25.html">2025-06-25</option><option value="2025-06-24.html">2025-06-24</option><option value="2025-06-23.html">2025-06-23</option><option value="2025-06-22.html">2025-06-22</option><option value="2025-06-21.html">2025-06-21</option><option value="2025-06-20.html">2025-06-20</option><option value="2025-06-17.html">2025-06-17</option><option value="2025-06-15.html">2025-06-15</option><option value="2025-06-14.html">2025-06-14</option><option value="2025-06-13.html">2025-06-13</option><option value="2025-06-11.html">2025-06-11</option><option value="2025-06-10.html">2025-06-10</option><option value="2025-06-09.html">2025-06-09</option><option value="2025-06-08.html">2025-06-08</option><option value="2025-06-05.html">2025-06-05</option><option value="2025-06-04.html">2025-06-04</option><option value="2025-06-02.html">2025-06-02</option><option value="2025-06-01.html">2025-06-01</option><option value="2025-05-28.html">2025-05-28</option><option value="2025-05-24.html">2025-05-24</option><option value="2025-05-01.html">2025-05-01</option><option value="2025-01-01.html">2025-01-01</option></select><a class="navbtn" href="2025-08-04.html">2025-08-04 →</a><a class="navbtn" href="index.html">☀️ Calendar</a><a class="navbtn" href="weekly/index.html">📅 Weekly</a><a class="navbtn" href="status.html">📊 Status</a><a class="navbtn" href="search.html">🔍 Search</a><a class="navbtn" href="high-priority.html">⭐ High</a><a class="navbtn" href="my-marks.html">🔖 Marks</a><a class="navbtn" href="my-promotes.html">➜ Promote</a></div>
+<div class="stats"><div class="stat"><div class="stat-label">Total scored</div><div class="stat-val">8</div></div><div class="stat"><div class="stat-label">High</div><div class="stat-val" style="color:#27500A">0</div></div><div class="stat"><div class="stat-label">Medium</div><div class="stat-val" style="color:#633806">0</div></div><div class="stat"><div class="stat-label">Low</div><div class="stat-val" style="color:#5F5E5A">0</div></div></div>
+<div class="tabs"><button class="tab active" data-filter="all">All</button><button class="tab" data-filter="mechanical_properties">AM Mechanical Properties</button><button class="tab" data-filter="fatigue">AM Fatigue</button><button class="tab" data-filter="ti6al4v_postprocess_hip">Ti-6Al-4V Post-processing &amp; HIP</button><button class="tab" data-filter="am_femoral_stem">Femoral Stem (AM + traditional)</button></div>
+<div class="rui-filter-bar" id="rui-priority-filter"><b>Priority:</b> <label><input type="checkbox" class="rui-pf-cb" value="High" checked>High</label> <label><input type="checkbox" class="rui-pf-cb" value="Medium" checked>Medium</label> <label><input type="checkbox" class="rui-pf-cb" value="Low">Low</label> <label><input type="checkbox" class="rui-pf-cb" value="Exclude">Exclude</label></div>
+<div class="rui-filter-bar" id="rui-marks-filter"><b>My marks:</b> <label><input type="checkbox" class="rui-mf-cb" value="to-read" checked>to-read</label><label><input type="checkbox" class="rui-mf-cb" value="read" checked>read</label><label><input type="checkbox" class="rui-mf-cb" value="interesting" checked>interesting</label><label><input type="checkbox" class="rui-mf-cb" value="ignore" checked>ignore</label><label><input type="checkbox" class="rui-mf-cb" value="none" checked>(no mark)</label></div>
+
+<article class="paper" id="doi-10-1111-os-70092" data-direction="am_femoral_stem" data-priority="Exclude" data-identity-key="doi:10.1111/os.70092" data-title="Modular Femoral Stem for Hartofilakidis Type C Hip Dysplasia: Is It Necessary for 1-mm Increment of Distal Stem Diameter?" data-date="2025-08-01">
+  <div class="paper-head">
+    <span class="priority" style="background:#FCEBEB;color:#791F1F">Exclude</span>
+    <span class="direction-pill" style="background:#1F6FB220;color:#1F6FB2">Femoral Stem (AM + traditional)</span>
+    <span class="source">pubmed</span>
+    <span class="relevance-level lvl-peripheral">Peripheral</span>
+    <span class="read-action act-ignore">Ignore</span>
+    <span class="validation-kind">clinical</span>
+    <span class="flag">Exp. validation</span>
+  </div>
+  <h3 class="paper-title">Modular Femoral Stem for Hartofilakidis Type C Hip Dysplasia: Is It Necessary for 1-mm Increment of Distal Stem Diameter?</h3>
+  <div class="meta">
+    <span class="authors">Jiafeng Yi, Hongbin Xie, Yubo Liu, Yijian Huang, Wei Chai et al.</span>
+    <span class="venue">Orthopaedic surgery</span>
+    <span class="date">2025-08-01</span>
+    <span class="doi"><a href="https://doi.org/10.1111/os.70092" target="_blank">10.1111/os.70092</a></span>
+  </div>
+  <div class="affiliations"><b>单位:</b> School of Medicine, Nankai University, Tianjin, China.; Senior Department of Orthopedics, The Fourth Medical Center of PLA General Hospital, Beijing, China.; National Clinical Research Center for Orth</div>
+  <div class="corresponding"><b>通讯:</b> Xiangpeng Kong <span class="corresp-aff">@ Senior Department of Orthopedics, The Fourth Medical Center of PLA General Hospital, Beijing, China.; National Clinical </span> <i>[推断]</i></div>
+  <div class="relevance"><b>相关性:</b> 该论文为临床回顾性研究，未涉及应力遮挡、微动、骨整合或增材制造等用户研究方向的核心内容。</div>
+  <div class="why-not-core"><b>边界:</b> This paper is a clinical outcome study on S-ROM stem fracture rates, lacking any quantification of stress shielding, micromotion, primary stability, or bone-implant interface mechanics, and does not address additive manufacturing or FE modeling.</div>
+  <div class="summary">
+    <div><b>动机·</b> 评估S-ROM假体2mm直径增量是否增加术中骨折风险</div>
+    <div><b>方法·</b> 回顾性纳入95例Hartofilakidis C型DDH患者，比较9mm与11mm组临床结局</div>
+    <div><b>结果·</b> 2mm增量组骨折率近5倍于1mm增量组，1mm增量更安全</div>
+    <div><b>验证·</b> 基于临床回顾性数据的统计分析</div>
+  </div>
+  <details class="summary-en">
+    <summary>English summary &amp; terms</summary>
+    <div class="summary en">
+      <div><b>Motivation·</b> To determine whether the 2-mm incremental increase in distal stem diameter of the S-ROM prosthesis elevates the risk of intraoperative femoral fractures in high-riding DDH patients.</div>
+      <div><b>Method·</b> A retrospective comparative study of 95 DDH patients (109 hips) receiving 9 mm or 11 mm S-ROM stems, analyzing intraoperative fracture rates, medullary diameter, and canal filling ratio.</div>
+      <div><b>Result·</b> The 11 mm group exhibited a significantly higher intraoperative fracture rate (16.3% vs 3.3%), indicating that a 2-mm increment increases fracture risk and a 1-mm increment is advisable.</div>
+      <div><b>Validation·</b> Clinical retrospective cohort with statistical hypothesis testing (t-test, chi-square, logistic regression).</div>
+    </div>
+    <div class="key-terms">
+      <span class="term"><b>developmental dysplasia of the hip (DDH)</b> · 发育性髋关节发育不良</span><span class="term"><b>S-ROM prosthesis</b> · S-ROM假体</span><span class="term"><b>modular femoral stem</b> · 模块化股骨柄</span><span class="term"><b>intraoperative periprosthetic fracture</b> · 术中假体周围骨折</span><span class="term"><b>canal filling ratio</b> · 髓腔填充率</span><span class="term"><b>subtrochanteric osteotomy</b> · 转子下截骨</span>
+    </div>
+  </details>
+  <div class="tags-row"><span class="tag">modular femoral stem</span> <span class="tag">DDH</span> <span class="tag">intraoperative fracture</span> <span class="tag">S-ROM</span> <span class="tag">clinical study</span></div>
+  
+  
+  <div class="rui-card-tools">
+    <span class="rui-mark-group"><b>Mark:</b> <label class="m-to-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1111-os-70092" value="to-read">to-read</label><label class="m-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1111-os-70092" value="read">read</label><label class="m-interesting"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1111-os-70092" value="interesting">interesting</label><label class="m-ignore"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1111-os-70092" value="ignore">ignore</label></span>
+    <button type="button" class="rui-note-btn">Note</button>
+    <button type="button" class="rui-promote-btn">Send to lit-system</button>
+    <div class="rui-note-wrap">
+      <textarea class="rui-note-ta" placeholder="Private note (saved on blur, this browser only)"></textarea>
+    </div>
+  </div>
+</article>
+<article class="paper" id="doi-10-1016-j-jor-2025-05-036" data-direction="am_femoral_stem" data-priority="Exclude" data-identity-key="doi:10.1016/j.jor.2025.05.036" data-title="Low risk of periprosthetic fracture and subsidence with automated impaction device in arthroplasty following femoral neck fracture: A retrospective study." data-date="2025-08-01">
+  <div class="paper-head">
+    <span class="priority" style="background:#FCEBEB;color:#791F1F">Exclude</span>
+    <span class="direction-pill" style="background:#1F6FB220;color:#1F6FB2">Femoral Stem (AM + traditional)</span>
+    <span class="source">pubmed</span>
+    <span class="relevance-level lvl-peripheral">Peripheral</span>
+    <span class="read-action act-ignore">Ignore</span>
+    <span class="validation-kind">clinical</span>
+    <span class="flag">Exp. validation</span>
+  </div>
+  <h3 class="paper-title">Low risk of periprosthetic fracture and subsidence with automated impaction device in arthroplasty following femoral neck fracture: A retrospective study.</h3>
+  <div class="meta">
+    <span class="authors">Courtney Levit, Ryan Decook, Joseph M Schwab, Thomas L Bradbury, Natalie L Gresham et al.</span>
+    <span class="venue">Journal of orthopaedics</span>
+    <span class="date">2025-08-01</span>
+    <span class="doi"><a href="https://doi.org/10.1016/j.jor.2025.05.036" target="_blank">10.1016/j.jor.2025.05.036</a></span>
+  </div>
+  <div class="affiliations"><b>单位:</b> Medical College of Georgia, Augusta University, Augusta, Georgia.</div>
+  <div class="corresponding"><b>通讯:</b> Brandon Naylor <span class="corresp-aff">@ Total Joint Specialists, Advanced Center for Joint Surgery and Northside Hospital Forsyth, Cumming, Georgia.</span> <i>[推断]</i></div>
+  <div class="relevance"><b>相关性:</b> 该论文是临床回顾性研究，未涉及生物力学建模、应力遮挡、增材制造或人工智能，与用户研究方向无关。</div>
+  <div class="why-not-core"><b>边界:</b> No biomechanics modeling (FEA/stress shielding), no implant design or additive manufacturing, no AI/ML integration.</div>
+  <div class="summary">
+    <div><b>动机·</b> 评估自动撞击装置在股骨颈骨折髋关节置换术中的早期并发症率。</div>
+    <div><b>方法·</b> 回顾性队列研究，纳入118例患者，使用自动撞击装置植入非骨水泥股骨柄。</div>
+    <div><b>结果·</b> 30天内无股骨柄翻修，并发症率低。</div>
+    <div><b>验证·</b> 临床回顾性数据验证。</div>
+  </div>
+  <details class="summary-en">
+    <summary>English summary &amp; terms</summary>
+    <div class="summary en">
+      <div><b>Motivation·</b> To evaluate early complication rates of an automated impaction device in hip arthroplasty for femoral neck fractures.</div>
+      <div><b>Method·</b> A retrospective cohort study of 118 patients who received a cementless femoral stem implanted with an automated impaction device.</div>
+      <div><b>Result·</b> No femoral stem revisions within 30 days and low rates of periprosthetic fracture and subsidence.</div>
+      <div><b>Validation·</b> Clinical retrospective cohort with minimum 30-day follow-up.</div>
+    </div>
+    <div class="key-terms">
+      <span class="term"><b>hip arthroplasty</b> · 髋关节置换术</span><span class="term"><b>femoral neck fracture</b> · 股骨颈骨折</span><span class="term"><b>automated impaction device</b> · 自动撞击装置</span><span class="term"><b>periprosthetic fracture</b> · 假体周围骨折</span><span class="term"><b>subsidence</b> · 下沉</span><span class="term"><b>cementless femoral stem</b> · 非骨水泥股骨柄</span><span class="term"><b>retrospective cohort study</b> · 回顾性队列研究</span>
+    </div>
+  </details>
+  <div class="tags-row"><span class="tag">hip arthroplasty</span> <span class="tag">femoral neck fracture</span> <span class="tag">automated impaction device</span> <span class="tag">periprosthetic fracture</span> <span class="tag">subsidence</span></div>
+  
+  
+  <div class="rui-card-tools">
+    <span class="rui-mark-group"><b>Mark:</b> <label class="m-to-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1016-j-jor-2025-05-036" value="to-read">to-read</label><label class="m-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1016-j-jor-2025-05-036" value="read">read</label><label class="m-interesting"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1016-j-jor-2025-05-036" value="interesting">interesting</label><label class="m-ignore"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1016-j-jor-2025-05-036" value="ignore">ignore</label></span>
+    <button type="button" class="rui-note-btn">Note</button>
+    <button type="button" class="rui-promote-btn">Send to lit-system</button>
+    <div class="rui-note-wrap">
+      <textarea class="rui-note-ta" placeholder="Private note (saved on blur, this browser only)"></textarea>
+    </div>
+  </div>
+</article>
+<article class="paper" id="doi-10-1111-vsu-14274" data-direction="am_femoral_stem" data-priority="Exclude" data-identity-key="doi:10.1111/vsu.14274" data-title="Medium-term outcomes of hybrid total hip arthroplasty in cats: Cemented femoral stem and cementless acetabular cup in 17 hips (2020-2023)." data-date="2025-08-01">
+  <div class="paper-head">
+    <span class="priority" style="background:#FCEBEB;color:#791F1F">Exclude</span>
+    <span class="direction-pill" style="background:#1F6FB220;color:#1F6FB2">Femoral Stem (AM + traditional)</span>
+    <span class="source">pubmed</span>
+    <span class="relevance-level lvl-peripheral">Peripheral</span>
+    <span class="read-action act-ignore">Ignore</span>
+    <span class="validation-kind">clinical</span>
+    <span class="flag">Exp. validation</span>
+  </div>
+  <h3 class="paper-title">Medium-term outcomes of hybrid total hip arthroplasty in cats: Cemented femoral stem and cementless acetabular cup in 17 hips (2020-2023).</h3>
+  <div class="meta">
+    <span class="authors">Daniel Lomas, Sorrel Langley-Hobbs, Kevin Parsons, Nicolas Barthelemy</span>
+    <span class="venue">Veterinary surgery : VS</span>
+    <span class="date">2025-08-01</span>
+    <span class="doi"><a href="https://doi.org/10.1111/vsu.14274" target="_blank">10.1111/vsu.14274</a></span>
+  </div>
+  <div class="affiliations"><b>单位:</b> Langford Veterinary Services, Bristol, UK.</div>
+  <div class="corresponding"><b>通讯:</b> Nicolas Barthelemy <span class="corresp-aff">@ Langford Veterinary Services, Bristol, UK.</span> <i>[推断]</i></div>
+  <div class="relevance"><b>相关性:</b> 该论文为猫科动物全髋置换的临床回顾研究，未涉及股骨柄的增材制造或力学分析，与用户研究方向无关。</div>
+  <div class="why-not-core"><b>边界:</b> This paper is a purely clinical veterinary study with no biomechanical modeling, no implant design, no FEA, and no additive manufacturing context.</div>
+  <div class="summary">
+    <div><b>动机·</b> 评估猫混合型全髋置换术的中期临床效果</div>
+    <div><b>方法·</b> 回顾性分析2020-2023年17例猫混合THR的临床及影像资料</div>
+    <div><b>结果·</b> 无并发症，主人满意度高，平均sf-FMPI评分2/36</div>
+    <div><b>验证·</b> 术后影像学随访及主人问卷调查</div>
+  </div>
+  <details class="summary-en">
+    <summary>English summary &amp; terms</summary>
+    <div class="summary en">
+      <div><b>Motivation·</b> To evaluate the medium-term clinical outcomes of hybrid total hip replacement using a cemented femoral stem and cementless acetabular cup in cats.</div>
+      <div><b>Method·</b> A retrospective case series of 17 feline hybrid THR procedures with radiographic analysis and owner-reported follow-up using the sf-FMPI questionnaire.</div>
+      <div><b>Result·</b> The procedure demonstrated low complication rate, excellent owner satisfaction, and stable implant positioning on follow-up radiographs.</div>
+      <div><b>Validation·</b> Clinical validation through postoperative radiographs and owner-reported outcome scores (sf-FMPI).</div>
+    </div>
+    <div class="key-terms">
+      <span class="term"><b>hybrid total hip replacement</b> · 混合型全髋置换术</span><span class="term"><b>cemented femoral stem</b> · 骨水泥型股骨柄</span><span class="term"><b>cementless acetabular cup</b> · 非骨水泥型髋臼杯</span><span class="term"><b>feline</b> · 猫科动物</span><span class="term"><b>short-form feline musculoskeletal pain index</b> · 猫肌肉骨骼疼痛指数简表</span>
+    </div>
+  </details>
+  <div class="tags-row"><span class="tag">feline</span> <span class="tag">hybrid THR</span> <span class="tag">cemented stem</span> <span class="tag">veterinary surgery</span> <span class="tag">clinical outcomes</span></div>
+  
+  
+  <div class="rui-card-tools">
+    <span class="rui-mark-group"><b>Mark:</b> <label class="m-to-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1111-vsu-14274" value="to-read">to-read</label><label class="m-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1111-vsu-14274" value="read">read</label><label class="m-interesting"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1111-vsu-14274" value="interesting">interesting</label><label class="m-ignore"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1111-vsu-14274" value="ignore">ignore</label></span>
+    <button type="button" class="rui-note-btn">Note</button>
+    <button type="button" class="rui-promote-btn">Send to lit-system</button>
+    <div class="rui-note-wrap">
+      <textarea class="rui-note-ta" placeholder="Private note (saved on blur, this browser only)"></textarea>
+    </div>
+  </div>
+</article>
+<article class="paper" id="doi-10-1016-j-ijscr-2025-111657" data-direction="am_femoral_stem" data-priority="Exclude" data-identity-key="doi:10.1016/j.ijscr.2025.111657" data-title="Mesh application enhances osteoinduction following proximal femur chondrosarcoma resection and Total hip arthroplasty: A case report and novel technique." data-date="2025-08-01">
+  <div class="paper-head">
+    <span class="priority" style="background:#FCEBEB;color:#791F1F">Exclude</span>
+    <span class="direction-pill" style="background:#1F6FB220;color:#1F6FB2">Femoral Stem (AM + traditional)</span>
+    <span class="source">pubmed</span>
+    <span class="relevance-level lvl-peripheral">Peripheral</span>
+    <span class="read-action act-ignore">Ignore</span>
+    <span class="validation-kind">clinical</span>
+    <span class="flag">Patient-specific</span>
+  </div>
+  <h3 class="paper-title">Mesh application enhances osteoinduction following proximal femur chondrosarcoma resection and Total hip arthroplasty: A case report and novel technique.</h3>
+  <div class="meta">
+    <span class="authors">Ahmad Hammad, John Abdelnour</span>
+    <span class="venue">International journal of surgery case reports</span>
+    <span class="date">2025-08-01</span>
+    <span class="doi"><a href="https://doi.org/10.1016/j.ijscr.2025.111657" target="_blank">10.1016/j.ijscr.2025.111657</a></span>
+  </div>
+  <div class="affiliations"><b>单位:</b> Department of Orthopedics Surgery, American University of Beirut Medical Center, Beirut, Lebanon.</div>
+  <div class="corresponding"><b>通讯:</b> John Abdelnour <span class="corresp-aff">@ Department of Orthopedics Surgery, American University of Beirut Medical Center, Beirut, Lebanon. Electronic address: ja</span></div>
+  <div class="relevance"><b>相关性:</b> 此病例报告讨论髋关节假体周围骨诱导，但未涉及力学建模或植入物设计。</div>
+  <div class="why-not-core"><b>边界:</b> Does not include any computational modeling, stress shielding quantification, or mechanical testing; it is a purely clinical case report with no engineering methodology validation.</div>
+  <div class="summary">
+    <div><b>动机·</b> 报告使用聚丙烯网增强髋关节假体周围骨诱导的临床效果。</div>
+    <div><b>方法·</b> 对一例60岁男性患者行广泛切除并采用网包裹骨移植的补救性全髋关节置换术。</div>
+    <div><b>结果·</b> 术后2个月X线显示假体与骨移植物间快速新骨形成。</div>
+    <div><b>验证·</b> 单病例临床随访观察。</div>
+  </div>
+  <details class="summary-en">
+    <summary>English summary &amp; terms</summary>
+    <div class="summary en">
+      <div><b>Motivation·</b> To report enhanced and faster osteoinduction using a polypropylene mesh around a hydroxyapatite-coated femoral stem in a salvage hip arthroplasty setting.</div>
+      <div><b>Method·</b> A 60-year-old male with proximal femur chondrosarcoma underwent wide resection and uncemented total hip arthroplasty with modular endoprosthesis, autograft, allograft, bone substitute, and a polypropylene mesh wrapping.</div>
+      <div><b>Result·</b> Radiographic evidence of new bone formation at the prosthesis-bone graft interface was observed as early as two months postoperatively.</div>
+      <div><b>Validation·</b> Single-patient clinical follow-up with X-ray imaging.</div>
+    </div>
+    <div class="key-terms">
+      <span class="term"><b>hydroxyapatite coating</b> · 羟基磷灰石涂层</span><span class="term"><b>polypropylene mesh</b> · 聚丙烯网</span><span class="term"><b>osteoinduction</b> · 骨诱导</span><span class="term"><b>salvage arthroplasty</b> · 补救性关节成形术</span><span class="term"><b>proximal femur</b> · 股骨近端</span><span class="term"><b>chondrosarcoma</b> · 软骨肉瘤</span><span class="term"><b>modular endoprosthesis</b> · 模块化肿瘤假体</span>
+    </div>
+  </details>
+  <div class="tags-row"><span class="tag">case report</span> <span class="tag">proximal femur</span> <span class="tag">chondrosarcoma</span> <span class="tag">hip arthroplasty</span> <span class="tag">mesh</span> <span class="tag">osteoinduction</span> <span class="tag">bone graft</span></div>
+  
+  
+  <div class="rui-card-tools">
+    <span class="rui-mark-group"><b>Mark:</b> <label class="m-to-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1016-j-ijscr-2025-111657" value="to-read">to-read</label><label class="m-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1016-j-ijscr-2025-111657" value="read">read</label><label class="m-interesting"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1016-j-ijscr-2025-111657" value="interesting">interesting</label><label class="m-ignore"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1016-j-ijscr-2025-111657" value="ignore">ignore</label></span>
+    <button type="button" class="rui-note-btn">Note</button>
+    <button type="button" class="rui-promote-btn">Send to lit-system</button>
+    <div class="rui-note-wrap">
+      <textarea class="rui-note-ta" placeholder="Private note (saved on blur, this browser only)"></textarea>
+    </div>
+  </div>
+</article>
+<article class="paper" id="doi-10-1016-j-arth-2025-03-078" data-direction="am_femoral_stem" data-priority="Exclude" data-identity-key="doi:10.1016/j.arth.2025.03.078" data-title="Is There a Role for Greater Trochanteric Osteotomies in Isolated Acetabular Revisions?" data-date="2025-08-01">
+  <div class="paper-head">
+    <span class="priority" style="background:#FCEBEB;color:#791F1F">Exclude</span>
+    <span class="direction-pill" style="background:#1F6FB220;color:#1F6FB2">Femoral Stem (AM + traditional)</span>
+    <span class="source">pubmed</span>
+    <span class="relevance-level lvl-peripheral">Peripheral</span>
+    <span class="read-action act-ignore">Ignore</span>
+    <span class="validation-kind">clinical</span>
+    
+  </div>
+  <h3 class="paper-title">Is There a Role for Greater Trochanteric Osteotomies in Isolated Acetabular Revisions?</h3>
+  <div class="meta">
+    <span class="authors">Nicholas R Olson, Tobenna N Nwankwo, P Henry Ho, Robert H Hopper, Craig J McAsey et al.</span>
+    <span class="venue">The Journal of arthroplasty</span>
+    <span class="date">2025-08-01</span>
+    <span class="doi"><a href="https://doi.org/10.1016/j.arth.2025.03.078" target="_blank">10.1016/j.arth.2025.03.078</a></span>
+  </div>
+  <div class="affiliations"><b>单位:</b> Anderson Orthopaedic Research Institute, Alexandria, Virginia.</div>
+  <div class="corresponding"><b>通讯:</b> Charles A Engh <span class="corresp-aff">@ Anderson Orthopaedic Research Institute, Alexandria, Virginia; Inova Mount Vernon Hospital Joint Replacement Center, Ale</span> <i>[推断]</i></div>
+  <div class="relevance"><b>相关性:</b> 这篇论文主要讨论髋臼翻修中的大转子截骨术，未涉及股骨柄设计或增材制造，与用户研究方向无关。</div>
+  <div class="why-not-core"><b>边界:</b> No femoral stem design, no biomechanics modeling, no implant manufacturing (AM), no stress shielding or micromotion analysis.</div>
+  <div class="summary">
+    <div><b>动机·</b> 探讨大转子截骨术在孤立髋臼翻修中的应用频率及结果</div>
+    <div><b>方法·</b> 回顾性分析1691例未翻修股骨柄的髋关节翻修术</div>
+    <div><b>结果·</b> 仅1.7%的病例使用截骨术，未导致股骨柄松动，但截骨不愈合是最常见并发症</div>
+    <div><b>验证·</b> 基于临床回顾性数据的统计分析</div>
+  </div>
+  <details class="summary-en">
+    <summary>English summary &amp; terms</summary>
+    <div class="summary en">
+      <div><b>Motivation·</b> To determine the frequency and outcomes of greater trochanteric osteotomy performed during isolated acetabular revisions without femoral component revision.</div>
+      <div><b>Method·</b> Retrospective analysis of 1,691 hip revision cases without femoral stem revision from 1998 to 2020.</div>
+      <div><b>Result·</b> Only 1.7% of isolated acetabular revisions required GTO, with no loosening of retained femoral stems but trochanteric nonunion as the most common complication.</div>
+      <div><b>Validation·</b> Clinical retrospective cohort analysis with mean 6.4 years follow-up.</div>
+    </div>
+    <div class="key-terms">
+      <span class="term"><b>greater trochanteric osteotomy</b> · 大转子截骨术</span><span class="term"><b>acetabular revision</b> · 髋臼翻修</span><span class="term"><b>femoral component retention</b> · 股骨柄保留</span><span class="term"><b>nonunion</b> · 骨不愈合</span><span class="term"><b>Harris Hip Score</b> · Harris髋关节评分</span><span class="term"><b>pelvic discontinuity</b> · 骨盆不连续</span>
+    </div>
+  </details>
+  <div class="tags-row"><span class="tag">greater trochanteric osteotomy</span> <span class="tag">acetabular revision</span> <span class="tag">total hip arthroplasty</span> <span class="tag">femoral component retention</span></div>
+  
+  
+  <div class="rui-card-tools">
+    <span class="rui-mark-group"><b>Mark:</b> <label class="m-to-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1016-j-arth-2025-03-078" value="to-read">to-read</label><label class="m-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1016-j-arth-2025-03-078" value="read">read</label><label class="m-interesting"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1016-j-arth-2025-03-078" value="interesting">interesting</label><label class="m-ignore"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1016-j-arth-2025-03-078" value="ignore">ignore</label></span>
+    <button type="button" class="rui-note-btn">Note</button>
+    <button type="button" class="rui-promote-btn">Send to lit-system</button>
+    <div class="rui-note-wrap">
+      <textarea class="rui-note-ta" placeholder="Private note (saved on blur, this browser only)"></textarea>
+    </div>
+  </div>
+</article>
+<article class="paper" id="doi-10-18926-AMO-69150" data-direction="am_femoral_stem" data-priority="Exclude" data-identity-key="doi:10.18926/AMO/69150" data-title="A Study of Periprosthetic Femoral Stem Fractures in Hip Arthroplasty for Femoral Neck Fracture." data-date="2025-08-01">
+  <div class="paper-head">
+    <span class="priority" style="background:#FCEBEB;color:#791F1F">Exclude</span>
+    <span class="direction-pill" style="background:#1F6FB220;color:#1F6FB2">Femoral Stem (AM + traditional)</span>
+    <span class="source">pubmed</span>
+    <span class="relevance-level lvl-peripheral">Peripheral</span>
+    <span class="read-action act-ignore">Ignore</span>
+    <span class="validation-kind">clinical</span>
+    
+  </div>
+  <h3 class="paper-title">A Study of Periprosthetic Femoral Stem Fractures in Hip Arthroplasty for Femoral Neck Fracture.</h3>
+  <div class="meta">
+    <span class="authors">Yoshiaki Miyake, Toru Takagi, Taizo Konishiike</span>
+    <span class="venue">Acta medica Okayama</span>
+    <span class="date">2025-08-01</span>
+    <span class="doi"><a href="https://doi.org/10.18926/AMO/69150" target="_blank">10.18926/AMO/69150</a></span>
+  </div>
+  <div class="affiliations"><b>单位:</b> Department of Orthopaedic Surgery, Japanese Red Cross Okayama Hospital.</div>
+  <div class="corresponding"><b>通讯:</b> Taizo Konishiike <span class="corresp-aff">@ Department of Orthopaedic Surgery, Japanese Red Cross Okayama Hospital.</span> <i>[推断]</i></div>
+  <div class="relevance"><b>相关性:</b> 该论文为临床回顾性研究，未涉及假体设计、力学建模或增材制造，与用户研究方向无直接关联。</div>
+  <div class="why-not-core"><b>边界:</b> No biomechanics modeling, FEA, implant design, AM fabrication, or mechanical testing; purely clinical risk factor analysis.</div>
+  <div class="summary">
+    <div><b>动机·</b> 探讨髋关节置换术中股骨假体周围骨折的危险因素</div>
+    <div><b>方法·</b> 回顾性分析215例股骨颈骨折患者的临床资料，统计骨折率与各因素关联</div>
+    <div><b>结果·</b> 骨折率4.7%，女性、高龄、低BMI、Dorr C型患者风险更高，骨水泥柄无骨折</div>
+    <div><b>验证·</b> 基于临床病例数据的统计分析</div>
+  </div>
+  <details class="summary-en">
+    <summary>English summary &amp; terms</summary>
+    <div class="summary en">
+      <div><b>Motivation·</b> To identify risk factors for periprosthetic femoral stem fractures during hip arthroplasty for femoral neck fractures.</div>
+      <div><b>Method·</b> Retrospective analysis of 215 patients correlating fracture rates with sex, age, BMI, Dorr classification, stem fixation type, and BMD.</div>
+      <div><b>Result·</b> Periprosthetic fracture prevalence was 4.7%, with higher risks in females, elderly, low BMI, and Dorr type C; cemented stems showed no fractures.</div>
+      <div><b>Validation·</b> Clinical data analysis from patient records</div>
+    </div>
+    <div class="key-terms">
+      <span class="term"><b>periprosthetic fracture</b> · 假体周围骨折</span><span class="term"><b>femoral stem</b> · 股骨柄</span><span class="term"><b>hip arthroplasty</b> · 髋关节置换术</span><span class="term"><b>femoral neck fracture</b> · 股骨颈骨折</span><span class="term"><b>Dorr classification</b> · Dorr分型</span><span class="term"><b>cemented stem</b> · 骨水泥型股骨柄</span><span class="term"><b>cementless stem</b> · 非骨水泥型股骨柄</span><span class="term"><b>bone mineral density</b> · 骨密度</span>
+    </div>
+  </details>
+  <div class="tags-row"><span class="tag">periprosthetic fracture</span> <span class="tag">hip arthroplasty</span> <span class="tag">femoral neck fracture</span> <span class="tag">clinical study</span></div>
+  
+  
+  <div class="rui-card-tools">
+    <span class="rui-mark-group"><b>Mark:</b> <label class="m-to-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-18926-AMO-69150" value="to-read">to-read</label><label class="m-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-18926-AMO-69150" value="read">read</label><label class="m-interesting"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-18926-AMO-69150" value="interesting">interesting</label><label class="m-ignore"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-18926-AMO-69150" value="ignore">ignore</label></span>
+    <button type="button" class="rui-note-btn">Note</button>
+    <button type="button" class="rui-promote-btn">Send to lit-system</button>
+    <div class="rui-note-wrap">
+      <textarea class="rui-note-ta" placeholder="Private note (saved on blur, this browser only)"></textarea>
+    </div>
+  </div>
+</article>
+<article class="paper" id="doi-10-1007-s43465-025-01394-6" data-direction="am_femoral_stem" data-priority="Exclude" data-identity-key="doi:10.1007/s43465-025-01394-6" data-title="Reproducibility of the Barrack and Gruen Grading Systems in Assessing Cement Mantle Quality in Hip Arthroplasty." data-date="2025-08-01">
+  <div class="paper-head">
+    <span class="priority" style="background:#FCEBEB;color:#791F1F">Exclude</span>
+    <span class="direction-pill" style="background:#1F6FB220;color:#1F6FB2">Femoral Stem (AM + traditional)</span>
+    <span class="source">pubmed</span>
+    <span class="relevance-level lvl-peripheral">Peripheral</span>
+    <span class="read-action act-ignore">Ignore</span>
+    <span class="validation-kind">clinical</span>
+    <span class="flag">Exp. validation</span> <span class="flag">Patient-specific</span>
+  </div>
+  <h3 class="paper-title">Reproducibility of the Barrack and Gruen Grading Systems in Assessing Cement Mantle Quality in Hip Arthroplasty.</h3>
+  <div class="meta">
+    <span class="authors">Manel Fa-Binefa, Alex Grau-Blanes, Esther Moya-Gomez, Ignasi Gich-Saladich, Marius Valera-Pertegás</span>
+    <span class="venue">Indian journal of orthopaedics</span>
+    <span class="date">2025-08-01</span>
+    <span class="doi"><a href="https://doi.org/10.1007/s43465-025-01394-6" target="_blank">10.1007/s43465-025-01394-6</a></span>
+  </div>
+  <div class="affiliations"><b>单位:</b> Hip Unit, Hospital de la Santa Creu i Sant Pau, Universitat Autònoma de Barcelona, 08025) Barcelona, Spain.; Sant Pau Biomedical Research Institute (IIB Sant Pau), Barcelona, Spain.</div>
+  <div class="corresponding"><b>通讯:</b> Marius Valera-Pertegás <span class="corresp-aff">@ Hip Unit, Hospital de la Santa Creu i Sant Pau, Universitat Autònoma de Barcelona, 08025) Barcelona, Spain.; Sant Pau Bi</span> <i>[推断]</i></div>
+  <div class="relevance"><b>相关性:</b> 该论文研究水泥壳质量分级系统的可重复性，与用户关注的股骨柄应力遮挡、微动及稳定性无关。</div>
+  <div class="why-not-core"><b>边界:</b> No biomechanics modeling, implant design, stress shielding quantification, micromotion analysis, or additive manufacturing; purely a clinical reproducibility study.</div>
+  <div class="summary">
+    <div><b>动机·</b> 评估水泥壳质量分级系统的可重复性及其可靠性。</div>
+    <div><b>方法·</b> 三位医生独立评估40例髋关节置换术后X光片。</div>
+    <div><b>结果·</b> Barrack和Gruen系统的一致性为轻度到中度，可靠性不足。</div>
+    <div><b>验证·</b> 临床X光片观察者间一致性分析。</div>
+  </div>
+  <details class="summary-en">
+    <summary>English summary &amp; terms</summary>
+    <div class="summary en">
+      <div><b>Motivation·</b> To evaluate the reproducibility of Barrack and Gruen grading systems for cement mantle quality in cemented hip arthroplasty.</div>
+      <div><b>Method·</b> Three observers independently assessed cementation quality on radiographs from 40 patients.</div>
+      <div><b>Result·</b> Intra- and interobserver agreement was slight to moderate, indicating insufficient reliability for clinical use.</div>
+      <div><b>Validation·</b> Clinical radiographic study with weighted kappa statistics.</div>
+    </div>
+    <div class="key-terms">
+      <span class="term"><b>Barrack grading system</b> · Barrack分级系统</span><span class="term"><b>Gruen grading system</b> · Gruen分级系统</span><span class="term"><b>cement mantle</b> · 水泥壳</span><span class="term"><b>reproducibility</b> · 可重复性</span><span class="term"><b>hip arthroplasty</b> · 髋关节置换术</span><span class="term"><b>radiographic assessment</b> · X光片评估</span>
+    </div>
+  </details>
+  <div class="tags-row"><span class="tag">reproducibility</span> <span class="tag">cement mantle</span> <span class="tag">grading systems</span> <span class="tag">hip arthroplasty</span> <span class="tag">radiographic assessment</span></div>
+  
+  
+  <div class="rui-card-tools">
+    <span class="rui-mark-group"><b>Mark:</b> <label class="m-to-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1007-s43465-025-01394-6" value="to-read">to-read</label><label class="m-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1007-s43465-025-01394-6" value="read">read</label><label class="m-interesting"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1007-s43465-025-01394-6" value="interesting">interesting</label><label class="m-ignore"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1007-s43465-025-01394-6" value="ignore">ignore</label></span>
+    <button type="button" class="rui-note-btn">Note</button>
+    <button type="button" class="rui-promote-btn">Send to lit-system</button>
+    <div class="rui-note-wrap">
+      <textarea class="rui-note-ta" placeholder="Private note (saved on blur, this browser only)"></textarea>
+    </div>
+  </div>
+</article>
+<article class="paper" id="doi-10-13107-jocr-2025-v15-i08-5890" data-direction="am_femoral_stem" data-priority="Exclude" data-identity-key="doi:10.13107/jocr.2025.v15.i08.5890" data-title="Progressive Loosening in Metal-on-Metal Total Hip Arthroplasty after Fifteen Years of Effective Function: Two Case Reports." data-date="2025-08-01">
+  <div class="paper-head">
+    <span class="priority" style="background:#FCEBEB;color:#791F1F">Exclude</span>
+    <span class="direction-pill" style="background:#1F6FB220;color:#1F6FB2">Femoral Stem (AM + traditional)</span>
+    <span class="source">pubmed</span>
+    <span class="relevance-level lvl-peripheral">Peripheral</span>
+    <span class="read-action act-ignore">Ignore</span>
+    <span class="validation-kind">clinical</span>
+    
+  </div>
+  <h3 class="paper-title">Progressive Loosening in Metal-on-Metal Total Hip Arthroplasty after Fifteen Years of Effective Function: Two Case Reports.</h3>
+  <div class="meta">
+    <span class="authors">Mohammad Salil, G Varun Prasad, Jai Thilak</span>
+    <span class="venue">Journal of orthopaedic case reports</span>
+    <span class="date">2025-08-01</span>
+    <span class="doi"><a href="https://doi.org/10.13107/jocr.2025.v15.i08.5890" target="_blank">10.13107/jocr.2025.v15.i08.5890</a></span>
+  </div>
+  <div class="affiliations"><b>单位:</b> Department of Orthopaedics, Amrita Institute of Medical Sciences and Research Centre, Kochi, Kerala, India.</div>
+  <div class="corresponding"><b>通讯:</b> Jai Thilak <span class="corresp-aff">@ Department of Orthopaedics, Amrita Institute of Medical Sciences and Research Centre, Kochi, Kerala, India.</span> <i>[推断]</i></div>
+  <div class="relevance"><b>相关性:</b> 该论文为金属对金属全髋关节置换术后松动的临床病例报告，不涉及植入物设计、有限元分析、增材制造或人工智能，与用户研究方向无关。</div>
+  <div class="why-not-core"><b>边界:</b> This paper is a clinical case report on metallosis and loosening in metal-on-metal THA, with no biomechanical modeling, implant design, finite element analysis, additive manufacturing, or AI/ML methods.</div>
+  <div class="summary">
+    <div><b>动机·</b> 报告金属对金属髋关节置换术后15年出现金属沉积和假体松动的病例</div>
+    <div><b>方法·</b> 两例临床病例的病史、影像学和血清金属离子水平分析</div>
+    <div><b>结果·</b> 翻修手术更换为陶瓷-聚乙烯界面后症状缓解</div>
+    <div><b>验证·</b> 临床病例观察，无对照或定量验证</div>
+  </div>
+  <details class="summary-en">
+    <summary>English summary &amp; terms</summary>
+    <div class="summary en">
+      <div><b>Motivation·</b> To report two cases of metallosis and femoral stem loosening occurring 15 years after metal-on-metal total hip arthroplasty.</div>
+      <div><b>Method·</b> Clinical evaluation, imaging, and serum metal ion level measurement were used to diagnose and manage the patients.</div>
+      <div><b>Result·</b> Revision surgery with alternative bearing surfaces resolved symptoms and restored function.</div>
+      <div><b>Validation·</b> Case report with no experimental or biomechanical validation.</div>
+    </div>
+    <div class="key-terms">
+      <span class="term"><b>total hip arthroplasty</b> · 全髋关节置换术</span><span class="term"><b>metallosis</b> · 金属沉积症</span><span class="term"><b>femoral stem loosening</b> · 股骨柄松动</span><span class="term"><b>metal-on-metal bearing</b> · 金属对金属摩擦界面</span><span class="term"><b>adverse local tissue reaction</b> · 不良局部组织反应</span>
+    </div>
+  </details>
+  <div class="tags-row"><span class="tag">metal-on-metal</span> <span class="tag">total hip arthroplasty</span> <span class="tag">metallosis</span> <span class="tag">loosening</span> <span class="tag">case report</span></div>
+  
+  
+  <div class="rui-card-tools">
+    <span class="rui-mark-group"><b>Mark:</b> <label class="m-to-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-13107-jocr-2025-v15-i08-5890" value="to-read">to-read</label><label class="m-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-13107-jocr-2025-v15-i08-5890" value="read">read</label><label class="m-interesting"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-13107-jocr-2025-v15-i08-5890" value="interesting">interesting</label><label class="m-ignore"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-13107-jocr-2025-v15-i08-5890" value="ignore">ignore</label></span>
+    <button type="button" class="rui-note-btn">Note</button>
+    <button type="button" class="rui-promote-btn">Send to lit-system</button>
+    <div class="rui-note-wrap">
+      <textarea class="rui-note-ta" placeholder="Private note (saved on blur, this browser only)"></textarea>
+    </div>
+  </div>
+</article>
+
+</body></html>

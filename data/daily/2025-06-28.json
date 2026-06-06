@@ -1,0 +1,133 @@
+{
+  "schema_version": "v2",
+  "date": "2025-06-28",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2506.22822v1",
+      "doi": "",
+      "arxiv_id": "2506.22822v1",
+      "title": "Size-Dependent Tensile Behavior of Nanocrystalline HfNbTaTiZr High-Entropy Alloy: Roles of Solid-Solution and Short-Range Order",
+      "abstract": "This study investigates the size-dependent mechanical behavior of the HfNbTaTiZr refractory high-entropy alloy (RHEA) under uniaxial tension, with a focus on the effects of random solid-solution (RSS) and chemical short-range order (CSRO). A machine learning framework is developed to accelerate the parameterization of interatomic force fields (FFs), enabling molecular dynamics simulations of three nanocrystalline models: (i) a meta-atom (MA) mode representing the RHEA as a hypothetical sing-element system with averaged properties, (ii) a quinary RSS model with randomly distributed constituent atoms, and (iii) a Monte Carlo (MC) model with internal CSRO. The results reveal that RSS enhances strength, while CSRO reduces flow stress level but improves strain hardening and failure resistance. A transition from Hall-Petch (HP) strengthening to inverse Hall-Petch (IHP) softening is observed, with CSRO suppressing this transition. The underlying plastic mechanisms (i.e., dislocation slip, deformation twinning, phase transformation and grain boundary movements) are analyzed from both nanostructural and energetic perspectives. Theoretical models are established to describe the size-dependent yield strength and predict the critical grain size. Additionally, the contributions of different plastic mechanisms to the overall stress response are separately quantified. These findings provide new insights into the design and performance optimization of RHEAs through nanostructural engineering.",
+      "authors": [
+        "Yihan Wu",
+        "Gaosheng Yan",
+        "Pengfei Yu",
+        "Yaohong Suo",
+        "Wenshan Yu",
+        "Shengping Shen"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-06-28",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2506.22822v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "yield strength",
+          "strain hardening"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究高熵合金的力学性能，但未涉及增材制造工艺或AM特定微观结构。",
+        "why_not_core": "The paper does not involve additive manufacturing processing, AM-induced microstructures, or experimental validation on AM-fabricated parts.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "high-entropy alloy",
+          "nanocrystalline",
+          "mechanical properties",
+          "molecular dynamics",
+          "Hall-Petch"
+        ],
+        "summary_zh": {
+          "motivation": "研究纳米晶高熵合金的尺寸依赖拉伸行为及固溶和短程有序作用",
+          "method": "使用机器学习加速力场参数化，进行分子动力学模拟三种纳米晶模型",
+          "result": "固溶提高强度，短程有序降低流动应力但改善应变硬化和抗失效能力",
+          "validation": "通过理论模型预测临界晶粒尺寸并与模拟结果对比"
+        },
+        "summary_en": {
+          "motivation": "This study investigates the size-dependent tensile behavior of nanocrystalline HfNbTaTiZr high-entropy alloy, focusing on solid-solution and short-range order effects.",
+          "method": "A machine learning framework accelerates interatomic force field parameterization for molecular dynamics simulations of three nanocrystalline models: meta-atom, random solid-solution, and Monte Carlo with short-range order.",
+          "result": "Random solid-solution enhances strength, while chemical short-range order reduces flow stress but improves strain hardening and failure resistance, with a transition from Hall-Petch to inverse Hall-Petch softened by short-range order.",
+          "validation": "Theoretical models are established to describe size-dependent yield strength and predict critical grain size, validated against simulation results."
+        },
+        "key_terms": [
+          {
+            "en": "high-entropy alloy",
+            "zh": "高熵合金"
+          },
+          {
+            "en": "short-range order",
+            "zh": "短程有序"
+          },
+          {
+            "en": "solid-solution",
+            "zh": "固溶"
+          },
+          {
+            "en": "nanocrystalline",
+            "zh": "纳米晶"
+          },
+          {
+            "en": "Hall-Petch",
+            "zh": "霍尔-佩奇"
+          },
+          {
+            "en": "molecular dynamics",
+            "zh": "分子动力学"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "tensile behavior",
+            "zh": "拉伸行为"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:10:24Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

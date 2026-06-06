@@ -1,0 +1,125 @@
+{
+  "schema_version": "v2",
+  "date": "2026-01-14",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2601.09690v1",
+      "doi": "",
+      "arxiv_id": "2601.09690v1",
+      "title": "Electronic structure and elasticity of the Ta-W solid solution",
+      "abstract": "The brittleness or ductility of metals has long been attributed to their elastic constants, with high Poisson ratio, or equivalently high Pugh ratio, favoring greater ductility. Growing evidence links ductility with their electronic structure. Consequently, it is desirable to understand how the electronic structure affects the elastic constants. Here, we examine the Ta-W binary alloy system, which evolves from ductile character at Ta-rich compositions to brittleness at high W. We show that a change in slope of the composition-dependent shear modulus near the equiatomic composition coincides with an abrupt change in the Fermi level density of states. We relate the behaviors of the elastic constants to the characters of occupied electronic orbitals close to the Fermi level. Finally, we consider additional alloy systems from groups V and VI and show that qualitatively similar behavior occurs more broadly.",
+      "authors": [
+        "Kareem Abdelmaqsoud",
+        "John R. Kitchin",
+        "Michael Widom"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-01-14",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2601.09690v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究Ta-W合金的电子结构与弹性常数关系，与增材制造机械性能方向无直接关联。",
+        "why_not_core": "This paper does not address additive manufacturing processes, mechanical anisotropy, or any experimental validation related to AM materials.",
+        "validation_kind": "theoretical",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "tantalum-tungsten alloys",
+          "elastic constants",
+          "electronic structure",
+          "ductility",
+          "Pugh ratio"
+        ],
+        "summary_zh": {
+          "motivation": "探究Ta-W合金脆性与弹性的电子结构起源",
+          "method": "通过第一性原理计算分析不同成分下弹性常数与费米能级态密度",
+          "result": "剪切模量斜率变化与费米面电子结构突变相关",
+          "validation": "基于DFT计算的理论验证"
+        },
+        "summary_en": {
+          "motivation": "To understand how electronic structure governs the ductile-to-brittle transition in Ta-W binary alloys.",
+          "method": "First-principles calculations were performed to compute elastic constants and electronic density of states across compositions.",
+          "result": "A slope change in shear modulus near equiatomic composition correlates with an abrupt change in Fermi-level density of states.",
+          "validation": "Theoretical validation through comparison of elastic constant trends and electronic orbital analysis."
+        },
+        "key_terms": [
+          {
+            "en": "density of states",
+            "zh": "态密度"
+          },
+          {
+            "en": "shear modulus",
+            "zh": "剪切模量"
+          },
+          {
+            "en": "Poisson ratio",
+            "zh": "泊松比"
+          },
+          {
+            "en": "Pugh ratio",
+            "zh": "Pugh比例"
+          },
+          {
+            "en": "Fermi level",
+            "zh": "费米能级"
+          },
+          {
+            "en": "elastic constants",
+            "zh": "弹性常数"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:18:22Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": "v2",
+  "date": "2026-01-31",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2602.00562v1",
+      "doi": "",
+      "arxiv_id": "2602.00562v1",
+      "title": "Synergistic effect of the electronic band delocalization and bond anharmonicity on the thermoelectric performance of Cs2TeX6(X=Cl, Br, I)",
+      "abstract": "We investigate the structural, mechanical, and thermoelectric properties of lead-free double halide perovskites Cs2TeX6 (X = Cl, Br, I) using first-principles calculations and semiclassical Boltzmann transport theory. The HSE06 band gap is incorporated using the scissor correction method along with PBE calculated electronic band structures including spin orbit coupling to accurately predict transport properties. The band gap values are 3.27, 2.50, and 1.55 eV for Cs2TeX6 (X = Cl, Br, I), respectively. The coexistence of heavy and light bands in the Cs2TeI6 band structure helps mitigate the trade-off between the Seebeck coefficient and electrical conductivity. Among these systems, Cs2TeI6 exhibits superior performance with a ZT of 1.97 at 800 K and an electronic concentration of 3.35 x 10^19 cm^-3. Such a high ZT at relatively low carrier concentration arises from high electrical conductivity combined with low lattice thermal conductivity. The lattice thermal conductivity of Cs2TeI6 is found to be 0.41 W m^-1 K^-1 at room temperature. This low lattice thermal conductivity is attributed to weak Te-I bonding and non-uniform out-of-phase displacement of Cs atoms. The presence of local TeX6 units together with weak bonds strongly resists heat conduction, leading to significant suppression of lattice thermal conductivity. In particular, transverse acoustic phonons and optical phonons play a key role in limiting lattice thermal conductivity. These results identify Cs2TeI6 as a promising candidate for high performance thermoelectric applications.",
+      "authors": [
+        " Heena",
+        "Vineet Kumar Pandey",
+        "Saanvi Marethiya",
+        "Ambesh Dixit",
+        "Ajay Singh Verma",
+        "K. C. Bhamu"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-01-31",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2602.00562v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究热电材料性能，与增材制造力学性能方向无关。",
+        "why_not_core": "This paper studies thermoelectric halide perovskites with no additive manufacturing context, no mechanical testing, and no relevance to AM mechanical properties of biomedical implants.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "thermoelectric",
+          "perovskite",
+          "first-principles"
+        ],
+        "summary_zh": {
+          "motivation": "探索无铅卤化物双钙钛矿的热电性能潜力",
+          "method": "基于第一性原理计算和玻尔兹曼输运理论，结合HSE06带隙校正",
+          "result": "Cs2TeI6在800K时ZT值达1.97，晶格热导率仅0.41 W/mK",
+          "validation": "理论计算与现有数据对比验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate the thermoelectric performance of lead-free double halide perovskites Cs2TeX6 using first-principles calculations.",
+          "method": "First-principles calculations with HSE06 scissor correction and semiclassical Boltzmann transport theory.",
+          "result": "Cs2TeI6 achieves a high ZT of 1.97 at 800 K due to low lattice thermal conductivity from weak Te-I bonding.",
+          "validation": "Theoretical predictions are compared with existing computational benchmarks."
+        },
+        "key_terms": [
+          {
+            "en": "thermoelectric",
+            "zh": "热电"
+          },
+          {
+            "en": "perovskite",
+            "zh": "钙钛矿"
+          },
+          {
+            "en": "band structure",
+            "zh": "能带结构"
+          },
+          {
+            "en": "lattice thermal conductivity",
+            "zh": "晶格热导率"
+          },
+          {
+            "en": "ZT value",
+            "zh": "热电优值"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:18:22Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "schema_version": "v2",
+  "date": "2026-02-05",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2602.06236v2",
+      "doi": "",
+      "arxiv_id": "2602.06236v2",
+      "title": "Thin-Film Stabilization and Magnetism of η-Carbide Type Iron Nitrides",
+      "abstract": "Transition-metal nitrides in η-carbide type structures exhibit unusual bonding motifs and proximity to magnetic instabilities. Yet they remain unexplored in thin-film form due to the difficulty of stabilizing nitrogen-poor ternaries among competing phases. Here, we report the thin-film synthesis and phase-stability mapping of the η-nitride systems Fe-W-N and Fe-Mo-N. Amorphous Fe-M-N (M = W, Mo) combinatorial libraries deposited by reactive co-sputtering crystallize upon rapid thermal annealing, enabling systematic identification of synthesis windows as a function of composition and annealing temperature. Using laboratory powder X-ray diffraction and synchrotron grazing incidence wide angle X-ray scattering, we establish that Fe3Mo3N-based η-carbide phases form over a substantially broader compositional and thermal range than W-based compositions, where η structures are stabilized only when the films are Fe-rich. These trends are rationalized using mixed chemical-potential vs. composition phase diagrams that capture the narrow nitrogen chemical-potential stability of η-nitrides. Magnetic measurements reveal that ferromagnetism is induced in Fe-rich Fe3.54Mo2.46N with a small exchange-bias-like response that is absent in Fe3W3N-based compositions, highlighting the sensitivity of magnetic behavior to modest deviations from stoichiometry. This work establishes practical thin-film synthesis routes for η-nitride materials and demonstrates how composition can be tuned to access emergent magnetic phenomena in these complex nitrides.",
+      "authors": [
+        "Baptiste Julien",
+        "Abrar Rauf",
+        "Liam A. V. Nagle-Cocco",
+        "Rebecca W. Smaha",
+        "Wenhao Sun",
+        "Andriy Zakutayev",
+        "Sage R. Bauers"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-02-05",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2602.06236v2",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究薄膜氮化物的合成与磁性，与增材制造力学性能、生物医学植入物或有限元代理模型完全无关。",
+        "why_not_core": "This paper does not involve additive manufacturing, mechanical testing of biomedical implants, or computational mechanics of implant-bone systems.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "thin-film",
+          "nitride",
+          "magnetism",
+          "synthesis"
+        ],
+        "summary_zh": {
+          "motivation": "探索难合成的贫氮η-碳化物薄膜的稳定性和磁性。",
+          "method": "通过反应共溅射制备Fe-M-N薄膜，结合快速热退火和X射线衍射表征。",
+          "result": "发现Fe3Mo3N基η相在更宽的成分和温度范围内稳定，且铁磁性对化学计量敏感。",
+          "validation": "实验室和同步辐射X射线衍射验证物相，振动样品磁强计测量磁性。"
+        },
+        "summary_en": {
+          "motivation": "To establish thin-film synthesis routes for η-carbide nitrides and investigate their magnetic properties.",
+          "method": "Combinatorial libraries of Fe-M-N (M=W, Mo) are deposited by reactive co-sputtering and crystallized by rapid thermal annealing, with phase mapping via XRD and synchrotron GIWAXS.",
+          "result": "Fe3Mo3N-based η phases form over broader composition and temperature ranges than W-based ones, and ferromagnetism emerges in Fe-rich Fe3.54Mo2.46N with an exchange-bias-like response.",
+          "validation": "Phase stability is validated by powder XRD and synchrotron scattering, and magnetic behavior is confirmed by SQUID magnetometry."
+        },
+        "key_terms": [
+          {
+            "en": "thin-film",
+            "zh": "薄膜"
+          },
+          {
+            "en": "η-carbide",
+            "zh": "η-碳化物"
+          },
+          {
+            "en": "iron nitride",
+            "zh": "氮化铁"
+          },
+          {
+            "en": "reactive sputtering",
+            "zh": "反应溅射"
+          },
+          {
+            "en": "ferromagnetism",
+            "zh": "铁磁性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:19:20Z"
+    },
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2602.05911v2",
+      "doi": "10.1093/mam/ozag040",
+      "arxiv_id": "2602.05911v2",
+      "title": "Platform and Framework for Time-Resolved Nanoscale Thermal Transport Measurements in STEM",
+      "abstract": "Understanding heat transport at the nanometer scale is critical for semiconductor devices, quantum materials, and thermal management of nanostructures, yet direct local measurements of thermal conductivity and heat capacity remain scarce. We developed a laser-excitation system integrated into a scanning transmission electron microscope (STEM) for nanoscale thermal transport measurements using ultra-high-resolution electron energy-loss spectroscopy (EELS). A fiber-coupled laser is introduced via a modified aperture mechanism, enabling flexible holder geometries and large tilt angles without optical elements in the polepiece gap. Synchronization of pulsed laser excitation with an externally gated direct electron detector provides temporal resolution about 50 ns at <10 meV energy resolution. Local temperatures are determined via the principle of detailed balance, and thermal transport parameters are extracted by fitting a forward-time central-space heat diffusion model including radiative losses. For amorphous carbon films, we obtain a thermal conductivity of 1.24 $\\frac{W}{m\\cdot K}$ and a heat capacity of 821 $\\frac{J}{kg\\cdot K}$, consistent with literature. This framework enables time-resolved nanoscale measurements of thermal transport in materials and devices.",
+      "authors": [
+        "Mairi McCauley",
+        "Joel Martis",
+        "Ondrej L. Krivanek",
+        "Ben Plotkin-Swing",
+        "Andreas Mittelberger",
+        "Tolga Wagner",
+        "Hüseyin Çelik",
+        "Grigory Kornilov",
+        "Meng Zhao",
+        "Matthias Meffert",
+        "Luca Piazza",
+        "Tracy C. Lovejoy",
+        "Guillaume Radtke",
+        "Christoph Koch",
+        "Benedikt Haas"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-02-05",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2602.05911v2",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文关注的是纳米尺度热输运测量，与增材制造力学性能无关。",
+        "why_not_core": "This paper focuses on nanoscale thermal transport measurements using STEM, with no connection to additive manufacturing or mechanical properties.",
+        "validation_kind": "in_situ",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "STEM",
+          "thermal transport",
+          "EELS",
+          "nanoscale"
+        ],
+        "summary_zh": {
+          "motivation": "纳米尺度热输运测量匮乏，需直接测量热导率和热容。",
+          "method": "在STEM中集成激光激发系统，结合超高分辩率EELS和时域探测。",
+          "result": "测得非晶碳膜热导率1.24 W/m·K，热容821 J/kg·K。",
+          "validation": "与文献值对比验证测量准确性。"
+        },
+        "summary_en": {
+          "motivation": "Direct local measurements of thermal conductivity and heat capacity at the nanoscale are scarce despite their critical importance.",
+          "method": "A laser-excitation system integrated into a STEM with externally gated EELS achieves ∼50 ns temporal resolution and <10 meV energy resolution.",
+          "result": "Thermal conductivity of 1.24 W/m·K and heat capacity of 821 J/kg·K are obtained for amorphous carbon films, consistent with literature.",
+          "validation": "Validation is performed by comparing measured thermal transport parameters of amorphous carbon with published values."
+        },
+        "key_terms": [
+          {
+            "en": "STEM",
+            "zh": "扫描透射电子显微镜"
+          },
+          {
+            "en": "EELS",
+            "zh": "电子能量损失谱"
+          },
+          {
+            "en": "thermal conductivity",
+            "zh": "热导率"
+          },
+          {
+            "en": "heat capacity",
+            "zh": "热容"
+          },
+          {
+            "en": "nanoscale",
+            "zh": "纳米尺度"
+          },
+          {
+            "en": "laser excitation",
+            "zh": "激光激发"
+          },
+          {
+            "en": "time-resolved",
+            "zh": "时间分辨"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:19:20Z"
+    },
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2602.05355v1",
+      "doi": "10.7498/aps.74.20250650",
+      "arxiv_id": "2602.05355v1",
+      "title": "First-principles study of photovoltaic and thermoelectric properties of AgBiSCl2",
+      "abstract": "This work systematically investigates the potential of the hybrid anion semiconductor AgBiSCl2 for photovoltaic and thermoelectric applications, aiming to provide theoretical guidance for high-performance energy conversion devices. Structural analysis reveals favorable ductility and a relatively low Debye temperature. Analysis of interatomic interactions indicates that Ag-S and Ag-Cl bonds are relatively weak, resulting in local structural softness and enhanced lattice anharmonicity. These weak bonds facilitate phonon scattering and give rise to low-frequency localized rattling vibrations primarily associated with Ag atoms, contributing to reduced lattice thermal conductivity. In contrast, Bi-S bonds exhibit stronger, directional interactions, which help stabilize the overall structure. The coexistence of weak bonding and strong lattice coupling enables favorable modulation of thermal transport properties.Optically, AgBiSCl2 possesses a high static dielectric constant and exhibits strong absorption in the ultraviolet region. In terms of thermal transport, phonon spectrum exhibit mode hardening with temperature increasing. The localized Ag vibrations intensify the anharmonicity, reducing phonon lifetimes and group velocities.For electronic transport, the p-type material maintains a higher Seebeck coefficient than the n-type, while the latter shows greater electrical conductivity. At 700 K, the figure of merit reaches 0.77 for p-type and 0.69 for n-type AgBiSCl2, indicating promising high-temperature thermoelectric performance.In summary, AgBiSCl2 exhibits excellent potential for dual photovoltaic and thermoelectric applications. Its unique bonding features and lattice response mechanisms offer valuable insights into designing multifunctional energy conversion materials.",
+      "authors": [
+        "Sihang Wang",
+        "Menghan Chen",
+        "Liping Zhang"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-02-05",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2602.05355v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是AgBiSCl2的光伏和热电性能，与增材制造力学性能方向完全无关。",
+        "why_not_core": "This paper does not involve additive manufacturing, mechanical property testing, implant design, or any biomedical context; it is purely first-principles calculations on a semiconductor for energy conversion.",
+        "validation_kind": "theoretical",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "first-principles",
+          "photovoltaic",
+          "thermoelectric",
+          "density functional theory",
+          "energy materials"
+        ],
+        "summary_zh": {
+          "motivation": "探索AgBiSCl2在光伏和热电领域的潜力",
+          "method": "使用基于第一性原理的密度泛函理论计算",
+          "result": "p型在700K时热电优值达到0.77",
+          "validation": "理论计算，无实验验证"
+        },
+        "summary_en": {
+          "motivation": "The study aims to investigate the potential of hybrid anion semiconductor AgBiSCl2 for dual photovoltaic and thermoelectric applications.",
+          "method": "Density functional theory calculations are performed to analyze structural, electronic, optical, and thermal transport properties.",
+          "result": "The figure of merit reaches 0.77 for p-type and 0.69 for n-type at 700 K, indicating promising high-temperature thermoelectric performance.",
+          "validation": "First-principles simulations without experimental validation."
+        },
+        "key_terms": [
+          {
+            "en": "first-principles",
+            "zh": "第一性原理"
+          },
+          {
+            "en": "density functional theory",
+            "zh": "密度泛函理论"
+          },
+          {
+            "en": "photovoltaic",
+            "zh": "光伏"
+          },
+          {
+            "en": "thermoelectric",
+            "zh": "热电"
+          },
+          {
+            "en": "figure of merit",
+            "zh": "热电优值"
+          },
+          {
+            "en": "phonon scattering",
+            "zh": "声子散射"
+          },
+          {
+            "en": "lattice thermal conductivity",
+            "zh": "晶格热导率"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:19:20Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 3,
+    "by_source": {
+      "arxiv": 3
+    },
+    "after_dedup": 3,
+    "after_routing": 3,
+    "by_direction": {
+      "mechanical_properties": 3
+    },
+    "routed_by_source": {
+      "arxiv": 3
+    },
+    "scored": 3,
+    "priority_counts": {
+      "Exclude": 3
+    }
+  }
+}

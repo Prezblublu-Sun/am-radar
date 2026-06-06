@@ -1,0 +1,127 @@
+{
+  "schema_version": "v2",
+  "date": "2025-06-13",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2506.14828v1",
+      "doi": "",
+      "arxiv_id": "2506.14828v1",
+      "title": "Accurate and Uncertainty-Aware Multi-Task Prediction of HEA Properties Using Prior-Guided Deep Gaussian Processes",
+      "abstract": "Surrogate modeling techniques have become indispensable in accelerating the discovery and optimization of high-entropy alloys(HEAs), especially when integrating computational predictions with sparse experimental observations. This study systematically evaluates the fitting performance of four prominent surrogate models conventional Gaussian Processes(cGP), Deep Gaussian Processes(DGP), encoder-decoder neural networks for multi-output regression and XGBoost applied to a hybrid dataset of experimental and computational properties in the AlCoCrCuFeMnNiV HEA system. We specifically assess their capabilities in predicting correlated material properties, including yield strength, hardness, modulus, ultimate tensile strength, elongation, and average hardness under dynamic and quasi-static conditions, alongside auxiliary computational properties. The comparison highlights the strengths of hierarchical and deep modeling approaches in handling heteroscedastic, heterotopic, and incomplete data commonly encountered in materials informatics. Our findings illustrate that DGP infused with machine learning-based prior outperform other surrogates by effectively capturing inter-property correlations and input-dependent uncertainty. This enhanced predictive accuracy positions advanced surrogate models as powerful tools for robust and data-efficient materials design.",
+      "authors": [
+        "Sk Md Ahnaf Akif Alvi",
+        "Mrinalini Mulukutla",
+        "Nicolas Flores",
+        "Danial Khatamsaz",
+        "Jan Janssen",
+        "Danny Perez",
+        "Douglas Allaire",
+        "Vahid Attari",
+        "Raymundo Arroyave"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-06-13",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2506.14828v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cs.LG",
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "tensile strength",
+          "yield strength",
+          "ultimate tensile strength",
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究高熵合金的性能预测，与增材制造机械性能方向无关。",
+        "why_not_core": "This paper does not address additive manufacturing processes, mechanical properties of AM-fabricated parts, or biomedical implants; it focuses on property prediction of high-entropy alloys using surrogate models.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": true,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "high-entropy alloys",
+          "surrogate modeling",
+          "deep Gaussian processes",
+          "materials informatics",
+          "multi-task prediction"
+        ],
+        "summary_zh": {
+          "motivation": "评估替代模型在高熵合金性能预测中的效果。",
+          "method": "比较四种模型包括深度高斯过程在混合数据上的表现。",
+          "result": "带先验的深度高斯过程在相关性和不确定性捕捉上最优。",
+          "validation": "基于实验与计算混合数据的数值基准验证。"
+        },
+        "summary_en": {
+          "motivation": "This study systematically evaluates surrogate models for predicting correlated mechanical properties of high-entropy alloys.",
+          "method": "Four models including conventional Gaussian Processes, Deep Gaussian Processes, encoder-decoder neural networks, and XGBoost are compared on a hybrid experimental-computational dataset.",
+          "result": "Deep Gaussian Processes infused with machine learning priors outperform other surrogates by capturing inter-property correlations and input-dependent uncertainty.",
+          "validation": "Validation is performed on a numerical benchmark using the hybrid dataset without experimental AM context."
+        },
+        "key_terms": [
+          {
+            "en": "high-entropy alloys",
+            "zh": "高熵合金"
+          },
+          {
+            "en": "surrogate modeling",
+            "zh": "代理建模"
+          },
+          {
+            "en": "deep Gaussian processes",
+            "zh": "深度高斯过程"
+          },
+          {
+            "en": "multi-task prediction",
+            "zh": "多任务预测"
+          },
+          {
+            "en": "uncertainty quantification",
+            "zh": "不确定性量化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:10:24Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": "v2",
+  "date": "2025-10-28",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2510.23983v1",
+      "doi": "",
+      "arxiv_id": "2510.23983v1",
+      "title": "Strong Intra- and Interchain Orbital Coupling Leads to Multiband and High Thermoelectric Performance in Na$_2$Au$X$ ($X$ = P, As, Sb, and Bi)",
+      "abstract": "The intrinsic coupling among electrical conductivity ($σ$), Seebeck coefficient ($S$), and lattice thermal conductivity ($κ_{\\mathrm{L}}$) imposes a fundamental limit on the dimensionless figure of merit $ZT$ in thermoelectric (TE) materials. Increasing band degeneracy can effectively balance $σ$ and $S$, enabling a high power factor (PF, $S^{2}σ$). However, compounds with intrinsically large band degeneracy are scarce. Here, we present an unconventional strategy to realize elevated band degeneracy in zigzag-chain Na$_2$Au$X$ ($X$ = P, As, Sb, Bi) compounds by harnessing strong intra- and interchain orbital coupling. Pronounced hybridization between Au-$d_{z^{2}}$ and $X$-$p_{z}$ orbitals along the Au--$X$ zigzag chains, together with unexpectedly strong interchain $X$-$p_{x}/p_{y}$ coupling, produces a highly dispersive, multivalley valence band structure that supports an exceptional PF. Concurrently, the intrinsically weak interchain interactions arising from the quasi-one-dimensional framework, together with the weakened Au--$X$ and Au--Au bonds within the chains due to filling of $p$-$d^{*}$ antibonding states, result in an ultralow $κ_{\\mathrm{L}}$. First-principles calculations combined with Boltzmann transport theory predict that $p$-type Na$_2$AuBi achieves a PF of $63.9\\,μ\\mathrm{W}\\,\\mathrm{cm}^{-1}\\,\\mathrm{K}^{-2}$, an ultralow $κ_{\\mathrm{L}}$ of $0.49\\,\\mathrm{W}\\,\\mathrm{m}^{-1}\\,\\mathrm{K}^{-1}$, and a maximum $ZT$ of $4.7$ along the zigzag-chain direction at $800\\,\\mathrm{K}$. This work establishes a new design paradigm for high-efficiency TE materials by exploiting substantial orbital overlap in structurally weakly bonded, quasi-one-dimensional systems, opening promising avenues for the discovery and engineering of next-generation high-performance TE materials.",
+      "authors": [
+        "Zhonghao Xia",
+        "Zhilong Yang",
+        "Yali Yang",
+        "Kaile Ren",
+        "Jiangang He"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-10-28",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2510.23983v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "s + l + m",
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "s + l + m",
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "s + l + m",
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究热电材料，与增材制造力学性能无关。",
+        "why_not_core": "This paper focuses on thermoelectric materials and does not address additive manufacturing, mechanical properties, or any aspect of AM mechanical characterization.",
+        "validation_kind": "theoretical",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [],
+        "summary_zh": {
+          "motivation": "提高热电材料性能，突破电导率-塞贝克系数-热导率耦合限制。",
+          "method": "利用第一性原理和玻尔兹曼输运理论计算Na2AuX化合物。",
+          "result": "p型Na2AuBi在800K沿链方向实现ZT=4.7。",
+          "validation": "理论计算，无实验验证。"
+        },
+        "summary_en": {
+          "motivation": "Overcoming the inherent trade-off between electrical conductivity, Seebeck coefficient, and thermal conductivity to enhance thermoelectric performance.",
+          "method": "First-principles calculations combined with Boltzmann transport theory to evaluate electronic and thermal transport in Na2AuX compounds.",
+          "result": "p-type Na2AuBi achieves a figure of merit ZT of 4.7 at 800 K along the chain direction.",
+          "validation": "Theoretical predictions without experimental validation."
+        },
+        "key_terms": []
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:14:51Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

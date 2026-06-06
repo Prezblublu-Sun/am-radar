@@ -1,0 +1,136 @@
+{
+  "schema_version": "v2",
+  "date": "2026-01-09",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2601.05712v1",
+      "doi": "",
+      "arxiv_id": "2601.05712v1",
+      "title": "Unraveling the effects of anionic vacancies and temperature on mechanical properties of NbC and NbN: Insights from Quantum Mechanical Study",
+      "abstract": "Transition metal carbides and nitrides (TMCNs), such as niobium carbide (NbC) and niobium nitride (NbN), are of great technological interest due to their exceptional hardness, high melting points, and thermal stability. While previous studies have focused on their groundstate properties (at 0 K), limited information exists on their mechanical behavior under realistic operational conditions involving elevated temperatures and the presence of defects. In this study, we employ ab initio molecular dynamics (AIMD) simulations to investigate the effects of temperature (300 to 1500 K) and anionic vacancies on the mechanical properties of NbC and NbN in rocksalt (RS), zincblende (ZB), and wurtzite (WZ) structures. The results reveal a nonlinear decrease in elastic constants, bulk, shear, and Youngs moduli with both increasing temperature and defect concentration. Hardness and toughness analyses, based on Pughs ratio and Poisson ratio, show ductility and brittleness transitions that are sensitive to structure, defect level, and thermal effects. Furthermore, vacancy migration energies computed using the nudged elastic band (NEB) method demonstrate strong structural dependence, with RS exhibiting the highest barriers and WZ the lowest. These findings provide new insights into the defect and temperature interplay in NbC and NbN, offering guidelines for their optimization in high-temperature and wear-resistant applications.",
+      "authors": [
+        "P. W. Muchiri",
+        "K. K. Korir",
+        "N. W. Makau",
+        "M. O. Atambo",
+        "G. O. Amolo"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-01-09",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2601.05712v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是NbC和NbN的量子力学力学性能，与用户的增材制造或生物医学植入物研究方向无关。",
+        "why_not_core": "This paper does not involve additive manufacturing, biomedical implants, or any experimental validation relevant to AM mechanical properties.",
+        "validation_kind": "theoretical",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "AIMD",
+          "niobium carbide",
+          "niobium nitride",
+          "vacancies",
+          "temperature effects",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "研究空位和温度对NbC和NbN力学性能的影响。",
+          "method": "使用AIMD模拟弹性常数，NEB计算空位迁移能。",
+          "result": "弹性模量随温度和空位浓度非线性降低，出现脆韧性转变。",
+          "validation": "仅通过第一性原理计算，无实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To understand how anionic vacancies and elevated temperature affect the mechanical behavior of NbC and NbN for high-temperature applications.",
+          "method": "Ab initio molecular dynamics simulations to compute elastic constants and nudged elastic band method for vacancy migration barriers.",
+          "result": "Elastic moduli decrease nonlinearly with temperature and vacancy concentration; ductile-to-brittle transitions depend on structure, defect level, and temperature.",
+          "validation": "Validation relies on first-principles calculations without experimental comparison."
+        },
+        "key_terms": [
+          {
+            "en": "niobium carbide",
+            "zh": "碳化铌"
+          },
+          {
+            "en": "niobium nitride",
+            "zh": "氮化铌"
+          },
+          {
+            "en": "anionic vacancies",
+            "zh": "阴离子空位"
+          },
+          {
+            "en": "elastic constants",
+            "zh": "弹性常数"
+          },
+          {
+            "en": "AIMD",
+            "zh": "从头算分子动力学"
+          },
+          {
+            "en": "nudged elastic band",
+            "zh": "微动弹性带"
+          },
+          {
+            "en": "Pugh's ratio",
+            "zh": "普格比"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:18:22Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

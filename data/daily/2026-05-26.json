@@ -1,0 +1,137 @@
+{
+  "schema_version": "v2",
+  "date": "2026-05-26",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "pubmed",
+      "id": "pubmed:42134387",
+      "doi": "10.1088/2057-1976/ae6dc9",
+      "pmid": "42134387",
+      "title": "Acoustic-based intraoperative assessment of femoral stem initial stability in cementless THA via sensitive frequency band identification.",
+      "abstract": "Intraoperative assessment of femoral stem initial stability in cementless total hip arthroplasty (THA) predominantly relies on subjective tactile and auditory feedback, which lacks standardization and increases complication risks. This study develops a quantitative framework to identify sensitive acoustic frequency bands characterizing the bone-implant fixation state. Specifically, we acquired high-fidelity acoustic signals from 118 primary cementless THA procedures. Utilizing a statistical difference analysis framework, we identified two distinct sensitive bands (640-1920 Hz and 3460-3560 Hz) to extract band power fraction features. Machine learning evaluation demonstrated that these bands significantly outperform traditional empirical partitioning, achieving a classification accuracy of 0.816±0.028, which improved to 0.834±0.042 after feature fusion. Furthermore, stratified validation confirmed high consistency across diverse bone qualities and implant designs (Summit and Corail). While robust under steady-state Gaussian noise, the system exhibited sensitivity to non-steady-state speech interference. In conclusion, the identified sensitive bands effectively reflect the mechanical evolution of the bone-implant interface, providing a physically interpretable decision-support tool for enhancing surgical safety.",
+      "authors": [
+        "Dongqi Zhu",
+        "Zhuwen Xu",
+        "Youyuan Chen",
+        "Minghao Jin",
+        "Wan Zheng",
+        "Yi Zhou",
+        "Huiwu Li",
+        "Yongyun Chang",
+        "Feng Hong",
+        "Zanjing Zhai"
+      ],
+      "first_author_affiliation": "Shanghai Acoustics Laboratory, Chinese Academy of Sciences, Shanghai 201815, People's Republic of China.; University of Chinese Academy of Sciences, Beijing 101408, People's Republic of China.",
+      "corresponding_authors": [
+        {
+          "name": "Zanjing Zhai",
+          "affiliation": "Department of Orthopaedic Surgery, Shanghai Key Laboratory of Orthopaedic Implants, Shanghai Ninth People's Hospital,Shanghai Jiao Tong University School of Medicine, Shanghai 200011, People's Republic of China.",
+          "inferred": true
+        }
+      ],
+      "venue": "Biomedical physics & engineering express",
+      "year": 2026,
+      "date": "2026-05-26",
+      "date_precision": "day",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42134387/",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [],
+      "raw_type": "journal article",
+      "directions": [
+        "am_femoral_stem"
+      ],
+      "direction": "am_femoral_stem",
+      "direction_name": "Femoral Stem (AM + traditional)",
+      "routing_matches": {
+        "am_femoral_stem": [
+          "femoral stem"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "本文仅涉及股骨柄术中稳定性评估的声学方法，未涉及股骨柄的增材制造或传统制造工艺。",
+        "why_not_core": "This paper focuses on intraoperative acoustic stability assessment, not on the design, manufacturing, or mechanical analysis of femoral implants.",
+        "validation_kind": "clinical",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": true,
+          "is_review": false
+        },
+        "tags": [
+          "femoral stem",
+          "acoustic analysis",
+          "stability assessment",
+          "clinical validation"
+        ],
+        "summary_zh": {
+          "motivation": "术中股骨柄稳定性评估缺乏标准化方法，依赖主观判断。",
+          "method": "采集118例手术的声学信号，通过统计差异分析识别敏感频带，提取功率分数特征并采用机器学习分类。",
+          "result": "识别出两个敏感频带（640-1920 Hz和3460-3560 Hz），分类准确率达0.834±0.042。",
+          "validation": "基于临床手术数据和分层验证，考虑不同骨质量和植入物设计。"
+        },
+        "summary_en": {
+          "motivation": "To provide a quantitative intraoperative assessment of femoral stem initial stability in cementless THA, replacing subjective tactile and auditory feedback.",
+          "method": "Acoustic signals from 118 primary THA procedures were analyzed using a statistical difference framework to identify sensitive frequency bands, and support vector machine classifiers were trained on band power fraction features.",
+          "result": "Two sensitive frequency bands were identified, and classification accuracy reached 0.834±0.042 after feature fusion, outperforming traditional empirical partitioning.",
+          "validation": "The method was validated on clinical data with stratified analysis across bone qualities and implant designs, and tested under noise conditions."
+        },
+        "key_terms": [
+          {
+            "en": "femoral stem",
+            "zh": "股骨柄"
+          },
+          {
+            "en": "acoustic signal",
+            "zh": "声学信号"
+          },
+          {
+            "en": "initial stability",
+            "zh": "初始稳定性"
+          },
+          {
+            "en": "cementless THA",
+            "zh": "非骨水泥型全髋关节置换术"
+          },
+          {
+            "en": "sensitive frequency band",
+            "zh": "敏感频带"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "intraoperative assessment",
+            "zh": "术中评估"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:23:10Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "pubmed": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "am_femoral_stem": 1
+    },
+    "routed_by_source": {
+      "pubmed": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

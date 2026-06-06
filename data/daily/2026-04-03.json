@@ -1,0 +1,137 @@
+{
+  "schema_version": "v2",
+  "date": "2026-04-03",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2604.02657v1",
+      "doi": "",
+      "arxiv_id": "2604.02657v1",
+      "title": "Unraveling Intrinsic Thermal Conductivity in Layered Conductive MOF Single Crystals",
+      "abstract": "Layered conductive metal-organic frameworks (LCMOFs) show great promise in energy and electronics due to their high electrical conductivity and tunable pore structures. They are considered ideal \"phonon-glass, electron-crystal\" materials. However, their intrinsic thermal transport properties, particularly the thermal conductivity in the single-crystalline state, have never been explored before. The applicability of the Wiedemann-Franz law to such complex porous materials is a key scientific question to describe their thermoelectric relationship. We investigated single crystals of three LCMOFs (Cu3HHTP2, Co9HHTP4, Nd3HHTP2) using the microfabricated suspended device. Results showed ultralow thermal conductivities (0.075-0.194 W m-1 K-1) along the π-π stacking direction. Crucially, Nd3HHTP2 exhibited a high electrical conductivity of 398 S cm-1, yet its thermal conductivity (0.148 W m-1 K-1) was comparable to the other two LCMOFs with significantly lower electrical conductivities. Structural characterization revealed that the incommensurate modulation, and in-plane correlated disorder within the Nd3HHTP2 structure are the potential causes of strong phonon scattering and the observed ultralow thermal conductivity.",
+      "authors": [
+        "Jinkun Guo",
+        "Dongyang Wang",
+        "Zhiyi Li",
+        "Haoyang Zhang",
+        "Jiaxiang Zhang",
+        "Zeyue Zhang",
+        "Lei Sun",
+        "Junliang Sun",
+        "Jiawei Zhou",
+        "Chongan Di",
+        "Jinhu Dou"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-04-03",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2604.02657v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究导电金属有机框架单晶的热导率，与用户的生物打印、髋关节植入物、有限元代理或增材制造方向无关。",
+        "why_not_core": "This paper does not address biomedical implants, bioprinting, finite element analysis, or additive manufacturing for medical applications.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "MOF",
+          "thermal conductivity",
+          "single crystal",
+          "phonon scattering",
+          "Wiedemann-Franz law"
+        ],
+        "summary_zh": {
+          "motivation": "探索层状导电MOF单晶的本征热传导特性",
+          "method": "使用微加工悬浮器件测量三种MOF单晶的热导率",
+          "result": "发现超低热导率且与电导率无关，归因于面内无序调制",
+          "validation": "通过单晶实验测量验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate the intrinsic thermal transport in layered conductive MOF single crystals, which had not been previously explored.",
+          "method": "Thermal conductivity was measured using microfabricated suspended devices on single crystals of three LCMOFs.",
+          "result": "Ultralow thermal conductivities (0.075-0.194 W m-1 K-1) were observed, with Nd3HHTP2 showing high electrical conductivity but comparable thermal conductivity due to incommensurate modulation and disorder.",
+          "validation": "Experimental measurements on single crystals confirmed the ultralow thermal conductivity and the role of structural disorder."
+        },
+        "key_terms": [
+          {
+            "en": "layered conductive MOF",
+            "zh": "层状导电金属有机框架"
+          },
+          {
+            "en": "thermal conductivity",
+            "zh": "热导率"
+          },
+          {
+            "en": "single crystal",
+            "zh": "单晶"
+          },
+          {
+            "en": "Wiedemann-Franz law",
+            "zh": "维德曼-弗兰兹定律"
+          },
+          {
+            "en": "phonon scattering",
+            "zh": "声子散射"
+          },
+          {
+            "en": "incommensurate modulation",
+            "zh": "非公度调制"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:21:56Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

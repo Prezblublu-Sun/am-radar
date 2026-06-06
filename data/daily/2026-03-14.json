@@ -1,0 +1,348 @@
+{
+  "schema_version": "v2",
+  "date": "2026-03-14",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2603.14139v1",
+      "doi": "",
+      "arxiv_id": "2603.14139v1",
+      "title": "Digital Hydrogen Platform (DigHyd): A Rigorously Curated Database for Hydrogen Storage Materials Empowered by AI-Assisted Literature Mining",
+      "abstract": "Solid-state hydrogen storage materials are promising candidates for safe and compact hydrogen storage; however, data-driven discovery in this field remains limited by the availability of large-scale, well-curated datasets. Here, we present the Digital Hydrogen Platform (DigHyd: www.dighyd.org), a rigorously curated database comprising $>4,000$ experimental literature sources and $>30,000$ data entries on hydrogen storage materials, constructed through AI-assisted literature mining combined with human-in-the-loop validation. In addition to gravimetric hydrogen storage density ($w$), DigHyd also covers thermodynamic parameters, specifically the enthalpy ($ΔH$) and entropy ($ΔS$) changes associated with hydrogenation reactions, primarily defined as $M + \\frac{1}{2} {\\rm H}_2 \\rightleftarrows M{\\rm H}$. These parameters were obtained by manually analyzing multi-temperature pressure-composition-temperature (PCT) data using van't Hoff analysis. By focusing on $ΔH$ and $ΔS$ rather than fixing equilibrium pressure at a single temperature, DigHyd enables flexible evaluation of equilibrium behavior under application-specific operating conditions. Statistical analyses reveal distinct distributions of thermodynamic parameters across material classes, together with broad compositional variability within representative hydride systems. Furthermore, both physically interpretable symbolic regression and black-box XGBoost models achieve comparable predictive performance for $w$ and equilibrium pressure at room temperature ($P_{\\rm eq,RT}$), demonstrating internal consistency and learnable composition-property relationships within the curated dataset. Overall, DigHyd provides a rigorously curated thermodynamic dataset that serves as a reliable basis for data-driven analyses of hydrogen storage materials and supports systematic exploration of structure-property relationships.",
+      "authors": [
+        "Seong-Hoon Jang",
+        "Di Zhang",
+        "Xue Jia",
+        "Hung Ba Tran",
+        "Linda Zhang",
+        "Ryuhei Sato",
+        "Yusuke Hashimoto",
+        "Toyoto Sato",
+        "Kiyoe Konno",
+        "Shin-ichi Orimo",
+        "Hao Li"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-03-14",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2603.14139v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文是关于氢存储材料数据库的，与增材制造力学性能无关。",
+        "why_not_core": "This paper focuses on hydrogen storage materials and thermodynamic properties, with no connection to additive manufacturing, mechanical properties, or biomedical implants.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "hydrogen storage",
+          "database",
+          "AI-assisted literature mining"
+        ],
+        "summary_zh": {
+          "motivation": "氢存储材料缺乏大规模结构化数据集",
+          "method": "AI辅助文献挖掘结合人工验证构建数据库",
+          "result": "数据库含超过3万条记录，并展示了组成-性能关系",
+          "validation": "使用符号回归和XGBoost模型验证数据一致性"
+        },
+        "summary_en": {
+          "motivation": "The lack of large-scale, well-curated datasets hinders data-driven discovery in solid-state hydrogen storage materials.",
+          "method": "AI-assisted literature mining with human-in-the-loop validation was used to construct a database of over 30,000 entries from more than 4,000 literature sources.",
+          "result": "The database provides thermodynamic parameters and enables statistical analysis across material classes, with machine learning models showing predictive performance.",
+          "validation": "Symbolic regression and XGBoost models were used to verify internal consistency and learnable composition-property relationships."
+        },
+        "key_terms": [
+          {
+            "en": "hydrogen storage",
+            "zh": "氢存储"
+          },
+          {
+            "en": "database",
+            "zh": "数据库"
+          },
+          {
+            "en": "AI-assisted literature mining",
+            "zh": "AI辅助文献挖掘"
+          },
+          {
+            "en": "thermodynamic parameters",
+            "zh": "热力学参数"
+          },
+          {
+            "en": "symbolic regression",
+            "zh": "符号回归"
+          },
+          {
+            "en": "XGBoost",
+            "zh": "XGBoost"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:20:36Z"
+    },
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2603.14138v1",
+      "doi": "",
+      "arxiv_id": "2603.14138v1",
+      "title": "Effects of uniaxial strain on monolayer transition-metal dichalcogenides revisited",
+      "abstract": "Using hybrid density functional calculations including spin-orbit coupling, we compute the strain evolution of the band structure of monolayer 1H-phase transition-metal dichalcogenides, MX$_2$ (M= Mo, W; X= S, Se, Te), emphasizing an accurate reproduction of the quasiparticle band gap (as opposed to the excitonic optical gap). We show that tensile uniaxial strain applied along either the armchair or zigzag directions leads to a pronounced reduction of the fundamental gap, with the conduction-band edge generally exhibiting the stronger strain response. Both the conduction-band electron valleys (CBM) and the valence-band hole valleys (VBM) remain degenerate under uniaxial strain, while simultaneously drifting away from the high-symmetry $K$ point under strain (\"valley drift\"), such that the band extrema occur at nearby off-symmetry wave vectors. A minimal tight-binding model rationalizes the valley drift and the unequal electron- and hole-valley drift rates in the presence of strain, leading to indirect band gaps. In particular, for MoS$_2$ the indirectness increases with tensile strain, providing a natural explanation for the experimentally observed decrease in photoluminescence intensity under uniaxial deformation. These results provide quantitative guidance for tailoring band structures for optoelectronic and quantum-defect applications.",
+      "authors": [
+        "Igor Evangelista",
+        "Abdul Saboor",
+        "Muhammad Zubair",
+        "Intuon Chatratin",
+        "Ruiqi Hu",
+        "Dai Q. Ho",
+        "Shoaib Khalid",
+        "Ioanna Fampiou",
+        "Anderson Janotti"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-03-14",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2603.14138v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究与增材制造、生物医学植入物或力学性能无关的二维材料电子结构。",
+        "why_not_core": "No additive manufacturing, no mechanical testing, no implant design, no biomedical context.",
+        "validation_kind": "theoretical",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "density functional theory",
+          "strain engineering",
+          "transition-metal dichalcogenides",
+          "band structure",
+          "2D materials"
+        ],
+        "summary_zh": {
+          "motivation": "研究单层过渡金属二硫属化物在单轴应变下的能带结构变化。",
+          "method": "使用含自旋轨道耦合的杂化密度泛函计算。",
+          "result": "拉伸应变导致带隙减小，谷漂移，且间接带隙增大。",
+          "validation": "与实验光致发光强度下降趋势定性一致。"
+        },
+        "summary_en": {
+          "motivation": "To accurately compute the strain evolution of the electronic band structure of monolayer transition-metal dichalcogenides for optoelectronic applications.",
+          "method": "Hybrid density functional calculations including spin-orbit coupling are employed to compute strain-dependent band gaps and valley shifts.",
+          "result": "Tensile uniaxial strain reduces the fundamental gap, induces valley drift from the K point, and increases indirectness, explaining photoluminescence decrease.",
+          "validation": "Theoretical results are compared qualitatively with experimental photoluminescence trends under uniaxial deformation."
+        },
+        "key_terms": [
+          {
+            "en": "transition-metal dichalcogenides",
+            "zh": "过渡金属二硫属化物"
+          },
+          {
+            "en": "uniaxial strain",
+            "zh": "单轴应变"
+          },
+          {
+            "en": "band gap",
+            "zh": "带隙"
+          },
+          {
+            "en": "spin-orbit coupling",
+            "zh": "自旋轨道耦合"
+          },
+          {
+            "en": "valley drift",
+            "zh": "谷漂移"
+          },
+          {
+            "en": "indirect band gap",
+            "zh": "间接带隙"
+          },
+          {
+            "en": "hybrid density functional",
+            "zh": "杂化密度泛函"
+          },
+          {
+            "en": "photoluminescence",
+            "zh": "光致发光"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:20:36Z"
+    },
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2603.18040v1",
+      "doi": "",
+      "arxiv_id": "2603.18040v1",
+      "title": "Lightweight phase-field surrogate for modelling ductile-to-brittle transition through phenomenological elastoplastic coupling",
+      "abstract": "The ductile-to-brittle transition (DBT) in body-centred cubic systems is a central design constraint for cryogenic structures. Performing parametric studies to enhance the understanding on DBT using fully coupled thermomechanical continuum DBT models is computationally expensive. Therefore, in this work, a lightweight phase-field surrogate is proposed. This surrogate approach captures key \\emph{DBT-like} trends within a standard isothermal two-field (displacement--damage) setting by prescribing temperature dependence through three phenomenological mechanisms: (i) a temperature-dependent degradation exponent $n(T)$ that sharpens stiffness loss from gradual (ductile-like, $n=2.0$ at 293\\,K) to abrupt (brittle-like, $n=3.5$ at 77\\,K), (ii) temperature-dependent yield stress and elastic modulus to modulate the balance between plastic dissipation and elastic energy storage, and (iii) an effective fracture toughness and driving-force scaling to represent reduced crack-tip shielding at cryogenic temperatures. The model is implemented in FEniCSx using small-strain $J_2$ return mapping and a staggered solution scheme. Simulations of a single-edge-notched specimen over 77--293\\,K demonstrate a systematic progression from brittle-like to ductile-like response, characterised by reduced displacement to unstable fracture, a transition from abrupt post-peak load drop to extended softening, and a shift from narrow, localised damage bands with confined plasticity to broader process zones. A sensitivity study comparing four interpolation schemes (linear, smoothstep, exponential, hybrid) shows that the qualitative transition trends are robust, with interpolation primarily affecting intermediate-temperature responses while endpoint behaviours remain unchanged.",
+      "authors": [
+        "P G Kubendran Amos"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-03-14",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2603.18040v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "fracture toughness"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了基于代理模型的相场断裂方法，但未涉及生物医学植入物或增材制造，与用户方向关联较弱。",
+        "why_not_core": "This paper does not include biomedical implants, additive manufacturing, or experimental validation; it is a computational study on a generic ductile-to-brittle transition problem.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "phase-field",
+          "fracture",
+          "surrogate",
+          "ductile-to-brittle transition",
+          "finite element"
+        ],
+        "summary_zh": {
+          "motivation": "降低韧性-脆性转变参数研究的计算成本。",
+          "method": "提出轻量级相场代理模型，通过温度相关现象学机制模拟DBT。",
+          "result": "模型在77-293K范围内复现了从脆性到韧性的系统转变趋势。",
+          "validation": "对单边缺口试样进行有限元模拟验证。"
+        },
+        "summary_en": {
+          "motivation": "To reduce the computational cost of parametric studies on ductile-to-brittle transition in body-centred cubic systems.",
+          "method": "A lightweight phase-field surrogate is proposed, incorporating temperature-dependent degradation exponent, yield stress, elastic modulus, and fracture toughness to capture DBT-like trends within a standard isothermal two-field setting.",
+          "result": "Simulations of a single-edge-notched specimen from 77 to 293 K demonstrate systematic progression from brittle-like to ductile-like response, with robust qualitative trends across interpolation schemes.",
+          "validation": "The model is validated through numerical simulations of a single-edge-notched tensile specimen, comparing different temperature-dependent interpolation schemes."
+        },
+        "key_terms": [
+          {
+            "en": "phase-field",
+            "zh": "相场"
+          },
+          {
+            "en": "ductile-to-brittle transition",
+            "zh": "韧脆转变"
+          },
+          {
+            "en": "surrogate model",
+            "zh": "代理模型"
+          },
+          {
+            "en": "temperature-dependent",
+            "zh": "温度依赖"
+          },
+          {
+            "en": "fracture",
+            "zh": "断裂"
+          },
+          {
+            "en": "finite element",
+            "zh": "有限元"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:20:36Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 3,
+    "by_source": {
+      "arxiv": 3
+    },
+    "after_dedup": 3,
+    "after_routing": 3,
+    "by_direction": {
+      "mechanical_properties": 3
+    },
+    "routed_by_source": {
+      "arxiv": 3
+    },
+    "scored": 3,
+    "priority_counts": {
+      "Exclude": 2,
+      "Low": 1
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": "v2",
+  "date": "2025-06-25",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411652609",
+      "doi": "10.1016/j.jos.2025.05.013",
+      "title": "Minimum 10-year outcomes of a curved anatomic femoral stem designed for the Japanese femora including dysplastic hips in total hip arthroplasty",
+      "abstract": "",
+      "authors": [
+        "Sachiyuki Tsukada",
+        "Naoyuki Hirasawa",
+        "Masayoshi Saito",
+        "Masahiro Nishino",
+        "Takuya Kusakabe",
+        "Hiroyuki Ogawa"
+      ],
+      "first_author_affiliation": "Department of Orthopaedic Surgery, Hokusuikai Kinen Hospital, 3-2-1 Higashihara, Mito, Ibaraki 310-0035, Japan. Electronic address: s8058@nms.ac.jp",
+      "corresponding_authors": [
+        {
+          "name": "Sachiyuki Tsukada",
+          "affiliation": "Department of Orthopaedic Surgery, Hokusuikai Kinen Hospital, 3-2-1 Higashihara, Mito, Ibaraki 310-0035, Japan. Electronic address: s8058@nms.ac.jp"
+        }
+      ],
+      "venue": "Journal of Orthopaedic Science",
+      "year": 2025,
+      "date": "2025-06-25",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jos.2025.05.013",
+      "cited_by_count": 0,
+      "concepts": [
+        "Medicine",
+        "Total hip arthroplasty",
+        "Orthopedic surgery",
+        "Femur",
+        "Arthroplasty",
+        "Total hip replacement",
+        "Surgery",
+        "Anatomy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "am_femoral_stem"
+      ],
+      "direction": "am_femoral_stem",
+      "direction_name": "Femoral Stem (AM + traditional)",
+      "routing_matches": {
+        "am_femoral_stem": [
+          "femoral stem"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文仅报告临床结局，不涉及生物力学建模或增材制造，与研究方向的工程核心无关。",
+        "why_not_core": "No biomechanics modeling (stress shielding, micromotion), no implant design via AM, no FEA or mechanical testing.",
+        "validation_kind": "clinical",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "total hip arthroplasty",
+          "femoral stem",
+          "dysplastic hip",
+          "clinical outcomes"
+        ],
+        "summary_zh": {
+          "motivation": "评估为日本股骨设计的弧形解剖柄在发育不良髋中的长期表现。",
+          "method": "回顾分析2012-2014年使用该假体的患者10年以上随访结果。",
+          "result": "10年假体生存率达99%，无柄周围骨折或无菌松动。",
+          "validation": "临床随访和放射学评估。"
+        },
+        "summary_en": {
+          "motivation": "To evaluate long-term survivorship and complications of a curved anatomic femoral stem specifically designed for Japanese femora including dysplastic hips.",
+          "method": "Retrospective review of patients who received the stem between 2012-2014 with minimum 10-year follow-up.",
+          "result": "Ten-year implant survival was 99% with no periprosthetic fractures or aseptic loosening.",
+          "validation": "Clinical and radiographic evaluation at follow-up visits."
+        },
+        "key_terms": [
+          {
+            "en": "total hip arthroplasty",
+            "zh": "全髋关节置换术"
+          },
+          {
+            "en": "femoral stem",
+            "zh": "股骨柄"
+          },
+          {
+            "en": "dysplastic hip",
+            "zh": "发育不良髋"
+          },
+          {
+            "en": "survivorship",
+            "zh": "生存率"
+          },
+          {
+            "en": "aseptic loosening",
+            "zh": "无菌性松动"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:10:24Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "am_femoral_stem": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

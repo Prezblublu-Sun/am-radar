@@ -1,0 +1,119 @@
+{
+  "schema_version": "v2",
+  "date": "2025-07-18",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2507.14273v1",
+      "doi": "",
+      "arxiv_id": "2507.14273v1",
+      "title": "The fracture toughness of molybdenum at different grain sizes under and since brittle-ductile transition: computer modeling and experiment",
+      "abstract": "The sharp growth of the fracture toughness after brittle-ductile transition happens at grain sizes approximately equal to the plastic zone size. Here we analyze the influence of the grain boundary on the evolution of the ensemble of dislocations near the crack tip using dislocation dynamics method. We show evidence that for large grain sizes, the size has little effect on the ensemble of dislocations and the fracture toughness, but when dislocations reach the grain boundary, distribution of dislocations changes, which leads to increase of the fracture toughness.",
+      "authors": [
+        "K. M. Borysovska",
+        "N. M. Marchenko",
+        "Yu. Koval",
+        "Yu. N. Podrezov",
+        "S. A. Firstov"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-07-18",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2507.14273v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "fracture toughness"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究钼的断裂韧性，与增材制造及生物医用植入物无关。",
+        "why_not_core": "This paper focuses on conventional molybdenum fracture toughness via dislocation dynamics, with no additive manufacturing process, no biomedical context, and no implant design or biomechanics.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "fracture toughness",
+          "molybdenum",
+          "grain size",
+          "dislocation dynamics",
+          "brittle-ductile transition"
+        ],
+        "summary_zh": {
+          "motivation": "研究晶粒尺寸对钼断裂韧性的影响。",
+          "method": "采用位错动力学模拟和实验验证。",
+          "result": "大晶粒尺寸影响小，位错到达晶界时断裂韧性增加。",
+          "validation": "实验力学测试。"
+        },
+        "summary_en": {
+          "motivation": "Investigate the effect of grain size on the fracture toughness of molybdenum.",
+          "method": "Dislocation dynamics simulations and mechanical experiments.",
+          "result": "Grain size has little effect for large grains, but dislocations reaching grain boundaries increase toughness.",
+          "validation": "Experimental mechanical testing."
+        },
+        "key_terms": [
+          {
+            "en": "fracture toughness",
+            "zh": "断裂韧性"
+          },
+          {
+            "en": "molybdenum",
+            "zh": "钼"
+          },
+          {
+            "en": "grain size",
+            "zh": "晶粒尺寸"
+          },
+          {
+            "en": "dislocation dynamics",
+            "zh": "位错动力学"
+          },
+          {
+            "en": "brittle-ductile transition",
+            "zh": "脆韧转变"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:11:37Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

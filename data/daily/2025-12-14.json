@@ -1,0 +1,122 @@
+{
+  "schema_version": "v2",
+  "date": "2025-12-14",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2512.12843v1",
+      "doi": "",
+      "arxiv_id": "2512.12843v1",
+      "title": "To crack, or not to crack: How hydrogen favors crack propagation in iron at the atomic scale",
+      "abstract": "Steel is a key structural material because of its considerable strength and ductility. However, when exposed to hydrogen, it is prone to embrittlement. Mechanistic understanding of the origin of hydrogen embrittlement is hampered by the lack of reliable interatomic potentials. Here, we perform large-scale molecular dynamics simulations of crack propagation after having developed and validated an efficient yet density-functional-theory-accurate machine-learning potential for hydrogen in iron. Simulations based on our potential reveal that in the absence of H, iron is intrinsically ductile at finite temperatures with crack-tip blunting assisted by dislocation emission. By contrast, minute (part-per-million) hydrogen concentrations can switch the crack-tip behavior from ductile blunting to brittle propagation. Detailed analysis of our molecular dynamics results reveals that the combination of fast hydrogen diffusion and diminished surface energy is at the origin of embrittlement. Our results set the stage for a modified Griffith's criterion for hydrogen-induced brittle fracture, which closely captures the simulations and that can be used to assess embrittlement in iron-based alloys.",
+      "authors": [
+        "Aleksei Egorov",
+        "Lei Zhang",
+        "Erik van der Giessen",
+        "Francesco Maresca"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-12-14",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2512.12843v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究铁中氢致裂纹扩展的原子尺度机制，与用户的研究方向（AI生物打印、髋关节植入物FEA替代模型、生物医学增材制造）无关。",
+        "why_not_core": "This paper focuses on atomic-scale hydrogen embrittlement in iron using molecular dynamics and machine learning potentials, with no connection to additive manufacturing, biomedical implants, or mechanical testing of AM materials.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "hydrogen embrittlement",
+          "iron",
+          "machine learning potential",
+          "molecular dynamics",
+          "fracture"
+        ],
+        "summary_zh": {
+          "motivation": "理解氢致铁脆化的原子机制",
+          "method": "开发DFT精度的机器学习势并进行大规模分子动力学裂纹模拟",
+          "result": "微量氢使裂纹尖端从韧性钝化转为脆性扩展",
+          "validation": "与DFT计算及修正的格里菲斯准则对比验证"
+        },
+        "summary_en": {
+          "motivation": "To understand the atomic-scale origin of hydrogen embrittlement in iron.",
+          "method": "Developed a DFT-accurate machine-learning potential and performed large-scale molecular dynamics crack simulations.",
+          "result": "Minute hydrogen concentrations switch crack-tip behavior from ductile blunting to brittle propagation.",
+          "validation": "Validated against DFT calculations and a modified Griffith's criterion."
+        },
+        "key_terms": [
+          {
+            "en": "hydrogen embrittlement",
+            "zh": "氢脆"
+          },
+          {
+            "en": "machine learning potential",
+            "zh": "机器学习势"
+          },
+          {
+            "en": "molecular dynamics",
+            "zh": "分子动力学"
+          },
+          {
+            "en": "crack propagation",
+            "zh": "裂纹扩展"
+          },
+          {
+            "en": "iron",
+            "zh": "铁"
+          },
+          {
+            "en": "Griffith's criterion",
+            "zh": "格里菲斯准则"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:17:08Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

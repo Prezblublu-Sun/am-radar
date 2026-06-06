@@ -1,0 +1,130 @@
+{
+  "schema_version": "v2",
+  "date": "2025-06-14",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2506.12516v1",
+      "doi": "",
+      "arxiv_id": "2506.12516v1",
+      "title": "Information fusion strategy integrating pre-trained language model and contrastive learning for materials knowledge mining",
+      "abstract": "Machine learning has revolutionized materials design, yet predicting complex properties like alloy ductility remains challenging due to the influence of processing conditions and microstructural features that resist quantification through traditional reductionist approaches. Here, we present an innovative information fusion architecture that integrates domain-specific texts from materials science literature with quantitative physical descriptors to overcome these limitations. Our framework employs MatSciBERT for advanced textual comprehension and incorporates contrastive learning to automatically extract implicit knowledge regarding processing parameters and microstructural characteristics. Through rigorous ablation studies and comparative experiments, the model demonstrates superior performance, achieving coefficient of determination (R2) values of 0.849 and 0.680 on titanium alloy validation set and refractory multi-principal-element alloy test set. This systematic approach provides a holistic framework for property prediction in complex material systems where quantitative descriptors are incomplete and establishes a foundation for knowledge-guided materials design and informatics-driven materials discovery.",
+      "authors": [
+        "Yongqian Peng",
+        "Zhouran Zhang",
+        "Longhui Zhang",
+        "Fengyuan Zhao",
+        "Yahao Li",
+        "Yicong Ye",
+        "Shuxin Bai"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-06-14",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2506.12516v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cs.LG"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文针对合金性能预测，未涉及增材制造工艺或AM机械性能，与用户研究方向仅间接相关。",
+        "why_not_core": "This paper does not address additive manufacturing (AM) mechanical properties, LPBF process parameters, or experimental validation on AM-fabricated specimens.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "materials informatics",
+          "natural language processing",
+          "contrastive learning",
+          "alloy ductility",
+          "MatSciBERT"
+        ],
+        "summary_zh": {
+          "motivation": "克服传统方法难以量化加工条件和微观结构对合金性能的影响。",
+          "method": "融合MatSciBERT文本理解与对比学习，自动提取文献隐含知识。",
+          "result": "在钛合金和难熔合金数据集上R²分别达0.849和0.680。",
+          "validation": "通过消除实验和对比实验验证模型性能。"
+        },
+        "summary_en": {
+          "motivation": "To address the challenge of quantifying processing conditions and microstructural features in alloy property prediction using traditional reductionist approaches.",
+          "method": "An information fusion architecture integrating MatSciBERT for domain-specific text comprehension and contrastive learning for implicit knowledge extraction from materials science literature.",
+          "result": "The model achieved R² values of 0.849 and 0.680 on titanium alloy validation set and refractory multi-principal-element alloy test set, respectively.",
+          "validation": "Ablation studies and comparative experiments were performed to validate the model's superior predictive performance."
+        },
+        "key_terms": [
+          {
+            "en": "information fusion",
+            "zh": "信息融合"
+          },
+          {
+            "en": "MatSciBERT",
+            "zh": "MatSciBERT"
+          },
+          {
+            "en": "contrastive learning",
+            "zh": "对比学习"
+          },
+          {
+            "en": "ductility prediction",
+            "zh": "延展性预测"
+          },
+          {
+            "en": "materials knowledge mining",
+            "zh": "材料知识挖掘"
+          },
+          {
+            "en": "property prediction",
+            "zh": "性能预测"
+          },
+          {
+            "en": "refractory multi-principal-element alloys",
+            "zh": "难熔多主元合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:10:24Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

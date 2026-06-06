@@ -1,0 +1,348 @@
+{
+  "schema_version": "v2",
+  "date": "2025-11-20",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2511.16263v2",
+      "doi": "",
+      "arxiv_id": "2511.16263v2",
+      "title": "Prediction of atomic H adsorption energies in metalloid doped MSSe (M = Mo/W) Janus layers: A combined DFT and machine learning study",
+      "abstract": "Janus derivatives of 2H MX2 (M = Mo/W; X = S/Se), namely MSSe, have already been experimentally realized and explored for applications in photocatalysis, photovoltaics, and optoelectronics. Focusing on the photocatalytic properties of these layers, we investigate the adsorption of atomic hydrogen on the MSSe layers in the presence of metalloid dopants B, Si, and Ge. The layers in their pristine form exhibit positive adsorption energies, indicating an endothermic nature. Substitution of a dopant in the pristine MSSe layers alters the local symmetry, bonding character, and charge distribution, thereby increasing the number of active sites for hosting H adsorption and reducing the adsorption energy. We select distinct sites, both atomic and interstitial, for the substitution of dopants. The energetics of the H atom at various sites is studied to find the most favorable active site on the MSSe Janus layers. Our results based on density functional theory calculations show that the adsorption process becomes spontaneous and less attractive in the presence of atomic site dopant substitution, whereas the interstitial site results in an endothermic behavior. Moreover, having the data from DFT, we develop a supervised machine learning model for predicting the hydrogen adsorption energy. For this purpose, we utilize 23 elemental features of the atoms involved in the structure, thereby eliminating the need for DFT calculations in feature design. The dimensionality reduction technique, principal component analysis, is employed to reduce the dimensionality of the feature space, yielding independent features that are mutually orthogonal. The model is implemented as a multi-layer perceptron regressor with two hidden layers. The data augmentation technique is employed to artificially expand the dataset size, thereby enhancing the accuracy of the neural network model by 0.90% on the testing data.",
+      "authors": [
+        "G. Tejaswini",
+        "Anjana E Sudheer",
+        "Amrendra Kumar",
+        "M. Vallinayagam",
+        "Pavan Kumar Perepu",
+        "Attila Cangi",
+        "Mani Lokamani",
+        "M. Posselt",
+        "M. Zschornak",
+        "C. Kamal",
+        "D. Amaranatha Reddy",
+        "D. Murali"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-11-20",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2511.16263v2",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "与用户研究方向无关，不涉及增材制造或生物力学。",
+        "why_not_core": "This paper does not address additive manufacturing, mechanical testing, or any biomedical context; it focuses on catalytic properties of 2D materials using DFT and ML.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "DFT",
+          "machine learning",
+          "2D materials",
+          "hydrogen adsorption",
+          "Janus layers"
+        ],
+        "summary_zh": {
+          "动机": "研究金属类掺杂Janus层上的氢吸附能。",
+          "方法": "密度泛函理论和机器学习预测。",
+          "结果": "掺杂改变吸附性质，ML模型准确预测吸附能。",
+          "验证": "数值基准和模型测试。"
+        },
+        "summary_en": {
+          "motivation": "To investigate hydrogen adsorption energies on metalloid-doped Janus MSSe layers for photocatalytic applications.",
+          "method": "Density functional theory calculations combined with a machine learning model using principal component analysis and a multi-layer perceptron regressor.",
+          "result": "Doping reduces adsorption energy, and the ML model predicts adsorption energies with improved accuracy.",
+          "validation": "Validation on DFT data with data augmentation."
+        },
+        "key_terms": [
+          {
+            "en": "Janus layers",
+            "zh": "Janus层"
+          },
+          {
+            "en": "hydrogen adsorption",
+            "zh": "氢吸附"
+          },
+          {
+            "en": "density functional theory",
+            "zh": "密度泛函理论"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "metalloid dopants",
+            "zh": "准金属掺杂"
+          },
+          {
+            "en": "principal component analysis",
+            "zh": "主成分分析"
+          },
+          {
+            "en": "multi-layer perceptron",
+            "zh": "多层感知机"
+          },
+          {
+            "en": "photocatalysis",
+            "zh": "光催化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:15:55Z"
+    },
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2511.16057v1",
+      "doi": "",
+      "arxiv_id": "2511.16057v1",
+      "title": "High-Throughput Exploration of Refractory High-Entropy Alloys for Strength and Plasticity",
+      "abstract": "Refractory high-entropy alloys (RHEAs) are compositionally complex materials which have been demonstrated to have the potential for exceptional strength at high operating temperatures. However, their composition space is vast, and other property requirements, such as acceptable plasticity at room-temperature, must be met. Here, we leverage recently published, state-of-the-art deep learning models to predict compressive yield strength at 1,000 °C and room-temperature plasticity of >100,000 RHEAs. Multiple candidate materials were identified which exhibited exceptional balance between strength and plasticity. Upon experimental synthesis, multiple candidates were proven to outperform any previously reported RHEAs for simultaneous strength and plasticity. Our work demonstrates the power of data-driven approaches for rapid materials design, and enables continued multi-property optimization and materials discovery.",
+      "authors": [
+        "Stephen A. Giles",
+        "Hugh Shortt",
+        "Peter K. Liaw",
+        "Debasis Sengupta"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-11-20",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2511.16057v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "yield strength"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文使用深度学习筛选难熔高熵合金的力学性能，但未涉及增材制造工艺，与用户研究方向的AM力学性能无直接关联。",
+        "why_not_core": "No additive manufacturing context; the study focuses on alloy composition design and bulk mechanical testing, not on AM-specific process-structure-property relationships.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "high-entropy alloys",
+          "deep learning",
+          "strength",
+          "plasticity",
+          "materials discovery"
+        ],
+        "summary_zh": {
+          "motivation": "难熔高熵合金成分空间大，需兼顾高温强度和室温塑性。",
+          "method": "利用深度学习模型预测超10万种RHEA的高温屈服强度和室温塑性。",
+          "result": "筛选出多个候选合金，实验验证其综合性能超过已有报道。",
+          "validation": "通过实验合成并测试候选合金的力学性能进行验证。"
+        },
+        "summary_en": {
+          "motivation": "Refractory high-entropy alloys have vast composition spaces and require simultaneous high-temperature strength and room-temperature plasticity.",
+          "method": "Deep learning models were used to predict compressive yield strength at 1000°C and room-temperature plasticity for over 100,000 RHEA compositions.",
+          "result": "Multiple candidate alloys with exceptional strength-plasticity balance were identified and experimentally confirmed to outperform prior RHEAs.",
+          "validation": "Experimental synthesis and mechanical testing (compression) of selected candidates validated the predictions."
+        },
+        "key_terms": [
+          {
+            "en": "refractory high-entropy alloys",
+            "zh": "难熔高熵合金"
+          },
+          {
+            "en": "deep learning",
+            "zh": "深度学习"
+          },
+          {
+            "en": "compressive yield strength",
+            "zh": "压缩屈服强度"
+          },
+          {
+            "en": "plasticity",
+            "zh": "塑性"
+          },
+          {
+            "en": "materials discovery",
+            "zh": "材料发现"
+          },
+          {
+            "en": "high-throughput screening",
+            "zh": "高通量筛选"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:15:55Z"
+    },
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2511.15999v1",
+      "doi": "",
+      "arxiv_id": "2511.15999v1",
+      "title": "Skyrmionium meta-matter: a topologically heterogeneous magnetic crystal with emergent hybrid dynamics",
+      "abstract": "We introduce and systematically investigate a new class of topological magnetic textures, skyrmionium meta-matter, composed of skyrmioniums (Skm, $Q=0$) and skyrmions (Sk, $Q=-1$) arranged in periodic lattices mimicking the richness of atomic materials. Pure skyrmionium lattices are unstable against elongation distortions and relax into the spiral phase, but even a small fraction of skyrmions acts as topological \"pins\" that stabilize diverse mixed Skm--Sk crystals. We classify these states by topological stoichiometry (Skm$_n$Sk$_m$) and show that each composition hosts multiple metastable polymorphs with distinct plane-group symmetries. Structural transformations between polymorphs are achieved by varying the lattice spacing, suggesting experimental control via pressure or strain. The collective spin dynamics is explored for both in-plane and out-of-plane AC magnetic fields. The resulting absorption spectra show resonant modes beyond the two rotational and one breathing mode of conventional skyrmion lattices. We identify hybrid excitations unique to Skm--Sk crystals, including (i) deformation-assisted rotations, where skyrmions acquire polygonal shapes and rotate, and (ii) orbital modes, where breathing skyrmioniums induce circular motion of confined skyrmions without changing their size. Mode frequencies span sub-GHz to above 10 GHz, consistent with exchange and DMI energy scales. Our results establish skyrmionium-based meta-matter as a versatile platform for tunable, topologically heterogeneous magnetic lattices with rich structural and dynamical properties, paving the way for reconfigurable magnonic and spintronic applications.",
+      "authors": [
+        "Andrey O. Leonov",
+        "Kaito Nakamura"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-11-20",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2511.15999v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究磁性拓扑结构，与生物打印、髋关节植入物、有限元代理或生物医学增材制造无关。",
+        "why_not_core": "This paper studies topologically heterogeneous magnetic crystals for spintronic applications, with no connection to biomechanics, implant design, FEA surrogate modeling, or biomedical additive manufacturing.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "topological magnetic textures",
+          "skyrmionium",
+          "meta-matter",
+          "spin dynamics",
+          "spintronics"
+        ],
+        "summary_zh": {
+          "motivation": "探索新型磁性拓扑结构及其混合动力学",
+          "method": "通过微磁学模拟构建天空离子-斯格明子混合晶格",
+          "result": "发现变形辅助旋转和轨道模式等独特混合激发",
+          "validation": "数值模拟验证吸收谱和自旋动力学"
+        },
+        "summary_en": {
+          "motivation": "To introduce and characterize a new class of topological magnetic crystals with hybrid dynamics beyond conventional skyrmion lattices.",
+          "method": "Systematically investigated skyrmionium-skyrmion mixed lattices via micromagnetic simulations varying composition and lattice spacing.",
+          "result": "Identified deformation-assisted rotations and orbital modes unique to these mixed crystals, with mode frequencies spanning sub-GHz to above 10 GHz.",
+          "validation": "Validated through numerical simulations of spin dynamics and absorption spectra under AC magnetic fields."
+        },
+        "key_terms": [
+          {
+            "en": "skyrmionium",
+            "zh": "天空离子"
+          },
+          {
+            "en": "skyrmion",
+            "zh": "斯格明子"
+          },
+          {
+            "en": "topological magnetic texture",
+            "zh": "拓扑磁性结构"
+          },
+          {
+            "en": "meta-matter",
+            "zh": "元物质"
+          },
+          {
+            "en": "micromagnetic simulation",
+            "zh": "微磁学模拟"
+          },
+          {
+            "en": "spin dynamics",
+            "zh": "自旋动力学"
+          },
+          {
+            "en": "Dzyaloshinskii-Moriya interaction",
+            "zh": "Dzyaloshinskii-Moriya相互作用"
+          },
+          {
+            "en": "magnonic",
+            "zh": "磁子学"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:15:55Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 3,
+    "by_source": {
+      "arxiv": 3
+    },
+    "after_dedup": 3,
+    "after_routing": 3,
+    "by_direction": {
+      "mechanical_properties": 3
+    },
+    "routed_by_source": {
+      "arxiv": 3
+    },
+    "scored": 3,
+    "priority_counts": {
+      "Exclude": 2,
+      "Low": 1
+    }
+  }
+}

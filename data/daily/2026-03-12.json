@@ -1,0 +1,268 @@
+{
+  "schema_version": "v2",
+  "date": "2026-03-12",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2603.16925v1",
+      "doi": "",
+      "arxiv_id": "2603.16925v1",
+      "title": "Gaussian Process Regression-based Knowledge Distillation Framework for Simultaneous Prediction of Physical and Mechanical Properties of Epoxy Polymers",
+      "abstract": "Epoxy polymers are widely used due to their multifunctional properties, but machine learning (ML) applications remain limited owing to their complex 3D molecular structure, multi-component nature, and lack of curated datasets. Existing ML studies are largely restricted to simulation data, specific properties, or narrow constituent ranges. To address these limitations, we developed an informed Gaussian Process Regression-based Knowledge Distillation (GPR-KD) framework for predicting multiple physical (glass transition temperature, density) and mechanical properties (elastic modulus, tensile strength, compressive strength, flexural strength, fracture energy, adhesive strength) of thermoset epoxy polymers. The model was trained on experimental literature data covering diverse monomer classes (9 resins, 40 hardeners). Individual GPR models serve as teacher models capturing nonlinear feature-property relationships, while a unified neural network student model learns distilled knowledge across all properties simultaneously. By encoding the target property as an input feature, the student model leverages cross-property correlations. Molecular-level descriptors extracted from SMILES representations using RDKit create a physics-informed model. The framework combines GPR interpretability and robustness with deep learning scalability and generalization. Comparative analysis demonstrates superior prediction accuracy over conventional ML models. Simultaneous multi-property prediction further improves accuracy through information sharing across correlated properties. The proposed framework enables accelerated design of novel epoxy polymers with tailored properties.",
+      "authors": [
+        "Sindu B. S.",
+        "Jan Hamaekers"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2603.16925v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.soft",
+        "cond-mat.mtrl-sci",
+        "cs.LG"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "tensile strength"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "本文研究环氧聚合物的多物性预测，与用户关于AI生物打印、髋关节植入物、FEA代理模型或生物医学增材制造的研究方向无直接关联。",
+        "why_not_core": "This paper does not address implant design, bioprinting, FEA surrogate modeling, or biomedical additive manufacturing; it is a materials informatics study on epoxy polymers without experimental validation on biomedical or AM-specific contexts.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "epoxy polymers",
+          "knowledge distillation",
+          "Gaussian process regression",
+          "multi-property prediction",
+          "machine learning",
+          "materials informatics"
+        ],
+        "summary_zh": {
+          "motivation": "传统方法难以预测环氧聚合物的多物性，旨在开发通用预测模型。",
+          "method": "构建基于高斯过程回归的知识蒸馏框架，结合分子描述符和多任务学习。",
+          "result": "在多种物理和力学性能上取得优于传统ML的预测精度。",
+          "validation": "基于文献实验数据进行交叉验证和模型对比。"
+        },
+        "summary_en": {
+          "motivation": "To overcome limitations of existing ML models for predicting multiple properties of epoxy polymers due to complex molecular structures and scarce data.",
+          "method": "Developed a GPR-KD framework where individual GPR teachers are distilled into a unified neural network student that takes molecular descriptors and property type as inputs.",
+          "result": "The framework achieves superior accuracy compared to conventional ML models across eight physical and mechanical properties.",
+          "validation": "The model was validated on a dataset of experimental literature data covering diverse monomer classes, with comparative analysis against baselines."
+        },
+        "key_terms": [
+          {
+            "en": "Gaussian Process Regression",
+            "zh": "高斯过程回归"
+          },
+          {
+            "en": "Knowledge Distillation",
+            "zh": "知识蒸馏"
+          },
+          {
+            "en": "Epoxy Polymers",
+            "zh": "环氧聚合物"
+          },
+          {
+            "en": "Glass Transition Temperature",
+            "zh": "玻璃化转变温度"
+          },
+          {
+            "en": "Elastic Modulus",
+            "zh": "弹性模量"
+          },
+          {
+            "en": "Tensile Strength",
+            "zh": "拉伸强度"
+          },
+          {
+            "en": "Molecular Descriptors",
+            "zh": "分子描述符"
+          },
+          {
+            "en": "Multi-property Prediction",
+            "zh": "多属性预测"
+          },
+          {
+            "en": "SMILES",
+            "zh": "简化分子线性输入规范"
+          },
+          {
+            "en": "RDKit",
+            "zh": "RDKit化学信息学工具包"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:20:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7135084700",
+      "doi": "10.1007/s40964-026-01594-y",
+      "title": "Influence of molecular weight distribution on mechanical and interlayer properties of FFF printed PA12",
+      "abstract": "Abstract Understanding how molecular weight distribution (MWD) influences the mechanical and fracture behaviour of additively manufactured PA12 is essential for establishing reliable process–structure–property relationships. An approach to minimize anisotropy has been to specifically target the feedstock materials with the goal of enhancing interlayer adhesion. In this study, polyamide 12 (PA12) grades of MWD were investigated to determine the effect of MWD on the interlayer bond formation and anisotropy of the printed samples. Three different grades of PA12 were printed into tensile coupons and double cantilever beam (DCB) specimens and the mechanical properties were assessed to study interlayer bond strength using standard fracture toughness technique. A significant improvement in mechanical properties and fracture toughness were observed with higher print temperatures attributed to strong interlayer adhesion owing to longer interlayer bonding times (verified through the Lumped Capacity model and thermocouple data). Fracture toughness assessment also demonstrated that amongst samples printed at the same temperature, PA12 with a lower average MWD provided the highest fracture toughness (G 1C ) values, attributed to the faster diffusion of short polymer chains across the interlayer interface. Tailoring the MWD of feedstock polymers utilized in 3D printing as a strategy to optimize performance and lower anisotropy was demonstrated to be a feasible pathway. These findings were utilized by developing a PA12 blend of broad MWD which provided the highest overall mechanical properties and G 1c , demonstrating the usefulness of incorporating a high proportion of fast diffusing short polymer chains in the development of polymeric feedstock materials. Additionally, for large scale 3D printing applications, where maintaining high chamber temperatures is impractical, these results suggest that optimizing MWD can be an alternative strategy to improve interlayer adhesion and mechanical properties without relying solely on elevated print temperatures.",
+      "authors": [
+        "Dejana Pejak Simunec",
+        "Premkumar Kothavade",
+        "Abdullah Kafi",
+        "Jessirie Dilag",
+        "Stuart Bateman"
+      ],
+      "first_author_affiliation": "CSIRO, Melbourne, Australia",
+      "corresponding_authors": [
+        {
+          "name": "Stuart Bateman",
+          "affiliation": "RMIT University, Melbourne, Australia"
+        }
+      ],
+      "venue": "Progress in Additive Manufacturing",
+      "year": 2026,
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40964-026-01594-y",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Fracture toughness",
+        "Anisotropy",
+        "Ultimate tensile strength",
+        "Polyamide",
+        "Polymer",
+        "Toughness",
+        "Fracture (geology)",
+        "Modulus",
+        "Raw material",
+        "Tensile testing"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "fracture toughness"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "直接研究增材制造PA12的分子量分布对力学性能和层间粘结的影响，与您的AM力学性能方向高度相关。",
+        "why_not_core": "This paper does not cover implant-specific biomechanics, fatigue testing under physiological loads, or biomedical context.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "FFF",
+          "PA12",
+          "molecular weight distribution",
+          "interlayer adhesion",
+          "fracture toughness",
+          "anisotropy",
+          "mechanical properties",
+          "polyamide 12"
+        ],
+        "summary_zh": {
+          "motivation": "研究分子量分布对FFF打印PA12力学和层间性能的影响。",
+          "method": "采用三种不同分子量分布的PA12打印试样，通过拉伸和DCB实验评估力学性能。",
+          "result": "低分子量分布PA12在相同温度下断裂韧性最高，宽分子量分布共混物综合性能最优。",
+          "validation": "使用集总容量模型和热电偶数据验证层间粘结时间。"
+        },
+        "summary_en": {
+          "motivation": "This study investigates how molecular weight distribution affects the mechanical and interlayer fracture behavior of additively manufactured PA12.",
+          "method": "Three PA12 grades with different MWD were printed into tensile and DCB specimens; mechanical properties and fracture toughness were evaluated.",
+          "result": "PA12 with lower average MWD exhibited highest fracture toughness at same print temperature, and a broad MWD blend achieved overall best properties.",
+          "validation": "Interlayer bonding time was validated using the Lumped Capacity model and thermocouple measurements."
+        },
+        "key_terms": [
+          {
+            "en": "molecular weight distribution (MWD)",
+            "zh": "分子量分布"
+          },
+          {
+            "en": "polyamide 12 (PA12)",
+            "zh": "聚酰胺12"
+          },
+          {
+            "en": "fused filament fabrication (FFF)",
+            "zh": "熔融沉积成型"
+          },
+          {
+            "en": "interlayer adhesion",
+            "zh": "层间粘结"
+          },
+          {
+            "en": "fracture toughness",
+            "zh": "断裂韧性"
+          },
+          {
+            "en": "double cantilever beam (DCB)",
+            "zh": "双悬臂梁"
+          },
+          {
+            "en": "anisotropy",
+            "zh": "各向异性"
+          },
+          {
+            "en": "Lumped Capacity model",
+            "zh": "集总容量模型"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:20:36Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 2,
+    "by_source": {
+      "arxiv": 1,
+      "openalex": 1
+    },
+    "after_dedup": 2,
+    "after_routing": 2,
+    "by_direction": {
+      "mechanical_properties": 2
+    },
+    "routed_by_source": {
+      "arxiv": 1,
+      "openalex": 1
+    },
+    "scored": 2,
+    "priority_counts": {
+      "Low": 1,
+      "High": 1
+    }
+  }
+}

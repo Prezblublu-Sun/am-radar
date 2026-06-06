@@ -1,0 +1,119 @@
+{
+  "schema_version": "v2",
+  "date": "2026-02-11",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2602.10930v1",
+      "doi": "",
+      "arxiv_id": "2602.10930v1",
+      "title": "Annotated digital image correlation displacement fields from fatigue crack growth experiments",
+      "abstract": "We present a curated dataset of planar displacement fields from eight fatigue crack growth experiments obtained via full-field digital image correlation (DIC). The dataset covers multiple aerospace-grade aluminium alloys, specimen geometries, material orientations, and load configurations, providing a diverse experimental basis for data-driven fracture mechanics research. Crack tip locations are consistently annotated using an iterative correction procedure applied to all measurements, and fracture mechanical descriptors like stress-intensity factors are provided as additional labels. The dataset comprises 8,794 unique experimentally observed displacement fields and a total of 70,352 supervised samples generated through standardized interpolation and augmentation. DIC data is provided as uniformly interpolated displacement grids at three standardized resolutions 28 x 28, 64 x 64, and 128 x 128 pixels, each available in three dataset sizes to support scalable use cases ranging from educational applications to high-capacity model development. Accompanying metadata and a Python interface facilitate filtering, loading, and integration into reproducible machine learning and fracture mechanics workflows.",
+      "authors": [
+        "David Melching",
+        "Ferdinand Dömling",
+        "Florian Paysan",
+        "Erik Schultheis",
+        "Eric Dietrich",
+        "Eric Breitbarth"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-02-11",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2602.10930v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "fatigue"
+      ],
+      "direction": "fatigue",
+      "direction_name": "AM Fatigue",
+      "routing_matches": {
+        "fatigue": [
+          "fatigue crack growth"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文提供了疲劳裂纹扩展的DIC实验数据集，但未涉及增材制造材料的疲劳行为。",
+        "why_not_core": "This paper does not consider additive manufacturing processes, materials, or defects; it focuses on conventional wrought aluminium alloys.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "fatigue crack growth",
+          "digital image correlation",
+          "dataset",
+          "fracture mechanics"
+        ],
+        "summary_zh": {
+          "motivation": "提供疲劳裂纹扩展实验的DIC位移场标注数据集，支持数据驱动断裂力学研究。",
+          "method": "对八组不同铝合金和几何的疲劳裂纹实验进行DIC测量，迭代校正裂纹尖端位置并标准化插值。",
+          "result": "生成8794个位移场和70352个监督样本，提供多种分辨率和数据集大小。",
+          "validation": "实验DIC测量与力学描述符（如应力强度因子）作为标签验证。"
+        },
+        "summary_en": {
+          "motivation": "To provide a curated dataset of DIC displacement fields from fatigue crack growth experiments for data-driven fracture mechanics.",
+          "method": "Eight fatigue crack growth experiments on various aluminium alloys were measured via DIC, with crack tip annotations corrected iteratively and fields interpolated to standard grids.",
+          "result": "The dataset contains 8,794 unique displacement fields and 70,352 supervised samples at multiple resolutions, with metadata for reproducible ML workflows.",
+          "validation": "Validation is through experimental DIC measurements and fracture mechanics descriptors such as stress-intensity factors as labels."
+        },
+        "key_terms": [
+          {
+            "en": "digital image correlation",
+            "zh": "数字图像相关"
+          },
+          {
+            "en": "fatigue crack growth",
+            "zh": "疲劳裂纹扩展"
+          },
+          {
+            "en": "displacement field",
+            "zh": "位移场"
+          },
+          {
+            "en": "stress-intensity factor",
+            "zh": "应力强度因子"
+          },
+          {
+            "en": "dataset",
+            "zh": "数据集"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:19:20Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "fatigue": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

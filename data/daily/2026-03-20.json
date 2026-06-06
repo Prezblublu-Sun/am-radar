@@ -1,0 +1,232 @@
+{
+  "schema_version": "v2",
+  "date": "2026-03-20",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2603.20113v4",
+      "doi": "",
+      "arxiv_id": "2603.20113v4",
+      "title": "An Analytical Model of Critical and Subcritical Alkali Metal Dendrite Growth in Ceramic Solid Electrolytes",
+      "abstract": "In solid-state batteries, ceramic solid electrolytes are penetrated by dendrites when plating above a critical current density $J_\\mathrm{crit}$. A dendrite will propagate by metal deposition at a pre-existing dendrite tip if the mechanical energy required to crack the ceramic open is less than the electrical energy (Joule heating) wasted by forcing the current to detour around the dendrite to the flat electrode surface. Based on this principle of minimal power dissipation, a dependence of $J_\\mathrm{crit}\\propto c_\\mathrm{max}^{3/2}$ is derived. $c_\\mathrm{max}$ is the length of the longest preexisting, sufficiently thin interfacial defect. Furthermore, the theory is expanded to include electrochemical stress-corrosion-cracking at dendrite tips due to residual electron conduction of the solid electrolyte. The resulting subcritical dendrite growth follows the same defect dependence. Consequentially, scattering of dendrite growth between samples must follow a Weibull-distribution, similar to the tensile strength of ceramic components but at smaller Weibull-modulus.",
+      "authors": [
+        "Ansgar Lowack"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-03-20",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2603.20113v4",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "tensile strength"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "本文讨论陶瓷固态电解质中的碱金属枝晶生长，与用户的研究方向（AI生物打印、髋关节植入物应力屏蔽、FEA代理模型、生物医学增材制造）完全无关。",
+        "why_not_core": "This paper focuses on dendrite growth in ceramic solid electrolytes for batteries, with no connection to bioprinting, hip implants, FEA surrogate, or biomedical additive manufacturing.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "solid-state batteries",
+          "dendrite growth",
+          "ceramic electrolyte",
+          "critical current density",
+          "Weibull distribution"
+        ],
+        "summary_zh": {
+          "motivation": "建立陶瓷固态电解质中枝晶生长的解析模型",
+          "method": "基于最小功耗原理和电化学应力腐蚀理论推导",
+          "result": "得到临界电流密度与缺陷长度的3/2次方关系",
+          "validation": "无实验验证，仅为理论推导"
+        },
+        "summary_en": {
+          "motivation": "To derive an analytical model for dendrite penetration in ceramic solid electrolytes during metal plating.",
+          "method": "The model is based on the principle of minimal power dissipation and electrochemical stress-corrosion-cracking at dendrite tips.",
+          "result": "A scaling law J_crit ∝ c_max^(3/2) is derived, and subcritical growth follows a Weibull distribution.",
+          "validation": "No experimental validation; purely theoretical derivation."
+        },
+        "key_terms": [
+          {
+            "en": "dendrite",
+            "zh": "枝晶"
+          },
+          {
+            "en": "solid electrolyte",
+            "zh": "固态电解质"
+          },
+          {
+            "en": "critical current density",
+            "zh": "临界电流密度"
+          },
+          {
+            "en": "stress-corrosion-cracking",
+            "zh": "应力腐蚀开裂"
+          },
+          {
+            "en": "Weibull distribution",
+            "zh": "威布尔分布"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:20:36Z"
+    },
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2603.19905v1",
+      "doi": "",
+      "arxiv_id": "2603.19905v1",
+      "title": "DSC curve fingerprints directly encode mechanical properties of aluminum alloys",
+      "abstract": "Differential scanning calorimetry (DSC) is a standard tool for studying precipitation and phase transformations in aluminum alloys, yet its relation to mechanical performance has so far remained mostly indirect. Here, we demonstrate that DSC curves themselves act as fingerprints that directly encode mechanical properties. Four representative 6xxx series alloys (Al-Mg-Si) were subjected to different natural and artificial aging regimens, followed by DSC heat-flow measurements and tensile testing. Machine learning models trained on the thermograms predicted yield strength, ultimate tensile strength, and uniform elongation in five-fold grouped cross-validation, with the best model (Lasso) achieving R^2 values of 0.93, 0.86, and 0.87 and mean absolute errors of 14.3 MPa, 11.1 MPa, and 1.5 percent, respectively. Leave-one-alloy-out evaluation with sparse calibration using anchor samples further demonstrated generalization across alloy chemistries. While direct prediction on unseen alloy data degraded performance substantially, inclusion of as few as one to two anchor conditions from the target alloy recovered predictive accuracy, approaching that of the standard cross-validation. Feature importance analysis revealed that the 230 to 270 C region, associated with precipitation of the primary hardening phase beta'', contributed most strongly to predictive accuracy, providing direct mechanistic validation of the model. These findings establish DSC as a diagnostic tool that can serve as a rapid proxy for mechanical property evaluation, enabling accelerated alloy screening, process optimization, and integration of thermal analysis into data-driven manufacturing.",
+      "authors": [
+        "Lukas Pichlmann",
+        "Samuel Studer",
+        "Aurel R. Arnoldt",
+        "Paul Oberhauser",
+        "Johannes A. Österreicher"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-03-20",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2603.19905v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "tensile strength",
+          "yield strength",
+          "ultimate tensile strength",
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "与用户研究方向无关，不涉及任何生物医学背景或植入物相关力学分析",
+        "why_not_core": "This paper focuses on aluminum alloy mechanical property prediction via DSC thermograms, with no connection to biomedical implants, bioprinting, FEA surrogate modeling, or additive manufacturing for biomedical applications.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "aluminum alloys",
+          "differential scanning calorimetry",
+          "machine learning",
+          "mechanical properties",
+          "material characterization"
+        ],
+        "summary_zh": {
+          "motivation": "利用DSC曲线直接预测铝合金力学性能",
+          "method": "对Al-Mg-Si合金进行时效处理，采集DSC热流数据并训练机器学习模型",
+          "result": "Lasso模型预测屈服强度R²达0.93，验证了β''相析出区域的关键作用",
+          "validation": "五折交叉验证和留一合金验证，并通过部分锚点样本恢复预测精度"
+        },
+        "summary_en": {
+          "motivation": "To establish differential scanning calorimetry (DSC) curves as direct fingerprints for predicting mechanical properties of aluminum alloys.",
+          "method": "Machine learning models, including Lasso, were trained on DSC thermograms from aged 6xxx series alloys to predict yield strength, ultimate tensile strength, and elongation.",
+          "result": "The best model achieved R² values up to 0.93 for yield strength, with feature importance confirming the β'' precipitation region as crucial.",
+          "validation": "Five-fold grouped cross-validation and leave-one-alloy-out evaluation with anchor samples were performed, supported by mechanical testing."
+        },
+        "key_terms": [
+          {
+            "en": "differential scanning calorimetry",
+            "zh": "差示扫描量热法"
+          },
+          {
+            "en": "aluminum alloys",
+            "zh": "铝合金"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "yield strength",
+            "zh": "屈服强度"
+          },
+          {
+            "en": "precipitation hardening",
+            "zh": "析出强化"
+          },
+          {
+            "en": "thermogram",
+            "zh": "热谱图"
+          },
+          {
+            "en": "Lasso regression",
+            "zh": "套索回归"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "aging treatment",
+            "zh": "时效处理"
+          },
+          {
+            "en": "β'' phase",
+            "zh": "β''相"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:20:36Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 2,
+    "by_source": {
+      "arxiv": 2
+    },
+    "after_dedup": 2,
+    "after_routing": 2,
+    "by_direction": {
+      "mechanical_properties": 2
+    },
+    "routed_by_source": {
+      "arxiv": 2
+    },
+    "scored": 2,
+    "priority_counts": {
+      "Exclude": 2
+    }
+  }
+}

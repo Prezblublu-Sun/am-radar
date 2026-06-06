@@ -1,0 +1,132 @@
+{
+  "schema_version": "v2",
+  "date": "2026-04-10",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7153318700",
+      "doi": "10.1007/s12008-026-02569-7",
+      "title": "Finite element-based multi-objective optimization of femoral stem geometry for biomechanical stability across functional activities",
+      "abstract": "",
+      "authors": [
+        "Sameh Elleuch",
+        "Rihem Nouira",
+        "Hanen Jrad"
+      ],
+      "first_author_affiliation": "Higher Institute of Applied Sciences and Technology of Sousse, ISSAT Sousse, University of Sousse, Sousse, Tunisia",
+      "corresponding_authors": [
+        {
+          "name": "Hanen Jrad",
+          "affiliation": "Laboratory LEE, National Engineering School of Sfax, ENIS, University of Sfax, 3038, Sfax, Tunisia"
+        }
+      ],
+      "venue": "International Journal on Interactive Design and Manufacturing (IJIDeM)",
+      "year": 2026,
+      "date": "2026-04-10",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s12008-026-02569-7",
+      "cited_by_count": 0,
+      "concepts": [
+        "Stability (learning theory)",
+        "Finite element method",
+        "Structural engineering",
+        "Geometry",
+        "Biomechanics",
+        "Mechanical engineering",
+        "Engineering design process",
+        "Computer science",
+        "Mathematics",
+        "Shape optimization",
+        "Materials science"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "am_femoral_stem"
+      ],
+      "direction": "am_femoral_stem",
+      "direction_name": "Femoral Stem (AM + traditional)",
+      "routing_matches": {
+        "am_femoral_stem": [
+          "femoral stem"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对股骨柄的几何优化，采用有限元方法评估不同功能活动下的生物力学稳定性，与研究者的股骨柄植入物方向高度相关。",
+        "why_not_core": "This paper does not include experimental validation, additive manufacturing process considerations, or patient-specific modeling.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "femoral stem",
+          "finite element analysis",
+          "multi-objective optimization",
+          "biomechanical stability"
+        ],
+        "summary_zh": {
+          "motivation": "优化股骨柄几何形状以提高多活动下的生物力学稳定性",
+          "method": "利用有限元方法构建多目标优化框架，评估不同几何参数的影响",
+          "result": "得到了在站立、行走等活动中兼顾稳定性和应力分布的优化几何",
+          "validation": "通过有限元仿真验证优化几何的生物力学性能"
+        },
+        "summary_en": {
+          "motivation": "To optimize femoral stem geometry for enhanced biomechanical stability across various functional activities.",
+          "method": "A finite element-based multi-objective optimization framework was developed to evaluate the influence of geometric parameters on biomechanical performance.",
+          "result": "Optimal geometries were identified that balance stability and stress distribution during standing, walking, and other activities.",
+          "validation": "The optimized geometries were validated through finite element simulations under multiple loading conditions."
+        },
+        "key_terms": [
+          {
+            "en": "femoral stem",
+            "zh": "股骨柄"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "multi-objective optimization",
+            "zh": "多目标优化"
+          },
+          {
+            "en": "biomechanical stability",
+            "zh": "生物力学稳定性"
+          },
+          {
+            "en": "geometry optimization",
+            "zh": "几何优化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:21:56Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "am_femoral_stem": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "High": 1
+    }
+  }
+}

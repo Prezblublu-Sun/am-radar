@@ -1,0 +1,130 @@
+{
+  "schema_version": "v2",
+  "date": "2026-05-19",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2605.20517v2",
+      "doi": "",
+      "arxiv_id": "2605.20517v2",
+      "title": "Coexisting Ballistic and Diffusive Heat Transport in Micrometer-Long Molecular Junctions",
+      "abstract": "Boltzmann transport theory, the standard framework for predicting thermal conductivity, assumes that every vibrational mode eventually scatters, acquiring a finite lifetime that yields a convergent, length-independent thermal conductivity: Fourier's law. Here we show that this assumption fails in a real molecular system. Through atomistic simulations of Au-alkane-Au single-molecule junctions spanning five orders of magnitude in length (0.5 nm to 4 $μ$m), we find that thermal conductivity never converges. Transport is ballistic for up to one hundred nanometers at room temperature, extending nearly two orders of magnitude beyond existing single-molecule measurements. Past this window, conductivity diverges as $L^{1/3}$, the scaling predicted by the Kardar-Parisi-Zhang universality class for momentum-conserving systems. Frequency-resolved decomposition of the heat current reveals the mechanism behind the divergence. Low-frequency acoustic modes never thermalize: protected by momentum conservation, they remain ballistic at every chain length, still carrying 50% of the total heat current at $L = 2 μ$m. All other modes thermalize collectively as discrete vibrational states merge into scattering-active phonon bands with increasing length. Hence, the diverging conductivity emerges from the boundary between these coexisting transport regimes: as $L$ grows, the onset of scattering shifts progressively toward lower frequencies, suppressing the ballistic channel at a rate that sustains the $L^{1/3}$ divergence, leaving a finite contribution at every length. This coexistence of permanent ballistic and well-behaved diffusive transport, anticipated in abstract one-dimensional lattice models, survives the structural and chemical complexity of real micrometer-sized junctions.",
+      "authors": [
+        "P. M. Martinez",
+        "O. Mateos-Lopez",
+        "J. C. Cuevas",
+        "J. G. Vilhena"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-05-19",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2605.20517v2",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "s + l + m"
+        ],
+        "fatigue": [
+          "s + l + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "s + l + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该研究与用户的研究方向（AI生物打印、髋关节植入物、FEA代理模型、AM生物医学）完全不相关。",
+        "why_not_core": "The paper studies heat transport in molecular junctions, which has no connection to additive manufacturing, biomechanics, or implant design.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "heat transport",
+          "molecular junction",
+          "ballistic transport",
+          "nonequilibrium molecular dynamics"
+        ],
+        "summary_zh": {
+          "motivation": "研究分子结中的热传导是否遵循傅里叶定律",
+          "method": "对金-烷烃-金单分子结进行跨越五个数量级的原子模拟",
+          "result": "发现热导率随长度发散，标度指数为1/3，源于弹道与扩散传输共存",
+          "validation": "频域热流分解和标度分析验证理论预测"
+        },
+        "summary_en": {
+          "motivation": "To determine if Fourier's law of heat conduction holds in real molecular junctions",
+          "method": "Atomistic simulations of Au-alkane-Au single-molecule junctions spanning 0.5 nm to 4 μm",
+          "result": "Thermal conductivity diverges as L^{1/3} due to coexisting permanent ballistic and diffusive transport",
+          "validation": "Frequency-resolved heat current decomposition and scaling analysis"
+        },
+        "key_terms": [
+          {
+            "en": "thermal conductivity",
+            "zh": "热导率"
+          },
+          {
+            "en": "ballistic transport",
+            "zh": "弹道传输"
+          },
+          {
+            "en": "diffusive transport",
+            "zh": "扩散传输"
+          },
+          {
+            "en": "molecular junction",
+            "zh": "分子结"
+          },
+          {
+            "en": "Kardar-Parisi-Zhang universality",
+            "zh": "KPZ普适类"
+          },
+          {
+            "en": "nonequilibrium molecular dynamics",
+            "zh": "非平衡分子动力学"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:23:10Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

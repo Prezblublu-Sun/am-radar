@@ -1,0 +1,119 @@
+{
+  "schema_version": "v2",
+  "date": "2025-07-06",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2507.04580v1",
+      "doi": "",
+      "arxiv_id": "2507.04580v1",
+      "title": "Nitrogen-related short-range order in Fe-Ni-Cr austenitic stainless steels: first principles and cluster expansion study",
+      "abstract": "Nitrogen (N) is a key alloying element that enhances the performance of Fe-Ni-Cr austenitic stainless steels, improving austenite stability, corrosion resistance, and yield strength. However, the role of N in modifying chemical ordering, particularly short-range order (SRO) and long-range order (LRO), is complex due to the multi-sublattice nature and magnetic interactions in these alloys. In this work, we combine first-principles calculations with the spin cluster expansion (spin CE) method to systematically investigate the effects of N on chemical ordering in Fe-Ni-Cr alloys. Our atomistic models confirm a strong affinity between N and Cr, which drives the formation of N-Cr SRO and, at higher N concentrations, stabilizes M4N-type ordered phases (M = metal). Monte Carlo simulations reveal that low N concentrations promote local N-Cr or N-N SRO, while increasing N content leads to the emergence of Cr-and N-rich LRO structures. We also show that the presence of N suppresses intrinsic Fe-Cr and Ni-Cr SRO by competing with these interactions, particularly at high concentrations. The impact of Cr content on ordering diminishes as N approaches its solubility limit. These findings are consistent with experimental observations in high-N austenitic steels. Finally, we discuss the influence of kinetic and magnetic effects on SRO evolution in high-N alloys. This study provides a comprehensive framework for understanding N-driven chemical ordering and offers insights into microstructural changes during nitriding processes.",
+      "authors": [
+        "Tianyu Su",
+        "Brian J. Blankenau",
+        "Namhoon Kim",
+        "Jessica A. Krogstad",
+        "Elif Ertekin"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-07-06",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2507.04580v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "yield strength"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "与增材制造力学性能方向无关，仅涉及基础材料科学中的氮排序研究。",
+        "why_not_core": "This paper does not address additive manufacturing, mechanical properties, or any experimental mechanical testing; it is a first-principles study on chemical ordering, not relevant to AM mechanical performance.",
+        "validation_kind": "theoretical",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "first-principles",
+          "cluster expansion",
+          "short-range order",
+          "austenitic stainless steel",
+          "nitrogen"
+        ],
+        "summary_zh": {
+          "motivation": "探究氮对Fe-Ni-Cr奥氏体不锈钢化学有序化的影响",
+          "method": "结合第一性原理与自旋团簇展开方法进行原子尺度建模",
+          "result": "低氮浓度促进N-Cr短程有序，高氮浓度稳定M4N型有序相",
+          "validation": "与高氮奥氏体钢实验结果对比验证"
+        },
+        "summary_en": {
+          "motivation": "To understand the role of nitrogen in modifying chemical ordering in Fe-Ni-Cr austenitic stainless steels, including short-range and long-range order.",
+          "method": "Combined first-principles calculations with spin cluster expansion (spin CE) to systematically investigate nitrogen effects on chemical ordering.",
+          "result": "Low nitrogen concentrations promote N-Cr short-range order, while higher concentrations lead to formation of Cr- and N-rich long-range ordered M4N phases, suppressing intrinsic Fe-Cr and Ni-Cr short-range order.",
+          "validation": "Theoretical predictions were compared with experimental observations from high-nitrogen austenitic steels, showing qualitative agreement."
+        },
+        "key_terms": [
+          {
+            "en": "short-range order",
+            "zh": "短程有序"
+          },
+          {
+            "en": "cluster expansion",
+            "zh": "团簇展开"
+          },
+          {
+            "en": "first-principles",
+            "zh": "第一性原理"
+          },
+          {
+            "en": "austenitic stainless steel",
+            "zh": "奥氏体不锈钢"
+          },
+          {
+            "en": "spin polarization",
+            "zh": "自旋极化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:11:37Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

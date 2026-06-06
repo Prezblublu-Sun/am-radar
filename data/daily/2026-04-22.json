@@ -1,0 +1,370 @@
+{
+  "schema_version": "v2",
+  "date": "2026-04-22",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2604.20450v1",
+      "doi": "",
+      "arxiv_id": "2604.20450v1",
+      "title": "Including nanoparticle shape into macrospin models",
+      "abstract": "We investigate the feasibility of the macrospin approximation to account for the actual shape of soft magnetic nanoparticles (MNPs) with realistic geometries. Specifically focusing on magnetite, we use the superellipsoidal parametrisation to account for a variety of shapes, with a continuous interpolation from spherical to cubic morphologies, as well as different elongations. Our procedure consists of the direct comparison between angular-dependent hysteresis loops obtained by full micromagnetic simulations, with those produced by an extended Stoner-Wohlfarth (SW) model that incorporates both the intrinsic cubic magnetocrystalline anisotropy, and an effective uniaxial contribution arising from the particle elongation. The limits of validity of the macrospin description are approximately 10-60 nm for axial ratios r>1.5, and 20-60 nm for 1.0<r<1.5. These results establish a direct connection between nanoparticle morphology and effective macrospin parameters, demonstrating the suitability of the generalized SW model for describing the magnetic response of realistically shaped MNPs.",
+      "authors": [
+        "Iago López-Vázquez",
+        "Òscar Iglesias",
+        "David Serantes"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-04-22",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2604.20450v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文与AM力学性能完全无关",
+        "why_not_core": "This paper focuses on magnetic nanoparticle macrospin modeling, not on additive manufacturing or mechanical properties of materials.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "magnetic nanoparticles",
+          "macrospin model",
+          "micromagnetic simulation",
+          "shape effects"
+        ],
+        "summary_zh": {
+          "motivation": "研究磁性纳米颗粒形状对宏观自旋模型有效性的影响",
+          "method": "通过比较全微磁模拟与扩展Stoner-Wohlfarth模型的磁性回线",
+          "result": "确定了宏观自旋描述的有效尺寸和形状范围",
+          "validation": "与微磁模拟结果进行对比验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate the validity of the macrospin approximation for soft magnetic nanoparticles with realistic shapes.",
+          "method": "Direct comparison of angular-dependent hysteresis loops from full micromagnetic simulations with those from an extended Stoner-Wohlfarth model incorporating shape-induced anisotropy.",
+          "result": "Established size and shape ranges (10-60 nm for axial ratios >1.5, 20-60 nm for 1.0-1.5) where the macrospin description is valid.",
+          "validation": "Validated by comparing macrospin predictions with micromagnetic simulations for magnetite nanoparticles of various superellipsoidal shapes."
+        },
+        "key_terms": [
+          {
+            "en": "macrospin model",
+            "zh": "宏观自旋模型"
+          },
+          {
+            "en": "magnetic nanoparticles",
+            "zh": "磁性纳米颗粒"
+          },
+          {
+            "en": "superellipsoid",
+            "zh": "超椭球体"
+          },
+          {
+            "en": "hysteresis loop",
+            "zh": "磁滞回线"
+          },
+          {
+            "en": "Stoner-Wohlfarth model",
+            "zh": "Stoner-Wohlfarth模型"
+          },
+          {
+            "en": "micromagnetic simulation",
+            "zh": "微磁模拟"
+          },
+          {
+            "en": "shape anisotropy",
+            "zh": "形状各向异性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:21:56Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7155208202",
+      "doi": "10.3390/aerospace13050395",
+      "title": "Advances in Additively Manufactured Multi-Principal Element Alloys for Turbine Blades in Next Generation Jet Engines",
+      "abstract": "In the 21st century, the desire for improved fuel efficiency of engines, lower fuel prices, and the need to reduce greenhouse gas emissions such as CO2 and NOx are leading the aviation industry to seek hybrid-electric jet engines for commercial aircraft. These aircraft will have greater maintenance challenges due to additional components requiring more reliable materials for the engine’s parts, such as turbine blades. Turbine blades must be composed of materials that have enhanced fatigue performance. Resistance to dynamic loads and high strength will be needed to ensure modern gas turbine blades are as reliable as possible. This review paper examines hybrid-electric engine turbine blades and subsequently introduces additive manufacturing (AM) and multi-principal element alloys (MPEAs) with a focus on laser powder bed fusion (LPBF), high-entropy alloys (HEAs), and medium-entropy alloys (MEAs). The tensile properties of LPBF HEAs range from 5 to 47% elongation and a UTS of 572–1640 MPa, while LPBF MEAs range from 8 to 73.9% and a UTS of 573–1382 MPa. This study focused on dynamic and fatigue properties while acknowledging gaps in high-temperature testing. The combination of mechanical properties with the ability to control internal geometry makes these AM alloys an attractive option for the next generation of gas turbine blades.",
+      "authors": [
+        "Kenneth Looby",
+        "Nadir Yılmaz",
+        "Peter Omoniyi",
+        "Abimbola Ojomo",
+        "Mehdi Amiri",
+        "O. Bamiduro",
+        "Gbadebo Owolabi"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, Howard University, Washington, DC 20059, USA",
+      "corresponding_authors": [
+        {
+          "name": "Nadir Yılmaz",
+          "affiliation": "Department of Mechanical Engineering, Howard University, Washington, DC 20059, USA"
+        }
+      ],
+      "venue": "Aerospace",
+      "year": 2026,
+      "date": "2026-04-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/aerospace13050395",
+      "cited_by_count": 0,
+      "concepts": [
+        "Turbine blade",
+        "Jet engine",
+        "Mechanical engineering",
+        "Gas turbines",
+        "Ultimate tensile strength",
+        "Turbine",
+        "Materials science",
+        "Missile",
+        "Aviation",
+        "Range (aeronautics)",
+        "Automotive engineering",
+        "Alloy",
+        "Jet (fluid)",
+        "Aircraft industry",
+        "Finite element method",
+        "Aero engine",
+        "Fatigue limit",
+        "Blade (archaeology)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "mechanical_properties",
+        "fatigue"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "elongation"
+        ],
+        "fatigue": [
+          "fatigue performance"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文专注于航空发动机涡轮叶片的增材制造合金力学性能，与生物医学植入物的力学研究无直接关系。",
+        "why_not_core": "This paper does not address biomedical implant applications, osseointegration, or biocompatibility; it focuses on aerospace turbine blades.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": true
+        },
+        "tags": [
+          "additive manufacturing",
+          "multi-principal element alloys",
+          "turbine blades",
+          "laser powder bed fusion",
+          "mechanical properties",
+          "high-entropy alloys"
+        ],
+        "summary_zh": {
+          "motivation": "综述增材制造高熵合金在涡轮叶片中的应用潜力",
+          "method": "整理LPBF高熵合金的拉伸与疲劳性能数据",
+          "result": "总结出拉伸延伸率5-73.9%和抗拉强度572-1640 MPa",
+          "validation": "无实验验证，为文献综述"
+        },
+        "summary_en": {
+          "motivation": "This review examines the potential of additively manufactured multi-principal element alloys for next-generation jet engine turbine blades requiring high fatigue resistance and strength.",
+          "method": "The paper surveys tensile and fatigue properties of LPBF high-entropy and medium-entropy alloys from literature.",
+          "result": "LPBF HEAs show elongation from 5-47% and UTS 572-1640 MPa, while MEAs show 8-73.9% elongation and UTS 573-1382 MPa.",
+          "validation": "No new experimental validation; it is a literature review."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "multi-principal element alloys",
+            "zh": "多主元合金"
+          },
+          {
+            "en": "turbine blades",
+            "zh": "涡轮叶片"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉床熔融"
+          },
+          {
+            "en": "high-entropy alloys",
+            "zh": "高熵合金"
+          },
+          {
+            "en": "medium-entropy alloys",
+            "zh": "中熵合金"
+          },
+          {
+            "en": "fatigue performance",
+            "zh": "疲劳性能"
+          },
+          {
+            "en": "tensile properties",
+            "zh": "拉伸性能"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:21:56Z"
+    },
+    {
+      "source": "pubmed",
+      "id": "pubmed:42066743",
+      "doi": "10.1016/j.clinbiomech.2026.106860",
+      "pmid": "42066743",
+      "title": "Modular necks restore safe range of motion in total hip arthroplasty with extreme femoral version.",
+      "abstract": "BACKGROUND: Modular neck prostheses in total hip arthroplasty (THA) offer intraoperative flexibility for adequate femoral anteversion and offset, which is particularly beneficial in anatomically complex cases such as developmental dysplasia of the hip. However, the efficacy of current modular neck options on range of motion in addressing abnormal femoral anteversion is unclear. This study aimed to evaluate the effectiveness of current modular neck configurations with a 32-mm femoral head, in accommodating various femoral anteversion. METHODS: A prosthetic impingement analyses was conducted by collision detection using computer-aided design models of a dual modular neck femoral stem with four neck configurations: 15° anteverted, straight, 15° retroverted, and 30° retroverted. The cup safe zone, defined as the combination of cup inclination and anteversion that satisfied all the required range of motion criteria without prosthetic impingement, was assessed across stem anteversion angles (-25° to 85°). FINDINGS: The four modular neck configurations collectively provided continuous safe zones for stem anteversion ranging from 0° to 75°, at a clinically recommended cup inclination of 40°. In contrast, the straight neck alone provided it in limited range (10°-40°), making it inadequate for managing abnormal femoral anteversion. Notably, the constant combined anteversion concept did not hold at extreme anteversion values. INTERPRETATION: A modular neck system offering configurations from 15° anteverted to 30° retroverted, when combined with 40° cup inclination, effectively accommodates various femoral anteversion. These findings support the clinical utility of modularity in THA and underscore the importance of optimizing stem anteversion to address complex anatomical variations.",
+      "authors": [
+        "Yukihiro Habe",
+        "Hidetoshi Hamada",
+        "Wataru Ando",
+        "Keisuke Uemura",
+        "Kazuma Takashima",
+        "Tetsuro Tani",
+        "Hirokazu Mae",
+        "Seiji Okada",
+        "Nobuhiko Sugano"
+      ],
+      "first_author_affiliation": "Department of Orthopaedic Medical Engineering, Osaka University Graduate School of Medicine, Suita, Osaka, Japan.",
+      "corresponding_authors": [
+        {
+          "name": "Hidetoshi Hamada",
+          "affiliation": "Department of Orthopaedic Medical Engineering, Osaka University Graduate School of Medicine, Suita, Osaka, Japan. Electronic address: hhamada@ort.med.osaka-u.ac.jp."
+        }
+      ],
+      "venue": "Clinical biomechanics (Bristol, Avon)",
+      "year": 2026,
+      "date": "2026-04-22",
+      "date_precision": "day",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42066743/",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [],
+      "raw_type": "journal article",
+      "directions": [
+        "am_femoral_stem"
+      ],
+      "direction": "am_femoral_stem",
+      "direction_name": "Femoral Stem (AM + traditional)",
+      "routing_matches": {
+        "am_femoral_stem": [
+          "femoral stem"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究模块化股骨颈对髋关节活动范围的影响，未涉及应力遮挡、微动或增材制造，与用户研究方向不相关。",
+        "why_not_core": "This paper focuses on range of motion and impingement of modular necks in THA, but does not quantify stress shielding, micromotion, primary stability, or involve additive manufacturing or finite element analysis for implant design.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "femoral stem",
+          "range of motion",
+          "impingement",
+          "modular neck",
+          "THA"
+        ],
+        "summary_zh": {
+          "motivation": "评估模块化颈在异常股骨前倾时对活动范围的效果",
+          "method": "使用CAD模型和碰撞检测进行假体撞击分析",
+          "result": "模块化颈比直颈提供更宽的安全区域，适应更多前倾角",
+          "validation": "仅基于计算机模拟，无实验验证"
+        },
+        "summary_en": {
+          "motivation": "To evaluate the efficacy of modular neck configurations for accommodating abnormal femoral anteversion in total hip arthroplasty.",
+          "method": "Prosthetic impingement analysis was performed using CAD models and collision detection across varying stem anteversion angles.",
+          "result": "Modular neck configurations from 15° anteverted to 30° retroverted collectively provided continuous safe zones for stem anteversion from 0° to 75°, outperforming the straight neck.",
+          "validation": "The study relied solely on computational simulation without experimental or clinical validation."
+        },
+        "key_terms": [
+          {
+            "en": "modular neck",
+            "zh": "模块化颈"
+          },
+          {
+            "en": "femoral anteversion",
+            "zh": "股骨前倾角"
+          },
+          {
+            "en": "range of motion",
+            "zh": "活动范围"
+          },
+          {
+            "en": "total hip arthroplasty",
+            "zh": "全髋关节置换术"
+          },
+          {
+            "en": "impingement",
+            "zh": "撞击"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:23:10Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 3,
+    "by_source": {
+      "arxiv": 1,
+      "openalex": 1,
+      "pubmed": 1
+    },
+    "after_dedup": 3,
+    "after_routing": 3,
+    "by_direction": {
+      "mechanical_properties": 2,
+      "am_femoral_stem": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1,
+      "openalex": 1,
+      "pubmed": 1
+    },
+    "scored": 3,
+    "priority_counts": {
+      "Exclude": 2,
+      "Low": 1
+    }
+  }
+}

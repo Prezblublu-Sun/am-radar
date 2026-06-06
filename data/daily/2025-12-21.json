@@ -1,0 +1,125 @@
+{
+  "schema_version": "v2",
+  "date": "2025-12-21",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2512.18757v2",
+      "doi": "",
+      "arxiv_id": "2512.18757v2",
+      "title": "Topological surface phonons modulate thermal transport in semiconductor thin films",
+      "abstract": "While phonon topology in crystalline solids has been extensively studied, its influence on thermal transport-especially in nanostructures-remains elusive. Here, by combining first-principles-based machine learning potentials with the phonon Boltzmann transport equation and molecular dynamics simulations, we systematically investigate the role of topological surface phonons in the in-plane thermal transport of semiconductor thin films (Si, 4H -SiC, and c-BN). These topological surface phonons, originating from nontrivial acoustic phonon nodal lines, not only serve as key scattering channels for dominant acoustic phonons but also contribute substantially to the overall thermal conductivity. Remarkably, for these thin semiconductor films below 10 nm this contribution can be as large as over 30% of the in-plane thermal conductivity at 300 K, and the largest absolute contribution can reach 82 W/m-K, highlighting their significant role in nanoscale thermal transport in semiconductors. Furthermore, we demonstrate that both temperature and biaxial strain provide effective means to modulate this contribution. Our work establishes a direct link between topological surface phonons and nanoscale thermal transport, offering the first quantitative assessment of their role and paving the way for topology-enabled thermal management in semiconductors.",
+      "authors": [
+        "Zhe Su",
+        "Shuoran Song",
+        "Qi Wang",
+        "Jian-Hua Jiang"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-12-21",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2512.18757v2",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "这篇论文研究与增材制造无关的半导体薄膜热传输，与用户研究方向不相关。",
+        "why_not_core": "This paper does not address additive manufacturing, mechanical properties, or any biomedical implant context.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "thermal transport",
+          "topological phonons",
+          "semiconductor thin films",
+          "machine learning potentials"
+        ],
+        "summary_zh": {
+          "motivation": "探索拓扑表面声子对纳米半导体热传输的影响。",
+          "method": "结合机器学习势与声子玻尔兹曼输运方程及分子动力学模拟。",
+          "result": "发现拓扑表面声子贡献超过30%的面内热导率。",
+          "validation": "第一性原理和分子动力学模拟对比。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the influence of topological surface phonons on nanoscale thermal transport in semiconductors.",
+          "method": "Combining first-principles-based machine learning potentials with phonon Boltzmann transport equation and molecular dynamics simulations.",
+          "result": "Topological surface phonons contribute over 30% to in-plane thermal conductivity in thin films below 10 nm.",
+          "validation": "First-principles calculations and molecular dynamics simulations."
+        },
+        "key_terms": [
+          {
+            "en": "topological surface phonons",
+            "zh": "拓扑表面声子"
+          },
+          {
+            "en": "thermal transport",
+            "zh": "热传输"
+          },
+          {
+            "en": "semiconductor thin films",
+            "zh": "半导体薄膜"
+          },
+          {
+            "en": "machine learning potentials",
+            "zh": "机器学习势"
+          },
+          {
+            "en": "Boltzmann transport equation",
+            "zh": "玻尔兹曼输运方程"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:17:08Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

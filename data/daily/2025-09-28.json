@@ -1,0 +1,127 @@
+{
+  "schema_version": "v2",
+  "date": "2025-09-28",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2509.23658v1",
+      "doi": "",
+      "arxiv_id": "2509.23658v1",
+      "title": "Twist-Free Enhancement of Strength and Modulus in Electrospun Yarns via Liquid-Assisted Capillary Densification",
+      "abstract": "Electrospun yarns often fall short of the strength and stiffness of their constituent nanofibers because of loose packing and inter-fiber slip. We report a simple, twist-free route to close this gap by liquid-assisted rolling: yarns are briefly wetted (water or ethanol) and subjected to gentle rolling action (mechanical strokes perpendicular and parallel to the yarn axis), then dried under controlled conditions so that meniscus forces compact the assembly into tightly bound bundles. The treatment yields large gains in tensile strength and modulus, and as yarn diameter decreases the properties of liquid-treated yarns approach single-fiber limits, indicating more efficient load transfer. Dry-rolling controls produce negligible changes compared to as-spun yarns, confirming that capillarity-driven consolidation, rather than mechanical pressing, dominates the improvement. Water consistently outperforms ethanol, reflecting its larger elastocapillary driving term gamma*(1 + cos theta) on PAN and thus stronger capillary compaction; a short post-treatment anneal near Tg further increases stiffness with a corresponding reduction in ductility. To rationalize these trends, we quantify microstructure via SEM-derived alignment and packing density and show that these complementary descriptors jointly explain variability in mechanical response. A compact constitutive framework, grounded in distributed fiber recruitment and adhesion/frictional contact, captures the observed strengthening-ductility trade-off across processing routes. The results establish capillarity-driven consolidation as a scalable pathway to engineer processing-structure-property relationships in hierarchical polymer fiber assemblies and provide practical guidance for upgrading electrospun yarns, alone or as precursors to twisted and composite architectures.",
+      "authors": [
+        "Saujatya Mandal",
+        "Sonu Dhiman",
+        "Debashish Das"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-09-28",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2509.23658v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.soft",
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "tensile strength",
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究静电纺丝纱线的毛细致密化增强力学性能，与增材制造力学性能方向无直接关联。",
+        "why_not_core": "The paper does not involve additive manufacturing processes, implant design, or mechanical characterization of AM parts; it focuses on electrospun yarn densification for textile applications.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "electrospinning",
+          "yarn",
+          "capillary densification",
+          "mechanical properties",
+          "polymer fibers"
+        ],
+        "summary_zh": {
+          "motivation": "提高静电纺丝纱线的强度和模量至接近单纤维水平。",
+          "method": "采用液体辅助滚动致密化处理，利用毛细力压实纤维束。",
+          "result": "处理后的纱线强度和模量显著提升，且直径越小性能越接近单纤维。",
+          "validation": "通过SEM表征和力学测试验证微观结构与力学性能的关联。"
+        },
+        "summary_en": {
+          "motivation": "To bridge the gap in strength and stiffness between electrospun yarns and their constituent nanofibers through improved packing and load transfer.",
+          "method": "Liquid-assisted rolling was employed to induce capillary-driven consolidation, followed by controlled drying and optional annealing near Tg.",
+          "result": "Tensile strength and modulus were greatly enhanced, approaching single-fiber limits for finer yarns, with water outperforming ethanol due to higher elastocapillary force.",
+          "validation": "Microstructural descriptors from SEM (alignment, packing density) were correlated with mechanical properties, and a constitutive model captured the strength-ductility trade-off."
+        },
+        "key_terms": [
+          {
+            "en": "electrospun yarn",
+            "zh": "静电纺丝纱线"
+          },
+          {
+            "en": "capillary densification",
+            "zh": "毛细致密化"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "拉伸强度"
+          },
+          {
+            "en": "modulus",
+            "zh": "模量"
+          },
+          {
+            "en": "fiber recruitment",
+            "zh": "纤维招募"
+          },
+          {
+            "en": "elastocapillary",
+            "zh": "弹-毛细效应"
+          },
+          {
+            "en": "annealing",
+            "zh": "退火"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:13:45Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

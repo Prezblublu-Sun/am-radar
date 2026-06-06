@@ -1,0 +1,124 @@
+{
+  "schema_version": "v2",
+  "date": "2026-05-31",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2606.01408v1",
+      "doi": "",
+      "arxiv_id": "2606.01408v1",
+      "title": "Quantum Statistics and Structural Topology Govern Thermal Transport in Two-Dimensional Monolayer Amorphous Carbon",
+      "abstract": "We investigate the quantum thermal conductivity (TC) of two-dimensional monolayer amorphous carbon (MAC). We employ three distinct amorphization algorithms to generate various possible MAC configurations, ranging from Zachariasen-type continuous random networks to nanocrystallites embedded in random networks. The local bond order parameter, q3, is used to quantify the amorphousness of the structures, and TC is computed as functions of q3 and temperature. This framework enables us to assess how structural topology, degree of amorphization, and quantum statistics contribute to heat conduction in a two-dimensional amorphous solid. At room temperature, TC values are predicted to range between 3.5 to 10 W/m/K, in agreement with recent experiments. Analysis of vibrational modes reveals that, while the modes of these 2D amorphous structures fall into the usual categories, namely, propagons, diffusons, and locons, their polarization characteristics display distinct behavior. Owing to the fully quantum mechanical framework, we examine both low- and high-temperature characteristics of this 2D amorphous system. By examining the classical limit, we show that classical treatments substantially overestimate the TC of MAC; namely, the quantum TC is less than half of the classical value at room temperature and up to nearly an order of magnitude lower at low temperatures.",
+      "authors": [
+        "Gizem Kurt",
+        "Haldun Sevincli"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-05-31",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2606.01408v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究二维非晶碳的热传导，与AM机械性能研究方向无关。",
+        "why_not_core": "This paper focuses on thermal transport in 2D amorphous carbon, with no relation to additive manufacturing, mechanical testing, or biomedical implant properties.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "2D materials",
+          "thermal conductivity",
+          "amorphous carbon",
+          "quantum statistics"
+        ],
+        "summary_zh": {
+          "motivation": "研究二维非晶碳的热导率与结构拓扑关系",
+          "method": "采用三种非晶化算法生成不同构型，计算热导率",
+          "result": "室温热导率3.5-10 W/m/K，量子效应显著",
+          "validation": "与近期实验结果对比验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate the relationship between structural topology and thermal conductivity in two-dimensional amorphous carbon.",
+          "method": "Three amorphization algorithms generate diverse configurations; thermal conductivity is computed as a function of bond order parameter and temperature.",
+          "result": "Room-temperature thermal conductivity ranges from 3.5 to 10 W/m/K, with quantum effects reducing it to less than half the classical value.",
+          "validation": "Results are validated against recent experimental measurements."
+        },
+        "key_terms": [
+          {
+            "en": "amorphous carbon",
+            "zh": "非晶碳"
+          },
+          {
+            "en": "thermal conductivity",
+            "zh": "热导率"
+          },
+          {
+            "en": "quantum statistics",
+            "zh": "量子统计"
+          },
+          {
+            "en": "structural topology",
+            "zh": "结构拓扑"
+          },
+          {
+            "en": "2D materials",
+            "zh": "二维材料"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:23:10Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "schema_version": "v2",
+  "date": "2025-11-05",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2511.03815v1",
+      "doi": "10.1111/jace.70577",
+      "arxiv_id": "2511.03815v1",
+      "title": "A data-driven quest for room-temperature bulk plastically deformable ceramics",
+      "abstract": "The growing number of ceramics exhibiting bulk plasticity at room temperature has renewed interest in revisiting plastic deformation and dislocation-mediated mechanical and functional properties in these materials. In this work, a data-driven approach is employed to identify the key parameters governing room-temperature bulk plasticity in ceramics. The model integrates an existing dataset of 55 ceramic materials, 38 plastically deformable and 17 brittle, and achieves accurate classification of bulk plasticity. The analysis reveals several key parameters essential for predicting bulk plasticity: i) Poisson's ratio and Pugh's ratio as macroscopic indicators reflecting the balance between shear and volumetric deformation resistance, and ii) Burgers vector, crystal structure and melting temperature as crystallographic descriptors associated with lattice geometry, slip resistance and thermal stability, and iii) Bader charge as a microscopic measure of bonding character. Together, these parameters define a multiscale descriptor space linking intrinsic materials properties to bulk room-temperature plasticity in ceramics, bridging the gap between empirical ductility criteria and atomistic mechanisms of dislocation-mediated plasticity. While preliminary, this study provides the first systematic, data-driven mapping of the governing factors of ceramic plasticity. The resulting framework establishes a foundation for unifying experimental and computational studies through shared datasets and descriptors, fostering collective progress toward understanding and designing intrinsically ductile ceramics.",
+      "authors": [
+        "Iwo Słodczyk",
+        "Alexander Frisch",
+        "Xufei Fang",
+        "Inna Gitman",
+        "Fengxian Liu"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-11-05",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2511.03815v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了陶瓷材料的室温塑性预测，与增材制造力学性能方向无直接关联，但数据驱动方法有潜在参考价值。",
+        "why_not_core": "No additive manufacturing context, no mechanical testing of AM parts, no AM processing or material characterization.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "data-driven",
+          "ceramics",
+          "plasticity",
+          "dislocation",
+          "multiscale descriptors"
+        ],
+        "summary_zh": {
+          "motivation": "寻找室温下可塑性变形陶瓷的关键参数，建立预测框架。",
+          "method": "整合55种陶瓷数据集，使用分类模型识别多尺度描述符。",
+          "result": "泊松比、伯格矢量等参数可有效预测陶瓷的块体塑性。",
+          "validation": "基于已有数据集的分类准确率验证。"
+        },
+        "summary_en": {
+          "motivation": "To identify key parameters governing room-temperature bulk plasticity in ceramics using a data-driven approach.",
+          "method": "Integrated a dataset of 55 ceramics (38 plastic, 17 brittle) and employed classification to identify multiscale descriptors.",
+          "result": "Poisson's ratio, Burgers vector, crystal structure, and Bader charge emerged as key predictors of bulk plasticity.",
+          "validation": "Validated by classification accuracy on the existing dataset, achieving accurate classification of plasticity."
+        },
+        "key_terms": [
+          {
+            "en": "bulk plasticity",
+            "zh": "块体塑性"
+          },
+          {
+            "en": "ceramics",
+            "zh": "陶瓷"
+          },
+          {
+            "en": "data-driven",
+            "zh": "数据驱动"
+          },
+          {
+            "en": "Poisson's ratio",
+            "zh": "泊松比"
+          },
+          {
+            "en": "Burgers vector",
+            "zh": "伯氏矢量"
+          },
+          {
+            "en": "Pugh's ratio",
+            "zh": "普氏比"
+          },
+          {
+            "en": "Bader charge",
+            "zh": "贝德电荷"
+          },
+          {
+            "en": "multiscale descriptor",
+            "zh": "多尺度描述符"
+          },
+          {
+            "en": "dislocation",
+            "zh": "位错"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:15:55Z"
+    },
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2511.03504v1",
+      "doi": "",
+      "arxiv_id": "2511.03504v1",
+      "title": "Topological transition and emergent elasticity of dislocation in skyrmion lattice: Beyond Kittel's magnetic-polar analogy",
+      "abstract": "Magnetic and polar skyrmions exhibit topologically protected quasiparticle behavior, including emergent fields, deformation, and the formation of a densely packed skyrmion lattice, beyond conventional domain configurations described by Kittel's law. Analogous to atomic crystals, lattice defects, especially dislocations and their associated strain fields, are crucial for understanding the lattice behavior of skyrmions; however, their features and roles remain insufficiently understood. Here, we show that magnetic skyrmion dislocations develop a core-split structure due to a significant skyrmion elongation up to 180% of their original length, reaching a topological transition from a single skyrmion to two half-skyrmions. Despite such a distinct structure, the long-range strain fields around the dislocation perfectly obey conventional Volterra's elasticity theory, in contrast to polar skyrmion lattices, where skyrmion deformations cause a breakdown of the elasticity theory. Furthermore, an energetic analysis shows that Dzyaloshinskii-Moriya interaction drives the large skyrmion deformation of the dislocation core. Our findings not only clarify the coexistence of topological core-reconstruction and a robust long-range elastic field of dislocations in magnetic skyrmion lattices, but also reveal that magnetic and electric domains, long regarded as dual and analogous, exhibit fundamental differences when extended into the regime of collective topological quasiparticles.",
+      "authors": [
+        "Kohta Kasai",
+        "Akihiro Uematsu",
+        "Tatsuki Kawakane",
+        "Yu Wang",
+        "Tao Xu",
+        "Chang Liu",
+        "Susumu Minami",
+        "Takahiro Shimada"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-11-05",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2511.03504v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究斯格明子晶格中的位错，与增材制造机械性能无关。",
+        "why_not_core": "No additive manufacturing process, no biomechanical testing, no implant design or material characterization.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "skyrmion",
+          "dislocation",
+          "elasticity theory"
+        ],
+        "summary_zh": {
+          "motivation": "研究斯格明子晶格中位错的结构与弹性行为。",
+          "method": "理论与模拟分析位错核心结构及长程应变场。",
+          "result": "发现位错核心分裂但远场符合经典弹性理论。",
+          "validation": "未涉及实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To understand dislocation structures and their elastic fields in skyrmion lattices.",
+          "method": "Theoretical analysis and simulations of dislocation core structure and long-range strain fields.",
+          "result": "Dislocation cores split due to skyrmion elongation, yet far-field strain obeys classical elasticity.",
+          "validation": "No experimental validation; purely theoretical/computational."
+        },
+        "key_terms": [
+          {
+            "en": "skyrmion",
+            "zh": "斯格明子"
+          },
+          {
+            "en": "dislocation",
+            "zh": "位错"
+          },
+          {
+            "en": "elasticity theory",
+            "zh": "弹性理论"
+          },
+          {
+            "en": "topological transition",
+            "zh": "拓扑转变"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:15:55Z"
+    },
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2511.03308v1",
+      "doi": "",
+      "arxiv_id": "2511.03308v1",
+      "title": "Graphene-enabled coherent terahertz wave detection and thickness determination",
+      "abstract": "Coherent detection and interferometry in the terahertz (THz) regime are key capabilities that enable applications ranging from astronomy to non-destructive testing. Phase-sensitive THz detection is currently achieved using nonlinear crystals or external interferometers and photomixers. However, the former approach requires femtosecond pulsed radiation, and all approaches suffer from a large footprint and sensitive alignment. Here, we demonstrate a graphene-enabled, on-chip, integrated THz detector-interferometer with optical cavity and antenna, exhibiting high sensitivity to the phase of incident THz light. We exploit this by determining the thickness of thin films placed in front of the detector-interferometer, obtaining a strongly sub-wavelength thickness accuracy of $\\sim$5 $μ$m, while we predict that an accuracy of 10 nm is within reach. This is relevant for a range of industrial application domains, including automotive, construction, and health. The detector-interferometer moreover exhibits a record-high external responsivity - without any normalization to a diffraction-limited spot size - of 73 mA/W and a noise-equivalent power of 79 pW$~\\rm{Hz}^{-1/2}$. This performance is due to enhanced absorption at the cavity mode around 89 GHz, in agreement with multi-physics simulations. These results pave the way to exploiting coherent wave detection in the THz regime with utility in spectroscopy, next-generation wireless communication, and beyond.",
+      "authors": [
+        "Ronny de la Bastida",
+        "Enzo Rongione",
+        "Karuppasamy Pandian Soundarapandian",
+        "Ioannis Vangelidis",
+        "Anand Nivedan",
+        "David Saleta Reig",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Elefterios Lidorikis",
+        "Frank H. L. Koppens",
+        "Sebastián Castilla",
+        "Klaas-Jan Tielrooij"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-11-05",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2511.03308v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "physics.optics",
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci",
+        "physics.app-ph"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及太赫兹波检测，与用户的研究方向（生物打印、髋关节植入物、有限元代理、增材制造生物医学）完全无关。",
+        "why_not_core": "This paper is about terahertz wave detection and thickness determination, with no connection to biomedical implants, bioprinting, FEA surrogate, or AM biomedical mechanical properties.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "terahertz",
+          "graphene",
+          "detector",
+          "thickness measurement"
+        ],
+        "summary_zh": {
+          "motivation": "实现片上集成太赫兹相干检测与薄膜厚度测量",
+          "method": "设计石墨烯探测器-干涉仪，利用光学腔和天线增强相敏检测",
+          "result": "实现约5μm厚度精度，外响应度73mA/W，噪声等效功率79pW/Hz^0.5",
+          "validation": "多物理场仿真验证腔模吸收增强"
+        },
+        "summary_en": {
+          "motivation": "To achieve on-chip integrated coherent terahertz detection and thin-film thickness measurement with high sensitivity.",
+          "method": "A graphene-enabled detector-interferometer with an optical cavity and antenna is designed to enhance phase-sensitive detection.",
+          "result": "Thickness accuracy of ~5 μm is achieved, with record-high external responsivity of 73 mA/W and noise-equivalent power of 79 pW/Hz^0.5.",
+          "validation": "Multi-physics simulations confirm enhanced absorption at the cavity mode around 89 GHz."
+        },
+        "key_terms": [
+          {
+            "en": "terahertz",
+            "zh": "太赫兹"
+          },
+          {
+            "en": "graphene",
+            "zh": "石墨烯"
+          },
+          {
+            "en": "coherent detection",
+            "zh": "相干检测"
+          },
+          {
+            "en": "interferometer",
+            "zh": "干涉仪"
+          },
+          {
+            "en": "thickness determination",
+            "zh": "厚度测定"
+          },
+          {
+            "en": "responsivity",
+            "zh": "响应度"
+          },
+          {
+            "en": "noise-equivalent power",
+            "zh": "噪声等效功率"
+          },
+          {
+            "en": "optical cavity",
+            "zh": "光学腔"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:15:55Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 3,
+    "by_source": {
+      "arxiv": 3
+    },
+    "after_dedup": 3,
+    "after_routing": 3,
+    "by_direction": {
+      "mechanical_properties": 3
+    },
+    "routed_by_source": {
+      "arxiv": 3
+    },
+    "scored": 3,
+    "priority_counts": {
+      "Low": 1,
+      "Exclude": 2
+    }
+  }
+}

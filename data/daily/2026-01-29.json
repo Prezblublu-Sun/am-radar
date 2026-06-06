@@ -1,0 +1,128 @@
+{
+  "schema_version": "v2",
+  "date": "2026-01-29",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2602.09031v1",
+      "doi": "",
+      "arxiv_id": "2602.09031v1",
+      "title": "A complete phase-field fracture model for brittle materials subjected to thermal shocks",
+      "abstract": "Brittle materials subjected to thermal shocks experience strong temperature gradients that in turn give rise to mechanical stresses that can be large enough to induce fracture. This work presents a complete model for phase-field fracture for coupled thermo-mechanical problems, wherein the bulk material properties, the material strength, and the fracture toughness are specified independently. The capabilities of the model are assessed across a wide span of scenarios in thermo-mechanical fracture, from the propagation of large pre-existing cracks to crack nucleation under spatially uniform states of stress. In particular, we revisit the controlled quenching of glass plates, and demonstrate how the model captures experimentally observed crack patterns across a range of thermal loads. Ceramic disks subjected to infrared radiation are also examined, with the model reproducing both straight cracks in notched specimens and branching in intact specimens. Finally, ceramic pellets subjected to rapid power pulses are examined, with the model explaining experimental transitions from intact to fractured pellets and the important role of material strength. The results demonstrate that the complete phase-field model unifies the treatment of distinct fracture scenarios under thermal shock, surpassing classical approaches and enabling more reliable prediction of brittle fracture in extreme environments.",
+      "authors": [
+        "Bo Zeng",
+        "John E. Dolbow"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-01-29",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2602.09031v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "physics.comp-ph",
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "fracture toughness"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文关于热冲击下脆性材料的相场断裂模型，未涉及增材制造力学性能或工艺。",
+        "why_not_core": "This paper does not address additive manufacturing, AM-specific materials, or mechanical properties relevant to AM components.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "phase-field fracture",
+          "thermal shock",
+          "brittle materials",
+          "numerical simulation"
+        ],
+        "summary_zh": {
+          "motivation": "建立完整的热-力耦合相场断裂模型以预测热冲击下脆性材料断裂。",
+          "method": "提出独立指定材料属性、强度和断裂韧性的相场断裂模型。",
+          "result": "模型统一处理不同断裂场景，优于经典方法。",
+          "validation": "通过玻璃淬火、陶瓷盘红外辐射和核燃料棒功率脉冲实验验证。"
+        },
+        "summary_en": {
+          "motivation": "Develop a complete phase-field fracture model for coupled thermo-mechanical problems to predict brittle fracture under thermal shocks.",
+          "method": "A phase-field model is proposed with independent specification of bulk properties, strength, and fracture toughness.",
+          "result": "The model unifies treatment of distinct fracture scenarios, surpassing classical approaches.",
+          "validation": "Validated against experimental crack patterns in glass quenching, ceramic disk infrared heating, and nuclear fuel pellet power pulses."
+        },
+        "key_terms": [
+          {
+            "en": "phase-field fracture",
+            "zh": "相场断裂"
+          },
+          {
+            "en": "thermal shock",
+            "zh": "热冲击"
+          },
+          {
+            "en": "brittle materials",
+            "zh": "脆性材料"
+          },
+          {
+            "en": "thermo-mechanical coupling",
+            "zh": "热力耦合"
+          },
+          {
+            "en": "crack nucleation",
+            "zh": "裂纹成核"
+          },
+          {
+            "en": "glass quenching",
+            "zh": "玻璃淬火"
+          },
+          {
+            "en": "ceramic disk",
+            "zh": "陶瓷盘"
+          },
+          {
+            "en": "infrared radiation",
+            "zh": "红外辐射"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:18:22Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

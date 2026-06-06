@@ -1,0 +1,132 @@
+{
+  "schema_version": "v2",
+  "date": "2025-09-03",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2509.03743v2",
+      "doi": "10.1016/j.jmps.2026.106533",
+      "arxiv_id": "2509.03743v2",
+      "title": "Link Statistics of Dislocation Network during Strain Hardening",
+      "abstract": "Dislocations are line defects in crystals that multiply and self-organize into a complex network during strain hardening. The length of dislocation links, connecting neighboring nodes within this network, contains crucial information about the evolving dislocation microstructure. By analyzing data from Discrete Dislocation Dynamics (DDD) simulations in face-centered cubic (fcc) Cu, we characterize the statistical distribution of link lengths of dislocation networks during strain hardening on individual slip systems. Our analysis reveals that link lengths on active slip systems follow a double-exponential distribution, while those on inactive slip systems conform to a single-exponential distribution. The distinctive long tail observed in the double-exponential distribution is attributed to the stress-induced bowing out of long links on active slip systems, a feature that disappears upon removal of the applied stress. We further demonstrate that both observed link length distributions can be explained by extending a one-dimensional Poisson process to include different growth functions. Specifically, the double-exponential distribution emerges when the growth rate for links exceeding a critical length becomes super-linear, which aligns with the physical phenomenon of long links bowing out under stress. This work advances our understanding of dislocation microstructure evolution during strain hardening and elucidates the underlying physical mechanisms governing its formation.",
+      "authors": [
+        "Sh. Akhondzadeh",
+        "Hanfeng Zhai",
+        "Wurong Jian",
+        "Ryan B. Sills",
+        "Nicolas Bertin",
+        "Wei Cai"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-09-03",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2509.03743v2",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.data-an"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "strain hardening"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究位错网络统计，与用户关注的生物打印、髋关节植入物、有限元替代模型或生物医学增材制造方向无关。",
+        "why_not_core": "This paper focuses on dislocation network statistics in crystal plasticity, with no connection to biomedical implants, bioprinting, FEA surrogates, or additive manufacturing for biomedical applications.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "dislocation dynamics",
+          "strain hardening",
+          "link length distribution",
+          "fcc copper"
+        ],
+        "summary_zh": {
+          "motivation": "理解应变硬化过程中位错网络的统计特征。",
+          "method": "利用离散位错动力学模拟，统计分析面心立方铜中位错链接长度分布。",
+          "result": "激活滑移系上链接长度呈双指数分布，非激活滑移系上为单指数分布。",
+          "validation": "通过DDD数值模拟验证统计模型。"
+        },
+        "summary_en": {
+          "motivation": "To characterize the statistical distribution of dislocation link lengths during strain hardening and explain the underlying physical mechanisms.",
+          "method": "Discrete Dislocation Dynamics (DDD) simulations of fcc Cu are used to extract link length distributions on individual slip systems, and a one-dimensional Poisson process model is extended to fit the observed distributions.",
+          "result": "Active slip systems exhibit a double-exponential link length distribution due to stress-induced bowing of long links, while inactive systems show a single-exponential distribution; the double-exponential form arises when the growth rate for links beyond a critical length becomes super-linear.",
+          "validation": "The statistical model is validated against DDD simulation data for fcc copper under strain hardening conditions."
+        },
+        "key_terms": [
+          {
+            "en": "dislocation network",
+            "zh": "位错网络"
+          },
+          {
+            "en": "strain hardening",
+            "zh": "应变硬化"
+          },
+          {
+            "en": "link length distribution",
+            "zh": "链接长度分布"
+          },
+          {
+            "en": "double-exponential distribution",
+            "zh": "双指数分布"
+          },
+          {
+            "en": "discrete dislocation dynamics",
+            "zh": "离散位错动力学"
+          },
+          {
+            "en": "bowing out",
+            "zh": "弓出"
+          },
+          {
+            "en": "Poisson process",
+            "zh": "泊松过程"
+          },
+          {
+            "en": "face-centered cubic",
+            "zh": "面心立方"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:13:45Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

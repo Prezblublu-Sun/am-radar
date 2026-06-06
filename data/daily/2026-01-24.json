@@ -1,0 +1,128 @@
+{
+  "schema_version": "v2",
+  "date": "2026-01-24",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "pubmed",
+      "id": "pubmed:41682626",
+      "doi": "10.3390/jcm15030945",
+      "pmid": "41682626",
+      "title": "A Novel Potential Landmark for Intraoperative Estimation of Femoral Stem Anteversion: An Analysis of Computed Tomography Measurements.",
+      "abstract": "Background/Objectives: Femoral anteversion (FA) is the angle between the femoral neck axis (FNA) and the posterior condylar axis (PCA). Surgeons generally estimate intraoperative femoral stem anteversion visually relative to the PCA, but this method can be challenging even for experienced surgeons. This study aimed to find an anatomical proximal landmark within a CT coordinate system for intraoperative estimation of femoral stem anteversion. Methods: Seventy patients were included. The anterior lesser trochanter line (ALTL) was defined as the line passing through two tangent points: one between the rounded part of the lesser trochanter and the medial edge of the anterior lesser trochanter cortex, and the other between the anterior cortex of the femur and the lateral edge of the anterior lesser trochanter cortex at the level of the lesser trochanter tip. The following angles were measured and analyzed: Angle 1 (angle between the FNA and the ALTL), Angle 2 (angle between the ALTL and the PCA), and Angle 3 (angle between the FNA and the PCA [FA]). Results: In all measurements, the inter-observer and intra-observer intraclass correlation coefficients exceeded 0.81. Angle 1 negatively correlated with Angle 2 (r = -0.79, p < 0.01), whereas Angle 1 positively correlated with Angle 3 (r = 0.70, p < 0.01). Conclusions: We found a consistent relationship between the ALTL and FA, and the ALTL may serve as a proximal landmark for intraoperative estimation of femoral stem anteversion during anterior or anterolateral approaches.",
+      "authors": [
+        "Ho Hyun Yun",
+        "Woo Seung Lee",
+        "Young Bae Kim",
+        "Jun Woo Park"
+      ],
+      "first_author_affiliation": "Department of Orthopaedic Surgery, Veterans Healthcare Service Medical Center, Seoul 05368, Republic of Korea.",
+      "corresponding_authors": [
+        {
+          "name": "Jun Woo Park",
+          "affiliation": "Department of Orthopaedic Surgery, Veterans Healthcare Service Medical Center, Seoul 05368, Republic of Korea.",
+          "inferred": true
+        }
+      ],
+      "venue": "Journal of clinical medicine",
+      "year": 2026,
+      "date": "2026-01-24",
+      "date_precision": "day",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41682626/",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [],
+      "raw_type": "journal article",
+      "directions": [
+        "am_femoral_stem"
+      ],
+      "direction": "am_femoral_stem",
+      "direction_name": "Femoral Stem (AM + traditional)",
+      "routing_matches": {
+        "am_femoral_stem": [
+          "femoral stem"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文不涉及植入物力学建模、有限元分析或增材制造，与用户研究方向的直接相关性很低。",
+        "why_not_core": "This paper does not include any biomechanics modeling, FEA, implant design, or AM fabrication; it is purely a clinical anatomy study for surgical guidance.",
+        "validation_kind": "clinical",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": true,
+          "is_review": false
+        },
+        "tags": [
+          "femoral stem anteversion",
+          "anatomical landmark",
+          "lesser trochanter",
+          "CT measurement",
+          "surgical guidance"
+        ],
+        "summary_zh": {
+          "motivation": "寻找术中估算股骨柄前倾角的近端解剖标志。",
+          "method": "基于CT测量定义前小转子线并分析其与股骨颈前倾角的关系。",
+          "result": "前小转子线与股骨颈前倾角具有稳定相关性，可作为术中参考标志。",
+          "validation": "临床CT测量及观察者间/内一致性分析。"
+        },
+        "summary_en": {
+          "motivation": "To identify a proximal anatomical landmark for intraoperative estimation of femoral stem anteversion.",
+          "method": "Defined the anterior lesser trochanter line (ALTL) on CT and measured its angular relationships with the femoral neck axis and posterior condylar axis.",
+          "result": "The ALTL showed a consistent correlation with femoral anteversion, suggesting its utility as an intraoperative reference.",
+          "validation": "Clinical CT measurements with inter- and intra-observer reliability analysis (ICC > 0.81)."
+        },
+        "key_terms": [
+          {
+            "en": "femoral anteversion",
+            "zh": "股骨前倾角"
+          },
+          {
+            "en": "femoral stem",
+            "zh": "股骨柄"
+          },
+          {
+            "en": "lesser trochanter",
+            "zh": "小转子"
+          },
+          {
+            "en": "CT measurement",
+            "zh": "CT测量"
+          },
+          {
+            "en": "anatomical landmark",
+            "zh": "解剖标志"
+          },
+          {
+            "en": "intraoperative estimation",
+            "zh": "术中估算"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:19:20Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "pubmed": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "am_femoral_stem": 1
+    },
+    "routed_by_source": {
+      "pubmed": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "schema_version": "v2",
+  "date": "2025-11-04",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2511.02290v1",
+      "doi": "10.5281/zenodo.15200525",
+      "arxiv_id": "2511.02290v1",
+      "title": "From data to design: Random forest regression model for predicting mechanical properties of alloy steel",
+      "abstract": "This study investigates the application of Random Forest Regression for predicting mechanical properties of alloy steel-Elongation, Tensile Strength, and Yield Strength-from material composition features including Iron (Fe), Chromium (Cr), Nickel (Ni), Manganese (Mn), Silicon (Si), Copper (Cu), Carbon (C), and deformation percentage during cold rolling. Utilizing a dataset comprising these features, we trained and evaluated the Random Forest model, achieving high predictive performance as evidenced by R2 scores and Mean Squared Errors (MSE). The results demonstrate the model's efficacy in providing accurate predictions, which is validated through various performance metrics including residual plots and learning curves. The findings underscore the potential of ensemble learning techniques in enhancing material property predictions, with implications for industrial applications in material science.",
+      "authors": [
+        "Samjukta Sinha",
+        "Prabhat Das"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-11-04",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2511.02290v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cs.AI"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "tensile strength",
+          "yield strength",
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究合金钢的力学性能预测，未涉及增材制造或生物医学植入物，与用户方向无关。",
+        "why_not_core": "This paper focuses on composition-based property prediction of steel via random forest, with no additive manufacturing process, no biomedical context, and no implant-related mechanical testing.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "random forest",
+          "mechanical properties",
+          "alloy steel",
+          "composition prediction"
+        ],
+        "summary_zh": {
+          "motivation": "用随机森林预测合金钢力学性能，避免传统试验。",
+          "method": "基于Fe、Cr等成分和冷轧变形率，训练随机森林回归模型。",
+          "result": "模型对延伸率、抗拉强度和屈服强度的预测R²较高。",
+          "validation": "通过R²、MSE、残差图和学习曲线验证。"
+        },
+        "summary_en": {
+          "motivation": "To efficiently predict mechanical properties of alloy steel from chemical composition and cold rolling deformation using machine learning.",
+          "method": "A Random Forest Regressor was trained on a dataset of composition features (Fe, Cr, Ni, etc.) and cold rolling deformation to predict Elongation, Tensile Strength, and Yield Strength.",
+          "result": "The model achieved high R² scores and low MSE, demonstrating accurate predictions for all three properties.",
+          "validation": "Validation was performed using R², MSE, residual plots, and learning curves on a held-out test set."
+        },
+        "key_terms": [
+          {
+            "en": "Random Forest Regression",
+            "zh": "随机森林回归"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "yield strength",
+            "zh": "屈服强度"
+          },
+          {
+            "en": "elongation",
+            "zh": "延伸率"
+          },
+          {
+            "en": "alloy steel",
+            "zh": "合金钢"
+          },
+          {
+            "en": "cold rolling deformation",
+            "zh": "冷轧变形"
+          },
+          {
+            "en": "feature composition",
+            "zh": "成分特征"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:15:55Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7133537981",
+      "doi": "10.71165/nat3-2dqx",
+      "title": "Restoration of hip geometry after Total Hip Arthroplasty: retrospective comparison of two short stems and one straight stem",
+      "abstract": "Background / Problem Accurate restoration of native hip geometry is a critical objective in total hip arthroplasty (THA) to optimize biomechanics, muscle function, and implant longevity. While short-stem femoral prostheses have gained popularity, their ability to precisely reconstruct key parameters like femoral offset compared to conventional straight stems remains debated. Furthermore, it is often assumed that implant systems with a greater number of size and version options facilitate more accurate anatomical reconstruction. Objective of the Article This retrospective study aimed to compare the accuracy of hip geometry reconstruction following THA using three different cementless femoral stem designs: two short-stem systems (ANA.NOVA® Proxy and Optimys®) and one conventional straight-stem system (Corail®), which offer a varying number of implant options. Key Points / Core Message The study analyzed preoperative and postoperative radiographs of 251 patients. Key geometric parameters, including centrum-collum-diaphysis (CCD) angle, femoral offset, and acetabular offset, were measured. While all three implant groups demonstrated a postoperative increase in CCD angle and a decrease in acetabular offset, significant differences were observed in offset restoration. The ANA.NOVA® Proxy short stem (12 options) resulted in the smallest change in femoral offset (mean increase of 1.6 mm), which was significantly less than the Optimys® short stem (24 options; 4.1 mm) and the Corail® straight stem (76 options; 4.9 mm). Conclusion / Implications for Practice The ANA.NOVA® Proxy short stem enabled a more accurate reconstruction of femoral offset compared to the other evaluated short and straight stems, despite offering the fewest implant options. These findings suggest that a greater number of implant versions does not inherently guarantee superior restoration of hip geometry. A well-designed, single-type short stem can achieve a reliable and precise anatomical reconstruction, challenging the paradigm that more options lead to better outcomes.",
+      "authors": [
+        "W. Maurer-Ertl",
+        "Joerg Friesenbichler",
+        "Michael Pfann",
+        "Michael W. Maier",
+        "Patrick Reinbacher",
+        "Andreas Leithner",
+        "Maria Anna Smolle"
+      ],
+      "first_author_affiliation": "Department of Orthopaedics and Trauma, Medical University of Graz, Graz, Austria",
+      "corresponding_authors": [
+        {
+          "name": "W. Maurer-Ertl",
+          "affiliation": "Department of Orthopaedics and Trauma, Medical University of Graz, Graz, Austria"
+        }
+      ],
+      "venue": "Mentors in Orthopedics",
+      "year": 2025,
+      "date": "2025-11-04",
+      "date_precision": "day",
+      "url": "https://doi.org/10.71165/nat3-2dqx",
+      "cited_by_count": 0,
+      "concepts": [
+        "Total hip arthroplasty",
+        "Implant",
+        "Medicine",
+        "Offset (computer science)",
+        "Total hip replacement",
+        "Orthodontics",
+        "Radiography",
+        "Prosthesis",
+        "Prosthesis design",
+        "Arthroplasty",
+        "Acetabulum",
+        "Surgery",
+        "Hip arthroplasty"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "am_femoral_stem"
+      ],
+      "direction": "am_femoral_stem",
+      "direction_name": "Femoral Stem (AM + traditional)",
+      "routing_matches": {
+        "am_femoral_stem": [
+          "femoral stem",
+          "short stem"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文纯属临床研究，未涉及任何计算建模或制造过程，与用户的研究方向无关。",
+        "why_not_core": "No biomechanics modeling, no FEA, no stress shielding analysis, no AM process details, no AI/ML methods.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "hip arthroplasty",
+          "short stem",
+          "femoral offset",
+          "radiographic analysis"
+        ],
+        "summary_zh": {
+          "motivation": "比较不同股骨柄设计对髋关节几何重建准确性的影响",
+          "method": "回顾性分析三种非骨水泥柄（两种短柄和一种直柄）术后X线片参数",
+          "result": "选项最少的短柄（ANA.NOVA® Proxy）反而实现最精确的股骨偏心距重建",
+          "validation": "基于251例患者的术前术后X线片测量数据"
+        },
+        "summary_en": {
+          "motivation": "To compare the accuracy of hip geometry reconstruction after THA using two short-stem designs and one conventional straight-stem design with varying number of implant options.",
+          "method": "A retrospective radiographic analysis of 251 patients measuring CCD angle, femoral offset, and acetabular offset before and after THA.",
+          "result": "The ANA.NOVA® Proxy short stem with only 12 options achieved the smallest change in femoral offset (1.6 mm), outperforming stems with more options.",
+          "validation": "Clinical radiographic measurements from a patient cohort."
+        },
+        "key_terms": [
+          {
+            "en": "short stem",
+            "zh": "短柄"
+          },
+          {
+            "en": "femoral offset",
+            "zh": "股骨偏心距"
+          },
+          {
+            "en": "CCD angle",
+            "zh": "颈干角"
+          },
+          {
+            "en": "total hip arthroplasty",
+            "zh": "全髋关节置换术"
+          },
+          {
+            "en": "cementless stem",
+            "zh": "非骨水泥柄"
+          },
+          {
+            "en": "implant geometry restoration",
+            "zh": "假体几何重建"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:15:55Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 2,
+    "by_source": {
+      "arxiv": 1,
+      "openalex": 1
+    },
+    "after_dedup": 2,
+    "after_routing": 2,
+    "by_direction": {
+      "mechanical_properties": 1,
+      "am_femoral_stem": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1,
+      "openalex": 1
+    },
+    "scored": 2,
+    "priority_counts": {
+      "Exclude": 1,
+      "Low": 1
+    }
+  }
+}

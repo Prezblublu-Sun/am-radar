@@ -1,0 +1,125 @@
+{
+  "schema_version": "v2",
+  "date": "2025-10-23",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2510.20536v1",
+      "doi": "10.1016/j.matchar.2023.113060",
+      "arxiv_id": "2510.20536v1",
+      "title": "The effects of high-temperature ion-irradiation on early-stage grain boundaries serrations formation in Ni-based alloys",
+      "abstract": "Nickel based superalloys display outstanding properties such as excellent creep strength, remarkable fracture toughness parameters, and corrosion resistance. For this reason, Ni based materials are considered as materials dedicated to the IV generation of nuclear reactors. Although these materials seem promising candidates, their radiation resistance and impact of radiation damage on the deformation mechanism are still not fully understood. In this work, two commercially available nickel based alloys, Hastelloy X and Haynes 230, were investigated. Structural and mechanical properties have been described by means of SEM and EBSD, TEM, and nanoindentation tests. Radiation damage has been performed by Ar ion with energy 320keV with two doses up to 12dpa. Obtained results have revealed a hardening effect for both levels of damage. However, more intensive effects were observed for Hastelloy X. Moreover, a significant change in precipitates morphology in Hastelloy X has been observed. It has been proposed that structural differences between both alloys determine the type of occurring radiation induced processes. Excess energy deposited into materials structure during ion irradiation can lower the temperature of nucleation of high temperature phases, which initiates the formation of grain boundary serrations.",
+      "authors": [
+        "M. Frelek-Kozak",
+        "K. Mulewska",
+        "M. Wilczopolska",
+        "D. Kalita",
+        "W. Chrominski",
+        "A. Zaborowska",
+        "L. Kurpaska",
+        "J. Jagielski"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-10-23",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2510.20536v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "fracture toughness"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究核反应堆用镍基合金的离子辐照效应，与增材制造力学性能方向无关。",
+        "why_not_core": "This paper does not involve additive manufacturing, mechanical properties of AM parts, or any biomedical implant context.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "ion irradiation",
+          "Ni-based superalloys",
+          "grain boundaries",
+          "nanoindentation"
+        ],
+        "summary_zh": {
+          "motivation": "研究镍基合金在离子辐照下晶界锯齿的形成机制。",
+          "method": "使用SEM/EBSD、TEM及纳米压痕测试表征辐照前后结构和力学性能。",
+          "result": "发现辐照导致硬化，且Hastelloy X中析出相形态显著变化。",
+          "validation": "实验验证，纳米压痕测试。"
+        },
+        "summary_en": {
+          "motivation": "To investigate early-stage grain boundary serration formation in Ni-based superalloys under ion irradiation.",
+          "method": "Combined SEM/EBSD, TEM, and nanoindentation to characterize microstructural and mechanical changes after Ar ion irradiation.",
+          "result": "Irradiation induced hardening and precipitate morphology changes, with more pronounced effects in Hastelloy X.",
+          "validation": "Experimental characterization using nanoindentation and electron microscopy."
+        },
+        "key_terms": [
+          {
+            "en": "ion irradiation",
+            "zh": "离子辐照"
+          },
+          {
+            "en": "Ni-based superalloys",
+            "zh": "镍基高温合金"
+          },
+          {
+            "en": "grain boundary serrations",
+            "zh": "晶界锯齿"
+          },
+          {
+            "en": "nanoindentation",
+            "zh": "纳米压痕"
+          },
+          {
+            "en": "precipitate morphology",
+            "zh": "析出相形貌"
+          },
+          {
+            "en": "hardening",
+            "zh": "硬化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:14:51Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

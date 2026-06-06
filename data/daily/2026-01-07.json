@@ -1,0 +1,120 @@
+{
+  "schema_version": "v2",
+  "date": "2026-01-07",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2601.04044v1",
+      "doi": "",
+      "arxiv_id": "2601.04044v1",
+      "title": "Robust chirality memory in carbon nanotubes growing under modulated and evolving environments",
+      "abstract": "Controlling the chirality and yield of carbon nanotubes is essential for their diverse applications from macroscopic composites to nanoelectronics. Floating-catalyst chemical vapor deposition is widely employed as a scalable synthesis route, where catalysts inevitably traverse spatially varying environments. However, prevailing interpretations of nanotube growth largely rely on ensemble monitoring or static, post-growth snapshots. Here, we combine digital isotope labeling with programmed temperature modulation to reconstruct the dynamic growth histories of supported individual nanotubes. Growth rates exhibit hysteresis and extraordinary sensitivity to temperature changes, indicating irreversible catalyst coarsening; nevertheless, the nanotube chirality remains robustly preserved across lengths exceeding 300 um. This sharp contrast between kinetic adaptability and structural memory in nanotube growth indicates that chirality control can be established at the nucleation stage, while allowing independent optimization of subsequent elongation. Our findings further call for a re-examination of static interpretations of diameter-determination mechanisms derived from post-growth snapshots.",
+      "authors": [
+        "K. Otsuka",
+        "R. Fujiwara",
+        "S. Maruyama"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-01-07",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2601.04044v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究碳纳米管的手性记忆效应，与用户的研究方向（生物打印、髋关节植入物、FEA代理模型、增材制造生物医学）完全无关。",
+        "why_not_core": "The paper does not address any biomedical implant, bioprinting, or biomechanics modeling; it does not involve FEA or surrogate methods.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "carbon nanotubes",
+          "chirality",
+          "CVD",
+          "temperature modulation"
+        ],
+        "summary_zh": {
+          "motivation": "控制碳纳米管的手性和产率对应用至关重要。",
+          "method": "结合数字同位素标记与程序化温度调控，重建单根纳米管生长历程。",
+          "result": "生长速率对温度敏感且不可逆，但手性在超过300微米长度内稳定保持。",
+          "validation": "通过同位素标记和温度调制实验验证。"
+        },
+        "summary_en": {
+          "motivation": "Controlling chirality and yield of carbon nanotubes is critical for applications from composites to nanoelectronics.",
+          "method": "Combined digital isotope labeling with programmed temperature modulation to reconstruct dynamic growth histories of individual nanotubes.",
+          "result": "Growth rates show hysteresis and sensitivity to temperature, but chirality is preserved over lengths exceeding 300 μm.",
+          "validation": "Experimental validation using isotope labeling and temperature modulation."
+        },
+        "key_terms": [
+          {
+            "en": "carbon nanotube",
+            "zh": "碳纳米管"
+          },
+          {
+            "en": "chirality",
+            "zh": "手性"
+          },
+          {
+            "en": "floating-catalyst chemical vapor deposition",
+            "zh": "浮动催化剂化学气相沉积"
+          },
+          {
+            "en": "digital isotope labeling",
+            "zh": "数字同位素标记"
+          },
+          {
+            "en": "temperature modulation",
+            "zh": "温度调控"
+          },
+          {
+            "en": "growth hysteresis",
+            "zh": "生长迟滞"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:18:22Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "schema_version": "v2",
+  "date": "2025-06-05",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2506.05578v1",
+      "doi": "",
+      "arxiv_id": "2506.05578v1",
+      "title": "BO-graphane and BO-diamane",
+      "abstract": "The adsorption of boron and oxygen atoms onto mono- and multi-layer graphene leads to the formation of a buckled graphene layer (BO-graphane) and a 2D diamond-like structure (BO-diamane) sandwiched between boron monoxide layers per DFT calculations. BO-graphane has a calculated Young's modulus ($\\it{E}$) of 750 GPA and BO-diamane 771 GPa, higher than the calculated $\\it{E}$ of -F,-OH, and -H diamanes; this is due to the presence of B-O bonds in the functionalizing layers. Electronic band structure calculations show BO-graphane and BO-diamane are wide band gap semiconductors with an indirect band gap up to a thickness of three layers (3L). Phonon dispersion and $ab-initio$ molecular dynamics (AIMD) simulations confirm dynamic and thermal stability, maintaining structural integrity at 1000 K. The room-temperature lattice thermal conductivity of BO-graphane and BO-diamane is found to be 879 W/m.K and 1260 W/m.K, respectively, surpassing BeO (385 W/m.K), MgO (64 W/m.K), and Al$_2$O$_3$ (36 W/m.K); and F-diamane (377 W/m.K), and comparable to H-diamane (1145-1960 W/m.K), suggesting them as candidates for thermal management in applications.",
+      "authors": [
+        "Babu Ram",
+        "Rohit Anand",
+        "Arun S. Nissimagoudar",
+        "Geunsik Lee",
+        "Rodney S Ruoff"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-06-05",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2506.05578v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.chem-ph"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "e + b + m",
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "e + b + m",
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "e + b + m",
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究二维材料的DFT计算，与增材制造力学性能方向完全无关。",
+        "why_not_core": "This paper does not address additive manufacturing, mechanical testing of AM parts, or any experimental validation relevant to biomedical implants or structural applications.",
+        "validation_kind": "theoretical",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "2D materials",
+          "graphene",
+          "diamond",
+          "DFT",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "探索硼氧原子吸附石墨烯形成的新型二维材料性能。",
+          "method": "基于DFT计算弹性模量、电子结构和热导率。",
+          "result": "BO-graphane和BO-diamane具有高弹性模量和热导率。",
+          "validation": "声子色散和AIMD模拟验证稳定性。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the properties of novel 2D materials formed by boron and oxygen adsorption on graphene.",
+          "method": "Density functional theory calculations were used to compute elastic moduli, electronic band structure, and lattice thermal conductivity.",
+          "result": "BO-graphane and BO-diamane exhibit high Young's moduli (750-771 GPa) and ultra-high thermal conductivities (879-1260 W/mK).",
+          "validation": "Dynamic and thermal stability were confirmed through phonon dispersion and ab-initio molecular dynamics simulations."
+        },
+        "key_terms": [
+          {
+            "en": "BO-graphane",
+            "zh": "BO-石墨烷"
+          },
+          {
+            "en": "BO-diamane",
+            "zh": "BO-金刚烷"
+          },
+          {
+            "en": "Young's modulus",
+            "zh": "杨氏模量"
+          },
+          {
+            "en": "lattice thermal conductivity",
+            "zh": "晶格热导率"
+          },
+          {
+            "en": "DFT",
+            "zh": "密度泛函理论"
+          },
+          {
+            "en": "phonon dispersion",
+            "zh": "声子色散"
+          },
+          {
+            "en": "AIMD",
+            "zh": "从头算分子动力学"
+          },
+          {
+            "en": "wide band gap semiconductor",
+            "zh": "宽带隙半导体"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:10:24Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "schema_version": "v2",
+  "date": "2026-02-06",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2602.06501v1",
+      "doi": "",
+      "arxiv_id": "2602.06501v1",
+      "title": "Microscopic Origin of the Ultralow Lattice Thermal Conductivity in Vacancy-Ordered Halide Double Perovskites Cs$_2BX_6$ ($B$ = Zr, Pd, Sn, Te, Hf, and Pt; $X$= Cl, Br, and I)",
+      "abstract": "Vacancy-ordered halide double perovskites Cs$_2BX_6$ have recently attracted significant attention due to their intrinsically ultralow lattice thermal conductivity ($κ_{\\mathrm{L}}$), which is highly desirable for thermal insulation and thermoelectric applications. In this work, we systematically investigate the anharmonic lattice dynamics and thermal transport properties of Cs$_2BX_6$ ($B$ = Zr, Pd, Sn, Te, Hf, and Pt; $X$ = Cl, Br, and I) using state-of-the-art first-principles calculations, based on a unified theory of thermal transport for crystals and glasses. All studied compounds are found to exhibit ultralow $κ_{\\mathrm{L}}$ below 1.0~W\\,m$^{-1}$\\,K$^{-1}$ at room temperature and large derivation from the conventional $T^{-1}$ temperature dependence. Our analysis combining with machine-learning approach show that low sound velocities (1100 -- 1600~m\\,s$^{-1}$), which originates from the intrinsically weak chemical bonding, play a crucial role in suppressing heat transport of the most compounds, instead of the strong scattering of rattling phonon modes expected from the large void in the structure. Furthermore, the influence of $B$ and $X$-site elements on phonon dispersion, anharmonicity, and scattering phase space is clarified. Our results provide microscopic insights into the origin of ultralow $κ_{\\mathrm{L}}$ in Cs$_2BX_6$ and offer guiding principles for the rational design of halide-based materials with tailored thermal transport properties.",
+      "authors": [
+        "Lingzhi Cao",
+        "Yateng Wang",
+        "Zhonghao Xia",
+        "Jiangang He"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-02-06",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2602.06501v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "s + l + m",
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "s + l + m",
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "s + l + m",
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究卤化物钙钛矿的热导率，与增材制造生物医用植入物的力学性能无关。",
+        "why_not_core": "This paper investigates ultralow thermal conductivity in halide perovskites, with no relation to mechanical properties, additive manufacturing, or biomedical implants.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "thermal conductivity",
+          "perovskites",
+          "first-principles",
+          "phonon transport"
+        ],
+        "summary_zh": {
+          "motivation": "揭示空位有序卤化物双钙钛矿超低晶格热导率的微观机制",
+          "method": "使用第一性原理计算和机器学习方法分析声子色散、非谐性和散射相空间",
+          "result": "发现低声速源于弱化学键，而非预期的rattling模式",
+          "validation": "第一性原理计算，无实验验证"
+        },
+        "summary_en": {
+          "motivation": "To elucidate the microscopic origin of ultralow lattice thermal conductivity in vacancy-ordered halide double perovskites.",
+          "method": "First-principles calculations combined with machine learning were employed to analyze phonon dispersions, anharmonicity, and scattering phase space.",
+          "result": "Ultralow thermal conductivity arises from low sound velocities due to weak chemical bonding, rather than rattling phonon modes.",
+          "validation": "Theoretical calculations without experimental validation."
+        },
+        "key_terms": [
+          {
+            "en": "lattice thermal conductivity",
+            "zh": "晶格热导率"
+          },
+          {
+            "en": "first-principles calculations",
+            "zh": "第一性原理计算"
+          },
+          {
+            "en": "phonon transport",
+            "zh": "声子输运"
+          },
+          {
+            "en": "double perovskites",
+            "zh": "双钙钛矿"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "anharmonicity",
+            "zh": "非谐性"
+          },
+          {
+            "en": "thermoelectric",
+            "zh": "热电"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:19:20Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

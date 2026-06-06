@@ -1,0 +1,375 @@
+{
+  "schema_version": "v2",
+  "date": "2026-01-16",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2601.11295v1",
+      "doi": "",
+      "arxiv_id": "2601.11295v1",
+      "title": "Computational Design of Ductile Additively Manufactured Tungsten-Based Refractory Alloys",
+      "abstract": "Tungsten exhibits exceptional temperature and radiation resistance, making it well-suited for applications in extreme environments such as nuclear fusion reactors. Additive manufacturing offers geometrical design freedom and rapid prototyping capabilities for these applications, provided the intrinsic brittleness and low printability of tungsten can be overcome. Designing tungsten alloys with improved ductility, and thus printability in additive manufacturing, can be accelerated using a computationally derived performance predictor to screen out brittle compositions. Calculations of the Pugh ratio using density functional theory may serve this purpose, given its correlation with ductility. This process can be made more efficient through the use of machine learning interatomic potentials to accelerate density functional theory calculations. Here, we demonstrate that machine learning interatomic potentials can effectively identify optimal alloy compositions in the W-Ta-Nb system along the melting point-Pugh ratio Pareto front. The trend in Pugh ratio as a function of tungsten fraction is explained in terms of the electronic density of states at the Fermi level. Experimental validation reveals a strong correlation between the computed Pugh ratio and the observed crack fractions in additively manufactured alloys. Notably, the two alloys predicted to have the highest Pugh ratio values, W20Ta70Nb10 and W30Ta60Nb10, exhibit no intergranular microcracking in experiments.",
+      "authors": [
+        "Kareem Abdelmaqsoud",
+        "Daniel Sinclair",
+        "Venkata Satya Surya Amaranth Karra",
+        "S. Mohadeseh Taheri-Mousavi",
+        "Michael Widom",
+        "Bryan A. Webler",
+        "John R. Kitchin"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "date": "2026-01-16",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2601.11295v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究增材制造钨合金的力学性能，通过计算和实验结合的方法优化延展性，与您关注的AM力学性能方向高度相关。",
+        "why_not_core": "This paper focuses on refractory tungsten alloys for nuclear fusion, not on biomedical implants or bone mechanics, and does not address stress shielding, osseointegration, or implant stability.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "additive manufacturing",
+          "tungsten alloys",
+          "ductility",
+          "Pugh ratio",
+          "machine learning interatomic potentials",
+          "density functional theory",
+          "crack prevention"
+        ],
+        "summary_zh": {
+          "motivation": "克服钨在增材制造中的脆性和低可打印性，设计高延展性成分。",
+          "method": "结合DFT计算的Pugh比和机器学习势加速筛选W-Ta-Nb合金的延展性。",
+          "result": "预测的高Pugh比合金W20Ta70Nb10和W30Ta60Nb10在实验中无微裂纹。",
+          "validation": "通过增材制造合金的裂纹分数实验验证Pugh比与延展性的相关性。"
+        },
+        "summary_en": {
+          "motivation": "To overcome the inherent brittleness and poor printability of tungsten in additive manufacturing by designing alloys with improved ductility.",
+          "method": "A computational approach combining density functional theory calculations of the Pugh ratio with machine learning interatomic potentials to rapidly screen alloy compositions in the W-Ta-Nb system.",
+          "result": "Alloys with the highest predicted Pugh ratios, W20Ta70Nb10 and W30Ta60Nb10, exhibited no intergranular microcracking in experimental validation.",
+          "validation": "Experimental validation via crack fraction analysis in additively manufactured alloys confirmed a strong correlation between the computed Pugh ratio and ductility."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          },
+          {
+            "en": "Pugh ratio",
+            "zh": "Pugh比"
+          },
+          {
+            "en": "machine learning interatomic potentials",
+            "zh": "机器学习原子间势"
+          },
+          {
+            "en": "density functional theory",
+            "zh": "密度泛函理论"
+          },
+          {
+            "en": "tungsten alloy",
+            "zh": "钨合金"
+          },
+          {
+            "en": "crack fraction",
+            "zh": "裂纹分数"
+          },
+          {
+            "en": "refractory alloy",
+            "zh": "难熔合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:18:22Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7124462646",
+      "doi": "10.4028/p-zpm7ep",
+      "title": "Low Cycle Fatigue Response of Additive Manufactured Advanced Structural Alloys: Insights into High Performance Alloy Fatigue Life",
+      "abstract": "Additive Manufacturing enables the production of intricate geometries and products with improved strength-to-weight ratios, driving its applications in defence, aerospace, and automobile sectors. Maraging steel and Superalloy Inconel 625 are renowned for their excellent mechanical properties and are candidate materials for high performance applications. It is essential to study the fatigue behaviour of additively manufactured samples prior to their deployment in real working environments, as their mechanical properties and fatigue behaviour differ from those of conventionally manufactured materials. In the present study, low cycle fatigue (LCF) behaviour of Maraging steel (M300) and Inconel 625, at different strain amplitudes and heat treatment conditions were evaluated. Fractographic characterization was conducted using scanning electron microscopy (SEM). To understand the effect of build orientation on LCF behaviour, the maraging steel samples were also tested in different build orientations (0 o and 90 o ). It was found that build orientation significantly affected the fatigue life of additive manufactured maraging steel samples. The LCF study was also done at different strain amplitudes for Inconel 625 and results indicated that there was drastic decrease in fatigue life at higher strain amplitudes. It was observed that defects introduced due to layer wise processing of additive samples have adverse effect on fatigue life. Ultrasonic shot peening was also applied to the additively manufactured fatigue samples to examine its impact on fatigue life.",
+      "authors": [
+        "N.C. Santhi Srinivas",
+        "Kausik Chattopadhyay",
+        "Shreyasi Vasu",
+        "Kumar R. Pavan",
+        "Jaydeep Vishwakarma"
+      ],
+      "first_author_affiliation": "Indian Institute of Technology (Banaras Hindu University)",
+      "corresponding_authors": [
+        {
+          "name": "N.C. Santhi Srinivas",
+          "affiliation": "Indian Institute of Technology (Banaras Hindu University)"
+        }
+      ],
+      "venue": "Materials science forum",
+      "year": 2026,
+      "date": "2026-01-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.4028/p-zpm7ep",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Maraging steel",
+        "Inconel",
+        "Superalloy",
+        "Metallurgy",
+        "Fatigue limit",
+        "Low-cycle fatigue",
+        "Alloy",
+        "Inconel 625",
+        "Scanning electron microscope",
+        "Composite material",
+        "Fatigue testing"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "mechanical_properties",
+        "fatigue"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "build orientation"
+        ],
+        "fatigue": [
+          "fatigue life"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了增材制造合金的低周疲劳性能，与用户关注的增材制造力学性能密切相关。",
+        "why_not_core": "This paper does not address biomedical implant applications or include biocompatibility, osseointegration, or in vivo testing.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "additive manufacturing",
+          "low cycle fatigue",
+          "maraging steel",
+          "Inconel 625",
+          "build orientation",
+          "strain amplitude",
+          "ultrasonic shot peening",
+          "fractography"
+        ],
+        "summary_zh": {
+          "motivation": "研究增材制造合金在实际服役环境中的疲劳行为，确保其安全应用。",
+          "method": "通过低周疲劳试验和扫描电镜断口分析，评估不同应变幅、热处理和构建方向对疲劳寿命的影响。",
+          "result": "构建方向和应变幅显著影响疲劳寿命，层间缺陷降低疲劳寿命，超声喷丸可改善性能。",
+          "validation": "使用标准疲劳试验和SEM断口表征进行验证。"
+        },
+        "summary_en": {
+          "motivation": "To evaluate the low cycle fatigue behavior of additively manufactured maraging steel and Inconel 625 for high performance applications.",
+          "method": "LCF tests at varying strain amplitudes, heat treatments, and build orientations, with fractographic analysis via SEM.",
+          "result": "Build orientation and strain amplitude significantly affect fatigue life; layer defects reduce life, while ultrasonic shot peening improves it.",
+          "validation": "Mechanical fatigue testing and SEM fractography."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "low cycle fatigue",
+            "zh": "低周疲劳"
+          },
+          {
+            "en": "maraging steel",
+            "zh": "马氏体时效钢"
+          },
+          {
+            "en": "Inconel 625",
+            "zh": "因科镍625"
+          },
+          {
+            "en": "build orientation",
+            "zh": "构建方向"
+          },
+          {
+            "en": "strain amplitude",
+            "zh": "应变幅"
+          },
+          {
+            "en": "ultrasonic shot peening",
+            "zh": "超声喷丸"
+          },
+          {
+            "en": "fractography",
+            "zh": "断口分析"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:18:22Z"
+    },
+    {
+      "source": "pubmed",
+      "id": "pubmed:41542796",
+      "doi": "10.1097/RLI.0000000000001256",
+      "pmid": "41542796",
+      "title": "MARS MRI for the Diagnosis of Aseptic Stem Loosening in Cementless Total Hip Arthroplasty.",
+      "abstract": "BACKGROUND: Despite the increasing use of MARS (metal artifact reduction sequence) MRI to investigate painful total hip arthroplasties (THA), no validated criteria exist for diagnosing femoral stem loosening. PURPOSE: To evaluate MARS MRI for the diagnosis of aseptic stem loosening and determine its diagnostic accuracy. MATERIALS AND METHODS: One hundred fourteen consecutive cases with THA revision surgery and MARS MRI of the hip were retrospectively included. Two blinded musculoskeletal radiologists independently assessed periprosthetic bone resorption (PPBR), bone marrow edema (BME), periosteal reaction (PR), and periprosthetic osteolysis (PO) in 14 Gruen zones (GZ). Intraoperative findings at revision surgery served as the ground truth. A predictive model was created using binomial logistic regression models to predict the probability of a loose stem with maximizing positive predictive value (PPV) and accuracy. Interobserver reliability was assessed with absolute agreement, Cohen κ and Gwet AC1. RESULTS: During surgery, 66 stems were fixed and 48 loose. PPBR occurred significantly more frequently in loose stems across all GZs except GZ11. Proximal PPBR was also observed in fixed stems (up to 23%), whereas middle and distal PPBR were rare (≤3%). BME was most prevalent proximally in all stems (fixed/loose: 39%/60%) with significant differences medially and distally. PR was significantly more frequent in loose stems in the middle and distal GZs. PO were rare, most occurred in GZ7. The predictive model considering proximal PPBR, mid-distal PPBR, mid-distal PR, and distal BME performed with a sensitivity of 0.708, specificity of 0.970, PPV 0.944, negative predictive value 0.821. Interobserver agreement (Gwet AC1) in the considered zones was for PPBR between 0.80 and 0.98, BME 0.91 to 0.99, PR 0.87 to 0.97. CONCLUSIONS: MARS MRI is reproducible and accurate for assessing stem loosening. PPBR, BME, and PR can also be found in fixed THA in the proximal region, whereas they indicate loosening in the middle and distal stem region.",
+      "authors": [
+        "Martin Aepli",
+        "Andreas Fischer",
+        "Hannes A Rüdiger",
+        "Michael Leunig",
+        "Andrea B Rosskopf",
+        "Anika Stephan",
+        "Vincent A Stadelmann",
+        "Christian W A Pfirrmann"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [],
+      "venue": "Investigative radiology",
+      "year": 2026,
+      "date": "2026-01-16",
+      "date_precision": "day",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41542796/",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [],
+      "raw_type": "journal article",
+      "directions": [
+        "am_femoral_stem"
+      ],
+      "direction": "am_femoral_stem",
+      "direction_name": "Femoral Stem (AM + traditional)",
+      "routing_matches": {
+        "am_femoral_stem": [
+          "femoral stem"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文为临床诊断研究，不涉及股骨柄假体的力学建模、应力遮挡、微动或增材制造，与用户研究方向不相关。",
+        "why_not_core": "This paper is a clinical diagnostic study using MARS MRI for stem loosening detection, with no biomechanics modeling, no FEA, no implant design, and no AM or AI/ML for bioprinting.",
+        "validation_kind": "clinical",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": true,
+          "is_review": false
+        },
+        "tags": [
+          "MARS MRI",
+          "stem loosening",
+          "total hip arthroplasty",
+          "diagnostic accuracy"
+        ],
+        "summary_zh": {
+          "motivation": "缺乏诊断股骨柄松动的MARS MRI验证标准。",
+          "method": "回顾性分析114例全髋关节置换术后的MARS MRI，评估骨吸收、骨髓水肿等特征。",
+          "result": "预测模型在远端区域具有高特异性（0.970）和阳性预测值（0.944）。",
+          "validation": "以术中发现为金标准进行临床验证。"
+        },
+        "summary_en": {
+          "motivation": "To validate MARS MRI criteria for diagnosing aseptic femoral stem loosening in cementless total hip arthroplasty.",
+          "method": "Retrospective study of 114 cases assessed periprosthetic bone resorption, bone marrow edema, periosteal reaction, and osteolysis in Gruen zones, with a predictive model using binomial logistic regression.",
+          "result": "The model achieved 0.708 sensitivity, 0.970 specificity, and 0.944 positive predictive value for mid-distal findings indicating loosening.",
+          "validation": "Validation against intraoperative findings at revision surgery."
+        },
+        "key_terms": [
+          {
+            "en": "MARS MRI",
+            "zh": "金属伪影减少序列磁共振成像"
+          },
+          {
+            "en": "stem loosening",
+            "zh": "柄松动"
+          },
+          {
+            "en": "periprosthetic bone resorption",
+            "zh": "假体周围骨吸收"
+          },
+          {
+            "en": "bone marrow edema",
+            "zh": "骨髓水肿"
+          },
+          {
+            "en": "periosteal reaction",
+            "zh": "骨膜反应"
+          },
+          {
+            "en": "Gruen zones",
+            "zh": "Gruen分区"
+          },
+          {
+            "en": "cementless total hip arthroplasty",
+            "zh": "非骨水泥全髋关节置换术"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:18:22Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 3,
+    "by_source": {
+      "arxiv": 1,
+      "openalex": 1,
+      "pubmed": 1
+    },
+    "after_dedup": 3,
+    "after_routing": 3,
+    "by_direction": {
+      "mechanical_properties": 2,
+      "am_femoral_stem": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1,
+      "openalex": 1,
+      "pubmed": 1
+    },
+    "scored": 3,
+    "priority_counts": {
+      "High": 2,
+      "Exclude": 1
+    }
+  }
+}

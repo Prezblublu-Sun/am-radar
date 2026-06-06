@@ -1,0 +1,140 @@
+{
+  "schema_version": "v2",
+  "date": "2025-11-09",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2511.06561v1",
+      "doi": "10.1063/5.0311544",
+      "arxiv_id": "2511.06561v1",
+      "title": "Thermal conductivity of commodity polymers under high pressures",
+      "abstract": "Understanding the thermal conductivity of polymers under high-pressure conditions is essential for a range of applications, from aerospace and deep-sea engineering to common lubricants. However, the complex relationship between pressure, $P$, the thermal transport coefficient, $κ$, and polymer architecture poses substantial challenges to both experimental and theoretical investigations. In this work, we study the pressur-dependent thermal transport properties of a widely used commodity polymer -- poly(methyl methacrylate) (PMMA) -- using a combination of all-atom molecular dynamics simulations and semi-analytical approaches. While we report both classical and quantum-corrected estimates of $κ$, the latter approach reveals that as the pressure increases from 1 atm to 10 GPa, $κ$ rises by up to a factor of four -- from 0.21 W m$^{-1}$ K$^{-1}$ to 0.80 W m$^{-1}$ K$^{-1}$. To better understand the mechanisms behind this increase, we disentangle the contributions from bonded and nonbonded monomer interactions. Our analysis shows that nonbonded energy-transfer rates increase by a factor of six over the pressure range, while bonded interactions show a more modest increase -- about a factor of three. This observation further consolidates the fact that the nonbonded interactions play the dominant role in dictating the microscopic heat flow in polymers. These individual energy-transfer rates are also incorporated into a simplified heat diffusion model to predict $κ$. The results obtained from different approaches show internal consistency and align well with available experimental data. Additionally, some data for polylactic acid (PLA) are presented.",
+      "authors": [
+        "Otavio Higino Moura de Alencar",
+        "James Mu",
+        "Marcus Müller",
+        "Debashish Mukherji"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-11-09",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2511.06561v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.soft",
+        "cond-mat.mtrl-sci"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties",
+        "fatigue",
+        "ti6al4v_postprocess_hip"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "w + a + a + m"
+        ],
+        "fatigue": [
+          "w + a + a + m"
+        ],
+        "ti6al4v_postprocess_hip": [
+          "w + a + a + m"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究聚合物高压热导率，与增材制造力学性能研究方向关联度较低。",
+        "why_not_core": "Does not address additive manufacturing, mechanical property characterization (strength, fatigue, modulus), or any aspect of AM process or product performance.",
+        "validation_kind": "theoretical",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "thermal conductivity",
+          "polymer",
+          "high pressure",
+          "molecular dynamics",
+          "PMMA",
+          "PLA"
+        ],
+        "summary_zh": {
+          "motivation": "研究聚合物高压下热导率变化规律。",
+          "method": "全原子分子动力学模拟结合半解析方法。",
+          "result": "热导率随压力升高最多增加四倍，非键相互作用主导。",
+          "validation": "与已有实验数据对比验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the pressure-dependent thermal conductivity of commodity polymers, crucial for applications in extreme environments.",
+          "method": "Combined all-atom molecular dynamics simulations and semi-analytical heat diffusion models.",
+          "result": "The thermal conductivity of PMMA increases up to fourfold from 0.21 to 0.80 W m⁻¹ K⁻¹ as pressure rises from 1 atm to 10 GPa, driven primarily by nonbonded interactions.",
+          "validation": "Internal consistency across methods and comparison with available experimental data."
+        },
+        "key_terms": [
+          {
+            "en": "thermal conductivity",
+            "zh": "热导率"
+          },
+          {
+            "en": "polymer",
+            "zh": "聚合物"
+          },
+          {
+            "en": "high pressure",
+            "zh": "高压"
+          },
+          {
+            "en": "molecular dynamics",
+            "zh": "分子动力学"
+          },
+          {
+            "en": "nonbonded interactions",
+            "zh": "非键相互作用"
+          },
+          {
+            "en": "heat diffusion",
+            "zh": "热扩散"
+          },
+          {
+            "en": "PMMA",
+            "zh": "聚甲基丙烯酸甲酯"
+          },
+          {
+            "en": "PLA",
+            "zh": "聚乳酸"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:15:55Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

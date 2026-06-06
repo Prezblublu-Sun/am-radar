@@ -1,0 +1,136 @@
+{
+  "schema_version": "v2",
+  "date": "2025-06-21",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "arxiv",
+      "id": "http://arxiv.org/abs/2506.17849v1",
+      "doi": "",
+      "arxiv_id": "2506.17849v1",
+      "title": "Boosting biocompatibility and mechanical property evolution in a high-entropy alloy via nanostructure engineering and phase transformations",
+      "abstract": "High-entropy alloys (HEAs), as multi-component materials with high configurational entropy, have garnered significant attention as new biomaterials; still, their low yield stress and high elastic modulus need to be overcome for future biomedical applications. In this study, nanograin generation is used to enhance the strength and phase transformation is employed to reduce the elastic modulus of a biocompatible Ti-Zr-Hf-Nb-Ta-based HEA. The alloy is treated via the high-pressure torsion (HPT) process, leading to (i) a BCC (body-centered cubic) to omega phase transformation with [101]ω//[011]BCC and [211]omega//[121]BCC through a twining mechanism, (ii) nanograin formation with a mean grain size of 20 nm, and (iii) dislocation generation particularly close to BCC-omega interphase boundaries. These structural and microstructural features enhance hardness, increase tensile strength up to 2130 MPa, achieve tensile elongation exceeding 13%, reduce elastic modulus down to 69 GPa and improve biocompatibility. Additionally, the HEA exhibits improved anodization, resulting in a homogenous distribution of oxide nanotubes on the surface with a smaller tube diameter and a higher tube length compared to pure titanium. These remarkable properties, which are engineered by the generation of defective nanograins and the co-existence of BCC and metastable omega phases, highlight the potential of HEAs treated using severe plastic deformation for future biomedical usage, particularly in the orthopedic sector.",
+      "authors": [
+        "Thanh Tam Nguyen",
+        "Payam Edalati",
+        "Shivam Dangwal",
+        "Karina Danielle Pereira",
+        "Alessandra Cremasco",
+        "Ricardo Floriano",
+        "Augusto Ducati Luchessi",
+        "Kaveh Edalati"
+      ],
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "date": "2025-06-21",
+      "date_precision": "day",
+      "url": "http://arxiv.org/abs/2506.17849v1",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.med-ph"
+      ],
+      "raw_type": "preprint",
+      "directions": [
+        "mechanical_properties"
+      ],
+      "direction": "mechanical_properties",
+      "direction_name": "AM Mechanical Properties",
+      "routing_matches": {
+        "mechanical_properties": [
+          "tensile strength",
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究高熵合金的力学性能与生物相容性，但未涉及增材制造工艺，与AM力学性能方向不直接相关。",
+        "why_not_core": "No additive manufacturing (AM) process involved; the material is processed via severe plastic deformation, not LPBF/AM.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "high-entropy alloy",
+          "severe plastic deformation",
+          "nanograin",
+          "phase transformation",
+          "biocompatibility"
+        ],
+        "summary_zh": {
+          "motivation": "提高高熵合金的强度并降低弹性模量用于生物医学",
+          "method": "通过高压扭转产生纳米晶和相变改善力学性能",
+          "result": "获得超细晶和ω相，强度达2130 MPa，模量降至69 GPa",
+          "validation": "拉伸测试、硬度测试及阳极氧化表征"
+        },
+        "summary_en": {
+          "motivation": "To enhance yield strength and reduce elastic modulus of high-entropy alloys for biomedical applications.",
+          "method": "High-pressure torsion (HPT) is applied to induce nanograin formation and BCC-to-omega phase transformation.",
+          "result": "Ultrafine-grained structure with ω phase yields ultrahigh strength (2130 MPa), good ductility (13% elongation), and low modulus (69 GPa).",
+          "validation": "Mechanical tests (tensile, hardness) and anodization experiments confirm improved properties and biocompatibility."
+        },
+        "key_terms": [
+          {
+            "en": "high-entropy alloy",
+            "zh": "高熵合金"
+          },
+          {
+            "en": "severe plastic deformation",
+            "zh": "剧烈塑性变形"
+          },
+          {
+            "en": "nanograin",
+            "zh": "纳米晶"
+          },
+          {
+            "en": "phase transformation",
+            "zh": "相变"
+          },
+          {
+            "en": "biocompatibility",
+            "zh": "生物相容性"
+          },
+          {
+            "en": "elastic modulus",
+            "zh": "弹性模量"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "nanotube",
+            "zh": "纳米管"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-06T01:10:24Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "arxiv": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "mechanical_properties": 1
+    },
+    "routed_by_source": {
+      "arxiv": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}
