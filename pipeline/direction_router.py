@@ -9,8 +9,17 @@ def _text(paper: dict) -> str:
     return f"{paper.get('title', '')} {paper.get('abstract', '')}".lower()
 
 
+def _norm(s: str) -> str:
+    """Normalize hyphens to spaces so surface variants match: e.g. "3D-printed"
+    matches "3d printed", "L-PBF" matches "l pbf". Precise — no stemming or
+    substring matching; the word-boundary check below still applies."""
+    return s.replace("-", " ")
+
+
 def _contains(text: str, term: str) -> bool:
-    return re.search(rf"\b{re.escape(term.lower())}\b", text) is not None
+    return re.search(
+        rf"\b{re.escape(_norm(term.lower()))}\b", _norm(text)
+    ) is not None
 
 
 def _is_excluded(text: str, exclusions: dict) -> bool:

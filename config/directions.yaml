@@ -25,19 +25,6 @@ directions:
       - "fracture toughness"
       - "strain hardening"
       - "ductility"
-    must_pair_with: &am_terms
-      - "additive manufacturing"
-      - "selective laser melting"
-      - "laser powder bed fusion"
-      - "powder bed fusion"
-      - "electron beam melting"
-      - "directed energy deposition"
-      - "wire arc additive"
-      - "slm"
-      - "lpbf"
-      - "l-pbf"
-      - "ebm"
-      - "waam"
 
   fatigue:
     display_name: "AM Fatigue"
@@ -62,7 +49,6 @@ directions:
       - "very high cycle fatigue"
       - "fatigue crack growth"
       - "fatigue crack initiation"
-    must_pair_with: *am_terms
 
   ti6al4v_postprocess_hip:
     display_name: "Ti-6Al-4V Post-processing & HIP"
@@ -81,7 +67,27 @@ directions:
       - "hot isostatic pressing"
       - "Ti-6Al-4V"
       - "Ti6Al4V"
-    must_pair_with: *am_terms
+    must_pair_with: &am_terms
+      - "additively manufactured"
+      - "additive manufacturing"
+      - "selective laser melting"
+      - "selective laser melted"
+      - "laser powder bed fusion"
+      - "laser powder bed fused"
+      - "powder bed fusion"
+      - "electron beam melting"
+      - "directed energy deposition"
+      - "wire arc additive"
+      - "3d printing"
+      - "3d printed"
+      - "3d-printed"
+      - "additively-manufactured"
+      - "slm"
+      - "lpbf"
+      - "l-pbf"
+      - "ebm"
+      - "waam"
+      - "ded"
 
   am_femoral_stem:
     display_name: "Femoral Stem (AM + traditional)"
@@ -105,3 +111,4 @@ directions:
       - "short stem"
       - "porous stem"
       - "lattice stem"
+    must_pair_with: *am_terms

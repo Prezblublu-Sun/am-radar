@@ -128,6 +128,81 @@ def test_total_hip_arthroplasty_does_not_route_into_ti6al4v_postprocess_hip(
     assert "ti6al4v_postprocess_hip" not in dirs
 
 
+# ============================================================================
+# Surface-variant tolerance (hyphen normalization) + must_pair removal on
+# mechanical_properties / fatigue. These cover the recall fixes: real papers
+# use past-tense / hyphenated AM phrasings, and the two query-anchored
+# directions no longer require an explicit AM term in the abstract.
+# ============================================================================
+
+def test_contains_is_hyphen_tolerant_but_still_precise():
+    # Hyphen <-> space variants match in both directions.
+    assert direction_router._contains("a 3d-printed lattice part", "3d printed")
+    assert direction_router._contains("a 3d printed lattice part", "3d-printed")
+    assert direction_router._contains("an l-pbf ti alloy", "l pbf")
+    assert direction_router._contains(
+        "laser powder bed fused specimens", "laser powder bed fused"
+    )
+    # Still precise: no substring / partial-word matching.
+    assert not direction_router._contains("a printed circuit board", "3d printed")
+    assert not direction_router._contains("slimming program", "slm")
+
+
+def test_slm_past_tense_variant_routes_into_ti6al4v_postprocess_hip(
+    directions, exclusions
+):
+    # "selective laser melted" (past tense) is a new must_pair variant; the
+    # paper carries the HIP + Ti-6Al-4V strong keywords and routes correctly.
+    p = _paper(
+        "Hot isostatic pressing of selective laser melted Ti-6Al-4V",
+        "Selective laser melted Ti-6Al-4V is densified by hot isostatic "
+        "pressing, which closes process porosity.",
+    )
+    direction_router.route(p, directions, exclusions)
+    assert p.get("direction") == "ti6al4v_postprocess_hip"
+    assert "ti6al4v_postprocess_hip" in (p.get("directions") or [])
+
+
+def test_3d_printed_hyphen_form_routes_correctly(directions, exclusions):
+    # The "3D-printed" hyphenated form must not block routing.
+    p = _paper(
+        "Tensile strength of a 3D-printed lattice structure",
+        "We characterise the ultimate tensile strength and ductility of a "
+        "3D-printed lattice structure.",
+    )
+    direction_router.route(p, directions, exclusions)
+    assert p.get("direction") == "mechanical_properties"
+    assert "mechanical_properties" in (p.get("directions") or [])
+
+
+def test_mechanical_properties_routes_without_explicit_am_term(
+    directions, exclusions
+):
+    # must_pair_with was removed from mechanical_properties: a strong keyword
+    # alone now routes, even with no explicit additive-manufacturing term
+    # (recall is recovered downstream by the LLM scorer).
+    p = _paper(
+        "Tensile strength and ductility of a wrought titanium alloy",
+        "We report the ultimate tensile strength, elongation, and strain "
+        "hardening of a conventionally processed titanium alloy.",
+    )
+    direction_router.route(p, directions, exclusions)
+    assert p.get("direction") == "mechanical_properties"
+    assert "mechanical_properties" in (p.get("directions") or [])
+
+
+def test_fatigue_routes_without_explicit_am_term(directions, exclusions):
+    # must_pair_with was removed from fatigue too.
+    p = _paper(
+        "High cycle fatigue of a cast aluminium component",
+        "The fatigue life and fatigue strength under high cycle fatigue "
+        "loading of a conventionally cast aluminium component are reported.",
+    )
+    direction_router.route(p, directions, exclusions)
+    assert p.get("direction") == "fatigue"
+    assert "fatigue" in (p.get("directions") or [])
+
+
 def test_non_am_paper_routes_to_nothing(directions, exclusions):
     p = _paper(
         "Bridge structural civil engineering analysis",
