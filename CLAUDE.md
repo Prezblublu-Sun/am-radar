@@ -1,9 +1,38 @@
-# CLAUDE.md — Research Radar
+# CLAUDE.md — AM Radar
 
 Guidance for Claude Code working in this repository. Read this before
 proposing or making changes. Sources of truth: `SCOPE.md`, `TODO.md`,
 `README.md`. If those conflict with this file, they win — and this file
 should be updated.
+
+AM Radar is a sibling of the original Research Radar, focused on
+**additive-manufacturing mechanical performance**. It reuses the shared
+discovery pipeline but tracks an AM-specific set of directions.
+
+---
+
+## 0. Scope at a glance — directions, sources, corpus
+
+- **Four research directions**, defined in `config/directions.yaml` (the
+  single source of truth — do **not** edit it as part of unrelated work,
+  and do not hardcode direction names/counts where code can derive them
+  from config):
+  1. `mechanical_properties` — AM Mechanical Properties (strength,
+     ductility, anisotropy, build orientation).
+  2. `fatigue` — AM Fatigue (life/strength, S-N, defect-driven, crack
+     initiation/growth).
+  3. `ti6al4v_postprocess_hip` — Ti-6Al-4V Post-processing & HIP.
+     **"HIP" = hot isostatic pressing, NOT the hip joint.**
+  4. `am_femoral_stem` — Femoral Stem (AM + traditional).
+- **OpenAlex is keyword-first.** `openalex_concepts` is intentionally
+  empty for every direction; `openalex_keywords` carries the signal.
+  Concept-id queries can exceed ~2000 results and get silently truncated
+  by the page cap (which lost papers in the sister project). Do not add
+  concepts back without revisiting this. See
+  `decisions/ADR-0001-am-radar-scope.md`.
+- **Corpus lives on `main` only.** `data/` is one tree on the `main`
+  branch — never split across `main` + GitHub Releases, and there is no
+  monthly-archive / release workflow in this repo.
 
 ---
 
@@ -18,9 +47,9 @@ to grade noise correctly downstream.
   **not** a valid justification for cutting recall.
 - Do **not** propose tightening `must_pair_with`, adding restrictive
   routing rules, or adding broad `negative_keywords` to "reduce noise."
-- "Adjacent-field inspiration" counts as value (e.g. clinical hip
-  papers offering methodological hints, generic ML papers transferable
-  to surrogate modelling).
+- "Adjacent-field inspiration" counts as value (e.g. clinical hip-stem
+  papers offering design hints transferable to AM stems, or generic
+  materials/ML papers transferable to AM mechanical-property modelling).
 - When tuning, the question is "are we recalling enough?", not
   "are we showing too much?".
 
@@ -41,7 +70,7 @@ candidates; lit-system owns everything past that.
 - OCR, equation/figure/table extraction
 - Chunking, embeddings, vector stores (Chroma, Qdrant, FAISS)
 - RAG, knowledge graphs, citation-graph analysis
-- Cross-paper synthesis outside the review-loop layered chain (per-paper → weekly → monthly → quarterly → annual; ADR-0026)
+- Cross-paper synthesis, literature-review generation, research-gap or hypothesis generation
 - Personalization, feedback loops, active learning, re-ranking
 - Chat-with-papers, conversational UI
 - Curation/annotation web UI on deep-parsed PDFs (lit-system territory)
@@ -89,7 +118,16 @@ Respect and preserve these guardrails:
 
 - Empty-run gate in `_save_daily`: reject `fetched_total == 0`,
   reject overwriting N papers with 0, flag suspicious payloads <1KB.
-- Zotero sync audit log at `data/zotero_sync_log/YYYY-MM-DD.jsonl`
+- **Loud recall flags (batch 1, ADR-0001 cross-ref).** A per-source
+  `<src>_returned_zero` quality flag fires when a fetcher returns nothing,
+  and `openalex_truncated` fires when an OpenAlex query hits its page cap
+  while more results remain. These make silent recall loss visible — do
+  not weaken them.
+- Inherited pipeline behaviours to preserve: concurrent scorer,
+  score-before-dedup ordering, retry-aware scorer, and the era-split
+  (per-year) search index.
+- Zotero sync is **currently disabled** (batch 1). If it is re-enabled,
+  keep its audit log at `data/zotero_sync_log/YYYY-MM-DD.jsonl`
   (one line per item, with `target_collection` + `status` + `error`).
 - `run_status` and `quality_flags` fields in the daily manifest.
 - DOI-only strict dedup. No fuzzy dedup — too many edge cases.
@@ -111,7 +149,7 @@ Respect and preserve these guardrails:
 
 Before suggesting a change:
 
-1. Check `SCOPE.md` § "What Research Radar is NOT" — if it touches that
+1. Check `SCOPE.md` § "What AM Radar is NOT" — if it touches that
    list, reject.
 2. Check `TODO.md` § "明确不做" — if already rejected, do not re-propose.
 3. Prefer **data-driven** tuning ("let it run 2 weeks, then decide")
@@ -151,9 +189,10 @@ Before suggesting a change:
   precision declaration). That section is a user-authored calibration
   statement; propose changes in chat instead.
 - **Don't run the production pipeline** (`python -m pipeline.run_daily`
-  without `--skip-zotero`, manual Actions triggers, Zotero writes,
-  monthly-archive runs). Those touch shared state — Zotero, GitHub
-  Pages, Releases — and must be user-initiated.
+  without `--skip-zotero`, manual Actions triggers). Those touch shared
+  state — GitHub Pages and the `main`-branch corpus — and must be
+  user-initiated. (There is no Releases archive and Zotero sync is
+  currently disabled.)
 - **Don't overwrite a versioned scorer prompt.** Create
   `prompts/scorer_vN+1.txt`; never edit `scorer_vN.txt` in place.
 - **Don't `git push`, force-push, amend pushed commits, or open/close
@@ -163,4 +202,5 @@ Before suggesting a change:
 
 ---
 
-Last reviewed: 2026-05-14.
+Last reviewed: 2026-06-06 (AM Radar scope rewrite; see
+`decisions/ADR-0001-am-radar-scope.md`).

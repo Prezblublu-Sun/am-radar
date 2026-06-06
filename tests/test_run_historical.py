@@ -211,7 +211,8 @@ def _make_paper(doi: str, title: str, abstract: str | None = None,
         "id": doi,
         "doi": doi,
         "title": title,
-        "abstract": abstract if abstract is not None else f"{title} bioprinting bioink",
+        "abstract": abstract if abstract is not None
+        else f"{title} tensile strength laser powder bed fusion additive manufacturing",
         "authors": ["A. Author"],
         "first_author_affiliation": "",
         "corresponding_authors": [],
@@ -357,12 +358,14 @@ def test_no_resume_flag_starts_fresh(monkeypatch, tmp_path):
 
 
 def test_routing_filters_before_scoring(monkeypatch, tmp_path):
-    # Real direction_router will route the bioprinting paper, drop the
-    # civil-engineering paper via the exclusion list.
+    # Real direction_router routes the AM fatigue paper (strong keyword +
+    # an AM term) and drops the civil-engineering paper, which has no AM
+    # strong keyword to match any of the four directions.
     _mock_three_fetchers(monkeypatch, {
         "openalex": [
-            _make_paper("10.1/match", "AI bioprinting",
-                        "AI bioprinting bioink optimization study"),
+            _make_paper("10.1/match", "Fatigue life of SLM Ti-6Al-4V",
+                        "fatigue life of selective laser melting additive "
+                        "manufacturing parts"),
             _make_paper("10.1/skip", "civil",
                         "bridge structural civil engineering analysis"),
         ],
@@ -430,15 +433,17 @@ def test_progress_file_schema(monkeypatch, tmp_path):
 
 def test_routed_by_source_present_and_sums_to_after_routing(monkeypatch, tmp_path):
     # Two papers from arxiv that route, one from openalex that routes, one
-    # from pubmed that does not route (civil engineering exclusion).
+    # from pubmed that does not route (no AM strong keyword to match).
     _mock_three_fetchers(monkeypatch, {
         "arxiv": [
-            _make_paper("10.1/ax1", "AI bioprinting bioink", source="arxiv"),
-            _make_paper("10.1/ax2", "AI bioprinting closed loop control",
+            _make_paper("10.1/ax1", "Tensile strength of LPBF parts",
+                        source="arxiv"),
+            _make_paper("10.1/ax2", "Fatigue life of SLM components",
                         source="arxiv"),
         ],
         "openalex": [
-            _make_paper("10.1/oa1", "AI bioprinting", source="openalex"),
+            _make_paper("10.1/oa1", "Build orientation anisotropy in AM",
+                        source="openalex"),
         ],
         "pubmed": [
             _make_paper("10.1/pm1", "civil",
@@ -542,8 +547,9 @@ def _paper_with_date(doi: str, date: str, source: str = "openalex") -> dict:
         "id": doi,
         "doi": doi,
         "arxiv_id": "",
-        "title": "AI bioprinting bioink study",
-        "abstract": "AI bioprinting bioink optimization study",
+        "title": "Tensile strength of additive manufacturing parts",
+        "abstract": ("tensile strength and build orientation anisotropy of "
+                     "laser powder bed fusion additive manufacturing parts"),
         "authors": ["A. Author"],
         "first_author_affiliation": "",
         "corresponding_authors": [],

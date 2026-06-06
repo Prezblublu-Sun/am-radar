@@ -410,7 +410,7 @@ def _render_daily(papers, date, directions_cfg, archive_dates, manifest):
 <title>Research Radar — {_esc(date)}</title>
 <style>{CSS}</style>{ASSET_HEAD}</head><body>
 <h1>Research Radar</h1>
-<div class="subtitle">{_esc(date)} · AI Bioprinting / Hip Implant / FEA Surrogate / AM Biomedical</div>
+<div class="subtitle">{_esc(date)} · {_esc(" / ".join(d["display_name"] for d in directions_cfg.values()))}</div>
 {_topbar(date, archive_dates)}
 {_stats_row(papers, directions_cfg)}
 {_direction_tabs(directions_cfg)}

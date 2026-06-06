@@ -129,3 +129,60 @@ def test_single_signal_keeps_single_query_path(monkeypatch):
                            max_pages=1)
     # 2 calls total (one per fetch invocation), not 4 — no fan-out fired.
     assert len(calls) == 2
+
+
+# ---------------------------------------------------------------------------
+# ADR-0023: loud truncation flag when a query hits max_pages with OpenAlex
+# still advertising more results (the silent over-cap that lost recall).
+# ---------------------------------------------------------------------------
+
+def test_truncation_flag_fires_on_over_cap_response(monkeypatch):
+    """A stubbed response that always returns a next_cursor forces the
+    pagination loop to hit max_pages while OpenAlex still has more rows.
+    fetch() must append a record to the caller-supplied truncation_events
+    list (and the caller raises `openalex_truncated` off a non-empty list)."""
+
+    class FakeResp:
+        def raise_for_status(self): pass
+        def json(self):
+            # Always advertise more results -> never breaks the loop early.
+            return {"results": [], "meta": {"next_cursor": "always-more"}}
+
+    def fake_get(url, params=None, **kw):
+        return FakeResp()
+
+    monkeypatch.setattr(openalex_fetcher.requests, "get", fake_get)
+
+    events: list[dict] = []
+    # keywords-only (mirrors the AM config: openalex_concepts is empty), so
+    # the single-query path runs and caps at max_pages.
+    openalex_fetcher.fetch(
+        concepts=[], keywords=["additive manufacturing fatigue"],
+        from_date="2024-05-01", to_date="2024-05-31",
+        max_pages=3, truncation_events=events,
+    )
+    assert len(events) == 1
+    assert events[0]["results_at_cap"] == 0  # FakeResp returns no rows
+
+
+def test_no_truncation_flag_when_cursor_exhausts(monkeypatch):
+    """When OpenAlex stops returning a next_cursor before max_pages, no
+    truncation event is recorded."""
+
+    class FakeResp:
+        def raise_for_status(self): pass
+        def json(self):
+            return {"results": [], "meta": {"next_cursor": None}}
+
+    def fake_get(url, params=None, **kw):
+        return FakeResp()
+
+    monkeypatch.setattr(openalex_fetcher.requests, "get", fake_get)
+
+    events: list[dict] = []
+    openalex_fetcher.fetch(
+        concepts=[], keywords=["x"],
+        from_date="2024-05-01", to_date="2024-05-31",
+        max_pages=40, truncation_events=events,
+    )
+    assert events == []

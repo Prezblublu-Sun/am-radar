@@ -1,18 +1,18 @@
-"""Tests for ADR-0021: rl_world_model routing + RL×FEA/surrogate crossover
-boost in pipeline/direction_router.py.
+"""Tests for pipeline/direction_router.py under the four additive-manufacturing
+directions in config/directions.yaml.
 
 Covers:
-  * Routing of papers with world-model / Dreamer terms into rl_world_model.
-  * Generic RL (e.g. Atari) does NOT enter rl_world_model.
-  * PINN-only papers stay in fea_surrogate (not rl_world_model).
-  * Papers with an RL pairing AND surrogate/FE terms route into BOTH
-    rl_world_model and fea_surrogate.
-  * apply_crossover_boost bumps Low->Medium, Medium->High, leaves
-    High/Exclude alone, ignores single-direction papers, ignores other
-    two-direction overlaps, and is idempotent.
+  * One representative paper per direction routes into exactly that direction.
+  * A "total hip arthroplasty" clinical paper does NOT route into
+    ti6al4v_postprocess_hip — "HIP" in this radar means *hot isostatic
+    pressing*, not the hip joint (the strong keyword is "hot isostatic
+    pressing", and clinical hip-joint terms carry no AM strong keyword).
+  * A non-AM paper (no strong keyword in any direction) routes to nothing.
 
-All tests load the live config/directions.yaml so the production rule set
-is what is being exercised.
+All tests load the live config/directions.yaml so the production rule set is
+what is being exercised. Each fixture follows the routing contract: its
+title+abstract carries a strong_keyword of its target direction AND an
+additive-manufacturing term (the realistic shape of a real AM paper).
 
 Run with:
     pytest tests/test_direction_router.py
@@ -54,128 +54,105 @@ def _paper(title: str, abstract: str) -> dict:
 
 
 # ============================================================================
-# Routing
+# One routing test per direction
 # ============================================================================
 
-def test_world_model_paper_routes_into_rl_world_model(directions, exclusions):
+def test_mechanical_properties_paper_routes_into_that_direction(
+    directions, exclusions
+):
     p = _paper(
-        "Dreamer: World models for sample-efficient control",
-        "We learn a world model with latent dynamics for planning with "
-        "learned models and report results on continuous control tasks.",
+        "Tensile strength of laser powder bed fusion Ti parts",
+        "We measure the ultimate tensile strength and build orientation "
+        "anisotropy of selective laser melting additive manufacturing "
+        "specimens.",
     )
     direction_router.route(p, directions, exclusions)
-    assert "rl_world_model" in (p.get("directions") or [])
+    assert p.get("direction") == "mechanical_properties"
+    assert "mechanical_properties" in (p.get("directions") or [])
 
 
-def test_generic_rl_atari_does_not_route_into_rl_world_model(directions, exclusions):
+def test_fatigue_paper_routes_into_that_direction(directions, exclusions):
     p = _paper(
-        "Deep reinforcement learning for Atari games",
-        "We train an agent to play Atari games with reinforcement learning "
-        "and report new state-of-the-art scores on the ALE benchmark.",
+        "High cycle fatigue life of SLM components",
+        "The fatigue life and fatigue strength of laser powder bed fusion "
+        "additive manufacturing parts is governed by process-induced "
+        "defects.",
     )
     direction_router.route(p, directions, exclusions)
-    assert "rl_world_model" not in (p.get("directions") or [])
+    assert p.get("direction") == "fatigue"
+    assert "fatigue" in (p.get("directions") or [])
 
 
-def test_pinn_only_paper_stays_in_fea_surrogate(directions, exclusions):
+def test_ti6al4v_postprocess_hip_paper_routes_into_that_direction(
+    directions, exclusions
+):
     p = _paper(
-        "Physics-informed neural network for elasticity",
-        "We present a PINN that solves the linear elasticity PDE with a "
-        "neural operator (DeepONet) for surrogate modeling of mechanics.",
+        "Hot isostatic pressing of additively manufactured Ti-6Al-4V",
+        "Hot isostatic pressing closes porosity in selective laser melting "
+        "additive manufacturing Ti-6Al-4V and improves the microstructure.",
+    )
+    direction_router.route(p, directions, exclusions)
+    assert "ti6al4v_postprocess_hip" in (p.get("directions") or [])
+
+
+def test_am_femoral_stem_paper_routes_into_that_direction(
+    directions, exclusions
+):
+    p = _paper(
+        "Lattice femoral stem for cementless total hip replacement",
+        "A porous titanium femoral stem produced by electron beam melting "
+        "additive manufacturing reduces stress shielding versus a solid hip "
+        "stem.",
+    )
+    direction_router.route(p, directions, exclusions)
+    assert "am_femoral_stem" in (p.get("directions") or [])
+
+
+# ============================================================================
+# HIP disambiguation: clinical hip-joint paper must NOT enter the
+# hot-isostatic-pressing direction.
+# ============================================================================
+
+def test_total_hip_arthroplasty_does_not_route_into_ti6al4v_postprocess_hip(
+    directions, exclusions
+):
+    p = _paper(
+        "Ten-year outcomes of total hip arthroplasty",
+        "We report patient-reported outcomes and revision rates after total "
+        "hip arthroplasty in a cohort of 500 patients.",
     )
     direction_router.route(p, directions, exclusions)
     dirs = p.get("directions") or []
-    assert "fea_surrogate" in dirs
-    assert "rl_world_model" not in dirs
+    # "HIP" here is hot isostatic pressing; a clinical hip-joint abstract has
+    # no such strong keyword (nor any AM strong keyword), so it routes nowhere.
+    assert "ti6al4v_postprocess_hip" not in dirs
 
 
-def test_rl_crossover_paper_routes_into_both_directions(directions, exclusions):
+def test_non_am_paper_routes_to_nothing(directions, exclusions):
     p = _paper(
-        "Model-based reinforcement learning over a finite element surrogate",
-        "We combine model-based reinforcement learning with a finite "
-        "element surrogate model for design optimization of an implant. "
-        "The world model is trained on simulation data and used for "
-        "trajectory optimization. Active learning samples new simulations.",
+        "Bridge structural civil engineering analysis",
+        "A finite element study of load distribution in a concrete highway "
+        "bridge under traffic.",
     )
     direction_router.route(p, directions, exclusions)
-    dirs = set(p.get("directions") or [])
-    assert "rl_world_model" in dirs
-    assert "fea_surrogate" in dirs
+    assert p.get("direction") is None
+    assert (p.get("directions") or []) == []
 
 
 # ============================================================================
-# apply_crossover_boost
+# filter_routed drops papers that routed to nothing.
 # ============================================================================
 
-def _crossover_paper(priority: str) -> dict:
-    return {
-        "directions": ["rl_world_model", "fea_surrogate"],
-        "llm": {"priority": priority},
-    }
-
-
-def test_boost_low_becomes_medium():
-    p = _crossover_paper("Low")
-    n = direction_router.apply_crossover_boost([p])
-    assert n == 1
-    assert p["llm"]["priority"] == "Medium"
-    assert p["llm"]["priority_pre_boost"] == "Low"
-    assert p["llm"]["priority_boosted"] is True
-    assert "ADR-0021" in p["llm"]["boost_reason"]
-
-
-def test_boost_medium_becomes_high():
-    p = _crossover_paper("Medium")
-    n = direction_router.apply_crossover_boost([p])
-    assert n == 1
-    assert p["llm"]["priority"] == "High"
-    assert p["llm"]["priority_pre_boost"] == "Medium"
-    assert p["llm"]["priority_boosted"] is True
-
-
-def test_boost_high_stays_high_and_not_marked():
-    p = _crossover_paper("High")
-    n = direction_router.apply_crossover_boost([p])
-    assert n == 0
-    assert p["llm"]["priority"] == "High"
-    assert "priority_boosted" not in p["llm"]
-    assert "priority_pre_boost" not in p["llm"]
-
-
-def test_boost_exclude_stays_exclude_and_not_marked():
-    p = _crossover_paper("Exclude")
-    n = direction_router.apply_crossover_boost([p])
-    assert n == 0
-    assert p["llm"]["priority"] == "Exclude"
-    assert "priority_boosted" not in p["llm"]
-
-
-def test_boost_skips_paper_in_only_rl_world_model():
-    p = {
-        "directions": ["rl_world_model"],
-        "llm": {"priority": "Low"},
-    }
-    n = direction_router.apply_crossover_boost([p])
-    assert n == 0
-    assert p["llm"]["priority"] == "Low"
-    assert "priority_boosted" not in p["llm"]
-
-
-def test_boost_skips_other_two_direction_overlap():
-    p = {
-        "directions": ["hip_implant", "am_biomedical"],
-        "llm": {"priority": "Low"},
-    }
-    n = direction_router.apply_crossover_boost([p])
-    assert n == 0
-    assert p["llm"]["priority"] == "Low"
-    assert "priority_boosted" not in p["llm"]
-
-
-def test_boost_is_idempotent():
-    p = _crossover_paper("Low")
-    direction_router.apply_crossover_boost([p])
-    n2 = direction_router.apply_crossover_boost([p])
-    assert n2 == 0
-    assert p["llm"]["priority"] == "Medium"
-    assert p["llm"]["priority_pre_boost"] == "Low"
+def test_filter_routed_keeps_only_routed_papers(directions, exclusions):
+    routed = _paper(
+        "Fatigue crack growth in WAAM steel",
+        "Fatigue crack growth in wire arc additive manufacturing steel.",
+    )
+    unrouted = _paper(
+        "A survey of medieval poetry",
+        "An overview of medieval poetry and its forms.",
+    )
+    direction_router.route(routed, directions, exclusions)
+    direction_router.route(unrouted, directions, exclusions)
+    kept = direction_router.filter_routed([routed, unrouted])
+    assert kept == [routed]
