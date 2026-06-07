@@ -23,7 +23,7 @@ from pipeline import v2_schema as v2  # noqa: E402
 # ---------------------------------------------------------------------------
 
 def _paper(doi: str = "", arxiv_id: str = "", date: str = "2024-03-15",
-           title: str = "Tensile strength of additive manufacturing parts",
+           title: str = "Tensile strength of Ti-6Al-4V additive manufacturing parts",
            source: str = "openalex") -> dict:
     return {
         "source": source,
@@ -32,7 +32,7 @@ def _paper(doi: str = "", arxiv_id: str = "", date: str = "2024-03-15",
         "arxiv_id": arxiv_id,
         "title": title,
         "abstract": ("tensile strength and build orientation anisotropy of "
-                     "laser powder bed fusion additive manufacturing parts"),
+                     "laser powder bed fusion Ti-6Al-4V additive manufacturing parts"),
         "authors": ["A. Author"],
         "first_author_affiliation": "",
         "corresponding_authors": [],

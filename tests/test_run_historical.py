@@ -212,7 +212,7 @@ def _make_paper(doi: str, title: str, abstract: str | None = None,
         "doi": doi,
         "title": title,
         "abstract": abstract if abstract is not None
-        else f"{title} tensile strength laser powder bed fusion additive manufacturing",
+        else f"{title} tensile strength Ti-6Al-4V laser powder bed fusion additive manufacturing",
         "authors": ["A. Author"],
         "first_author_affiliation": "",
         "corresponding_authors": [],
@@ -547,8 +547,8 @@ def _paper_with_date(doi: str, date: str, source: str = "openalex") -> dict:
         "id": doi,
         "doi": doi,
         "arxiv_id": "",
-        "title": "Tensile strength of additive manufacturing parts",
-        "abstract": ("tensile strength and build orientation anisotropy of "
+        "title": "Tensile strength of Ti-6Al-4V additive manufacturing parts",
+        "abstract": ("tensile strength Ti-6Al-4V and build orientation anisotropy of "
                      "laser powder bed fusion additive manufacturing parts"),
         "authors": ["A. Author"],
         "first_author_affiliation": "",
