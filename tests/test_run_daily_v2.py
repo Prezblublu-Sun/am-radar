@@ -36,8 +36,8 @@ def _paper(doi: str, *, source: str = "arxiv", date: str = "2026-05-15",
         "id": doi or arxiv_id,
         "doi": doi,
         "arxiv_id": arxiv_id,
-        "title": "Tensile strength of additive manufacturing parts",
-        "abstract": ("tensile strength and build orientation anisotropy of "
+        "title": "Tensile strength of Ti-6Al-4V additive manufacturing parts",
+        "abstract": ("tensile strength Ti-6Al-4V and build orientation anisotropy of "
                      "laser powder bed fusion additive manufacturing parts"),
         "authors": ["A. Author"],
         "first_author_affiliation": "",
