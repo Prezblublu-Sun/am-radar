@@ -101,7 +101,6 @@ def test_fan_out_dispatches_per_keyword_queries_and_unions_results(monkeypatch):
         assert " OR " not in c["search"]
         assert '"' not in c["search"]
     assert {c["search"] for c in search_calls} == {"femoral stem", "stress shielding"}
-    assert "femoral stem" in search_call["search"]
 
     # Union dedup by OpenAlex id: A returned [paper_a, overlap],
     # B returned [paper_b, overlap] → 3 unique papers.
