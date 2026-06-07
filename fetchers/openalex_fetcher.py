@@ -1,9 +1,17 @@
-"""OpenAlex fetcher: pulls papers published in the last N days matching
-concept IDs or keywords. Free API, no key required (polite pool via email)."""
+"""OpenAlex fetcher: pulls papers published in a date window matching
+concept IDs or keywords. Free API, no key required (polite pool via email).
 
+Keyword search: each keyword is issued as its OWN OpenAlex `search=` query
+and the results are unioned (deduped by work id). This replaces the previous
+single OR-joined quoted-phrase search, which OpenAlex's search endpoint
+returned 0 results for (quoted-phrase boolean OR is unsupported). Per-keyword
+single queries are the reliable path.
+"""
 from __future__ import annotations
+
 import os
 import datetime as dt
+
 import requests
 
 OPENALEX_BASE = "https://api.openalex.org/works"
@@ -36,14 +44,9 @@ def _fetch_one(flt: str, search_query: str | None, per_page: int,
                max_pages: int) -> tuple[list[dict], bool]:
     """One cursor-paginated OpenAlex query → (results, truncated).
 
-    Extracted so the AND→OR dispatch in :func:`fetch` can issue two
-    independent queries and union their results without duplicating the
-    pagination loop.
-
     `truncated` is True when the loop hit max_pages while OpenAlex still
-    advertised more results via `next_cursor`. The caller is responsible
-    for logging and surfacing this to its own caller (run_daily /
-    run_historical), so silent over-cap drops never go unnoticed.
+    advertised more results via `next_cursor`. The caller logs/surfaces it so
+    silent over-cap drops never go unnoticed (ADR-0023).
     """
     results: list[dict] = []
     cursor = "*"
@@ -56,36 +59,39 @@ def _fetch_one(flt: str, search_query: str | None, per_page: int,
         }
         if search_query:
             params["search"] = search_query
-
         r = requests.get(OPENALEX_BASE, params=params, timeout=30)
         r.raise_for_status()
         data = r.json()
-
         for work in data.get("results", []):
             results.append(_normalize(work))
-
         cursor = data.get("meta", {}).get("next_cursor")
         if not cursor:
             break
     else:
-        # Loop ran the full max_pages without breaking — if `cursor` is
-        # still non-None, OpenAlex had more rows and we silently capped.
         return results, bool(cursor)
-
     return results, False
 
 
 def _emit_truncation(events: list[dict] | None, query_desc: str, n: int) -> None:
-    """Log a loud truncation warning and append to `events` if provided.
-
-    `events` is the opt-in surface for callers (run_daily, run_historical)
-    that want to raise a quality flag. Callers that don't pass an events
-    list still see the log line.
-    """
     print(f"OpenAlex TRUNCATED at {n} results for query {query_desc}",
           flush=True)
     if events is not None:
         events.append({"query": query_desc, "results_at_cap": n})
+
+
+def _union(rows_lists: list[list[dict]]) -> list[dict]:
+    """Union result lists, dedup by OpenAlex work id, stable first-seen order."""
+    seen: set[str] = set()
+    merged: list[dict] = []
+    for rows in rows_lists:
+        for r in rows:
+            rid = r.get("id") or ""
+            if rid and rid in seen:
+                continue
+            if rid:
+                seen.add(rid)
+            merged.append(r)
+    return merged
 
 
 def fetch(
@@ -100,39 +106,18 @@ def fetch(
 ) -> list[dict]:
     """Returns a list of normalized paper dicts.
 
-    Two modes:
-      - Daily (default): from_date computed from `days_back`, no upper
-        bound. Default `max_pages` is 4 (~200 papers/day).
-      - Historical (when both from_date and to_date are set as 'YYYY-MM-DD'):
-        both bounds passed to the OpenAlex filter. Default `max_pages` is
-        bumped to 40 internally (~2000 papers/month).
+    Modes:
+      - Daily (default): from_date computed from `days_back`, no upper bound.
+        Default `max_pages` is 4 (~200 papers/query/day).
+      - Historical (from_date and to_date set as 'YYYY-MM-DD'): both bounds
+        passed to the filter. Default `max_pages` bumped to 40.
 
-    Dispatch — changed from AND to OR semantics on 2026-05-19 after the
-    DOI verifier surfaced 4 must_read papers that were concept-relevant
-    but slipped past the narrow ``concepts.id`` clause when combined with
-    ``search=``:
-
-      - concepts AND keywords (the normal direction config): issue TWO
-        queries — query A = concept-filter only, query B = search-only
-        on the OR-joined keyword string — then union the result lists and
-        deduplicate by OpenAlex paper id. Result counts may roughly
-        double for directions that supply both signals.
-      - concepts only OR keywords only: the original single-query path
-        (preserves behaviour for direction configs that intentionally
-        provide just one signal).
-
-    Cursor pagination, per_page, polite mailto, daily/historical mode
-    selection, and `max_pages` semantics are unchanged — each query in
-    the fan-out is capped at `effective_max_pages` independently.
-    Callers may always override `max_pages` explicitly.
-
-    `truncation_events`: optional list the caller passes in. Whenever a
-    sub-query hits max_pages while OpenAlex still has more results, we
-    log "OpenAlex TRUNCATED at N results for query <q>" and append a
-    record describing the capped query. Callers (run_daily,
-    run_historical) inspect this list to raise an `openalex_truncated`
-    quality flag — silent over-cap drops are how Radar lost recall in
-    the past (ADR-0023).
+    Keyword handling: EACH keyword is its own single `search=` query (no quotes,
+    no OR-join), results unioned and deduped by work id. Concepts (if any) are
+    issued as one concept-filter query. The two signal types are unioned so a
+    paper matching either is recovered. `max_pages` caps each sub-query
+    independently; over-cap sub-queries are logged + surfaced via
+    `truncation_events` (ADR-0023).
     """
     historical = bool(from_date and to_date)
     if historical:
@@ -144,62 +129,35 @@ def fetch(
         effective_to = None
         effective_max_pages = max_pages if max_pages is not None else 4
 
-    has_concepts = bool(concepts)
-    has_keywords = bool(keywords)
+    rows_lists: list[list[dict]] = []
 
-    if has_concepts and has_keywords:
-        # Two-query fan-out: recover papers that match concepts XOR keywords.
+    # Concept-filter query (if any concepts configured).
+    if concepts:
         flt_concepts = _build_filter(concepts, effective_from, effective_to)
-        flt_no_concepts = _build_filter([], effective_from, effective_to)
-        search_query = " OR ".join(f'"{k}"' for k in keywords)
-        rows_a, trunc_a = _fetch_one(
-            flt_concepts, None, per_page, effective_max_pages
-        )
-        rows_b, trunc_b = _fetch_one(
-            flt_no_concepts, search_query, per_page, effective_max_pages
-        )
-        if trunc_a:
-            _emit_truncation(truncation_events, flt_concepts, len(rows_a))
-        if trunc_b:
-            _emit_truncation(
-                truncation_events, f"search={search_query}", len(rows_b)
-            )
-        # Union with stable A-first ordering, dedup by OpenAlex work id.
-        seen: set[str] = set()
-        merged: list[dict] = []
-        for r in rows_a + rows_b:
-            rid = r.get("id") or ""
-            if rid and rid in seen:
-                continue
-            if rid:
-                seen.add(rid)
-            merged.append(r)
-        return merged
+        rows, trunc = _fetch_one(flt_concepts, None, per_page, effective_max_pages)
+        if trunc:
+            _emit_truncation(truncation_events, flt_concepts, len(rows))
+        rows_lists.append(rows)
 
-    # Single-query path (keywords-only or concepts-only) — unchanged.
-    flt = _build_filter(concepts, effective_from, effective_to)
-    search_query = " OR ".join(f'"{k}"' for k in keywords) if has_keywords else None
-    rows, trunc = _fetch_one(flt, search_query, per_page, effective_max_pages)
-    if trunc:
-        _emit_truncation(
-            truncation_events,
-            f"search={search_query}" if search_query else flt,
-            len(rows),
-        )
-    return rows
+    # One single-search query PER keyword (no quotes, no OR-join).
+    flt_no_concepts = _build_filter([], effective_from, effective_to)
+    for kw in keywords:
+        rows, trunc = _fetch_one(flt_no_concepts, kw, per_page, effective_max_pages)
+        if trunc:
+            _emit_truncation(truncation_events, f"search={kw}", len(rows))
+        rows_lists.append(rows)
+
+    return _union(rows_lists)
 
 
 def _normalize(work: dict) -> dict:
     doi = work.get("doi") or ""
     if doi.startswith("https://doi.org/"):
         doi = doi[len("https://doi.org/"):]
-
-    # Extract author names + first author affiliation + corresponding author info
     authorships = work.get("authorships", [])
     authors = [a.get("author", {}).get("display_name", "") for a in authorships]
 
     def _aff(a: dict) -> str:
-        """Best-effort affiliation string: prefer raw, fallback to first institution."""
         raw = a.get("raw_affiliation_strings") or []
         if raw:
             return raw[0]
@@ -209,8 +167,6 @@ def _normalize(work: dict) -> dict:
         return ""
 
     first_author_affiliation = _aff(authorships[0]) if authorships else ""
-
-    # Corresponding authors (may be multiple, may be the first author)
     corresponding = [
         {
             "name": a.get("author", {}).get("display_name", ""),
@@ -218,18 +174,12 @@ def _normalize(work: dict) -> dict:
         }
         for a in authorships if a.get("is_corresponding")
     ]
-
     concepts = [
         c.get("display_name", "")
         for c in work.get("concepts", [])
         if c.get("score", 0) > 0.3
     ]
-
     venue = (work.get("primary_location") or {}).get("source") or {}
-
-    # ADR-0015 §4.1: OpenAlex always emits publication_date as YYYY-MM-DD,
-    # even when the source record is month-only or year-only. Infer precision
-    # heuristically from the trailing suffix.
     raw_date = work.get("publication_date", "") or ""
     if not raw_date:
         date_str, date_precision = "", "year"
@@ -239,7 +189,6 @@ def _normalize(work: dict) -> dict:
         date_str, date_precision = raw_date, "month"
     else:
         date_str, date_precision = raw_date, "day"
-
     return {
         "source": "openalex",
         "id": work.get("id", ""),
@@ -262,11 +211,7 @@ def _normalize(work: dict) -> dict:
 
 
 if __name__ == "__main__":
-    sample = fetch(
-        concepts=[],
-        keywords=["bioprinting", "bioink"],
-        days_back=7,
-    )
+    sample = fetch(concepts=[], keywords=["Ti-6Al-4V additive manufacturing fatigue"], days_back=7)
     print(f"Fetched {len(sample)} papers")
     for p in sample[:3]:
         print(f"  - {p['title'][:80]}  [{p['doi']}]")

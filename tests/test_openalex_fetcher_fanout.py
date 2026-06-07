@@ -77,7 +77,7 @@ def _install_branching_get(monkeypatch, calls: list[dict]):
     monkeypatch.setattr(openalex_fetcher.requests, "get", fake_get)
 
 
-def test_fan_out_dispatches_two_queries_and_unions_results(monkeypatch):
+def test_fan_out_dispatches_per_keyword_queries_and_unions_results(monkeypatch):
     calls: list[dict] = []
     _install_branching_get(monkeypatch, calls)
     out = openalex_fetcher.fetch(
@@ -87,12 +87,20 @@ def test_fan_out_dispatches_two_queries_and_unions_results(monkeypatch):
         to_date="2024-05-31",
         max_pages=1,
     )
-    # Two queries were issued — one concept-only, one search-only.
-    assert len(calls) == 2
-    concept_call = next(c for c in calls if "search" not in c)
-    search_call = next(c for c in calls if "search" in c)
-    assert "concepts.id:" in concept_call["filter"]
-    assert "concepts.id:" not in search_call["filter"]
+    # New behaviour: one concept-filter query + one single-search query PER
+    # keyword (no quotes, no OR-join) = 1 + 2 = 3 queries.
+    assert len(calls) == 3
+    concept_calls = [c for c in calls if "search" not in c]
+    search_calls = [c for c in calls if "search" in c]
+    assert len(concept_calls) == 1
+    assert len(search_calls) == 2
+    assert "concepts.id:" in concept_calls[0]["filter"]
+    # each search query is a single bare keyword (no quotes, no " OR ")
+    for c in search_calls:
+        assert "concepts.id:" not in c["filter"]
+        assert " OR " not in c["search"]
+        assert '"' not in c["search"]
+    assert {c["search"] for c in search_calls} == {"femoral stem", "stress shielding"}
     assert "femoral stem" in search_call["search"]
 
     # Union dedup by OpenAlex id: A returned [paper_a, overlap],
