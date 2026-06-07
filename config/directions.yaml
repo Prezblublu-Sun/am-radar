@@ -4,6 +4,12 @@ directions:
 
   mechanical_properties:
     display_name: "AM Mechanical Properties"
+    llm_prompt_focus: |
+      This direction tracks the MECHANICAL PERFORMANCE of additively manufactured (and closely relevant) metal parts. A purely materials/mechanical-engineering paper IS on-topic; it does NOT need any biomedical, clinical, FEA-surrogate, or AI context, and must NOT be penalized for lacking them.
+      Direct (High if novel + has experimental mechanical data): quantitative tensile/yield/ultimate strength, elongation, ductility, hardness, fracture toughness, strain hardening, or build-orientation anisotropy of AM metals (Ti-6Al-4V, AlSi10Mg, 316L, IN718, etc.).
+      Medium: reviews of AM mechanical performance, or conventional-process mechanical studies with a method transferable to AM.
+      Low: process/thermal/microstructure papers reporting NO mechanical-property data; pure simulation with no experimental mechanical results.
+      Exclude: non-metal / non-mechanical topics, drug or purely clinical papers.
     color: "#2E7D6B"
     sources:
       arxiv_categories: ["cond-mat.mtrl-sci"]
@@ -28,6 +34,12 @@ directions:
 
   fatigue:
     display_name: "AM Fatigue"
+    llm_prompt_focus: |
+      This direction tracks FATIGUE behaviour of additively manufactured (and relevant Ti-6Al-4V / metal) parts. A pure materials/mechanics fatigue paper IS on-topic and needs NO biomedical, clinical, or AI context; do not penalize its absence.
+      Direct (High if novel + experimental fatigue data): fatigue life, S-N curve, fatigue strength/limit, high/low/very-high cycle fatigue, fatigue crack initiation or growth, defect- or porosity-driven fatigue, as-built vs post-processed fatigue of AM parts.
+      Medium: fatigue reviews, or conventional-alloy fatigue studies whose method transfers to AM.
+      Low: papers mentioning fatigue only in passing with no fatigue data/analysis.
+      Exclude: unrelated topics with no fatigue content.
     color: "#C0392B"
     sources:
       arxiv_categories: ["cond-mat.mtrl-sci"]
@@ -62,6 +74,12 @@ directions:
 
   ti6al4v_postprocess_hip:
     display_name: "Ti-6Al-4V Post-processing & HIP"
+    llm_prompt_focus: |
+      This direction tracks POST-PROCESSING of additively manufactured Ti-6Al-4V (and similar Ti alloys), especially Hot Isostatic Pressing (HIP = hot isostatic pressing, NOT hip joint), heat treatment, annealing, stress relief, and their effect on microstructure / porosity / mechanical & fatigue properties. Pure materials-science papers are on-topic; no biomedical/clinical context required.
+      Direct (High if novel + experimental): effect of HIP, heat treatment, annealing, solution/aging treatment, or other post-processing on AM Ti-6Al-4V microstructure, defect/porosity closure, tensile, or fatigue performance.
+      Medium: as-built Ti-6Al-4V characterization without post-processing but with relevant property data; reviews of Ti-6Al-4V post-processing.
+      Low: titanium papers with no post-processing and no property linkage.
+      Exclude: papers about hip-joint surgery/arthroplasty clinical outcomes (this is HIP = pressing, not the hip joint), or non-titanium unrelated topics.
     color: "#8A6D3B"
     sources:
       arxiv_categories: ["cond-mat.mtrl-sci"]
@@ -113,6 +131,12 @@ directions:
 
   am_femoral_stem:
     display_name: "Femoral Stem (AM + traditional)"
+    llm_prompt_focus: |
+      This direction tracks FEMORAL STEM design and mechanical performance — both additively manufactured AND conventional/traditional stems are in scope. Biomechanics/implant-mechanics context is welcome here, but a stem paper need not use AI or FEA-surrogate methods.
+      Direct (High if novel + has mechanical/biomechanical analysis or testing): femoral stem design, porous or lattice stems, stress shielding, primary stability, micromotion, bone-implant interface, or stem fatigue/strength (AM or conventional).
+      Medium: femoral stem reviews, FEA-only stem studies, or hip-implant mechanics closely tied to the stem.
+      Low: general hip arthroplasty clinical/outcome papers with no stem mechanics or design content.
+      Exclude: unrelated orthopaedic or clinical topics with no femoral stem focus.
     color: "#1F6FB2"
     sources:
       arxiv_categories: ["cond-mat.mtrl-sci"]
