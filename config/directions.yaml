@@ -1,4 +1,24 @@
 version: 1
+# Hard exclusions applied at routing time (router._is_excluded). A paper whose
+# text matches ANY of these clinical/surgical terms is dropped before scoring.
+# Keep this list to terms that are essentially never present in a genuine
+# design/mechanics/materials paper, so we don't lose real femoral-stem or
+# implant-mechanics work. Do NOT add broad words like "arthroplasty" / "hip
+# replacement" — design papers use those too.
+exclusions:
+  hard_exclude_if_only_about:
+    - "case report"
+    - "case series"
+    - "periprosthetic fracture"
+    - "revision surgery"
+    - "surgical technique"
+    - "radiographic outcome"
+    - "preoperative templating"
+    - "patient-reported outcome"
+    - "complication rate"
+    - "dislocation rate"
+    - "infection rate"
+    - "surgical approach"
 
 directions:
 
