@@ -1,7 +1,18 @@
-"""Direction router: routes papers to one or more research directions based on
-strong_keywords + must_pair_with rules. Applies universal exclusions."""
+"""Direction router: routes papers to research directions based on
+strong_keywords, hard-anchored by must_pair_with. Applies universal exclusions.
 
+must_pair_with is a flat list of alternative anchor terms (OR semantics) and is
+a HARD GATE: a direction declaring anchors requires at least one anchor term in
+the paper text, else the paper scores 0 for that direction and cannot route in.
+In this 3-layer Ti-6Al-4V radar every layer anchors on Ti-6Al-4V terms, so
+non-Ti-6Al-4V papers route to nothing.
+
+Primary direction uses deepest-layer bias (ADR-0002): config orders directions
+shallow->deep (L1 base -> L2 post-processing -> L3 femoral stem), conceptually
+nested, so among matched layers the primary `direction` is the DEEPEST one;
+`directions` stays score-ordered for display."""
 from __future__ import annotations
+
 import re
 
 
@@ -30,41 +41,47 @@ def _is_excluded(text: str, exclusions: dict) -> bool:
 
 
 def _score_direction(text: str, cfg: dict) -> tuple[float, list[str]]:
-    score = 0.0
-    matched: list[str] = []
+    # must_pair_with is a flat list of alternative anchor terms (OR). HARD GATE:
+    # if a direction declares anchors and none are present, it scores 0 and the
+    # paper cannot route into it.
+    anchors = cfg.get("must_pair_with", [])
+    anchor_hits = [a for a in anchors if _contains(text, a)]
+    if anchors and not anchor_hits:
+        return 0.0, []
 
+    score = 0.0
+    matched: list[str] = list(anchor_hits)
     for kw in cfg.get("strong_keywords", []):
         if _contains(text, kw):
             score += 2.0
             matched.append(kw)
-
-    for pair in cfg.get("must_pair_with", []):
-        if all(_contains(text, term) for term in pair):
-            score += 3.0
-            matched.append(" + ".join(pair))
-
     return score, matched
 
 
 def route(paper: dict, directions_cfg: dict, exclusions: dict,
           min_score: float = 2.0) -> dict:
     text = _text(paper)
-
     if _is_excluded(text, exclusions):
         paper["directions"] = []
         paper["direction"] = None
         paper["routing_reason"] = "excluded by hard rule"
         return paper
-
     scored: list[tuple[str, float, list[str]]] = []
     for dir_key, cfg in directions_cfg.items():
         s, m = _score_direction(text, cfg)
         if s >= min_score:
             scored.append((dir_key, s, m))
-
     scored.sort(key=lambda x: x[1], reverse=True)
     paper["directions"] = [s[0] for s in scored]
-    paper["direction"] = scored[0][0] if scored else None
+    # ADR-0002 deepest-layer assignment: among matched layers, primary direction
+    # is the DEEPEST (config order L1->L2->L3 = shallow->deep). directions list
+    # stays score-ordered above for display.
+    if scored:
+        _order = list(directions_cfg.keys())
+        _matched = [s[0] for s in scored]
+        paper["direction"] = max(_matched, key=lambda k: _order.index(k))
+    else:
+        paper["direction"] = None
     paper["direction_name"] = (
         directions_cfg[paper["direction"]]["display_name"] if paper["direction"] else None
     )
@@ -77,9 +94,10 @@ def filter_routed(papers: list[dict]) -> list[dict]:
 
 
 def apply_crossover_boost(papers: list[dict]) -> int:
-    """ADR-0021: papers routed into BOTH rl_world_model AND fea_surrogate
-    get priority bumped one level. The only boost rule. Returns count of
-    papers boosted. Idempotent."""
+    """ADR-0021: papers routed into BOTH rl_world_model AND fea_surrogate get
+    priority bumped one level. Idempotent. Dead under the 3-layer Ti-6Al-4V
+    config (those directions no longer exist) but kept because run_daily still
+    calls it; it simply never matches."""
     BUMP = {"Low": "Medium", "Medium": "High"}
     boosted = 0
     for p in papers:
