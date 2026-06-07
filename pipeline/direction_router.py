@@ -25,11 +25,7 @@ def _contains(text: str, term: str) -> bool:
 def _is_excluded(text: str, exclusions: dict) -> bool:
     for term in exclusions.get("hard_exclude_if_only_about", []):
         if _contains(text, term):
-            anchors = ["bioprinting", "biofabrication", "bioink", "femoral",
-                       "hip implant", "stem", "implant", "biomechanics",
-                       "biomedical", "bone", "osseointegration", "scaffold"]
-            if not any(_contains(text, a) for a in anchors):
-                return True
+            return True
     return False
 
 
