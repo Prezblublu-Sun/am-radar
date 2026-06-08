@@ -6,8 +6,8 @@ on:
   # cron MUST be "30 4 * * *" — staggered from the sister radar's 03:00 UTC
   # OpenAlex window to avoid colliding on the shared OPENALEX_EMAIL polite
   # pool.
-  # schedule:
-  #   - cron: "30 4 * * *"
+  schedule:
+    - cron: "30 4 * * *"
   workflow_dispatch:
 
 permissions:

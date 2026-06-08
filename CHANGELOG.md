@@ -6,6 +6,16 @@ auto-update marker are preserved.
 
 <!-- AUTO-UPDATE-BELOW -->
 
+## 2026-06-08 (run 2026-06-08T12:01:34+00:00)
+
+Counts: fetched=0, after_dedup=0, after_routing=0, High=0, Medium=0
+
+- direction added: `ti6al4v_base_mechanical_fatigue`
+- direction added: `ti6al4v_femoral_stem`
+- direction added: `ti6al4v_postprocess`
+- `exclusions.hard_exclude_if_only_about` added: ['case report', 'case series', 'surgical technique', 'preoperative templating']
+
+
 ## 2026-05-25 (run 2026-05-25T07:19:19+00:00)
 
 Counts: fetched=400, after_dedup=140, after_routing=17, High=2, Medium=4
