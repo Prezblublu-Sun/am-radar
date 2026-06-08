@@ -1,0 +1,241 @@
+<!doctype html><html lang="zh"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Research Radar — 2025-11-18</title>
+<style>
+:root{
+--c-brand:#1B4D7E;--c-accent:#E89C3A;--c-bg:#FAFAF7;--c-card-bg:#FFFFFF;--c-card-border:#ECEAE3;
+--c-text-primary:#1F2937;--c-text-secondary:#4B5563;--c-text-meta:#8B8980;--c-text-muted:#B5B3AA;
+--c-priority-h:#C8362A;--c-priority-m:#E89C3A;--c-priority-l:#A0A0A0;--c-priority-x:#D5D5D5;
+--c-mark-toread:#E8B538;--c-mark-read:#5B8C5A;--c-mark-int:#4A6FB5;--c-mark-ignore:#999999;
+--space-xs:4px;--space-sm:8px;--space-md:12px;--space-lg:20px;--space-xl:32px;
+--radius-sm:4px;--radius-md:8px;--radius-lg:12px;
+--text-xs:11px;--text-sm:13px;--text-md:14px;--text-lg:16px;--text-xl:22px;--text-h1:28px;
+--shadow-card:0 1px 3px rgba(0,0,0,0.04),0 1px 2px rgba(0,0,0,0.06);
+--shadow-hover:0 4px 12px rgba(27,77,126,0.10),0 2px 4px rgba(0,0,0,0.06);
+}
+
+body{font-family:-apple-system,'PingFang SC',BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:980px;margin:2rem auto;padding:0 1rem;background:var(--c-bg);color:var(--c-text-primary);line-height:1.5}
+h1{font-size:var(--text-h1);font-weight:600;margin:0 0 var(--space-xs);color:var(--c-brand)}
+.subtitle{color:var(--c-text-meta);font-size:var(--text-sm);margin-bottom:var(--space-xl)}
+.topbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:10px 0;margin-bottom:1.25rem;border-bottom:1px solid var(--c-card-border)}
+.navbtn{font-size:var(--text-sm);background:var(--c-card-bg);color:var(--c-text-secondary);padding:6px 12px;border:1px solid var(--c-card-border);border-radius:var(--radius-md);text-decoration:none}
+.navbtn:hover{background:var(--c-brand);color:#fff;border-color:var(--c-brand)}
+.navbtn.disabled{color:var(--c-text-muted);background:var(--c-bg);cursor:default}
+.archive-select{font-size:var(--text-sm);padding:6px 10px;border:1px solid var(--c-card-border);border-radius:var(--radius-md);background:var(--c-card-bg);color:var(--c-text-secondary);cursor:pointer}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--space-md);margin-bottom:1.5rem}
+.stat{background:var(--c-card-bg);border:1px solid var(--c-card-border);border-radius:var(--radius-md);padding:.75rem 1rem}
+.stat-label{font-size:12px;color:var(--c-text-meta)}
+.stat-val{font-size:var(--text-xl);font-weight:600;margin-top:2px}
+.tabs,.prio-filter{display:flex;gap:var(--space-sm);flex-wrap:wrap;margin-bottom:.75rem}
+.tab,.pf{background:transparent;border:1px solid var(--c-card-border);border-radius:var(--radius-md);padding:6px 14px;font-size:var(--text-sm);cursor:pointer;color:var(--c-text-secondary)}
+.tab.active,.pf.active{background:var(--c-brand);color:#fff;border-color:var(--c-brand)}
+.paper{background:var(--c-card-bg);border:1px solid var(--c-card-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin-bottom:var(--space-md)}
+.paper-head{display:flex;gap:var(--space-sm);align-items:center;flex-wrap:wrap;margin-bottom:var(--space-sm)}
+.priority{font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px}
+.direction-pill{font-size:var(--text-xs);padding:3px 8px;border-radius:var(--radius-md)}
+.source{font-size:var(--text-xs);color:var(--c-text-muted);text-transform:uppercase}
+.flag{font-size:var(--text-xs);background:#EEF2F8;color:var(--c-brand);padding:2px 7px;border-radius:6px}
+.paper-title{font-size:15px;font-weight:600;line-height:1.4;margin:4px 0;color:var(--c-text-primary)}
+.meta{font-size:12px;color:var(--c-text-meta);margin-bottom:10px}
+.meta>span{margin-right:12px}
+.relevance{font-size:var(--text-sm);background:var(--c-bg);padding:6px 10px;border-radius:6px;margin-bottom:var(--space-sm)}
+.summary{font-size:var(--text-sm);line-height:1.65}
+.summary>div{margin-bottom:4px}
+.tags-row{margin-top:var(--space-sm)}
+.tag{font-size:var(--text-xs);background:#EEF2F8;color:var(--c-brand);padding:2px 8px;border-radius:10px;font-weight:500;margin-right:4px}
+.paper[data-hidden="1"]{display:none}
+footer.run-info{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--c-card-border);font-size:12px;color:var(--c-text-meta)}
+footer.run-info summary{cursor:pointer;color:var(--c-text-secondary)}
+footer.run-info table{margin-top:var(--space-sm);font-family:ui-monospace,monospace;font-size:var(--text-xs)}
+footer.run-info td{padding:2px 12px 2px 0;vertical-align:top}
+footer.run-info td:first-child{color:var(--c-text-meta);width:140px}
+details.summary-en{margin-top:var(--space-sm);background:var(--c-bg);border-radius:var(--radius-md);padding:6px 12px;border:1px solid var(--c-card-border)}
+details.summary-en summary{cursor:pointer;font-size:12px;color:var(--c-text-secondary);font-weight:600}
+details.summary-en[open] summary{margin-bottom:var(--space-sm)}
+.summary.en{font-size:var(--text-sm);color:var(--c-text-secondary);line-height:1.55}
+.summary.en>div{margin-bottom:3px}
+.key-terms{margin-top:var(--space-sm);display:flex;flex-wrap:wrap;gap:6px}
+.term{font-size:var(--text-xs);background:var(--c-card-bg);border:1px solid var(--c-card-border);padding:3px 8px;border-radius:6px;color:var(--c-text-secondary)}
+.term b{color:var(--c-text-primary);font-weight:600}
+.affiliations{font-size:12px;color:var(--c-text-meta);margin-top:6px;padding-left:6px;border-left:2px solid var(--c-card-border)}
+.affiliations b{color:var(--c-text-secondary);font-weight:600}
+.corresponding{font-size:12px;color:var(--c-text-secondary);margin-top:3px;padding-left:6px;border-left:2px solid #aac}
+.corresponding b{color:#3F2E7E;font-weight:600}
+.corresp-aff{color:var(--c-text-meta)}
+.corresponding i{color:var(--c-text-meta);font-size:var(--text-xs)}
+.relevance-level{font-size:var(--text-xs);padding:3px 8px;border-radius:var(--radius-md);font-weight:600}
+.lvl-direct{background:#D4EBC4;color:#2D5A14}
+.lvl-transferable{background:#E0DDF4;color:#3F2E7E}
+.lvl-peripheral{background:#F1EFE8;color:#666}
+.read-action{font-size:var(--text-xs);padding:3px 8px;border-radius:var(--radius-md);font-weight:600;font-style:italic}
+.act-read-now{background:#FFE8D6;color:#7D4515}
+.act-save-for-project{background:#E6E1F5;color:#3A2C7A}
+.act-skim-only{background:#F0F0E8;color:#5C5C50}
+.act-background-only{background:#F5F5F0;color:#777}
+.act-ignore{background:#F5E8E8;color:#7A3A3A}
+.validation-kind{font-size:10px;background:#EDF4FA;color:#1F4A6B;padding:2px 7px;border-radius:6px}
+.why-not-core{font-size:12px;background:#FCF5E8;border-left:3px solid var(--c-accent);padding:5px 10px;margin-top:4px;color:#5A4318;border-radius:0 6px 6px 0}
+</style><link rel="stylesheet" href="radar-ui.css"><script src="radar-ui.js" defer></script></head><body>
+<h1>Research Radar</h1>
+<div class="subtitle">2025-11-18 · L1 · Ti-6Al-4V Base Mechanical &amp; Fatigue / L2 · Ti-6Al-4V Post-processing Control / L3 · Ti-6Al-4V Femoral Stem Design</div>
+<div class="topbar"><a class="navbtn" href="2025-11-16.html">← 2025-11-16</a><select class="archive-select" onchange="if(this.value)window.location.href=this.value"><option value="2026-05-31.html">2026-05-31</option><option value="2026-05-29.html">2026-05-29</option><option value="2026-05-28.html">2026-05-28</option><option value="2026-05-27.html">2026-05-27</option><option value="2026-05-26.html">2026-05-26</option><option value="2026-05-25.html">2026-05-25</option><option value="2026-05-23.html">2026-05-23</option><option value="2026-05-22.html">2026-05-22</option><option value="2026-05-21.html">2026-05-21</option><option value="2026-05-20.html">2026-05-20</option><option value="2026-05-19.html">2026-05-19</option><option value="2026-05-18.html">2026-05-18</option><option value="2026-05-16.html">2026-05-16</option><option value="2026-05-15.html">2026-05-15</option><option value="2026-05-14.html">2026-05-14</option><option value="2026-05-13.html">2026-05-13</option><option value="2026-05-12.html">2026-05-12</option><option value="2026-05-11.html">2026-05-11</option><option value="2026-05-09.html">2026-05-09</option><option value="2026-05-07.html">2026-05-07</option><option value="2026-05-05.html">2026-05-05</option><option value="2026-05-04.html">2026-05-04</option><option value="2026-05-02.html">2026-05-02</option><option value="2026-05-01.html">2026-05-01</option><option value="2026-04-30.html">2026-04-30</option><option value="2026-04-28.html">2026-04-28</option><option value="2026-04-27.html">2026-04-27</option><option value="2026-04-26.html">2026-04-26</option><option value="2026-04-24.html">2026-04-24</option><option value="2026-04-23.html">2026-04-23</option><option value="2026-04-22.html">2026-04-22</option><option value="2026-04-21.html">2026-04-21</option><option value="2026-04-20.html">2026-04-20</option><option value="2026-04-19.html">2026-04-19</option><option value="2026-04-18.html">2026-04-18</option><option value="2026-04-17.html">2026-04-17</option><option value="2026-04-16.html">2026-04-16</option><option value="2026-04-15.html">2026-04-15</option><option value="2026-04-14.html">2026-04-14</option><option value="2026-04-13.html">2026-04-13</option><option value="2026-04-10.html">2026-04-10</option><option value="2026-04-09.html">2026-04-09</option><option value="2026-04-08.html">2026-04-08</option><option value="2026-04-06.html">2026-04-06</option><option value="2026-04-05.html">2026-04-05</option><option value="2026-04-04.html">2026-04-04</option><option value="2026-04-03.html">2026-04-03</option><option value="2026-04-02.html">2026-04-02</option><option value="2026-04-01.html">2026-04-01</option><option value="2026-03-31.html">2026-03-31</option><option value="2026-03-30.html">2026-03-30</option><option value="2026-03-29.html">2026-03-29</option><option value="2026-03-28.html">2026-03-28</option><option value="2026-03-27.html">2026-03-27</option><option value="2026-03-26.html">2026-03-26</option><option value="2026-03-24.html">2026-03-24</option><option value="2026-03-21.html">2026-03-21</option><option value="2026-03-20.html">2026-03-20</option><option value="2026-03-19.html">2026-03-19</option><option value="2026-03-17.html">2026-03-17</option><option value="2026-03-16.html">2026-03-16</option><option value="2026-03-15.html">2026-03-15</option><option value="2026-03-14.html">2026-03-14</option><option value="2026-03-13.html">2026-03-13</option><option value="2026-03-12.html">2026-03-12</option><option value="2026-03-11.html">2026-03-11</option><option value="2026-03-10.html">2026-03-10</option><option value="2026-03-09.html">2026-03-09</option><option value="2026-03-08.html">2026-03-08</option><option value="2026-03-07.html">2026-03-07</option><option value="2026-03-06.html">2026-03-06</option><option value="2026-03-05.html">2026-03-05</option><option value="2026-03-04.html">2026-03-04</option><option value="2026-03-03.html">2026-03-03</option><option value="2026-03-02.html">2026-03-02</option><option value="2026-03-01.html">2026-03-01</option><option value="2026-02-28.html">2026-02-28</option><option value="2026-02-27.html">2026-02-27</option><option value="2026-02-26.html">2026-02-26</option><option value="2026-02-24.html">2026-02-24</option><option value="2026-02-23.html">2026-02-23</option><option value="2026-02-21.html">2026-02-21</option><option value="2026-02-20.html">2026-02-20</option><option value="2026-02-19.html">2026-02-19</option><option value="2026-02-18.html">2026-02-18</option><option value="2026-02-17.html">2026-02-17</option><option value="2026-02-16.html">2026-02-16</option><option value="2026-02-15.html">2026-02-15</option><option value="2026-02-13.html">2026-02-13</option><option value="2026-02-12.html">2026-02-12</option><option value="2026-02-11.html">2026-02-11</option><option value="2026-02-10.html">2026-02-10</option><option value="2026-02-09.html">2026-02-09</option><option value="2026-02-07.html">2026-02-07</option><option value="2026-02-06.html">2026-02-06</option><option value="2026-02-05.html">2026-02-05</option><option value="2026-02-04.html">2026-02-04</option><option value="2026-02-03.html">2026-02-03</option><option value="2026-02-02.html">2026-02-02</option><option value="2026-02-01.html">2026-02-01</option><option value="2026-01-31.html">2026-01-31</option><option value="2026-01-29.html">2026-01-29</option><option value="2026-01-28.html">2026-01-28</option><option value="2026-01-27.html">2026-01-27</option><option value="2026-01-26.html">2026-01-26</option><option value="2026-01-24.html">2026-01-24</option><option value="2026-01-23.html">2026-01-23</option><option value="2026-01-22.html">2026-01-22</option><option value="2026-01-21.html">2026-01-21</option><option value="2026-01-20.html">2026-01-20</option><option value="2026-01-19.html">2026-01-19</option><option value="2026-01-16.html">2026-01-16</option><option value="2026-01-15.html">2026-01-15</option><option value="2026-01-14.html">2026-01-14</option><option value="2026-01-13.html">2026-01-13</option><option value="2026-01-12.html">2026-01-12</option><option value="2026-01-10.html">2026-01-10</option><option value="2026-01-09.html">2026-01-09</option><option value="2026-01-08.html">2026-01-08</option><option value="2026-01-07.html">2026-01-07</option><option value="2026-01-06.html">2026-01-06</option><option value="2026-01-05.html">2026-01-05</option><option value="2026-01-03.html">2026-01-03</option><option value="2026-01-01.html">2026-01-01</option><option value="2025-12-31.html">2025-12-31</option><option value="2025-12-30.html">2025-12-30</option><option value="2025-12-29.html">2025-12-29</option><option value="2025-12-28.html">2025-12-28</option><option value="2025-12-26.html">2025-12-26</option><option value="2025-12-25.html">2025-12-25</option><option value="2025-12-24.html">2025-12-24</option><option value="2025-12-23.html">2025-12-23</option><option value="2025-12-22.html">2025-12-22</option><option value="2025-12-20.html">2025-12-20</option><option value="2025-12-19.html">2025-12-19</option><option value="2025-12-18.html">2025-12-18</option><option value="2025-12-17.html">2025-12-17</option><option value="2025-12-16.html">2025-12-16</option><option value="2025-12-15.html">2025-12-15</option><option value="2025-12-14.html">2025-12-14</option><option value="2025-12-13.html">2025-12-13</option><option value="2025-12-12.html">2025-12-12</option><option value="2025-12-11.html">2025-12-11</option><option value="2025-12-10.html">2025-12-10</option><option value="2025-12-09.html">2025-12-09</option><option value="2025-12-08.html">2025-12-08</option><option value="2025-12-06.html">2025-12-06</option><option value="2025-12-05.html">2025-12-05</option><option value="2025-12-04.html">2025-12-04</option><option value="2025-12-03.html">2025-12-03</option><option value="2025-12-02.html">2025-12-02</option><option value="2025-12-01.html">2025-12-01</option><option value="2025-11-30.html">2025-11-30</option><option value="2025-11-29.html">2025-11-29</option><option value="2025-11-28.html">2025-11-28</option><option value="2025-11-27.html">2025-11-27</option><option value="2025-11-26.html">2025-11-26</option><option value="2025-11-25.html">2025-11-25</option><option value="2025-11-24.html">2025-11-24</option><option value="2025-11-23.html">2025-11-23</option><option value="2025-11-22.html">2025-11-22</option><option value="2025-11-21.html">2025-11-21</option><option value="2025-11-20.html">2025-11-20</option><option value="2025-11-19.html">2025-11-19</option><option value="2025-11-18.html" selected>2025-11-18</option><option value="2025-11-16.html">2025-11-16</option><option value="2025-11-15.html">2025-11-15</option><option value="2025-11-14.html">2025-11-14</option><option value="2025-11-13.html">2025-11-13</option><option value="2025-11-12.html">2025-11-12</option><option value="2025-11-11.html">2025-11-11</option><option value="2025-11-10.html">2025-11-10</option><option value="2025-11-08.html">2025-11-08</option><option value="2025-11-07.html">2025-11-07</option><option value="2025-11-06.html">2025-11-06</option><option value="2025-11-05.html">2025-11-05</option><option value="2025-11-04.html">2025-11-04</option><option value="2025-11-03.html">2025-11-03</option><option value="2025-11-02.html">2025-11-02</option><option value="2025-11-01.html">2025-11-01</option><option value="2025-10-31.html">2025-10-31</option><option value="2025-10-30.html">2025-10-30</option><option value="2025-10-29.html">2025-10-29</option><option value="2025-10-28.html">2025-10-28</option><option value="2025-10-27.html">2025-10-27</option><option value="2025-10-26.html">2025-10-26</option><option value="2025-10-25.html">2025-10-25</option><option value="2025-10-24.html">2025-10-24</option><option value="2025-10-23.html">2025-10-23</option><option value="2025-10-22.html">2025-10-22</option><option value="2025-10-21.html">2025-10-21</option><option value="2025-10-18.html">2025-10-18</option><option value="2025-10-17.html">2025-10-17</option><option value="2025-10-16.html">2025-10-16</option><option value="2025-10-15.html">2025-10-15</option><option value="2025-10-14.html">2025-10-14</option><option value="2025-10-13.html">2025-10-13</option><option value="2025-10-12.html">2025-10-12</option><option value="2025-10-11.html">2025-10-11</option><option value="2025-10-10.html">2025-10-10</option><option value="2025-10-09.html">2025-10-09</option><option value="2025-10-08.html">2025-10-08</option><option value="2025-10-07.html">2025-10-07</option><option value="2025-10-06.html">2025-10-06</option><option value="2025-10-02.html">2025-10-02</option><option value="2025-10-01.html">2025-10-01</option><option value="2025-09-30.html">2025-09-30</option><option value="2025-09-29.html">2025-09-29</option><option value="2025-09-28.html">2025-09-28</option><option value="2025-09-27.html">2025-09-27</option><option value="2025-09-26.html">2025-09-26</option><option value="2025-09-25.html">2025-09-25</option><option value="2025-09-24.html">2025-09-24</option><option value="2025-09-23.html">2025-09-23</option><option value="2025-09-22.html">2025-09-22</option><option value="2025-09-19.html">2025-09-19</option><option value="2025-09-18.html">2025-09-18</option><option value="2025-09-17.html">2025-09-17</option><option value="2025-09-16.html">2025-09-16</option><option value="2025-09-15.html">2025-09-15</option><option value="2025-09-14.html">2025-09-14</option><option value="2025-09-12.html">2025-09-12</option><option value="2025-09-11.html">2025-09-11</option><option value="2025-09-10.html">2025-09-10</option><option value="2025-09-09.html">2025-09-09</option><option value="2025-09-08.html">2025-09-08</option><option value="2025-09-07.html">2025-09-07</option><option value="2025-09-06.html">2025-09-06</option><option value="2025-09-05.html">2025-09-05</option><option value="2025-09-04.html">2025-09-04</option><option value="2025-09-02.html">2025-09-02</option><option value="2025-09-01.html">2025-09-01</option><option value="2025-08-31.html">2025-08-31</option><option value="2025-08-30.html">2025-08-30</option><option value="2025-08-29.html">2025-08-29</option><option value="2025-08-28.html">2025-08-28</option><option value="2025-08-27.html">2025-08-27</option><option value="2025-08-26.html">2025-08-26</option><option value="2025-08-25.html">2025-08-25</option><option value="2025-08-23.html">2025-08-23</option><option value="2025-08-22.html">2025-08-22</option><option value="2025-08-21.html">2025-08-21</option><option value="2025-08-20.html">2025-08-20</option><option value="2025-08-19.html">2025-08-19</option><option value="2025-08-18.html">2025-08-18</option><option value="2025-08-14.html">2025-08-14</option><option value="2025-08-13.html">2025-08-13</option><option value="2025-08-12.html">2025-08-12</option><option value="2025-08-11.html">2025-08-11</option><option value="2025-08-10.html">2025-08-10</option><option value="2025-08-09.html">2025-08-09</option><option value="2025-08-08.html">2025-08-08</option><option value="2025-08-07.html">2025-08-07</option><option value="2025-08-06.html">2025-08-06</option><option value="2025-08-05.html">2025-08-05</option><option value="2025-08-04.html">2025-08-04</option><option value="2025-08-02.html">2025-08-02</option><option value="2025-08-01.html">2025-08-01</option><option value="2025-07-30.html">2025-07-30</option><option value="2025-07-29.html">2025-07-29</option><option value="2025-07-28.html">2025-07-28</option><option value="2025-07-27.html">2025-07-27</option><option value="2025-07-26.html">2025-07-26</option><option value="2025-07-25.html">2025-07-25</option><option value="2025-07-24.html">2025-07-24</option><option value="2025-07-23.html">2025-07-23</option><option value="2025-07-22.html">2025-07-22</option><option value="2025-07-21.html">2025-07-21</option><option value="2025-07-19.html">2025-07-19</option><option value="2025-07-18.html">2025-07-18</option><option value="2025-07-17.html">2025-07-17</option><option value="2025-07-16.html">2025-07-16</option><option value="2025-07-15.html">2025-07-15</option><option value="2025-07-12.html">2025-07-12</option><option value="2025-07-11.html">2025-07-11</option><option value="2025-07-10.html">2025-07-10</option><option value="2025-07-08.html">2025-07-08</option><option value="2025-07-07.html">2025-07-07</option><option value="2025-07-06.html">2025-07-06</option><option value="2025-07-04.html">2025-07-04</option><option value="2025-07-03.html">2025-07-03</option><option value="2025-07-02.html">2025-07-02</option><option value="2025-07-01.html">2025-07-01</option><option value="2025-06-30.html">2025-06-30</option><option value="2025-06-29.html">2025-06-29</option><option value="2025-06-27.html">2025-06-27</option><option value="2025-06-26.html">2025-06-26</option><option value="2025-06-25.html">2025-06-25</option><option value="2025-06-24.html">2025-06-24</option><option value="2025-06-23.html">2025-06-23</option><option value="2025-06-21.html">2025-06-21</option><option value="2025-06-20.html">2025-06-20</option><option value="2025-06-19.html">2025-06-19</option><option value="2025-06-18.html">2025-06-18</option><option value="2025-06-17.html">2025-06-17</option><option value="2025-06-16.html">2025-06-16</option><option value="2025-06-15.html">2025-06-15</option><option value="2025-06-13.html">2025-06-13</option><option value="2025-06-12.html">2025-06-12</option><option value="2025-06-10.html">2025-06-10</option><option value="2025-06-09.html">2025-06-09</option><option value="2025-06-07.html">2025-06-07</option><option value="2025-06-06.html">2025-06-06</option><option value="2025-06-05.html">2025-06-05</option><option value="2025-06-04.html">2025-06-04</option><option value="2025-06-03.html">2025-06-03</option><option value="2025-06-01.html">2025-06-01</option></select><a class="navbtn" href="2025-11-19.html">2025-11-19 →</a><a class="navbtn" href="index.html">☀️ Calendar</a><a class="navbtn" href="weekly/index.html">📅 Weekly</a><a class="navbtn" href="status.html">📊 Status</a><a class="navbtn" href="search.html">🔍 Search</a><a class="navbtn" href="high-priority.html">⭐ High</a><a class="navbtn" href="my-marks.html">🔖 Marks</a><a class="navbtn" href="my-promotes.html">➜ Promote</a></div>
+<div class="stats"><div class="stat"><div class="stat-label">Total scored</div><div class="stat-val">3</div></div><div class="stat"><div class="stat-label">High</div><div class="stat-val" style="color:#27500A">0</div></div><div class="stat"><div class="stat-label">Medium</div><div class="stat-val" style="color:#633806">0</div></div><div class="stat"><div class="stat-label">Low</div><div class="stat-val" style="color:#5F5E5A">1</div></div></div>
+<div class="tabs"><button class="tab active" data-filter="all">All</button><button class="tab" data-filter="ti6al4v_base_mechanical_fatigue">L1 · Ti-6Al-4V Base Mechanical &amp; Fatigue</button><button class="tab" data-filter="ti6al4v_postprocess">L2 · Ti-6Al-4V Post-processing Control</button><button class="tab" data-filter="ti6al4v_femoral_stem">L3 · Ti-6Al-4V Femoral Stem Design</button></div>
+<div class="rui-filter-bar" id="rui-priority-filter"><b>Priority:</b> <label><input type="checkbox" class="rui-pf-cb" value="High" checked>High</label> <label><input type="checkbox" class="rui-pf-cb" value="Medium" checked>Medium</label> <label><input type="checkbox" class="rui-pf-cb" value="Low">Low</label> <label><input type="checkbox" class="rui-pf-cb" value="Exclude">Exclude</label></div>
+<div class="rui-filter-bar" id="rui-marks-filter"><b>My marks:</b> <label><input type="checkbox" class="rui-mf-cb" value="to-read" checked>to-read</label><label><input type="checkbox" class="rui-mf-cb" value="read" checked>read</label><label><input type="checkbox" class="rui-mf-cb" value="interesting" checked>interesting</label><label><input type="checkbox" class="rui-mf-cb" value="ignore" checked>ignore</label><label><input type="checkbox" class="rui-mf-cb" value="none" checked>(no mark)</label></div>
+
+<article class="paper" id="doi-10-4028-p-lar54a" data-direction="ti6al4v_postprocess" data-priority="Low" data-identity-key="doi:10.4028/p-lar54a" data-title="Exploring the Potential of Superplastic Forming of Ti-6Al-4V Tailored Machined Blanks for Lightweight Design" data-date="2025-11-18">
+  <div class="paper-head">
+    <span class="priority" style="background:#F1EFE8;color:#5F5E5A">Low</span>
+    <span class="direction-pill" style="background:#8A6D3B20;color:#8A6D3B">L2 · Ti-6Al-4V Post-processing Control</span>
+    <span class="source">openalex</span>
+    <span class="relevance-level lvl-peripheral">Peripheral</span>
+    <span class="read-action act-background-only">Background only</span>
+    <span class="validation-kind">simulation_case</span>
+    <span class="flag">Exp. validation</span>
+  </div>
+  <h3 class="paper-title">Exploring the Potential of Superplastic Forming of Ti-6Al-4V Tailored Machined Blanks for Lightweight Design</h3>
+  <div class="meta">
+    <span class="authors">Marco Bucconi, Elangovan Parameswaran, Diego González</span>
+    <span class="venue">Key engineering materials</span>
+    <span class="date">2025-11-18</span>
+    <span class="doi"><a href="https://doi.org/10.4028/p-lar54a" target="_blank">10.4028/p-lar54a</a></span>
+  </div>
+  <div class="affiliations"><b>单位:</b> University of Strathclyde</div>
+  <div class="corresponding"><b>通讯:</b> Marco Bucconi <span class="corresp-aff">@ University of Strathclyde</span></div>
+  <div class="relevance"><b>相关性:</b> 该论文主要研究超塑性成形工艺，未涉及Ti-6Al-4V后处理对疲劳性能的影响。</div>
+  <div class="why-not-core"><b>边界:</b> No investigation of post-processing effect on fatigue or mechanical performance; no mechanical testing (fatigue/tensile), no microstructure analysis, no comparison of as-built vs. post-processed properties.</div>
+  <div class="summary">
+    <div><b>动机·</b> 开发成本效益高的轻量化Ti-6Al-4V部件成形方法</div>
+    <div><b>方法·</b> 通过数控加工制备变厚度板材，然后进行超塑性成形，并用有限元模拟指导设计</div>
+    <div><b>结果·</b> 成功成形三种设计案例，有限元与实验吻合良好，验证了可行性</div>
+    <div><b>验证·</b> 超塑性成形实验与有限元模拟对比验证</div>
+  </div>
+  <details class="summary-en">
+    <summary>English summary &amp; terms</summary>
+    <div class="summary en">
+      <div><b>Motivation·</b> To develop a cost-effective method for manufacturing lightweight Ti-6Al-4V components via superplastic forming of tailored machined blanks.</div>
+      <div><b>Method·</b> CNC machining was used to create variable thickness sheets, which were then superplastically formed; finite element simulations guided the blank design.</div>
+      <div><b>Result·</b> Three industrial design examples were successfully formed, showing good agreement between FE predictions and experiments, demonstrating feasibility for weight reduction.</div>
+      <div><b>Validation·</b> The approach was validated by comparing experimental forming trials with finite element simulations.</div>
+    </div>
+    <div class="key-terms">
+      <span class="term"><b>superplastic forming</b> · 超塑性成形</span><span class="term"><b>tailored machined blanks</b> · 定制加工坯料</span><span class="term"><b>Ti-6Al-4V</b> · Ti-6Al-4V</span><span class="term"><b>lightweight design</b> · 轻量化设计</span><span class="term"><b>finite element simulation</b> · 有限元模拟</span><span class="term"><b>thickness distribution</b> · 厚度分布</span><span class="term"><b>CNC machining</b> · 数控加工</span><span class="term"><b>weight reduction</b> · 减重</span>
+    </div>
+  </details>
+  <div class="tags-row"><span class="tag">superplastic forming</span> <span class="tag">tailored blanks</span> <span class="tag">lightweight design</span> <span class="tag">Ti-6Al-4V</span> <span class="tag">finite element simulation</span></div>
+  
+  
+  <div class="rui-card-tools">
+    <span class="rui-mark-group"><b>Mark:</b> <label class="m-to-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-4028-p-lar54a" value="to-read">to-read</label><label class="m-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-4028-p-lar54a" value="read">read</label><label class="m-interesting"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-4028-p-lar54a" value="interesting">interesting</label><label class="m-ignore"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-4028-p-lar54a" value="ignore">ignore</label></span>
+    <button type="button" class="rui-note-btn">Note</button>
+    <button type="button" class="rui-promote-btn">Send to lit-system</button>
+    <div class="rui-note-wrap">
+      <textarea class="rui-note-ta" placeholder="Private note (saved on blur, this browser only)"></textarea>
+    </div>
+  </div>
+</article>
+<article class="paper" id="doi-10-3390-ma18225222" data-direction="ti6al4v_base_mechanical_fatigue" data-priority="Exclude" data-identity-key="doi:10.3390/ma18225222" data-title="Development and Characterization of Biogenic Hydroxyapatite Coatings Derived from Crab Shell Waste on Ti6Al4V Substrates" data-date="2025-11-18">
+  <div class="paper-head">
+    <span class="priority" style="background:#FCEBEB;color:#791F1F">Exclude</span>
+    <span class="direction-pill" style="background:#2E7D6B20;color:#2E7D6B">L1 · Ti-6Al-4V Base Mechanical &amp; Fatigue</span>
+    <span class="source">openalex</span>
+    <span class="relevance-level lvl-peripheral">Peripheral</span>
+    <span class="read-action act-ignore">Ignore</span>
+    <span class="validation-kind">none</span>
+    <span class="flag">Exp. validation</span>
+  </div>
+  <h3 class="paper-title">Development and Characterization of Biogenic Hydroxyapatite Coatings Derived from Crab Shell Waste on Ti6Al4V Substrates</h3>
+  <div class="meta">
+    <span class="authors">Yago Antonio de Lima Guedes, Maurício Maia Ribeiro, Douglas Santos Silva, Raí Felipe Pereira Junio, Roberto Paulo Barbosa Ramos et al.</span>
+    <span class="venue">Materials</span>
+    <span class="date">2025-11-18</span>
+    <span class="doi"><a href="https://doi.org/10.3390/ma18225222" target="_blank">10.3390/ma18225222</a></span>
+  </div>
+  <div class="affiliations"><b>单位:</b> Materials Engineering Program, Federal Institute of Education, Science and Technology of Pará—IFPA, Avenida Almirante Barroso, 1155, Marco, Belém CEP 66093-020, PA, Brazil</div>
+  <div class="corresponding"><b>通讯:</b> Douglas Santos Silva <span class="corresp-aff">@ Military Institute of Engineering—IME, Department of Materials Science, Praça General Tibúrcio, 80, Praia Vermelha, Urca</span></div>
+  <div class="relevance"><b>相关性:</b> 该论文研究蟹壳废料制备的羟基磷灰石涂层在Ti6Al4V基体上的开发与表征，与增材制造Ti6Al4V的机械或疲劳性能无关。</div>
+  <div class="why-not-core"><b>边界:</b> This paper does not address mechanical or fatigue performance of additively manufactured Ti-6Al-4V; it focuses on coating synthesis from waste shells and coating characterization on a non-AM Ti6Al4V substrate, lacking any AM process, fatigue testing, or mechanical property evaluation.</div>
+  <div class="summary">
+    <div><b>动机·</b> 开发基于海洋生物废弃物的生物活性涂层用于钛基植入体</div>
+    <div><b>方法·</b> 从蟹壳制备羟基磷灰石并通过水相合成涂覆在Ti6Al4V基体上</div>
+    <div><b>结果·</b> 获得连续多孔的纳米晶涂层，Ca/P比约1.85-1.88，硬度约35 HRC</div>
+    <div><b>验证·</b> 通过SEM、EDS、XRF、XRD等表征涂层形貌、成分和物相</div>
+  </div>
+  <details class="summary-en">
+    <summary>English summary &amp; terms</summary>
+    <div class="summary en">
+      <div><b>Motivation·</b> To develop a bioactive coating from marine biowaste for titanium implant applications.</div>
+      <div><b>Method·</b> Biogenic hydroxyapatite was synthesized from crab shell waste and deposited onto Ti6Al4V substrates with/without thermochemical pretreatment.</div>
+      <div><b>Result·</b> Continuous nanocrystalline coatings ~95-98 µm thick with Ca/P ratio 1.85-1.88 and Rockwell C hardness ~35 HRC were obtained.</div>
+      <div><b>Validation·</b> Coating morphology, composition, and phase were characterized by SEM, EDS, XRF, and XRD.</div>
+    </div>
+    <div class="key-terms">
+      <span class="term"><b>hydroxyapatite coating</b> · 羟基磷灰石涂层</span><span class="term"><b>Ti6Al4V</b> · Ti6Al4V合金</span><span class="term"><b>crab shell waste</b> · 蟹壳废料</span><span class="term"><b>biogenic</b> · 生物源性</span><span class="term"><b>Rockwell hardness</b> · 洛氏硬度</span><span class="term"><b>SEM</b> · 扫描电镜</span><span class="term"><b>XRD</b> · X射线衍射</span><span class="term"><b>EDS</b> · 能谱分析</span><span class="term"><b>calcium phosphate</b> · 磷酸钙</span><span class="term"><b>biomedical implant</b> · 生物医用植入体</span>
+    </div>
+  </details>
+  <div class="tags-row"><span class="tag">hydroxyapatite coating</span> <span class="tag">Ti6Al4V</span> <span class="tag">crab shell waste</span> <span class="tag">biogenic</span> <span class="tag">hardness</span></div>
+  
+  
+  <div class="rui-card-tools">
+    <span class="rui-mark-group"><b>Mark:</b> <label class="m-to-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-3390-ma18225222" value="to-read">to-read</label><label class="m-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-3390-ma18225222" value="read">read</label><label class="m-interesting"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-3390-ma18225222" value="interesting">interesting</label><label class="m-ignore"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-3390-ma18225222" value="ignore">ignore</label></span>
+    <button type="button" class="rui-note-btn">Note</button>
+    <button type="button" class="rui-promote-btn">Send to lit-system</button>
+    <div class="rui-note-wrap">
+      <textarea class="rui-note-ta" placeholder="Private note (saved on blur, this browser only)"></textarea>
+    </div>
+  </div>
+</article>
+<article class="paper" id="doi-10-1109-icaaid68975-2025-11358319" data-direction="ti6al4v_postprocess" data-priority="Exclude" data-identity-key="doi:10.1109/icaaid68975.2025.11358319" data-title="Application of Machine Learning for Predicting Surface Roughness (Ra) in Abrasive Water Jet Machined Ti-6Al-4V MMCs" data-date="2025-11-18">
+  <div class="paper-head">
+    <span class="priority" style="background:#FCEBEB;color:#791F1F">Exclude</span>
+    <span class="direction-pill" style="background:#8A6D3B20;color:#8A6D3B">L2 · Ti-6Al-4V Post-processing Control</span>
+    <span class="source">openalex</span>
+    <span class="relevance-level lvl-peripheral">Peripheral</span>
+    <span class="read-action act-ignore">Ignore</span>
+    <span class="validation-kind">none</span>
+    <span class="flag">Exp. validation</span>
+  </div>
+  <h3 class="paper-title">Application of Machine Learning for Predicting Surface Roughness (Ra) in Abrasive Water Jet Machined Ti-6Al-4V MMCs</h3>
+  <div class="meta">
+    <span class="authors">L Torrealba M, M. Balasubramanian, S Priyadarsini, P.K.Devan, PUsha Rani et al.</span>
+    <span class="venue"></span>
+    <span class="date">2025-11-18</span>
+    <span class="doi"><a href="https://doi.org/10.1109/icaaid68975.2025.11358319" target="_blank">10.1109/icaaid68975.2025.11358319</a></span>
+  </div>
+  <div class="affiliations"><b>单位:</b> Saveetha Institute of Medical and Technical Sciences,Saveetha School of Engineering,Chennai,Tamil Nadu,India</div>
+  <div class="corresponding"><b>通讯:</b> L Torrealba M <span class="corresp-aff">@ Saveetha Institute of Medical and Technical Sciences,Saveetha School of Engineering,Chennai,Tamil Nadu,India</span></div>
+  <div class="relevance"><b>相关性:</b> 本文涉及Ti-6Al-4V金属基复合材料的后处理（磨料水射流加工），但非增材制造Ti-6Al-4V，且未研究疲劳或力学性能。</div>
+  <div class="why-not-core"><b>边界:</b> The paper does not address additive-manufactured Ti-6Al-4V, focuses on MMCs and surface roughness prediction, with no evaluation of fatigue or mechanical performance.</div>
+  <div class="summary">
+    <div><b>动机·</b> 预测磨料水射流加工Ti-6Al-4V金属基复合材料的表面粗糙度。</div>
+    <div><b>方法·</b> 利用随机森林、决策树和XGBoost等机器学习模型预测表面粗糙度。</div>
+    <div><b>结果·</b> 决策树模型预测精度最高，MAE为0.0260，R²为0.9626。</div>
+    <div><b>验证·</b> 通过实验测量的表面粗糙度数据验证模型预测。</div>
+  </div>
+  <details class="summary-en">
+    <summary>English summary &amp; terms</summary>
+    <div class="summary en">
+      <div><b>Motivation·</b> The motivation is to develop a predictive model for surface roughness (Ra) of Ti-6Al-4V metal matrix composites machined by abrasive water jet machining (AWJM).</div>
+      <div><b>Method·</b> Machine learning algorithms (Random Forest, Decision Tree, XGBoost) are applied to predict Ra based on an L18 orthogonal array of machining parameters.</div>
+      <div><b>Result·</b> Decision Tree achieves the highest prediction accuracy with the lowest MAE (0.0260) and highest R² (0.9626).</div>
+      <div><b>Validation·</b> Experimental Ra measurements from AWJM holes are used to validate the machine learning predictions.</div>
+    </div>
+    <div class="key-terms">
+      <span class="term"><b>machine learning</b> · 机器学习</span><span class="term"><b>surface roughness</b> · 表面粗糙度</span><span class="term"><b>abrasive water jet machining</b> · 磨料水射流加工</span><span class="term"><b>Ti-6Al-4V metal matrix composite</b> · Ti-6Al-4V金属基复合材料</span><span class="term"><b>decision tree</b> · 决策树</span><span class="term"><b>random forest</b> · 随机森林</span><span class="term"><b>XGBoost</b> · XGBoost</span><span class="term"><b>orthogonal array</b> · 正交阵列</span>
+    </div>
+  </details>
+  <div class="tags-row"><span class="tag">machine learning</span> <span class="tag">surface roughness</span> <span class="tag">abrasive water jet machining</span> <span class="tag">Ti-6Al-4V MMC</span></div>
+  
+  
+  <div class="rui-card-tools">
+    <span class="rui-mark-group"><b>Mark:</b> <label class="m-to-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1109-icaaid68975-2025-11358319" value="to-read">to-read</label><label class="m-read"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1109-icaaid68975-2025-11358319" value="read">read</label><label class="m-interesting"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1109-icaaid68975-2025-11358319" value="interesting">interesting</label><label class="m-ignore"><input type="radio" class="rui-mark-radio" name="rui-mark-doi-10-1109-icaaid68975-2025-11358319" value="ignore">ignore</label></span>
+    <button type="button" class="rui-note-btn">Note</button>
+    <button type="button" class="rui-promote-btn">Send to lit-system</button>
+    <div class="rui-note-wrap">
+      <textarea class="rui-note-ta" placeholder="Private note (saved on blur, this browser only)"></textarea>
+    </div>
+  </div>
+</article>
+
+</body></html>
