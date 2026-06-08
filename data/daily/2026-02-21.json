@@ -4,53 +4,76 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2602.18954v1",
-      "doi": "",
-      "arxiv_id": "2602.18954v1",
-      "title": "Work-hardening exhaustion as the origin of low toughness in L-PBF alloys: A case study on the role of intrinsic vs. extrinsic defects in SS316L",
-      "abstract": "Laser powder bed fusion (L-PBF) additive manufacturing offers a remarkable balance of strength and ductility across many structural alloys. However, L-PBF alloys often display much lower fracture toughness, in some cases up to 70% below conventionally wrought counterparts. The reasons for this toughness paradox have remained elusive, since conventional tools cannot directly visualize sub-surface microscale deformation processes that govern crack growth. Here we apply scanning 3D X-ray diffraction and phase contrast tomography to simultaneously capture microstructural evolution with 1 micron resolution near an advancing crack tip, utilizing 316L stainless steel as a model system. We demonstrate that the toughness paradox is not solely a consequence of extrinsic processing defects or residual stresses, but rather an intrinsic failure to relax crack-tip stresses via plasticity. While wrought material facilitates stable crack-tip blunting through localized dislocation accumulation, the L-PBF material undergoes premature work-hardening saturation that triggers extreme stress partitioning and high stress triaxiality. This results in a transition from ductile blunting to a sharp, unstable fracture mode. These findings identify work-hardening exhaustion as a systemic vulnerability inherent to L-PBF microstructures, where the exceptional initial dislocation density required for high yield strength acts as a saturation ceiling for damage tolerance. This work provides a physical basis for adapting damage models to L-PBF metals and challenges the assumption that high tensile ductility guarantees fracture resistance in rapidly solidified components.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7130835659",
+      "doi": "10.1016/j.corsci.2026.113721",
+      "title": "Mechanism of heat treatment regulation on the formation of Ti-6Al-4V oxide film in additive manufacturing and its corrosion resistance: Synergistic effect of matrix structure and residual stress",
+      "abstract": "",
       "authors": [
-        "KenHee Ryou",
-        "Yaozhong Zhang",
-        "James A. D. Ball",
-        "Dan Rubio-Ejchel",
-        "Dillon Jobes",
-        "Buhari Ibrahim",
-        "Charles Romain",
-        "Henry Proudhon",
-        "Jerard V. Gordon"
+        "Mingshi Li",
+        "Yingwei Zhang",
+        "Baofa Liu",
+        "Junjie Shi",
+        "Kai Yu",
+        "Jianzhong Li"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Key Laboratory for Ecological Metallurgy of Multimetallic Mineral (Ministry of Education), Northeastern University, Shenyang 110819, China",
+      "corresponding_authors": [
+        {
+          "name": "Jianzhong Li",
+          "affiliation": "Key Laboratory for Ecological Metallurgy of Multimetallic Mineral (Ministry of Education), Northeastern University, Shenyang 110819, China"
+        }
+      ],
+      "venue": "Corrosion Science",
       "year": 2026,
       "date": "2026-02-21",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2602.18954v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.1016/j.corsci.2026.113721",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Residual stress",
+        "Oxide",
+        "Corrosion",
+        "Intermetallic",
+        "Alloy",
+        "Ultimate tensile strength",
+        "Metallurgy",
+        "Composite material",
+        "Phase (matter)",
+        "Titanium alloy",
+        "Compressive strength",
+        "Titanium",
+        "Metastability",
+        "Stress (linguistics)"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "yield strength",
-          "fracture toughness",
-          "ductility"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "residual stress"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
         ]
       },
       "llm": {
-        "priority": "High",
-        "relevance_level": "Direct",
-        "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究了激光粉末床熔融合金的断裂韧性，与用户关于增材制造金属力学性能的研究方向高度相关。",
-        "why_not_core": "This paper does not cover fatigue or wear properties, nor does it include implant-specific mechanical testing. However, it is core to the user's direction on AM mechanical properties.",
-        "validation_kind": "mechanical_testing",
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文关注热处理对Ti-6Al-4V耐腐蚀性的影响，但未涉及疲劳或力学性能，因此与后处理对力学性能调控的方向不直接相关。",
+        "why_not_core": "This paper does not evaluate fatigue or mechanical performance (tensile, fatigue) of Ti-6Al-4V after post-processing; it solely focuses on corrosion resistance.",
+        "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -58,197 +81,72 @@
           "is_review": false
         },
         "tags": [
-          "L-PBF",
-          "316L stainless steel",
-          "fracture toughness",
-          "work-hardening exhaustion",
-          "X-ray diffraction",
-          "tomography",
-          "ductility",
-          "damage tolerance"
+          "heat treatment",
+          "corrosion resistance",
+          "oxide film",
+          "Ti-6Al-4V",
+          "additive manufacturing"
         ],
         "summary_zh": {
-          "motivation": "探究激光粉末床熔融合金低断裂韧性的根本原因",
-          "method": "采用扫描3D X射线衍射和相衬断层扫描原位观察裂纹扩展",
-          "result": "发现加工硬化耗尽导致韧性低，而非外在缺陷",
-          "validation": "通过高分辨率原位实验验证"
+          "motivation": "研究热处理对增材制造Ti-6Al-4V氧化膜形成及耐腐蚀性的调控机制。",
+          "method": "进行不同热处理，分析氧化膜结构和残余应力。",
+          "result": "热处理通过协同影响基体结构和残余应力改善耐腐蚀性。",
+          "validation": "通过腐蚀实验和微观表征验证。"
         },
         "summary_en": {
-          "motivation": "To uncover the origin of low fracture toughness in L-PBF alloys, which cannot be explained by conventional understanding.",
-          "method": "In situ synchrotron 3D X-ray diffraction and phase contrast tomography were used to capture microstructural evolution near a crack tip.",
-          "result": "Work-hardening exhaustion, not extrinsic defects, was identified as the primary cause of the toughness paradox.",
-          "validation": "The findings were validated by high-resolution in situ experimental observations with 1 µm resolution."
+          "motivation": "To investigate the mechanism by which heat treatment regulates oxide film formation on additively manufactured Ti-6Al-4V and its effect on corrosion resistance.",
+          "method": "Different heat treatments were applied, and oxide film structure and residual stress were analyzed.",
+          "result": "Heat treatment improved corrosion resistance through synergistic effects on matrix structure and residual stress.",
+          "validation": "Corrosion tests and microstructural characterization validated the findings."
         },
         "key_terms": [
           {
-            "en": "L-PBF",
-            "zh": "激光粉末床熔融"
+            "en": "heat treatment",
+            "zh": "热处理"
           },
           {
-            "en": "fracture toughness",
-            "zh": "断裂韧性"
+            "en": "oxide film",
+            "zh": "氧化膜"
           },
           {
-            "en": "work-hardening exhaustion",
-            "zh": "加工硬化耗尽"
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
           },
           {
-            "en": "316L stainless steel",
-            "zh": "316L不锈钢"
+            "en": "residual stress",
+            "zh": "残余应力"
           },
           {
-            "en": "dislocation density",
-            "zh": "位错密度"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "crack-tip blunting",
-            "zh": "裂纹尖端钝化"
-          },
-          {
-            "en": "stress triaxiality",
-            "zh": "应力三轴性"
-          },
-          {
-            "en": "rapid solidification",
-            "zh": "快速凝固"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:19:20Z"
-    },
-    {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2602.18840v1",
-      "doi": "",
-      "arxiv_id": "2602.18840v1",
-      "title": "Beam-Offset Thermoreflectance with Bayesian Optimization to Measure the Anisotropic Thermal Properties of Semiconductor Superlattices",
-      "abstract": "The directional nature of heat conduction in semiconductor superlattices--marked by significant differences between in-plane and cross-plane pathways--poses substantial challenges for precise thermal property assessment. Conventional frequency-domain thermoreflectance (FDTR) techniques, while proficient at evaluating cross-plane thermal conductivity, suffer from restricted capability in resolving in-plane transport due to inherent phase-delay constraints and inadequate lateral resolution. In this investigation, we establish a non-contact beam-offset FDTR (BO-FDTR) approach that concurrently determines both directional thermal conductivities within layered semiconductor architectures. Our methodology implements spatial separation between excitation and detection beams while utilizing coupled normalized amplitude and phase responses as analytical inputs, thereby improving discrimination between anisotropic thermal parameters. We combine this experimental configuration with a Bayesian optimization scheme incorporating Gaussian Process Regression (BO-GPR) to reduce estimation inaccuracies, attaining measurement uncertainties under 1% to 2% at 95% confidence intervals. This technique demonstrates particular efficacy for intricate multilayer nanostructures, furnishing a structured protocol for superlattice thermal evaluation. Experimental characterization of an AlAs/GaAs superlattice (period thickness 52 nm) delivers thermal conductivity values of 14.7 W m-1 K-1 (cross-plane) and 37.4 W m-1 K-1 (in-plane). Our findings indicate that integrating frequency sweeps with varied beam offset locations yields superior measurement precision, exceeding conventional single-variable methods and confirming thermal assessment validity across both geometric arrangements.",
-      "authors": [
-        "A. Chatterjee",
-        "N. Spitzer",
-        "T. Kruck",
-        "P. Song",
-        "A. Ludwig",
-        "A. D. Wieck",
-        "J. Ordonez-Miranda",
-        "M. Pawlak"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2026,
-      "date": "2026-02-21",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2602.18840v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
-        ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究半导体超晶格的热导率测量，与增材制造力学性能方向无关。",
-        "why_not_core": "This paper does not address additive manufacturing, mechanical properties, or any testing related to AM materials or structures.",
-        "validation_kind": "experimental",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": true,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "thermal conductivity",
-          "superlattice",
-          "frequency-domain thermoreflectance",
-          "Bayesian optimization",
-          "anisotropic"
-        ],
-        "summary_zh": {
-          "motivation": "现有FDTR技术在测量半导体超晶格面内热导率方面受限。",
-          "method": "结合Beam-Offset FDTR与贝叶斯优化（BO-GPR）同时测量面内和面外热导率。",
-          "result": "在AlAs/GaAs超晶格上获得了14.7和37.4 W m-1 K-1的精确热导率。",
-          "validation": "通过频率扫描和光束偏移位置变化验证测量精度优于传统方法。"
-        },
-        "summary_en": {
-          "motivation": "To overcome the limited capability of conventional FDTR in resolving in-plane thermal transport in anisotropic semiconductor superlattices.",
-          "method": "Developed a non-contact beam-offset FDTR approach with Bayesian optimization using Gaussian Process Regression to simultaneously extract in-plane and cross-plane thermal conductivities.",
-          "result": "Achieved measurement uncertainties below 2% at 95% confidence, yielding cross-plane and in-plane thermal conductivities of 14.7 and 37.4 W m⁻¹ K⁻¹ for an AlAs/GaAs superlattice.",
-          "validation": "Validated through combined frequency sweeps and varied beam offset positions, demonstrating superior precision over single-variable methods."
-        },
-        "key_terms": [
-          {
-            "en": "frequency-domain thermoreflectance",
-            "zh": "频域热反射法"
-          },
-          {
-            "en": "beam offset",
-            "zh": "光束偏移"
-          },
-          {
-            "en": "Bayesian optimization",
-            "zh": "贝叶斯优化"
-          },
-          {
-            "en": "Gaussian Process Regression",
-            "zh": "高斯过程回归"
-          },
-          {
-            "en": "anisotropic thermal conductivity",
-            "zh": "各向异性热导率"
-          },
-          {
-            "en": "superlattice",
-            "zh": "超晶格"
-          },
-          {
-            "en": "semiconductor",
-            "zh": "半导体"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:19:20Z"
+      "first_seen_at": "2026-06-07T23:25:34Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 1,
     "by_source": {
-      "arxiv": 2
+      "openalex": 1
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 1,
+    "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 2
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "arxiv": 2
+      "openalex": 1
     },
-    "scored": 2,
+    "scored": 1,
     "priority_counts": {
-      "High": 1,
-      "Exclude": 1
+      "Low": 1
     }
   }
 }

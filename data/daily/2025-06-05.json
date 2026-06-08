@@ -4,136 +4,138 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2506.05578v1",
-      "doi": "",
-      "arxiv_id": "2506.05578v1",
-      "title": "BO-graphane and BO-diamane",
-      "abstract": "The adsorption of boron and oxygen atoms onto mono- and multi-layer graphene leads to the formation of a buckled graphene layer (BO-graphane) and a 2D diamond-like structure (BO-diamane) sandwiched between boron monoxide layers per DFT calculations. BO-graphane has a calculated Young's modulus ($\\it{E}$) of 750 GPA and BO-diamane 771 GPa, higher than the calculated $\\it{E}$ of -F,-OH, and -H diamanes; this is due to the presence of B-O bonds in the functionalizing layers. Electronic band structure calculations show BO-graphane and BO-diamane are wide band gap semiconductors with an indirect band gap up to a thickness of three layers (3L). Phonon dispersion and $ab-initio$ molecular dynamics (AIMD) simulations confirm dynamic and thermal stability, maintaining structural integrity at 1000 K. The room-temperature lattice thermal conductivity of BO-graphane and BO-diamane is found to be 879 W/m.K and 1260 W/m.K, respectively, surpassing BeO (385 W/m.K), MgO (64 W/m.K), and Al$_2$O$_3$ (36 W/m.K); and F-diamane (377 W/m.K), and comparable to H-diamane (1145-1960 W/m.K), suggesting them as candidates for thermal management in applications.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4411103006",
+      "doi": "10.3390/ma18112670",
+      "title": "Corrosion-Wear Mechanism of (AlTiV)100−xCrx Lightweight High-Entropy Alloy in the 3.5 wt.% NaCl Solution",
+      "abstract": "(AlTiV)100−xCrx high-entropy alloys (HEAs) is expected to solve the problem of poor corrosion-wear resistance of lightweight alloys. To elucidate its corrosion-wear mechanism, three (AlTiV)100−xCrx alloys were prepared by vacuum arc melting method by repeating the melting five times at 240 A current.and their microstructures, mechanics, corrosion, wear, and corrosion-wear behaviors were investigated. The results indicate that (AlTiV)100−xCrx is a single-phase with BCC structure and the VEC of Cr5, Cr10 and Cr15 were 4.0, 4.1 and 4.2 respectively. Their hardness increase and toughness and corrosion resistance decrease with the increase of Cr content (Cr5:537.5 HV0.2/6.7%/1.86 × 10−8 A/cm2; Cr10:572.3 HV0.2/5.6%/2.09 × 108 A/cm2; Cr15:617.6 HV0.2/3.8%/2.51 × 10−8 A/cm2). The wear volume and the corrosion-wear volume of AlTiVCr alloys are mainly caused by the abrasive wear. However, the fatigue wear of AlTiVCr alloys could be exacerbated by a decrease in material’s toughness, corrosion resistance, and an increase in solution corrosivity. Therefore, Cr10 presents the optimal wear resistance in the deionized water, while the optimal corrosion-wear resistance in the 3.5 wt.% NaCl solution is presented by Cr5. Compared to TC4, the wear and corrosion-wear resistance were improved by 56.4% and 65.5%, respectively.",
       "authors": [
-        "Babu Ram",
-        "Rohit Anand",
-        "Arun S. Nissimagoudar",
-        "Geunsik Lee",
-        "Rodney S Ruoff"
+        "Jiakai Huang",
+        "Peng Zhang",
+        "Junjie Yang",
+        "Wei Li",
+        "Qiwei Wang",
+        "Jie Li"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Institute of Advanced Wear & Corrosion Resistant and Functional Materials, Jinan University, Guangzhou 510632, China",
+      "corresponding_authors": [
+        {
+          "name": "Qiwei Wang",
+          "affiliation": "Institute of Advanced Wear & Corrosion Resistant and Functional Materials, Jinan University, Guangzhou 510632, China"
+        },
+        {
+          "name": "Jie Li",
+          "affiliation": "Institute of Advanced Wear & Corrosion Resistant and Functional Materials, Jinan University, Guangzhou 510632, China"
+        }
+      ],
+      "venue": "Materials",
       "year": 2025,
       "date": "2025-06-05",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2506.05578v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "physics.chem-ph"
+      "url": "https://doi.org/10.3390/ma18112670",
+      "cited_by_count": 2,
+      "concepts": [
+        "Corrosion",
+        "Materials science",
+        "Metallurgy",
+        "Alloy",
+        "Abrasive",
+        "Toughness",
+        "Microstructure",
+        "Arc melting",
+        "Wear resistance",
+        "High entropy alloys",
+        "Intergranular corrosion"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "e + b + m",
-          "w + a + a + m"
-        ],
-        "fatigue": [
-          "e + b + m",
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "e + b + m",
-          "w + a + a + m"
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "fatigue"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究二维材料的DFT计算，与增材制造力学性能方向完全无关。",
-        "why_not_core": "This paper does not address additive manufacturing, mechanical testing of AM parts, or any experimental validation relevant to biomedical implants or structural applications.",
-        "validation_kind": "theoretical",
+        "relevance_to_user": "该论文研究的是非增材制造的轻质高熵合金的腐蚀磨损行为，仅以TC4作为对照，不涉及增材制造Ti-6Al-4V的力学或疲劳性能。",
+        "why_not_core": "Paper uses vacuum arc melting (not additive manufacturing), studies corrosion-wear of high-entropy alloys, and only includes TC4 as a baseline; contains no mechanical/fatigue characterization of additively manufactured Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "2D materials",
-          "graphene",
-          "diamond",
-          "DFT",
-          "mechanical properties"
+          "high-entropy alloy",
+          "corrosion-wear",
+          "vacuum arc melting",
+          "lightweight alloy",
+          "BCC structure"
         ],
         "summary_zh": {
-          "motivation": "探索硼氧原子吸附石墨烯形成的新型二维材料性能。",
-          "method": "基于DFT计算弹性模量、电子结构和热导率。",
-          "result": "BO-graphane和BO-diamane具有高弹性模量和热导率。",
-          "validation": "声子色散和AIMD模拟验证稳定性。"
+          "motivation": "解决轻质合金耐腐蚀磨损性能差的问题",
+          "method": "采用真空电弧熔炼法制备不同Cr含量的(AlTiV)100−xCrx高熵合金",
+          "result": "Cr5在3.5% NaCl溶液中表现出最优的耐腐蚀磨损性能",
+          "validation": "通过显微组织、力学、电化学和磨损实验验证"
         },
         "summary_en": {
-          "motivation": "To investigate the properties of novel 2D materials formed by boron and oxygen adsorption on graphene.",
-          "method": "Density functional theory calculations were used to compute elastic moduli, electronic band structure, and lattice thermal conductivity.",
-          "result": "BO-graphane and BO-diamane exhibit high Young's moduli (750-771 GPa) and ultra-high thermal conductivities (879-1260 W/mK).",
-          "validation": "Dynamic and thermal stability were confirmed through phonon dispersion and ab-initio molecular dynamics simulations."
+          "motivation": "To address the poor corrosion-wear resistance of lightweight alloys by developing a novel high-entropy alloy.",
+          "method": "Three (AlTiV)100−xCrx alloys with varying Cr content were synthesized via vacuum arc melting and characterized for microstructure, mechanics, corrosion, and wear.",
+          "result": "The Cr5 alloy exhibited the best corrosion-wear resistance in 3.5 wt.% NaCl solution, while Cr10 showed optimal wear resistance in deionized water; both outperformed TC4.",
+          "validation": "Experimental investigation including hardness, toughness, corrosion current density, and wear volume measurements."
         },
         "key_terms": [
           {
-            "en": "BO-graphane",
-            "zh": "BO-石墨烷"
+            "en": "high-entropy alloy",
+            "zh": "高熵合金"
           },
           {
-            "en": "BO-diamane",
-            "zh": "BO-金刚烷"
+            "en": "corrosion-wear",
+            "zh": "腐蚀磨损"
           },
           {
-            "en": "Young's modulus",
-            "zh": "杨氏模量"
+            "en": "vacuum arc melting",
+            "zh": "真空电弧熔炼"
           },
           {
-            "en": "lattice thermal conductivity",
-            "zh": "晶格热导率"
+            "en": "BCC structure",
+            "zh": "体心立方结构"
           },
           {
-            "en": "DFT",
-            "zh": "密度泛函理论"
+            "en": "lightweight alloy",
+            "zh": "轻质合金"
           },
           {
-            "en": "phonon dispersion",
-            "zh": "声子色散"
-          },
-          {
-            "en": "AIMD",
-            "zh": "从头算分子动力学"
-          },
-          {
-            "en": "wide band gap semiconductor",
-            "zh": "宽带隙半导体"
+            "en": "TC4",
+            "zh": "TC4钛合金"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:10:24Z"
+      "first_seen_at": "2026-06-07T23:09:50Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {

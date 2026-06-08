@@ -4,50 +4,79 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2603.25652v1",
-      "doi": "",
-      "arxiv_id": "2603.25652v1",
-      "title": "Interfacial Polytype Engineering of Polymer-Derived SiC via Compositionally Complex MXene Templating",
-      "abstract": "Controlling polytype selection in polymer-derived silicon carbide (SiC) remains challenging since stacking sequences are determined locally at the nucleation front. Here, we demonstrate an interface-driven strategy to bias SiC polytype evolution by introducing compositionally complex TiVCrMoC3 MXene nanosheets at the preceramic stage. Under spark plasma sintering (1900 C, 70 MPa), which typically stabilizes cubic beta-SiC, the MXene partially transforms into multicomponent carbide structures and generates two distinct heterogeneous interfacial states: reconstructed carbide/SiC interfaces that locally disrupt stacking sequences and promote hexagonal ordering, driving the emergence of alpha-SiC; and coherent MXene/SiC interfaces that preserve cubic stacking. Mechanical testing further reveals peak performance at an optimal MXene loading where interfacial reconstruction is most pronounced, with an around 82% increase in Young's modulus and 42% improvement in fracture toughness. These findings highlight interfacial polytype engineering via two-dimensional carbide templates as a promising route for directing crystal structure evolution in polymer-derived ceramics.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7140721789",
+      "doi": "10.1007/s40964-026-01606-x",
+      "title": "Effect of parametric modifications and post-processing on surface properties for Ti-6Al-4V manufactured using electron beam powder bed fusion",
+      "abstract": "Electron beam powder bed fusion (PBF-EB/M) components typically exhibit high as-built surface roughness, partly due to powder sintering during the pre-heating stage. Post-processing techniques by chemical immersion in acids has been shown to reduce the surface roughness. A three-stage experimental approach was employed to investigate the post-processing chemical immersion technique for PBF-EB/M produced Ti-6Al-4 V ELI components. The experimental approach determined that using 1% hydrofluoric acid at room temperature with an immersion time of 120 min resulted in a reduction of various roughness parameters (Ra, Rq, Rz, Rp and Rv) by around 20% each. Additionally, two different EB scan strategies, continuous contouring and multi-spot contouring, were also investigated. The choice of scan strategy did not significantly affect the previously mentioned roughness parameters, however, continuous contouring did increase the Rsm significantly by 45%, and produced distinct changes in the surface morphology. The findings establish a reference for how chemical immersion and scan strategy selection affect surface characteristics, supporting future planned mechanical testing to evaluate their impact on the functional behaviour of PBF-EB/M Ti-6Al-4 V ELI components.",
       "authors": [
-        "Yuxiang Gan",
-        "Jianyu Dai",
-        "Laxmi Sai Viswanadha",
-        "Congjie Wei",
-        "Kelvin Y. Xie",
-        "Jeremy Watts",
-        "Mohammad Naraghi",
-        "Chenglin Wu"
+        "Andre Giordimaina",
+        "Thomas Vella",
+        "Mathys Contastin",
+        "Hannah Jones",
+        "Garvin Schultheiß",
+        "Lars‐Erik Rännar",
+        "Qiang Wang",
+        "Guoxin Lu",
+        "Ann Zammit",
+        "Arif Rochman",
+        "Bonnie Attard",
+        "Glenn Cassar"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Department of Metallurgy and Materials Engineering, University of Malta, Imsida, Malta",
+      "corresponding_authors": [
+        {
+          "name": "Glenn Cassar",
+          "affiliation": "Department of Metallurgy and Materials Engineering, University of Malta, Imsida, Malta"
+        }
+      ],
+      "venue": "Progress in Additive Manufacturing",
       "year": 2026,
       "date": "2026-03-26",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2603.25652v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.1007/s40964-026-01606-x",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Immersion (mathematics)",
+        "Contouring",
+        "Surface roughness",
+        "Fusion",
+        "Surface finish",
+        "Composite material",
+        "Cathode ray",
+        "Parametric statistics",
+        "Scanning electron microscope",
+        "Sintering",
+        "Response surface methodology"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "fracture toughness"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "post-processing"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该研究涉及聚合物衍生碳化硅的力学性能，但未涉及增材制造工艺或AM相关材料。",
-        "why_not_core": "This paper does not address additive manufacturing (AM) processing, AM-specific microstructures, or mechanical properties of AM-produced parts, which is the core of the user's direction.",
-        "validation_kind": "mechanical_testing",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文仅报道了表面粗糙度的结果，未涉及任何力学性能测试，因此对评估后处理对力学性能的影响帮助有限。",
+        "why_not_core": "No mechanical (fatigue/tensile) data reported; only surface roughness characterization, so it does not address the effect of post-processing on mechanical performance.",
+        "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -55,167 +84,81 @@
           "is_review": false
         },
         "tags": [
-          "SiC",
-          "polytype control",
-          "MXene",
-          "mechanical properties",
-          "spark plasma sintering"
+          "Ti-6Al-4V",
+          "electron beam powder bed fusion",
+          "chemical immersion",
+          "surface roughness",
+          "post-processing",
+          "scan strategy"
         ],
         "summary_zh": {
-          "motivation": "控制聚合物衍生SiC的多型体选择仍具挑战。",
-          "method": "引入TiVCrMoC3 MXene纳米片作为模板，通过界面工程调控SiC多型体演化。",
-          "result": "最优MXene含量使杨氏模量和断裂韧性分别提升82%和42%。",
-          "validation": "通过力学测试（模量和韧性）验证界面工程效果。"
+          "motivation": "减少PBF-EB/M制造Ti-6Al-4V的表面粗糙度",
+          "method": "采用氢氟酸化学浸没和两种扫描策略的三阶段实验",
+          "result": "粗糙度参数降低约20%，连续轮廓扫描显著增加Rsm",
+          "validation": "表面粗糙度测量"
         },
         "summary_en": {
-          "motivation": "Controlling polytype selection in polymer-derived SiC remains challenging due to local stacking sequence determination at the nucleation front.",
-          "method": "Compositionally complex TiVCrMoC3 MXene nanosheets are introduced at the preceramic stage to bias SiC polytype evolution via interfacial reconstruction during spark plasma sintering.",
-          "result": "Optimal MXene loading yields an 82% increase in Young's modulus and a 42% improvement in fracture toughness due to enhanced interfacial reconstruction.",
-          "validation": "Mechanical testing (Young's modulus and fracture toughness) confirms the effectiveness of the interfacial polytype engineering strategy."
+          "motivation": "To reduce the as-built surface roughness of Ti-6Al-4V components produced by electron beam powder bed fusion via a chemical immersion post-processing technique.",
+          "method": "A three-stage experimental approach investigated the effects of hydrofluoric acid immersion (1% at room temperature for 120 min) and two electron beam scan strategies (continuous contouring and multi-spot contouring) on surface characteristics.",
+          "result": "Chemical immersion reduced multiple roughness parameters (Ra, Rq, Rz, Rp, Rv) by approximately 20%, while continuous contouring increased the mean spacing of profile irregularities (Rsm) by 45% and altered surface morphology.",
+          "validation": "Surface roughness was characterized using contact profilometry, confirming the changes induced by post-processing and scan strategy."
         },
         "key_terms": [
           {
-            "en": "silicon carbide (SiC)",
-            "zh": "碳化硅"
+            "en": "electron beam powder bed fusion",
+            "zh": "电子束粉末床熔融"
           },
           {
-            "en": "polytype",
-            "zh": "多型体"
+            "en": "chemical immersion",
+            "zh": "化学浸没"
           },
           {
-            "en": "MXene",
-            "zh": "MXene"
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           },
           {
-            "en": "spark plasma sintering",
-            "zh": "放电等离子烧结"
+            "en": "Ti-6Al-4V ELI",
+            "zh": "Ti-6Al-4V ELI合金"
           },
           {
-            "en": "Young's modulus",
-            "zh": "杨氏模量"
+            "en": "scan strategy",
+            "zh": "扫描策略"
           },
           {
-            "en": "fracture toughness",
-            "zh": "断裂韧性"
+            "en": "post-processing",
+            "zh": "后处理"
+          },
+          {
+            "en": "hydrofluoric acid",
+            "zh": "氢氟酸"
+          },
+          {
+            "en": "contour scanning",
+            "zh": "轮廓扫描"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:20:36Z"
-    },
-    {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2603.25617v2",
-      "doi": "10.1016/j.ijplas.2026.104686",
-      "arxiv_id": "2603.25617v2",
-      "title": "Molecular dynamics study of the role of anisotropy in radiation-driven embrittlement",
-      "abstract": "This study investigates the influence of crystallographic orientation on fracture behavior and the resulting mechanical anisotropy in a Fe55Ni19Cr26 alloy crystal containing radiation-induced defects, using molecular dynamics (MD) simulations. Crack propagation is analyzed in irradiated samples with three selected high-symmetry crystallographic orientations to show how radiation-induced defects modify local deformation mechanisms and amplify mechanical anisotropy. The investigation focuses on the anisotropic nature of the ductile-to-brittle transition (DBT) driven by radiation-induced defects by simulating fracture behavior under tensile loading. Fracture resistance is quantitatively evaluated using a traction-separation (T-S) approach to extract the atomic-scale fracture energy under realistic defect conditions. The results reveal a strong crystallographic orientation dependence in the evolution of deformation and fracture behavior during DBT. The crystal lattice orientation governs dislocation activity and defect interactions, which in turn regulate local plasticity mechanisms, strain localization, slip system activation, and fracture resistance, thereby driving the development and enhancement of mechanical anisotropy in irradiated materials. It is further shown that radiation-induced embrittlement cannot be explained solely by defect accumulation, but rather by orientation-sensitive interactions among dislocations, defects, and fracture process zones. A key novelty of this work lies in integrating radiation-induced defect evolution with orientation-dependent fracture within an atomistic T-S analysis, enabling quantitative assessment of atomic-scale fracture resistance under realistic defect conditions.",
-      "authors": [
-        "Hojjat Mousavi",
-        "Stanisław Stupkiewicz",
-        "Aneta Ustrzycka"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2026,
-      "date": "2026-03-26",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2603.25617v2",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "mechanical anisotropy"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该研究与用户的增材制造、生物打印、髋关节植入物等方向完全无关。",
-        "why_not_core": "This paper does not address additive manufacturing, biomedical implants, bioprinting, or any mechanical testing related to medical devices; it is focused on radiation-induced embrittlement in nuclear alloys.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "molecular dynamics",
-          "radiation embrittlement",
-          "anisotropy",
-          "FeNiCr alloy"
-        ],
-        "summary_zh": {
-          "motivation": "研究辐照缺陷下晶体取向对FeNiCr合金脆化的影响",
-          "method": "利用分子动力学模拟不同取向裂纹扩展，结合牵引-分离方法提取断裂能",
-          "result": "发现辐照脆化具有强取向依赖性，位错与缺陷的交互作用主导各向异性",
-          "validation": "纯原子尺度模拟，无实验验证"
-        },
-        "summary_en": {
-          "motivation": "To investigate how crystallographic orientation affects fracture behavior and mechanical anisotropy in irradiated FeNiCr alloys.",
-          "method": "Molecular dynamics simulations of crack propagation in three high-symmetry orientations with radiation-induced defects, using a traction-separation approach to quantify fracture energy.",
-          "result": "Radiation-induced embrittlement is strongly orientation-dependent, driven by dislocation-defect interactions that regulate plasticity and fracture resistance.",
-          "validation": "Atomistic simulations only, no experimental validation."
-        },
-        "key_terms": [
-          {
-            "en": "molecular dynamics",
-            "zh": "分子动力学"
-          },
-          {
-            "en": "radiation-induced defects",
-            "zh": "辐照缺陷"
-          },
-          {
-            "en": "crystallographic orientation",
-            "zh": "晶体取向"
-          },
-          {
-            "en": "mechanical anisotropy",
-            "zh": "力学各向异性"
-          },
-          {
-            "en": "ductile-to-brittle transition",
-            "zh": "韧脆转变"
-          },
-          {
-            "en": "traction-separation law",
-            "zh": "牵引-分离定律"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:20:36Z"
+      "first_seen_at": "2026-06-07T23:28:07Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 1,
     "by_source": {
-      "arxiv": 2
+      "openalex": 1
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 1,
+    "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 2
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "arxiv": 2
+      "openalex": 1
     },
-    "scored": 2,
+    "scored": 1,
     "priority_counts": {
-      "Exclude": 2
+      "Low": 1
     }
   }
 }

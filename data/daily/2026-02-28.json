@@ -4,49 +4,62 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2603.00726v1",
-      "doi": "10.7498/aps.74.20250738",
-      "arxiv_id": "2603.00726v1",
-      "title": "Deformation mechanisms and compressive response of NbTaTiZr alloy via machine learning potentials",
-      "abstract": "Refractory multi-principal element alloys (MPEAs) are key research focus for excellent high-temp properties and engineering potential. Deformation mechanisms/mechanical behaviors of quaternary NbTaTiZr MPEA under high strain rates/extreme temps remain unclear. We built a variable-composition ML potential for NbTaTiZr, combined with MD simulations to study effects of crystal orientation, strain rate, temp, composition on compressive mechanics. NbTaTiZr shows structural/mechanical anisotropy in compression [111] max yield strength, [110] min (prone to twinning), [100] via local disorder/dislocation slip (dominant 1/2<111> dislocations). At 10^10 s^-1, yield strength rises sharply, disordered structures increase; high strain rates suppress dislocations to promote disordering. Retains high strength at 2100 K. Higher Nb/Ta boosts yield strength, Ti/Zr reduce it. Reveals MPEA mechanical anisotropy and strain-rate-dependent disordering, guiding high-performance refractory alloy design.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7132820862",
+      "doi": "10.1007/s11665-026-13536-4",
+      "title": "Effect of Build Orientation on the Electrochemical Behavior of Additively Manufactured Ti-6Al-4V Alloy",
+      "abstract": "",
       "authors": [
-        "Hongyang Liu",
-        "Bo Chen",
-        "Rong Chen",
-        "Dongdong Kang",
-        "Jiayu Dai"
+        "Pankaj Kumar Singh",
+        "Santosh Kumar",
+        "Pramod Kumar Jain"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Department of Mechanical Engineering, IIT (BHU), Varanasi, Uttar Pradesh, 221005, India",
+      "corresponding_authors": [
+        {
+          "name": "Pankaj Kumar Singh",
+          "affiliation": "Department of Mechanical Engineering, IIT (BHU), Varanasi, Uttar Pradesh, 221005, India"
+        }
+      ],
+      "venue": "Journal of Materials Engineering and Performance",
       "year": 2026,
       "date": "2026-02-28",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2603.00726v1",
+      "url": "https://doi.org/10.1007/s11665-026-13536-4",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "physics.comp-ph"
+      "concepts": [
+        "Materials science",
+        "Alloy",
+        "Electrochemistry",
+        "Corrosion",
+        "Orientation (vector space)",
+        "Fusion",
+        "Metallurgy",
+        "Composite material",
+        "Metal",
+        "Selective laser melting"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "yield strength",
-          "mechanical anisotropy"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "build orientation"
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文关于难熔多主元合金的力学性能，但未涉及生物医学植入物或增材制造，与用户研究方向关联性较弱。",
-        "why_not_core": "This paper focuses on a refractory alloy (NbTaTiZr) for high-temperature applications, without any biomedical context, implant design, additive manufacturing, or experimental mechanical testing relevant to the user's directions.",
-        "validation_kind": "theoretical",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究增材制造Ti-6Al-4V的电化学行为，而非力学性能或疲劳性能，与用户方向无关。",
+        "why_not_core": "The paper investigates electrochemical corrosion behavior, not mechanical or fatigue properties of Ti-6Al-4V.",
+        "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
@@ -54,80 +67,63 @@
           "is_review": false
         },
         "tags": [
-          "refractory MPEA",
-          "machine learning potential",
-          "molecular dynamics",
-          "deformation mechanisms",
-          "compressive response"
+          "electrochemical behavior",
+          "corrosion",
+          "Ti-6Al-4V",
+          "build orientation"
         ],
         "summary_zh": {
-          "motivation": "研究NbTaTiZr难熔多主元合金在高应变率下的变形机制和力学行为",
-          "method": "构建变组分机器学习势，结合分子动力学模拟不同取向、应变率和温度下的压缩响应",
-          "result": "发现合金具有各向异性，高应变率抑制位错促进无序化，高温下仍保持高强度",
-          "validation": "分子动力学模拟，无实验验证"
+          "motivation": "研究不同建造方向对增材制造Ti-6Al-4V电化学行为的影响。",
+          "method": "通过电化学测试分析不同建造方向试样的耐腐蚀性能。",
+          "result": "建造方向影响电化学行为，但未涉及力学或疲劳性能。",
+          "validation": "电化学实验验证，无力学测试。"
         },
         "summary_en": {
-          "motivation": "To investigate the deformation mechanisms and compressive response of the refractory NbTaTiZr multi-principal element alloy under high strain rates and extreme temperatures.",
-          "method": "A variable-composition machine learning potential was developed and combined with molecular dynamics simulations to study the effects of crystal orientation, strain rate, temperature, and composition on compressive mechanical behavior.",
-          "result": "The alloy exhibits structural and mechanical anisotropy; high strain rates suppress dislocation activity and promote disordering, while high strength is retained up to 2100 K.",
-          "validation": "The study relies entirely on molecular dynamics simulations without experimental validation."
+          "motivation": "To study the effect of build orientation on the electrochemical behavior of additively manufactured Ti-6Al-4V.",
+          "method": "Electrochemical tests were conducted on specimens with different build orientations to evaluate corrosion resistance.",
+          "result": "Build orientation influences electrochemical behavior, but no mechanical or fatigue data are reported.",
+          "validation": "Validation through electrochemical experiments only, without mechanical testing."
         },
         "key_terms": [
           {
-            "en": "refractory multi-principal element alloy",
-            "zh": "难熔多主元合金"
+            "en": "build orientation",
+            "zh": "建造方向"
           },
           {
-            "en": "machine learning potential",
-            "zh": "机器学习势"
+            "en": "electrochemical behavior",
+            "zh": "电化学行为"
           },
           {
-            "en": "molecular dynamics",
-            "zh": "分子动力学"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "deformation mechanism",
-            "zh": "变形机制"
-          },
-          {
-            "en": "compressive response",
-            "zh": "压缩响应"
-          },
-          {
-            "en": "dislocation",
-            "zh": "位错"
-          },
-          {
-            "en": "twinning",
-            "zh": "孪生"
-          },
-          {
-            "en": "anisotropy",
-            "zh": "各向异性"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:19:20Z"
+      "first_seen_at": "2026-06-07T23:25:34Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {
-      "Low": 1
+      "Exclude": 1
     }
   }
 }

@@ -4,129 +4,151 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2601.05712v1",
-      "doi": "",
-      "arxiv_id": "2601.05712v1",
-      "title": "Unraveling the effects of anionic vacancies and temperature on mechanical properties of NbC and NbN: Insights from Quantum Mechanical Study",
-      "abstract": "Transition metal carbides and nitrides (TMCNs), such as niobium carbide (NbC) and niobium nitride (NbN), are of great technological interest due to their exceptional hardness, high melting points, and thermal stability. While previous studies have focused on their groundstate properties (at 0 K), limited information exists on their mechanical behavior under realistic operational conditions involving elevated temperatures and the presence of defects. In this study, we employ ab initio molecular dynamics (AIMD) simulations to investigate the effects of temperature (300 to 1500 K) and anionic vacancies on the mechanical properties of NbC and NbN in rocksalt (RS), zincblende (ZB), and wurtzite (WZ) structures. The results reveal a nonlinear decrease in elastic constants, bulk, shear, and Youngs moduli with both increasing temperature and defect concentration. Hardness and toughness analyses, based on Pughs ratio and Poisson ratio, show ductility and brittleness transitions that are sensitive to structure, defect level, and thermal effects. Furthermore, vacancy migration energies computed using the nudged elastic band (NEB) method demonstrate strong structural dependence, with RS exhibiting the highest barriers and WZ the lowest. These findings provide new insights into the defect and temperature interplay in NbC and NbN, offering guidelines for their optimization in high-temperature and wear-resistant applications.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7119594566",
+      "doi": "10.1002/rar2.70150",
+      "title": "On the Damage Tolerance of Diffusion Bonded Titanium–Aluminum Phase Biomimetic Composites",
+      "abstract": "ABSTRACT The biomimetic design principles of natural structures involve the strategic integration of stiff and compliant phases to synergistically enhance strength and toughness. Its evolutionary refined natural armor, characterized by a specialized microarchitecture, enables superior damage tolerance. However, achieving a continuous distribution of heterogeneous materials within metallic matrices remains challenging, particularly with respect to interface adhesion quality. Herein, diffusion bonding was employed to embed 6061 Al into additively manufactured Ti6Al4V scaffolds, yielding titanium–aluminum composites. A three‐dimensional interpenetrating network of composite constituents was achieved, with the pressure infiltration process yielding low porosity and facilitating the formation of intermetallic compounds at the interface. Spatially, the composites exhibited Bouligand, crossed‐lamellar, and spiral architectures. These biomimetic microstructures activated external toughening mechanisms, such as crack deflection and twisting, effectively redistributing stress, mitigating damage propagation, and suppressing crack growth. Consequently, the crack tip was shielded from applied stresses, resulting in enhanced fracture toughness and high damage tolerance. Furthermore, this approach markedly enhanced the tensile properties of the metal matrix composites with biomimetic architectures, achieving a strength‐to‐ductility balance comparable to that of conventional laminated composites.",
       "authors": [
-        "P. W. Muchiri",
-        "K. K. Korir",
-        "N. W. Makau",
-        "M. O. Atambo",
-        "G. O. Amolo"
+        "Shuai Tong",
+        "Junming Xiong",
+        "Zheng Ma",
+        "Jize Liu",
+        "Ji Sun",
+        "Guoxiang Shen",
+        "Shichao Niu",
+        "Z. Wang",
+        "Ye Hu",
+        "Luquan Ren",
+        "ChuLiang Yan"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "School of Mechanical and Aerospace Engineering Jilin University  Changchun China",
+      "corresponding_authors": [
+        {
+          "name": "Zheng Ma",
+          "affiliation": "School of Mechanical and Aerospace Engineering Jilin University  Changchun China"
+        }
+      ],
+      "venue": "Rare Metals",
       "year": 2026,
       "date": "2026-01-09",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2601.05712v1",
+      "url": "https://doi.org/10.1002/rar2.70150",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Damage tolerance",
+        "Toughness",
+        "Composite number",
+        "Ultimate tensile strength",
+        "Porosity",
+        "Fracture toughness",
+        "Microstructure",
+        "Intermetallic",
+        "Metal",
+        "Delamination (geology)",
+        "Toughening",
+        "Deflection (physics)"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "ductility"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "ductility",
+          "porosity"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是NbC和NbN的量子力学力学性能，与用户的增材制造或生物医学植入物研究方向无关。",
-        "why_not_core": "This paper does not involve additive manufacturing, biomedical implants, or any experimental validation relevant to AM mechanical properties.",
-        "validation_kind": "theoretical",
+        "relevance_to_user": "该论文研究了扩散连接钛-铝仿生复合材料，而非纯Ti-6Al-4V的力学性能，因此对用户方向不直接相关。",
+        "why_not_core": "The paper focuses on Ti-6Al-4V/Al composites and their toughening mechanisms, not on the mechanical or fatigue performance of Ti-6Al-4V alone.",
+        "validation_kind": "mechanical_testing",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "AIMD",
-          "niobium carbide",
-          "niobium nitride",
-          "vacancies",
-          "temperature effects",
-          "mechanical properties"
+          "diffusion bonding",
+          "titanium-aluminum composite",
+          "biomimetic",
+          "damage tolerance",
+          "fracture toughness"
         ],
         "summary_zh": {
-          "motivation": "研究空位和温度对NbC和NbN力学性能的影响。",
-          "method": "使用AIMD模拟弹性常数，NEB计算空位迁移能。",
-          "result": "弹性模量随温度和空位浓度非线性降低，出现脆韧性转变。",
-          "validation": "仅通过第一性原理计算，无实验验证。"
+          "motivation": "模仿自然生物结构设计强韧复合材料",
+          "method": "扩散连接将6061铝嵌入增材制造Ti6Al4V支架",
+          "result": "获得Bouligand等仿生结构，裂纹偏转增韧，断裂韧性和拉伸性能提升",
+          "validation": "通过力学实验验证裂纹抑制和增韧效果"
         },
         "summary_en": {
-          "motivation": "To understand how anionic vacancies and elevated temperature affect the mechanical behavior of NbC and NbN for high-temperature applications.",
-          "method": "Ab initio molecular dynamics simulations to compute elastic constants and nudged elastic band method for vacancy migration barriers.",
-          "result": "Elastic moduli decrease nonlinearly with temperature and vacancy concentration; ductile-to-brittle transitions depend on structure, defect level, and temperature.",
-          "validation": "Validation relies on first-principles calculations without experimental comparison."
+          "motivation": "To apply biomimetic design principles from nature to develop metal matrix composites with enhanced strength and toughness.",
+          "method": "Diffusion bonding was used to infiltrate 6061 Al into additively manufactured Ti6Al4V scaffolds, creating interpenetrating phase composites with Bouligand, crossed-lamellar, and spiral architectures.",
+          "result": "The biomimetic microstructures activated external toughening mechanisms such as crack deflection and twisting, leading to improved fracture toughness and a strength-ductility balance comparable to conventional laminated composites.",
+          "validation": "Mechanical testing including tensile and fracture toughness measurements validated the damage tolerance enhancement."
         },
         "key_terms": [
           {
-            "en": "niobium carbide",
-            "zh": "碳化铌"
+            "en": "diffusion bonding",
+            "zh": "扩散连接"
           },
           {
-            "en": "niobium nitride",
-            "zh": "氮化铌"
+            "en": "titanium-aluminum composite",
+            "zh": "钛铝复合材料"
           },
           {
-            "en": "anionic vacancies",
-            "zh": "阴离子空位"
+            "en": "biomimetic",
+            "zh": "仿生"
           },
           {
-            "en": "elastic constants",
-            "zh": "弹性常数"
+            "en": "damage tolerance",
+            "zh": "损伤容限"
           },
           {
-            "en": "AIMD",
-            "zh": "从头算分子动力学"
+            "en": "fracture toughness",
+            "zh": "断裂韧性"
           },
           {
-            "en": "nudged elastic band",
-            "zh": "微动弹性带"
+            "en": "interpenetrating network",
+            "zh": "互穿网络"
           },
           {
-            "en": "Pugh's ratio",
-            "zh": "普格比"
+            "en": "Bouligand structure",
+            "zh": "Bouligand结构"
           },
           {
-            "en": "hardness",
-            "zh": "硬度"
-          },
-          {
-            "en": "ductility",
-            "zh": "延展性"
+            "en": "crack deflection",
+            "zh": "裂纹偏转"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:18:22Z"
+      "first_seen_at": "2026-06-07T23:23:51Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {

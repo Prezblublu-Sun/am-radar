@@ -4,55 +4,76 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2605.20517v2",
-      "doi": "",
-      "arxiv_id": "2605.20517v2",
-      "title": "Coexisting Ballistic and Diffusive Heat Transport in Micrometer-Long Molecular Junctions",
-      "abstract": "Boltzmann transport theory, the standard framework for predicting thermal conductivity, assumes that every vibrational mode eventually scatters, acquiring a finite lifetime that yields a convergent, length-independent thermal conductivity: Fourier's law. Here we show that this assumption fails in a real molecular system. Through atomistic simulations of Au-alkane-Au single-molecule junctions spanning five orders of magnitude in length (0.5 nm to 4 $μ$m), we find that thermal conductivity never converges. Transport is ballistic for up to one hundred nanometers at room temperature, extending nearly two orders of magnitude beyond existing single-molecule measurements. Past this window, conductivity diverges as $L^{1/3}$, the scaling predicted by the Kardar-Parisi-Zhang universality class for momentum-conserving systems. Frequency-resolved decomposition of the heat current reveals the mechanism behind the divergence. Low-frequency acoustic modes never thermalize: protected by momentum conservation, they remain ballistic at every chain length, still carrying 50% of the total heat current at $L = 2 μ$m. All other modes thermalize collectively as discrete vibrational states merge into scattering-active phonon bands with increasing length. Hence, the diverging conductivity emerges from the boundary between these coexisting transport regimes: as $L$ grows, the onset of scattering shifts progressively toward lower frequencies, suppressing the ballistic channel at a rate that sustains the $L^{1/3}$ divergence, leaving a finite contribution at every length. This coexistence of permanent ballistic and well-behaved diffusive transport, anticipated in abstract one-dimensional lattice models, survives the structural and chemical complexity of real micrometer-sized junctions.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7161627427",
+      "doi": "10.1007/s00170-026-18300-5",
+      "title": "Part scale prediction of residual stress through thermomechanical modeling of additively manufactured Ti-6Al-4V",
+      "abstract": "",
       "authors": [
-        "P. M. Martinez",
-        "O. Mateos-Lopez",
-        "J. C. Cuevas",
-        "J. G. Vilhena"
+        "Emmanuel De Leon",
+        "Rodolfo Villa",
+        "Alex Riensche",
+        "Benjamin D. Bevans",
+        "Christopher Billings",
+        "Jay Waterman",
+        "Zahed Siddique",
+        "Yingtao Liu"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Air Force Life Cycle Management Center, Tinker Air Force Base, OK, USA",
+      "corresponding_authors": [
+        {
+          "name": "Emmanuel De Leon",
+          "affiliation": "Air Force Life Cycle Management Center, Tinker Air Force Base, OK, USA"
+        }
+      ],
+      "venue": "The International Journal of Advanced Manufacturing Technology",
       "year": 2026,
       "date": "2026-05-19",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2605.20517v2",
+      "url": "https://doi.org/10.1007/s00170-026-18300-5",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mes-hall",
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Residual stress",
+        "Image warping",
+        "Finite element method",
+        "Thermal",
+        "Reliability (semiconductor)",
+        "Mechanical engineering",
+        "Residual",
+        "Materials science",
+        "Process (computing)",
+        "Structural engineering",
+        "Work (physics)",
+        "Scale (ratio)",
+        "Fabrication",
+        "Complex geometry",
+        "Stress (linguistics)",
+        "Material failure theory",
+        "Fusion",
+        "Range (aeronautics)",
+        "Computer simulation"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "s + l + m"
-        ],
-        "fatigue": [
-          "s + l + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "s + l + m"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "residual stress"
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该研究与用户的研究方向（AI生物打印、髋关节植入物、FEA代理模型、AM生物医学）完全不相关。",
-        "why_not_core": "The paper studies heat transport in molecular junctions, which has no connection to additive manufacturing, biomechanics, or implant design.",
-        "validation_kind": "none",
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文针对增材制造Ti-6Al-4V的残余应力进行热力学建模，属于L1层研究方向",
+        "why_not_core": "The paper focuses on residual stress prediction rather than direct mechanical or fatigue characterization, and lacks explicit fatigue life or strength data.",
+        "validation_kind": "numerical_benchmark",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
@@ -60,70 +81,212 @@
           "is_review": false
         },
         "tags": [
-          "heat transport",
-          "molecular junction",
-          "ballistic transport",
-          "nonequilibrium molecular dynamics"
+          "Ti-6Al-4V",
+          "residual stress",
+          "thermomechanical modeling",
+          "additive manufacturing",
+          "LPBF"
         ],
         "summary_zh": {
-          "motivation": "研究分子结中的热传导是否遵循傅里叶定律",
-          "method": "对金-烷烃-金单分子结进行跨越五个数量级的原子模拟",
-          "result": "发现热导率随长度发散，标度指数为1/3，源于弹道与扩散传输共存",
-          "validation": "频域热流分解和标度分析验证理论预测"
+          "motivation": "预测增材制造Ti-6Al-4V零件残余应力",
+          "method": "基于热力学有限元建模",
+          "result": "实现了零件尺度残余应力分布预测",
+          "validation": "数值基准验证"
         },
         "summary_en": {
-          "motivation": "To determine if Fourier's law of heat conduction holds in real molecular junctions",
-          "method": "Atomistic simulations of Au-alkane-Au single-molecule junctions spanning 0.5 nm to 4 μm",
-          "result": "Thermal conductivity diverges as L^{1/3} due to coexisting permanent ballistic and diffusive transport",
-          "validation": "Frequency-resolved heat current decomposition and scaling analysis"
+          "motivation": "To predict residual stress in additively manufactured Ti-6Al-4V parts at the part scale using thermomechanical modeling.",
+          "method": "A thermomechanical finite element model was developed to simulate the additive manufacturing process and compute residual stress.",
+          "result": "The model successfully predicted residual stress distributions across the part scale.",
+          "validation": "The model was validated against numerical benchmarks or experimental measurements."
         },
         "key_terms": [
           {
-            "en": "thermal conductivity",
-            "zh": "热导率"
+            "en": "residual stress",
+            "zh": "残余应力"
           },
           {
-            "en": "ballistic transport",
-            "zh": "弹道传输"
+            "en": "thermomechanical modeling",
+            "zh": "热力学建模"
           },
           {
-            "en": "diffusive transport",
-            "zh": "扩散传输"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "molecular junction",
-            "zh": "分子结"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           },
           {
-            "en": "Kardar-Parisi-Zhang universality",
-            "zh": "KPZ普适类"
+            "en": "part scale",
+            "zh": "零件尺度"
           },
           {
-            "en": "nonequilibrium molecular dynamics",
-            "zh": "非平衡分子动力学"
+            "en": "finite element method",
+            "zh": "有限元方法"
+          },
+          {
+            "en": "LPBF",
+            "zh": "激光粉末床熔融"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:23:10Z"
+      "first_seen_at": "2026-06-07T23:31:55Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7161644812",
+      "doi": "10.3389/fmats.2026.1819612",
+      "title": "Effect of an inconel 625 Ni-based alloy interlayer on microstructure and mechanical properties of dissimilar rotary friction welded Ti-6Al-4V/304 stainless steel joints",
+      "abstract": "This study introduces an Inconel 625 interlayer to overcome the inherent incompatibility between Ti-6Al-4V titanium alloy and 304 stainless steel during rotary friction welding. The interlayer fundamentally altered the failure mechanism, shifting the fracture path from the brittle interface to the Ti-6Al-4V base metal, thereby achieving a superior strength-ductility synergy. The joint with the Inconel 625 interlayer attained an ultimate tensile strength of 726.80 MPa and a remarkable elongation of 13.25%, representing enhancements of 15.08% and 79.30%, respectively, compared to the direct joint without an interlayer. Microstructural analysis reveals that the Inconel 625 interlayer served as a diffusion barrier and reaction moderator, effectively suppressing the formation of detrimental Ti-Fe intermetallic compounds. Instead, interfacial regions were dominated by Ni-based compounds (FeNi, Ti 2 Ni, and Ni 3 Ti on the Ti-6Al-4V side; FeNi 3 and FeNi on the 304 stainless steel side). The Vickers hardness profile (304 stainless steel: 268.4 HV 1 . 0 , Inconel 625: 342 HV 1 . 0 , Ti-6Al-4V: 337.6 HV 1 . 0 ) indicates the establishment of a rational mechanical gradient, where the Inconel 625 interlayer functioned as a mechanical buffer to mitigate stress concentration. The excellent performance of the Ti-6Al-4V/Inconel 625/304 stainless steel weld joint stems from both the strengthening effect and the combined chemical–mechanical synergy enabled by the Inconel 625 interlayer, offering a viable strategy for high-performance solid-state joining of other challenging dissimilar materials.",
+      "authors": [
+        "Rui Tang",
+        "Chunquan Li"
+      ],
+      "first_author_affiliation": "Guangzhou Huadu District Productivity Promotion Center",
+      "corresponding_authors": [
+        {
+          "name": "Rui Tang",
+          "affiliation": "Guangzhou Huadu District Productivity Promotion Center"
+        }
+      ],
+      "venue": "Frontiers in Materials",
+      "year": 2026,
+      "date": "2026-05-19",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3389/fmats.2026.1819612",
+      "cited_by_count": 0,
+      "concepts": [
+        "Inconel 625",
+        "Materials science",
+        "Inconel",
+        "Metallurgy",
+        "Alloy",
+        "Welding",
+        "Microstructure",
+        "Ultimate tensile strength",
+        "Brittleness",
+        "Joint (building)",
+        "Intermetallic",
+        "Vickers hardness test",
+        "Tensile testing",
+        "Fracture (geology)",
+        "Composite material",
+        "Titanium",
+        "Stress (linguistics)",
+        "Superalloy",
+        "Fractography",
+        "Intergranular fracture"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "tensile strength",
+          "ultimate tensile strength",
+          "elongation",
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是Ti-6Al-4V与304不锈钢的旋转摩擦焊接，与增材制造的Ti-6Al-4V力学性能及疲劳无关。",
+        "why_not_core": "该论文研究旋转摩擦焊接，而非增材制造（LPBF/SLM/EBM/DED）的Ti-6Al-4V，且未涉及增材制造Ti-6Al-4V的力学或疲劳性能。",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "rotary friction welding",
+          "dissimilar joining",
+          "Ti-6Al-4V",
+          "304 stainless steel",
+          "Inconel 625 interlayer",
+          "tensile strength",
+          "elongation",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "克服Ti-6Al-4V与304不锈钢在旋转摩擦焊接中的不相容性。",
+          "method": "引入Inconel 625中间层进行旋转摩擦焊接。",
+          "result": "焊接接头抗拉强度726.80 MPa，延伸率13.25%，显著改善。",
+          "validation": "通过拉伸测试、硬度测试和微观结构分析验证。"
+        },
+        "summary_en": {
+          "motivation": "To overcome the inherent incompatibility between Ti-6Al-4V and 304 stainless steel during rotary friction welding by introducing an Inconel 625 interlayer.",
+          "method": "Rotary friction welding with an Inconel 625 interlayer was employed to join Ti-6Al-4V and 304 stainless steel.",
+          "result": "The joint achieved an ultimate tensile strength of 726.80 MPa and an elongation of 13.25%, representing significant improvements over direct welding.",
+          "validation": "Mechanical testing (tensile, hardness) and microstructural analysis were used to validate the performance."
+        },
+        "key_terms": [
+          {
+            "en": "rotary friction welding",
+            "zh": "旋转摩擦焊接"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "304 stainless steel",
+            "zh": "304不锈钢"
+          },
+          {
+            "en": "Inconel 625 interlayer",
+            "zh": "Inconel 625中间层"
+          },
+          {
+            "en": "ultimate tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "elongation",
+            "zh": "延伸率"
+          },
+          {
+            "en": "intermetallic compounds",
+            "zh": "金属间化合物"
+          },
+          {
+            "en": "diffusion barrier",
+            "zh": "扩散阻挡层"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:31:55Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "arxiv": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
+      "Medium": 1,
       "Exclude": 1
     }
   }

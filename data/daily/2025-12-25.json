@@ -1,0 +1,164 @@
+{
+  "schema_version": "v2",
+  "date": "2025-12-25",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7117316830",
+      "doi": "10.3390/ma19010080",
+      "title": "Evolution of the Metallographic Structure of Additively Manufactured Ti-6Al-4V and Ti-6Al-7Nb Titanium Alloys",
+      "abstract": "The aim of this study was to evaluate structural changes and their impact on the functional properties of Ti-6Al-4V and Ti-6Al-7Nb titanium alloys produced by L-PBF. In the as-built condition, these alloys, despite high strength due to the presence of metastable α' martensite, exhibit limited ductility. The samples were subjected to heat treatment at 850-1000 °C for 1 h, followed by aging at 500 °C for 4 h in an argon atmosphere. Analysis revealed a gradual microstructural transformation from the columnar structure characteristic of L-PBF to an equilibrium Widmanstätten microstructure. As a result of the decomposition of martensite and the formation of an α + β phase mixture, changes in microhardness and mechanical properties were observed. After heat treatment, the microhardness decreased by 15% for Ti-6Al-4V (from 427 ± 1 HV to 362 ± 25 HV) and by 12% for Ti-6Al-7Nb (from 408 ± 6 HV to 359 ± 15 HV). The Ti-6Al-7Nb alloy exhibited higher maximum elongation (7.7 ± 1.1%) than Ti-6Al-4V (4.8 ± 0.5%) due to a greater fraction of the β phase. The results highlight the critical role of the controlled α'→α + β transformation in tailoring the properties of titanium alloys and provide a basis for optimizing manufacturing processes for medical and aerospace components.",
+      "authors": [
+        "Dorota Laskowska",
+        "Błażej Bałasz",
+        "Łukasz Żurawski"
+      ],
+      "first_author_affiliation": "Faculty of Mechanical Engineering and Energy, Koszalin University of Technology, Śniadeckich 2, 75-453 Koszalin, Poland",
+      "corresponding_authors": [
+        {
+          "name": "Dorota Laskowska",
+          "affiliation": "Faculty of Mechanical Engineering and Energy, Koszalin University of Technology, Śniadeckich 2, 75-453 Koszalin, Poland"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-12-25",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma19010080",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Titanium alloy",
+        "Indentation hardness",
+        "Metallurgy",
+        "Elongation",
+        "Alloy",
+        "Microstructure",
+        "Martensite",
+        "Titanium",
+        "Phase (matter)",
+        "Metastability",
+        "Ultimate tensile strength",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "elongation",
+          "ductility"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究Ti-6Al-4V合金的L-PBF后热处理对显微组织和力学性能（硬度、延伸率）的影响，完全符合后处理控制方向。",
+        "why_not_core": "Does not include fatigue testing, only reports microhardness and tensile elongation; fatigue performance is a key mechanical property for the direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "heat treatment",
+          "L-PBF",
+          "Ti-6Al-4V",
+          "microstructure",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "评估热处理对L-PBF Ti-6Al-4V和Ti-6Al-7Nb合金结构变化及功能性能的影响。",
+          "method": "对试样进行850-1000℃固溶1小时+500℃时效4小时的热处理，分析显微组织和力学性能。",
+          "result": "热处理使马氏体分解为α+β相，显微硬度降低15%，延伸率提高。",
+          "validation": "通过硬度测试和拉伸试验验证力学性能变化。"
+        },
+        "summary_en": {
+          "motivation": "To evaluate the structural changes and resulting functional properties of L-PBF Ti-6Al-4V and Ti-6Al-7Nb alloys after heat treatment.",
+          "method": "Samples were solution treated at 850-1000 °C for 1 h and aged at 500 °C for 4 h, followed by microstructural and mechanical characterization.",
+          "result": "Heat treatment transformed the martensitic α' to an α+β mixture, reducing microhardness by 15% and increasing elongation.",
+          "validation": "Validation was performed through microhardness measurements and tensile tests."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "solution treatment",
+            "zh": "固溶处理"
+          },
+          {
+            "en": "aging",
+            "zh": "时效"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "elongation",
+            "zh": "延伸率"
+          },
+          {
+            "en": "α' martensite",
+            "zh": "α′马氏体"
+          },
+          {
+            "en": "α+β microstructure",
+            "zh": "α+β显微组织"
+          },
+          {
+            "en": "Widmanstätten structure",
+            "zh": "魏氏组织"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:21:34Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "High": 1
+    }
+  }
+}

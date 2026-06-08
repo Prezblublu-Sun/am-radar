@@ -1,0 +1,337 @@
+{
+  "schema_version": "v2",
+  "date": "2026-03-03",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7133200447",
+      "doi": "10.1016/j.matdes.2026.115775",
+      "title": "Strength prediction and microstructure quantification of Ti-6Al-4V alloy by selective laser melting based on machine learning",
+      "abstract": "• First integrated framework connects manufacturing parameters mechanical properties and microstructure for 3D printed titanium alloy • Advanced machine learning model predicts material strength with exceptional accuracy using process data. • Combined deep learning approach achieves high precision analysis of material microstructures automatically. The process parameters, microstructure, and mechanical properties of Ti-6Al-4V alloy fabricated by selective laser melting (SLM) are strongly coupled, limiting the effectiveness of conventional trial-and-error optimization. This study proposes a cross-scale framework integrating machine learning and deep learning to establish quantitative process–structure–property relationships. Based on 750 process parameter sets and 1,225 metallographic images, a multi-scale prediction, analysis, and optimization model is developed. A Bayesian-optimized XGBoost model achieves high-accuracy tensile strength prediction (R 2 = 0.98, MAE = 8.50 MPa), with Shapley Additive Explanations(SHAP) analysis identifying annealing temperature and laser power as the dominant factors. The Broyden-Fletcher-Goldfarb-Shanno(BFGS) algorithm identifies parameters yielding a theoretical maximum tensile strength of 1273.17 MPa. In parallel, deep learning models enable automated microstructure analysis: an enhanced ResNet50 achieves 98% accuracy in classifying lamellar, bimodal, and acicular microstructures, while U-Net and DeepLab V3+ models provide high-precision segmentation of lamellar and bimodal structures, enabling quantitative extraction of α-lamellar and primary equiaxed α phase fractions and characteristic sizes. This framework provides a data-driven pathway for linking SLM process parameters, microstructure evolution, and mechanical performance, highlighting the potential of artificial intelligence in metal additive manufacturing.",
+      "authors": [
+        "M.Y. Zuo",
+        "Y.H. Zeng",
+        "K. Sun",
+        "J. F. Sun",
+        "M. Wang"
+      ],
+      "first_author_affiliation": "School of Materials Science and Engineering, Liaoning Technical University, 47 Zhonghua Road, Fuxin, Liaoning 123000, China",
+      "corresponding_authors": [
+        {
+          "name": "M. Wang",
+          "affiliation": "School of Materials Science and Engineering, Liaoning Technical University, 47 Zhonghua Road, Fuxin, Liaoning 123000, China"
+        }
+      ],
+      "venue": "Materials & Design",
+      "year": 2026,
+      "date": "2026-03-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.matdes.2026.115775",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Selective laser melting",
+        "Microstructure",
+        "Equiaxed crystals",
+        "Ultimate tensile strength",
+        "Titanium alloy",
+        "Artificial intelligence",
+        "Machine learning",
+        "Alloy",
+        "Acicular",
+        "Mechanical engineering",
+        "Laser power scaling",
+        "Lamellar structure",
+        "Algorithm",
+        "Composite material",
+        "Smoothing",
+        "Artificial neural network",
+        "Deep learning"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "tensile strength"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "annealing"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文虽然以Ti-6Al-4V为对象并包含退火参数，但其核心是机器学习框架而非系统研究后处理对疲劳/力学性能的影响，后处理仅作为参数之一。",
+        "why_not_core": "The paper does not systematically study the effect of a specific post-processing route on fatigue/mechanical performance; it uses annealing as one parameter in a broader ML framework without dedicated post-processing experiments or comparisons.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "SLM Ti-6Al-4V",
+          "machine learning",
+          "tensile strength prediction",
+          "microstructure quantification",
+          "annealing"
+        ],
+        "summary_zh": {
+          "motivation": "建立SLM Ti-6Al-4V工艺-结构-性能关系",
+          "method": "使用贝叶斯优化XGBoost预测强度，深度学习分割微观组织",
+          "result": "强度预测R²=0.98，MAE=8.50 MPa，微观组织分类准确率98%",
+          "validation": "基于文献实验数据验证"
+        },
+        "summary_en": {
+          "motivation": "To establish a quantitative process-structure-property relationship for SLM Ti-6Al-4V using machine learning.",
+          "method": "Integrated a Bayesian-optimized XGBoost model for tensile strength prediction with deep learning for automated microstructure segmentation and classification.",
+          "result": "Achieved high-accuracy strength prediction (R²=0.98, MAE=8.50 MPa) and 98% microstructure classification accuracy, with annealing temperature identified as a key factor.",
+          "validation": "Validated against 750 process parameter sets and 1225 metallographic images from experimental data."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "XGBoost",
+            "zh": "XGBoost"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "annealing",
+            "zh": "退火"
+          },
+          {
+            "en": "SHAP",
+            "zh": "SHAP解释"
+          },
+          {
+            "en": "deep learning",
+            "zh": "深度学习"
+          },
+          {
+            "en": "segmentation",
+            "zh": "分割"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:28:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7133345220",
+      "doi": "10.3390/met16030284",
+      "title": "Research Progress on the Microstructure, Mechanical Properties, and Corrosion Behavior of TC4 Alloy Fabricated by Selective Laser Melting",
+      "abstract": "Selective laser melting (SLM), a pivotal additive manufacturing (AM) technology for titanium alloys, enables near-net-shape forming of complex structures with relative densities of up to 99.9%, making it indispensable in aerospace, biomedical, and marine engineering. This review comprehensively updates the state of the art on SLM-fabricated TC4 (Ti-6Al-4V) alloy, addressing critical gaps in previous studies by integrating novel research progress, in-depth mechanistic analyses, and multi-dimensional comparisons. The core focus is on the unique thermal cycle (106–108 °C/s heating/cooling rates) of SLM, which induces a predominant needle-like martensitic α′ phase (99.7%) and minimal β phase (0.3%), leading to intrinsic anisotropy and low ductility. Room-temperature tensile strength reaches 1315.32 MPa with 9.6% elongation, and high-cycle fatigue limits the range from 417 to 829 MPa, strongly dependent on process parameters and post-treatment. Corrosion anisotropy is systematically analyzed: the XY plane (parallel to scanning direction) exhibits superior corrosion resistance in 1 M HCl (fewer pits and lower corrosion current density) and 3.5% NaCl (more stable passive film) compared to the XZ plane (deposition direction). Novel insights include: (1) synergistic effects of SLM process parameters (laser power–scanning speed–hatch spacing) on defect evolution and microstructure uniformity; (2) atomistic mechanisms of α′→α + β phase transformation during post-heat treatment; and (3) corrosion–mechanical coupling behavior in harsh environments (e.g., marine and biomedical). Post-treatment strategies are refined: annealing at 800 °C for 2 h achieves 1099 MPa tensile strength and 17.4% elongation, while hot isostatic pressing (HIP) reduces porosity from 0.08% to 0.01% and weakens fatigue anisotropy. This review also identifies unresolved challenges (e.g., in situ defect monitoring and multi-field regulated performance) and proposes future directions (e.g., AI-driven process optimization and functional gradient structures).",
+      "authors": [
+        "Huiling Zhou",
+        "J. Li",
+        "Shugang Zhang",
+        "Bin Yang",
+        "Yuanbin Gui",
+        "X Li",
+        "Huixia Zhang",
+        "Xiaoru Zhuo",
+        "Sheng Lu",
+        "Yanxin Qiao"
+      ],
+      "first_author_affiliation": "School of Materials Science and Engineering, Jiangsu University of Science and Technology, Zhenjiang 212100, China",
+      "corresponding_authors": [
+        {
+          "name": "Sheng Lu",
+          "affiliation": "School of Materials Science and Engineering, Jiangsu University of Science and Technology, Zhenjiang 212100, China"
+        },
+        {
+          "name": "Yanxin Qiao",
+          "affiliation": "School of Materials Science and Engineering, Jiangsu University of Science and Technology, Zhenjiang 212100, China"
+        }
+      ],
+      "venue": "Metals",
+      "year": 2026,
+      "date": "2026-03-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/met16030284",
+      "cited_by_count": 3,
+      "concepts": [
+        "Materials science",
+        "Selective laser melting",
+        "Ultimate tensile strength",
+        "Corrosion",
+        "Microstructure",
+        "Titanium alloy",
+        "Metallurgy",
+        "Alloy",
+        "Hot isostatic pressing",
+        "Anisotropy",
+        "Annealing (glass)",
+        "Porosity",
+        "Composite material",
+        "Martensite",
+        "Fatigue limit",
+        "Titanium",
+        "Austenite",
+        "Phase (matter)",
+        "Laser"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TC4",
+          "tensile strength",
+          "elongation",
+          "ductility",
+          "porosity",
+          "defect",
+          "fatigue",
+          "high cycle fatigue"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TC4",
+          "hot isostatic pressing",
+          "heat treatment",
+          "annealing"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该综述系统总结了SLM成形TC4合金的后处理（退火、热等静压）对微观组织和力学性能的影响，与后处理调控疲劳/力学性能的研究方向高度相关。",
+        "why_not_core": "The paper is a review without novel experimental or modeling contributions, so it does not provide new quantitative data on post-processing effects.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": true
+        },
+        "tags": [
+          "selective laser melting",
+          "Ti-6Al-4V",
+          "post-processing",
+          "annealing",
+          "hot isostatic pressing",
+          "fatigue",
+          "corrosion"
+        ],
+        "summary_zh": {
+          "motivation": "综述SLM成形TC4合金的微观结构、力学性能及腐蚀行为，弥补先前研究的空白。",
+          "method": "综合评述SLM工艺参数、后处理（退火、HIP）对组织演变和性能的影响机制。",
+          "result": "退火和HIP可显著改善塑性并降低孔隙率，疲劳极限与工艺和后处理密切相关。",
+          "validation": "引用已发表文献中的数据，无独立实验验证。"
+        },
+        "summary_en": {
+          "motivation": "This review aims to comprehensively update the state of the art on SLM-fabricated TC4 alloy by integrating novel research progress and mechanistic analyses.",
+          "method": "It compares the effects of SLM process parameters and post-treatments like annealing and hot isostatic pressing on microstructure and mechanical properties.",
+          "result": "Annealing at 800°C achieves 1099 MPa tensile strength with 17.4% elongation, while HIP reduces porosity to 0.01% and weakens fatigue anisotropy.",
+          "validation": "The review synthesizes published data without conducting new experiments."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "TC4钛合金"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          },
+          {
+            "en": "annealing",
+            "zh": "退火"
+          },
+          {
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
+          },
+          {
+            "en": "fatigue",
+            "zh": "疲劳"
+          },
+          {
+            "en": "corrosion",
+            "zh": "腐蚀"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "phase transformation",
+            "zh": "相变"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:28:07Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 2,
+    "by_source": {
+      "openalex": 2
+    },
+    "after_dedup": 2,
+    "after_routing": 2,
+    "by_direction": {
+      "ti6al4v_postprocess": 2
+    },
+    "routed_by_source": {
+      "openalex": 2
+    },
+    "scored": 2,
+    "priority_counts": {
+      "Medium": 2
+    }
+  }
+}

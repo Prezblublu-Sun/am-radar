@@ -4,46 +4,76 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2509.23658v1",
-      "doi": "",
-      "arxiv_id": "2509.23658v1",
-      "title": "Twist-Free Enhancement of Strength and Modulus in Electrospun Yarns via Liquid-Assisted Capillary Densification",
-      "abstract": "Electrospun yarns often fall short of the strength and stiffness of their constituent nanofibers because of loose packing and inter-fiber slip. We report a simple, twist-free route to close this gap by liquid-assisted rolling: yarns are briefly wetted (water or ethanol) and subjected to gentle rolling action (mechanical strokes perpendicular and parallel to the yarn axis), then dried under controlled conditions so that meniscus forces compact the assembly into tightly bound bundles. The treatment yields large gains in tensile strength and modulus, and as yarn diameter decreases the properties of liquid-treated yarns approach single-fiber limits, indicating more efficient load transfer. Dry-rolling controls produce negligible changes compared to as-spun yarns, confirming that capillarity-driven consolidation, rather than mechanical pressing, dominates the improvement. Water consistently outperforms ethanol, reflecting its larger elastocapillary driving term gamma*(1 + cos theta) on PAN and thus stronger capillary compaction; a short post-treatment anneal near Tg further increases stiffness with a corresponding reduction in ductility. To rationalize these trends, we quantify microstructure via SEM-derived alignment and packing density and show that these complementary descriptors jointly explain variability in mechanical response. A compact constitutive framework, grounded in distributed fiber recruitment and adhesion/frictional contact, captures the observed strengthening-ductility trade-off across processing routes. The results establish capillarity-driven consolidation as a scalable pathway to engineer processing-structure-property relationships in hierarchical polymer fiber assemblies and provide practical guidance for upgrading electrospun yarns, alone or as precursors to twisted and composite architectures.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4414579679",
+      "doi": "10.1007/s40964-025-01342-8",
+      "title": "Increased warping associated with lack of fusion porosity in additively manufactured PBFLB/Ti6Al4V cantilevers",
+      "abstract": "Abstract Powder Bed Fusion using a Laser Beam on Metals (PBF-LB/M) is one of the most widely used methods in the additive manufacturing of metals. This study used recommended process parameters on a commercial PBF-LB/M system to manufacture a series of cantilever specimens using the Ti6Al4V (ELI) alloy powder. During the manufacturing process, the material experienced residual stress (RS) causing cracking in some of the struts and resulting in warping, as expected for the cantilever specimens. The degree of warping indicated the amount of RS in the material and is a challenge for PBF-LB/M as-built parts. It is therefore important to study and minimize them as far as possible. Recently, post-processes, such as heat treatment and shot peening, are used to reduce RS. This paper reports on X-ray Computed Tomography (XCT) results acquired following the manufacturing process, showing an interesting correlation between lack of fusion (LOF) porosity and warping. The specimens were found to contain a range of different amounts of LOF porosity from 0.05 to 7.83%. It was observed that the increased LOF correlated with the increased warping in the series of cantilever specimens. It is reported that the previously contaminated protective window in the PBF-LB/M machine reduced the laser energy reaching the powder bed of specific parts, leading to the LOF porosity. With the support of numerical simulations, we propose that extensive LOF porosity is partly the cause for higher RS above the LOF pores due to reduced thermal dissipation, leading to stronger thermal gradients and more local RS and subsequent increased warping in the parts with higher amounts of LOF. This is the first reported observation of this interesting correlation between porosity and warping in additively manufactured metals.",
       "authors": [
-        "Saujatya Mandal",
-        "Sonu Dhiman",
-        "Debashish Das"
+        "Tebogo Ledwaba",
+        "Karabo Moore",
+        "Dean Kouprianoff",
+        "Christine Steenkamp",
+        "Anton du Plessis"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Stellenbosch University, Stellenbosch, South Africa",
+      "corresponding_authors": [
+        {
+          "name": "Tebogo Ledwaba",
+          "affiliation": "Stellenbosch University, Stellenbosch, South Africa"
+        },
+        {
+          "name": "Anton du Plessis",
+          "affiliation": "Math2Market North America Inc, United States, North America, US"
+        }
+      ],
+      "venue": "Progress in Additive Manufacturing",
       "year": 2025,
       "date": "2025-09-28",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2509.23658v1",
+      "url": "https://doi.org/10.1007/s40964-025-01342-8",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.soft",
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Image warping",
+        "Materials science",
+        "Cantilever",
+        "Porosity",
+        "Fusion",
+        "Composite material",
+        "Cracking",
+        "Thermal",
+        "Alloy",
+        "Titanium alloy",
+        "Residual stress",
+        "Process window",
+        "Finite element method"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "tensile strength",
-          "ductility"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "porosity",
+          "residual stress"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "heat treatment",
+          "shot peening"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究静电纺丝纱线的毛细致密化增强力学性能，与增材制造力学性能方向无直接关联。",
-        "why_not_core": "The paper does not involve additive manufacturing processes, implant design, or mechanical characterization of AM parts; it focuses on electrospun yarn densification for textile applications.",
+        "read_action": "Background only",
+        "relevance_to_user": "文章研究了Ti6Al4V成形件中熔合缺陷孔洞与翘曲的关联，但未涉及任何后处理工艺对性能的改善。",
+        "why_not_core": "No post-processing treatment (heat treatment, shot peening, etc.) is applied or investigated; the paper focuses solely on as-built defect correlation and residual stress.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -52,76 +82,89 @@
           "is_review": false
         },
         "tags": [
-          "electrospinning",
-          "yarn",
-          "capillary densification",
-          "mechanical properties",
-          "polymer fibers"
+          "Ti-6Al-4V",
+          "lack of fusion porosity",
+          "warping",
+          "residual stress",
+          "X-ray computed tomography",
+          "numerical simulation"
         ],
         "summary_zh": {
-          "motivation": "提高静电纺丝纱线的强度和模量至接近单纤维水平。",
-          "method": "采用液体辅助滚动致密化处理，利用毛细力压实纤维束。",
-          "result": "处理后的纱线强度和模量显著提升，且直径越小性能越接近单纤维。",
-          "validation": "通过SEM表征和力学测试验证微观结构与力学性能的关联。"
+          "motivation": "探究Ti6Al4V激光粉末床熔融成形件中熔合缺陷孔洞与翘曲之间的关联。",
+          "method": "制造一系列悬臂梁试样，采用X射线断层扫描和数值模拟分析孔洞与翘曲的关系。",
+          "result": "发现熔合缺陷孔洞率越高，翘曲越严重，且孔洞导致热梯度增大和残余应力升高。",
+          "validation": "通过实验测量翘曲和XCT表征孔洞，并结合数值模拟验证。"
         },
         "summary_en": {
-          "motivation": "To bridge the gap in strength and stiffness between electrospun yarns and their constituent nanofibers through improved packing and load transfer.",
-          "method": "Liquid-assisted rolling was employed to induce capillary-driven consolidation, followed by controlled drying and optional annealing near Tg.",
-          "result": "Tensile strength and modulus were greatly enhanced, approaching single-fiber limits for finer yarns, with water outperforming ethanol due to higher elastocapillary force.",
-          "validation": "Microstructural descriptors from SEM (alignment, packing density) were correlated with mechanical properties, and a constitutive model captured the strength-ductility trade-off."
+          "motivation": "This study aims to investigate the correlation between lack of fusion porosity and warping in as-built Ti6Al4V cantilevers manufactured by PBF-LB/M.",
+          "method": "Cantilever specimens with varying levels of porosity were fabricated, and X-ray computed tomography along with numerical simulations were used to correlate porosity with warping.",
+          "result": "Increased lack of fusion porosity (0.05% to 7.83%) was found to correlate with greater warping, attributed to reduced thermal dissipation and stronger thermal gradients above pores.",
+          "validation": "Experimental warping measurements and XCT scans were combined with finite element simulations to confirm the proposed mechanism."
         },
         "key_terms": [
           {
-            "en": "electrospun yarn",
-            "zh": "静电纺丝纱线"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "capillary densification",
-            "zh": "毛细致密化"
+            "en": "lactic acidosis",
+            "zh": "乳酸酸中毒"
           },
           {
-            "en": "tensile strength",
-            "zh": "拉伸强度"
+            "en": "fatigue resistance",
+            "zh": "疲劳抗力"
           },
           {
-            "en": "modulus",
-            "zh": "模量"
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
           },
           {
-            "en": "fiber recruitment",
-            "zh": "纤维招募"
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           },
           {
-            "en": "elastocapillary",
-            "zh": "弹-毛细效应"
+            "en": "thermal stress",
+            "zh": "热应力"
           },
           {
-            "en": "annealing",
-            "zh": "退火"
+            "en": "microstructural heterogeneity",
+            "zh": "微观结构不均匀性"
+          },
+          {
+            "en": "build orientation",
+            "zh": "构建方向"
+          },
+          {
+            "en": "defect density",
+            "zh": "缺陷密度"
+          },
+          {
+            "en": "cyclic loading",
+            "zh": "循环载荷"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:13:45Z"
+      "first_seen_at": "2026-06-07T23:15:36Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {
-      "Exclude": 1
+      "Low": 1
     }
   }
 }

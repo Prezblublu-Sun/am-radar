@@ -4,49 +4,73 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2510.24747v2",
-      "doi": "",
-      "arxiv_id": "2510.24747v2",
-      "title": "Discovery of Hyperelastic Constitutive Laws from Experimental Data with EUCLID",
-      "abstract": "We assess the performance of EUCLID, Efficient Unsupervised Constitutive Law Identification and Discovery, a recently proposed framework for automated discovery of constitutive laws, on experimental data. Mechanical tests are performed on natural rubber specimens spanning simple to complex geometries, from which we collect both global, force elongation, and local, full-field displacement, measurements. Using these data, we obtain constitutive laws via two routes, the conventional identification of unknown parameters in a priori selected material models, and EUCLID, which automates model selection and parameter identification within a unified model-discovery pipeline. We compare the two methodologies using global versus local data, analyze predictive accuracy, and examine generalization to unseen geometries. Moreover, we quantify the experimental noise, investigate the coverage of the material state space achieved by each approach and discuss the relative performance of different datasets and different a priori chosen models versus EUCLID.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4415298335",
+      "doi": "10.3390/lubricants13100449",
+      "title": "Effect of Low-Pressure Gas Oxynitriding on the Microstructural Evolution and Wear Resistance of Ti-6Al-4V Alloy",
+      "abstract": "A Ti-6Al-4V titanium alloy exhibits low hardness and poor wear resistance under sliding contact. This study evaluates the effect of low-pressure gas oxynitriding (LPON) followed by low-temperature oxidation on its microstructure and tribological performance. Specimens were nitrided at 1000 °C for 100 min, then oxidized at 450–600 °C for 120 min. Microstructural and phase changes were characterized by SEM and XRD; surface roughness, hardness, and wear were assessed using 3D laser scanning microscopy, microhardness profiling, and pin-on-disk tests under 2 N and 4 N loads. XRD revealed TiN, Ti2N, Ti2AlN, and TiO2 phases, with oxidation temperature governing TiN grain growth and nitride-to-oxide transformation. Oxidation at 500–550 °C formed a dense TiO2-rich layer over a stable TiN/Ti2N substrate, achieving hardness up to ~670 HV0.025 and the lowest wear volume. At low load (2 N), nitriding alone provided the highest wear resistance, while at higher load (4 N), oxidation yielded only slight improvement due to oxide embrittlement. Excessive oxidation at 600 °C increased roughness, induced spallation, and reduced wear resistance. The optimal condition (550 °C) offered synergistic protection from nitrides and stable oxides, enhancing load-bearing capacity. Overall, duplex nitriding–oxidation is most effective for low-to-moderate load applications, with potential use in biomedical implants, aerospace fasteners, and precision components.",
       "authors": [
-        "Arefeh Abbasi",
-        "Maurizio Ricci",
-        "Pietro Carrara",
-        "Moritz Flaschel",
-        "Siddhant Kumar",
-        "Sonia Marfia",
-        "Laura De Lorenzis"
+        "Chih-Hao Yang",
+        "Changyu Li",
+        "Ching-Cheng Chan",
+        "Peereboom J.C.",
+        "Jing-Han Shih",
+        "F.S. Liao",
+        "Shih‐Hsien Chang"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Department of Mechanical Engineering, National Pingtung University of Science and Technology, Pingtung 912301, Taiwan",
+      "corresponding_authors": [
+        {
+          "name": "Chih-Hao Yang",
+          "affiliation": "Department of Mechanical Engineering, National Pingtung University of Science and Technology, Pingtung 912301, Taiwan"
+        }
+      ],
+      "venue": "Lubricants",
       "year": 2025,
       "date": "2025-10-16",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2510.24747v2",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "physics.comp-ph",
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.3390/lubricants13100449",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Nitriding",
+        "Microstructure",
+        "Metallurgy",
+        "Tribology",
+        "Alloy",
+        "Indentation hardness",
+        "Tin",
+        "Oxide",
+        "Titanium nitride",
+        "Nitride",
+        "Layer (electronics)",
+        "Titanium alloy",
+        "Phase (matter)",
+        "Grain size",
+        "Wear resistance",
+        "Titanium",
+        "Hardness"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "elongation"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文研究超弹性本构模型的自动发现方法，但未涉及增材制造或生物医学植入物，与用户研究方向间接相关。",
-        "why_not_core": "This paper does not involve additive manufacturing or biomedical implant materials, focusing instead on rubber and constitutive law discovery without AM context.",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是Ti-6Al-4V合金的耐磨性表面处理，而非增材制造力学性能或疲劳性能。",
+        "why_not_core": "Does not involve additive manufacturing; focuses on wear resistance rather than mechanical/fatigue properties.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -55,215 +79,135 @@
           "is_review": false
         },
         "tags": [
-          "constitutive model discovery",
-          "hyperelasticity",
-          "EUCLID",
-          "experimental data",
-          "rubber"
+          "Ti-6Al-4V",
+          "oxynitriding",
+          "wear resistance",
+          "hardness"
         ],
         "summary_zh": {
-          "motivation": "从实验数据自动发现超弹性本构模型",
-          "method": "采用EUCLID框架，结合全局和局部实验数据进行模型选择与参数识别",
-          "result": "EUCLID在预测精度和泛化能力上与传统方法相当",
-          "validation": "使用天然橡胶的拉伸实验数据验证"
+          "motivation": "提高Ti-6Al-4V合金的硬度和耐磨性",
+          "method": "低压气体氧氮化处理(LPON)后在450-600°C氧化",
+          "result": "最佳550°C氧化形成致密TiO2层，硬度达670 HV0.025，磨损量最低",
+          "validation": "通过销盘磨损试验和显微硬度测试验证"
         },
         "summary_en": {
-          "motivation": "To assess the performance of EUCLID for automated discovery of hyperelastic constitutive laws from experimental data.",
-          "method": "EUCLID framework is applied to global and local measurements from mechanical tests on rubber specimens, automating model selection and parameter identification.",
-          "result": "EUCLID shows competitive predictive accuracy and generalization compared to a priori chosen models.",
-          "validation": "Experimental mechanical tests on natural rubber with force-elongation and full-field displacement data."
+          "motivation": "Ti-6Al-4V alloy suffers from low hardness and poor wear resistance under sliding contact.",
+          "method": "Low-pressure gas oxynitriding (LPON) at 1000°C followed by low-temperature oxidation at 450-600°C was applied.",
+          "result": "Oxidation at 550°C produced a dense TiO2 layer over TiN/Ti2N, achieving ~670 HV0.025 hardness and lowest wear volume.",
+          "validation": "Wear resistance was validated via pin-on-disk tests under 2 N and 4 N loads."
         },
         "key_terms": [
           {
-            "en": "hyperelastic constitutive law",
-            "zh": "超弹性本构模型"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "EUCLID",
-            "zh": "EUCLID框架"
+            "en": "low-pressure gas oxynitriding",
+            "zh": "低压气体氧氮化"
           },
           {
-            "en": "full-field displacement",
-            "zh": "全场位移"
+            "en": "wear resistance",
+            "zh": "耐磨性"
           },
           {
-            "en": "model discovery",
-            "zh": "模型发现"
+            "en": "hardness",
+            "zh": "硬度"
           },
           {
-            "en": "parameter identification",
-            "zh": "参数识别"
+            "en": "microstructure",
+            "zh": "显微组织"
           },
           {
-            "en": "natural rubber",
-            "zh": "天然橡胶"
+            "en": "XRD",
+            "zh": "X射线衍射"
           },
           {
-            "en": "mechanical testing",
-            "zh": "力学测试"
+            "en": "SEM",
+            "zh": "扫描电镜"
+          },
+          {
+            "en": "pin-on-disk",
+            "zh": "销盘磨损试验"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:14:51Z"
+      "first_seen_at": "2026-06-07T23:17:25Z"
     },
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2510.14540v3",
-      "doi": "10.1103/qkty-8dgb",
-      "arxiv_id": "2510.14540v3",
-      "title": "Uniaxial Magnetic Anisotropy and Type-X/Y Current-Induced Magnetization Switching in Oblique-Angle-Deposited Ta/CoFeB/Pt and W/CoFeB/Pt Heterostructures",
-      "abstract": "Planar current-induced magnetization switching (CIMS) driven by spin-orbit torque (SOT) requires an in-plane uniaxial magnetic anisotropy (UMA), which can be induced by oblique-angle sputter deposition of the heavy-metal underlayer in heavy-metal/ferromagnet heterostructures. To enhance the SOT efficiency, we employ trilayer heterostructures of (Ta or W)/CoFeB/Pt, where the CoFeB layer exhibits a UMA of 50 mT at 2 nm thickness of Ta or W. The magnetization reversal in Hall-bar devices is detected through unidirectional spin Hall magnetoresistance (USMR) for the type Y geometry (easy-axis transverse to current) and planar Hall measurements for the type X geometry (easy-axis parallel to current). Both configurations exhibit CIMS with sub-microsecond current pulses, reaching switching current densities as low as $2 \\times 10^{11}$ A/m$^2$ for a W (4 nm)/CoFeB (1.4 nm)/Pt (2 nm) stack with a UMA of 146 mT. Macrospin simulations reproduce the type Y switching as coherent magnetization rotation, whereas the type X devices switch at much lower currents than predicted, indicating that nucleation and domain-wall propagation dominate reversal in this geometry. Our results show that combining oblique-angle deposition with easy-axis engineering enables deterministic, field-free switching, paving the way for future low-power spintronic devices.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4415232879",
+      "doi": "10.3221/igf-esis.75.04",
+      "title": "Influence of laser shock peening on the residual strains and stresses in additively manufactured TC4",
+      "abstract": "Additively manufactured materials possess significant heterogeneities and anisotropies of stiffness and strength properties between the growth and transverse directions. Residual stresses induced by the fabrication and processing stages are critical to the service life of these materials. In this work, an experimental study of the residual stress fields was conducted in samples cut from additively manufactured titanium alloy TC4. The depth profiles of residual elastic strains for various regimes of laser impact treatment were obtained on elementary samples in the form of rectangular plates of 100´20´5 mm. Five treatment regimes were studied by varying the laser power density, the spot shape, and the percentage of overlap. The dependence of relief strains and residual stress levels on the laser energy density was obtained for two laser spot shapes: a 1´1 mm square and a 2 mm diameter circle. The numerical model, validated against experimental data for both as-built and laser-peened states, provides a reliable tool for analyzing the residual stresses and strain in additively manufactured components.",
       "authors": [
-        "Amir Khan",
-        "Shalini Sharma",
-        "Tiago de Oliveira Schneider",
-        "Markus Meinert"
+        "Mariia Bartolomei",
+        "А. Vshivkov",
+        "Igor S. Kudryashev",
+        "D. V. Lozhkin",
+        "A. V. Chumaevskii",
+        "Alexander M. Korsunsky"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Institute of Continuous Media Mechanics of the Ural Branch of Russian Academy of Science (ICMM UB RAS), Russia",
+      "corresponding_authors": [
+        {
+          "name": "Mariia Bartolomei",
+          "affiliation": "Institute of Continuous Media Mechanics of the Ural Branch of Russian Academy of Science (ICMM UB RAS), Russia"
+        }
+      ],
+      "venue": "Frattura ed Integrità Strutturale",
       "year": 2025,
       "date": "2025-10-16",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2510.14540v3",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.3221/igf-esis.75.04",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Residual stress",
+        "Composite material",
+        "Peening",
+        "Laser",
+        "Titanium alloy",
+        "Laser peening",
+        "Shock (circulatory)",
+        "Stiffness",
+        "Residual",
+        "Alloy",
+        "Titanium",
+        "Anisotropy",
+        "Compression (physics)",
+        "Laser power scaling",
+        "Shot peening",
+        "Transverse plane",
+        "Stress (linguistics)",
+        "Ultimate tensile strength"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "residual stress"
         ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
+        "ti6al4v_postprocess": [
+          "TC4",
+          "laser shock peening"
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究磁性异质结中的磁化翻转，与增材制造力学性能完全无关。",
-        "why_not_core": "This paper focuses on spin-orbit torque magnetization switching in magnetic heterostructures, with no relevance to additive manufacturing or mechanical properties of biomedical implants.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "spintronics",
-          "magnetic anisotropy"
-        ],
-        "summary_zh": {
-          "motivation": "研究斜角沉积制备的Ta/W/CoFeB/Pt异质结中电流诱导磁化翻转",
-          "method": "采用斜角溅射和霍尔测量表征磁化翻转，结合宏磁旋模拟",
-          "result": "实现了低电流密度下的无场翻转，类型X和Y翻转机制不同",
-          "validation": "实验测量与宏磁旋模拟对比"
-        },
-        "summary_en": {
-          "motivation": "To achieve deterministic field-free current-induced magnetization switching using oblique-angle deposition in heavy-metal/ferromagnet heterostructures.",
-          "method": "Oblique-angle sputter deposition combined with Hall effect measurements and macrospin simulations.",
-          "result": "Switching current densities as low as 2e11 A/m^2 were achieved, with type Y switching by coherent rotation and type X by nucleation and domain-wall propagation.",
-          "validation": "Experimental measurements were validated against macrospin simulations."
-        },
-        "key_terms": [
-          {
-            "en": "uniaxial magnetic anisotropy",
-            "zh": "单轴磁各向异性"
-          },
-          {
-            "en": "spin-orbit torque",
-            "zh": "自旋轨道转矩"
-          },
-          {
-            "en": "oblique-angle deposition",
-            "zh": "斜角沉积"
-          },
-          {
-            "en": "current-induced magnetization switching",
-            "zh": "电流诱导磁化翻转"
-          },
-          {
-            "en": "macrospin simulation",
-            "zh": "宏磁旋模拟"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:14:51Z"
-    },
-    {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2510.14372v1",
-      "doi": "",
-      "arxiv_id": "2510.14372v1",
-      "title": "Laser-Induced Heating in Diamonds: Influence of Substrate Thermal Conductivity and Interfacial Polymer Layers",
-      "abstract": "Diamonds hosting color centers possess intrinsically high thermal conductivity; therefore, laser-induced heating has often received little attention. However, when placed on substrates with low thermal conductivity, localized heating of diamonds under laser excitation can become significant, and the presence of an interfacial polymer layer between substrate and diamond further amplifies this effect. Yet, the relationship between substrate thermal conductivity, polymer thickness, and laser heating remains to be established. Here, a systematic investigation is presented on laser-induced heating of silicon-vacancy diamond on substrates with varying thermal conductivity and interfacial polymer thickness. Results reveal that even at a low excitation power of 737~$μ$W/$μ$m$^2$, thin amorphous holey carbon -- the lowest-conductivity substrate ($\\sim$0.2~W~m$^{-1}$~K$^{-1}$) studied -- exhibits substantial heating, while glass ($\\sim$1.4~W~m$^{-1}$~K$^{-1}$) and polydimethylsiloxane (PDMS, $\\sim$0.35~W~m$^{-1}$~K$^{-1}$) show noticeable heating only above 2.95~mW/$μ$m$^2$. For polymer interlayers, a thickness of just 2.2~$μ$m induces significant heating at 2.95~mW/$μ$m$^2$ and above, highlighting strong influence of both substrate and polymer thickness on local heating response. Experimental findings are further validated using COMSOL Multiphysics simulations with a steady-state 3D heat transfer model. These results provide practical guidance for substrate selection and sample preparation, enabling optimization of conditions for optical thermometry and quantum sensing applications.",
-      "authors": [
-        "Md Shakhawath Hossain",
-        "Jiatong Xu",
-        "Thi Ngoc Anh Mai",
-        "Nhat Minh Nguyen",
-        "Trung Vuong Doan",
-        "Chaohao Chen",
-        "Qian Peter Su",
-        "Yongliang Chen",
-        "Evgeny Ekimov",
-        "Toan Dinh",
-        "Xiaoxue Xu",
-        "Toan Trong Tran"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2025,
-      "date": "2025-10-16",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2510.14372v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "physics.optics"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
-        ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究钻石激光加热的热管理问题，与增材制造力学性能无关。",
-        "why_not_core": "This paper does not address additive manufacturing (AM), mechanical properties, or any biomedical implant or FEA surrogate modeling; it focuses on thermal management of diamond color centers for quantum sensing.",
-        "validation_kind": "simulation_case",
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文实验研究了激光冲击强化对增材制造TC4合金残余应力分布的影响，与后处理调控疲劳性能的研究方向直接相关。",
+        "why_not_core": "No fatigue life or tensile strength data; only residual stress/strain characterization.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -271,207 +215,79 @@
           "is_review": false
         },
         "tags": [
-          "thermal conductivity",
-          "laser heating",
-          "diamond",
-          "quantum sensing",
-          "interfacial layer",
-          "heat transfer simulation"
+          "laser shock peening",
+          "residual stress",
+          "TC4",
+          "additive manufacturing",
+          "experimental",
+          "numerical model"
         ],
         "summary_zh": {
-          "motivation": "研究衬底导热率和界面聚合物层对钻石激光加热的影响",
-          "method": "实验测量不同衬底和聚合物厚度下的加热，并用COMSOL模拟验证",
-          "result": "低导热衬底和聚合物层显著增加加热效应",
-          "validation": "COMSOL 3D稳态热模型验证"
+          "motivation": "研究激光冲击强化对增材制造TC4合金残余应力的影响。",
+          "method": "实验测量不同激光参数下的残余应变深度分布，并结合数值模拟。",
+          "result": "获取了残余应力随激光能量密度、光斑形状和搭接率的变化规律。",
+          "validation": "通过实验数据验证了数值模型在原始和强化状态下的准确性。"
         },
         "summary_en": {
-          "motivation": "This study investigates how substrate thermal conductivity and interfacial polymer thickness affect laser-induced heating in diamonds hosting color centers.",
-          "method": "Experimental heating measurements are conducted on various substrates and polymer thicknesses, and results are validated with a COMSOL steady-state 3D heat transfer model.",
-          "result": "Low thermal conductivity substrates and polymer interlayers significantly increase local heating even at moderate laser powers.",
-          "validation": "The experimental findings are validated using COMSOL Multiphysics simulations."
+          "motivation": "To investigate how laser shock peening modifies residual stress fields in additively manufactured TC4 alloy.",
+          "method": "Experimental depth profiling of residual elastic strains under five laser treatment regimes combined with a validated numerical model.",
+          "result": "Residual stress levels and relief strains depend strongly on laser power density, spot shape, and overlap percentage.",
+          "validation": "The numerical model was validated against experimental data for both as-built and laser-peened conditions."
         },
         "key_terms": [
           {
-            "en": "thermal conductivity",
-            "zh": "热导率"
+            "en": "laser shock peening",
+            "zh": "激光冲击强化"
           },
           {
-            "en": "substrate",
-            "zh": "衬底"
+            "en": "residual stress",
+            "zh": "残余应力"
           },
           {
-            "en": "interfacial polymer",
-            "zh": "界面聚合物"
+            "en": "TC4",
+            "zh": "TC4钛合金"
           },
           {
-            "en": "diamond",
-            "zh": "钻石"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           },
           {
-            "en": "color center",
-            "zh": "色心"
+            "en": "laser power density",
+            "zh": "激光功率密度"
           },
           {
-            "en": "laser-induced heating",
-            "zh": "激光诱导加热"
+            "en": "spot shape",
+            "zh": "光斑形状"
           },
           {
-            "en": "COMSOL",
-            "zh": "COMSOL"
-          },
-          {
-            "en": "heat transfer",
-            "zh": "传热"
+            "en": "overlap percentage",
+            "zh": "搭接率"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:14:51Z"
-    },
-    {
-      "source": "openalex",
-      "id": "https://openalex.org/W4415259260",
-      "doi": "10.60118/001c.143525",
-      "title": "Cementless Femoral Stems in Primary Total Hip Arthroplasty",
-      "abstract": "Cementless stem design in total hip arthroplasty (THA) has evolved significantly, with numerous advancements aimed at improving long-term fixation, reducing complications, and optimizing functional outcomes. The primary focus of cementless fixation is achieving biological integration of the femoral stem through bone growth and remodeling, which is influenced by factors such as stem geometry, surface coating, and the fixation philosophy employed. Various stem designs including flat taper (type A); quadrangular tapers (types B1-B2-B3); fit-and-fill (types C1-C2-C3); conical (type D); cylindrical (type E); and calcar-guided short stems (type F). offer different biomechanical advantages in terms of stability and load distribution. Furthermore, surface coatings, such as porous coatings or titanium plasma spray, are designed to enhance osseointegration and reduce the risk of loosening. This paper reviews the current philosophies behind cementless stem fixation, evaluates the biomechanics of different stem designs, and introduces an updated classification system that categorizes stems based on their design, fixation mechanism, and clinical outcomes. Understanding these aspects allows surgeons to tailor implant choices based on patient anatomy, bone quality, and activity level, ultimately improving the longevity and success of THA.",
-      "authors": [
-        "Ahmed Siddiqi",
-        "Steven R. Dayton",
-        "Khalid M. Yousuf",
-        "Antonia F. Chen"
-      ],
-      "first_author_affiliation": "Hackensack Meridian Health",
-      "corresponding_authors": [
-        {
-          "name": "Ahmed Siddiqi",
-          "affiliation": "Hackensack Meridian Health"
-        }
-      ],
-      "venue": "Journal of Orthopaedic Experience & Innovation",
-      "year": 2025,
-      "date": "2025-10-16",
-      "date_precision": "day",
-      "url": "https://doi.org/10.60118/001c.143525",
-      "cited_by_count": 0,
-      "concepts": [
-        "Osseointegration",
-        "Total hip arthroplasty",
-        "Fixation (population genetics)",
-        "Medicine",
-        "Implant",
-        "Biomechanics",
-        "Surgery",
-        "Conical surface",
-        "Femur",
-        "Arthroplasty",
-        "Total hip replacement",
-        "Biomedical engineering",
-        "Hip arthroplasty",
-        "Orthodontics",
-        "Dentistry"
-      ],
-      "categories": [],
-      "raw_type": "article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Medium",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文综述了非骨水泥股骨柄的设计和分类，但未涉及增材制造或定量生物力学分析。",
-        "why_not_core": "This review focuses on clinical classification and surgical decision-making, lacking additive manufacturing details, computational modeling, or experimental validation relevant to the user's AM and traditional femoral stem direction.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": true
-        },
-        "tags": [
-          "femoral stem",
-          "cementless",
-          "THA",
-          "classification",
-          "osseointegration"
-        ],
-        "summary_zh": {
-          "motivation": "综述非骨水泥股骨柄的设计演变与分类。",
-          "method": "系统回顾文献并基于设计特点提出新分类系统。",
-          "result": "提出了六种类型（A-F）的分类法，总结不同设计的生物力学优势。",
-          "validation": "无实证验证，为文献综述。"
-        },
-        "summary_en": {
-          "motivation": "To review the evolution and classification of cementless femoral stem designs in total hip arthroplasty.",
-          "method": "A narrative review of existing literature and proposed stem classification based on geometry and fixation philosophy.",
-          "result": "An updated classification system (types A–F) is introduced, summarizing biomechanical advantages of each design.",
-          "validation": "No experimental or numerical validation; purely a literature review."
-        },
-        "key_terms": [
-          {
-            "en": "cementless femoral stem",
-            "zh": "非骨水泥股骨柄"
-          },
-          {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换术"
-          },
-          {
-            "en": "osseointegration",
-            "zh": "骨整合"
-          },
-          {
-            "en": "stem geometry",
-            "zh": "柄几何形状"
-          },
-          {
-            "en": "surface coating",
-            "zh": "表面涂层"
-          },
-          {
-            "en": "fixation philosophy",
-            "zh": "固定理念"
-          },
-          {
-            "en": "classification system",
-            "zh": "分类系统"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:14:51Z"
+      "first_seen_at": "2026-06-07T23:17:25Z"
     }
   ],
   "counts": {
-    "fetched_total": 4,
+    "fetched_total": 2,
     "by_source": {
-      "arxiv": 3,
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 4,
-    "after_routing": 4,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "mechanical_properties": 3,
-      "am_femoral_stem": 1
+      "ti6al4v_base_mechanical_fatigue": 1,
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "arxiv": 3,
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 4,
+    "scored": 2,
     "priority_counts": {
-      "Low": 1,
-      "Exclude": 2,
-      "Medium": 1
+      "Exclude": 1,
+      "High": 1
     }
   }
 }

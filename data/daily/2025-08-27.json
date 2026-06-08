@@ -1,0 +1,396 @@
+{
+  "schema_version": "v2",
+  "date": "2025-08-27",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413762773",
+      "doi": "10.3390/coatings15090993",
+      "title": "Surface Engineering of EB-PBF Ti6Al4V via Anodization: Multifunctional Improvements Through TiO2 Nanotube Arrays",
+      "abstract": "This study investigates the anodization behavior and surface modification of Ti6Al4V (Ti64) alloy components fabricated via electron beam powder bed fusion (EB-PBF), aiming to enhance their performance in biomedical applications. Ti64 samples were manufactured using optimized EB-PBF parameters to produce a uniform microstructure and surface quality. Electrochemical anodization at 40 V and 60 V for 2 h generated self-organized TiO2 nanotube layers, followed by a heat treatment at 550 °C to improve crystallinity while preserving the nanotube morphology. Characterization using scanning electron microscopy (SEM) and atomic force microscopy (AFM) revealed that a lower voltage produced uniform, compact nanotubes with moderate roughness and higher hardness, whereas a higher voltage generated thicker, less ordered nanotubes with larger diameters, increased roughness, and slightly reduced mechanical performance. X-ray diffraction (XRD) confirmed the presence of anatase TiO2 phases, and energy-dispersive spectroscopy (EDS) analysis revealed a homogeneous distribution of Ti and O. Mechanical testing via nanoindentation and nanoscratch techniques demonstrated superior hardness and adhesion in nanotubes formed at lower voltage due to their compact structure. Electrochemical measurements indicated significantly enhanced corrosion resistance in anodized samples, attributed to the dense and chemically stable TiO2 layer that acts as a barrier to aggressive ions and reduces active corrosion sites. In vitro bioactivity analysis further confirmed improved apatite formation on anodized surfaces. These results demonstrate the synergistic potential of EB-PBF and controlled anodization for modifying the surface properties of Ti64 implants, leading to improved mechanical behavior, corrosion resistance, and biological performance suitable for biomedical applications.",
+      "authors": [
+        "Alireza Moradi",
+        "Sanae Tajalli",
+        "Amir Behjat",
+        "Abdollah Saboori",
+        "Luca Iuliano"
+      ],
+      "first_author_affiliation": "Department of Mechanical and Aerospace Engineering, Politecnico di Torino, Corso Duca Degli Abruzzi 24, 10129 Torino, Italy",
+      "corresponding_authors": [
+        {
+          "name": "Abdollah Saboori",
+          "affiliation": "Department of Management and Production Engineering, Politecnico di Torino, Corso Duca degli Abruzzi 24, 10129 Torino, Italy"
+        }
+      ],
+      "venue": "Coatings",
+      "year": 2025,
+      "date": "2025-08-27",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/coatings15090993",
+      "cited_by_count": 2,
+      "concepts": [
+        "Anodizing",
+        "Materials science",
+        "Surface engineering",
+        "Nanotube",
+        "Nanotechnology",
+        "Surface (topology)",
+        "Optoelectronics"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "Ti64",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的后处理（阳极氧化+热处理），但未研究疲劳或拉伸性能，仅侧重于生物医学应用中的硬度和耐腐蚀性，因此与方向聚焦的疲劳/力学性能改性关系较弱。",
+        "why_not_core": "No fatigue or tensile data; mechanical evaluation limited to hardness and adhesion, and the study targets biomedical application rather than structural mechanical performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "anodization",
+          "TiO2 nanotubes",
+          "EB-PBF",
+          "Ti6Al4V",
+          "nanoindentation",
+          "corrosion resistance",
+          "bioactivity",
+          "surface modification",
+          "heat treatment",
+          "hardness"
+        ],
+        "summary_zh": {
+          "motivation": "研究EB-PBF制造Ti6Al4V合金通过阳极氧化和热处理进行表面改性以提升生物医学性能。",
+          "method": "在不同电压下阳极氧化生成TiO2纳米管阵列，随后550°C热处理，并通过SEM、AFM、XRD、EDS及纳米压痕等表征。",
+          "result": "较低电压生成均匀致密纳米管，硬度更高，耐腐蚀性增强，生物活性改善。",
+          "validation": "纳米压痕、纳米划痕、电化学测试及体外生物活性实验。"
+        },
+        "summary_en": {
+          "motivation": "To investigate anodization and heat treatment as post-processing for EB-PBF Ti6Al4V to enhance surface properties for biomedical applications.",
+          "method": "Ti6Al4V samples were anodized at 40 V and 60 V to form TiO2 nanotube arrays, then heat-treated at 550°C; characterization included SEM, AFM, XRD, EDS, nanoindentation, nanoscratch, and electrochemical tests.",
+          "result": "Lower voltage produced compact nanotubes with higher hardness and better corrosion resistance; bioactivity was improved due to apatite formation.",
+          "validation": "Mechanical testing via nanoindentation and nanoscratch, electrochemical corrosion tests, and in vitro bioactivity assays."
+        },
+        "key_terms": [
+          {
+            "en": "anodization",
+            "zh": "阳极氧化"
+          },
+          {
+            "en": "TiO2 nanotube arrays",
+            "zh": "TiO2纳米管阵列"
+          },
+          {
+            "en": "electron beam powder bed fusion",
+            "zh": "电子束粉末床熔融"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "nanoindentation",
+            "zh": "纳米压痕"
+          },
+          {
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
+          },
+          {
+            "en": "bioactivity",
+            "zh": "生物活性"
+          },
+          {
+            "en": "surface modification",
+            "zh": "表面改性"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:13:39Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413740737",
+      "doi": "10.12913/22998624/207932",
+      "title": "Specific cutting force in dry turning of Ti6Al4V ELI using different grades of carbide inserts",
+      "abstract": "This paper presents the results of experimental studies on the influence of the turning process parameters on the values of specific cutting force k c .with the use of different grades of carbide inserts.Three variables were analyzed, i.e. cutting speeds v c , depth of cut a p and feed f, for dry turning of the difficult-to-cut titanium alloy Ti6Al4V ELI.In the cutting tests, two types of inserts were used and made of two different grades of cemented carbides, ie, H13A and 1115.To determine the specific cutting force (SCF), a measuring system was used to trace and record the circumferential cutting force F c .According to the adopted research plan, a total of 36 test systems were determined, on the basis of which the values of the k c coefficient were determined.The significance of the influence of the machining parameters on the SCF values was analyzed.The tests showed that the specific cutting force k c depends primarily on the cross-sectional area of the cutting layer, that is, directly on the feed value and depth of cut.Furthermore, it has been shown that turning with coated inserts results in a lower specific cutting force, which can directly translate into an increase in tool life.The mean value of the k c coefficient for the use of a cutting insert without coating differed from a cutting insert with a coating of 282.7 MPa (1952.2MPa compared to 2234.9 MPa).Furthermore, a higher tendency for surface hardening and built-up edge was observed in the cutting tests for uncoated tool turning.The obtained results allowed to present the recommended ranges of machining parameters for dry turning of the processed material.The presented results can provide practical guidelines for the selection of cutting parameters for the machine industry and contribute to the reduction of costs and the negative impact on the environment of machining with the use of cutting fluids.The obtained research results were analyzed and concluded according to the Taguchi method.Based on the desirability function and the response surface methodology, cutting speed v c = 80 m/min, depth of cut a p = 1.0 mm and feed f = 0.2 mm/rev were selected as optimal machining factors.",
+      "authors": [
+        "Grzegorz Struzikiewicz"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Grzegorz Struzikiewicz",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Advances in Science and Technology – Research Journal",
+      "year": 2025,
+      "date": "2025-08-27",
+      "date_precision": "day",
+      "url": "https://doi.org/10.12913/22998624/207932",
+      "cited_by_count": 2,
+      "concepts": [
+        "Carbide",
+        "Titanium carbide",
+        "Materials science",
+        "Metallurgy",
+        "Mechanical engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是干式车削钛合金的切削力，不涉及任何后处理工艺（如热处理、表面处理）对疲劳或力学性能的影响，因此与方向无关。",
+        "why_not_core": "Paper does not address any post-processing treatment (heat treatment, shot peening, HIP, etc.) or its effect on fatigue/mechanical performance of Ti-6Al-4V; it focuses solely on cutting forces during dry turning, which is a primary machining process.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "titanium alloy",
+          "dry turning",
+          "cutting force",
+          "carbide inserts",
+          "Taguchi method"
+        ],
+        "summary_zh": {
+          "motivation": "研究干车削Ti6Al4V ELI时切削参数对切削力的影响，以优化加工效率。",
+          "method": "使用不同牌号硬质合金刀片进行干车削试验，测量切削力并采用Taguchi方法分析。",
+          "result": "切削力主要受切削层横截面积影响，涂层刀片显著降低切削力，表面硬化倾向更低。",
+          "validation": "通过36组切削试验验证，并采用响应曲面法优化参数。"
+        },
+        "summary_en": {
+          "motivation": "The study aims to investigate the effect of turning parameters on specific cutting force for Ti6Al4V ELI to improve machining efficiency and tool life.",
+          "method": "Dry turning experiments were conducted with two grades of carbide inserts (H13A and 1115) while varying cutting speed, depth of cut, and feed; specific cutting force was measured and analyzed using the Taguchi method and response surface methodology.",
+          "result": "Specific cutting force depends primarily on the cross-sectional area of the cut; coated inserts reduce cutting force by an average of 282.7 MPa and show lower tendency for built-up edge and surface hardening.",
+          "validation": "Experimental validation was performed through 36 cutting tests, and optimal parameters (v_c=80 m/min, a_p=1.0 mm, f=0.2 mm/rev) were determined using desirability function."
+        },
+        "key_terms": [
+          {
+            "en": "specific cutting force",
+            "zh": "比切削力"
+          },
+          {
+            "en": "dry turning",
+            "zh": "干式车削"
+          },
+          {
+            "en": "Ti6Al4V ELI",
+            "zh": "Ti6Al4V ELI钛合金"
+          },
+          {
+            "en": "carbide inserts",
+            "zh": "硬质合金刀片"
+          },
+          {
+            "en": "Taguchi method",
+            "zh": "田口方法"
+          },
+          {
+            "en": "response surface methodology",
+            "zh": "响应曲面法"
+          },
+          {
+            "en": "cutting speed",
+            "zh": "切削速度"
+          },
+          {
+            "en": "depth of cut",
+            "zh": "切削深度"
+          },
+          {
+            "en": "feed",
+            "zh": "进给量"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:13:39Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413773632",
+      "doi": "10.3390/met15090951",
+      "title": "Research on the Johnson–Cook Constitutive Model and Failure Behavior of TC4 Alloy",
+      "abstract": "This study investigates the mechanical response characteristics and damage evolution behavior of TC4 alloy through quasi-static/dynamic coupled experimental methods. Quasi-static tensile tests at varying temperatures (293 K, 423 K, and 623 K) were conducted using a universal testing machine, while room-temperature dynamic tensile tests (strain rate 1000–3000 s−1) were performed with a Split Hopkinson Tensile Bar (SHTB). Key findings include the following: (1) Significant temperature-softening effect was observed, with flow stress decreasing markedly as temperature increased; (2) Notch size effect influenced mechanical properties, showing 50% enhancement in post-fracture elongation when notch radius increased from 3 mm to 6 mm; and (3) Strain-hardening effect exhibited rate dependence under dynamic loading, with reduced hardening index within the tested strain rate range. The Johnson–Cook constitutive model and failure criterion were modified and parameterized based on experimental data. A 3D tensile simulation model developed in ABAQUS demonstrated strong agreement with experimental results, achieving a 0.97 correlation coefficient for load–displacement curves, thereby validating the modified models. Scanning electron microscopy (SEM) analysis of fracture surfaces revealed temperature- and strain rate-dependent microstructural characteristics, dominated by ductile fracture mechanisms involving microvoid nucleation, growth, and coalescence. This research provides theoretical foundations for analyzing Ti alloy structures under impact loading through established temperature–rate-coupled constitutive models.",
+      "authors": [
+        "Jiaxuan Zhu",
+        "Huidong Zhi",
+        "Tong Huang",
+        "Ning Ding",
+        "Zhaoming Yan"
+      ],
+      "first_author_affiliation": "School of Mechanical and Electrical Engineering, North University of China, Taiyuan 030051, China",
+      "corresponding_authors": [
+        {
+          "name": "Zhaoming Yan",
+          "affiliation": "School of Materials Science and Engineering, North University of China, Taiyuan 030051, China"
+        }
+      ],
+      "venue": "Metals",
+      "year": 2025,
+      "date": "2025-08-27",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/met15090951",
+      "cited_by_count": 0,
+      "concepts": [
+        "Constitutive equation",
+        "Alloy",
+        "Psychology"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是非增材制造的TC4合金力学性能，与增材制造Ti-6Al-4V的机械/疲劳方向不相关。",
+        "why_not_core": "This paper focuses on conventionally manufactured TC4 alloy without any additive manufacturing process, defects, or AM-specific features.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "TC4 alloy",
+          "Johnson-Cook constitutive model",
+          "quasi-static tensile",
+          "dynamic tensile",
+          "fracture mechanism"
+        ],
+        "summary_zh": {
+          "motivation": "研究TC4合金在准静态和动态加载下的力学响应及损伤演化。",
+          "method": "通过准静态拉伸和SHTB动态拉伸实验，修正Johnson-Cook本构模型和失效准则。",
+          "result": "修正模型准确预测载荷-位移曲线，相关系数0.97，断口为韧性微孔聚集型断裂。",
+          "validation": "采用ABAQUS仿真与实验对比验证模型准确性。"
+        },
+        "summary_en": {
+          "motivation": "To characterize the mechanical response and failure behavior of TC4 alloy under quasi-static and dynamic loading conditions.",
+          "method": "Quasi-static tensile tests at various temperatures and dynamic tensile tests using SHTB were conducted, and the Johnson-Cook model was modified and parameterized.",
+          "result": "The modified Johnson-Cook model accurately predicted load-displacement curves (correlation 0.97), and fracture surfaces showed ductile microvoid-dominated failure.",
+          "validation": "Experimental validation was performed by comparing simulated load-displacement curves with measured data."
+        },
+        "key_terms": [
+          {
+            "en": "TC4 titanium alloy",
+            "zh": "TC4钛合金"
+          },
+          {
+            "en": "Johnson-Cook constitutive model",
+            "zh": "Johnson-Cook本构模型"
+          },
+          {
+            "en": "split Hopkinson tensile bar",
+            "zh": "分离式霍普金森拉杆"
+          },
+          {
+            "en": "quasi-static tensile",
+            "zh": "准静态拉伸"
+          },
+          {
+            "en": "dynamic tensile",
+            "zh": "动态拉伸"
+          },
+          {
+            "en": "fracture surface",
+            "zh": "断口形貌"
+          },
+          {
+            "en": "ductile fracture",
+            "zh": "韧性断裂"
+          },
+          {
+            "en": "temperature-softening",
+            "zh": "温度软化"
+          },
+          {
+            "en": "strain-hardening",
+            "zh": "应变硬化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:13:39Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 3,
+    "by_source": {
+      "openalex": 3
+    },
+    "after_dedup": 3,
+    "after_routing": 3,
+    "by_direction": {
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 3
+    },
+    "scored": 3,
+    "priority_counts": {
+      "Medium": 1,
+      "Exclude": 2
+    }
+  }
+}

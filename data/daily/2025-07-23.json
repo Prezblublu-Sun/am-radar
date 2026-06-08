@@ -5,119 +5,121 @@
   "papers": [
     {
       "source": "openalex",
-      "id": "https://openalex.org/W4412593709",
-      "doi": "10.3390/diseases13080233",
-      "title": "Short Stem vs. Standard Stem in Primary Total Hip Replacement: A Perioperative Prospective Invasiveness Study with Serum Markers",
-      "abstract": "Background: Total hip arthroplasty (THA) is a well-established surgical procedure for end-stage hip arthrosis. Innovations such as minimally invasive approaches and new technologies have improved outcomes and reduced invasiveness. The introduction of short-stem prostheses, which offer potential benefits in bone preservation, has been a significant development in recent years. This prospective case series study aims to compare invasiveness of the short-stem (SS) and conventional-stem (CS) prostheses in THA with a posterolateral approach (PLA) by assessing perioperative serum markers. Methods: A prospective case series was conducted involving consecutive patients who underwent primary THA from January 2022 to December 2023. Demographics and preoperative, postoperative day 1 (POD1), and postoperative day 2 (POD2) serum levels of C-reactive protein (CRP), erythrocyte sedimentation rate (ESR), procalcitonin (PCT), and white blood cells (WBCs) were measured. Results: The study included 21 patients with CS and 19 with SS, with no significant differences between groups in demographic. No statistically significant differences were found in serum markers between SS and CS groups at any time point. Both groups showed significant increases in ESR, CRP, and PCT from preoperative levels to POD2 (p &lt; 0.001), while WBC values increased from preoperative to POD1 but decreased between POD1 and POD2. Conclusion: The short-stem prosthesis does not exhibit significantly different perioperative serum marker profiles compared to the conventional stem, suggesting similar levels of surgical invasiveness between the two implants. Further studies with larger sample sizes are needed to validate these findings and explore other aspects of short-stem THA.",
+      "id": "https://openalex.org/W4412599096",
+      "doi": "10.3390/met15080825",
+      "title": "Rapid Assessment of Ti-6Al-4V Fatigue Limit via Infrared Thermography",
+      "abstract": "The experimental tests needed for the estimation of the fatigue limit generally require extensive time and many specimens. A valid but not standardized alternative is the thermographic analysis of the self-heating phenomenon. The present work is aimed at using Infrared thermography to determine the fatigue limit in two kinds of Ti-6Al-4V samples obtained by hot rolling: (1) with the standard dog-bone shape (unnotched specimen) and (2) with two opposed semicircular notches at the sides (notched specimen). Uniaxial tensile experiments are performed on unnotched samples, and the surface temperature variation during loading is monitored. The stress corresponding to the end of the thermoelastic stage gives a rough indication of the fatigue limit. Then, fatigue tests at different sinusoidal loads are performed, and the thermographic signal is monitored and processed. The results obtained using lock-in thermography in dissipative mode, e.g., analyzing the second harmonic, showed a sudden change in slope when the applied stress exceeded a certain limit. This slope change is related to the fatigue limit. In addition, the ratio between the fatigue limits obtained for notched and unnotched specimens, e.g., the fatigue strength reduction factor, is consistent with literature values based on the selected geometry.",
       "authors": [
-        "Marco Senarighi",
-        "Carlo Ciccullo",
-        "Luca De Berardinis",
-        "Leonard Meco",
-        "Nicola Giampaolini",
-        "Simone Domenico Aspriello",
-        "Luca Farinelli",
-        "Antonio Gigante"
+        "Chiara Colombo",
+        "A. Salerno",
+        "Arthur Teyssiéras",
+        "Carlo Alberto Biffi"
       ],
-      "first_author_affiliation": "Maria Cecilia Hospital—GVM Care & Research, 48033 Cotignola, Italy",
+      "first_author_affiliation": "Department of Mechanical Engineering, Politecnico di Milano, Via La Masa 1, 20156 Milan, Italy",
       "corresponding_authors": [
         {
-          "name": "Carlo Ciccullo",
-          "affiliation": "Clinical Ortopaedics, Department of Clinical and Molecular Sciences, Politecnica University of Marche, 60126 Ancona, Italy"
+          "name": "Chiara Colombo",
+          "affiliation": "Department of Mechanical Engineering, Politecnico di Milano, Via La Masa 1, 20156 Milan, Italy"
         }
       ],
-      "venue": "Diseases",
+      "venue": "Metals",
       "year": 2025,
       "date": "2025-07-23",
       "date_precision": "day",
-      "url": "https://doi.org/10.3390/diseases13080233",
+      "url": "https://doi.org/10.3390/met15080825",
       "cited_by_count": 0,
       "concepts": [
-        "Perioperative",
-        "Medicine",
-        "Prospective cohort study",
-        "Procalcitonin",
-        "Stem cell",
-        "Erythrocyte sedimentation rate",
-        "Surgery",
-        "Prosthesis",
-        "Demographics",
-        "Total hip arthroplasty",
-        "Internal medicine"
+        "Thermography",
+        "Infrared",
+        "Materials science",
+        "Fatigue limit",
+        "Titanium alloy",
+        "Fatigue testing",
+        "Composite material"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "am_femoral_stem"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "am_femoral_stem": [
-          "short stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue",
+          "fatigue strength"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文仅比较临床血清标志物，未涉及生物力学建模、植入物设计或增材制造，与用户研究方向不相关。",
-        "why_not_core": "No biomechanics modeling, no implant design/FEA, no AM/osseointegration, no stress shielding or micromotion analysis.",
-        "validation_kind": "clinical",
+        "relevance_to_user": "该论文研究的是热轧Ti-6Al-4V的疲劳极限，并非增材制造，因此不相关。",
+        "why_not_core": "The paper studies wrought (hot-rolled) Ti-6Al-4V, not additively manufactured Ti-6Al-4V, and thus does not meet the direction's requirement for AM-specific mechanical/fatigue characterization.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
-          "is_patient_specific": true,
+          "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "total hip arthroplasty",
-          "short stem",
-          "serum markers",
-          "perioperative invasiveness"
+          "Ti-6Al-4V",
+          "fatigue limit",
+          "infrared thermography",
+          "self-heating",
+          "lock-in thermography",
+          "wrought alloy",
+          "hot-rolled"
         ],
         "summary_zh": {
-          "motivation": "比较短柄与标准柄全髋置换术的围手术期侵袭性。",
-          "method": "前瞻性病例系列，测量术前及术后血清标志物（CRP、ESR、PCT、WBC）。",
-          "result": "两组血清标志物无显著差异，提示相似的手术侵袭性。",
-          "validation": "临床血清学指标对比。"
+          "motivation": "快速估算疲劳极限，减少试验时间和试样数量。",
+          "method": "利用红外热像仪监测自热现象，分析锁相热成像第二谐波的斜率变化。",
+          "result": "确定了光滑和缺口Ti-6Al-4V试样的疲劳极限，疲劳强度降低因子与文献一致。",
+          "validation": "与文献值对比验证了缺口敏感系数。"
         },
         "summary_en": {
-          "motivation": "To compare the surgical invasiveness between short-stem and conventional-stem prostheses in total hip arthroplasty using perioperative serum markers.",
-          "method": "A prospective case series study measuring serum levels of CRP, ESR, PCT, and WBC preoperatively and on postoperative days 1 and 2.",
-          "result": "No statistically significant differences in any serum markers were found between the short-stem and conventional-stem groups.",
-          "validation": "Clinical measurement of serum markers without biomechanical or implant-related testing."
+          "motivation": "To rapidly estimate the fatigue limit while reducing experimental time and specimen count.",
+          "method": "Infrared thermography monitored the self-heating phenomenon during fatigue, and lock-in thermography analysis of the second harmonic detected slope changes.",
+          "result": "Fatigue limits for unnotched and notched Ti-6Al-4V specimens were determined; the fatigue strength reduction factor agreed with literature.",
+          "validation": "The notch sensitivity factor was validated by comparison with literature values."
         },
         "key_terms": [
           {
-            "en": "short stem",
-            "zh": "短柄"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "conventional stem",
-            "zh": "标准柄"
+            "en": "fatigue limit",
+            "zh": "疲劳极限"
           },
           {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换术"
+            "en": "infrared thermography",
+            "zh": "红外热像法"
           },
           {
-            "en": "surgical invasiveness",
-            "zh": "手术侵袭性"
+            "en": "self-heating",
+            "zh": "自热现象"
           },
           {
-            "en": "C-reactive protein",
-            "zh": "C反应蛋白"
+            "en": "lock-in thermography",
+            "zh": "锁相热成像"
           },
           {
-            "en": "erythrocyte sedimentation rate",
-            "zh": "红细胞沉降率"
+            "en": "notched specimen",
+            "zh": "缺口试样"
+          },
+          {
+            "en": "hot-rolled",
+            "zh": "热轧"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:11:37Z"
+      "first_seen_at": "2026-06-07T23:11:42Z"
     }
   ],
   "counts": {
@@ -128,7 +130,7 @@
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "am_femoral_stem": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
       "openalex": 1

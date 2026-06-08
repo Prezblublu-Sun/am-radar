@@ -4,100 +4,156 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2510.23983v1",
-      "doi": "",
-      "arxiv_id": "2510.23983v1",
-      "title": "Strong Intra- and Interchain Orbital Coupling Leads to Multiband and High Thermoelectric Performance in Na$_2$Au$X$ ($X$ = P, As, Sb, and Bi)",
-      "abstract": "The intrinsic coupling among electrical conductivity ($σ$), Seebeck coefficient ($S$), and lattice thermal conductivity ($κ_{\\mathrm{L}}$) imposes a fundamental limit on the dimensionless figure of merit $ZT$ in thermoelectric (TE) materials. Increasing band degeneracy can effectively balance $σ$ and $S$, enabling a high power factor (PF, $S^{2}σ$). However, compounds with intrinsically large band degeneracy are scarce. Here, we present an unconventional strategy to realize elevated band degeneracy in zigzag-chain Na$_2$Au$X$ ($X$ = P, As, Sb, Bi) compounds by harnessing strong intra- and interchain orbital coupling. Pronounced hybridization between Au-$d_{z^{2}}$ and $X$-$p_{z}$ orbitals along the Au--$X$ zigzag chains, together with unexpectedly strong interchain $X$-$p_{x}/p_{y}$ coupling, produces a highly dispersive, multivalley valence band structure that supports an exceptional PF. Concurrently, the intrinsically weak interchain interactions arising from the quasi-one-dimensional framework, together with the weakened Au--$X$ and Au--Au bonds within the chains due to filling of $p$-$d^{*}$ antibonding states, result in an ultralow $κ_{\\mathrm{L}}$. First-principles calculations combined with Boltzmann transport theory predict that $p$-type Na$_2$AuBi achieves a PF of $63.9\\,μ\\mathrm{W}\\,\\mathrm{cm}^{-1}\\,\\mathrm{K}^{-2}$, an ultralow $κ_{\\mathrm{L}}$ of $0.49\\,\\mathrm{W}\\,\\mathrm{m}^{-1}\\,\\mathrm{K}^{-1}$, and a maximum $ZT$ of $4.7$ along the zigzag-chain direction at $800\\,\\mathrm{K}$. This work establishes a new design paradigm for high-efficiency TE materials by exploiting substantial orbital overlap in structurally weakly bonded, quasi-one-dimensional systems, opening promising avenues for the discovery and engineering of next-generation high-performance TE materials.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4415635339",
+      "doi": "10.1016/j.jmapro.2025.10.049",
+      "title": "Surface integrity and strengthening mechanism of Ti-6Al-4V subjected to high-speed ultrasonic vibration-strengthening milling",
+      "abstract": "",
       "authors": [
-        "Zhonghao Xia",
-        "Zhilong Yang",
-        "Yali Yang",
-        "Kaile Ren",
-        "Jiangang He"
+        "Youyang Li",
+        "Guojun Dong",
+        "Jinyong Han",
+        "Xiyang Song",
+        "Mengyan Zhou",
+        "Zhenlong Peng"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Henan Province Engineering Research Center of Anti-fatigue Manufacturing Technology, Zhengzhou, 450001, China",
+      "corresponding_authors": [
+        {
+          "name": "Guojun Dong",
+          "affiliation": "School of Mechatronics Engineering, Harbin Institute of Technology, Harbin, 150001, China"
+        },
+        {
+          "name": "Zhenlong Peng",
+          "affiliation": "Henan Province Engineering Research Center of Anti-fatigue Manufacturing Technology, Zhengzhou, 450001, China"
+        }
+      ],
+      "venue": "Journal of Manufacturing Processes",
       "year": 2025,
       "date": "2025-10-28",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2510.23983v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.1016/j.jmapro.2025.10.049",
+      "cited_by_count": 4,
+      "concepts": [
+        "Surface integrity",
+        "Materials science",
+        "Residual stress",
+        "Microstructure",
+        "Machining",
+        "Composite material",
+        "Ultrasonic sensor",
+        "Deformation (meteorology)",
+        "Titanium alloy",
+        "Residual",
+        "Aerospace",
+        "Surface layer",
+        "Severe plastic deformation",
+        "Structural integrity",
+        "Layer (electronics)",
+        "Vibration",
+        "Metallurgy",
+        "Deformation mechanism"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "s + l + m",
-          "w + a + a + m"
-        ],
-        "fatigue": [
-          "s + l + m",
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "s + l + m",
-          "w + a + a + m"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface integrity"
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究热电材料，与增材制造力学性能无关。",
-        "why_not_core": "This paper focuses on thermoelectric materials and does not address additive manufacturing, mechanical properties, or any aspect of AM mechanical characterization.",
-        "validation_kind": "theoretical",
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对Ti-6Al-4V的后处理工艺（高速超声振动强化铣削）对表面完整性及强化机理进行研究，完全符合用户所需的后处理控制方向。",
+        "why_not_core": "paper does not explicitly report fatigue life or porosity closure; focus is on surface integrity and strengthening mechanism rather than direct fatigue or tensile performance.",
+        "validation_kind": "mechanical_testing",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
-        "tags": [],
+        "tags": [
+          "Ti-6Al-4V",
+          "ultrasonic vibration milling",
+          "surface integrity",
+          "strengthening mechanism",
+          "post-processing",
+          "surface roughness",
+          "residual stress"
+        ],
         "summary_zh": {
-          "motivation": "提高热电材料性能，突破电导率-塞贝克系数-热导率耦合限制。",
-          "method": "利用第一性原理和玻尔兹曼输运理论计算Na2AuX化合物。",
-          "result": "p型Na2AuBi在800K沿链方向实现ZT=4.7。",
-          "validation": "理论计算，无实验验证。"
+          "motivation": "探索高速超声振动强化铣削对Ti-6Al-4V表面完整性和强化机制的影响。",
+          "method": "采用高速超声振动强化铣削工艺处理Ti-6Al-4V试样。",
+          "result": "工艺显著改善表面粗糙度、残余压应力分布及显微硬度，提升表面完整性。",
+          "validation": "通过表面粗糙度测量、残余应力测试及硬度实验验证效果。"
         },
         "summary_en": {
-          "motivation": "Overcoming the inherent trade-off between electrical conductivity, Seebeck coefficient, and thermal conductivity to enhance thermoelectric performance.",
-          "method": "First-principles calculations combined with Boltzmann transport theory to evaluate electronic and thermal transport in Na2AuX compounds.",
-          "result": "p-type Na2AuBi achieves a figure of merit ZT of 4.7 at 800 K along the chain direction.",
-          "validation": "Theoretical predictions without experimental validation."
+          "motivation": "To investigate the effect of high-speed ultrasonic vibration-strengthening milling on surface integrity and strengthening mechanism of Ti-6Al-4V.",
+          "method": "High-speed ultrasonic vibration-strengthening milling was applied to Ti-6Al-4V specimens as a post-processing treatment.",
+          "result": "The treatment significantly improved surface roughness, compressive residual stress distribution, and microhardness, enhancing surface integrity.",
+          "validation": "Validation was conducted through surface roughness measurements, residual stress tests, and hardness experiments."
         },
-        "key_terms": []
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "ultrasonic vibration milling",
+            "zh": "超声振动铣削"
+          },
+          {
+            "en": "surface integrity",
+            "zh": "表面完整性"
+          },
+          {
+            "en": "strengthening mechanism",
+            "zh": "强化机理"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          }
+        ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:14:51Z"
+      "first_seen_at": "2026-06-07T23:17:25Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {
-      "Exclude": 1
+      "High": 1
     }
   }
 }

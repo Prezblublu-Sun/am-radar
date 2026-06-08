@@ -4,50 +4,73 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2604.19939v1",
-      "doi": "10.1016/j.matdes.2026.116060",
-      "arxiv_id": "2604.19939v1",
-      "title": "Accelerating the Design of Resorbable Magnesium Alloys: A Machine Learning Approach to Property Prediction",
-      "abstract": "Resorbable magnesium (Mg) alloys are promising candidates for temporary medical devices due to their biodegradability and favorable mechanical properties. To accelerate the design of diluted Mg alloys for implants, we developed a data-driven framework to elucidate the complex relationships between composition, processing, and mechanical properties. The framework screens mechanical properties within biocompatible compositional limits, treating degradation as a design constraint rather than an explicit prediction target. Using a dataset of 410 samples, we trained six different machine learning (ML) models to predict yield strength, ultimate tensile strength, and elongation. Among them, ensemble models, particularly CatBoost, demonstrated high predictive accuracy (R2, YS = 0.950, UTS = 0.916 and El = 0.903). SHapley Additive exPlanation analysis revealed that thermomechanical processing conditions and alloying elements such as Zn, Mn and Gd are the most influential factors governing mechanical behavior in diluted Mg alloys. Validation on the experimental dataset confirmed the models' robustness and generalization capability in capturing process-property relationships. The optimized CatBoost model was further employed to generate predictive property maps visualizing the strength-ductility trade-off as a function of Zn-Mn composition. This work establishes a validated ML framework for rapid in silico screening and targeted design of next-generation resorbable Mg alloys.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7155080080",
+      "doi": "10.20517/microstructures.2025.144",
+      "title": "Impact of hierarchical martensitic structure on deformation twinning in titanium alloys during additive manufacturing",
+      "abstract": "A fully hierarchical martensitic microstructure is the common feature of additively manufactured α-type Ti alloys due to the rapid cooling rate inherent to the fabrication process. However, how this hierarchy governs defect formation within α laths under cyclic thermal loadings remains poorly understood. Here, we present a systematic electron microscopy investigation of a Ti-6Al-4V fabricated by laser powder-bed fusion. The as-fabricated microstructure consists of fine α′ martensite organised into multilevel lath hierarchies inherited from prior β grains. Deformation twinning is found to be strongly dependent on the martensitic hierarchy. Two types of twins are identified based on their thickness and interactions with martensitic laths. Twins that link to the endpoints of fine martensitic plates laths, i.e., linked twins, are consistently thicker than non-linked twins within lath interiors. Such twin structures enhance the room temperature tensile performance, enabling a simultaneous improvement in tensile strength, ductility, and work-hardening capability. These results demonstrate that hierarchical martensite actively governs twin formation in additively manufactured Ti alloys, elucidating the microstructural origin of their superior mechanical properties and providing guidance for microstructural optimization.",
       "authors": [
-        "Vickey Nandal",
-        "Vít Beneš",
-        "Pavel Baláž",
-        "Jiří Ryjáček",
-        "Karel Tesař"
+        "Hao Wang",
+        "Xingdong Dan",
+        "Qi Chao",
+        "N. Haghdadi",
+        "Zibin Chen",
+        "Sophie Primig",
+        "Wei Xu",
+        "Simon Ringer",
+        "Xiaozhou Liao"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Hao Wang",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Microstructures",
       "year": 2026,
       "date": "2026-04-21",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2604.19939v1",
+      "url": "https://doi.org/10.20517/microstructures.2025.144",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Crystal twinning",
+        "Lath",
+        "Martensite",
+        "Materials science",
+        "Microstructure",
+        "Deformation (meteorology)",
+        "Metallurgy",
+        "Ultimate tensile strength",
+        "Titanium alloy",
+        "Titanium",
+        "Composite material",
+        "Dislocation",
+        "Diffusionless transformation",
+        "Fabrication"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
           "tensile strength",
-          "yield strength",
-          "ultimate tensile strength",
-          "elongation",
-          "ductility"
+          "ductility",
+          "defect"
         ]
       },
       "llm": {
-        "priority": "Medium",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该研究聚焦于可降解镁合金的力学性能预测，与用户关注的生物打印、髋植入物应力遮挡或FEA替代模型方向无直接关联。",
-        "why_not_core": "This paper does not address additive manufacturing process-property relationships, hip implant stress shielding or micromotion, nor FEA surrogate modeling for biomechanics.",
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究增材制造Ti-6Al-4V的显微组织与力学性能，与方向高度相关。",
+        "why_not_core": "This paper does not cover fatigue performance or fatigue life, which is a key component of the direction focus, but it does provide tensile property data and microstructural insights relevant to mechanical performance.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -56,298 +79,80 @@
           "is_review": false
         },
         "tags": [
-          "magnesium alloys",
-          "machine learning",
-          "mechanical properties",
-          "resorbable implants"
-        ],
-        "summary_zh": {
-          "motivation": "为加速可降解镁合金植入物的设计，需要高效预测其力学性能。",
-          "method": "基于410个样本数据，训练六种ML模型（CatBoost最优）预测屈服强度、抗拉强度和延伸率。",
-          "result": "CatBoost模型R²达0.9以上，SHAP分析揭示加工条件和合金元素（Zn, Mn, Gd）是关键因素。",
-          "validation": "通过实验数据集验证模型的鲁棒性和泛化能力。"
-        },
-        "summary_en": {
-          "motivation": "To accelerate the design of resorbable magnesium alloys for medical implants, a data-driven framework is developed to predict their mechanical properties. ",
-          "method": "Six machine learning models, including ensemble methods, are trained on a dataset of 410 samples to predict yield strength, ultimate tensile strength, and elongation, with CatBoost achieving the highest accuracy. ",
-          "result": "The CatBoost model attains R² values above 0.9, and SHAP analysis identifies thermomechanical processing and alloying elements (Zn, Mn, Gd) as primary influencers. ",
-          "validation": "The models are validated on an experimental dataset, confirming robustness and generalization in capturing process-property relationships. "
-        },
-        "key_terms": [
-          {
-            "en": "resorbable magnesium alloys",
-            "zh": "可降解镁合金"
-          },
-          {
-            "en": "machine learning",
-            "zh": "机器学习"
-          },
-          {
-            "en": "yield strength",
-            "zh": "屈服强度"
-          },
-          {
-            "en": "ultimate tensile strength",
-            "zh": "抗拉强度"
-          },
-          {
-            "en": "elongation",
-            "zh": "延伸率"
-          },
-          {
-            "en": "CatBoost",
-            "zh": "CatBoost"
-          },
-          {
-            "en": "SHAP",
-            "zh": "SHAP"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
-    },
-    {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2604.19847v1",
-      "doi": "10.1016/j.porgcoat.2020.105594",
-      "arxiv_id": "2604.19847v1",
-      "title": "Organosilane-functionalized hydrothermal-derived coatings on titanium alloys for hydrophobization and corrosion protection",
-      "abstract": "This work focuses on the structure, wettability and corrosion behaviors of Ti-6Al-4V alloy after roughening treatments in different concentrations of NaOH aqueous solutions followed by low surface energy hexadecyltrimethoxysilane (HDTMS) coating. In this regard, scanning electron microscopy, contact angle measurements, potentiodynamic polarization and electrochemical impedance spectroscopy were used to characterize the samples. In contrast to hydrophilicity caused by the hydrothermal alkaline treatments, the subsequent HDTMS coating donated considerable hydrophobicity. Typically, the highest sessile water contact angle (about 147 deg) was obtained for the sample treated in 3 molar NaOH solution followed by the HDTMS coating. In addition, the alkaline treatment reduced the corrosion resistance of the surface in a NaCl aqueous solution; however, the HDTMS hydrophobization process improved it significantly. It is eventually concluded that the coupled use of alkaline treatment and HDTMS functionalization can be further considered for moisture-exposed applications of Ti-based alloys.",
-      "authors": [
-        "S. Rahimipour",
-        "B. Rafiei",
-        "E. Salahinejad"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2026,
-      "date": "2026-04-21",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2604.19847v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "physics.app-ph",
-        "physics.chem-ph"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "ti6al4v_postprocess_hip"
-      ],
-      "direction": "ti6al4v_postprocess_hip",
-      "direction_name": "Ti-6Al-4V Post-processing & HIP",
-      "routing_matches": {
-        "ti6al4v_postprocess_hip": [
-          "Ti-6Al-4V"
-        ]
-      },
-      "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文关注钛合金表面疏水处理，与用户的后处理及热等静压研究方向不直接相关。",
-        "why_not_core": "This paper focuses on surface wettability and corrosion protection via chemical coatings, not on hot isostatic pressing or structural post-processing of Ti-6Al-4V.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
           "Ti-6Al-4V",
-          "hydrophobic coating",
-          "corrosion protection",
-          "hydrothermal treatment",
-          "silane coating"
+          "LPBF",
+          "martensitic hierarchy",
+          "deformation twinning",
+          "tensile properties"
         ],
         "summary_zh": {
-          "motivation": "改善钛合金表面疏水性和耐腐蚀性",
-          "method": "采用碱热处理和有机硅烷修饰",
-          "result": "接触角达147°，耐蚀性提高",
-          "validation": "接触角测量和电化学测试"
+          "motivation": "研究增材制造Ti-6Al-4V中层级马氏体结构对变形孪晶的影响。",
+          "method": "采用电子显微镜系统研究LPBF制备的Ti-6Al-4V的显微组织和孪晶行为。",
+          "result": "发现层级马氏体结构调控孪晶形成，同步提升拉伸强度、塑性和加工硬化能力。",
+          "validation": "通过拉伸测试和显微观察验证力学性能与微观结构的关联。"
         },
         "summary_en": {
-          "motivation": "To improve hydrophobicity and corrosion resistance of Ti-6Al-4V alloy surfaces.",
-          "method": "Alkaline hydrothermal roughening followed by hexadecyltrimethoxysilane coating.",
-          "result": "Water contact angle up to 147° and enhanced corrosion protection.",
-          "validation": "Contact angle measurements, potentiodynamic polarization, and electrochemical impedance spectroscopy."
+          "motivation": "To understand how the hierarchical martensitic microstructure in additively manufactured Ti-6Al-4V governs defect formation and deformation twinning under cyclic thermal loading.",
+          "method": "A systematic electron microscopy investigation was conducted on laser powder-bed fusion Ti-6Al-4V to characterize the multilevel lath hierarchy and twin types.",
+          "result": "Two types of deformation twins were identified, and twins linked to fine martensitic plate endpoints were thicker, leading to simultaneous improvements in tensile strength, ductility, and work-hardening.",
+          "validation": "Room-temperature tensile tests combined with electron microscopy validated the microstructural origins of the enhanced mechanical properties."
         },
         "key_terms": [
           {
-            "en": "hydrophobization",
-            "zh": "疏水化"
-          },
-          {
-            "en": "hydrothermal",
-            "zh": "水热"
-          },
-          {
-            "en": "silane coating",
-            "zh": "硅烷涂层"
-          },
-          {
-            "en": "corrosion resistance",
-            "zh": "耐腐蚀性"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "钛合金"
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "hierarchical martensitic structure",
+            "zh": "层级马氏体结构"
+          },
+          {
+            "en": "deformation twinning",
+            "zh": "变形孪晶"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "拉伸强度"
+          },
+          {
+            "en": "ductility",
+            "zh": "塑性"
+          },
+          {
+            "en": "work hardening",
+            "zh": "加工硬化"
+          },
+          {
+            "en": "electron microscopy",
+            "zh": "电子显微镜"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:42015600",
-      "doi": "10.1177/11207000251410505",
-      "pmid": "42015600",
-      "title": "Initial stability and bone response at 6 months post-operation in the Avenir complete stem: a comparative study by femoral canal shape.",
-      "abstract": "OBJECTIVE: To compare the initial postoperative fixation and bone response at 6 months among different femoral canal morphologies in patients implanted with a specific fully hydroxyapatite-coated femoral stem. METHODS: This study included 95 hip joints of patients who underwent primary total hip arthroplasty between 19 October 2020 and 20 October 2023 (17 male and 78 female). Femoral canal shapes were categorised into Dorr types A, B, and C using the canal flare index. RESULTS: Dorr types A, B, and C were observed in 17, 76, and 25 cases, respectively, and averaged -0.17 ± 1.99°, 0.71 ± 2.24°, and 1.57 ± 1.25°, respectively in the coronal plane, indicating a trend toward varus insertion. The medullary cavity occupancy rate was highest in Dorr type C (17.6 ± 9.81%). The bone contact rates were higher in Zones 3 and 7 for Dorr type C than for types A and B. At 6 months, spot welds indicative of fixation appeared in all cases, with Dorr type A showing an absence of spot welds in Zones 1 and 7, suggesting a risk of distal fixation. CONCLUSIONS: Although the implant generally provides satisfactory fixation, the risk of malalignment and distal fixation associated with specific femoral canal morphologies should be carefully considered.",
-      "authors": [
-        "Musashi Ima",
-        "Tamon Kabata",
-        "Daisuke Inoue",
-        "Yu Yanagi",
-        "Takahiro Iyobe",
-        "Naoya Fujimaru",
-        "Satoru Demura"
-      ],
-      "first_author_affiliation": "Department of Orthopaedic Surgery, Graduate School of Medical Science, Kanazawa University, Kanazawa, Ishikawa, Japan.",
-      "corresponding_authors": [
-        {
-          "name": "Satoru Demura",
-          "affiliation": "Department of Orthopaedic Surgery, Graduate School of Medical Science, Kanazawa University, Kanazawa, Ishikawa, Japan.",
-          "inferred": true
-        }
-      ],
-      "venue": "Hip international : the journal of clinical and experimental research on hip pathology and therapy",
-      "year": 2026,
-      "date": "2026-04-21",
-      "date_precision": "day",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42015600/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文为髋关节假体临床追踪研究，未涉及力学建模或增材制造，与用户研究方向关联度低。",
-        "why_not_core": "No biomechanical modeling (FEA/surrogate), no stress shielding/micromotion quantification, no additive manufacturing or AI/ML.",
-        "validation_kind": "clinical",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": true,
-          "is_review": false
-        },
-        "tags": [
-          "hip implant",
-          "femoral stem",
-          "initial stability",
-          "bone response",
-          "Dorr classification",
-          "clinical study",
-          "THA"
-        ],
-        "summary_zh": {
-          "motivation": "比较不同股骨管形态下Avenir完全涂层柄的术后初始固定和6个月骨反应。",
-          "method": "回顾性分析95例THA患者，按Dorr分型分组，测量放射学参数。",
-          "result": "Dorr C型髓腔占位率最高，骨接触率高；Dorr A型有远端固定风险。",
-          "validation": "基于术后X线片的临床观察验证。"
-        },
-        "summary_en": {
-          "motivation": "To compare initial postoperative fixation and 6-month bone response of a fully coated femoral stem across different femoral canal morphologies.",
-          "method": "A retrospective study of 95 hips classified by Dorr types A/B/C from radiographs, measuring canal axis alignment, medullary occupancy, and bone contact rates.",
-          "result": "Dorr type C showed highest medullary occupancy and bone contact in specific zones; Dorr type A lacked spot welds in proximal zones, indicating potential distal fixation.",
-          "validation": "Clinical validation via postoperative and 6-month radiographic follow-up."
-        },
-        "key_terms": [
-          {
-            "en": "femoral stem",
-            "zh": "股骨柄"
-          },
-          {
-            "en": "initial stability",
-            "zh": "初始稳定性"
-          },
-          {
-            "en": "bone response",
-            "zh": "骨反应"
-          },
-          {
-            "en": "Dorr classification",
-            "zh": "Dorr分型"
-          },
-          {
-            "en": "hydroxyapatite coating",
-            "zh": "羟基磷灰石涂层"
-          },
-          {
-            "en": "spot welds",
-            "zh": "斑点融合"
-          },
-          {
-            "en": "medullary cavity occupancy",
-            "zh": "髓腔占有率"
-          },
-          {
-            "en": "bone contact rate",
-            "zh": "骨接触率"
-          },
-          {
-            "en": "varus insertion",
-            "zh": "内翻插入"
-          },
-          {
-            "en": "distal fixation",
-            "zh": "远端固定"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
+      "first_seen_at": "2026-06-07T23:29:54Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 1,
     "by_source": {
-      "arxiv": 2,
-      "pubmed": 1
+      "openalex": 1
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 1,
+    "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1,
-      "ti6al4v_postprocess_hip": 1,
-      "am_femoral_stem": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 2,
-      "pubmed": 1
+      "openalex": 1
     },
-    "scored": 3,
+    "scored": 1,
     "priority_counts": {
-      "Medium": 1,
-      "Low": 2
+      "High": 1
     }
   }
 }

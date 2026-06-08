@@ -4,120 +4,126 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2507.03358v2",
-      "doi": "10.1002/adma.202513381",
-      "arxiv_id": "2507.03358v2",
-      "title": "Incipient ionic conductors: Ion-constrained lattices achieving superionic-like thermal conductivity by extreme anharmonicity",
-      "abstract": "Phonon liquid-like thermal conduction in the solid state enables superionic conductors to serve as efficient thermoelectric device candidates. While liquid-like motion of ions effectively suppresses thermal conductivity (κ), their high mobility concurrently triggers material degradation due to undesirable ion migration and consequent metal deposition, making it still a challenge to balancing low κand high stability. Here, we report a superionic-like thermal transport alongside restricted long-range ion migration in CsCu_2I_3 with incipient ionic conduction, using synchrotron X-ray diffraction, inelastic X-ray scattering, and machine-learning potential-based simulations. We reveal that the Cu ions exhibit confined migration between CuI_4 tetrahedra at high temperatures, displaying extreme anharmonicity of dominated phonons beyond conventional rattling and comparable to that in superionic conductorsl. Consequently, a glass-like κ(~0.3 W m^{-1} K^{-1} at 300 K) following the relationship of κ~ T^{0.17}, was achieved along the x-direction, where Cu ion migration is three oders of magnitude lower than in superionic conductors. These results highlight the advantage of incipient ionic conductors in simultaneously maintaining both low κand high stability, elucidate the thermal transport mechanism via ion migration constraints, and pave an effective pathway toward ultralow thermal conductivity in ionic conductors.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4412032245",
+      "doi": "10.3390/ma18133179",
+      "title": "Microstructure and Mechanical Properties of AlCoCrFeNi High-Entropy Alloy-Reinforced Ti-6Al-4V Composites",
+      "abstract": "High-entropy alloy (HEA) particle-reinforced metal matrix composites (MMCs) are a new generation of MMCs with potential applications as orthopedic material in automotive, aerospace, and biomedical fields. In this study, AlCoCrFeNi HEA-reinforced Ti-6Al-4V metal matrix composites (MMCs) were prepared by microwave sintering. The microstructural aspects of the MMC were investigated by scanning electron microscopy (SEM) and transmission electron microscopy (TEM), with an emphasis on the interdiffusion (ID) layer. The mechanical properties of the composites were studied by micro-pillar compression at the micro-length scale. The results show that the ID layer exists between the HEA particles and the matrix, is equiaxed in nature, and leads towards metallurgical bonding within the composite. The strength of this ID layer (1573 MPa of yield strength and 1867 MPa of compressive strength) and its Young's modulus (570 MPa) were about 1.5 times lower than that of the matrix. The HEA particles exhibit the highest strength (2157 MPa of yield strength and 3356 MPa of compressive strength) and Young's modulus (643 MPa), whereas the matrix falls in between 2372 MPa of yield strength and 2661 MPa of compressive strength, and a Young's modulus of 721 MPa.",
       "authors": [
-        "Yongheng Li",
-        "Chunqiu Lu",
-        "Bin Wei",
-        "Cong Lu",
-        "Xingang Jiang",
-        "Daisuke Ishikawa",
-        "Taishun Manjo",
-        "Caofeng Pan",
-        "Alfred Q. R. Baron",
-        "Jiawang Hong"
+        "Abdulaziz Kurdi",
+        "Animesh Kumar Basak",
+        "N. Radhika",
+        "Ahmed Degnah"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Advanced Materials Technology Institute, King Abdulaziz City for Science and Technology, P.O. Box 6086, Riyadh 11442, Saudi Arabia",
+      "corresponding_authors": [
+        {
+          "name": "Animesh Kumar Basak",
+          "affiliation": "Adelaide Microscopy, The University of Adelaide, Adelaide, SA 5005, Australia"
+        },
+        {
+          "name": "Ahmed Degnah",
+          "affiliation": "Advanced Materials Technology Institute, King Abdulaziz City for Science and Technology, P.O. Box 6086, Riyadh 11442, Saudi Arabia"
+        }
+      ],
+      "venue": "Materials",
       "year": 2025,
       "date": "2025-07-04",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2507.03358v2",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.3390/ma18133179",
+      "cited_by_count": 4,
+      "concepts": [
+        "Microstructure",
+        "Materials science",
+        "Composite material",
+        "Alloy",
+        "Titanium alloy"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
-        ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "yield strength"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "与用户研究方向完全无关，涉及离子导体热导率而非生物医学植入物或增材制造",
-        "why_not_core": "No biomedical implant, no bioprinting, no FEA surrogate, no additive manufacturing for biomedical context.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V复合材料，但制备方法为微波烧结而非增材制造，且未研究疲劳性能，与用户关注的方向不相关。",
+        "why_not_core": "The paper uses microwave sintering instead of additive manufacturing (LPBF/SLM/EBM/DED) and studies micro-pillar compression of composites, not bulk mechanical or fatigue properties of pure Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "thermal conductivity",
-          "ionic conductors",
-          "anharmonicity",
-          "CsCu2I3"
+          "microwave sintering",
+          "HEA-reinforced composite",
+          "micro-pillar compression",
+          "Ti-6Al-4V"
         ],
         "summary_zh": {
-          "motivation": "研究离子导体中低热导率与高稳定性之间的矛盾",
-          "method": "同步辐射X射线衍射、非弹性X射线散射和机器学习势模拟",
-          "result": "发现CsCu2I3中受限离子迁移导致超离子类热输运",
-          "validation": "实验观测和模拟验证"
+          "motivation": "探索AlCoCrFeNi高熵合金增强Ti-6Al-4V复合材料的微观结构与力学性能。",
+          "method": "采用微波烧结制备复合材料，使用SEM、TEM和微柱压缩测试分析。",
+          "result": "互扩散层强度约为基体的1.5倍，HEA颗粒强度最高。",
+          "validation": "微柱压缩实验验证力学性能。"
         },
         "summary_en": {
-          "motivation": "This paper investigates the trade-off between low thermal conductivity and high stability in ionic conductors.",
-          "method": "Synchrotron X-ray diffraction, inelastic X-ray scattering, and machine-learning potential simulations were used.",
-          "result": "CsCu2I3 exhibits superionic-like thermal transport with restricted long-range ion migration.",
-          "validation": "Experimental measurements and ML-based simulations validate the findings."
+          "motivation": "To investigate the microstructure and mechanical properties of Ti-6Al-4V composites reinforced with AlCoCrFeNi high-entropy alloy particles.",
+          "method": "The composites were fabricated via microwave sintering and characterized using SEM, TEM, and micro-pillar compression tests.",
+          "result": "The interdiffusion layer exhibited yield and compressive strengths about 1.5 times lower than the matrix, while HEA particles showed the highest strengths.",
+          "validation": "Mechanical properties were validated through micro-pillar compression experiments."
         },
         "key_terms": [
           {
-            "en": "superionic conductors",
-            "zh": "超离子导体"
+            "en": "high-entropy alloy",
+            "zh": "高熵合金"
           },
           {
-            "en": "thermal conductivity",
-            "zh": "热导率"
+            "en": "metal matrix composite",
+            "zh": "金属基复合材料"
           },
           {
-            "en": "anharmonicity",
-            "zh": "非谐性"
+            "en": "microwave sintering",
+            "zh": "微波烧结"
           },
           {
-            "en": "machine learning potential",
-            "zh": "机器学习势"
+            "en": "micro-pillar compression",
+            "zh": "微柱压缩"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:11:37Z"
+      "first_seen_at": "2026-06-07T23:11:42Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {

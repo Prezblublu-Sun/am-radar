@@ -1,0 +1,279 @@
+{
+  "schema_version": "v2",
+  "date": "2025-07-02",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411930565",
+      "doi": "10.1007/s40964-025-01216-z",
+      "title": "Evaluation of mechanical properties and energy absorption of Ti-6Al-4V gyroid structures produced by PBF-LB",
+      "abstract": "Abstract This research investigates the effect of local geometry (size, number of cells, thickness, isovalue) and heat treatment on the observed modulus and strength of Ti-6Al-4V gyroid-based cellular structures under compressive loading. Manufacturability of the gyroid structures is examined and a novel geometric implementation is discussed that potentially allows for support-free manufacture. This experimental data promotes commercial applications by providing previously unavailable insight into the sensitivity of local geometry and heat treatment on mechanical response. The study of the effect of heat treatment on the compression response of the gyroid structures reveals the as-manufactured and stress-relieved states unsuitable for energy absorption applications, while significant improvement in ductility for parts processed above the β-transus temperature, resulting in full densification without fragmentation; with energy absorption efficiency increasing from 58% for the as-manufactured sample to 75% for the above β-transus specimens. The gyroid structures displayed fundamentally different responses for stiffness and strength with relative density suggesting possible benefits for energy absorption applications.",
+      "authors": [
+        "David Downing",
+        "Alexander E. Medvedev",
+        "Rance Tino",
+        "Alistair Jones",
+        "Tobias Maconachie",
+        "Milan Brandt",
+        "Martin Leary"
+      ],
+      "first_author_affiliation": "ARC Industrial Transformation Training Centre in Additive Biomanufacturing, Kelvin Grove, Australia",
+      "corresponding_authors": [
+        {
+          "name": "David Downing",
+          "affiliation": "ARC Industrial Transformation Training Centre in Additive Biomanufacturing, Kelvin Grove, Australia"
+        }
+      ],
+      "venue": "Progress in Additive Manufacturing",
+      "year": 2025,
+      "date": "2025-07-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40964-025-01216-z",
+      "cited_by_count": 4,
+      "concepts": [
+        "Gyroid",
+        "Materials science",
+        "Absorption (acoustics)",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "ductility"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了热处理方法对Ti-6Al-4V gyroid结构力学性能和能量吸收的影响，与后处理控制方向高度相关。",
+        "why_not_core": "The paper focuses on gyroid cellular structures rather than fully dense material, but it still provides direct experimental data on heat treatment effects on Ti-6Al-4V mechanical performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "gyroid",
+          "heat treatment",
+          "energy absorption",
+          "compressive properties",
+          "PBF-LB"
+        ],
+        "summary_zh": {
+          "motivation": "研究局部几何和热处理对Ti-6Al-4V gyroid结构力学性能的影响。",
+          "method": "通过PBF-LB制造不同几何参数的gyroid结构，并进行不同温度的热处理。",
+          "result": "β相变温度以上热处理显著提高延展性和能量吸收效率，从58%提升至75%。",
+          "validation": "通过压缩实验验证力学性能和能量吸收特性。"
+        },
+        "summary_en": {
+          "motivation": "The study aims to understand how local geometry and heat treatment affect the mechanical properties and energy absorption of Ti-6Al-4V gyroid cellular structures.",
+          "method": "Gyroid structures with varying geometric parameters were fabricated via laser powder bed fusion and subjected to different heat treatment conditions, including stress relief and above-β-transus treatment.",
+          "result": "Heat treatment above the β-transus temperature significantly improved ductility and energy absorption efficiency from 58% (as-manufactured) to 75%, while as-manufactured and stress-relieved states were unsuitable for energy absorption.",
+          "validation": "Validation was performed through quasi-static compression tests measuring stiffness, strength, and energy absorption efficiency."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "gyroid structure",
+            "zh": "螺旋二十四面体结构"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "energy absorption",
+            "zh": "能量吸收"
+          },
+          {
+            "en": "compressive properties",
+            "zh": "压缩性能"
+          },
+          {
+            "en": "β-transus temperature",
+            "zh": "β相变温度"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          },
+          {
+            "en": "cellular structure",
+            "zh": "多孔结构"
+          },
+          {
+            "en": "stress relief",
+            "zh": "去应力退火"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:11:42Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411924890",
+      "doi": "10.3390/jmmp9070226",
+      "title": "Size Effects on Process-Induced Porosity in Ti6Al4V Thin Struts Additively Manufactured by Laser Powder-Bed Fusion",
+      "abstract": "Laser powder-bed fusion (L-PBF) additive manufacturing has been widely explored for fabricating intricate metallic parts such as lattice structures with thin struts. However, L-PBF-fabricated small parts (e.g., thin struts) exhibit different morphological and mechanical characteristics compared to bulk-sized parts due to distinct scan lengths, affecting the melt pool behavior between transient and quasi-steady states. This study investigates the keyhole porosity in Ti6Al4V thin struts fabricated by L-PBF, incorporating a range of strut sizes, along with various levels of linear energy densities. Micro-scaled computed tomography and image analysis were employed for porosity measurements and evaluations. Generally, keyhole porosity lessens with decreasing energy density, though with varying patterns across a higher energy density range. Keyhole porosity in struts predictably becomes severe at high laser powers and/or low scan speeds. However, a major finding reveals that the porosity is reduced with decreasing strut size (if less than 1.25 mm diameter), plausibly because the keyhole formed has not reached a stable state to produce pores in a permanent way. This implies that a higher linear energy density, greater than commonly formulated in making bulk components, could be utilized in making small-scale features to ensure not only full melting but also minimum keyhole porosity.",
+      "authors": [
+        "Nismath Valiyakath Vadakkan Habeeb",
+        "Kevin Chou"
+      ],
+      "first_author_affiliation": "Department of Industrial and Systems Engineering, University of Louisville, Louisville, KY 40292, USA",
+      "corresponding_authors": [
+        {
+          "name": "Nismath Valiyakath Vadakkan Habeeb",
+          "affiliation": "Department of Industrial and Systems Engineering, University of Louisville, Louisville, KY 40292, USA"
+        }
+      ],
+      "venue": "Journal of Manufacturing and Materials Processing",
+      "year": 2025,
+      "date": "2025-07-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/jmmp9070226",
+      "cited_by_count": 1,
+      "concepts": [
+        "Fusion",
+        "Materials science",
+        "Porosity",
+        "Titanium alloy",
+        "Composite material",
+        "Process (computing)",
+        "Laser"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V LPBF薄支柱的孔隙率，虽未直接测试力学性能，但孔隙率是影响疲劳性能的关键因素，对理解工艺-缺陷关系具有参考价值。",
+        "why_not_core": "This paper does not report any mechanical or fatigue testing; it focuses solely on porosity characterization without linking to tensile, fatigue, or other mechanical properties.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "L-PBF",
+          "porosity",
+          "keyhole porosity",
+          "thin struts",
+          "size effects",
+          "micro-CT"
+        ],
+        "summary_zh": {
+          "motivation": "研究激光粉末床熔融Ti-6Al-4V薄支柱中工艺诱导孔隙的尺寸效应。",
+          "method": "采用微CT和图像分析，测量不同能量密度和支柱尺寸下的孔隙率。",
+          "result": "发现支柱直径小于1.25 mm时，孔隙率随尺寸减小而降低，归因于不稳定匙孔。",
+          "validation": "通过微CT实验测量孔隙率并进行图像分析验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the size effect on process-induced porosity in L-PBF Ti-6Al-4V thin struts, as small parts exhibit different melt pool behavior.",
+          "method": "Micro-computed tomography and image analysis were used to quantify keyhole porosity across various strut diameters and linear energy densities.",
+          "result": "Porosity decreases with decreasing strut diameter below 1.25 mm, suggesting that a stable keyhole is not fully developed in smaller features.",
+          "validation": "Porosity measurements were validated via micro-CT imaging and subsequent image analysis."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder-bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "keyhole porosity",
+            "zh": "匙孔孔隙率"
+          },
+          {
+            "en": "strut size",
+            "zh": "支柱尺寸"
+          },
+          {
+            "en": "micro-computed tomography",
+            "zh": "微计算机断层扫描"
+          },
+          {
+            "en": "linear energy density",
+            "zh": "线能量密度"
+          },
+          {
+            "en": "process-induced porosity",
+            "zh": "工艺诱导孔隙率"
+          },
+          {
+            "en": "thin struts",
+            "zh": "薄支柱"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:11:42Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 2,
+    "by_source": {
+      "openalex": 2
+    },
+    "after_dedup": 2,
+    "after_routing": 2,
+    "by_direction": {
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 2
+    },
+    "scored": 2,
+    "priority_counts": {
+      "High": 1,
+      "Medium": 1
+    }
+  }
+}

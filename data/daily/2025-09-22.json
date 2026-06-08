@@ -1,0 +1,429 @@
+{
+  "schema_version": "v2",
+  "date": "2025-09-22",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414400530",
+      "doi": "10.1016/j.precisioneng.2025.09.008",
+      "title": "Defect analysis by computed tomography in metallic materials: Optimisation, uncertainty quantification and classification",
+      "abstract": "This paper presents a methodology to optimise post-processing parameters in X-ray Computed Tomography (CT) for defect detection in metallic materials. The approach addresses three main goals: minimisation of systematic errors in defect reconstruction, quantification of uncertainty, and reliable defect classification. The proposed methodology aims to remove the systematic error that impacts defect reconstruction, thereby improving the accuracy of defect size and morphology assessment, which is essential for fatigue life prediction, particularly in materials produced through additive manufacturing (AM). An iterative comparison between CT-based defect and fractographic measurements is involved to identify the optimal CT post-processing parameters, such as the grey threshold (GT). The methodology was applied to 11 dog-bone-shaped titanium alloy samples (5.5 mm nominal gauge diameter) produced via electron beam melting. The optimisation procedure resulted in a GT value that was 134% of that obtained using a commercial algorithm, effectively removing the systematic uncertainty associated with Murakami’s parameter area . The uncertainty of various defect features, such as equivalent diameter, sphericity and aspect ratio, was calculated by propagating the remaining stochastic uncertainty of area . An unsupervised K-means algorithm categorised unlabelled defects into three major types often encountered in AM: gas pores, keyholes, and lack of fusion. Finally, the labelled defects were processed through a support vector machine to infer the analytical form of the decision boundaries, achieving an accuracy of 99%. • Fractography measurements of defects area as reference values for CT optimisation. • Determination of uncertainty in quantification of defect descriptors. • Defect classification using k-means clustering and support vector machine. • Case study on Ti6Al4V samples produced by electron beam melting.",
+      "authors": [
+        "Emanuele Avoledo",
+        "Marco Petruzzi",
+        "Marco Pelegatti",
+        "Alessandro Tognan",
+        "Francesco De Bona",
+        "M. Pressacco",
+        "Riccardo Toninato",
+        "Enrico Salvati"
+      ],
+      "first_author_affiliation": "Polytechnic Department of Engineering and Architecture, University of Udine, Via delle Scienze 206, Udine, 33100, Italy",
+      "corresponding_authors": [
+        {
+          "name": "Emanuele Avoledo",
+          "affiliation": "Polytechnic Department of Engineering and Architecture, University of Udine, Via delle Scienze 206, Udine, 33100, Italy"
+        }
+      ],
+      "venue": "Precision Engineering",
+      "year": 2025,
+      "date": "2025-09-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.precisioneng.2025.09.008",
+      "cited_by_count": 5,
+      "concepts": [
+        "Uncertainty quantification",
+        "Titanium alloy",
+        "Measurement uncertainty",
+        "Materials science",
+        "Uncertainty analysis",
+        "Fractography",
+        "Threshold limit value",
+        "Computer science",
+        "Cluster analysis",
+        "Nondestructive testing",
+        "Robustness (evolution)",
+        "Systematic error",
+        "Support vector machine",
+        "Quality assurance",
+        "Monte Carlo method",
+        "Singular value decomposition"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "defect",
+          "fatigue",
+          "fatigue life"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "post-processing"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文关注的是CT扫描参数优化而非Ti-6Al-4V后处理工艺，不涉及对力学性能的影响。",
+        "why_not_core": "The paper does not study any post-processing treatment (e.g., heat treatment, HIP, surface peening) on Ti-6Al-4V; it optimizes CT scanning parameters for defect detection, and presents no mechanical performance data related to post-processing.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": true,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "CT optimization",
+          "defect analysis",
+          "Ti-6Al-4V",
+          "electron beam melting",
+          "uncertainty quantification",
+          "defect classification"
+        ],
+        "summary_zh": {
+          "motivation": "提高金属增材制造构件缺陷检测的精度与可靠性，以支撑疲劳寿命预测。",
+          "method": "通过迭代比对CT缺陷与断口测量值，优化CT后处理参数，并结合K-means聚类与支持向量机分类。",
+          "result": "优化后阈值参数提升134%，缺陷分类准确率达99%。",
+          "validation": "采用Ti6Al4V电子束熔融样品的断口测量作为CT优化参考。"
+        },
+        "summary_en": {
+          "motivation": "To enhance the accuracy and reliability of defect detection in additively manufactured metallic components for improved fatigue life prediction.",
+          "method": "An iterative comparison between CT-based defect measurements and fractographic data is used to optimize CT post-processing parameters, followed by unsupervised K-means clustering and supervised SVM classification of defects.",
+          "result": "The optimized threshold parameter increased by 134% compared to a commercial algorithm, achieving 99% classification accuracy for defect types.",
+          "validation": "The methodology was validated on Ti6Al4V dog-bone samples produced by electron beam melting using fractographic measurements as reference."
+        },
+        "key_terms": [
+          {
+            "en": "X-ray computed tomography",
+            "zh": "X射线计算机断层扫描"
+          },
+          {
+            "en": "defect analysis",
+            "zh": "缺陷分析"
+          },
+          {
+            "en": "post-processing parameters",
+            "zh": "后处理参数"
+          },
+          {
+            "en": "uncertainty quantification",
+            "zh": "不确定度量化"
+          },
+          {
+            "en": "defect classification",
+            "zh": "缺陷分类"
+          },
+          {
+            "en": "electron beam melting",
+            "zh": "电子束熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "K-means clustering",
+            "zh": "K均值聚类"
+          },
+          {
+            "en": "support vector machine",
+            "zh": "支持向量机"
+          },
+          {
+            "en": "fatigue life prediction",
+            "zh": "疲劳寿命预测"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:15:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414428246",
+      "doi": "10.1108/rpj-03-2025-0091",
+      "title": "Compressive and energy absorption characteristics of directional graded Ti6Al4V Split-P lattices for biomedical applications",
+      "abstract": "Purpose This study aims to investigate the mechanical properties of graded triply periodic minimal surface Split-P lattices fabricated via laser powder bed fusion (L-PBF) and examine how grading direction affects energy absorption. Design/methodology/approach This work established a design approach for graded Split-P with various grading directions referred as 1-D (one-directional), 2-D (bidirectional) and 3-D (three-directional). The graded samples were fabricated using Ti6Al4V ELI powder and L-PBF technology. This study then focuses on analysing the quasi-static behaviours to identify the failure mechanism of these Ti6Al4V Split-P lattices. Furthermore, the stress–strain behaviour was explored to evaluate the three Split-P lattice’s energy absorption. The unit cell homogenization method was used to predict the isotropy behaviour of the Split-P lattices. Findings Compression test results showed that the 1-D-graded Split-P lattice exhibited higher elastic modulus (4.97 ± 0.13 GPa) and yield strength (132.47 ± 1.56 MPa) compared to other lattices, with an elastic modulus lattice closer to that of cancellous bone, potentially reducing the stress-shielding effect. The 3-D-graded Split-P lattice demonstrated a lower elastic modulus (2.95 ± 0.15 GPa) and yield strength (44.15 ± 3.26 MPa). However, the 3-D-graded lattice had a high energy absorption capacity (75.85 MJ/m3) compared to other lattices. Furthermore, the as-designed 3-D-graded Split-P lattice shows greater anisotropy compared to other lattices. Three power-law models were developed to predict the mechanical properties of graded Ti6Al4V Split-P lattices with different grading directions. This study also highlights the design of graded Ti6Al4V Split-P lattices for biomedical applications. Originality/value This work provides the design method for creating Split-P lattices with varying grading directions to control the mechanical properties and energy absorption for advanced biomedical implants. The homogenization method used in this study enables the prediction and control of isotropic properties in as-designed lattices.",
+      "authors": [
+        "Uday Kumar Jonnala",
+        "Ravi Kumar Yennam",
+        "Ian Gibson"
+      ],
+      "first_author_affiliation": "National Institute of Technology Warangal Department of Mechanical Engineering, , Warangal,",
+      "corresponding_authors": [
+        {
+          "name": "Uday Kumar Jonnala",
+          "affiliation": "National Institute of Technology Warangal Department of Mechanical Engineering, , Warangal,"
+        }
+      ],
+      "venue": "Rapid Prototyping Journal",
+      "year": 2025,
+      "date": "2025-09-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1108/rpj-03-2025-0091",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Titanium alloy",
+        "Anisotropy",
+        "Composite material",
+        "Isotropy",
+        "Elastic modulus",
+        "Lattice (music)",
+        "Homogenization (climate)",
+        "Modulus",
+        "Elastic energy",
+        "Diffraction",
+        "Viscoplasticity",
+        "Material properties",
+        "Titanium",
+        "Stiffness",
+        "Finite element method",
+        "Shear modulus",
+        "Surface energy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_femoral_stem",
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_femoral_stem": [
+          "Ti6Al4V",
+          "graded lattice",
+          "triply periodic minimal surface",
+          "stress shielding"
+        ],
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "yield strength"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "本文研究Ti6Al4V梯度点阵的力学性能，对多孔股骨柄的减应力屏蔽设计有参考价值。",
+        "why_not_core": "该论文研究的是点阵结构单元而非完整的股骨柄或植入物结构，未涉及柄的疲劳、稳定性或具体植入物评估。",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "graded lattice",
+          "Split-P",
+          "energy absorption",
+          "L-PBF",
+          "stress shielding"
+        ],
+        "summary_zh": {
+          "motivation": "研究不同梯度方向Ti6Al4V Split-P点阵的力学性能。",
+          "method": "通过L-PBF制备三种梯度方向点阵并测试压缩性能。",
+          "result": "1-D梯度点阵模量接近松质骨，3-D梯度点阵能量吸收更高。",
+          "validation": "压缩实验验证，建立幂律模型预测性能。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the mechanical properties and energy absorption of graded Ti6Al4V Split-P lattices for potential biomedical implant applications.",
+          "method": "Three types of graded lattices (1-D, 2-D, 3-D) were fabricated via laser powder bed fusion and tested under quasi-static compression.",
+          "result": "The 1-D graded lattice exhibited elastic modulus closest to cancellous bone, while the 3-D graded lattice showed superior energy absorption capacity.",
+          "validation": "Experimental compression tests were conducted and power-law models were derived to predict mechanical properties."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "graded lattice",
+            "zh": "梯度点阵"
+          },
+          {
+            "en": "Split-P lattice",
+            "zh": "Split-P点阵"
+          },
+          {
+            "en": "energy absorption",
+            "zh": "能量吸收"
+          },
+          {
+            "en": "stress shielding",
+            "zh": "应力屏蔽"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:15:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414399775",
+      "doi": "10.1016/j.ijfatigue.2025.109299",
+      "title": "Experimental and microstructure-sensitive fatigue modeling of the effects of periodic dwell and overload on additively manufactured Ti-6Al-4V",
+      "abstract": "",
+      "authors": [
+        "Harshit Gaddam",
+        "Taylor A. Hodes",
+        "Krzysztof S. Stopka",
+        "Michael D. Sangid"
+      ],
+      "first_author_affiliation": "School of Aeronautics and Astronautics, Purdue University, West Lafayette, IN 47907, USA",
+      "corresponding_authors": [
+        {
+          "name": "Michael D. Sangid",
+          "affiliation": "School of Aeronautics and Astronautics, Purdue University, West Lafayette, IN 47907, USA"
+        }
+      ],
+      "venue": "International Journal of Fatigue",
+      "year": 2025,
+      "date": "2025-09-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2025.109299",
+      "cited_by_count": 0,
+      "concepts": [
+        "Dwell time",
+        "Materials science",
+        "Crystal plasticity",
+        "Plasticity",
+        "Microstructure",
+        "Slip (aerodynamics)",
+        "Amplitude",
+        "Lüders band",
+        "Finite element method",
+        "Structural engineering",
+        "Composite material",
+        "Fatigue testing",
+        "Alloy",
+        "Grain boundary",
+        "Fatigue limit"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究增材制造Ti-6Al-4V的疲劳行为，包括实验和建模，符合L1层面的力学与疲劳性能评估需求。",
+        "why_not_core": "No post-processing or implant-specific analysis; it focuses solely on process-state fatigue under dwell/overload loading conditions.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "additive manufacturing",
+          "Ti-6Al-4V",
+          "fatigue",
+          "dwell",
+          "overload",
+          "microstructure-sensitive model",
+          "experimental validation"
+        ],
+        "summary_zh": {
+          "motivation": "研究增材制造Ti-6Al-4V在周期停留和过载下的疲劳行为。",
+          "method": "采用实验疲劳测试与微观结构敏感模型相结合的方法。",
+          "result": "揭示了停留和过载对疲劳寿命的影响规律。",
+          "validation": "通过实验疲劳数据验证了模型预测。"
+        },
+        "summary_en": {
+          "motivation": "To understand the fatigue behavior of additively manufactured Ti-6Al-4V under periodic dwell and overload conditions.",
+          "method": "Combined experimental fatigue tests with a microstructure-sensitive modeling approach.",
+          "result": "Characterized the influence of dwell and overload on fatigue life and crack initiation.",
+          "validation": "Validated the model against experimental fatigue data."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "fatigue",
+            "zh": "疲劳"
+          },
+          {
+            "en": "dwell",
+            "zh": "停留"
+          },
+          {
+            "en": "overload",
+            "zh": "过载"
+          },
+          {
+            "en": "microstructure-sensitive model",
+            "zh": "微观结构敏感模型"
+          },
+          {
+            "en": "experimental validation",
+            "zh": "实验验证"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:15:36Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 3,
+    "by_source": {
+      "openalex": 3
+    },
+    "after_dedup": 3,
+    "after_routing": 3,
+    "by_direction": {
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_femoral_stem": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 3
+    },
+    "scored": 3,
+    "priority_counts": {
+      "Exclude": 1,
+      "Medium": 1,
+      "High": 1
+    }
+  }
+}

@@ -4,582 +4,201 @@
   "date_precision": "month",
   "papers": [
     {
-      "source": "pubmed",
-      "id": "pubmed:41853807",
-      "doi": "10.1016/j.artd.2026.101984",
-      "pmid": "41853807",
-      "title": "Deviation From AI-Predicted Implant Sizes in Total Hip Arthroplasty Is Associated With Increased Complication Risk.",
-      "abstract": "BACKGROUND: Patient characteristics may predict implant sizes in total hip arthroplasty (THA), but the clinical value and generalizability of such models remain uncertain. This study evaluated the accuracy and relevance of an artificial intelligence (AI)-driven prediction tool for THA sizing in a diverse population. METHODS: We retrospectively reviewed 2410 primary THAs at 2 academic hospitals (2007-2021). Data included patient characteristics, surgical approach, surgeon fellowship training, and complications (periprosthetic femur fracture [PPF], aseptic loosening within 1 year). An AI model predicted femoral stem and acetabular cup sizes using age, sex, height, weight, and race/ethnicity, and these predictions were compared with implanted sizes. In a subset, predictions were compared to traditional radiographic templating. Multivariate analyses assessed associations between size deviation and complications. RESULTS: AI-predicted femoral stems and cups were within one size of implanted components in 72.0% and 77.7% of cases, and within 2 sizes in 91.2% and 94.7%, respectively. Excluding complex cases (dysplasia, avascular necrosis, head collapse, conversion THA) improved accuracy (P < .0001). In subgroup analysis, AI predictions outperformed radiographic templating for stems (mean deviation 0.731 vs 1.179; P < .0001) and cups (0.673 vs 1.071; P = .036). Arthroplasty-trained surgeons implanted components significantly closer to AI-predicted sizes (P < .001). Closer alignment with AI-predicted stem size was associated with reduced aseptic loosening and PPF (P < .0001). CONCLUSIONS: A free AI-assisted prediction tool (Mortho) demonstrated strong accuracy and generalizability for implant sizing in primary THA, particularly in standard cases. Predictions mirrored arthroplasty-trained surgeons' selections and outperformed radiographic templating, supporting patient characteristic-based AI as a valuable adjunct for THA planning.",
-      "authors": [
-        "Michael P Murphy",
-        "Andrew M Schneider",
-        "Cameron J Killen",
-        "Daniel R Schmitt",
-        "Nicholas M Brown"
-      ],
-      "first_author_affiliation": "Department of Orthopaedic Surgery, Anderson Orthopaedic Research Institute, Alexandria, VA, USA.",
-      "corresponding_authors": [
-        {
-          "name": "Nicholas M Brown",
-          "affiliation": "Department of Orthopaedic Surgery and Rehabilitation, Loyola University Medical Center, Maywood, IL, USA.",
-          "inferred": true
-        }
-      ],
-      "venue": "Arthroplasty today",
-      "year": 2026,
-      "date": "2026-04-01",
-      "date_precision": "month",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41853807/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "本文关注AI预测髋关节假体尺寸的临床研究，与用户的研究方向（股骨柄增材制造及传统制造）无关。",
-        "why_not_core": "This paper does not address femoral stem design, manufacturing (AM or traditional), or mechanical characterization; it focuses solely on clinical prediction of implant sizes using patient demographics.",
-        "validation_kind": "clinical",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": true,
-          "is_review": false
-        },
-        "tags": [
-          "AI prediction",
-          "implant sizing",
-          "total hip arthroplasty",
-          "clinical outcomes"
-        ],
-        "summary_zh": {
-          "motivation": "评估AI预测髋关节假体尺寸的准确性和临床价值。",
-          "method": "回顾2410例全髋关节置换，用患者特征预测假体尺寸并与实际植入及放射学模板比较。",
-          "result": "AI预测型号吻合率72%，偏差与无菌性松动和假体周围骨折风险显著相关。",
-          "validation": "基于多中心临床数据的回顾性分析及多变量回归验证。"
-        },
-        "summary_en": {
-          "motivation": "To evaluate the accuracy and clinical relevance of AI-driven prediction of implant sizes in total hip arthroplasty.",
-          "method": "A retrospective analysis of 2410 primary THAs compared AI-predicted femoral stem and acetabular cup sizes (based on patient demographics) with actual implanted sizes and radiographic templating.",
-          "result": "AI predictions were within one size for 72% of stems and 77.7% of cups; closer alignment with predicted stem size was significantly associated with reduced aseptic loosening and periprosthetic fracture.",
-          "validation": "Clinical retrospective study with multivariate analysis of complication associations."
-        },
-        "key_terms": [
-          {
-            "en": "AI prediction",
-            "zh": "AI预测"
-          },
-          {
-            "en": "implant sizing",
-            "zh": "假体尺寸预测"
-          },
-          {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换"
-          },
-          {
-            "en": "aseptic loosening",
-            "zh": "无菌性松动"
-          },
-          {
-            "en": "periprosthetic fracture",
-            "zh": "假体周围骨折"
-          },
-          {
-            "en": "radiographic templating",
-            "zh": "放射学模板"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:20:36Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:41774120",
-      "doi": "10.1007/s00264-026-06764-9",
-      "pmid": "41774120",
-      "title": "Do intraoperative calcar fractures increase early complications or revisions in short stem total hip arthroplasty? A propensity score matching study.",
-      "abstract": "PURPOSE: Intraoperative calcar fracture (IOCF) can compromise initial stability, leading to stem subsidence and instability. We aimed to compare 2-year complications and revision rates between patients who sustained IOCF and matched controls without IOCF using short stem total hip arthroplasty (THA). METHOD: Patients who underwent short stem THA from November 2010 to October 2023 were included. They were categorized into those who sustained IOCF and were treated intraoperatively with double-loops cerclage wiring, and those without IOCF. Propensity score matching was performed to balance baseline characteristics between the two groups. The following outcomes were evaluated at two years: femoral stem subsidence, periprosthetic femoral fracture (PFF), periprosthetic joint infection (PJI), dislocation, aseptic femoral loosening, and revision. RESULTS: Initially, 844 cases were identified. After matching, 80 and 640 cases were included in IOCF and non-IOCF groups respectively. There was one case (1.25%) of stem subsidence in the IOCF group and 11 cases (1.72%) in the non-IOCF group, with no significant difference (p = 0.76). PFF occurred in one case (1.25%) of the IOCF group and four cases (0.63%) of the non-IOCF group; the difference was not significant (p = 0.53). In the non-IOCF group, there were five cases (0.78%) of PJI, 11 cases (1.72%) of dislocation, one case (0.16%) of aseptic femoral loosening and 13 cases (2%) of revisions. There was no revision in the IOCF group. CONCLUSION: Short stem THA complicated by IOCF, when promptly recognized and treated intraoperatively, did not increase complications or revision rates at two years.",
-      "authors": [
-        "Yingyong Suksathien",
-        "Jithayut Suarjui",
-        "Thanut Tippimanchai",
-        "Supakit Asawasudsakorn",
-        "Rachawan Suksathien",
-        "Pattawat Chuvanichanon"
-      ],
-      "first_author_affiliation": "Department of Orthopaedics, Maharat Nakhon Ratchasima Hospital, Nakhon Ratchasima, Thailand. yingyongsuksathien@gmail.com.",
-      "corresponding_authors": [
-        {
-          "name": "Yingyong Suksathien",
-          "affiliation": "Department of Orthopaedics, Maharat Nakhon Ratchasima Hospital, Nakhon Ratchasima, Thailand. yingyongsuksathien@gmail.com."
-        }
-      ],
-      "venue": "International orthopaedics",
-      "year": 2026,
-      "date": "2026-04-01",
-      "date_precision": "month",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41774120/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem",
-          "short stem"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "此论文为临床结果研究，未涉及生物力学建模或植入物设计。",
-        "why_not_core": "No biomechanics modeling, no FEA, no implant design, no AM, no stress shielding or micromotion quantification.",
-        "validation_kind": "clinical",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "short stem THA",
-          "calcar fracture",
-          "complications",
-          "clinical outcomes"
-        ],
-        "summary_zh": {
-          "motivation": "评估术中股骨距骨折对短柄全髋置换术后早期并发症的影响。",
-          "method": "采用倾向性评分匹配比较有和无术中骨折的患者两年结局。",
-          "result": "术中骨折经即时环扎处理后并发症与翻修率无显著增加。",
-          "validation": "基于844例患者数据的回顾性临床队列验证。"
-        },
-        "summary_en": {
-          "motivation": "To evaluate whether intraoperative calcar fractures increase early complications or revisions in short stem total hip arthroplasty.",
-          "method": "A propensity score matching study comparing two-year outcomes between patients with and without intraoperative calcar fractures.",
-          "result": "Prompt intraoperative cerclage wiring for calcar fractures did not significantly increase complications or revision rates at two years.",
-          "validation": "Retrospective clinical validation on 844 cases with propensity score matching."
-        },
-        "key_terms": [
-          {
-            "en": "short stem total hip arthroplasty",
-            "zh": "短柄全髋关节置换术"
-          },
-          {
-            "en": "intraoperative calcar fracture",
-            "zh": "术中股骨距骨折"
-          },
-          {
-            "en": "propensity score matching",
-            "zh": "倾向性评分匹配"
-          },
-          {
-            "en": "stem subsidence",
-            "zh": "柄下沉"
-          },
-          {
-            "en": "periprosthetic fracture",
-            "zh": "假体周围骨折"
-          },
-          {
-            "en": "revision",
-            "zh": "翻修"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:20:36Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:41767033",
-      "doi": "10.1016/j.jcot.2026.103373",
-      "pmid": "41767033",
-      "title": "Modified lever extraction technique for management of a rare femoral prosthesis fracture at the shoulder-neck junction: A case report.",
-      "abstract": "Fractures involving the shoulder-neck junction of the femoral component in total hip arthroplasty are extremely rare with only 25 reported cases identified in existing literature by Van Doesburg et al. Extraction of a well-fixed fractured femoral component, particularly when cemented, is a technically demanding and time-intensive procedure that carries a considerable risk of damage to the host bone. Despite the availability of various described techniques, removal of a broken femoral stem while preserving host bone integrity remains one of the most challenging aspects of revision hip arthroplasty. The authors present a case involving a 62-year-old man with acute pain because of femoral stem fracture at the shoulder-neck junction; managed using a three-step modified lever extraction technique to remove the fractured prosthesis while preserving the surrounding bone. Following fragment removal, a cement-in-cement revision was performed, and the patient was mobilised early. At six weeks, follow-up radiographs were satisfactory, with no early complications observed. The authors suggest that in shoulder-neck junction prosthetic fractures, where the retained fragment is proximally accessible and the cement mantle remains intact, this technique represents a reproducible, bone-sparing, and conservative option. This technique should be considered alongside other established extraction methods rather than as a replacement.",
-      "authors": [
-        "Prithviraj Deshmukh",
-        "Deepak Herlekar",
-        "Kuntal Patel"
-      ],
-      "first_author_affiliation": "Department of Trauma & Orthopaedics, Royal Lancaster Infirmary, Lancaster, UK.",
-      "corresponding_authors": [
-        {
-          "name": "Kuntal Patel",
-          "affiliation": "Department of Trauma & Orthopaedics, Royal Lancaster Infirmary, Lancaster, UK.",
-          "inferred": true
-        }
-      ],
-      "venue": "Journal of clinical orthopaedics and trauma",
-      "year": 2026,
-      "date": "2026-04-01",
-      "date_precision": "month",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41767033/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文为临床病例报告，不涉及用户关注的生物打印、植入物设计、有限元分析或增材制造方向。",
-        "why_not_core": "This paper is a clinical case report on a surgical extraction technique and does not cover implant design, biomechanics, FEA surrogate modeling, additive manufacturing, or any engineering validation relevant to the user's research directions.",
-        "validation_kind": "clinical",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": true,
-          "is_review": false
-        },
-        "tags": [
-          "femoral stem fracture",
-          "extraction technique",
-          "total hip arthroplasty"
-        ],
-        "summary_zh": {
-          "motivation": "处理罕见股骨假体骨折的取出难题",
-          "method": "采用三步改良杠杆取出技术",
-          "result": "成功取出并骨水泥翻修，六周随访满意",
-          "validation": "单一病例报告"
-        },
-        "summary_en": {
-          "motivation": "To address the challenge of extracting a fractured femoral stem at the shoulder-neck junction in total hip arthroplasty.",
-          "method": "A three-step modified lever extraction technique was used to remove the fractured prosthesis while preserving bone stock.",
-          "result": "Successful cement-in-cement revision with satisfactory six-week follow-up radiographs and no early complications.",
-          "validation": "Single case report without comparative or quantitative validation."
-        },
-        "key_terms": [
-          {
-            "en": "femoral stem fracture",
-            "zh": "股骨假体断裂"
-          },
-          {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换术"
-          },
-          {
-            "en": "extraction technique",
-            "zh": "取出技术"
-          },
-          {
-            "en": "cement-in-cement revision",
-            "zh": "骨水泥-骨水泥翻修"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:20:36Z"
-    },
-    {
       "source": "openalex",
-      "id": "https://openalex.org/W7153975653",
-      "doi": "10.1016/j.arth.2026.04.014",
-      "title": "Implant Survival and Clinical Results of a Cementless Femoral Stem: Minimum 30-Year Follow-Up of 348 Primary Total Hip Arthroplasties",
-      "abstract": "BACKGROUND: Cementless femoral stems in total hip arthroplasty (THA) demonstrate excellent survival rates at 20 to 25 years, although evidence beyond this period remains very limited. Therefore, this study aimed to determine the 33-year results of a cementless femoral stem. METHODS: A retrospective evaluation of 348 primary cementless THAs was performed at a single university center using a single straight femoral stem. All patients were prospectively followed for a minimum of 30 years after THA. Kaplan-Meier survival analyses were performed, and function was assessed using patient-reported outcome measures. RESULTS: At a mean follow-up of 33 years (range, 30 to 37), 67% of patients had died of causes unrelated to THA, and 2% were lost to follow-up. A total of 51 femoral stems (14.7%) were revised, 22 (6.3%) because of aseptic loosening, 18 (5.2%) because of periprosthetic femoral fracture, and 11 (3.2%) because of periprosthetic joint infection. At 33 years, Kaplan-Meier stem survival was 79.2% (95% confidence interval (CI): 72.1 to 84.6, THAs at risk: 53) for revision of any cause and 91.6% (95% CI: 87 to 94.6, THAs at risk: 53) for aseptic loosening. An isolated acetabular revision was not associated with a higher risk of stem revision (log-rank, P = 0.703), while undersizing of the stem (canal fill index less than 90%) was identified as a significant risk factor for aseptic stem loosening (log-rank, P = 0.036). The mean Harris Hip Score values showed a gradual, non-significant decline over time. CONCLUSIONS: The straight, cementless femoral stem showed excellent survival and clinical function after 33 years. Undersizing of the stem was associated with a higher risk of aseptic loosening within the first two decades, whereas periprosthetic femoral fractures emerged as the predominant reason for stem revision during the third and fourth decades. Furthermore, these results confirm that well-fixed cementless stems should be retained during isolated cup revision for aseptic cup loosening.",
+      "id": "https://openalex.org/W7155623281",
+      "doi": "10.1016/j.cjme.2026.100312",
+      "title": "Tensile and fatigue properties of additively manufactured titanium alloy: Effects of heat treatment and surface processing",
+      "abstract": "Titanium alloy has been regarded as one of the most demandable and potential materials in the additive manufacturing (AM) community due to its good printability and extensive applications. While the durability and ductility of the as-built titanium alloy specimens were markedly lower than the forgings due to the rough surfaces, acicular martensite structure and high stress state. Here, heat treatment and surface treatment (i.e., shot blasting and machining) were performed on the laser powder bed fused (LPBF) Ti-6Al-4V specimens and forging counterparts to investigate the effects of surface roughness and microstructure on the tensile and fatigue properties. The results indicated that the tensile and fatigue strength were greatly improved after surface treatment, and fatigue limits was further improved after heat treatment. The optimized combination of heat treatment and surface processing provides reliable strategy guidance for the mechanical property improvement of LPBF-produced Ti-6Al-4V alloy.",
       "authors": [
-        "Andre Lunz",
-        "Maximilian Neuendorff",
-        "Mustafa Hariri",
-        "Johannes Weishorn",
-        "Tilman Walker",
-        "Moritz M. Innmann"
+        "Jinliang Zhang",
+        "Bo Song",
+        "Qian Yan",
+        "Chaoqun Wu",
+        "Yusheng Shi"
       ],
-      "first_author_affiliation": "Department of Orthopaedics, Heidelberg University Hospital, Heidelberg, Germany",
+      "first_author_affiliation": "Key Laboratory of Advanced Manufacturing Technology for High Performance Parts, Ministry of Education, School of Mechanical and Electronic Engineering, Wuhan University of Technology, Wuhan 430070, China",
       "corresponding_authors": [
         {
-          "name": "Andre Lunz",
-          "affiliation": "Department of Orthopaedics, Heidelberg University Hospital, Heidelberg, Germany"
+          "name": "Bo Song",
+          "affiliation": "State Key Laboratory of Materials Processing and Die and Mould Technology, School of Materials Science and Engineering, Huazhong University of Science and Technology, Wuhan 430074, China"
         }
       ],
-      "venue": "The Journal of Arthroplasty",
+      "venue": "Chinese Journal of Mechanical Engineering",
       "year": 2026,
       "date": "2026-04-01",
       "date_precision": "month",
-      "url": "https://doi.org/10.1016/j.arth.2026.04.014",
+      "url": "https://doi.org/10.1016/j.cjme.2026.100312",
       "cited_by_count": 0,
       "concepts": [
-        "Medicine",
-        "Total hip replacement",
-        "Total hip arthroplasty",
-        "Implant",
-        "Surgery",
-        "Prosthesis"
+        "Materials science",
+        "Titanium",
+        "Ultimate tensile strength",
+        "Composite material",
+        "Surface (topology)",
+        "Titanium alloy",
+        "Metallurgy",
+        "Materials processing",
+        "Titanio",
+        "Titanium powder"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "am_femoral_stem"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "ductility",
+          "surface roughness",
+          "fatigue",
+          "fatigue strength"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment",
+          "machining",
+          "surface treatment"
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文提供超30年临床随访结果，但未涉及力学建模、应力遮挡或增材制造。",
-        "why_not_core": "This paper does not include any biomechanical modeling, stress shielding quantification, micromotion analysis, or additive manufacturing of the stem.",
-        "validation_kind": "clinical",
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了热和表面后处理对增材制造Ti-6Al-4V疲劳和拉伸性能的影响，与后处理控制方向完全一致。",
+        "why_not_core": "This paper does not investigate the effect of hot isostatic pressing (HIP) or laser shock peening; it focuses on heat treatment and shot blasting/machining only.",
+        "validation_kind": "mechanical_testing",
         "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": true,
-          "is_patient_specific": true,
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "cementless femoral stem",
-          "long-term follow-up",
-          "survival analysis",
-          "aseptic loosening",
-          "periprosthetic fracture"
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "heat treatment",
+          "surface treatment",
+          "shot blasting",
+          "machining",
+          "fatigue",
+          "tensile properties"
         ],
         "summary_zh": {
-          "motivation": "评估骨水泥型股骨柄超30年生存率及临床功能。",
-          "method": "回顾性分析348例初次全髋置换，平均随访33年。",
-          "result": "33年假体生存率为79.2%，无菌松动和假体周围骨折为主要失败原因。",
-          "validation": "前瞻性收集数据，Kaplan-Meier生存分析及Harris髋评分。"
+          "motivation": "提高LPBF Ti-6Al-4V的拉伸和疲劳性能，使其达到锻件水平",
+          "method": "对LPBF Ti-6Al-4V试样进行热处理和表面处理（喷丸、机加工）并测试力学性能",
+          "result": "表面处理大幅提升强度和疲劳极限，结合热处理后进一步改善",
+          "validation": "通过拉伸和疲劳实验对比处理前后的力学性能"
         },
         "summary_en": {
-          "motivation": "Long-term evidence beyond 25 years for cementless femoral stems is lacking; this study evaluates survival at a minimum of 30 years.",
-          "method": "A retrospective review of 348 primary cementless THAs using a single straight stem was performed, with prospective follow-up for at least 30 years.",
-          "result": "At 33 years, stem survival for any revision was 79.2%, and for aseptic loosening 91.6%; stem undersizing (canal fill <90%) was a significant risk factor for aseptic loosening.",
-          "validation": "Kaplan-Meier survival analyses with confidence intervals and patient-reported outcomes (Harris Hip Score) were used to validate implant performance."
+          "motivation": "To improve the tensile and fatigue properties of LPBF Ti-6Al-4V to match those of wrought counterparts.",
+          "method": "Heat treatment and surface processing (shot blasting and machining) were applied to LPBF Ti-6Al-4V specimens, followed by tensile and fatigue testing.",
+          "result": "Surface processing greatly enhanced strength and fatigue limit, which was further improved by subsequent heat treatment.",
+          "validation": "Mechanical tests (tensile and fatigue) comparing as-built, heat-treated, and surface-processed conditions."
         },
         "key_terms": [
           {
-            "en": "cementless femoral stem",
-            "zh": "非骨水泥型股骨柄"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换术"
+            "en": "heat treatment",
+            "zh": "热处理"
           },
           {
-            "en": "aseptic loosening",
-            "zh": "无菌性松动"
+            "en": "surface treatment",
+            "zh": "表面处理"
           },
           {
-            "en": "survival analysis",
-            "zh": "生存分析"
+            "en": "shot blasting",
+            "zh": "喷丸"
           },
           {
-            "en": "periprosthetic fracture",
-            "zh": "假体周围骨折"
+            "en": "machining",
+            "zh": "机加工"
           },
           {
-            "en": "canal fill index",
-            "zh": "髓腔填充指数"
+            "en": "fatigue strength",
+            "zh": "疲劳强度"
+          },
+          {
+            "en": "tensile properties",
+            "zh": "拉伸性能"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
+      "first_seen_at": "2026-06-07T23:29:54Z"
     },
     {
       "source": "openalex",
-      "id": "https://openalex.org/W7154825097",
-      "doi": "10.1016/j.arth.2026.04.038",
-      "title": "Preoperative Femoral Bone Texture Features on Radiographs Are Associated with Femoral Stem Subsidence Following Total Hip Arthroplasty",
-      "abstract": "BACKGROUND: Femoral stem subsidence greater than two mm after total hip arthroplasty has been associated with worse patient outcomes. Identifying poor bone quality preoperatively could help surgeons choose implant designs that minimize subsidence risk. The purpose of this exploratory study was to evaluate whether radiographic bone texture is associated with early femoral stem migration. METHODS: A secondary analysis was performed for 63 participants enrolled in a randomized trial comparing collared versus collarless cementless stems implanted by direct anterior or direct lateral approaches. Participants underwent radiostereometric analysis and standardized radiographs preoperatively and at six weeks, one year, and five years postoperatively. Participants were divided into less than or equal to two or greater than two mm subsidence groups from the radiostereometric analysis data. Regions of interest corresponding to the seven Gruen zones were analyzed for radiographic texture features describing bone quality. RESULTS: At baseline, hips with greater than two mm of early subsidence had lower texture energy (P = 0.0003 to 0.014) and mean intensity (P = 0.0005 to 0.026) across all Gruen zones, reflecting more uniform bone structure. In both groups, texture parameters increased over time (P < 0.0001), consistent with bone remodeling and ingrowth. CONCLUSIONS: These findings demonstrate an association between femoral bone texture on plain radiographs and early subsidence of cementless stems. Because radiographs are routine and widely available, texture analysis may offer an accessible, quantitative method for assessing bone quality to support implant selection and postoperative monitoring.",
+      "id": "https://openalex.org/W7162677121",
+      "doi": "10.1088/1742-6596/3221/1/012023",
+      "title": "Microstructure and mechanical properties of additively enhanced titanium alloy lightweight high-speed motor shaft",
+      "abstract": "Abstract High-speed motor shafts are subjected to immense centrifugal forces and demand extremely high dynamic balancing precision. Titanium alloys, characterized by their high specific strength, excellent fatigue resistance, and the design freedom enabled by additive manufacturing, present an ideal material choice for the shaft. Numerical simulation and design are employed to ensure the operational reliability and structural stability of the Titanium alloy shaft under high-speed conditions. Based on the laser cladding technology, a multi-layer laser additive manufacturing process was developed to perform the deposition process on a titanium alloy motor shaft. With the assistance of Al-based high-performance metal powder, this study presents the successful fabrication of a high-performance Al-based composite strengthened coating on Ti-6Al-4V (TC4) titanium alloy motor shaft using laser additive manufacturing. The coating exhibited significantly enhanced mechanical properties compared to the TC4 substrate; microhardness increased from 320 HV to 530-610 HV. Wear tests revealed a substantially reduced friction coefficient compared to the TC4. These results demonstrate that laser additive manufacturing is a viable method for producing the titanium alloy lightweight high-speed motor shaft.",
       "authors": [
-        "Omar Abdelhalim",
-        "J Polus",
-        "Edward M. Vasarhelyi",
-        "Brent A. Lanting",
-        "Matthew G. Teeter"
+        "Yue Wang",
+        "Zehao Xu",
+        "Y LIU",
+        "Xiaotian Wei",
+        "Sikai Fu",
+        "Yukun Jiang"
       ],
-      "first_author_affiliation": "Imaging Research Laboratories, Robarts Research Institute, Western University, London, Ontario, Canada",
+      "first_author_affiliation": "North China Electric Power University",
       "corresponding_authors": [
         {
-          "name": "Omar Abdelhalim",
-          "affiliation": "Imaging Research Laboratories, Robarts Research Institute, Western University, London, Ontario, Canada"
+          "name": "Yue Wang",
+          "affiliation": "North China Electric Power University"
         }
       ],
-      "venue": "The Journal of Arthroplasty",
+      "venue": "Journal of Physics Conference Series",
       "year": 2026,
       "date": "2026-04-01",
       "date_precision": "month",
-      "url": "https://doi.org/10.1016/j.arth.2026.04.038",
+      "url": "https://doi.org/10.1088/1742-6596/3221/1/012023",
       "cited_by_count": 0,
       "concepts": [
-        "Medicine",
-        "Radiography",
-        "Total hip arthroplasty",
-        "Implant",
-        "Orthodontics",
-        "Dentistry",
-        "Subsidence",
-        "Texture (cosmology)",
-        "Hip arthroplasty",
-        "Arthroplasty",
-        "Femoral bone",
-        "Femur"
+        "Materials science",
+        "Titanium alloy",
+        "Microstructure",
+        "Coating",
+        "Indentation hardness",
+        "Alloy",
+        "Titanium",
+        "Metallurgy",
+        "Composite material",
+        "Fabrication",
+        "Cladding (metalworking)",
+        "Composite number"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "am_femoral_stem"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TC4",
+          "fatigue"
         ]
       },
       "llm": {
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文研究了髋关节置换术后股骨柄下沉的影像学预测因素，但未涉及生物力学建模或植入物设计优化。",
-        "why_not_core": "No AI/ML modeling, no FEA, no implant stress shielding or contact mechanics, no additive manufacturing.",
-        "validation_kind": "clinical",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": true,
-          "is_review": false
-        },
-        "tags": [
-          "femoral stem subsidence",
-          "total hip arthroplasty",
-          "radiographic texture",
-          "bone quality",
-          "clinical study"
-        ],
-        "summary_zh": {
-          "motivation": "探索术前X光片骨纹理特征是否与股骨柄早期下沉相关。",
-          "method": "对63例全髋置换患者的RSA数据和X光片进行纹理分析，比较下沉>2mm和≤2mm两组。",
-          "result": "下沉>2mm组术前纹理能量和平均强度更低，反映更均匀的骨结构。",
-          "validation": "使用放射立体测量分析（RSA）作为金标准验证下沉量。"
-        },
-        "summary_en": {
-          "motivation": "To investigate whether preoperative femoral bone texture features on radiographs are associated with early femoral stem subsidence after total hip arthroplasty.",
-          "method": "A secondary analysis of 63 patients from a randomized trial, using radiostereometric analysis and texture analysis of Gruen zones on radiographs.",
-          "result": "Lower texture energy and mean intensity at baseline were associated with greater than 2 mm subsidence, and texture parameters increased over time suggesting bone remodeling.",
-          "validation": "Clinical validation using radiostereometric analysis (RSA) as the gold standard for subsidence measurement."
-        },
-        "key_terms": [
-          {
-            "en": "femoral stem subsidence",
-            "zh": "股骨柄下沉"
-          },
-          {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换术"
-          },
-          {
-            "en": "radiographic texture analysis",
-            "zh": "X线纹理分析"
-          },
-          {
-            "en": "Gruen zones",
-            "zh": "Gruen分区"
-          },
-          {
-            "en": "radiostereometric analysis",
-            "zh": "放射立体测量分析"
-          },
-          {
-            "en": "bone quality",
-            "zh": "骨质量"
-          },
-          {
-            "en": "cementless stem",
-            "zh": "非骨水泥柄"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:41997809",
-      "doi": "10.1016/j.arth.2026.03.044",
-      "pmid": "41997809",
-      "title": "Collared Cementless Stems Show Equivalent Rates of Periprosthetic Fractures Compared to Collarless Cemented Stems in an Exclusively Elderly Cohort of Patients.",
-      "abstract": "BACKGROUND: The optimal femoral stem fixation for total hip arthroplasty for older patients remains debated due to the heightened risk of periprosthetic fractures (PPFx) with decreased bone density. Previous studies in elderly patients have shown cemented fixation leads to fewer revisions, reduced PPFx, and improved long-term implant survival. We hypothesized that modern collared cementless stems would reduce PPFx and overall complications compared to cemented and uncemented collarless stems. To our knowledge, this study represents the first single-center analysis of outcomes in older patients traditionally recommended for cemented fixation. METHODS: We retrospectively analyzed our institutional database to identify all primary total hip arthroplasties performed for women over 70 years of age and men older than 75 years between January 1, 2013 and December 31, 2024. Patients were categorized by stem collar presence and fixation method. Complications (PPFx, dislocations, periprosthetic joint infection, and aseptic loosening), reoperation indication, time to reoperation, and patient-reported outcomes were analyzed. RESULTS: Surgical time was shortest in the collared/cementless group and demonstrated the greatest and most sustained improvements in patient-reported outcomes (P-values < 0.05). The most common complication was PPFx (n = 17, 65.4%), primarily occurring in collarless/cementless designs. Collared/cementless stems had fewer complications (P = 0.0003), revisions (P = 0.004), and PPFx (P = 0.007) than collarless/cementless stems. Collared/cementless stems were noninferior in PPFx protection compared to collarless/cemented stems (P > 0.05) and demonstrated equivocal revision and complication rates compared to all cemented stems (P = 0.22). CONCLUSION: Collared/cementless stems were associated with fewer PPFx and a lower overall complication rate when compared to collarless/cementless stems. Collared/cementless stems were also noninferior to cemented stems, both with and without a collar, for complication rates and PPFx rates. Thus, a modern collared/cementless stem may offer a viable alternative to cemented fixation in osteoporotic patients.",
-      "authors": [
-        "Dongyeon Joanna Kim",
-        "Alexander S Dash",
-        "Anastasia Gazgalis",
-        "Lauren Burgett",
-        "Erik Williams",
-        "Jeffrey A Geller"
-      ],
-      "first_author_affiliation": "Columbia University, Department of Orthopaedic Surgery, New York, New York.",
-      "corresponding_authors": [
-        {
-          "name": "Jeffrey A Geller",
-          "affiliation": "Columbia University, Department of Orthopaedic Surgery, New York, New York.",
-          "inferred": true
-        }
-      ],
-      "venue": "The Journal of arthroplasty",
-      "year": 2026,
-      "date": "2026-04-01",
-      "date_precision": "month",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41997809/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文仅比较不同股骨柄假体的临床骨折率，未涉及应力遮挡、微动、有限元分析或增材制造等用户研究方向。",
-        "why_not_core": "This paper is a purely clinical retrospective study with no biomechanical modeling, no finite element analysis, no implant design optimization, and no additive manufacturing context.",
-        "validation_kind": "clinical",
+        "relevance_to_user": "论文研究的是Ti-6Al-4V基体上的激光熔覆涂层，而非基体本身的力学或疲劳性能，与方向关注的Ti-6Al-4V增材制造力学性能不直接相关。",
+        "why_not_core": "The paper is about a laser-cladded Al-based composite coating on Ti-6Al-4V, not about the mechanical or fatigue behavior of the base Ti-6Al-4V material itself.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -587,308 +206,118 @@
           "is_review": false
         },
         "tags": [
-          "clinical",
-          "hip arthroplasty",
-          "periprosthetic fracture",
-          "cementless stem",
-          "cemented stem"
+          "laser cladding",
+          "Al-based composite coating",
+          "microhardness",
+          "wear resistance",
+          "motor shaft"
         ],
         "summary_zh": {
-          "motivation": "比较老年患者中带环水泥型与无环非水泥型股骨柄的假体周围骨折率。",
-          "method": "回顾性分析女性>70岁、男性>75岁的初次全髋置换术病例。",
-          "result": "带环非水泥柄骨折率低于无环非水泥柄，且非劣效于水泥柄。",
-          "validation": "单中心临床数据回顾分析。"
+          "motivation": "提升高速电机轴的力学性能和耐磨性",
+          "method": "采用激光熔覆技术在钛合金电机轴上制备Al基复合涂层",
+          "result": "涂层硬度从320HV增至530-610HV，摩擦系数显著降低",
+          "validation": "通过显微硬度和磨损试验验证涂层性能"
         },
         "summary_en": {
-          "motivation": "To compare periprosthetic fracture rates between collared cementless and collarless cemented femoral stems in elderly patients.",
-          "method": "Retrospective analysis of primary total hip arthroplasties in women over 70 and men over 75 from 2013 to 2024.",
-          "result": "Collared cementless stems had lower periprosthetic fracture rates than collarless cementless stems and were noninferior to cemented stems.",
-          "validation": "Single-center retrospective clinical data analysis."
+          "motivation": "To improve the mechanical properties and wear resistance of high-speed motor shafts.",
+          "method": "An Al-based composite coating was deposited on a Ti-6Al-4V motor shaft using laser cladding additive manufacturing.",
+          "result": "The coating achieved a microhardness increase from 320 HV to 530-610 HV and a significantly reduced friction coefficient compared to the substrate.",
+          "validation": "Validation was performed through microhardness measurements and wear tests."
         },
         "key_terms": [
           {
-            "en": "collared cementless stem",
-            "zh": "带环非水泥柄"
+            "en": "laser cladding",
+            "zh": "激光熔覆"
           },
           {
-            "en": "collarless cemented stem",
-            "zh": "无环水泥柄"
+            "en": "microhardness",
+            "zh": "显微硬度"
           },
           {
-            "en": "periprosthetic fracture",
-            "zh": "假体周围骨折"
+            "en": "wear resistance",
+            "zh": "耐磨性"
           },
           {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换术"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "osteoporosis",
-            "zh": "骨质疏松"
-          },
-          {
-            "en": "patient-reported outcomes",
-            "zh": "患者报告结局"
-          },
-          {
-            "en": "revision",
-            "zh": "翻修"
-          },
-          {
-            "en": "complication",
-            "zh": "并发症"
+            "en": "motor shaft",
+            "zh": "电机轴"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
+      "first_seen_at": "2026-06-07T23:29:54Z"
     },
     {
-      "source": "pubmed",
-      "id": "pubmed:41970795",
-      "doi": "10.13107/jocr.2026.v16.i04.7026",
-      "pmid": "41970795",
-      "title": "Failure of a Modular Femoral Revision Stem in Hip Arthroplasty: A Rare Complication and Literature Review.",
-      "abstract": "INTRODUCTION: Zimmer modular revision (ZMR)® femoral stems are widely utilized in revision total hip arthroplasty (rTHA) due to their intraoperative customization that offers surgical flexibility in reconstructing complex hip joints. However, despite these advantages, the modular junction is prone to localized stress concentration, which may transfer cantilever loads distally. This mechanical environment possibly causes a fracture, often in the body-stem junction, where the cross-sectional area is reduced. Moreover, patient-based factors in addition to implant-related factors can both contribute to such rare but catastrophic failure. Factors such as bone quality, implant design, and surgical technique must be evaluated. These assessments will help in the formulation of a long-term management plan, along with a strategy to prevent this issue. CASE REPORT: In this report, we present a 70-year-old male patient with a past medical history of hypertension and a past surgical history of a left THA in 2011, a right THA in 2016, and a revision left THA using ZMR secondary to a periprosthetic fracture in 2021. In December 2023, he presented to the emergency department with a 2-day history of sudden atraumatic left groin pain. Imaging revealed a femoral stem fracture at the body-stem junction. CONCLUSION: Although rare, cantilever fatigue of the ZMR stem is a serious complication. It is linked to both patient related factors (advanced age, high BMI, poor proximal bone stock), and implant factors (shorter length, smaller diameter, extended offset), with failure oftern), with occurring at the body-stem junction.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7157247068",
+      "doi": "10.34726/hss.2026.139126",
+      "title": "Comparative analysis between traditional topology optimization and lattice structure optimization for additive manufacturing",
+      "abstract": "Structural weight reduction is gaining significance as engineering applications seek to increase the strength-to-weight ratio in their designs. Both lattice structures and topology optimization provide different avenues for achieving weight reduction in mechanical systems. However, comparisons between these methods are rarely conducted when both are subject to the same constraints. A controlled numerical comparison of six lattice geometries, three strut-based (BCC, FCC, Graph-Diamond) and three TPMS-based (Gyroid, Schwarz, Diamond), with a single topology optimized solid was undertaken, all constrained within a design volume of 113 × 20 × 20 mm3 and to the same total mass of approximately 60g of Ti-6Al-4V. Convergence of mesh size was investigated for each structure, and all models were subjected to identical tensile boundary conditions using linear elastic finite element analysis. The topology optimization process used a compliance-minimizing formulation, with the design load selected based on the maximum tensile capacity observed among the lattice specimens.The results clearly indicate that the internal geometry of each of the structures has a direct effect on tensile behaviour. The strut-based lattices have shown significant bending effects and rapid stress localization, leading to failure loads ranging from approximately 7 kN to 20 kN. The TPMS-based geometries have provided a more even distribution of stress and increased capacity compared to the strut-based geometries, with the TPMS \"Diamond\" geometry capable of supporting loads up to approximately 33.5 kN before approaching the yield strength of the material. The topology-optimized solid had superior tensile properties to all of the lattice geometries, supporting elastic deformation loads of up to 82.5 kN - nearly twice the capacity of the strongest lattice structure, despite being subject to the same total mass constraint. The data demonstrate that the presence of continuous and unbroken load paths can provide a significant mechanical advantage when subjected to tensile loading, and highlight the importance of optimizing geometries in order to produce optimal designs for components to be produced through additive manufacturing.",
       "authors": [
-        "Osama Aldowekat",
-        "Jihad Al-Ajlouni",
-        "Taghleb Al-Awad",
-        "Malak Smida",
-        "Zaid Ta'ani"
+        "Muhammad Muzammil Idrees"
       ],
-      "first_author_affiliation": "Department of Pediatric Orthopedics, Children's Hospital of New Orleans, Louisiana State University, New Orleans, Louisiana.",
+      "first_author_affiliation": "TU Wien",
       "corresponding_authors": [
         {
-          "name": "Zaid Ta'ani",
-          "affiliation": "Department of Special Surgery, School of Medicine, The University of Jordan, Amman, Jordan.",
-          "inferred": true
+          "name": "Muhammad Muzammil Idrees",
+          "affiliation": "TU Wien"
         }
       ],
-      "venue": "Journal of orthopaedic case reports",
+      "venue": "reposiTUm (TU Wien)",
       "year": 2026,
       "date": "2026-04-01",
       "date_precision": "month",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41970795/",
+      "url": "https://doi.org/10.34726/hss.2026.139126",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
+      "concepts": [
+        "Topology optimization",
+        "Topology (electrical circuits)",
+        "Ultimate tensile strength",
+        "Finite element method",
+        "Lattice (music)",
+        "Structural engineering",
+        "Mathematics",
+        "Deformation (meteorology)",
+        "Linear elasticity",
+        "Bending",
+        "Geometry",
+        "Boundary value problem",
+        "Materials science",
+        "Stress (linguistics)",
+        "Boundary (topology)"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_femoral_stem",
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "本文主要报告临床病例，与用户对植入物应力遮挡和有限元代理模型的研究方向没有直接关联。",
-        "why_not_core": "This paper is a clinical case report and literature review; it does not include biomechanical modeling, finite element analysis, surrogate modeling, or any experimental validation relevant to implant design optimization.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": true
-        },
-        "tags": [
-          "femoral stem",
-          "modular revision",
-          "hip arthroplasty",
-          "implant failure",
-          "case report"
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "lattice structure",
+          "TPMS"
         ],
-        "summary_zh": {
-          "motivation": "报告一例ZMR股骨翻修柄在体-柄连接处断裂的罕见并发症。",
-          "method": "通过病例报告和文献回顾分析断裂原因。",
-          "result": "断裂与高龄、高BMI、骨量差及植入物设计因素相关。",
-          "validation": "仅临床病例报告，无量化验证。"
-        },
-        "summary_en": {
-          "motivation": "This case report describes a rare failure at the body-stem junction of a Zimmer Modular Revision femoral stem.",
-          "method": "The authors present a single patient case and review the literature on modular stem failure.",
-          "result": "The fracture is attributed to patient-related factors (advanced age, high BMI, poor bone stock) and implant design factors (short length, small diameter, extended offset).",
-          "validation": "The study is purely a clinical case report with literature review; no biomechanical experimental validation is performed."
-        },
-        "key_terms": [
-          {
-            "en": "modular revision stem",
-            "zh": "模块化翻修柄"
-          },
-          {
-            "en": "femoral stem fracture",
-            "zh": "股骨柄断裂"
-          },
-          {
-            "en": "cantilever fatigue",
-            "zh": "悬臂疲劳"
-          },
-          {
-            "en": "hip arthroplasty",
-            "zh": "髋关节置换术"
-          },
-          {
-            "en": "periprosthetic fracture",
-            "zh": "假体周围骨折"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:41970752",
-      "doi": "10.13107/jocr.2026.v16.i04.7032",
-      "pmid": "41970752",
-      "title": "Recurrent Ceramic Femoral Head Fracture in Dual Mobility Total Hip Arthroplasty: A Case Report.",
-      "abstract": "INTRODUCTION: Ceramic femoral heads reduce wear in total hip arthroplasty (THA), yet fracture remains a rare but serious complication. Reports almost exclusively concern ceramic-on-ceramic bearings; cases in dual mobility constructs are exceptional. We describe, to our knowledge, the first report of two successive ceramic femoral head fractures occurring in the same dual mobility hip in a single patient, and we outline plausible mechanical contributors. CASE REPORT: Sixty-six-year-old White European man with no major comorbidities underwent primary THA with a dual mobility construct at another institution. Ten days later, he developed mechanical pain and audible noises without trauma; imaging demonstrated a ceramic femoral head fracture. Urgent revision replaced the acetabular component and femoral stem, and a new ceramic head was implanted; recovery was initially satisfactory. Twenty-two months later, during a torsional movement without high-energy trauma, he experienced sudden pain and functional impairment of the same hip. Imaging again confirmed a ceramic femoral head fracture. At re-revision, fragmented ceramic debris was found; the acetabular shell and the trunnion were intact and well fixed. The ceramic head was exchanged for a cobalt-chromium head with a compatible polyethylene insert, with extensive irrigation. Eight months later, he was pain-free with a full range of motion and returned to normal activities. The patient's ethnic background was not recorded. CONCLUSION: This case shows that dual mobility constructs are not immune to ceramic femoral head fracture and that recurrence is possible even with correct component positioning. The combination of increased femoral offset and an extended ceramic head, particularly in a patient with elevated body mass index, may raise stresses at the head-trunnion junction and precipitate failure. Clinicians should weigh patient and implant-related mechanical demands when selecting ceramic heads for dual mobility constructs and consider alternatives when risk appears high.",
-      "authors": [
-        "Mohamad Khaled Ghannam",
-        "Elliot Sappey-Marinier",
-        "Michel Bonnin",
-        "Tarik Ait Si Selmi",
-        "Mohammad Alajji",
-        "Axel Schmidt"
-      ],
-      "first_author_affiliation": "Department of Orthopaedic Surgery, Ramsay Sante, Hôpital Privé Jean Mermoz, Centre Orthopédique Santy, Lyon, France.",
-      "corresponding_authors": [
-        {
-          "name": "Axel Schmidt",
-          "affiliation": "Department of Orthopaedic Surgery, Ramsay Sante, Hôpital Privé Jean Mermoz, Centre Orthopédique Santy, Lyon, France.",
-          "inferred": true
-        }
-      ],
-      "venue": "Journal of orthopaedic case reports",
-      "year": 2026,
-      "date": "2026-04-01",
-      "date_precision": "month",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41970752/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文为临床病例报告，不涉及股骨柄的增材制造设计或生物力学分析。",
-        "why_not_core": "This paper is a clinical case report with no implant design, no finite element analysis, no biomechanical modeling, and no additive manufacturing fabrication.",
-        "validation_kind": "clinical",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": true,
-          "is_review": false
-        },
-        "tags": [
-          "ceramic femoral head fracture",
-          "dual mobility total hip arthroplasty",
-          "case report"
-        ],
-        "summary_zh": {
-          "motivation": "报告双动全髋关节置换术中陶瓷股骨头复发性断裂的罕见病例。",
-          "method": "分析一例66岁男性患者两次陶瓷股骨头断裂的临床资料。",
-          "result": "复发可能，股骨偏距和延长头增加头-锥界面应力。",
-          "validation": "单患者临床病例报告。"
-        },
-        "summary_en": {
-          "motivation": "To report the rare complication of recurrent ceramic femoral head fracture in dual mobility total hip arthroplasty.",
-          "method": "Analysis of a single patient case with two successive ceramic head fractures in the same hip, including mechanical contributors.",
-          "result": "Recurrence is possible even with correct component positioning; increased femoral offset and extended ceramic head may elevate stresses at the head-trunnion junction.",
-          "validation": "Single-patient clinical case report without experimental or computational validation."
-        },
-        "key_terms": [
-          {
-            "en": "ceramic femoral head",
-            "zh": "陶瓷股骨头"
-          },
-          {
-            "en": "dual mobility total hip arthroplasty",
-            "zh": "双动全髋关节置换术"
-          },
-          {
-            "en": "head fracture",
-            "zh": "股骨头断裂"
-          },
-          {
-            "en": "head-trunnion junction",
-            "zh": "头-锥界面"
-          },
-          {
-            "en": "femoral offset",
-            "zh": "股骨偏距"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:42186655",
-      "doi": "10.7759/cureus.107639",
-      "pmid": "42186655",
-      "title": "Adjunctive IlluminOss Fixation for a Vancouver B1 Periprosthetic Femoral Fracture: A Case Report.",
-      "abstract": "Open reduction and internal fixation with plates and intramedullary nails is often the standard approach for periprosthetic femoral shaft fractures. However, in patients with recent hip arthroplasty, these traditional methods may be invasive, difficult to position, or carry a higher risk of periprosthetic complications. The IlluminOss system (IlluminOss Medical, East Providence, RI, USA) offers a minimally invasive alternative that delivers a light-curable polymer through a balloon catheter that takes the shape of the intramedullary canal without the need for rigid instrumentation that may induce intraoperative trauma. A 63-year-old female with a recent right total hip arthroplasty presented with right thigh pain following a ground-level fall. Imaging revealed a Vancouver B1 periprosthetic fracture of the distal femoral diaphysis extending proximally toward the femoral stem, which was treated with an intramedullary IlluminOss polymer implant supplemented with lateral plate fixation. This case highlights the use of a light-curable polymer implant as a minimally invasive adjunct to plate fixation for periprosthetic femoral fractures.",
-      "authors": [
-        "Ahmad Ismail",
-        "Wayne Ngo",
-        "Niladri Basu"
-      ],
-      "first_author_affiliation": "Medicine, University of Texas at Arlington, Arlington, USA.",
-      "corresponding_authors": [
-        {
-          "name": "Niladri Basu",
-          "affiliation": "Orthopedics, Dallas Orthopaedic Trauma Institute, Dallas, USA.",
-          "inferred": true
-        }
-      ],
-      "venue": "Cureus",
-      "year": 2026,
-      "date": "2026-04-01",
-      "date_precision": "month",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42186655/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "yield strength"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文为临床病例报告，未涉及股骨假体应力遮挡、微动或增材制造设计，与用户研究方向无关。",
-        "why_not_core": "This paper is a clinical case report with no biomechanical modeling, no implant design, no FEA, and no additive manufacturing, which are core to the user's direction on femoral stem AM and traditional analysis.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V材料的点阵结构与拓扑优化对比，但未涉及任何股骨柄或骨科植入物设计，与用户方向无关。",
+        "why_not_core": "The paper does not study a femoral/hip stem or any orthopaedic implant structure; it uses a generic tensile specimen and lacks biomechanical context, stress shielding, or implant-specific loading.",
+        "validation_kind": "numerical_benchmark",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
@@ -896,303 +325,117 @@
           "is_review": false
         },
         "tags": [
-          "clinical case report",
-          "periprosthetic fracture",
-          "IlluminOss",
-          "minimally invasive fixation"
+          "topology optimization",
+          "lattice structures",
+          "TPMS",
+          "Ti-6Al-4V",
+          "finite element analysis"
         ],
         "summary_zh": {
-          "motivation": "探索微创光固化聚合物植入物治疗股骨假体周围骨折的可行性",
-          "method": "报告一例使用IlluminOss系统联合侧方钢板固定治疗Vancouver B1型股骨假体周围骨折",
-          "result": "患者术后恢复良好，骨折固定稳定",
-          "validation": "单个病例报告，无系统验证"
+          "motivation": "比较拓扑优化与点阵结构在减重设计中的力学性能差异。",
+          "method": "对六种点阵（BCC、FCC、Graph-Diamond、Gyroid、Schwarz、Diamond）与一种拓扑优化实体进行有限元拉伸对比。",
+          "result": "拓扑优化实体承载能力最强（82.5 kN），TPMS Diamond点阵次之（33.5 kN），而支柱类点阵因应力集中性能较差。",
+          "validation": "仅有限元分析，无实验验证。"
         },
         "summary_en": {
-          "motivation": "To explore a minimally invasive alternative using a light-curable polymer implant for treating periprosthetic femoral fractures.",
-          "method": "A case report of a Vancouver B1 periprosthetic femoral fracture treated with an IlluminOss intramedullary polymer implant supplemented with lateral plate fixation.",
-          "result": "The patient had a favorable outcome with stable fracture fixation and no complications at follow-up.",
-          "validation": "Single-case clinical report without biomechanical or computational validation."
+          "motivation": "To compare the mechanical performance of topology-optimized solid versus various lattice structures under tensile loading for weight reduction.",
+          "method": "A controlled numerical comparison of six lattice geometries (three strut-based, three TPMS-based) and one topology-optimized solid, all with identical mass and volume, using linear elastic FEA with Ti-6Al-4V material.",
+          "result": "The topology-optimized solid exhibited the highest load capacity (82.5 kN), followed by the TPMS Diamond (33.5 kN), while strut-based lattices showed significant bending and stress localization leading to lower capacities (7-20 kN).",
+          "validation": "Numerical benchmark with mesh convergence study, no experimental validation."
         },
         "key_terms": [
           {
-            "en": "periprosthetic femoral fracture",
-            "zh": "股骨假体周围骨折"
+            "en": "topology optimization",
+            "zh": "拓扑优化"
           },
           {
-            "en": "IlluminOss system",
-            "zh": "IlluminOss系统"
+            "en": "lattice structures",
+            "zh": "点阵结构"
           },
           {
-            "en": "light-curable polymer",
-            "zh": "光固化聚合物"
+            "en": "TPMS",
+            "zh": "三周期极小曲面"
           },
           {
-            "en": "minimally invasive fixation",
-            "zh": "微创固定"
+            "en": "strut-based lattice",
+            "zh": "支柱类点阵"
           },
           {
-            "en": "Vancouver classification",
-            "zh": "Vancouver分型"
+            "en": "finite element analysis",
+            "zh": "有限元分析"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:23:10Z"
+      "first_seen_at": "2026-06-07T23:29:54Z"
     },
     {
-      "source": "pubmed",
-      "id": "pubmed:42158033",
-      "doi": "10.1002/jeo2.70729",
-      "pmid": "42158033",
-      "title": "Early-term clinical and radiographic outcomes of a new short cementless stem for primary total hip arthroplasty in young and active patients.",
-      "abstract": "PURPOSE: To evaluate implant survivorship, complication rates and clinical and radiographic outcomes of a novel cementless short femoral stem used in primary total hip arthroplasty (THA). METHODS: This monocentric retrospective study included 200 consecutive patients younger than 65 years undergoing primary unilateral THA with a cementless short femoral stem and a minimum follow-up of 2 years. All procedures were performed by a single fellowship-trained surgeon using a posterolateral approach. Clinical outcomes were assessed using the modified Harris Hip Score (mHHS), Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC) and Visual Analogue Scale (VAS). Radiographic analysis included stem alignment, subsidence, fixation, stress shielding, radiolucent lines (RLLs), cortical hypertrophy and heterotopic ossification. Implant survivorship was estimated using Kaplan-Meier analysis, with revision for any cause as the endpoint. RESULTS: At a mean follow-up of 36.2 months (range: 24.0-44.0), stem survivorship was 100.0%, with no femoral components revised. One patient (0.5%) underwent head exchange for instability. Complication and reoperation rates were 1.5% and 1.0%, respectively. No femoral fractures, subsidence or aseptic loosening were observed. All clinical scores improved significantly: mHHS increased from 67.6 to 97.8, WOMAC from 60.5 to 1.5 and VAS from 7.6 to 0.3 (p < 0.0001). Return to sport was achieved in 85.0% of patients. Radiographically, 11.0% of stems were in varus and 5.0% in valgus. RLLs <2 mm occurred in 23.0% of cases without loosening. Stress shielding was limited (Grade I-II in 15.0%), cortical hypertrophy occurred in 4.0% and spot welds in 32.0% of patients. CONCLUSION: This short femoral stem demonstrated excellent early survivorship with reliable metaphyseal fixation and low complication rates, supporting its use as a safe bone-preserving option in young and active patients. LEVEL OF EVIDENCE: Level IV.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7154065321",
+      "doi": "10.1088/1742-6596/3207/1/012124",
+      "title": "Experimental investigation of the fatigue performance of Ti-6Al-4V titanium alloy subjected to shot peening",
+      "abstract": "Abstract This work systematically investigates the fatigue behavior of Ti-6Al-4V titanium alloy plates subjected to shot peening under five different intensity levels. Fatigue tests were conducted, and the detailed fatigue rating (DFR) was calculated to quantify fatigue improvement. The results show that shot peening significantly enhances fatigue resistance, with a maximum DFR gain of 48.50%. As the peening intensity increases, the fatigue performance first improves and then declines, indicating that an intermediate peening intensity provides the optimal enhancement. These findings provide experimental support for selecting appropriate shot peening parameters in engineering applications.",
       "authors": [
-        "Marco Minelli",
-        "Vincenzo Longobardi",
-        "Marco Rosolani",
-        "Alessio D'Addona",
-        "Vincenzo Paolo Di Francia",
-        "Mattia Andreotti",
-        "Giangregorio Madonna",
-        "Federico Della Rocca"
+        "Xiao Zhang",
+        "Yi Zuo",
+        "Zhuotao Fan"
       ],
-      "first_author_affiliation": "Department of Biomedical Sciences Humanitas University Pieve Emanuele, Milan Italy.; IRCCS (Istituto di Ricovero e Cura a Carattere Scientifico) Humanitas Research Hospital Rozzano, Milan Italy.",
+      "first_author_affiliation": "Shanghai Aircraft Design and Research Institute, Commercial Aircraft Corporation of China, Ltd., Shanghai, 200135, P. R. China",
       "corresponding_authors": [
         {
-          "name": "Federico Della Rocca",
-          "affiliation": "IRCCS (Istituto di Ricovero e Cura a Carattere Scientifico) Humanitas Research Hospital Rozzano, Milan Italy.",
-          "inferred": true
+          "name": "Xiao Zhang",
+          "affiliation": "Shanghai Aircraft Design and Research Institute, Commercial Aircraft Corporation of China, Ltd., Shanghai, 200135, P. R. China"
         }
       ],
-      "venue": "Journal of experimental orthopaedics",
+      "venue": "Journal of Physics Conference Series",
       "year": 2026,
       "date": "2026-04-01",
       "date_precision": "month",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42158033/",
+      "url": "https://doi.org/10.1088/1742-6596/3207/1/012124",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
+      "concepts": [
+        "Shot peening",
+        "Peening",
+        "Materials science",
+        "Intensity (physics)",
+        "Fatigue limit",
+        "Titanium alloy",
+        "Metallurgy",
+        "Shot (pellet)",
+        "Laser peening",
+        "Fatigue testing",
+        "Alloy",
+        "Work (physics)",
+        "Composite material"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文仅为临床报告，不涉及生物力学建模、有限元分析或增材制造设计。",
-        "why_not_core": "This paper reports clinical outcomes without any biomechanical modeling, FEA, or AM-related design optimization.",
-        "validation_kind": "clinical",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "short stem",
-          "cementless THA",
-          "clinical outcomes",
-          "stress shielding",
-          "young patients"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
         ],
-        "summary_zh": {
-          "motivation": "评估新型短柄在年轻活跃患者中的早期效果",
-          "method": "单中心回顾性研究，200例患者随访2年以上",
-          "result": "假体存活率100%，临床评分显著改善",
-          "validation": "临床评分与影像学分析"
-        },
-        "summary_en": {
-          "motivation": "To evaluate the early clinical and radiographic outcomes of a novel short cementless femoral stem in young and active patients.",
-          "method": "A monocentric retrospective study involving 200 consecutive patients with a minimum 2-year follow-up.",
-          "result": "100% implant survivorship and significant improvements in clinical scores were observed with minimal stress shielding.",
-          "validation": "Clinical outcome scores and radiographic analysis at a mean follow-up of 36.2 months."
-        },
-        "key_terms": [
-          {
-            "en": "short femoral stem",
-            "zh": "短股骨柄"
-          },
-          {
-            "en": "cementless",
-            "zh": "非骨水泥"
-          },
-          {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换术"
-          },
-          {
-            "en": "stress shielding",
-            "zh": "应力遮挡"
-          },
-          {
-            "en": "implant survivorship",
-            "zh": "假体存活率"
-          },
-          {
-            "en": "clinical outcomes",
-            "zh": "临床结果"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:23:10Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:42147506",
-      "doi": "10.7759/cureus.107069",
-      "pmid": "42147506",
-      "title": "Intraprosthetic Dislocation Following Dual-Mobility Total Hip Arthroplasty: A Case Report.",
-      "abstract": "Dual-mobility total hip arthroplasty has been increasingly adopted to improve joint stability and reduce postoperative dislocation. Despite these advantages, this implant design is associated with specific modes of failure. One such complication is intraprosthetic dislocation, which occurs when the femoral head disengages from the polyethylene liner. Although uncommon, this condition is clinically important and may not be readily identified at initial presentation. We report a case involving a 67-year-old woman who presented with sudden onset of hip pain and mechanical restriction of movement two years after undergoing dual-mobility total hip arthroplasty for a fracture neck of femur. Radiographic assessment revealed abnormal positioning of the femoral head within the acetabular component, suggesting dissociation of the polyethylene liner. Computed tomography further supported this diagnosis, and inflammatory markers were within normal limits. Surgical exploration confirmed intraprosthetic dislocation of the liner, while both the femoral stem and acetabular shell were well fixed. Management consisted of removing the mobile bearing and converting the articulation to a fixed polyethylene liner within the existing acetabular cup. Postoperatively, the patient recovered without complications and demonstrated sustained functional improvement without recurrent instability at one year. This case underscores that intraprosthetic dislocation remains a potential cause of mechanical failure even with contemporary dual-mobility implants. Because clinical symptoms may be subtle, careful attention to characteristic imaging findings is essential to avoid diagnostic delay. When implant fixation is preserved, selective exchange of modular components can provide a successful and less invasive treatment option. Prompt recognition and appropriate surgical intervention are crucial to prevent further prosthetic damage and to achieve satisfactory functional outcomes.",
-      "authors": [
-        "Abhinandan S Punit",
-        "Akshay Nayak",
-        "Yathisha Sr",
-        "Yeshwanth M Reddy",
-        "Abin M Nizar"
-      ],
-      "first_author_affiliation": "Orthopaedic Surgery, Narayana Health City Hospital, Bengaluru, IND.",
-      "corresponding_authors": [
-        {
-          "name": "Abin M Nizar",
-          "affiliation": "Orthopaedic Surgery, Narayana Health City Hospital, Bengaluru, IND.",
-          "inferred": true
-        }
-      ],
-      "venue": "Cureus",
-      "year": 2026,
-      "date": "2026-04-01",
-      "date_precision": "month",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42147506/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "shot peening"
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "这篇论文是临床案例报告，仅涉及髋关节置换术后脱位，完全未涉及生物力学建模、有限元分析或增材制造。",
-        "why_not_core": "This paper is a clinical case report with no biomechanics modeling, no implant design, no FEA, and no AM; it does not address stress shielding, micromotion, or any mechanical simulation.",
-        "validation_kind": "clinical",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "dual-mobility THA",
-          "intraprosthetic dislocation",
-          "case report"
-        ],
-        "summary_zh": {
-          "motivation": "报告双动全髋置换术后罕见的内假体脱位病例。",
-          "method": "基于临床影像和手术探查的病例报告。",
-          "result": "选择性更换模块化组件可成功处理内假体脱位。",
-          "validation": "单例临床随访验证。"
-        },
-        "summary_en": {
-          "motivation": "To report a rare case of intraprosthetic dislocation after dual-mobility total hip arthroplasty and highlight diagnostic and management strategies.",
-          "method": "A single case report with radiographic assessment, CT confirmation, and surgical management.",
-          "result": "Selective exchange of modular components to a fixed bearing achieved successful outcome without recurrent instability.",
-          "validation": "Single patient with one-year postoperative follow-up."
-        },
-        "key_terms": [
-          {
-            "en": "dual-mobility total hip arthroplasty",
-            "zh": "双动全髋关节置换术"
-          },
-          {
-            "en": "intraprosthetic dislocation",
-            "zh": "假体内脱位"
-          },
-          {
-            "en": "polyethylene liner dissociation",
-            "zh": "聚乙烯衬垫脱位"
-          },
-          {
-            "en": "modular component exchange",
-            "zh": "模块化组件更换"
-          },
-          {
-            "en": "acetabular cup",
-            "zh": "髋臼杯"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:23:10Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:42088129",
-      "doi": "10.1002/jeo2.70734",
-      "pmid": "42088129",
-      "title": "Cemented versus uncemented stems in total hip arthroplasty: No independent effect on transfusion or complications despite reduced total blood loss.",
-      "abstract": "PURPOSE: The impact of femoral stem fixation on perioperative blood loss and transfusion in total hip arthroplasty (THA) remains controversial. To compare cemented and uncemented stem fixation in elective primary THA regarding perioperative blood loss, transfusion requirements and postoperative complications. We hypothesized that stem fixation would not independently influence transfusion or complication risk after adjustment for patient-related factors. METHODS: This retrospective cohort study analysed data from a institutional registry including THAs performed between 2016 and 2023. Patients were stratified according to femoral stem fixation (cemented vs. uncemented). Outcomes included intraoperative, total and hidden blood loss (HBL), allogeneic red blood cell transfusion and postoperative complications. Multivariable linear and logistic regression analyses assessed the independent effect of stem fixation, adjusting for age, sex, body mass index, American Society of Anesthesiologists (ASA) class, operative time and preoperative haemoglobin. RESULTS: A total of 648 patients were included (uncemented n = 548; cemented n = 100). Patients in the cemented group were older (79.8 ± 7.4 vs. 72.4 ± 9.1 years) and more frequently female (76.0% vs. 65.8%). Transfusion rates were higher in the cemented group. After multivariable adjustment, cemented fixation was independently associated with lower total blood loss (adjusted mean difference -146 mL; 95% confidence interval [CI] -271 to -21), whereas no independent associations were observed for intraoperative and HBL. Stem fixation was not independently associated with transfusion requirement (adjusted odds ratio [OR] 1.06; 95% CI 0.56-1.99) or postoperative complications (adjusted OR 0.64; 95% CI 0.21-1.98). CONCLUSION: In elective primary THA, cemented femoral stem fixation is associated with a modest reduction in total blood loss but does not independently influence transfusion rates or postoperative complication risk. Clinically, these findings indicate that fixation should not be selected based on expectations of reduced transfusion risk. Instead, perioperative blood management should focus on patient-related factors, particularly preoperative haemoglobin optimization. LEVEL OF EVIDENCE: Level III, retrospective comparative cohort study.",
-      "authors": [
-        "Nikolai Ramadanov",
-        "Dakota Fuchs",
-        "Maximilian Heinz",
-        "Robert Prill",
-        "Roland Becker"
-      ],
-      "first_author_affiliation": "Center of Orthopaedics and Traumatology, Brandenburg Medical School University Hospital Brandenburg an der Havel Brandenburg an der Havel Germany.; Faculty of Health Science Brandenburg Brandenburg Medical School Theodor Fontane Brandenburg an der Havel Germany.",
-      "corresponding_authors": [
-        {
-          "name": "Roland Becker",
-          "affiliation": "Center of Orthopaedics and Traumatology, Brandenburg Medical School University Hospital Brandenburg an der Havel Brandenburg an der Havel Germany.; Faculty of Health Science Brandenburg Brandenburg Medical School Theodor Fontane Brandenburg an der Havel Germany.",
-          "inferred": true
-        }
-      ],
-      "venue": "Journal of experimental orthopaedics",
-      "year": 2026,
-      "date": "2026-04-01",
-      "date_precision": "month",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42088129/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文仅关注临床失血和输血结果，未涉及股骨柄的设计、生物力学或增材制造。",
-        "why_not_core": "This paper does not cover implant design, additive manufacturing, biomechanics, stress shielding, or any mechanical testing related to femoral stems.",
-        "validation_kind": "clinical",
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文研究了喷丸处理对Ti-6Al-4V疲劳性能的影响，但未明确为增材制造材料，相关方法可转移至增材制造后处理评估。",
+        "why_not_core": "The paper does not specify the manufacturing route; it likely uses wrought Ti-6Al-4V, not additive-manufactured Ti-6Al-4V, thus it lacks direct relevance to AM post-processing.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -1200,75 +443,72 @@
           "is_review": false
         },
         "tags": [
-          "total hip arthroplasty",
-          "cemented vs uncemented",
-          "blood loss",
-          "transfusion",
-          "clinical outcomes"
+          "shot peening",
+          "fatigue performance",
+          "Ti-6Al-4V",
+          "DFR"
         ],
         "summary_zh": {
-          "motivation": "比较全髋关节置换术中股骨柄固定方式对围手术期失血和输血的影响",
-          "method": "回顾性队列研究，多变量回归分析调整混杂因素",
-          "result": "骨水泥柄减少总失血量，但未独立影响输血或并发症风险",
-          "validation": "基于648例患者临床数据的大样本回顾性分析"
+          "motivation": "探究不同喷丸强度对Ti-6Al-4V疲劳性能的影响规律。",
+          "method": "对Ti-6Al-4V板材进行五种强度喷丸处理，开展疲劳试验并计算细节疲劳额定值。",
+          "result": "喷丸显著提升疲劳性能，中等强度时增益最大达48.50%，过高或过低均使增益下降。",
+          "validation": "通过不同喷丸强度下的疲劳试验验证。"
         },
         "summary_en": {
-          "motivation": "To compare the effect of cemented versus uncemented femoral stem fixation on perioperative blood loss and transfusion requirements in primary THA.",
-          "method": "A retrospective cohort study using a institutional registry with multivariable regression to adjust for patient factors.",
-          "result": "Cemented fixation was associated with lower total blood loss but did not independently affect transfusion or complication risk.",
-          "validation": "Validated using clinical data from 648 patients in a retrospective cohort design."
+          "motivation": "To investigate how shot peening intensity affects the fatigue performance of Ti-6Al-4V titanium alloy.",
+          "method": "Fatigue tests were conducted on Ti-6Al-4V plates subjected to five different shot peening intensities, and the detail fatigue rating (DFR) was calculated to quantify improvement.",
+          "result": "Shot peening significantly enhances fatigue resistance, with a maximum DFR gain of 48.50%; an intermediate peening intensity yields the optimal improvement.",
+          "validation": "Experimental fatigue testing with multiple intensity levels."
         },
         "key_terms": [
           {
-            "en": "cemented stem",
-            "zh": "骨水泥柄"
+            "en": "shot peening",
+            "zh": "喷丸处理"
           },
           {
-            "en": "uncemented stem",
-            "zh": "非骨水泥柄"
+            "en": "fatigue performance",
+            "zh": "疲劳性能"
           },
           {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换术"
+            "en": "detail fatigue rating (DFR)",
+            "zh": "细节疲劳额定值"
           },
           {
-            "en": "blood loss",
-            "zh": "失血量"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
-            "en": "transfusion",
-            "zh": "输血"
-          },
-          {
-            "en": "complications",
-            "zh": "并发症"
+            "en": "peening intensity",
+            "zh": "喷丸强度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:23:10Z"
+      "first_seen_at": "2026-06-07T23:29:54Z"
     }
   ],
   "counts": {
-    "fetched_total": 12,
+    "fetched_total": 4,
     "by_source": {
-      "pubmed": 10,
-      "openalex": 2
+      "openalex": 4
     },
-    "after_dedup": 12,
-    "after_routing": 12,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
-      "am_femoral_stem": 12
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_base_mechanical_fatigue": 1,
+      "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "pubmed": 10,
-      "openalex": 2
+      "openalex": 4
     },
-    "scored": 12,
+    "scored": 4,
     "priority_counts": {
-      "Exclude": 7,
-      "Low": 5
+      "High": 1,
+      "Low": 1,
+      "Exclude": 1,
+      "Medium": 1
     }
   }
 }

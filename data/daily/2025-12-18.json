@@ -4,45 +4,76 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2512.16053v2",
-      "doi": "",
-      "arxiv_id": "2512.16053v2",
-      "title": "Why planar cracks fragment into echelon cracks",
-      "abstract": "Predicting the growth of large cracks in brittle materials is a fundamental unresolved problem in fracture mechanics. Under out-of-plane shear loading, an initially planar crack may fragment into multiple cracks, forming an echelon crack pattern. Explaining this phenomenon is essential for developing a general theory of crack growth. Although numerous empirical criteria have been proposed in the literature, none provide a unified explanation of all observed features and are largely restricted to two-dimensional growth in linear elastic isotropic materials. In this Letter, we confront a classical set of echelon crack growth experiments using two phase-field approaches: the classical variational model and a strength-constrained model. We show that, contrary to prevailing views, the variational model based solely on Griffith's energetic competition between elastic and fracture energies is fundamentally incomplete even for predicting the growth of large cracks. By incorporating a material strength surface that constrains the regions in which a crack can grow, the resulting model accurately predicts echelon crack growth without invoking any ad hoc assumptions about material or geometrical disorder. Results are presented for both soft and hard materials, confirming the model's general applicability to any brittle material. We further identify two governing non-dimensional parameters that control crack orientation and morphology and demonstrate that one of them, the ratio of shear to tensile strength, determines whether crack paths are more influenced by energy-based or stress-based empirical criteria, thereby reconciling these criteria within a single framework.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7115943954",
+      "doi": "10.3390/ma18245678",
+      "title": "Study on Fatigue Behavior and Life Prediction of Laser Powder Bed Fused Ti6Al4V Alloy at 400 °C",
+      "abstract": "Additive manufacturing has huge development potential in the aerospace field. The hot-end components of aeroengines work in harsh environments, facing high temperatures and a demand for long service life. In this paper, high-cycle fatigue (HCF) tests of Ti6Al4V alloy at 400 °C by selective laser melting (SLM) under different stress ratios (-1, 0.1, 0.3, 0.5, and 0.8) were carried out, and the fracture surfaces were observed. The results show that the defects existing on the surface or subsurface are prone to become the origin of fatigue cracks. There is a large dispersion of the high-cycle fatigue life of the samples, especially at a low stress ratio. With the increase in the stress ratio, the fatigue failure area on the fracture surface gradually decreases, and the fracture surface gradually presents a mixed pattern of tensile endurance fracture and fatigue failure. Considering the influence of creep damage due to mean stress, models were established, respectively, for the fatigue behavior and time-related rupture behavior to predict fatigue life and conduct an assessment. Then, the two models were combined and the composite models were proposed using the linear damage law. Finally, the single fatigue model and rupture models, as well as the composite models, were evaluated, respectively, and compared with the actual fatigue life, and the best model was obtained for the high-cycle fatigue prediction of SLM Ti6Al4V at 400 °C.",
       "authors": [
-        "Olivia Ward",
-        "Aditya Kumar"
+        "Liangliang Wu",
+        "Ruida Xu",
+        "Jiaming Zhang",
+        "Huichen Yu",
+        "Zehui Jiao"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Beijing Key Laboratory of Aeronautical Materials Testing and Evaluation, Aero Engine Corporation of China Key Laboratory of Materials Testing and Evaluation, AECC Beijing Institute of Aeronautical Materials, Beijing 100095, China",
+      "corresponding_authors": [
+        {
+          "name": "Liangliang Wu",
+          "affiliation": "Beijing Key Laboratory of Aeronautical Materials Testing and Evaluation, Aero Engine Corporation of China Key Laboratory of Materials Testing and Evaluation, AECC Beijing Institute of Aeronautical Materials, Beijing 100095, China"
+        },
+        {
+          "name": "Zehui Jiao",
+          "affiliation": "Beijing Key Laboratory of Aeronautical Materials Testing and Evaluation, Aero Engine Corporation of China Key Laboratory of Materials Testing and Evaluation, AECC Beijing Institute of Aeronautical Materials, Beijing 100095, China"
+        }
+      ],
+      "venue": "Materials",
       "year": 2025,
       "date": "2025-12-18",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2512.16053v2",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "cond-mat.soft"
+      "url": "https://doi.org/10.3390/ma18245678",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Titanium alloy",
+        "Fracture (geology)",
+        "Fatigue limit",
+        "Composite material",
+        "Composite number",
+        "Ultimate tensile strength",
+        "Stress (linguistics)",
+        "Selective laser melting",
+        "Creep",
+        "Stress concentration",
+        "Dispersion (optics)",
+        "Fatigue testing",
+        "Work (physics)",
+        "Service life",
+        "Cyclic stress",
+        "Aerospace"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "tensile strength"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "fatigue",
+          "fatigue life",
+          "high cycle fatigue"
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文研究脆性材料中的裂纹扩展，与增材制造力学性能研究无直接相关性。",
-        "why_not_core": "No additive manufacturing context, no implant design, no mechanical testing of AM parts.",
-        "validation_kind": "simulation_case",
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接涉及激光粉末床熔融Ti6Al4V合金在高温下的高周疲劳行为，与用户关注的增材制造钛合金力学及疲劳性能方向高度一致。",
+        "why_not_core": "This paper focuses on fatigue at 400°C rather than room temperature, and does not include post-processing treatments or implant structures.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -50,147 +81,298 @@
           "is_review": false
         },
         "tags": [
-          "fracture mechanics",
-          "phase-field",
-          "echelon cracks",
-          "brittle materials"
+          "laser powder bed fusion",
+          "Ti6Al4V",
+          "high-cycle fatigue",
+          "stress ratio",
+          "high temperature",
+          "life prediction",
+          "fracture surface",
+          "creep damage",
+          "linear damage law"
         ],
         "summary_zh": {
-          "motivation": "解释脆性材料在剪切载荷下形成阶梯状裂纹的原因",
-          "method": "采用经典变分相场模型和强度约束相场模型进行模拟",
-          "result": "强度约束模型无需额外假设即可准确预测阶梯裂纹生长",
-          "validation": "与经典实验数据对比验证模型准确性"
+          "motivation": "高温环境下增材制造Ti6Al4V疲劳性能研究不足，需建立寿命预测模型。",
+          "method": "进行不同应力比下400°C高周疲劳试验，结合断口观察和线性损伤法则建立复合预测模型。",
+          "result": "缺陷易成为裂纹源，应力比增大使疲劳区减小，复合模型预测效果最佳。",
+          "validation": "通过实际疲劳寿命对比评估各模型精度。"
         },
         "summary_en": {
-          "motivation": "To explain the fragmentation of planar cracks into echelon patterns under out-of-plane shear loading in brittle materials without ad hoc assumptions.",
-          "method": "Two phase-field approaches, the classical variational model and a strength-constrained model, were applied to simulate echelon crack growth.",
-          "result": "The strength-constrained model accurately predicted echelon crack patterns and identified two governing non-dimensional parameters that reconcile energy-based and stress-based criteria.",
-          "validation": "Numerical results were validated against classical experimental data for both soft and hard brittle materials."
+          "motivation": "The fatigue behavior of additively manufactured Ti6Al4V at elevated temperatures is not well understood, necessitating reliable life prediction models for aerospace applications.",
+          "method": "High-cycle fatigue tests were conducted on SLM Ti6Al4V at 400°C under stress ratios from -1 to 0.8, and composite models combining fatigue and creep damage were developed using linear damage rule.",
+          "result": "Surface/subsurface defects dominated crack initiation; increased stress ratio reduced fatigue failure area; the composite model provided the best life prediction accuracy.",
+          "validation": "Model predictions were compared with experimental fatigue lives, and the composite model was validated as the most accurate."
         },
         "key_terms": [
           {
-            "en": "echelon cracks",
-            "zh": "阶梯状裂纹"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "phase-field model",
-            "zh": "相场模型"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
           },
           {
-            "en": "fracture mechanics",
-            "zh": "断裂力学"
+            "en": "high-cycle fatigue",
+            "zh": "高周疲劳"
           },
           {
-            "en": "brittle material",
-            "zh": "脆性材料"
+            "en": "stress ratio",
+            "zh": "应力比"
           },
           {
-            "en": "shear loading",
-            "zh": "剪切载荷"
+            "en": "high temperature",
+            "zh": "高温"
           },
           {
-            "en": "strength surface",
-            "zh": "强度曲面"
+            "en": "fatigue life prediction",
+            "zh": "疲劳寿命预测"
           },
           {
-            "en": "Griffith energy",
-            "zh": "格里菲斯能量"
+            "en": "fracture surface",
+            "zh": "断口表面"
+          },
+          {
+            "en": "creep damage",
+            "zh": "蠕变损伤"
+          },
+          {
+            "en": "linear damage law",
+            "zh": "线性损伤法则"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:17:08Z"
+      "first_seen_at": "2026-06-07T23:21:34Z"
     },
     {
       "source": "openalex",
-      "id": "https://openalex.org/W4417506003",
-      "doi": "10.36948/ijfmr.2025.v07i06.63507",
-      "title": "A Comprehensive Review on Fatigue Life Prediction Approaches for Additively Manufactured Components",
-      "abstract": "The additive manufacturing (AM) has become a revolutionary fabrication process that can manufacture complex geometries, help cut down on weight, and simplify the prototyping process in various industries including aerospace, automobile, biomedical, and energy. Although significant improvements have been made in streamlining mechanical performance, the fatigue behaviour of AM components is still quite versatile in nature and in most instances, significantly worse than that of wrought counterparts. This is mostly explained by inherent defects in the processes, anisotropy of microstructures, surface roughness and unrelaxed deformation stress. As a result, fatigue life of AM structures to be used in safety-critical applications must be appropriately predicted to qualify and certify these structures. This is a systematically reviewed literature on state-of-the-art fatigue prediction methods of additively manufactured metallic parts. The reviewed methodologies include empirical S N curve based models, fracture based on the mechanics of crack-growth models, defect based prediction models, microstructure sensitive and crystal plasticity models, probabilistic reliability models, and emerging machine learning based methods. Major impacting parameters, such as defect morphology, pore distribution, post-processing, build orientation, and surface integrity are determined and critically analyzed. The review outlines the shortcomings of existing predictive models and suggests the combination of hybrid physics-based and data-driven to formulate a strategy to resolve shortcomings of existing predictive models to achieve standardized predictive methods applicable to industrial deployment. Future research directions emphasize the necessity of real-time defect trace monitoring, development of digital twins, and design of unified AM-specific fatigue design to be applied in order to enable safe and reliable performance in advanced engineering applications.",
+      "id": "https://openalex.org/W4417462553",
+      "doi": "10.31577/km.2025.5-6.331",
+      "title": "Influence of heat treatments and hot isostatic processes (HIP) on microstructure and mechanical behavior of Ti-6Al-4V alloy produced by Powder Bed Fusion Using Electron Beam (PBF-EB)",
+      "abstract": "This study investigates the effects of heat treatments and hot isostatic pressing (HIP) on the microstructure and mechanical behavior of Ti-6Al-4V parts manufactured by electronbeam powder bed fusion.Solution treatment at 950 C, followed by aging at 500-600 C, did not alter porosity.Aging increased the -phase ratio and compensated for the strength reduction induced by ST.All HIP cycles significantly reduced pore size and pore count, with the 800 C/200 MPa cycle yielding the highest average relative density of 99.86 %, resulting in a maximum yield strength of 948 MPa and a maximum ultimate tensile strength of 1013 MPa.An 800 C/200 MPa HIP cycle increased ductility while maintaining strength, owing to limited -lath coarsening.Super-transus HIP at 1050 C/100 MPa transformed columnar grains into equiaxed structures, causing significant -lath coarsening, a loss of mechanical strength, and increased anisotropy.These findings emphasize the need to optimize post-processing to balance porosity elimination, microstructural refinement, and mechanical performance in Ti-6Al-4V components.K e y w o r d s : additive manufacturing, Powder Bed Fusion Using Electron Beam (PBF-EB), Ti-6Al-4V, heat treatment, hot isostatic pressing",
       "authors": [
-        "Sushma Sahu",
-        "Hullash Chauhan"
+        "Mutlu Karasoglu",
+        "Evren Yasa",
+        "Evren Tan",
+        "Sina Kavak",
+        "Emrecan Söylemez",
+        "Melih Cemal Kuşhan"
       ],
       "first_author_affiliation": "",
       "corresponding_authors": [
         {
-          "name": "Sushma Sahu",
+          "name": "Mutlu Karasoglu",
           "affiliation": ""
         }
       ],
-      "venue": "International Journal For Multidisciplinary Research",
+      "venue": "Kovove Materialy-Metallic Materials",
       "year": 2025,
       "date": "2025-12-18",
       "date_precision": "day",
-      "url": "https://doi.org/10.36948/ijfmr.2025.v07i06.63507",
+      "url": "https://doi.org/10.31577/km.2025.5-6.331",
       "cited_by_count": 0,
       "concepts": [
-        "Reliability (semiconductor)",
-        "Probabilistic logic",
-        "Process (computing)",
-        "Computer science",
-        "Surface roughness",
-        "Reliability engineering",
-        "Flexibility (engineering)",
-        "Mechanical engineering",
-        "Surface integrity",
-        "Failure assessment",
-        "Rapid prototyping",
-        "Engineering",
-        "Lead (geology)",
-        "Component (thermodynamics)",
-        "Predictive modelling",
-        "Fatigue limit",
-        "Engineering design process",
-        "Lead time"
+        "Microstructure",
+        "Materials science",
+        "Alloy",
+        "Fusion",
+        "Metallurgy",
+        "Hot isostatic pressing",
+        "Cathode ray",
+        "Composite material",
+        "Powder metallurgy",
+        "Beam (structure)",
+        "Nickel alloy"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "build orientation"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "tensile strength",
+          "yield strength",
+          "ultimate tensile strength",
+          "ductility",
+          "porosity"
         ],
-        "fatigue": [
-          "fatigue life"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "hot isostatic pressing",
+          "heat treatment",
+          "solution treatment",
+          "post-processing"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了热处理和热等静压对电子束粉末床熔融Ti-6Al-4V合金力学性能的影响，完全符合后处理控制方向。",
+        "why_not_core": "The paper does not include fatigue testing, only tensile properties, so it does not fully address the fatigue aspect of the direction focus.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "heat treatment",
+          "hot isostatic pressing",
+          "Ti-6Al-4V",
+          "electron beam powder bed fusion",
+          "mechanical properties",
+          "tensile testing",
+          "porosity",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "研究热处理和热等静压对PBF-EB Ti-6Al-4V微观结构和力学行为的影响",
+          "method": "进行不同热处理和HIP工艺，表征微观结构并测试拉伸性能",
+          "result": "800°C/200 MPa HIP提高密度、强度和延展性；超固相HIP导致组织粗化和强度损失",
+          "validation": "通过拉伸实验验证力学性能变化"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effects of heat treatments and hot isostatic pressing on the microstructure and mechanical behavior of Ti-6Al-4V produced by electron beam powder bed fusion.",
+          "method": "Various heat treatment and HIP cycles were applied, followed by microstructural characterization and tensile testing.",
+          "result": "HIP at 800°C/200 MPa improved density, strength, and ductility, while super-transus HIP caused grain coarsening and strength loss.",
+          "validation": "Experimental tensile testing validated the mechanical performance."
+        },
+        "key_terms": [
+          {
+            "en": "electron beam powder bed fusion",
+            "zh": "电子束粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:21:34Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7116105761",
+      "doi": "10.1080/01694243.2025.2601285",
+      "title": "Microstructural evolution and globularization in additively manufactured Ti-6Al-4V via cyclic heat treatment",
+      "abstract": "",
+      "authors": [
+        "Mahsa Khorshidi",
+        "Akbar Heidarzadeh",
+        "Faseeulla Khan Mohammad",
+        "Quadir Moinuddin Syed"
+      ],
+      "first_author_affiliation": "Department of Materials Engineering, Azarbaijan Shahid Madani University",
+      "corresponding_authors": [
+        {
+          "name": "Akbar Heidarzadeh",
+          "affiliation": "Department of Materials and Metallurgy, Faculty of Mechanical and Energy Engineering, Shahid Beheshti University"
+        },
+        {
+          "name": "Faseeulla Khan Mohammad",
+          "affiliation": "Department of Mechanical Engineering, College of Engineering, King Faisal University"
+        }
+      ],
+      "venue": "Journal of Adhesion Science and Technology",
+      "year": 2025,
+      "date": "2025-12-18",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1080/01694243.2025.2601285",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Microstructure",
+        "Deformation (meteorology)",
+        "Polymer",
+        "Extrusion"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
         ]
       },
       "llm": {
         "priority": "Medium",
-        "relevance_level": "Transferable",
+        "relevance_level": "Direct",
         "read_action": "Skim only",
-        "relevance_to_user": "该综述总结了增材制造部件疲劳寿命预测方法，包括机器学习方法，对AM生物医学植入物的疲劳评估有参考价值。",
-        "why_not_core": "This is a general review on AM fatigue prediction without specific focus on biomedical implants, experimental validation, or implant-specific mechanics.",
+        "relevance_to_user": "该论文直接研究了Ti-6Al-4V的循环热处理后处理，但未涉及力学性能测试。",
+        "why_not_core": "No mechanical property testing (fatigue/tensile) or explicit correlation to fatigue performance.",
         "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
-          "is_review": true
+          "is_review": false
         },
         "tags": [
           "additive manufacturing",
-          "fatigue life prediction",
-          "machine learning",
-          "review"
+          "Ti-6Al-4V",
+          "cyclic heat treatment",
+          "microstructure",
+          "globularization"
         ],
         "summary_zh": {
-          "motivation": "综述增材制造零件疲劳寿命预测方法现状与不足",
-          "method": "系统性地回顾了经验模型、断裂力学、缺陷模型、微观结构模型及机器学习等方法",
-          "result": "指出当前模型缺陷，建议混合物理与数据驱动方法以实现工业部署",
-          "validation": "无原始验证，为文献综述"
+          "motivation": "研究循环热处理对增材制造Ti-6Al-4V显微组织和球化行为的影响。",
+          "method": "采用循环热处理工艺处理样品，通过微观表征分析组织演变。",
+          "result": "循环热处理促进了α相的球化，细化了组织。",
+          "validation": "通过扫描电镜和X射线衍射进行微观结构观察。"
         },
         "summary_en": {
-          "motivation": "This review systematically surveys fatigue life prediction methods for additively manufactured metallic parts, highlighting the gap between current models and industrial deployment needs.",
-          "method": "The paper categorizes prediction approaches into empirical S-N curves, fracture mechanics, defect-based, microstructure-sensitive, probabilistic, and machine learning models, analyzing key influencing parameters.",
-          "result": "The review identifies limitations of existing models and advocates for hybrid physics-based and data-driven strategies to achieve standardized predictive methods.",
-          "validation": "No original validation; this is a literature review without experimental or simulation case studies."
+          "motivation": "To investigate the effect of cyclic heat treatment on the microstructure and globularization of additively manufactured Ti-6Al-4V.",
+          "method": "Cyclic heat treatment was applied to AM Ti-6Al-4V samples, and microstructural evolution was characterized.",
+          "result": "Cyclic heat treatment promoted globularization of the α phase and refined the microstructure.",
+          "validation": "Microstructural analysis was performed using SEM and XRD."
         },
         "key_terms": [
           {
@@ -198,58 +380,53 @@
             "zh": "增材制造"
           },
           {
-            "en": "fatigue life prediction",
-            "zh": "疲劳寿命预测"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "machine learning",
-            "zh": "机器学习"
+            "en": "cyclic heat treatment",
+            "zh": "循环热处理"
           },
           {
-            "en": "defect morphology",
-            "zh": "缺陷形貌"
+            "en": "globularization",
+            "zh": "球化"
           },
           {
-            "en": "surface roughness",
-            "zh": "表面粗糙度"
+            "en": "microstructure",
+            "zh": "显微组织"
           },
           {
-            "en": "anisotropy",
-            "zh": "各向异性"
+            "en": "SEM",
+            "zh": "扫描电镜"
           },
           {
-            "en": "digital twin",
-            "zh": "数字孪生"
-          },
-          {
-            "en": "crystal plasticity",
-            "zh": "晶体塑性"
+            "en": "XRD",
+            "zh": "X射线衍射"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:17:08Z"
+      "first_seen_at": "2026-06-07T23:21:34Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "arxiv": 1,
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "mechanical_properties": 2
+      "ti6al4v_base_mechanical_fatigue": 1,
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "arxiv": 1,
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
-      "Low": 1,
+      "High": 2,
       "Medium": 1
     }
   }

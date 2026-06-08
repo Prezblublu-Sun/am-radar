@@ -4,51 +4,69 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2510.18831v2",
-      "doi": "10.1016/j.ijplas.2025.104533",
-      "arxiv_id": "2510.18831v2",
-      "title": "Scale-bridging dislocation plasticity in MgO at room temperature",
-      "abstract": "Dislocations in ceramics have recently gained renewed research interest, in contrast to the traditional belief that ceramics are inherently brittle. Understanding dislocation mechanics in representative oxides is beneficial for effective dislocation engineering. Here, we use MgO single crystals with mechanically seeded dislocation densities from about 10 to the power of 12 to about 10 to the power of 15 per square meter to investigate the mechanical behavior such as yield and fracture. Micro-pillar compression tests reveal a dislocation density dependent yield strength, mediated by the varying dominating dislocation mechanisms from nucleation to multiplication/motion. In situ TEM compression measurements highlight the dislocation-seeded samples can achieve a much-improved compressive plastic strain beyond about 70%, with a high yield strength of about 2.35 GPa (diameter of about 400 nm), indicating size effect. Complementary bulk compression tests, along with digital image correlation (DIC), demonstrate a consistent dislocation-mediated deformation and a notable size effect, with bulk samples exhibiting much reduced yield strength (about 120 MPa) compared to the nano-/micro-pillars. Using three-dimensional Discrete Dislocation Dynamics (3D-DDD) simulation, we further qualitatively analyze the collective dislocation activities (slip events) and work hardening during compression. This study provides new insights into dislocation-mediated plasticity in MgO, across different length scales, by systematically tuning dislocation density.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4415403167",
+      "doi": "10.3390/met15101159",
+      "title": "Formation and Characterization of Ti-Al Intermetallic and Oxide Layers on Ti6Al4V as Interlayers for Hydroxyapatite Coatings",
+      "abstract": "This study explores a novel approach to enhance the surface properties of Ti-Al alloys for biomedical applications by creating a compositional gradient layer through aluminum deposition using Electrical Discharge Machining (EDM). The primary goal was to develop a metallurgically bonded intermetallic zone that supports strong adhesion and improved compatibility for subsequent hydroxyapatite (HA) deposition. Aluminum was deposited onto a Ti6Al4V substrate via EDM under controlled conditions, followed by thermal and thermochemical treatments to induce diffusion and intermetallic phase formation. Comprehensive analyses using optical and electron microscopy (SEM), energy-dispersive spectroscopy (EDS), and X-ray diffraction (XRD) revealed the formation of well-adhered layers composed of complex Ti-Al intermetallics such as TiAl2 and TiAl3, along with oxide phases including TiO2 and Al2O3. Thermal and thermochemical treatments further improved surface hardness, reaching up to 1057 HV, and influenced the diffusion behavior of aluminum, titanium, and vanadium. Adhesion tests confirmed that the untreated and thermochemically treated layers exhibited superior mechanical stability, while thermal treatment alone led to brittleness and delamination. These findings demonstrate that a properly engineered intermediate aluminide layer can significantly improve the performance of bioceramic coatings, particularly HA, by providing enhanced structural integrity and biocompatibility.",
       "authors": [
-        "Jiawen Zhang",
-        "Zhangtao Li",
-        "Yuwei Zhang",
-        "Hendrik Holz",
-        "James P. Best",
-        "Oliver Preuß",
-        "Zhenyong Chen",
-        "Yinan Cui",
-        "Xufei Fang",
-        "Wenjun Lu"
+        "Stefan Alexandru Laptoiu",
+        "Marian Miculescu",
+        "Diana Enescu",
+        "Iulian Antoniac",
+        "Florin Miculescu"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Department of Materials Science and Engineering, National University of Science and Technology Politehnica of Bucharest, 060042 Bucharest, Romania",
+      "corresponding_authors": [
+        {
+          "name": "Marian Miculescu",
+          "affiliation": "Department of Materials Science and Engineering, National University of Science and Technology Politehnica of Bucharest, 060042 Bucharest, Romania"
+        }
+      ],
+      "venue": "Metals",
       "year": 2025,
       "date": "2025-10-21",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2510.18831v2",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.3390/met15101159",
+      "cited_by_count": 1,
+      "concepts": [
+        "Intermetallic",
+        "Materials science",
+        "Oxide",
+        "Titanium alloy",
+        "Metallurgy",
+        "Layer (electronics)",
+        "Titanium aluminide",
+        "Scanning electron microscope",
+        "Cermet",
+        "Composite material",
+        "Bioceramic",
+        "Aluminium",
+        "Brittleness",
+        "Titanium",
+        "Thermal barrier coating",
+        "Coating",
+        "Thin film"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "yield strength"
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "machining"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究MgO陶瓷的位错塑性，不涉及增材制造或生物医学植入物力学，与用户方向无关。",
-        "why_not_core": "This paper does not involve additive manufacturing, biomedical implants, or relevant mechanical properties such as fatigue, hardness, or osseointegration.",
+        "relevance_to_user": "该论文主要研究Ti6Al4V表面制备梯度中间层以增强羟基磷灰石涂层，未涉及AM Ti-6Al-4V的后处理对疲劳或力学性能的影响。",
+        "why_not_core": "No fatigue or tensile mechanical data; not focused on post-processing for mechanical performance improvement of Ti-6Al-4V; instead focuses on intermetallic interlayer for HA coatings.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -57,188 +75,77 @@
           "is_review": false
         },
         "tags": [
-          "dislocation plasticity",
-          "MgO",
-          "ceramics",
-          "compression",
-          "size effect"
+          "Ti6Al4V",
+          "intermetallic layer",
+          "EDM",
+          "hydroxyapatite coating",
+          "surface hardness",
+          "adhesion test"
         ],
         "summary_zh": {
-          "motivation": "研究陶瓷中位错塑性机制",
-          "method": "微柱压缩、原位TEM、3D-DDD模拟",
-          "result": "位错密度影响屈服强度，实现高塑性应变",
-          "validation": "多尺度力学实验与模拟对照"
+          "motivation": "改善Ti6Al4V表面与羟基磷灰石涂层的结合性能",
+          "method": "通过电火花沉积铝层并进行热处理/热化学处理形成梯度中间层",
+          "result": "成功生成TiAl2和TiAl3等金属间化合物，表面硬度达1057 HV",
+          "validation": "利用SEM、EDS、XRD和粘附力测试评估层结构和力学稳定性"
         },
         "summary_en": {
-          "motivation": "To investigate dislocation-mediated plasticity in MgO ceramics across scales",
-          "method": "Micro-pillar compression, in situ TEM, DIC, and 3D-DDD simulations",
-          "result": "Dislocation density governs yield strength and enables high compressive plasticity",
-          "validation": "Multi-scale mechanical experiments and simulations"
+          "motivation": "To enhance the adhesion and compatibility of hydroxyapatite coatings on Ti6Al4V by developing a metallurgically bonded gradient interlayer.",
+          "method": "Aluminum was deposited on Ti6Al4V via electrical discharge machining (EDM), followed by thermal and thermochemical treatments to induce diffusion and intermetallic formation.",
+          "result": "Formation of Ti-Al intermetallics (TiAl2, TiAl3) and oxide phases (TiO2, Al2O3) with surface hardness up to 1057 HV was achieved.",
+          "validation": "Microstructural (SEM, EDS, XRD) and mechanical (hardness, adhesion) tests were performed to characterize the layers."
         },
         "key_terms": [
           {
-            "en": "dislocation plasticity",
-            "zh": "位错塑性"
+            "en": "electrical discharge machining",
+            "zh": "电火花加工"
           },
           {
-            "en": "MgO",
-            "zh": "氧化镁"
+            "en": "Ti-Al intermetallics",
+            "zh": "钛铝金属间化合物"
           },
           {
-            "en": "micro-pillar compression",
-            "zh": "微柱压缩"
+            "en": "hydroxyapatite coating",
+            "zh": "羟基磷灰石涂层"
           },
           {
-            "en": "in situ TEM",
-            "zh": "原位透射电镜"
+            "en": "surface hardness",
+            "zh": "表面硬度"
           },
           {
-            "en": "3D-DDD",
-            "zh": "三维离散位错动力学"
+            "en": "adhesion test",
+            "zh": "粘附力测试"
           },
           {
-            "en": "yield strength",
-            "zh": "屈服强度"
+            "en": "thermal treatment",
+            "zh": "热处理"
           },
           {
-            "en": "size effect",
-            "zh": "尺寸效应"
+            "en": "thermochemical treatment",
+            "zh": "热化学处理"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:14:51Z"
-    },
-    {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2510.18233v1",
-      "doi": "",
-      "arxiv_id": "2510.18233v1",
-      "title": "Zero-Dimensional Stacking Domains Enable Strong-Ductile Synergy in Additive Manufactured Titanium",
-      "abstract": "Alloying by addition of oxygen interstitials during additive manufacturing provides new routes to strengthen and toughen metals and alloys. The underlying mechanisms by which such interstitial atoms lead to enhanced properties remain, however, unclear, not least due a lack of quantitative atomic-scale models linking microstructure to properties. Here using quasi-3D imaging based on multi-slice electron ptychography, we reveal the importance of a new type of interstitial-character lattice defect, namely zero-dimensional stacking domains (ZDSDs), present in high density in AM-processed oxygen-modulated pure titanium. These ZDSDs promote slip diversity, and support intense work hardening, enabling a three-fold enhancement in both strength and ductility in Ti-0.45O compared to conventional pure Ti. The work demonstrates the potential for using interstitial solutes to enhance mechanical properties in a range of critical engineering alloys.",
-      "authors": [
-        "Wenjing Zhang",
-        "Jizhe Cui",
-        "Xiaoyang Wang",
-        "Shubo Zhang",
-        "Yan Chong",
-        "Andy Godfrey",
-        "Nobuhiro Tsuji",
-        "Kai Wang",
-        "Rong Hu",
-        "Jing Xue",
-        "Junyu Chen",
-        "Gang Fang",
-        "Rong Yu",
-        "Wei Liu"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2025,
-      "date": "2025-10-21",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2510.18233v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "ductility"
-        ]
-      },
-      "llm": {
-        "priority": "High",
-        "relevance_level": "Direct",
-        "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究了增材制造钛合金的力学性能增强机制，与用户关注的AM力学性能方向高度相关。",
-        "why_not_core": "This paper does not focus on fatigue behavior or implant-specific mechanical performance, but addresses strength-ductility synergy via novel defect engineering.",
-        "validation_kind": "mechanical_testing",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "additive manufacturing",
-          "titanium",
-          "oxygen interstitials",
-          "zero-dimensional stacking domains",
-          "mechanical properties"
-        ],
-        "summary_zh": {
-          "motivation": "揭示增材制造钛中氧间隙原子对力学性能的增强机制。",
-          "method": "利用多切片电子叠层成像技术表征零维堆垛畴，结合力学测试。",
-          "result": "发现零维堆垛畴促进滑移多样性，使Ti-0.45O强度和塑性同时提高三倍。",
-          "validation": "通过准三维成像和拉伸实验验证微结构与性能的关联。"
-        },
-        "summary_en": {
-          "motivation": "To uncover the atomic-scale mechanism by which oxygen interstitials enhance strength and ductility in additively manufactured titanium.",
-          "method": "Quasi-3D imaging via multi-slice electron ptychography was employed to characterize zero-dimensional stacking domains (ZDSDs) in oxygen-modulated pure Ti.",
-          "result": "High-density ZDSDs promote slip diversity and intense work hardening, yielding a three-fold enhancement in both strength and ductility.",
-          "validation": "Mechanical testing combined with atomic-scale imaging validated the microstructure-property relationship."
-        },
-        "key_terms": [
-          {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
-          },
-          {
-            "en": "titanium",
-            "zh": "钛"
-          },
-          {
-            "en": "oxygen interstitials",
-            "zh": "氧间隙原子"
-          },
-          {
-            "en": "zero-dimensional stacking domains",
-            "zh": "零维堆垛畴"
-          },
-          {
-            "en": "electron ptychography",
-            "zh": "电子叠层成像"
-          },
-          {
-            "en": "strength-ductility synergy",
-            "zh": "强度-塑性协同"
-          },
-          {
-            "en": "work hardening",
-            "zh": "加工硬化"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:14:51Z"
+      "first_seen_at": "2026-06-07T23:17:25Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 1,
     "by_source": {
-      "arxiv": 2
+      "openalex": 1
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 1,
+    "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 2
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "arxiv": 2
+      "openalex": 1
     },
-    "scored": 2,
+    "scored": 1,
     "priority_counts": {
-      "Exclude": 1,
-      "High": 1
+      "Exclude": 1
     }
   }
 }

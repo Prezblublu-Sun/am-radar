@@ -1,0 +1,158 @@
+{
+  "schema_version": "v2",
+  "date": "2025-12-16",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7115914860",
+      "doi": "10.1051/itmconf/20258003007/pdf",
+      "title": "Development of an Online Defect Detection System for Additive Manufacturing Based on Multi-Sensor Fusion",
+      "abstract": "Additive Manufacturing (AM), especially metal Selective Laser Melting (SLM), is essential for high-end industries like aerospace (e.g., turbine blades) and medical implants (e.g., hip implants), but in-situ defect detection remains a key bottleneck limiting its industrialization. Existing single-sensor systems fail to cover surface-subsurface-internal defects comprehensively, while traditional multi-sensor fusion suffers from information loss and poor real-time performance. This study develops an online system integrating visible light, infrared, and ultrasonic sensors, proposing a cross-modal attention-enhanced NSCT-PCNN fusion algorithm to optimize multi-modal feature fusion and an improved YOLOv3 (with an additional small-scale branch and CIoU loss) to boost detection precision. Experiments on the EOS M290 machine using Ti-6Al-4V material show the system achieves 95.8% mAP, 92.3% small defect detection rate, and 21.5 fps speed. Closed-loop control based on the system reduces the defect rate of components from 18.5% to 5.2%, and tensile strength increases by 12.3%. Future work will upgrade ultrasonic hardware and validate the system’s adaptability to multi-material AM processes.",
+      "authors": [
+        "Jingyuan Wang"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Jingyuan Wang",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Springer Link (Chiba Institute of Technology)",
+      "year": 2025,
+      "date": "2025-12-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1051/itmconf/20258003007/pdf",
+      "cited_by_count": 0,
+      "concepts": [
+        "Bottleneck",
+        "Adaptability",
+        "Fusion",
+        "Aerospace",
+        "Sensor fusion",
+        "Computer science",
+        "Ultrasonic sensor",
+        "Fusible alloy",
+        "Engineering",
+        "Feature (linguistics)",
+        "Key (lock)",
+        "Limiting",
+        "Control system",
+        "Upgrade",
+        "Cover (algebra)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "tensile strength",
+          "defect"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要关注增材制造在线缺陷检测系统，而非Ti-6Al-4V的力学或疲劳性能表征。",
+        "why_not_core": "The paper focuses on an in-situ defect detection system for SLM, not on mechanical/fatigue characterization or modeling of Ti-6Al-4V beyond a brief tensile result.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "multi-sensor fusion",
+          "defect detection",
+          "selective laser melting",
+          "Ti-6Al-4V",
+          "tensile strength"
+        ],
+        "summary_zh": {
+          "motivation": "现有单传感器系统无法全面检测增材制造缺陷，多传感器融合存在信息丢失和实时性差的问题。",
+          "method": "提出集成可见光、红外和超声波传感器，采用改进的NSCT-PCNN融合算法和YOLOv3进行缺陷检测。",
+          "result": "系统实现95.8% mAP，缺陷率从18.5%降至5.2%，抗拉强度提升12.3%。",
+          "validation": "在EOS M290设备上使用Ti-6Al-4V材料进行实验验证。"
+        },
+        "summary_en": {
+          "motivation": "Single-sensor systems cannot comprehensively detect surface, subsurface, and internal defects in additive manufacturing, and existing multi-sensor fusion suffers from information loss and poor real-time performance.",
+          "method": "An online defect detection system integrating visible light, infrared, and ultrasonic sensors is developed, using a cross-modal attention-enhanced NSCT-PCNN fusion algorithm and an improved YOLOv3 with an additional small-scale branch and CIoU loss.",
+          "result": "The system achieves 95.8% mAP, 92.3% small defect detection rate, and 21.5 fps speed; closed-loop control reduces component defect rate from 18.5% to 5.2% and increases tensile strength by 12.3%.",
+          "validation": "Experiments were conducted on an EOS M290 SLM machine using Ti-6Al-4V material, with tensile testing to assess mechanical property changes."
+        },
+        "key_terms": [
+          {
+            "en": "multi-sensor fusion",
+            "zh": "多传感器融合"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "defect detection",
+            "zh": "缺陷检测"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "closed-loop control",
+            "zh": "闭环控制"
+          },
+          {
+            "en": "YOLOv3",
+            "zh": "YOLOv3"
+          },
+          {
+            "en": "NSCT-PCNN",
+            "zh": "非下采样轮廓波变换-脉冲耦合神经网络"
+          },
+          {
+            "en": "mAP",
+            "zh": "平均精度均值"
+          },
+          {
+            "en": "defect rate",
+            "zh": "缺陷率"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:21:34Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

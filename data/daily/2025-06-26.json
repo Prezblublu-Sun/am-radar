@@ -1,0 +1,152 @@
+{
+  "schema_version": "v2",
+  "date": "2025-06-26",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414133172",
+      "doi": "10.20535/2521-1943.2025.9.2(105).326824",
+      "title": "Features of Manufacturing Parts Using Additive Technologies from Metal Alloys. An Analytical Review",
+      "abstract": "This article explores current scientific research on the machining process of parts manufactured using additive technologies. The paper presents a brief classification of metal alloys used in the field of additive manufacturing, as well as a classification of 3D printing technologies known to date. The opportunities provided by additive technologies are outlined. The advantages and disadvantages of additive manufacturing in general, and of the most common production methods in particular, are discussed. The results of scientific studies on the influence of printing layer orientation and anisotropy of the product’s microstructure on the machining process are analyzed. Attention is given to the machinability of parts. The lack of research on milling of parts produced by specific printing methods is highlighted. The necessity of conducting scientific research on the machining of titanium alloy Ti6Al4V parts produced by additive technologies is substantiated. 3D printing offers new approaches to the design and manufacturing of products. At this stage of technological development, it is impossible to replace or completely eliminate finish machining from the production chain due to drawbacks associated with thermal and mechanical processes during melting and/or sintering of the material, as well as due to high requirements for surface roughness, dimensional accuracy, and geometric precision of critical surfaces. There remain significant aspects that require further development, optimization, improvement, and investigation. A telling example of this is that leading universities around the world are incorporating credit-bearing modules on hybrid additive-subtractive manufacturing into their educational programs at all levels of higher education.",
+      "authors": [
+        "Oles Sonets",
+        "Borys Vorontsov"
+      ],
+      "first_author_affiliation": "National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”",
+      "corresponding_authors": [
+        {
+          "name": "Oles Sonets",
+          "affiliation": "National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”"
+        }
+      ],
+      "venue": "Mechanics and Advanced Technologies",
+      "year": 2025,
+      "date": "2025-06-26",
+      "date_precision": "day",
+      "url": "https://doi.org/10.20535/2521-1943.2025.9.2(105).326824",
+      "cited_by_count": 0,
+      "concepts": [
+        "Machining",
+        "Machinability",
+        "3D printing",
+        "Manufacturing engineering",
+        "Process (computing)",
+        "Mechanical engineering",
+        "Titanium alloy",
+        "Materials science",
+        "Field (mathematics)",
+        "Production (economics)",
+        "Surface roughness",
+        "Process engineering",
+        "Surface finish",
+        "Computer science",
+        "Advanced manufacturing",
+        "Aerospace",
+        "Production engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "本文是一篇关于增材制造零件机加工的综述，未涉及Ti-6Al-4V的后处理控制对疲劳/力学性能的影响。",
+        "why_not_core": "The paper is a review on machining of AM parts, not on post-processing treatments (heat treatment, HIP, peening, etc.) that modify fatigue/mechanical performance of Ti-6Al-4V.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": true
+        },
+        "tags": [
+          "additive manufacturing",
+          "machining",
+          "review",
+          "metal alloys",
+          "Ti6Al4V"
+        ],
+        "summary_zh": {
+          "motivation": "调研增材制造金属零件机加工研究现状",
+          "method": "文献综述，分类讨论打印工艺与机加工关系",
+          "result": "指出增材制造零件需后续机加工，Ti6Al4V研究不足",
+          "validation": "无实验验证，仅为文献分析"
+        },
+        "summary_en": {
+          "motivation": "This review surveys current scientific research on machining of parts produced by additive manufacturing from metal alloys, highlighting the need for further studies.",
+          "method": "A literature review classifying metal alloys and 3D printing technologies, analyzing the influence of printing layer orientation and anisotropy on machining.",
+          "result": "The review concludes that finish machining remains indispensable due to surface roughness and dimensional accuracy requirements, and identifies a lack of research on milling of Ti6Al4V parts.",
+          "validation": "No experimental validation; purely analytical review."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "machining",
+            "zh": "机加工"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "layer orientation",
+            "zh": "层取向"
+          },
+          {
+            "en": "anisotropy",
+            "zh": "各向异性"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "dimensional accuracy",
+            "zh": "尺寸精度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:09:50Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

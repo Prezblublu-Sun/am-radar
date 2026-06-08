@@ -4,48 +4,80 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2511.08062v1",
-      "doi": "",
-      "arxiv_id": "2511.08062v1",
-      "title": "Non-destructive 3D characterization of microtextured regions in the bulk of Ti-6Al-4V alloy",
-      "abstract": "In this study we present spatially resolved texture and orientation maps from a cube-shaped sample of Ti-6Al-4V alloy, reconstructed by means of texture tomography (TT). Unlike grain resolved 3DXRD techniques which require \"spotty\" diffraction patterns, TT can reconstruct local (voxelized) orientation distribution function (ODFs) from continuous diffraction patterns collected in a 3D scanning procedure. Reconstructions of the same sample, scanned in two different settings and subsequent EBSD analysis parallel to one of the sample faces show excellent mutual agreement and validate the single-axis data collection and reconstruction procedure for this class of materials. The reconstruction reveals the presence and the 3D shape of several micro-textured regions, showing a sharp unimodal texture of the $α$-phase with a clear link of the orientation and spatial alignment of these zones to the rolling, transverse and normal directions of the rolled material.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4416128815",
+      "doi": "10.3390/sym17111935",
+      "title": "Symmetry-Based Evaluation of Tool Coating Effects on the Machining Behavior of Ti-6Al-4V Using Micro-EDM",
+      "abstract": "Titanium alloy Ti-6Al-4V possesses excellent mechanical and corrosion-resistant properties; therefore, it is widely employed in aerospace, automotive, and biomedical fields. However, its poor machinability restricts traditional processing methods. To overcome this limitation, the current work presents a symmetry analysis approach to evaluate the effects of tool coating on the micro-electric discharge machining (micro-EDM) characteristics of Ti-6Al-4V. Tungsten carbide (WC) microelectrodes were fabricated in three forms: uncoated, copper-coated, and carbon-coated. The chemical vapor deposition (CVD) method was used to coat the carbon layer, and the integrity of the coating was confirmed by Energy-Dispersive X-ray Spectroscopy/Analysis (EDS/EDX). The effect of input variables—namely, voltage, capacitance, and spindle rotational speed—on two responses was studied—the machining depth (Z-axis displacement) and tool wear rate (TWR)—using a Taguchi L9 orthogonal array. Analysis conducted using Minitab statistical software 17 revealed that both voltage and capacitance contributed to the response parameters as optimized variables. The comparative study showed that the copper- and carbon-coated WC microtool could obtain a better Z coordinate and lower tool wear ratio compared with those of the uncoated tool. The findings confirm that applying thin conductive coatings to WC tools can significantly improve the stability, precision, and overall symmetry of the micro-EDM process when machining difficult-to-cut titanium alloys.",
       "authors": [
-        "Mads Carlsen",
-        "Xiaohan Zeng",
-        "Haixing Fang",
-        "Moritz Frewein",
-        "Tilman A. Grünewald",
-        "Joao Quinta da Fonseca",
-        "Wolfgang Ludwig"
+        "Shailesh Shirguppikar",
+        "Vaibhav Ganachari",
+        "Marko Vulović",
+        "Andreja Stefanović",
+        "Pankaj B. Gavali",
+        "Nguyen Huu Phan",
+        "Aleksandar Ašonja"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Department of Mechatronics Engineering, Kasegaon Education Society’s Rajarambapu Institute of Technology, Shivaji University, Sakharale MS-414415, India",
+      "corresponding_authors": [
+        {
+          "name": "Aleksandar Ašonja",
+          "affiliation": "Faculty of Economics and Engineering Management, University Business Academy, Cvećarska 2, 21000 Novi Sad, Serbia"
+        }
+      ],
+      "venue": "Symmetry",
       "year": 2025,
       "date": "2025-11-11",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2511.08062v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.3390/sym17111935",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Machining",
+        "Machinability",
+        "Tungsten carbide",
+        "Taguchi methods",
+        "Coating",
+        "Tool wear",
+        "Titanium alloy",
+        "Composite material",
+        "Electrical conductor",
+        "Electrical discharge machining",
+        "Cutting tool",
+        "Chemical vapor deposition",
+        "Orthogonal array",
+        "Metallurgy",
+        "Electrode",
+        "Cemented carbide",
+        "Surface micromachining",
+        "Rake angle",
+        "Deposition (geology)",
+        "Titanium",
+        "Mechanical engineering",
+        "Physical vapor deposition",
+        "Carbide",
+        "Diamond tool"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_postprocess"
       ],
-      "direction": "ti6al4v_postprocess_hip",
-      "direction_name": "Ti-6Al-4V Post-processing & HIP",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "ti6al4v_postprocess_hip": [
-          "Ti-6Al-4V"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文聚焦于Ti-6Al-4V合金的微观织构三维表征，未涉及后处理或热等静压工艺，因此与用户研究方向的相关性较低。",
-        "why_not_core": "This paper does not address any post-processing or HIP treatment; it only characterizes the as-rolled texture without any processing modification.",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的微电火花加工，但未评估后处理对疲劳或力学性能的影响。",
+        "why_not_core": "no evaluation of mechanical performance (fatigue, tensile) after post-processing; only studies machining process parameters.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -54,68 +86,194 @@
           "is_review": false
         },
         "tags": [
-          "texture tomography",
+          "micro-EDM",
           "Ti-6Al-4V",
-          "microtextured regions",
-          "EBSD",
-          "non-destructive characterization"
+          "tool coating",
+          "machining"
         ],
         "summary_zh": {
-          "motivation": "在三维空间内表征Ti-6Al-4V合金中的微织构区域",
-          "method": "采用X射线衍射织构层析成像（TT）技术重构体素化取向分布函数",
-          "result": "识别出多个尖锐单峰织构的微织构区域，其取向与轧制方向一致",
-          "validation": "通过相同样品的EBSD分析验证单轴扫描重建的准确性"
+          "motivation": "评估刀具涂层对Ti-6Al-4V微电火花加工的影响。",
+          "method": "采用田口L9正交实验，对比无涂层、铜涂层和碳涂层WC微电极。",
+          "result": "涂层刀具提高了加工深度并降低了工具磨损率。",
+          "validation": "通过实验测量加工深度和工具磨损率验证。"
         },
         "summary_en": {
-          "motivation": "To characterize microtextured regions in Ti-6Al-4V alloy in three dimensions using a non-destructive technique.",
-          "method": "Texture tomography (TT) reconstructs voxelized orientation distribution functions from continuous diffraction patterns collected in a 3D scanning procedure.",
-          "result": "Several microtextured regions with sharp unimodal α-phase texture are identified, showing clear orientation alignment with the rolling, transverse, and normal directions.",
-          "validation": "The reconstruction is validated by excellent agreement with EBSD analysis performed on the same sample."
+          "motivation": "To evaluate the effect of tool coating on the micro-EDM machining characteristics of Ti-6Al-4V.",
+          "method": "Taguchi L9 orthogonal array with uncoated, copper-coated, and carbon-coated tungsten carbide microelectrodes.",
+          "result": "Coated tools improved machining depth and reduced tool wear ratio compared to uncoated tools.",
+          "validation": "Experimental measurement of depth and tool wear rate under varying voltage, capacitance, and spindle speed."
         },
         "key_terms": [
           {
-            "en": "texture tomography",
-            "zh": "织构层析成像"
+            "en": "micro-electric discharge machining",
+            "zh": "微电火花加工"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "tool coating",
+            "zh": "刀具涂层"
+          },
+          {
+            "en": "tungsten carbide",
+            "zh": "碳化钨"
+          },
+          {
+            "en": "machining depth",
+            "zh": "加工深度"
+          },
+          {
+            "en": "tool wear rate",
+            "zh": "工具磨损率"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:19:10Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4416553003",
+      "doi": "10.1007/s10853-025-11818-1",
+      "title": "A novel L-BFGS-B optimized machine learning model for predicting tensile strength of SLM-manufactured Ti-6Al-4V alloys",
+      "abstract": "",
+      "authors": [
+        "B. S. Arun",
+        "V N Ajukumar",
+        "R. Anand Sekhar"
+      ],
+      "first_author_affiliation": "APJ Abdul Kalam Technological University, Thiruvananthapuram, Kerala, India",
+      "corresponding_authors": [
+        {
+          "name": "B. S. Arun",
+          "affiliation": "APJ Abdul Kalam Technological University, Thiruvananthapuram, Kerala, India"
+        }
+      ],
+      "venue": "Journal of Materials Science",
+      "year": 2025,
+      "date": "2025-11-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s10853-025-11818-1",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Selective laser melting",
+        "Ultimate tensile strength",
+        "Boosting (machine learning)",
+        "Machine learning",
+        "Gradient boosting",
+        "Solid mechanics",
+        "Fabrication",
+        "Microstructure",
+        "Process optimization",
+        "Composite material",
+        "Random forest",
+        "Artificial intelligence",
+        "Ensemble learning",
+        "Martensite",
+        "Ensemble forecasting",
+        "Thermal",
+        "Selective laser sintering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "tensile strength"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对SLM制造的Ti-6Al-4V合金的抗拉强度预测，与用户关注的力学性能方向高度吻合。",
+        "why_not_core": "This paper does not provide new experimental mechanical data but instead proposes a predictive model using existing data, which is still within the scope of L1 since modeling work is accepted.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "SLM",
+          "Ti-6Al-4V",
+          "tensile strength",
+          "machine learning",
+          "L-BFGS-B optimization"
+        ],
+        "summary_zh": {
+          "motivation": "优化机器学习模型以提高SLM制造Ti-6Al-4V合金抗拉强度的预测精度。",
+          "method": "采用L-BFGS-B优化算法训练机器学习模型，基于工艺参数预测抗拉强度。",
+          "result": "模型预测精度显著高于传统回归方法，为工艺优化提供支持。",
+          "validation": "与文献实验数据对比验证预测准确性。"
+        },
+        "summary_en": {
+          "motivation": "To enhance the prediction accuracy of tensile strength for SLM-produced Ti-6Al-4V alloys by optimizing a machine learning model.",
+          "method": "An L-BFGS-B optimized machine learning model is developed to predict tensile strength based on process parameters.",
+          "result": "The optimized model achieves significantly higher prediction accuracy compared to conventional regression methods, offering guidance for process optimization.",
+          "validation": "The model is validated against experimental tensile strength data from literature."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
           },
           {
             "en": "Ti-6Al-4V",
             "zh": "钛合金Ti-6Al-4V"
           },
           {
-            "en": "microtextured regions",
-            "zh": "微织构区域"
+            "en": "tensile strength",
+            "zh": "抗拉强度"
           },
           {
-            "en": "orientation distribution function",
-            "zh": "取向分布函数"
+            "en": "machine learning",
+            "zh": "机器学习"
           },
           {
-            "en": "EBSD",
-            "zh": "电子背散射衍射"
+            "en": "L-BFGS-B optimization",
+            "zh": "L-BFGS-B优化"
+          },
+          {
+            "en": "process parameters",
+            "zh": "工艺参数"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:15:55Z"
+      "first_seen_at": "2026-06-07T23:19:10Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "arxiv": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess_hip": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Low": 1
+      "Exclude": 1,
+      "High": 1
     }
   }
 }

@@ -1,0 +1,140 @@
+{
+  "schema_version": "v2",
+  "date": "2025-06-03",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4410975429",
+      "doi": "10.5829/ije.2026.39.02b.06",
+      "title": "Analysis of Microhardness after Turning Process of Ti6Al4V-ELI",
+      "abstract": "This study investigated the effect of cutting parameters on the microhardness of Ti6Al4V ELI during dry turning using PVD AlTiN and TiAlN inserts. Addressing the challenge of balancing productivity with stringent surface integrity requirements, this research explored the influence of cutting speed (80, 125, and 170 m/min) and feed rate (0.08, 0.15, and 0.20 mm/rev) on subsurface microhardness. Vickers microhardness testing revealed a clear work hardening tendency, with the highest microhardness observed in the subsurface region. Increasing cutting speed correlated with increased microhardness, particularly when using PVD TiAlN inserts, indicating a greater degree of microstructural alteration. A thicker white layer was observed after turning with PVD AlTiN inserts compared to PVD TiAlN, potentially due to differences in friction coefficient. Maximum microhardness (398 HV0.05) was recorded at 125 m/min cutting speed and 0.20 mm/rev feed rate with PVD TiAlN. The machining affected zone (MAZ) extended to 200 µm and 300 µm below the surface for AlTiN and TiAlN inserts, respectively. These findings provide insights for optimizing machining processes to enhance both surface integrity and productivity in the manufacturing of Ti6Al4V ELI components.",
+      "authors": [
+        "Suresh R. Nipanikar",
+        "V. G. Sargade",
+        "Niket Malvade"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, Karmaveer Bhaurao Patil College of Engineering, Satara, Maharashtra, India",
+      "corresponding_authors": [
+        {
+          "name": "Suresh R. Nipanikar",
+          "affiliation": "Department of Mechanical Engineering, Karmaveer Bhaurao Patil College of Engineering, Satara, Maharashtra, India"
+        }
+      ],
+      "venue": "International Journal of Engineering",
+      "year": 2025,
+      "date": "2025-06-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.5829/ije.2026.39.02b.06",
+      "cited_by_count": 0,
+      "concepts": [
+        "Indentation hardness",
+        "Materials science",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "machining",
+          "surface integrity"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了Ti6Al4V-ELI车削后的微硬度变化，但未涉及增材制造材料，仅提供加工参数对表面完整性的基本参考。",
+        "why_not_core": "Paper does not address additively manufactured Ti-6Al-4V; it uses conventionally sourced material and only measures microhardness, lacking fatigue or tensile data.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti6Al4V-ELI",
+          "turning",
+          "microhardness",
+          "PVD coatings",
+          "white layer",
+          "machining affected zone"
+        ],
+        "summary_zh": {
+          "motivation": "研究切削参数对Ti6Al4V-ELI微硬度的影响。",
+          "method": "使用PVD AlTiN和TiAlN刀片进行干式车削，测试不同切削速度和进给率下的微硬度。",
+          "result": "最高微硬度398 HV0.05，加工影响区达200-300 μm。",
+          "validation": "通过维氏微硬度测试验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of cutting parameters on the microhardness of Ti6Al4V-ELI during dry turning.",
+          "method": "Dry turning experiments with PVD AlTiN and TiAlN inserts at varying cutting speeds and feed rates, followed by Vickers microhardness testing.",
+          "result": "Maximum microhardness of 398 HV0.05 was achieved, with the machining affected zone extending 200-300 μm below the surface.",
+          "validation": "Vickers microhardness measurements."
+        },
+        "key_terms": [
+          {
+            "en": "Ti6Al4V-ELI",
+            "zh": "钛合金Ti6Al4V-ELI"
+          },
+          {
+            "en": "turning process",
+            "zh": "车削过程"
+          },
+          {
+            "en": "microhardness",
+            "zh": "微硬度"
+          },
+          {
+            "en": "white layer",
+            "zh": "白层"
+          },
+          {
+            "en": "machining affected zone",
+            "zh": "加工影响区"
+          },
+          {
+            "en": "PVD coatings",
+            "zh": "PVD涂层"
+          },
+          {
+            "en": "cutting speed",
+            "zh": "切削速度"
+          },
+          {
+            "en": "feed rate",
+            "zh": "进给率"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:09:50Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

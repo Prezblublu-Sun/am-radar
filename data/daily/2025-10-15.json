@@ -4,55 +4,78 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2510.13286v1",
-      "doi": "",
-      "arxiv_id": "2510.13286v1",
-      "title": "Surface Properties of Ga-Cu Based Liquid-Metal Alloys: Impact of Cu Dilution Topography and Reaction Conditions",
-      "abstract": "We studied the surface properties of Ga-Cu based liquid metal alloys, a promising material system for supported catalytically active liquid metal solutions (SCALMS). The impact of Cu dilution in the (liquid) Ga matrix is in-detail investigated by X-ray and UV photoelectron spectroscopy (XPS/UPS) and Machine-Learned-Force Field (ML-FF) calculations. With decreasing Cu content, microscopic and macroscopic Ga-Cu model samples exhibit a shift of the Cu 2p core level line to higher binding energies (Eb) as well as a correspondingly shifted and narrowed d-band with respect to pure Cu, which we ascribe to site isolation. To study the property evolution of Ga-Cu at SCALMS reaction conditions, i.e., where Cu is present in liquid Ga, additional XPS measurements were performed between 100 and 500 oC. The observed Cu 2p shift to lower Eb is tentatively ascribed to changes in the local environment with increasing temperature, i.e. bond elongation, which is corroborated by ML-FF simulations. The increased Cu surface content at low temperatures is attributed to the presence of crystallized Cu-rich intermetallic compounds, as evidenced by transmission electron microscopy images. In an attempt to generalize the findings for filled d-band transition metals (TMs) in liquid Ga also Ga-Ag and Ga-Au model systems were investigated. The observed insights may be another step of paving the way for an insight-driven development of low-temperature melting liquid metals for heterogeneous catalysis.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4415207377",
+      "doi": "10.3390/ma18204719",
+      "title": "Surface Finishing of Additive Manufactured Titanium Alloy by Plasma Electrolytic Polishing Without Pretreatments",
+      "abstract": "The advent of the additive manufacturing of Ti-6Al-4V (Ti64) alloys has facilitated the production of complex geometries for various industrial applications. Nevertheless, the inherent surface roughness of selective laser melting (SLM)-produced parts remains a critical limitation, adversely affecting fatigue life, wear, corrosion, and compliance with stringent surface quality standards, for example those required in hygienic applications. Conventional post-processing methodologies, encompassing grinding and electropolishing, are frequently multi-stage, labor-intensive, and reliant on hazardous electrolytes, which thus limits their use for certain applications. In this study, plasma electrolytic polishing (PEP) was evaluated as a single-step finishing process for 3D-printed Ti64 components. The findings indicate that PEP efficiently diminished surface roughness from initial values of approximately 9-10 µm to as low as 0.38-0.5 µm within a time frame of 15-20 min, depending on the initial surface condition. These outcomes meet hygienic surface requirements while ensuring the use of environmentally compatible electrolytes. The findings establish PEP as a non-mechanical, efficient, and scalable additive-manufacturing post-processing strategy. It has the capacity to supersede conventional multi-stage workflows and offer substantial reductions in cost, time, and environmental impact.",
       "authors": [
-        "Tzung-En Hsieh",
-        "Michael S. Moritz",
-        "Andreas Mölkner",
-        "Christoph Wichmann",
-        "Johannes Frisch",
-        "Julien Steffen",
-        "Caiden J. Parker",
-        "Vaishnavi Krishnamurthi",
-        "Torben Daeneke",
-        "Hans-Peter Steinrück",
-        "Andreas Görling",
-        "Christian Papp",
-        "Marcus Bär"
+        "Adel Ghezri",
+        "Thomas Nelis",
+        "Jürgen Burger",
+        "Cedric Bessire"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "School of Biomedical and Precision Engineering, Bern University, 3010 Bern, Switzerland",
+      "corresponding_authors": [
+        {
+          "name": "Adel Ghezri",
+          "affiliation": "School of Biomedical and Precision Engineering, Bern University, 3010 Bern, Switzerland"
+        }
+      ],
+      "venue": "Materials",
       "year": 2025,
       "date": "2025-10-15",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2510.13286v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "physics.chem-ph"
+      "url": "https://doi.org/10.3390/ma18204719",
+      "cited_by_count": 1,
+      "concepts": [
+        "Polishing",
+        "Materials science",
+        "Surface roughness",
+        "Surface finishing",
+        "Metallurgy",
+        "Titanium alloy",
+        "Surface finish",
+        "Grinding",
+        "Electrolyte",
+        "Hazardous waste",
+        "Alloy",
+        "Titanium",
+        "Nickel alloy",
+        "Process engineering",
+        "Composite material"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "elongation"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "surface roughness",
+          "fatigue",
+          "fatigue life"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "polishing",
+          "post-processing"
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "与用户研究方向无关，涉及液态金属合金催化而非增材制造力学性能",
-        "why_not_core": "No additive manufacturing, mechanical properties testing, or biomedical implant context.",
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Skim only",
+        "relevance_to_user": "虽然表面粗糙度影响疲劳性能，但论文未直接测试机械性能。",
+        "why_not_core": "No fatigue, tensile, or other mechanical testing; only reports surface roughness reduction without connecting to mechanical performance.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -61,181 +84,208 @@
           "is_review": false
         },
         "tags": [
-          "Ga-Cu liquid metal",
-          "surface properties",
-          "catalysis",
-          "ML-FF",
-          "XPS"
+          "plasma electrolytic polishing",
+          "Ti-6Al-4V",
+          "surface roughness",
+          "additive manufacturing",
+          "post-processing"
         ],
         "summary_zh": {
-          "motivation": "探究Ga-Cu液态金属合金表面性质随Cu稀释及反应条件的变化",
-          "method": "XPS/UPS实验结合机器学习力场计算",
-          "result": "观察Cu稀释导致结合能偏移，高温导致键长变化",
-          "validation": "实验光谱与ML-FF模拟相互验证"
+          "motivation": "SLM成形Ti64表面粗糙度影响疲劳寿命等性能。",
+          "method": "采用等离子电解抛光（PEP）对SLM Ti64进行单步表面处理。",
+          "result": "PEP在15-20分钟内将粗糙度从9-10 µm降至0.38-0.5 µm，满足卫生表面要求。",
+          "validation": "通过表面粗糙度测量验证抛光效果。"
         },
         "summary_en": {
-          "motivation": "To investigate the impact of Cu dilution and temperature on surface properties of Ga-Cu liquid metal alloys for catalysis.",
-          "method": "Combined XPS/UPS and machine-learned force field (ML-FF) calculations.",
-          "result": "Cu core level shifts to higher binding energies with dilution and to lower binding energies at elevated temperatures.",
-          "validation": "Experimental XPS spectra corroborated by ML-FF simulations and TEM."
+          "motivation": "The high surface roughness of additively manufactured Ti-6Al-4V parts degrades fatigue life, wear, and corrosion resistance, necessitating effective post-processing.",
+          "method": "Plasma electrolytic polishing (PEP) was applied as a single-step finishing process without pretreatments to selective laser melted Ti-6Al-4V.",
+          "result": "PEP reduced surface roughness from 9–10 µm to 0.38–0.5 µm within 15–20 minutes, meeting hygienic surface standards.",
+          "validation": "Surface profilometry was used to measure roughness before and after PEP treatment."
         },
         "key_terms": [
           {
-            "en": "Ga-Cu liquid metal",
-            "zh": "镓铜液态金属"
+            "en": "plasma electrolytic polishing",
+            "zh": "等离子电解抛光"
           },
           {
-            "en": "surface properties",
-            "zh": "表面性质"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "XPS",
-            "zh": "X射线光电子能谱"
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           },
           {
-            "en": "ML-FF",
-            "zh": "机器学习力场"
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
           },
           {
-            "en": "catalysis",
-            "zh": "催化"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           },
           {
-            "en": "site isolation",
-            "zh": "位点隔离"
+            "en": "post-processing",
+            "zh": "后处理"
           },
           {
-            "en": "intermetallic compounds",
-            "zh": "金属间化合物"
+            "en": "hygienic surfaces",
+            "zh": "卫生表面"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:14:51Z"
+      "first_seen_at": "2026-06-07T23:17:25Z"
     },
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2510.13130v1",
-      "doi": "10.1016/j.jeurceramsoc.2026.118347",
-      "arxiv_id": "2510.13130v1",
-      "title": "Thermal and Electrical Properties of (Cr,Mo,Ta,V,W)C High-Entropy Carbide Ceramics",
-      "abstract": "The synthesis and characterization, along with the resulting properties, of fully dense \\((\\mathrm{Cr, Mo, Ta, V, W})\\mathrm{C}\\) high-entropy carbide ceramics were studied. The ceramics were synthesized from metal oxide and carbon powders by carbothermal reduction, followed by spark plasma sintering at various temperatures for densification. Increasing the densification temperature resulted in grain growth and an increase in the lattice parameter. Thermal diffusivity increased linearly with testing temperature, resulting in thermal conductivity values ranging from approximately \\(7~\\mathrm{W\\,m^{-1}\\,K^{-1}}\\) at room temperature to \\(12~\\mathrm{W\\,m^{-1}\\,K^{-1}}\\) at \\(200~^\\circ\\mathrm{C}\\). Measured heat capacity values matched theoretical estimates made using the Neumann--Kopp rule. Room-temperature electrical resistivity decreased from \\(137\\) to \\(120~μΩ\\cdot\\mathrm{cm}\\) as the excess carbon decreased from \\(5.4\\) to \\(0.1~\\mathrm{vol\\%}\\), suggesting an enhanced electronic contribution to thermal conductivity as excess carbon decreased. All specimens exhibited a Vickers hardness of approximately \\(29~\\mathrm{GPa}\\) under a \\(0.49~\\mathrm{N}\\) load. These results underscore the tunability of this high-entropy carbide system.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7127631857",
+      "doi": "10.24451/dspace/12249",
+      "title": "Surface Finishing of Additive Manufactured Titanium Alloy by Plasma Electrolytic Polishing Without Pretreatments",
+      "abstract": "The advent of the additive manufacturing of Ti-6Al-4V (Ti64) alloys has facilitated the production of complex geometries for various industrial applications. Nevertheless, the inherent surface roughness of selective laser melting (SLM)-produced parts remains a critical limitation, adversely affecting fatigue life, wear, corrosion, and compliance with stringent surface quality standards, for example those required in hygienic applications. Conventional post-processing methodologies, encompassing grinding and electropolishing, are frequently multi-stage, labor-intensive, and reliant on hazardous electrolytes, which thus limits their use for certain applications. In this study, plasma electrolytic polishing (PEP) was evaluated as a single-step finishing process for 3D-printed Ti64 components. The findings indicate that PEP efficiently diminished surface roughness from initial values of approximately 9–10 µm to as low as 0.38–0.5 µm within a time frame of 15–20 min, depending on the initial surface condition. These outcomes meet hygienic surface requirements while ensuring the use of environmentally compatible electrolytes. The findings establish PEP as a non-mechanical, efficient, and scalable additive-manufacturing post-processing strategy. It has the capacity to supersede conventional multi-stage workflows and offer substantial reductions in cost, time, and environmental impact.",
       "authors": [
-        "Ali Sarikhani",
-        "Steven M. Smith",
-        "Suzana Filipovic",
-        "William G. Fahrenholtz",
-        "Gregory E. Hilmas"
+        "Adel Ghezri",
+        "Thomas Nelis",
+        "J.D. Burger",
+        "Cédric Bessire"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Adel Ghezri",
+          "affiliation": ""
+        }
+      ],
+      "venue": "BFH: ARBOR",
       "year": 2025,
       "date": "2025-10-15",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2510.13130v1",
+      "url": "https://doi.org/10.24451/dspace/12249",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Polishing",
+        "Materials science",
+        "Surface roughness",
+        "Surface finishing",
+        "Metallurgy",
+        "Titanium alloy",
+        "Surface finish",
+        "Grinding",
+        "Nickel alloy",
+        "Alloy",
+        "Degreasing",
+        "Hazardous waste",
+        "Process engineering",
+        "Electrolyte",
+        "Titanium",
+        "Production line"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "surface roughness",
+          "fatigue",
+          "fatigue life"
         ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "polishing",
+          "post-processing"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究高熵碳化物陶瓷的热电性能，与增材制造力学性能方向无关。",
-        "why_not_core": "No additive manufacturing, no mechanical testing relevant to AM (only Vickers hardness), no fatigue or fracture properties.",
-        "validation_kind": "mechanical_testing",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V增材制造件的等离子电解抛光表面处理，但未涉及任何力学性能测试，因此与后处理对疲劳/力学性能影响的方向核心关联较弱。",
+        "why_not_core": "No mechanical testing data (fatigue, tensile) is reported; only surface roughness measurements.",
+        "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "high-entropy carbide",
-          "thermal conductivity",
-          "electrical resistivity",
-          "Vickers hardness"
+          "plasma electrolytic polishing",
+          "surface roughness",
+          "Ti-6Al-4V",
+          "selective laser melting",
+          "post-processing"
         ],
         "summary_zh": {
-          "motivation": "研究高熵碳化物陶瓷的热电性能及其可调性。",
-          "method": "通过碳热还原和放电等离子烧结制备致密陶瓷，表征微观结构和性能。",
-          "result": "热导率随温度升高而增加，电阻率随碳含量减少而降低，硬度约29 GPa。",
-          "validation": "通过热扩散、热容和电阻率测量验证性能。"
+          "motivation": "解决选区激光熔融Ti-6Al-4V零件表面粗糙度高的问题",
+          "method": "采用等离子电解抛光（PEP）作为单步精加工工艺",
+          "result": "表面粗糙度从约9–10 µm降至0.38–0.5 µm，满足卫生级表面要求",
+          "validation": "通过表面粗糙度测量验证抛光效果"
         },
         "summary_en": {
-          "motivation": "To investigate the thermal and electrical properties of high-entropy carbide ceramics and their tunability.",
-          "method": "Fully dense (Cr,Mo,Ta,V,W)C ceramics were synthesized via carbothermal reduction and spark plasma sintering, with characterization of microstructure and properties.",
-          "result": "Thermal conductivity increased with temperature, electrical resistivity decreased with reduced excess carbon, and Vickers hardness reached approximately 29 GPa.",
-          "validation": "Properties were validated through measurements of thermal diffusivity, heat capacity, and electrical resistivity."
+          "motivation": "To address the high surface roughness of selective laser melted Ti-6Al-4V parts, which limits their fatigue life and application in hygienic settings.",
+          "method": "Plasma electrolytic polishing (PEP) was applied as a single-step finishing process without pretreatments.",
+          "result": "Surface roughness was reduced from initial 9–10 µm to 0.38–0.5 µm, meeting hygienic surface standards.",
+          "validation": "Validation was performed through surface roughness measurements using profilometry."
         },
         "key_terms": [
           {
-            "en": "high-entropy carbide",
-            "zh": "高熵碳化物"
+            "en": "plasma electrolytic polishing",
+            "zh": "等离子电解抛光"
           },
           {
-            "en": "carbothermal reduction",
-            "zh": "碳热还原"
+            "en": "selective laser melting",
+            "zh": "选区激光熔融"
           },
           {
-            "en": "spark plasma sintering",
-            "zh": "放电等离子烧结"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "thermal conductivity",
-            "zh": "热导率"
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           },
           {
-            "en": "electrical resistivity",
-            "zh": "电阻率"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           },
           {
-            "en": "Vickers hardness",
-            "zh": "维氏硬度"
+            "en": "post-processing",
+            "zh": "后处理"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:14:51Z"
+      "first_seen_at": "2026-06-07T23:17:25Z"
     }
   ],
   "counts": {
     "fetched_total": 2,
     "by_source": {
-      "arxiv": 2
+      "openalex": 2
     },
     "after_dedup": 2,
     "after_routing": 2,
     "by_direction": {
-      "mechanical_properties": 2
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "arxiv": 2
+      "openalex": 2
     },
     "scored": 2,
     "priority_counts": {
-      "Exclude": 2
+      "Medium": 1,
+      "Low": 1
     }
   }
 }

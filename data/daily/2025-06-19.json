@@ -1,0 +1,144 @@
+{
+  "schema_version": "v2",
+  "date": "2025-06-19",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411453545",
+      "doi": "10.3390/lubricants13060274",
+      "title": "Bidirectionally Coupled FE-CFD Simulation Study on MQL Machining Process of Ti-6Al-4V Alloy",
+      "abstract": "In the context of sustainable manufacturing practices, minimum quantity lubrication (MQL) has been extensively employed in machining operations involving hard-to-cut materials. While substantial experimental and numerical investigations on MQL-assisted machining have been conducted, existing simulation approaches remain inadequate for modeling the dynamic flow field variations inherent to MQL processes, significantly compromising the predictive reliability of current models. This study introduced an innovative bidirectional iterative coupling framework integrating finite element (FE) analysis and computational fluid dynamics (CFD) to enhance simulation accuracy. Since fluid flow characteristics critically influence tribological and thermal management at the tool–workpiece interface during machining, CFD simulations were initially performed to evaluate how MQL parameters govern fluid flow behavior. Subsequently, an integrated FE-CFD modeling approach was developed to simulate Ti-6Al-4V alloy turning under MQL conditions with varying feed rates. The novel methodology involved transferring thermal flux data from FE simulations to CFD’s heat source domain, followed by incorporating CFD-derived convective heat transfer coefficients back into FE computations. This repetitive feedback process continued until the thermal exchange parameters reached convergence. Validation experiments demonstrated that the proposed method achieved improved alignment between the simulated and experimental results for both cutting temperature profiles and principal force components across different feed conditions, confirming the enhanced predictive capability of this coupled simulation strategy.",
+      "authors": [
+        "Xiaorong Zhou",
+        "Lin He",
+        "Sen Yuan",
+        "Hongwan Jiang",
+        "Jing Deng",
+        "Feilong Du",
+        "James Yang",
+        "Zebin Su"
+      ],
+      "first_author_affiliation": "School of Mechanical Engineering, Guiyang University, Guiyang 550005, China",
+      "corresponding_authors": [
+        {
+          "name": "Lin He",
+          "affiliation": "School of Mechanical Engineering, Guizhou University, Guiyang 550025, China"
+        }
+      ],
+      "venue": "Lubricants",
+      "year": 2025,
+      "date": "2025-06-19",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/lubricants13060274",
+      "cited_by_count": 2,
+      "concepts": [
+        "Computational fluid dynamics",
+        "Machining",
+        "Mechanical engineering",
+        "Cutting fluid",
+        "Materials science",
+        "Heat transfer",
+        "Context (archaeology)",
+        "Lubrication",
+        "Mechanics"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究Ti-6Al-4V合金的MQL加工工艺模拟，未涉及任何后处理对力学性能的影响，与用户关注的后处理对疲劳/力学性能改进方向无关。",
+        "why_not_core": "Does not study the effect of post-processing on fatigue or mechanical performance; only simulates cutting temperature and force during MQL machining of Ti-6Al-4V, with no connection to AM post-processing or mechanical property improvement.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "MQL machining",
+          "Ti-6Al-4V",
+          "FE-CFD simulation"
+        ],
+        "summary_zh": {
+          "motivation": "现有MQL加工模拟方法无法准确反映动态流场变化，预测可靠性低。",
+          "method": "提出双向迭代耦合FE-CFD模型，交替传递热通量和对流换热系数直至收敛。",
+          "result": "模拟的切削温度和主切削力与实验值吻合良好，验证了耦合方法的预测能力。",
+          "validation": "通过车削实验对比温度与力数据验证模拟精度。"
+        },
+        "summary_en": {
+          "motivation": "Existing simulation approaches for MQL-assisted machining fail to model dynamic flow field variations, compromising predictive reliability.",
+          "method": "A bidirectional iterative coupling framework integrating finite element analysis and computational fluid dynamics was developed, transferring thermal flux and convective heat transfer coefficients iteratively until convergence.",
+          "result": "The coupled model achieved improved agreement with experimental cutting temperature and principal force profiles across different feed rates.",
+          "validation": "Experimental turning tests on Ti-6Al-4V were conducted to validate the simulated temperature and force data."
+        },
+        "key_terms": [
+          {
+            "en": "minimum quantity lubrication",
+            "zh": "微量润滑"
+          },
+          {
+            "en": "bidirectional coupling",
+            "zh": "双向耦合"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "computational fluid dynamics",
+            "zh": "计算流体动力学"
+          },
+          {
+            "en": "cutting temperature",
+            "zh": "切削温度"
+          },
+          {
+            "en": "principal force",
+            "zh": "主切削力"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:09:50Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

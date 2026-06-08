@@ -1,0 +1,175 @@
+{
+  "schema_version": "v2",
+  "date": "2026-05-09",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7160824127",
+      "doi": "10.3390/ma19101945",
+      "title": "Size-Dependent Mechanical Properties of Additively Manufactured Ti-6Al-4V Thin Walls",
+      "abstract": "Additively manufactured lightweight lattice structures typically consist of thin walls with thicknesses ranging from hundreds of micrometers to millimeters. Within this range, such thin walls exhibit a pronounced size effect. Despite extensive research on the topic, a clear mapping between key influencing factors and mechanical properties remains lacking. This gap makes it challenging to accurately predict mechanical performance across different wall thicknesses, especially for those below 500 μm. In this work, Ti-6Al-4V thin-walled tensile specimens with thicknesses ranging from 0.2 mm to 1.0 mm were fabricated via laser powder bed fusion (LPBF). The variations in mechanical properties, microstructure, surface defects, and internal defects were investigated. The results indicate that yield strength (YS) and ultimate tensile strength (UTS) decreased significantly as thickness decreased, dropping from 794.1 MPa to 471.7 MPa and from 910.7 MPa to 485.2 MPa, respectively. Printing defects were identified as the dominant factors governing the size effect: strength was jointly affected by surface and internal defects, whereas failure mode and ductility were primarily governed by internal defects. By introducing an effective thickness ratio parameter, a semi-empirical predictive model was developed to characterize the strength-thickness relationship and to quantify the individual contributions of surface defects and other coupled interior factors. Subsequently, ultra-thin specimens were subjected to surface grinding and polishing to alleviate surface defects, leading to improvements in YS and UTS of approximately 27-39% and 22-45%, respectively. The model-predicted strengths of the surface-treated specimens were in good agreement with the measured values, further validating the effectiveness of the proposed model.",
+      "authors": [
+        "Tenglong Xie",
+        "Chao Ding",
+        "Peng Wang",
+        "Minghao Huang",
+        "Shenghang Xu",
+        "Zhen Wang",
+        "Huiping Tang"
+      ],
+      "first_author_affiliation": "Zhejiang Key Laboratory of Aerospace Metallic Materials, Hangzhou City University, Hangzhou 310015, China",
+      "corresponding_authors": [
+        {
+          "name": "Chao Ding",
+          "affiliation": "Zhejiang Key Laboratory of Aerospace Metallic Materials, Hangzhou City University, Hangzhou 310015, China"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2026,
+      "date": "2026-05-09",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma19101945",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Ultimate tensile strength",
+        "Composite material",
+        "Polishing",
+        "Ductility (Earth science)",
+        "Grinding",
+        "Failure mode and effects analysis",
+        "Fusion",
+        "Laser",
+        "Yield (engineering)",
+        "Surface roughness",
+        "Tensile testing",
+        "Mechanical strength",
+        "Thin film",
+        "Ranging"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "tensile strength",
+          "yield strength",
+          "ultimate tensile strength",
+          "ductility"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "polishing"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究Ti-6Al-4V增材制造薄壁件的后处理（表面打磨抛光）对力学性能的影响，与关注后处理改性疲劳/力学性能的方向高度相关。",
+        "why_not_core": "The paper focuses on static tensile properties and does not include fatigue testing, which is a key mechanical performance metric for the direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "thin walls",
+          "size effect",
+          "surface grinding",
+          "polishing",
+          "mechanical properties",
+          "semi-empirical model"
+        ],
+        "summary_zh": {
+          "motivation": "探究增材制造Ti-6Al-4V薄壁件尺寸效应对力学性能的影响，并建立预测模型。",
+          "method": "采用LPBF制备不同厚度薄壁拉伸件，进行表面打磨抛光后处理，结合实验与半经验模型分析。",
+          "result": "强度随厚度减小而显著下降，表面打磨抛光使屈服强度和抗拉强度分别提升27-39%和22-45%。",
+          "validation": "通过表面处理后的实验值与模型预测值对比验证模型有效性。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the size-dependent mechanical properties of additively manufactured Ti-6Al-4V thin walls and develop a predictive model linking thickness to strength.",
+          "method": "Ti-6Al-4V thin-walled tensile specimens with thicknesses from 0.2 mm to 1.0 mm were fabricated by LPBF and subjected to surface grinding and polishing; a semi-empirical model incorporating an effective thickness ratio was proposed.",
+          "result": "Yield and ultimate tensile strengths decreased significantly with decreasing thickness; surface grinding and polishing improved YS by 27-39% and UTS by 22-45%.",
+          "validation": "The model predictions for surface-treated specimens agreed well with experimental measurements, validating the approach."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "thin walls",
+            "zh": "薄壁件"
+          },
+          {
+            "en": "size effect",
+            "zh": "尺寸效应"
+          },
+          {
+            "en": "surface grinding",
+            "zh": "表面磨削"
+          },
+          {
+            "en": "polishing",
+            "zh": "抛光"
+          },
+          {
+            "en": "tensile properties",
+            "zh": "拉伸性能"
+          },
+          {
+            "en": "defect analysis",
+            "zh": "缺陷分析"
+          },
+          {
+            "en": "semi-empirical model",
+            "zh": "半经验模型"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:31:55Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "High": 1
+    }
+  }
+}

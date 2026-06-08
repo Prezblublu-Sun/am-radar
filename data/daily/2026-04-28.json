@@ -4,296 +4,76 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2604.26149v1",
-      "doi": "",
-      "arxiv_id": "2604.26149v1",
-      "title": "First-Principles Study of Structural, Electronic, Thermal, and Optical Properties of Quasi-2D C2 N2 O Using GGA and HSE06",
-      "abstract": "DFT and AIMD are used to investigate the structural, stability, electronic, thermal, and optical properties of the quasi-2D C2N2O structure. The structure exhibits thermal and energy stability, signifying robustness under ambient conditions, however less dynamical stability is observed. The electronic structure investigation reveals that C2N2O displays semiconducting properties with a moderate indirect band gap resulting from the hybridisation of p-orbitals of N, C, and O atoms, with band gap values of 2.3 eV (GGA) and 3.9 eV (HSE06). The optical properties, including the dielectric function, optical conductivity, and refractive index, are thoroughly analyzed to clarify the electronic transitions. The material exhibits considerable optical absorption in the visible and ultraviolet spectrum, with notable anisotropy between in-plane and out-of-plane polarizations. Furthermore, plasmon resonance occurs at around 3.8 eV, relating to the collective oscillations of charge carriers. The thermal properties indicate a heat capacity of around 382 J/mol.K at 300 K, which is close to and slightly above the standard Dulong-Petit limit for this structure, indicating near-complete excitation of lattice vibrational modes at room temperature. The lattice thermal conductivity is extremely low, reaching approximately 0.017 W/m.K at 300 K, primarily attributed to significant phonon scattering, evidenced by a scattering rate of roughly 3.2 1/ps in the phonon frequency ranges. The findings demonstrate that the C2N2O structure maintains structural stability while allowing for tunable electronic, optical, and thermal properties, making it a promising candidate for nanoscale optoelectronic and thermal control applications.",
-      "authors": [
-        "Hemn. G. H",
-        "Nzar. R. Abdullah",
-        "Vidar Gudmundsson"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2026,
-      "date": "2026-04-28",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2604.26149v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "cond-mat.mes-hall"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
-        ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是准二维材料C2N2O的电子、光学和热学性质，与增材制造力学性能无关。",
-        "why_not_core": "This paper does not involve additive manufacturing, mechanical testing, implant materials, or any biomedical context relevant to AM mechanical properties.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "DFT",
-          "2D materials",
-          "optoelectronics",
-          "thermal properties",
-          "electronic structure"
-        ],
-        "summary_zh": {
-          "motivation": "探索准二维C2N2O的结构稳定性及其电子、光学和热学性质",
-          "method": "采用密度泛函理论(DFT)和从头算分子动力学(AIMD)进行计算分析",
-          "result": "材料具有适中的间接带隙、显著的光吸收和极低的晶格热导率",
-          "validation": "基于理论计算，无实验验证"
-        },
-        "summary_en": {
-          "motivation": "To investigate the structural stability, electronic, optical, and thermal properties of the quasi-2D C2N2O material.",
-          "method": "First-principles density functional theory (DFT) and ab initio molecular dynamics (AIMD) simulations were employed.",
-          "result": "C2N2O exhibits semiconducting behavior with a moderate indirect band gap, strong visible-UV absorption, and extremely low lattice thermal conductivity of ~0.017 W/m·K at 300 K.",
-          "validation": "Validation is entirely computational with no experimental confirmation."
-        },
-        "key_terms": [
-          {
-            "en": "density functional theory",
-            "zh": "密度泛函理论"
-          },
-          {
-            "en": "band gap",
-            "zh": "带隙"
-          },
-          {
-            "en": "optical absorption",
-            "zh": "光吸收"
-          },
-          {
-            "en": "thermal conductivity",
-            "zh": "热导率"
-          },
-          {
-            "en": "phonon scattering",
-            "zh": "声子散射"
-          },
-          {
-            "en": "quasi-2D",
-            "zh": "准二维"
-          },
-          {
-            "en": "optoelectronic",
-            "zh": "光电子"
-          },
-          {
-            "en": "ab initio molecular dynamics",
-            "zh": "从头算分子动力学"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
-    },
-    {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2604.25576v1",
-      "doi": "",
-      "arxiv_id": "2604.25576v1",
-      "title": "Tuning magnitude and direction of lattice thermal conductivity in transition metal dichalcogenide heterobilayers",
-      "abstract": "We investigate the nanoscale mechanisms determining lattice thermal conductivity (LTC) of pristine and W-doped MX$_2$-M$^\\prime$X$^\\prime_2$ transition metal dichalcogenide heterobilayers from first principles, using the exact solution of the linearised Boltzmann transport equation in both phonon and relaxon bases. Pristine heterobilayers exhibit isotropic in-plane LTC with preserved ordering across temperature. Relaxon analysis identifies descriptors linking LTC to phonon properties such as the phonon group velocity and layer localisation. While systems with lighter atoms generally favour higher LTC, a sufficiently large mass contrast is required to induce layer localisation of the transport-relevant vibrational modes. Further, we show through the thermal viscosity that the relative distribution of vibrational states between metal/non-metal sublattices influences the balance between Normal and Umklapp scattering processes. On the other hand, doped systems exhibit reduced and anisotropic in-plane LTC, retain a well-defined layer character, but are strongly affected by enhanced phonon-phonon scattering due to mass disorder. Notably, we find that both configuration and temperature dictate the direction of maximum thermal transport, which opens the possibility to tune the direction of maximum (and minimum) conductivity via doping in novel 2D functional materials. Thanks to its general formulation, the analysis protocol can be readily extended to other van der Waals heterostructures, and the descriptors may be implemented in high-throughput engines to identify promising layered materials with tailored thermal transport characteristics.",
-      "authors": [
-        "Elliot Perviz",
-        "Antonio Cammarata"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2026,
-      "date": "2026-04-28",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2604.25576v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
-        ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究二维材料热导率，与增材制造机械性能或生物医学植入物无关。",
-        "why_not_core": "This paper does not address additive manufacturing, mechanical properties of implants, or any biomedical application.",
-        "validation_kind": "theoretical",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "thermal conductivity",
-          "2D materials",
-          "first-principles",
-          "Boltzmann transport equation",
-          "doping"
-        ],
-        "summary_zh": {
-          "motivation": "研究二维材料异质双层中的晶格热导率调控机制。",
-          "method": "采用第一性原理和线性化玻尔兹曼输运方程精确求解。",
-          "result": "发现掺杂可调控热导率的各向异性和方向性。",
-          "validation": "基于理论计算的数值验证。"
-        },
-        "summary_en": {
-          "motivation": "To understand nanoscale mechanisms governing lattice thermal conductivity in transition metal dichalcogenide heterobilayers.",
-          "method": "First-principles calculations with exact solution of linearized Boltzmann transport equation in phonon and relaxon bases.",
-          "result": "Doping reduces and anisotropizes thermal conductivity, enabling directional tuning of thermal transport.",
-          "validation": "First-principles theoretical validation."
-        },
-        "key_terms": [
-          {
-            "en": "lattice thermal conductivity",
-            "zh": "晶格热导率"
-          },
-          {
-            "en": "heterobilayer",
-            "zh": "异质双层"
-          },
-          {
-            "en": "transition metal dichalcogenide",
-            "zh": "过渡金属二硫族化物"
-          },
-          {
-            "en": "Boltzmann transport equation",
-            "zh": "玻尔兹曼输运方程"
-          },
-          {
-            "en": "relaxon",
-            "zh": "松弛子"
-          },
-          {
-            "en": "anisotropic",
-            "zh": "各向异性"
-          },
-          {
-            "en": "doping",
-            "zh": "掺杂"
-          },
-          {
-            "en": "first-principles",
-            "zh": "第一性原理"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
-    },
-    {
       "source": "openalex",
-      "id": "https://openalex.org/W7157786871",
-      "doi": "10.1002/srin.202500730",
-      "title": "Microstructure, Defects, and Fatigue Response of High‐Strength Tool Steels",
-      "abstract": "The martensitic tool steel family is designed for use in various working environments where they are subjected to repeatedly high mechanical loads. Despite the continuous upgrade of material´s microstructures through compositional development or processing techniques, defects remain a critical factor for the tool performance by leading to fatigue failure. The present study includes the investigation of six advanced high‐strength tool steels. The materials include: (i) four cold‐work tool steels (high‐alloyed materials manufactured via powder metallurgy and further processed by hot isostatic pressing and forging) and (ii) two hot‐work tool steels (one conventionally produced by ingot casting and forging and one produced by additive manufacturing). Fatigue tests were carried out at stress ratios of R = −1 and R = 0.1 using a servohydraulic machine in load control at 30 Hz frequency and/or an ultrasound machine in displacement control at 20 kHz frequency. Steel grades are compared based on their martensitic structures, fatigue initiation defect distributions, and fatigue strengths assessed using experimental results and a modified Murakami model. Within the cold‐work group, the grade exhibiting a fine martensitic lath size distribution (0.71 μm) and the smallest defect size distribution (11 μm) demonstrated the highest fatigue performance (610 MPa). For the hot‐work group, the two grades were of comparable fatigue strengths and defect size distribution (375 MPa and 42 μm for the conventional grade and 320 MPa and 37 μm for the additively manufactured grade), besides the finer martensite of the additively manufactured grade. The findings demonstrate that no single microstructural parameter is sufficient to ensure the highest fatigue resistance. Instead, overall performance is dictated by the combined balance of multiple interacting characteristics.",
+      "id": "https://openalex.org/W7158052132",
+      "doi": "10.4028/p-sg4g2j",
+      "title": "The Machinability of Ti-6Al-4V Fabricated by Laser Powder Bed Fusion with Different Build Orientations in Thermal Assisted Machining",
+      "abstract": "Additively manufactured titanium alloys such as Ti-6Al-4V have been used as functional components in industry due to their excellent mechanical properties. However, the machining of these alloys is a challenge due to their enhanced tensile/yield strength, low elastic modulus, poor thermal conductivity, and microstructural anisotropy. Thermal assisted machining (TAM), as a hybrid manufacturing technology, can improve the machinability of additively manufactured alloys. The main aim of this paper is to investigate the effect of temperature buildup on the machinability of additively manufactured Ti alloy with different build directions in the TAM process. It was found that the surface integrity was notably enhanced by preheating, and it was the best at 90° build orientation. Serrated chips were generated at room temperature, and curlier chips were formed in high-preheating machining environment. By analyzing the surface quality, the influence of the build-up orientation on the surface quality at different temperatures was evaluated.",
       "authors": [
-        "Katerina Chantziara",
-        "Jens Bergström",
-        "Dimitrios Nikas",
-        "Mikael Thomas Grehk"
+        "Chen Zhang",
+        "Guang Xian Li",
+        "Wen Cheng Pan",
+        "John Mo",
+        "Song Lin Ding"
       ],
-      "first_author_affiliation": "Department of Mechanical and Materials Engineering Karlstad University  Karlstad Sweden",
+      "first_author_affiliation": "RMIT University",
       "corresponding_authors": [
         {
-          "name": "Katerina Chantziara",
-          "affiliation": "Department of Mechanical and Materials Engineering Karlstad University  Karlstad Sweden"
+          "name": "Chen Zhang",
+          "affiliation": "RMIT University"
         }
       ],
-      "venue": "steel research international",
+      "venue": "Key engineering materials",
       "year": 2026,
       "date": "2026-04-28",
       "date_precision": "day",
-      "url": "https://doi.org/10.1002/srin.202500730",
+      "url": "https://doi.org/10.4028/p-sg4g2j",
       "cited_by_count": 0,
       "concepts": [
+        "Machinability",
         "Materials science",
-        "Martensite",
-        "Ingot",
+        "Machining",
+        "Surface integrity",
+        "Thermal",
+        "Titanium alloy",
+        "Fusion",
         "Metallurgy",
-        "Lath",
-        "Microstructure",
-        "Fatigue limit",
-        "Forging",
-        "Casting",
-        "Stress (linguistics)",
-        "Residual stress",
-        "Fatigue testing",
-        "Continuous casting",
-        "Indentation hardness",
-        "Powder metallurgy",
-        "Martensitic stainless steel",
-        "Hot isostatic pressing",
-        "Structural material"
+        "Alloy",
+        "Composite material",
+        "Titanium",
+        "Laser",
+        "Tool wear",
+        "Surface (topology)",
+        "Cutting tool"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "fatigue",
-      "direction_name": "AM Fatigue",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "fatigue": [
-          "fatigue performance"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "yield strength",
+          "build orientation"
         ],
-        "ti6al4v_postprocess_hip": [
-          "hot isostatic pressing"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining",
+          "surface integrity"
         ]
       },
       "llm": {
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文研究工具钢的疲劳性能，未涉及生物医学植入物或骨科相关材料，与用户研究方向关联度低。",
-        "why_not_core": "This paper studies fatigue of tool steels (including AM) but does not address biomedical alloys, implant design, osseointegration, or any biomedical context.",
+        "relevance_to_user": "这篇论文关注的是增材制造Ti-6Al-4V的热辅助加工可加工性，而非后处理对力学性能的影响，因此与层2方向相关性较低。",
+        "why_not_core": "The paper does not evaluate the effect of post-processing on mechanical properties (tensile/fatigue) or microstructure/porosity; it focuses on machinability (cutting forces, chip morphology, surface roughness) during thermal assisted machining.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -302,88 +82,200 @@
           "is_review": false
         },
         "tags": [
-          "fatigue",
-          "tool steel",
-          "additive manufacturing",
-          "martensitic structure",
-          "defects"
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "build orientation",
+          "thermal assisted machining",
+          "machinability",
+          "surface integrity"
         ],
         "summary_zh": {
-          "motivation": "探究高强工具钢中微观结构和缺陷对疲劳性能的影响。",
-          "method": "对6种工具钢进行疲劳测试，并运用改进的Murakami模型分析缺陷分布。",
-          "result": "细马氏体板条和最小缺陷尺寸分布带来最高疲劳强度（610 MPa）。",
-          "validation": "通过实验疲劳测试与模型预测对比验证。"
+          "motivation": "研究激光粉末床熔融Ti-6Al-4V在不同建造方向下的热辅助加工可加工性。",
+          "method": "通过热辅助加工实验，分析预加热温度对表面完整性、切屑形态的影响。",
+          "result": "预加热显著提高表面完整性，90°建造方向效果最佳；室温下产生锯齿状切屑，高温下形成卷曲切屑。",
+          "validation": "通过表面质量和切屑形貌的实验观察验证。"
         },
         "summary_en": {
-          "motivation": "Investigate the combined effect of microstructure and defects on fatigue performance of high-strength tool steels.",
-          "method": "Fatigue tests at R=-1 and 0.1 on six tool steels (including AM grade) with microstructure and defect analysis via modified Murakami model.",
-          "result": "The cold-work grade with finest martensitic lath size (0.71 μm) and smallest defect size (11 μm) achieved the highest fatigue strength (610 MPa).",
-          "validation": "Experimental fatigue data and model predictions are compared to validate findings."
+          "motivation": "To investigate the machinability of additively manufactured Ti-6Al-4V with different build orientations during thermal assisted machining. ",
+          "method": "Thermal assisted machining experiments were conducted, varying preheating temperature and build orientation, and the resulting surface integrity and chip morphology were analyzed. ",
+          "result": "Preheating notably enhanced surface integrity, with the best results at 90° build orientation; serrated chips formed at room temperature while curlier chips appeared under high preheating. ",
+          "validation": "The findings were validated through experimental observation of surface quality and chip morphology. "
         },
         "key_terms": [
           {
-            "en": "martensitic tool steel",
-            "zh": "马氏体工具钢"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "fatigue strength",
-            "zh": "疲劳强度"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "defect size distribution",
-            "zh": "缺陷尺寸分布"
+            "en": "build orientation",
+            "zh": "建造方向"
           },
           {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
+            "en": "thermal assisted machining",
+            "zh": "热辅助加工"
           },
           {
-            "en": "Murakami model",
-            "zh": "村上模型"
+            "en": "machinability",
+            "zh": "可加工性"
           },
           {
-            "en": "stress ratio",
-            "zh": "应力比"
+            "en": "surface integrity",
+            "zh": "表面完整性"
           },
           {
-            "en": "powder metallurgy",
-            "zh": "粉末冶金"
-          },
-          {
-            "en": "hot isostatic pressing",
-            "zh": "热等静压"
-          },
-          {
-            "en": "martensitic lath",
-            "zh": "马氏体板条"
+            "en": "chip morphology",
+            "zh": "切屑形貌"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
+      "first_seen_at": "2026-06-07T23:29:54Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7158046676",
+      "doi": "10.3390/pr14091408",
+      "title": "Electric Field-Assisted Chemical Pretreatment for Enhancing Liquid Metal-Driven Abrasive Slurry Polishing of Ti-6Al-4V Internal Flow Channels",
+      "abstract": "Ti-6Al-4V internal flow channels are difficult to finish because direct liquid metal-driven abrasive slurry polishing is constrained by both the limited driving capability of the liquid metal and the continuous formation of a dense surface reaction layer in alkaline electrolytes. In this study, the direct polishing behavior of Ti-6Al-4V flow channels was first investigated, and a distinct polishing capability boundary was identified through the evolution of surface morphology and areal roughness Sa. Although Sa decreased with polishing time, the reduction rate gradually diminished and eventually approached a plateau, indicating pronounced attenuation in effective material removal. Mechanistic analysis revealed that this limitation was governed by the dynamic formation and disruption of the oxide/reaction layer, which progressively shields the metallic substrate from direct abrasive action. To address this issue, an electric-field-assisted chemical pretreatment was introduced prior to the liquid metal-driven abrasive polishing stage, forming a two-step route (AB + P). Comparative experiments among direct polishing (P), chemical pretreatment followed by polishing (B + P), and electric-field-assisted chemical pretreatment followed by polishing (AB + P) showed that AB + P produced more homogeneous surface morphologies, lower Sa, and a significantly weaker plateauing tendency than direct polishing. In addition, the attainable limiting surface quality was shifted to a lower level, indicating an extension of the polishing capability boundary. The influence of pretreatment electrification time further revealed the existence of an effective time window, beyond which the polishing improvement gradually saturated. These results demonstrate that electric-field-assisted chemical pretreatment is an effective strategy for mitigating polishing attenuation and enhancing the finishing capability of liquid metal-driven abrasive slurry polishing for Ti-6Al-4V internal flow channels.",
+      "authors": [
+        "Yapeng Ma",
+        "Baoqi Feng",
+        "Kaixiang Li",
+        "Lei Zhang"
+      ],
+      "first_author_affiliation": "College of Mechanical and Electrical Engineering, Soochow University, Suzhou 215021, China",
+      "corresponding_authors": [
+        {
+          "name": "Lei Zhang",
+          "affiliation": "College of Mechanical and Electrical Engineering, Soochow University, Suzhou 215021, China"
+        }
+      ],
+      "venue": "Processes",
+      "year": 2026,
+      "date": "2026-04-28",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/pr14091408",
+      "cited_by_count": 0,
+      "concepts": [
+        "Polishing",
+        "Chemical-mechanical planarization",
+        "Abrasive",
+        "Materials science",
+        "Slurry",
+        "Surface roughness",
+        "Surface finish",
+        "Composite material",
+        "Metallurgy",
+        "Dissolution",
+        "Metal",
+        "Layer (electronics)",
+        "Liquid metal",
+        "Surface finishing",
+        "Flow (mathematics)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "polishing"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "本文研究了Ti-6Al-4V内流道的抛光后处理，但未涉及增材制造或疲劳力学性能，仅作为表面处理背景参考。",
+        "why_not_core": "Does not address mechanical performance (fatigue/tensile) and does not specify additive-manufactured Ti-6Al-4V.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "polishing",
+          "Ti-6Al-4V",
+          "surface finishing",
+          "electric field pretreatment",
+          "liquid metal polishing"
+        ],
+        "summary_zh": {
+          "motivation": "克服液态金属驱动磨料抛光Ti-6Al-4V内流道时抛光能力受限的问题",
+          "method": "采用电场辅助化学预处理结合液态金属驱动磨料抛光的两步法",
+          "result": "两步法获得更均匀的表面形貌和更低的粗糙度，有效延缓抛光衰减",
+          "validation": "通过对比直接抛光、化学预处理+抛光及电场辅助预处理+抛光实验验证"
+        },
+        "summary_en": {
+          "motivation": "To overcome the polishing limitation of liquid metal-driven abrasive slurry for Ti-6Al-4V internal channels due to reaction layer formation.",
+          "method": "An electric-field-assisted chemical pretreatment followed by liquid metal-driven abrasive polishing (AB + P).",
+          "result": "The AB + P route produced more homogeneous surfaces, lower Sa values, and significantly reduced plateauing compared to direct polishing.",
+          "validation": "Comparative experiments among P, B + P, and AB + P with varying pretreatment electrification times."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "internal flow channels",
+            "zh": "内部流道"
+          },
+          {
+            "en": "polishing",
+            "zh": "抛光"
+          },
+          {
+            "en": "electric field-assisted chemical pretreatment",
+            "zh": "电场辅助化学预处理"
+          },
+          {
+            "en": "liquid metal-driven abrasive slurry",
+            "zh": "液态金属驱动磨料浆料"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "polishing attenuation",
+            "zh": "抛光衰减"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:29:54Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 2,
     "by_source": {
-      "arxiv": 2,
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "mechanical_properties": 2,
-      "fatigue": 1
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "arxiv": 2,
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 3,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 2,
-      "Low": 1
+      "Low": 2
     }
   }
 }

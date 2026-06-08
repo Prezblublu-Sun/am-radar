@@ -4,145 +4,80 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2601.08346v1",
-      "doi": "",
-      "arxiv_id": "2601.08346v1",
-      "title": "Effect of Interatomic Potential Choice on Fracture Modes of Graphene with Parallel Cracks",
-      "abstract": "Defect engineering via parallel cracks has been proposed as a route to tailor the fracture response of graphene. However, atomistic fracture predictions can be strongly sensitive to the interatomic potential. Here, we quantify the effect of potential choice by revisiting H-passivated graphene containing two parallel cracks separated by a gap $W_{\\text{gap}}$ loaded in tension along the armchair (AC) and zigzag (ZZ) directions. Molecular dynamics simulations using the AIREBO potential under the same geometry and loading protocol previously studied with ReaxFF, are employed, so enabling a direct comparison. Stress-strain responses, Young's modulus, an effective mode-I stress intensity factor, and energy absorption are evaluated as functions of $W_{\\text{gap}}$. Compared with ReaxFF, AIREBO predicts lower peak stresses and earlier catastrophic softening, leading to reduced post-peak deformation capacity and energy absorption. Ductility and energy absorption are shown to be highly potential-dependent, underscoring the need for careful potential selection in defect-engineered graphene fracture simulations.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7123519944",
+      "doi": "10.1016/j.matdes.2026.115485",
+      "title": "Achieving superior tensile and fatigue properties than conventional wrought state via hybrid additive-forging manufacturing",
+      "abstract": "Additively manufactured materials typically contain undesired defects and microstructures. These defects reduce material performance and limit the adoption of the technique in production environments. In this work, we report a hybrid manufacturing strategy that integrates additive manufacturing with hot forging to achieve exceptional mechanical properties in Ti-6Al-4V. The resulting material exhibits improved tensile and fatigue properties compared to its purely additively manufactured and conventionally wrought counterparts. The control of thermal history and plastic flow is capable of healing defects and tailoring microstructure. A series of combined forging and heat treatment processes were undertaken to reveal correlations between fabrication parameters and the resulting microstructures and mechanical response. The underlying mechanisms of microstructure evolution were investigated through systematic and integrated experimental characterization, finite element modelling and mechanical tests. A generic component, representative of an aero-engine blade, was fabricated using this technology, demonstrating the huge promise of adopting this technique in practical applications.",
       "authors": [
-        "Suyeong Jin",
-        "Jung-Wuk Hong",
-        "Alexandre F. Fonseca"
+        "Wei Wang",
+        "Zinong Tan",
+        "Yaping Wang",
+        "Ruiqiang Zhang",
+        "Jianglin Huang",
+        "Jintana Patawee",
+        "Michael Allen",
+        "Katie Meredith",
+        "Jianguo Lin",
+        "Christopher Hopper",
+        "Jun Jiang"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Wei Wang",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Materials & Design",
       "year": 2026,
       "date": "2026-01-13",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2601.08346v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "cond-mat.mes-hall"
+      "url": "https://doi.org/10.1016/j.matdes.2026.115485",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Forging",
+        "Microstructure",
+        "Ultimate tensile strength",
+        "Fabrication",
+        "Finite element method",
+        "Thermal",
+        "Composite material",
+        "Material flow",
+        "Material properties",
+        "Fatigue limit",
+        "Limit (mathematics)",
+        "Mechanical engineering",
+        "Plasticity",
+        "Metallurgy"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "ductility"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究石墨烯的原子尺度断裂，与用户研究方向（AI驱动的生物打印、髋关节植入物力学、有限元代理模型、增材制造生物医学植入物）无直接或间接关联。",
-        "why_not_core": "This paper studies atomistic fracture of graphene using MD, with no biomedical implant mechanics, no AM, no FEA surrogate, no bioprinting, and no experimental validation.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "molecular dynamics",
-          "graphene fracture",
-          "interatomic potential",
-          "atomistic simulation"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
         ],
-        "summary_zh": {
-          "motivation": "研究石墨烯平行裂纹的断裂行为对势函数的敏感性。",
-          "method": "使用AIREBO和ReaxFF势函数进行分子动力学模拟对比。",
-          "result": "AIREBO预测更低的峰值应力和更弱的能量吸收，表明断裂行为高度依赖势函数选择。",
-          "validation": "仅对两种势函数结果进行对比，无实验验证。"
-        },
-        "summary_en": {
-          "motivation": "To quantify how interatomic potential choice affects fracture modes in graphene with parallel cracks.",
-          "method": "Molecular dynamics simulations using AIREBO and ReaxFF potentials under identical geometry and loading conditions.",
-          "result": "AIREBO predicts lower peak stress and reduced energy absorption compared to ReaxFF, indicating strong potential dependence.",
-          "validation": "Only computational comparison between two potentials, no experimental validation."
-        },
-        "key_terms": [
-          {
-            "en": "interatomic potential",
-            "zh": "原子间势函数"
-          },
-          {
-            "en": "graphene",
-            "zh": "石墨烯"
-          },
-          {
-            "en": "fracture",
-            "zh": "断裂"
-          },
-          {
-            "en": "molecular dynamics",
-            "zh": "分子动力学"
-          },
-          {
-            "en": "parallel cracks",
-            "zh": "平行裂纹"
-          },
-          {
-            "en": "AIREBO",
-            "zh": "AIREBO"
-          },
-          {
-            "en": "ReaxFF",
-            "zh": "ReaxFF"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:18:22Z"
-    },
-    {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2601.08202v1",
-      "doi": "",
-      "arxiv_id": "2601.08202v1",
-      "title": "Pressure-Induced Martensitic Phase Transformation and Microstructure Evolution in nanograined $\\text{Fe}\\text{-}7\\%\\text{Mn}$ Alloy",
-      "abstract": "The Fe-Mn-based alloys are receiving immense attention due to their applications in the third generation of advanced high-strength steels, owing to their high strength and ductility. A detailed in situ high-pressure structural phase transformation and microstructural evolution in nanograined $\\text{Fe}\\text{-}7\\%\\text{Mn}$ alloy has been performed using the axial synchrotron X-ray diffraction technique. The ambient BCC phase of $\\text{Fe}\\text{-}7\\%\\text{Mn}$ undergoes pressure-driven structural PT to the HCP phase at 11.4 GPa. Both BCC and HCP phases coexist up to 15.9 GPa; thereafter, they transform into a pure HCP phase, which remains stable up to the maximum pressure of 30.3 GPa. The XRD study reveals that the $(110)_{\\mathrm{b}}$ dense crystallographic plane of the BCC lattice transforms into a densely packed $(002)_{\\mathrm{h}}$ peak of the HCP lattice following the orientational relationship $(110)_{\\mathrm{b}} \\parallel (0001)_{\\mathrm{h}}$ via diffusionless $ \\mathrm{Burger's} $ martensitic crystallographic PT pathway. The evolution of crystallite size and microstrain with pressure shows a distinct change during the structural PT. The microstrain exhibits a sharp anomaly at around 10 GPa, suggesting that the microstructural changes precede the structural PT.",
-      "authors": [
-        "Mrinmay Sahu",
-        "Sorb Yesudhas",
-        "Valery I. Levitas",
-        "Dean Smith"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2026,
-      "date": "2026-01-13",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2601.08202v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "ductility"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究Fe-Mn合金在高压下的相变行为，与增材制造力学性能无关。",
-        "why_not_core": "No additive manufacturing context, no mechanical property characterization for AM, and no build process or post-processing effects are considered.",
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究热锻后处理对Ti-6Al-4V的微观结构、拉伸及疲劳性能的影响，完全符合L2方向。",
+        "why_not_core": "This paper focuses on hybrid additive-forging manufacturing rather than a standalone post-processing route, but the hot forging step is a key post-processing treatment that directly addresses the layer's focus.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -151,341 +86,356 @@
           "is_review": false
         },
         "tags": [
-          "phase transformation",
-          "Fe-Mn alloy",
-          "high pressure",
-          "martensitic",
-          "XRD",
-          "BCC",
-          "HCP"
+          "Ti-6Al-4V",
+          "hybrid additive-forging",
+          "hot forging",
+          "post-processing",
+          "fatigue",
+          "tensile properties",
+          "microstructure"
         ],
         "summary_zh": {
-          "motivation": "研究纳米晶Fe-Mn合金在高压下的相变机制。",
-          "method": "利用原位同步辐射X射线衍射分析高压下结构演变。",
-          "result": "在11.4 GPa时发生BCC到HCP相变，并遵循Burger取向关系。",
-          "validation": "通过高压XRD实验验证相变路径和微观结构变化。"
+          "motivation": "增材制造Ti-6Al-4V存在缺陷和不良组织，需提升性能。",
+          "method": "采用增材制造结合热锻后处理，并辅以热处理，研究工艺-组织-性能关系。",
+          "result": "混合制造后的Ti-6Al-4V获得优于纯增材制造和传统锻件的拉伸与疲劳性能。",
+          "validation": "通过实验表征、有限元模拟和力学测试验证了性能提升机制。"
         },
         "summary_en": {
-          "motivation": "To investigate the pressure-induced martensitic phase transformation and microstructural evolution in nanograined Fe-7%Mn alloy.",
-          "method": "In situ high-pressure synchrotron X-ray diffraction was performed to track structural and microstructural changes up to 30.3 GPa.",
-          "result": "A BCC-to-HCP phase transformation via the Burger's martensitic pathway was observed at 11.4 GPa, with the two phases coexisting until 15.9 GPa.",
-          "validation": "Experimental XRD data confirmed the phase transformation sequence and the orientational relationship between the BCC and HCP phases."
+          "motivation": "Additively manufactured Ti-6Al-4V suffers from defects and undesirable microstructures that limit its adoption, necessitating a post-processing strategy to enhance mechanical properties.",
+          "method": "A hybrid additive-forging manufacturing strategy combining laser powder bed fusion with hot forging and subsequent heat treatments was employed, and the correlations between processing parameters, microstructure, and mechanical response were systematically investigated.",
+          "result": "The hybrid processed Ti-6Al-4V exhibited superior tensile and fatigue properties compared to both as-built additively manufactured and conventionally wrought counterparts, attributed to defect healing and tailored microstructure.",
+          "validation": "Experimental characterization, finite element modeling, and mechanical tests including tensile and fatigue experiments were conducted to validate the underlying mechanisms and performance improvements."
         },
         "key_terms": [
           {
-            "en": "phase transformation",
-            "zh": "相变"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "martensitic",
-            "zh": "马氏体"
+            "en": "hot forging",
+            "zh": "热锻"
           },
           {
-            "en": "Fe-Mn alloy",
-            "zh": "铁锰合金"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
-            "en": "high pressure",
-            "zh": "高压"
+            "en": "post-processing",
+            "zh": "后处理"
           },
           {
-            "en": "synchrotron XRD",
-            "zh": "同步辐射X射线衍射"
+            "en": "fatigue properties",
+            "zh": "疲劳性能"
           },
           {
-            "en": "BCC",
-            "zh": "体心立方"
+            "en": "tensile properties",
+            "zh": "拉伸性能"
           },
           {
-            "en": "HCP",
-            "zh": "密排六方"
+            "en": "microstructure",
+            "zh": "微观结构"
           },
           {
-            "en": "crystallite size",
-            "zh": "晶粒尺寸"
-          },
-          {
-            "en": "microstrain",
-            "zh": "微观应变"
+            "en": "finite element modeling",
+            "zh": "有限元模拟"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:18:22Z"
+      "first_seen_at": "2026-06-07T23:23:51Z"
     },
     {
       "source": "openalex",
-      "id": "https://openalex.org/W7123369711",
-      "doi": "10.1016/j.jjoisr.2025.12.004",
-      "title": "Proximal femoral periprosthetic fractures: A review of current concepts",
-      "abstract": "Periprosthetic femoral fractures (PFFs) are a serious complication of total hip arthroplasty (THA) and are expected to become more frequent as older patients live longer with osteoporotic bone and well-fixed implants. This review summarizes recent evidence to support rational prevention and management. A narrative review of contemporary clinical, registry, and biomechanical studies on proximal femoral PFFs was performed, focusing on epidemiology and risk factors, femoral stem design and biomechanics, classification, treatment of Vancouver B fractures, and peri-operative optimization. Registry and cohort studies show that PFFs occur mainly in frail older patients, with 1 year mortality similar to that after fragility hip fracture. Early post-operative fracture risk is consistently higher after uncemented than cemented THA, while composite beam cemented stems and collared cementless stems appear to reduce risk compared with polished taper slip and collarless designs. Short stems and hip resurfacing have theoretical advantages for proximal load transfer but have not shown consistent protection against PFF. Conventional Vancouver and Unified Classification System schemes are less reliable around polished taper slip stems; interface based concepts that focus on cement–bone integrity may better guide management. For selected Vancouver B2 and B3 fractures, especially in physiologically high-risk patients, open reduction and internal fixation can achieve outcomes comparable with revision when the cement–bone interface is intact. Early surgery in orthogeriatric pathways appears important. A design-specific, physiology-led approach combining implant selection, interface-based classification, selective fixation, and peri-operative optimization is central to improving outcomes in PFF. • Design-specific stem risks summarized, beyond cemented versus uncemented. • Interface-based classification proposed for polished taper slip fractures. • Evidence supports ORIF as alternative to revision in selected B2/B3 periprosthetic femoral fractures. • Peri-operative optimization and hip fracture style pathways emphasized. • Short stems and resurfacing critically appraised for fracture risk.",
+      "id": "https://openalex.org/W7123344285",
+      "doi": "10.4028/p-acgd7h",
+      "title": "Design and Mechanical Evaluation of Ti-6Al-4V Reticular Structures for Biomedical Implants",
+      "abstract": "This study explores the additive manufacturing of porous Ti-6Al-4V reticular structures using Powder Bed Fusion Laser Beam, with a focus on their morphological and mechanical properties for biomedical implant applications. Three triply periodic minimal surface (TPMS) designs—diamond, primitive, and split-P—were fabricated with both constant and radial density gradients, and subjected to electropolishing and chemical etching to enhance surface quality. The results showed that split-P structures exhibited the highest yield strength (274.93–288.95 MPa) and a moderate Young’s modulus (7.16–7.76 GPa), making them strong candidates for load-bearing implants due to their mechanical behavior closely resembling that of trabecular bone. Diamond structures had the highest stiffness (6.95–8.65 GPa) but showed brittle behavior, while primitive structures presented the lowest modulus and strength, offering ductility suitable for flexible applications. The findings underscore the potential of optimized TPMS lattices to improve mechanical compatibility and reduce stress shielding in next-generation orthopedic implants.",
       "authors": [
-        "Dylan Green",
-        "Humza Osmani",
-        "James Li",
-        "Vishal Senthilkumar",
-        "Andreas Fontalis",
-        "Fares S. Haddad"
+        "Maria Fernanda Nájera",
+        "Manuel Araya",
+        "Timo Rautio",
+        "Teodolito Guillén",
+        "Antti Jarvenpää"
       ],
-      "first_author_affiliation": "University College Hospital London NHS Foundation Trust, 250 Euston Road, London NW1 2PB, UK",
+      "first_author_affiliation": "Tecnológico de Costa Rica",
       "corresponding_authors": [
         {
-          "name": "Dylan Green",
-          "affiliation": "University College Hospital London NHS Foundation Trust, 250 Euston Road, London NW1 2PB, UK"
+          "name": "Maria Fernanda Nájera",
+          "affiliation": "Tecnológico de Costa Rica"
         }
       ],
-      "venue": "Journal of Joint Surgery and Research",
+      "venue": "Key engineering materials",
       "year": 2026,
       "date": "2026-01-13",
       "date_precision": "day",
-      "url": "https://doi.org/10.1016/j.jjoisr.2025.12.004",
-      "cited_by_count": 0,
+      "url": "https://doi.org/10.4028/p-acgd7h",
+      "cited_by_count": 1,
       "concepts": [
-        "Periprosthetic",
-        "Medicine",
-        "Surgery",
-        "Implant",
-        "Arthroplasty",
-        "Internal fixation",
-        "Narrative review",
-        "Femoral fracture",
-        "Total hip arthroplasty",
-        "Dentistry",
-        "Reduction (mathematics)",
-        "Fixation (population genetics)",
-        "Osteoarthritis",
-        "Hip arthroplasty",
-        "Orthodontics",
-        "Cohort",
-        "Complication",
-        "Osteoporosis"
+        "Materials science",
+        "Composite material",
+        "Stiffness",
+        "Brittleness",
+        "Modulus",
+        "Stress shielding",
+        "Ductility (Earth science)",
+        "Porosity",
+        "Young's modulus",
+        "Reticular connective tissue",
+        "Elastic modulus",
+        "Composite number",
+        "Biomedical engineering",
+        "Specific modulus",
+        "Diamond",
+        "Yield (engineering)",
+        "Compressive strength"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "am_femoral_stem"
+        "ti6al4v_femoral_stem",
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TPMS",
+          "triply periodic minimal surface",
+          "stress shielding"
+        ],
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "yield strength",
+          "ductility"
         ]
       },
       "llm": {
         "priority": "Medium",
-        "relevance_level": "Direct",
-        "read_action": "Background only",
-        "relevance_to_user": "该综述直接讨论了股骨柄设计（包括骨水泥与非骨水泥）以及生物力学因素对假体周围骨折风险的影响，与您的研究方向（股骨柄设计与生物力学）直接相关。",
-        "why_not_core": "This paper is a narrative review combining clinical, registry, and biomechanical studies without presenting any original biomechanical modeling, implant design optimization, or AM fabrication; it lacks experimental or computational validation of stem performance.",
-        "validation_kind": "none",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V多孔点阵结构的力学性能，与股骨柄的应力屏蔽和设计相关，但未直接涉及股骨柄几何结构。",
+        "why_not_core": "This paper does not design or test a femoral/hip stem geometry; it focuses on generic lattice unit cells for implant applications.",
+        "validation_kind": "mechanical_testing",
         "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": true
-        },
-        "tags": [
-          "periprosthetic femoral fracture",
-          "total hip arthroplasty",
-          "femoral stem design",
-          "cemented vs uncemented",
-          "Vancouver classification",
-          "review"
-        ],
-        "summary_zh": {
-          "motivation": "总结近端股骨假体周围骨折的现有证据，以支持合理的预防和治疗。",
-          "method": "对临床、注册研究和生物力学研究进行叙述性综述。",
-          "result": "强调设计特异性、界面导向的分类和围手术期优化对改善骨折预后的重要性。",
-          "validation": "未进行独立验证，基于文献综述。"
-        },
-        "summary_en": {
-          "motivation": "To consolidate current clinical, registry, and biomechanical evidence on proximal femoral periprosthetic fractures to guide prevention and management.",
-          "method": "A narrative review of contemporary studies focusing on epidemiology, stem design biomechanics, classification, and treatment.",
-          "result": "Design-specific stem risks, an interface-based classification for polished taper slip fractures, and selective ORIF as an alternative to revision are highlighted.",
-          "validation": "No original validation; evidence synthesis from existing literature."
-        },
-        "key_terms": [
-          {
-            "en": "periprosthetic femoral fracture",
-            "zh": "假体周围股骨骨折"
-          },
-          {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换术"
-          },
-          {
-            "en": "femoral stem design",
-            "zh": "股骨柄设计"
-          },
-          {
-            "en": "cemented stem",
-            "zh": "骨水泥柄"
-          },
-          {
-            "en": "uncemented stem",
-            "zh": "非骨水泥柄"
-          },
-          {
-            "en": "Vancouver classification",
-            "zh": "温哥华分型"
-          },
-          {
-            "en": "polished taper slip stem",
-            "zh": "抛光锥形滑动柄"
-          },
-          {
-            "en": "collar",
-            "zh": "领"
-          },
-          {
-            "en": "stress shielding",
-            "zh": "应力遮挡"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:18:22Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:41530846",
-      "doi": "10.1186/s13018-025-06607-0",
-      "pmid": "41530846",
-      "title": "Early loosening of the femoral stem in cemented segmental prostheses with distal femur replacement (DFR): a multicenter observational study.",
-      "abstract": "BACKGROUND: With the increasing prevalence of knee arthroplasty (TKA), the utilization of segmental prostheses with distal femur replacement (DFR) has expanded, particularly in revision surgeries. Concerns regarding early loosening of cemented femoral stems in these prostheses persist. QUESTIONS/PURPOSES: This study aimed to analyze the rate of early femoral component loosening and associated factors in DFR prostheses. PATIENTS AND METHODS: A retrospective multicenter study was conducted, including patients who underwent DFR with cemented stems between 2015 and 2019. Epidemiological variables and outcomes, including femoral component loosening and prosthetic replacement, were analyzed. Statistical methods included survival analysis and subgroup comparisons. RESULTS: Seventy patients were included, with a femoral component loosening rate of 15.7% within two years. Women exhibited a lower risk of loosening (OR 0.258, 95% CI 0.068-0.098, p = 0.038). Survival analysis showed no significant age-related differences (p = 0.064), but better survival was observed in women (p = 0.045). Previous canal cementation did not significantly affect loosening rates (p = 0.82). Reoperation rates were 24.3%, primarily for mechanical causes. CONCLUSIONS: Early loosening of cemented femoral stems in DFR prostheses is notable, emphasizing the need for enhanced fixation strategies, especially in patients with a history of femoral canal cementation. This study provides valuable insights into optimizing stem fixation systems and addressing concerns related to prosthetic survival.",
-      "authors": [
-        "Clara Chimeno-Pigrau",
-        "Marta Sabater-Martos",
-        "Lluís Font-Vizcarra",
-        "María Surroca-Espelt",
-        "José Baeza-Oliete",
-        "Amparo Ortega-Yago",
-        "Juan-Carlos Martínez-Pastor"
-      ],
-      "first_author_affiliation": "Knee Unit, Department of Orthopaedic Surgery, Hospital Clínic de Barcelona, Barcelona, Spain. chimeno@clinic.cat.",
-      "corresponding_authors": [
-        {
-          "name": "Clara Chimeno-Pigrau",
-          "affiliation": "Knee Unit, Department of Orthopaedic Surgery, Hospital Clínic de Barcelona, Barcelona, Spain. chimeno@clinic.cat."
-        }
-      ],
-      "venue": "Journal of orthopaedic surgery and research",
-      "year": 2026,
-      "date": "2026-01-13",
-      "date_precision": "day",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41530846/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文涉及股骨柄假体松动，但没有进行生物力学建模或应力遮挡分析，与用户的研究方向关联较弱。",
-        "why_not_core": "This paper is a clinical observational study with no biomechanical modeling, FEA, implant design analysis, or stress shielding quantification.",
-        "validation_kind": "clinical",
-        "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "femoral stem loosening",
-          "cemented prosthesis",
-          "distal femur replacement",
-          "clinical outcomes",
-          "survival analysis"
+          "Ti-6Al-4V",
+          "TPMS",
+          "lattice structures",
+          "mechanical properties",
+          "stress shielding",
+          "additive manufacturing"
         ],
         "summary_zh": {
-          "motivation": "探讨远端股骨置换假体中骨水泥型股骨柄早期松动的发生率及影响因素。",
-          "method": "回顾性多中心研究，纳入70例患者，分析临床资料并进行生存分析。",
-          "result": "两年内股骨柄松动率为15.7%，女性风险较低，再手术率为24.3%。",
-          "validation": "基于多中心临床数据的回顾性统计分析。"
+          "motivation": "探索多孔Ti-6Al-4V网状结构用于生物医学植入物的机械性能。",
+          "method": "使用PBF-LB制造三种TPMS设计(金刚石、原始、split-P)，并进行电抛光和化学蚀刻。",
+          "result": "split-P结构具有最高屈服强度和适中杨氏模量，适合承重植入物。",
+          "validation": "通过单轴压缩测试评估机械性能。"
         },
         "summary_en": {
-          "motivation": "To investigate the incidence and risk factors of early loosening of cemented femoral stems in distal femur replacement prostheses.",
-          "method": "A retrospective multicenter study including 70 patients with cemented DFR prostheses, analyzing clinical variables and performing survival analysis.",
-          "result": "The early loosening rate was 15.7% within two years, with female gender associated with lower risk; reoperation rate was 24.3% mainly for mechanical causes.",
-          "validation": "Validation was based on retrospective clinical data from multiple centers with statistical analysis."
+          "motivation": "To investigate the mechanical properties of porous Ti-6Al-4V reticular structures for biomedical implants.",
+          "method": "Three TPMS designs (diamond, primitive, split-P) were fabricated via PBF-LB and post-processed with electropolishing and chemical etching.",
+          "result": "Split-P structures exhibited highest yield strength and moderate Young's modulus, promising for load-bearing implants.",
+          "validation": "Uniaxial compression testing was conducted to characterize mechanical behavior."
         },
         "key_terms": [
           {
-            "en": "femoral stem loosening",
-            "zh": "股骨柄松动"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "cemented prosthesis",
-            "zh": "骨水泥型假体"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
-            "en": "distal femur replacement",
-            "zh": "远端股骨置换"
+            "en": "triply periodic minimal surface",
+            "zh": "三周期极小曲面"
           },
           {
-            "en": "survival analysis",
-            "zh": "生存分析"
+            "en": "mechanical properties",
+            "zh": "力学性能"
           },
           {
-            "en": "multicenter study",
-            "zh": "多中心研究"
-          },
-          {
-            "en": "reoperation rate",
-            "zh": "再手术率"
-          },
-          {
-            "en": "risk factor",
-            "zh": "风险因素"
-          },
-          {
-            "en": "prosthetic survival",
-            "zh": "假体生存率"
+            "en": "stress shielding",
+            "zh": "应力屏蔽"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:18:22Z"
+      "first_seen_at": "2026-06-07T23:23:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7123417803",
+      "doi": "10.1115/1.4070856",
+      "title": "Electromagnetic Compound Field Enhances Surface Strengthening and Plasticity in Ultrasonic Nanocrystal Surface Modification of Ti64 Alloy",
+      "abstract": "Abstract Surface severe plastic deformation (SSPD) techniques have been widely used to enhance the surface integrity and mechanical performance of metallic materials via modifying surface microstructures and introducing compressive residual stress. In this study, we applied an electromagnetic (EM) compound field to assist a deformation-based surface strengthening technique known as ultrasonic nanocrystal surface modification (UNSM). EM-assisted UNSM outperforms its electric- or magnetic-assisted counterparts by producing a synergistic effect during processing, which leads to significant improvements in the surface hardness and the depth of the compressive residual stress layer in Ti64. X-ray diffraction (XRD) analysis and viscoplastic self-consistent (VPSC) modeling further revealed that the EM field promotes the activation of ⟨c+a⟩ dislocations, which facilitates strain accommodation and weakens crystallographic texture. These findings provide new insights into plasticity control of hard-to-deform metals, with promising implications for advanced forming and surface treatment technologies.",
+      "authors": [
+        "Yixuan Ye",
+        "Chao Tang",
+        "Yu Zhang",
+        "Han Ding",
+        "Jian Wang",
+        "Chang Ye"
+      ],
+      "first_author_affiliation": "Huazhong University of Science & Technology School of Mechanical Science & Engineering, , ,   ,",
+      "corresponding_authors": [
+        {
+          "name": "Yixuan Ye",
+          "affiliation": "Huazhong University of Science & Technology School of Mechanical Science & Engineering, , ,   ,"
+        }
+      ],
+      "venue": "Journal of Manufacturing Science and Engineering",
+      "year": 2026,
+      "date": "2026-01-13",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1115/1.4070856",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Residual stress",
+        "Surface modification",
+        "Nanocrystal",
+        "Alloy",
+        "Plasticity",
+        "Deformation (meteorology)",
+        "Composite material",
+        "Microstructure",
+        "Viscoplasticity",
+        "Surface integrity",
+        "Surface layer",
+        "Diffraction",
+        "Severe plastic deformation",
+        "Ultrasonic sensor",
+        "Surface (topology)",
+        "Indentation hardness",
+        "Metallurgy",
+        "Field (mathematics)",
+        "Layer (electronics)",
+        "Surface stress",
+        "Dislocation",
+        "Stress (linguistics)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess",
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti64",
+          "surface treatment",
+          "surface integrity"
+        ],
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti64",
+          "residual stress"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究Ti-6Al-4V合金的后处理工艺（电磁辅助超声纳米晶表面改性）对表面硬度、残余压应力及微观组织的影响，完全符合L2方向对后处理改性力学性能的评估要求。",
+        "why_not_core": "The paper does not directly measure fatigue life or tensile properties, but it evaluates hardness and residual stress which are key indicators of fatigue performance; hence it is core to the direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "ultrasonic nanocrystal surface modification",
+          "electromagnetic field",
+          "surface strengthening",
+          "compressive residual stress",
+          "plasticity",
+          "post-processing"
+        ],
+        "summary_zh": {
+          "motivation": "提升Ti64合金表面强度和塑性。",
+          "method": "采用电磁复合场辅助超声纳米晶表面改性（UNSM）。",
+          "result": "电磁场促进⟨c+a⟩位错激活，增强硬度及残余压应力层深度。",
+          "validation": "XRD分析和VPSC模型验证。"
+        },
+        "summary_en": {
+          "motivation": "To enhance surface strength and plasticity of Ti64 alloy via assisted post-processing.",
+          "method": "Applied electromagnetic compound field to assist ultrasonic nanocrystal surface modification (UNSM).",
+          "result": "The EM field promotes ⟨c+a⟩ dislocation activation, improving hardness and compressive residual stress depth.",
+          "validation": "XRD analysis and viscoplastic self-consistent (VPSC) modeling confirmed the mechanisms."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "ultrasonic nanocrystal surface modification",
+            "zh": "超声纳米晶表面改性"
+          },
+          {
+            "en": "electromagnetic field",
+            "zh": "电磁场"
+          },
+          {
+            "en": "surface severe plastic deformation",
+            "zh": "表面剧烈塑性变形"
+          },
+          {
+            "en": "compressive residual stress",
+            "zh": "残余压应力"
+          },
+          {
+            "en": "⟨c+a⟩ dislocations",
+            "zh": "⟨c+a⟩位错"
+          },
+          {
+            "en": "viscoplastic self-consistent model",
+            "zh": "粘塑性自洽模型"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:23:51Z"
     }
   ],
   "counts": {
-    "fetched_total": 4,
+    "fetched_total": 3,
     "by_source": {
-      "arxiv": 2,
-      "openalex": 1,
-      "pubmed": 1
+      "openalex": 3
     },
-    "after_dedup": 4,
-    "after_routing": 4,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "mechanical_properties": 2,
-      "am_femoral_stem": 2
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "arxiv": 2,
-      "openalex": 1,
-      "pubmed": 1
+      "openalex": 3
     },
-    "scored": 4,
+    "scored": 3,
     "priority_counts": {
-      "Exclude": 2,
-      "Medium": 1,
-      "Low": 1
+      "High": 2,
+      "Medium": 1
     }
   }
 }

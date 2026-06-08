@@ -1,0 +1,296 @@
+{
+  "schema_version": "v2",
+  "date": "2025-12-24",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7117130514",
+      "doi": "10.3390/mi17010019",
+      "title": "Experimental Investigation on Cutting Force and Hole Quality in Milling of Ti-6Al-4V",
+      "abstract": "High-quality hole machining of Ti-6Al-4V is critical for precision aerospace components but remains challenging due to the alloy's poor machinability. In this study, the influence of cutting parameters on milling force, burr formation and the hole quality of Ti-6Al-4V was investigated. The mechanical properties and microstructure of the milled holes were analyzed. The research results show that milling depth is the primary factor governing variations in milling force and burr formation. The minimum milling force of 3.61 N is achieved at a milling depth of 60 μm, a feed per tooth of 2 μm/z and a cutting speed of 31 m/min. Compared to pre-optimization parameters, the milling force is decreased by 91.74%. Correspondingly, entrance burr width and hole-axis deviation were substantially reduced, indicating marked improvement in hole quality and geometrical accuracy. Microstructural observations show no deleterious phase transformations or excessive work-hardening under the optimized regime. The results deliver quantitative guidelines for parameter selection and tool application in micro-hole milling of Ti-6Al-4V and provide a foundation for further process modelling and optimization for aerospace manufacturing.",
+      "authors": [
+        "Laifa Zhu",
+        "Kai Zhang",
+        "Bin Liu",
+        "Feng Jiang",
+        "Xian Wu",
+        "Lulu Zhai",
+        "F. Thomas S. Huang",
+        "Wenbiao You",
+        "Tongtong Xu",
+        "Zhang Shanqin",
+        "Rongcheng Guo",
+        "Yipeng Xue",
+        "Xiaoya Chen"
+      ],
+      "first_author_affiliation": "College of Mechanical Engineering and Automation, Huaqiao University, Xiamen 361021, China",
+      "corresponding_authors": [
+        {
+          "name": "Laifa Zhu",
+          "affiliation": "College of Mechanical Engineering and Automation, Huaqiao University, Xiamen 361021, China"
+        }
+      ],
+      "venue": "Micromachines",
+      "year": 2025,
+      "date": "2025-12-24",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/mi17010019",
+      "cited_by_count": 0,
+      "concepts": [
+        "Aerospace",
+        "Machining",
+        "Materials science",
+        "Microstructure",
+        "Mechanical engineering",
+        "Quality (philosophy)",
+        "Process (computing)",
+        "Phase (matter)",
+        "Metallurgy",
+        "Foundation (evidence)",
+        "Tool wear",
+        "Composite material",
+        "Selection (genetic algorithm)",
+        "Milling cutter",
+        "End milling",
+        "Cutting tool"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究机械加工而非增材制造的后处理，与Ti-6Al-4V后处理控制方向无关。",
+        "why_not_core": "This paper investigates milling of wrought Ti-6Al-4V, not additive-manufactured Ti-6Al-4V, and does not address any post-processing treatment (e.g., heat treatment, HIP, peening) as defined in the direction focus; no fatigue or mechanical performance evaluation relevant to post-processing.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "milling",
+          "Ti-6Al-4V",
+          "cutting force",
+          "burr formation",
+          "hole quality"
+        ],
+        "summary_zh": {
+          "motivation": "研究Ti-6Al-4V高精度孔加工中切削参数对铣削力和孔质量的影响。",
+          "method": "通过实验改变铣削深度、每齿进给和切削速度，测量铣削力、毛刺和孔轴线偏差。",
+          "result": "优化参数使铣削力降低91.74%，毛刺和孔偏差显著减小，微观结构无有害相变。",
+          "validation": "通过实验测量和微观观察验证切削参数优化效果。"
+        },
+        "summary_en": {
+          "motivation": "To address the challenge of high-quality hole machining in Ti-6Al-4V by investigating the influence of cutting parameters on milling force, burr formation, and hole quality.",
+          "method": "Experimental milling was conducted with varying depth of cut, feed per tooth, and cutting speed; milling force, burr width, and hole-axis deviation were measured, and microstructure was analyzed.",
+          "result": "Optimized parameters (depth 60 μm, feed 2 μm/z, speed 31 m/min) reduced milling force by 91.74% and significantly improved burr and geometric accuracy without deleterious phase transformations.",
+          "validation": "The results were validated through direct experimental measurements of force, burr dimensions, hole deviation, and microstructural observations."
+        },
+        "key_terms": [
+          {
+            "en": "milling",
+            "zh": "铣削"
+          },
+          {
+            "en": "cutting force",
+            "zh": "切削力"
+          },
+          {
+            "en": "burr formation",
+            "zh": "毛刺形成"
+          },
+          {
+            "en": "hole quality",
+            "zh": "孔质量"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "machinability",
+            "zh": "可加工性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:21:34Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7117124629",
+      "doi": "10.3390/ma19010070",
+      "title": "Vibration Behaviour of Topologically Optimised Sacrificial Geometries for Precision Machining of Thin-Walled Components",
+      "abstract": "Additive manufacturing (AM) enables the consolidation of components and the integration of new functionalities in metallic parts, but layered fabrication often results in poor surface quality and geometric deviations. Among various surface treatment techniques, machining is often favoured for its capability to enhance not only surface finish but also critical geometric tolerances such as flatness and circularity, in addition to dimensional accuracy. However, machining AM components, particularly thin-walled structures, poses challenges related to unconventional material properties, complex fixturing, and heightened susceptibility to chatter. This study investigates the vibrational behaviour of thin-walled Ti6Al4V components produced via laser powder bed fusion, using a jet-engine compressor blade demonstrator. Four stock envelope designs were evaluated: constant, tapered, and two topologically optimised variants. After fabrication by Laser Powder Bed Fusion, the blades underwent tap testing and subsequent machining to assess changes in modal characteristics. The results show that optimised geometries can enhance modal performance without increasing the volume of the stock material. However, these designs exhibit more pronounced in situ modal changes during machining, due to greater variability in material removal and chip load, which amplifies vibration sensitivity compared to constant or tapered stock designs.",
+      "authors": [
+        "Evren Yasa",
+        "Ozgur Poyraz",
+        "Finlay P. C. Parson",
+        "Anthony Molyneux",
+        "M. Baxter",
+        "James Hughes"
+      ],
+      "first_author_affiliation": "The University of Sheffield Advanced Manufacturing Research Centre North-West, Blackburn BB2 7HP, UK",
+      "corresponding_authors": [
+        {
+          "name": "Evren Yasa",
+          "affiliation": "The University of Sheffield Advanced Manufacturing Research Centre North-West, Blackburn BB2 7HP, UK"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-12-24",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma19010070",
+      "cited_by_count": 0,
+      "concepts": [
+        "Machining",
+        "Materials science",
+        "Vibration",
+        "Fabrication",
+        "Modal",
+        "Mechanical engineering",
+        "Flatness (cosmology)",
+        "Modal analysis",
+        "Material properties",
+        "Aerospace",
+        "Cutting tool",
+        "Clamping",
+        "Composite material",
+        "Surface finish",
+        "Envelope (radar)",
+        "Structural engineering",
+        "Laser"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "machining",
+          "surface treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti6Al4V增材制造件的机加工后处理，但重点是加工过程中的振动特性，而非加工后对疲劳或力学性能的影响。",
+        "why_not_core": "This paper does not evaluate the effect of post-processing (machining) on fatigue or mechanical properties; it focuses on vibrational behavior during machining, not post-machining mechanical performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "additive manufacturing",
+          "Ti6Al4V",
+          "laser powder bed fusion",
+          "machining",
+          "thin-walled structures",
+          "vibrational behaviour",
+          "stock envelope optimization"
+        ],
+        "summary_zh": {
+          "motivation": "研究薄壁Ti6Al4V增材制造件在机加工过程中的振动行为，优化余量几何设计。",
+          "method": "采用四种余量包络设计（恒定、锥形及两种拓扑优化），对激光粉末床熔融叶片进行敲击测试与机加工。",
+          "result": "优化几何在不增加余量体积下提升模态性能，但机加工时因材料去除变化导致振动敏感性增加。",
+          "validation": "通过敲击测试和实际机加工实验验证模态特性变化。"
+        },
+        "summary_en": {
+          "motivation": "This study aims to investigate the vibrational behavior of thin-walled Ti6Al4V components produced by laser powder bed fusion during machining, focusing on the effect of stock envelope design on modal characteristics.",
+          "method": "Four stock envelope designs (constant, tapered, and two topologically optimized variants) were evaluated on a jet-engine compressor blade demonstrator through tap testing and subsequent machining.",
+          "result": "Topologically optimized geometries improved modal performance without additional stock volume but exhibited greater sensitivity to vibration during machining due to material removal variability.",
+          "validation": "Validation was performed via experimental tap testing and machining trials to measure modal changes in situ."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          },
+          {
+            "en": "machining",
+            "zh": "机加工"
+          },
+          {
+            "en": "thin-walled components",
+            "zh": "薄壁构件"
+          },
+          {
+            "en": "vibrational behaviour",
+            "zh": "振动行为"
+          },
+          {
+            "en": "stock envelope",
+            "zh": "余量包络"
+          },
+          {
+            "en": "topological optimization",
+            "zh": "拓扑优化"
+          },
+          {
+            "en": "modal analysis",
+            "zh": "模态分析"
+          },
+          {
+            "en": "chip load",
+            "zh": "切屑载荷"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:21:34Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 2,
+    "by_source": {
+      "openalex": 2
+    },
+    "after_dedup": 2,
+    "after_routing": 2,
+    "by_direction": {
+      "ti6al4v_postprocess": 2
+    },
+    "routed_by_source": {
+      "openalex": 2
+    },
+    "scored": 2,
+    "priority_counts": {
+      "Exclude": 1,
+      "Low": 1
+    }
+  }
+}

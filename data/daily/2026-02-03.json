@@ -1,0 +1,426 @@
+{
+  "schema_version": "v2",
+  "date": "2026-02-03",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7127386117",
+      "doi": "10.1007/s40964-026-01545-7",
+      "title": "Influence of build orientation, heat treatment, and machining on the mechanical properties of PBF-LB/M Ti6Al4V",
+      "abstract": "Abstract This study investigates the mechanical behavior of Ti6Al4V components produced via laser-based powder bed fusion of metals (PBF-LB/M), with a focus on the effects of build orientation, heat treatment, and machining. Destructive testing methods—including tensile, Charpy impact, bending, and Poisson’s ratio measurements—were employed to evaluate mechanical properties under various conditions. Stress-relief heat treatment reduced residual stresses and resulted in a moderate decrease in strength. Compared to non-heat-treated specimens, the 0.2% offset yield strength decreased by approximately 20–100 MPa (≈ 2–9%), while ultimate tensile strength showed a similar reduction, remaining in the range of about 1100–1250 MPa. Machining had no significant influence on yield or tensile strength, with differences below 100 MPa, less than 8–9% of the measured strength values. Build orientation showed minimal effect on tensile properties, with all values are within an approximately 150 MPa range, which represents about 12–14% variation across orientations. Poisson’s ratio ranged from 0.29 to 0.33. Heat treatment and machining the V-notch also increased Charpy impact energy. Bending strength was slightly higher for XZ and XY orientations (≈ 2300–2600 MPa) than for Z-oriented specimens, while counter-deformation reduced bending strength by less than 5%. Additional post-processing techniques such as glass blasting and counter-deformation had limited impact. These findings highlight how strategic process optimization can improve the performance and efficiency of PBF-LB/M manufactured Ti6Al4V parts, making them suitable for demanding industrial applications.",
+      "authors": [
+        "József Hlinka",
+        "Krisztián Bán",
+        "Ferenc Varga"
+      ],
+      "first_author_affiliation": "Department of Automotive Technologies, Faculty of Transportation Engineering and Vehicle Engineering, Budapest University of Technology and Economics, Budapest, Hungary",
+      "corresponding_authors": [
+        {
+          "name": "Krisztián Bán",
+          "affiliation": "Department of Automotive Technologies, Faculty of Transportation Engineering and Vehicle Engineering, Budapest University of Technology and Economics, Budapest, Hungary"
+        }
+      ],
+      "venue": "Progress in Additive Manufacturing",
+      "year": 2026,
+      "date": "2026-02-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40964-026-01545-7",
+      "cited_by_count": 0,
+      "concepts": [
+        "Charpy impact test",
+        "Ultimate tensile strength",
+        "Materials science",
+        "Machining",
+        "Composite material",
+        "Titanium alloy",
+        "Residual stress",
+        "Bending",
+        "Metallurgy",
+        "Yield (engineering)",
+        "Izod impact strength test",
+        "Thermography",
+        "Fineness"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "tensile strength",
+          "yield strength",
+          "ultimate tensile strength",
+          "build orientation"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "heat treatment",
+          "stress relief",
+          "machining",
+          "post-processing"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了热处理和机加工等后处理对Ti-6Al-4V力学性能的影响，完全符合L2方向要求。",
+        "why_not_core": "No fatigue testing or porosity closure analysis, but covers tensile, impact, and bending under post-processing treatments.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "post-processing",
+          "heat treatment",
+          "machining",
+          "Ti-6Al-4V",
+          "PBF-LB/M",
+          "mechanical properties",
+          "build orientation"
+        ],
+        "summary_zh": {
+          "motivation": "研究构建方向、热处理和机加工对PBF-LB/M Ti6Al4V力学性能的影响",
+          "method": "采用拉伸、夏比冲击、弯曲和泊松比等破坏性测试表征力学性能",
+          "result": "应力消除热处理适度降低强度，机加工影响不显著，热处理提高冲击韧性",
+          "validation": "通过多种机械测试实验验证"
+        },
+        "summary_en": {
+          "motivation": "This study investigates how build orientation, heat treatment, and machining affect the mechanical properties of PBF-LB/M Ti6Al4V components.",
+          "method": "Destructive testing methods including tensile, Charpy impact, bending, and Poisson's ratio measurements were employed.",
+          "result": "Stress-relief heat treatment moderately reduced strength, machining had no significant effect, and heat treatment increased Charpy impact energy.",
+          "validation": "Experimental mechanical testing provided validation across multiple conditions."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "machining",
+            "zh": "机加工"
+          },
+          {
+            "en": "stress relief",
+            "zh": "应力消除"
+          },
+          {
+            "en": "tensile properties",
+            "zh": "拉伸性能"
+          },
+          {
+            "en": "Charpy impact energy",
+            "zh": "夏比冲击能量"
+          },
+          {
+            "en": "bending strength",
+            "zh": "弯曲强度"
+          },
+          {
+            "en": "build orientation",
+            "zh": "构建方向"
+          },
+          {
+            "en": "glass blasting",
+            "zh": "玻璃喷砂"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:25:34Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7127306550",
+      "doi": "10.1016/j.msea.2026.149833",
+      "title": "The effect of standard heat treatments and process conditions on the fatigue performance of wire arc additively manufactured Ti-6Al-4V",
+      "abstract": "",
+      "authors": [
+        "Jackson Leigh Smith",
+        "Alexander Medvedev",
+        "Edward W. Lui",
+        "Jiayu Ye",
+        "Philip Pille",
+        "Stephen Sun",
+        "Michael Bermingham",
+        "Daniel Fisher",
+        "Jisheng Ma",
+        "Martin Leary",
+        "Qianchu Liu",
+        "Milan Brandt"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Jackson Leigh Smith",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Materials Science and Engineering A",
+      "year": 2026,
+      "date": "2026-02-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.msea.2026.149833",
+      "cited_by_count": 0,
+      "concepts": [
+        "Arc (geometry)",
+        "Materials science",
+        "Process (computing)",
+        "Metallurgy",
+        "Composite material",
+        "Manufacturing process"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "虽然本文关注热处理的疲劳性能，但与L1层直接相关的工艺状态数据有限。",
+        "why_not_core": "The paper focuses on the effect of standard heat treatments on fatigue performance, which is post-processing, rather than as-built or process-state characterization as required for L1.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "wire arc additive manufacturing",
+          "Ti-6Al-4V",
+          "fatigue performance",
+          "heat treatment",
+          "process conditions"
+        ],
+        "summary_zh": {
+          "motivation": "研究标准热处理和工艺条件对电弧增材制造Ti-6Al-4V疲劳性能的影响。",
+          "method": "对WAAM Ti-6Al-4V进行不同热处理和工艺条件下的疲劳测试。",
+          "result": "揭示了热处理和工艺条件对疲劳性能的影响。",
+          "validation": "实验疲劳测试验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the combined effects of standard heat treatments and process conditions on the fatigue performance of wire-arc additively manufactured Ti-6Al-4V.",
+          "method": "Fatigue tests were conducted on WAAM Ti-6Al-4V specimens subjected to various heat treatments and processing parameters.",
+          "result": "The study elucidates how heat treatments and process conditions influence the fatigue behavior.",
+          "validation": "Experimental fatigue testing provided validation of the observed trends."
+        },
+        "key_terms": [
+          {
+            "en": "wire arc additive manufacturing",
+            "zh": "电弧增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
+          },
+          {
+            "en": "fatigue performance",
+            "zh": "疲劳性能"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "process conditions",
+            "zh": "工艺条件"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:25:34Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7127604485",
+      "doi": "10.3390/dj14020089",
+      "title": "Influence of Chemical Composition on the Physical–Mechanical Properties of Some Experimental Titanium Alloys for Dental Implants",
+      "abstract": "Background/Objectives: The main objective of optimizing the composition of dental implants is to improve tissue compatibility for enhanced biological/biochemical performance. In this context, research on the development of new titanium alloys in dental implantology considers the careful selection of alloying elements, both in terms of biocompatibility (their lack of toxicity) and their potential to improve the metallurgical processing capacity (thermal and/or thermomechanical), which through controlled microstructural changes lead to the optimal combination of properties for functionality and durability of the implant. The purpose of the research is to study the influence of alloying elements on the phase composition and physical–mechanical properties of experimental titanium alloys. Methods: Four alloys with original chemical compositions were developed, coded in the experiments as follows: Ti1, Ti2, Ti3, Ti4. The characterization of the alloys was carried out by detailed analysis of the chemical composition, phase structure and by testing the physico-mechanical properties (HV hardness, tensile strength, yield strength, elongation, modulus of elasticity), by standardized modern methods. Characterization methods, such as optical microscopy, SEM, EDS and XRD were performed, followed by tensile tests based on ASTM EB/EBM-22 and EN ISO 6892-1-2009 standards. Results: The research results provide information regarding the relationship between the composition and the physico-mechanical properties (Rm, Rp, HV, A, G, E) of the experimental alloys (Ti1–Ti4). Depending on the value level of the properties, these have been highlighted: compositions in which the alloy can be indicated for conditions of intense stress (Ti3), compositions that describe highly ductile alloys, easy to process and adapt to clinical requirements (Ti4), but also alloys compositions characterized by a balanced combination of strength, plasticity/ductility (Ti1, Ti2). Conclusions: Research for the development of new titanium alloys through the optimization of chemical composition has taken into account the requirements regarding the biological/biomechanical compatibility of biomaterials. Analyzed in comparison with Cp-Ti grade 4 and Ti6A4V, the experimental alloys (Ti1–Ti4) can be characterized as follows: The mechanical strength properties (Rm and Rp) are higher than those of pure commercial titanium (Cp-Ti grade 4) for all compositions Ti1–Ti4, but slightly lower than those of alloy Ti6Al4V. The plasticity–ductility properties have values comparable to those of Cp-Ti grade 4 (Ti4 and Ti2 compositions) and Ti6Al4V (Ti1 composition), with one exception, the Ti3 alloy. All four experimental alloys have a lower modulus of elasticity than Cp-Ti grade 4 (102–104 GPa) and Ti6Al4V (113 GPa), commonly used in dental implants. An in-depth analysis, which will also consider information on corrosion behavior and cellular testing, may support the selection of some of the four experimental alloys studied. The research aims to continue the progress to a higher level of testing, through the realization of dental implants (e.g., fatigue, wear, osteointegration capacity, etc.).",
+      "authors": [
+        "Vlad-Gabriel Vasilescu",
+        "Lucian Toma Ciocan",
+        "Andreia Cucuruz",
+        "Florin Miculescu",
+        "Alexandru Paraschiv",
+        "Gheorghe Matache",
+        "Marian NEACŞU",
+        "Elisabeta VASILESCU",
+        "M Meleşcanu Imre",
+        "Silviu Mirel Pițuru",
+        "Claudiu Turculeţ"
+      ],
+      "first_author_affiliation": "Discipline of Dental Prosthesis Technology, Faculty of Dentistry, “Carol Davila” University of Medicine and Pharmacy, Dionisie Lupu Street, No. 37, District 2, 020021 Bucharest, Romania",
+      "corresponding_authors": [
+        {
+          "name": "Lucian Toma Ciocan",
+          "affiliation": "Discipline of Dental Prosthesis Technology, Faculty of Dentistry, “Carol Davila” University of Medicine and Pharmacy, Dionisie Lupu Street, No. 37, District 2, 020021 Bucharest, Romania"
+        },
+        {
+          "name": "Andreia Cucuruz",
+          "affiliation": "Biomaterials and Medical Devices Department, Faculty of Medical Engineering, National University of Science and Technology Politehnica Bucharest, 1–7 Gh. Polizu Street, Sector 1, 011061 Bucharest, Romania"
+        }
+      ],
+      "venue": "Dentistry Journal",
+      "year": 2026,
+      "date": "2026-02-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/dj14020089",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Titanium alloy",
+        "Titanium",
+        "Metallurgy",
+        "Ultimate tensile strength",
+        "Chemical composition",
+        "Biocompatibility",
+        "Alloy",
+        "Modulus",
+        "Material properties",
+        "Compatibility (geochemistry)",
+        "Elastic modulus",
+        "Tensile testing",
+        "Characterization (materials science)",
+        "Indentation hardness",
+        "Durability",
+        "Microstructure",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "tensile strength",
+          "yield strength",
+          "elongation",
+          "ductility",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是非增材制造的新型钛合金，与激光粉末床熔融Ti-6Al-4V的力学和疲劳性能无关。",
+        "why_not_core": "Paper focuses on novel titanium alloys not produced by additive manufacturing and does not address mechanical or fatigue properties of AM Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "titanium alloys",
+          "dental implants",
+          "mechanical properties",
+          "chemical composition",
+          "phase analysis"
+        ],
+        "summary_zh": {
+          "motivation": "开发新型牙科植入物钛合金，优化合金元素以获得更好的综合性能。",
+          "method": "制备四种不同成分的钛合金，通过SEM、EDS、XRD和拉伸测试表征其组织和力学性能。",
+          "result": "新合金强度高于纯钛但低于Ti6Al4V，弹性模量更低，塑性各有差异。",
+          "validation": "采用标准拉伸测试和显微组织分析验证力学性能与成分的关系。"
+        },
+        "summary_en": {
+          "motivation": "To develop novel titanium alloys for dental implants by optimizing chemical composition for improved mechanical and biological performance.",
+          "method": "Four experimental titanium alloys with varying compositions were produced and characterized using SEM, EDS, XRD, and tensile testing per ASTM and ISO standards.",
+          "result": "The new alloys exhibit higher strength than Cp-Ti grade 4 but lower than Ti6Al4V, with reduced elastic modulus and varied ductility.",
+          "validation": "Mechanical properties were validated through standardized tensile tests and microstructure analysis."
+        },
+        "key_terms": [
+          {
+            "en": "titanium alloys",
+            "zh": "钛合金"
+          },
+          {
+            "en": "dental implants",
+            "zh": "牙科植入物"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "chemical composition",
+            "zh": "化学成分"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "elastic modulus",
+            "zh": "弹性模量"
+          },
+          {
+            "en": "microstructure",
+            "zh": "显微组织"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:25:34Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 3,
+    "by_source": {
+      "openalex": 3
+    },
+    "after_dedup": 3,
+    "after_routing": 3,
+    "by_direction": {
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 2
+    },
+    "routed_by_source": {
+      "openalex": 3
+    },
+    "scored": 3,
+    "priority_counts": {
+      "High": 1,
+      "Medium": 1,
+      "Exclude": 1
+    }
+  }
+}

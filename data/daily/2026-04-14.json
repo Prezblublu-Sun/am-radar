@@ -4,338 +4,279 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2604.12612v1",
-      "doi": "",
-      "arxiv_id": "2604.12612v1",
-      "title": "Damage dose dependence of deuterium retention in high-temperature self-ion irradiated tungsten",
-      "abstract": "Recrystallized tungsten (W) samples were irradiated by 20 MeV self-ions at 1350 K to peak damage doses in the range of 0.001-2.3 dpa. The irradiation-induced defects were then decorated with deuterium (D) by a gentle D plasma exposure ($<5$ eV/D, $5.6 \\times 10^{19}$ $\\text{D} / (\\text{m}^2 \\text{s})$) at 370 K. The D depth profiles in the samples were measured using $\\rm D(^{3}He,p)α$ nuclear reaction analysis. The maximum trapped D concentration evolves differently with the damage dose compared with the previously studied irradiations at 290 K and 800 K. At the damage doses below 0.1 dpa, the D concentrations are lower than those after the irradiation at 800 K. At higher damage doses, the D concentrations exceed the 800 K values and reach 1.7 at.% at 2.3 dpa, showing no clear tendency towards saturation. Transmission electron microscopy revealed the presence of nm-sized voids in the samples irradiated at 1350 K, in contrast to the ones irradiated at 290 K and 800 K. Thermal desorption spectroscopy (TDS) indicates that the dominant D trapping sites are different compared to the irradiations at 290 K and 800 K. Reaction-diffusion simulations show that the TDS spectra can be described by assuming that D is trapped as $\\rm D_2$ gas in the void volume and as D atoms at the void surface.",
-      "authors": [
-        "Mikhail Zibrov",
-        "Thomas Schwarz-Selinger",
-        "Michael Klimenkov",
-        "Ute Jäntsch"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2026,
-      "date": "2026-04-14",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2604.12612v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
-        ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文涉及核聚变材料中氘的保留，与用户的增材制造力学性能、生物打印、髋关节植入物等研究方向无关。",
-        "why_not_core": "This paper focuses on deuterium retention in ion-irradiated tungsten for nuclear fusion applications, with no connection to additive manufacturing, biomedical implants, or mechanical property prediction.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "deuterium retention",
-          "tungsten",
-          "self-ion irradiation",
-          "nuclear fusion",
-          "plasma exposure"
-        ],
-        "summary_zh": {
-          "motivation": "研究高温自离子辐照钨中氘保留随损伤剂量的变化。",
-          "method": "使用20 MeV自离子在1350 K辐照钨样品，随后进行D等离子体暴露和核反应分析。",
-          "result": "高剂量下D浓度超过800 K辐照值，达1.7 at.%，未饱和。",
-          "validation": "通过透射电镜和热脱附谱验证缺陷和捕获位点。"
-        },
-        "summary_en": {
-          "motivation": "To investigate the damage dose dependence of deuterium retention in tungsten after high-temperature self-ion irradiation.",
-          "method": "Recrystallized tungsten samples were irradiated with 20 MeV self-ions at 1350 K, then exposed to deuterium plasma and analyzed using nuclear reaction analysis and thermal desorption spectroscopy.",
-          "result": "Deuterium concentration increased with damage dose, reaching 1.7 at.% at 2.3 dpa without saturation, exceeding values from lower temperature irradiations.",
-          "validation": "Transmission electron microscopy confirmed void formation, and reaction-diffusion simulations reproduced thermal desorption spectra."
-        },
-        "key_terms": [
-          {
-            "en": "deuterium retention",
-            "zh": "氘保留"
-          },
-          {
-            "en": "self-ion irradiation",
-            "zh": "自离子辐照"
-          },
-          {
-            "en": "tungsten",
-            "zh": "钨"
-          },
-          {
-            "en": "nuclear reaction analysis",
-            "zh": "核反应分析"
-          },
-          {
-            "en": "thermal desorption spectroscopy",
-            "zh": "热脱附谱"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
-    },
-    {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2604.12522v1",
-      "doi": "",
-      "arxiv_id": "2604.12522v1",
-      "title": "Depth-Resolved Thermal Conductivity of HFCVD Diamond Films via Square-Pulsed Thermometry",
-      "abstract": "The integration of high-thermal-conductivity diamond films onto silicon carbide (SiC) substrates offers a promising pathway for thermal management in high-power electronic devices. Here, we investigate the depth-dependent thermal conductivity of a ~5 μm-thick diamond film grown on SiC by hot-filament chemical vapor deposition (HFCVD) using square-pulsed source (SPS) thermometry. Electron backscatter diffraction (EBSD) and transmission electron microscopy (TEM) reveal pronounced grain coarsening from the nucleation interface to the film surface. By combining frequency-dependent thermal penetration with a depth-resolved thermal transport model, we quantitatively reconstruct the thermal conductivity profile. The thermal conductivity increases sharply from ~60 W m^(-1) K^(-1) near the nucleation region to ~200 W m^(-1) K^(-1) at the surface, directly reflecting the underlying microstructural evolution. These results provide a physically grounded understanding of graded heat transport in HFCVD diamond and offer practical guidance for engineering diamond-based thermal management layers for next-generation power devices.",
-      "authors": [
-        "Kexin Zhang",
-        "Xiaosong Han",
-        "Ershuai Yin",
-        "Xin Qian",
-        "Junjun Wei",
-        "Puqing Jiang"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2026,
-      "date": "2026-04-14",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2604.12522v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "physics.app-ph"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
-        ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究金刚石薄膜热导率，与生物医学植入物、生物打印或FEA代理模型无关。",
-        "why_not_core": "This paper does not address any biomedical implant, bioprinting, FEA surrogate, or AM for biomedical context; it focuses on thermal management in electronics.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "thermal conductivity",
-          "diamond films",
-          "HFCVD",
-          "thermometry"
-        ],
-        "summary_zh": {
-          "motivation": "高功率电子器件热管理需高导热金刚石薄膜",
-          "method": "采用方脉冲热法结合EBSD/TEM重构导热系数深度分布",
-          "result": "导热系数从界面60 W/mK增至表面200 W/mK，对应晶粒粗化",
-          "validation": "通过频率相关热穿透深度测量和微观结构表征验证"
-        },
-        "summary_en": {
-          "motivation": "High-thermal-conductivity diamond films on SiC are needed for thermal management in high-power electronics.",
-          "method": "Square-pulsed thermometry combined with EBSD and TEM was used to reconstruct the depth-dependent thermal conductivity profile.",
-          "result": "Thermal conductivity increased from ~60 W/mK near the interface to ~200 W/mK at the surface, correlating with grain coarsening.",
-          "validation": "The depth-resolved profile was validated by frequency-dependent thermal penetration measurements and microstructural characterization."
-        },
-        "key_terms": [
-          {
-            "en": "diamond film",
-            "zh": "金刚石薄膜"
-          },
-          {
-            "en": "thermal conductivity",
-            "zh": "热导率"
-          },
-          {
-            "en": "square-pulsed thermometry",
-            "zh": "方脉冲热法"
-          },
-          {
-            "en": "grain coarsening",
-            "zh": "晶粒粗化"
-          },
-          {
-            "en": "HFCVD",
-            "zh": "热丝化学气相沉积"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
-    },
-    {
       "source": "openalex",
-      "id": "https://openalex.org/W7154450513",
-      "doi": "10.25258/ijddt.16.11s.78",
-      "title": "Topology Optimization Customized Femoral Hip Implant.",
-      "abstract": "Aseptic loosening, stress shielding, and wear are some of the dominant issues that would be attempted to resolve in this research work in designing and optimizing femoral hip replacement devices by making use of finite element analysis. This research work will emphasize important aspects in designing the devices that include the size of the head area and taper angle, which were optimized for enhancing their performance. Titanium alloys show superior biocompatibility compared to other alloys. Of these alloys, Ti-6Al-4V provides superior mechanical properties and anticorrosion properties. Simulation tests conducted in this work made use of finite element analysis for studying the stresses and deformations in the devices. This helped in achieving deformations of 0.405mm and a value of 246.38 MPa for stresses that provide structural and efficient use of materials in performance criteria restricted within acceptable limits",
+      "id": "https://openalex.org/W7154233778",
+      "doi": "10.1038/s41467-026-71927-6",
+      "title": "Machine learning driven discovery of low modulus biomedical titanium alloys for additive manufacturing",
+      "abstract": "Designing alloys for additive manufacturing opens opportunities for next-generation biomedical orthopaedic implants. However, most biomedical alloys currently in use are legacy compositions that cannot fully harness the potential of additive manufacturing. Here, we present a machine-learning-driven computational framework for discovering additive-manufacturing-specific β-titanium alloys with low modulus, optimised printability, mechanical and corrosion properties, and biocompatibility. Using this framework, an additive-manufacturing-specific Ti-Nb-Ta-Zr-Sn alloy was designed and validated via laser powder bed fusion. The alloy shows good printability and reduced sensitivity to keyhole pore formation compared with commercial Ti-6Al-4V. Under optimised process parameters, the as-built alloy combines a low Young’s modulus (~42.7 GPa) with high ductility (~30.9%), attributed to its metastable β-phase microstructure, cubic <001> texture, and reduced dislocation density. In this work, we show that this machine-learning-driven approach can facilitate the efficient design of biomedical β-titanium alloys, offering promising opportunities for advancing additive manufacturing in medical and related applications. Researchers combined CALPHAD, machine learning, and multi-objective optimisation to design an AM-specific titanium alloy for implant and orthopaedic applications. Laser powder bed fusion produced low-stiffness (~43 GPa), high-ductility (~31%) components, with good cell compatibility.",
       "authors": [
-        "Siddharth Tiwari",
-        "N. K. Jain"
+        "Jinlong Su",
+        "Fulin Jiang",
+        "Jin‐Ming Wu",
+        "Yuehua Li",
+        "Ri Han",
+        "Lu Wang",
+        "Raymond Chung Wen Wong",
+        "Jian Wang",
+        "Swee Leong Sing"
       ],
-      "first_author_affiliation": "Research Scholar, Department of Mechanical Engineering, NIT, Raipur, India",
+      "first_author_affiliation": "College of Materials Science and Engineering, State Key Laboratory of Cemented Carbide, Hunan University, Changsha, China",
       "corresponding_authors": [
         {
-          "name": "Siddharth Tiwari",
-          "affiliation": "Research Scholar, Department of Mechanical Engineering, NIT, Raipur, India"
+          "name": "Fulin Jiang",
+          "affiliation": "College of Materials Science and Engineering, State Key Laboratory of Cemented Carbide, Hunan University, Changsha, China. fulin.jiang.88@hnu.edu.cn"
         }
       ],
-      "venue": "International Journal of Drug Delivery Technology",
+      "venue": "Nature Communications",
       "year": 2026,
       "date": "2026-04-14",
       "date_precision": "day",
-      "url": "https://doi.org/10.25258/ijddt.16.11s.78",
+      "url": "https://doi.org/10.1038/s41467-026-71927-6",
       "cited_by_count": 0,
       "concepts": [
-        "Finite element method",
-        "Work (physics)",
-        "Computer science",
-        "Mechanical engineering",
-        "Topology optimization",
-        "Structural engineering",
-        "Stress (linguistics)",
         "Materials science",
-        "Engineering drawing",
-        "Total hip replacement",
-        "Biocompatibility",
+        "Titanium alloy",
+        "Alloy",
+        "Ductility (Earth science)",
         "Titanium",
-        "Engineering",
-        "Femoral head"
+        "Elastic modulus",
+        "Sensitivity (control systems)",
+        "Modulus",
+        "Corrosion",
+        "Metastability",
+        "Fusion",
+        "Machine learning",
+        "Ultimate tensile strength",
+        "Metallurgy",
+        "Process (computing)"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "ti6al4v_postprocess_hip",
-      "direction_name": "Ti-6Al-4V Post-processing & HIP",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "ti6al4v_postprocess_hip": [
-          "Ti-6Al-4V"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要研究新型β钛合金的设计，而非Ti-6Al-4V，故与当前方向无关。",
+        "why_not_core": "The paper does not study Ti-6Al-4V; it designs a new β-titanium alloy (Ti-Nb-Ta-Zr-Sn) and only uses Ti-6Al-4V as a reference, providing no mechanical/fatigue characterization of Ti-6Al-4V itself.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "machine learning",
+          "alloy design",
+          "β-titanium",
+          "LPBF",
+          "low modulus"
+        ],
+        "summary_zh": {
+          "motivation": "设计适用于增材制造的低模量生物医用β钛合金",
+          "method": "采用机器学习、CALPHAD和多目标优化框架设计Ti-Nb-Ta-Zr-Sn合金，并经激光粉末床熔融验证",
+          "result": "该合金具有低杨氏模量(~42.7 GPa)和高延展性(~30.9%)，且打印性能优于Ti-6Al-4V",
+          "validation": "通过激光粉末床熔融实验制备并进行力学和生物相容性测试"
+        },
+        "summary_en": {
+          "motivation": "To design additive-manufacturing-specific low-modulus β-titanium alloys for biomedical implants.",
+          "method": "A machine-learning-driven computational framework integrating CALPHAD and multi-objective optimization was used to design a Ti-Nb-Ta-Zr-Sn alloy validated by laser powder bed fusion.",
+          "result": "The as-built alloy achieved a low Young's modulus (~42.7 GPa) and high ductility (~30.9%) with reduced sensitivity to keyhole pore formation compared to Ti-6Al-4V.",
+          "validation": "Experimental validation via LPBF, mechanical testing, and biocompatibility assays."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "β-titanium alloys",
+            "zh": "β钛合金"
+          },
+          {
+            "en": "low modulus",
+            "zh": "低模量"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:29:54Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7154381753",
+      "doi": "10.55092/am20260006",
+      "title": "Laser additive manufacturing of metallic lattice structures: material-structure-property concept, and future perspective",
+      "abstract": "Metallic lattice structures have emerged as revolutionary lightweight materials with exceptional specific strength and multifunctional capabilities, particularly in aerospace applications. This review comprehensively examines the state of the art in laser additive manufacturing (LAM) of metallic lattice structures, focusing on selective laser melting (SLM) and electron beam melting (EBM). We critically analyze recent advances in materials development, including nickel-based superalloys (GH4169/IN718, K465), titanium alloys (Ti-6Al-4V), and functionally graded composites. The review addresses key design considerations, including unit cell topology optimization, node reinforcement strategies, and gradient structures. We examine mechanical properties under various loading conditions, thermal management capabilities, and failure mechanisms through both experimental and numerical perspectives. Advanced detection methods, including micro-CT imaging and AI-based defect identification, are evaluated for quality assurance. Critical challenges, including surface roughness control, residual stress management, and size limitations, are discussed alongside emerging opportunities in machine-learning-assisted design and multi-material systems. This review provides essential insights for researchers and engineers seeking to advance lattice-structured applications in next-generation aerospace systems.",
+      "authors": [
+        "Bo Sun",
+        "Shixun Zheng",
+        "Haoyu Liu",
+        "Sharifah Fatmadiana Wan Muhamad Hatta",
+        "Binghua Yang",
+        "Zhaoji Zong",
+        "Quanjin Ma"
+      ],
+      "first_author_affiliation": "Department of Electrical Engineering, Faculty of Engineering, Universiti Malaya, Kuala Lumpur 50603, Malaysia;Centre of Printable Electronics, Universiti Malaya, Kuala Lumpur 50630, Malaysia",
+      "corresponding_authors": [
+        {
+          "name": "Bo Sun",
+          "affiliation": "Department of Electrical Engineering, Faculty of Engineering, Universiti Malaya, Kuala Lumpur 50603, Malaysia;Centre of Printable Electronics, Universiti Malaya, Kuala Lumpur 50630, Malaysia"
+        }
+      ],
+      "venue": "Advanced Manufacturing",
+      "year": 2026,
+      "date": "2026-04-14",
+      "date_precision": "day",
+      "url": "https://doi.org/10.55092/am20260006",
+      "cited_by_count": 0,
+      "concepts": [
+        "Aerospace",
+        "Materials science",
+        "Residual stress",
+        "Titanium alloy",
+        "Selective laser melting",
+        "Mechanical engineering",
+        "Laser",
+        "Engineering physics",
+        "Superalloy",
+        "Surface roughness",
+        "Surface finish",
+        "Machining",
+        "Lattice (music)",
+        "Surface engineering",
+        "Network topology",
+        "Thermal",
+        "Thermal expansion",
+        "Design for manufacturability",
+        "Titanium",
+        "Nanotechnology"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "defect",
+          "surface roughness",
+          "residual stress"
         ]
       },
       "llm": {
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文涉及Ti-6Al-4V髋关节植入物的拓扑优化，但未涉及任何后处理或热等静压工艺。",
-        "why_not_core": "This paper focuses on topology optimization of a hip implant using FEA, but does not address Ti-6Al-4V post-processing, HIP, surface treatments, or any experimental validation.",
-        "validation_kind": "simulation_case",
+        "relevance_to_user": "该综述涵盖了Ti-6Al-4V点阵结构的力学性能，但并非专门针对其疲劳行为，且无新实验数据。",
+        "why_not_core": "Review-only; lacks specific Ti-6Al-4V mechanical/fatigue characterization or new experimental data.",
+        "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
-          "is_review": false
+          "is_review": true
         },
         "tags": [
-          "topology optimization",
-          "femoral hip implant",
-          "finite element analysis",
-          "Ti-6Al-4V"
+          "review",
+          "lattice structures",
+          "laser additive manufacturing",
+          "Ti-6Al-4V",
+          "mechanical properties"
         ],
         "summary_zh": {
-          "motivation": "优化股骨髋关节假体以减少应力遮挡和松动",
-          "method": "使用有限元分析进行拓扑优化，更改头径和锥角",
-          "result": "获得0.405mm变形和246.38 MPa应力，满足性能要求",
-          "validation": "仅仿真验证，无实验"
+          "motivation": "综述激光增材制造金属点阵结构的研究现状",
+          "method": "系统回顾SLM和EBM工艺、材料设计及力学性能",
+          "result": "总结了挑战和未来方向，如机器学习辅助设计",
+          "validation": "无实验验证，为文献综述"
         },
         "summary_en": {
-          "motivation": "To reduce aseptic loosening and stress shielding in femoral hip implants through design optimization.",
-          "method": "Finite element analysis-based topology optimization of head size and taper angle.",
-          "result": "Achieved deformations of 0.405 mm and stresses of 246.38 MPa within acceptable limits.",
-          "validation": "Simulation-based verification only, no experimental validation."
+          "motivation": "This review aims to consolidate the state of the art in laser additive manufacturing of metallic lattice structures.",
+          "method": "A comprehensive literature analysis covering materials, design optimization, mechanical properties, and defect detection methods.",
+          "result": "Key challenges including surface roughness, residual stress, and size limitations are identified, along with opportunities in AI-assisted design.",
+          "validation": "No experimental validation is performed; the paper is a literature review."
         },
         "key_terms": [
           {
-            "en": "topology optimization",
-            "zh": "拓扑优化"
+            "en": "lattice structures",
+            "zh": "点阵结构"
           },
           {
-            "en": "femoral hip implant",
-            "zh": "股骨髋关节假体"
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
           },
           {
-            "en": "finite element analysis",
-            "zh": "有限元分析"
-          },
-          {
-            "en": "stress shielding",
-            "zh": "应力遮挡"
+            "en": "electron beam melting",
+            "zh": "电子束熔化"
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "fatigue",
+            "zh": "疲劳"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
+      "first_seen_at": "2026-06-07T23:29:54Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 2,
     "by_source": {
-      "arxiv": 2,
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "mechanical_properties": 2,
-      "ti6al4v_postprocess_hip": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "arxiv": 2,
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 3,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 2,
+      "Exclude": 1,
       "Low": 1
     }
   }

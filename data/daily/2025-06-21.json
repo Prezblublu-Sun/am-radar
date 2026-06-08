@@ -4,51 +4,66 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2506.17849v1",
-      "doi": "",
-      "arxiv_id": "2506.17849v1",
-      "title": "Boosting biocompatibility and mechanical property evolution in a high-entropy alloy via nanostructure engineering and phase transformations",
-      "abstract": "High-entropy alloys (HEAs), as multi-component materials with high configurational entropy, have garnered significant attention as new biomaterials; still, their low yield stress and high elastic modulus need to be overcome for future biomedical applications. In this study, nanograin generation is used to enhance the strength and phase transformation is employed to reduce the elastic modulus of a biocompatible Ti-Zr-Hf-Nb-Ta-based HEA. The alloy is treated via the high-pressure torsion (HPT) process, leading to (i) a BCC (body-centered cubic) to omega phase transformation with [101]ω//[011]BCC and [211]omega//[121]BCC through a twining mechanism, (ii) nanograin formation with a mean grain size of 20 nm, and (iii) dislocation generation particularly close to BCC-omega interphase boundaries. These structural and microstructural features enhance hardness, increase tensile strength up to 2130 MPa, achieve tensile elongation exceeding 13%, reduce elastic modulus down to 69 GPa and improve biocompatibility. Additionally, the HEA exhibits improved anodization, resulting in a homogenous distribution of oxide nanotubes on the surface with a smaller tube diameter and a higher tube length compared to pure titanium. These remarkable properties, which are engineered by the generation of defective nanograins and the co-existence of BCC and metastable omega phases, highlight the potential of HEAs treated using severe plastic deformation for future biomedical usage, particularly in the orthopedic sector.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4411554802",
+      "doi": "10.3390/ma18132937",
+      "title": "Study on Microstructure and Stress Distribution of Laser-GTA Narrow Gap Welding Joint of Ti-6Al-4V Titanium Alloy in Medium Plate",
+      "abstract": "Traditional narrow gap welding of thick titanium alloy plates easily produces dynamic molten pool flow instability, poor sidewall fusion, and excessive residual stress after welding, which leads to defects such as pores, cracks, and large welding deformations. In view of the above problems, this study takes 16-mm-thick TC4 titanium alloy as the research object, uses low-power pulsed laser-GTA flexible heat source welding technology, and uses the flexible regulation of space between the laser, arc, and wire to promote good fusion of the molten pool and side wall metal. By implementing instant ultrasonic impact treatment on the weld surface, the residual stress of the welded specimen is controlled within a certain range to reduce deformation after welding. The results show that the new welding process makes the joint stable, the side wall is well fused, and there are no defects such as pores and cracks. The weld zone is composed of a large number of α′ martensites interlaced with each other to form a basketweave structure. The tensile fracture of the joint occurs at the base metal. The joint tensile strength is 870 MPa, and the elongation after fracture can reach 17.1%, which is 92.4% of that of the base metal. The impact toughness at the weld is 35 J/cm2, reaching 81.8% of that of the base metal. After applying ultrasound, the average residual stress decreased by 96% and the peak residual stress decreased by 94.8% within 10 mm from the weld toe. The average residual stress decreased by 95% and the peak residual stress decreased by 95.5% within 10 mm from the weld root. The residual stress on the surface of the whole welded test plate could be controlled within 200 MPa. Finally, a high-performance thick Ti-alloy plate welded joint with good forming and low residual stress was obtained.",
       "authors": [
-        "Thanh Tam Nguyen",
-        "Payam Edalati",
-        "Shivam Dangwal",
-        "Karina Danielle Pereira",
-        "Alessandra Cremasco",
-        "Ricardo Floriano",
-        "Augusto Ducati Luchessi",
-        "Kaveh Edalati"
+        "Zhigang Cheng",
+        "Qiang Lang",
+        "Zhaodong Zhang",
+        "Gang Song",
+        "Li Liu"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Key Laboratory of Liaoning Advanced Welding and Joining Technology, Dalian University of Technology, Dalian 116024, China",
+      "corresponding_authors": [
+        {
+          "name": "Gang Song",
+          "affiliation": "Key Laboratory of Liaoning Advanced Welding and Joining Technology, Dalian University of Technology, Dalian 116024, China"
+        }
+      ],
+      "venue": "Materials",
       "year": 2025,
       "date": "2025-06-21",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2506.17849v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "physics.med-ph"
+      "url": "https://doi.org/10.3390/ma18132937",
+      "cited_by_count": 4,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Titanium alloy",
+        "Metallurgy",
+        "Welding",
+        "Joint (building)",
+        "Alloy",
+        "Stress (linguistics)",
+        "Titanium",
+        "Composite material"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TC4",
           "tensile strength",
-          "elongation"
+          "elongation",
+          "residual stress"
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究高熵合金的力学性能与生物相容性，但未涉及增材制造工艺，与AM力学性能方向不直接相关。",
-        "why_not_core": "No additive manufacturing (AM) process involved; the material is processed via severe plastic deformation, not LPBF/AM.",
+        "relevance_to_user": "该论文研究的是Ti-6Al-4V钛合金中厚板的激光-GTA窄间隙焊接，而非增材制造，因此与您的方向无关。",
+        "why_not_core": "The paper focuses on welding (laser-GTA narrow gap welding) of Ti-6Al-4V plates, not on additive manufacturing processes such as LPBF, SLM, EBM, or DED. It does not involve any additive manufacturing mechanical or fatigue characterization.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -57,80 +72,79 @@
           "is_review": false
         },
         "tags": [
-          "high-entropy alloy",
-          "severe plastic deformation",
-          "nanograin",
-          "phase transformation",
-          "biocompatibility"
+          "welding",
+          "Ti-6Al-4V",
+          "residual stress",
+          "microstructure"
         ],
         "summary_zh": {
-          "motivation": "提高高熵合金的强度并降低弹性模量用于生物医学",
-          "method": "通过高压扭转产生纳米晶和相变改善力学性能",
-          "result": "获得超细晶和ω相，强度达2130 MPa，模量降至69 GPa",
-          "validation": "拉伸测试、硬度测试及阳极氧化表征"
+          "motivation": "解决厚钛合金板窄间隙焊接中的熔池不稳定、侧壁熔合不良和残余应力过大问题。",
+          "method": "采用低功率脉冲激光-GTA柔性热源焊接并辅以即时超声冲击处理。",
+          "result": "获得无缺陷焊接接头，抗拉强度870 MPa，断后伸长率17.1%，残余应力控制在200 MPa以内。",
+          "validation": "通过拉伸测试、冲击韧性和残余应力测量验证工艺效果。"
         },
         "summary_en": {
-          "motivation": "To enhance yield strength and reduce elastic modulus of high-entropy alloys for biomedical applications.",
-          "method": "High-pressure torsion (HPT) is applied to induce nanograin formation and BCC-to-omega phase transformation.",
-          "result": "Ultrafine-grained structure with ω phase yields ultrahigh strength (2130 MPa), good ductility (13% elongation), and low modulus (69 GPa).",
-          "validation": "Mechanical tests (tensile, hardness) and anodization experiments confirm improved properties and biocompatibility."
+          "motivation": "To overcome dynamic molten pool instability, poor sidewall fusion, and excessive residual stress in narrow gap welding of thick titanium alloy plates.",
+          "method": "A low-power pulsed laser-GTA flexible heat source welding process combined with instant ultrasonic impact treatment was employed on 16-mm-thick TC4 titanium alloy.",
+          "result": "Defect-free joints were obtained with a tensile strength of 870 MPa, elongation of 17.1%, and residual stress controlled within 200 MPa.",
+          "validation": "Mechanical testing including tensile, impact toughness, and residual stress measurements validated the process."
         },
         "key_terms": [
           {
-            "en": "high-entropy alloy",
-            "zh": "高熵合金"
+            "en": "laser-GTA hybrid welding",
+            "zh": "激光-GTA复合焊接"
           },
           {
-            "en": "severe plastic deformation",
-            "zh": "剧烈塑性变形"
+            "en": "narrow gap welding",
+            "zh": "窄间隙焊接"
           },
           {
-            "en": "nanograin",
-            "zh": "纳米晶"
+            "en": "Ti-6Al-4V titanium alloy",
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
-            "en": "phase transformation",
-            "zh": "相变"
+            "en": "residual stress",
+            "zh": "残余应力"
           },
           {
-            "en": "biocompatibility",
-            "zh": "生物相容性"
+            "en": "ultrasonic impact treatment",
+            "zh": "超声冲击处理"
           },
           {
-            "en": "elastic modulus",
-            "zh": "弹性模量"
+            "en": "microstructure",
+            "zh": "微观组织"
           },
           {
             "en": "tensile strength",
             "zh": "抗拉强度"
           },
           {
-            "en": "nanotube",
-            "zh": "纳米管"
+            "en": "impact toughness",
+            "zh": "冲击韧性"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:10:24Z"
+      "first_seen_at": "2026-06-07T23:09:50Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {
-      "Low": 1
+      "Exclude": 1
     }
   }
 }

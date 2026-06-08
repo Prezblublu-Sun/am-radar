@@ -1,0 +1,289 @@
+{
+  "schema_version": "v2",
+  "date": "2025-11-19",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4416981351",
+      "doi": "10.36910/automash.v2i25.1909",
+      "title": "MATHEMATICAL MODELLING OF THERMOMECHANICAL STATE IN ADDITIVE MANUFACTURING AND WELDING OF TITANIUM ALLOYS FOR TRANSPORT ENGINEERING",
+      "abstract": "This study demonstrates a detailed investigation of residual stress distribution and thermomechanical behavior in Ti80 and Ti-6Al-4V titanium alloy components subjected to welding and post-weld treatments, integrating both experimental measurements and finite element simulations. The aim of the study is to evaluate the influence of welding sequence, thermal cycles, and temperature-dependent material properties on stress evolution, with particular emphasis on transverse and longitudinal residual stresses concentrated near weld toes. The relevance of this research is determined by the high demands for reliability, dimensional stability, and fatigue resistance of welded titanium components in transport, aerospace, and engineering applications. Significant anisotropy in stress distribution was observed along and across weld seams, highlighting critical regions prone to distortion or fatigue initiation. The novelty of this research lies in the comparative analysis of two titanium alloys under different welding conditions, combining experimental results with numerical simulations to provide a comprehensive understanding of residual stress development and thermomechanical responses. The work further demonstrates the effectiveness of post-weld heat treatment (PWHT) and local stress-relief procedures in mitigating residual stresses, enhancing both dimensional stability and fatigue performance. Practical implications of this study include guidance for optimizing welding parameters, implementing appropriate post-weld treatments, and improving the reliability and service life of high-performance titanium components in transport, aerospace, and engineering applications. The findings contribute to the broader understanding of the interplay between welding conditions, material behavior, and stress evolution, offering a foundation for improved predictive modeling and informed design decisions in welded titanium structures, and highlighting the significance of temperature-dependent properties in accurately forecasting residual stress fields and deformation patterns. Keywords: Ti80, Ti-6Al-4V, residual stress, thermomechanical properties, post-weld heat treatment, FEM, welding, additive manufacturing.",
+      "authors": [
+        "Світлана Вікторівна Кирилаха"
+      ],
+      "first_author_affiliation": "здобувачка вищої освіти на третьому (освітньо-науковому) рівні вищої освіти за спеціальністю G8 «Матеріалознавство», кафедри композиційних матеріалів, хімії та технологій, магістр за спеціальністю G9 «Прикладна механіка» кафедри «Інтегровані технології зварювання та моделювання конструкцій», Національний університет «Запорізька політехніка»",
+      "corresponding_authors": [
+        {
+          "name": "Світлана Вікторівна Кирилаха",
+          "affiliation": "здобувачка вищої освіти на третьому (освітньо-науковому) рівні вищої освіти за спеціальністю G8 «Матеріалознавство», кафедри композиційних матеріалів, хімії та технологій, магістр за спеціальністю G9 «Прикладна механіка» кафедри «Інтегровані технології зварювання та моделювання конструкцій», Національний університет «Запорізька політехніка»"
+        }
+      ],
+      "venue": "СУЧАСНІ ТЕХНОЛОГІЇ В МАШИНОБУДУВАННІ ТА ТРАНСПОРТІ",
+      "year": 2025,
+      "date": "2025-11-19",
+      "date_precision": "day",
+      "url": "https://doi.org/10.36910/automash.v2i25.1909",
+      "cited_by_count": 0,
+      "concepts": [
+        "Welding",
+        "Residual stress",
+        "Titanium alloy",
+        "Materials science",
+        "Finite element method",
+        "Metallurgy",
+        "Titanium",
+        "Distortion (music)",
+        "Stress (linguistics)",
+        "Structural engineering",
+        "Mechanical engineering",
+        "Heat-affected zone",
+        "Reliability (semiconductor)",
+        "Material properties",
+        "Work (physics)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "residual stress",
+          "fatigue"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment",
+          "stress relief"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的后焊热处理，但主要聚焦于焊接残余应力建模，未直接研究增材制造后处理对疲劳或力学性能的影响。",
+        "why_not_core": "Does not investigate fatigue or mechanical performance directly; focuses on residual stress modeling in welding, not additive manufacturing post-processing for Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "residual stress",
+          "post-weld heat treatment",
+          "Ti-6Al-4V",
+          "finite element method",
+          "welding"
+        ],
+        "summary_zh": {
+          "motivation": "评估焊接顺序和热循环对钛合金残余应力的影响，以提高疲劳性能。",
+          "method": "结合实验测量和有限元模拟，分析焊接及后焊热处理中的热力学行为。",
+          "result": "发现焊缝附近残余应力分布显著各向异性，后焊热处理有效缓解应力。",
+          "validation": "通过实验残余应力测量验证了数值模型。"
+        },
+        "summary_en": {
+          "motivation": "To evaluate the influence of welding sequence and thermal cycles on residual stress in titanium alloys to improve fatigue resistance.",
+          "method": "Combined experimental measurements and finite element simulations to analyze thermomechanical behavior during welding and post-weld heat treatment.",
+          "result": "Significant anisotropy in residual stress distribution near weld toes was observed, and post-weld heat treatment effectively mitigated stresses.",
+          "validation": "The numerical model was validated by experimental residual stress measurements."
+        },
+        "key_terms": [
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "post-weld heat treatment (PWHT)",
+            "zh": "焊后热处理"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "finite element method (FEM)",
+            "zh": "有限元法"
+          },
+          {
+            "en": "welding",
+            "zh": "焊接"
+          },
+          {
+            "en": "thermomechanical behavior",
+            "zh": "热力学行为"
+          },
+          {
+            "en": "fatigue resistance",
+            "zh": "疲劳抗力"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:19:10Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4416373502",
+      "doi": "10.5357/koubyou.92.2-3_119",
+      "title": "Laser Powder Bed Fusion of Co-Cr and Ti Alloys : A Review of Microstructure, Mechanical Properties, and Clinical Fit Accuracy of Denture Frameworks",
+      "abstract": "This study comprehensively reviewed the current literature on Co-Cr and Ti alloys produced by laser-beam powder-bed fusion (PBF-LB), focusing on their microstructures, mechanical properties, and the fitness and dimensional accuracy of removable partial denture (RPD) frameworks. The microstructures fabricated by PBF-LB differ significantly from those of conventionally cast alloys due to the rapid cooling rate during fabrication in both Co-Cr and Ti-6Al-4V alloys. Additionally, residual stress is generated during the fabrication process, making heat treatment essential to relieve this stress. The optimal heat treatment conditions vary depending on the type of dental prosthesis. Although the mechanical properties of alloys are influenced by heat treatment conditions, the mechanical strength of the Co-Cr alloy fabricated by PBF-LB was found to be superior to that of conventionally cast.",
+      "authors": [
+        "Takaichi Atsushi",
+        "Yuka Kajima",
+        "KOBAYASHI Yoshio",
+        "DONG Jialin",
+        "Junwei Li",
+        "QU Wenrui"
+      ],
+      "first_author_affiliation": "Digital Dentistry, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo",
+      "corresponding_authors": [
+        {
+          "name": "Takaichi Atsushi",
+          "affiliation": "Digital Dentistry, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo"
+        }
+      ],
+      "venue": "THE JOURNAL OF THE STOMATOLOGICAL SOCIETY JAPAN",
+      "year": 2025,
+      "date": "2025-11-19",
+      "date_precision": "day",
+      "url": "https://doi.org/10.5357/koubyou.92.2-3_119",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Fusion",
+        "Fabrication",
+        "Residual stress",
+        "Titanium alloy",
+        "Alloy",
+        "Microstructure",
+        "Composite material",
+        "Laser",
+        "Metallurgy",
+        "Stress (linguistics)",
+        "Fatigue limit",
+        "Work (physics)",
+        "Powder metallurgy",
+        "Mechanical strength"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "residual stress"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要关注牙科框架的临床适配性，对Ti-6Al-4V后处理疲劳性能的深入实验研究不足。",
+        "why_not_core": "This is a broad review covering both Co-Cr and Ti-6Al-4V alloys for denture frameworks, with only brief mentions of heat treatment; it does not provide experimental data on post-processing effects on fatigue or mechanical performance of Ti-6Al-4V.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": true
+        },
+        "tags": [
+          "PBF-LB",
+          "Co-Cr",
+          "Ti-6Al-4V",
+          "review",
+          "denture frameworks",
+          "heat treatment"
+        ],
+        "summary_zh": {
+          "motivation": "综述激光粉末床熔融Co-Cr和Ti合金在牙科框架中的显微组织、力学性能和临床精度。",
+          "method": "系统回顾现有文献，比较PBF-LB与铸造合金的差异。",
+          "result": "PBF-LB合金由于快速冷却具有独特显微组织，热处理对消除残余应力至关重要，但最佳条件因假体类型而异。",
+          "validation": "没有实验验证，为文献综述。"
+        },
+        "summary_en": {
+          "motivation": "This review summarizes the current knowledge on laser powder bed fusion of Co-Cr and Ti alloys for dental frameworks, focusing on microstructure, mechanical properties, and clinical fit accuracy.",
+          "method": "A systematic literature review was conducted to compare the characteristics of PBF-LB fabricated alloys with conventionally cast ones.",
+          "result": "PBF-LB alloys exhibit distinct microstructures due to rapid solidification, and heat treatment is essential for stress relief, though optimal conditions vary with the type of prosthesis.",
+          "validation": "No experimental validation was performed; this is a review article."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Co-Cr alloy",
+            "zh": "钴铬合金"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "microstructure",
+            "zh": "显微组织"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "denture framework",
+            "zh": "牙科支架"
+          },
+          {
+            "en": "clinical fit accuracy",
+            "zh": "临床适配精度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:19:10Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 2,
+    "by_source": {
+      "openalex": 2
+    },
+    "after_dedup": 2,
+    "after_routing": 2,
+    "by_direction": {
+      "ti6al4v_postprocess": 2
+    },
+    "routed_by_source": {
+      "openalex": 2
+    },
+    "scored": 2,
+    "priority_counts": {
+      "Low": 2
+    }
+  }
+}

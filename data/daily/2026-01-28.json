@@ -1,0 +1,409 @@
+{
+  "schema_version": "v2",
+  "date": "2026-01-28",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7125961916",
+      "doi": "10.1002/adem.202502233",
+      "title": "Multimodal Mechanical Testing of Additively Manufactured Ti6Al4V Lattice Structures: Compression, Bending, and Fatigue",
+      "abstract": "This study characterizes the mechanical behavior of Ti‐6Al‐4V lattice structures manufactured using laser powder bed fusion (PBF‐LB/M) for application in endoprostheses. Additive manufacturing enables creating customized orthopedic implants with complex geometries that combine mechanical stability with biological integration. The choice of biocompatible Ti‐6Al‐4V, together with the incorporation of lattice structures, offers improved mechanical performance, corrosion resistance, and bone ingrowth. A critical step toward the clinical adoption of such additively manufactured lattice structures is their thorough mechanical characterization, the central focus of this work. To this end, three test methods are employed to assess macroscopic mechanical response and damage tolerance: uniaxial compression, fourpoint bending and crack propagation tests. The results show that the mechanical properties depend on the lattice topology and surface finish. In particular, TPMS‐based architectures (Triply Periodic Minimal Surfaces) exhibit superior fatigue crack propagation behavior, which is attributed to a more homogeneous stress distribution. In static testing, the SplitP TPMS (SPP) and Honeycomb (HCG) structures achieve the best balance of high stiffness (up to 27 GPa) and compressive strength (up to 249 MPa). These experimentally validated data form a crucial basis for subsequent artificial intelligence (AI)‐based structural optimization to maximize the long‐term mechanical reliability of implants under physiological loads.",
+      "authors": [
+        "Klaus Burkart",
+        "Jonas Schmidt",
+        "Anastasiya Toenjes",
+        "Johanna Eisenträger"
+      ],
+      "first_author_affiliation": "Department of Materials Engineering Leibniz Institute for Materials Engineering ‐ IWT  28359 Bremen Germany",
+      "corresponding_authors": [
+        {
+          "name": "Johanna Eisenträger",
+          "affiliation": "Department of Materials Engineering Leibniz Institute for Materials Engineering ‐ IWT  28359 Bremen Germany"
+        }
+      ],
+      "venue": "Advanced Engineering Materials",
+      "year": 2026,
+      "date": "2026-01-28",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1002/adem.202502233",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Titanium alloy",
+        "Stiffness",
+        "Fretting",
+        "Lattice (music)",
+        "Composite material",
+        "Honeycomb structure",
+        "Compressive strength",
+        "Corrosion",
+        "Structural engineering",
+        "Bending",
+        "Osseointegration",
+        "Selective laser melting",
+        "Fatigue limit",
+        "Graphene",
+        "Fracture mechanics",
+        "Residual stress",
+        "Miniaturization"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "fatigue"
+        ],
+        "ti6al4v_femoral_stem": [
+          "Ti6Al4V",
+          "TPMS"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V晶格结构的力学测试，但未专门针对股骨柄设计，不具有直接工程参考价值。",
+        "why_not_core": "No femoral stem design; only generic lattice specimens are tested without stem-level geometry or application.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "lattice structures",
+          "mechanical testing",
+          "compression",
+          "bending",
+          "fatigue",
+          "TPMS"
+        ],
+        "summary_zh": {
+          "motivation": "为假体应用表征Ti-6Al-4V晶格结构的力学性能。",
+          "method": "通过压缩、四点弯曲和裂纹扩展测试评估不同拓扑结构。",
+          "result": "TPMS结构在疲劳裂纹扩展方面表现优异，SplitP和蜂窝结构刚度与强度最佳。",
+          "validation": "实验力学测试验证了晶格结构的宏观响应与损伤容限。"
+        },
+        "summary_en": {
+          "motivation": "This study aims to characterize the mechanical behavior of Ti-6Al-4V lattice structures for use in endoprostheses, a critical step toward clinical adoption.",
+          "method": "Three test methods—uniaxial compression, four-point bending, and crack propagation—were applied to assess the macroscopic response and damage tolerance of lattices with different topologies.",
+          "result": "TPMS-based architectures demonstrated superior fatigue crack propagation resistance, while SplitP and Honeycomb structures achieved the best balance of stiffness and compressive strength.",
+          "validation": "Experimental mechanical testing provided validated data on stiffness, strength, and fatigue behavior of the lattice structures."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "lattice structures",
+            "zh": "晶格结构"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "compression",
+            "zh": "压缩"
+          },
+          {
+            "en": "four-point bending",
+            "zh": "四点弯曲"
+          },
+          {
+            "en": "fatigue crack propagation",
+            "zh": "疲劳裂纹扩展"
+          },
+          {
+            "en": "TPMS",
+            "zh": "三周期极小曲面"
+          },
+          {
+            "en": "endoprostheses",
+            "zh": "内假体"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:23:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7125912117",
+      "doi": "10.3390/ma19030524",
+      "title": "An Analysis of Notch Toughness of Electron Beam Powder Bed Fused (EB-PBF) Ti-6Al-4V in Relation to Build Orientation and Mechanical Properties",
+      "abstract": "A comprehensive analysis of the notch toughness of Electron Beam Powder Bed Fused (EB-PBF) Ti-6Al-4V was conducted, which focused on the influence of build orientation and correlations with key mechanical properties. Horizontal and vertical specimens were fabricated with optimized process parameters and reused powder. The microhardness and microstructure of the metal were examined and both profilometry and scanning electron microscopy were used in evaluating the fracture surfaces. Results showed that the metal with vertical build orientation absorbed ~46% higher impact energy than the horizontal orientation due to crack propagation perpendicular to the prior-β grains, lower microhardness, and greater ductility. The importance of ductility to the vertical specimens was evidenced by greater shear lip width (~51%) and height (~35%), greater shear lip length (~18%), and higher roughness of the fracture surface (~15%). Shear width measurements showed the highest correlation with absorbed impact energy. Overall, results show that the notch toughness of EB-PBF Ti-6Al-4V is dependent on the build orientation due to differences in microstructure and the bulk mechanical properties. The notch toughness is well correlated with tensile properties as well. Lastly, a framework for relating the notch toughness in dynamic loading and quasi-static fracture toughness for EB-PBF Ti-6Al-4V is proposed.",
+      "authors": [
+        "Mohammad Sayem Bin Abdullah",
+        "Vidit Tambi",
+        "Aditya Koneru",
+        "Dwayne Arola",
+        "Mamidala Ramulu"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, University of Washington, Seattle, WA 98195, USA",
+      "corresponding_authors": [
+        {
+          "name": "Mohammad Sayem Bin Abdullah",
+          "affiliation": "Department of Mechanical Engineering, University of Washington, Seattle, WA 98195, USA"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2026,
+      "date": "2026-01-28",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma19030524",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Microstructure",
+        "Toughness",
+        "Scanning electron microscope",
+        "Fracture toughness",
+        "Shear (geology)",
+        "Ultimate tensile strength",
+        "Ductility (Earth science)",
+        "Perpendicular",
+        "Surface finish",
+        "Fracture mechanics",
+        "Surface roughness",
+        "Delamination (geology)",
+        "Profilometer",
+        "Fracture (geology)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "ductility",
+          "build orientation"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了电子束粉末床熔融Ti-6Al-4V的缺口韧性，特别是构建方向的影响，与层1机械性能方向高度相关。",
+        "why_not_core": "No fatigue life or S-N data; focuses on impact toughness rather than cyclic fatigue behavior.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "electron beam powder bed fusion",
+          "notch toughness",
+          "build orientation",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "研究EB-PBF Ti-6Al-4V的缺口韧性受构建方向影响的机制。",
+          "method": "制备水平和垂直试样，进行微硬度、显微组织分析和冲击测试。",
+          "result": "垂直试样吸收冲击能量比水平试样高约46%，归因于裂纹扩展方向和延展性差异。",
+          "validation": "通过断口形貌、剪切唇宽度和表面粗糙度等实验数据验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the influence of build orientation on notch toughness of EB-PBF Ti-6Al-4V and its correlation with mechanical properties.",
+          "method": "Horizontal and vertical specimens were fabricated, and microhardness, microstructure, and impact tests were performed, along with fractography.",
+          "result": "Vertical orientation exhibited ~46% higher absorbed impact energy due to crack propagation perpendicular to prior-β grains and higher ductility.",
+          "validation": "Validated by shear lip measurements, fracture surface roughness, and correlations with tensile properties."
+        },
+        "key_terms": [
+          {
+            "en": "electron beam powder bed fusion",
+            "zh": "电子束粉末床熔融"
+          },
+          {
+            "en": "notch toughness",
+            "zh": "缺口韧性"
+          },
+          {
+            "en": "build orientation",
+            "zh": "构建方向"
+          },
+          {
+            "en": "impact energy",
+            "zh": "冲击能量"
+          },
+          {
+            "en": "shear lip",
+            "zh": "剪切唇"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:23:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7125897709",
+      "doi": "10.1007/s40964-025-01510-w",
+      "title": "Parameter optimization for low-porosity Ti-6Al-4V parts produced using accelerated PBF-LB process",
+      "abstract": "Abstract In this study, the influence of various process parameters on the porosity of Ti-6Al-4V parts fabricated via Powder Bed Fusion – Laser Based (PBF-LB) is investigated. Three different layer thicknesses (30 μm, 60 μm, and 120 μm) were analyzed to define process windows enabling a build-rate acceleration while keeping the porosity below 0.1%. Through iterative parameter refinement, the effects of laser power, scan speed and hatch distance were examined in terms of linear energy density (LED), energy transmission density (ETD) and volumetric energy density (VED), and their influence on the formation of process-related defects such as pores. Correlations between these energy metrics and pore formation types (keyhole vs. lack-of-fusion) are discussed. The results demonstrate that process acceleration by a factor of more than 3 is possible while maintaining high quality of the components in terms of internal porosity. In addition, an accelerated method for manufacturing components using the PBF-LB process is presented, in which components are manufactured at very high build-rates but with increased porosity and then brought to the target porosity of 0.1% using the HIP process. This has made it possible to accelerate the build-rate in PBF-LB production by a further 32%. Accounting for the additional time required for HIP, the HIP route is faster than using the accelerated, which achieves the target porosity in as-built condition, for parts larger than 1421 cm 3 .",
+      "authors": [
+        "Felix Jensch",
+        "Alexander Sviridov",
+        "Sergej Dubinin",
+        "Fatih Karabulut",
+        "Sabine Weiß",
+        "Sebastian Härtel"
+      ],
+      "first_author_affiliation": "Chair of Hybrid Manufacturing, Brandenburg University of Technology Cottbus–Senftenberg, Cottbus, Germany",
+      "corresponding_authors": [
+        {
+          "name": "Felix Jensch",
+          "affiliation": "Chair of Hybrid Manufacturing, Brandenburg University of Technology Cottbus–Senftenberg, Cottbus, Germany"
+        }
+      ],
+      "venue": "Progress in Additive Manufacturing",
+      "year": 2026,
+      "date": "2026-01-28",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40964-025-01510-w",
+      "cited_by_count": 0,
+      "concepts": [
+        "Porosity",
+        "Materials science",
+        "Acceleration",
+        "Process (computing)",
+        "Fusion",
+        "Energy (signal processing)",
+        "Process variable",
+        "Quality (philosophy)",
+        "Die (integrated circuit)",
+        "Mechanical engineering",
+        "Energy density",
+        "Pressing",
+        "Process engineering",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "本文虽涉及Ti-6Al-4V的增材制造工艺参数优化以降低孔隙率，但未进行任何力学或疲劳性能测试，与用户要求的力学/疲劳性能表征方向不直接相关。",
+        "why_not_core": "This paper does not present any mechanical or fatigue testing; it focuses solely on process parameter optimization for porosity reduction, without measuring tensile, yield, hardness, fatigue life, or any other mechanical property.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "PBF-LB",
+          "porosity",
+          "process optimization",
+          "HIP"
+        ],
+        "summary_zh": {
+          "motivation": "通过优化PBF-LB工艺参数，加速Ti-6Al-4V零件的制造并保持低孔隙率。",
+          "method": "实验研究不同层厚、激光功率、扫描速度和间距对孔隙率的影响，并用能量密度指标分析。",
+          "result": "实现了3倍以上加速制造且孔隙率低于0.1%，结合HIP可进一步加速32%。",
+          "validation": "通过孔隙率测量验证工艺窗口的有效性。"
+        },
+        "summary_en": {
+          "motivation": "This study aims to accelerate the build rate of Ti-6Al-4V parts via PBF-LB while maintaining porosity below 0.1% through process parameter optimization.",
+          "method": "The effects of layer thickness, laser power, scan speed, and hatch distance on porosity are experimentally investigated and analyzed using linear, transmission, and volumetric energy densities.",
+          "result": "A more than threefold increase in build rate is achieved with porosity under 0.1%, and combining with HIP enables an additional 32% acceleration for large parts.",
+          "validation": "Porosity measurements via microscopy or X-ray CT are used to validate the process windows."
+        },
+        "key_terms": [
+          {
+            "en": "powder bed fusion - laser based",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "linear energy density",
+            "zh": "线能量密度"
+          },
+          {
+            "en": "volumetric energy density",
+            "zh": "体积能量密度"
+          },
+          {
+            "en": "keyhole porosity",
+            "zh": "匙孔孔隙"
+          },
+          {
+            "en": "lack-of-fusion porosity",
+            "zh": "未熔合孔隙"
+          },
+          {
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:23:51Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 3,
+    "by_source": {
+      "openalex": 3
+    },
+    "after_dedup": 3,
+    "after_routing": 3,
+    "by_direction": {
+      "ti6al4v_femoral_stem": 1,
+      "ti6al4v_base_mechanical_fatigue": 2
+    },
+    "routed_by_source": {
+      "openalex": 3
+    },
+    "scored": 3,
+    "priority_counts": {
+      "Low": 2,
+      "High": 1
+    }
+  }
+}

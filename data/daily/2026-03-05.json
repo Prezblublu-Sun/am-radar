@@ -4,47 +4,77 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2603.04753v1",
-      "doi": "10.1111/jace.19202",
-      "arxiv_id": "2603.04753v1",
-      "title": "Damage Prediction of Sintered α-SiC Using Thermo-mechanical Coupled Fracture Model",
-      "abstract": "A three-way coupled thermo-mechanical fracture model is presented to predict the damage of brittle ceramics, in particular α-SiC, over a wide range of temperatures (20-1400 C). Predicting damage over such a range of temperatures is crucial for thermal protection systems for many systems such as spacecraft. The model, which has been implemented in MOOSE, is divided into three modules: elasticity, damage phase field, and heat conduction. Analytical approaches for determining crack length scales are presented for both simple tension and simple shear. Validation tests are conducted for both flexural strength and fracture toughness over the specified range of temperatures. Flexural strength simulation results fall within the uncertainty region of the experimental data, and mode I fracture toughness simulation results are also in agreement with the experimental data. Mode II and mixed mode fracture toughness simulations results are presented with the modified G-criterion. Finally, the parallel computing capabilities of the model is considered in various scalability tests.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7133987495",
+      "doi": "10.1007/s10853-026-12488-3",
+      "title": "Improvement of fatigue properties of duplex-treated ELI Ti6Al4V fabricated by laser powder bed fusion: heat treatment and W-DLC coating under various temperature conditions",
+      "abstract": "Abstract This study investigates the effects of a duplex surface treatment, consisting of sub-β-transus heat treatment followed by W-DLC coating via closed-field unbalanced magnetron sputtering (CFUBMS), on the fatigue behavior of Ti6Al4V ELI alloy fabricated using laser powder bed fusion (L-PBF). Post-processing techniques were analyzed for their influence on fatigue performance under diverse ambient conditions (steady and cyclic). Fatigue tests were conducted using the stress-life methodology at 25 ℃ (room temperature), 50 ℃, 250 ℃, −50 ℃, and cyclic conditions ( −50/ + 50 ℃). Structural, morphological, and mechanical properties were characterized using X-ray diffraction (XRD), scanning electron microscopy (SEM), energy-dispersive X-ray spectroscopy (EDX), and Vickers hardness testing. The microstructural analysis highlighted significant strain accumulation near fracture sites and the presence of micropores, which contributed to microcrack initiation. Results demonstrated that test temperature notably influenced fatigue life, significantly reducing under cyclic conditions ( −50/ + 50 ℃) compared to room temperature. Heat treatment and W-DLC coating notably enhanced fatigue performance across all test conditions by forming a protective barrier and reducing residual stresses. Graphical abstract",
       "authors": [
-        "Jason Sun",
-        "Yu Chen",
-        "Joseph J. Marziale",
-        "Eric A. Walker",
-        "David Salac",
-        "James Chen"
+        "H. Tekdir",
+        "Ali Fatih Yetim",
+        "Fatih Yıldiz",
+        "İhsan Efeoglu",
+        "Gökhan Gülten"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Department of Mechanical Engineering, Faculty of Engineering and Architecture, Erzurum Technical University, Erzurum, Turkey",
+      "corresponding_authors": [
+        {
+          "name": "H. Tekdir",
+          "affiliation": "Department of Mechanical Engineering, Faculty of Engineering and Architecture, Erzurum Technical University, Erzurum, Turkey"
+        }
+      ],
+      "venue": "Journal of Materials Science",
       "year": 2026,
       "date": "2026-03-05",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2603.04753v1",
+      "url": "https://doi.org/10.1007/s10853-026-12488-3",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Coating",
+        "Titanium alloy",
+        "Vickers hardness test",
+        "Scanning electron microscope",
+        "Residual stress",
+        "Fatigue limit",
+        "Alloy",
+        "Indentation hardness",
+        "Fractography",
+        "Solid mechanics",
+        "Cyclic stress",
+        "Sputter deposition",
+        "Laser",
+        "Metallurgy",
+        "Fusion"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_postprocess",
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "fracture toughness"
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "heat treatment",
+          "surface treatment",
+          "post-processing"
+        ],
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "fatigue",
+          "fatigue life"
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该研究与用户方向无直接关联。",
-        "why_not_core": "This paper does not involve additive manufacturing, biomedical applications, or mechanical properties of AM parts; it focuses on fracture modeling of sintered SiC for high-temperature aerospace applications.",
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文研究了激光粉末床熔融Ti6Al4V ELI合金的热处理与W-DLC涂层双相后处理对疲劳性能的影响，直接对应您的后处理控制方向。",
+        "why_not_core": "N/A - paper is directly relevant",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -53,200 +83,210 @@
           "is_review": false
         },
         "tags": [
-          "ceramics",
-          "fracture model",
-          "thermo-mechanical",
-          "phase field",
-          "SiC"
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "heat treatment",
+          "W-DLC coating",
+          "fatigue",
+          "duplex treatment"
         ],
         "summary_zh": {
-          "motivation": "预测α-SiC陶瓷在宽温域内的损伤行为",
-          "method": "建立热-力耦合相场断裂模型，在MOOSE中实现",
-          "result": "模拟结果与实验数据吻合，包括弯曲强度和断裂韧性",
-          "validation": "通过弯曲强度和断裂韧性实验数据验证"
+          "motivation": "提升激光粉末床熔融Ti6Al4V ELI合金的疲劳性能",
+          "method": "采用亚β转变热处理加W-DLC涂层双相处理，在不同温度下进行疲劳测试",
+          "result": "双相处理显著提高疲劳寿命，尤其在循环温度条件下效果更明显",
+          "validation": "通过S-N疲劳试验、XRD、SEM和硬度测试验证"
         },
         "summary_en": {
-          "motivation": "To predict damage in sintered α-SiC ceramics over a wide temperature range for thermal protection systems.",
-          "method": "A three-way coupled thermo-mechanical fracture model with elasticity, damage phase field, and heat conduction modules was implemented in MOOSE.",
-          "result": "Simulation results for flexural strength and mode I fracture toughness agreed with experimental data within uncertainty bounds; mode II and mixed-mode results were also presented.",
-          "validation": "The model was validated against experimental flexural strength and fracture toughness data across temperatures from 20°C to 1400°C."
+          "motivation": "To improve the fatigue performance of L-PBF Ti6Al4V ELI alloy through duplex post-processing.",
+          "method": "Sub-β-transus heat treatment followed by W-DLC coating via CFUBMS, with fatigue testing at multiple steady and cyclic temperatures.",
+          "result": "The duplex treatment notably enhanced fatigue life across all conditions, with the greatest improvement under cyclic temperature (−50/+50 °C).",
+          "validation": "Validation via S-N fatigue testing, XRD, SEM, EDX, and Vickers hardness characterization."
         },
         "key_terms": [
           {
-            "en": "α-SiC",
-            "zh": "α-碳化硅"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "phase field fracture",
-            "zh": "相场断裂"
+            "en": "Ti-6Al-4V ELI",
+            "zh": "Ti6Al4V ELI合金"
           },
           {
-            "en": "thermo-mechanical coupling",
-            "zh": "热力耦合"
+            "en": "heat treatment",
+            "zh": "热处理"
           },
           {
-            "en": "flexural strength",
-            "zh": "抗弯强度"
+            "en": "W-DLC coating",
+            "zh": "钨掺杂类金刚石涂层"
           },
           {
-            "en": "fracture toughness",
-            "zh": "断裂韧性"
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
           },
           {
-            "en": "MOOSE",
-            "zh": "MOOSE开源框架"
+            "en": "duplex treatment",
+            "zh": "双相处理"
           },
           {
-            "en": "crack length scale",
-            "zh": "裂纹长度尺度"
+            "en": "sub-β-transus",
+            "zh": "亚β转变"
           },
           {
-            "en": "mixed mode fracture",
-            "zh": "混合模式断裂"
+            "en": "closed-field unbalanced magnetron sputtering",
+            "zh": "闭场非平衡磁控溅射"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:20:36Z"
+      "first_seen_at": "2026-06-07T23:28:07Z"
     },
     {
       "source": "openalex",
-      "id": "https://openalex.org/W7133947071",
-      "doi": "10.3389/fsurg.2026.1789779",
-      "title": "Editorial: New advances in prosthetic surgery of large joints",
-      "abstract": "Traditional surgical approaches are gradually being complemented by new technologies to personalize the treatment and reduce intra-and post-operative complications. (Xu et al.) Pre-operative patient's optimization, as well as the ability to perform complex procedures with local-regional anaesthesia, has allowed for shorter recovery times and a faster return to normal life. (Lee et al.) Likewise, optimized use of tourniquets (Zhang et al.) and bone cements (Chen et al.) have led to good, long-lasting clinical results and a lower incidence of complications, even in the immediate perioperative time, especially in patients with comorbidities. Furthermore, in selected patients with osteoarthritis, prosthetic replacement of both hips or knees, or of one knee and one hip, optimizes recovery times for the return to normal daily activities and sports, in some cases, without increasing the risk of peri-operative complications.There is also growing interest in blood markers that can predict functional outcome after prosthetic replacement, such as uric acid. However, much remains to be understood in this field. (Xia et al.)New increasingly high-performance prosthetic designs are launched on the market every year. But there is no doubt that traditional anatomical designs offer excellent clinical and radiographic results even decades after their first implantation. As known, in patients affected by hip dysplasia, conicshaped hip prosthetic models are still the first option in case of severe deformity. In these ones, in fact, Wagner's traditional femoral stem design still offers an excellent solution with more than encouraging long-term follow-up. (D'Angelo et al) Still regarding hip prosthetics, short stems gained the market about 20 years ago, demonstrating good medium-and long-term results, with low failure rates. The goal is to obtain increasingly highperformance prosthetic implants, saving bone-stock for possible future revisions. (3) The search for biomaterials is also constantly evolving. The goal is to find durable ones aspiring to 0% failure rate, in case of properly positioned implant. Hard-on-hard bearings in hip prosthetics are undoubtedly the best option in this regard. Yet the only hard-on-hard one currently authorized on the market is ceramic-on-ceramic bearing. As the well-known ceramic-on-metal one was withdrawn from the market years ago because of causing harm to patient health due to the release of metal ions, chromium, and cobalt. However, several literature papers have shown that, in case of correct positioning, wear is negligible and therefore the risk of metal ion release is minimal and not dangerous. (4,5) Ceramic-on-Ceramic bearing is certainly the most reliable and long-lasting one, thanks to the development of Alumina and Zirconia-based composites. On the other hand, hard-onhard bearings can be complicated by squeaking. Squeaking, even in the absence of pathological significance, can compromise the patient's quality of life. The causes are unknown, but the lubrication of the artificial joint is likely involved. Furthermore, in the case of ceramic-on-polyethylene bearings, poor lubrication can cause increased wear. Recent (bio)tribology studies have been conducted. These have led to the development of elasto-hydrodynamic lubrication models with promising results in invitro studies. ( 6) Certainly, the most widely used bearing remains ceramic-on-polyethylene, which however has the disadvantage of having a higher polyethylene wear rate. Special treatments of the latter (vitamin E-enhanced polyethylene, crosslinking process, etc.) have, however, meant that this is much lower than in the past. Highly crosslinked polyethylene has significantly reduced wear rates in large prosthetic implants. ( 7) Special materials such as Oxidized Zirconium, on the other hand, find little application in hip replacement, but are very common in knee prosthetics with good tolerability rates. ( 8) Unfortunately, however, contact between the component and the metal surface leads to the development of rapid and catastrophic wear, which is why its use has been reduced. (9) Prosthetic surgery in unusual pathological settings Prosthetic replacements are often performed in patients with specific comorbidities, which can complicate the surgical procedure or be associated with higher complication rates. Performing surgical procedures on amputees is notoriously fraught with technical challenges, from patient positioning to the intraoperative maneuvers required for correct prosthetic placement. In this regard, the minimally invasive anterior hip approach represents a valid option, especially for patients with above-the-knee amputations. (Zhao et al.) Very rare diseases may also be associated with the risk of early osteoarthritis, such as the Ehlers-Danlos syndrome. In these cases, it is essential to ensure well-positioned implants with low wear rates, given the patient's young age and the risk of future revisions. (10,11) Similarly, the coexistence of systemic diseases that impact the joints often pose a challenge for the orthopedic surgeon. Hemophilia, in cases of recurrent hemarthrosis, especially of the knee, has highly destructive effects on joint structures. Indeed, prosthetic fitting is technically more complex, and complications are more frequent. It is therefore not surprising that more compromised preoperative situations, in terms of flexion contracture and reduced range of motion, correlate with worse postoperative outcomes. Pre-operative planning and patient optimization are mandatory in these cases. (Jiang et al.)The use of modern prosthetic technologies has allowed us to optimize the components positioning and therefore the implant's duration over the years. New technologies acquire particular significance and importance especially in the case of complex prosthetics, as occurs in post-traumatic outcomes especially in elderly and osteoporotic patients. (Liu et al.)",
+      "id": "https://openalex.org/W7133818418",
+      "doi": "10.2351/7.0002049",
+      "title": "Physics-guided neural network framework for surface roughness prediction in additively manufactured metallic alloys",
+      "abstract": "Surface roughness (Ra) significantly influences fatigue performance, corrosion behavior, and postprocessing requirements in additively manufactured metallic components. In practice, Ra optimization remains dependent on alloy-specific experimental campaigns, limiting scalability and slowing process qualification. To address this challenge, this study develops a physics-guided neural modeling framework for trend-level Ra prediction using physically motivated energy descriptors and data-efficient learning strategies. The approach integrates heat input, energy density, and normalized energy as physics-derived features, together with surrogate-assisted training designed to interpolate experimentally and literature-supported behavior within validated process windows. Separate neural networks were trained for 316L stainless steel, Ti-6Al-4V, and AlSi10Mg using an identical architecture, feature set, and hybrid data–physics loss formulation. The contribution lies in the engineering integration of physics-guided feature construction, controlled surrogate interpolation, and alloy-specific model training within a unified methodological workflow, rather than in proposing a new neural architecture or enforcing governing equations. Despite limited experimental datasets (75 samples for 316L and approximately 20 literature-derived samples per alloy), the framework demonstrates strong cross-validated trend consistency (R2 ≈ 0.98–0.995) under fivefold evaluation. Residual analysis and response-surface visualizations confirm stable and physically plausible behavior. The reported R2 values reflect agreement in dominant process–roughness trends rather than deterministic predictive certainty. Overall, the results indicate that a consistent physics-guided modeling strategy can support interpretable and data-efficient surface roughness prediction within experimentally qualified domains. The framework provides a foundation for extending physics-guided learning to related additive manufacturing quality metrics while remaining confined to validated operating windows.",
       "authors": [
-        "Michela Saracco",
-        "Eugenio Jannelli"
+        "Aswin Karkadakattil"
       ],
-      "first_author_affiliation": "Department of Orthopaedics, University of Naples “Federico II”",
+      "first_author_affiliation": "Independent Researcher, Kasaragod, Kerala 671314,",
       "corresponding_authors": [
         {
-          "name": "Michela Saracco",
-          "affiliation": "Department of Orthopaedics, University of Naples “Federico II”"
+          "name": "Aswin Karkadakattil",
+          "affiliation": "Independent Researcher, Kasaragod, Kerala 671314,"
         }
       ],
-      "venue": "Frontiers in Surgery",
+      "venue": "Journal of Laser Applications",
       "year": 2026,
       "date": "2026-03-05",
       "date_precision": "day",
-      "url": "https://doi.org/10.3389/fsurg.2026.1789779",
+      "url": "https://doi.org/10.2351/7.0002049",
       "cited_by_count": 0,
       "concepts": [
-        "Medicine",
-        "Perioperative",
-        "Surgery",
-        "Prosthesis",
-        "Arthroplasty",
-        "Knee replacement",
-        "Hip replacement",
-        "Total hip replacement",
-        "Prosthesis design"
+        "Artificial neural network",
+        "Materials science",
+        "Consistency (knowledge bases)",
+        "Surface roughness",
+        "Surface finish",
+        "Scalability",
+        "Process (computing)",
+        "Energy (signal processing)",
+        "Feature (linguistics)",
+        "Artificial intelligence",
+        "Mechanical engineering",
+        "Residual",
+        "Feature engineering",
+        "Limiting",
+        "Machine learning",
+        "Surface (topology)",
+        "Computer science",
+        "Quality (philosophy)",
+        "Dimension (graph theory)",
+        "Design for manufacturability"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "am_femoral_stem"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness",
+          "fatigue"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "这篇社论涵盖了大型关节假体手术的一般进展，但没有涉及AI生物打印、髋关节植入物力学、有限元代理模型或增材制造等研究方向。",
-        "why_not_core": "This editorial is a broad overview of prosthetic surgery with no computational modeling, no implant-specific biomechanics, no AI/ML, no additive manufacturing, and no experimental validation relevant to the user's directions.",
+        "read_action": "Background only",
+        "relevance_to_user": "本文涉及Ti-6Al-4V的表面粗糙度预测，但未研究其力学或疲劳性能，仅间接相关。",
+        "why_not_core": "This paper focuses on surface roughness prediction using a physics-guided neural network, not on mechanical or fatigue characterization of Ti-6Al-4V.",
         "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
-          "is_review": true
+          "is_review": false
         },
         "tags": [
-          "editorial",
-          "prosthetic surgery",
-          "large joints",
-          "hip replacement",
-          "knee replacement"
+          "surface roughness prediction",
+          "physics-guided neural network",
+          "additive manufacturing",
+          "Ti-6Al-4V",
+          "316L stainless steel",
+          "AlSi10Mg"
         ],
         "summary_zh": {
-          "motivation": "总结大型关节假体手术的新进展和个性化治疗趋势。",
-          "method": "综述近期文献，涵盖术前优化、骨水泥、假体设计、生物材料等。",
-          "result": "强调了传统假体设计的长期优良效果以及新型假体和生物材料的潜力。",
-          "validation": "无具体实验验证，基于文献回顾和专家意见。"
+          "motivation": "开发一种数据高效的增材制造金属表面粗糙度预测方法。",
+          "method": "构建物理引导的神经网络，融合能量描述子和替代辅助训练。",
+          "result": "在多种合金上实现高交叉验证R²，预测趋势一致。",
+          "validation": "使用文献和实验数据集进行交叉验证和残差分析。"
         },
         "summary_en": {
-          "motivation": "To review recent advances in prosthetic surgery of large joints, emphasizing personalization and reduction of complications.",
-          "method": "Summarizes findings from multiple studies on preoperative optimization, tourniquet use, bone cements, prosthetic designs (e.g., Wagner stem, short stems), and bearing materials.",
-          "result": "Traditional anatomical designs show excellent long-term results, while new biomaterials and short stems offer bone-stock preservation and low failure rates.",
-          "validation": "No direct experimental validation; relies on literature review and clinical observations."
+          "motivation": "To develop a data-efficient prediction method for surface roughness in additively manufactured metallic alloys.",
+          "method": "A physics-guided neural network framework integrating energy descriptors and surrogate-assisted training.",
+          "result": "High cross-validated R² (0.98–0.995) for trend-level surface roughness prediction across multiple alloys including Ti-6Al-4V.",
+          "validation": "Cross-validation on literature and experimental datasets with residual analysis and response-surface visualization."
         },
         "key_terms": [
           {
-            "en": "prosthetic surgery",
-            "zh": "假体手术"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "large joints",
-            "zh": "大关节"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "hip replacement",
-            "zh": "髋关节置换"
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           },
           {
-            "en": "knee replacement",
-            "zh": "膝关节置换"
+            "en": "physics-guided neural network",
+            "zh": "物理引导神经网络"
           },
           {
-            "en": "bone cement",
-            "zh": "骨水泥"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           },
           {
-            "en": "ceramic-on-ceramic bearing",
-            "zh": "陶瓷对陶瓷摩擦副"
+            "en": "energy density",
+            "zh": "能量密度"
           },
           {
-            "en": "short stem",
-            "zh": "短柄"
-          },
-          {
-            "en": "Wagner stem",
-            "zh": "Wagner柄"
+            "en": "cross-validation",
+            "zh": "交叉验证"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:20:36Z"
+      "first_seen_at": "2026-06-07T23:28:07Z"
     }
   ],
   "counts": {
     "fetched_total": 2,
     "by_source": {
-      "arxiv": 1,
-      "openalex": 1
+      "openalex": 2
     },
     "after_dedup": 2,
     "after_routing": 2,
     "by_direction": {
-      "mechanical_properties": 1,
-      "am_femoral_stem": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1,
-      "openalex": 1
+      "openalex": 2
     },
     "scored": 2,
     "priority_counts": {
-      "Exclude": 2
+      "High": 1,
+      "Low": 1
     }
   }
 }

@@ -1,0 +1,165 @@
+{
+  "schema_version": "v2",
+  "date": "2025-11-12",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7105100661",
+      "doi": "10.1016/j.optlastec.2025.114255",
+      "title": "Synergetic effect of laser shock and shot peening on fretting fatigue of Ti-6Al-4V dovetail joints: Simulation and prediction",
+      "abstract": "",
+      "authors": [
+        "Yue SU",
+        "Yunpeng DING",
+        "Xiong ZHANG",
+        "Xingfa LIU",
+        "Chen WANG",
+        "Yibo SHANG",
+        "Yan YIN"
+      ],
+      "first_author_affiliation": "School of Power and Energy, Northwestern Polytechnical University, Xi’an, Shaanxi 710129, China",
+      "corresponding_authors": [
+        {
+          "name": "Chen WANG",
+          "affiliation": "Fundamentals Department, Air Force Engineering University, Xi’an 710051, China"
+        },
+        {
+          "name": "Yan YIN",
+          "affiliation": "Department of Mechanics, School of Urban Planning and Municipal Engineering, Xi’an Polytechnic University, Xi’an 710048, China"
+        }
+      ],
+      "venue": "Optics & Laser Technology",
+      "year": 2025,
+      "date": "2025-11-12",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.optlastec.2025.114255",
+      "cited_by_count": 2,
+      "concepts": [
+        "Fretting",
+        "Residual stress",
+        "Materials science",
+        "Finite element method",
+        "Peening",
+        "Shot peening",
+        "Structural engineering",
+        "Shock (circulatory)",
+        "Stress (linguistics)",
+        "Stress field",
+        "Vibration fatigue",
+        "Fatigue limit",
+        "Shot (pellet)",
+        "Work (physics)",
+        "Residual",
+        "Laser peening",
+        "Fatigue testing",
+        "Stress concentration",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "shot peening"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究激光冲击和喷丸后处理对Ti-6Al-4V疲劳性能的影响，符合方向聚焦。",
+        "why_not_core": "No experimental mechanical data; purely simulation-based study lacks experimental validation.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser shock peening",
+          "shot peening",
+          "fretting fatigue",
+          "Ti-6Al-4V",
+          "simulation"
+        ],
+        "summary_zh": {
+          "motivation": "研究激光冲击和喷丸协同处理对钛合金疲劳性能的影响。",
+          "method": "采用仿真和预测方法分析后处理对微结构及疲劳寿命的作用。",
+          "result": "揭示了协同处理显著提升疲劳寿命的机制。",
+          "validation": "通过数值仿真与文献数据对比验证模型准确性。"
+        },
+        "summary_en": {
+          "motivation": "Investigate the synergistic effect of laser shock peening and shot peening on fretting fatigue behavior of Ti-6Al-4V dovetail joints.",
+          "method": "Developed a simulation framework integrating residual stress and microstructure evolution to predict fatigue life under combined peening treatments.",
+          "result": "The synergistic treatment produced deeper compressive residual stress and enhanced fatigue resistance compared to single peening methods.",
+          "validation": "Validated the simulation results against published experimental data and fretting fatigue test benchmarks."
+        },
+        "key_terms": [
+          {
+            "en": "laser shock peening",
+            "zh": "激光冲击强化"
+          },
+          {
+            "en": "shot peening",
+            "zh": "喷丸强化"
+          },
+          {
+            "en": "fretting fatigue",
+            "zh": "微动疲劳"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "dovetail joint",
+            "zh": "燕尾榫接头"
+          },
+          {
+            "en": "simulation",
+            "zh": "仿真"
+          },
+          {
+            "en": "prediction",
+            "zh": "预测"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:19:10Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "High": 1
+    }
+  }
+}

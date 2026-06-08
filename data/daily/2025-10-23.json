@@ -4,121 +4,285 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2510.20536v1",
-      "doi": "10.1016/j.matchar.2023.113060",
-      "arxiv_id": "2510.20536v1",
-      "title": "The effects of high-temperature ion-irradiation on early-stage grain boundaries serrations formation in Ni-based alloys",
-      "abstract": "Nickel based superalloys display outstanding properties such as excellent creep strength, remarkable fracture toughness parameters, and corrosion resistance. For this reason, Ni based materials are considered as materials dedicated to the IV generation of nuclear reactors. Although these materials seem promising candidates, their radiation resistance and impact of radiation damage on the deformation mechanism are still not fully understood. In this work, two commercially available nickel based alloys, Hastelloy X and Haynes 230, were investigated. Structural and mechanical properties have been described by means of SEM and EBSD, TEM, and nanoindentation tests. Radiation damage has been performed by Ar ion with energy 320keV with two doses up to 12dpa. Obtained results have revealed a hardening effect for both levels of damage. However, more intensive effects were observed for Hastelloy X. Moreover, a significant change in precipitates morphology in Hastelloy X has been observed. It has been proposed that structural differences between both alloys determine the type of occurring radiation induced processes. Excess energy deposited into materials structure during ion irradiation can lower the temperature of nucleation of high temperature phases, which initiates the formation of grain boundary serrations.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4415489466",
+      "doi": "10.3390/met15111170",
+      "title": "The Tribological Behavior of Electron Beam Powder Bed Fused Ti-6Al-4V: A Review",
+      "abstract": "This article comprehensively reviews the tribological behavior of a Ti-6Al-4V alloy manufactured via electron beam powder bed fusion (EB-PBF), an additive manufacturing process for aerospace and biomedical applications. EB-PBF Ti-6Al-4V demonstrates wear resistance that is superior or comparable to conventional Ti-6Al-4V. The reported average friction coefficient ranges between ~0.22 and ~0.75 during sliding wear in dry and lubricated conditions against metallic and ceramic counterparts when loading 1–50 N under varied surface and heat treatment conditions, and between 1.29 and 2.2 during fretting wear against EB-PBF Ti-6Al-4V itself. The corresponding average specific wear rates show a broad range between ~8.20 × 10−5 mm3/Nm and ~1.30 × 10−3 mm3/Nm during sliding wear. Lubrication reduces the wear rates and/or the friction coefficient. Wear resistance can be improved via machining and heat treatment. Wear anisotropy is reported and primarily attributed to microhardness variations, which can be mitigated through lubrication and post-processing. The effects of applied load and frequency on EB-PBF Ti-6Al-4V are also discussed. The wear resistance at elevated temperatures shows a mixed trend that depends on the counterpart material and the testing methods. Wear mechanisms involve oxide tribo-layer formation, abrasive wear, and adhesive wear. Current limitations, future research directions, and a standardization framework are also discussed.",
       "authors": [
-        "M. Frelek-Kozak",
-        "K. Mulewska",
-        "M. Wilczopolska",
-        "D. Kalita",
-        "W. Chrominski",
-        "A. Zaborowska",
-        "L. Kurpaska",
-        "J. Jagielski"
+        "Mohammad Sayem Bin Abdullah",
+        "M. Ramulu"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Department of Mechanical Engineering, University of Washington, Seattle, WA 98195, USA",
+      "corresponding_authors": [
+        {
+          "name": "M. Ramulu",
+          "affiliation": "Department of Mechanical Engineering, University of Washington, Seattle, WA 98195, USA"
+        }
+      ],
+      "venue": "Metals",
       "year": 2025,
       "date": "2025-10-23",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2510.20536v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.3390/met15111170",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Tribology",
+        "Lubrication",
+        "Abrasive",
+        "Ceramic",
+        "Fretting",
+        "Composite material",
+        "Metallurgy",
+        "Machining",
+        "Lubricity",
+        "Indentation hardness",
+        "Alloy",
+        "Friction coefficient",
+        "Surface roughness",
+        "Abrasion (mechanical)",
+        "Wear coefficient",
+        "Delamination (geology)",
+        "Wear resistance",
+        "Surface finish"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "fracture toughness"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment",
+          "machining",
+          "post-processing"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该综述讨论了后处理对EB-PBF Ti-6Al-4V磨损性能的影响，但未涉及疲劳或力学性能，与方向重点不符。",
+        "why_not_core": "Does not investigate fatigue or tensile performance; covers wear resistance only, and is a review without new experimental data.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": true
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "electron beam powder bed fusion",
+          "tribology",
+          "wear",
+          "post-processing",
+          "review"
+        ],
+        "summary_zh": {
+          "motivation": "综述EB-PBF Ti-6Al-4V的摩擦学行为及其后处理影响。",
+          "method": "系统回顾文献，总结磨损机理和后处理效果。",
+          "result": "后处理可改善磨损性能，但疲劳性能未涉及。",
+          "validation": "无实验验证，基于文献综述。"
+        },
+        "summary_en": {
+          "motivation": "This review summarizes the tribological behavior of electron beam powder bed fused Ti-6Al-4V with emphasis on the role of post-processing treatments.",
+          "method": "A comprehensive literature review was conducted covering friction, wear rates, and mechanisms under various conditions including post-processing such as machining and heat treatment.",
+          "result": "Post-processing can improve wear resistance, but the effects on fatigue and tensile performance are not addressed.",
+          "validation": "No experimental validation; conclusions are drawn from aggregated literature data."
+        },
+        "key_terms": [
+          {
+            "en": "electron beam powder bed fusion",
+            "zh": "电子束粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "tribological behavior",
+            "zh": "摩擦学行为"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "machining",
+            "zh": "机加工"
+          },
+          {
+            "en": "friction coefficient",
+            "zh": "摩擦系数"
+          },
+          {
+            "en": "wear rate",
+            "zh": "磨损率"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:17:25Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415469326",
+      "doi": "10.1038/s41598-025-21129-9",
+      "title": "Structural influence on titanium ion dissolution in 3D-printed Ti6Al4V orthopedic implants",
+      "abstract": "3D printed orthopedic implants have emerged as innovative solutions for treating bone tumors, offering advantages such as patient-specific customization and faster production compared to conventional manufacturing methods. However, elevated concentrations of titanium (Ti) ions in the bloodstream have frequently been observed following limb salvage surgery using 3D printed Ti6Al4V implants, which could lead to systemic toxicity and critical implant failure. In this study, we characterize the Ti dissolution phenomenon associated with 3D printed implants. Finite element analysis (FEA) of full-scale pelvic and tibial implants revealed that large mesh surface areas designed for implant-tissue integration can accelerate corrosion. Microstructural analyses of cubical Ti6Al4V samples with solid, mesh, and solid-mesh hybrid geometries revealed that galvanic coupling between the alpha (α) and beta (β) phases drives localized corrosion. A notable difference in β-phase content-ranging from 145% to 200%-was observed among the three cases, with the highest β-phase content in the mesh structures. These findings indicate that although mesh structures are essential for implant-tissue bonding, they can significantly promote Ti ion release, potentially compromising the mechanical integrity of the implant over time. Careful design and surface treatment strategies are therefore needed to balance biological integration with long-term material stability.",
+      "authors": [
+        "Eunhyeok Seo",
+        "Yu Na Lee",
+        "Woo Yeong Shin",
+        "Kyunghwan Kim",
+        "Sehoon Jung",
+        "Hyun Guy Kang",
+        "R Kim",
+        "Hyokyung Sung",
+        "Im Doo Jung",
+        "Jong Woong Park"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, Ulsan National Institute of Science and Technology, UNIST-Gil 50, Ulsan, 44919, Republic of Korea",
+      "corresponding_authors": [
+        {
+          "name": "Eunhyeok Seo",
+          "affiliation": "Department of Mechanical Engineering, Ulsan National Institute of Science and Technology, UNIST-Gil 50, Ulsan, 44919, Republic of Korea"
+        }
+      ],
+      "venue": "Scientific Reports",
+      "year": 2025,
+      "date": "2025-10-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1038/s41598-025-21129-9",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Titanium alloy",
+        "Titanium",
+        "Dissolution",
+        "Implant",
+        "Biomedical engineering",
+        "3d printed",
+        "Osseointegration",
+        "Orthopedic surgery",
+        "Biocompatibility",
+        "Surface modification",
+        "Galvanic cell",
+        "Dental implant"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "surface treatment"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究核反应堆用镍基合金的离子辐照效应，与增材制造力学性能方向无关。",
-        "why_not_core": "This paper does not involve additive manufacturing, mechanical properties of AM parts, or any biomedical implant context.",
-        "validation_kind": "mechanical_testing",
+        "relevance_to_user": "该论文研究3D打印Ti6Al4V植入物的钛离子溶解问题，未涉及任何后处理工艺对力学性能的影响。",
+        "why_not_core": "No post-processing treatment is studied; the paper focuses on geometric and microstructural influences on corrosion, not on how post-processing modifies fatigue or mechanical performance of AM Ti-6Al-4V.",
+        "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
+          "is_patient_specific": true,
           "is_review": false
         },
         "tags": [
-          "ion irradiation",
-          "Ni-based superalloys",
-          "grain boundaries",
-          "nanoindentation"
+          "titanium ion dissolution",
+          "orthopedic implants",
+          "Ti6Al4V",
+          "mesh structures",
+          "corrosion",
+          "finite element analysis"
         ],
         "summary_zh": {
-          "motivation": "研究镍基合金在离子辐照下晶界锯齿的形成机制。",
-          "method": "使用SEM/EBSD、TEM及纳米压痕测试表征辐照前后结构和力学性能。",
-          "result": "发现辐照导致硬化，且Hastelloy X中析出相形态显著变化。",
-          "validation": "实验验证，纳米压痕测试。"
+          "motivation": "研究3D打印Ti6Al4V植入物中钛离子溶出现象及其对长期稳定性的影响。",
+          "method": "通过有限元分析全尺寸植入物和微观结构分析不同几何形状的立方体样品。",
+          "result": "网状结构因β相含量高和电偶腐蚀加速钛离子释放。",
+          "validation": "有限元模拟与微观结构表征相结合。"
         },
         "summary_en": {
-          "motivation": "To investigate early-stage grain boundary serration formation in Ni-based superalloys under ion irradiation.",
-          "method": "Combined SEM/EBSD, TEM, and nanoindentation to characterize microstructural and mechanical changes after Ar ion irradiation.",
-          "result": "Irradiation induced hardening and precipitate morphology changes, with more pronounced effects in Hastelloy X.",
-          "validation": "Experimental characterization using nanoindentation and electron microscopy."
+          "motivation": "Elevated titanium ion concentrations in blood after limb salvage surgery with 3D-printed Ti6Al4V implants motivate investigation of dissolution mechanisms.",
+          "method": "Finite element analysis of full-scale pelvic and tibial implants and microstructural analysis of cubical samples with solid, mesh, and hybrid geometries were performed.",
+          "result": "Mesh structures exhibit higher β-phase content (145%-200%) and galvanic corrosion between α and β phases, accelerating Ti ion release.",
+          "validation": "The study combines FEA simulations with experimental microstructural characterization; no post-processing validation is included."
         },
         "key_terms": [
           {
-            "en": "ion irradiation",
-            "zh": "离子辐照"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V"
           },
           {
-            "en": "Ni-based superalloys",
-            "zh": "镍基高温合金"
+            "en": "titanium ion dissolution",
+            "zh": "钛离子溶出"
           },
           {
-            "en": "grain boundary serrations",
-            "zh": "晶界锯齿"
+            "en": "orthopedic implants",
+            "zh": "骨科植入物"
           },
           {
-            "en": "nanoindentation",
-            "zh": "纳米压痕"
+            "en": "finite element analysis",
+            "zh": "有限元分析"
           },
           {
-            "en": "precipitate morphology",
-            "zh": "析出相形貌"
+            "en": "mesh structures",
+            "zh": "网状结构"
           },
           {
-            "en": "hardening",
-            "zh": "硬化"
+            "en": "galvanic corrosion",
+            "zh": "电偶腐蚀"
+          },
+          {
+            "en": "β-phase content",
+            "zh": "β相含量"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:14:51Z"
+      "first_seen_at": "2026-06-07T23:17:25Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "arxiv": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
+      "Medium": 1,
       "Exclude": 1
     }
   }

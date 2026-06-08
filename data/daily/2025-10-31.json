@@ -4,62 +4,211 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2510.27228v1",
-      "doi": "",
-      "arxiv_id": "2510.27228v1",
-      "title": "High thermal conductivity of rutile-GeO$_2$ films grown by MOCVD: $52.9~\\mathrm{W\\,m^{-1}\\,K^{-1}}$",
-      "abstract": "Rutile germanium dioxide (r-GeO2) has recently emerged as a promising ultrawide-bandgap (UWBG) semiconductor owing to its wide bandgap (~4.4-5.1 eV), ambipolar doping potential, and high theoretical thermal conductivity. However, experimental data on the thermal conductivity of r-GeO2 epitaxial layers have not been reported, primarily due to challenges in phase control and surface roughness. Here, we report a high thermal conductivity of 52.9 +/- 6.6 W m^-1 K^-1 for high-quality (002) r-GeO2 films grown by metal-organic chemical vapor deposition (MOCVD) and characterized using time-domain thermoreflectance (TDTR). The phase control was achieved through a seed-driven stepwise crystallization (SDSC) approach, and the surface roughness was significantly reduced from 76 nm to 16 nm (locally as low as 1 A) via chemical mechanical polishing (CMP). These results highlight the promise of r-GeO2 as a UWBG oxide platform for power electronics applications.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4415927714",
+      "doi": "10.15353/hi-am.v1i1.6800",
+      "title": "Design of porous architectures in laser powder bed fusion: effect of hatch spacing and rotation angle on density and pore morphology",
+      "abstract": "Bone is a complex and hierarchical structure with the ability to provide extensive structural support to the body while also being lightweight for ease of motion. Bone can be damaged due to injury or illness, requiring the need for an orthopedic implant to enhance function, to provide structure and to encourage the growth of new bone. A challenge with current metal orthopedic implants is stress shielding, where there is a mismatch of mechanical moduli between the implant and human bone. When designing implants, it is important to tailor the mechanical response of the implant to natural bone to avoid stress shielding. This research explores a new method for implant design, incorporating pores stochastically using laser powder bed fusion (PBF-LB). This type of porosity is introduced into a solid metal part during printing by altering process parameters in PBF-LB. The density and pore morphology are dictated by the hatch spacing (100 – 500 µm) and rotation angle (60° and 67°). These structures were printed in Ti-6Al-4V. The effects of the hatch spacing and rotation angle on melt pool morphology and porosity were investigated, resulting in densities of 50.20 - 99.98% and columnar and stochastic pore morphologies.",
       "authors": [
-        "Imteaz Rahaman",
-        "Michael E. Liao",
-        "Ziqi Wang",
-        "Eugene Y. Kwon",
-        "Rui Sun",
-        "Botong Li",
-        "Hunter D. Ellis",
-        "Bobby G. Duersch",
-        "Dali Sun",
-        "Jun Liu",
-        "Mark S. Goorsky",
-        "Michael A. Scarpulla",
-        "Kai Fu"
+        "Rene Lam",
+        "Tomisin Oluwajuyigbe",
+        "Sagar Patel",
+        "Mohsen K. Keshavarz",
+        "Mihaela Vlasea"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Multi-Scale Additive Manufacturing Laboratory, Department of Mechanical and Mechatronics Engineering, University of Waterloo, Waterloo, Ontario, N2G 4X8, Canada",
+      "corresponding_authors": [
+        {
+          "name": "Rene Lam",
+          "affiliation": "Multi-Scale Additive Manufacturing Laboratory, Department of Mechanical and Mechatronics Engineering, University of Waterloo, Waterloo, Ontario, N2G 4X8, Canada"
+        }
+      ],
+      "venue": "Proceedings of the Holistic Innovation in Additive Manufacturing (HI-AM) Conference",
       "year": 2025,
       "date": "2025-10-31",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2510.27228v1",
+      "url": "https://doi.org/10.15353/hi-am.v1i1.6800",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Materials science",
+        "Porosity",
+        "Composite material",
+        "Rotation (mathematics)",
+        "Selective laser melting",
+        "Implant",
+        "Stress (linguistics)",
+        "Laser",
+        "Morphology (biology)",
+        "Fusion",
+        "Elastic modulus",
+        "Porous medium",
+        "3D printing"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_femoral_stem",
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
       "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "stress shielding",
+          "orthopedic implant"
         ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "porosity"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究二氧化锗薄膜的热导率，与增材制造力学性能无关。",
-        "why_not_core": "This paper does not involve additive manufacturing, mechanical testing, or any biomedical or implant-related context.",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究Ti-6Al-4V多孔结构工艺参数，未涉及股骨柄设计或力学性能，仅为背景知识。",
+        "why_not_core": "This paper does not study a femoral/hip stem design, does not include stress shielding analysis, stem fatigue testing, or structural design of an implant; it only investigates process-parameter-driven porosity without application to an implant geometry.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "porous architectures",
+          "hatch spacing",
+          "rotation angle",
+          "pore morphology",
+          "density",
+          "orthopedic implant",
+          "stress shielding"
+        ],
+        "summary_zh": {
+          "motivation": "开发一种通过工艺参数调控Ti-6Al-4V植入物随机孔隙以减轻应力遮挡的新方法。",
+          "method": "改变激光粉末床熔融中的扫描间距（100-500 µm）和旋转角（60°和67°）来控制孔隙率和形态。",
+          "result": "获得50.20%至99.98%的密度以及柱状和随机孔隙形态。",
+          "validation": "通过密度测量和孔隙形态分析进行实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To develop a method for creating stochastic porosity in Ti-6Al-4V orthopedic implants via process parameter manipulation to mitigate stress shielding.",
+          "method": "Varying hatch spacing (100–500 µm) and rotation angle (60° and 67°) in laser powder bed fusion to control density and pore morphology.",
+          "result": "Achieved densities ranging from 50.20% to 99.98% with columnar and stochastic pore morphologies.",
+          "validation": "Experimental validation through density measurements and pore morphology analysis."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "hatch spacing",
+            "zh": "扫描间距"
+          },
+          {
+            "en": "rotation angle",
+            "zh": "旋转角"
+          },
+          {
+            "en": "density",
+            "zh": "密度"
+          },
+          {
+            "en": "pore morphology",
+            "zh": "孔隙形态"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "stress shielding",
+            "zh": "应力遮挡"
+          },
+          {
+            "en": "orthopedic implant",
+            "zh": "骨科植入物"
+          },
+          {
+            "en": "stochastic porosity",
+            "zh": "随机孔隙"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:17:25Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415927331",
+      "doi": "10.15353/hi-am.v1i1.6779",
+      "title": "A multiscale design and fabrication approach to create biomimetic tunable implants using additive manufacturing",
+      "abstract": "Canadians across the country rely on hard-tissue implants such as hip, knee, and dental implants. Rises in aging populations are further increasing these needs, where diseases prevalent in elderly patients, such as osteoporosis (OP), contribute to these demands and can complicate osseointegration processes. To better serve these populations, current biomaterials used in bone implants must be improved, which can suffer failure from effects such as stress shielding, instability, inflammation, and aseptic loosening. In this work, a multiscale design and manufacturing approach using additive manufacturing (AM) was introduced to design tunable porous scaffolds with biomimetic hierarchical features. For tunable scaffold design, literature-driven design parameters found to be suitable for enhancing osseointegration and appropriate for AM were consulted. A Voronoi tessellation strategy was adopted to create dynamically tunable structures using a parametric modelling approach. In-model topology evaluation metrics (e.g. porosity, strut diameter, node connectivity, and intertrabecular angles) were included to provide designers insight into scaffold mimetics to different bone structures, key for considering site-specific locations and conditions, such as healthy versus OP bone. Current progress related to the materials and mechanical assessment of as-printed scaffold structures is shared. Select scaffold structures were produced using state-of-the-art laser powder bed fusion with Ti-6Al-4V. AM introduced micro-roughness, while chemical etching will induce engineered nanoscale texturing, which is anticipated to improve cellular adhesion and bone growth. Laser profilometry and scanning electron microscopy characterized surface roughness and morphology, while the influence of AM and computer-aided design (CAD) parameters on material properties in future will be assessed in mechanical testing. Overall, this work builds a foundation for the design of innovative biomimetic porous implants that can be tuned to meet patient-specific needs.",
+      "authors": [
+        "Ameen Subhi",
+        "Iris Quan",
+        "Liza‐Anastasia DiCecco"
+      ],
+      "first_author_affiliation": "Department of Systems Design Engineering, University of Waterloo, Waterloo, Ontario, N2L 3G1, Canada | Department of Kinesiology and Health Sciences, University of Waterloo, Waterloo, Ontario, N2L 3G1, Canada",
+      "corresponding_authors": [
+        {
+          "name": "Ameen Subhi",
+          "affiliation": "Department of Systems Design Engineering, University of Waterloo, Waterloo, Ontario, N2L 3G1, Canada | Department of Kinesiology and Health Sciences, University of Waterloo, Waterloo, Ontario, N2L 3G1, Canada"
+        }
+      ],
+      "venue": "Proceedings of the Holistic Innovation in Additive Manufacturing (HI-AM) Conference",
+      "year": 2025,
+      "date": "2025-10-31",
+      "date_precision": "day",
+      "url": "https://doi.org/10.15353/hi-am.v1i1.6779",
+      "cited_by_count": 0,
+      "concepts": [
+        "Scaffold",
+        "Osseointegration",
+        "Materials science",
+        "Nanotechnology",
+        "Surface roughness",
+        "Surface finish",
+        "Biomedical engineering",
+        "Fabrication",
+        "Stereolithography",
+        "Laser scanning",
+        "Computer science",
+        "Nanomanufacturing"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "porosity",
+          "surface roughness"
+        ],
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "stress shielding"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文提出了用于硬组织植入物的可调多孔支架设计方法，但未专门针对股骨柄结构设计或力学性能，与股骨柄研究方向关联较弱。",
+        "why_not_core": "The paper does not present a femoral stem design; it focuses on general porous scaffolds without stress shielding, micromotion, or stem fatigue analysis.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
@@ -67,63 +216,456 @@
           "is_patient_specific": false,
           "is_review": false
         },
-        "tags": [],
+        "tags": [
+          "additive manufacturing",
+          "Ti-6Al-4V",
+          "porous scaffolds",
+          "Voronoi tessellation",
+          "biomimetic implants",
+          "laser powder bed fusion"
+        ],
         "summary_zh": {
-          "motivation": "探索氧化锗薄膜的热导率性能",
-          "method": "采用MOCVD生长并抛光薄膜",
-          "result": "测得高热导率52.9 W/mK",
-          "validation": "时域热反射法验证"
+          "motivation": "设计可调的多孔支架以满足不同骨条件。",
+          "method": "采用Voronoi镶嵌和参数化建模方法，通过激光粉末床熔融制造Ti-6Al-4V支架。",
+          "result": "实现了具有仿生分级特征的支架，表面粗糙度可控。",
+          "validation": "目前仅进行表面表征，机械测试为未来工作。"
         },
         "summary_en": {
-          "motivation": "To experimentally determine the thermal conductivity of rutile GeO2 epitaxial films for power electronics.",
-          "method": "High-quality (002) r-GeO2 films were grown by MOCVD and polished via CMP, then characterized by TDTR.",
-          "result": "A high thermal conductivity of 52.9 W m^-1 K^-1 was achieved, demonstrating promise for UWBG applications.",
-          "validation": "Thermal conductivity measured by time-domain thermoreflectance (TDTR) with uncertainty quantification."
+          "motivation": "To design tunable porous scaffolds with biomimetic hierarchical features for hard-tissue implants.",
+          "method": "A Voronoi tessellation-based parametric modeling approach combined with laser powder bed fusion of Ti-6Al-4V.",
+          "result": "Scaffolds with controlled porosity, strut diameter, and surface roughness were fabricated.",
+          "validation": "Surface roughness and morphology were characterized; mechanical testing is planned for future work."
         },
         "key_terms": [
           {
-            "en": "rutile GeO2",
-            "zh": "金红石型二氧化锗"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           },
           {
-            "en": "thermal conductivity",
-            "zh": "热导率"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "MOCVD",
-            "zh": "金属有机化学气相沉积"
+            "en": "porous scaffold",
+            "zh": "多孔支架"
           },
           {
-            "en": "TDTR",
-            "zh": "时域热反射法"
+            "en": "Voronoi tessellation",
+            "zh": "Voronoi镶嵌"
           },
           {
-            "en": "ultrawide-bandgap semiconductor",
-            "zh": "超宽禁带半导体"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "biomimetic",
+            "zh": "仿生"
+          },
+          {
+            "en": "ossteointegration",
+            "zh": "骨整合"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:14:51Z"
+      "first_seen_at": "2026-06-07T23:17:25Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415751886",
+      "doi": "10.1016/j.mtcomm.2025.114222",
+      "title": "Influence of isothermal post-treatment on tribocorrosion behaviour of laser powder bed fusion-processed β-type Ti-Nb alloy",
+      "abstract": "Ti-Nb alloys are well-regarded implant materials thanks to their high corrosion resistance and good biocompatibility. Nonetheless, their cast and solution-treated forms suffer from limited mechanical strength. LPBF-processed Ti-Nb alloys hold significant potential for customized implants. Applying post-heat treatments, particularly isothermal age-hardening, can strengthen these alloys and improve their resistance to the biomechanical loads encountered in service. However, load-bearing implants are prone to tribocorrosion due to the relative motion between implant components or between the implant and surrounding tissue in body fluids. This study investigates the mechanical, corrosion, and tribocorrosion properties of post-treated LPBF-produced β-type Ti-42Nb alloys, and compares their performance with both as-built LPBF Ti-42Nb and conventional Ti-6Al-4V ELI. Results show that isothermal heat treatment is effective in increasing the mechanical properties by introducing ω iso precipitates for Ti-42Nb (LPBF-300 °C 30 h) and α iso ’’ precipitates for Ti-42Nb (LPBF-450 °C 30 h) to the single β-phase microstructure. Tribocorrosion behavior was investigated under open circuit potential (OCP) and anodic potentiostatic polarization conditions (0.6 V vs. Ag|AgCl) in phosphate-buffered saline (PBS) using a reciprocating pin-on-disk tribometer. The formation of precipitates does not adversely affect the passive film, indicating that its stability is maintained by the strong passivating nature of Ti-Nb alloys. However, the tribocorrosion resistance declines following isothermal heat treatment, likely due to the rapid detachment of hard and brittle precipitates, leading to increased material loss. Nevertheless, controlling the distribution of precipitates in LPBF-fabricated Ti-42Nb alloys may enhance their performance for implant use.",
+      "authors": [
+        "Adnan Akman",
+        "Yohan Douest",
+        "Jaqueline Gehlmann",
+        "Avinash Hariharan",
+        "Christian Haase",
+        "Ana-Maria Trunfio Sfarghiu",
+        "Nicolas Courtois",
+        "Benoît Ter-Ovanessian",
+        "Stefan Pilz",
+        "Martina Zimmermann",
+        "A. Gebert"
+      ],
+      "first_author_affiliation": "Institute of Materials Science, TU Dresden, Helmholtzstr. 7, 01069 Dresden, Germany",
+      "corresponding_authors": [
+        {
+          "name": "Adnan Akman",
+          "affiliation": "Institute of Materials Science, TU Dresden, Helmholtzstr. 7, 01069 Dresden, Germany"
+        }
+      ],
+      "venue": "Materials Today Communications",
+      "year": 2025,
+      "date": "2025-10-31",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.mtcomm.2025.114222",
+      "cited_by_count": 1,
+      "concepts": [
+        "Tribocorrosion",
+        "Materials science",
+        "Isothermal process",
+        "Corrosion",
+        "Alloy",
+        "Metallurgy",
+        "Anode",
+        "Reciprocating motion",
+        "Brittleness",
+        "Titanium alloy",
+        "Composite material",
+        "Implant",
+        "Oxide",
+        "Polarization (electrochemistry)",
+        "Ductility (Earth science)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti-6Al-4V ELI",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是Ti-Nb合金，而非Ti-6Al-4V，与用户方向不相关。",
+        "why_not_core": "The paper studies Ti-Nb alloy, not Ti-6Al-4V, and focuses on tribocorrosion rather than fatigue/mechanical performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "post-heat treatment",
+          "tribocorrosion",
+          "Ti-Nb alloy"
+        ],
+        "summary_zh": {
+          "motivation": "研究后热处理对LPBF Ti-Nb合金在植入物应用中摩擦腐蚀行为的影响。",
+          "method": "对LPBF Ti-42Nb合金进行等温时效处理（300°C和450°C, 30小时），测试力学、腐蚀和摩擦腐蚀性能。",
+          "result": "等温热处理通过析出强化提高了力学性能，但摩擦腐蚀性能下降。",
+          "validation": "通过往复销盘摩擦计在PBS溶液中进行OCP和阳极极化下的摩擦腐蚀实验。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of post-heat treatment on the tribocorrosion behavior of LPBF Ti-Nb alloys for implant applications.",
+          "method": "Isothermal age-hardening at 300°C and 450°C for 30 hours was applied to LPBF Ti-42Nb, followed by mechanical, corrosion, and tribocorrosion testing.",
+          "result": "Isothermal heat treatment improved mechanical properties via precipitation hardening but reduced tribocorrosion resistance due to brittle precipitate detachment.",
+          "validation": "Tribocorrosion tests under OCP and anodic potentiostatic conditions using a reciprocating pin-on-disk tribometer in PBS."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "isothermal post-treatment",
+            "zh": "等温后处理"
+          },
+          {
+            "en": "tribocorrosion",
+            "zh": "摩擦腐蚀"
+          },
+          {
+            "en": "Ti-Nb alloy",
+            "zh": "钛铌合金"
+          },
+          {
+            "en": "precipitation hardening",
+            "zh": "沉淀强化"
+          },
+          {
+            "en": "β-type",
+            "zh": "β型"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:17:25Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415731464",
+      "doi": "10.1007/s00170-025-16804-0",
+      "title": "Enhancing tool life and surface quality in high-speed milling of Ti6Al4V: a comparative study of flood and minimum quantity lubrication cooling strategies",
+      "abstract": "Ti6Al4V has excellent strength and corrosion resistance for use in the automotive, aerospace, and biomedical industries, but its poor thermal conductivity and built-up edges lead to significant tool wear and machining challenges. To improve heat dissipation and machining performance of Ti6Al4V during high-speed milling, this study aims to investigate the effects of cooling strategies and milling parameters on cutting force, tool wear, and surface roughness. Research was conducted at spindle speeds of 1194, 1791, and 2389 r/min and feed rates of 358, 538, and 717 mm/min, using uncoated carbide tools, with flood and minimum quantity lubrication (MQL) cooling strategies. Results indicate that the MQL cooling strategy led to lower surface roughness, cutting forces, and tool wear compared to the flood cooling method. At 1194 r/min spindle speed, the MQL strategy achieved a maximum improvement in surface roughness of 15.33% at 358 mm/min and tool wear of 83.16% at 738 mm/min over flood cooling. The optimal milling settings for 26.7 µm tool wear and 0.221 µm surface roughness are discovered at a spindle speed of 1194 r/min and a feed rate of 358 mm/min using the MQL cooling strategy. Across the length of the cut, the resultant cutting force rises with increasing feed rates and reducing spindle speeds. Meanwhile, surface roughness correlates positively with spindle speed and feed rate. The MQL cooling strategy proved effective at medium to low feed rates, reducing cutting force, tool wear, and surface roughness, but benefits decline at high speeds when paired with high feed rates.",
+      "authors": [
+        "JunYu Yan",
+        "Mohd Azlan Suhaimi",
+        "Safian Sharif",
+        "Pui San Khoo",
+        "Kejia Zhuang"
+      ],
+      "first_author_affiliation": "Advanced Manufacturing Research Group, Faculty of Mechanical Engineering, Universiti Teknologi Malaysia, UTM Johor Bahru, 81310, Johor, Malaysia",
+      "corresponding_authors": [
+        {
+          "name": "JunYu Yan",
+          "affiliation": "Advanced Manufacturing Research Group, Faculty of Mechanical Engineering, Universiti Teknologi Malaysia, UTM Johor Bahru, 81310, Johor, Malaysia"
+        }
+      ],
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "year": 2025,
+      "date": "2025-10-31",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s00170-025-16804-0",
+      "cited_by_count": 1,
+      "concepts": [
+        "Lubrication",
+        "Surface roughness",
+        "Tool wear",
+        "Machining",
+        "Materials science",
+        "Surface finish",
+        "Metallurgy",
+        "Mechanical engineering",
+        "Cutting tool",
+        "Reciprocating motion",
+        "Carbide",
+        "Cutting fluid",
+        "Thermal conductivity",
+        "Titanium alloy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "不涉及增材制造Ti-6Al-4V的后处理，而是研究传统铣削中的冷却策略，与层2方向无关。",
+        "why_not_core": "Not about post-processing of AM Ti-6Al-4V; focuses on milling parameters and cooling strategies for tool life and surface roughness, not fatigue or mechanical performance of AM material.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti6Al4V",
+          "high-speed milling",
+          "MQL",
+          "flood cooling",
+          "tool wear",
+          "surface roughness"
+        ],
+        "summary_zh": {
+          "motivation": "研究冷却策略对Ti6Al4V高速铣削中刀具寿命和表面质量的影响。",
+          "method": "对比了射流和微量润滑冷却策略在不同主轴转速和进给率下的铣削实验。",
+          "result": "微量润滑在低速低进给时降低了表面粗糙度和刀具磨损，但高速高进给时优势减弱。",
+          "validation": "通过实际铣削实验测量切削力、刀具磨损和表面粗糙度进行验证。"
+        },
+        "summary_en": {
+          "motivation": "This paper investigates the effect of cooling strategies on tool wear and surface quality during high-speed milling of Ti6Al4V to address machining challenges due to poor thermal conductivity.",
+          "method": "Comparative experiments using flood and minimum quantity lubrication (MQL) cooling at varying spindle speeds and feed rates were conducted with uncoated carbide tools.",
+          "result": "MQL cooling reduced surface roughness, cutting forces, and tool wear compared to flood cooling, with best performance at low spindle speed and low feed rate.",
+          "validation": "Experimental validation through measurement of cutting force, tool wear, and surface roughness under different conditions."
+        },
+        "key_terms": [
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
+          },
+          {
+            "en": "high-speed milling",
+            "zh": "高速铣削"
+          },
+          {
+            "en": "minimum quantity lubrication",
+            "zh": "微量润滑"
+          },
+          {
+            "en": "flood cooling",
+            "zh": "射流冷却"
+          },
+          {
+            "en": "tool wear",
+            "zh": "刀具磨损"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:17:25Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415927337",
+      "doi": "10.15353/hi-am.v1i1.6846",
+      "title": "Defects analysis in LPBF printing based on up-skin and down-skin angles using machine learning",
+      "abstract": "In laser powder bed fusion (LPBF) additive manufacturing, geometric features of parts have a significant impact on their printability and quality. Special attention in the literature has been given to the characteristic feature of distinction between up-skin and down-skin surface properties, where up-skin and down-skin surfaces have different orientation angles with respect to the build plate during part fabrication. We focus on slice-level, surface-connected defect analysis relative to up- and down-skin orientation using a YOLO→U-Net pipeline, followed by clustering and statistical morphology. We use a dataset acquired by X-ray CT scanning of LPBF-manufactured Ti–6Al–4V (Ti64) parts and 3D lattice structures with segmented regions of the top and bottom skins. This design allows slice-level analysis of defect geometry with respect to surface-normal direction. Lattice architectures with strut-based and surface-based features with a cell size of 2 mm and strut/wall thickness between 0.25-0.55 mm were utilized in this study. Machine learning and deep learning techniques such as YOLO and U-Net have significantly contributed to the precision and effectiveness of defect and pore detection and classification in 3D-printed components. Outcomes are expected to enhance the defect formation mechanism knowledge and allow optimization of print and design parameters toward improved quality and reliability of key application 3D printed parts.",
+      "authors": [
+        "Zohreh Azimifar",
+        "Ali Razani",
+        "Sagar Patel",
+        "Martine McGregor",
+        "Mihaela Vlasea"
+      ],
+      "first_author_affiliation": "Department of Mechanical and Mechatronics Engineering, University of Waterloo, Waterloo, Canada",
+      "corresponding_authors": [
+        {
+          "name": "Zohreh Azimifar",
+          "affiliation": "Department of Mechanical and Mechatronics Engineering, University of Waterloo, Waterloo, Canada"
+        }
+      ],
+      "venue": "Proceedings of the Holistic Innovation in Additive Manufacturing (HI-AM) Conference",
+      "year": 2025,
+      "date": "2025-10-31",
+      "date_precision": "day",
+      "url": "https://doi.org/10.15353/hi-am.v1i1.6846",
+      "cited_by_count": 0,
+      "concepts": [
+        "Artificial intelligence",
+        "Cluster analysis",
+        "Computer science",
+        "Orientation (vector space)",
+        "Machine learning",
+        "Feature (linguistics)",
+        "Surface (topology)",
+        "Pattern recognition (psychology)",
+        "Focus (optics)",
+        "Reliability (semiconductor)",
+        "Lattice (music)",
+        "Engineering drawing",
+        "Key (lock)",
+        "Computer vision",
+        "Artificial neural network",
+        "Geometric shape"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti64",
+          "defect"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文专注于使用机器学习分析LPBF Ti-6Al-4V零件的缺陷，但未涉及力学或疲劳性能测试或建模。",
+        "why_not_core": "No mechanical or fatigue testing or modeling; purely defect detection and classification using machine learning on CT images.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "defect analysis",
+          "machine learning",
+          "LPBF",
+          "Ti-6Al-4V",
+          "surface orientation",
+          "X-ray CT"
+        ],
+        "summary_zh": {
+          "motivation": "研究基于上下表面角度的LPBF缺陷分析，利用机器学习提高缺陷检测精度。",
+          "method": "采用YOLO→U-Net管道进行切片级表面缺陷分析，结合聚类和形态学方法。",
+          "result": "实现了对Ti-6Al-4V零件缺陷的精确检测和分类。",
+          "validation": "使用X射线CT扫描数据集验证缺陷检测方法。"
+        },
+        "summary_en": {
+          "motivation": "To analyze defects in LPBF-printed Ti-6Al-4V based on up-skin and down-skin angles using machine learning for improved print quality.",
+          "method": "A YOLO→U-Net pipeline for slice-level defect detection, followed by clustering and morphological analysis of CT-scanned data.",
+          "result": "The pipeline effectively detects and classifies surface-connected defects in Ti-6Al-4V parts.",
+          "validation": "Validation is performed on X-ray CT datasets of LPBF-manufactured Ti-6Al-4V parts and lattice structures."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "defect analysis",
+            "zh": "缺陷分析"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "up-skin",
+            "zh": "上表面"
+          },
+          {
+            "en": "down-skin",
+            "zh": "下表面"
+          },
+          {
+            "en": "X-ray computed tomography",
+            "zh": "X射线计算机断层扫描"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:17:25Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 5,
     "by_source": {
-      "arxiv": 1
+      "openalex": 5
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 5,
+    "after_routing": 5,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_femoral_stem": 2,
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 5
     },
-    "scored": 1,
+    "scored": 5,
     "priority_counts": {
-      "Exclude": 1
+      "Low": 3,
+      "Exclude": 2
     }
   }
 }

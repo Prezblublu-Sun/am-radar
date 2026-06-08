@@ -1,0 +1,147 @@
+{
+  "schema_version": "v2",
+  "date": "2025-11-25",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4416771998",
+      "doi": "10.3390/ma18235315",
+      "title": "Application of Laser and Cryogenic Surface Treatment for the Evolution of Surface Morphology in Additively Manufactured Ti-6Al-4V Alloy Samples",
+      "abstract": "This study investigates the effects of laser and cryogenic (dry ice) surface treatments on enhancing surface characteristics of Ti-6Al-4V titanium alloy components produced using the Selective Laser Melting (SLM) technique. Components produced via additive manufacturing often exhibit increased surface irregularities and residual unmelted powder, which can deteriorate their mechanical strength and resistance to corrosion. In this study, SLM samples manufactured with two laser powers (176 W and 220 W) were subjected to laser cleaning and dry ice blasting under various process parameters. Surface topography and morphology analyses were performed. The obtained results showed that both methods improved surface uniformity and removed contaminants. Dry ice treatment effectively removed loose powder particles and impurities without causing structural changes-the best results were obtained at a pressure of 10 bar. Laser treatment, depending on the focal length, produced varying degrees of surface remelting-from gentle smoothing (500 mm) to intensive thermal effects and microcracks (250 mm). The research confirmed that cryogenic cleaning is an environmentally friendly and safe post-processing method, while laser cleaning enables deeper surface structure modification, requiring further optimization.",
+      "authors": [
+        "Dorota Laskowska",
+        "Monika Szada-Borzyszkowska",
+        "Błażej Bałasz",
+        "Wiesław Szada-Borzyszkowski",
+        "Izabela Bukała"
+      ],
+      "first_author_affiliation": "Faculty of Mechanical Engineering and Energy, Koszalin University of Technology, Śniadeckich 2, 75-620 Koszalin, Poland",
+      "corresponding_authors": [
+        {
+          "name": "Dorota Laskowska",
+          "affiliation": "Faculty of Mechanical Engineering and Energy, Koszalin University of Technology, Śniadeckich 2, 75-620 Koszalin, Poland"
+        },
+        {
+          "name": "Monika Szada-Borzyszkowska",
+          "affiliation": "Faculty of Mechanical Engineering and Energy, Koszalin University of Technology, Śniadeckich 2, 75-620 Koszalin, Poland"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-11-25",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18235315",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Laser",
+        "Selective laser melting",
+        "Alloy",
+        "Composite material",
+        "Titanium alloy",
+        "Titanium",
+        "Thermal",
+        "Morphology (biology)",
+        "Residual stress",
+        "Surface modification",
+        "Metallurgy",
+        "Surface (topology)",
+        "Impurity",
+        "Melting point"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface treatment",
+          "post-processing"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了SLM Ti-6Al-4V的激光和干冰表面处理，但未涉及力学性能（如疲劳），仅关注表面形貌变化。",
+        "why_not_core": "Does not report any mechanical performance (fatigue, tensile) data; only surface morphology and topography.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "post-processing",
+          "laser cleaning",
+          "dry ice blasting",
+          "SLM",
+          "surface morphology"
+        ],
+        "summary_zh": {
+          "motivation": "改善增材制造Ti-6Al-4V合金表面质量以提升性能",
+          "method": "采用激光清洗和干冰喷射处理SLM试样，分析不同参数下的表面形貌",
+          "result": "两种方法均提升表面均匀性，激光处理可导致微裂纹，干冰处理无结构变化",
+          "validation": "通过表面形貌和形貌分析验证处理效果"
+        },
+        "summary_en": {
+          "motivation": "To enhance surface characteristics of additively manufactured Ti-6Al-4V components for improved mechanical and corrosion resistance.",
+          "method": "Laser cleaning and dry ice blasting were applied to SLM Ti-6Al-4V samples at various parameters, followed by surface topography and morphology analyses.",
+          "result": "Both treatments improved surface uniformity; laser cleaning caused controlled remelting with microcracks at short focal lengths, while dry ice blasting removed contaminants without structural alterations.",
+          "validation": "Experimental surface characterization using microscopy and topography measurements."
+        },
+        "key_terms": [
+          {
+            "en": "laser cleaning",
+            "zh": "激光清洗"
+          },
+          {
+            "en": "dry ice blasting",
+            "zh": "干冰喷射"
+          },
+          {
+            "en": "surface morphology",
+            "zh": "表面形貌"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:19:10Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

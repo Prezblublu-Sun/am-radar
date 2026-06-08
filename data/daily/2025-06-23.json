@@ -4,57 +4,91 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2506.18342v1",
-      "doi": "",
-      "arxiv_id": "2506.18342v1",
-      "title": "Wide-field Hyperspectral Optical Microscopy for Rapid Characterization of Two-Dimensional Semiconductors and Heterostructures",
-      "abstract": "Electronic and optoelectronic applications of two-dimensional (2D) semiconductors demand precise control over material quality, including thickness, composition, doping, and defect density. Conventional benchmarking methods (e.g., charge transport, confocal mapping, electron or scanning probe microscopy) are slow, perturb sample quality, or involve trade-offs between speed, resolution, and scan area. To accelerate assessment of 2D semiconductors, we demonstrate a broadband, wide-field hyperspectral optical microscope for 2D materials (2D-HOM) that rapidly captures a spatial-spectral data cube within seconds. The data cube includes x-y spatial coordinate (a 300 * 300 $μ\\mathrm{m}^2$ field, with ~ 1 $μ\\mathrm{m}$ resolution) and a selectable wavelength range between 1100 to 200 nm at each pixel. Using synthesized films and heterostructures of transition metal dichalcogenides ($\\mathrm{MoS}_{2}$, $\\mathrm{WS}_{2}$, $\\mathrm{V}_{x}\\mathrm{W}_{1-x}\\mathrm{S}_{2}$, and $\\mathrm{WSe}_{2}$), we show that this cost-effective technique detects spectral fingerprints of material identity, doping, grain boundaries, and alloy composition, and enables advanced analysis, including unsupervised machine learning for spatial segmentation.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4414644448",
+      "doi": "10.1115/msec2025-151281",
+      "title": "Ultraprecision Machining of Additively Manufactured Ti-5Al-5Mo-5V-3Cr Alloy for Biomedical Applications",
+      "abstract": "Abstract Titanium (Ti) and Ti-based alloys are widely used in biomedical implants due to their superior mechanical properties, corrosion resistance, and biocompatibility. Ti-6Al-4V (Ti64) is the most common alloy for bone implants, but its high elastic modulus (113 GPa) greatly exceeds that of natural bone (14–20 GPa), leading to stress shielding and implant loosening. To mitigate this issue, β-stabilized Ti alloys, which have a lower elastic modulus, are preferred. Ti-5Al-5Mo-5V-3Cr (Ti-5553) is a promising β-metastable alloy with an elastic modulus of 72 GPa, closer to that of bone. Unlike Ti64, Ti-5553 does not undergo martensitic transformation, preventing brittle phase formation. This makes it well-suited for additive manufacturing (AM), particularly laser powder bed fusion (LPBF), which enables the fabrication of patient-specific implants with improved functional fit. Beyond material selection, implant surface characteristics play a crucial role in osseointegration. Optimized surface structures promote cellular interaction, leading to stable, long-term integration. Ultra-precision machining is a viable technique for refining implant surfaces by creating microstructured features with superior finishes, enhancing biocompatibility while remaining cost-effective and precise. This study investigates the ultra-precision machinability of LPBF-built Ti-5553, focusing on the effects of depth of cut on tool wear, cutting force, chip morphology, surface roughness, and profile accuracy. Results show that flank wear was more significant than rake wear, progressively increasing with cutting distance. Cutting and thrust forces rose gradually, with shearing as the dominant material removal mechanism. Chips exhibited serrated patterns on the free surface and smooth sliding marks on the back surface. Surface roughness increased over the cutting distance, while tool wear negatively impacted tool geometry accuracy, cutting resistance, and surface finish. These findings highlight the potential of ultra-precision machining to enhance LPBF-built Ti-5553 implants by refining surface features and improving osseointegration, supporting its use in next-generation biomedical implants.",
       "authors": [
-        "Zhenghan Peng",
-        "Adeyemi Uthman",
-        "Zhepeng Zhang",
-        "Anh Tuan Hoang",
-        "Xiang Zhu",
-        "Eric Pop",
-        "Andrew J. Mannix"
+        "Laymin Hoe",
+        "Yunfa Guo",
+        "Y. Lee",
+        "Kevin Lizarraga",
+        "David Yan"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "National University of Singapore , ,",
+      "corresponding_authors": [
+        {
+          "name": "Laymin Hoe",
+          "affiliation": "National University of Singapore , ,"
+        }
+      ],
+      "venue": "",
       "year": 2025,
       "date": "2025-06-23",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2506.18342v1",
+      "url": "https://doi.org/10.1115/msec2025-151281",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Materials science",
+        "Machining",
+        "Machinability",
+        "Surface roughness",
+        "Tool wear",
+        "Elastic modulus",
+        "Titanium alloy",
+        "Brittleness",
+        "Alloy",
+        "Cutting tool",
+        "Metallurgy",
+        "Surface finish",
+        "Surface integrity",
+        "Composite material",
+        "Shearing (physics)",
+        "Chip formation",
+        "Biocompatibility",
+        "Modulus",
+        "Diamond tool",
+        "Fabrication",
+        "Ultimate tensile strength",
+        "Surface finishing"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess",
+        "ti6al4v_femoral_stem"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
       "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "surface roughness"
         ],
-        "fatigue": [
-          "w + a + a + m"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "machining"
         ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "stress shielding"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文专注于二维半导体的光学表征，与用户的研究方向（生物打印、髋关节植入物、有限元代理建模、增材制造生物医学）无关。",
-        "why_not_core": "This paper does not involve biomedical implants, bioprinting, finite element analysis, or any context relevant to the user's directions; it is purely about materials characterization for 2D semiconductors.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文研究的是Ti-5553合金的超精密加工，与Ti-6Al-4V股骨柄结构设计无关。",
+        "why_not_core": "The paper does not address Ti-6Al-4V femoral stem design, porous architecture, stress shielding, or stem fatigue; it focuses on machinability of a different alloy (Ti-5553) and surface finishing.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -62,71 +96,326 @@
           "is_review": false
         },
         "tags": [
-          "2D materials",
-          "hyperspectral imaging",
-          "machine learning",
-          "semiconductors"
+          "additive manufacturing",
+          "Ti-5553",
+          "ultraprecision machining",
+          "surface roughness",
+          "tool wear"
         ],
         "summary_zh": {
-          "motivation": "快速表征二维半导体材料质量的需求。",
-          "method": "使用宽场高光谱显微镜采集空间-光谱数据立方体，结合机器学习分析。",
-          "result": "成功识别材料身份、掺杂、晶界等特性，实现空间分割。",
-          "validation": "在合成薄膜和异质结构上验证光谱指纹检测能力。"
+          "motivation": "改善β稳定钛合金植入物表面质量以促进骨整合",
+          "method": "对激光粉末床熔融制备的Ti-5553进行超精密加工，研究切削深度影响",
+          "result": "后刀面磨损显著，切削力逐渐增大，表面粗糙度随切削距离增加而恶化",
+          "validation": "通过切削实验测量刀具磨损、切削力、切屑形貌和表面粗糙度"
         },
         "summary_en": {
-          "motivation": "The need for rapid, non-destructive characterization of two-dimensional semiconductors.",
-          "method": "A broadband wide-field hyperspectral microscope captures spatial-spectral data cubes, analyzed with unsupervised machine learning.",
-          "result": "The method detects spectral fingerprints of material identity, doping, grain boundaries, and alloy composition.",
-          "validation": "Demonstrated on synthesized films and heterostructures of transition metal dichalcogenides."
+          "motivation": "To improve surface quality of β-stabilized titanium alloys for better osseointegration in biomedical implants.",
+          "method": "Ultraprecision machining experiments were conducted on laser powder bed fusion (LPBF)-built Ti-5Al-5Mo-5V-3Cr (Ti-5553) alloy at varying depths of cut.",
+          "result": "Flank wear dominated over rake wear; cutting and thrust forces increased gradually; surface roughness increased with cutting distance due to tool wear.",
+          "validation": "Experimental validation through measurement of tool wear, cutting forces, chip morphology, and surface roughness."
         },
         "key_terms": [
           {
-            "en": "hyperspectral microscopy",
-            "zh": "高光谱显微镜"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "two-dimensional semiconductors",
-            "zh": "二维半导体"
+            "en": "Ti-5553",
+            "zh": "Ti-5Al-5Mo-5V-3Cr合金"
           },
           {
-            "en": "transition metal dichalcogenides",
-            "zh": "过渡金属硫族化合物"
+            "en": "ultraprecision machining",
+            "zh": "超精密加工"
           },
           {
-            "en": "grain boundaries",
-            "zh": "晶界"
+            "en": "tool wear",
+            "zh": "刀具磨损"
           },
           {
-            "en": "spatial-spectral data cube",
-            "zh": "空间-光谱数据立方体"
-          },
-          {
-            "en": "unsupervised machine learning",
-            "zh": "无监督机器学习"
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:10:24Z"
+      "first_seen_at": "2026-06-07T23:09:50Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411564712",
+      "doi": "10.3390/jfb16070230",
+      "title": "The Impact of As-Built Surface Characteristics of Selective-Laser-Melted Ti-6Al-4V on Early Osteoblastic Response for Potential Dental Applications",
+      "abstract": "This study investigates the potential of Selective Laser Melting (SLM) to tailor the surface characteristics of Ti6Al4V directly during fabrication, eliminating the need for post-processing treatments potentially for dental implants. By adjusting the Volumetric Energy Density (VED) through controlled variations in the laser scanning speed, we achieved customized surface textures at both the micro- and nanoscale levels. SLM samples fabricated at moderate VED levels (50–100 W·mm3/s) exhibited optimized dual-scale surface roughness—a macro-roughness of up to 25.5–27.6 µm and micro-roughness of as low as 58.8–64.2 nm—resulting in significantly enhanced hydrophilicity, with water contact angles (WCAs) decreasing to ~62°, compared to ~80° on a standard grade 5 machined Ti6Al4V plate. The XPS analysis revealed that the surface oxygen content remains relatively stable at low VED values, with no significant increase. The surface topography plays a significant role in influencing the WCA, particularly when the VED values are low (below 200 W·mm3/s) during SLM, indicating the dominant effect of surface morphology over chemistry in these conditions. Biological assays using osteoblast-like MG-63 cells demonstrated that these as-built SLM surfaces supported a 1.5-fold-higher proliferation and improved cytoskeletal organization relative to the control, confirming the enhanced early cellular responses. These results highlight the capability of SLM to engineer bioactive implant surfaces through process-controlled morphology and chemistry, presenting a promising strategy for the next generation of dental implants suitable for immediate placement and osseointegration.",
+      "authors": [
+        "Muhammad Hassan Razzaq",
+        "Olugbenga Ayeni",
+        "Selin Köklü",
+        "Kagan Berk",
+        "Usama Zaheer",
+        "Tim Tjardts",
+        "Franz Faupel",
+        "Salih Veziroğlu",
+        "Yogendra Kumar Mishra",
+        "Mehmet Fatih Aycan",
+        "Cenk Aktas",
+        "Tayebeh Ameri",
+        "Sinan Şen"
+      ],
+      "first_author_affiliation": "Additive Manufacturing Technologies Application and Research Center—EKTAM, Gazi University, Ankara 06560, Türkiye",
+      "corresponding_authors": [
+        {
+          "name": "Tayebeh Ameri",
+          "affiliation": "Chair for Composite Materials, Department of Materials Science, Faculty of Engineering, Kiel University, Kaiserstraße 2, 24143 Kiel, Germany"
+        },
+        {
+          "name": "Sinan Şen",
+          "affiliation": "Department of Orthodontics, University Hospital Schleswig Holstein, Arnold-Heller-Strasse 3, 24105 Kiel, Germany"
+        }
+      ],
+      "venue": "Journal of Functional Biomaterials",
+      "year": 2025,
+      "date": "2025-06-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/jfb16070230",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Selective laser melting",
+        "Osseointegration",
+        "Surface roughness",
+        "Contact angle",
+        "Surface finish",
+        "X-ray photoelectron spectroscopy",
+        "Nanoscopic scale",
+        "Surface energy",
+        "Nanotechnology",
+        "Composite material",
+        "Chemical engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti6Al4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti6Al4V",
+          "Ti 6Al 4V",
+          "post-processing"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "论文研究的是选区激光熔化Ti-6Al-4V的原始表面特性对成骨细胞响应的影响，不涉及任何后处理工艺，与方向需求不符。",
+        "why_not_core": "No post-processing treatment studied; paper investigates as-built surfaces and biological response for dental applications, not mechanical performance after post-processing.",
+        "validation_kind": "in_vitro",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "selective laser melting",
+          "Ti-6Al-4V",
+          "surface roughness",
+          "dental implants",
+          "osteoblast response"
+        ],
+        "summary_zh": {
+          "motivation": "通过SLM工艺参数直接调控Ti-6Al-4V表面形貌，避免后处理，用于牙科种植体。",
+          "method": "改变激光扫描速度调节体能量密度，制备不同粗糙度的SLM样品。",
+          "result": "中等VED样品具有双尺度粗糙度，亲水性增强，促进MG-63细胞增殖和铺展。",
+          "validation": "MG-63成骨细胞体外培养实验验证生物相容性。"
+        },
+        "summary_en": {
+          "motivation": "To eliminate post-processing by tailoring the surface characteristics of SLM Ti-6Al-4V through process parameters for dental implant applications.",
+          "method": "Volumetric energy density was varied by adjusting laser scanning speed to produce dual-scale surface roughness on SLM samples.",
+          "result": "Moderate VED samples exhibited optimized dual-scale roughness, enhanced hydrophilicity, and improved MG-63 osteoblast proliferation and cytoskeletal organization.",
+          "validation": "In vitro biological assays with MG-63 cells confirmed enhanced early cellular responses on as-built SLM surfaces."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "osteoblast response",
+            "zh": "成骨细胞响应"
+          },
+          {
+            "en": "dental implants",
+            "zh": "牙科种植体"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:09:50Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411536149",
+      "doi": "10.3390/ma18132969",
+      "title": "Mechanical Properties and Material Characteristics of 3D-Printed Titanium Capsules for Cancer Drug Delivery Applications",
+      "abstract": "The aim of the study was to assess the mechanical and material properties of porous titanium capsules, produced by 3D printing via the DMLS (Direct Metal Laser Sintering) technique based on their potential application as carriers for anticancer drugs. The study used capsules made from the Ti-6Al-4V alloy, and analyzes the impact of geometric parameters, structural features, and printing angles (0°, 45°, and 90°) on their compressive strength. A total of 36 capsules were tested, 18 of type KTD and 18 of type KTM, each in two loading directions. The surface roughness and damage characteristics resulting from mechanical loading have also been evaluated. Statistical analysis of the results was performed using Student’s t-test. The results show that the capsules printed at an angle of 45° are characterized by the highest compressive strength, while their resistance significantly exceeds the values typical of human bone tissue. Additionally, the observed damage does not lead to the formation of sharp edges or loose fragments, which confirms the safety of their use in the body. The high surface roughness promotes tissue integration and limits capsule migration after implantation. The analyses confirm the potential of 3D-printed titanium capsules as effective and safe drug carriers in personalized anticancer therapy.",
+      "authors": [
+        "K. Kazimierska-Drobny",
+        "Grzegorz Szala",
+        "Janusz Musiał",
+        "Marek Macko",
+        "Tomasz Karasiewicz",
+        "Jakub Lewandowski"
+      ],
+      "first_author_affiliation": "Faculty of Mechatronics, Kazimierz Wielki University, Mikolaj Kopernik 1 Street, 85-074 Bydgoszcz, Poland",
+      "corresponding_authors": [
+        {
+          "name": "K. Kazimierska-Drobny",
+          "affiliation": "Faculty of Mechatronics, Kazimierz Wielki University, Mikolaj Kopernik 1 Street, 85-074 Bydgoszcz, Poland"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-06-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18132969",
+      "cited_by_count": 0,
+      "concepts": [
+        "Drug delivery",
+        "Materials science",
+        "3d printed",
+        "Titanium",
+        "Drug",
+        "Nanotechnology",
+        "Composite material",
+        "Biomedical engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的DMLS工艺和压缩性能，但主要聚焦于药物递送胶囊的应用，未涉及疲劳性能，与用户关注的方向关联度较低。",
+        "why_not_core": "No fatigue data; focus is on drug delivery capsules rather than base mechanical/fatigue characterization of Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "DMLS",
+          "Ti-6Al-4V",
+          "compressive strength",
+          "surface roughness",
+          "drug delivery"
+        ],
+        "summary_zh": {
+          "motivation": "评估3D打印钛胶囊作为抗癌药物载体的力学与材料特性",
+          "method": "通过DMLS制备Ti-6Al-4V胶囊，测试不同打印角度（0°,45°,90°）下的压缩强度并分析表面粗糙度",
+          "result": "45°打印角度下胶囊压缩强度最高，且强度远高于人骨组织，损伤后无尖锐边缘",
+          "validation": "对36个胶囊进行压缩实验，结合SEM和粗糙度分析进行统计验证"
+        },
+        "summary_en": {
+          "motivation": "To evaluate the mechanical and material properties of 3D-printed titanium capsules as potential carriers for anticancer drugs.",
+          "method": "Ti-6Al-4V capsules were fabricated by DMLS with printing angles of 0°, 45°, and 90°, and their compressive strength, surface roughness, and damage behavior were characterized.",
+          "result": "Capsules printed at 45° exhibited the highest compressive strength, significantly exceeding human bone tissue values, with no sharp edges or fragments after failure.",
+          "validation": "Validation was performed through compressive testing of 36 capsules with statistical analysis (Student's t-test) and SEM/roughness evaluation."
+        },
+        "key_terms": [
+          {
+            "en": "DMLS",
+            "zh": "直接金属激光烧结"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "compressive strength",
+            "zh": "抗压强度"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "printing angle",
+            "zh": "打印角度"
+          },
+          {
+            "en": "cancer drug delivery",
+            "zh": "癌症药物递送"
+          },
+          {
+            "en": "porous capsules",
+            "zh": "多孔胶囊"
+          },
+          {
+            "en": "mechanical testing",
+            "zh": "力学测试"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:09:50Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "arxiv": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_femoral_stem": 1,
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 2,
+      "Low": 1
     }
   }
 }

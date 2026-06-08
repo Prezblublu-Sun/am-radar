@@ -1,0 +1,159 @@
+{
+  "schema_version": "v2",
+  "date": "2026-05-20",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7161770150",
+      "doi": "10.3390/ma19102142",
+      "title": "Multi-Objective Process Optimization of Micro-Milling Titanium Alloy Ti6Al4V for Microgrooves",
+      "abstract": "High-quality microgrooves obtained in micro-milling titanium alloy Ti6Al4V are still challenging work due to the dependence of burr formation and surface roughness on cutting parameters. In this paper, the systematic analysis of the micro-milling process was conducted to obtain high-quality titanium alloy Ti6Al4V microgrooves, which is based on single-factor experiments, orthogonal experiments, intuitive analysis, range analysis, regression analysis, and multi-objective optimization. The range of factors and factors of orthogonal experiments were determined by single-factor experiments. Orthogonal experiments were conducted with a three-factor three-level design, which regards the total top-burr width and the bottom surface roughness of microgrooves as the response variables, and factors are spindle speed, feed per tooth, and the axial depth of cut. The optimal cutting parameters, which minimize the surface roughness and burr formation, and the main influence factor were determined by intuitive analysis, range analysis, regression analysis, and NSGA-II multi-objective optimization. Simultaneously, high-quality complex microgrooves were achieved with the optimal cutting parameters. The method of systematic experimental design and data analysis in this paper can provide the theoretical guideline and technical support for the processing development of complex parts.",
+      "authors": [
+        "Yabo Zhang",
+        "Chenyang Wang",
+        "Qingshun Bai",
+        "Qiqin Zhang",
+        "Xin He"
+      ],
+      "first_author_affiliation": "China Airborne Missile Academy, Luoyang 471009, China",
+      "corresponding_authors": [
+        {
+          "name": "Yabo Zhang",
+          "affiliation": "China Airborne Missile Academy, Luoyang 471009, China"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2026,
+      "date": "2026-05-20",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma19102142",
+      "cited_by_count": 0,
+      "concepts": [
+        "Titanium alloy",
+        "Materials science",
+        "Surface roughness",
+        "Titanium",
+        "Surface finish",
+        "Composite material",
+        "Machining",
+        "Metallurgy",
+        "Response surface methodology",
+        "Process optimization",
+        "Mechanical engineering",
+        "Process (computing)",
+        "Alloy",
+        "Work (physics)",
+        "Range (aeronautics)",
+        "Engineering drawing",
+        "Design of experiments",
+        "Surface (topology)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "本文研究的是Ti6Al4V的微铣削工艺优化，而非增材制造Ti-6Al-4V的力学或疲劳性能，与用户方向不相关。",
+        "why_not_core": "This paper focuses on micro-milling process optimization for Ti6Al4V microgrooves, not on the mechanical or fatigue performance of additively manufactured Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "micro-milling",
+          "Ti6Al4V",
+          "burr formation",
+          "surface roughness",
+          "multi-objective optimization"
+        ],
+        "summary_zh": {
+          "motivation": "获得高质量Ti6Al4V微沟槽，减少毛刺和表面粗糙度。",
+          "method": "通过单因素实验、正交实验和NSGA-II多目标优化确定最佳切削参数。",
+          "result": "实现了最小化表面粗糙度和毛刺形成的最优切削参数，并加工出了高质量复杂微沟槽。",
+          "validation": "通过实验验证了优化参数的有效性。"
+        },
+        "summary_en": {
+          "motivation": "To achieve high-quality microgrooves in titanium alloy Ti6Al4V by minimizing burr formation and surface roughness during micro-milling.",
+          "method": "A systematic experimental design combining single-factor experiments, orthogonal experiments, and NSGA-II multi-objective optimization was employed to determine optimal cutting parameters.",
+          "result": "Optimal cutting parameters that minimize both burr width and surface roughness were identified, enabling the fabrication of high-quality complex microgrooves.",
+          "validation": "Experimental validation confirmed the effectiveness of the optimized parameters in achieving the desired microgroove quality."
+        },
+        "key_terms": [
+          {
+            "en": "micro-milling",
+            "zh": "微铣削"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "burr formation",
+            "zh": "毛刺形成"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "multi-objective optimization",
+            "zh": "多目标优化"
+          },
+          {
+            "en": "NSGA-II",
+            "zh": "NSGA-II算法"
+          },
+          {
+            "en": "cutting parameters",
+            "zh": "切削参数"
+          },
+          {
+            "en": "orthogonal experiment",
+            "zh": "正交实验"
+          },
+          {
+            "en": "microgrooves",
+            "zh": "微沟槽"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:31:55Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

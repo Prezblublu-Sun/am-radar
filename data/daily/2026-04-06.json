@@ -1,0 +1,156 @@
+{
+  "schema_version": "v2",
+  "date": "2026-04-06",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7151484573",
+      "doi": "10.3390/mi17040451",
+      "title": "Multi-Objective Optimization of Ultrasonic Surface Rolling Process Parameters for TC4 Titanium Alloy with IWOA–RBF and MOGWO Algorithms",
+      "abstract": "A structured optimization approach was applied to ultrasonic surface rolling process (USRP) parameters, aiming to enhance the material surface characteristics of TC4 titanium alloy. To overcome the premature convergence and limited exploration capability of the standard Whale Optimization Algorithm (WOA), three enhancement strategies were introduced, including population initialization based on an optimal point set, a sinusoidal nonlinear convergence factor, and an adaptive inertia-based position update strategy. By optimizing the structural parameters of the RBF neural network with the improved WOA, an IWOA-RBF predictive model for surface performance evaluation was developed and rigorously validated in terms of prediction accuracy. Using the developed IWOA-RBF model, a multi-criteria decision-making framework integrating the CRITIC weighting method and the TOPSIS ranking approach was constructed to evaluate surface quality. This framework was further combined with a multi-objective Grey Wolf Optimization (MOGWO) algorithm to perform Pareto-based optimization and determine the optimal USRP parameter set. Experimental validation showed that the optimized parameters resulted in a significant reduction in surface roughness, while enhancing both surface hardness and residual compressive stress. The results confirm the robustness and effectiveness of the proposed IWOA-RBF and MOGWO optimization framework, providing a reliable strategy for high-precision parameter optimization and coordinated enhancement of surface properties in the TC4 titanium alloy USRP.",
+      "authors": [
+        "Yeshen Lan",
+        "Chuchu Rao",
+        "Yunpeng Lyu"
+      ],
+      "first_author_affiliation": "College of Mechanical Engineering, Zhejiang University of Technology, Hangzhou 310023, China",
+      "corresponding_authors": [
+        {
+          "name": "Chuchu Rao",
+          "affiliation": "College of Engineering, University of Missouri, Columbia, MO 65211, USA"
+        }
+      ],
+      "venue": "Micromachines",
+      "year": 2026,
+      "date": "2026-04-06",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/mi17040451",
+      "cited_by_count": 0,
+      "concepts": [
+        "Robustness (evolution)",
+        "Materials science",
+        "Response surface methodology",
+        "Initialization",
+        "Multi-objective optimization",
+        "Artificial neural network",
+        "Particle swarm optimization",
+        "Mathematical optimization",
+        "Nonlinear system",
+        "Algorithm",
+        "Computer science",
+        "Bayesian optimization",
+        "Weighting",
+        "Convergence (economics)",
+        "Titanium alloy",
+        "Process optimization",
+        "Residual",
+        "Optimization algorithm",
+        "Ultrasonic sensor",
+        "Surface (topology)",
+        "Ideal solution",
+        "Optimization problem"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是TC4钛合金的超声表面滚压参数优化，并非增材制造Ti-6Al-4V的力学或疲劳性能。",
+        "why_not_core": "This paper does not concern additively manufactured Ti-6Al-4V; it focuses on a post-processing optimization method for conventionally manufactured TC4, with no mechanical/fatigue characterization.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "USRP",
+          "optimization",
+          "TC4",
+          "surface properties"
+        ],
+        "summary_zh": {
+          "motivation": "优化TC4钛合金超声表面滚压参数以提升表面性能",
+          "method": "使用改进鲸鱼算法优化RBF神经网络预测模型，结合MOGWO进行多目标优化",
+          "result": "优化参数显著降低表面粗糙度，提高表面硬度和残余压应力",
+          "validation": "通过实验验证优化参数的有效性"
+        },
+        "summary_en": {
+          "motivation": "To optimize ultrasonic surface rolling process parameters for enhanced surface characteristics of TC4 titanium alloy.",
+          "method": "An IWOA-RBF predictive model integrated with MOGWO and CRITIC-TOPSIS was developed for multi-objective parameter optimization.",
+          "result": "Optimized USRP parameters significantly reduced surface roughness while increasing surface hardness and residual compressive stress.",
+          "validation": "Experimental validation confirmed the effectiveness of the optimized parameters."
+        },
+        "key_terms": [
+          {
+            "en": "ultrasonic surface rolling process",
+            "zh": "超声表面滚压"
+          },
+          {
+            "en": "TC4 titanium alloy",
+            "zh": "TC4钛合金"
+          },
+          {
+            "en": "whale optimization algorithm",
+            "zh": "鲸鱼优化算法"
+          },
+          {
+            "en": "RBF neural network",
+            "zh": "RBF神经网络"
+          },
+          {
+            "en": "multi-objective optimization",
+            "zh": "多目标优化"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "residual compressive stress",
+            "zh": "残余压应力"
+          },
+          {
+            "en": "surface hardness",
+            "zh": "表面硬度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:29:54Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

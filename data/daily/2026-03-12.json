@@ -4,177 +4,68 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2603.16925v1",
-      "doi": "",
-      "arxiv_id": "2603.16925v1",
-      "title": "Gaussian Process Regression-based Knowledge Distillation Framework for Simultaneous Prediction of Physical and Mechanical Properties of Epoxy Polymers",
-      "abstract": "Epoxy polymers are widely used due to their multifunctional properties, but machine learning (ML) applications remain limited owing to their complex 3D molecular structure, multi-component nature, and lack of curated datasets. Existing ML studies are largely restricted to simulation data, specific properties, or narrow constituent ranges. To address these limitations, we developed an informed Gaussian Process Regression-based Knowledge Distillation (GPR-KD) framework for predicting multiple physical (glass transition temperature, density) and mechanical properties (elastic modulus, tensile strength, compressive strength, flexural strength, fracture energy, adhesive strength) of thermoset epoxy polymers. The model was trained on experimental literature data covering diverse monomer classes (9 resins, 40 hardeners). Individual GPR models serve as teacher models capturing nonlinear feature-property relationships, while a unified neural network student model learns distilled knowledge across all properties simultaneously. By encoding the target property as an input feature, the student model leverages cross-property correlations. Molecular-level descriptors extracted from SMILES representations using RDKit create a physics-informed model. The framework combines GPR interpretability and robustness with deep learning scalability and generalization. Comparative analysis demonstrates superior prediction accuracy over conventional ML models. Simultaneous multi-property prediction further improves accuracy through information sharing across correlated properties. The proposed framework enables accelerated design of novel epoxy polymers with tailored properties.",
-      "authors": [
-        "Sindu B. S.",
-        "Jan Hamaekers"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2026,
-      "date": "2026-03-12",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2603.16925v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.soft",
-        "cond-mat.mtrl-sci",
-        "cs.LG"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "tensile strength"
-        ]
-      },
-      "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "本文研究环氧聚合物的多物性预测，与用户关于AI生物打印、髋关节植入物、FEA代理模型或生物医学增材制造的研究方向无直接关联。",
-        "why_not_core": "This paper does not address implant design, bioprinting, FEA surrogate modeling, or biomedical additive manufacturing; it is a materials informatics study on epoxy polymers without experimental validation on biomedical or AM-specific contexts.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "epoxy polymers",
-          "knowledge distillation",
-          "Gaussian process regression",
-          "multi-property prediction",
-          "machine learning",
-          "materials informatics"
-        ],
-        "summary_zh": {
-          "motivation": "传统方法难以预测环氧聚合物的多物性，旨在开发通用预测模型。",
-          "method": "构建基于高斯过程回归的知识蒸馏框架，结合分子描述符和多任务学习。",
-          "result": "在多种物理和力学性能上取得优于传统ML的预测精度。",
-          "validation": "基于文献实验数据进行交叉验证和模型对比。"
-        },
-        "summary_en": {
-          "motivation": "To overcome limitations of existing ML models for predicting multiple properties of epoxy polymers due to complex molecular structures and scarce data.",
-          "method": "Developed a GPR-KD framework where individual GPR teachers are distilled into a unified neural network student that takes molecular descriptors and property type as inputs.",
-          "result": "The framework achieves superior accuracy compared to conventional ML models across eight physical and mechanical properties.",
-          "validation": "The model was validated on a dataset of experimental literature data covering diverse monomer classes, with comparative analysis against baselines."
-        },
-        "key_terms": [
-          {
-            "en": "Gaussian Process Regression",
-            "zh": "高斯过程回归"
-          },
-          {
-            "en": "Knowledge Distillation",
-            "zh": "知识蒸馏"
-          },
-          {
-            "en": "Epoxy Polymers",
-            "zh": "环氧聚合物"
-          },
-          {
-            "en": "Glass Transition Temperature",
-            "zh": "玻璃化转变温度"
-          },
-          {
-            "en": "Elastic Modulus",
-            "zh": "弹性模量"
-          },
-          {
-            "en": "Tensile Strength",
-            "zh": "拉伸强度"
-          },
-          {
-            "en": "Molecular Descriptors",
-            "zh": "分子描述符"
-          },
-          {
-            "en": "Multi-property Prediction",
-            "zh": "多属性预测"
-          },
-          {
-            "en": "SMILES",
-            "zh": "简化分子线性输入规范"
-          },
-          {
-            "en": "RDKit",
-            "zh": "RDKit化学信息学工具包"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:20:36Z"
-    },
-    {
       "source": "openalex",
-      "id": "https://openalex.org/W7135084700",
-      "doi": "10.1007/s40964-026-01594-y",
-      "title": "Influence of molecular weight distribution on mechanical and interlayer properties of FFF printed PA12",
-      "abstract": "Abstract Understanding how molecular weight distribution (MWD) influences the mechanical and fracture behaviour of additively manufactured PA12 is essential for establishing reliable process–structure–property relationships. An approach to minimize anisotropy has been to specifically target the feedstock materials with the goal of enhancing interlayer adhesion. In this study, polyamide 12 (PA12) grades of MWD were investigated to determine the effect of MWD on the interlayer bond formation and anisotropy of the printed samples. Three different grades of PA12 were printed into tensile coupons and double cantilever beam (DCB) specimens and the mechanical properties were assessed to study interlayer bond strength using standard fracture toughness technique. A significant improvement in mechanical properties and fracture toughness were observed with higher print temperatures attributed to strong interlayer adhesion owing to longer interlayer bonding times (verified through the Lumped Capacity model and thermocouple data). Fracture toughness assessment also demonstrated that amongst samples printed at the same temperature, PA12 with a lower average MWD provided the highest fracture toughness (G 1C ) values, attributed to the faster diffusion of short polymer chains across the interlayer interface. Tailoring the MWD of feedstock polymers utilized in 3D printing as a strategy to optimize performance and lower anisotropy was demonstrated to be a feasible pathway. These findings were utilized by developing a PA12 blend of broad MWD which provided the highest overall mechanical properties and G 1c , demonstrating the usefulness of incorporating a high proportion of fast diffusing short polymer chains in the development of polymeric feedstock materials. Additionally, for large scale 3D printing applications, where maintaining high chamber temperatures is impractical, these results suggest that optimizing MWD can be an alternative strategy to improve interlayer adhesion and mechanical properties without relying solely on elevated print temperatures.",
+      "id": "https://openalex.org/W7135087331",
+      "doi": "10.1016/j.addma.2026.105162",
+      "title": "Tailoring Ti-6Al-4V during additive manufacturing with in situ sulphur microadditions to enhance machinability",
+      "abstract": "Improving the machinability of titanium alloys remains a major barrier in aerospace manufacturing, particularly for additively manufactured Ti-6Al-4V components that exhibit heterogeneous microstructures and high cutting resistance. This study introduces a new alloy modification machinability enhancement strategy by incorporating trace sulphur (<300ppm) via MoS₂ during wire-based directed energy deposition (W-DED). The modified alloy meets the composition requirements of Ti-6Al-4V ELI (ASTM Grade 23) titanium and retains its structural integrity while developing sulphur-rich particles at the grain boundary that act as low-strength shear paths and facilitate plastic flow during cutting. Machinability improvements include an approximate 8% reduction in average cutting forces (F r ) and a th r eefold decrease in tool flank wear compared to the unmodified alloy. Additionally, there was a noticeable change in chip morphology, shifting from distinctly serrated to more continuous. Machining trials show lower cutting forces, delayed crater and flank wear, and a shift in chip morphology from distinctly serrated to more continuous. This behaviour parallels the classical free-cutting effect of sulphur in steels yet is demonstrated here for the first time in an additively manufactured titanium alloy system. This work establishes in-process sulphur micro-addition as an effective pathway for tailoring the machining response of additively manufactured Ti-6Al-4V, offering a practical route for producing difficult-to-cut aerospace components with improved manufacturing efficiency. • Trace sulphur added to Ti-6Al-4V via W-DED without affecting mechanical properties • Sulphur precipitates at prior-β grain boundaries, forming particles that ease machining • Cutting forces drop ~8%, with crater and flank wear greatly reduced • Chip morphology shifts to continuous, aided by higher shear angle and less segmentation • Up-milling roughness improves from 3.16 µm to 0.71 µm due to stable chip formation",
       "authors": [
-        "Dejana Pejak Simunec",
-        "Premkumar Kothavade",
-        "Abdullah Kafi",
-        "Jessirie Dilag",
-        "Stuart Bateman"
+        "M. Adeel Zafar",
+        "Chi-Ho Ng",
+        "Joseph Otte",
+        "Mandeep Singh",
+        "Matthew S. Dargusch",
+        "Michael Bermingham"
       ],
-      "first_author_affiliation": "CSIRO, Melbourne, Australia",
+      "first_author_affiliation": "Centre for Advanced Materials Processing and Manufacturing, School of Mechanical and Mining Engineering, The University of Queensland, St Lucia, Queensland, 4072, Australia",
       "corresponding_authors": [
         {
-          "name": "Stuart Bateman",
-          "affiliation": "RMIT University, Melbourne, Australia"
+          "name": "Michael Bermingham",
+          "affiliation": "Centre for Advanced Materials Processing and Manufacturing, School of Mechanical and Mining Engineering, The University of Queensland, St Lucia, Queensland, 4072, Australia"
         }
       ],
-      "venue": "Progress in Additive Manufacturing",
+      "venue": "Additive manufacturing",
       "year": 2026,
       "date": "2026-03-12",
       "date_precision": "day",
-      "url": "https://doi.org/10.1007/s40964-026-01594-y",
-      "cited_by_count": 0,
+      "url": "https://doi.org/10.1016/j.addma.2026.105162",
+      "cited_by_count": 1,
       "concepts": [
+        "Machinability",
         "Materials science",
-        "Composite material",
-        "Fracture toughness",
-        "Anisotropy",
-        "Ultimate tensile strength",
-        "Polyamide",
-        "Polymer",
-        "Toughness",
-        "Fracture (geology)",
-        "Modulus",
-        "Raw material",
-        "Tensile testing"
+        "Metallurgy",
+        "Machining",
+        "Titanium alloy",
+        "Chip formation",
+        "Titanium",
+        "Microstructure",
+        "Alloy",
+        "Tool wear",
+        "Flank",
+        "Aerospace",
+        "Composite material"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "fracture toughness"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti-6Al-4V ELI",
+          "machining"
         ]
       },
       "llm": {
-        "priority": "High",
-        "relevance_level": "Direct",
-        "read_action": "Read now",
-        "relevance_to_user": "直接研究增材制造PA12的分子量分布对力学性能和层间粘结的影响，与您的AM力学性能方向高度相关。",
-        "why_not_core": "This paper does not cover implant-specific biomechanics, fatigue testing under physiological loads, or biomedical context.",
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文是关于增材制造过程中原位添加硫以改善切削加工性，而非后处理工艺对疲劳性能的影响。",
+        "why_not_core": "This paper does not involve any post-processing treatment; instead it modifies the alloy composition in situ during additive manufacturing, and its focus is on machinability rather than fatigue or mechanical performance improvement via post-processing.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -183,86 +74,206 @@
           "is_review": false
         },
         "tags": [
-          "FFF",
-          "PA12",
-          "molecular weight distribution",
-          "interlayer adhesion",
-          "fracture toughness",
-          "anisotropy",
-          "mechanical properties",
-          "polyamide 12"
+          "Ti-6Al-4V",
+          "machinability",
+          "sulphur addition",
+          "directed energy deposition",
+          "in situ alloying"
         ],
         "summary_zh": {
-          "motivation": "研究分子量分布对FFF打印PA12力学和层间性能的影响。",
-          "method": "采用三种不同分子量分布的PA12打印试样，通过拉伸和DCB实验评估力学性能。",
-          "result": "低分子量分布PA12在相同温度下断裂韧性最高，宽分子量分布共混物综合性能最优。",
-          "validation": "使用集总容量模型和热电偶数据验证层间粘结时间。"
+          "motivation": "提高增材制造Ti-6Al-4V的切削加工性以降低制造成本",
+          "method": "在W-DED过程中添加微量MoS₂引入硫元素，形成晶界硫化物促进剪切",
+          "result": "切削力降低约8%，刀具磨损减少三倍，切屑形态由锯齿状变为连续状",
+          "validation": "通过切削力测量、刀具磨损分析和切屑形貌表征验证"
         },
         "summary_en": {
-          "motivation": "This study investigates how molecular weight distribution affects the mechanical and interlayer fracture behavior of additively manufactured PA12.",
-          "method": "Three PA12 grades with different MWD were printed into tensile and DCB specimens; mechanical properties and fracture toughness were evaluated.",
-          "result": "PA12 with lower average MWD exhibited highest fracture toughness at same print temperature, and a broad MWD blend achieved overall best properties.",
-          "validation": "Interlayer bonding time was validated using the Lumped Capacity model and thermocouple measurements."
+          "motivation": "To improve the machinability of additively manufactured Ti-6Al-4V by introducing a free-cutting effect similar to sulfur in steels.",
+          "method": "Trace sulfur was added via MoS₂ during wire-based directed energy deposition, forming sulfur-rich particles at grain boundaries that act as low-strength shear paths.",
+          "result": "Average cutting forces dropped by approximately 8% and tool flank wear was reduced threefold, with chip morphology shifting from serrated to continuous.",
+          "validation": "Experimental machining trials including cutting force measurements, flank wear analysis, and chip morphology characterization were performed."
         },
         "key_terms": [
           {
-            "en": "molecular weight distribution (MWD)",
-            "zh": "分子量分布"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "polyamide 12 (PA12)",
-            "zh": "聚酰胺12"
+            "en": "machinability",
+            "zh": "切削加工性"
           },
           {
-            "en": "fused filament fabrication (FFF)",
-            "zh": "熔融沉积成型"
+            "en": "sulphur micro-additions",
+            "zh": "微量硫添加"
           },
           {
-            "en": "interlayer adhesion",
-            "zh": "层间粘结"
+            "en": "wire-based directed energy deposition",
+            "zh": "丝材定向能量沉积"
           },
           {
-            "en": "fracture toughness",
-            "zh": "断裂韧性"
+            "en": "cutting forces",
+            "zh": "切削力"
           },
           {
-            "en": "double cantilever beam (DCB)",
-            "zh": "双悬臂梁"
+            "en": "tool wear",
+            "zh": "刀具磨损"
           },
           {
-            "en": "anisotropy",
-            "zh": "各向异性"
+            "en": "chip morphology",
+            "zh": "切屑形态"
           },
           {
-            "en": "Lumped Capacity model",
-            "zh": "集总容量模型"
+            "en": "free-cutting effect",
+            "zh": "易切削效应"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:20:36Z"
+      "first_seen_at": "2026-06-07T23:28:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7135088166",
+      "doi": "10.36922/msam025490118",
+      "title": "Effects of heat treatment temperature and time on the fitness accuracy, retentive force, and permanent deformation of selective laser melting Ti-6Al-4V clasps",
+      "abstract": "The selective laser melting (SLM) technology of Ti-6Al-4V (TC4) demonstrates significant advantages in fabricating clasps for removable partial dentures, whereas subsequent heat treatment plays a crucial role in performance optimization. This study systematically investigated the effects of heat treatment temperature and time on the fitness accuracy, retentive force, and permanent deformation of SLM TC4 clasps. TC4 clasp specimens were manufactured using SLM technology and subjected to heat treatment under different temperatures (700, 750, 800, and 850℃) and times (0.5, 1.0, and 1.5 h). The fitness accuracy, retentive force, and permanent deformation after 10,000 insertion/removal cycles were measured for each group and statistically analyzed. The results revealed that the 700℃/0.5 h group showed significantly reduced fitness accuracy. After cyclic testing, the retentive force of all groups decreased by 4.06%&amp;ndash;12.18%, with heat treatment temperature significantly affecting both initial and final retentive forces. The time of heat treatment demonstrated no substantial influence. The permanent deformation of the clasps (31.15&amp;ndash;38.05 &amp;mu;m) remained unaffected by variations in either heat treatment temperature or time. Based on overall performance, the 700℃/0.5 h heat treatment condition is not recommended. Instead, selecting shorter time protocols such as 0.5 h within the 750℃&amp;ndash;850℃ range can help enhance production efficiency while maintaining performance standards.",
+      "authors": [
+        "Lu-Xiang Yu",
+        "Na Yu",
+        "Jing-Jing Fan",
+        "Peng Wang",
+        "Lu Liu",
+        "Fa-Bing Tan"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Lu-Xiang Yu",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Materials Science in Additive Manufacturing",
+      "year": 2026,
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "url": "https://doi.org/10.36922/msam025490118",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Deformation (meteorology)",
+        "Selective laser melting",
+        "Composite material",
+        "Melting temperature",
+        "Laser",
+        "Atmospheric temperature range",
+        "High heat",
+        "Heat generation"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TC4",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Peripheral",
+        "read_action": "Skim only",
+        "relevance_to_user": "本文研究热处理对SLM Ti-6Al-4V卡环的力学性能影响，但专注于牙科应用，而非通用疲劳性能。",
+        "why_not_core": "Does not investigate microstructure evolution, porosity closure, or conventional tensile/fatigue properties; application-specific to dental clasps.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "selective laser melting",
+          "heat treatment",
+          "dental clasp",
+          "retentive force",
+          "permanent deformation"
+        ],
+        "summary_zh": {
+          "motivation": "研究热处理温度和时间对SLM Ti-6Al-4V卡环性能的影响。",
+          "method": "制备SLM TC4卡环，在不同温度和时间下热处理后测量精度、固位力和永久变形。",
+          "result": "700°C/0.5h组精度显著下降，固位力下降4-12%，永久变形约31-38 μm且不受热处理影响。",
+          "validation": "通过10,000次插入/移除循环测试验证性能。"
+        },
+        "summary_en": {
+          "motivation": "This study investigates the effects of heat treatment temperature and time on the performance of SLM Ti-6Al-4V dental clasps.",
+          "method": "Ti-6Al-4V clasps were fabricated by SLM and heat-treated at various temperatures (700-850°C) and times (0.5-1.5 h), then tested for fitness accuracy, retentive force, and permanent deformation.",
+          "result": "The 700°C/0.5 h group exhibited significantly reduced accuracy; retentive force decreased by 4.06-12.18% after 10,000 cycles, while permanent deformation (31.15-38.05 μm) was unaffected by heat treatment parameters.",
+          "validation": "Cyclic insertion/removal testing was performed to simulate clinical use and measure performance changes."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "clasp",
+            "zh": "卡环"
+          },
+          {
+            "en": "retentive force",
+            "zh": "固位力"
+          },
+          {
+            "en": "permanent deformation",
+            "zh": "永久变形"
+          },
+          {
+            "en": "fitness accuracy",
+            "zh": "契合精度"
+          },
+          {
+            "en": "cyclic testing",
+            "zh": "循环测试"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:28:07Z"
     }
   ],
   "counts": {
     "fetched_total": 2,
     "by_source": {
-      "arxiv": 1,
-      "openalex": 1
+      "openalex": 2
     },
     "after_dedup": 2,
     "after_routing": 2,
     "by_direction": {
-      "mechanical_properties": 2
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "arxiv": 1,
-      "openalex": 1
+      "openalex": 2
     },
     "scored": 2,
     "priority_counts": {
-      "Low": 1,
-      "High": 1
+      "Exclude": 1,
+      "Medium": 1
     }
   }
 }

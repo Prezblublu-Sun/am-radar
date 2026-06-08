@@ -1,0 +1,161 @@
+{
+  "schema_version": "v2",
+  "date": "2025-08-10",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413127276",
+      "doi": "10.1007/s10853-025-11248-z",
+      "title": "Determining anisotropic slip system rate sensitivities of Ti-6Al-4V using high-energy X-ray diffraction microscopy",
+      "abstract": "Abstract Variation of strain rate sensitivity among different families of slip systems in the hexagonal close-packed ( $$\\upalpha$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mi>α</mml:mi> </mml:math> ) phase of titanium (Ti) alloys has the potential to alter microscale load redistribution during both creep and dwell fatigue loading. However, existing literature contains conflicting reports regarding the degree of anisotropy present in the strain rate sensitives between $$\\upalpha$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mi>α</mml:mi> </mml:math> slip system families across Ti alloys. Here, we quantify the strain rate sensitivity of $$\\upalpha$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mi>α</mml:mi> </mml:math> slip system families in Ti-6Al-4V using high-energy X-ray diffraction microscopy (HEDM). We present a novel procedure in which we utilize the HEDM-measured grain-scale stress states during stress relaxation to determine the strain rate sensitivities of the basal $$\\langle a \\rangle$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mrow> <mml:mo>⟨</mml:mo> <mml:mi>a</mml:mi> <mml:mo>⟩</mml:mo> </mml:mrow> </mml:math> , prismatic $$\\langle a \\rangle$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mrow> <mml:mo>⟨</mml:mo> <mml:mi>a</mml:mi> <mml:mo>⟩</mml:mo> </mml:mrow> </mml:math> , and first-order pyramidal $$\\langle c+a \\rangle$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mrow> <mml:mo>⟨</mml:mo> <mml:mi>c</mml:mi> <mml:mo>+</mml:mo> <mml:mi>a</mml:mi> <mml:mo>⟩</mml:mo> </mml:mrow> </mml:math> slip system families. In addition, we measure the strain rate sensitivity exponent of the macroscopic response and the $$\\upalpha$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mi>α</mml:mi> </mml:math> phase for comparison. We find rate sensitivities for the different slip system families to range from 0.02 to 0.04, which—while varied—are relatively isotropic in comparison with some values presented in the literature. We also demonstrate the effects of the measured anisotropic rate sensitivities using crystal plasticity finite element simulations.",
+      "authors": [
+        "Kenneth M. Peterson",
+        "Jun‐Sang Park",
+        "Péter Kenesei",
+        "Caleb W. Herr",
+        "Adam L. Pilchak",
+        "Matthew Kasemer",
+        "Darren C. Pagan"
+      ],
+      "first_author_affiliation": "Materials Science and Engineering, The Pennsylvania State University, University Park, PA, 16802, USA",
+      "corresponding_authors": [
+        {
+          "name": "Kenneth M. Peterson",
+          "affiliation": "Materials Science and Engineering, The Pennsylvania State University, University Park, PA, 16802, USA"
+        }
+      ],
+      "venue": "Journal of Materials Science",
+      "year": 2025,
+      "date": "2025-08-10",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s10853-025-11248-z",
+      "cited_by_count": 6,
+      "concepts": [
+        "Materials science",
+        "Solid mechanics",
+        "Slip (aerodynamics)",
+        "X-ray",
+        "Anisotropy",
+        "Microscopy",
+        "X-ray crystallography",
+        "Diffraction",
+        "Optical microscope",
+        "Optics",
+        "Composite material",
+        "Crystallography",
+        "Mineralogy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V的滑移系统应变率敏感性，但未涉及增材制造工艺，因此与层1增材制造钛合金力学性能方向相关性低。",
+        "why_not_core": "Does not concern additively manufactured Ti-6Al-4V; no additive manufacturing process (LPBF/SLM/EBM/DED) is mentioned or studied.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "slip system rate sensitivity",
+          "high-energy X-ray diffraction microscopy",
+          "crystal plasticity",
+          "anisotropy"
+        ],
+        "summary_zh": {
+          "motivation": "量化Ti-6Al-4V中不同滑移系统族的应变率敏感性各向异性。",
+          "method": "利用高能X射线衍射显微镜测量应力松弛过程中的晶粒尺度应力状态。",
+          "result": "发现不同滑移系统族的率敏感性在0.02到0.04之间，相对各向同性。",
+          "validation": "通过晶体塑性有限元模拟展示各向异性率敏感性的影响。"
+        },
+        "summary_en": {
+          "motivation": "The study aims to quantify the anisotropic strain rate sensitivity among different slip system families in Ti-6Al-4V, which has implications for creep and dwell fatigue.  (paraphrased)",
+          "method": "High-energy X-ray diffraction microscopy (HEDM) is used to measure grain-scale stress states during stress relaxation, enabling determination of slip system rate sensitivities.  (paraphrased)",
+          "result": "The rate sensitivities for basal, prismatic, and pyramidal slip systems range from 0.02 to 0.04, showing relatively isotropy compared to literature.  (paraphrased)",
+          "validation": "Crystal plasticity finite element simulations are performed to demonstrate the effects of the measured anisotropic rate sensitivities.  (paraphrased)"
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "slip system",
+            "zh": "滑移系统"
+          },
+          {
+            "en": "strain rate sensitivity",
+            "zh": "应变率敏感性"
+          },
+          {
+            "en": "high-energy X-ray diffraction microscopy",
+            "zh": "高能X射线衍射显微镜"
+          },
+          {
+            "en": "crystal plasticity",
+            "zh": "晶体塑性"
+          },
+          {
+            "en": "anisotropy",
+            "zh": "各向异性"
+          },
+          {
+            "en": "basal slip",
+            "zh": "基面滑移"
+          },
+          {
+            "en": "prismatic slip",
+            "zh": "柱面滑移"
+          },
+          {
+            "en": "pyramidal slip",
+            "zh": "锥面滑移"
+          },
+          {
+            "en": "dwell fatigue",
+            "zh": "保载疲劳"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:13:39Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

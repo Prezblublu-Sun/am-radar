@@ -1,0 +1,145 @@
+{
+  "schema_version": "v2",
+  "date": "2025-06-29",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411889072",
+      "doi": "10.3390/met15070728",
+      "title": "Laser Powder Bed Fusion of a Ti-16Nb-Based Alloy: Processability, Microstructure, and Mechanical Properties",
+      "abstract": "Titanium alloys, especially Ti6Al4V, are widely used in biomedical implants due to their biocompatibility and mechanical strength. However, their high elastic modulus (&gt;100 GPa), compared to that of human bone (10–30 GPa), often causes stress shielding, reducing implant lifespan. To address this, titanium alloys with lower elastic modulus are under development. In this study, Ti-based multi-element alloy with 16 wt.% Nb samples were fabricated using laser powder bed fusion (L-PBF) from a premixed powder blend of Ti6Al4V and Nb-Hf-Ti. Processing high-melting Nb-based alloys via L-PBF poses challenges, which were mitigated through optimized parameters, including a maximum laser power of 100 W. Eleven parameter sets were employed to evaluate printability, microstructure, and mechanical properties. Microstructural analysis revealed Widmanstätten structures composed of α and β phases, along with isolated spherical pores. Reduced hatch spacing and slower laser speed led to increased hardness. The highest hardness (~43 HRC) was observed at the highest energy density (266 J/mm3), while the lowest (~28 HRC) corresponded to 44 J/mm3. Elastic modulus values ranged from 30 to 35 GPa, closely matching that of bone. These results demonstrate the potential of the developed Ti-based alloy containing 16 wt.% Nb as a promising candidate for load-bearing biomedical implants.",
+      "authors": [
+        "Azim Gökçe",
+        "Vamsi Krishna Balla",
+        "Subrata Deb Nath",
+        "Arulselvan Arumugham Akilan",
+        "Sundar V. Atre"
+      ],
+      "first_author_affiliation": "Department of Metallurgical and Materials Engineering, Technology Faculty, Sakarya University of Applied Sciences, Sakarya 54187, Turkey",
+      "corresponding_authors": [
+        {
+          "name": "Azim Gökçe",
+          "affiliation": "Department of Metallurgical and Materials Engineering, Technology Faculty, Sakarya University of Applied Sciences, Sakarya 54187, Turkey"
+        }
+      ],
+      "venue": "Metals",
+      "year": 2025,
+      "date": "2025-06-29",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/met15070728",
+      "cited_by_count": 2,
+      "concepts": [
+        "Microstructure",
+        "Materials science",
+        "Fusion",
+        "Alloy",
+        "Laser",
+        "Titanium alloy",
+        "Composite material",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_femoral_stem": [
+          "Ti6Al4V",
+          "stress shielding"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是Ti-16Nb合金的LPBF工艺与性能，而非钛合金股骨柄的结构设计，与研究方向无关。",
+        "why_not_core": "This paper does not study Ti-6Al-4V femoral stem design; it investigates an alternative Ti-16Nb alloy's printability and basic mechanical properties, with no stem geometry, porous architecture, or structural performance analysis.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "Ti-16Nb alloy",
+          "biomedical implant",
+          "elastic modulus",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "开发低弹性模量钛合金以减少应力屏蔽",
+          "method": "采用激光粉末床熔融制备Ti-16Nb合金并优化参数",
+          "result": "合金弹性模量30-35 GPa，接近骨骼，硬度28-43 HRC",
+          "validation": "通过显微组织分析和力学测试验证性能"
+        },
+        "summary_en": {
+          "motivation": "Develop Ti alloys with low elastic modulus to mitigate stress shielding in biomedical implants.",
+          "method": "Fabricated Ti-16Nb alloy samples via L-PBF from premixed powders using optimized parameters.",
+          "result": "Achieved elastic modulus of 30-35 GPa matching bone, with hardness ranging from 28 to 43 HRC.",
+          "validation": "Microstructural characterization and mechanical testing (hardness, modulus) were performed."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-16Nb alloy",
+            "zh": "Ti-16Nb合金"
+          },
+          {
+            "en": "elastic modulus",
+            "zh": "弹性模量"
+          },
+          {
+            "en": "stress shielding",
+            "zh": "应力屏蔽"
+          },
+          {
+            "en": "biomedical implant",
+            "zh": "生物医用植入物"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          },
+          {
+            "en": "Widmanstätten structure",
+            "zh": "魏氏组织"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:09:50Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_femoral_stem": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

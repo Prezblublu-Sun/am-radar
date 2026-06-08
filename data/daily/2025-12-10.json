@@ -4,210 +4,155 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2512.10052v1",
-      "doi": "10.1103/vygw-lm64",
-      "arxiv_id": "2512.10052v1",
-      "title": "Spin-phonon interactions revisited: Far-infrared emission, Raman scattering, and high-resolution x-ray diffraction at the Néel temperature in LaFeO3",
-      "abstract": "We report on the structural evolution, spin phonon interactions, and magnetoelastic effects in bulk LaFeO3 perovskite across its antiferromagnetic transition. We found that while the lattice constants exhibit slight deviations at the Neel temperature(TN), due to spin phonon interactions, individual interatomic bonds display distinct behavior. The octahedral B site basal plane, involving oxygen ion pairs that mediate superexchange interactions, displays bond contraction (or elongation) assimilable to the observed in x ray diffraction for negative thermal expansion. These bond deviations reach a singular point near TN, where a sharp change in bond length is observed. A similar abrupt change is also detected in the nearest neighbor La O2 basal plane distances, which we interpret as arising from ion size differences within the 3d 2p hybridized states associated with the superexchange mechanism. High-resolution SXRD measurements of the c-axis Fe3+ O1 and La3+ O1 apex distances reveal a distinct inflection at the Neel temperature. This behavior supports the role of lattice distortions and crystal field modifications in the emergence of non collinear weak ferromagnetism in RFeO3 (R = rare earth) perovskites. Furthermore, our SXRD patterns show an increase in diffraction line intensities peaking at TN, suggesting a straightforward indicator for spin-phonon interactions that also resolves into lattice metastability deduced by nonlinear thermal expansion in the paramagnetic phase. Preliminary results across the full RFeO3 (R = rare earth) series indicate a shared structural framework among all members, potentially offering insights into previously inconclusive structural interpretations in oxides with common octahedral sublattices.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4417202512",
+      "doi": "10.17134/khosbd.1811963",
+      "title": "Porosity Measurement for HIPped AM Ti6Al4V Samples – A Practical Comparison between Archimedes Method and Micro-CT",
+      "abstract": "This study presents a comparative analysis of porosity measurement techniques using the Archimedes method and micro-computed tomography (Micro-CT) for additively manufactured (AM) Ti-6Al-4V components. The samples were subjected to four different post-processing conditions: three groups were processed using Hot Isostatic Pressing (HIP) with varying parameters, while one group remained in the as-built condition. A total of 16 samples were analyzed, with each group comprising four specimens. To enhance the mechanical performance of AM parts, particularly their fatigue strength, maximizing relative density (approaching 100%) and optimizing the morphology of the defects are primary objectives. Among post-processing techniques, HIP is one of the most effective methods for reducing or eliminating internal porosity, thereby increasing the overall density of as-built materials, which typically exhibit densities exceeding 99% of the theoretical value. The presence, morphology, and distribution of porosity are especially critical in determining fatigue behavior. The experimental setup included: Group 1: HIP at 920 °C, 100 MPa, for 2 hours, Group 2: HIP at 815 °C, 190 MPa, for 2 hours, Group 3: HIP at 920 °C, 100 MPa, for 2 hours with uniform rapid quenching, and Group 4: As-built condition (no post-processing) Density measurements were performed on all samples using the Archimedes method. Additionally, one representative sample from each group was partially scanned using Micro-CT to evaluate internal porosity characteristics. A comparative analysis of the results from both techniques revealed a consistent correlation between them. While the Archimedes method offers a faster, more cost-effective approach for quantifying overall porosity levels, Micro-CT provides valuable insights into the spatial distribution, size, and morphology of pores within the material—information that cannot be captured through the Archimedes technique alone.",
       "authors": [
-        "Néstor E. Massa",
-        "Javier Gainza",
-        "Aurélien Canizares",
-        "Leire del Campo",
-        "José Antonio Alonso"
+        "Osman Tuna Gökgöz",
+        "Hüdayim Başak",
+        "Olcay Ersel Canyurt",
+        "Katri Kakko",
+        "Chad Beamer"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "GAZİ ÜNİVERSİTESİ",
+      "corresponding_authors": [
+        {
+          "name": "Osman Tuna Gökgöz",
+          "affiliation": "GAZİ ÜNİVERSİTESİ"
+        }
+      ],
+      "venue": "Savunma Bilimleri Dergisi",
       "year": 2025,
       "date": "2025-12-10",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2512.10052v1",
+      "url": "https://doi.org/10.17134/khosbd.1811963",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Porosity",
+        "Hot isostatic pressing",
+        "Materials science",
+        "Pressing",
+        "Composite material",
+        "Relative density",
+        "Titanium alloy",
+        "Finite element method"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "elongation"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti6Al4V",
+          "Ti 6Al 4V",
+          "porosity",
+          "fatigue",
+          "fatigue strength"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti6Al4V",
+          "Ti 6Al 4V",
+          "hot isostatic pressing",
+          "post-processing"
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文完全不相关，属于凝聚态物理领域，与增材制造或生物力学无关。",
-        "why_not_core": "This paper does not address any aspect of additive manufacturing, mechanical properties of implants, or biomedical applications.",
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "论文比较了热等静压后Ti6Al4V增材制造样品的孔隙率测量方法，虽未直接测试力学性能，但对评估后处理效果有参考价值。",
+        "why_not_core": "The paper does not directly measure mechanical performance (fatigue, tensile) or microstructure evolution; it focuses on comparing porosity measurement techniques.",
         "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [],
-        "summary_zh": {
-          "motivation": "研究LaFeO3中的自旋-声子相互作用",
-          "method": "采用远红外发射、拉曼散射和高分辨率X射线衍射",
-          "result": "发现晶格常数在奈尔温度附近有异常变化",
-          "validation": "未涉及增材制造或生物力学验证"
-        },
-        "summary_en": {
-          "motivation": "Investigate spin-phonon interactions and magnetoelastic effects in LaFeO3 perovskite across its antiferromagnetic transition.",
-          "method": "Employed far-infrared emission, Raman scattering, and high-resolution x-ray diffraction.",
-          "result": "Observed distinct bond length anomalies and diffraction intensity increase at the Néel temperature.",
-          "validation": "No validation related to additive manufacturing or mechanical properties."
-        },
-        "key_terms": []
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:17:08Z"
-    },
-    {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2512.09534v1",
-      "doi": "",
-      "arxiv_id": "2512.09534v1",
-      "title": "Effect of cold rolling strain on the microstructural evolution in equimolar MoNbTaTiZr refractory complex concentrated alloy: Comprehensive characterization",
-      "abstract": "This work presents a pilot study on a strained complex concentrated alloy based on refractory elements: MoNbTaTiZr. Initially, the as-cast and homogenization-annealed conditions were characterized. After casting, the alloy consists of two solid solutions with BCC 1 and BCC 2 crystal structures. Homogenization annealing promotes the growth, ordering, and refinement of the BCC 2 phase. TEM and AES analyses indicate possible Zr segregation at grain boundaries in the as-cast state. In contrast, annealing followed by cooling results in the formation of Ti-Zr-based particles without segregation. Subsequently, the annealed alloy was cold-rolled, and its microstructure was investigated. During rolling, grain fragmentation occurs within the structure. In addition to the two BCC solid solutions, a phase with an FCC crystal structure is identified after rolling. Its composition corresponds to the Zr2Ta phase, which is a Laves phase of the A2B type. Rotational relationships, relatively rare in rolled materials with BCC structures, are identified. The texture components found after 10% rolling deformation are related to that present after 20% deformation by a 45 degrees <110> rotation, and this component is related to that appearing after 30% deformation by a 20 degrees <100> rotation. However, no distinct rolling texture or clear texture development was observed, although some mutual relationships among preferred orientations can be identified. Schmid and Taylor factor maps demonstrate that, despite deformation, the alloy remains capable of further strain accumulation and plastic deformation. Twinning is also observed after rolling, which may be beneficial, as deformation twinning contributes to improved ductility in the alloy.",
-      "authors": [
-        "Andrea Skolakova",
-        "Haruka Katayama",
-        "Pavel Lejcek",
-        "Orsolya Molnarova",
-        "Sadahiro Tsurekawa",
-        "Petr Vertat",
-        "Jan Duchon",
-        "Jaroslav Cech",
-        "Petr Svora",
-        "Ondrej Ekrt",
-        "Jan Pinc"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2025,
-      "date": "2025-12-10",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2512.09534v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "ductility"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究冷轧对难熔高熵合金微观结构的影响，与增材制造力学性能研究方向无关。",
-        "why_not_core": "This paper focuses on cold rolling and microstructural evolution of a cast refractory alloy, with no additive manufacturing, mechanical testing, or biomedical implant context.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "refractory complex concentrated alloy",
-          "cold rolling",
-          "microstructural evolution",
-          "BCC",
-          "FCC",
-          "Laves phase"
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "hot isostatic pressing",
+          "porosity measurement",
+          "Archimedes method",
+          "micro-CT"
         ],
         "summary_zh": {
-          "motivation": "探究冷轧应变对MoNbTaTiZr难熔高熵合金微观结构演变的影响。",
-          "method": "对铸态和均匀化退火合金进行不同压下量的冷轧，使用TEM、AES、EBSD等表征手段。",
-          "result": "冷轧后出现FCC结构的Laves相，观察到旋转关系和孪晶，无明显轧制织构。",
-          "validation": "通过微观结构表征验证了应变累积能力和塑性变形能力。"
+          "motivation": "比较热等静压后Ti6Al4V样品孔隙率测量方法的准确性。",
+          "method": "采用阿基米德法和微CT对四种后处理状态的样品进行孔隙率测量并对比。",
+          "result": "两种方法结果一致，但微CT可提供孔隙空间分布和形态信息。",
+          "validation": "通过16个样品分组实验进行对比验证。"
         },
         "summary_en": {
-          "motivation": "This pilot study investigates the effect of cold rolling strain on the microstructural evolution of the equimolar MoNbTaTiZr refractory complex concentrated alloy.",
-          "method": "The as-cast and homogenized alloy was cold-rolled at different strains, and characterized using TEM, AES, EBSD, and Schmid/Taylor factor analysis.",
-          "result": "Cold rolling led to grain fragmentation, formation of an FCC Laves phase, and twinning, with rotational relationships among orientations but no distinct rolling texture.",
-          "validation": "Experimental characterization including diffraction and mapping validated the microstructural changes and continued strain accumulation capability."
+          "motivation": "To compare porosity measurement techniques for hot isostatic pressed (HIP) additively manufactured Ti-6Al-4V samples.",
+          "method": "Archimedes method and micro-CT were used to measure porosity of samples in four groups: three HIP conditions and one as-built.",
+          "result": "Good correlation between methods was found, with micro-CT providing additional spatial distribution and morphology of pores.",
+          "validation": "Experimental comparison using 16 samples with partial micro-CT scans."
         },
         "key_terms": [
           {
-            "en": "refractory complex concentrated alloy",
-            "zh": "难熔复杂浓缩合金"
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
           },
           {
-            "en": "cold rolling",
-            "zh": "冷轧"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           },
           {
-            "en": "microstructural evolution",
-            "zh": "微观结构演变"
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
           },
           {
-            "en": "BCC crystal structure",
-            "zh": "体心立方晶体结构"
+            "en": "porosity measurement",
+            "zh": "孔隙率测量"
           },
           {
-            "en": "FCC crystal structure",
-            "zh": "面心立方晶体结构"
+            "en": "Archimedes method",
+            "zh": "阿基米德法"
           },
           {
-            "en": "Laves phase",
-            "zh": "拉弗斯相"
+            "en": "micro-CT",
+            "zh": "微计算机断层扫描"
           },
           {
-            "en": "twinning",
-            "zh": "孪晶"
+            "en": "fatigue strength",
+            "zh": "疲劳强度"
           },
           {
-            "en": "Schmid factor",
-            "zh": "施密特因子"
-          },
-          {
-            "en": "texture",
-            "zh": "织构"
-          },
-          {
-            "en": "segregation",
-            "zh": "偏析"
+            "en": "relative density",
+            "zh": "相对密度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:17:08Z"
+      "first_seen_at": "2026-06-07T23:21:34Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 1,
     "by_source": {
-      "arxiv": 2
+      "openalex": 1
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 1,
+    "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 2
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "arxiv": 2
+      "openalex": 1
     },
-    "scored": 2,
+    "scored": 1,
     "priority_counts": {
-      "Exclude": 2
+      "Medium": 1
     }
   }
 }

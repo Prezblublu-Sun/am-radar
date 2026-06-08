@@ -1,0 +1,142 @@
+{
+  "schema_version": "v2",
+  "date": "2026-05-05",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7160565349",
+      "doi": "",
+      "title": "Physics-Grounded Multi-Agent Architecture for Traceable, Risk-Aware Human-AI Decision Support in Manufacturing",
+      "abstract": "High-precision CNC machining of free-form aerospace components requires bounded compensations informed by inspection, simulation, and process knowledge. Off-the-shelf large language model (LLM) assistants can generate text, but they do not reliably execute risk-constrained multi-step numerical workflows or provide auditable provenance for high-stakes decisions. We present multi-agent knowledge analysis (MAKA), a human-in-the-loop decision-support architecture that separates intent routing, tools-only quantitative analysis, knowledge graph retrieval, and critic-based verification that enforces physical plausibility, safety bounds, and provenance completeness before recommendations are surfaced for human approval. MAKA is instantiated on a Ti-6Al-4V rotor blade machining testbed by fusing virtual-machining path-tracking error fields, cutting-force and deflection simulations, and scan-based 3D inspection deviation maps from 16 blades. The analysis decomposes deviation into an evidence-linked pathing component, a drift-based wear proxy capturing systematic evolution across parts, a residual systematic compliance term, and a variability proxy for instability-aware escalation. In a three-level tool-orchestration benchmark (single-step through $\\geq$3-step stateful sequences), MAKA improves successful tool execution by up to 87.5 percentage points relative to an unstructured single-model interaction pattern with identical tool access. Digital twin what-if studies show MAKA can coordinate traceable compensation candidates that reduce predicted surface deviation from order $10^{-2}$in to approximately $\\pm 10^{-3}$in over most of the blade within the simulation environment, providing a pre-deployment verification signal for risk-aware human decision-making.",
+      "authors": [
+        "Danny Hoang",
+        "Ryan Matthiessen",
+        "Christopher Miller",
+        "Nasir Mannan",
+        "Ruby ElKharboutly",
+        "David Gorsich",
+        "Matthew P. Castanier",
+        "Farhad Imani"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Danny Hoang",
+          "affiliation": ""
+        }
+      ],
+      "venue": "ArXiv.org",
+      "year": 2026,
+      "date": "2026-05-05",
+      "date_precision": "day",
+      "url": "https://openalex.org/W7160565349",
+      "cited_by_count": 0,
+      "concepts": [
+        "Computer science",
+        "Machining",
+        "Testbed",
+        "Workflow",
+        "Data mining",
+        "Residual",
+        "Real-time computing",
+        "Skew",
+        "Conformance checking"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "论文涉及Ti-6Al-4V的CNC加工，但未涉及任何后处理工艺对力学性能的影响。",
+        "why_not_core": "The paper focuses on a multi-agent decision-support architecture for CNC machining compensation, not on any post-processing treatment (e.g., heat treatment, HIP, shot peening) that modifies the mechanical or fatigue performance of AM Ti-6Al-4V.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": true,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "CNC machining",
+          "multi-agent architecture",
+          "digital twin",
+          "decision support"
+        ],
+        "summary_zh": {
+          "motivation": "高精度CNC加工需要基于检测和仿真的补偿，但现有LLM无法可靠执行风险约束的多步骤数值工作流。",
+          "method": "提出多智能体知识分析架构MAKA，分离意图路由、工具分析、知识图谱检索和基于物理的验证。",
+          "result": "在Ti-6Al-4V转子叶片测试中，MAKA将工具执行成功率提升最多87.5个百分点，数字孪生预测表面偏差降至约±0.001英寸。",
+          "validation": "基于16个叶片的虚拟加工路径误差、切削力仿真和3D检测偏差图进行验证。"
+        },
+        "summary_en": {
+          "motivation": "High-precision CNC machining requires inspection- and simulation-informed compensation, but off-the-shelf LLMs cannot reliably execute risk-constrained multi-step numerical workflows.",
+          "method": "A multi-agent knowledge analysis (MAKA) architecture is proposed that separates intent routing, tool-based quantitative analysis, knowledge graph retrieval, and physics-based critic verification.",
+          "result": "On a Ti-6Al-4V rotor blade testbed, MAKA improves successful tool execution by up to 87.5 percentage points and reduces predicted surface deviation to approximately ±0.001 inches in digital twin simulations.",
+          "validation": "The approach is validated using virtual-machining path-tracking error fields, cutting-force simulations, and 3D inspection deviation maps from 16 blades."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "CNC machining",
+            "zh": "CNC加工"
+          },
+          {
+            "en": "multi-agent system",
+            "zh": "多智能体系统"
+          },
+          {
+            "en": "digital twin",
+            "zh": "数字孪生"
+          },
+          {
+            "en": "decision support",
+            "zh": "决策支持"
+          },
+          {
+            "en": "surface deviation compensation",
+            "zh": "表面偏差补偿"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:31:55Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

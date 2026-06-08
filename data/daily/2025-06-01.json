@@ -5,118 +5,116 @@
   "papers": [
     {
       "source": "openalex",
-      "id": "https://openalex.org/W4411250771",
-      "doi": "10.1016/j.artd.2025.101710",
-      "title": "Mixed Manufacturer Combination With a Cementless Hemispherical Dual Mobility Cup and Polished Taper-Slip Cemented Femoral Stem: Short- to Medium-Term Results in Primary Total Hip Arthroplasty in Elderly Patients",
-      "abstract": "Background: There is a lack of conclusive literature regarding the mixed-manufacturer combination of the Symbol cementless hemispherical dual mobility cup (Dedienne Santé) and the Exeter V40 cemented femoral stems (Stryker) in patients who underwent primary total hip arthroplasty (THA). This study aimed to evaluate the clinical and radiographic outcomes of this combination, with a particular attention to the occurrence of dislocation and periprosthetic femoral fractures (PFFs). Methods: Between 2021 and 2023, a consecutive series of 123 primary THAs were reviewed at the latest follow-up. The mean age at surgery was 75 ± 9 ys. Postoperative complications were recorded. The clinical outcome was assessed with the Harris Hip Score. Acetabular, femoral, and global hip offset were evaluated on standard radiographs. Results: < .0001.) No dislocation was reported. No Vancouver A or B PFF was observed. One Vancouver C PFF was observed. The revision-free survival rate at 24-month follow-up was 98.6%. The global offset of the hip was restored in all the patients with a mean average increase of 3 ± 5.8 mm. Conclusions: The mixed-manufacturer combination of the Symbol cementless hemispherical dual mobility cup and the Exeter cemented femoral stem resulted in excellent short- to medium-term outcomes in patients who underwent primary THA. This combination was effective in preventing both instability and femoral Vancouver B PFF in these patients at risk, while allowing global hip offset restoration.",
+      "id": "https://openalex.org/W4410935971",
+      "doi": "10.2507/ijsimm24-2-co7",
+      "title": "Micro-Texture Optimization for Titanium Cutting Tools via Simulation",
+      "abstract": "This study presents optimization of micro-texture parameters for titanium alloy cutting tools to enhance machining performance.A two-dimensional finite element model was developed in the ABAQUS environment, incorporating the Johnson-Cook constitutive model to simulate the cutting process of Ti6Al4V (TC4) titanium alloy.The effects of micro-texture width, spacing, depth, and distance from the tool edge on cutting force and temperature were systematically investigated using an orthogonal experimental design.Simulation results demonstrated that micro-textured tools significantly reduced cutting forces and temperatures compared to non-textured tools, with optimal parameter combinations achieving reductions of up to 72.6 % in cutting force and 189C in temperature.Range analysis revealed the hierarchical influence of micro-texture parameters: distance from the edge had the greatest impact on cutting force, while texture width most strongly affected temperature.The study reveals critical mechanical-thermal trade-offs in micro-textured tool design, necessitating multi-objective optimization to guide high-performance titanium machining applications.",
       "authors": [
-        "B Pellegrini",
-        "Alexander Antoniadis",
-        "Diane Wernly",
-        "Maya Kaegi",
-        "Julien Wegrzyn"
+        "Di Wu",
+        "Chengliang Zhao",
+        "Chien‐Ling Huang",
+        "Xuan Luo"
       ],
-      "first_author_affiliation": "Department of Orthopedic Surgery, Lausanne University Hospital-Centre Hospitalier Universitaire Vaudois- CHUV, Hopital Orthopedique, Lausanne, Switzerland",
+      "first_author_affiliation": "",
       "corresponding_authors": [
         {
-          "name": "B Pellegrini",
-          "affiliation": "Department of Orthopedic Surgery, Lausanne University Hospital-Centre Hospitalier Universitaire Vaudois- CHUV, Hopital Orthopedique, Lausanne, Switzerland"
+          "name": "Di Wu",
+          "affiliation": ""
         }
       ],
-      "venue": "Arthroplasty Today",
+      "venue": "International Journal of Simulation Modelling",
       "year": 2025,
       "date": "2025-06-01",
       "date_precision": "month",
-      "url": "https://doi.org/10.1016/j.artd.2025.101710",
-      "cited_by_count": 2,
+      "url": "https://doi.org/10.2507/ijsimm24-2-co7",
+      "cited_by_count": 1,
       "concepts": [
-        "Medicine",
-        "Total hip arthroplasty",
-        "Total hip replacement",
-        "Surgery",
-        "Arthroplasty",
-        "Dentistry",
-        "Prosthesis",
-        "Medium term"
+        "Texture (cosmology)",
+        "Materials science",
+        "Titanium",
+        "Computer science",
+        "Engineering drawing",
+        "Metallurgy"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "am_femoral_stem"
+        "ti6al4v_postprocess"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "TC4",
+          "machining"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文为临床回顾性研究，未涉及用户关注的计算力学、增材制造或生物打印方向。",
-        "why_not_core": "This paper reports clinical outcomes of a specific implant combination without any biomechanical modeling, FEA, implant design modification, or validation related to stress shielding, micromotion, or AM fabrication.",
-        "validation_kind": "clinical",
+        "relevance_to_user": "该论文研究的是钛合金切削刀具的微织构优化，而非增材制造Ti-6Al-4V零件的后处理，因此与关注方向无关。",
+        "why_not_core": "This paper does not address any post-processing treatment of AM Ti-6Al-4V; it focuses on micro-texture design for cutting tools to machine titanium alloys, which is outside the scope of post-processing effects on mechanical performance.",
+        "validation_kind": "simulation_case",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "total hip arthroplasty",
-          "dual mobility cup",
-          "cemented stem",
-          "clinical outcomes",
-          "periprosthetic fracture"
+          "micro-texture",
+          "cutting tools",
+          "Ti6Al4V",
+          "finite element simulation"
         ],
         "summary_zh": {
-          "motivation": "评估混合制造商组合陶瓷臼杯和骨水泥柄在老年初次全髋置换中的效果。",
-          "method": "回顾123例临床和影像学结果，记录并发症和Harris评分。",
-          "result": "无脱位，无Vancouver A/B假体周围骨折，24个月存活率98.6%。",
-          "validation": "临床随访和影像学评估。"
+          "motivation": "优化钛合金切削刀具微织构参数以提高加工性能。",
+          "method": "在ABAQUS中建立二维有限元模型，结合Johnson-Cook模型正交实验设计。",
+          "result": "微织构刀具显著降低切削力和温度，最优参数组合减少切削力72.6%和温度189°C。",
+          "validation": "通过仿真数值分析验证，无实验验证。"
         },
         "summary_en": {
-          "motivation": "To evaluate clinical and radiographic outcomes of a mixed-manufacturer cementless cup and cemented stem combination in primary THA in elderly patients.",
-          "method": "Retrospective review of 123 consecutive primary THAs with clinical scoring and radiographic offset measurement.",
-          "result": "No dislocations, no Vancouver A/B periprosthetic fractures, and a 24-month revision-free survival of 98.6% with restored global offset.",
-          "validation": "Clinical follow-up with Harris Hip Score and radiographic analysis."
+          "motivation": "This study aims to optimize micro-texture parameters on titanium alloy cutting tools to enhance machining performance.",
+          "method": "A two-dimensional finite element model with Johnson-Cook constitutive model was developed in ABAQUS, and orthogonal experimental design was used to investigate parameter effects.",
+          "result": "Micro-textured tools significantly reduced cutting forces (up to 72.6%) and temperatures (up to 189°C) compared to non-textured tools.",
+          "validation": "Validation was performed through simulation-based range analysis without experimental testing."
         },
         "key_terms": [
           {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换术"
+            "en": "micro-texture",
+            "zh": "微织构"
           },
           {
-            "en": "dual mobility cup",
-            "zh": "双动臼杯"
+            "en": "cutting tool",
+            "zh": "切削刀具"
           },
           {
-            "en": "cemented femoral stem",
-            "zh": "骨水泥型股骨柄"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V"
           },
           {
-            "en": "periprosthetic femoral fracture",
-            "zh": "假体周围股骨骨折"
+            "en": "finite element simulation",
+            "zh": "有限元仿真"
           },
           {
-            "en": "dislocation",
-            "zh": "脱位"
+            "en": "Johnson-Cook model",
+            "zh": "Johnson-Cook模型"
           },
           {
-            "en": "Harris Hip Score",
-            "zh": "Harris髋关节评分"
+            "en": "cutting force",
+            "zh": "切削力"
           },
           {
-            "en": "offset restoration",
-            "zh": "偏心距恢复"
+            "en": "temperature",
+            "zh": "温度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:10:24Z"
+      "first_seen_at": "2026-06-07T23:09:50Z"
     }
   ],
   "counts": {
@@ -127,7 +125,7 @@
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "am_femoral_stem": 1
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
       "openalex": 1

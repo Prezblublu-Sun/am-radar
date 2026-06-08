@@ -5,110 +5,123 @@
   "papers": [
     {
       "source": "openalex",
-      "id": "https://openalex.org/W4411652609",
-      "doi": "10.1016/j.jos.2025.05.013",
-      "title": "Minimum 10-year outcomes of a curved anatomic femoral stem designed for the Japanese femora including dysplastic hips in total hip arthroplasty",
-      "abstract": "",
+      "id": "https://openalex.org/W4411902340",
+      "doi": "10.24425/amm.2025.153455",
+      "title": "High-Frequency Ultrasonic Impact Treatment Effect on Fatigue Properties of TC4 Titanium Alloy Laser Wire Filling-Welded Joints",
+      "abstract": "This study aimed to improve the fatigue properties of TC4 titanium alloy laser-filled wire welded joints. To this end, the highfrequency ultrasonic impact technology (UIT) was used to implement post-weld impact treatment on the welded part. Nondestructive testing of the phase composition, microstructure, microhardness, static and cyclic tensile properties, and fracture morphology before and after UIT were conducted and comparatively analyzed. The results show that the high-frequency UIT refines surface grains without affecting the weld phase composition, which is still dominated by the martensitic α' phase and does not form the ω phase. Due to plastic slip-induced strain-hardening, the microhardness of the weld surface layer is about 12% higher than before the UIT and about 40% higher than that of the base metal. Before UIT, long and thick cracks at static tensile fracture extend on the specimen surface; after UIT, the static tensile fracture surface is fine and smooth, and tiny cracks expand in the interior. The fatigue limit of the laser wire filling welding (LWFW) in the TC4 titanium alloy joint increased by about 29.4% after UIT. After high-frequency ultrasonic impact, cracks expand in the joint; the fatigue band spacing becomes smaller, and dimples are denser and deeper, while the fatigue limit load increases, effectively improving the fatigue resistance of the TC4 titanium alloy laser wire-filling welded joint.",
       "authors": [
-        "Sachiyuki Tsukada",
-        "Naoyuki Hirasawa",
-        "Masayoshi Saito",
-        "Masahiro Nishino",
-        "Takuya Kusakabe",
-        "Hiroyuki Ogawa"
+        "Aiyong Cui",
+        "Jialei Zhao",
+        "Borong Shan",
+        "Haodong Liu",
+        "Weiqi Sun",
+        "Hu Fangyou",
+        "Huakai Wei"
       ],
-      "first_author_affiliation": "Department of Orthopaedic Surgery, Hokusuikai Kinen Hospital, 3-2-1 Higashihara, Mito, Ibaraki 310-0035, Japan. Electronic address: s8058@nms.ac.jp",
+      "first_author_affiliation": "Qingdao Campus of Naval Aviat ion University, Qingdao, 266041, China",
       "corresponding_authors": [
         {
-          "name": "Sachiyuki Tsukada",
-          "affiliation": "Department of Orthopaedic Surgery, Hokusuikai Kinen Hospital, 3-2-1 Higashihara, Mito, Ibaraki 310-0035, Japan. Electronic address: s8058@nms.ac.jp"
+          "name": "Aiyong Cui",
+          "affiliation": "Qingdao Campus of Naval Aviat ion University, Qingdao, 266041, China"
         }
       ],
-      "venue": "Journal of Orthopaedic Science",
+      "venue": "Archives of Metallurgy and Materials",
       "year": 2025,
       "date": "2025-06-25",
       "date_precision": "day",
-      "url": "https://doi.org/10.1016/j.jos.2025.05.013",
-      "cited_by_count": 0,
+      "url": "https://doi.org/10.24425/amm.2025.153455",
+      "cited_by_count": 1,
       "concepts": [
-        "Medicine",
-        "Total hip arthroplasty",
-        "Orthopedic surgery",
-        "Femur",
-        "Arthroplasty",
-        "Total hip replacement",
-        "Surgery",
-        "Anatomy"
+        "Materials science",
+        "Titanium alloy",
+        "Welding",
+        "Ultrasonic sensor",
+        "Alloy",
+        "Materials processing",
+        "Titanium",
+        "Metallurgy",
+        "Laser",
+        "Composite material"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "am_femoral_stem"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "fatigue"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文仅报告临床结局，不涉及生物力学建模或增材制造，与研究方向的工程核心无关。",
-        "why_not_core": "No biomechanics modeling (stress shielding, micromotion), no implant design via AM, no FEA or mechanical testing.",
-        "validation_kind": "clinical",
+        "relevance_to_user": "该论文研究的是TC4钛合金激光填丝焊接接头的超声冲击处理，并非增材制造（LPBF/SLM/EBM/DED）Ti-6Al-4V，因此不属于本方向关注的核心内容。",
+        "why_not_core": "The paper focuses on laser wire filling welded joints and post-weld ultrasonic impact treatment, not on additively manufactured (LPBF/SLM/EBM/DED) Ti-6Al-4V mechanical or fatigue performance; thus it does not meet the direction's requirement for an AM process.",
+        "validation_kind": "mechanical_testing",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "total hip arthroplasty",
-          "femoral stem",
-          "dysplastic hip",
-          "clinical outcomes"
+          "TC4 titanium alloy",
+          "laser wire filling welding",
+          "ultrasonic impact treatment",
+          "fatigue properties",
+          "welded joints"
         ],
         "summary_zh": {
-          "motivation": "评估为日本股骨设计的弧形解剖柄在发育不良髋中的长期表现。",
-          "method": "回顾分析2012-2014年使用该假体的患者10年以上随访结果。",
-          "result": "10年假体生存率达99%，无柄周围骨折或无菌松动。",
-          "validation": "临床随访和放射学评估。"
+          "motivation": "提高TC4钛合金激光填丝焊接接头的疲劳性能。",
+          "method": "采用高频超声冲击技术对焊后接头进行处理，并进行微观结构、硬度、拉伸和疲劳测试。",
+          "result": "超声冲击后疲劳极限提高约29.4%，表面晶粒细化，硬度提升。",
+          "validation": "通过实验对比处理前后的微观组织、力学性能和断口形貌验证效果。"
         },
         "summary_en": {
-          "motivation": "To evaluate long-term survivorship and complications of a curved anatomic femoral stem specifically designed for Japanese femora including dysplastic hips.",
-          "method": "Retrospective review of patients who received the stem between 2012-2014 with minimum 10-year follow-up.",
-          "result": "Ten-year implant survival was 99% with no periprosthetic fractures or aseptic loosening.",
-          "validation": "Clinical and radiographic evaluation at follow-up visits."
+          "motivation": "To improve the fatigue properties of TC4 titanium alloy laser wire filling welded joints.",
+          "method": "High-frequency ultrasonic impact treatment (UIT) was applied post-weld, followed by nondestructive testing of phase composition, microstructure, microhardness, static and cyclic tensile properties, and fracture morphology.",
+          "result": "UIT increased the fatigue limit by about 29.4%, refined surface grains, and raised surface microhardness by about 12%.",
+          "validation": "Comparative experimental analysis of microstructural, mechanical, and fractographic features before and after UIT confirmed the improvements."
         },
         "key_terms": [
           {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换术"
+            "en": "TC4 titanium alloy",
+            "zh": "TC4钛合金"
           },
           {
-            "en": "femoral stem",
-            "zh": "股骨柄"
+            "en": "laser wire filling welding",
+            "zh": "激光填丝焊接"
           },
           {
-            "en": "dysplastic hip",
-            "zh": "发育不良髋"
+            "en": "ultrasonic impact treatment",
+            "zh": "超声冲击处理"
           },
           {
-            "en": "survivorship",
-            "zh": "生存率"
+            "en": "fatigue limit",
+            "zh": "疲劳极限"
           },
           {
-            "en": "aseptic loosening",
-            "zh": "无菌性松动"
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "martensitic α' phase",
+            "zh": "马氏体α'相"
+          },
+          {
+            "en": "fracture morphology",
+            "zh": "断口形貌"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:10:24Z"
+      "first_seen_at": "2026-06-07T23:09:50Z"
     }
   ],
   "counts": {
@@ -119,7 +132,7 @@
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "am_femoral_stem": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
       "openalex": 1

@@ -1,0 +1,153 @@
+{
+  "schema_version": "v2",
+  "date": "2025-11-23",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4416558508",
+      "doi": "10.1186/s44147-025-00801-x",
+      "title": "Dimensional accuracy and surface quality in Wire-Cut EDM of Ti6Al4V: experimental study and optimization",
+      "abstract": "Abstract Ti6Al4V is widely recognized for its exceptional strength-to-weight ratio and is extensively used in aerospace and biomedical applications. This study focuses on optimizing the Wire-Cut Electrical Discharge Machining (WEDM) parameters to minimize geometrical and dimensional errors, such as cylindricity, perpendicularity, dimensional deviation (DD), and taper. The main objective is to enhance machining precision, improve surface integrity, and extend the performance and lifespan of the assembled components. The experimental design was developed using the Taguchi L9 Orthogonal Array (OA) for three key process parameters Pulse-on Time (T ON ), Pulse off Time (T OFF ), and Control of Servo (CS) each at three levels. This approach effectively reduced the number of required experiments while maintaining a robust analysis. The Gray Relational Analysis (GRA) technique was subsequently applied to obtain a global optimum for multiple response optimization. Regression equations were developed to establish relationships between the process parameters and responses, and validation was performed at a 95% confidence level. The experimental results revealed that the optimal parameter combination for the square geometry was a T ON of 110 µs, T OFF of 60 µs, and CS of 70%, whereas for the circular geometry, the best results were obtained at a T ON of 106 µs, T OFF of 58 µs, and CS of 80%. Scanning Electron Microscopy (SEM) and Optical Microscopy (OM) confirmed surface roughness values of 4.47 μm and 4.11 μm for the square and circular holes, respectively. The findings demonstrate that the optimized WEDM parameters significantly improved the machining quality, reduced the inspection time, and minimized the production costs while achieving high dimensional accuracy and superior surface finish.",
+      "authors": [
+        "Jaya Kishore Sunkara",
+        "P. Kumar Babu",
+        "Parveen Kumar",
+        "Ajay Kumar"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, Sri Venkateswara College of Engineering, Tirupati, Andhra Pradesh, 517507, India",
+      "corresponding_authors": [
+        {
+          "name": "Ajay Kumar",
+          "affiliation": "Department of Mechanical Engineering, School of Engineering, Faculty of Science, Technology & Architecture, Manipal University Jaipur, Jaipur, 303007, India"
+        }
+      ],
+      "venue": "Journal of Engineering and Applied Science",
+      "year": 2025,
+      "date": "2025-11-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1186/s44147-025-00801-x",
+      "cited_by_count": 0,
+      "concepts": [
+        "Taguchi methods",
+        "Machining",
+        "Surface roughness",
+        "Orthogonal array",
+        "Aerospace",
+        "Electrical discharge machining",
+        "Mechanical engineering",
+        "Surface finish",
+        "Design of experiments",
+        "Materials science",
+        "Square (algebra)",
+        "Process variable",
+        "Process (computing)",
+        "Response surface methodology",
+        "Servo",
+        "Titanium alloy",
+        "Engineering drawing",
+        "Cutting tool"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess",
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "machining",
+          "surface integrity"
+        ],
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究线切割电火花加工对Ti6Al4V的精度和表面质量，但未涉及增材制造Ti-6Al-4V的后处理及其力学性能。",
+        "why_not_core": "The paper does not concern additive-manufactured Ti-6Al-4V, nor does it investigate mechanical performance (fatigue/tensile) modification by post-processing; it focuses on dimensional accuracy and surface roughness of machined Ti6Al4V using WEDM.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti6Al4V",
+          "WEDM",
+          "surface roughness",
+          "dimensional accuracy",
+          "Taguchi",
+          "GRA"
+        ],
+        "summary_zh": {
+          "motivation": "优化线切割电火花加工参数以提高Ti6Al4V的加工精度和表面质量",
+          "method": "采用田口L9正交阵列和灰色关联分析优化脉冲时间等参数",
+          "result": "获得了最佳参数组合，表面粗糙度约4.1-4.5μm",
+          "validation": "通过扫描电镜和光学显微镜验证表面质量"
+        },
+        "summary_en": {
+          "motivation": "To optimize WEDM parameters for enhancing dimensional accuracy and surface finish of Ti6Al4V components",
+          "method": "Taguchi L9 orthogonal array with gray relational analysis for multi-response optimization",
+          "result": "Optimal parameters achieved surface roughness of 4.11-4.47 μm with improved cylindricity and perpendicularity",
+          "validation": "SEM and OM confirmed surface integrity"
+        },
+        "key_terms": [
+          {
+            "en": "Wire-Cut EDM",
+            "zh": "线切割电火花加工"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "dimensional accuracy",
+            "zh": "尺寸精度"
+          },
+          {
+            "en": "Taguchi method",
+            "zh": "田口方法"
+          },
+          {
+            "en": "gray relational analysis",
+            "zh": "灰色关联分析"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:19:10Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

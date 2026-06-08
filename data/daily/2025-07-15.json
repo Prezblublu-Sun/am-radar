@@ -1,0 +1,158 @@
+{
+  "schema_version": "v2",
+  "date": "2025-07-15",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412451334",
+      "doi": "10.3390/ma18143332",
+      "title": "Atomistic-Based Fatigue Property Normalization Through Maximum A Posteriori Optimization in Additive Manufacturing",
+      "abstract": "This work presents a multiscale, microstructure-aware framework for predicting fatigue strength distributions in additively manufactured (AM) alloys-specifically, laser powder bed fusion (L-PBF) AlSi10Mg and Ti-6Al-4V-by integrating density functional theory (DFT), instrumented indentation, and Bayesian inference. The methodology leverages principles common to all 3D printing (additive manufacturing) processes: layer-wise material deposition, process-induced defect formation (such as porosity and residual stress), and microstructural tailoring through parameter control, which collectively differentiate AM from conventional manufacturing. By linking DFT-derived cohesive energies with indentation-based modulus measurements and a MAP-based statistical model, we quantify the effect of additive-manufactured microstructural heterogeneity on fatigue performance. Quantitative validation demonstrates that the predicted fatigue strength distributions agree with experimental high-cycle and very-high-cycle fatigue (HCF/VHCF) data, with posterior modes and 95 % credible intervals of σ^fAlSi10Mg=86-7+8MPa and σ^fTi-6Al-4V=115-9+10MPa, respectively. The resulting Woehler (S-N) curves and Paris crack-growth parameters envelop more than 92 % of the measured coupon data, confirming both accuracy and robustness. Furthermore, global sensitivity analysis reveals that volumetric porosity and residual stress account for over 70 % of the fatigue strength variance, highlighting the central role of process-structure relationships unique to AM. The presented framework thus provides a predictive, physically interpretable, and data-efficient pathway for microstructure-informed fatigue design in additively manufactured metals, and is readily extensible to other AM alloys and process variants.",
+      "authors": [
+        "Mustafa Awd",
+        "Lobna Saeed",
+        "Frank Walther"
+      ],
+      "first_author_affiliation": "Institute for Informatics and Automation (IIA), Bremen City University of Applied Sciences (HSB), Flughafenallee 10, 28199 Bremen, Germany",
+      "corresponding_authors": [
+        {
+          "name": "Mustafa Awd",
+          "affiliation": "Institute for Informatics and Automation (IIA), Bremen City University of Applied Sciences (HSB), Flughafenallee 10, 28199 Bremen, Germany"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-07-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18143332",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Fatigue limit",
+        "Residual stress",
+        "Microstructure",
+        "Porosity",
+        "Robustness (evolution)",
+        "Composite material",
+        "Structural engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "porosity",
+          "defect",
+          "residual stress",
+          "fatigue",
+          "fatigue strength",
+          "high cycle fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对增材制造Ti-6Al-4V的疲劳性能，提出了多尺度预测框架，与用户关注方向高度吻合。",
+        "why_not_core": "该论文同时覆盖了AlSi10Mg，但Ti-6Al-4V是主要研究对象之一，且核心方法适用于该合金，因此未偏离方向。",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": true,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "multiscale modeling",
+          "fatigue",
+          "Ti-6Al-4V",
+          "Bayesian inference",
+          "DFT",
+          "indentation"
+        ],
+        "summary_zh": {
+          "motivation": "开发一种结合原子尺度与统计方法的框架，预测增材制造合金的疲劳强度分布。",
+          "method": "集成密度泛函理论、仪器化压痕和最大后验优化，建立微观结构感知的疲劳模型。",
+          "result": "预测的S-N曲线和Paris裂纹扩展参数覆盖了92%以上实验数据，孔隙率和残余应力解释了超过70%的疲劳强度方差。",
+          "validation": "与增材制造Ti-6Al-4V的高周和极高周疲劳实验数据对比验证。"
+        },
+        "summary_en": {
+          "motivation": "To develop a multiscale, microstructure-aware framework that predicts fatigue strength distributions in additively manufactured alloys by integrating atomistic and statistical methods.",
+          "method": "The framework combines density functional theory calculations, instrumented indentation modulus measurements, and a maximum a posteriori (MAP) Bayesian optimization to quantify the effect of microstructural heterogeneity on fatigue performance.",
+          "result": "The predicted Woehler curves and Paris crack-growth parameters envelop over 92% of the experimental coupon data, with volumetric porosity and residual stress accounting for more than 70% of the fatigue strength variance.",
+          "validation": "Validation was performed by comparing predicted fatigue strength distributions against experimental high-cycle and very-high-cycle fatigue data for L-PBF Ti-6Al-4V."
+        },
+        "key_terms": [
+          {
+            "en": "additively manufactured Ti-6Al-4V",
+            "zh": "增材制造Ti-6Al-4V"
+          },
+          {
+            "en": "fatigue strength",
+            "zh": "疲劳强度"
+          },
+          {
+            "en": "density functional theory",
+            "zh": "密度泛函理论"
+          },
+          {
+            "en": "Bayesian inference",
+            "zh": "贝叶斯推断"
+          },
+          {
+            "en": "Woehler (S-N) curves",
+            "zh": "韦勒曲线(S-N曲线)"
+          },
+          {
+            "en": "Paris crack-growth law",
+            "zh": "巴黎裂纹扩展定律"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "maximum a posteriori optimization",
+            "zh": "最大后验优化"
+          },
+          {
+            "en": "instrumented indentation",
+            "zh": "仪器化压痕"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:11:42Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "High": 1
+    }
+  }
+}

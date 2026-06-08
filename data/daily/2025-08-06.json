@@ -4,271 +4,326 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2508.04898v1",
-      "doi": "10.1021/acs.jpclett.5c01632",
-      "arxiv_id": "2508.04898v1",
-      "title": "Intrinsic Layer-Dependent Surface Energy and Exfoliation Energy of van der Waals Materials",
-      "abstract": "Stacking and twisting 2D van der Waals (vdW) layers have become versatile platforms to tune electron correlation. These platforms rely on exfoliating vdW materials down to a single and few vdW layers. We calculate the intrinsic layer-dependent surface and exfoliation energies of typical vdW materials such as, graphite, h-BN, black P, MX$_2$ (M=Mo and W, X=S, Se and Te), MX (M=Ga and In, X=S, Se and Te), Bi$_2$Te$_3$ and MnBi$_2$Te$_4$ using density functional theory. For exchange-correlation functionals with explicit vdW interaction, a single vdW layer always has the smallest surface energy, giving a surface energy reduction when compared to thicker vdW layers. However, the magnitude of this surface energy reduction quickly decreases with increasing number of atomic layers inside the single vdW layer for different vdW materials. Such atomic-layer-dependence in surface energy reduction helps explain the different effectiveness of exfoliation for different vdW materials down to a single vdW layer.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4413002562",
+      "doi": "10.3389/fbioe.2025.1640122",
+      "title": "Effects of sandblasting and acid etching on the surface properties of additively manufactured and machined titanium and their consequences for osteoblast adhesion under different storage conditions",
+      "abstract": "Introduction: Additive manufacturing (AM) enables the production of complex, patient-specific titanium implants. However, the as-built surfaces of AM parts often require postprocessing to enhance surface properties for optimal osseointegration. Methods: This study investigates the effects of varying sandblasting pressures (2 bar vs. 6 bar) and subsequent acid etching (SAE) on the surface properties of additively manufactured and machined titanium (Ti-6Al-4V and commercially pure titanium (cp-Ti), respectively). While changes in surface roughness and morphology were assessed at different process stages using optical profilometry and scanning electron microscopy, the analyses of surface wettability (contact angle measurement) were focused on effects after SAE and during different storage conditions (ambient air vs. NaCl). The resulting differences in material properties were then evaluated for their biological impact on osteoblast compatibility. For this purpose, the parameters cell adhesion, morphology, and membrane integrity were investigated using confocal laser microscopy and LDH assay. Results: Initial high roughness of AM titanium surfaces was decreased by sandblasting, while initial smooth machined surfaces (MM) increased in roughness. Acid etching introduced characteristic irregular patterns on the surface with only marginal consequences for the resulting overall roughness. While all surfaces demonstrated high hydrophilicity directly after etching, storage under ambient air increased hydrophobicity over time, while NaCl storage preserved hydrophilicity and improved biocompatibility marginally. Osteoblast adhesion and morphology were optimal only under no storage condition, with uncompromised membrane integrity. Discussion: Notably, the biological consequences observed for MM and AM titanium were rather similar, considering the differences in used materials, production techniques, and subsequent surface morphologies. Carefully applied SAE can also optimize the surface characteristics of additive manufactured titanium for an improved implant performance, with storage conditions critically influencing surface wettability and bioactivity.",
       "authors": [
-        "Lin-Lin Wang",
-        "Jiaqiang Yan",
-        "Yong Han",
-        "Claire C. Wang",
-        "Jian-Xiang Qiu",
-        "Su-Yang Xu",
-        "Adam Kaminski",
-        "Michael C. Tringides",
-        "Paul C. Canfield"
+        "Osman Akbas",
+        "Amit Gaikwad",
+        "Leif Reck",
+        "Nina Ehlert",
+        "Anne Jahn",
+        "Jörg Hermsdorf",
+        "Andreas Winkel",
+        "Meike Stiesch",
+        "Andreas Greuling"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Department of Prosthetic Dentistry and Biomedical Materials Science, Hannover Medical School, Hannover, Germany",
+      "corresponding_authors": [
+        {
+          "name": "Andreas Greuling",
+          "affiliation": "Department of Prosthetic Dentistry and Biomedical Materials Science, Hannover Medical School, Hannover, Germany"
+        }
+      ],
+      "venue": "Frontiers in Bioengineering and Biotechnology",
       "year": 2025,
       "date": "2025-08-06",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2508.04898v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.3389/fbioe.2025.1640122",
+      "cited_by_count": 8,
+      "concepts": [
+        "Materials science",
+        "Titanium",
+        "Wetting",
+        "Surface roughness",
+        "Surface finish",
+        "Biocompatibility",
+        "Profilometer",
+        "Scanning electron microscope",
+        "Adhesion",
+        "Contact angle",
+        "Composite material",
+        "Chemical engineering"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
-        ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "与增材制造力学性能方向无关，涉及二维材料表面能，不涉及增材制造或植入物力学。",
-        "why_not_core": "This paper focuses on 2D van der Waals materials and their exfoliation energies, with no connection to additive manufacturing, mechanical properties of implants, or biomedical contexts.",
-        "validation_kind": "theoretical",
+        "relevance_to_user": "该论文主要关注钛合金表面后处理及生物相容性，未涉及增材制造Ti-6Al-4V基体力学或疲劳性能。",
+        "why_not_core": "This paper focuses on post-processing (sandblasting, acid etching) and biological evaluation (osteoblast adhesion) of Ti-6Al-4V and cp-Ti, with no mechanical or fatigue testing or modeling of the base material.",
+        "validation_kind": "in_vitro",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "2D materials",
-          "van der Waals",
-          "surface energy",
-          "DFT",
-          "exfoliation"
+          "additively manufactured titanium",
+          "sandblasting",
+          "acid etching",
+          "surface roughness",
+          "osteoblast adhesion"
         ],
         "summary_zh": {
-          "motivation": "计算二维范德华材料的层依赖表面能和剥离能",
-          "method": "使用密度泛函理论，考虑范德华相互作用",
-          "result": "单层表面能最小，且减少幅度随层内原子层数增加而减小",
-          "validation": "理论计算，无实验验证"
+          "motivation": "研究喷砂和酸蚀后处理对增材制造钛表面性能及成骨细胞粘附的影响。",
+          "method": "对不同喷砂压力和存储条件下的钛表面进行粗糙度、润湿性及细胞实验分析。",
+          "result": "喷砂降低AM钛粗糙度，酸蚀引入特征图案，存储条件影响润湿性和生物相容性。",
+          "validation": "通过成骨细胞粘附实验验证。"
         },
         "summary_en": {
-          "motivation": "To calculate the intrinsic layer-dependent surface and exfoliation energies of van der Waals materials for understanding exfoliation effectiveness.",
-          "method": "Density functional theory with exchange-correlation functionals that account for explicit van der Waals interactions.",
-          "result": "Single van der Waals layers have the smallest surface energy, and the reduction diminishes with increasing atomic layers within the layer.",
-          "validation": "Theoretical calculations only, no experimental validation."
+          "motivation": "To investigate effects of sandblasting and acid etching post-processing on surface properties and osteoblast adhesion of additively manufactured titanium implants.",
+          "method": "Surface roughness, wettability, and cell adhesion were evaluated on Ti-6Al-4V and cp-Ti specimens under varying sandblasting pressures and storage conditions.",
+          "result": "Sandblasting reduced the high initial roughness of AM titanium, acid etching created irregular patterns, and storage conditions significantly influenced wettability and biocompatibility.",
+          "validation": "In vitro osteoblast adhesion assays were performed to validate biological performance."
         },
         "key_terms": [
           {
-            "en": "van der Waals materials",
-            "zh": "范德华材料"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "exfoliation energy",
-            "zh": "剥离能"
+            "en": "sandblasting",
+            "zh": "喷砂处理"
           },
           {
-            "en": "surface energy",
-            "zh": "表面能"
+            "en": "acid etching",
+            "zh": "酸蚀处理"
           },
           {
-            "en": "density functional theory",
-            "zh": "密度泛函理论"
+            "en": "osteoblast adhesion",
+            "zh": "成骨细胞粘附"
           },
           {
-            "en": "layer-dependent",
-            "zh": "层依赖"
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "wettability",
+            "zh": "润湿性"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:12:37Z"
+      "first_seen_at": "2026-06-07T23:13:39Z"
     },
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2508.04841v1",
-      "doi": "",
-      "arxiv_id": "2508.04841v1",
-      "title": "Data Driven Insights into Composition Property Relationships in FCC High Entropy Alloys",
-      "abstract": "Structural High Entropy Alloys (HEAs) are crucial in advancing technology across various sectors, including aerospace, automotive, and defense industries. However, the scarcity of integrated chemistry, process, structure, and property data presents significant challenges for predictive property modeling. Given the vast design space of these alloys, uncovering the underlying patterns is essential yet difficult, requiring advanced methods capable of learning from limited and heterogeneous datasets. This work presents several sensitivity analyses, highlighting key elemental contributions to mechanical behavior, including insights into the compositional factors associated with brittle and fractured responses observed during nanoindentation testing in the BIRDSHOT center NiCoFeCrVMnCuAl system dataset. Several encoder decoder based chemistry property models, carefully tuned through Bayesian multi objective hyperparameter optimization, are evaluated for mapping alloy composition to six mechanical properties. The models achieve competitive or superior performance to conventional regressors across all properties, particularly for yield strength and the UTS/YS ratio, demonstrating their effectiveness in capturing complex composition property relationships.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4413038708",
+      "doi": "10.3390/coatings15080916",
+      "title": "Paint Removal Performance and Sub-Surface Microstructural Evolution of Ti6Al4V Alloy Using Different Process Parameters of Continuous Laser Cleaning",
+      "abstract": "Laser cleaning technology has been increasingly applied in the removal of damaged protective coatings from aircraft components due to its environmental friendliness and high efficiency. Appropriate laser cleaning process parameters improve cleaning efficiency while preventing substrate damage. In this study, a Gaussian continuous-wave laser was used to remove the 120 μm coating on the surface of Ti6Al4V alloy. The influence of laser power (100 W to 200 W) and scanning speed (520 mm/min to 610 mm/min) on the paint removal effect was explored based on paint removal rate, surface roughness, microstructural evolution, and the hardness’ change in the direction of heat transfer. The results reveal that optimal paint removal parameters are achieved at a laser power of 100 W with a scanning speed of 550 mm/min. The surface roughness of the sample after paint removal (55 nm) is similar to that of the original substrate (56 nm). Through EBSD analysis, the influence of laser thermal accumulation on the microstructure of the substrate is relatively small. The average hardness of the cross-section after cleaning was 347 HV, which was only 3.41% higher than that of the original substrate. This confirms that parameter-controlled laser cleaning can effectively remove ~120 μm thick paint layers without inflicting damage on the substrate.",
       "authors": [
-        "Nicolas Flores",
-        "Daniel Salas Mula",
-        "Wenle Xu",
-        "Sahu Bibhu",
-        "Daniel Lewis",
-        "Alexandra Eve Salinas",
-        "Samantha Mitra",
-        "Raj Mahat",
-        "Surya R. Kalidindi",
-        "Justin Wilkerson",
-        "James Paramore",
-        "Ankit Srivastiva",
-        "George Pharr",
-        "Douglas Allaire",
-        "Ibrahim Karaman",
-        "Brady Butler",
-        "Vahid Attari",
-        "Raymundo Arroyave"
+        "Haoye Zeng",
+        "Biwen Li",
+        "Liangbin Hu",
+        "Yun Zhang",
+        "Ruiqing Li",
+        "Chaochao Zhou",
+        "Pinghu Chen"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "College of Mechanical Engineering, University of South China, Hengyang 421001, China",
+      "corresponding_authors": [
+        {
+          "name": "Chaochao Zhou",
+          "affiliation": "School of Nuclear Science and Technology, University of South China, Hengyang 421001, China"
+        },
+        {
+          "name": "Pinghu Chen",
+          "affiliation": "College of Mechanical Engineering, University of South China, Hengyang 421001, China"
+        }
+      ],
+      "venue": "Coatings",
       "year": 2025,
       "date": "2025-08-06",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2508.04841v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "cs.LG"
+      "url": "https://doi.org/10.3390/coatings15080916",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Laser",
+        "Surface roughness",
+        "Substrate (aquarium)",
+        "Microstructure",
+        "Laser power scaling",
+        "Alloy",
+        "Surface finish",
+        "Composite material",
+        "Coating",
+        "Titanium alloy",
+        "Metallurgy"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "yield strength"
-        ]
-      },
-      "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文不涉及增材制造工艺或生物医学领域，而是关于高熵合金成分与力学性能的机器学习建模。",
-        "why_not_core": "No additive manufacturing process or biomedical implant context; focuses on composition-property modeling for structural HEAs without AM-specific mechanical characterization.",
-        "validation_kind": "numerical_benchmark",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "high entropy alloys",
-          "composition-property modeling",
-          "machine learning",
-          "encoder-decoder",
-          "mechanical properties"
-        ],
-        "summary_zh": {
-          "motivation": "利用机器学习从有限数据中揭示高熵合金成分与力学性能的关系",
-          "method": "采用基于编码器-解码器的模型结合贝叶斯多目标超参数优化",
-          "result": "模型在屈服强度和UTS/YS比等六个性能上达到或优于传统回归方法",
-          "validation": "基于BIRDSHOT系统的纳米压痕数据集进行数值验证"
-        },
-        "summary_en": {
-          "motivation": "To uncover composition-property relationships in high entropy alloys despite limited and heterogeneous data using advanced machine learning methods.",
-          "method": "Encoder-decoder based chemistry-property models with Bayesian multi-objective hyperparameter optimization are evaluated for mapping alloy composition to six mechanical properties.",
-          "result": "The models achieve competitive or superior performance compared to conventional regressors, particularly for yield strength and UTS/YS ratio.",
-          "validation": "Models are validated on the BIRDSHOT nanoindentation dataset by comparing predictions to measured mechanical properties."
-        },
-        "key_terms": [
-          {
-            "en": "high entropy alloys",
-            "zh": "高熵合金"
-          },
-          {
-            "en": "composition-property relationship",
-            "zh": "成分-性能关系"
-          },
-          {
-            "en": "machine learning",
-            "zh": "机器学习"
-          },
-          {
-            "en": "encoder-decoder model",
-            "zh": "编码器-解码器模型"
-          },
-          {
-            "en": "Bayesian optimization",
-            "zh": "贝叶斯优化"
-          },
-          {
-            "en": "yield strength",
-            "zh": "屈服强度"
-          },
-          {
-            "en": "nanoindentation",
-            "zh": "纳米压痕"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:12:37Z"
-    },
-    {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2508.04662v1",
-      "doi": "10.1002/app.70307",
-      "arxiv_id": "2508.04662v1",
-      "title": "Tailored Thermal and Mechanical Performance of Biodegradable PLA-P(VDF-TrFE) Polymer Blends",
-      "abstract": "The development of polymer blends has emerged as a strategic approach for designing multifunctional materials with enhanced tailored characteristics. Current work investigates and reports for the first time, the structure-property relationships in free-standing blend films of poly(vinylidene fluoride-trifluoroethylene) (P(VDF-TrFE)) and polylactic acid (PLA), prepared to evaluate their suitability for functional applications. For this investigation, films of approximately 40 $μ$m thick were fabricated by systematically varying the P(VDF-TrFE):PLA ratio. Thermal analysis revealed a higher PLA crystallinity at 25\\% P(VDF-TrFE) content, while Fourier-transform infrared spectroscopy showed the electroactive $β$-phase fraction to be highest in the 50:50 composition. These findings correlated with tensile strength measurements and morphology, demonstrating that molecular ordering and phase distribution significantly influence the mechanical performance. The 25:75 blend exhibited superior mechanical strength due to enhanced PLA crystallization and polymer chain alignment. In contrast, the 50:50 blend achieved a balance between tensile modulus and electroactive phase development, marking it a promising candidate for sensors and 3D printing applications. At higher P(VDF-TrFE) content, reduced crystallinity in PLA resulted in softer, more compliant films which would be suitable for flexible electronic applications. These results establish a pathway to tune mechanical and functional properties in semicrystalline polymer blends through facile compositional control.",
-      "authors": [
-        "G Suresh",
-        "B. Satyanarayana",
-        "C. Thirmal",
-        "Kaushal Jagarlamudi",
-        "T Komala",
-        "Jimlee Patowary",
-        "Ashutosh Kumar"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2025,
-      "date": "2025-08-06",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2508.04662v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "cond-mat.soft"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "tensile strength"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "surface roughness"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究PLA-P(VDF-TrFE)聚合物共混薄膜的热机械性能，与用户的AM金属植入物力学性能方向无关。",
-        "why_not_core": "This paper does not involve LPBF/AM for metallic biomedical implants, does not address hip implant stress shielding or osseointegration, and does not include any FEA or surrogate modeling of mechanical behavior.",
+        "relevance_to_user": "该论文研究的是Ti6Al4V合金的激光清洗除漆工艺，而非增材制造钛合金的力学或疲劳性能。",
+        "why_not_core": "This paper is about paint removal via laser cleaning, not about additive manufacturing of Ti-6Al-4V. It does not address mechanical or fatigue properties of as-built or processed AM Ti-6Al-4V.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser cleaning",
+          "Ti6Al4V",
+          "paint removal",
+          "surface roughness",
+          "microstructural evolution"
+        ],
+        "summary_zh": {
+          "motivation": "研究连续激光清洗Ti6Al4V合金表面涂层的最优参数。",
+          "method": "使用高斯连续波激光在不同功率和扫描速度下清除120μm涂层，分析除漆率、粗糙度、微观结构和硬度。",
+          "result": "最优参数为100W功率和550mm/min速度，清洗后表面粗糙度和硬度变化极小。",
+          "validation": "通过EBSD和硬度测试验证了清洗对基体损伤很小。"
+        },
+        "summary_en": {
+          "motivation": "To optimize continuous-wave laser cleaning parameters for removing paint coatings from Ti6Al4V alloy without damaging the substrate.",
+          "method": "A Gaussian continuous-wave laser was applied at varying powers (100-200 W) and scanning speeds (520-610 mm/min) to remove a 120 μm coating, and the paint removal rate, surface roughness, microstructure, and hardness were characterized.",
+          "result": "Optimal cleaning was achieved at 100 W and 550 mm/min, yielding a surface roughness similar to the original substrate and only a 3.41% increase in hardness.",
+          "validation": "EBSD and hardness measurements confirmed negligible substrate damage under the optimized parameters."
+        },
+        "key_terms": [
+          {
+            "en": "laser cleaning",
+            "zh": "激光清洗"
+          },
+          {
+            "en": "Ti6Al4V alloy",
+            "zh": "Ti6Al4V合金"
+          },
+          {
+            "en": "paint removal",
+            "zh": "除漆"
+          },
+          {
+            "en": "process parameters",
+            "zh": "工艺参数"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "microstructural evolution",
+            "zh": "微观组织演变"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          },
+          {
+            "en": "continuous-wave laser",
+            "zh": "连续激光"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:13:39Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413244523",
+      "doi": "10.17159/2411-9717/1619/2025",
+      "title": "Fatigue performance improvement using laser shock peening in high strength ductile metallic materials",
+      "abstract": "Surface treatments like laser shock peening (LSP) induce residual stresses penetrating up to 1 mm deep, surpassing traditional methods, thus significantly increasing the potential impact on materials prevalent in the automotive and aerospace sectors. Through extensive fatigue testing and fractography investigations, it was determined that LSP resulted in a fatigue life increase of over five times for aluminium alloy AA7075-T6 and titanium Ti-6Al-4V. Increased fatigue life was also noted in AISI316 stainless steel, which showed increases in fatigue life of 1.7x. While fatigue life in all cases improved, the efficacy of LSP was shown to be material dependent.",
+      "authors": [
+        "Sarah George",
+        "R.B. Tait",
+        "A.A. Becker",
+        "Andrea Carlisle"
+      ],
+      "first_author_affiliation": "University of Cape Town, South Africa",
+      "corresponding_authors": [
+        {
+          "name": "Sarah George",
+          "affiliation": "University of Cape Town, South Africa"
+        }
+      ],
+      "venue": "Journal of the Southern African Institute of Mining and Metallurgy",
+      "year": 2025,
+      "date": "2025-08-06",
+      "date_precision": "day",
+      "url": "https://doi.org/10.17159/2411-9717/1619/2025",
+      "cited_by_count": 0,
+      "concepts": [
+        "Fractography",
+        "Materials science",
+        "Peening",
+        "Laser peening",
+        "Residual stress",
+        "Shot peening",
+        "Shock (circulatory)",
+        "Metallurgy",
+        "Aluminium",
+        "Fatigue limit",
+        "Damage tolerance",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue",
+          "fatigue life"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser shock peening"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了激光冲击强化对Ti-6Al-4V疲劳寿命的提升效果，但未涉及增材制造材料，结果可迁移至增材制造后处理场景。",
+        "why_not_core": "This paper does not address additively manufactured Ti-6Al-4V; it uses conventionally processed material, so the findings are only transferable rather than directly applicable to AM-specific microstructure effects.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -277,81 +332,86 @@
           "is_review": false
         },
         "tags": [
-          "polymer blends",
-          "PLA",
-          "P(VDF-TrFE)",
-          "biodegradable",
-          "mechanical properties"
+          "laser shock peening",
+          "Ti-6Al-4V",
+          "fatigue life improvement",
+          "post-processing",
+          "surface treatment"
         ],
         "summary_zh": {
-          "motivation": "开发具有可调热机械性能的聚合物共混材料。",
-          "method": "通过改变P(VDF-TrFE):PLA比例制备薄膜，并表征其结构、热和力学性能。",
-          "result": "25:75共混比因PLA结晶增强表现出最优机械强度，50:50共混比平衡了模量和电活性相。",
-          "validation": "通过DSC、FTIR和拉伸测试验证结构与性能关系。"
+          "motivation": "研究激光冲击强化提高高强度金属材料疲劳性能的潜力。",
+          "method": "对AA7075-T6、Ti-6Al-4V和AISI316进行激光冲击强化处理并开展疲劳测试和断口分析。",
+          "result": "激光冲击强化使Ti-6Al-4V疲劳寿命提高超过五倍，AA7075-T6相似，AISI316提高1.7倍。",
+          "validation": "通过疲劳测试和断口分析验证激光冲击强化效果。"
         },
         "summary_en": {
-          "motivation": "To design biodegradable polymer blends with tailored thermal and mechanical performance for functional applications including sensors and 3D printing.",
-          "method": "Free-standing blend films of P(VDF-TrFE) and PLA were fabricated at varying ratios and characterized by thermal analysis, FTIR, and tensile testing to study structure-property relationships.",
-          "result": "The 25:75 blend exhibited superior mechanical strength due to enhanced PLA crystallinity and chain alignment, while the 50:50 blend balanced tensile modulus and electroactive phase content.",
-          "validation": "Mechanical testing, DSC, and FTIR were used to correlate composition with crystallinity, beta-phase fraction, and mechanical performance."
+          "motivation": "To investigate the potential of laser shock peening for improving fatigue performance in high-strength ductile metallic materials.",
+          "method": "Fatigue testing and fractography were conducted on AA7075-T6, Ti-6Al-4V, and AISI316 after laser shock peening treatment.",
+          "result": "Laser shock peening increased fatigue life by over five times for Ti-6Al-4V and AA7075-T6, and by 1.7 times for AISI316.",
+          "validation": "The improvement was validated through controlled fatigue tests and fractographic analysis."
         },
         "key_terms": [
           {
-            "en": "polymer blend",
-            "zh": "聚合物共混物"
+            "en": "laser shock peening",
+            "zh": "激光冲击强化"
           },
           {
-            "en": "PLA (polylactic acid)",
-            "zh": "聚乳酸"
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
           },
           {
-            "en": "P(VDF-TrFE)",
-            "zh": "聚偏氟乙烯-三氟乙烯共聚物"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
-            "en": "crystallinity",
-            "zh": "结晶度"
+            "en": "residual stress",
+            "zh": "残余应力"
           },
           {
-            "en": "electroactive beta-phase",
-            "zh": "电活性β相"
+            "en": "fractography",
+            "zh": "断口分析"
           },
           {
-            "en": "tensile strength",
-            "zh": "抗拉强度"
+            "en": "AA7075-T6",
+            "zh": "AA7075-T6铝合金"
           },
           {
-            "en": "biodegradable",
-            "zh": "可生物降解"
+            "en": "AISI316 stainless steel",
+            "zh": "AISI316不锈钢"
           },
           {
-            "en": "3D printing",
-            "zh": "3D打印"
+            "en": "surface treatment",
+            "zh": "表面处理"
+          },
+          {
+            "en": "fatigue testing",
+            "zh": "疲劳测试"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:12:37Z"
+      "first_seen_at": "2026-06-07T23:13:39Z"
     }
   ],
   "counts": {
     "fetched_total": 3,
     "by_source": {
-      "arxiv": 3
+      "openalex": 3
     },
     "after_dedup": 3,
     "after_routing": 3,
     "by_direction": {
-      "mechanical_properties": 3
+      "ti6al4v_base_mechanical_fatigue": 2,
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "arxiv": 3
+      "openalex": 3
     },
     "scored": 3,
     "priority_counts": {
       "Exclude": 2,
-      "Low": 1
+      "Medium": 1
     }
   }
 }

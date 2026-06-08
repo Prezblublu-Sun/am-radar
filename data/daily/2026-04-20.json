@@ -4,50 +4,85 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2604.18090v1",
-      "doi": "",
-      "arxiv_id": "2604.18090v1",
-      "title": "Muscle-inspired magnetic actuators that push, pull, crawl, and grasp",
-      "abstract": "Functional magnetic composites capable of large deformation, load bearing, and multifunctional motion are essential for next-generation adaptive soft robots. Here, we present muscle-inspired magnetic actuators (MMA), additively manufactured from a thermoplastic/permanent magnet polyurethane/Nd2Fe14B (TPU/MQP-S) composite using laser powder bed fusion (LPBF). By tuning the laser-energy scale between 1.0 and 3.0, both mechanical stiffness and magnetic response are precisely controlled: the tensile strength increases from 0.28 to 0.99 MPa while maintaining 30-45% elongation at break. This process enables the creation of 0.5 mm-thick flexural hinges, which reversibly bend and fold under moderate magnetic fields without damage. Two actuator types are reported showing the system versatility. The elongated actuator with self-weight of 1.57 g, magnetized in its contracted state, achieves linear contraction under a 500 mT field, lifting 50 g (32x its own weight) and sustaining performance over at least 50 cycles. Equipped with anisotropic frictional feet, it supports movement of a magnetic crawling robot that achieves up to 100% locomotion success on textured substrates. The expandable actuator exhibits reversible opening and closing under a 300 mT field, reliably grasping and releasing different objects, including soft berries and rigid 3D printed geometries. It can also anchor in a tube while holding suspended 50 g loads. This work demonstrates a LPBF-based strategy to program both stiffness and magnetization within a single material system, enabling remotely driven, reconfigurable, and fatigue-resistant soft actuators. The approach opens new possibilities for force controlled, multifunctional magnetic soft robots for adaptive gripping, locomotion, and minimally invasive manipulation of biomedical tools.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7154946275",
+      "doi": "10.3390/ma19081646",
+      "title": "Integrated Experimental and Computational Analysis of SLM-Fabricated Ti6Al4V Octet-Truss Scaffolds for Bone Tissue Engineering",
+      "abstract": "This study investigates the fabrication, characterization, and computational analysis of a Ti6Al4V porous scaffold for bone tissue engineering (BTE). The main objective is to address the stress-shielding effect caused by the mismatch in the mechanical properties between the scaffold and surrounding bone. An octet-truss architecture was considered to design a highly porous scaffold (with 80.5% porosity) and fabricated using selective laser melting (SLM). The scaffold was then treated with post-processing chemical etching in oxalic acid to remove surface defects and tailor topography. Scanning electron microscopy (SEM) and X-ray diffraction (XRD) revealed that etching effectively removed adhered unmelted powder particles and created a distinct micro-textured strut surface (with increased roughness) that is conducive to osseointegration. The etching process also uniformly thinned down the struts and resulted in 10% mass loss. A compression test gave the scaffold’s compliance-corrected elastic moduli of 4.54 ± 0.18 GPa (pre-etching) and 3.53 ± 0.06 GPa (post-etching). These values closely match with the stiffness of human trabecular bone reported in the literature. The experimental modulus results were validated with a finite element model that predicted 4.188 GPa, which agrees well with the experiment. Furthermore, computational fluid dynamic simulations evaluated a permeability of 8 × 10–9 m2, consistent with transport in bone-like structures.",
       "authors": [
-        "Muhammad Bilal Khan",
-        "Florian Hofmann",
-        "Kilian Schäfer",
-        "Matthias Lutzi",
-        "Oliver Gutfleisch"
+        "Dmitriy Dogadkin",
+        "Bagdat Azamatov",
+        "Suresh Alapati",
+        "Daniyar Kaliyev",
+        "Sergey Rudenko",
+        "Marzhan Anuarbekovna Sadenova",
+        "Nikolay Dmitriev"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "«Smart Engineering» Competence Center, D. Serikbayev East Kazakhstan Technical University, D. Serikbayev St. 19, Ust-Kamenogorsk 070004, Kazakhstan",
+      "corresponding_authors": [
+        {
+          "name": "Nikolay Dmitriev",
+          "affiliation": "School of Digital Technologies and Artificial Intelligence, D. Serikbayev East Kazakhstan Technical University, D. Serikbayev St. 19, Ust-Kamenogorsk 070004, Kazakhstan"
+        }
+      ],
+      "venue": "Materials",
       "year": 2026,
       "date": "2026-04-20",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2604.18090v1",
+      "url": "https://doi.org/10.3390/ma19081646",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cs.RO",
-        "cond-mat.mtrl-sci",
-        "cond-mat.soft",
-        "physics.app-ph"
+      "concepts": [
+        "Materials science",
+        "Scaffold",
+        "Scanning electron microscope",
+        "Biomedical engineering",
+        "Composite material",
+        "Porosity",
+        "Selective laser melting",
+        "Titanium alloy",
+        "Etching (microfabrication)",
+        "Tissue engineering",
+        "Stiffness",
+        "Simulated body fluid",
+        "Elastic modulus",
+        "Modulus",
+        "Finite element method",
+        "Compression (physics)",
+        "Bone tissue",
+        "Young's modulus",
+        "Isotropic etching",
+        "Permeability (electromagnetism)",
+        "Compressive strength"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess",
+        "ti6al4v_femoral_stem"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
       "routing_matches": {
-        "mechanical_properties": [
-          "tensile strength",
-          "elongation"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "porosity"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "post-processing"
+        ],
+        "ti6al4v_femoral_stem": [
+          "Ti6Al4V",
+          "stress shielding"
         ]
       },
       "llm": {
-        "priority": "Medium",
-        "relevance_level": "Transferable",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文虽不直接针对生物医学植入物，但通过LPBF工艺研究磁性复合材料的力学性能与疲劳行为，对AM力学性能研究方向具有方法学参考价值。",
-        "why_not_core": "This paper does not study biomedical implants, osseointegration, or in-vivo/clinical validation; it focuses on soft robotic actuators with magnetic response.",
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti6Al4V多孔支架而非股骨柄设计，与您的方向不匹配。",
+        "why_not_core": "No femoral stem design or hip implant architecture; focuses on generic porous scaffold for bone tissue engineering, not on stem mechanical performance, fatigue, or stem-specific stress shielding.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -56,80 +91,90 @@
           "is_review": false
         },
         "tags": [
-          "LPBF",
-          "magnetic composite",
-          "soft actuator",
-          "mechanical properties",
-          "fatigue"
+          "Ti6Al4V",
+          "octet-truss scaffold",
+          "selective laser melting",
+          "bone tissue engineering",
+          "stress shielding",
+          "finite element analysis",
+          "chemical etching"
         ],
         "summary_zh": {
-          "motivation": "通过LPBF制备可编程刚度和磁响应的软体致动器",
-          "method": "采用激光粉末床熔融工艺加工热塑性聚氨酯/钕铁硼复合材料，调节激光能量控制性能",
-          "result": "致动器实现大变形、负载能力及50次循环稳定性，可爬行和抓取物体",
-          "validation": "拉伸测试和循环致动实验验证力学性能与耐久性"
+          "motivation": "解决骨组织工程支架应力遮挡问题",
+          "method": "设计八面体桁架结构并使用SLM制造，经草酸化学蚀刻后处理",
+          "result": "蚀刻后支架弹性模量3.53 GPa，接近人松质骨",
+          "validation": "通过压缩实验和有限元模型验证模量"
         },
         "summary_en": {
-          "motivation": "To create functional magnetic composites with controlled stiffness and magnetization via additive manufacturing for soft robotic actuators.",
-          "method": "Laser powder bed fusion of a thermoplastic polyurethane/Nd2Fe14B composite with tunable laser energy to achieve desired mechanical and magnetic properties.",
-          "result": "Actuators demonstrate reversible bending, linear contraction lifting 32x self-weight, over 50 cycles, and successful locomotion and grasping tasks.",
-          "validation": "Mechanical testing (tensile strength, elongation) and cyclic actuation experiments confirm performance and fatigue resistance."
+          "motivation": "To address stress shielding in bone tissue engineering scaffolds by matching mechanical properties to bone.",
+          "method": "An octet-truss scaffold with 80.5% porosity was designed and fabricated via SLM, followed by chemical etching in oxalic acid.",
+          "result": "Post-etching elastic modulus was 3.53 GPa, close to human trabecular bone, with a permeability of 8×10⁻⁹ m².",
+          "validation": "Mechanical compression tests and finite element simulations validated the experimental modulus."
         },
         "key_terms": [
           {
-            "en": "laser powder bed fusion (LPBF)",
-            "zh": "激光粉末床熔融"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V"
           },
           {
-            "en": "magnetic composite",
-            "zh": "磁性复合材料"
+            "en": "octet-truss scaffold",
+            "zh": "八面体桁架支架"
           },
           {
-            "en": "soft actuator",
-            "zh": "软体致动器"
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
           },
           {
-            "en": "tensile strength",
-            "zh": "拉伸强度"
+            "en": "stress shielding",
+            "zh": "应力遮挡"
           },
           {
-            "en": "fatigue",
-            "zh": "疲劳"
+            "en": "chemical etching",
+            "zh": "化学蚀刻"
           },
           {
-            "en": "flexural hinge",
-            "zh": "弯曲铰链"
+            "en": "finite element analysis",
+            "zh": "有限元分析"
           },
           {
-            "en": "crawling robot",
-            "zh": "爬行机器人"
+            "en": "bone tissue engineering",
+            "zh": "骨组织工程"
           },
           {
-            "en": "load bearing",
-            "zh": "承载能力"
+            "en": "compression test",
+            "zh": "压缩测试"
+          },
+          {
+            "en": "permeability",
+            "zh": "渗透率"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
+      "first_seen_at": "2026-06-07T23:29:54Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {
-      "Medium": 1
+      "Exclude": 1
     }
   }
 }

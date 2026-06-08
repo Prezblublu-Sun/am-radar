@@ -4,116 +4,153 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2506.07908v2",
-      "doi": "10.1103/c2hc-lyp2",
-      "arxiv_id": "2506.07908v2",
-      "title": "A common origin of photoplastic and electroplastic effects in ZnS",
-      "abstract": "Dislocation motion--the atomic-scale mechanism of crystal plasticity--governs the strength and ductility of materials. In functional materials, external stimuli beyond mechanical stress can also affect dislocation glide. In the wide band gap semiconductor ZnS, optical illumination suppresses plasticity, whereas electric fields can enhance dislocation motion. Here, we show that the common underlying mechanism for these phenomena is the charged dislocations that respond to the changes in carrier concentration. Our prior theoretical work showed that locally charged dislocations in ZnS trap excess carriers, triggering core reconstructions that modify their mobility, with the positively charged Zn-rich core dislocations showing the most drastic change. Here, we validate this prediction experimentally by showing that either optical excitation or electronic doping selectively inhibits the glide of Zn-rich dislocations in epitaxially grown ZnS. First, imaging individual interface misfit dislocations under different optical excitation conditions shows that Zn-core glide is strongly reduced as optical power is increased, while the S-core dislocations show negligible sensitivity to light, marking the first, single misfit dislocation imaging of the photoplastic effect. Next, we show that a similar behavior is observed with direct electron (n-type) doping of ZnS epitaxial layers grown beyond the critical thickness. As the n-type dopant density is increased, the resulting Zn-core dislocation density is reduced by more than one order of magnitude, while the S-core density remains essentially unchanged, causing a sign reversal of the strain-anisotropy with n-type doping. These results demonstrate a common origin for the opto-electronic sensitivity of dislocations in ZnS and provide a pathway for the engineering of dislocation content in compound semiconductors.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4411154584",
+      "doi": "10.3390/pr13061827",
+      "title": "3D Printing of Optimized Titanium Scaffold for Bone Replacement",
+      "abstract": "Critical-sized bone defects or CSDs result from bone loss due to trauma, tumor removal, congenital defects, or degenerative diseases. Though autologous bone transplantation is the current gold standard in treating CSDs, its limitations include donor-site morbidity, unavailability of donor bone tissues, risk of infection, and mismatch between the bone geometry and the defect site. Customized scaffolds fabricated using 3D printing and biocompatible materials can provide mechanical integrity and facilitate osseointegration. Ti-6Al-4V (Ti64) is one of the most widely used commercial alloys in orthopedics. To avoid elastic modulus mismatch between bones and Ti64, it is imperative to use porous lattice structures. Ti64 scaffolds with diamond, cubic, and triply periodic minimal surface (TPMS) gyroid lattice architectures were fabricated using selective laser melting (SLM)with pore sizes ranging from 300 to 900 μm using selective laser melting and evaluated for mechanical and biological performance. Increasing pore size led to higher porosity (up to 90.54%) and reduced mechanical properties. Young’s modulus ranged from 13.18 GPa to 1.01 GPa, while yield stress decreased from 478.16 MPa to 14.86 MPa. Diamond and cubic scaffolds with 300–600 μm pores exhibited stiffness within the cortical bone range, while the 900 μm diamond scaffold approached trabecular stiffness. Gyroid scaffolds (600–900 μm) also showed modulus and yield strength within the cortical bone range but were not suitable for trabecular applications due to their higher stiffness. Cytocompatibility was confirmed through leachate analysis and DAPI-stained osteoblast nuclei. The biological evaluation reported maximum cell adherence in lower pore sizes, with gyroid scaffolds showing a statistically significant (p &lt; 0.01) increase in cell proliferation. These findings suggest that 300–600 μm lattice scaffolds offer an optimal balance between mechanical integrity and biological response for load-bearing bone repair.",
       "authors": [
-        "Alexandra Fonseca Montenegro",
-        "Sevim Genlik Polat",
-        "Md Mohsinur Rahman Adnan",
-        "Maryam Ghazisaeidi",
-        "Roberto C. Myers"
+        "Parvathi Nathan",
+        "Siaw Meng Chou",
+        "Wai Yee Yeong"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Singapore Centre for 3D Printing, School of Mechanical & Aerospace Engineering, Nanyang Technological University, Singapore 639798, Singapore",
+      "corresponding_authors": [
+        {
+          "name": "Parvathi Nathan",
+          "affiliation": "Singapore Centre for 3D Printing, School of Mechanical & Aerospace Engineering, Nanyang Technological University, Singapore 639798, Singapore"
+        }
+      ],
+      "venue": "Processes",
       "year": 2025,
       "date": "2025-06-09",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2506.07908v2",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.3390/pr13061827",
+      "cited_by_count": 1,
+      "concepts": [
+        "Scaffold",
+        "3D printing",
+        "Titanium",
+        "Materials science",
+        "Biomedical engineering"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_femoral_stem"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
       "routing_matches": {
-        "mechanical_properties": [
-          "ductility"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "yield strength",
+          "porosity",
+          "defect"
+        ],
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "TPMS",
+          "triply periodic minimal surface"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究ZnS半导体中位错的光塑性和电塑性效应，与增材制造力学性能无关。",
-        "why_not_core": "This paper focuses on dislocation dynamics in ZnS semiconductors under optical and electrical stimuli, with no connection to additive manufacturing, biomedical implants, or mechanical testing of AM materials.",
-        "validation_kind": "none",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V多孔支架，但未针对股骨柄结构设计或应力遮挡分析。",
+        "why_not_core": "Does not address femoral stem structural design, stress shielding, Gruen zones, or stem fatigue testing; focuses on generic bone scaffolds.",
+        "validation_kind": "mechanical_testing",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "ZnS",
-          "dislocation",
-          "photoplastic effect",
-          "electroplastic effect",
-          "semiconductor"
+          "Ti-6Al-4V",
+          "scaffold",
+          "lattice",
+          "SLM",
+          "bone replacement"
         ],
         "summary_zh": {
-          "motivation": "探究光塑性和电塑性效应在ZnS中的共同物理机制",
-          "method": "通过光学激发和电子掺杂实验，观察ZnS中不同核结构位错的运动",
-          "result": "Zn核位错对光照和n型掺杂敏感，S核位错不敏感，证实了带电位错捕获载流子的机制",
-          "validation": "单根位错成像和掺杂实验验证了理论预测"
+          "motivation": "针对临界骨缺损，利用3D打印制造钛合金支架",
+          "method": "采用SLM制备不同晶格和TPMS支架，测试力学和生物学性能",
+          "result": "300-600微米孔径支架在力学和生物学性能间达到平衡",
+          "validation": "力学测试和体外细胞实验"
         },
         "summary_en": {
-          "motivation": "This work aims to identify the common underlying mechanism of photoplastic and electroplastic effects in ZnS.",
-          "method": "The study uses optical excitation and n-type doping experiments to observe the glide behavior of individual misfit dislocations in epitaxial ZnS.",
-          "result": "Zn-core dislocations exhibit strong suppression under both optical power increase and n-type doping, while S-core dislocations remain unaffected, confirming the charged dislocation mechanism.",
-          "validation": "Experimental validation is achieved through single-misfit-dislocation imaging under varied optical conditions and doping levels."
+          "motivation": "To address critical-sized bone defects by designing 3D-printed titanium scaffolds with optimized mechanical and biological performance.",
+          "method": "Selective laser melting was used to fabricate Ti-6Al-4V scaffolds with diamond, cubic, and gyroid lattice architectures, followed by mechanical compression tests and in vitro cytocompatibility assays.",
+          "result": "Scaffolds with 300–600 μm pores exhibited Young's modulus within the cortical bone range and enhanced cell proliferation, providing an optimal balance between mechanical integrity and biological response.",
+          "validation": "Mechanical testing (compression) and in vitro cell culture experiments (leachate analysis, DAPI staining) were performed."
         },
         "key_terms": [
           {
-            "en": "dislocation",
-            "zh": "位错"
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
           },
           {
-            "en": "photoplastic effect",
-            "zh": "光塑性效应"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
-            "en": "electroplastic effect",
-            "zh": "电塑性效应"
+            "en": "lattice scaffold",
+            "zh": "晶格支架"
           },
           {
-            "en": "ZnS",
-            "zh": "硫化锌"
+            "en": "triply periodic minimal surface",
+            "zh": "三周期极小曲面"
           },
           {
-            "en": "epitaxial layer",
-            "zh": "外延层"
+            "en": "gyroid",
+            "zh": "螺旋结构"
+          },
+          {
+            "en": "Young's modulus",
+            "zh": "杨氏模量"
+          },
+          {
+            "en": "pore size",
+            "zh": "孔径"
+          },
+          {
+            "en": "critical-sized bone defect",
+            "zh": "临界骨缺损"
+          },
+          {
+            "en": "osseointegration",
+            "zh": "骨整合"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:10:24Z"
+      "first_seen_at": "2026-06-07T23:09:50Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {
-      "Exclude": 1
+      "Low": 1
     }
   }
 }

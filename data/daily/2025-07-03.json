@@ -1,0 +1,153 @@
+{
+  "schema_version": "v2",
+  "date": "2025-07-03",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412008908",
+      "doi": "10.3390/jmmp9070227",
+      "title": "Additively Produced Ti-6Al-4V Osteosynthesis Devices Meet the Requirements for Tensile Strength and Fatigue",
+      "abstract": "The purpose of this study was to estimate the peak stresses in a laser powder bed fusion (LPBF) additive-manufactured (AM) osteosynthesis plate during physiological loading and establish if the mechanical properties of LPBF titanium alloy were suitable for this use case. Finite element models of subject-specific osteosynthesis plates for a cohort of 28 patients were created and used to calculate the peak maximum principal stresses during physiological loading, which was estimated to be 166 MPa twelve weeks post-operatively. All specimens were LPBF additively manufactured in Ti-6Al-4V alloy. ISO compliant tests were performed for tensile and fatigue, respectively. Fatigue testing was performed for specimens that had been heat-treated only and those that had been heat-treated and polished. The Upper Yield Stress was 1012.5 ± 19.2 MPa. The fatigue limit was 227 MPa for heat-treated only specimens and increased to 286 MPa for heat-treated and polished specimens. The finite element predicted stresses were below the experimentally established limits of yield and fatigue. The tensile and fatigue properties of heat-treated LPBF Ti-6Al-4V are therefore sufficient to meet the mechanical requirements of osteosynthesis plates. Polishing is recommended to improve fatigue resistance.",
+      "authors": [
+        "Alisdair MacLeod",
+        "Matthew Bishop",
+        "Antonio Longo",
+        "Alborz Shokrani",
+        "Chris Bowen",
+        "H.S. Gill"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, University of Bath, Bath BA2 7AY, UK",
+      "corresponding_authors": [
+        {
+          "name": "H.S. Gill",
+          "affiliation": "CBio, University of Bath, Bath BA2 7AY, UK"
+        }
+      ],
+      "venue": "Journal of Manufacturing and Materials Processing",
+      "year": 2025,
+      "date": "2025-07-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/jmmp9070227",
+      "cited_by_count": 0,
+      "concepts": [
+        "Osteosynthesis",
+        "Ultimate tensile strength",
+        "Materials science",
+        "Fatigue limit",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "tensile strength",
+          "fatigue"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "polishing"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了热处理和抛光后处理对Ti-6Al-4V疲劳性能的影响，符合L2方向。",
+        "why_not_core": "The paper focuses on implant-specific osteosynthesis plates, which the routing note suggests belongs to Layer 3, but it still provides direct experimental data on post-processing effects for Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "heat treatment",
+          "polishing",
+          "fatigue",
+          "tensile",
+          "osteosynthesis plate"
+        ],
+        "summary_zh": {
+          "motivation": "评估激光粉末床熔融Ti-6Al-4V接骨板力学性能是否满足生理载荷要求。",
+          "method": "对热处理及热处理+抛光试样进行ISO标准拉伸和疲劳测试，并结合有限元分析峰值应力。",
+          "result": "热处理+抛光试样的疲劳极限从227MPa提升至286MPa，材料性能满足接骨板需求。",
+          "validation": "通过拉伸和疲劳实验验证力学性能，有限元预测应力低于实验极限。"
+        },
+        "summary_en": {
+          "motivation": "To evaluate whether laser powder bed fusion Ti-6Al-4V osteosynthesis plates possess sufficient tensile and fatigue strength for physiological loading conditions.",
+          "method": "Tensile and ISO fatigue tests were conducted on heat-treated only and heat-treated plus polished specimens, and finite element models predicted peak stresses for 28 patient-specific plates.",
+          "result": "Polishing improved the fatigue limit from 227 MPa to 286 MPa, and the experimental yield and fatigue strengths exceeded the finite-element-predicted maximum stresses.",
+          "validation": "Experimental mechanical testing (tensile and fatigue) validated the material's suitability, and finite element analysis confirmed that physiological stresses remained below measured limits."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "polishing",
+            "zh": "抛光"
+          },
+          {
+            "en": "fatigue limit",
+            "zh": "疲劳极限"
+          },
+          {
+            "en": "upper yield stress",
+            "zh": "上屈服应力"
+          },
+          {
+            "en": "osteosynthesis plate",
+            "zh": "接骨板"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:11:42Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "High": 1
+    }
+  }
+}

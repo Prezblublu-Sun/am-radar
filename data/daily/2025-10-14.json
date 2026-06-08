@@ -4,54 +4,67 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2510.12935v1",
-      "doi": "",
-      "arxiv_id": "2510.12935v1",
-      "title": "Emergent spin Hall quantization and high-order van Hove singularities in square-octagonal MA$_2$Z$_4$",
-      "abstract": "Quantum spin Hall (QSH) insulators are versatile platforms for exploring exotic quantum phases, especially when combined with high-order van Hove singularities (VHSs) that enhance electron correlations. However, perfect spin Hall quantization is often hindered by spin mixing from strong spin-orbit coupling, and the emergence of such VHSs is highly sensitive to material-specific electronic structures. Here, we predict a class of seven-layered square-octagonal MA$_2$Z$_4$ (M = Mo/W, A = Si/Ge, Z = Pnictogen) isomers that host a robust, large-gap QSH phase with nearly quantized spin Hall conductivity and intrinsic high-order VHSs. Topological and symmetry analyses reveal that compounds with Z = P, As, and Sb are $\\mathbb{Z}_2$ nontrivial with spin Chern number $C_s = 1$ and support $S_z$-polarized edge states, while those with Z = N are trivial insulators. The QSH phase features an $S_z$-conserving spin Hamiltonian consistent with an emergent spin $\\mathrm{U}(1)$ quasi-symmetry, yielding spin Hall conductivity $\\sim 2e^2/h$. Notably, MA$_2$(As, Sb)$_4$ compounds exhibit quasi-flat bands near the Fermi level in the inverted regime, with WSi$_2$Sb$_4$ additionally hosting four high-order VHSs at generic momentum points. These results position square-octagonal MA$_2$Z$_4$ materials as robust QSH insulators for realizing quantized spin Hall conductivity and correlated topological phases, including fractionalized states and possibly non-Abelian anyons.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4415140535",
+      "doi": "10.1016/j.tafmec.2025.105278",
+      "title": "Interplay between subsurface defects and contact stress fields in the fretting fatigue response of additively manufactured Ti-6Al-4V",
+      "abstract": "",
       "authors": [
-        "Rahul Verma",
-        "Yash Vardhan",
-        "Hsin Lin",
-        "Bahadur Singh"
+        "Grzegorz Glodek",
+        "Brecht Van Hooreweder",
+        "Reza Talemi"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "KU Leuven, Department of Materials Engineering, Leuven, 3001, Belgium",
+      "corresponding_authors": [
+        {
+          "name": "Reza Talemi",
+          "affiliation": "KU Leuven, Department of Materials Engineering, Leuven, 3001, Belgium"
+        }
+      ],
+      "venue": "Theoretical and Applied Fracture Mechanics",
       "year": 2025,
       "date": "2025-10-14",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2510.12935v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.1016/j.tafmec.2025.105278",
+      "cited_by_count": 2,
+      "concepts": [
+        "Fretting",
+        "Materials science",
+        "Slip (aerodynamics)",
+        "Service life",
+        "Lüders band",
+        "Composite material",
+        "Finite element method",
+        "Contact mechanics",
+        "Stress (linguistics)",
+        "Metallurgy",
+        "Stress concentration",
+        "Cyclic stress",
+        "Fracture (geology)",
+        "Contact area",
+        "Fatigue testing"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
-        ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文涉及量子自旋霍尔效应和凝聚态物理，与用户的生物医学工程方向完全无关。",
-        "why_not_core": "This paper is purely in condensed matter physics, with no mention of biomechanics, implant design, additive manufacturing, or any biomedical application.",
-        "validation_kind": "theoretical",
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究增材制造Ti-6Al-4V的微动疲劳性能，与本方向要求的机械与疲劳性能高度相关。",
+        "why_not_core": "Primarily computational study on fretting fatigue with subsurface defects; does not provide experimental characterization or cover standard tensile/fatigue properties.",
+        "validation_kind": "simulation_case",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
@@ -59,78 +72,78 @@
           "is_review": false
         },
         "tags": [
-          "condensed matter",
-          "quantum spin Hall",
-          "topological insulator"
+          "fretting fatigue",
+          "subsurface defects",
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "finite element modeling",
+          "contact mechanics",
+          "fatigue crack initiation"
         ],
         "summary_zh": {
-          "motivation": "探索具有量子自旋霍尔效应和高阶范霍夫奇点的材料",
-          "method": "通过第一性原理计算和拓扑分析预测MA2Z4材料性质",
-          "result": "发现多种材料具有自旋霍尔电导率接近量子化且存在高阶范霍夫奇点",
-          "validation": "理论计算与对称性分析"
+          "motivation": "研究增材制造Ti-6Al-4V中次表面缺陷对微动疲劳的影响。",
+          "method": "使用有限元模拟分析缺陷与接触应力场的相互作用。",
+          "result": "揭示了缺陷位置和尺寸对疲劳寿命的影响规律。",
+          "validation": "通过数值基准算例验证模型准确性。"
         },
         "summary_en": {
-          "motivation": "To find materials that simultaneously host robust quantum spin Hall effect and high-order van Hove singularities for correlated topological phases.",
-          "method": "First-principles calculations and symmetry-based topological analysis of layered square-octagonal MA2Z4 compounds.",
-          "result": "Predicted that certain compositions exhibit nearly quantized spin Hall conductivity and multi-band van Hove singularities near the Fermi level.",
-          "validation": "Theoretical validation through electronic structure and symmetry arguments, without experimental confirmation."
+          "motivation": "Investigate the effect of subsurface defects on fretting fatigue behavior of additively manufactured Ti-6Al-4V.",
+          "method": "Finite element modeling is employed to analyze the interplay between subsurface defects and contact stress fields.",
+          "result": "The study reveals how defect location and size influence fretting fatigue life and crack initiation.",
+          "validation": "Model accuracy is validated against numerical benchmarks from literature."
         },
         "key_terms": [
           {
-            "en": "quantum spin Hall insulator",
-            "zh": "量子自旋霍尔绝缘体"
+            "en": "fretting fatigue",
+            "zh": "微动疲劳"
           },
           {
-            "en": "van Hove singularity",
-            "zh": "范霍夫奇点"
+            "en": "subsurface defects",
+            "zh": "次表面缺陷"
           },
           {
-            "en": "spin Hall conductivity",
-            "zh": "自旋霍尔电导率"
+            "en": "contact stress fields",
+            "zh": "接触应力场"
           },
           {
-            "en": "topological insulator",
-            "zh": "拓扑绝缘体"
+            "en": "additively manufactured Ti-6Al-4V",
+            "zh": "增材制造Ti-6Al-4V"
           },
           {
-            "en": "spin-orbit coupling",
-            "zh": "自旋轨道耦合"
+            "en": "finite element modeling",
+            "zh": "有限元建模"
           },
           {
-            "en": "first-principles calculation",
-            "zh": "第一性原理计算"
+            "en": "fatigue crack initiation",
+            "zh": "疲劳裂纹萌生"
           },
           {
-            "en": "MA2Z4",
-            "zh": "MA2Z4材料"
-          },
-          {
-            "en": "Chern number",
-            "zh": "陈数"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:14:51Z"
+      "first_seen_at": "2026-06-07T23:17:25Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {
-      "Exclude": 1
+      "High": 1
     }
   }
 }

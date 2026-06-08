@@ -4,54 +4,60 @@
   "date_precision": "month",
   "papers": [
     {
-      "source": "pubmed",
-      "id": "pubmed:40528550",
-      "doi": "10.1111/os.70092",
-      "pmid": "40528550",
-      "title": "Modular Femoral Stem for Hartofilakidis Type C Hip Dysplasia: Is It Necessary for 1-mm Increment of Distal Stem Diameter?",
-      "abstract": "BACKGROUND: S-ROM prosthesis, one well-used femoral prosthesis in the patients with developmental dysplasia of the hip (DDH), has a skipping size of the distal stem diameter. The purpose of this study was to investigate whether its 2-mm incremental diameter could meet clinical needs for high-riding DDH patients. METHODS: Between July 2018 and December 2022, the Hartofilakidis type C DDH patients with S-ROM stem (9 or 11 mm) were retrospectively enrolled according to the inclusion criteria and exclusion criteria in our institute. The intraoperative femur fractures, the diameter of the femoral medullary cavity, the canal filling ratio of the S-ROM stem, the closure conditions of the stem slot, and the healing rate of subtrochanteric osteotomy were analyzed to evaluate the effect of stem design on clinical outcomes. Statistical analyses were conducted using independent samples t-tests, chi-square test, and logistic regression analysis with a significance threshold of p < 0.05. RESULTS: A total of 95 patients (109 hips) were included in this study, including 60 hips with 9 mm S-ROM and 49 hips with 11 mm S-ROM. Compared with the 9 mm S-ROM group, the 11 mm S-ROM group presented nearly 5 times the intraoperative fracture rate (16.3%, 3.3%, p < 0.05). The mean diameter of the femoral medullary cavity in the 9 mm S-ROM group was 0.84 ± 0.20 mm and in the 11 mm S-ROM group was 1.03 ± 0.18 mm. The canal filling ratio in the 9 mm S-ROM group is significantly lower than that of the 11 mm S-ROM group. In the 11 mm S-ROM group, the filling ratio of the femoral medullary cavity of fracture hips was significantly higher than that in non-fracture hips. CONCLUSION: The S-ROM design with a distal stem diameter increment of every 2 mm would increase the risk of intraoperative periprosthetic femoral fractures in high-riding DDH patients. It is necessary for a 1-mm increment of distal stem diameter in such patients. LEVEL OF EVIDENCE: Level III, retrospective comparative study.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4413910012",
+      "doi": "10.1016/j.mfglet.2025.06.110",
+      "title": "Effect of build orientation on mechanical and physical properties of Ti-6Al-4V L-PBF additively manufactured thin structures without support",
+      "abstract": "A lot of research has been conducted to optimize the process parameters of L-PBF manufacturing of Ti-6Al-4V components. It has been shown that porosity and residual stress are highly affected by the build orientation of the samples. To understand this relation better, thin hollow wedges were built and an investigation was performed in order to understand the residual stress and porosity inclusion as a function of build orientation and height. Relative density for the components were evaluated using Archimedes Principle. It was established that as the build angle increased the relative density of the printed components also increased. Local relative density was measured at multiple build intervals and was found to increase with the build height. Surface roughness was evaluated using a 3D optical surface profiler. Lower build angles were found to have higher surface roughness due to a greater overhanging area. XRD analysis was performed to evaluate the residual stresses in the sample along with phase composition. It was observed that as the build angle increased the overall residual stresses in the component decreased. The residual stresses were found to be dominated by structural stresses for lower build angles. Further, as the build angle increased, thermal stresses were found to be more dominant.",
       "authors": [
-        "Jiafeng Yi",
-        "Hongbin Xie",
-        "Yubo Liu",
-        "Yijian Huang",
-        "Wei Chai",
-        "Xiangpeng Kong"
+        "Mrinal Dwivedi",
+        "N. Arunachalam"
       ],
-      "first_author_affiliation": "School of Medicine, Nankai University, Tianjin, China.; Senior Department of Orthopedics, The Fourth Medical Center of PLA General Hospital, Beijing, China.; National Clinical Research Center for Orthopedics, Sports Medicine & Rehabilitation, Beijing, China.",
+      "first_author_affiliation": "",
       "corresponding_authors": [
         {
-          "name": "Xiangpeng Kong",
-          "affiliation": "Senior Department of Orthopedics, The Fourth Medical Center of PLA General Hospital, Beijing, China.; National Clinical Research Center for Orthopedics, Sports Medicine & Rehabilitation, Beijing, China.",
-          "inferred": true
+          "name": "Mrinal Dwivedi",
+          "affiliation": ""
         }
       ],
-      "venue": "Orthopaedic surgery",
+      "venue": "Manufacturing Letters",
       "year": 2025,
       "date": "2025-08-01",
       "date_precision": "month",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40528550/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
+      "url": "https://doi.org/10.1016/j.mfglet.2025.06.110",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Orientation (vector space)",
+        "Thin film",
+        "Composite material",
+        "Mechanical engineering",
+        "Nanotechnology"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "build orientation",
+          "porosity",
+          "surface roughness",
+          "residual stress"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文为临床回顾性研究，未涉及应力遮挡、微动、骨整合或增材制造等用户研究方向的核心内容。",
-        "why_not_core": "This paper is a clinical outcome study on S-ROM stem fracture rates, lacking any quantification of stress shielding, micromotion, primary stability, or bone-implant interface mechanics, and does not address additive manufacturing or FE modeling.",
-        "validation_kind": "clinical",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V L-PBF薄壁结构的孔隙率、残余应力和表面粗糙度随构建取向的变化，但未涉及力学性能（如拉伸、疲劳）的测试或建模。",
+        "why_not_core": "No mechanical or fatigue testing was performed; only physical properties (density, roughness, residual stress) were measured, so it does not contribute to the mechanical/fatigue characterization required for Layer 1.",
+        "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -59,106 +65,149 @@
           "is_review": false
         },
         "tags": [
-          "modular femoral stem",
-          "DDH",
-          "intraoperative fracture",
-          "S-ROM",
-          "clinical study"
+          "Ti-6Al-4V",
+          "L-PBF",
+          "build orientation",
+          "porosity",
+          "residual stress",
+          "surface roughness"
         ],
         "summary_zh": {
-          "motivation": "评估S-ROM假体2mm直径增量是否增加术中骨折风险",
-          "method": "回顾性纳入95例Hartofilakidis C型DDH患者，比较9mm与11mm组临床结局",
-          "result": "2mm增量组骨折率近5倍于1mm增量组，1mm增量更安全",
-          "validation": "基于临床回顾性数据的统计分析"
+          "motivation": "探究构建取向对L-PBF Ti-6Al-4V薄壁结构物理性能的影响",
+          "method": "制造不同角度薄壁楔形件，采用阿基米德法测密度、光学轮廓仪测粗糙度、XRD测残余应力",
+          "result": "大构建角提高相对密度并降低残余应力，小构建角表面粗糙度更大",
+          "validation": "通过实验测量验证密度、粗糙度和残余应力的变化趋势"
         },
         "summary_en": {
-          "motivation": "To determine whether the 2-mm incremental increase in distal stem diameter of the S-ROM prosthesis elevates the risk of intraoperative femoral fractures in high-riding DDH patients.",
-          "method": "A retrospective comparative study of 95 DDH patients (109 hips) receiving 9 mm or 11 mm S-ROM stems, analyzing intraoperative fracture rates, medullary diameter, and canal filling ratio.",
-          "result": "The 11 mm group exhibited a significantly higher intraoperative fracture rate (16.3% vs 3.3%), indicating that a 2-mm increment increases fracture risk and a 1-mm increment is advisable.",
-          "validation": "Clinical retrospective cohort with statistical hypothesis testing (t-test, chi-square, logistic regression)."
+          "motivation": "To understand how build orientation affects porosity, residual stress, and surface roughness in unsupported thin L-PBF Ti-6Al-4V structures.",
+          "method": "Thin hollow wedges were fabricated at various build angles and characterized using Archimedes principle for density, 3D optical profilometry for roughness, and XRD for residual stress.",
+          "result": "Increasing build angle increases relative density and decreases residual stress, while lower angles yield higher surface roughness.",
+          "validation": "Experimental measurements of density, roughness, and residual stress validated the observed trends."
         },
         "key_terms": [
           {
-            "en": "developmental dysplasia of the hip (DDH)",
-            "zh": "发育性髋关节发育不良"
+            "en": "L-PBF",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "S-ROM prosthesis",
-            "zh": "S-ROM假体"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "modular femoral stem",
-            "zh": "模块化股骨柄"
+            "en": "build orientation",
+            "zh": "构建取向"
           },
           {
-            "en": "intraoperative periprosthetic fracture",
-            "zh": "术中假体周围骨折"
+            "en": "porosity",
+            "zh": "孔隙率"
           },
           {
-            "en": "canal filling ratio",
-            "zh": "髓腔填充率"
+            "en": "residual stress",
+            "zh": "残余应力"
           },
           {
-            "en": "subtrochanteric osteotomy",
-            "zh": "转子下截骨"
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "relative density",
+            "zh": "相对密度"
+          },
+          {
+            "en": "Archimedes principle",
+            "zh": "阿基米德原理"
+          },
+          {
+            "en": "XRD",
+            "zh": "X射线衍射"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:10:24Z"
+      "first_seen_at": "2026-06-07T23:13:39Z"
     },
     {
-      "source": "pubmed",
-      "id": "pubmed:40510514",
-      "doi": "10.1016/j.jor.2025.05.036",
-      "pmid": "40510514",
-      "title": "Low risk of periprosthetic fracture and subsidence with automated impaction device in arthroplasty following femoral neck fracture: A retrospective study.",
-      "abstract": "BACKGROUND: Manual broaching in hip arthroplasty for femoral neck fractures (FNFx) may introduce variability in force application, increasing the risk of periprosthetic fractures. Automated impaction devices (AID) deliver consistent, uniform force vectors during femoral preparation, potentially reducing implant-bone mismatch, stem subsidence, and fracture risk. This study evaluates early complication rates following AID use in hip arthroplasty for FNFx. METHODS: A retrospective cohort study was conducted on consecutive patients undergoing total hip arthroplasty (THA) or hemiarthroplasty (HA) for FNFx by two surgeons between January 1, 2019, and June 1, 2023. All patients received a cementless femoral stem implanted with an AID and had a minimum 30-day follow-up. Outcomes assessed included 30-day revision-free stem survivorship, intraoperative and postoperative periprosthetic fractures, femoral component subsidence, and 30-day reoperation and readmission rates. RESULTS: The cohort included 118 patients [72.0 % women; mean age 77.4 (range, 52-95) years], with 82 (69.5 %) undergoing THA and 36 (30.5 %) HA. One intraoperative fracture (0.8 %, Vancouver AG) and one postoperative fracture (0.8 %, Vancouver B1) occurred. The 30-day reoperation rate was 3.4 % (n = 4), and the readmission rate was 16.3 % (n = 15). Mild femoral component subsidence occurred in 1.7 % (n = 2) without evidence of loosening. No femoral stem revisions were reported within 30 days, yielding a 100 % short-term survivorship rate. CONCLUSION: Early outcomes suggest that AID use in hip arthroplasty for FNFx is associated with low rates of periprosthetic fracture, subsidence, and early complications. Further prospective studies are needed to assess long-term outcomes.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4415450548",
+      "doi": "10.1016/j.addma.2025.104998",
+      "title": "Enhancing ductility of laser powder bed fusion Ti-6Al-4V alloys by molybdenum addition: A study on microstructure and deformation mechanisms",
+      "abstract": "",
       "authors": [
-        "Courtney Levit",
-        "Ryan Decook",
-        "Joseph M Schwab",
-        "Thomas L Bradbury",
-        "Natalie L Gresham",
-        "Anita Alex Bradham",
-        "Farideh Najafi",
-        "Brandon Naylor"
+        "Yi Guo",
+        "Yinghang Liu",
+        "Zhe Song",
+        "Jiafeng Ye",
+        "Gaoming Zhu",
+        "Xiaoqin Zeng",
+        "Leyun Wang"
       ],
-      "first_author_affiliation": "Medical College of Georgia, Augusta University, Augusta, Georgia.",
+      "first_author_affiliation": "National Engineering Research Center of Light Alloy Net Forming, Shanghai Jiao Tong University, Shanghai 200240, China",
       "corresponding_authors": [
         {
-          "name": "Brandon Naylor",
-          "affiliation": "Total Joint Specialists, Advanced Center for Joint Surgery and Northside Hospital Forsyth, Cumming, Georgia.",
-          "inferred": true
+          "name": "Jiafeng Ye",
+          "affiliation": "National Engineering Research Center of Light Alloy Net Forming, Shanghai Jiao Tong University, Shanghai 200240, China"
+        },
+        {
+          "name": "Leyun Wang",
+          "affiliation": "National Engineering Research Center of Light Alloy Net Forming, Shanghai Jiao Tong University, Shanghai 200240, China"
         }
       ],
-      "venue": "Journal of orthopaedics",
+      "venue": "Additive manufacturing",
       "year": 2025,
       "date": "2025-08-01",
       "date_precision": "month",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40510514/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
+      "url": "https://doi.org/10.1016/j.addma.2025.104998",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Crystal twinning",
+        "Microstructure",
+        "Slip (aerodynamics)",
+        "Ductility (Earth science)",
+        "Deformation mechanism",
+        "Brittleness",
+        "Molybdenum",
+        "Martensite",
+        "Deformation (meteorology)",
+        "Fusion",
+        "Metallurgy",
+        "Titanium",
+        "Metastability",
+        "Titanium alloy",
+        "Diffusionless transformation",
+        "Yield (engineering)",
+        "Composite material",
+        "Elongation",
+        "Plasticity",
+        "Pseudoelasticity",
+        "Hardening (computing)",
+        "Phase (matter)",
+        "Work hardening",
+        "Strain hardening exponent",
+        "Laser"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "ductility"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文是临床回顾性研究，未涉及生物力学建模、应力遮挡、增材制造或人工智能，与用户研究方向无关。",
-        "why_not_core": "No biomechanics modeling (FEA/stress shielding), no implant design or additive manufacturing, no AI/ML integration.",
-        "validation_kind": "clinical",
+        "relevance_to_user": "该论文涉及钼添加改性的Ti-6Al-4V合金，并非纯Ti-6Al-4V，不符合方向要求。",
+        "why_not_core": "The paper investigates Mo-modified Ti-6Al-4V, not the standard Ti-6Al-4V alloy required by this direction.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -166,106 +215,251 @@
           "is_review": false
         },
         "tags": [
-          "hip arthroplasty",
-          "femoral neck fracture",
-          "automated impaction device",
-          "periprosthetic fracture",
-          "subsidence"
+          "Ti-6Al-4V",
+          "molybdenum addition",
+          "ductility",
+          "laser powder bed fusion",
+          "deformation mechanisms"
         ],
         "summary_zh": {
-          "motivation": "评估自动撞击装置在股骨颈骨折髋关节置换术中的早期并发症率。",
-          "method": "回顾性队列研究，纳入118例患者，使用自动撞击装置植入非骨水泥股骨柄。",
-          "result": "30天内无股骨柄翻修，并发症率低。",
-          "validation": "临床回顾性数据验证。"
+          "motivation": "通过钼添加提高激光粉末床熔融Ti-6Al-4V合金的延展性",
+          "method": "研究钼添加对微观组织和变形机制的影响",
+          "result": "钼添加改善了合金的延展性",
+          "validation": "通过力学测试和微观组织表征验证"
         },
         "summary_en": {
-          "motivation": "To evaluate early complication rates of an automated impaction device in hip arthroplasty for femoral neck fractures.",
-          "method": "A retrospective cohort study of 118 patients who received a cementless femoral stem implanted with an automated impaction device.",
-          "result": "No femoral stem revisions within 30 days and low rates of periprosthetic fracture and subsidence.",
-          "validation": "Clinical retrospective cohort with minimum 30-day follow-up."
+          "motivation": "To enhance the ductility of laser powder bed fused Ti-6Al-4V alloys by adding molybdenum.",
+          "method": "The study investigates the effect of molybdenum addition on microstructure and deformation mechanisms.",
+          "result": "Molybdenum addition improves the ductility of the alloy.",
+          "validation": "Validation is performed through mechanical testing and microstructural characterization."
         },
         "key_terms": [
           {
-            "en": "hip arthroplasty",
-            "zh": "髋关节置换术"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "femoral neck fracture",
-            "zh": "股骨颈骨折"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "automated impaction device",
-            "zh": "自动撞击装置"
+            "en": "molybdenum addition",
+            "zh": "钼添加"
           },
           {
-            "en": "periprosthetic fracture",
-            "zh": "假体周围骨折"
+            "en": "ductility",
+            "zh": "延展性"
           },
           {
-            "en": "subsidence",
-            "zh": "下沉"
+            "en": "deformation mechanisms",
+            "zh": "变形机制"
           },
           {
-            "en": "cementless femoral stem",
-            "zh": "非骨水泥股骨柄"
+            "en": "microstructure",
+            "zh": "微观组织"
           },
           {
-            "en": "retrospective cohort study",
-            "zh": "回顾性队列研究"
+            "en": "mechanical testing",
+            "zh": "力学测试"
+          },
+          {
+            "en": "alloy modification",
+            "zh": "合金改性"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:10:24Z"
+      "first_seen_at": "2026-06-07T23:13:39Z"
     },
     {
-      "source": "pubmed",
-      "id": "pubmed:40474443",
-      "doi": "10.1111/vsu.14274",
-      "pmid": "40474443",
-      "title": "Medium-term outcomes of hybrid total hip arthroplasty in cats: Cemented femoral stem and cementless acetabular cup in 17 hips (2020-2023).",
-      "abstract": "OBJECTIVE: To describe the surgical technique, complications and outcome of hybrid total hip replacement (THR) in cats using a BioMedtrix cemented femoral stem and cementless acetabular cup. STUDY DESIGN: A retrospective case series. ANIMALS: Cats undergoing hybrid THR between 2020 and 2023. METHODS: The present study was a retrospective review of medical records. Postoperative radiographs were reviewed and implant positioning measured. Owner-reported follow-up was obtained via questionnaire utilizing the short-form feline musculoskeletal pain index (sf-FMPI). RESULTS: A total of 17 hybrid THRs were performed with two cats undergoing bilateral THR. A 12 mm BioMedtrix micro BFX acetabular cup was placed in all cats in combination with a CFX femoral stem. Follow up imaging demonstrated no change in implant position. No intra- or postoperative complications were reported. Hybrid THR was successfully performed in one case as a revision strategy for recurrent hip luxation following CFX THR. Owner-reported follow-up was obtained for 10 out of 15 cats (mean 438 days postoperatively; range, 185-1084 days). Overall satisfaction was excellent and the mean sf-FMPI score was 2/36. CONCLUSION: This study demonstrates that hybrid THR using a micro BFX acetabular cup is feasible in cats with a good medium to long-term outcome. These results compare favorably to previous reports of feline THR. CLINICAL SIGNIFICANCE: Hybrid THR in cats has a low complication rate and high owner satisfaction. This technique should be considered for the management of coxofemoral disease in cats and can be considered for CFX cup revision.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7110484626",
+      "doi": "",
+      "title": "Establishing And Advancing Qualification Strategies For Aerospace Components Produced Using LPBF",
+      "abstract": "The adoption of Laser Powder Bed Fusion (LPBF) for aerospace hardware requires qualification strategies that ensure repeatable, reliable, and certifiable performance. This dissertation focuses on a qualification effort for an aerospace titanium bracket to be used for a serial production aircraft, following a fixed-process, sample-centric methodology. The work was performed following industry expectations for mechanical performance, dimensional tolerance, and process control, and culminated in the successful qualification of the bracket for flight hardware installation. The qualification effort was divided into four primary objectives. Machine and parameter qualification was first to establish a baseline LPBF process on an SLM 280 HL system using Ti-6Al-4V powder feedstock. Results across repeated builds revealed spatial variations in mechanical performance, particularly in areas with insufficient gas flow. These findings led to a redesign of the gas flow system in collaboration with the OEM, which significantly improved build uniformity. Second, material, process, and supplier qualification were conducted using an extensive test matrix, which included tensile, shear, fatigue, fracture toughness, metallography, and chemistry assessments, all done at NADCAP-certified laboratories. All results met or exceeded aerospace OEM requirements, and the process was frozen for production use. Third, part qualification confirmed that the LPBF bracket satisfied all functional, dimensional, and material criteria. The first article underwent CMM-based dimensional inspection, tensile testing, and X-ray computed tomography, all of which passed the necessary quality metrics. Additional blue-light scanning during development revealed as-built distortion, informing optimization of build orientation and support strategy. Lessons learned included the impact of hot isostatic pressing on final geometry and the need to lock orientation early to avoid requalification. Fourth, recurring production testing monitored quality over time. Statistical process control tools (Cp, Cpk, Pp, Ppk) revealed that oxygen contamination (due to inconsistent purge practices) led to chemistry drift and degradation in ductility. A change was implemented to ensure purging reached a verified oxygen threshold before each build. Additionally, a comparative fatigue study demonstrated the feasibility of ultrasonic fatigue testing as a rapid, cost-effective screening tool. Equivalent results were achieved between traditional uniaxial fatigue (20 Hz) and ultrasonic testing (20 kHz), with a reduction in test time from almost six days to under ten minutes for 10 million cycles. This finding supports the integration of high-throughput fatigue methods into future qualification protocols. The dissertation concludes with a forward-looking proposal to evolve from a sample-centric to a subsystem-centric qualification model. Rather than relying solely on sample testing, this approach emphasizes the performance of core machine subsystems (mainly gas flow and atmosphere control). Additional recommendations include subsystem benchmarking, beam profiling, powder reuse management, and advanced fatigue characterization. In summary, this work not only qualifies a functional aerospace component but also contributes a robust case study in the maturation of LPBF process control and lays the groundwork for scalable, repeatable qualification methodologies that will support the broader industrialization of metal AM in aerospace.",
       "authors": [
-        "Daniel Lomas",
-        "Sorrel Langley-Hobbs",
-        "Kevin Parsons",
-        "Nicolas Barthelemy"
+        "Mireles, Jorge"
       ],
-      "first_author_affiliation": "Langford Veterinary Services, Bristol, UK.",
+      "first_author_affiliation": "",
       "corresponding_authors": [
         {
-          "name": "Nicolas Barthelemy",
-          "affiliation": "Langford Veterinary Services, Bristol, UK.",
-          "inferred": true
+          "name": "Mireles, Jorge",
+          "affiliation": ""
         }
       ],
-      "venue": "Veterinary surgery : VS",
+      "venue": "scholarworks - UTEP (The University of Texas at El Paso)",
       "year": 2025,
       "date": "2025-08-01",
       "date_precision": "month",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40474443/",
+      "url": "https://openalex.org/W7110484626",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
+      "concepts": [
+        "Aerospace",
+        "Manufacturing engineering",
+        "Process (computing)",
+        "Original equipment manufacturer",
+        "Quality (philosophy)",
+        "Production (economics)",
+        "Engineering",
+        "Mechanical engineering",
+        "Hot isostatic pressing",
+        "Work (physics)",
+        "Automotive industry",
+        "Bracket",
+        "Computer science",
+        "Joint (building)",
+        "Engineering drawing"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "ductility",
+          "build orientation",
+          "fatigue"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "hot isostatic pressing"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的LPBF制造及热等静压后处理，对理解后处理对疲劳性能的影响有参考价值。",
+        "why_not_core": "本文主要聚焦于认证策略而非系统性研究后处理对微观结构和性能的定量影响。",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": true,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "qualification",
+          "hot isostatic pressing",
+          "fatigue testing",
+          "aerospace"
+        ],
+        "summary_zh": {
+          "motivation": "建立航空LPBF部件的认证策略，确保可重复和可靠的性能。",
+          "method": "通过固定流程、样品中心的认证方法，结合机械测试和统计过程控制。",
+          "result": "成功认证了Ti-6Al-4V支架，发现氧污染影响延展性，超声疲劳测试可快速筛选。",
+          "validation": "通过NADCAP实验室的拉伸、疲劳、断裂韧性等机械测试及CT检测验证。"
+        },
+        "summary_en": {
+          "motivation": "To establish qualification strategies for aerospace components produced by LPBF to ensure repeatable and reliable performance.",
+          "method": "A fixed-process, sample-centric qualification methodology including machine qualification, material testing, part inspection, and statistical process control.",
+          "result": "The Ti-6Al-4V bracket was successfully qualified for flight hardware, with findings on oxygen contamination effects on ductility and the feasibility of ultrasonic fatigue testing for rapid screening.",
+          "validation": "Mechanical testing (tensile, fatigue, fracture toughness) at NADCAP-certified labs and dimensional inspection via CMM and X-ray CT."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "LPBF",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "qualification",
+            "zh": "认证"
+          },
+          {
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
+          },
+          {
+            "en": "ultrasonic fatigue testing",
+            "zh": "超声疲劳测试"
+          },
+          {
+            "en": "statistical process control",
+            "zh": "统计过程控制"
+          },
+          {
+            "en": "oxygen contamination",
+            "zh": "氧污染"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:13:39Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412955087",
+      "doi": "10.1007/s44444-025-00030-w",
+      "title": "Digital twin-enabled surface quality prediction and optimization in dry turning of Ti6Al4V using ANFIS and genetic algorithm",
+      "abstract": "Abstract Ensuring high surface quality while minimizing tool wear remains a significant challenge in machining titanium alloys, particularly for applications in the aerospace, biomedical, and precision manufacturing industries. This study presents a novel integrated approach that combines experimental design, statistical analysis, intelligent modeling, and optimization to predict and minimize surface roughness (Ra) during the dry turning of Ti-6Al-4 V. Spindle speed (SS), feed rate (FR), and depth of cut (DoC) were selected as machining parameters, while cutting force (Fz), surface roughness (Ra), chip thickness (CW), and flank wear served as response variables. A Design of Experiments (DoE) with 20 trials was generated using Response Surface Methodology (RSM), and each trial was repeated thrice for accuracy using a fresh tool tip to eliminate tool wear effects. Analysis of Variance (ANOVA) identified significant parameters, and regression models were developed with R2 values of 97.4% (Fz), 86.64% (Ra), 88.35% (CW), and 83.96% (flank wear). A Fuzzy Inference System (FIS) dataset was used to train an Adaptive Neuro-Fuzzy Inference System (ANFIS) model, which was validated through 12 additional experiments. The ANFIS model demonstrated high prediction accuracy, with RMSE values ranging from 0.015 to 0.038 µm for Ra. Finally, a Genetic Algorithm (GA) was applied to identify optimal machining conditions: SS = 660.10 rpm, FR = 30 mm/min, and DoC = 0.3 mm, resulting in a minimum predicted surface roughness of 0.3392 µm. This integrated framework provides a robust solution for predictive quality control and process optimization in intelligent manufacturing environments.",
+      "authors": [
+        "Sumesh C. S",
+        "Ajith Ramesh"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, Amrita School of Engineering, Coimbatore, Amrita Vishwa Vidyapeetham, India",
+      "corresponding_authors": [
+        {
+          "name": "Sumesh C. S",
+          "affiliation": "Department of Mechanical Engineering, Amrita School of Engineering, Coimbatore, Amrita Vishwa Vidyapeetham, India"
+        }
+      ],
+      "venue": "Journal of King Saud University - Engineering Sciences",
+      "year": 2025,
+      "date": "2025-08-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1007/s44444-025-00030-w",
+      "cited_by_count": 5,
+      "concepts": [
+        "Genetic algorithm",
+        "Adaptive neuro fuzzy inference system",
+        "Computer science",
+        "Algorithm",
+        "Artificial intelligence"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "machining"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文为猫科动物全髋置换的临床回顾研究，未涉及股骨柄的增材制造或力学分析，与用户研究方向无关。",
-        "why_not_core": "This paper is a purely clinical veterinary study with no biomechanical modeling, no implant design, no FEA, and no additive manufacturing context.",
-        "validation_kind": "clinical",
+        "relevance_to_user": "该论文关注的是常规车削加工中的表面质量预测，而非增材制造Ti-6Al-4V的后处理工艺，与方向无关。",
+        "why_not_core": "Does not involve additive manufacturing or any post-processing treatment (heat treatment, HIP, shot peening) for AM Ti-6Al-4V; it is about conventional turning process optimization.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -273,590 +467,88 @@
           "is_review": false
         },
         "tags": [
-          "feline",
-          "hybrid THR",
-          "cemented stem",
-          "veterinary surgery",
-          "clinical outcomes"
+          "Ti-6Al-4V",
+          "dry turning",
+          "surface roughness",
+          "ANFIS",
+          "genetic algorithm",
+          "machining"
         ],
         "summary_zh": {
-          "motivation": "评估猫混合型全髋置换术的中期临床效果",
-          "method": "回顾性分析2020-2023年17例猫混合THR的临床及影像资料",
-          "result": "无并发症，主人满意度高，平均sf-FMPI评分2/36",
-          "validation": "术后影像学随访及主人问卷调查"
+          "motivation": "解决钛合金车削加工中表面质量与刀具磨损的矛盾。",
+          "method": "结合实验设计、ANFIS建模与遗传算法优化车削参数。",
+          "result": "最优参数下表面粗糙度预测值达0.3392μm，模型预测准确。",
+          "validation": "通过额外12组实验验证ANFIS模型精度。"
         },
         "summary_en": {
-          "motivation": "To evaluate the medium-term clinical outcomes of hybrid total hip replacement using a cemented femoral stem and cementless acetabular cup in cats.",
-          "method": "A retrospective case series of 17 feline hybrid THR procedures with radiographic analysis and owner-reported follow-up using the sf-FMPI questionnaire.",
-          "result": "The procedure demonstrated low complication rate, excellent owner satisfaction, and stable implant positioning on follow-up radiographs.",
-          "validation": "Clinical validation through postoperative radiographs and owner-reported outcome scores (sf-FMPI)."
+          "motivation": "To address the challenge of achieving high surface quality while minimizing tool wear in machining titanium alloys.",
+          "method": "An integrated framework combining design of experiments, ANFIS modeling, and genetic algorithm optimization was developed for dry turning of Ti-6Al-4V.",
+          "result": "Optimal machining parameters (spindle speed 660.10 rpm, feed rate 30 mm/min, depth of cut 0.3 mm) yielded a predicted surface roughness of 0.3392 μm with high model accuracy.",
+          "validation": "The ANFIS model was validated with 12 additional experiments, showing RMSE values from 0.015 to 0.038 μm for surface roughness."
         },
         "key_terms": [
           {
-            "en": "hybrid total hip replacement",
-            "zh": "混合型全髋置换术"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "cemented femoral stem",
-            "zh": "骨水泥型股骨柄"
+            "en": "dry turning",
+            "zh": "干式车削"
           },
           {
-            "en": "cementless acetabular cup",
-            "zh": "非骨水泥型髋臼杯"
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           },
           {
-            "en": "feline",
-            "zh": "猫科动物"
+            "en": "ANFIS",
+            "zh": "自适应神经模糊推理系统"
           },
           {
-            "en": "short-form feline musculoskeletal pain index",
-            "zh": "猫肌肉骨骼疼痛指数简表"
+            "en": "genetic algorithm",
+            "zh": "遗传算法"
+          },
+          {
+            "en": "response surface methodology",
+            "zh": "响应面法"
+          },
+          {
+            "en": "cutting force",
+            "zh": "切削力"
+          },
+          {
+            "en": "tool wear",
+            "zh": "刀具磨损"
+          },
+          {
+            "en": "machining parameters",
+            "zh": "加工参数"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:10:24Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:40663967",
-      "doi": "10.1016/j.ijscr.2025.111657",
-      "pmid": "40663967",
-      "title": "Mesh application enhances osteoinduction following proximal femur chondrosarcoma resection and Total hip arthroplasty: A case report and novel technique.",
-      "abstract": "INTRODUCTION AND IMPORTANCE: Salvage arthroplasty with revision hip prosthesis following long osteotomies and extensive soft tissue dissection is a challenging aspect of reconstructive surgery in oncology patients. This study aims to report on enhanced and faster osteoinduction with the use of mesh around hydroxyapatite (HA)-coated femoral stem. CASE PRESENTATION: A 60-year-male presenting with features of proximal femur chondrosarcoma as seen on radiography and suspected on biopsy. He underwent wide-margin surgical resection and salvage uncemented total hip arthroplasty using modular endoprosthesis with autograft, allograft and bone substitute wrapped within a polypropylene mesh (morselized). Xray at 2 months postoperatively showed a faster and early evidence of new bone formation between the HA-coated femoral stem and bone graft within the mesh. CLINICAL DISCUSSION: Proximal femur chondrosarcoma treated with wide-margin surgical resection including extensive osteotomy and soft tissue resection which poses biomechanical challenges including implant failure, joint instability, nonunion and bone resorption/osteolysis,. Salvage reconstruction using HA-coated modular revision endoprosthesis, morselized bone graft and covered by polypropylene mesh allows early osteoinduction and bone ingrowth. In vivo, in vitro and animal studies on polypropylene mesh show connective tissue ingrowth. CONCLUSION: The application of polypropylene mesh around a HA-coated femoral stem resulted in an enhanced bone formation at the prosthesis/bone graft interface in vivo. Bone stock regeneration in salvage hip replacements is of paramount importance to improve stability, enhance implant longevity and patient's quality of life and postoperative outcomes.",
-      "authors": [
-        "Ahmad Hammad",
-        "John Abdelnour"
-      ],
-      "first_author_affiliation": "Department of Orthopedics Surgery, American University of Beirut Medical Center, Beirut, Lebanon.",
-      "corresponding_authors": [
-        {
-          "name": "John Abdelnour",
-          "affiliation": "Department of Orthopedics Surgery, American University of Beirut Medical Center, Beirut, Lebanon. Electronic address: jabdelnoor@gmail.com."
-        }
-      ],
-      "venue": "International journal of surgery case reports",
-      "year": 2025,
-      "date": "2025-08-01",
-      "date_precision": "month",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40663967/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "此病例报告讨论髋关节假体周围骨诱导，但未涉及力学建模或植入物设计。",
-        "why_not_core": "Does not include any computational modeling, stress shielding quantification, or mechanical testing; it is a purely clinical case report with no engineering methodology validation.",
-        "validation_kind": "clinical",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": true,
-          "is_review": false
-        },
-        "tags": [
-          "case report",
-          "proximal femur",
-          "chondrosarcoma",
-          "hip arthroplasty",
-          "mesh",
-          "osteoinduction",
-          "bone graft"
-        ],
-        "summary_zh": {
-          "motivation": "报告使用聚丙烯网增强髋关节假体周围骨诱导的临床效果。",
-          "method": "对一例60岁男性患者行广泛切除并采用网包裹骨移植的补救性全髋关节置换术。",
-          "result": "术后2个月X线显示假体与骨移植物间快速新骨形成。",
-          "validation": "单病例临床随访观察。"
-        },
-        "summary_en": {
-          "motivation": "To report enhanced and faster osteoinduction using a polypropylene mesh around a hydroxyapatite-coated femoral stem in a salvage hip arthroplasty setting.",
-          "method": "A 60-year-old male with proximal femur chondrosarcoma underwent wide resection and uncemented total hip arthroplasty with modular endoprosthesis, autograft, allograft, bone substitute, and a polypropylene mesh wrapping.",
-          "result": "Radiographic evidence of new bone formation at the prosthesis-bone graft interface was observed as early as two months postoperatively.",
-          "validation": "Single-patient clinical follow-up with X-ray imaging."
-        },
-        "key_terms": [
-          {
-            "en": "hydroxyapatite coating",
-            "zh": "羟基磷灰石涂层"
-          },
-          {
-            "en": "polypropylene mesh",
-            "zh": "聚丙烯网"
-          },
-          {
-            "en": "osteoinduction",
-            "zh": "骨诱导"
-          },
-          {
-            "en": "salvage arthroplasty",
-            "zh": "补救性关节成形术"
-          },
-          {
-            "en": "proximal femur",
-            "zh": "股骨近端"
-          },
-          {
-            "en": "chondrosarcoma",
-            "zh": "软骨肉瘤"
-          },
-          {
-            "en": "modular endoprosthesis",
-            "zh": "模块化肿瘤假体"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:11:37Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:40633986",
-      "doi": "10.1016/j.arth.2025.03.078",
-      "pmid": "40633986",
-      "title": "Is There a Role for Greater Trochanteric Osteotomies in Isolated Acetabular Revisions?",
-      "abstract": "BACKGROUND: The use of a greater trochanteric osteotomy (GTO) can improve exposure for complex total hip arthroplasty (THA) revisions. Although a GTOs is most commonly utilized when the femoral stem is revised or a complete revision is undertaken, this study sought to evaluate the frequency and outcome of cases where a GTO was performed without revision of the femoral component. METHODS: A retrospective analysis of an institutional database identified 1,691 THA revisions without femoral component revision, including 907 liner exchanges and 784 cup revisions, that had been performed from 1998 through 2020. The mean age at revision THA was 65 years, 57% (963 of 1,691) of THAs were performed in women, and the mean body mass index (BMI) was 27.9. RESULTS: A GTO was performed to aid with acetabular exposure in conjunction with 1.7% (28 of 1,691) of isolated acetabular revisions. Reasons for revision included 10 performed for cup loosening (36%), eight (29%) for pelvic discontinuity, five (18%) for instability, and five (18%) for polyethylene wear/osteolysis. The GTO procedures included 14 (50%) traditional, four (14%) extended traditional, six (21%) slides, and four (14%) extended slide osteotomies. The acetabular components included 16 custom triflange components, three cages, and nine porous hemispherical cups with a median diameter of 58 mm. The retained femoral components consisted of 15 extensively coated, 10 proximally porous coated, and three cemented stems. At a mean follow-up of 6.4 years, the most common complications included six greater trochanteric nonunions and four THAs with instability. None of the retained femoral components loosened as a result of the GTO and Harris Hip scores improved from a mean of 49 pre-revision to 60 at the most recent follow-up. CONCLUSIONS: A GTO is rarely needed for isolated acetabular revision. With the numbers available, performing a GTO did not result in the loosening of a well-fixed stem. A GTO nonunion was the most common complication.",
-      "authors": [
-        "Nicholas R Olson",
-        "Tobenna N Nwankwo",
-        "P Henry Ho",
-        "Robert H Hopper",
-        "Craig J McAsey",
-        "William G Hamilton",
-        "Charles A Engh"
-      ],
-      "first_author_affiliation": "Anderson Orthopaedic Research Institute, Alexandria, Virginia.",
-      "corresponding_authors": [
-        {
-          "name": "Charles A Engh",
-          "affiliation": "Anderson Orthopaedic Research Institute, Alexandria, Virginia; Inova Mount Vernon Hospital Joint Replacement Center, Alexandria, Virginia.",
-          "inferred": true
-        }
-      ],
-      "venue": "The Journal of arthroplasty",
-      "year": 2025,
-      "date": "2025-08-01",
-      "date_precision": "month",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40633986/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "这篇论文主要讨论髋臼翻修中的大转子截骨术，未涉及股骨柄设计或增材制造，与用户研究方向无关。",
-        "why_not_core": "No femoral stem design, no biomechanics modeling, no implant manufacturing (AM), no stress shielding or micromotion analysis.",
-        "validation_kind": "clinical",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "greater trochanteric osteotomy",
-          "acetabular revision",
-          "total hip arthroplasty",
-          "femoral component retention"
-        ],
-        "summary_zh": {
-          "motivation": "探讨大转子截骨术在孤立髋臼翻修中的应用频率及结果",
-          "method": "回顾性分析1691例未翻修股骨柄的髋关节翻修术",
-          "result": "仅1.7%的病例使用截骨术，未导致股骨柄松动，但截骨不愈合是最常见并发症",
-          "validation": "基于临床回顾性数据的统计分析"
-        },
-        "summary_en": {
-          "motivation": "To determine the frequency and outcomes of greater trochanteric osteotomy performed during isolated acetabular revisions without femoral component revision.",
-          "method": "Retrospective analysis of 1,691 hip revision cases without femoral stem revision from 1998 to 2020.",
-          "result": "Only 1.7% of isolated acetabular revisions required GTO, with no loosening of retained femoral stems but trochanteric nonunion as the most common complication.",
-          "validation": "Clinical retrospective cohort analysis with mean 6.4 years follow-up."
-        },
-        "key_terms": [
-          {
-            "en": "greater trochanteric osteotomy",
-            "zh": "大转子截骨术"
-          },
-          {
-            "en": "acetabular revision",
-            "zh": "髋臼翻修"
-          },
-          {
-            "en": "femoral component retention",
-            "zh": "股骨柄保留"
-          },
-          {
-            "en": "nonunion",
-            "zh": "骨不愈合"
-          },
-          {
-            "en": "Harris Hip Score",
-            "zh": "Harris髋关节评分"
-          },
-          {
-            "en": "pelvic discontinuity",
-            "zh": "骨盆不连续"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:11:37Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:40859441",
-      "doi": "10.18926/AMO/69150",
-      "pmid": "40859441",
-      "title": "A Study of Periprosthetic Femoral Stem Fractures in Hip Arthroplasty for Femoral Neck Fracture.",
-      "abstract": "This study investigated the risk factors for bone fragility and perioperative periprosthetic femoral stem fractures in patients undergoing hip arthroplasty for femoral neck fractures. The records of 215 patients (42 male, 173 female; mean age, 84.4 years) were analyzed to assess correlations among periprosthetic fracture rates and sex, age, body mass index (BMI), Dorr classification, femoral stem fixation type (cemented/cementless), and bone mineral density (BMD) of the contralateral proximal femur. The overall prevalence of perioperative periprosthetic fractures was 4.7%. All patients with periprosthetic fractures were female, and all but one were ≥ 80 years of age. Fracture rates were higher in patients with lower BMI, although this difference was not significant. The fracture rates were 0%, 4.7%, and 7.9% for Dorr types A, B, and C, respectively, and 0% and 5.3% for patients who received cemented and cementless stems, respectively. The findings indicated that female patients, those of advanced age, those with lower BMI, and those with Dorr type C had lower BMDs. Although BMD was significantly lower in patients who received cemented stems compared to those who received cementless stems, no fractures were observed in the former group, suggesting that the use of cemented stems is safe for this high-risk population.",
-      "authors": [
-        "Yoshiaki Miyake",
-        "Toru Takagi",
-        "Taizo Konishiike"
-      ],
-      "first_author_affiliation": "Department of Orthopaedic Surgery, Japanese Red Cross Okayama Hospital.",
-      "corresponding_authors": [
-        {
-          "name": "Taizo Konishiike",
-          "affiliation": "Department of Orthopaedic Surgery, Japanese Red Cross Okayama Hospital.",
-          "inferred": true
-        }
-      ],
-      "venue": "Acta medica Okayama",
-      "year": 2025,
-      "date": "2025-08-01",
-      "date_precision": "month",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40859441/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文为临床回顾性研究，未涉及假体设计、力学建模或增材制造，与用户研究方向无直接关联。",
-        "why_not_core": "No biomechanics modeling, FEA, implant design, AM fabrication, or mechanical testing; purely clinical risk factor analysis.",
-        "validation_kind": "clinical",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "periprosthetic fracture",
-          "hip arthroplasty",
-          "femoral neck fracture",
-          "clinical study"
-        ],
-        "summary_zh": {
-          "motivation": "探讨髋关节置换术中股骨假体周围骨折的危险因素",
-          "method": "回顾性分析215例股骨颈骨折患者的临床资料，统计骨折率与各因素关联",
-          "result": "骨折率4.7%，女性、高龄、低BMI、Dorr C型患者风险更高，骨水泥柄无骨折",
-          "validation": "基于临床病例数据的统计分析"
-        },
-        "summary_en": {
-          "motivation": "To identify risk factors for periprosthetic femoral stem fractures during hip arthroplasty for femoral neck fractures.",
-          "method": "Retrospective analysis of 215 patients correlating fracture rates with sex, age, BMI, Dorr classification, stem fixation type, and BMD.",
-          "result": "Periprosthetic fracture prevalence was 4.7%, with higher risks in females, elderly, low BMI, and Dorr type C; cemented stems showed no fractures.",
-          "validation": "Clinical data analysis from patient records"
-        },
-        "key_terms": [
-          {
-            "en": "periprosthetic fracture",
-            "zh": "假体周围骨折"
-          },
-          {
-            "en": "femoral stem",
-            "zh": "股骨柄"
-          },
-          {
-            "en": "hip arthroplasty",
-            "zh": "髋关节置换术"
-          },
-          {
-            "en": "femoral neck fracture",
-            "zh": "股骨颈骨折"
-          },
-          {
-            "en": "Dorr classification",
-            "zh": "Dorr分型"
-          },
-          {
-            "en": "cemented stem",
-            "zh": "骨水泥型股骨柄"
-          },
-          {
-            "en": "cementless stem",
-            "zh": "非骨水泥型股骨柄"
-          },
-          {
-            "en": "bone mineral density",
-            "zh": "骨密度"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:12:37Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:40852559",
-      "doi": "10.1007/s43465-025-01394-6",
-      "pmid": "40852559",
-      "title": "Reproducibility of the Barrack and Gruen Grading Systems in Assessing Cement Mantle Quality in Hip Arthroplasty.",
-      "abstract": "BACKGROUND: Aseptic loosening is the most common cause of failure of cemented femoral stems. This complication, which is directly related to cementation quality, can be assessed radiographically using the Gruen or Barrack bone cementation quality grading systems. However, the reproducibility of these grading systems is uncertain. The aim of this study was to determine the intra- and interobserver reproducibility of these two grading systems for the assessment of the bone-cement and cement-prosthesis interfaces. METHODS: Three observers independently evaluated bone cementation quality according to the Barrack and Gruen systems on radiographs obtained from 40 patients (80 radiographs; anterior-posterior [AP] and axial views) who had undergone cemented hip hemiarthroplasty after intracapsular femoral fracture. The 40 patients were randomly selected from 152 consecutive cases. The radiographs were evaluated twice over a 4-week period, once with the Barrack system and once with the Gruen system, in random order. In all cases, the same type of femoral stem and cement was used. The weighted kappa coefficient was determined to assess intraobserver and interobserver agreement. RESULTS: Most cases were classified as either Barrack B or C (72.8%). In the AP view, radiolucencies were present in 54.9% (95% CI: 46.6-63.1) of cases in the bone-cement interface (Gruen zones). For the Barrack system, the weighted kappa ranged from 0.42 to 0.57 for the intraobserver analysis and from 0.22 to 0.32 for the interobserver analysis, indicating a fair to moderate strength of agreement. The corresponding coefficients for the Gruen system were 0.40-0.55 (intraobserver) and 0.08-0.28 (interobserver), indicating a slight to moderate strength of agreement. CONCLUSION: The findings of this study suggest that the Gruen and Barrack cementation grading systems are not sufficiently reliable to accurately evaluate cement mantle quality at the bone-cement and cement-prosthesis interfaces. Consequently, the routine use of these grading systems in hip orthopaedic practices should be reconsidered.Level of Evidence: Level IV.",
-      "authors": [
-        "Manel Fa-Binefa",
-        "Alex Grau-Blanes",
-        "Esther Moya-Gomez",
-        "Ignasi Gich-Saladich",
-        "Marius Valera-Pertegás"
-      ],
-      "first_author_affiliation": "Hip Unit, Hospital de la Santa Creu i Sant Pau, Universitat Autònoma de Barcelona, 08025) Barcelona, Spain.; Sant Pau Biomedical Research Institute (IIB Sant Pau), Barcelona, Spain.",
-      "corresponding_authors": [
-        {
-          "name": "Marius Valera-Pertegás",
-          "affiliation": "Hip Unit, Hospital de la Santa Creu i Sant Pau, Universitat Autònoma de Barcelona, 08025) Barcelona, Spain.; Sant Pau Biomedical Research Institute (IIB Sant Pau), Barcelona, Spain.",
-          "inferred": true
-        }
-      ],
-      "venue": "Indian journal of orthopaedics",
-      "year": 2025,
-      "date": "2025-08-01",
-      "date_precision": "month",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40852559/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究水泥壳质量分级系统的可重复性，与用户关注的股骨柄应力遮挡、微动及稳定性无关。",
-        "why_not_core": "No biomechanics modeling, implant design, stress shielding quantification, micromotion analysis, or additive manufacturing; purely a clinical reproducibility study.",
-        "validation_kind": "clinical",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": true,
-          "is_review": false
-        },
-        "tags": [
-          "reproducibility",
-          "cement mantle",
-          "grading systems",
-          "hip arthroplasty",
-          "radiographic assessment"
-        ],
-        "summary_zh": {
-          "motivation": "评估水泥壳质量分级系统的可重复性及其可靠性。",
-          "method": "三位医生独立评估40例髋关节置换术后X光片。",
-          "result": "Barrack和Gruen系统的一致性为轻度到中度，可靠性不足。",
-          "validation": "临床X光片观察者间一致性分析。"
-        },
-        "summary_en": {
-          "motivation": "To evaluate the reproducibility of Barrack and Gruen grading systems for cement mantle quality in cemented hip arthroplasty.",
-          "method": "Three observers independently assessed cementation quality on radiographs from 40 patients.",
-          "result": "Intra- and interobserver agreement was slight to moderate, indicating insufficient reliability for clinical use.",
-          "validation": "Clinical radiographic study with weighted kappa statistics."
-        },
-        "key_terms": [
-          {
-            "en": "Barrack grading system",
-            "zh": "Barrack分级系统"
-          },
-          {
-            "en": "Gruen grading system",
-            "zh": "Gruen分级系统"
-          },
-          {
-            "en": "cement mantle",
-            "zh": "水泥壳"
-          },
-          {
-            "en": "reproducibility",
-            "zh": "可重复性"
-          },
-          {
-            "en": "hip arthroplasty",
-            "zh": "髋关节置换术"
-          },
-          {
-            "en": "radiographic assessment",
-            "zh": "X光片评估"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:12:37Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:40786751",
-      "doi": "10.13107/jocr.2025.v15.i08.5890",
-      "pmid": "40786751",
-      "title": "Progressive Loosening in Metal-on-Metal Total Hip Arthroplasty after Fifteen Years of Effective Function: Two Case Reports.",
-      "abstract": "INTRODUCTION: Metallosis is a pathological condition associated with the release of metal debris from joint implants, particularly metal-on-metal (MoM) articulations in total hip arthroplasty (THA). The metal debris triggers adverse local tissue reactions, including aseptic lymphocyte-vasculitis-associated lesions (ALVALs), pseudotumor formation, and progressive implant loosening. CASE REPORT: Case 1 - A 64-year-old male presented with hip pain and limping 15 years after an uncemented MoM THA. Investigations revealed femoral stem loosening. Intraoperatively, dark synovial fluid, necrotic tissue, elevated cobalt, and chromium levels were consistent with metallosis were identified. Revision surgery replaced the components with alternative bearings, and the patient returned to normal activities within a year. Case 2 - A 63-year-old female with bilateral MoM THAs reported similar symptoms 15-year post-surgery. Imaging identified a pseudotumor and femoral loosening. Elevated serum metal ion levels confirmed the diagnosis. Revision surgery revealed ALVAL, and components were replaced with ceramic-on-polyethylene implants, resolving symptoms. CONCLUSION: Metallosis poses a significant risk in MoM THA, caused by wear and corrosion, leading to systemic and local tissue damage. Timely diagnosis through clinical evaluation, imaging, and serum metal ion levels is critical for intervention. Revision surgeries are effective in managing metallosis and restoring function. These cases highlight the importance of long-term monitoring and the consideration of alternative bearing surfaces in hip arthroplasty.",
-      "authors": [
-        "Mohammad Salil",
-        "G Varun Prasad",
-        "Jai Thilak"
-      ],
-      "first_author_affiliation": "Department of Orthopaedics, Amrita Institute of Medical Sciences and Research Centre, Kochi, Kerala, India.",
-      "corresponding_authors": [
-        {
-          "name": "Jai Thilak",
-          "affiliation": "Department of Orthopaedics, Amrita Institute of Medical Sciences and Research Centre, Kochi, Kerala, India.",
-          "inferred": true
-        }
-      ],
-      "venue": "Journal of orthopaedic case reports",
-      "year": 2025,
-      "date": "2025-08-01",
-      "date_precision": "month",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40786751/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文为金属对金属全髋关节置换术后松动的临床病例报告，不涉及植入物设计、有限元分析、增材制造或人工智能，与用户研究方向无关。",
-        "why_not_core": "This paper is a clinical case report on metallosis and loosening in metal-on-metal THA, with no biomechanical modeling, implant design, finite element analysis, additive manufacturing, or AI/ML methods.",
-        "validation_kind": "clinical",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "metal-on-metal",
-          "total hip arthroplasty",
-          "metallosis",
-          "loosening",
-          "case report"
-        ],
-        "summary_zh": {
-          "motivation": "报告金属对金属髋关节置换术后15年出现金属沉积和假体松动的病例",
-          "method": "两例临床病例的病史、影像学和血清金属离子水平分析",
-          "result": "翻修手术更换为陶瓷-聚乙烯界面后症状缓解",
-          "validation": "临床病例观察，无对照或定量验证"
-        },
-        "summary_en": {
-          "motivation": "To report two cases of metallosis and femoral stem loosening occurring 15 years after metal-on-metal total hip arthroplasty.",
-          "method": "Clinical evaluation, imaging, and serum metal ion level measurement were used to diagnose and manage the patients.",
-          "result": "Revision surgery with alternative bearing surfaces resolved symptoms and restored function.",
-          "validation": "Case report with no experimental or biomechanical validation."
-        },
-        "key_terms": [
-          {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换术"
-          },
-          {
-            "en": "metallosis",
-            "zh": "金属沉积症"
-          },
-          {
-            "en": "femoral stem loosening",
-            "zh": "股骨柄松动"
-          },
-          {
-            "en": "metal-on-metal bearing",
-            "zh": "金属对金属摩擦界面"
-          },
-          {
-            "en": "adverse local tissue reaction",
-            "zh": "不良局部组织反应"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:12:37Z"
+      "first_seen_at": "2026-06-07T23:13:39Z"
     }
   ],
   "counts": {
-    "fetched_total": 8,
+    "fetched_total": 4,
     "by_source": {
-      "pubmed": 8
+      "openalex": 4
     },
-    "after_dedup": 8,
-    "after_routing": 8,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
-      "am_femoral_stem": 8
+      "ti6al4v_base_mechanical_fatigue": 2,
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "pubmed": 8
+      "openalex": 4
     },
-    "scored": 8,
+    "scored": 4,
     "priority_counts": {
-      "Exclude": 8
+      "Low": 1,
+      "Exclude": 2,
+      "Medium": 1
     }
   }
 }

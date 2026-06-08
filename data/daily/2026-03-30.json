@@ -4,126 +4,163 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2603.28267v1",
-      "doi": "10.1063/5.0309916",
-      "arxiv_id": "2603.28267v1",
-      "title": "Intrinsically ultralow thermal conductivity in all-inorganic superatomic bulk crystals",
-      "abstract": "Superatomic compounds, composed of atomic clusters interwoven by weak chemical bonds exhibit large anharmonicity vibrations, are excellent candidates for ultralow thermal conductivity (\\k{appa}) materials. However, growing bulk superatomic single crystals is challenging due to complex chemical composition and chemical bonds, and studies on their intrinsic thermal property are scarce. Here, we grew high-quality superatomic single crystals of Re6Se8Te7 and Re6Te15, both of which are narrow band gap semiconductors that change into metals under external physical pressure. At room-temperature, the \\k{appa} are 0.32 W m-1 K-1 and 0.53 W m-1 K-1 in Re6Se8Te7 and Re6Te15, respectively, ranking among the lowest value reported in all-inorganic bulk crystals. It is mainly attributed to the large Grüneisen parameter (1.93) and low average sound speed (< 1482 m/s), which are due to soft Te7 nets weakly embedded among the rigid Re6Se8 (Re6Te8) quasi-cubic clusters. The appearance of boson peak, i. e., hump of C(T)/T3, verifies the existence of disordered phonon transports. Besides, the temperature dependence of \\k{appa} can be described by classic Debye-Callaway model. Notably, above 350 K, the \\k{appa} values of Re6Se8Te7 and Re6Te15 are remarkably close to the upper limit derived from glassy-like diffusion model. This finding sets the superatomic compounds as a promising family for searching ultralow-\\k{appa} and energy management materials.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7143431626",
+      "doi": "10.20517/microstructures.2025.04",
+      "title": "Additively manufactured Ti-6Al-4V/Ta bimetal: from neutron diffraction residual stress analysis to wear and bioproperty testings",
+      "abstract": "Powder bed fusion-laser beam prepared Ti-6Al-4V/Ta bimetals can be well-suited for advanced biomedical applications. However, a few issues remain unsolved, including (a) understanding of residual stress distribution and its level in as-printed bimetal; and (b) wear and bio properties of the bimetal. This study aims to address these points through a series of investigations, including residual stress analysis by neutron diffraction, printing optimization, and analysis of heat treatment effect on the properties. It was discovered that the residual stress is highly related to the temperature gradient and Young’s modulus. In the interface region of the as-printed bimetal, the residual stress was reduced and inverted compared to the as-printed Ta alone, changing from ~ (140-180) MPa (tensile) to ~ (30-70) MPa (compressive), which may have helped the Ta layer bond effectively with the Ti-6Al-4V matrix. Meanwhile, a high residual stress (~ 390 MPa) in the Ti-6Al-4V part of the as-printed bimetal justifies the need for heat treatment. After heat treatment, the bimetal exhibited good biocompatibility and much improved wear and corrosion resistance compared to Ti-6Al-4V alone. These improvements may be attributed to the formation of tantalum oxide during friction and corrosion processes. Ta layer can also improve the biocompatibility due to its intrinsic noncytotoxic feature.",
       "authors": [
-        "Mingzhang Yang",
-        "Yuxi Wang",
-        "Jun Deng",
-        "Tianping Ying",
-        "Qinghua Zhang",
-        "Nianjie Liang",
-        "Xiaobing Liu",
-        "Bai Song",
-        "Jian-gang Guo",
-        "Xiaolong Chen"
+        "Dr. Hao Wang",
+        "Ke Ma",
+        "Jincheng Tang",
+        "Jing Zhao",
+        "Hancong Chen",
+        "Yinghao Zhou",
+        "Xiaoping Luo",
+        "Jiazheng Hao",
+        "Lunhua He",
+        "Ming Yan"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Dr. Hao Wang",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Microstructures",
       "year": 2026,
       "date": "2026-03-30",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2603.28267v1",
+      "url": "https://doi.org/10.20517/microstructures.2025.04",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Residual stress",
+        "Bimetal",
+        "Materials science",
+        "Corrosion",
+        "Neutron diffraction",
+        "Metallurgy",
+        "Tantalum",
+        "Composite material",
+        "Biocompatibility",
+        "Stress (linguistics)",
+        "Layer (electronics)",
+        "Oxide",
+        "Hardfacing",
+        "Residual",
+        "Delamination (geology)"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "residual stress"
         ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "与增材制造力学性能研究方向完全无关，涉及超原子晶体的热导率",
-        "why_not_core": "This paper focuses on thermal conductivity of superatomic crystals, with no mention of additive manufacturing, mechanical properties, or any biomaterial context.",
-        "validation_kind": "none",
+        "read_action": "Background only",
+        "relevance_to_user": "本文涉及Ti-6Al-4V/Ta双金属的热处理，但主要关注磨损和生物性能，而非直接的Ti-6Al-4V后处理对疲劳/力学性能的影响。",
+        "why_not_core": "The paper focuses on Ti-6Al-4V/Ta bimetal rather than standalone Ti-6Al-4V, and its primary outcomes are wear and biocompatibility, not fatigue or tensile mechanical performance under post-processing.",
+        "validation_kind": "mechanical_testing",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "thermal conductivity",
-          "superatomic crystals"
+          "Ti-6Al-4V/Ta bimetal",
+          "heat treatment",
+          "residual stress",
+          "neutron diffraction",
+          "wear resistance",
+          "biocompatibility",
+          "post-processing"
         ],
         "summary_zh": {
-          "motivation": "探索超原子晶体的本征超低热导率",
-          "method": "生长高质量Re6Se8Te7和Re6Te15单晶并测量热导率",
-          "result": "室温热导率分别为0.32和0.53 W m-1 K-1，属于无机块体晶体中最低",
-          "validation": "通过实验测量和Debye-Callaway模型拟合验证"
+          "motivation": "研究Ti-6Al-4V/Ta双金属的残余应力分布及热处理对其性能的影响。",
+          "method": "采用中子衍射分析残余应力，并进行热处理及磨损、生物性能测试。",
+          "result": "热处理降低了残余应力，改善了磨损和生物相容性。",
+          "validation": "通过中子衍射和磨损实验验证了结果。"
         },
         "summary_en": {
-          "motivation": "To investigate the intrinsic ultralow thermal conductivity in superatomic bulk crystals.",
-          "method": "High-quality single crystals of Re6Se8Te7 and Re6Te15 were grown and their thermal conductivity was measured.",
-          "result": "Room-temperature thermal conductivities are 0.32 and 0.53 W m-1 K-1, among the lowest in all-inorganic bulk crystals.",
-          "validation": "Experimental measurements and Debye-Callaway model fitting."
+          "motivation": "To investigate the residual stress distribution in as-printed Ti-6Al-4V/Ta bimetal and the effect of heat treatment on its mechanical and biological properties.",
+          "method": "Neutron diffraction measured residual stresses in the bimetal, and heat treatment was applied followed by wear and biocompatibility tests.",
+          "result": "Heat treatment reduced tensile residual stresses in the Ti-6Al-4V part and improved wear resistance and biocompatibility due to tantalum oxide formation.",
+          "validation": "Experimental validation through neutron diffraction residual stress analysis and wear tests."
         },
         "key_terms": [
           {
-            "en": "thermal conductivity",
-            "zh": "热导率"
+            "en": "Ti-6Al-4V/Ta bimetal",
+            "zh": "Ti-6Al-4V/Ta双金属"
           },
           {
-            "en": "superatomic crystals",
-            "zh": "超原子晶体"
+            "en": "heat treatment",
+            "zh": "热处理"
           },
           {
-            "en": "Grüneisen parameter",
-            "zh": "格吕奈森参数"
+            "en": "residual stress",
+            "zh": "残余应力"
           },
           {
-            "en": "Debye-Callaway model",
-            "zh": "德拜-卡洛维模型"
+            "en": "neutron diffraction",
+            "zh": "中子衍射"
           },
           {
-            "en": "boson peak",
-            "zh": "玻色峰"
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "biocompatibility",
+            "zh": "生物相容性"
+          },
+          {
+            "en": "powder bed fusion",
+            "zh": "粉末床熔融"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:20:36Z"
+      "first_seen_at": "2026-06-07T23:28:07Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {
-      "Exclude": 1
+      "Low": 1
     }
   }
 }

@@ -4,134 +4,177 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "pubmed",
-      "id": "pubmed:42134387",
-      "doi": "10.1088/2057-1976/ae6dc9",
-      "pmid": "42134387",
-      "title": "Acoustic-based intraoperative assessment of femoral stem initial stability in cementless THA via sensitive frequency band identification.",
-      "abstract": "Intraoperative assessment of femoral stem initial stability in cementless total hip arthroplasty (THA) predominantly relies on subjective tactile and auditory feedback, which lacks standardization and increases complication risks. This study develops a quantitative framework to identify sensitive acoustic frequency bands characterizing the bone-implant fixation state. Specifically, we acquired high-fidelity acoustic signals from 118 primary cementless THA procedures. Utilizing a statistical difference analysis framework, we identified two distinct sensitive bands (640-1920 Hz and 3460-3560 Hz) to extract band power fraction features. Machine learning evaluation demonstrated that these bands significantly outperform traditional empirical partitioning, achieving a classification accuracy of 0.816±0.028, which improved to 0.834±0.042 after feature fusion. Furthermore, stratified validation confirmed high consistency across diverse bone qualities and implant designs (Summit and Corail). While robust under steady-state Gaussian noise, the system exhibited sensitivity to non-steady-state speech interference. In conclusion, the identified sensitive bands effectively reflect the mechanical evolution of the bone-implant interface, providing a physically interpretable decision-support tool for enhancing surgical safety.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7162436029",
+      "doi": "10.1177/00325899261454936",
+      "title": "Tailoring microstructure and properties of Ti-6Al-4V from piston-based material extrusion through hot isostatic pressing",
+      "abstract": "Piston-based material extrusion (PEX) is an additive manufacturing technology that enables the processing of metal injection moulding (MIM) feedstock to form green parts. The extrusion process does not require moulds and hence is a competitive alternative for the shaping of MIM process routes, offering short lead times and cost-efficiency for lower lot sizes, while integrating into the remaining process chain and equipment. This paper focuses on the microstructure and properties of Ti-6Al-4V fabricated by PEX and followed by a subsequent hot isostatic pressing (HIP) step for parts requiring superior density and mechanical properties. The HIP process is performed using standard as well as high-purity conditions (Quintus Purus ® ). After sintering, a globular, mostly α microstructure is observed. A subsequent HIP followed by rapid quenching transforms the microstructure to a bi-modal state. A similar effect on microstructure is observed for the Quintus Purus ® HIP; however, the formation of α-case on the part surface is avoided. While the mean density of the sintered parts is 97.2%, HIP leads to an increase to 98.9–99.3% with the remnant porosity mainly stemming from open, connected pores. Although the sintered specimens already fulfil the industrial requirements, the Quintus Purus ® HIP leads to a slight increase in yield and ultimate tensile strength at minimal reduction of elongation. The standard HIP shows the same but slightly more pronounced trend. The results show that by a careful design of the specific HIP conditions, the microstructure and properties can be tailored for a specific application.",
       "authors": [
-        "Dongqi Zhu",
-        "Zhuwen Xu",
-        "Youyuan Chen",
-        "Minghao Jin",
-        "Wan Zheng",
-        "Yi Zhou",
-        "Huiwu Li",
-        "Yongyun Chang",
-        "Feng Hong",
-        "Zanjing Zhai"
+        "Katharina Bartsch",
+        "Dirk Herzog",
+        "Lennart Waalkes",
+        "Kevin Janzen",
+        "Stefan Grottker",
+        "Sebastian Mansky",
+        "Ingomar Kelbassa",
+        "Roman Schöneich",
+        "James Shipley",
+        "Johannes Gårdstam"
       ],
-      "first_author_affiliation": "Shanghai Acoustics Laboratory, Chinese Academy of Sciences, Shanghai 201815, People's Republic of China.; University of Chinese Academy of Sciences, Beijing 101408, People's Republic of China.",
+      "first_author_affiliation": "Fraunhofer IAPT",
       "corresponding_authors": [
         {
-          "name": "Zanjing Zhai",
-          "affiliation": "Department of Orthopaedic Surgery, Shanghai Key Laboratory of Orthopaedic Implants, Shanghai Ninth People's Hospital,Shanghai Jiao Tong University School of Medicine, Shanghai 200011, People's Republic of China.",
-          "inferred": true
+          "name": "Kevin Janzen",
+          "affiliation": "Fraunhofer IAPT"
         }
       ],
-      "venue": "Biomedical physics & engineering express",
+      "venue": "Powder Metallurgy",
       "year": 2026,
       "date": "2026-05-26",
       "date_precision": "day",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42134387/",
+      "url": "https://doi.org/10.1177/00325899261454936",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
+      "concepts": [
+        "Microstructure",
+        "Hot isostatic pressing",
+        "Materials science",
+        "Extrusion",
+        "Ultimate tensile strength",
+        "Porosity",
+        "Pressing",
+        "Composite material",
+        "Quenching (fluorescence)",
+        "Metal injection molding",
+        "Metallurgy",
+        "Raw material",
+        "Fabrication",
+        "Injection moulding",
+        "Yield (engineering)",
+        "Hot pressing",
+        "Extrusion moulding",
+        "Powder metallurgy",
+        "Grain size"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "tensile strength",
+          "ultimate tensile strength",
+          "elongation",
+          "porosity"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "hot isostatic pressing"
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "本文仅涉及股骨柄术中稳定性评估的声学方法，未涉及股骨柄的增材制造或传统制造工艺。",
-        "why_not_core": "This paper focuses on intraoperative acoustic stability assessment, not on the design, manufacturing, or mechanical analysis of femoral implants.",
-        "validation_kind": "clinical",
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究Ti-6Al-4V的HIP后处理，涵盖微观结构、密度和拉伸性能，与方向高度相关。",
+        "why_not_core": "It does not include fatigue testing, which is a key aspect for L2 post-processing evaluation.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
-          "is_patient_specific": true,
+          "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "femoral stem",
-          "acoustic analysis",
-          "stability assessment",
-          "clinical validation"
+          "Ti-6Al-4V",
+          "hot isostatic pressing",
+          "piston-based material extrusion",
+          "microstructure",
+          "mechanical properties",
+          "density"
         ],
         "summary_zh": {
-          "motivation": "术中股骨柄稳定性评估缺乏标准化方法，依赖主观判断。",
-          "method": "采集118例手术的声学信号，通过统计差异分析识别敏感频带，提取功率分数特征并采用机器学习分类。",
-          "result": "识别出两个敏感频带（640-1920 Hz和3460-3560 Hz），分类准确率达0.834±0.042。",
-          "validation": "基于临床手术数据和分层验证，考虑不同骨质量和植入物设计。"
+          "motivation": "探索热等静压（HIP）作为Ti-6Al-4V活塞挤出成形件的后处理工艺",
+          "method": "采用标准和高纯度HIP条件对烧结件进行致密化和组织调控",
+          "result": "HIP将密度提升至99%以上，抗拉强度略有提高而延伸率轻微下降",
+          "validation": "通过拉伸试验和密度测量验证力学性能和组织变化"
         },
         "summary_en": {
-          "motivation": "To provide a quantitative intraoperative assessment of femoral stem initial stability in cementless THA, replacing subjective tactile and auditory feedback.",
-          "method": "Acoustic signals from 118 primary THA procedures were analyzed using a statistical difference framework to identify sensitive frequency bands, and support vector machine classifiers were trained on band power fraction features.",
-          "result": "Two sensitive frequency bands were identified, and classification accuracy reached 0.834±0.042 after feature fusion, outperforming traditional empirical partitioning.",
-          "validation": "The method was validated on clinical data with stratified analysis across bone qualities and implant designs, and tested under noise conditions."
+          "motivation": "To investigate hot isostatic pressing (HIP) as a post-processing route to densify and tailor the microstructure and mechanical properties of Ti-6Al-4V produced by piston-based material extrusion.",
+          "method": "Standard and high-purity HIP (Quintus Purus) conditions were applied to sintered green parts, followed by characterization of microstructure, density, and tensile properties.",
+          "result": "HIP increased density from 97.2% to 98.9–99.3%, transformed the microstructure to a bimodal state, and slightly improved yield and ultimate tensile strength at a minimal reduction in elongation.",
+          "validation": "Validation was performed via density measurements (Archimedes method) and tensile testing according to ASTM standards."
         },
         "key_terms": [
           {
-            "en": "femoral stem",
-            "zh": "股骨柄"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "acoustic signal",
-            "zh": "声学信号"
+            "en": "hot isostatic pressing (HIP)",
+            "zh": "热等静压"
           },
           {
-            "en": "initial stability",
-            "zh": "初始稳定性"
+            "en": "piston-based material extrusion (PEX)",
+            "zh": "活塞式材料挤出成形"
           },
           {
-            "en": "cementless THA",
-            "zh": "非骨水泥型全髋关节置换术"
+            "en": "microstructure",
+            "zh": "微观组织"
           },
           {
-            "en": "sensitive frequency band",
-            "zh": "敏感频带"
+            "en": "mechanical properties",
+            "zh": "力学性能"
           },
           {
-            "en": "machine learning",
-            "zh": "机器学习"
+            "en": "density",
+            "zh": "密度"
           },
           {
-            "en": "intraoperative assessment",
-            "zh": "术中评估"
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "elongation",
+            "zh": "延伸率"
+          },
+          {
+            "en": "α-case",
+            "zh": "α层"
+          },
+          {
+            "en": "sintering",
+            "zh": "烧结"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:23:10Z"
+      "first_seen_at": "2026-06-07T23:31:55Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "pubmed": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "am_femoral_stem": 1
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "pubmed": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {
-      "Exclude": 1
+      "High": 1
     }
   }
 }

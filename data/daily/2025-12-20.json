@@ -4,51 +4,81 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "pubmed",
-      "id": "pubmed:40900845",
-      "doi": "10.5662/wjm.v15.i4.106708",
-      "pmid": "40900845",
-      "title": "Recurrent femoral stem fractures in Dorr A femurs: Lessons learned and a call for alternative strategies.",
-      "abstract": "We report a unique case of bilateral femoral stem fractures in a patient with Dorr A femoral morphology, underscoring the need for a critical reassessment of implant selection strategies. The initial failure involved a cemented revision stem placed using the cement-within-cement technique combined with an extended trochanteric osteotomy (ETO). A second revision was subsequently performed using a cortical window osteotomy and a distally fixed uncemented stem, which resulted in successful recovery. A similar approach was used to treat a subsequent contralateral stem fracture, also with favorable outcomes. This case emphasizes three key considerations: First, that standard-length cemented stems may lead to oversizing and increased stress concentration in Dorr A femurs with narrow canals; second, that ETO may compromise femoral integrity and contribute to implant failure; and third, that cortical window osteotomy enables safer implant removal and reimplantation. Based on these findings, we advocate for an individualized approach to implant selection that may include cemented short stems, uncemented short stems, or modular solutions depending on femoral anatomy and patient-specific factors, and we encourage further investigation into optimal fixation strategies for patients with Dorr A femoral morphology.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7116695344",
+      "doi": "10.3390/ma19010022",
+      "title": "An Accurate CFD-FEM Model for the Thermal Stress of the Simulation of Selective Laser Melting",
+      "abstract": "Selective laser melting (SLM) is a 3D printing technology for precision manufacturing. Owing to its high forming accuracy, parts fabricated by SLM can often be used directly without secondary machining. Consequently, the stress field in the structure, especially local stress concentration in small regions, is of great importance. Building on our previous work, this study proposes an accurate and efficient thermo-mechanical analysis method that combines a computational fluid dynamics (CFD) model and a finite element method (FEM) model for stress prediction in micrometer-scale SLM. Compared with the conventional element birth-death method, the present model more faithfully reproduces the SLM process and the post-solidification morphology and stress distribution. Numerical simulation of a single-track TC4 scan shows that pronounced surface undulations and lack-of-fusion regions exhibit significant stress concentration: the local residual stress can reach approximately 900 MPa, whereas regions with relatively smooth surface geometry exhibit stresses of about 650 MPa. This indicates a clear positive correlation between surface quality and stress concentration. The results provide a new theoretical basis for understanding defect formation mechanisms, spatial stress distribution, and scan-path optimization in SLM components.",
       "authors": [
-        "Carlos M Lucero",
-        "Juan Bautista Luco",
-        "Agustin Albani Forneris",
-        "Martin A Buttaro"
+        "Y W Chen",
+        "Xuezhi Zhang",
+        "Anguo Huang",
+        "Shengyong Pang",
+        "Lvjie Liang"
       ],
-      "first_author_affiliation": "Centro de Cadera ''Sir John Charnley'' Instituto de Ortopedia y Traumatologia Prof. Dr. Carlos E. Ottolenghi, Hospital Italiano de Buenos Aires, Capital Federal C1198AAW, Buenos Aires, Argentina.",
+      "first_author_affiliation": "School of Mechanical and Electrical Engineering, Wuhan Institute of Technology, Wuhan 430205, China",
       "corresponding_authors": [
         {
-          "name": "Juan Bautista Luco",
-          "affiliation": "Instituto de Ortopedia y Traumatologia Prof. Dr. Carlos E. Ottolenghi, Hospital Italiano de Buenos Aires, Ciudad Autonoma de Buenos Aires C1198AAW, Buenos Aires, Argentina. bautista.luco@hospitalitaliano.org.ar."
+          "name": "Lvjie Liang",
+          "affiliation": "School of Mechanical and Electrical Engineering, Wuhan Institute of Technology, Wuhan 430205, China"
         }
       ],
-      "venue": "World journal of methodology",
+      "venue": "Materials",
       "year": 2025,
       "date": "2025-12-20",
       "date_precision": "day",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40900845/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
+      "url": "https://doi.org/10.3390/ma19010022",
+      "cited_by_count": 1,
+      "concepts": [
+        "Selective laser melting",
+        "Residual stress",
+        "Materials science",
+        "Stress (linguistics)",
+        "Finite element method",
+        "Thermal",
+        "Stress field",
+        "Surface stress",
+        "Computer simulation",
+        "Mechanics",
+        "Surface (topology)",
+        "Work (physics)",
+        "Process (computing)",
+        "Field (mathematics)",
+        "Composite material",
+        "Laser scanning",
+        "Laser",
+        "Free surface",
+        "Stress concentration",
+        "Material properties",
+        "Structural engineering",
+        "Forming processes"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "defect",
+          "residual stress"
+        ],
+        "ti6al4v_postprocess": [
+          "TC4",
+          "machining"
         ]
       },
       "llm": {
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "本文报告了Dorr A型股骨柄的临床断裂案例，但未涉及任何生物力学建模、有限元分析或增材制造设计。",
-        "why_not_core": "This is a clinical case report without biomechanical modeling, FEA, implant design optimization, or additive manufacturing, which are core to the user's directions.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文研究SLM成型过程中的热应力模拟，不涉及任何后处理工艺对Ti-6Al-4V疲劳或力学性能的影响。",
+        "why_not_core": "The paper does not study any post-processing treatment; it focuses on as-built stress simulation during selective laser melting, which is Layer 1 (processing), not Layer 2 (post-processing).",
+        "validation_kind": "numerical_benchmark",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
@@ -56,72 +86,77 @@
           "is_review": false
         },
         "tags": [
-          "clinical case",
-          "femoral stem fracture",
-          "Dorr A",
-          "cemented revision",
-          "uncemented stem"
+          "CFD-FEM",
+          "thermal stress",
+          "selective laser melting",
+          "Ti-6Al-4V",
+          "residual stress",
+          "numerical simulation"
         ],
         "summary_zh": {
-          "motivation": "报道Dorr A型股骨柄反复断裂的罕见病例，呼吁重新评估植入物选择策略。",
-          "method": "回顾性分析双侧股骨柄断裂病例的临床处理与术后结果。",
-          "result": "标准长度骨水泥柄可能导致应力集中，皮质窗截骨有助于安全翻修。",
-          "validation": "仅基于两例临床病例，无系统验证。"
+          "motivation": "提高SLM成型过程中热应力预测的准确性",
+          "method": "提出CFD与FEM耦合的热力分析方法模拟微米尺度SLM过程",
+          "result": "表面起伏和未熔合区域局部残余应力可达900 MPa，平滑区域约650 MPa",
+          "validation": "数值模拟对比传统单元生死方法"
         },
         "summary_en": {
-          "motivation": "This case report highlights recurrent femoral stem fractures in Dorr A femurs, aiming to prompt a critical reassessment of implant selection strategies for this morphology.",
-          "method": "The authors detail the clinical management of bilateral stem fractures using cement-within-cement technique and extended trochanteric osteotomy, followed by cortical window osteotomy and distally fixed uncemented stems.",
-          "result": "Oversizing of standard-length cemented stems and extended trochanteric osteotomy may compromise femoral integrity, while cortical window osteotomy facilitates safer revision with favorable outcomes.",
-          "validation": "The findings are based on two clinical cases without biomechanical or experimental validation."
+          "motivation": "To improve the accuracy of thermal stress prediction during selective laser melting by combining CFD and FEM models.",
+          "method": "A coupled CFD-FEM thermo-mechanical analysis method was proposed to simulate the micrometer-scale SLM process, including post-solidification morphology and stress distribution.",
+          "result": "Residual stress reaches approximately 900 MPa at surface undulations and lack-of-fusion regions, compared to 650 MPa at smooth regions, indicating a positive correlation between surface quality and stress concentration.",
+          "validation": "The method was validated by numerical simulation comparing against the conventional element birth-death method."
         },
         "key_terms": [
           {
-            "en": "femoral stem fracture",
-            "zh": "股骨柄断裂"
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
           },
           {
-            "en": "Dorr A femoral morphology",
-            "zh": "Dorr A型股骨形态"
+            "en": "computational fluid dynamics",
+            "zh": "计算流体动力学"
           },
           {
-            "en": "cemented revision",
-            "zh": "骨水泥翻修"
+            "en": "finite element method",
+            "zh": "有限元法"
           },
           {
-            "en": "extended trochanteric osteotomy",
-            "zh": "延长粗隆截骨术"
+            "en": "thermal stress",
+            "zh": "热应力"
           },
           {
-            "en": "cortical window osteotomy",
-            "zh": "皮质窗截骨术"
+            "en": "residual stress",
+            "zh": "残余应力"
           },
           {
-            "en": "uncemented stem",
-            "zh": "非骨水泥柄"
+            "en": "TC4",
+            "zh": "TC4钛合金"
           },
           {
-            "en": "stress concentration",
-            "zh": "应力集中"
+            "en": "surface undulation",
+            "zh": "表面起伏"
+          },
+          {
+            "en": "lack-of-fusion",
+            "zh": "未熔合"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:13:45Z"
+      "first_seen_at": "2026-06-07T23:21:34Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "pubmed": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "am_femoral_stem": 1
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "pubmed": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {

@@ -1,0 +1,282 @@
+{
+  "schema_version": "v2",
+  "date": "2025-08-11",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413180372",
+      "doi": "10.3390/ma18163770",
+      "title": "Alloy Selection and Manufacturing Technologies for Total Ankle Arthroplasty: A Narrative Review",
+      "abstract": "Total ankle arthroplasty (TAA) has evolved significantly through advances in alloy selection and manufacturing technologies. This narrative review examines the metallurgical foundations of contemporary TAA implants, analyzing primary alloy systems and their mechanical properties. Cobalt-chromium alloys provide superior mechanical strength and durability but present metal ion release concerns, while titanium alloys (Ti6Al4V) optimize biocompatibility with elastic modulus values (101-113 GPa) closer to bone, despite tribological limitations. Novel β-titanium formulations (Ti-35Nb-7Zr-5Ta, Ti10Mo6Zr4Sn3Nb) eliminate toxic aluminum and vanadium components while achieving lower elastic modulus values (50-85 GPa) that better match cortical bone properties. Manufacturing has transitioned from traditional methods (investment casting, forging, CNC machining) toward additive manufacturing technologies. Selective laser melting and electron beam melting enable patient-specific geometries, controlled porosity, and optimized microstructures, though challenges remain with residual stresses, surface finish requirements, and post-processing needs. Emerging biodegradable materials, composite structures, and hybrid implant designs represent promising future directions for addressing current material limitations. This review provides evidence-based insights for alloy selection and manufacturing approaches, emphasizing the critical role of materials engineering in TAA implant performance and clinical outcomes.",
+      "authors": [
+        "Kishen Mitra",
+        "Arun K. Movva",
+        "Michael Sohn",
+        "Joshua M. Tennyson",
+        "Grayson M. Talaski",
+        "Samuel B. Adams",
+        "Albert T. Anastasio"
+      ],
+      "first_author_affiliation": "Department of Orthopaedic Surgery, Duke University School of Medicine, Durham, NC 27710, USA",
+      "corresponding_authors": [
+        {
+          "name": "Albert T. Anastasio",
+          "affiliation": "Department of Orthopaedic Surgery, Duke University School of Medicine, Durham, NC 27710, USA"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-08-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18163770",
+      "cited_by_count": 4,
+      "concepts": [
+        "Materials science",
+        "Titanium alloy",
+        "Selective laser melting",
+        "Alloy",
+        "Casting",
+        "Metallurgy",
+        "Composite material",
+        "Mechanical engineering",
+        "Microstructure"
+      ],
+      "categories": [],
+      "raw_type": "review",
+      "directions": [
+        "ti6al4v_postprocess",
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "machining",
+          "post-processing"
+        ],
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文综述了踝关节置换术的合金选择和制造技术，未涉及Ti-6Al-4V增材制造的后处理对疲劳性能的影响。",
+        "why_not_core": "The paper is a narrative review on total ankle arthroplasty implant materials and manufacturing, not a study on post-processing of AM Ti-6Al-4V for fatigue/mechanical performance; it does not provide experimental data or modeling on any post-processing treatment.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": true
+        },
+        "tags": [
+          "total ankle arthroplasty",
+          "alloy selection",
+          "additive manufacturing",
+          "Ti6Al4V",
+          "review"
+        ],
+        "summary_zh": {
+          "motivation": "综述全踝关节置换术中合金选择和制造技术的发展。",
+          "method": "叙述性综述，分析各类合金和制造技术的优缺点。",
+          "result": "钛合金具有生物相容性优势，但耐磨性差；增材制造可实现个性化植入物，但需后处理。",
+          "validation": "文献综述，无实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To review the metallurgical foundations and manufacturing technologies for total ankle arthroplasty implants.",
+          "method": "A narrative review of primary alloy systems (Co-Cr, Ti6Al4V, β-Ti) and manufacturing methods (traditional vs. additive).",
+          "result": "Titanium alloys offer biocompatibility benefits but suffer from tribological limitations; additive manufacturing enables patient-specific designs but requires post-processing.",
+          "validation": "No experimental validation; this is a review article."
+        },
+        "key_terms": [
+          {
+            "en": "total ankle arthroplasty",
+            "zh": "全踝关节置换术"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "electron beam melting",
+            "zh": "电子束熔化"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          },
+          {
+            "en": "biocompatibility",
+            "zh": "生物相容性"
+          },
+          {
+            "en": "elastic modulus",
+            "zh": "弹性模量"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:13:39Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413128270",
+      "doi": "10.1177/02670836251365326",
+      "title": "A surface integrity-informed crystal-plasticity based modelling of fatigue crack initiation in aerospace-grade Ti-6Al-4V",
+      "abstract": "A Crystal Plasticity Finite Element Method (CPFEM)-based approach is developed to predict fatigue crack initiation sites in aerospace-grade Ti-6Al-4V in an as-machined condition. The model integrates an Electron Backscatter Diffraction (EBSD)-reconstructed microstructure, incorporating prior deformation history, residual stress, and milling-induced roughness. The constitutive formulation employs Armstrong-Frederick kinematics with microstructure-sensitive fatigue indicators. Results show that fatigue initiation is highly localised, driven by surface topology, strain accumulation, and crystallographic variations with depth. Basal and prismatic slip systems dominate deformation, with Extreme Value Statistics (EVS) revealing their susceptibility to fatigue crack initiation. The findings highlight that Schmid factor alone does not fully explain fatigue hotspots, as local stress states, grain interactions, and surface-induced geometric constraints also play a critical role in crack initiation.",
+      "authors": [
+        "Mauro Francisco Arcidiacono",
+        "S. Rahimi"
+      ],
+      "first_author_affiliation": "Advanced Forming Research Centre, University of Strathclyde, Inchinnan, Renfrew, UK",
+      "corresponding_authors": [
+        {
+          "name": "Mauro Francisco Arcidiacono",
+          "affiliation": "Advanced Forming Research Centre, University of Strathclyde, Inchinnan, Renfrew, UK"
+        }
+      ],
+      "venue": "Materials Science and Technology",
+      "year": 2025,
+      "date": "2025-08-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1177/02670836251365326",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Crystal plasticity",
+        "Aerospace",
+        "Plasticity",
+        "Fatigue testing",
+        "Surface integrity",
+        "Titanium alloy",
+        "Composite material",
+        "Metallurgy",
+        "Structural engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "residual stress",
+          "fatigue",
+          "fatigue crack initiation"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface integrity"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文未涉及增材制造Ti-6Al-4V的后处理，而是针对传统制造方式的疲劳裂纹预测，因此与用户方向无关。",
+        "why_not_core": "The paper does not address additive manufacturing (AM) Ti-6Al-4V; it studies conventionally manufactured aerospace-grade Ti-6Al-4V. No post-processing treatment relevant to AM (e.g., heat treatment, HIP, surface treatments) is investigated; the only processing considered is machining, which is not framed as a post-processing control for AM.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "crystal plasticity",
+          "fatigue crack initiation",
+          "Ti-6Al-4V",
+          "machining",
+          "surface integrity"
+        ],
+        "summary_zh": {
+          "motivation": "预测航空级Ti-6Al-4V加工表面疲劳裂纹萌生机制",
+          "method": "集成EBSD重构微观结构和残余应力的CPFEM模型",
+          "result": "疲劳萌生由表面拓扑和应变积累主导，Schmid因子不足以解释热点",
+          "validation": "未公开实验验证，依赖数值仿真与极值统计"
+        },
+        "summary_en": {
+          "motivation": "To predict fatigue crack initiation in aerospace-grade Ti-6Al-4V by incorporating surface integrity from machining.",
+          "method": "A CPFEM approach integrating EBSD-reconstructed microstructure, deformation history, residual stress, and milling-induced roughness.",
+          "result": "Fatigue initiation is highly localized and driven by surface topology and strain accumulation, with Schmid factor insufficient to explain hotspots.",
+          "validation": "No explicit experimental validation; relies on Extreme Value Statistics from simulation results."
+        },
+        "key_terms": [
+          {
+            "en": "crystal plasticity finite element method",
+            "zh": "晶体塑性有限元法"
+          },
+          {
+            "en": "fatigue crack initiation",
+            "zh": "疲劳裂纹萌生"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "electron backscatter diffraction",
+            "zh": "电子背散射衍射"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "surface integrity",
+            "zh": "表面完整性"
+          },
+          {
+            "en": "milling",
+            "zh": "铣削"
+          },
+          {
+            "en": "extreme value statistics",
+            "zh": "极值统计"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:13:39Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 2,
+    "by_source": {
+      "openalex": 2
+    },
+    "after_dedup": 2,
+    "after_routing": 2,
+    "by_direction": {
+      "ti6al4v_postprocess": 2
+    },
+    "routed_by_source": {
+      "openalex": 2
+    },
+    "scored": 2,
+    "priority_counts": {
+      "Exclude": 2
+    }
+  }
+}

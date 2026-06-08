@@ -4,60 +4,68 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2603.18885v1",
-      "doi": "",
-      "arxiv_id": "2603.18885v1",
-      "title": "Microscopic Origin of Temperature-Dependent Anisotropic Heat Transport in Ultrawide-Bandgap Rutile GeO2",
-      "abstract": "Ultrawide-bandgap rutile GeO2 is emerging as a promising semiconductor for power electronics, where efficient heat dissipation is essential to suppress self-heating and ensure device reliability. However, the temperature dependence and microscopic origin of its anisotropic heat transport have remained experimentally unresolved. Here, temperature-dependent time-domain thermoreflectance measurements combined with first-principles phonon transport calculations are used to quantify the thermal conductivity of single-crystal rutile GeO2 from 80 to 350 K along [001] and [110]. At 295 K, the thermal conductivity reaches 47.5 W m^-1 K^-1 along [001] and 32.5 W m^-1 K^-1 along [110], corresponding to an anisotropy ratio of 1.46, in good agreement with theory. Rather than following a simple T^(-1) law, the thermal conductivity exhibits an approximate T^(-1.4) dependence, indicating additional scattering beyond purely three-phonon-limited transport. Mode-resolved analysis reveals that the room-temperature anisotropy originates from the combined effect of larger phonon group velocities along [001] and direction-dependent phonon lifetimes. Upon cooling, depopulation of high-frequency phonons progressively suppresses their contribution to heat transport and reduces the anisotropy. The temperature-dependent thermal boundary conductance of Al/rutile GeO2 interfaces is further resolved, and the scaled conductance indicates predominantly elastic interfacial transport. These findings establish the microscopic basis of bulk and interfacial heat transport in rutile GeO2 and position this material as a promising thermally robust platform for ultrawide-bandgap electronics.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7138995261",
+      "doi": "10.3390/ma19061210",
+      "title": "Fatigue Life Prediction of TC4 Titanium Alloy Bolted Structures in Thermal Environments Below 400 °C Using an Enhanced DFR Method",
+      "abstract": "TC4 titanium alloy bolted structures are extensively utilized in aerospace engineering, particularly within the heat-affected zones of aircraft engines. However, current studies have predominantly focused on fatigue fracture of titanium alloys at temperatures exceeding 400 °C, leaving a gap in accurate fatigue life prediction for TC4 bolted structures subjected to moderate elevated temperatures up to 400 °C. To address this limitation, this study proposes an enhanced detail fatigue rating (DFR) method that is applicable to fatigue life prediction of TC4 bolted structures under thermal environments not exceeding 400 °C. Firstly, fatigue life data were acquired from base material specimens of TC4 titanium alloy tested at 20 °C, 200 °C, and 400 °C. Secondly, an enhanced DFR method that considered the temperature-dependent thermal influence was established based on the experimental results. The enhanced DFR approach was then applied to predict the fatigue life of double-shear TC4 bolted structures, and the results were compared with those obtained via the conventional DFR method. The findings demonstrate that the enhanced DFR method improves the average fatigue life estimation accuracy by 9.29% over the conventional DFR method within the 20~400 °C range. This establishes the proposed model as a highly promising tool for evaluating the fatigue performance of TC4 bolted structures under elevated thermal conditions below 400 °C.",
       "authors": [
-        "Pouria Emtenani",
-        "Marta Loletti",
-        "Felix Nippert",
-        "Eduardo Bede Barros",
-        "Zbigniew Galazka",
-        "Hans Tornatzky",
-        "Christian Thomsen",
-        "Juan Sebastian Reparaz",
-        "Riccardo Rurali",
-        "Markus R. Wagner"
+        "Hang Peng",
+        "Bintuan Wang",
+        "Jianbo Qin",
+        "Shiyu Li",
+        "Yan Zhou",
+        "Shancheng Cao"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "AVIC The First Aircraft Institute, Xi’an 710089, China",
+      "corresponding_authors": [
+        {
+          "name": "Hang Peng",
+          "affiliation": "AVIC The First Aircraft Institute, Xi’an 710089, China"
+        }
+      ],
+      "venue": "Materials",
       "year": 2026,
       "date": "2026-03-19",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2603.18885v1",
+      "url": "https://doi.org/10.3390/ma19061210",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Titanium alloy",
+        "Materials science",
+        "Structural engineering",
+        "Aerospace",
+        "Bolted joint",
+        "Thermal",
+        "Fatigue testing",
+        "Composite material",
+        "Thermal fatigue",
+        "Alloy",
+        "Fracture (geology)",
+        "Titanium",
+        "Fatigue limit"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
-        ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "fatigue",
+          "fatigue life"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是半导体材料的热传导性质，与用户关注的增材制造力学性能或生物医学植入物方向无关。",
-        "why_not_core": "This paper does not address additive manufacturing, mechanical properties, or biomedical implant design; it focuses solely on thermal transport in semiconductor materials.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文研究TC4钛合金螺栓结构的疲劳寿命，但材料并非增材制造，且未涉及AM相关工艺因素。",
+        "why_not_core": "The paper does not concern additively manufactured Ti-6Al-4V; it studies wrought TC4 bolted structures with no AM processing or AM-specific mechanical/fatigue characterization.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -65,72 +73,65 @@
           "is_review": false
         },
         "tags": [
-          "thermal conductivity",
-          "rutile GeO2",
-          "ultrawide-bandgap semiconductor",
-          "phonon transport",
-          "anisotropy"
+          "TC4",
+          "Ti-6Al-4V",
+          "fatigue life prediction",
+          "DFR method",
+          "elevated temperature",
+          "bolted structures"
         ],
         "summary_zh": {
-          "motivation": "揭示超宽带隙半导体材料热传导各向异性的微观机制",
-          "method": "结合时域热反射测量和第一性原理声子输运计算",
-          "result": "发现热导率非简单T⁻¹依赖，各向异性源于声子群速度和寿命的方向差异",
-          "validation": "实验测量与理论计算在80-350K范围内吻合"
+          "motivation": "TC4螺栓结构在400°C以下热环境的疲劳寿命预测方法不足。",
+          "method": "提出增强DFR方法，考虑温度影响，基于基材疲劳实验预测螺栓结构寿命。",
+          "result": "增强DFR方法在20~400°C范围内将平均预测精度提升9.29%。",
+          "validation": "通过双剪TC4螺栓结构疲劳实验验证预测结果。"
         },
         "summary_en": {
-          "motivation": "To resolve the microscopic origin of anisotropic heat transport in ultrawide-bandgap rutile GeO2 for power electronics thermal management.",
-          "method": "Temperature-dependent time-domain thermoreflectance measurements combined with first-principles phonon transport calculations.",
-          "result": "Thermal conductivity at 295 K is 47.5 W m⁻¹ K⁻¹ [001] and 32.5 W m⁻¹ K⁻¹ [110], with anisotropy ratio 1.46, and the temperature dependence deviates from T⁻¹ law due to additional scattering.",
-          "validation": "Experimental thermoreflectance data and first-principles computations show good agreement across the temperature range 80-350 K."
+          "motivation": "Current fatigue life prediction methods for TC4 bolted structures at moderate elevated temperatures below 400°C are inadequate.",
+          "method": "An enhanced detail fatigue rating (DFR) method incorporating temperature-dependent thermal influence was developed based on base material fatigue tests.",
+          "result": "The enhanced DFR method improved average fatigue life prediction accuracy by 9.29% over the conventional DFR method in the 20–400°C range.",
+          "validation": "The model was validated by comparing predictions with fatigue test results on double-shear TC4 bolted structures."
         },
         "key_terms": [
           {
-            "en": "thermal conductivity",
-            "zh": "热导率"
+            "en": "TC4 titanium alloy",
+            "zh": "TC4钛合金"
           },
           {
-            "en": "anisotropy",
-            "zh": "各向异性"
+            "en": "detail fatigue rating (DFR) method",
+            "zh": "细节疲劳额定（DFR）方法"
           },
           {
-            "en": "rutile GeO2",
-            "zh": "金红石型二氧化锗"
+            "en": "bolted structures",
+            "zh": "螺栓结构"
           },
           {
-            "en": "ultrawide-bandgap semiconductor",
-            "zh": "超宽带隙半导体"
+            "en": "elevated temperature",
+            "zh": "高温环境"
           },
           {
-            "en": "phonon transport",
-            "zh": "声子输运"
-          },
-          {
-            "en": "time-domain thermoreflectance",
-            "zh": "时域热反射"
-          },
-          {
-            "en": "first-principles",
-            "zh": "第一性原理"
+            "en": "fatigue life prediction",
+            "zh": "疲劳寿命预测"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:20:36Z"
+      "first_seen_at": "2026-06-07T23:28:07Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {

@@ -1,0 +1,155 @@
+{
+  "schema_version": "v2",
+  "date": "2025-08-23",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413475050",
+      "doi": "10.1016/j.optlastec.2025.113762",
+      "title": "Effects of laser beam shaping on Ti-6Al-4V single tracks in PBF-LB/M: A study with Aconity MIDI+",
+      "abstract": "• Effects of beam shape, layer thickness, and energy density on Ti-6Al-4V single-tracks were studied. • Gaussian, Ring-Core, and Ring beams compared under identical Aconity MIDI+ system conditions. • Ring produced widest tracks (413.2 µm, W/D>24); Gaussian deepest pools (325.4 µm); Ring reduced roughness >30%. • Dimensional ratios (W/D, H/D, H/W) classified melt pool regimes; FEM confirmed trends with <5% error. • Beam shaping with optimized thickness and energy density improved track quality and defect control. The application of beam shaping is gaining increasing interest in laser-based additive manufacturing (AM) technologies, as it revolutionizes the process by providing additional control over incident energy distribution and the resultant microstructure and mechanical properties of the manufactured part. This study provides a comprehensive analysis of how different laser beam profiles (Mode 0, Mode 3, Mode 6), applied via the Aconity MIDI+ system, in combination with varied layer thicknesses (30 µm, 60 µm, and 90 µm) and linear energy inputs (up to 1.0 J/mm), influence single-track formation, surface morphology, roughness, and melt pool behavior in the Laser Powder Bed Fusion (PBF-LB/M) process of Ti-6Al-4V, offering new insights essential for process optimization. To further elucidate these effects, a complementary FEM model was used to analyze how beam shape affects melt pool dynamics and overall process stability. The findings reveal that transitioning from a conventional Gaussian beam (Mode 0) to a ring-shaped beam (Mode 3 and Mode 6) promotes conduction-mode melting, resulting in enhanced process stability and smoother melt track formation at higher linear energy densities. These beam profiles reduce certain defects, including spattering and balling, while producing wider and more stable melt tracks. Conversely, Mode 0 generates deeper melt pools, increasing the likelihood of keyholing and tracks surface roughness at elevated energy levels. While a thinner layer (∼30 µm) facilitates stable and smoother track formation across all beam profiles, thicker layers (≥60 µm) exacerbate surface roughness and defects, especially with Mode 0. In contrast, the ring-shaped beams produce wider, smoother, and more stable melt tracks at higher energy inputs (∼0.6–1.0 J/mm) with thicker layers. These insights are particularly valuable for high-performance applications in aerospace and biomedical industries, where precise control over surface quality and defect formation in Ti-6Al-4V components is essential for meeting certification standards and ensuring production efficiency. Overall, these findings highlight the critical role of beam shaping, layer thickness, and energy input in achieving stable melt tracks and improving the consistency and reliability of the PBF-LB/M process.",
+      "authors": [
+        "Abid Ullah",
+        "Ahmad Reshad Bakhtarı",
+        "Alexander E. Medvedev",
+        "Andrey Molotnikov",
+        "Dirk Herzog",
+        "Ingomar Kelbassa",
+        "Claus Emmelmann",
+        "Milan Brandt"
+      ],
+      "first_author_affiliation": "Centre for Additive Manufacturing, School of Engineering, RMIT University, Melbourne, VIC 3000, Australia",
+      "corresponding_authors": [
+        {
+          "name": "Abid Ullah",
+          "affiliation": "Centre for Additive Manufacturing, School of Engineering, RMIT University, Melbourne, VIC 3000, Australia"
+        },
+        {
+          "name": "Milan Brandt",
+          "affiliation": "Centre for Additive Manufacturing, School of Engineering, RMIT University, Melbourne, VIC 3000, Australia"
+        }
+      ],
+      "venue": "Optics & Laser Technology",
+      "year": 2025,
+      "date": "2025-08-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.optlastec.2025.113762",
+      "cited_by_count": 3,
+      "concepts": [
+        "MIDI",
+        "Laser",
+        "Beam (structure)",
+        "Optics",
+        "Laser beams",
+        "Materials science",
+        "Physics"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "layer thickness",
+          "defect",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V单道熔池形态和表面质量，但未涉及力学或疲劳性能测试。",
+        "why_not_core": "Paper focuses on single-track morphology, surface roughness, and defect formation, not on mechanical or fatigue properties of Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "beam shaping",
+          "single tracks",
+          "melt pool",
+          "PBF-LB/M",
+          "Ti-6Al-4V",
+          "surface roughness"
+        ],
+        "summary_zh": {
+          "motivation": "探索激光束形状对Ti-6Al-4V单道成形质量的影响。",
+          "method": "通过三种光束模式、层厚和能量密度的组合进行实验和有限元模拟。",
+          "result": "环形光束可提高熔道宽度和稳定性，减少飞溅和球化。",
+          "validation": "有限元模拟与实验结果吻合，误差小于5%。"
+        },
+        "summary_en": {
+          "motivation": "To investigate how different laser beam profiles affect the formation and quality of single tracks in PBF-LB/M of Ti-6Al-4V.",
+          "method": "Experimental single-track tests with Gaussian, Ring-Core, and Ring beams combined with varying layer thickness and energy density, complemented by FEM modeling.",
+          "result": "Ring-shaped beams promote wider, smoother, and more stable tracks with reduced defects such as spattering and balling, while Gaussian beams produce deeper melt pools with higher roughness.",
+          "validation": "FEM simulation results validate experimental trends with less than 5% error."
+        },
+        "key_terms": [
+          {
+            "en": "laser beam shaping",
+            "zh": "激光束整形"
+          },
+          {
+            "en": "single tracks",
+            "zh": "单道"
+          },
+          {
+            "en": "melt pool",
+            "zh": "熔池"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "PBF-LB/M",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "process stability",
+            "zh": "工艺稳定性"
+          },
+          {
+            "en": "defect control",
+            "zh": "缺陷控制"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:13:39Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

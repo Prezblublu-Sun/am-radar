@@ -4,129 +4,288 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2511.21172v2",
-      "doi": "10.1038/s41467-025-67333-z",
-      "arxiv_id": "2511.21172v2",
-      "title": "Accelerated Discovery of Crystalline Materials with Record Ultralow Lattice Thermal Conductivity via a Universal Descriptor",
-      "abstract": "Ultralow glass-like lattice thermal conductivity in crystalline materials is crucial for enhancing energy conversion efficiency in thermoelectrics and thermal insulators. We introduce a universal descriptor for thermal conductivity that relies only on the atomic number in the primitive cell and the sound velocity, enabling fast and scalable materials screening. Coupled with high-throughput workflows and universal machine learning potentials, we identify the candidate materials with ultralow thermal conductivity from over 25, 000 materials. We further validate this approach by experimentally confirming record-low thermal conductivity values of 0.15-0.16 W/m/K from 170 to 400 K in the halide metal CsAg2I3. Combining inelastic neutron scattering with first-principles calculations, we attribute the ultralow thermal conductivity to the intrinsically small sound velocity, strong anharmonicity, and structural complexity. Our work illustrates how a universal descriptor, combined with high-throughput screening, machine-learning potential and experiment, enables the efficient discovery of materials with ultralow thermal conductivity.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4416719011",
+      "doi": "10.3390/met15121300",
+      "title": "Probabilistic Modeling of Fatigue Life Prediction of Notched Specimens Combining Highly Stressed Volume and Theory of Critical Distance Approach",
+      "abstract": "Notch and size effects significantly influence the fatigue performance of engineering components, which is crucial for ensuring structural integrity. A novel probabilistic fatigue life prediction Kt-V-L model considering both the size and the notch effect, based on the theory of critical distance L (TCD) and the improved highly stressed volume V (HSV) method, is proposed in this study. The new definition more accurately characterizes fatigue damage and accumulation, overcoming the underestimation issues of traditional HSV methods under high-stress or low cycle fatigue (LCF) conditions. Specifically, the Weibull distribution is also proposed to characterize the material fatigue failure probability. The experimental data of 26Cr2Ni4MoV, En3B, and TC4 materials with varying notched sizes are utilized for the model validation and comparison. In addition, the predictive ability of the point method (Kt-V-L-PM) and line method (Kt-V-L-LM) under the novel proposed model was explored and evaluated. The predicted lives of 26Cr2Ni4MoV specimens fall within the ±2 scatter band of the Kt-V-L-LM, while the Kt-V-L-PM shows increasing deviation with larger notches due to its limited ability to capture stress gradients. For En3B and TC4, the predicted lives are within ± 2 life factors, verifying the model’s reliability and accuracy. Furthermore, fracture morphology analysis reveals the influence of notches on fatigue performance and elucidates the fracture failure mechanisms.",
       "authors": [
-        "Xingchen Shen",
-        "Jiongzhi Zheng",
-        "Michael Marek Koza",
-        "Petr Levinsky",
-        "Jiri Hejtmanek",
-        "Philippe Boullay",
-        "Bernard Raveau",
-        "Jinghui Wang",
-        "Jun Li",
-        "Pierric Lemoine",
-        "Christophe Candolfi",
-        "Emmanuel Guilmeau"
+        "Bin Li",
+        "Peng Liu",
+        "Yuan Cheng",
+        "Xiaodi Wang",
+        "Xuechong Ren"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "National Center for Materials Service Safety, University of Science and Technology Beijing, Beijing 100083, China",
+      "corresponding_authors": [
+        {
+          "name": "Xiaodi Wang",
+          "affiliation": "National Center for Materials Service Safety, University of Science and Technology Beijing, Beijing 100083, China"
+        },
+        {
+          "name": "Xuechong Ren",
+          "affiliation": "National Center for Materials Service Safety, University of Science and Technology Beijing, Beijing 100083, China"
+        }
+      ],
+      "venue": "Metals",
       "year": 2025,
       "date": "2025-11-26",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2511.21172v2",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.3390/met15121300",
+      "cited_by_count": 3,
+      "concepts": [
+        "Weibull distribution",
+        "Reliability (semiconductor)",
+        "Probabilistic logic",
+        "Structural engineering",
+        "Critical distance",
+        "Fracture (geology)",
+        "Reliability engineering",
+        "Vibration fatigue",
+        "Service life",
+        "Stress (linguistics)",
+        "Fatigue testing",
+        "Volume (thermodynamics)",
+        "Materials science",
+        "Statistical model",
+        "Computer science",
+        "Fracture mechanics",
+        "Line (geometry)",
+        "Log-normal distribution",
+        "Point (geometry)"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "fatigue",
+          "fatigue life"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文包含TC4（Ti-6Al-4V）的疲劳数据，但主要针对传统制造材料，未涉及增材制造的特有因素。",
+        "why_not_core": "The paper does not address additively manufactured Ti-6Al-4V; it validates a general fatigue model on wrought TC4 and other materials, lacking AM-specific features.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": true,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "fatigue life prediction",
+          "notched specimens",
+          "critical distance",
+          "Weibull distribution",
+          "TC4",
+          "Ti-6Al-4V"
         ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
+        "summary_zh": {
+          "motivation": "为考虑缺口和尺寸效应，提出更精确的疲劳寿命预测模型。",
+          "method": "结合理论临界距离法和改进的高应力体积法，建立概率疲劳寿命预测模型。",
+          "result": "对三种材料（含TC4）的预测寿命均在±2倍散射带内。",
+          "validation": "使用26Cr2Ni4MoV、En3B和TC4缺口试样的实验数据验证。"
+        },
+        "summary_en": {
+          "motivation": "To improve fatigue life prediction accuracy for notched specimens by incorporating both size and notch effects.",
+          "method": "A probabilistic model combining the theory of critical distance and an improved highly stressed volume approach is proposed.",
+          "result": "Predicted fatigue lives for TC4 and two steels fall within a ±2 scatter band.",
+          "validation": "Experimental data from notched specimens of three materials, including TC4 (Ti-6Al-4V), were used for validation."
+        },
+        "key_terms": [
+          {
+            "en": "TC4",
+            "zh": "TC4（Ti-6Al-4V）"
+          },
+          {
+            "en": "fatigue life prediction",
+            "zh": "疲劳寿命预测"
+          },
+          {
+            "en": "critical distance theory",
+            "zh": "临界距离理论"
+          },
+          {
+            "en": "highly stressed volume",
+            "zh": "高应力体积"
+          },
+          {
+            "en": "Weibull distribution",
+            "zh": "威布尔分布"
+          },
+          {
+            "en": "notched specimens",
+            "zh": "缺口试样"
+          },
+          {
+            "en": "probabilistic modeling",
+            "zh": "概率建模"
+          },
+          {
+            "en": "size effect",
+            "zh": "尺寸效应"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:19:10Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4416729109",
+      "doi": "10.3389/fcimb.2025.1707694",
+      "title": "Silver multilayer coating on orthopedic implant material of different alloys and surfaces significantly reduces bacterial colonization",
+      "abstract": "Introduction Prosthetic joint infections (PJI) affect 1-3% of prosthetic joint replacements, frequently linked to biofilm formation on implant surfaces. PJIs account for 13.0-31.3% of all revision surgeries. As treatment is not always successful, prevention remains critical. Currently, silver based antimicrobial coatings are justified in select high-risk arthroplasty cases, restricted to metal surfaces. An antibacterial silver multilayer coating (SML) has been developed for implant materials: titanium alloy (Ti) and cobalt-chromium-molybdenum alloy (CoCr), often used in hip or knee prostheses. The SML coating is intended for revision implants, which are often required due to infection related implant failure. This study investigates the antibacterial performance of the SML coating across different surfaces and implant materials, using multiple bacterial strains not previously investigated to this extent. Methods Antibacterial efficacy of the SML coating was assessed by quantifying colony forming units (CFU) reduction on Ti6Al4V and Co28Cr6M discs with three different surfaces (polished and two grades of corundum blasted (CB)). In vitro standardized testing followed ISO 22196, JIS Z-2801, and ASTM E-2180 standards using American Type Culture Collection (ATCC) strains Pseudomonas aeruginosa ATCC15442, Staphylococcus aureus ATCC6538p, Staphylococcus epidermidis ATCC35984, Pseudomonas aeruginosa ATCC15442, and Escherichia coli ATCC8739. Two groups were tested: non-SML-coated samples and SML-coated samples. After 24 hours incubation in viscous nutrient broth at 37°C, viable bacteria were quantified per disc after sonication in neutralizing broth and CFU enumeration. Results Across all materials and strains, the SML coating achieved &amp;gt;99.2% and &amp;gt;0.9-4.0 CFU log 10 reduction in viable bacteria compared to the non-SML-coated controls. Material-dependent effects were observed for each of the bacterial species analyzed. S. aureus and E. coli exhibited more CFUs on Ti than on CoCr. The CoCr CB surface yielded the lowest level of bacterial growth for P. aeruginosa ATCC15442, whereas S. epidermidis colonized the Ti CB surface more extensively. Discussion and conclusion These findings demonstrate a thorough and broad-spectrum antibacterial activity of the SML coating across diverse implant materials and surface textures. Future studies will focus on testing clinical PJI isolates in both in vitro and in vivo models to further evaluate the translational potential of the SML coating for prevention of bacterial colonization in joint arthroplasty.",
+      "authors": [
+        "Lydia T. D. Speijker",
+        "Janine Fechter",
+        "Rainer M. Bargon",
+        "Jozef Dingemans",
+        "Jacobus J. Arts",
+        "Paul H. M. Savelkoul",
+        "Inge H. M. van Loo"
+      ],
+      "first_author_affiliation": "Care and Public Health Research Institute (CAPRHI), Maastricht University, Maastricht, Netherlands",
+      "corresponding_authors": [
+        {
+          "name": "Inge H. M. van Loo",
+          "affiliation": "Care and Public Health Research Institute (CAPRHI), Maastricht University, Maastricht, Netherlands"
+        }
+      ],
+      "venue": "Frontiers in Cellular and Infection Microbiology",
+      "year": 2025,
+      "date": "2025-11-26",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3389/fcimb.2025.1707694",
+      "cited_by_count": 1,
+      "concepts": [
+        "Coating",
+        "Colonization",
+        "Materials science",
+        "Implant",
+        "In vivo",
+        "Joint arthroplasty",
+        "Biomedical engineering",
+        "Microbiology",
+        "Composite material",
+        "Joint (building)",
+        "Orthopedic surgery"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_femoral_stem": [
+          "Ti6Al4V",
+          "orthopedic implant"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文关注超低热导率材料的发现，与增材制造力学性能（如疲劳、强度）无关。",
-        "why_not_core": "Does not address mechanical properties (strength, fatigue, fracture) of additively manufactured materials; focuses solely on thermal conductivity of crystalline materials.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文仅涉及骨科植入物的抗菌涂层，未涉及Ti-6Al-4V股骨柄的结构设计或力学性能。",
+        "why_not_core": "This paper focuses on antibacterial coating performance, not on structural design, mechanical testing, or fatigue analysis of Ti-6Al-4V femoral stems; it contains no additive manufacturing, lattice architecture, stress shielding, or biomechanical validation relevant to stem design.",
+        "validation_kind": "in_vitro",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "thermal conductivity",
-          "materials discovery",
-          "machine learning",
-          "descriptor"
+          "antibacterial coating",
+          "silver multilayer",
+          "orthopedic implant",
+          "Ti-6Al-4V",
+          "CoCr",
+          "bacterial reduction",
+          "ISO 22196",
+          "prosthetic joint infection"
         ],
         "summary_zh": {
-          "motivation": "寻找超低热导率的晶体材料以提升热电效率。",
-          "method": "提出通用描述符结合机器学习势进行高通量筛选。",
-          "result": "发现卤化物金属CsAg2I3具有记录级的低热导率。",
-          "validation": "非弹性中子散射和第一性原理计算验证。"
+          "motivation": "假体关节感染是翻修主因，需抗菌涂层预防。",
+          "method": "在Ti和CoCr合金不同表面涂覆银多层涂层，按ISO标准进行体外抗菌测试。",
+          "result": "涂层对多种细菌实现>99.2%杀灭率，材料依赖性存在差异。",
+          "validation": "采用ISO 22196等标准，对5种ATCC菌株进行CFU计数验证。"
         },
         "summary_en": {
-          "motivation": "To efficiently discover crystalline materials with ultralow lattice thermal conductivity for energy conversion.",
-          "method": "Introduced a universal descriptor based on atomic number and sound velocity, coupled with high-throughput screening and machine learning potentials.",
-          "result": "Identified CsAg2I3 with record-low thermal conductivity of 0.15-0.16 W/m/K.",
-          "validation": "Validated experimentally via inelastic neutron scattering and first-principles calculations."
+          "motivation": "Prosthetic joint infections are a major cause of revision surgery, motivating the development of effective antimicrobial coatings.",
+          "method": "A silver multilayer coating was applied to Ti6Al4V and Co28Cr6Mo discs with polished or corundum-blasted surfaces, and antibacterial efficacy was tested per ISO 22196 and related standards using five ATCC bacterial strains.",
+          "result": "The coating achieved >99.2% reduction in viable bacteria across all materials and strains, with material-dependent colonization patterns observed.",
+          "validation": "Standardized in vitro CFU quantification after 24-hour incubation was used to validate antibacterial performance."
         },
         "key_terms": [
           {
-            "en": "lattice thermal conductivity",
-            "zh": "晶格热导率"
+            "en": "silver multilayer coating",
+            "zh": "银多层涂层"
           },
           {
-            "en": "universal descriptor",
-            "zh": "通用描述符"
+            "en": "antibacterial",
+            "zh": "抗菌"
           },
           {
-            "en": "machine learning potential",
-            "zh": "机器学习势"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
           },
           {
-            "en": "high-throughput screening",
-            "zh": "高通量筛选"
+            "en": "Co28Cr6Mo",
+            "zh": "钴铬钼合金"
           },
           {
-            "en": "thermoelectric",
-            "zh": "热电"
+            "en": "prosthetic joint infection",
+            "zh": "假体关节感染"
+          },
+          {
+            "en": "ISO 22196",
+            "zh": "ISO 22196标准"
+          },
+          {
+            "en": "colony forming units",
+            "zh": "菌落形成单位"
+          },
+          {
+            "en": "corundum blasting",
+            "zh": "刚玉喷砂"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:15:55Z"
+      "first_seen_at": "2026-06-07T23:19:10Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "arxiv": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_base_mechanical_fatigue": 1,
+      "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
+      "Low": 1,
       "Exclude": 1
     }
   }

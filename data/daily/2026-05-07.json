@@ -4,59 +4,72 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2605.06146v1",
-      "doi": "",
-      "arxiv_id": "2605.06146v1",
-      "title": "Sub-kelvin thermal conductivity of substrates and on-chip routing in quantum integrated systems",
-      "abstract": "The development of large-scale quantum systems increasingly relies on the close integration of heterogeneous components such as qubits, control electronics, and readout circuits, making thermal management at cryogenic temperatures a central challenge in such architectures. In this work, we present an experimental thermal study of two building blocks of such systems: the substrate and the on-chip routing. We first investigate the sub-kelvin thermal conductivity of four substrate materials: high-resistivity silicon, low-resistivity silicon, borosilicate, and sapphire. We report that high-resistivity silicon exhibits the highest thermal conductivity among the substrates studied ($5\\cdot10^{-2}$~W/m$\\cdot$K at 300~mK), while low-resistivity silicon, borosilicate, and sapphire show lower values ($8\\cdot10^{-4}$~W/m$\\cdot$K, 2$\\cdot10^{-3}$~W/m$\\cdot$K, and 2$\\cdot10^{-3}$~W/m$\\cdot$K at 300~mK, respectively). Ballistic conductance evaluation using a finite-element non-equilibrium Green's function approach further allows us to extract the phonon mean free path in each substrate and gives insights into the involved scattering mechanisms. Additionally, we employ a dedicated test vehicle to evaluate the impact of on-chip routing on the thermal conductance of the system. Our measurements with superconducting Nb routing lines reveal that the routing increases the in-plane thermal conductance of the system, but the substrate remains the dominant heat path. These results highlight the critical role of the substrate choice within quantum systems and underscore the importance of function partitioning through 3D integration approaches for more efficient thermal management in quantum architectures.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7160486599",
+      "doi": "10.3390/pr14101509",
+      "title": "Roller-Type Ultrasonic-Assisted Magnetorheological Finishing for Medical Ti-6Al-4V Miniature Screws: Mechanism, Device Design, and Process Optimization",
+      "abstract": "Ti-6Al-4V miniature screws are widely used in medical implants, where surface quality strongly affects biocompatibility and service life. However, their threaded geometry, small radius of curvature, and poor machinability make high-quality finishing difficult. To address this challenge, a roller-type ultrasonic-assisted magnetorheological finishing (R-UMRF) process was proposed for Ti-6Al-4V miniature screws (M2.5 × 4 mm). A three-pole magnetic field generator was designed and optimized by finite element analysis to establish a stable finishing zone and a weak-field renewal zone for flexible-brush regeneration. Guided by the process mechanism, single-factor experiments were first performed to evaluate the effects of finishing time, spindle speed, roller speed, ultrasonic amplitude, and applied current on surface roughness (Ra). A four-factor, three-level orthogonal experiment was then conducted to optimize Ra and the change rate of surface roughness (ΔRa). The applied current showed the strongest effect on finishing performance, followed by roller speed; however, excessive current or ultrasonic amplitude deteriorated the surface because of over-aggressive abrasive action. The optimal parameters were a spindle speed of 260 r/min, a roller speed of 140 r/min, an ultrasonic amplitude of 10 μm, and an applied current of 4 A. Under these conditions, Ra decreased from 1.208 μm to 0.081 μm after 120 min, corresponding to a reduction of 93.29%. These results demonstrate that R-UMRF is an effective low-damage finishing method for Ti-6Al-4V miniature screws with complex threaded surfaces.",
       "authors": [
-        "Charles Bon-Mardion",
-        "Arnaud Lorin",
-        "Edouard Deschaseaux",
-        "Céline Feautrier",
-        "Daniel Mermin",
-        "Jean Charbonnier",
-        "Jing Li",
-        "Jean-Luc Sauvageot",
-        "Candice Thomas"
+        "Cheng Bi",
+        "Weiqiang Zhu",
+        "Guomin Chen",
+        "Liang Fang",
+        "Shang Li",
+        "H B Wang"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "School of Intelligent Manufacture, Taizhou University, Taizhou 318000, China",
+      "corresponding_authors": [
+        {
+          "name": "Shang Li",
+          "affiliation": "Bahuan Technology Group Co., Ltd., Taizhou 318000, China"
+        },
+        {
+          "name": "H B Wang",
+          "affiliation": "School of Intelligent Manufacture, Taizhou University, Taizhou 318000, China"
+        }
+      ],
+      "venue": "Processes",
       "year": 2026,
       "date": "2026-05-07",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2605.06146v1",
+      "url": "https://doi.org/10.3390/pr14101509",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mes-hall",
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Magnetorheological fluid",
+        "Materials science",
+        "Surface roughness",
+        "Machinability",
+        "Ultrasonic sensor",
+        "Surface finishing",
+        "Abrasive",
+        "Finite element method",
+        "Mechanical engineering",
+        "Surface finish",
+        "Process (computing)",
+        "Ultrasound",
+        "Polishing",
+        "Composite material"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
-        ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究量子集成系统中的低温导热管理，与增材制造力学性能方向完全无关。",
-        "why_not_core": "no additive manufacturing, no mechanical properties, no biomedical implant context, no FEA surrogate modeling.",
+        "relevance_to_user": "该论文是关于Ti-6Al-4V微型螺钉的表面精加工方法，不涉及增材制造或力学疲劳性能。",
+        "why_not_core": "This paper focuses on a surface finishing process for Ti-6Al-4V screws, with no mechanical testing, fatigue characterization, or additive manufacturing context.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -65,72 +78,76 @@
           "is_review": false
         },
         "tags": [
-          "quantum computing",
-          "cryogenic thermal management",
-          "thermal conductivity",
-          "substrate materials",
-          "phonon transport"
+          "surface finishing",
+          "magnetorheological",
+          "ultrasonic-assisted",
+          "Ti-6Al-4V",
+          "process optimization"
         ],
         "summary_zh": {
-          "motivation": "量子系统集成中低温热管理面临挑战，需研究基底和片上布线的热导特性。",
-          "method": "实验测量4种基底材料的亚开尔文热导率，并用有限元非平衡格林函数评估弹道导纳。",
-          "result": "高阻硅热导率最高，超导Nb布线增加面内热导但基底仍是主要热路径。",
-          "validation": "实验测量与弹道导纳模拟相结合。"
+          "motivation": "Ti-6Al-4V微型螺钉螺纹复杂难以高质量精加工",
+          "method": "设计滚轮式超声辅助磁流变精加工装置并优化工艺参数",
+          "result": "最优参数下表面粗糙度Ra从1.208μm降至0.081μm",
+          "validation": "通过单因素和正交实验验证工艺效果"
         },
         "summary_en": {
-          "motivation": "Thermal management at cryogenic temperatures is critical for large-scale quantum systems, requiring characterization of substrate and on-chip routing thermal properties.",
-          "method": "Experimental measurement of sub-kelvin thermal conductivity for four substrate materials and evaluation of on-chip routing impact using a test vehicle, combined with finite-element non-equilibrium Green's function simulations.",
-          "result": "High-resistivity silicon shows highest thermal conductivity; superconducting Nb lines increase in-plane conductance but the substrate remains the dominant heat path.",
-          "validation": "Experimental measurements and ballistic conductance simulations validate the thermal behavior."
+          "motivation": "The threaded geometry and poor machinability of Ti-6Al-4V miniature screws pose challenges for achieving high surface quality.",
+          "method": "A roller-type ultrasonic-assisted magnetorheological finishing device was designed and optimized using finite element analysis and orthogonal experiments.",
+          "result": "Optimal parameters reduced surface roughness Ra from 1.208 μm to 0.081 μm, a 93.29% reduction.",
+          "validation": "Single-factor and orthogonal experiments were conducted to validate the finishing performance and determine optimal parameters."
         },
         "key_terms": [
           {
-            "en": "thermal conductivity",
-            "zh": "热导率"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "sub-kelvin",
-            "zh": "亚开尔文"
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
           },
           {
-            "en": "cryogenic",
-            "zh": "低温"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "superconducting routing",
-            "zh": "超导布线"
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           },
           {
-            "en": "phonon mean free path",
-            "zh": "声子平均自由程"
+            "en": "magnetorheological finishing",
+            "zh": "磁流变精加工"
           },
           {
-            "en": "high-resistivity silicon",
-            "zh": "高阻硅"
+            "en": "ultrasonic-assisted",
+            "zh": "超声辅助"
           },
           {
-            "en": "ballistic conductance",
-            "zh": "弹道导纳"
+            "en": "miniature screws",
+            "zh": "微型螺钉"
+          },
+          {
+            "en": "process optimization",
+            "zh": "工艺优化"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:23:10Z"
+      "first_seen_at": "2026-06-07T23:31:55Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {

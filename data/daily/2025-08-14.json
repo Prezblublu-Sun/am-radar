@@ -1,0 +1,147 @@
+{
+  "schema_version": "v2",
+  "date": "2025-08-14",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413378127",
+      "doi": "10.3390/mi16080936",
+      "title": "Multi-Objective Optimization of Surface Roughness, Cutting Force, and Temperature in Ultrasonic-Vibration-Assisted Milling of Titanium Alloy",
+      "abstract": "Titanium alloys (Ti-6Al-4V) are widely used in the aerospace field. However, as a typical difficult-to-machine material, titanium alloys have a low thermal conductivity, a high chemical activity, and a significant adiabatic shear effect. In conventional milling (CM), the temperature in the cutting zone rises sharply, leading to tool adhesion, rapid wear, and damage to the workpiece surface. This article systematically investigated the influence of process parameters on the surface roughness, cutting force, and cutting temperature in the ultrasonic-vibration-assisted milling (UAM) process of titanium alloys, based on which multi-objective optimization process of the milling process parameters was conducted, by utilizing the grey relational analysis method. An orthogonal experiment with four factors and four levels was conducted. The effects of various process parameters on the surface roughness, cutting force, and cutting temperature were systematically analyzed for both UAM and CM. The grey relational analysis method was employed to transform the optimization problem of multiple process target parameters into a single-objective grey relational degree optimization problem. The optimized parameter combination was as follows: an ultrasonic amplitude of 6 μm, a spindle speed of 6000 rpm, a cutting depth of 0.20 mm, and a feed rate of 200 mm/min. The experimental results indicated that the surface roughness Sa was 0.268 μm, the cutting temperature was 255.39 °C, the cutting force in the X direction (FX) was 5.2 N, the cutting force in the Y direction (FY) was 7.9 N, and the cutting force in the Z direction (FZ) was 6.4 N. The optimization scheme significantly improved the machining quality and reduced both the cutting forces and the cutting temperature.",
+      "authors": [
+        "Gaofeng Hu",
+        "Yanjie Lu",
+        "Shengming Zhou",
+        "Xin He",
+        "Fenghui Zhang",
+        "Peng Zhu",
+        "Mingliang Wang",
+        "Taowei Tan",
+        "Guangjun Chen"
+      ],
+      "first_author_affiliation": "College of Mechanical Engineering, Tianjin University of Technology and Education, Tianjin 300222, China",
+      "corresponding_authors": [
+        {
+          "name": "Gaofeng Hu",
+          "affiliation": "College of Mechanical Engineering, Tianjin University of Technology and Education, Tianjin 300222, China"
+        }
+      ],
+      "venue": "Micromachines",
+      "year": 2025,
+      "date": "2025-08-14",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/mi16080936",
+      "cited_by_count": 3,
+      "concepts": [
+        "Materials science",
+        "Surface roughness",
+        "Grey relational analysis",
+        "Titanium alloy",
+        "Surface finish",
+        "Titanium",
+        "Ultrasonic sensor",
+        "Process optimization",
+        "Composite material",
+        "Mechanical engineering",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是钛合金超声振动辅助铣削的工艺参数优化，并非针对增材制造钛合金的后处理改性。",
+        "why_not_core": "The paper focuses on optimizing milling parameters for surface roughness and cutting forces, not on post-processing treatments that modify mechanical/fatigue performance of AM Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "ultrasonic-vibration-assisted milling",
+          "Ti-6Al-4V",
+          "surface roughness",
+          "cutting force",
+          "grey relational analysis"
+        ],
+        "summary_zh": {
+          "motivation": "钛合金难加工导致切削区温度高、刀具磨损快。",
+          "method": "采用超声振动辅助铣削结合灰色关联分析对工艺参数进行多目标优化。",
+          "result": "优化参数后表面粗糙度0.268 μm，切削力降低，切削温度255.39°C。",
+          "validation": "通过正交实验和与常规铣削对比验证。"
+        },
+        "summary_en": {
+          "motivation": "Titanium alloys are difficult to machine due to low thermal conductivity and high chemical activity.",
+          "method": "Multi-objective optimization of ultrasonic-vibration-assisted milling parameters using grey relational analysis.",
+          "result": "Optimized parameters achieved surface roughness of 0.268 μm and reduced cutting forces and temperature.",
+          "validation": "Orthogonal experiments and comparison with conventional milling."
+        },
+        "key_terms": [
+          {
+            "en": "ultrasonic-vibration-assisted milling",
+            "zh": "超声振动辅助铣削"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "cutting force",
+            "zh": "切削力"
+          },
+          {
+            "en": "cutting temperature",
+            "zh": "切削温度"
+          },
+          {
+            "en": "grey relational analysis",
+            "zh": "灰色关联分析"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:13:39Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

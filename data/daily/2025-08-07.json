@@ -5,62 +5,63 @@
   "papers": [
     {
       "source": "openalex",
-      "id": "https://openalex.org/W4413043342",
-      "doi": "10.5272/jimab.2025313.6376",
-      "title": "MEDIUM-TERM RESULTS OF THE USE OF MODULAR, CEMENTLESS, PROXIMALLY PLASMA-COATED WITH DISPERSED TITANIUM POWDER AND HYDROXYAPATITE, ANATOMICAL FEMORAL STEM",
-      "abstract": "Objective: To report the medium-term outcome of a modular, cementless, proximal hydroxyapatite-coated, anatomical femoral stem in total hip arthroplasty (THA). Methods: 160 consecutive patients aged 42 to 92 years (average 70) years underwent 185 cementless arthroplasties for primary osteoarthritis or femoral neck fractures. All procedures were performed by a single surgeon using the same modular, cementless, proximally plasma-coated with dispersed titanium powder and additionally superimposed hydroxyapatite, anatomical femoral stem, regardless of age and bone quality. The clinical assessment (pain, range of motion and walking ability) is based on the results of the Merle d'Aubigne and Postel scales. Stem failure is defined as revision or impending revision due to aseptic loosening or pain. Of the 160 patients, 21 died, and none were lost for follow-up. In 3 of the 21 patients, the femoral stems were revised for periprosthetic fractures after a fall at 6 weeks, 10 months, and 3.8 years. 138 patients (162 arthroplasties) completed a median follow-up of 7.8 (range, 5.5–10.4) years. Their overall average Merle d'Aubigne and Postel scores increased from 7.09 before surgery to 16.36 after surgery. There were 5 periprosthetic fractures of the femur, 2 deep infections, 3 dislocations, and 2 aseptic loosenings (one each for the femoral stem and acetabulum). Conclusion: The MBA femoral stem provides predictably stable fixation with an excellent medium-term result.",
+      "id": "https://openalex.org/W4413115229",
+      "doi": "10.3390/ma18153719",
+      "title": "Numerical Simulation and Experimental Study of Millisecond Percussion Drilling in Titanium Alloy",
+      "abstract": "This study addresses the challenge of drilling film-cooling holes in the turbine blades of aircraft engines. Titanium alloy TC4 was selected as the experimental material. The laser-drilling process was simulated with ANSYS to determine optimal parameters, which were subsequently applied in machining trials. An impact-drilling method was then used to evaluate how pulse width, pulse energy, and pulse count affect micro-hole entrance and exit diameters, taper, and roundness. Simulations revealed that pulse energy and pulse count predominantly govern entrance and exit diameters, whereas pulse count and pulse width exert a stronger influence on taper. Experiments confirmed that entrance and exit diameters increased as pulse energy rose from 2.0 J to 2.8 J; taper increased as pulse width widened from 0.6 ms to 1.4 ms; and entrance diameter, exit diameter, and taper all grew as pulse count rose from 40 to 60. Pulse width and pulse count also significantly affected hole roundness.",
       "authors": [
-        "Spas Radev",
-        "Hristo Petrichev",
-        "Valentin Petrov",
-        "Petko Ganev",
-        "Valeri Stavrev"
+        "Liang Wang",
+        "Long Xu",
+        "Changjian Wu",
+        "Yefei Rong",
+        "Kaibo Xia"
       ],
-      "first_author_affiliation": "Department of Orthopedics and Traumatology , Faculty of Medicine , Medical University Plovdiv , Bulgaria",
+      "first_author_affiliation": "Faculty of Mechanical and Materials Engineering, Huaiyin Institute of Technology, Huaian 223003, China",
       "corresponding_authors": [
         {
-          "name": "Spas Radev",
-          "affiliation": "Department of Orthopedics and Traumatology , Faculty of Medicine , Medical University Plovdiv , Bulgaria"
+          "name": "Long Xu",
+          "affiliation": "Faculty of Mechanical and Materials Engineering, Huaiyin Institute of Technology, Huaian 223003, China"
         }
       ],
-      "venue": "Journal of IMAB - Annual Proceeding (Scientific Papers)",
+      "venue": "Materials",
       "year": 2025,
       "date": "2025-08-07",
       "date_precision": "day",
-      "url": "https://doi.org/10.5272/jimab.2025313.6376",
-      "cited_by_count": 0,
+      "url": "https://doi.org/10.3390/ma18153719",
+      "cited_by_count": 1,
       "concepts": [
-        "Periprosthetic",
-        "Medicine",
-        "Surgery",
-        "Femur",
-        "Fixation (population genetics)",
-        "Acetabulum",
-        "Implant",
-        "Aseptic processing",
-        "Osteoarthritis",
-        "Dentistry",
-        "Arthroplasty"
+        "Roundness (object)",
+        "Pulse (music)",
+        "Materials science",
+        "Drilling",
+        "Titanium alloy",
+        "Machining",
+        "Millisecond",
+        "Titanium",
+        "Alloy",
+        "Composite material",
+        "Optics"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "am_femoral_stem"
+        "ti6al4v_postprocess"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_postprocess": [
+          "TC4",
+          "machining"
         ]
       },
       "llm": {
-        "priority": "Medium",
-        "relevance_level": "Direct",
-        "read_action": "Skim only",
-        "relevance_to_user": "该论文报告了一种股骨柄的临床中期结果，但未涉及应力遮挡或微动等生物力学分析。",
-        "why_not_core": "This paper reports only clinical outcomes of a femoral stem without any biomechanical modeling, FEA, or quantification of stress shielding or micromotion.",
-        "validation_kind": "clinical",
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究钛合金激光钻孔工艺，不涉及增材制造后处理或疲劳性能。",
+        "why_not_core": "No additive manufacturing context, no post-processing treatment (e.g., heat treatment, HIP, surface modification) applied to AM Ti-6Al-4V, and no evaluation of fatigue or mechanical performance.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -68,49 +69,70 @@
           "is_review": false
         },
         "tags": [
-          "femoral stem",
-          "total hip arthroplasty",
-          "clinical outcomes",
-          "hydroxyapatite coating"
+          "laser drilling",
+          "titanium alloy",
+          "TC4",
+          "pulse parameters",
+          "numerical simulation"
         ],
         "summary_zh": {
-          "motivation": "报告一种模块化非骨水泥解剖型股骨柄的中期临床结果",
-          "method": "对185例全髋关节置换术进行7.8年随访，评估Merle d'Aubigne和Postel评分",
-          "result": "临床评分显著改善，无菌性松动率低",
-          "validation": "多患者临床随访，无失访"
+          "motivation": "优化航空发动机涡轮叶片气膜冷却孔的激光钻孔参数。",
+          "method": "采用ANSYS仿真与实验结合研究脉冲参数对微孔质量的影响。",
+          "result": "脉冲能量和次数主导孔径，脉冲宽度和次数影响锥度。",
+          "validation": "通过实验验证仿真得到的参数影响规律。"
         },
         "summary_en": {
-          "motivation": "To report medium-term clinical outcomes of a modular, cementless, hydroxyapatite-coated anatomical femoral stem in total hip arthroplasty.",
-          "method": "A prospective study of 185 hips with a median follow-up of 7.8 years, assessing pain, range of motion, and walking ability using Merle d'Aubigne and Postel scores.",
-          "result": "The stem achieved excellent clinical outcomes with low rates of aseptic loosening and revision.",
-          "validation": "Multi-patient clinical follow-up with no patients lost to follow-up."
+          "motivation": "To optimize laser drilling parameters for film-cooling holes in aircraft engine turbine blades made of titanium alloy TC4.",
+          "method": "Numerical simulations using ANSYS and experimental percussive drilling were employed to study the effects of pulse width, energy, and count on hole geometry.",
+          "result": "Pulse energy and count primarily control entrance and exit diameters, while pulse width and count strongly influence taper and roundness.",
+          "validation": "Experimental drilling trials confirmed the simulation predictions for parameter effects on hole dimensions and shape."
         },
         "key_terms": [
           {
-            "en": "femoral stem",
-            "zh": "股骨柄"
+            "en": "laser percussion drilling",
+            "zh": "激光冲击钻孔"
           },
           {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换术"
+            "en": "titanium alloy TC4",
+            "zh": "钛合金TC4"
           },
           {
-            "en": "hydroxyapatite coating",
-            "zh": "羟基磷灰石涂层"
+            "en": "pulse energy",
+            "zh": "脉冲能量"
           },
           {
-            "en": "cementless",
-            "zh": "非骨水泥"
+            "en": "pulse width",
+            "zh": "脉冲宽度"
           },
           {
-            "en": "clinical outcomes",
-            "zh": "临床结果"
+            "en": "taper",
+            "zh": "锥度"
+          },
+          {
+            "en": "roundness",
+            "zh": "圆度"
+          },
+          {
+            "en": "numerical simulation",
+            "zh": "数值模拟"
+          },
+          {
+            "en": "ANSYS",
+            "zh": "ANSYS"
+          },
+          {
+            "en": "micro-hole",
+            "zh": "微孔"
+          },
+          {
+            "en": "film cooling",
+            "zh": "气膜冷却"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:12:37Z"
+      "first_seen_at": "2026-06-07T23:13:39Z"
     }
   ],
   "counts": {
@@ -121,14 +143,14 @@
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "am_femoral_stem": 1
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
       "openalex": 1
     },
     "scored": 1,
     "priority_counts": {
-      "Medium": 1
+      "Exclude": 1
     }
   }
 }

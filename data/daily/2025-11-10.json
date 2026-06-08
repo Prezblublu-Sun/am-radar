@@ -4,341 +4,151 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2511.07352v1",
-      "doi": "10.1016/j.euromechsol.2021.104471",
-      "arxiv_id": "2511.07352v1",
-      "title": "Effect of shape on void growth: A coupled Extended Finite Element Method (XFEM) and Discrete Dislocation Plasticity (DDP) study",
-      "abstract": "Voids are one of the many material defects present at the microscopic length scale. They are primarily responsible for the formation of cracks and hence contribute to ductile fracture. Circular voids tend to deform into elliptical voids just before their coalescence to form cracks. The principle aim of this study is to investigate the effect of void shape on the micro-mechanism of void growth by using Discrete Dislocation Plasticity simulations. For voided crystals, conventional DDP produces a continuous slip step throughout the material even if a dislocation escapes from a non-convex domain. To overcome this issue, the Extended Finite Element Method (XFEM) is used here to incorporate the displacement discontinuity. Different aspect ratios of elliptical voids are considered under uniaxial and biaxial deformation boundary conditions. The results suggest that voids having the largest surface area tend to have maximum growth rate as compared to void with lower surface area, i.e. \"larger is faster\". Under biaxial loading, a higher magnitude of strain hardening, and void growth rate are observed as compared to uniaxial loading. The results also suggest that the orientation of slip planes as well as voids, affect the overall plastic behavior of the voided-ductile material. Furthermore, circular void tends to induce minimum growth rate but have the maximum strain hardening effect as compared to other void shapes under both loading conditions. The results of this study provide a deeper understanding of ductile fracture with applications in manufacturing industry, aerospace industry and in the design of nano/micro-electromechanical devices i.e. NEMS/MEMS.",
-      "authors": [
-        "Muhammad Usman",
-        "Sana Waheed",
-        "Aamir Mubashar"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2025,
-      "date": "2025-11-10",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2511.07352v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "physics.app-ph",
-        "cond-mat.mtrl-sci"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "strain hardening"
-        ]
-      },
-      "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文研究微观孔洞生长机制，与用户关注的增材制造植入体力学性能无直接关联。",
-        "why_not_core": "No additive manufacturing context, no biomedical implant application, no experimental mechanical testing on AM materials.",
-        "validation_kind": "numerical_benchmark",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "void growth",
-          "ductile fracture",
-          "XFEM",
-          "DDP",
-          "micromechanics"
-        ],
-        "summary_zh": {
-          "motivation": "研究孔洞形状对孔洞生长机制的影响",
-          "method": "采用扩展有限元法(XFEM)与离散位错塑性(DDP)耦合模拟",
-          "result": "椭圆孔洞表面面积越大生长越快，圆孔洞生长速率最小但硬化效应最大",
-          "validation": "数值模拟与理论对比"
-        },
-        "summary_en": {
-          "motivation": "To investigate the effect of void shape on the micro-mechanism of void growth in ductile fracture.",
-          "method": "A coupled Extended Finite Element Method (XFEM) and Discrete Dislocation Plasticity (DDP) approach is used to simulate void growth under different loading conditions.",
-          "result": "Voids with larger surface area exhibit faster growth rates, while circular voids show minimum growth but maximum strain hardening.",
-          "validation": "Numerical simulation results are compared with theoretical expectations and DDP benchmark."
-        },
-        "key_terms": [
-          {
-            "en": "void growth",
-            "zh": "孔洞生长"
-          },
-          {
-            "en": "XFEM",
-            "zh": "扩展有限元法"
-          },
-          {
-            "en": "DDP",
-            "zh": "离散位错塑性"
-          },
-          {
-            "en": "ductile fracture",
-            "zh": "韧性断裂"
-          },
-          {
-            "en": "slip plane",
-            "zh": "滑移面"
-          },
-          {
-            "en": "elliptical void",
-            "zh": "椭圆孔洞"
-          },
-          {
-            "en": "strain hardening",
-            "zh": "应变硬化"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:15:55Z"
-    },
-    {
       "source": "openalex",
-      "id": "https://openalex.org/W4416096048",
-      "doi": "10.3389/fsurg.2025.1673590",
-      "title": "Hip hemiarthroplasty through the anterior based muscle sparing approach for femoral neck fractures: an operative technique",
-      "abstract": "Incidence of femoral neck fractures (FNF) in the elderly is rising. Hemiarthroplasty has long been regarded as the mainstay treatment for displaced FNFs in this population. The Anterior Based Muscle Sparing (ABMS) approach for hip arthroplasties is a relatively recent technique which utilises the intermuscular plane between the gluteus medius (GMed) and the tensor fascia lata (TFL) to gain access to the hip joint, thereby sparing the abductor muscles. Due to its proposed benefits of less post-operative pain, faster recovery and lower dislocation rates, it has increased in popularity in recent years. The approach also allows for the safe implantation of any femoral stem design and offers a relatively short learning curve. Given its muscle-sparing nature and favourable stability profile, the ABMS approach is an excellent option for managing displaced FNFs in the elderly population. There is limited literature on the surgical steps of the ABMS approach in hip hemiarthroplasties as treatment for geriatric FNFs. The ABMS approach can be performed in either supine or lateral decubitus position. This article gives a step-by-step description on how to perform a hip hemiarthroplasty using this technique in the lateral decubitus position. Intra-operative videos are provided to illustrate the key points of the surgery.",
+      "id": "https://openalex.org/W4416134254",
+      "doi": "10.3390/biomedicines13112748",
+      "title": "Surface and Biocompatibility Outcomes of Chemical Decontamination in Peri-Implantitis Management",
+      "abstract": "Background and Objectives: Peri-implantitis is a biologically driven complication that jeopardizes dental implant longevity. While chemical decontamination is frequently employed as an adjunct to mechanical debridement, its impact on implant surface integrity and cellular compatibility remains insufficiently defined. This study aimed to evaluate the effects of several chemical agents used in peri-implantitis treatment on the surface morphology and potential biocompatibility of titanium dental implants. Materials and Methods: Twenty-five Ti6Al4V implants were exposed to one of the following agents: saline solution, 3% hydrogen peroxide, 40% citric acid, 17% EDTA, and a mixture (1:1) of citric (2%) and phosphoric (1N) acids. This in vitro study employed a 7-day immersion protocol to accentuate surface effects under controlled laboratory conditions, acknowledging that clinical exposures are substantially shorter. Surface topography was evaluated by Atomic Force Microscopy, while cellular response and corrosion products were assessed using Scanning Electron Microscopy. Surface roughness parameters were statistically analyzed. Results: Hydrogen peroxide induced selective corrosion of the β phase and formed a compact passivation layer that supported mesenchymal stem cell adhesion. Citric acid etched grain boundaries, producing localized roughness that also permitted cell proliferation. EDTA caused advanced grain dissolution and debris accumulation, increasing surface roughness but impairing cellular adhesion. The citric–phosphoric acid mixture led to the highest roughness values and visible corrosion debris. In all cases, macrostructural integrity of the implants was preserved. Conclusions: Chemical agents used in peri-implantitis treatment induce distinct surface alterations on titanium implants. Controlled use of hydrogen peroxide and citric acid may enhance surface biocompatibility, while aggressive protocols such as EDTA and acid combinations require caution due to their adverse effects on surface morphology and cellular response. These findings may inform the development of optimized decontamination protocols for clinical management of peri-implantitis.",
       "authors": [
-        "Teddy Cheong",
-        "Charles Kon Kam King",
-        "Ing How Moo"
+        "Alexandru Meşter",
+        "Simion Bran",
+        "Mărioara Moldovan",
+        "Ioan Petean",
+        "Lucian Barbu–Tudoran",
+        "Codruţa Saroşi",
+        "Andra Piciu",
+        "Dragoş Ene"
       ],
-      "first_author_affiliation": "Department of Orthopaedic Surgery, Changi General Hospital, Singapore, Singapore",
+      "first_author_affiliation": "Department of Oral Health, University of Medicine and Pharmacy “Iuliu Hatieganu”, 400012 Cluj-Napoca, Romania",
       "corresponding_authors": [
         {
-          "name": "Teddy Cheong",
-          "affiliation": "Department of Orthopaedic Surgery, Changi General Hospital, Singapore, Singapore"
+          "name": "Andra Piciu",
+          "affiliation": "Department of Medical Oncology, University of Medicine and Pharmacy “Iuliu Hatieganu”, 400012 Cluj-Napoca, Romania"
         }
       ],
-      "venue": "Frontiers in Surgery",
+      "venue": "Biomedicines",
       "year": 2025,
       "date": "2025-11-10",
       "date_precision": "day",
-      "url": "https://doi.org/10.3389/fsurg.2025.1673590",
+      "url": "https://doi.org/10.3390/biomedicines13112748",
       "cited_by_count": 0,
       "concepts": [
-        "Medicine",
-        "Supine position",
-        "Surgery",
-        "Fascia lata",
-        "Medius",
-        "Greater trochanter",
-        "Femoral neck",
-        "Arthroplasty",
-        "Prosthesis",
-        "Hip surgery",
-        "Osteoarthritis",
-        "Femoral head",
-        "Total hip replacement",
-        "Hip resurfacing",
-        "Total hip arthroplasty",
-        "Orthopedic surgery"
+        "Biocompatibility",
+        "Citric acid",
+        "Hydrogen peroxide",
+        "Human decontamination",
+        "Materials science",
+        "Passivation",
+        "Surface roughness",
+        "Corrosion",
+        "Titanium",
+        "Phosphoric acid",
+        "Dissolution",
+        "Surface modification",
+        "Chemical engineering",
+        "Biomedical engineering",
+        "Surface finish",
+        "Nanotechnology",
+        "Implant",
+        "Scanning electron microscope"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "am_femoral_stem"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "surface integrity"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "未涉及任何植入物设计、生物力学建模或增材制造内容，仅为外科手术技术描述。",
-        "why_not_core": "No biomechanics modeling, no implant design, no FEA, no stress shielding analysis, no AM/3D printing.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文涉及钛合金表面的化学处理，但未涉及增材制造Ti-6Al-4V的力学性能或典型后处理工艺。",
+        "why_not_core": "No mechanical performance data (fatigue, tensile) or typical post-processing for AM Ti-6Al-4V; only surface morphology and biocompatibility for clinical decontamination.",
+        "validation_kind": "in_vitro",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "hip hemiarthroplasty",
-          "femoral neck fracture",
-          "surgical approach",
-          "ABMS",
-          "muscle sparing"
+          "Ti-6Al-4V",
+          "chemical decontamination",
+          "peri-implantitis",
+          "biocompatibility"
         ],
         "summary_zh": {
-          "motivation": "介绍一种用于股骨颈骨折的髋关节半关节置换术的微创手术入路",
-          "method": "详细描述基于前方肌间隙的肌肉保留入路的步骤",
-          "result": "该入路可安全植入任何股骨柄设计，术后恢复快",
-          "validation": "无验证，仅描述手术技术"
+          "motivation": "评估化学去污剂对种植体表面完整性和细胞相容性的影响。",
+          "method": "将钛合金种植体暴露于五种化学试剂中7天，通过AFM和SEM分析表面形貌和细胞反应。",
+          "result": "过氧化氢和柠檬酸可改善表面生物相容性，而EDTA和酸混合物引起粗糙度增加和细胞粘附受损。",
+          "validation": "体外实验验证化学处理对表面形貌和细胞行为的影响。"
         },
         "summary_en": {
-          "motivation": "To describe a muscle-sparing surgical approach for hip hemiarthroplasty in elderly femoral neck fractures.",
-          "method": "Step-by-step description of the Anterior Based Muscle Sparing (ABMS) approach performed in lateral decubitus position.",
-          "result": "The ABMS approach allows safe implantation of any femoral stem design with potential benefits of less pain and faster recovery.",
-          "validation": "No validation; purely a surgical technique description."
+          "motivation": "To evaluate the effects of chemical decontamination agents on the surface integrity and biocompatibility of titanium dental implants.",
+          "method": "Ti-6Al-4V implants were immersed in saline, hydrogen peroxide, citric acid, EDTA, or citric-phosphoric acid mixture for 7 days, then analyzed by AFM and SEM.",
+          "result": "Hydrogen peroxide and citric acid enhanced biocompatibility, while EDTA and the acid mixture increased roughness and impaired cell adhesion.",
+          "validation": "In vitro experiments assessed surface morphology and cellular response after chemical exposure."
         },
         "key_terms": [
           {
-            "en": "hip hemiarthroplasty",
-            "zh": "髋关节半关节置换术"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "femoral neck fracture",
-            "zh": "股骨颈骨折"
+            "en": "chemical decontamination",
+            "zh": "化学去污"
           },
           {
-            "en": "surgical approach",
-            "zh": "手术入路"
+            "en": "surface integrity",
+            "zh": "表面完整性"
           },
           {
-            "en": "muscle sparing",
-            "zh": "肌肉保留"
+            "en": "biocompatibility",
+            "zh": "生物相容性"
           },
           {
-            "en": "ABMS approach",
-            "zh": "基于前方肌间隙入路"
+            "en": "atomic force microscopy",
+            "zh": "原子力显微镜"
           },
           {
-            "en": "lateral decubitus",
-            "zh": "侧卧位"
+            "en": "scanning electron microscopy",
+            "zh": "扫描电子显微镜"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:15:55Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:41243529",
-      "doi": "10.62713/aic.4334",
-      "pmid": "41243529",
-      "title": "Radiographic Evaluation of Femoral Offset Reconstruction in Hip Arthroplasty: A Retrospective Analysis.",
-      "abstract": "AIM: To investigate the impact of femoral offset (FO) reconstruction on postoperative hip function recovery and complication rates following total hip arthroplasty (THA) via the posterolateral approach. METHODS: A retrospective analysis was performed on 146 patients who underwent primary unilateral THA between January 2019 and April 2024. Patients were divided into two groups based on whether the postoperative FO difference (≤4 mm vs. >4 mm): the reconstruction group (n = 92) and the control group (n = 54). Baseline characteristics, radiographic parameters, postoperative functional outcomes (Harris Hip Score (HHS), visual analogue scale (VAS) for pain, and gait parameters), complications, and prosthesis failure cases were compared between the groups, accompanied by a representative case analysis. RESULTS: No significant differences were observed in baseline data between the two groups (p > 0.05). Compared with the control group, the postoperative FO in the reconstruction group was significantly closer to that of the contralateral healthy side (p < 0.05). There were no significant differences in acetabular prosthesis parameters between the two groups (p > 0.05). However, the femoral stem neck-shaft angle in the control group was significantly smaller than in the reconstruction group (p < 0.05). At all postoperative time points, the reconstruction group demonstrated superior outcomes in HHS, VAS, and gait parameters than the control group (p < 0.05). The incidence of complications was significantly lower in the reconstruction group than that in the control group (p < 0.05), whereas no significant difference was found in prosthesis revision rates (p > 0.05). Representative cases indicated that patients who failed to achieve FO reconstruction criteria were more susceptible to postoperative dislocation. CONCLUSIONS: Precise femoral offset reconstruction contributes to improved postoperative hip function and a reduced risk of complications in THA.",
-      "authors": [
-        "Weixuan Zheng",
-        "Chengsheng Wu",
-        "Hongmei Xu"
-      ],
-      "first_author_affiliation": "Department of Radiology, Wuyi County Traditional Chinese Medicine Hospital, 321200 Jinhua, Zhejiang, China.",
-      "corresponding_authors": [
-        {
-          "name": "Hongmei Xu",
-          "affiliation": "B-ultrasound Room, Wuyi County Traditional Chinese Medicine Hospital, 321200 Jinhua, Zhejiang, China.",
-          "inferred": true
-        }
-      ],
-      "venue": "Annali italiani di chirurgia",
-      "year": 2025,
-      "date": "2025-11-10",
-      "date_precision": "day",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41243529/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文为临床回顾性研究，未涉及用户关注的生物力学建模、有限元分析、增材制造或人工智能方法。",
-        "why_not_core": "No computational modeling, no FEA, no implant design, no AM, no AI; purely clinical retrospective analysis.",
-        "validation_kind": "clinical",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": true,
-          "is_review": false
-        },
-        "tags": [
-          "clinical",
-          "hip arthroplasty"
-        ],
-        "summary_zh": {
-          "motivation": "探讨股骨偏距重建对THA术后功能及并发症的影响。",
-          "method": "回顾性分析146例THA患者，按术后FO差异分组比较。",
-          "result": "重建组术后功能更好，并发症更低。",
-          "validation": "临床评分和影像学参数对比验证。"
-        },
-        "summary_en": {
-          "motivation": "To investigate the impact of femoral offset reconstruction on functional recovery and complication rates after THA.",
-          "method": "Retrospective analysis of 146 patients grouped by postoperative FO difference (≤4mm vs >4mm).",
-          "result": "Better functional outcomes and lower complication rates in the reconstruction group.",
-          "validation": "Clinical scores (HHS, VAS) and radiographic parameters compared between groups."
-        },
-        "key_terms": [
-          {
-            "en": "femoral offset",
-            "zh": "股骨偏距"
-          },
-          {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换术"
-          },
-          {
-            "en": "Harris Hip Score",
-            "zh": "Harris髋关节评分"
-          },
-          {
-            "en": "radiographic evaluation",
-            "zh": "影像学评估"
-          },
-          {
-            "en": "posterolateral approach",
-            "zh": "后外侧入路"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:15:55Z"
+      "first_seen_at": "2026-06-07T23:19:10Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 1,
     "by_source": {
-      "arxiv": 1,
-      "openalex": 1,
-      "pubmed": 1
+      "openalex": 1
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 1,
+    "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1,
-      "am_femoral_stem": 2
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "arxiv": 1,
-      "openalex": 1,
-      "pubmed": 1
+      "openalex": 1
     },
-    "scored": 3,
+    "scored": 1,
     "priority_counts": {
-      "Low": 1,
-      "Exclude": 2
+      "Exclude": 1
     }
   }
 }

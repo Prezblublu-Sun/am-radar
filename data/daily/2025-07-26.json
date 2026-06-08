@@ -4,51 +4,64 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2508.06505v1",
-      "doi": "",
-      "arxiv_id": "2508.06505v1",
-      "title": "Fracture toughness and auxeticity in disordered metamaterials",
-      "abstract": "Auxetic metamaterials are commonly thought to exhibit favorable mechanical properties, notably high energy absorption. Here we investigate disordered metamaterials obtained from random beam networks by optimizing simultaneously auxeticity and the energy absorbed before fracture. By giving different weights to these optimization targets, we demonstrate that the optimal configurations are connected along a Pareto front where high auxeticity implies comparatively low energy absorption and vice versa. We study the mechanical properties of the resulting metamaterials and characterize the different deformation modes obtained for distinct optimization targets. The simulation and optimization results are validated by comparison with the deformation behavior of additively manufactured samples. Our work provides an illustration of the potentials and limitations of multi-objective optimization in the design of disordered mechanical metamaterials",
+      "source": "openalex",
+      "id": "https://openalex.org/W4412663711",
+      "doi": "10.1007/s00170-025-16161-y",
+      "title": "Modeling microstructural alterations and the formation of keyhole-mode melting on TI6AL4V during single-pass laser ablation",
+      "abstract": "Abstract The present study focuses on developing and validating a finite element (FE) model for simulating the thermo-mechanical phenomena during laser surface treatment of Ti6Al4V alloy, particularly the key-hole mode and its impact on surface quality. This research aims to predict the geometry of the laser track, keyhole shape, and associated hardness variations induced by phase transformations. A 3D rotary Gaussian volumetric heat source model, coupled with a custom user subroutine, has been integrated into the FE code to accurately simulate the laser-induced thermal distribution. This approach ensures precise predictions of ablation, phase evolution, and associated hardness changes. Experimental validation, supported by micrographs, hardness measurements, temperature data, and phase analysis, confirms the model’s capability to capture critical phenomena. Notably, the model successfully represents the formation of the Ti-oxide layer resulting from the martensitic phase transformation, which significantly enhances hardness compared to the base material. This research provides valuable insights into numerical modeling with the aim to optimize laser surface treatments, improving the mechanical properties and functional behavior of Ti6Al4V components, and contributes to advancing the broader field of laser-based manufacturing. Additionally, a different methodology for modeling the heat source based on process temperature, rather than traditional geometric heat flux definitions, was proposed.",
       "authors": [
-        "Hannes Holey",
-        "Andrea Lorenzo Henri Sergio Detry",
-        "Silvia Bonfanti",
-        "Roberto Guerra",
-        "Anshul D. S. Parmar",
-        "Jacopo Fiocchi",
-        "Ausonio Tuissi",
-        "Michael Zaiser",
-        "Stefano Zapperi"
+        "Serafino Caruso",
+        "Maria Rosaria Saffioti",
+        "Giovanna Rotella"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Department of Mechanical, Energy and Management Engineering, University of Calabria, Via Ponte Pietro Bucci, Cubo 45C, 87036, Rende, CS, Italy",
+      "corresponding_authors": [
+        {
+          "name": "Serafino Caruso",
+          "affiliation": "Department of Mechanical, Energy and Management Engineering, University of Calabria, Via Ponte Pietro Bucci, Cubo 45C, 87036, Rende, CS, Italy"
+        }
+      ],
+      "venue": "The International Journal of Advanced Manufacturing Technology",
       "year": 2025,
       "date": "2025-07-26",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2508.06505v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.dis-nn",
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.1007/s00170-025-16161-y",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Keyhole",
+        "Titanium alloy",
+        "Mechanical engineering",
+        "Finite element method",
+        "Martensite",
+        "Laser",
+        "Surface integrity",
+        "Laser ablation",
+        "Phase (matter)",
+        "Selective laser melting",
+        "Machining",
+        "Mechanics",
+        "Metallurgy"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "fracture toughness"
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "surface treatment"
         ]
       },
       "llm": {
         "priority": "Medium",
-        "relevance_level": "Transferable",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文研究了无序超材料的负泊松比与断裂韧性，其多目标优化方法和增材制造验证技术可迁移至生物医学植入物的力学性能设计。",
-        "why_not_core": "This paper does not address biomedical implant design, patient-specific geometries, or osseointegration, and lacks in vivo or clinical validation.",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti6Al4V的激光表面处理（后处理）对显微硬度和相变的影响，但未涉及疲劳或拉伸性能，因此与后处理控制疲劳性能的焦点相关性较弱。",
+        "why_not_core": "The paper does not report fatigue or tensile properties of Ti-6Al-4V after post-processing; it only measures hardness and models ablation and phase transformation.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -57,76 +70,87 @@
           "is_review": false
         },
         "tags": [
-          "auxetic",
-          "metamaterial",
-          "fracture toughness",
-          "multi-objective optimization",
-          "additive manufacturing"
+          "laser ablation",
+          "keyhole mode",
+          "finite element modeling",
+          "Ti6Al4V",
+          "hardness",
+          "phase transformation",
+          "martensite",
+          "surface treatment"
         ],
         "summary_zh": {
-          "motivation": "研究无序超材料的负泊松比与断裂韧性的权衡关系。",
-          "method": "通过多目标优化随机梁网络实现同时优化负泊松比和断裂能吸收。",
-          "result": "发现高负泊松比与高能量吸收之间存在帕累托前沿，两者不可兼得。",
-          "validation": "使用增材制造样品进行变形行为验证。"
+          "motivation": "建立有限元模型模拟Ti6Al4V激光表面处理中的匙孔模式及硬度变化",
+          "method": "采用3D旋转高斯体热源模型及用户子程序进行热-力学模拟",
+          "result": "模型成功预测了烧蚀、相变及硬度增加，归因于马氏体相变和氧化层形成",
+          "validation": "通过显微照片、硬度测试、温度数据和相分析验证模型"
         },
         "summary_en": {
-          "motivation": "To investigate the trade-off between auxeticity and fracture toughness in disordered metamaterials.",
-          "method": "Multi-objective optimization of random beam networks to simultaneously maximize auxeticity and energy absorption before fracture.",
-          "result": "Optimal configurations form a Pareto front where high auxeticity corresponds to relatively low energy absorption.",
-          "validation": "Deformation behavior validated with additively manufactured samples."
+          "motivation": "To develop a finite element model that simulates keyhole-mode melting and hardness changes during laser surface treatment of Ti6Al4V.",
+          "method": "A 3D rotary Gaussian volumetric heat source with a user subroutine was integrated into an FE code to predict thermal distribution, ablation, and phase evolution.",
+          "result": "The model accurately captured keyhole formation, martensitic phase transformation, and Ti-oxide layer formation, leading to a significant increase in hardness.",
+          "validation": "Experimental validation was performed using micrographs, hardness measurements, temperature data, and phase analysis."
         },
         "key_terms": [
           {
-            "en": "auxeticity",
-            "zh": "负泊松比"
+            "en": "laser ablation",
+            "zh": "激光烧蚀"
           },
           {
-            "en": "metamaterial",
-            "zh": "超材料"
+            "en": "keyhole mode",
+            "zh": "匙孔模式"
           },
           {
-            "en": "fracture toughness",
-            "zh": "断裂韧性"
+            "en": "finite element model",
+            "zh": "有限元模型"
           },
           {
-            "en": "energy absorption",
-            "zh": "能量吸收"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
           },
           {
-            "en": "Pareto front",
-            "zh": "帕累托前沿"
+            "en": "hardness",
+            "zh": "硬度"
           },
           {
-            "en": "multi-objective optimization",
-            "zh": "多目标优化"
+            "en": "phase transformation",
+            "zh": "相变"
           },
           {
-            "en": "disordered network",
-            "zh": "无序网络"
+            "en": "martensite",
+            "zh": "马氏体"
           },
           {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
+            "en": "surface treatment",
+            "zh": "表面处理"
+          },
+          {
+            "en": "Gaussian volumetric heat source",
+            "zh": "高斯体热源"
+          },
+          {
+            "en": "Ti-oxide layer",
+            "zh": "氧化钛层"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:11:37Z"
+      "first_seen_at": "2026-06-07T23:11:42Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {

@@ -4,46 +4,73 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2507.14273v1",
-      "doi": "",
-      "arxiv_id": "2507.14273v1",
-      "title": "The fracture toughness of molybdenum at different grain sizes under and since brittle-ductile transition: computer modeling and experiment",
-      "abstract": "The sharp growth of the fracture toughness after brittle-ductile transition happens at grain sizes approximately equal to the plastic zone size. Here we analyze the influence of the grain boundary on the evolution of the ensemble of dislocations near the crack tip using dislocation dynamics method. We show evidence that for large grain sizes, the size has little effect on the ensemble of dislocations and the fracture toughness, but when dislocations reach the grain boundary, distribution of dislocations changes, which leads to increase of the fracture toughness.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4413059638",
+      "doi": "10.3390/met15070806",
+      "title": "Effect of Heat Treatment on Microstructure and Mechanical Properties of (TiB + TiC) /Ti-6Al-4V Composites Fabricated by Directed Energy Deposition",
+      "abstract": "The titanium matrix composites (TMCs) fabricated via Directed Energy Deposition (DED) effectively overcome the issue of coarse columnar grains typically observed in additively manufactured titanium alloys. In this study, systematic annealing heat treatments were applied to in situ (TiB + TiC)/Ti-6Al-4V composites to refine the microstructure and tailor mechanical properties. The results reveal that the plate-like α phase in the as-deposited composites gradually transforms into an equiaxed morphology with increasing annealing temperature and holding time. Notably, when the annealing temperature exceeds 1000 °C, significant coarsening of the TiC phase is observed, while the TiB phase remains morphologically stable. Annealing promotes decomposition of acicular martensite and stress relaxation, leading to a reduction in hardness compared to the as-deposited state. However, the reticulated distribution of the TiB and TiC reinforcement phases contributes to enhanced tensile performance. Specifically, the as-deposited composite achieves a tensile strength of 1109 MPa in the XOY direction, representing a 21.6% improvement over the as-cast counterpart, while maintaining a ductility of 2.47%. These findings demonstrate that post-deposition annealing is an effective strategy to regulate microstructure and achieve a desirable balance between strength and ductility in DED-fabricated titanium matrix composites.",
       "authors": [
-        "K. M. Borysovska",
-        "N. M. Marchenko",
-        "Yu. Koval",
-        "Yu. N. Podrezov",
-        "S. A. Firstov"
+        "Hai Gu",
+        "Guoqing Dai",
+        "Jie Jiang",
+        "Zulei Liang",
+        "Jianhua Sun",
+        "Jie Zhang",
+        "Bin Li"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Institute of Intelligent Manufacturing, Nantong Institute of Technology, Nantong 226002, China",
+      "corresponding_authors": [
+        {
+          "name": "Hai Gu",
+          "affiliation": "Institute of Intelligent Manufacturing, Nantong Institute of Technology, Nantong 226002, China"
+        }
+      ],
+      "venue": "Metals",
       "year": 2025,
       "date": "2025-07-18",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2507.14273v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.3390/met15070806",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Equiaxed crystals",
+        "Microstructure",
+        "Annealing (glass)",
+        "Composite material",
+        "Ultimate tensile strength",
+        "Acicular",
+        "Titanium",
+        "Ductility (Earth science)",
+        "Composite number"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "fracture toughness"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "tensile strength",
+          "ductility"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment",
+          "annealing"
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究钼的断裂韧性，与增材制造及生物医用植入物无关。",
-        "why_not_core": "This paper focuses on conventional molybdenum fracture toughness via dislocation dynamics, with no additive manufacturing process, no biomedical context, and no implant design or biomechanics.",
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了退火处理对DED制备的(TiB+TiC)/Ti-6Al-4V复合材料微观组织和力学性能的影响，与后处理控制方向相关。",
+        "why_not_core": "The paper investigates (TiB+TiC)/Ti-6Al-4V composites, not pure Ti-6Al-4V, and does not include fatigue testing.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -52,68 +79,206 @@
           "is_review": false
         },
         "tags": [
-          "fracture toughness",
-          "molybdenum",
-          "grain size",
-          "dislocation dynamics",
-          "brittle-ductile transition"
+          "Directed energy deposition",
+          "Ti-6Al-4V composite",
+          "annealing",
+          "tensile properties",
+          "microstructure"
         ],
         "summary_zh": {
-          "motivation": "研究晶粒尺寸对钼断裂韧性的影响。",
-          "method": "采用位错动力学模拟和实验验证。",
-          "result": "大晶粒尺寸影响小，位错到达晶界时断裂韧性增加。",
-          "validation": "实验力学测试。"
+          "motivation": "克服增材制造钛合金粗大柱状晶问题，优化复合材料的力学性能。",
+          "method": "对DED制备的(TiB+TiC)/Ti-6Al-4V复合材料进行系统退火处理，调控微观组织。",
+          "result": "退火使片状α相转变为等轴状，TiC在1000°C以上粗化但TiB稳定，抗拉强度达1109 MPa。",
+          "validation": "通过拉伸测试和硬度测量验证力学性能变化。"
         },
         "summary_en": {
-          "motivation": "Investigate the effect of grain size on the fracture toughness of molybdenum.",
-          "method": "Dislocation dynamics simulations and mechanical experiments.",
-          "result": "Grain size has little effect for large grains, but dislocations reaching grain boundaries increase toughness.",
-          "validation": "Experimental mechanical testing."
+          "motivation": "To overcome the coarse columnar grains in additively manufactured titanium alloys and tailor the mechanical properties of titanium matrix composites.",
+          "method": "Systematic annealing heat treatments were applied to in-situ (TiB+TiC)/Ti-6Al-4V composites fabricated by directed energy deposition.",
+          "result": "Annealing transformed plate-like α into equiaxed morphology, with TiC coarsening above 1000°C while TiB remained stable, yielding a tensile strength of 1109 MPa.",
+          "validation": "Mechanical validation was performed via tensile testing and hardness measurements."
         },
         "key_terms": [
           {
-            "en": "fracture toughness",
-            "zh": "断裂韧性"
+            "en": "directed energy deposition",
+            "zh": "定向能量沉积"
           },
           {
-            "en": "molybdenum",
-            "zh": "钼"
+            "en": "Ti-6Al-4V composite",
+            "zh": "Ti-6Al-4V复合材料"
           },
           {
-            "en": "grain size",
-            "zh": "晶粒尺寸"
+            "en": "annealing heat treatment",
+            "zh": "退火热处理"
           },
           {
-            "en": "dislocation dynamics",
-            "zh": "位错动力学"
+            "en": "microstructure evolution",
+            "zh": "微观组织演变"
           },
           {
-            "en": "brittle-ductile transition",
-            "zh": "脆韧转变"
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          },
+          {
+            "en": "TiB whisker",
+            "zh": "TiB晶须"
+          },
+          {
+            "en": "TiC particle",
+            "zh": "TiC颗粒"
+          },
+          {
+            "en": "stress relaxation",
+            "zh": "应力松弛"
+          },
+          {
+            "en": "acicular martensite",
+            "zh": "针状马氏体"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:11:37Z"
+      "first_seen_at": "2026-06-07T23:11:42Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413059498",
+      "doi": "10.3390/coatings15070842",
+      "title": "Chip Flow Direction Modeling and Chip Morphology Analysis of Ball-End Milling Cutters",
+      "abstract": "Ball-end milling cutters are normally used for complex surface machining. During the milling process, the tool posture and cutting parameters of the ball-end milling cutters have a significant impact on chip formations and morphological changes. Based on the Cutter Workpiece Engagement (CWE) model, this study establishes a chip flow model for ball-end milling cutters with consideration of the tool posture variation. The machining experiments of Ti-6Al-4V with a 15° inclined plane and different feed directions were carried out. The influence mechanism of time-varying tool posture on chip formation was systematically investigated. The results reveal an interaction between the chip flow direction and the cutting velocity direction. The included angle between the chip flow directions at the maximum and minimum contact points in the CWE area affects the degree of chip curling, with a smaller angle leading to weaker curling. This research provides a theoretical foundation for the optimization of posture parameters of ball-end milling cutters and expounds on the influence of the chip flow angle on chip deformation.",
+      "authors": [
+        "Shiqiang Zhou",
+        "Anshan Zhang",
+        "Xiaosong Zhang",
+        "Maiqi Han",
+        "Bowen Liu"
+      ],
+      "first_author_affiliation": "Key Laboratory of Advanced Manufacturing and Intelligent Technology, Ministry of Education, Harbin University of Science &Technology, Harbin 150080, China",
+      "corresponding_authors": [
+        {
+          "name": "Anshan Zhang",
+          "affiliation": "Key Laboratory of Advanced Manufacturing and Intelligent Technology, Ministry of Education, Harbin University of Science &Technology, Harbin 150080, China"
+        }
+      ],
+      "venue": "Coatings",
+      "year": 2025,
+      "date": "2025-07-18",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/coatings15070842",
+      "cited_by_count": 1,
+      "concepts": [
+        "End milling",
+        "Chip",
+        "Curling",
+        "Ball (mathematics)",
+        "Machining",
+        "Chip formation",
+        "Mechanical engineering",
+        "Materials science"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的铣削加工，但未研究后处理对疲劳/力学性能的影响",
+        "why_not_core": "Does not evaluate mechanical performance (fatigue, tensile) after machining; purely chip formation and morphology study.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "ball-end milling",
+          "Ti-6Al-4V",
+          "chip morphology",
+          "machining",
+          "post-processing"
+        ],
+        "summary_zh": {
+          "motivation": "研究球头铣刀加工中刀具姿态对切屑形成的影响",
+          "method": "基于CWE模型建立切屑流动模型，并通过Ti-6Al-4V斜面铣削实验验证",
+          "result": "发现切屑流动方向与切削速度方向相互影响，接触区域角度影响切屑卷曲程度",
+          "validation": "通过Ti-6Al-4V倾斜平面铣削实验验证模型"
+        },
+        "summary_en": {
+          "motivation": "The study aims to understand chip formation and morphological changes during ball-end milling under varying tool posture.",
+          "method": "A chip flow model based on the Cutter Workpiece Engagement (CWE) model was developed and validated via machining experiments on Ti-6Al-4V with inclined surfaces and different feed directions.",
+          "result": "The interaction between chip flow direction and cutting velocity direction was revealed, and the included angle at contact points influences chip curling.",
+          "validation": "Experimental verification was performed through ball-end milling of Ti-6Al-4V inclined planes."
+        },
+        "key_terms": [
+          {
+            "en": "ball-end milling",
+            "zh": "球头铣削"
+          },
+          {
+            "en": "chip flow direction",
+            "zh": "切屑流动方向"
+          },
+          {
+            "en": "chip curling",
+            "zh": "切屑卷曲"
+          },
+          {
+            "en": "Cutter Workpiece Engagement (CWE)",
+            "zh": "刀具工件啮合"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "machining",
+            "zh": "机械加工"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:11:42Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "arxiv": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Medium": 1,
+      "Low": 1
     }
   }
 }

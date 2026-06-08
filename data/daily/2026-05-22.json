@@ -4,126 +4,285 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2605.23342v1",
-      "doi": "",
-      "arxiv_id": "2605.23342v1",
-      "title": "Studying Creep-Fatigue interaction of Nickel-Based Superalloys using Crystal Plasticity and Entropy-Based life prediction model",
-      "abstract": "Creep-fatigue interaction in single-crystal nickel superalloys is difficult to predict because the response depends on the combined effects of loading parameters, hold time, temperature, and the underlying deformation mechanisms. This is important for turbine blade applications, where components experience both fatigue and creep during service. In the present work, a crystal plasticity finite element (CPFE) framework is used to study the creep-fatigue response of a single-crystal nickel superalloy under a range of practically relevant thermo-mechanical loading conditions. In particular, the effects of strain amplitude, R-ratio, hold duration, and temperature on cyclic deformation, stress relaxation, damage evolution, and creep-fatigue life are examined. Particular attention is given to separate the roles of fatigue and creep damage, understanding their interaction, and identify the creep-dominated and fatigue-dominated regimes as a function of strain amplitude and hold time. The study brings together these effects within a single framework and shows that the predicted trends in cyclic response and life are in good agreement with experimental observations reported in the literature.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7162296907",
+      "doi": "10.15589/znp2026.1(503).1.4",
+      "title": "ROLE OF CRITICAL ADDITIVE MANUFACTURING DEFECTS IN MICROSTRUCTURE FORMATION AND MECHANICAL BEHAVIOR OF TI–6AL–4V ALLOY",
+      "abstract": "Purpose.This study provides a systematic synthesis and critical analysis of the role of critical additive manufacturing defects (porosity, lack of fusion, microcracks, and residual stresses) in the microstructure formation and mechanical behavior of Ti-6Al-4V alloy, with particular emphasis on fatigue life and reliability of AM components.Methodology.Recent studies on mechanical testing, fractography, CT , and heat treatment of Ti-6Al-4V are reviewed, focusing on the relationship between defect characteristics and fatigue behavior.Results.Gas porosity and lack-of-fusion defects were identified as the primary critical defects, controlling crack initiation sites, reducing fracture toughness and geometric accuracy.The combined effect of internal defects significantly reduces fatigue life, whereas post-processing heat treatment, including annealing and hot isostatic pressing (HIP), improves the microstructure and enhances resistance to crack growth.S-N data confirm the key role of defect-controlled material behavior.Fractographic analysis demonstrated that fatigue crack initiation predominantly occurs at subsurface gas pores and lack-of-fusion defects acting as stress concentrators under cyclic loading.Fatigue life variability at constant stress levels correlates with effective defect size, morphology, and spatial distribution, indicating the statistical nature of defect-controlled fatigue behavior.In the very-high-cycle fatigue regime, crack initiation shifts to internal regions of the material, where defect population and microstructural heterogeneity jointly govern crack growth kinetics.Scientific novelty.A comprehensive analysis of the interactions between process-induced defects, microstructural parameters, and post-processing on the fatigue life of Ti-6Al-4V has been conducted, enabling a quantitative assessment of each factor's contribution to defect-controlled fatigue and providing a rationale for the effectiveness of post-processing strategies.Practical significance.The results are relevant for the design of AM Ti-6Al-4V components in critical applications, particularly in marine and shipbuilding, where defects govern operational reliability and fatigue life.",
       "authors": [
-        "Santosh Kumar Shaw",
-        "Sabyasachi Chatterjee",
-        "Alankar Alankar",
-        "Ayan Bhowmik"
+        "Svitlana Kyrylakha"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Svitlana Kyrylakha",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Collection of Scientific Publications NUS",
       "year": 2026,
       "date": "2026-05-22",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2605.23342v1",
+      "url": "https://doi.org/10.15589/znp2026.1(503).1.4",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Hot isostatic pressing",
+        "Residual stress",
+        "Fracture toughness",
+        "Alloy",
+        "Paris' law",
+        "Toughness",
+        "Annealing (glass)",
+        "Porosity",
+        "Composite material",
+        "Fatigue testing",
+        "Fracture mechanics",
+        "Stress concentration",
+        "Stress (linguistics)",
+        "Crack closure",
+        "Damage tolerance"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "fatigue"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "fatigue",
-      "direction_name": "AM Fatigue",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "fatigue": [
-          "fatigue life"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "porosity",
+          "defect",
+          "fatigue",
+          "fatigue life",
+          "high cycle fatigue",
+          "fatigue crack initiation"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "hot isostatic pressing",
+          "heat treatment",
+          "annealing",
+          "post-processing"
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文研究镍基高温合金的蠕变-疲劳交互作用，未涉及增材制造工艺或材料，因此与AM疲劳方向相关性较低。",
-        "why_not_core": "Does not address AM-specific microstructures, defects, or process-induced anisotropy relevant to fatigue in additively manufactured components.",
-        "validation_kind": "simulation_case",
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "本文综述了后处理（退火、热等静压）对增材制造Ti-6Al-4V缺陷和疲劳性能的影响，直接支持该方向的研究。",
+        "why_not_core": "This paper is a review without new experimental data or a specific post-processing treatment study, so it does not provide novel quantitative results for a particular post-processing route.",
+        "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
-          "is_review": false
+          "is_review": true
         },
         "tags": [
-          "creep-fatigue",
-          "crystal plasticity",
-          "entropy-based life prediction",
-          "nickel superalloy"
+          "review",
+          "Ti-6Al-4V",
+          "post-processing",
+          "fatigue",
+          "defects",
+          "heat treatment",
+          "hot isostatic pressing"
         ],
         "summary_zh": {
-          "motivation": "预测单晶镍基高温合金在热-机械载荷下的蠕变-疲劳寿命",
-          "method": "采用晶体塑性有限元框架和基于熵的寿命预测模型分析蠕变-疲劳交互作用",
-          "result": "揭示了应变幅、保载时间等参数对循环变形和寿命的影响，与文献实验吻合",
-          "validation": "与文献中的实验观测结果进行对比验证"
+          "motivation": "系统分析增材制造Ti-6Al-4V合金中关键缺陷对微观结构和疲劳行为的影响。",
+          "method": "文献综述，整合机械测试、断口分析、CT和热处理研究。",
+          "result": "气孔和未熔合缺陷是主要疲劳裂纹源，后处理热处理可改善微观结构和抗裂纹扩展能力。",
+          "validation": "基于现有实验数据的综合分析，无新实验验证。"
         },
         "summary_en": {
-          "motivation": "To predict creep-fatigue life of single-crystal nickel superalloys under thermo-mechanical loading, which is critical for turbine blade applications.",
-          "method": "A crystal plasticity finite element (CPFE) framework combined with an entropy-based life prediction model was used to simulate creep-fatigue interaction across various loading conditions.",
-          "result": "The study identified creep-dominated and fatigue-dominated regimes and showed that predicted cyclic responses and lives agree well with experimental data from the literature.",
-          "validation": "Validation was performed by comparing predicted trends in cyclic deformation and life with experimental observations reported in the literature."
+          "motivation": "This study systematically reviews the role of critical additive manufacturing defects in the microstructure and fatigue behavior of Ti-6Al-4V alloy.",
+          "method": "A literature review synthesizing studies on mechanical testing, fractography, CT, and heat treatment of Ti-6Al-4V.",
+          "result": "Gas porosity and lack-of-fusion defects are identified as primary crack initiation sites, and post-processing heat treatments such as annealing and HIP improve microstructure and fatigue resistance.",
+          "validation": "No new experiments are conducted; conclusions are drawn from a critical analysis of existing literature."
         },
         "key_terms": [
           {
-            "en": "creep-fatigue interaction",
-            "zh": "蠕变-疲劳交互作用"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "crystal plasticity finite element",
-            "zh": "晶体塑性有限元"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           },
           {
-            "en": "entropy-based life prediction",
-            "zh": "基于熵的寿命预测"
+            "en": "post-processing",
+            "zh": "后处理"
           },
           {
-            "en": "single-crystal nickel superalloy",
-            "zh": "单晶镍基高温合金"
+            "en": "heat treatment",
+            "zh": "热处理"
           },
           {
-            "en": "thermo-mechanical loading",
-            "zh": "热-机械载荷"
+            "en": "hot isostatic pressing (HIP)",
+            "zh": "热等静压"
           },
           {
-            "en": "hold time",
-            "zh": "保载时间"
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
           },
           {
-            "en": "strain amplitude",
-            "zh": "应变幅"
+            "en": "porosity",
+            "zh": "孔隙率"
           },
           {
-            "en": "damage evolution",
-            "zh": "损伤演化"
+            "en": "lack of fusion",
+            "zh": "未熔合"
+          },
+          {
+            "en": "defects",
+            "zh": "缺陷"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:23:10Z"
+      "first_seen_at": "2026-06-07T23:31:55Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7162077745",
+      "doi": "10.63313/ajet.9059",
+      "title": "Study on Surface Micro-Texture of Ti2AlNb-based Alloy Cladding Layer by Ultrasonic and Temperature Field Assisted Milling",
+      "abstract": "Ti2AlNb-based alloy is difficult to machine due to its high thermal deformation resistance, significant work hardening and poor surface processing quality. In this paper, Ti2AlNb alloy cladding layer was prepared on Ti-6Al-4V substrate by laser cladding technology. Combined with ultrasonic vibration and temperature field assisted milling composite processing technology, the influence of ultrasonic amplitude and preheating temperature on the surface texture morphology of the alloy was investigated. The results show that ultrasonic vibration can change the material removal method, change the machined surface from ordinary parallel tool marks to regular periodic grid micro-texture, and significantly improve the surface texture regularity. Moderate preheating can improve the cutting stability through the thermal softening effect of the material, and effectively suppress the processing defects such as ploughing and tearing. As the preheating temperature increases from 30℃ to 200℃, the surface roughness continues to decrease, and the texture quality is gradually improved. Too high preheating temperature (300℃) will lead to excessive softening, sticking and thermal damage of the material, resulting in surface texture distortion and significant increase in roughness. Within the range of experimental parameters, 200℃ preheating coupled with 2μm ultrasonic amplitude can obtain the optimal surface morphology and processing quality.",
+      "authors": [
+        "Ruikang LI",
+        "Guofu Gao",
+        "Wenbin MA"
+      ],
+      "first_author_affiliation": "School of Mechanical and Power Engineering, Henan Polytechnic University, Jiaozuo, 454003, China",
+      "corresponding_authors": [
+        {
+          "name": "Ruikang LI",
+          "affiliation": "School of Mechanical and Power Engineering, Henan Polytechnic University, Jiaozuo, 454003, China"
+        }
+      ],
+      "venue": "Academic Journal of Emerging Technologies",
+      "year": 2026,
+      "date": "2026-05-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.63313/ajet.9059",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Ultrasonic sensor",
+        "Composite material",
+        "Cladding (metalworking)",
+        "Surface roughness",
+        "Alloy",
+        "Surface finish",
+        "Metallurgy",
+        "Surface integrity",
+        "Atmospheric temperature range",
+        "Texture (cosmology)",
+        "Softening",
+        "Work hardening",
+        "Surface layer",
+        "Layer (electronics)",
+        "Hardening (computing)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要研究Ti2AlNb合金的铣削表面织构，不涉及Ti-6Al-4V的机械或疲劳性能。",
+        "why_not_core": "The paper does not study mechanical or fatigue performance of additively manufactured Ti-6Al-4V; it focuses on surface micro-texture of Ti2AlNb cladding layer under milling, with no mechanical testing or fatigue data.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "surface micro-texture",
+          "Ti2AlNb",
+          "laser cladding",
+          "milling",
+          "ultrasonic vibration"
+        ],
+        "summary_zh": {
+          "motivation": "研究Ti2AlNb合金加工表面质量问题",
+          "method": "采用超声振动和温度场辅助铣削加工Ti2AlNb熔覆层",
+          "result": "200℃预热和2μm超声振幅可获得最佳表面形貌",
+          "validation": "通过表面粗糙度和微观形貌验证"
+        },
+        "summary_en": {
+          "motivation": "To improve surface quality of Ti2AlNb alloy cladding layer during machining.",
+          "method": "Ultrasonic vibration and temperature field assisted milling was applied to Ti2AlNb cladding layer on Ti-6Al-4V substrate.",
+          "result": "Optimal surface morphology was achieved at 200°C preheating and 2μm ultrasonic amplitude.",
+          "validation": "Surface roughness and microscopic morphology were used to evaluate texture quality."
+        },
+        "key_terms": [
+          {
+            "en": "ultrasonic vibration assisted milling",
+            "zh": "超声振动辅助铣削"
+          },
+          {
+            "en": "Ti2AlNb alloy",
+            "zh": "Ti2AlNb合金"
+          },
+          {
+            "en": "laser cladding",
+            "zh": "激光熔覆"
+          },
+          {
+            "en": "surface micro-texture",
+            "zh": "表面微织构"
+          },
+          {
+            "en": "preheating temperature",
+            "zh": "预热温度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:31:55Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "arxiv": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "fatigue": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Low": 1
+      "Medium": 1,
+      "Exclude": 1
     }
   }
 }

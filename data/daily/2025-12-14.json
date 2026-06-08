@@ -4,119 +4,153 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2512.12843v1",
-      "doi": "",
-      "arxiv_id": "2512.12843v1",
-      "title": "To crack, or not to crack: How hydrogen favors crack propagation in iron at the atomic scale",
-      "abstract": "Steel is a key structural material because of its considerable strength and ductility. However, when exposed to hydrogen, it is prone to embrittlement. Mechanistic understanding of the origin of hydrogen embrittlement is hampered by the lack of reliable interatomic potentials. Here, we perform large-scale molecular dynamics simulations of crack propagation after having developed and validated an efficient yet density-functional-theory-accurate machine-learning potential for hydrogen in iron. Simulations based on our potential reveal that in the absence of H, iron is intrinsically ductile at finite temperatures with crack-tip blunting assisted by dislocation emission. By contrast, minute (part-per-million) hydrogen concentrations can switch the crack-tip behavior from ductile blunting to brittle propagation. Detailed analysis of our molecular dynamics results reveals that the combination of fast hydrogen diffusion and diminished surface energy is at the origin of embrittlement. Our results set the stage for a modified Griffith's criterion for hydrogen-induced brittle fracture, which closely captures the simulations and that can be used to assess embrittlement in iron-based alloys.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4417333761",
+      "doi": "10.3390/ma18245609",
+      "title": "Effect of Laser Power on the Corrosion and Wear Resistance of Laser Cladding TC4 Alloy",
+      "abstract": "TC4 alloy coatings were fabricated on a titanium alloy substrate using laser cladding. The influence of laser power ranging from 1000 W to 2200 W on the microhardness, wear resistance, and electrochemical corrosion behavior in 3.5% NaCl solution was systematically investigated. Results demonstrate that the TC4 coating exhibited a 35.17% enhancement in microhardness compared to the substrate, with an average value reaching 500 HV. As the laser power increased from 1000 W to 2200 W, the maximum wear depth progressively decreased, indicating significantly improved wear resistance, with fatigue wear being identified as the dominant mechanism. The coating prepared at 1400 W showed the best corrosion performance, displaying the highest self-corrosion potential of −0.110 V, the lowest corrosion current density of 0.125 μA·cm−2, and the largest polarization resistance of 2.057 × 106 Ω·cm2. The charge transfer resistance initially increased and then decreased with increasing laser power. Numerical simulations revealed that when exposed to seawater, galvanic couples formed between the α and β phases on the TC4 titanium alloy surface, resulting in preferential dissolution of the β-phase.",
       "authors": [
-        "Aleksei Egorov",
-        "Lei Zhang",
-        "Erik van der Giessen",
-        "Francesco Maresca"
+        "Xiaolei Li",
+        "Sen Zhao",
+        "Kelun Zhang",
+        "Lujun Cui",
+        "Shirui Guo",
+        "Bo Zheng",
+        "Yinghao Cui",
+        "Yongqian Chen",
+        "Yue Zhao",
+        "Chunjie Xu"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "School of Materials Science and Engineering, Xi’an University of Technology, Xi’an 710048, China",
+      "corresponding_authors": [
+        {
+          "name": "Xiaolei Li",
+          "affiliation": "School of Materials Science and Engineering, Xi’an University of Technology, Xi’an 710048, China"
+        }
+      ],
+      "venue": "Materials",
       "year": 2025,
       "date": "2025-12-14",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2512.12843v1",
+      "url": "https://doi.org/10.3390/ma18245609",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Materials science",
+        "Corrosion",
+        "Alloy",
+        "Metallurgy",
+        "Indentation hardness",
+        "Coating",
+        "Laser",
+        "Laser power scaling",
+        "Titanium alloy",
+        "Titanium",
+        "Polarization (electrochemistry)",
+        "Electrochemistry",
+        "Galvanic corrosion",
+        "Composite material",
+        "Cladding (metalworking)",
+        "Substrate (aquarium)",
+        "Dissolution",
+        "Current density"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "ductility"
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "fatigue"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究铁中氢致裂纹扩展的原子尺度机制，与用户的研究方向（AI生物打印、髋关节植入物FEA替代模型、生物医学增材制造）无关。",
-        "why_not_core": "This paper focuses on atomic-scale hydrogen embrittlement in iron using molecular dynamics and machine learning potentials, with no connection to additive manufacturing, biomedical implants, or mechanical testing of AM materials.",
-        "validation_kind": "simulation_case",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要研究激光熔覆TC4涂层的腐蚀和磨损性能，而非基体金属的力学或疲劳性能，与用户关注的Ti-6Al-4V机械/疲劳方向相关性低。",
+        "why_not_core": "The paper focuses on corrosion and wear resistance of laser-cladded TC4 coatings, with no testing or modeling of tensile, ductility, or fatigue properties as required by the direction.",
+        "validation_kind": "mechanical_testing",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "hydrogen embrittlement",
-          "iron",
-          "machine learning potential",
-          "molecular dynamics",
-          "fracture"
+          "laser cladding",
+          "TC4",
+          "corrosion resistance",
+          "wear resistance",
+          "microhardness"
         ],
         "summary_zh": {
-          "motivation": "理解氢致铁脆化的原子机制",
-          "method": "开发DFT精度的机器学习势并进行大规模分子动力学裂纹模拟",
-          "result": "微量氢使裂纹尖端从韧性钝化转为脆性扩展",
-          "validation": "与DFT计算及修正的格里菲斯准则对比验证"
+          "motivation": "研究激光功率对激光熔覆TC4合金涂层腐蚀和磨损性能的影响。",
+          "method": "在不同激光功率（1000-2200 W）下制备TC4涂层，进行微观硬度、磨损和电化学腐蚀测试。",
+          "result": "1400 W时腐蚀性能最优，耐磨性随功率增加而提升，疲劳磨损为主机制。",
+          "validation": "通过实验测试和数值模拟验证涂层性能。"
         },
         "summary_en": {
-          "motivation": "To understand the atomic-scale origin of hydrogen embrittlement in iron.",
-          "method": "Developed a DFT-accurate machine-learning potential and performed large-scale molecular dynamics crack simulations.",
-          "result": "Minute hydrogen concentrations switch crack-tip behavior from ductile blunting to brittle propagation.",
-          "validation": "Validated against DFT calculations and a modified Griffith's criterion."
+          "motivation": "To investigate the effect of laser power on the corrosion and wear resistance of laser-cladded TC4 alloy coatings. ",
+          "method": "TC4 coatings were fabricated at laser powers from 1000 W to 2200 W and characterized for microhardness, wear, and electrochemical corrosion in 3.5% NaCl solution. ",
+          "result": "The coating at 1400 W exhibited the best corrosion resistance, while higher laser power improved wear resistance via fatigue wear mechanism. ",
+          "validation": "Experimental measurements and numerical simulations of galvanic corrosion between α and β phases."
         },
         "key_terms": [
           {
-            "en": "hydrogen embrittlement",
-            "zh": "氢脆"
+            "en": "laser cladding",
+            "zh": "激光熔覆"
           },
           {
-            "en": "machine learning potential",
-            "zh": "机器学习势"
+            "en": "TC4 alloy",
+            "zh": "TC4合金"
           },
           {
-            "en": "molecular dynamics",
-            "zh": "分子动力学"
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
           },
           {
-            "en": "crack propagation",
-            "zh": "裂纹扩展"
+            "en": "wear resistance",
+            "zh": "耐磨性"
           },
           {
-            "en": "iron",
-            "zh": "铁"
+            "en": "microhardness",
+            "zh": "显微硬度"
           },
           {
-            "en": "Griffith's criterion",
-            "zh": "格里菲斯准则"
+            "en": "galvanic corrosion",
+            "zh": "电偶腐蚀"
+          },
+          {
+            "en": "fatigue wear",
+            "zh": "疲劳磨损"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:17:08Z"
+      "first_seen_at": "2026-06-07T23:21:34Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {
-      "Exclude": 1
+      "Low": 1
     }
   }
 }

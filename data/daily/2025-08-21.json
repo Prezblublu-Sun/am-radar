@@ -4,57 +4,63 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2508.15596v1",
-      "doi": "10.1016/j.jmst.2024.11.026",
-      "arxiv_id": "2508.15596v1",
-      "title": "Ultrastrong and ductile CoNiMoAl medium-entropy alloys enabled by L12 nanoprecipitate-induced multiple deformation mechanisms",
-      "abstract": "L12 precipitates are known to significantly enhance the strength and ductility of single-phase face-centered cubic (FCC) medium- or high-entropy alloys (M/HEAs). However, further improvements in mechanical properties remain untapped, as alloy design has historically focused on systems with specific CrCoNi- or FeCoCrNi-based FCC matrix and Ni3Al L12 phase compositions. This study introduces novel Co-Ni-Mo-Al alloys with L12 precipitates by systematically altering Al content, aiming to bridge this research gap by revealing the strengthening mechanisms. The (CoNi)81Mo12Al7 alloy achieves yield strength of 1086 MPa, tensile strength of 1520 MPa, and ductility of 35 %, demonstrating an impressive synergy of strength, ductility, and strain-hardening capacity. Dislocation analysis via transmission electron microscopy, supported by generalized stacking fault energy (GSFE) calculations using density functional theory (DFT), demonstrates that Mo substitution for Al in the L12 phase alters dislocation behavior, promoting the formation of multiple deformation modes, including stacking faults, super-dislocation pairs, Lomer-Cottrell locks, and unusual nano-twin formation even at low strains. These behaviors are facilitated by the low stacking fault energy (SFE) of the FCC matrix, overlapping of SFs, and dislocation dissociation across anti-phase boundaries (APBs). The increased energy barrier for superlattice intrinsic stacking fault (SISF) formation compared to APBs, due to Mo substitution, further influences dislocation activity. This work demonstrates a novel strategy for designing high-performance M/HEAs by expanding the range of FCC matrix and L12 compositions through precipitation hardening.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4413384692",
+      "doi": "10.1016/j.susmat.2025.e01606",
+      "title": "Evaluating the use of scrap metal to produce Al-5Cu-3Ti-1Cr-1Fe alloy powder for laser powder bed fusion",
+      "abstract": "This study compares the production of Al-5Cu-3Ti-1Cr-1Fe alloy powders for laser powder bed fusion (PBF-LB/M) using either virgin or recycled and scrap materials as feedstock. As for the latter, three different material sources, namely aluminum 2024, Ti-6Al-4V and AISI 316L, were selected to reproduce the target alloy composition by gas atomization. The feasibility of achieving high-quality alloyed powder from mixed scrap sources was demonstrated, with particular focus on processability, mechanical performance, and environmental impact. Both powders produced from scrap/recycled (Re-Alloy) and virgin (V-Alloy) feedstock materials were processed via PBF-LB/M to compare their printability, and the manufactured samples were tested to evaluate their mechanical properties. The Re-Alloy exhibited a stable PBF-LB/M processability over a wide set of parameters, attributed to the presence of elements like Si and Mg, which improved laser absorptivity. Mechanical testing revealed comparable properties, with the Re-Alloy achieving slightly lower strength but higher elongation at break due to the reduced Fe content. Finally, a life cycle assessment (LCA) analysis quantified the environmental impacts, showing a significant reduction of approximately 50% in the carbon footprint for the Re-Alloy powders (15.5 ±1.0 kgCO 2 /kg) compared to the V-Alloy (31.5 ±1.8 kgCO 2 /kg). The carbon footprint of the PBF-LB/M process itself was measured at 15.2 ±1.2 kgCO 2 /kg of deposited material. This research highlights the potential of using recycled and waste materials to reduce the environmental impact of metal powder production while maintaining technical feasibility. The findings offer a promising approach for enhancing the sustainability of additive manufacturing processes.",
       "authors": [
-        "Min Young Sung",
-        "Tae Jin Jang",
-        "Sang Yoon Song",
-        "Gunjick Lee",
-        "KenHee Ryou",
-        "Sang-Ho Oh",
-        "Byeong-Joo Lee",
-        "Pyuck-Pa Choi",
-        "Jörg Neugebauer",
-        "Blazej Grabowski",
-        "Fritz Körmann",
-        "Yuji Ikeda",
-        "Alireza Zargaran",
-        "Seok Su Sohn"
+        "Chiara Monti",
+        "Federico Simone Gobber",
+        "Matteo Turani",
+        "Konrad Papis",
+        "Paolo C. Priarone",
+        "Marco Actis Grande",
+        "Markus Bambach�"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Advanced Manufacturing Laboratory, ETH Zürich, Switzerland",
+      "corresponding_authors": [
+        {
+          "name": "Chiara Monti",
+          "affiliation": "Advanced Manufacturing Laboratory, ETH Zürich, Switzerland"
+        }
+      ],
+      "venue": "Sustainable materials and technologies",
       "year": 2025,
       "date": "2025-08-21",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2508.15596v1",
+      "url": "https://doi.org/10.1016/j.susmat.2025.e01606",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Scrap",
+        "Materials science",
+        "Fusion",
+        "Alloy",
+        "Metallurgy",
+        "Laser",
+        "Metal",
+        "Metal powder"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "tensile strength",
-          "yield strength",
-          "ductility"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "elongation"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究传统铸造合金的力学性能，与增材制造力学性能方向无关。",
-        "why_not_core": "This paper does not involve additive manufacturing, no AM processing, no AM-specific microstructures or defects.",
+        "relevance_to_user": "该论文主要研究利用回收废料生产Al-5Cu-3Ti-1Cr-1Fe合金粉末，而非Ti-6Al-4V的力学或疲劳性能。",
+        "why_not_core": "The paper focuses on an aluminum-based alloy (Al-5Cu-3Ti-1Cr-1Fe) for LPBF, not on Ti-6Al-4V mechanical or fatigue properties.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -63,120 +69,116 @@
           "is_review": false
         },
         "tags": [
-          "medium-entropy alloys",
-          "L12 precipitates",
+          "scrap metal",
+          "recycled powder",
+          "Al-5Cu-3Ti-1Cr-1Fe",
+          "laser powder bed fusion",
           "mechanical properties",
-          "deformation mechanisms",
-          "stacking fault energy"
+          "life cycle assessment"
         ],
         "summary_zh": {
-          "motivation": "探索新型CoNiMoAl中熵合金中L12析出相的强化机制。",
-          "method": "通过改变Al含量设计合金，结合DFT计算和TEM分析变形行为。",
-          "result": "(CoNi)81Mo12Al7合金实现1086 MPa屈服强度、1520 MPa抗拉强度和35%塑性。",
-          "validation": "通过拉伸测试、TEM和DFT计算验证。"
+          "motivation": "利用回收废料生产金属粉末以减少环境影响",
+          "method": "气体雾化法从混合废料制备Al-5Cu-3Ti-1Cr-1Fe粉末，PBF-LB/M打印",
+          "result": "回收粉末打印件力学性能与纯原料相当，碳足迹减少约50%",
+          "validation": "力学测试和生命周期评估"
         },
         "summary_en": {
-          "motivation": "To uncover the strengthening mechanisms in novel Co-Ni-Mo-Al medium-entropy alloys with L12 precipitates by systematically varying Al content.",
-          "method": "Alloy design with varying Al content, combined with DFT calculations of generalized stacking fault energy and TEM dislocation analysis.",
-          "result": "The (CoNi)81Mo12Al7 alloy achieves yield strength of 1086 MPa, tensile strength of 1520 MPa, and ductility of 35%, with multiple deformation modes including stacking faults and nanotwins.",
-          "validation": "Mechanical tensile testing, TEM characterization, and DFT calculations."
+          "motivation": "To reduce environmental impact by using scrap metal to produce alloy powder for additive manufacturing",
+          "method": "Gas atomization of mixed scrap (Al2024, Ti-6Al-4V, AISI316L) to produce Al-5Cu-3Ti-1Cr-1Fe powder, then processed by laser powder bed fusion",
+          "result": "Recycled-alloy powder showed comparable mechanical properties to virgin-alloy powder and achieved ~50% reduction in carbon footprint",
+          "validation": "Mechanical testing (tensile, elongation) and life cycle assessment"
         },
         "key_terms": [
           {
-            "en": "medium-entropy alloys",
-            "zh": "中熵合金"
+            "en": "scrap metal recycling",
+            "zh": "废金属回收"
           },
           {
-            "en": "L12 precipitates",
-            "zh": "L12析出相"
+            "en": "gas atomization",
+            "zh": "气体雾化"
           },
           {
-            "en": "yield strength",
-            "zh": "屈服强度"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "ductility",
-            "zh": "塑性"
+            "en": "Al-5Cu-3Ti-1Cr-1Fe",
+            "zh": "铝-铜-钛-铬-铁合金"
           },
           {
-            "en": "stacking fault energy",
-            "zh": "层错能"
+            "en": "mechanical properties",
+            "zh": "力学性能"
           },
           {
-            "en": "dislocation dissociation",
-            "zh": "位错分解"
+            "en": "life cycle assessment",
+            "zh": "生命周期评估"
           },
           {
-            "en": "tensile strength",
-            "zh": "抗拉强度"
-          },
-          {
-            "en": "precipitation hardening",
-            "zh": "析出强化"
-          },
-          {
-            "en": "deformation modes",
-            "zh": "变形模式"
-          },
-          {
-            "en": "nano-twin",
-            "zh": "纳米孪晶"
+            "en": "carbon footprint",
+            "zh": "碳足迹"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:12:37Z"
+      "first_seen_at": "2026-06-07T23:13:39Z"
     },
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2508.15382v2",
-      "doi": "",
-      "arxiv_id": "2508.15382v2",
-      "title": "Strong lead-free bioinspired piezoceramics for durable energy transducers",
-      "abstract": "Durable, high-performance and eco-friendly lead-free piezoceramics are essential for next-generation sustainable energy transducers and electromechanical systems. While significant performance enhancements have been made, through chemical composition, texture, or crystal defects, piezoceramics are intrinsically weak mechanically, which negatively impact their working conditions and durability. What's more, improving comprehensive mechanical durability without sacrificing piezoelectric performance remains a key challenge. Here, we design bioinspired Bi0.5Na0.5TiO3 (BNT) ceramics using a scalable colloidal process that enables multiscale control over the microstructure. The design comprises plate-like monocrystalline BNT bricks stacked to induce a crystallographic texture along the poling direction, bonded together by a silica-based mortar, forming the brick-and-mortar phase. This deliberate microstructure design yields 2- to 3-fold increase in flexural strength, and 1.6- to 2-fold increase in fracture toughness compared with a BNT synthesized conventionally, comparable to common structural ceramics, without sacrificing the piezoelectric performance. In addition, the bioinspired BNT exhibit dramatically enhanced ferroelectric fatigue resistance, with a 10- to 15-folds improvement in the number of field-induced electromechanical cycles before failure. These gains originate from anisotropic residual stress fields, revealed by Raman spectroscopy and XRD, which delay crack initiation events. Furthermore, we demonstrated enhanced transducing capability and electromechanical fatigue resistance using a cantilever beam-based piezoelectric transducer under bending mode. Given its non-chemical-compositional origin, this bioinspired strategy could be broadly applicable to other piezoelectric material systems for applications where both functional and structural performance are critical.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4413414059",
+      "doi": "10.1038/s41598-025-16282-0",
+      "title": "Microstructure and corrosion resistance of hybrid additively manufactured Ti-6Al-4V via laser powder bed fusion",
+      "abstract": "Over the last decade, the Hybrid Additive Manufacturing (HAM) approach has been introduced to synergistically combine the design flexibility of Additive Manufacturing (AM) with the larger build volume and faster production rates offered by conventional manufacturing methods. In this work, Ti-6Al-4V powder was printed on the conventional machined Ti-6Al-4V substrate by laser powder bed fusion (LPBF), and the corrosion behavior was studied in 3.5 wt.% NaCl and 0.5 M H2SO4 solutions. The multi-material part’s interface characteristics, microstructure, and microhardness properties were investigated. In addition, the corrosion behaviors of the LPBF, hybrid, and substrate Ti-6Al-4V parts were characterized, with subsequent analysis of the bimetallic structure’s corroded surface morphology and composition. The corrosion behavior across all samples in each solution followed similar trends with minor variations. However, the hybrid component with strong and defect-free interfacial bonding demonstrates the feasibility of HAM in maintaining comparable corrosion performance to that of individual materials. Microstructural features of Ti-6Al-4V, including grain morphology, phase fraction, and oxide layer formation, tend to substantially influence corrosion resistance in saline and acidic environments.",
       "authors": [
-        "Ruxue Yang",
-        "Temesgen Tadeyos Zate",
-        "Peiren Wang",
-        "Soumyajit Mojumder",
-        "Elo Overgaard Mogensen",
-        "Oriol Gavalda-Diaz",
-        "Zihe Li",
-        "Ajeet Kumar",
-        "James Roscow",
-        "Hamideh Khanbareh",
-        "Astri Bjørnetun Haugen",
-        "Florian Bouville"
+        "Omer F. Mohamed",
+        "Linda Ismail",
+        "Chandrabhan Verma",
+        "Imad Barsoum",
+        "Akram AlFantazi",
+        "Andreas Schiffer"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Advanced Research and Innovation Center (ARIC), Khalifa University of Science and Technology, Abu Dhabi, 127788, United Arab Emirates",
+      "corresponding_authors": [
+        {
+          "name": "Omer F. Mohamed",
+          "affiliation": "Advanced Research and Innovation Center (ARIC), Khalifa University of Science and Technology, Abu Dhabi, 127788, United Arab Emirates"
+        }
+      ],
+      "venue": "Scientific Reports",
       "year": 2025,
       "date": "2025-08-21",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2508.15382v2",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "physics.app-ph"
+      "url": "https://doi.org/10.1038/s41598-025-16282-0",
+      "cited_by_count": 1,
+      "concepts": [
+        "Microstructure",
+        "Fusion",
+        "Materials science",
+        "Corrosion",
+        "Metallurgy",
+        "Laser",
+        "Composite material"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "fracture toughness"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "defect"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究仿生压电陶瓷的力学性能，与增材制造（AM）的力学性能研究方向无关。",
-        "why_not_core": "This paper does not involve additive manufacturing (AM) processes or AM mechanical properties; it focuses on colloidal processing of ceramics.",
+        "relevance_to_user": "论文研究混合增材制造Ti-6Al-4V的腐蚀性能，而非力学或疲劳性能。",
+        "why_not_core": "The paper investigates corrosion resistance, not mechanical/fatigue properties; no tensile, fatigue, or crack growth data.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -185,71 +187,68 @@
           "is_review": false
         },
         "tags": [
-          "piezoceramics",
-          "bioinspired",
-          "mechanical properties",
-          "energy transducers"
+          "hybrid additive manufacturing",
+          "corrosion",
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "microhardness"
         ],
         "summary_zh": {
-          "motivation": "提高无铅压电陶瓷的力学耐久性而不牺牲压电性能。",
-          "method": "采用可扩展的胶体工艺制备砖泥结构的仿生BNT陶瓷。",
-          "result": "弯曲强度和断裂韧性提升2-3倍和1.6-2倍，抗疲劳性提升10-15倍。",
-          "validation": "通过Raman光谱、XRD和悬臂梁换能器弯曲模式验证。"
+          "motivation": "研究混合增材制造Ti-6Al-4V的腐蚀行为。",
+          "method": "采用激光粉末床熔融在机加工基底上打印Ti-6Al-4V粉末。",
+          "result": "混合部件腐蚀性能与单独材料相当。",
+          "validation": "通过电化学测试和微观结构表征验证。"
         },
         "summary_en": {
-          "motivation": "To enhance the mechanical durability of lead-free piezoceramics without compromising piezoelectric performance.",
-          "method": "Bioinspired brick-and-mortar microstructure in BNT ceramics was fabricated via a scalable colloidal process.",
-          "result": "Flexural strength and fracture toughness were improved 2- to 3-fold and 1.6- to 2-fold, respectively, with 10- to 15-fold enhanced fatigue resistance.",
-          "validation": "Anisotropic residual stress fields were confirmed by Raman spectroscopy and XRD, and electromechanical fatigue resistance was demonstrated in cantilever beam transducers."
+          "motivation": "To evaluate the corrosion performance of hybrid additively manufactured Ti-6Al-4V combining LPBF and conventionally machined substrate.",
+          "method": "Ti-6Al-4V powder was deposited on machined substrate via laser powder bed fusion, and the interface microstructure, microhardness, and corrosion behavior in NaCl and H2SO4 solutions were characterized.",
+          "result": "The hybrid component exhibited comparable corrosion resistance to monolithic LPBF and substrate parts, with strong interfacial bonding.",
+          "validation": "Electrochemical tests (potentiodynamic polarization, EIS) and SEM/EDS analysis of corroded surfaces validated the findings."
         },
         "key_terms": [
           {
-            "en": "lead-free piezoceramics",
-            "zh": "无铅压电陶瓷"
+            "en": "hybrid additive manufacturing",
+            "zh": "混合增材制造"
           },
           {
-            "en": "bioinspired",
-            "zh": "仿生"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "brick-and-mortar structure",
-            "zh": "砖泥结构"
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
           },
           {
-            "en": "flexural strength",
-            "zh": "弯曲强度"
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性能"
           },
           {
-            "en": "fracture toughness",
-            "zh": "断裂韧性"
+            "en": "microhardness",
+            "zh": "显微硬度"
           },
           {
-            "en": "ferroelectric fatigue",
-            "zh": "铁电疲劳"
-          },
-          {
-            "en": "piezoelectric transducer",
-            "zh": "压电换能器"
+            "en": "interface bonding",
+            "zh": "界面结合"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:12:37Z"
+      "first_seen_at": "2026-06-07T23:13:39Z"
     }
   ],
   "counts": {
     "fetched_total": 2,
     "by_source": {
-      "arxiv": 2
+      "openalex": 2
     },
     "after_dedup": 2,
     "after_routing": 2,
     "by_direction": {
-      "mechanical_properties": 2
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "arxiv": 2
+      "openalex": 2
     },
     "scored": 2,
     "priority_counts": {

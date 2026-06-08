@@ -5,131 +5,111 @@
   "papers": [
     {
       "source": "openalex",
-      "id": "https://openalex.org/W4413287083",
-      "doi": "10.1007/s10237-025-01985-0",
-      "title": "Finite element analysis of stem migration after total hip replacement",
-      "abstract": "After total hip replacement, the primary and secondary implant stability is critical to ensure long-term success. Excessive migration of the femoral stem can cause implant loosening. In this work, a novel approach for the simulation of the femoral stem migration using the finite element method is presented. Currently, only a few mostly contact-based models exist for this purpose. Instead, a bio-active interface model is used for the bone-stem interface which transforms from the Drucker-Prager to the von Mises plasticity criterion during the osseointegration process. As the position of the implant generally stabilises within one week after the implantation, the migration and osseointegration simulations are decoupled. To understand the effects on the migration, various parameter combinations are examined and a sensitivity analysis is performed. The results indicate that the joint force and the adhesion parameter have the most substantial influence on the migration. Furthermore, the influence of the migration on the subsequent osseointegration process is explored for a numerical example. The proposed model is able to depict the femoral stem migration with values up to 0.27 mm, which are in the order of magnitude of clinically observed values. Further, the model is provided as an open-source Abaqus user material subroutine. Numerical simulation of the stem migration could assist in clinical decision-making by identifying optimal parameter combinations to improve implant stability.",
+      "id": "https://openalex.org/W4413283059",
+      "doi": "10.1007/s43939-025-00359-8",
+      "title": "Investigation and optimization of the laser Polishing parameters for Ti6Al4V",
+      "abstract": "This study investigated the laser polishing of the Ti6Al4V alloy to improve the surface finish and reduce roughness. A comprehensive experimental and simulation approach was employed, utilizing a Brimo MF50 laser system under varying process parameters. The response surface methodology was employed to model the relationship between the reduction in surface roughness and laser power, pulse width, and repetition frequency. Thermal analysis using simulations revealed the optimal combinations of these parameters that would reduce the surface roughness and mitigate adverse effects such as excessive material degradation. The results indicate that the laser power is the main factor determining the surface roughness reduction, with significant contributions from interactions between power, pulse width, and repetition frequency. Experiments show that polishing at a power of 40 W, repetition frequency of 175 kHz, and pulse width of 250 ns results in the highest roughness reduction, consistent with the simulation results. Statistical validation was used to obtain critical insights into the laser–material interaction mechanism and offer practical guidelines for optimizing the laser polishing process in the advanced manufacturing of Ti6Al4V components. In this study, the combination method of simulation, experimentation, and optimization suggested key technological parameters for the Ti6Al4V alloy polishing process using laser, which could be extensively applied in industry.",
       "authors": [
-        "Marlis Reiber",
-        "Fynn Bensel",
-        "Nils Becker",
-        "Stefan Budde",
-        "Udo Nackenhorst"
+        "Van-Thien Tran",
+        "Cong-Tuan Truong",
+        "Thanh Tung Vu"
       ],
-      "first_author_affiliation": "Institute of Mechanics and Computational Mechanics (IBNM), Leibniz University Hannover, Appelstraße 9a, 30167, Hannover, Germany. marlis.reiber@ibnm.uni-hannover.de",
+      "first_author_affiliation": "School of Mechanical Engineering, Hanoi University of Science and Technology, Hanoi, Vietnam",
       "corresponding_authors": [
         {
-          "name": "Marlis Reiber",
-          "affiliation": "Institute of Mechanics and Computational Mechanics (IBNM), Leibniz University Hannover, Appelstraße 9a, 30167, Hannover, Germany. marlis.reiber@ibnm.uni-hannover.de"
+          "name": "Van-Thien Tran",
+          "affiliation": "School of Mechanical Engineering, Hanoi University of Science and Technology, Hanoi, Vietnam"
         }
       ],
-      "venue": "Biomechanics and Modeling in Mechanobiology",
+      "venue": "Discover Materials",
       "year": 2025,
       "date": "2025-08-18",
       "date_precision": "day",
-      "url": "https://doi.org/10.1007/s10237-025-01985-0",
-      "cited_by_count": 1,
+      "url": "https://doi.org/10.1007/s43939-025-00359-8",
+      "cited_by_count": 0,
       "concepts": [
-        "Osseointegration",
-        "Finite element method",
-        "Implant",
-        "von Mises yield criterion",
+        "Polishing",
+        "Laser",
+        "Titanium alloy",
         "Materials science",
-        "Biomedical engineering",
-        "Subroutine",
-        "Process (computing)",
-        "Joint (building)",
-        "Mechanics",
-        "Computer science",
-        "Simulation"
+        "Computer science"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "am_femoral_stem"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "polishing"
         ]
       },
       "llm": {
-        "priority": "High",
-        "relevance_level": "Direct",
-        "read_action": "Read now",
-        "relevance_to_user": "该论文直接针对股骨柄迁移模拟，与用户研究方向中的髋关节植入物稳定性分析高度相关。",
-        "why_not_core": "Does not address additive manufacturing (AM) design or fabrication of femoral stems, focusing solely on numerical simulation of migration.",
-        "validation_kind": "simulation_case",
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文仅关注激光抛光参数优化对表面粗糙度的影响，未涉及力学性能或疲劳性能，与用户需求（后处理对疲劳/力学性能的影响）相关性较低。",
+        "why_not_core": "This paper only investigates surface roughness reduction from laser polishing and does not report on the effect on mechanical performance (fatigue, tensile) or microstructure changes, which are the core focus of the post-processing direction.",
+        "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "femoral stem",
-          "stem migration",
-          "finite element analysis",
-          "osseointegration",
-          "total hip replacement",
-          "sensitivity analysis"
+          "Ti6Al4V",
+          "laser polishing",
+          "surface roughness",
+          "response surface methodology",
+          "thermal simulation"
         ],
         "summary_zh": {
-          "motivation": "开发一种模拟全髋关节置换后股骨柄迁移的有限元方法",
-          "method": "使用生物活性界面模型，结合Drucker-Prager和von Mises准则，解耦迁移和骨整合模拟",
-          "result": "发现关节力和粘附参数对迁移影响最大，模拟迁移值达0.27 mm，与临床观察一致",
-          "validation": "通过数值算例与临床观察值对比验证"
+          "motivation": "改善Ti6Al4V表面质量",
+          "method": "实验与仿真结合，响应面法优化参数",
+          "result": "40W功率下粗糙度降低最大",
+          "validation": "实验与仿真对比验证"
         },
         "summary_en": {
-          "motivation": "Develop a finite element approach to simulate femoral stem migration after total hip replacement to assess implant stability.",
-          "method": "A bio-active interface model transitioning from Drucker-Prager to von Mises plasticity is used, with decoupled migration and osseointegration simulations.",
-          "result": "Joint force and adhesion parameter have the most substantial influence on migration, with values up to 0.27 mm, consistent with clinical observations.",
-          "validation": "Numerical simulation case compared to clinically observed migration magnitudes."
+          "motivation": "To improve surface finish of Ti6Al4V by laser polishing",
+          "method": "Combined experimental and simulation approach with response surface methodology to optimize process parameters",
+          "result": "Optimal parameters (40 W, 175 kHz, 250 ns) achieved highest roughness reduction",
+          "validation": "Experimental measurements validated by thermal simulations"
         },
         "key_terms": [
           {
-            "en": "femoral stem",
-            "zh": "股骨柄"
+            "en": "laser polishing",
+            "zh": "激光抛光"
           },
           {
-            "en": "stem migration",
-            "zh": "柄迁移"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
           },
           {
-            "en": "finite element analysis",
-            "zh": "有限元分析"
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           },
           {
-            "en": "osseointegration",
-            "zh": "骨整合"
+            "en": "response surface methodology",
+            "zh": "响应面法"
           },
           {
-            "en": "sensitivity analysis",
-            "zh": "灵敏度分析"
-          },
-          {
-            "en": "Drucker-Prager criterion",
-            "zh": "Drucker-Prager准则"
-          },
-          {
-            "en": "von Mises criterion",
-            "zh": "von Mises准则"
-          },
-          {
-            "en": "total hip replacement",
-            "zh": "全髋关节置换"
-          },
-          {
-            "en": "implant stability",
-            "zh": "植入物稳定性"
+            "en": "thermal simulation",
+            "zh": "热模拟"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:12:37Z"
+      "first_seen_at": "2026-06-07T23:13:39Z"
     }
   ],
   "counts": {
@@ -140,14 +120,14 @@
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "am_femoral_stem": 1
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
       "openalex": 1
     },
     "scored": 1,
     "priority_counts": {
-      "High": 1
+      "Low": 1
     }
   }
 }

@@ -4,50 +4,72 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2511.05750v1",
-      "doi": "",
-      "arxiv_id": "2511.05750v1",
-      "title": "From Quantum Annealing to Alloy Discovery: Towards Accelerated Design of High-Entropy Alloys",
-      "abstract": "Data scarcity remains a central challenge in materials discovery, where finding meaningful descriptors and tuning models for generalization is critical but inherently a discrete optimization problem prone to multiple local minima confounding the true optimal state. Classical methods often get trapped in these minima, while quantum annealing can escape them via quantum fluctuations, including tunneling, that overcome narrow energy barriers. We present a quantum-assisted machine-learning (QaML) framework that employs quantum annealing to address these combinatorial optimization challenges through feature selection, support-vector training formulated in QUBO form for classification and regression, and a new QUBO-based neural-network pruning formulation. Recursive batching enables quantum annealing to handle large feature spaces beyond current qubit limits, while quantum-pruned networks exhibit superior generalization over classical methods, suggesting that quantum annealing preferentially samples flatter, more stable regions of the loss landscape. Applied to high-entropy alloys (HEAs), a data-limited but compositionally complex testbed, the framework integrates models for fracture-strain classification and yield-strength regression under physics-based constraints. The framework identified and experimentally validated Al8Cr38Fe50Mn2Ti2 (at.%), a single-phase BCC alloy exhibiting a 0.2 % yield strength of 568 MPa, greater than 40 % compressive strain without fracture, and a critical current density in reducing acid nearly an order of magnitude lower than 304 stainless steel. These results establish QA as a practical route to overcome classical optimization limits and accelerate materials discovery.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4415993047",
+      "doi": "10.1038/s41598-025-24965-x",
+      "title": "In vitro evaluation of biocompatibility of Ti–20Zr–3Mo–3Sn β-alloy for oral implantology",
+      "abstract": "The development of new titanium alloys for dental implants aims to eliminate potentially cytotoxic elements while achieving mechanical properties compatible with bone, particularly a low elastic modulus. This study evaluates the in vitro biocompatibility and mechanical performance of a newly developed β-type Ti-20Zr-3Mo-3Sn (Ti2033) alloy, in comparison with Ti-14Zr and Ti-6Al-4V, two reference alloys used in oral implantology. Mechanical properties were assessed by tensile testing and hardness measurements, while biocompatibility was evaluated using MTT and wound healing assays on osteoblastic cells (Saos-2). Ti2033 exhibits a significantly reduced Young's modulus (52 GPa), nearly 50% that of the reference alloys, thereby improving mechanical compatibility with bone. Although its ultimate tensile strength (825 MPa) and hardness (300 HV) are slightly lower, Ti2033 shows good ductility (elongation at rupture: 10%). No cytotoxic effects were observed, and cellular viability and migration were comparable among the three alloys. These findings suggest that Ti2033 combines mechanical performance and biocompatibility, making it a promising candidate for endosseous dental implant applications.",
       "authors": [
-        "Diego Ibarra-Hoyos",
-        "Peter Connors",
-        "Ho Jang",
-        "Nathan Grain",
-        "Israel Klich",
-        "Gia-Wei Chern",
-        "Peter K. Liaw",
-        "John R. Scully",
-        "Joseph Poon"
+        "Etienne Lefrançois",
+        "D.M. Gordin",
+        "Pascal Pellen‐Mussi",
+        "Sylvie Tricot",
+        "T. Gloriant",
+        "Yvan Bédouin"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Department of Prosthodontics, University of Rennes, Pôle odontologie, CHU Rennes, 2 rue Henri Le Guilloux, 35033, Rennes, France. etienne.lefrancois@univ-rennes.fr",
+      "corresponding_authors": [
+        {
+          "name": "Etienne Lefrançois",
+          "affiliation": "Department of Prosthodontics, University of Rennes, Pôle odontologie, CHU Rennes, 2 rue Henri Le Guilloux, 35033, Rennes, France. etienne.lefrancois@univ-rennes.fr"
+        }
+      ],
+      "venue": "Scientific Reports",
       "year": 2025,
       "date": "2025-11-07",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2511.05750v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.1038/s41598-025-24965-x",
+      "cited_by_count": 2,
+      "concepts": [
+        "Biocompatibility",
+        "Ultimate tensile strength",
+        "Materials science",
+        "Biomedical engineering",
+        "Implant",
+        "Young's modulus",
+        "Dental implant",
+        "Materials testing",
+        "In vitro",
+        "Elastic modulus",
+        "Wound healing",
+        "Modulus",
+        "Ductility (Earth science)",
+        "Dentistry",
+        "Tensile testing"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "yield strength"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "tensile strength",
+          "ultimate tensile strength",
+          "elongation",
+          "ductility"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文涉及量子退火在高熵合金发现中的应用，与用户的生物打印、髋关节植入物、FEA代理模型及生物医学增材制造方向无关。",
-        "why_not_core": "This paper does not involve additive manufacturing, biomedical implants, hip implant mechanics, or FEA surrogate modeling; it focuses on quantum annealing for bulk alloy discovery.",
+        "relevance_to_user": "该论文研究的是新型Ti-20Zr-3Mo-3Sn合金，并非增材制造Ti-6Al-4V，与用户方向无关。",
+        "why_not_core": "The paper does not study additively manufactured Ti-6Al-4V; it investigates a different alloy (Ti-20Zr-3Mo-3Sn) for dental implant applications and lacks fatigue testing.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -56,76 +78,63 @@
           "is_review": false
         },
         "tags": [
-          "quantum annealing",
-          "high-entropy alloys",
-          "materials discovery",
-          "machine learning",
-          "QUBO"
+          "Ti-20Zr-3Mo-3Sn",
+          "dental implant",
+          "biocompatibility",
+          "tensile testing"
         ],
         "summary_zh": {
-          "motivation": "数据稀缺下材料发现中离散优化问题。",
-          "method": "量子退火结合机器学习进行特征选择、SVM、神经网络剪枝。",
-          "result": "发现并验证了一种高性能高熵合金Al8Cr38Fe50Mn2Ti2。",
-          "validation": "实验验证一种合金的压缩力学性能。"
+          "motivation": "开发低弹性模量、无细胞毒性的新型牙科植入钛合金。",
+          "method": "通过拉伸测试、硬度和细胞活性评估Ti2033合金的力学与生物相容性。",
+          "result": "Ti2033合金弹性模量52 GPa，抗拉强度825 MPa，无细胞毒性。",
+          "validation": "力学测试与体外细胞实验验证。"
         },
         "summary_en": {
-          "motivation": "Overcome data scarcity and local minima in materials discovery using quantum annealing for combinatorial optimization.",
-          "method": "A quantum-assisted machine learning framework integrating QUBO formulations for feature selection, SVM, and neural network pruning with recursive batching.",
-          "result": "Identified and experimentally validated Al8Cr38Fe50Mn2Ti2 HEA with 568 MPa yield strength and >40% compressive strain.",
-          "validation": "Experimental mechanical testing of one fabricated alloy under compression."
+          "motivation": "To develop a new titanium alloy with low elastic modulus and no cytotoxic elements for dental implant applications.",
+          "method": "Mechanical properties were measured via tensile testing and hardness, and biocompatibility was assessed using MTT and wound healing assays on Saos-2 osteoblastic cells.",
+          "result": "Ti-20Zr-3Mo-3Sn alloy showed a Young's modulus of 52 GPa, ultimate tensile strength of 825 MPa, and no cytotoxic effects.",
+          "validation": "Validation through in vitro cell assays and standard mechanical testing."
         },
         "key_terms": [
           {
-            "en": "quantum annealing",
-            "zh": "量子退火"
+            "en": "Ti-20Zr-3Mo-3Sn",
+            "zh": "Ti-20Zr-3Mo-3Sn合金"
           },
           {
-            "en": "high-entropy alloys",
-            "zh": "高熵合金"
+            "en": "dental implant",
+            "zh": "牙科植入体"
           },
           {
-            "en": "feature selection",
-            "zh": "特征选择"
+            "en": "biocompatibility",
+            "zh": "生物相容性"
           },
           {
-            "en": "QUBO",
-            "zh": "二次无约束二元优化"
+            "en": "tensile testing",
+            "zh": "拉伸测试"
           },
           {
-            "en": "support vector machine",
-            "zh": "支持向量机"
-          },
-          {
-            "en": "neural network pruning",
-            "zh": "神经网络剪枝"
-          },
-          {
-            "en": "yield strength",
-            "zh": "屈服强度"
-          },
-          {
-            "en": "materials discovery",
-            "zh": "材料发现"
+            "en": "Young's modulus",
+            "zh": "杨氏模量"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:15:55Z"
+      "first_seen_at": "2026-06-07T23:19:10Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {

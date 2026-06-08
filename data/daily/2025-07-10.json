@@ -1,0 +1,164 @@
+{
+  "schema_version": "v2",
+  "date": "2025-07-10",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412190134",
+      "doi": "10.3390/ma18143251",
+      "title": "Development of Viscoplastic Constitutive Model Considering Heating Rate Effect on Grain Size and Phase Evolution in Hot Deformation",
+      "abstract": "The heating rates and forming temperatures during the hot forming process of titanium alloys cause significant differences in phase transformation, grain size, and dislocation evolution. The formability and service performance of titanium alloy formed components are affected by these factors. This study investigated the hot flow behaviors of Ti-6Al-4V at temperatures ranging from 800 to 900 °C and heating rates ranging from 0.1 to 10 °C/s. These were tested via Gleeble hot tensile experiments, and the grain size and phase evolution were quantitatively characterized via EBSD and XRD. The results suggest that a higher heating rate decreases the β-phase transformation and dislocation density and inhibits grain coarsening, leading to better formability. The heating rate was introduced into the viscoplastic constitutive model for the first time to achieve accurate predictions of the microstructure and hot flow behavior under different heating rates. The prediction accuracy of the hot flow behavior and phase volume fraction reaches 92.93% and 94.97%. The current-assisted hot stamping experiments and finite element (FE) simulations of Ti-6Al-4V irregular cross-section components were carried out at temperatures of 800 and 900 °C and at heating rates of 1 and 3 °C/s. The results show that the rapidly heated formed components exhibit better thickness uniformity and yield strength. The FE simulation guided by the optimized constitutive model has achieved a 96.96% and 92.76% prediction accuracy for the thickness distribution and β-phase volume fraction, respectively.",
+      "authors": [
+        "Gao Zheng",
+        "Shengyu Liu",
+        "Jiatian Lin",
+        "Zhihan Wang",
+        "Dechong Li",
+        "Kailun Zheng"
+      ],
+      "first_author_affiliation": "School of Mechanical Engineering, Dalian University of Technology, Dalian 116024, China",
+      "corresponding_authors": [
+        {
+          "name": "Dechong Li",
+          "affiliation": "School of Mechanical Engineering, Dalian University of Technology, Dalian 116024, China"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-07-10",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18143251",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Formability",
+        "Viscoplasticity",
+        "Grain size",
+        "Volume fraction",
+        "Composite material",
+        "Deformation (meteorology)",
+        "Constitutive equation",
+        "Metallurgy",
+        "Microstructure",
+        "Flow stress",
+        "Ultimate tensile strength",
+        "Phase (matter)",
+        "Dislocation"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "yield strength"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是Ti-6Al-4V的热变形行为，而非增材制造状态下的力学与疲劳性能。",
+        "why_not_core": "This paper focuses on hot deformation of Ti-6Al-4V, not additive-manufactured Ti-6Al-4V; it does not address mechanical or fatigue properties in the as-built or process-state relevant to layer 1.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "hot deformation",
+          "Ti-6Al-4V",
+          "viscoplastic constitutive model",
+          "grain size",
+          "phase evolution",
+          "heating rate",
+          "Gleeble",
+          "hot stamping"
+        ],
+        "summary_zh": {
+          "motivation": "研究加热速率和温度对钛合金热变形中显微组织和流动应力的影响",
+          "method": "通过Gleeble热拉伸,EBSD/XRD表征,构建考虑加热速率的黏塑性本构模型",
+          "result": "模型对热流动行为和相体积分数的预测精度分别达到92.93%和94.97%",
+          "validation": "电流辅助热冲压实验和有限元仿真验证了模型的预测能力"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effects of heating rate and temperature on microstructure evolution and flow behavior during hot deformation of Ti-6Al-4V.",
+          "method": "Gleeble hot tensile tests, EBSD and XRD characterization were used to develop a viscoplastic constitutive model that incorporates heating rate for the first time.",
+          "result": "The model achieved prediction accuracies of 92.93% for flow behavior and 94.97% for β-phase volume fraction.",
+          "validation": "Current-assisted hot stamping experiments and finite element simulations validated the model's accuracy for thickness distribution and phase fraction."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "hot deformation",
+            "zh": "热变形"
+          },
+          {
+            "en": "viscoplastic constitutive model",
+            "zh": "黏塑性本构模型"
+          },
+          {
+            "en": "heating rate",
+            "zh": "加热速率"
+          },
+          {
+            "en": "grain size",
+            "zh": "晶粒尺寸"
+          },
+          {
+            "en": "phase evolution",
+            "zh": "相演变"
+          },
+          {
+            "en": "Gleeble test",
+            "zh": "Gleeble热模拟试验"
+          },
+          {
+            "en": "EBSD",
+            "zh": "电子背散射衍射"
+          },
+          {
+            "en": "XRD",
+            "zh": "X射线衍射"
+          },
+          {
+            "en": "hot stamping",
+            "zh": "热冲压"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:11:42Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

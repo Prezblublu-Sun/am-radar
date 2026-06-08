@@ -1,0 +1,173 @@
+{
+  "schema_version": "v2",
+  "date": "2026-02-27",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7131827087",
+      "doi": "10.3390/met16030266",
+      "title": "Prediction of Specific Energy Consumption in Sustainable Milling of Ti-6Al-4V with Different Machine Learning Models",
+      "abstract": "Research on eco-friendly and energy-efficient machining processes has gained significant importance within the domain of sustainable production. This study is focused on enhancing the energy performance and sustainability of the milling process. Four machine learning (ML) models, namely, multiple linear regression (MLR), support vector regression (SVR), Gaussian process regression (GPR), and adaptive network-based fuzzy inference system (ANFIS), were proposed to estimate specific energy consumption (SEC) in the milling of Ti6-Al4-V under two eco-benign cooling conditions: cryogenic and minimum quantity lubrication (MQL). Several statistical metrics, including normalized mean absolute error (nMAE), mean absolute percentage error (MAPE), normalized root mean square error (nRMSE), maximum absolute percentage error (maxAPE), coefficient of determination (R2), and Willmott’s index of agreement (IA), were employed to validate the performances of the ML models. A high level of agreement between the predicted and experimental SEC data for both the training and test datasets supports the reliability of the proposed ML models. Although the MLR model performed well, the results revealed that the other ML models demonstrated better overall performance. According to the statistical metrics, the models’ predictive performance improved in the following sequence: MLR, SVR, GPR, and finally ANFIS, which demonstrated the highest predictive capability.",
+      "authors": [
+        "Djordje Cica",
+        "Saša Tešić",
+        "Branislav Sredanović",
+        "Dejan VUJASIN",
+        "Milan Zeljković",
+        "Franci Pušavec",
+        "Davorin Kramar"
+      ],
+      "first_author_affiliation": "Faculty of Mechanical Engineering, University of Banja Luka, 78000 Banja Luka, Bosnia and Herzegovina",
+      "corresponding_authors": [
+        {
+          "name": "Djordje Cica",
+          "affiliation": "Faculty of Mechanical Engineering, University of Banja Luka, 78000 Banja Luka, Bosnia and Herzegovina"
+        }
+      ],
+      "venue": "Metals",
+      "year": 2026,
+      "date": "2026-02-27",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/met16030266",
+      "cited_by_count": 0,
+      "concepts": [
+        "Mean absolute percentage error",
+        "Linear regression",
+        "Support vector machine",
+        "Machine learning",
+        "Mathematics",
+        "Mean squared error",
+        "Statistics",
+        "Regression analysis",
+        "Approximation error",
+        "Regression",
+        "Artificial intelligence",
+        "Energy consumption",
+        "Machining",
+        "Energy (signal processing)",
+        "Machine tool",
+        "Correlation coefficient",
+        "Reliability (semiconductor)",
+        "Computer science",
+        "Absolute deviation",
+        "Coefficient of determination",
+        "Gaussian process",
+        "Tool wear",
+        "Predictive modelling",
+        "Statistical inference",
+        "Root mean square"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "与钛合金增材制造后处理无关，研究铣削过程能耗预测。",
+        "why_not_core": "This paper focuses on energy consumption prediction in milling, not on post-processing effects on mechanical performance of AM Ti-6Al-4V.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "milling",
+          "machine learning",
+          "specific energy consumption",
+          "sustainable manufacturing"
+        ],
+        "summary_zh": {
+          "motivation": "为实现可持续生产，预测钛合金铣削过程中的单位能耗。",
+          "method": "采用四种机器学习模型（MLR、SVR、GPR、ANFIS）对单位能耗进行预测。",
+          "result": "ANFIS模型预测能力最高，MLR最差。",
+          "validation": "使用统计指标比较预测与实验数据验证模型可靠性。"
+        },
+        "summary_en": {
+          "motivation": "To enhance energy efficiency and sustainability in machining, this study aims to predict specific energy consumption during milling of Ti-6Al-4V.",
+          "method": "Four machine learning models (multiple linear regression, support vector regression, Gaussian process regression, and adaptive network-based fuzzy inference system) were developed to estimate SEC under cryogenic and MQL cooling conditions.",
+          "result": "The ANFIS model outperformed the others in predictive capability, while MLR showed the worst performance.",
+          "validation": "Model predictions were validated against experimental SEC data using multiple statistical metrics including nMAE, MAPE, nRMSE, and R²."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "milling",
+            "zh": "铣削"
+          },
+          {
+            "en": "specific energy consumption",
+            "zh": "单位能耗"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "cryogenic cooling",
+            "zh": "低温冷却"
+          },
+          {
+            "en": "minimum quantity lubrication",
+            "zh": "微量润滑"
+          },
+          {
+            "en": "Gaussian process regression",
+            "zh": "高斯过程回归"
+          },
+          {
+            "en": "ANFIS",
+            "zh": "自适应网络模糊推理系统"
+          },
+          {
+            "en": "sustainable manufacturing",
+            "zh": "可持续制造"
+          },
+          {
+            "en": "multiple linear regression",
+            "zh": "多元线性回归"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:25:34Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

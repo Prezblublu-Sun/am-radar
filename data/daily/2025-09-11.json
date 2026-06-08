@@ -4,43 +4,191 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2509.09540v2",
-      "doi": "",
-      "arxiv_id": "2509.09540v2",
-      "title": "Composition-driven magnetic anisotropy and spin polarization in Mn$_2$Ru$_{1-x}$Ga Heusler alloy",
-      "abstract": "We present a comprehensive investigation of the influence of Ru concentration on the lattice parameters, atomic magnetic moments, electronic structure, and magnetic anisotropy energy of the full Heusler L2$_1$-type Mn$_2$Ru$_{1-x_p}$Ga alloy, where x$_p$ = 0.0834 p with p=0,...,12. This study combines first-principles calculations with data-driven techniques from artificial intelligence, specifically principal component analysis (PCA), to reveal trends and correlations across multiple structural, magnetic, and electronic descriptors. For each composition, a set of inequivalent atomic configurations was fully optimized. Structurally, the relaxed lattices exhibit anisotropic expansion, with a pronounced elongation of the out-of-plane lattice parameter ($c$) relative to the in-plane lattice vectors, which promotes the development of perpendicular magnetic anisotropy. Our results reveal that an out-of-plane easy axis emerges at intermediate Ru concentrations (25-28%), while low and high Ru levels favor an in-plane orientation or even vanishing anisotropy. The half-metallic character is also modulated by Ru content, appearing selectively at both ends of the composition range. Additionally, the ferrimagnetic coupling between Mn(4a) and Mn(4c) sublattices leads to nearly compensated magnetic moments below 50% Ru content, with a net moment close to zero around 30%. These findings open a pathway toward the design of tunable spintronic materials with co-optimized perpendicular magnetic anisotropy and half-metallicity, making Mn$_2$RuGa a promising candidate for magnetic tunnel junctions, magnetoresistive random-access memory (MRAM) devices, and high-density magnetic storage applications.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4414126913",
+      "doi": "10.59499/ep256767956",
+      "title": "Use Of In-Process Monitoring To Evaluate Porosity Generated During The Laser-Powder Bed Fusion Printing Of TI-6AL-4V",
+      "abstract": "The additive manufacturing of Ti-6Al-4V medical implants is widely applied due to the alloy’s biocompatibility, as well as its mechanical properties close to the human bone. This study's objective is to identify if the formation of porosity defects during print processing can be identified by an in-process monitoring system as they are generated.An optical emission in-process monitoring sensor system was used to monitor radiation emission intensity at the meltpool. The data were collected during the printing of Ti-6Al-4V spinal cage devices and the in-process data was correlated with the parts' properties, the latter evaluated characterising the samples' morphology, crystal structure, mechanical strength and porosity.The study demonstrated that the influence of print geometry on porosity as well as grain microstructure, significantly more present at ridges and print edges than within the bulk alloy, can be successfully identified by in-process monitoring systems, opening to possible future implementations of real-time process-monitoring.",
       "authors": [
-        "Ramón Cuadrado"
+        "Andrea Villano",
+        "Fatemeh Golpayegani",
+        "Cathal Hoare",
+        "Denis P. Dowling"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Andrea Villano",
+          "affiliation": ""
+        }
+      ],
+      "venue": "",
       "year": 2025,
       "date": "2025-09-11",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2509.09540v2",
+      "url": "https://doi.org/10.59499/ep256767956",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Porosity",
+        "Materials science",
+        "Fusion",
+        "Sensor fusion",
+        "Intensity (physics)",
+        "Mechanical strength",
+        "Composite material",
+        "3D printing",
+        "Mechanical engineering"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "elongation"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的LPBF打印过程监测与孔隙率对力学性能的影响，但主要关注过程监控而非疲劳性能。",
+        "why_not_core": "The paper's primary focus is on in-process monitoring for porosity detection, not on detailed mechanical or fatigue characterization, and fatigue performance is not addressed.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "porosity",
+          "in-process monitoring",
+          "mechanical strength"
+        ],
+        "summary_zh": {
+          "motivation": "利用过程监测识别LPBF打印Ti-6Al-4V中孔隙缺陷的形成",
+          "method": "使用光学发射监测系统采集熔池辐射强度，并与脊柱融合器样品的孔隙率和力学性能关联",
+          "result": "过程监测能够识别打印几何形状对孔隙率和晶粒微观结构的影响",
+          "validation": "通过力学测试和微观结构表征验证监测数据的有效性"
+        },
+        "summary_en": {
+          "motivation": "To determine if in-process monitoring can detect porosity defects as they form during LPBF of Ti-6Al-4V.",
+          "method": "An optical emission sensor monitored meltpool radiation during printing of Ti-6Al-4V spinal cages, and the data were correlated with porosity, microstructure, and mechanical strength.",
+          "result": "The in-process monitoring system successfully identified porosity and microstructural variations at ridges and edges compared to bulk regions.",
+          "validation": "Experiments included morphological, crystallographic, and mechanical testing to validate the correlations."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "in-process monitoring",
+            "zh": "过程监测"
+          },
+          {
+            "en": "mechanical strength",
+            "zh": "力学强度"
+          },
+          {
+            "en": "meltpool",
+            "zh": "熔池"
+          },
+          {
+            "en": "optical emission sensor",
+            "zh": "光学发射传感器"
+          },
+          {
+            "en": "spinal cage",
+            "zh": "脊柱融合器"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:15:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414129044",
+      "doi": "10.3390/cryst15090801",
+      "title": "Comparative Finite Element Analysis of Fatigue Crack Growth in High-Performance Metallic Alloys: Influence of Material Parameters and Paris Law Constants",
+      "abstract": "This study presents a comparative analysis of fatigue crack growth (FCG) in four high-performance crystalline metallic alloys: Inconel 718, Ti-6Al-4V, Aluminum 7075-T6, and ASTM A514 Steel. The Finite Element Method was utilized to simulate crack propagation and quantify the individual and synergistic effects of key material properties, including Paris Law constants (C and m), yield strength, and modulus of elasticity, on FCG behavior. The analysis integrates simulation-driven parametric studies to quantify the impact on performance indicators (fatigue life cycles, equivalent stress intensity factors, safety factors, von Mises stress, and strain energy), and provides a quantitative analysis of secondary parameters. The results provide a robust, data-driven framework for material selection in aerospace, industrial, and structural applications where fatigue life is a paramount design consideration. Key findings reveal that Inconel 718 exhibits vastly superior fatigue life which is approximately 15 times greater than the next best-performing material, ASTM A514 Steel. Conversely, Ti-6Al-4V demonstrated the lowest fatigue resistance.",
+      "authors": [
+        "Yahya Ali Fageehi",
+        "Abdulnaser M. Alshoaibi"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, College of Engineering and Computer Sciences, Jazan University, Jazan 45142, Saudi Arabia",
+      "corresponding_authors": [
+        {
+          "name": "Abdulnaser M. Alshoaibi",
+          "affiliation": "Department of Mechanical Engineering, College of Engineering and Computer Sciences, Jazan University, Jazan 45142, Saudi Arabia"
+        }
+      ],
+      "venue": "Crystals",
+      "year": 2025,
+      "date": "2025-09-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/cryst15090801",
+      "cited_by_count": 4,
+      "concepts": [
+        "Finite element method",
+        "Inconel",
+        "Materials science",
+        "Paris' law",
+        "von Mises yield criterion",
+        "Structural engineering",
+        "Parametric statistics",
+        "Aluminium",
+        "Yield (engineering)",
+        "Modulus",
+        "Stress (linguistics)",
+        "Stress concentration",
+        "Material properties",
+        "Fracture mechanics",
+        "Stress intensity factor",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "yield strength",
+          "fatigue",
+          "fatigue life",
+          "fatigue crack growth"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是自旋电子学材料，与用户的生物打印、髋关节植入物、有限元代理模型或增材制造方向无关。",
-        "why_not_core": "This paper focuses on spintronic materials and magnetic properties of Heusler alloys, with no biomedical, implant, or additive manufacturing context.",
-        "validation_kind": "theoretical",
+        "relevance_to_user": "该论文未涉及增材制造Ti-6Al-4V，而是传统合金的通用疲劳裂纹扩展有限元分析，与用户关注的增材制造力学性能方向不相关。",
+        "why_not_core": "The paper does not address additively manufactured Ti-6Al-4V; it is a generic finite element comparison of multiple wrought alloys, lacking any additive manufacturing context, build orientation, or process-induced defects.",
+        "validation_kind": "simulation_case",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
@@ -48,75 +196,765 @@
           "is_review": false
         },
         "tags": [
-          "Heusler alloy",
-          "magnetic anisotropy",
-          "first-principles",
-          "spintronics"
+          "fatigue crack growth",
+          "finite element analysis",
+          "Paris law",
+          "Ti-6Al-4V",
+          "comparative study"
         ],
         "summary_zh": {
-          "motivation": "研究Ru浓度对Mn2RuGa合金磁各向异性和自旋极化的影响",
-          "method": "第一性原理计算结合主成分分析",
-          "result": "中间Ru浓度(25-28%)出现垂直磁各向异性和半金属性",
-          "validation": "理论计算验证"
+          "motivation": "比较高强金属合金的疲劳裂纹扩展行为。",
+          "method": "有限元模拟结合Paris定律进行参数研究。",
+          "result": "Inconel 718疲劳寿命最优，Ti-6Al-4V最差。",
+          "validation": "仿真算例。"
         },
         "summary_en": {
-          "motivation": "To investigate the influence of Ru concentration on the magnetic anisotropy and spin polarization of Mn2RuGa Heusler alloy.",
-          "method": "First-principles calculations combined with principal component analysis (PCA) to analyze structural, magnetic, and electronic descriptors.",
-          "result": "Intermediate Ru concentrations (25-28%) yield perpendicular magnetic anisotropy and half-metallicity, while low and high concentrations favor in-plane orientation.",
-          "validation": "Theoretical first-principles calculations without experimental validation."
+          "motivation": "To compare fatigue crack growth behavior in high-performance metallic alloys.",
+          "method": "Finite element simulation with Paris law parametric study.",
+          "result": "Inconel 718 shows superior fatigue life, while Ti-6Al-4V exhibits the lowest resistance.",
+          "validation": "Simulation case study."
         },
         "key_terms": [
           {
-            "en": "Heusler alloy",
-            "zh": "赫斯勒合金"
+            "en": "fatigue crack growth",
+            "zh": "疲劳裂纹扩展"
           },
           {
-            "en": "magnetic anisotropy",
-            "zh": "磁各向异性"
+            "en": "finite element analysis",
+            "zh": "有限元分析"
           },
           {
-            "en": "first-principles",
-            "zh": "第一性原理"
+            "en": "Paris law",
+            "zh": "Paris定律"
           },
           {
-            "en": "principal component analysis",
-            "zh": "主成分分析"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "spintronics",
-            "zh": "自旋电子学"
+            "en": "Inconel 718",
+            "zh": "Inconel 718"
           },
           {
-            "en": "half-metallicity",
-            "zh": "半金属性"
+            "en": "Aluminum 7075-T6",
+            "zh": "Aluminum 7075-T6"
           },
           {
-            "en": "perpendicular magnetic anisotropy",
-            "zh": "垂直磁各向异性"
+            "en": "ASTM A514 Steel",
+            "zh": "ASTM A514钢"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:13:45Z"
+      "first_seen_at": "2026-06-07T23:15:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414126338",
+      "doi": "10.59499/ep256764598",
+      "title": "Optimizing Post-Processing Of Additive Metal Alloys For Enhanced Mechanical And Corrosion Performance",
+      "abstract": "Metal additive manufacturing (AM) offers the promise of free-form fabrication and address issues like high costs, dwindling supply chains, and long lead-times. However, adoption of AM is hindered by surface and near-surface related defects (SRDs) that degrade mechanical strength and corrosion resistance, making AM parts unsuitable for critical applications. Optimized post-processing technologies, such as surface finishing processes and heat-treatments, are essential to improving the reliability of AM components. This study investigates the mechanical and corrosion resistance properties of AM fabricated alloys (Ti-6Al-4V, IN-625, AlF357, IN-718, SS15-5PH, SS17-4PH, and SS316L) subjected to various heat treatments and surface finishing techniques. Heat-treatments and chemical and chemical-mechanical polishing (CP and CMP) are examined for their effectiveness in addressing porosity reduction, SRD elimination, and their effects in tensile strength, fatigue performance, and corrosion resistance, supporting AM's integration into high-performance applications. This work was funded by NASA (SBIR-18-P2-Z3.01-5453) and USAF (SBIR-FA864923P1086, SBIR-FA864921P0854, and SBIR-FA864921P0815).",
+      "authors": [
+        "REM Surface Engineering",
+        "Agustín Díaz",
+        "REM Surface Engineering",
+        "J. C. Boykin",
+        "REM Surface Engineering",
+        "Patrick McFadden",
+        "REM Surface Engineering",
+        "Eric Wendt",
+        "REM Surface Engineering",
+        "Joshua C. Nittinger",
+        "REM Surface Engineering",
+        "James Osborne",
+        "Chad Beamer"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "REM Surface Engineering",
+          "affiliation": ""
+        }
+      ],
+      "venue": "",
+      "year": 2025,
+      "date": "2025-09-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.59499/ep256764598",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Corrosion",
+        "Metallurgy",
+        "Ultimate tensile strength",
+        "Polishing",
+        "Porosity",
+        "Fabrication",
+        "Mechanical strength",
+        "Surface finishing",
+        "Reliability (semiconductor)",
+        "Work (physics)",
+        "Surface engineering",
+        "Surface roughness",
+        "Composite material",
+        "Fatigue limit",
+        "Surface integrity"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "tensile strength",
+          "porosity",
+          "fatigue"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "polishing",
+          "post-processing"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的后处理（热处理和表面抛光）对力学性能的影响，但涵盖多种合金，针对性不强。",
+        "why_not_core": "The paper covers multiple alloys (IN-625, AlF357, etc.) and does not provide a deep, systematic study focused solely on Ti-6Al-4V post-processing.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "post-processing",
+          "heat treatment",
+          "surface finishing",
+          "mechanical performance",
+          "corrosion resistance"
+        ],
+        "summary_zh": {
+          "motivation": "解决增材制造金属合金表面及近表面缺陷导致的力学和腐蚀性能不足问题。",
+          "method": "对多种增材制造合金（含Ti-6Al-4V）进行热处理和化学/化学机械抛光。",
+          "result": "后处理显著降低孔隙率、消除表面缺陷，并提升拉伸强度、疲劳性能和耐腐蚀性。",
+          "validation": "通过力学测试（拉伸、疲劳）和腐蚀实验验证后处理效果。"
+        },
+        "summary_en": {
+          "motivation": "To address surface and near-surface defects in additively manufactured metal alloys that degrade mechanical strength and corrosion resistance.",
+          "method": "Heat treatments and chemical/chemical-mechanical polishing were applied to several AM alloys, including Ti-6Al-4V, IN-625, AlF357, and others.",
+          "result": "Post-processing effectively reduced porosity, eliminated surface defects, and improved tensile strength, fatigue life, and corrosion resistance across alloys.",
+          "validation": "Mechanical testing (tensile, fatigue) and corrosion experiments were conducted to validate the improvements."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "surface finishing",
+            "zh": "表面精加工"
+          },
+          {
+            "en": "chemical mechanical polishing",
+            "zh": "化学机械抛光"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "拉伸强度"
+          },
+          {
+            "en": "fatigue performance",
+            "zh": "疲劳性能"
+          },
+          {
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:15:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414132331",
+      "doi": "10.3390/met15091009",
+      "title": "An Experimental Study on Tensile Characteristics of Ti-6Al-4V Thin Struts Made by Laser Powder-Bed Fusion: Effects of Strut Geometry and Linear Energy Density",
+      "abstract": "Laser powder bed fusion (L-PBF) enables the fabrication of complex lattice-type structures composed of thin struts, offering lightweight, high-strength advantages in aerospace and biomedical applications, among others. While extensive research has examined full lattices and process parameter effects individually, the combined influence of strut geometry, configuration, and processing conditions on mechanical properties remains less understood. This study investigates how the strut number, strut size, cross-sectional shape, and laser energy input affect the mechanical properties of thin-strut L-PBF tensile specimens. Ti-6Al-4V struts were designed and fabricated using an EOS M270 system using five linear energy density (LED) levels. The fabricated specimens were measured in porosity using micro-scaled computed tomography and further evaluated using a tensile tester. The results showed that increasing the strut number leads to significant reductions in tensile strength, even with the same overall cross-sectional area, especially at low LED levels. Size effects on mechanical strengths were observed, though mostly minimal, except at the smallest strut size, where defects tend to be more critical. Circular and square shapes performed similarly under general LED conditions; however, square struts exhibited inferior behavior at the lowest LED level. Overall, LED is the most influential factor, with the greatest tensile strength occurring near 0.2 J/mm; further decreasing or increasing the LED both increase the porosity, degrading mechanical strengths.",
+      "authors": [
+        "Rabiul Islam",
+        "Beytullah Aydogan",
+        "Kevin Chou"
+      ],
+      "first_author_affiliation": "Department of Industrial Engineering, Speed School of Engineering, University of Louisville, Louisville, KY 40292, USA",
+      "corresponding_authors": [
+        {
+          "name": "Rabiul Islam",
+          "affiliation": "Department of Industrial Engineering, Speed School of Engineering, University of Louisville, Louisville, KY 40292, USA"
+        }
+      ],
+      "venue": "Metals",
+      "year": 2025,
+      "date": "2025-09-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/met15091009",
+      "cited_by_count": 0,
+      "concepts": [
+        "Ultimate tensile strength",
+        "Materials science",
+        "Composite material",
+        "Fabrication",
+        "Square (algebra)",
+        "Porosity",
+        "Laser",
+        "Tensile testing",
+        "Finite element method",
+        "Energy (signal processing)",
+        "Fusion",
+        "Relative density",
+        "Material properties"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "tensile strength",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "直接针对激光粉末床熔融Ti-6Al-4V薄支柱的拉伸力学性能，与L1方向高度契合。",
+        "why_not_core": "This paper does not cover fatigue performance (S-N, crack initiation/growth) but focuses solely on tensile behavior, which is only part of the L1 scope.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "tensile strength",
+          "strut geometry",
+          "linear energy density",
+          "porosity",
+          "micro-CT",
+          "size effect"
+        ],
+        "summary_zh": {
+          "motivation": "探究支柱几何和线能量密度对LPBF Ti-6Al-4V薄支柱拉伸性能的联合影响。",
+          "method": "设计不同数目、尺寸、截面形状及线能量密度的支柱，通过微CT和拉伸测试表征。",
+          "result": "支柱数目增加降低强度；尺寸效应微弱；圆形与方形截面性能相近，低LED下方形成劣化；最佳LED约0.2J/mm。",
+          "validation": "采用微CT测量孔隙率并配合拉伸试验验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the combined influence of strut geometry and linear energy density on the tensile mechanical properties of thin-strut L-PBF Ti-6Al-4V specimens.",
+          "method": "Ti-6Al-4V struts with varying number, size, cross-sectional shape, and five levels of linear energy density were fabricated by L-PBF, characterized by micro-CT for porosity, and tested under tension.",
+          "result": "Increasing strut number reduces tensile strength; size effects are minimal except at the smallest size; circular and square shapes behave similarly except at the lowest LED; maximum strength occurs near 0.2 J/mm LED.",
+          "validation": "Mechanical testing combined with micro-CT porosity analysis."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "linear energy density",
+            "zh": "线能量密度"
+          },
+          {
+            "en": "strut geometry",
+            "zh": "支柱几何"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "micro-computed tomography",
+            "zh": "微计算机断层扫描"
+          },
+          {
+            "en": "size effect",
+            "zh": "尺寸效应"
+          },
+          {
+            "en": "cross-sectional shape",
+            "zh": "截面形状"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:15:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414154791",
+      "doi": "10.1186/s40712-024-00200-9",
+      "title": "Atmospheric pressure plasma etching of Ti-6Al-4 V using SF6 etchant",
+      "abstract": "Abstract Atmospheric pressure plasma (APP) etching has been developed recently into a manufacturing technique for silicon-based materials used for large optical lenses. However, there are few reports published regarding APP etching of non-silicon-based materials. We report here the development of an APP process using SF 6 for the etching of Ti-6Al-4 V metal alloy. Ti-6Al-4V is extensively used in aerospace and biomedical fields for its excellent properties; however, these properties also make it difficult to machine. Current techniques such as precision grinding and laser polishing can be slow, energy intensive, and cause damages and defects which reduce the lifetime of vital components. The results in this paper demonstrate effective material removal and little surface damage by APP etching of Ti-6Al-4V. Material removal rates between 0.5 and 2 mm 3 min −1 were obtained, and the proposed material removal mechanism is through the formation of volatile VF x and TiF 4 . These results show that APP etching is a promising technique for surface finishing of Ti-6Al-4V, particularly for large- and complex-shaped components. Graphical Abstract",
+      "authors": [
+        "Alex Bishop",
+        "Z. Huang",
+        "Claudiu Giusca",
+        "Adam Bennett",
+        "Marco Castelli",
+        "Tian Long See"
+      ],
+      "first_author_affiliation": "School of Aerospace, Transport and Manufacturing, Cranfield University, Bedfordshire, MK43 0AL UK",
+      "corresponding_authors": [
+        {
+          "name": "Alex Bishop",
+          "affiliation": "School of Aerospace, Transport and Manufacturing, Cranfield University, Bedfordshire, MK43 0AL UK"
+        }
+      ],
+      "venue": "Journal of Materials Science Materials in Engineering",
+      "year": 2025,
+      "date": "2025-09-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1186/s40712-024-00200-9",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Etching (microfabrication)",
+        "Atmospheric pressure",
+        "Atmospheric-pressure plasma",
+        "Metallurgy",
+        "Plasma",
+        "Analytical Chemistry (journal)",
+        "Process (computing)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "polishing"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V的大气压等离子体刻蚀后处理工艺，但未涉及力学性能测试，因此与后处理对疲劳性能影响的方向相关性较弱。",
+        "why_not_core": "No mechanical testing (fatigue, tensile, or microstructure analysis) to evaluate the effect of post-processing on mechanical performance.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "atmospheric pressure plasma etching",
+          "Ti-6Al-4V",
+          "SF6 etchant",
+          "surface finishing",
+          "material removal"
+        ],
+        "summary_zh": {
+          "motivation": "开发用于Ti-6Al-4V表面加工的大气压等离子体刻蚀技术。",
+          "method": "采用SF6作为刻蚀气体，在大气压下对Ti-6Al-4V进行等离子体刻蚀。",
+          "result": "实现了0.5-2 mm³/min的材料去除速率，且表面损伤小。",
+          "validation": "通过实验测量材料去除速率并分析表面形貌验证刻蚀效果。"
+        },
+        "summary_en": {
+          "motivation": "To develop an atmospheric pressure plasma etching process for Ti-6Al-4V as an alternative finishing method for complex-shaped components.",
+          "method": "SF6 etchant is used in an atmospheric pressure plasma setup to remove material from Ti-6Al-4V surfaces.",
+          "result": "Material removal rates of 0.5–2 mm³/min are achieved with minimal surface damage.",
+          "validation": "Experimental measurements of material removal rates and surface characterization confirm the effectiveness of the etching process."
+        },
+        "key_terms": [
+          {
+            "en": "atmospheric pressure plasma",
+            "zh": "大气压等离子体"
+          },
+          {
+            "en": "SF6 etchant",
+            "zh": "SF6刻蚀剂"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "material removal rate",
+            "zh": "材料去除速率"
+          },
+          {
+            "en": "surface finishing",
+            "zh": "表面精加工"
+          },
+          {
+            "en": "plasma etching",
+            "zh": "等离子体刻蚀"
+          },
+          {
+            "en": "volatile fluorides",
+            "zh": "挥发性氟化物"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:15:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414118460",
+      "doi": "10.2497/jjspm.25-00020",
+      "title": "Exploring β Stabilizing Elements of α+β Ti-Al Alloys for Facilitating In-Situ Martensite Decomposition in PBF-LB",
+      "abstract": "An α+β titanium alloy, Ti-6Al-4V (Ti-Al-V), is widely used in laser powder bed fusion. However, in this process, Ti-Al-V often suffers from limited ductility due to the formation of unintended martensitic microstructures. To address this issue from the alloy design perspective, the present study explores various β phase stabilizing elements which can facilitate in-situ decomposition of martensite into desirable α+β microstructures. Based on high diffusivity and sluggish eutectoid reactions, Cr, Mn, and Fe were selected as elements of interest to compare with V in Ti-Al-V. Using the CALPHAD approach, alloy compositions of Ti-Al-V, Ti-Al-Cr, Ti-Al-Mn, and Ti-Al-Fe were designed to exhibit identical β transus temperatures, and the corresponding alloys were then fabricated by powder metallurgy. Following supertransus heat treatment and subsequent water quenching, Ti-Al-V and Ti-Al-Cr formed a single α’ martensitic phase, while Ti-Al-Mn and Ti-Al-Fe exhibited α’+β phases. A subsequent heat treatment at 600°C led to the β phase formation in all alloys. However, this isothermal treatment also caused the formation of intermetallic compounds in Ti-Al-Fe and Ti-Al-Cr. Consequently, Mn was found to be the most effective and reliable β stabilizer for in-situ α+β formation based on the facilitative formation of β phase, and suppression of detrimental intermetallic compounds.",
+      "authors": [
+        "Takuma Teramae",
+        "Ammarueda Issariyapat",
+        "Shota Kariya",
+        "Junko Umeda",
+        "Katsuyoshi Kondoh"
+      ],
+      "first_author_affiliation": "Graduate School of Engineering, The University of Osaka",
+      "corresponding_authors": [
+        {
+          "name": "Takuma Teramae",
+          "affiliation": "Graduate School of Engineering, The University of Osaka"
+        }
+      ],
+      "venue": "Journal of the Japan Society of Powder and Powder Metallurgy",
+      "year": 2025,
+      "date": "2025-09-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.2497/jjspm.25-00020",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Intermetallic",
+        "Eutectic system",
+        "Alloy",
+        "Isothermal process",
+        "CALPHAD",
+        "Titanium aluminide",
+        "Martensite",
+        "Metallurgy",
+        "Titanium alloy",
+        "Ductility (Earth science)",
+        "Phase (matter)",
+        "Decomposition",
+        "Spinodal decomposition",
+        "Phase diagram",
+        "Titanium",
+        "Dissolution",
+        "Stabilizer (aeronautics)",
+        "Bimetallic strip"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "ductility"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究合金成分设计而非后处理工艺，对机械性能影响缺乏实验数据。",
+        "why_not_core": "The paper focuses on alloy composition design (substituting V with Cr, Mn, Fe) rather than evaluating post-processing treatments on mechanical performance of Ti-6Al-4V; no fatigue or tensile results are reported.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "PBF-LB",
+          "martensite decomposition",
+          "β stabilizers",
+          "CALPHAD",
+          "heat treatment"
+        ],
+        "summary_zh": {
+          "motivation": "探索β稳定元素促进激光粉末床熔融Ti-6Al-4V中原位马氏体分解",
+          "method": "采用CALPHAD设计合金成分，粉末冶金制备，进行超相变热处理和水淬",
+          "result": "锰是最有效的β稳定剂，能促进β相形成并抑制有害金属间化合物",
+          "validation": "仅微观结构表征，无力学测试"
+        },
+        "summary_en": {
+          "motivation": "To investigate alternative β stabilizing elements (Cr, Mn, Fe) that facilitate in-situ martensite decomposition during PBF-LB of Ti-6Al-4V, addressing the issue of limited ductility.",
+          "method": "Alloy compositions with identical β transus temperatures were designed via CALPHAD, fabricated by powder metallurgy, and subjected to supertransus heat treatment and water quenching, followed by isothermal aging.",
+          "result": "Manganese was identified as the most effective β stabilizer for promoting α+β microstructure formation while suppressing detrimental intermetallics.",
+          "validation": "Microstructural characterization using XRD and SEM only; no mechanical testing performed."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "martensite decomposition",
+            "zh": "马氏体分解"
+          },
+          {
+            "en": "β stabilizers",
+            "zh": "β稳定剂"
+          },
+          {
+            "en": "CALPHAD",
+            "zh": "CALPHAD"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "powder metallurgy",
+            "zh": "粉末冶金"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "intermetallic compounds",
+            "zh": "金属间化合物"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:15:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414269755",
+      "doi": "10.1177/14759217251360334",
+      "title": "Influence of layer thickness and post-processes on the quasi-static and fatigue behaviour of Ti-6Al-4V specimens with embedded structural health monitoring system produced by laser powder bed fusion",
+      "abstract": "Additive manufacturing enables the integration of functionalities during the production process. The effective structural health monitoring (SHM) system relies on the integration of small capillaries inside the structure, of which the pressure is monitored during the operation of the component. The pressure monitoring system allows deriving the loading condition of the part and detects upcoming fatigue failures, thereby creating smart, self-sensing objects. Such technology is of immediate benefit to structurally loaded parts that otherwise require significant inspection and maintenance efforts. Especially those parts, however, have to meet stringent quality standards. The inclusion of such intrusive capillary network, along with the use of a novel manufacturing technique, imposes significant materials and component testing in order to substantiate the added value of such system to metal additively manufactured parts. The current work therefore presents quasi-static materials testing, coupon fatigue testing and component fatigue testing with an embedded SHM system. The (post-) processing conditions of the fabricated parts were varied in order to understand their impact on the mechanical behaviour while attempting to reduce the structural impact of the embedded channels of the effective SHM system.",
+      "authors": [
+        "Michaël Hinderdael",
+        "Antonio Cutolo",
+        "Nima Razavi",
+        "Filippo Berto",
+        "Brecht Van Hooreweder"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, Vrije Universiteit Brussel, Brussel, Belgium",
+      "corresponding_authors": [
+        {
+          "name": "Michaël Hinderdael",
+          "affiliation": "Department of Mechanical Engineering, Vrije Universiteit Brussel, Brussel, Belgium"
+        }
+      ],
+      "venue": "Structural Health Monitoring",
+      "year": 2025,
+      "date": "2025-09-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1177/14759217251360334",
+      "cited_by_count": 0,
+      "concepts": [
+        "Structural health monitoring",
+        "Materials science",
+        "Layer (electronics)",
+        "Fusion",
+        "Work (physics)",
+        "Component (thermodynamics)",
+        "Structural engineering",
+        "Process engineering",
+        "Condition monitoring",
+        "Mechanical engineering",
+        "Quality (philosophy)",
+        "System integration",
+        "Laser",
+        "Nondestructive testing",
+        "Automotive engineering",
+        "Reliability engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "layer thickness",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文研究了激光粉末床熔融Ti-6Al-4V中嵌入结构健康监测系统后，层厚和后处理对准静态及疲劳性能的影响，直接相关于Ti-6Al-4V基础力学与疲劳特性。",
+        "why_not_core": "The paper primarily focuses on the embedded SHM system and its impact on mechanical properties, rather than a comprehensive standalone characterization of Ti-6Al-4V mechanical or fatigue behavior without such embedded features.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "layer thickness",
+          "post-processing",
+          "fatigue",
+          "structural health monitoring",
+          "embedded capillaries",
+          "quasi-static testing"
+        ],
+        "summary_zh": {
+          "motivation": "在LPBF Ti-6Al-4V中嵌入SHM系统，研究层厚和后处理对其力学性能的影响。",
+          "method": "通过准静态拉伸、疲劳测试（试样及部件级），比较不同层厚和后处理条件。",
+          "result": "揭示了层厚和后处理对嵌入通道结构力学性能的影响。",
+          "validation": "实验验证，包括准静态和疲劳试验。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the influence of layer thickness and post-processing on the quasi-static and fatigue behavior of Ti-6Al-4V specimens with embedded structural health monitoring capillaries produced by laser powder bed fusion.",
+          "method": "Combined quasi-static tensile testing, coupon-level fatigue testing, and component-level fatigue testing with variations in layer thickness and post-process conditions.",
+          "result": "The results demonstrate the effects of layer thickness and post-processing on the mechanical performance and fatigue life of the embedded capillary system.",
+          "validation": "Experimental validation through mechanical testing of quasi-static and fatigue properties."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "layer thickness",
+            "zh": "层厚"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          },
+          {
+            "en": "quasi-static testing",
+            "zh": "准静态测试"
+          },
+          {
+            "en": "fatigue testing",
+            "zh": "疲劳测试"
+          },
+          {
+            "en": "structural health monitoring",
+            "zh": "结构健康监测"
+          },
+          {
+            "en": "embedded capillaries",
+            "zh": "嵌入式毛细管道"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:15:36Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 7,
     "by_source": {
-      "arxiv": 1
+      "openalex": 7
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 7,
+    "after_routing": 7,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_base_mechanical_fatigue": 4,
+      "ti6al4v_postprocess": 3
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 7
     },
-    "scored": 1,
+    "scored": 7,
     "priority_counts": {
-      "Exclude": 1
+      "Medium": 3,
+      "Exclude": 1,
+      "High": 2,
+      "Low": 1
     }
   }
 }

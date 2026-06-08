@@ -1,0 +1,142 @@
+{
+  "schema_version": "v2",
+  "date": "2025-07-12",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412386849",
+      "doi": "10.3390/pr13072234",
+      "title": "High-Strain-Rate Deformation Behavior and Damage Mechanisms of Ti/Al Interpenetrating Phase Composites",
+      "abstract": "Interpenetrating phase composites (IPCs) have demonstrated tremendous potential across various fields, particularly those based on triply periodic minimal surface (TPMS) structures, whose uniquely interwoven lattice architectures have attracted widespread attention. However, current research on the dynamic mechanical properties of such IPC remains limited, and their impact resistance and damage mechanisms are yet to be thoroughly understood. In this study, a novel design of two volume fractions of IPCs based on the TPMS IWP configuration is developed using Python-based parametric modeling, with the Ti6Al4V alloy TPMS scaffolds fabricated via selective laser melting (SLM) and the AlSi12 reinforcing phase through infiltration casting. The influence of Ti alloy volume fraction and strain rate on the dynamic mechanical behavior of the Ti/Al IPC is systematically investigated using a split Hopkinson pressure bar (SHPB) experimental setup. Microscopic characterization validates the effectiveness and reliability of the proposed IPC fabrication method. Results show that the increasing Ti alloy volume fraction significantly affects the dynamic mechanical properties of the IPC, and IPCs with different Ti alloy volume fractions exhibit contrasting mechanical behaviors under increasing strain rates, attributed to the dominance of different constituent phases. This study enhances the understanding of the dynamic behavior of TPMS-based IPCs and offers a promising route for the development of high-performance energy-absorbing materials.",
+      "authors": [
+        "Zhou Li",
+        "Zhongli Zhang",
+        "Jiahao Tian",
+        "Junhao Li",
+        "Shiqi Xia",
+        "Libo Zhou",
+        "Yu Long"
+      ],
+      "first_author_affiliation": "College of Mechanical and Electrical Engineering, Central South University, Changsha 410083, China",
+      "corresponding_authors": [
+        {
+          "name": "Yu Long",
+          "affiliation": "College of Mechanical and Electrical Engineering, Central South University, Changsha 410083, China"
+        }
+      ],
+      "venue": "Processes",
+      "year": 2025,
+      "date": "2025-07-12",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/pr13072234",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Deformation (meteorology)",
+        "Strain rate",
+        "Phase (matter)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_femoral_stem": [
+          "Ti6Al4V",
+          "TPMS",
+          "triply periodic minimal surface"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究Ti/Al互穿相复合材料的动态力学性能，不涉及股骨柄或植入物结构设计。",
+        "why_not_core": "No femoral stem design, no implant context, no stress shielding or fatigue analysis relevant to hip stems.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti6Al4V",
+          "interpenetrating phase composite",
+          "TPMS",
+          "high-strain-rate",
+          "SHPB",
+          "dynamic mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "探究Ti/Al互穿相复合材料在高应变率下的动态力学行为",
+          "method": "通过SLM制备Ti6Al4V TPMS骨架并渗铝，用SHPB测试",
+          "result": "Ti合金体积分数和应变率显著影响动态性能，不同体积分数表现相反",
+          "validation": "SHPB实验和微观表征验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate the dynamic mechanical behavior of Ti/Al interpenetrating phase composites under high strain rates.",
+          "method": "Ti6Al4V TPMS scaffolds were fabricated via SLM and infiltrated with AlSi12, then tested with SHPB.",
+          "result": "Ti alloy volume fraction and strain rate significantly affect dynamic properties, with opposite trends for different volume fractions.",
+          "validation": "SHPB experiments and microscopic characterization."
+        },
+        "key_terms": [
+          {
+            "en": "interpenetrating phase composite",
+            "zh": "互穿相复合材料"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
+          },
+          {
+            "en": "TPMS",
+            "zh": "三周期极小曲面"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "split Hopkinson pressure bar",
+            "zh": "分离式霍普金森压杆"
+          },
+          {
+            "en": "high-strain-rate",
+            "zh": "高应变率"
+          },
+          {
+            "en": "dynamic mechanical properties",
+            "zh": "动态力学性能"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:11:42Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_femoral_stem": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

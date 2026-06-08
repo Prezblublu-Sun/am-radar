@@ -1,0 +1,168 @@
+{
+  "schema_version": "v2",
+  "date": "2025-11-02",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415818601",
+      "doi": "10.3390/ma18215008",
+      "title": "Effect of Sample Thickness and Post-Processing on Mechanical Properties of 3D-Printed Titanium Alloy",
+      "abstract": "3D printing of beta titanium alloys for biomedical applications is currently in great demand, both for material reasons and for the possibility of producing very complex replacements, often directly tailored to the patient. Gyroidal and similar structures are ideal for biomedical replacements but their manufacturing require specific additive technology and post-processing like annealing or etching. The aim of this work is to determine the mechanical properties of Ti25Nb4Ta8Sn alloy which overcomes Ti6Al4V in biomedical applications. The results showed that Ti6Al4V exhibited a significantly higher ultimate tensile strength (up to 1200 MPa) compared with the beta titanium alloy Ti25Nb4Ta8Sn (up to 360 MPa), while the latter demonstrated a substantially lower elastic modulus (∼40-50 GPa), beneficial for biomedical applications. Annealing improved strength and reduced internal stresses in both alloys, while etching effectively removed residual powder but slightly decreased mechanical integrity. These findings provide a quantitative basis for optimizing printing and post-processing parameters of beta titanium alloys for implant design. The properties will be used for future numerical simulations of implants made from Ti25Nb4Ta8Sn alloy based on discrete particle grid models.",
+      "authors": [
+        "Aleš Jíra",
+        "Jaroslav Kruis",
+        "Zdeněk Tolde",
+        "Jan Krčil",
+        "Jitřenka Jírů",
+        "Jaroslav Fojt"
+      ],
+      "first_author_affiliation": "Department of Mechanics, Faculty of Civil Engineering, Czech Technical University in Prague, 16629 Prague, Czech Republic",
+      "corresponding_authors": [
+        {
+          "name": "Aleš Jíra",
+          "affiliation": "Department of Mechanics, Faculty of Civil Engineering, Czech Technical University in Prague, 16629 Prague, Czech Republic"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-11-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18215008",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Titanium alloy",
+        "Ultimate tensile strength",
+        "Alloy",
+        "Annealing (glass)",
+        "Titanium",
+        "Elastic modulus",
+        "Composite material",
+        "Residual stress",
+        "Modulus",
+        "Microstructure",
+        "Young's modulus",
+        "Metallurgy",
+        "Material properties"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "tensile strength",
+          "ultimate tensile strength"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "annealing",
+          "post-processing"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要研究Ti25Nb4Ta8Sn合金，仅将Ti-6Al-4V作为基准材料，未深入探讨后处理对Ti-6Al-4V性能的影响。",
+        "why_not_core": "The paper's primary focus is a beta titanium alloy (Ti25Nb4Ta8Sn) for biomedical applications; Ti-6Al-4V is only used as a comparative reference, not as the main subject of post-processing investigation.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "beta titanium alloy",
+          "Ti-6Al-4V",
+          "post-processing",
+          "annealing",
+          "etching",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "研究后处理对3D打印β钛合金力学性能的影响，以优化植入物设计。",
+          "method": "对Ti25Nb4Ta8Sn和Ti6Al4V进行退火和蚀刻处理，并测试拉伸性能。",
+          "result": "Ti6Al4V强度更高，β钛合金模量更低；退火提高强度，蚀刻降低完整性。",
+          "validation": "通过拉伸实验进行力学性能验证。"
+        },
+        "summary_en": {
+          "motivation": "To evaluate the effect of post-processing (annealing and etching) on the mechanical properties of 3D-printed beta titanium alloys for biomedical implants.",
+          "method": "The study compares Ti25Nb4Ta8Sn and Ti6Al4V alloys subjected to annealing and etching, with tensile testing and microstructural analysis.",
+          "result": "Ti6Al4V exhibits higher ultimate tensile strength (up to 1200 MPa) while the beta alloy shows lower elastic modulus (40-50 GPa); annealing improves strength and reduces internal stresses, whereas etching removes powder but slightly reduces mechanical integrity.",
+          "validation": "Mechanical validation through tensile tests on printed and post-processed specimens."
+        },
+        "key_terms": [
+          {
+            "en": "beta titanium alloy",
+            "zh": "β钛合金"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "Ti25Nb4Ta8Sn",
+            "zh": "Ti25Nb4Ta8Sn"
+          },
+          {
+            "en": "annealing",
+            "zh": "退火"
+          },
+          {
+            "en": "etching",
+            "zh": "蚀刻"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "3D printing",
+            "zh": "3D打印"
+          },
+          {
+            "en": "biomedical applications",
+            "zh": "生物医学应用"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "拉伸强度"
+          },
+          {
+            "en": "elastic modulus",
+            "zh": "弹性模量"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:19:10Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

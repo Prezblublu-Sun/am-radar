@@ -1,0 +1,147 @@
+{
+  "schema_version": "v2",
+  "date": "2025-10-11",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415071886",
+      "doi": "10.1016/j.rinma.2025.100790",
+      "title": "Effect of heat treatment on corrosion behaviour of selective laser melted Ti-6Al-4V alloy in Ringer's solution",
+      "abstract": "The additive manufacturing is developing rapidly among the advanced technologies to fabricate the orthopaedic and dental implants with complex shape (e.g. spherical) due to such advantages as high production efficiency and minimal waste of material. Ti-6Al-4V alloy samples were fabricated by the technology of selective laser melting. The effect of a post heat treatment, carried out below the polymorphic transformation temperature, on the microstructure and corrosion behaviour of the alloy was investigated. It was determined that such a heat treatment of the microstructure leads to improving corrosion resistance of Ti-6Al-4V alloy in Ringer's solution due to a growth of the β phase, an decrease of the α' martensite and microstrain in the α/α' lattice. • Ti-6Al-4V alloy samples were manufactured by selective laser melting technology. • Heat treatment led to improving corrosion resistance of alloy in Ringer's solution. • This is associated with growth of β phase and decrease of α' martensite.",
+      "authors": [
+        "О. В. Ткачук",
+        "І. М. Pohrelyuk",
+        "R. V. Proskurnyak",
+        "Serhii Lavrys"
+      ],
+      "first_author_affiliation": "Karpenko Physico-Mechanical Institute of the National Academy of Sciences of Ukraine, 5, Naukova str., Lviv, 79060, Ukraine",
+      "corresponding_authors": [
+        {
+          "name": "О. В. Ткачук",
+          "affiliation": "Karpenko Physico-Mechanical Institute of the National Academy of Sciences of Ukraine, 5, Naukova str., Lviv, 79060, Ukraine"
+        }
+      ],
+      "venue": "Results in Materials",
+      "year": 2025,
+      "date": "2025-10-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.rinma.2025.100790",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Alloy",
+        "Microstructure",
+        "Selective laser melting",
+        "Metallurgy",
+        "Corrosion",
+        "Laser",
+        "Martensite",
+        "6111 aluminium alloy",
+        "Phase (matter)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了热处理对选区激光熔化Ti-6Al-4V合金腐蚀行为的影响，但未涉及力学性能，与方向关注的疲劳/力学性能不直接相关。",
+        "why_not_core": "This paper does not report any mechanical performance metrics such as fatigue life, tensile strength, or porosity closure; it focuses solely on corrosion behavior.",
+        "validation_kind": "in_vitro",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "selective laser melting",
+          "heat treatment",
+          "corrosion behavior",
+          "Ringer's solution"
+        ],
+        "summary_zh": {
+          "motivation": "研究热处理对选区激光熔化Ti-6Al-4V合金腐蚀行为的影响",
+          "method": "在相变温度以下进行热处理，分析微观结构和腐蚀性能",
+          "result": "热处理由于β相增多和α'马氏体减少，提高了合金在Ringer's溶液中的耐腐蚀性",
+          "validation": "通过电化学腐蚀测试验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of sub-transus heat treatment on the corrosion behavior of selective laser melted Ti-6Al-4V alloy.",
+          "method": "Ti-6Al-4V samples were fabricated by selective laser melting and subjected to heat treatment below the polymorphic transformation temperature, followed by microstructural characterization and corrosion testing in Ringer's solution.",
+          "result": "Heat treatment improved corrosion resistance due to increased β phase fraction and reduced α' martensite and microstrain.",
+          "validation": "Corrosion resistance was evaluated using electrochemical tests in Ringer's solution."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "Ti-6Al-4V alloy",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "corrosion behaviour",
+            "zh": "腐蚀行为"
+          },
+          {
+            "en": "Ringer's solution",
+            "zh": "林格氏液"
+          },
+          {
+            "en": "β phase",
+            "zh": "β相"
+          },
+          {
+            "en": "α' martensite",
+            "zh": "α'马氏体"
+          },
+          {
+            "en": "microstrain",
+            "zh": "微观应变"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:17:25Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

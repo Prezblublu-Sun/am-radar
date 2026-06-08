@@ -1,0 +1,300 @@
+{
+  "schema_version": "v2",
+  "date": "2025-12-09",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4417159360",
+      "doi": "10.3390/ma18245529",
+      "title": "Mechanical Properties and Fracture Behavior of Hot Isostatically Pressed TiC/TC4 Composites",
+      "abstract": "Titanium matrix composites (TMCs), characterized by low density, high strength, and excellent high-temperature mechanical properties, are becoming preferred materials for key components in aerospace engines. However, conventional casting methods for preparing TMCs often encounter issues such as composition segregation and coarse reinforcement phases, hindering their engineering application. In this study, we fabricated TiC/TC4 titanium matrix composites via hot isostatic pressing (HIP). The composites exhibited room-temperature tensile strength of 1058 ± 8 MPa, yield strength of 958 ± 12 MPa, and total elongation of 17.0 ± 0.5%. Furthermore, the TiC/TC4 composites demonstrated favorable high-temperature mechanical properties, with a tensile strength of about 500 MPa at 600 °C. Investigation into plastic deformation and fracture behavior revealed that at room temperature, tensile cracks initiated predominantly around the reinforcing TiC particles, whereas at high temperatures, cracks primarily originated within the matrix. The strengthening mechanisms of the TiC particle-reinforced TC4 composites included particle strengthening, solid solution strengthening, and load-transfer strengthening. Additionally, the precipitation of nano-acicular secondary α (αs) phases within the β phase during high-temperature tensile deformation was observed, contributing to the superior high-temperature mechanical performance of the composites.",
+      "authors": [
+        "Zhiyu Sun",
+        "Jinyi Duan",
+        "Xiang Wu",
+        "Xiaofei Mo",
+        "Hai Nan",
+        "Jingchao Xu",
+        "Ao Fu",
+        "Yuankui Cao",
+        "Bin Liu"
+      ],
+      "first_author_affiliation": "Cast Titanium Alloy R&D Center, Beijing Institute of Aeronautical Materials, Beijing 100095, China",
+      "corresponding_authors": [
+        {
+          "name": "Yuankui Cao",
+          "affiliation": "State Key Laboratory of Powder Metallurgy, Central South University, Changsha 410083, China"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-12-09",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18245529",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Ultimate tensile strength",
+        "Composite material",
+        "Hot isostatic pressing",
+        "Deformation (meteorology)",
+        "Hot pressing",
+        "Elongation",
+        "Casting",
+        "Tensile testing",
+        "Titanium",
+        "Titanium alloy",
+        "Fracture (geology)",
+        "Pressing",
+        "Reinforcement",
+        "Precipitation",
+        "Strengthening mechanisms of materials",
+        "Phase (matter)",
+        "Microstructure"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "tensile strength",
+          "yield strength",
+          "elongation"
+        ],
+        "ti6al4v_postprocess": [
+          "TC4",
+          "hot isostatic pressing"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及TC4钛合金的热等静压处理，但研究对象为TiC增强复合材料而非增材制造件，且未涉及疲劳性能。",
+        "why_not_core": "No additive manufacturing context; the material is a composite fabricated by HIP, not post-processing of AM Ti-6Al-4V, and fatigue performance is not addressed.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "hot isostatic pressing",
+          "titanium matrix composite",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "传统铸造TiC/TC4复合材料存在成分偏析和粗大增强相问题，需优化工艺。",
+          "method": "采用热等静压法制备TiC/TC4复合材料，并测试室温和高温力学性能。",
+          "result": "复合材料室温抗拉强度1058 MPa，伸长率17%；600°C抗拉强度约500 MPa。",
+          "validation": "通过拉伸试验和断口分析验证力学性能和断裂机制。"
+        },
+        "summary_en": {
+          "motivation": "Conventional casting of TiC/TC4 composites suffers from segregation and coarse reinforcements, prompting the use of hot isostatic pressing.",
+          "method": "TiC/TC4 composites were fabricated via hot isostatic pressing and characterized for tensile properties at room and elevated temperatures.",
+          "result": "The composite achieved room-temperature tensile strength of 1058 MPa with 17% elongation and retained ~500 MPa at 600°C.",
+          "validation": "Validation involved quasi-static tensile tests and fractographic analysis to identify crack initiation sites."
+        },
+        "key_terms": [
+          {
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "titanium matrix composite",
+            "zh": "钛基复合材料"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "fracture behavior",
+            "zh": "断裂行为"
+          },
+          {
+            "en": "strengthening mechanism",
+            "zh": "强化机制"
+          },
+          {
+            "en": "elevated temperature",
+            "zh": "高温"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:21:34Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4417146167",
+      "doi": "10.3389/fmats.2025.1689246",
+      "title": "A novel small punch creep test to determine norton creep properties of LPBF Ti64 alloy",
+      "abstract": "Laser Powder Bed Fusion (LPBF) Ti-6Al-4V (Ti64)alloy is increasingly favored in additive manufacturing (AM) for complex, lightweight, and high-strength components. However, the inherent microstructural heterogeneity in LPBF materials necessitates specialized characterization methods to ensure reliable performance in service conditions. The Small Punch Creep Test (SPCT) has gained recognition as an innovative and efficient technique for assessing materials creep behavior, particularly beneficial for AM components allowing easier sampling and local characterization of microstructure heterogeneities. Although standards such as CWA 15627 and EN 10371 provide empirical correlations between SPCT and uniaxial creep test (UCT) results, the complex deformation mechanisms in LPBF materials, including anisotropy, porosity, and phase evolution, necessitate material-specific calibration for accurate interpretation. This study proposes a direct methodology to derive the Norton creep parameters of LPBF Ti64 alloy from both Small Punch Test (SPT) and SPCT data, integrating a new representative stress-strain method with inverse finite element analysis (FEA). By first extracting elasto-plastic properties from SPT using the representative stress-strain method, the model enables efficient extraction of Norton creep parameters through inverse analysis of SPCT results. Experimental validation on LPBF Ti64 alloy demonstrates strong agreement with properties derived from SPCT, verifying the accuracy and practical applicability of the proposed method for AM components.",
+      "authors": [
+        "Furui Shi",
+        "Mathieu Lalé",
+        "Feng Yu",
+        "Martin Abendroth",
+        "Bernard Viguier",
+        "Yingzhi Li"
+      ],
+      "first_author_affiliation": "College of Mechanical and Automotive Engineering, Ningbo University of Technology, Ningbo, China",
+      "corresponding_authors": [
+        {
+          "name": "Feng Yu",
+          "affiliation": "College of Mechanical and Automotive Engineering, Ningbo University of Technology, Ningbo, China"
+        }
+      ],
+      "venue": "Frontiers in Materials",
+      "year": 2025,
+      "date": "2025-12-09",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3389/fmats.2025.1689246",
+      "cited_by_count": 0,
+      "concepts": [
+        "Creep",
+        "Materials science",
+        "Characterization (materials science)",
+        "Microstructure",
+        "Alloy",
+        "Deformation (meteorology)",
+        "Finite element method",
+        "Inverse",
+        "Structural engineering",
+        "Material properties",
+        "Phase (matter)",
+        "Sampling (signal processing)",
+        "Extraction (chemistry)",
+        "Titanium alloy",
+        "Stress (linguistics)",
+        "Calibration",
+        "Service life",
+        "Test data",
+        "Computer science",
+        "Inverse problem",
+        "Mechanical engineering",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文针对LPBF Ti-6Al-4V合金，提出了一种小冲杆蠕变测试方法，属于直接相关的力学性能评估，但主要关注蠕变而非疲劳或拉伸性能。",
+        "why_not_core": "Does not address tensile or fatigue behavior, which are the primary focus of the Layer 1 direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "LPBF",
+          "Ti-6Al-4V",
+          "small punch creep test",
+          "creep properties",
+          "Norton creep parameters"
+        ],
+        "summary_zh": {
+          "motivation": "LPBF Ti-6Al-4V的微结构异质性需要专门的蠕变表征方法以确保服役性能。",
+          "method": "提出结合代表应力-应变法和逆有限元分析的小冲杆蠕变测试，从SPT和SPCT数据直接推导Norton蠕变参数。",
+          "result": "实验验证显示与SPCT推导的参数高度一致，证明该方法适用于增材制造构件。",
+          "validation": "通过LPBF Ti64合金的小冲杆蠕变实验和有限元反分析进行验证。"
+        },
+        "summary_en": {
+          "motivation": "Microstructural heterogeneity in LPBF Ti-6Al-4V requires specialized creep characterization methods to ensure reliable service performance.",
+          "method": "This study proposes a methodology to directly derive Norton creep parameters from small punch test and small punch creep test data, integrating a representative stress-strain method with inverse finite element analysis.",
+          "result": "Experimental validation on LPBF Ti64 alloy shows strong agreement with properties derived from SPCT, confirming the method's accuracy and applicability for AM components.",
+          "validation": "Validation is performed through small punch creep experiments on LPBF Ti64 alloy and inverse FEA to match extracted parameters."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "small punch creep test",
+            "zh": "小冲杆蠕变测试"
+          },
+          {
+            "en": "Norton creep parameters",
+            "zh": "Norton蠕变参数"
+          },
+          {
+            "en": "representative stress-strain method",
+            "zh": "代表应力-应变法"
+          },
+          {
+            "en": "inverse finite element analysis",
+            "zh": "逆有限元分析"
+          },
+          {
+            "en": "creep behavior",
+            "zh": "蠕变行为"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:21:34Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 2,
+    "by_source": {
+      "openalex": 2
+    },
+    "after_dedup": 2,
+    "after_routing": 2,
+    "by_direction": {
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 2
+    },
+    "scored": 2,
+    "priority_counts": {
+      "Low": 1,
+      "Medium": 1
+    }
+  }
+}

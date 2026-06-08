@@ -4,125 +4,281 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "pubmed",
-      "id": "pubmed:41682626",
-      "doi": "10.3390/jcm15030945",
-      "pmid": "41682626",
-      "title": "A Novel Potential Landmark for Intraoperative Estimation of Femoral Stem Anteversion: An Analysis of Computed Tomography Measurements.",
-      "abstract": "Background/Objectives: Femoral anteversion (FA) is the angle between the femoral neck axis (FNA) and the posterior condylar axis (PCA). Surgeons generally estimate intraoperative femoral stem anteversion visually relative to the PCA, but this method can be challenging even for experienced surgeons. This study aimed to find an anatomical proximal landmark within a CT coordinate system for intraoperative estimation of femoral stem anteversion. Methods: Seventy patients were included. The anterior lesser trochanter line (ALTL) was defined as the line passing through two tangent points: one between the rounded part of the lesser trochanter and the medial edge of the anterior lesser trochanter cortex, and the other between the anterior cortex of the femur and the lateral edge of the anterior lesser trochanter cortex at the level of the lesser trochanter tip. The following angles were measured and analyzed: Angle 1 (angle between the FNA and the ALTL), Angle 2 (angle between the ALTL and the PCA), and Angle 3 (angle between the FNA and the PCA [FA]). Results: In all measurements, the inter-observer and intra-observer intraclass correlation coefficients exceeded 0.81. Angle 1 negatively correlated with Angle 2 (r = -0.79, p < 0.01), whereas Angle 1 positively correlated with Angle 3 (r = 0.70, p < 0.01). Conclusions: We found a consistent relationship between the ALTL and FA, and the ALTL may serve as a proximal landmark for intraoperative estimation of femoral stem anteversion during anterior or anterolateral approaches.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7125613955",
+      "doi": "10.1038/s41529-026-00745-4",
+      "title": "A comparative study on the corrosion resistance of Ti-6Al-4V produced via material extrusion and other additive manufacturing technologies",
+      "abstract": "This study investigated the influence of process-induced surface features, porosity, and microstructure on the corrosion behavior of Ti-6Al-4V alloy produced by different additive manufacturing (AM) technologies, including emerging sinter-based material extrusion (MEX), well-established electron beam melting (EBM) and laser powder bed fusion (LPBF), and wrought reference material. The investigated manufacturing routes produced sensibly different surfaces, porosity, and microstructures. Potentiodynamic and potentiostatic polarization tests in phosphate-buffered saline (PBS) revealed stable passivity and excellent corrosion performance for all AM alloys, both in the as-built and polished conditions. After polishing, modest variations were detected among manufacturing technologies, suggesting a possible deleterious effect of the intrinsic porosity once exposed to the environment. Immersion tests performed in neutral and acidified isotonic solutions highlighted the onset of selective corrosion phenomena between the α and β phases under deoxygenated acidic conditions, consistent with Volta potential measurements. Long-term immersion in acidified isotonic solution confirmed the detrimental influence of porosity on the corrosion behavior of Ti-6Al-4V, especially for the MEX-produced alloy, where the presence of a macro-defect network promoted localized corrosion propagation.",
       "authors": [
-        "Ho Hyun Yun",
-        "Woo Seung Lee",
-        "Young Bae Kim",
-        "Jun Woo Park"
+        "Sergio Lorenzi",
+        "Lorenzo Nani",
+        "Tommaso Persico",
+        "Mariangela Lombardi",
+        "Fabrizio Sarasini",
+        "Claudia Sergi",
+        "Marina Cabrini"
       ],
-      "first_author_affiliation": "Department of Orthopaedic Surgery, Veterans Healthcare Service Medical Center, Seoul 05368, Republic of Korea.",
+      "first_author_affiliation": "Department of Engineering and Applied Sciences, University of Bergamo, Bergamo, Italy",
       "corresponding_authors": [
         {
-          "name": "Jun Woo Park",
-          "affiliation": "Department of Orthopaedic Surgery, Veterans Healthcare Service Medical Center, Seoul 05368, Republic of Korea.",
-          "inferred": true
+          "name": "Lorenzo Nani",
+          "affiliation": "Department of Engineering and Applied Sciences, University of Bergamo, Bergamo, Italy"
         }
       ],
-      "venue": "Journal of clinical medicine",
+      "venue": "npj Materials Degradation",
       "year": 2026,
       "date": "2026-01-24",
       "date_precision": "day",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41682626/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
+      "url": "https://doi.org/10.1038/s41529-026-00745-4",
+      "cited_by_count": 1,
+      "concepts": [
+        "Corrosion",
+        "Materials science",
+        "Extrusion",
+        "Microstructure",
+        "Metallurgy",
+        "Immersion (mathematics)",
+        "Porosity",
+        "Selective laser melting",
+        "Alloy",
+        "Polarization (electrochemistry)",
+        "Fusion"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "porosity",
+          "defect"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "polishing"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文不涉及植入物力学建模、有限元分析或增材制造，与用户研究方向的直接相关性很低。",
-        "why_not_core": "This paper does not include any biomechanics modeling, FEA, implant design, or AM fabrication; it is purely a clinical anatomy study for surgical guidance.",
-        "validation_kind": "clinical",
+        "relevance_to_user": "该论文研究Ti-6Al-4V的耐腐蚀性能，未涉及疲劳或力学性能，与后处理作用无关。",
+        "why_not_core": "Paper focuses on corrosion resistance, not mechanical performance (fatigue/tensile) or post-processing effects on mechanical properties; no evaluation of fatigue or strength.",
+        "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
-          "is_patient_specific": true,
+          "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "femoral stem anteversion",
-          "anatomical landmark",
-          "lesser trochanter",
-          "CT measurement",
-          "surgical guidance"
+          "corrosion resistance",
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "post-processing",
+          "polishing"
         ],
         "summary_zh": {
-          "motivation": "寻找术中估算股骨柄前倾角的近端解剖标志。",
-          "method": "基于CT测量定义前小转子线并分析其与股骨颈前倾角的关系。",
-          "result": "前小转子线与股骨颈前倾角具有稳定相关性，可作为术中参考标志。",
-          "validation": "临床CT测量及观察者间/内一致性分析。"
+          "motivation": "研究不同增材制造技术对Ti-6Al-4V耐腐蚀性的影响。",
+          "method": "比较MEX、EBM、LPBF及锻造样品的腐蚀行为。",
+          "result": "抛光后耐腐蚀性差异小，但孔隙导致局部腐蚀。",
+          "validation": "通过动电位极化、浸泡实验和Volta电位测量验证。"
         },
         "summary_en": {
-          "motivation": "To identify a proximal anatomical landmark for intraoperative estimation of femoral stem anteversion.",
-          "method": "Defined the anterior lesser trochanter line (ALTL) on CT and measured its angular relationships with the femoral neck axis and posterior condylar axis.",
-          "result": "The ALTL showed a consistent correlation with femoral anteversion, suggesting its utility as an intraoperative reference.",
-          "validation": "Clinical CT measurements with inter- and intra-observer reliability analysis (ICC > 0.81)."
+          "motivation": "To investigate how different additive manufacturing technologies affect the corrosion resistance of Ti-6Al-4V alloy.",
+          "method": "Corrosion behavior of MEX, EBM, LPBF, and wrought Ti-6Al-4V was compared using potentiodynamic and potentiostatic tests in PBS.",
+          "result": "All AM alloys showed excellent passivity; polishing reduced differences, but porosity promoted localized corrosion in acidic conditions.",
+          "validation": "Validation via electrochemical tests, immersion experiments, and Volta potential mapping."
         },
         "key_terms": [
           {
-            "en": "femoral anteversion",
-            "zh": "股骨前倾角"
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
           },
           {
-            "en": "femoral stem",
-            "zh": "股骨柄"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "lesser trochanter",
-            "zh": "小转子"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           },
           {
-            "en": "CT measurement",
-            "zh": "CT测量"
+            "en": "material extrusion",
+            "zh": "材料挤出"
           },
           {
-            "en": "anatomical landmark",
-            "zh": "解剖标志"
+            "en": "electron beam melting",
+            "zh": "电子束熔化"
           },
           {
-            "en": "intraoperative estimation",
-            "zh": "术中估算"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "polishing",
+            "zh": "抛光"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:19:20Z"
+      "first_seen_at": "2026-06-07T23:23:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7125587257",
+      "doi": "10.1007/s00170-025-17144-9",
+      "title": "Reinforced scan: a reinforcement learning enabled optimal laser scan path planning in laser powder bed fusion additive manufacturing",
+      "abstract": "Additive Manufacturing is an innovative technology that fabricates parts layer by layer. However, in Laser Powder Bed Fusion (LPBF), printed metal parts often exhibit residual stresses, deformations, and other defects due to non-uniform temperature distribution during the printing process. To mitigate these issues, an optimized scan sequence within each layer can improve thermal uniformity. Traditional optimization methods, which rely on domain knowledge and employ trial-and-error or heuristic approaches, often fail to achieve optimal solutions due to the complex nature of the problem. One major challenge in improving scan strategies lies in the vast search space required to optimize the scan sequence for individual scan tracks within each layer, making it difficult to identify the best solution. To overcome this challenge, this work proposes an innovative scan strategy, Reinforced Scan, that leverages reinforcement learning to intelligently determine the optimal scan sequence. The method introduces a novel reward function that accounts not only for temperature variance but also for the spatial uniformity of the temperature field. By structuring the optimization problem into multiple hierarchical levels, the approach significantly reduces computational demand and enhances the manageability of the optimization process. The effectiveness of the proposed Reinforced Scan is validated through Netfabb™ Local Simulation and real-world laser scanning experiments on a Ti-6Al-4V thin plate. Its performance is compared against conventional heuristic scan sequences. Both simulation and experimental results demonstrate that Reinforced Scan achieves superior outcomes, notably reducing residual stress compared to traditional methods.",
+      "authors": [
+        "Chaoran Dou",
+        "Jihoon Chung",
+        "Raghav Gnanasambandam",
+        "Yuhao Wu",
+        "J. James Li",
+        "Zhenyu James Kong"
+      ],
+      "first_author_affiliation": "Department of Industrial and Systems Engineering, University of Missouri, Columbia, MO 65211 USA",
+      "corresponding_authors": [
+        {
+          "name": "Zhenyu James Kong",
+          "affiliation": "Grado Department of Industrial and Systems Engineering, Virginia Tech, Blacksburg, VA 24061 USA"
+        }
+      ],
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "year": 2026,
+      "date": "2026-01-24",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s00170-025-17144-9",
+      "cited_by_count": 1,
+      "concepts": [
+        "Reinforcement learning",
+        "Heuristic",
+        "Computer science",
+        "Path (computing)",
+        "Domain (mathematical analysis)",
+        "Residual",
+        "Selective laser sintering",
+        "Sequence (biology)",
+        "Laser scanning",
+        "Motion planning",
+        "Materials science",
+        "Layer (electronics)",
+        "Fusion",
+        "Artificial intelligence"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "residual stress"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V的LPBF扫描路径优化以减少残余应力，对改善打印件的力学性能有参考价值，但未直接进行力学或疲劳性能测试。",
+        "why_not_core": "This paper focuses on scan path planning optimization rather than mechanical/fatigue characterization or modeling of Ti-6Al-4V; no mechanical properties (tensile, fatigue, hardness) are reported.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "scan strategy",
+          "reinforcement learning",
+          "residual stress",
+          "Ti-6Al-4V"
+        ],
+        "summary_zh": {
+          "motivation": "为解决LPBF中残余应力和变形问题，提出基于强化学习的优化扫描路径。",
+          "method": "利用强化学习分层优化扫描序列，引入新型奖励函数考虑温度均匀性。",
+          "result": "相比传统方法，Reinforced Scan显著降低残余应力。",
+          "validation": "通过Netfabb仿真和Ti-6Al-4V薄板激光扫描实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To mitigate residual stresses and deformations in LPBF, a reinforcement learning-based scan path optimization is proposed.",
+          "method": "The method uses hierarchical reinforcement learning to optimize scan sequences with a novel reward function accounting for temperature uniformity.",
+          "result": "Reinforced Scan achieves superior reduction in residual stress compared to conventional heuristic scan sequences.",
+          "validation": "Validated through Netfabb local simulation and real-world laser scanning experiments on Ti-6Al-4V thin plates."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "reinforcement learning",
+            "zh": "强化学习"
+          },
+          {
+            "en": "scan strategy",
+            "zh": "扫描策略"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "thermal uniformity",
+            "zh": "温度均匀性"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
+          },
+          {
+            "en": "Netfabb simulation",
+            "zh": "Netfabb仿真"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:23:51Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "pubmed": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "am_femoral_stem": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "pubmed": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 1,
+      "Medium": 1
     }
   }
 }

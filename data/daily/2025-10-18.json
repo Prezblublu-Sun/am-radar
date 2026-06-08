@@ -1,0 +1,164 @@
+{
+  "schema_version": "v2",
+  "date": "2025-10-18",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415321148",
+      "doi": "10.1016/j.jmrt.2025.10.120",
+      "title": "The effect of heat treatment on the structural and performance evolution of plasma electrolytic oxidation coatings",
+      "abstract": "To improve the mechanical durability of biomedical implants, this work examines how heat treatment influences the structure and properties of plasma electrolytic oxidation (PEO) coatings on Ti-6Al-4V alloy. The evolution of the coating was evaluated in terms of phase composition, surface characteristics, and fatigue performance using X-ray diffraction, microhardness tests, and residual stress analysis. It is found that heat treatment markedly improves the crystallinity and hardness of the coating, with the 800 °C treated sample reaching around 670 HV. However, the effect on fatigue life is strongly temperature dependent. A treatment at 400 °C yields the best fatigue resistance, attributed to increased coating densification (porosity reduced to ∼8%) and the preservation of residual compressive stresses, which help inhibit crack initiation. In contrast, treatments above 600 °C promote the anatase-to-rutile phase transition. This transformation introduces residual tensile stresses and encourages microcrack formation, significantly degrading fatigue life. Moreover, surface wettability evolves with phase composition and defect density: the hydrophilic rutile phase formed at 600 °C minimizes the water contact angle, whereas increased microcracking at 800 °C traps air and raises the contact angle. These findings establish heat temperature-dependent structure-property relationships critical for orthopedic coating design.",
+      "authors": [
+        "Fangquan Xi",
+        "Chao Deng",
+        "Zheng Zhang",
+        "Yang Liu",
+        "Jiyuan Chen",
+        "Xueying Wen",
+        "Yuanyuan Kang"
+      ],
+      "first_author_affiliation": "School of Mechanical Engineering & Automation, Northeastern University, Shenyang 110819, China",
+      "corresponding_authors": [
+        {
+          "name": "Yang Liu",
+          "affiliation": "Key Laboratory of Vibration and Control of Aero-Propulsion System Ministry of Education, Northeastern University, Shenyang, 110819, China"
+        },
+        {
+          "name": "Yuanyuan Kang",
+          "affiliation": "School and Hospital of Stomatology, China Medical University, Liaoning Provincial Key Laboratory of Oral Diseases, ShenYang, Liaoning, 110002, P.R China"
+        }
+      ],
+      "venue": "Journal of Materials Research and Technology",
+      "year": 2025,
+      "date": "2025-10-18",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jmrt.2025.10.120",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Residual stress",
+        "Indentation hardness",
+        "Coating",
+        "Wetting",
+        "Composite material",
+        "Ultimate tensile strength",
+        "Crystallinity",
+        "Metallurgy",
+        "Phase (matter)",
+        "Rutile",
+        "Plasma electrolytic oxidation",
+        "Durability",
+        "Contact angle",
+        "Solderability",
+        "Thermal spraying",
+        "Hardness",
+        "Electrolyte"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "porosity",
+          "defect",
+          "residual stress",
+          "fatigue",
+          "fatigue life"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V合金上等离子电解氧化涂层经热处理后的疲劳性能，但未涉及增材制造材料，且涂层后处理并非方向核心。",
+        "why_not_core": "The paper studies heat treatment of PEO coatings on Ti-6Al-4V, but the Ti-6Al-4V is not additively manufactured, and the focus is on coating evolution rather than bulk material post-processing for AM Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "heat treatment",
+          "plasma electrolytic oxidation",
+          "Ti-6Al-4V",
+          "fatigue",
+          "coating"
+        ],
+        "summary_zh": {
+          "motivation": "提高生物医用植入体的机械耐久性",
+          "method": "对Ti-6Al-4V合金上的PEO涂层进行不同温度热处理",
+          "result": "400°C热处理获得最佳疲劳抗力，800°C因相变导致疲劳寿命下降",
+          "validation": "疲劳测试、XRD、显微硬度及残余应力分析"
+        },
+        "summary_en": {
+          "motivation": "To improve the mechanical durability of biomedical implants by understanding how heat treatment affects the structure and properties of PEO coatings on Ti-6Al-4V alloy.",
+          "method": "Heat treatment was applied to plasma electrolytic oxidation (PEO) coatings on Ti-6Al-4V at various temperatures, and the resulting phase composition, surface characteristics, and fatigue performance were evaluated.",
+          "result": "Heat treatment at 400°C yielded the best fatigue resistance due to increased coating densification and preservation of compressive stresses, while treatments above 600°C degraded fatigue life due to anatase-to-rutile transformation and tensile stresses.",
+          "validation": "The findings were validated through fatigue testing, X-ray diffraction, microhardness measurements, and residual stress analysis."
+        },
+        "key_terms": [
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "plasma electrolytic oxidation (PEO)",
+            "zh": "等离子电解氧化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
+          },
+          {
+            "en": "coating",
+            "zh": "涂层"
+          },
+          {
+            "en": "anatase-to-rutile transition",
+            "zh": "锐钛矿向金红石转变"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:17:25Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

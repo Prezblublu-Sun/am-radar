@@ -4,56 +4,212 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2510.26244v1",
-      "doi": "10.1063/5.0310464",
-      "arxiv_id": "2510.26244v1",
-      "title": "Impact of AlN buffer thickness on electrical and thermal characteristics of AlGaN/GaN/AlN HEMTs",
-      "abstract": "We investigate the influence of AlN buffer thickness on the structural, electrical, and thermal properties of AlGaN/GaN high-electron mobility transistors (HEMTs) grown on semi-insulating SiC substrates by metal-organic chemical vapor deposition. X-ray diffraction and atomic force microscopy reveal that while thin AlN layers (120 nm) exhibit compressive strain and smooth step-flow surfaces, thicker single-layer buffers (550 nm) develop tensile strain and increased surface roughness. Multi-layer buffer structures up to 2 μm alleviate strain and maintain surface integrity. Low-temperature Hall measurements confirm that electron mobility decreases with increasing interface roughness, with the highest mobility observed in the structure with a thin AlN buffer. Transient thermoreflectance measurements show that thermal conductivity (ThC) of the AlN buffer increases with the thickness, reaching 188 W/m.K at 300 K for the 2 μm buffer layer, which is approximately 60% of the bulk AlN ThC value. These results highlight the importance of optimizing AlN buffer design to balance strain relaxation, thermal management, and carrier transport for high-performance GaN-based HEMTs.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4415679105",
+      "doi": "10.1016/j.jmrt.2025.10.240",
+      "title": "Laser powder bed fusion of Ti–6Al–4V: In-situ rolling for microstructure modification and grain refinement",
+      "abstract": "Laser additive manufacturing is known for high geometrical freedom, high cooling rates and fine microstructures with high performance properties. Regarding Ti-6Al-4V, often a strong microstructural texture results with mostly undesired anisotropic mechanical characteristics. By adding a deep rolling module in-situ layer-wise and locally adjustable severe plastic deformation can be applied during the build-up phase in additive manufacturing. Scanning of subsequent layers allow a recrystallization and refinement of the prior β-grains in the ambient heat affected zone of the melt tracks due to deformation induced high dislocation densities after applied in-situ deep rolling. Rapid heating to and cooling from the β-phase field limits the β-grain growing leading in ultra-fine β-grains. Additionally, the β-grain morphology transitions from columnar to globular reducing the texture and allowing isotropic mechanical properties. By deep rolling every fifth layer in additive manufacturing, a technical periodic graded microstructure results, consisting of fine globular and ultra-fine β-grains. Post hot-isostatic pressing is applied to decompose the initial α’-martensite into a α+β microstructure. While the standard laser additive manufacturing process leads in long α-lamellas surrounded by β-phase, the in-situ rolling leads in a refined periodic graded microstructure. This consists of layers of shorter α-lamellas and layers of globular α. This approach allows local microstructure modification by targeted severe plastic deformation and recrystallization processes in-situ during laser additive manufacturing. Combining the potential of ultra-fine-grained Ti-6Al-4V with the high design flexibility and near-net-shape manufacturing capabilities of laser additive manufacturing offers new possibilities. This combination enables tailored and locally precise microstructure modifications of Ti-6Al-4V.",
       "authors": [
-        "Minho Kim",
-        "Dat Q. Tran",
-        "Plamen P. Paskov",
-        "U. Choi",
-        "O. Nam",
-        "Vanya Darakchieva"
+        "Mika León Altmann",
+        "Florian Eibl",
+        "Gianluca Pirro",
+        "Nicole Wielki",
+        "Daniel Knoop",
+        "Daniel Meyer",
+        "Anastasiya Toenjes"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Leibniz-Institute for Materials Engineering - IWT, Badgasteiner Str. 3, 28359 Bremen, Germany",
+      "corresponding_authors": [
+        {
+          "name": "Anastasiya Toenjes",
+          "affiliation": "Leibniz-Institute for Materials Engineering - IWT, Badgasteiner Str. 3, 28359 Bremen, Germany"
+        }
+      ],
+      "venue": "Journal of Materials Research and Technology",
       "year": 2025,
       "date": "2025-10-30",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2510.26244v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.1016/j.jmrt.2025.10.240",
+      "cited_by_count": 3,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Recrystallization (geology)",
+        "Laser",
+        "Fusion",
+        "Anisotropy",
+        "Composite material",
+        "Isotropy",
+        "Texture (cosmology)",
+        "Deformation (meteorology)",
+        "Severe plastic deformation",
+        "Deep drawing",
+        "Dynamic recrystallization",
+        "Laser scanning",
+        "Grain size",
+        "Pressing",
+        "Inertial confinement fusion"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
-        ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "hot isostatic pressing"
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文涉及半导体器件，与AM力学性能研究方向无关。",
-        "why_not_core": "This paper focuses on AlN buffer thickness in GaN HEMTs, with no connection to additive manufacturing, biomedical implants, or mechanical property characterization.",
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Skim only",
+        "relevance_to_user": "论文涉及Ti-6Al-4V的选区激光熔化结合原位轧制与热等静压后处理，但未报告力学性能（疲劳/拉伸）数据，仅关注微观组织演变。",
+        "why_not_core": "No experimental mechanical performance (fatigue or tensile) data reported; the paper focuses on microstructure modification via in-situ rolling and HIP, not on quantitative mechanical property changes.",
         "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "in-situ rolling",
+          "hot isostatic pressing",
+          "microstructure refinement"
+        ],
+        "summary_zh": {
+          "motivation": "改善激光增材制造Ti-6Al-4V的微观组织各向异性",
+          "method": "在LPBF中逐层施加深轧变形，并结合后续热等静压处理",
+          "result": "获得超细β晶粒和周期梯度微观组织，α片层细化",
+          "validation": "通过EBSD和SEM进行微观组织表征"
+        },
+        "summary_en": {
+          "motivation": "To mitigate the anisotropic microstructure in laser powder bed fusion Ti-6Al-4V by introducing in-situ severe plastic deformation.",
+          "method": "An in-situ deep rolling module was applied layer-wise during LPBF, followed by hot isostatic pressing to decompose α' martensite.",
+          "result": "Ultra-fine β grains and a periodic graded microstructure with refined α lamellae were achieved.",
+          "validation": "Microstructural characterization was performed using EBSD and SEM."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "in-situ rolling",
+            "zh": "原位轧制"
+          },
+          {
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
+          },
+          {
+            "en": "microstructure refinement",
+            "zh": "微观组织细化"
+          },
+          {
+            "en": "grain morphology",
+            "zh": "晶粒形貌"
+          },
+          {
+            "en": "severe plastic deformation",
+            "zh": "剧烈塑性变形"
+          },
+          {
+            "en": "prior β grains",
+            "zh": "原始β晶粒"
+          },
+          {
+            "en": "α lamellae",
+            "zh": "α片层"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:17:25Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415718881",
+      "doi": "10.3390/app152111624",
+      "title": "The Role of Process Parameters in Shaping the Microstructure and Porosity of Metallic Components Manufactured by Additive Technology",
+      "abstract": "Laser Powder Bed Fusion (LPBF) technology represents one of the most promising additive manufacturing methods, enabling the production of components with high geometric complexity and a wide range of industrial and biomedical applications. In this study, the influence of both standard and high-productivity process parameters on the microstructure, porosity, surface roughness, and hardness of three commonly used materials, stainless steel 316L, aluminum alloy AlSi10Mg, and titanium alloy Ti6Al4V, was analyzed. The investigations were carried out on samples fabricated using the EOS M290 system, and their characterization was performed with scanning electron microscopy (SEM), electron backscatter diffraction (EBSD), porosity analysis by point counting, Vickers hardness measurements, and optical profilometry. The obtained results revealed significant differences depending on the alloy and the applied parameters. For stainless steel 316L, the high-productivity variant led to grain refinement and stronger crystallographic orientation, albeit at the expense of increased porosity (0.11% vs. 0.05% for the standard variant). In the case of AlSi10Mg alloy, high-productivity parameters enabled a substantial reduction in porosity (from 0.82% to 0.27%) accompanied by an increase in hardness (from 115 HV1 to 122 HV1), highlighting their particular suitability for engineering applications. For the Ti6Al4V alloy, a decrease in porosity (from 0.17% to 0.07%) was observed; however, the increase in mechanical anisotropy resulting from a stronger texture may limit its application in cases requiring isotropic material behavior. The presented research confirms that optimization of LPBF parameters must be strictly tailored to the specific alloy and intended application, ranging from industrial components to biomedical implants. The results provide a foundation for further studies on the relationship between microstructure and functional properties, as well as for the development of hybrid strategies and predictive models of the LPBF process.",
+      "authors": [
+        "Dariusz Sala",
+        "Piotr Ledwig",
+        "Hubert Pasiowiec",
+        "Kamil Cichocki",
+        "Magdalena Jasiołek",
+        "Marek Libura",
+        "Michał Pyzalski"
+      ],
+      "first_author_affiliation": "AGH University of Krakow, A. Mickiewicza Ave. 30, 30-059 Kraków, Poland",
+      "corresponding_authors": [
+        {
+          "name": "Michał Pyzalski",
+          "affiliation": "AGH University of Krakow, A. Mickiewicza Ave. 30, 30-059 Kraków, Poland"
+        }
+      ],
+      "venue": "Applied Sciences",
+      "year": 2025,
+      "date": "2025-10-30",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/app152111624",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Porosity",
+        "Microstructure",
+        "Metallurgy",
+        "Alloy",
+        "Electron backscatter diffraction",
+        "Vickers hardness test",
+        "Titanium alloy",
+        "Scanning electron microscope",
+        "Titanium",
+        "Composite material",
+        "Texture (cosmology)",
+        "Grain size",
+        "Indentation hardness",
+        "Powder metallurgy",
+        "Process variable",
+        "Isotropy",
+        "Characterization (materials science)",
+        "Diffraction"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "mechanical anisotropy",
+          "porosity",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了Ti6Al4V等三种材料的工艺参数对硬度和孔隙率的影响，但未涉及疲劳性能，与专门聚焦于Ti-6Al-4V力学与疲劳的方向关联有限。",
+        "why_not_core": "No tensile, fatigue, or other mechanical performance data beyond hardness; fatigue life, S-N curves, and crack growth not addressed.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -61,67 +217,352 @@
           "is_review": false
         },
         "tags": [
-          "GaN HEMT",
-          "AlN buffer",
-          "thermal conductivity",
-          "semiconductor"
+          "laser powder bed fusion",
+          "Ti6Al4V",
+          "hardness",
+          "porosity",
+          "process parameters",
+          "microstructure"
         ],
         "summary_zh": {
-          "motivation": "研究AlN缓冲层厚度对GaN基HEMT性能的影响",
-          "method": "MOCVD生长不同厚度AlN缓冲层，结合XRD、AFM、霍尔和热反射测量",
-          "result": "薄缓冲层具有更高迁移率，厚缓冲层热导率提升但表面粗糙度增加",
-          "validation": "实验测量验证结构和电热性能"
+          "motivation": "探索LPBF工艺参数对316L、AlSi10Mg和Ti6Al4V三种合金微观结构与性能的影响。",
+          "method": "采用标准和高生产率参数制备试样，通过SEM、EBSD、硬度测试和孔隙率分析进行表征。",
+          "result": "Ti6Al4V在高生产率参数下孔隙率降低但各向异性增加，可能限制其应用。",
+          "validation": "通过SEM、EBSD、硬度测试和光学轮廓仪对结果进行实验验证。"
         },
         "summary_en": {
-          "motivation": "Investigate the effect of AlN buffer thickness on the electrical and thermal properties of AlGaN/GaN HEMTs.",
-          "method": "Grew AlN buffers of varying thickness by MOCVD and characterized structural, electrical, and thermal properties using XRD, AFM, Hall, and transient thermoreflectance.",
-          "result": "Thin buffers yield higher electron mobility while thick buffers achieve higher thermal conductivity up to 188 W/m.K.",
-          "validation": "Experimental measurements validate the trade-off between mobility and thermal conductivity."
+          "motivation": "This study investigates the influence of standard and high-productivity LPBF process parameters on the microstructure, porosity, surface roughness, and hardness of three commonly used alloys.",
+          "method": "Samples of 316L, AlSi10Mg, and Ti6Al4V were fabricated using an EOS M290 system and characterized by SEM, EBSD, Vickers hardness, and optical profilometry.",
+          "result": "For Ti6Al4V, high-productivity parameters reduced porosity from 0.17% to 0.07% but increased mechanical anisotropy due to stronger texture.",
+          "validation": "Experimental validation was performed through microstructural analysis, hardness measurements, and porosity quantification."
         },
         "key_terms": [
           {
-            "en": "AlN buffer",
-            "zh": "AlN缓冲层"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "HEMT",
-            "zh": "高电子迁移率晶体管"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
           },
           {
-            "en": "thermal conductivity",
-            "zh": "热导率"
+            "en": "process parameters",
+            "zh": "工艺参数"
           },
           {
-            "en": "mobility",
-            "zh": "迁移率"
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
           },
           {
             "en": "surface roughness",
             "zh": "表面粗糙度"
+          },
+          {
+            "en": "anisotropy",
+            "zh": "各向异性"
+          },
+          {
+            "en": "electron backscatter diffraction",
+            "zh": "电子背散射衍射"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:14:51Z"
+      "first_seen_at": "2026-06-07T23:17:25Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415720539",
+      "doi": "10.3390/jmmp9110356",
+      "title": "Enhancing Micro-Milling Performance of Ti6Al4V: An Experimental Analysis of Ultrasonic Vibration Effects on Forces, Surface Topography, and Burr Formation",
+      "abstract": "The current study focuses on axial ultrasonic vibration-assisted micro-milling as an advanced technique to improve the machining performance of Ti6Al4V, a material whose difficult-to-cut properties present a significant barrier to manufacturing the high-quality micro-components essential for aerospace and biomedical applications. A full factorial design was employed to evaluate the influence of feed-per-tooth (fz), axial depth-of-cut (ap), and ultrasonic vibration on cutting forces, surface roughness, burr formation, and tool wear. Experimental results demonstrate that ultrasonic assistance significantly reduces cutting forces by 20.09% and tool wear by promoting periodic tool–workpiece separation and improving chip evacuation. However, it increases surface roughness due to the formation of uniform micro-dimples, which may enhance tribological properties. Burr dimensions were primarily governed by feed-per-tooth, with higher feeds minimizing burr size. The study provides actionable insights into optimizing machining parameters for cutting Ti6Al4V, highlighting the trade-offs between force reduction, surface texture, and burr control. These findings contribute to advancing ultrasonic-assisted micro-milling for industrial applications, namely aerospace and biomedical applications requiring high precision and extended tool life.",
+      "authors": [
+        "Asmaa Wadee",
+        "Mohamed G. A. Nassef",
+        "Florian Pape",
+        "Ibrahem Maher"
+      ],
+      "first_author_affiliation": "Industrial and Manufacturing Engineering Department, Egypt-Japan University of Science and Technology, New Borg El Arab City 21934, Egypt",
+      "corresponding_authors": [
+        {
+          "name": "Asmaa Wadee",
+          "affiliation": "Industrial and Manufacturing Engineering Department, Egypt-Japan University of Science and Technology, New Borg El Arab City 21934, Egypt"
+        },
+        {
+          "name": "Florian Pape",
+          "affiliation": "Institute of Machine Design and Tribology, Leibniz University of Hanover, 30167 Hannover, Germany"
+        }
+      ],
+      "venue": "Journal of Manufacturing and Materials Processing",
+      "year": 2025,
+      "date": "2025-10-30",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/jmmp9110356",
+      "cited_by_count": 2,
+      "concepts": [
+        "Aerospace",
+        "Machining",
+        "Surface roughness",
+        "Mechanical engineering",
+        "Ultrasonic sensor",
+        "Vibration",
+        "Materials science",
+        "Surface finish",
+        "Surface (topology)",
+        "Tribology",
+        "Cutting tool",
+        "Tool wear",
+        "Machine tool",
+        "Acoustics",
+        "Engineering",
+        "Factorial experiment",
+        "Surface integrity",
+        "Chip formation",
+        "Response surface methodology"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "本文研究Ti6Al4V的超声振动辅助微铣削工艺，但未涉及增材制造Ti-6Al-4V的疲劳或力学性能，与后处理控制方向不匹配。",
+        "why_not_core": "Paper does not focus on additive-manufactured Ti-6Al-4V; it addresses conventional Ti6Al4V machining without evaluating fatigue or mechanical performance after post-processing.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "micro-milling",
+          "ultrasonic vibration",
+          "Ti6Al4V",
+          "cutting forces",
+          "surface roughness",
+          "burr formation"
+        ],
+        "summary_zh": {
+          "motivation": "提升难加工材料Ti6Al4V的微铣削性能。",
+          "method": "采用全因子实验设计研究超声振动对切削力、表面形貌和毛刺的影响。",
+          "result": "超声辅助降低切削力20.09%但增大表面粗糙度，毛刺尺寸主要由每齿进给量控制。",
+          "validation": "通过铣削实验测量力、粗糙度、毛刺和刀具磨损验证。"
+        },
+        "summary_en": {
+          "motivation": "To improve micro-milling performance of difficult-to-cut Ti6Al4V for aerospace and biomedical micro-components.",
+          "method": "Full factorial experiments evaluated effects of feed-per-tooth, axial depth-of-cut, and ultrasonic vibration on forces, surface roughness, burr formation, and tool wear.",
+          "result": "Ultrasonic assistance reduced cutting forces by 20.09% and tool wear but increased surface roughness due to micro-dimples; burr size was dominated by feed-per-tooth.",
+          "validation": "Experimental measurements of cutting forces, surface topography, burr dimensions, and tool wear."
+        },
+        "key_terms": [
+          {
+            "en": "ultrasonic vibration-assisted micro-milling",
+            "zh": "超声振动辅助微铣削"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "cutting forces",
+            "zh": "切削力"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "burr formation",
+            "zh": "毛刺形成"
+          },
+          {
+            "en": "tool wear",
+            "zh": "刀具磨损"
+          },
+          {
+            "en": "feed-per-tooth",
+            "zh": "每齿进给量"
+          },
+          {
+            "en": "axial depth-of-cut",
+            "zh": "轴向切削深度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:17:25Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415813366",
+      "doi": "10.15587/1729-4061.2025.341529",
+      "title": "Determining the properties of gas turbine engine components manufactured from VT6 titanium alloy powder (Ti-6Al-4V) by using additive electron beam technology",
+      "abstract": "This study considers components manufactured by additive electron beam manufacturing (EBM) from Ti-6Al-4V (VT6) titanium alloy powder. This material is one of the most widely used in aircraft engine production due to its combination of high weldability, strength, as well as resistance to fatigue loading. The task addressed is to achieve consistently high density, structural uniformity, and stable operational properties in gas turbine engines (GTEs) components manufactured from VT6 alloy by the EBM method. To fabricate specimens, a digital model was constructed in Materialise Magics, while layer-by-layer analysis and optimization of process parameters were carried out in Simufact Additive. Using the EBM process, experimental specimens were produced, including four GTE blades, a turbine wheel, and control samples. The chemical composition confirmed full compliance of the parts with the VT6 (Ti-6Al-4V) alloy standard. The microstructure is characterized by a lamellar α′-phase with a minor fraction of β-phase; the α-phase exhibits an acicular morphology with crystal thickness ranging from 0.5 to 1.5 μm. A uniform distribution of alloying elements, as well as the absence of segregation and porosity, was observed. The average microhardness value HV100 was determined to be 3.71 GPa. The results confirmed that the manufactured parts met the requirements for GTE components, demonstrating high density, strength, and operational reliability. The integration of simulation with subsequent EBM fabrication, optimization of process parameters, and the use of produced VT6 powder enabled the production of parts with zero porosity and stable microstructure. The components also showed controlled texture and high geometric accuracy. This confirms the effectiveness of the proposed approach and highlights its potential for scaling into serial production of critical components with predictable performance characteristics",
+      "authors": [
+        "V.A. Matviichuk",
+        "V.M. Nesterenkov"
+      ],
+      "first_author_affiliation": "E.O. Paton Electric Welding Institute of the National Academy of Sciences of Ukraine",
+      "corresponding_authors": [
+        {
+          "name": "V.A. Matviichuk",
+          "affiliation": "E.O. Paton Electric Welding Institute of the National Academy of Sciences of Ukraine"
+        }
+      ],
+      "venue": "Eastern-European Journal of Enterprise Technologies",
+      "year": 2025,
+      "date": "2025-10-30",
+      "date_precision": "day",
+      "url": "https://doi.org/10.15587/1729-4061.2025.341529",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Acicular",
+        "Lamellar structure",
+        "Alloy",
+        "Titanium alloy",
+        "Metallurgy",
+        "Powder metallurgy",
+        "Composite material",
+        "Titanium",
+        "Indentation hardness",
+        "Turbine blade",
+        "Porosity",
+        "Texture (cosmology)",
+        "Turbine",
+        "Material properties",
+        "Mechanical engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "porosity",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要研究电子束熔化Ti-6Al-4V合金的工艺优化与微观结构，但缺乏力学性能（如拉伸、疲劳）数据，与方向要求的机械/疲劳性能直接关联较弱。",
+        "why_not_core": "No tensile, fatigue, or fracture toughness data reported; only microhardness and qualitative strength claims.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "EBM",
+          "Ti-6Al-4V",
+          "gas turbine",
+          "microhardness",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "实现电子束熔化Ti-6Al-4V合金燃气轮机部件的高密度与稳定性能。",
+          "method": "构建数字模型，模拟与工艺优化，EBM制造，微观结构与显微硬度分析。",
+          "result": "零件零孔隙率，层状α'微观结构，平均显微硬度3.71 GPa，满足燃气轮机要求。",
+          "validation": "通过实验制造与显微硬度测试验证。"
+        },
+        "summary_en": {
+          "motivation": "To achieve consistently high density, structural uniformity, and stable operational properties in gas turbine engine components fabricated by electron beam melting of Ti-6Al-4V powder.",
+          "method": "A digital model was built in Materialise Magics, layer-by-layer simulation and parameter optimization were performed in Simufact Additive, followed by EBM fabrication and characterization of microstructure and microhardness.",
+          "result": "Components exhibited zero porosity, a lamellar α′-phase microstructure with acicular morphology, average microhardness of 3.71 GPa, and met GTE requirements.",
+          "validation": "Experimental fabrication and microhardness testing of the produced parts."
+        },
+        "key_terms": [
+          {
+            "en": "electron beam melting",
+            "zh": "电子束熔化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "gas turbine engine",
+            "zh": "燃气轮机发动机"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "lamellar microstructure",
+            "zh": "层状微观结构"
+          },
+          {
+            "en": "zero porosity",
+            "zh": "零孔隙率"
+          },
+          {
+            "en": "process optimization",
+            "zh": "工艺优化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:17:25Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 4,
     "by_source": {
-      "arxiv": 1
+      "openalex": 4
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 4
     },
-    "scored": 1,
+    "scored": 4,
     "priority_counts": {
-      "Exclude": 1
+      "Medium": 2,
+      "Exclude": 1,
+      "Low": 1
     }
   }
 }

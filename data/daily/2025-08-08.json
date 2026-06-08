@@ -1,0 +1,154 @@
+{
+  "schema_version": "v2",
+  "date": "2025-08-08",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413248412",
+      "doi": "10.3390/ma18163726",
+      "title": "Evaluation of a Method for Determining Material Strength Based on Hardness Measurements: A Case Study of the Ti6Al4V Alloy",
+      "abstract": "The aim of this study was to evaluate the feasibility of estimating the tensile strength of Ti6Al4V alloy, based on HV measurements. The investigation included samples that were manufactured using both additive technology and conventional methods, under various conditions: as-built, heat-treated, and untested mechanically. Static tensile tests and HV measurements were performed to assess the influence of the manufacturing method, heat treatment, and mechanical loading on material performance. The highest tensile strength was recorded for as-built samples, while the greatest ductility was observed in conventionally drawn bar samples. Hardness values generally correlated with tensile strength trends; however, in heat-treated specimens, the relationship between hardness and tensile strength was found to be nonlinear. Specimens that were not subjected to tensile testing exhibited higher HV values than their mechanically tested counterparts, indicating a potential effect of prior deformation on the local material condition. The results confirm that hardness testing can be a useful indirect method for estimating the tensile strength of Ti6Al4V, particularly in materials with controlled and uniform microstructures. For additively manufactured and heat-treated materials, however, the current empirical models may require adjustment or enhancement using advanced predictive approaches. The proposed indirect method offers an alternative to destructive testing, especially in the industrial quality control context for metal AM.",
+      "authors": [
+        "Karolina Karolewska",
+        "Mateusz Wirwicki",
+        "Bogdan Ligaj"
+      ],
+      "first_author_affiliation": "Faculty of Mechanical Engineering, al. PBS Bydgoszcz University of Science and Technology, Kaliskiego 7, 85-796 Bydgoszcz, Poland",
+      "corresponding_authors": [
+        {
+          "name": "Karolina Karolewska",
+          "affiliation": "Faculty of Mechanical Engineering, al. PBS Bydgoszcz University of Science and Technology, Kaliskiego 7, 85-796 Bydgoszcz, Poland"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-08-08",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18163726",
+      "cited_by_count": 1,
+      "concepts": [
+        "Ultimate tensile strength",
+        "Materials science",
+        "Titanium alloy",
+        "Ductility (Earth science)",
+        "Context (archaeology)",
+        "Alloy",
+        "Tensile testing",
+        "Microstructure",
+        "Composite material",
+        "Vickers hardness test",
+        "Material properties",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "tensile strength",
+          "ductility"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文评估了热加工对Ti6Al4V合金硬度与抗拉强度关系的影响，可为后处理工艺控制提供参考。",
+        "why_not_core": "The paper focuses on evaluating a hardness-based strength estimation method rather than systematically investigating the effect of a specific post-processing treatment on fatigue or mechanical performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti6Al4V",
+          "hardness",
+          "tensile strength",
+          "heat treatment",
+          "additive manufacturing",
+          "post-processing"
+        ],
+        "summary_zh": {
+          "motivation": "评估基于硬度测量间接估算Ti6Al4V抗拉强度的可行性",
+          "method": "对增材制造和传统工艺制备的Ti6Al4V样品进行拉伸试验和硬度测量，分析热处理和制造方法的影响",
+          "result": "硬度与抗拉强度趋势总体一致，但热处理后呈非线性关系，且未拉伸样品硬度更高",
+          "validation": "通过对比拉伸试验和硬度测量结果进行实验验证"
+        },
+        "summary_en": {
+          "motivation": "This study evaluates the feasibility of using hardness measurements to indirectly estimate the tensile strength of Ti6Al4V alloy, considering different manufacturing routes and heat treatments.",
+          "method": "Samples fabricated by additive manufacturing and conventional methods, under as-built and heat-treated conditions, were subjected to static tensile tests and HV hardness measurements.",
+          "result": "Hardness generally correlated with tensile strength, but the relationship was nonlinear in heat-treated specimens, and untested samples exhibited higher hardness than mechanically tested ones.",
+          "validation": "Experimental validation was performed by comparing tensile test results with hardness measurements across various processing conditions."
+        },
+        "key_terms": [
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
+          },
+          {
+            "en": "hardness measurement",
+            "zh": "硬度测量"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "conventional manufacturing",
+            "zh": "传统制造"
+          },
+          {
+            "en": "indirect method",
+            "zh": "间接方法"
+          },
+          {
+            "en": "mechanical loading",
+            "zh": "机械加载"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:13:39Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Medium": 1
+    }
+  }
+}

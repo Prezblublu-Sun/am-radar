@@ -38,12 +38,13 @@
       ],
       "raw_type": "preprint",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
           "tensile strength",
           "yield strength",
           "ultimate tensile strength",
@@ -52,11 +53,11 @@
         ]
       },
       "llm": {
-        "priority": "Medium",
-        "relevance_level": "Transferable",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文提出了一个针对合金性能预测和逆向设计的通用机器学习框架，虽未直接涉及生物医学植入物或增材制造，但其方法和实验验证对生物医学合金的力学性能优化具有参考价值。",
-        "why_not_core": "Does not focus on biomedical implants, does not involve AM-specific processing, and lacks patient-specific or implant-related context.",
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是机器学习框架用于合金成分设计，而非增材制造Ti-6Al-4V的力学或疲劳性能。",
+        "why_not_core": "The paper does not address additively manufactured Ti-6Al-4V; it focuses on as-cast alloy design via machine learning, lacking any AM-specific mechanical or fatigue characterization.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -65,32 +66,32 @@
           "is_review": false
         },
         "tags": [
+          "Ti-6Al-4V",
           "machine learning",
           "alloy design",
           "property prediction",
-          "inverse design",
-          "Ti alloys"
+          "inverse design"
         ],
         "summary_zh": {
-          "motivation": "加速高性能合金的发现，应对成分空间大和制造约束。",
-          "method": "整合数据库、多任务神经网络和约束优化框架进行性能预测和逆向设计。",
-          "result": "仅7次迭代就找到了密度低、强度高、延展性好的钛合金候选。",
-          "validation": "通过实验验证设计的合金性能优于TC4商业合金。"
+          "motivation": "加速先进合金材料发现，解决成分空间大和性能目标冲突问题。",
+          "method": "提出MATAI通用机器学习框架，集成数据库、神经网络预测器和约束优化引擎。",
+          "result": "在钛合金体系上七次迭代设计出密度低于4.45 g/cm³、强度高于1000 MPa且延展性大于5%的合金。",
+          "validation": "实验验证设计的合金性能优于商业TC4（Ti-6Al-4V）。"
         },
         "summary_en": {
-          "motivation": "Accelerate the discovery of advanced alloys with complex composition spaces and competing property constraints.",
-          "method": "Integrate a curated database, multi-task deep neural networks, and a constraint-aware optimization engine for property prediction and inverse design.",
-          "result": "Identified Ti-based alloy candidates with density <4.45 g/cm³, yield strength >1000 MPa, and elongation >5% within seven iterations.",
-          "validation": "Experimentally validated that MATAI-designed alloys outperform commercial TC4 reference."
+          "motivation": "To accelerate the discovery of advanced metallic alloys by addressing vast composition spaces and competing property objectives.",
+          "method": "MATAI integrates a curated alloy database, deep neural network predictors, and a constraint-aware optimization engine with bi-level search.",
+          "result": "The framework identified Ti-alloy candidates with density <4.45 g/cm³, strength >1000 MPa, and ductility >5% within seven iterations.",
+          "validation": "Experimental validation confirmed the designed alloys outperformed commercial TC4 (Ti-6Al-4V)."
         },
         "key_terms": [
           {
-            "en": "alloy design",
-            "zh": "合金设计"
-          },
-          {
             "en": "machine learning",
             "zh": "机器学习"
+          },
+          {
+            "en": "alloy design",
+            "zh": "合金设计"
           },
           {
             "en": "property prediction",
@@ -101,22 +102,22 @@
             "zh": "逆向设计"
           },
           {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
             "en": "multi-task learning",
             "zh": "多任务学习"
           },
           {
             "en": "constrained optimization",
             "zh": "约束优化"
-          },
-          {
-            "en": "Ti alloys",
-            "zh": "钛合金"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:15:55Z"
+      "first_seen_at": "2026-06-07T21:53:42Z"
     }
   ],
   "counts": {
@@ -127,14 +128,14 @@
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
       "arxiv": 1
     },
     "scored": 1,
     "priority_counts": {
-      "Medium": 1
+      "Exclude": 1
     }
   }
 }

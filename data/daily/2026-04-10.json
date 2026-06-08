@@ -5,128 +5,291 @@
   "papers": [
     {
       "source": "openalex",
-      "id": "https://openalex.org/W7153318700",
-      "doi": "10.1007/s12008-026-02569-7",
-      "title": "Finite element-based multi-objective optimization of femoral stem geometry for biomechanical stability across functional activities",
-      "abstract": "",
+      "id": "https://openalex.org/W7153001163",
+      "doi": "10.3389/fmats.2026.1739197",
+      "title": "Effect of annealing temperature on microstructure, texture and tensile properties of TC4 titanium alloy wire",
+      "abstract": "In this paper, TC4 titanium alloy wire was taken as the research object, and four groups of different temperatures of 920 °C, 940 °C, 960 °C and 980 °C were set to annealing the alloy. The effects of different annealing temperatures on the microstructure, phase, texture and tensile properties of TC4 titanium alloy wire were studied. The results show that with the increase of annealing temperature, the volume fraction of primary α phase decreases and the morphology tends to be equiaxed, while the content of secondary α phase increases. After annealing at different temperatures, the microstructure is composed of α phase and β phase. The diffraction peak intensity of α phase as the main phase is higher, while the content of β phase is less and the diffraction peak is weaker. The texture analysis shows that the orientation concentration of the alloy changes from &amp;lt;10-10&amp;gt; and &amp;lt;11-20&amp;gt; directions to &amp;lt;11-20&amp;gt; single direction with the increase of annealing temperature, and the texture strength decreases from 7.48 to 5.27. In terms of tensile properties, the strength of the alloy remains stable when the annealing temperature is 920–940 °C. When the temperature rises to 960 °C, the strength increases significantly and the plasticity decreases. At 980 °C, the strength reaches the peak (tensile strength is 1,210 MPa, yield strength is 1,110 MPa), but the elongation is only 5%. The fracture analysis shows that the fracture presents uniformly distributed equiaxed dimples in the range of 920–940 °C, while the number and size of dimples decrease in the range of 960–980 °C, and tear ridges appear. It is found that secondary crack morphology appears in all tensile fractures.",
       "authors": [
-        "Sameh Elleuch",
-        "Rihem Nouira",
-        "Hanen Jrad"
+        "Zhang Mingyu",
+        "Tong Xiaole",
+        "Yue Xu"
       ],
-      "first_author_affiliation": "Higher Institute of Applied Sciences and Technology of Sousse, ISSAT Sousse, University of Sousse, Sousse, Tunisia",
+      "first_author_affiliation": "Xinjiang Xiangrun New Materials Technology Co., Ltd",
       "corresponding_authors": [
         {
-          "name": "Hanen Jrad",
-          "affiliation": "Laboratory LEE, National Engineering School of Sfax, ENIS, University of Sfax, 3038, Sfax, Tunisia"
+          "name": "Zhang Mingyu",
+          "affiliation": "Xinjiang Xiangrun New Materials Technology Co., Ltd"
         }
       ],
-      "venue": "International Journal on Interactive Design and Manufacturing (IJIDeM)",
+      "venue": "Frontiers in Materials",
       "year": 2026,
       "date": "2026-04-10",
       "date_precision": "day",
-      "url": "https://doi.org/10.1007/s12008-026-02569-7",
+      "url": "https://doi.org/10.3389/fmats.2026.1739197",
       "cited_by_count": 0,
       "concepts": [
-        "Stability (learning theory)",
-        "Finite element method",
-        "Structural engineering",
-        "Geometry",
-        "Biomechanics",
-        "Mechanical engineering",
-        "Engineering design process",
-        "Computer science",
-        "Mathematics",
-        "Shape optimization",
-        "Materials science"
+        "Materials science",
+        "Annealing (glass)",
+        "Ultimate tensile strength",
+        "Equiaxed crystals",
+        "Titanium alloy",
+        "Alloy",
+        "Composite material",
+        "Microstructure",
+        "Volume fraction",
+        "Metallurgy",
+        "Elongation",
+        "Titanium",
+        "Plasticity",
+        "Tensile testing",
+        "Recrystallization (geology)",
+        "Grain size"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "am_femoral_stem"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "tensile strength",
+          "yield strength",
+          "elongation"
+        ],
+        "ti6al4v_postprocess": [
+          "TC4",
+          "annealing"
         ]
       },
       "llm": {
-        "priority": "High",
-        "relevance_level": "Direct",
-        "read_action": "Read now",
-        "relevance_to_user": "该论文直接针对股骨柄的几何优化，采用有限元方法评估不同功能活动下的生物力学稳定性，与研究者的股骨柄植入物方向高度相关。",
-        "why_not_core": "This paper does not include experimental validation, additive manufacturing process considerations, or patient-specific modeling.",
-        "validation_kind": "simulation_case",
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了TC4钛合金丝材的退火工艺，但未涉及增材制造Ti-6Al-4V，因此与方向关联度较低。",
+        "why_not_core": "This paper investigates annealing of wrought TC4 wire, not additively manufactured Ti-6Al-4V, so its microstructural and mechanical behavior may not be directly transferable to AM components.",
+        "validation_kind": "mechanical_testing",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "femoral stem",
-          "finite element analysis",
-          "multi-objective optimization",
-          "biomechanical stability"
+          "annealing",
+          "TC4",
+          "Ti-6Al-4V",
+          "microstructure",
+          "texture",
+          "tensile properties",
+          "secondary cracks"
         ],
         "summary_zh": {
-          "motivation": "优化股骨柄几何形状以提高多活动下的生物力学稳定性",
-          "method": "利用有限元方法构建多目标优化框架，评估不同几何参数的影响",
-          "result": "得到了在站立、行走等活动中兼顾稳定性和应力分布的优化几何",
-          "validation": "通过有限元仿真验证优化几何的生物力学性能"
+          "motivation": "研究退火温度对TC4钛合金丝材组织及性能的影响。",
+          "method": "对TC4丝材在920-980°C进行退火处理，分析微观结构和拉伸性能。",
+          "result": "980°C退火时强度最高(1210 MPa)，但塑性降低至5%。",
+          "validation": "通过显微组织观察和拉伸试验验证。"
         },
         "summary_en": {
-          "motivation": "To optimize femoral stem geometry for enhanced biomechanical stability across various functional activities.",
-          "method": "A finite element-based multi-objective optimization framework was developed to evaluate the influence of geometric parameters on biomechanical performance.",
-          "result": "Optimal geometries were identified that balance stability and stress distribution during standing, walking, and other activities.",
-          "validation": "The optimized geometries were validated through finite element simulations under multiple loading conditions."
+          "motivation": "To investigate the effect of annealing temperature on microstructure and tensile properties of TC4 titanium alloy wire.",
+          "method": "TC4 wire was annealed at 920-980°C and characterized for microstructure, texture, and tensile properties.",
+          "result": "Annealing at 980°C yielded the highest strength (1210 MPa) but reduced elongation to 5%.",
+          "validation": "Experimental validation via microstructure analysis and tensile testing."
         },
         "key_terms": [
           {
-            "en": "femoral stem",
-            "zh": "股骨柄"
+            "en": "TC4 titanium alloy",
+            "zh": "TC4钛合金"
           },
           {
-            "en": "finite element analysis",
-            "zh": "有限元分析"
+            "en": "annealing temperature",
+            "zh": "退火温度"
           },
           {
-            "en": "multi-objective optimization",
-            "zh": "多目标优化"
+            "en": "microstructure",
+            "zh": "微观组织"
           },
           {
-            "en": "biomechanical stability",
-            "zh": "生物力学稳定性"
+            "en": "texture",
+            "zh": "织构"
           },
           {
-            "en": "geometry optimization",
-            "zh": "几何优化"
+            "en": "tensile properties",
+            "zh": "拉伸性能"
+          },
+          {
+            "en": "equiaxed dimples",
+            "zh": "等轴韧窝"
+          },
+          {
+            "en": "secondary cracks",
+            "zh": "二次裂纹"
+          },
+          {
+            "en": "yield strength",
+            "zh": "屈服强度"
+          },
+          {
+            "en": "elongation",
+            "zh": "延伸率"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
+      "first_seen_at": "2026-06-07T23:29:54Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7153252523",
+      "doi": "10.1007/s00170-026-17994-x",
+      "title": "Physics-Informed Symbolic Regression Ensemble (PISRE) for surface roughness prediction in Ti-6Al-4V dry turning",
+      "abstract": "Predicting surface roughness in titanium alloy machining remains challenging due to the nonlinear interactions among process parameters and the small datasets inherent to experimental campaigns. Physics-Informed Symbolic Regression Ensemble (PISRE) is a novel physics-informed ensemble model for Ti-6Al-4V roughness $$\\varvec{Ra}$$ that integrates a physics layer with four log-optimized symbolic branches and an uncertainty-weighted mechanism for dynamic branch confidence. Experiments were conducted following a Central Composite Design yielding 19 runs spanning cutting velocity $$\\varvec{V}_{\\varvec{c}} \\varvec{=} \\varvec{104}$$ – $$\\varvec{256}$$ m/min, feed rate $$\\varvec{f = 0.035}$$ – $$\\varvec{0.385}$$ mm/rev, and depth of cut $$\\varvec{a}_{\\varvec{p}} \\varvec{=} \\varvec{0.03}$$ – $$\\varvec{0.37}$$ mm. Leave-One-Out cross-validation showed that PISRE achieved RMSE = 0.443 µm and $$\\varvec{R}^{\\varvec{2}} \\varvec{=} \\varvec{0.915}$$ , outperforming XGBoost (RMSE = 0.657, $$\\varvec{R}^{\\varvec{2}} \\varvec{=} \\varvec{0.814}$$ ) and Random Forest (RMSE = 0.716, $$\\varvec{R}^{\\varvec{2}} \\varvec{=} \\varvec{0.778}$$ ) by 32.6% and 38.1% in RMSE respectively. The optimised feed rate exponent ( $$\\varvec{b} \\varvec{\\approx } \\varvec{1.18}$$ ) is physically consistent with Ti-6Al-4V turning literature, and Spearman correlation analysis confirmed feed rate as the sole significant predictor of $$\\varvec{Ra}$$ within the tested window ( $$\\varvec{r}_{\\varvec{s}} \\varvec{=} \\varvec{+0.937}$$ , $$\\varvec{p} \\varvec{<} \\varvec{0.001}$$ ). Results show that physics-informed constraints enhance generalization and interpretability in small datasets compared to standard data-driven models.",
+      "authors": [
+        "Natália Vilas Boas Pappi Maciel",
+        "Alex Fernandes de Souza",
+        "Paulo Henrique da Silva Campos",
+        "Antônio Carlos Zambroni de Souza",
+        "Filipe Alves Neto Verri",
+        "Pedro Paulo Balestrassi"
+      ],
+      "first_author_affiliation": "Institute of Industrial Engineering and Management, Federal University of Itajubá, 1303 BPS Avenue, Itajubá, 37500-903, Brazil",
+      "corresponding_authors": [
+        {
+          "name": "Natália Vilas Boas Pappi Maciel",
+          "affiliation": "Institute of Industrial Engineering and Management, Federal University of Itajubá, 1303 BPS Avenue, Itajubá, 37500-903, Brazil"
+        }
+      ],
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "year": 2026,
+      "date": "2026-04-10",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s00170-026-17994-x",
+      "cited_by_count": 0,
+      "concepts": [
+        "Surface roughness",
+        "Surface (topology)",
+        "Regression analysis",
+        "Surface finish",
+        "Linear regression",
+        "Mathematics",
+        "Regression",
+        "Symbolic regression",
+        "Algorithm",
+        "Engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文关注Ti-6Al-4V车削表面粗糙度预测，未涉及后处理对疲劳或力学性能的影响。",
+        "why_not_core": "This paper does not study fatigue or mechanical performance modification by post-processing; it only predicts surface roughness in turning, without linking to mechanical properties or fatigue life.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": true,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "turning",
+          "surface roughness",
+          "symbolic regression",
+          "physics-informed",
+          "machine learning"
+        ],
+        "summary_zh": {
+          "motivation": "针对钛合金车削表面粗糙度预测困难，提出物理信息符号回归集成模型。",
+          "method": "结合物理层与多分支符号回归，使用不确定加权机制动态调整分支置信度。",
+          "result": "模型RMSE=0.443 µm，R²=0.915，优于XGBoost和随机森林。",
+          "validation": "基于中心复合设计的19次车削实验数据验证。"
+        },
+        "summary_en": {
+          "motivation": "To overcome the difficulty in predicting surface roughness in titanium alloy turning, a physics-informed symbolic regression ensemble model is proposed.",
+          "method": "Integrates a physics layer with multiple symbolic regression branches and an uncertainty-weighted mechanism for dynamic confidence adjustment.",
+          "result": "The model achieves RMSE of 0.443 µm and R² of 0.915, outperforming XGBoost and Random Forest.",
+          "validation": "Validated with 19 experimental runs based on a central composite design."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "turning",
+            "zh": "车削"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "physics-informed",
+            "zh": "物理信息"
+          },
+          {
+            "en": "symbolic regression",
+            "zh": "符号回归"
+          },
+          {
+            "en": "ensemble model",
+            "zh": "集成模型"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "central composite design",
+            "zh": "中心复合设计"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:29:54Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "am_femoral_stem": 1
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "High": 1
+      "Low": 2
     }
   }
 }

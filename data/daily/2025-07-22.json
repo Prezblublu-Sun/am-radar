@@ -1,0 +1,146 @@
+{
+  "schema_version": "v2",
+  "date": "2025-07-22",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412552988",
+      "doi": "10.25077/aijaset.v5i02.235",
+      "title": "A Goal Programming Optimisation of Machining Parameters during the Production of Ti-Alloy Components on the CNC Lathe",
+      "abstract": "This experimental study, presents results of goal programming forecasting and optimising Ti6Al4V alloy components cutting conditions. During machining the optimising challenge concerns desirability of minimalising power consumption; cutting tool wear and cutting forces whilst simultaneously realising elevated material removal rate and advancing workpiece surface quality. Cutting process parameters optimisation is essential contemplation triggering proficient manufacturing activities enhancing competitiveness. Harmonising the miscellany machining conditions such that these contradictory intentions are, simultaneously, tackled portends well for sustainability of the machining activity. In this research, outside cutting tests were carry out, on the lathe machine, with coated carbide tipped tools at various parameter setting levels. Cutting speed and feed rate were characterised against dependent factors. Mathematical Modeling, was carried out in Minitab 22.1 Software. The models were uploaded on goal programme optimiser, LINDO/LINGO software, to predict the appropriate cutting parameters for a determinate machining situation. Goal Programme simulation results, with the performance factors equally weighted, produced optimum cutting parameters, vc = 227 mmin-1 and fn = 0.2416 mmrev-1. Validation experiments confirmed applicability of goal modeling in machining planning parameter prediction. Results showed fidelity of goal programming consistency as forecasting tool for titanium cutting parameters on the CNC lathe. Future research is delineated.",
+      "authors": [
+        "Nicholas Tayisepi",
+        "Daniel M. Madyira",
+        "Trust Tawanda",
+        "Lameck Mugwagwa"
+      ],
+      "first_author_affiliation": "Industrial and Manufacturing Engineering Department, Faculty of Engineering, National University of Science and Technology (NUST), Zimbabwe",
+      "corresponding_authors": [
+        {
+          "name": "Nicholas Tayisepi",
+          "affiliation": "Industrial and Manufacturing Engineering Department, Faculty of Engineering, National University of Science and Technology (NUST), Zimbabwe"
+        }
+      ],
+      "venue": "Andalasian International Journal of Applied Science Engineering and Technology",
+      "year": 2025,
+      "date": "2025-07-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.25077/aijaset.v5i02.235",
+      "cited_by_count": 0,
+      "concepts": [
+        "Machining",
+        "Production (economics)",
+        "Manufacturing engineering",
+        "Alloy",
+        "Computer science",
+        "Engineering drawing",
+        "Mechanical engineering",
+        "Materials science",
+        "Engineering",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究Ti-6Al-4V车削加工参数优化，不涉及增材制造后处理对疲劳/力学性能的影响。",
+        "why_not_core": "Paper does not concern additively manufactured Ti-6Al-4V nor post-processing treatments aimed at modifying fatigue/mechanical performance; it focuses on machining parameter optimization for general Ti-6Al-4V components.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "machining",
+          "goal programming",
+          "optimization",
+          "CNC lathe"
+        ],
+        "summary_zh": {
+          "motivation": "优化Ti6Al4V合金车削参数以平衡功率消耗、刀具磨损、切削力和表面质量。",
+          "method": "进行外圆切削试验，用Minitab建模，通过LINDO/LINGO目标规划优化参数。",
+          "result": "得到最优切削速度227 m/min和进给率0.2416 mm/rev，并通过验证实验确认。",
+          "validation": "通过额外切削实验验证目标规划模型的预测准确性。"
+        },
+        "summary_en": {
+          "motivation": "This study aims to optimize machining parameters for Ti-6Al-4V components to balance conflicting objectives including power consumption, tool wear, cutting forces, material removal rate, and surface quality.",
+          "method": "External cutting tests were conducted on a CNC lathe with coated carbide tools; mathematical models were built in Minitab and optimized using goal programming in LINDO/LINGO software.",
+          "result": "Optimal parameters were predicted as cutting speed 227 m/min and feed rate 0.2416 mm/rev, with validation experiments confirming the model's applicability.",
+          "validation": "Validation experiments were performed to verify the predicted optimal parameters, demonstrating the consistency of goal programming as a forecasting tool."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "goal programming",
+            "zh": "目标规划"
+          },
+          {
+            "en": "machining parameters",
+            "zh": "加工参数"
+          },
+          {
+            "en": "cutting speed",
+            "zh": "切削速度"
+          },
+          {
+            "en": "feed rate",
+            "zh": "进给率"
+          },
+          {
+            "en": "CNC lathe",
+            "zh": "数控车床"
+          },
+          {
+            "en": "optimization",
+            "zh": "优化"
+          },
+          {
+            "en": "surface quality",
+            "zh": "表面质量"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:11:42Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

@@ -4,126 +4,137 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2508.16367v1",
-      "doi": "",
-      "arxiv_id": "2508.16367v1",
-      "title": "Deformation mechanisms of L-PBF-processed Ti-6Al-4V investigated using a combined experimental and simulation approach",
-      "abstract": "Despite the significant application potential of laser powder bed fusion (L-PBF) processed Ti-6Al-4V components, a detailed understanding of their deformation mechanisms remains limited. This study investigates the deformation behavior of the {α^\\prime} and α phases in the as-built and heat-treated specimens, respectively, using in-situ high-energy X-ray diffraction (HEXRD) combined with crystal plasticity modeling. Both phases exhibited similar elastic anisotropy, with the highest modulus along \\{00.2\\} and the lowest along \\{10.0\\}, although the α phase consistently showed higher directional moduli than the {α^\\prime} phase. Their plastic deformation responses differed markedly: in the as-built {α^\\prime} phase, slip activation followed the sequence prismatic \\rightarrow basal \\rightarrow pyramidal I \\langle c+a \\rangle, whereas in the heat-treated α phase, the sequence was basal \\rightarrow prismatic \\rightarrow pyramidal I \\langle c+a \\rangle. Analyses of full width at half maximum (FWHM) and diffraction peak intensities further supported these observations. Finally, inverse modeling within a crystal plasticity framework was employed to determine slip family--specific critical resolved shear stresses (CRSS), revealing higher CRSS values in the {α^\\prime} phase for all slip systems except the prismatic family.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4413431015",
+      "doi": "10.3390/ma18173931",
+      "title": "Origin of Bilinear Low Cycle Fatigue in Ti-6Al-4V Alloy: A Crystal Plasticity Study",
+      "abstract": "This study resolves the long-standing question of the origin of bilinear Low Cycle Fatigue (LCF) behavior in Ti-6Al-4V using a high-fidelity CPFEM-XFEM framework. We identify that the fundamental origin lies in a fundamental shift in the efficiency of converting macroscopic energy dissipation into microscopic damage. This energetic efficiency is directly governed by the evolution of plastic strain heterogeneity (quantified by the Coefficient of Variation, CV). At low strain amplitudes, high strain localization (high CV) creates a highly efficient \"energy funnel,\" concentrating dissipated energy into a few critical grains. This manifests physically as a single-crack failure mode, where the crack initiation phase is prolonged, consuming ~80% of the total fatigue life. Conversely, at high strain amplitudes, deformation homogenization (low CV) leads to inefficient, diffuse energy dissipation across many grains. The material must therefore activate a more drastic failure mechanism-multi-site crack initiation and coalescence-to accumulate sufficient damage, reducing the initiation phase to just ~45% of the total life. Therefore, the bilinear C-M curve is the macroscopic signature of this transition from an energetically efficient, localized damage mode to an inefficient, distributed one. This work provides a quantitative, mechanism-based framework for understanding and predicting the complex fatigue behavior of advanced metallic materials.",
       "authors": [
-        "Pushkar Prakash Dhekne",
-        "Nikhil Prabhu",
-        "Matthias Bönisch",
-        "Marc Seefeldt",
-        "Martin Diehl",
-        "Kim Vanmeensel"
+        "Haifeng Xu",
+        "Danni Yang",
+        "Wei Li",
+        "Zhengxiao Guo",
+        "Yinghonglin Liu"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "College of Mechanical Science and Engineering, Northeast Petroleum University, Daqing 163318, China",
+      "corresponding_authors": [
+        {
+          "name": "Haifeng Xu",
+          "affiliation": "College of Mechanical Science and Engineering, Northeast Petroleum University, Daqing 163318, China"
+        }
+      ],
+      "venue": "Materials",
       "year": 2025,
       "date": "2025-08-22",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2508.16367v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.3390/ma18173931",
+      "cited_by_count": 3,
+      "concepts": [
+        "Materials science",
+        "Crystal plasticity",
+        "Alloy",
+        "Plasticity",
+        "Low-cycle fatigue",
+        "Crystal (programming language)",
+        "Metallurgy",
+        "Composite material"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "ti6al4v_postprocess_hip",
-      "direction_name": "Ti-6Al-4V Post-processing & HIP",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "ti6al4v_postprocess_hip": [
-          "Ti-6Al-4V"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue",
+          "fatigue life"
         ]
       },
       "llm": {
         "priority": "Medium",
         "relevance_level": "Transferable",
         "read_action": "Save for project",
-        "relevance_to_user": "该论文研究了L-PBF Ti-6Al-4V的变形机理，对于理解植入物材料的后处理效果具有参考价值。",
-        "why_not_core": "This paper does not evaluate implant-specific mechanical performance such as stress shielding, fatigue under physiological loading, or osseointegration; it focuses on fundamental deformation mechanisms of the material.",
-        "validation_kind": "mechanical_testing",
+        "relevance_to_user": "该论文通过晶体塑性模型揭示了Ti-6Al-4V的双线性低周疲劳机理，对增材制造材料的疲劳研究具有方法学参考价值。",
+        "why_not_core": "No specific focus on additive manufacturing; does not address process-induced defects, porosity, or surface roughness characteristic of AM Ti-6Al-4V.",
+        "validation_kind": "simulation_case",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
-          "L-PBF",
           "crystal plasticity",
-          "deformation mechanisms",
-          "HEXRD",
-          "post-processing"
+          "low cycle fatigue",
+          "bilinear Coffin-Manson",
+          "Ti-6Al-4V",
+          "CPFEM-XFEM",
+          "plastic strain heterogeneity"
         ],
         "summary_zh": {
-          "motivation": "研究L-PBF Ti-6Al-4V的变形机制。",
-          "method": "结合原位高能X射线衍射和晶体塑性建模。",
-          "result": "揭示了α'和α相的弹性各向异性和滑移激活序列差异。",
-          "validation": "通过HEXRD实验和反演建模验证。"
+          "motivation": "解释Ti-6Al-4V双线性低周疲劳行为的根本原因",
+          "method": "采用高保真CPFEM-XFEM框架进行晶体塑性模拟",
+          "result": "发现双线性行为源于宏观能量耗散转化为微观损伤效率的转变，由塑性应变异质性控制",
+          "validation": "通过数值模拟验证了单裂纹与多裂纹失效模式的转变机制"
         },
         "summary_en": {
-          "motivation": "To understand deformation mechanisms of L-PBF Ti-6Al-4V for as-built and heat-treated conditions.",
-          "method": "Combined in-situ high-energy X-ray diffraction with crystal plasticity modeling.",
-          "result": "Identified distinct slip activation sequences and higher critical resolved shear stresses in α' phase compared to α phase.",
-          "validation": "Validated through experimental diffraction data and inverse crystal plasticity modeling."
+          "motivation": "To resolve the long-standing question of the origin of bilinear low cycle fatigue behavior in Ti-6Al-4V.",
+          "method": "A high-fidelity CPFEM-XFEM framework was employed to simulate crystal plasticity and crack initiation under cyclic loading.",
+          "result": "The bilinear Coffin-Manson curve is shown to be the macroscopic signature of a transition from localized, energetically efficient damage to diffuse, inefficient damage, governed by plastic strain heterogeneity.",
+          "validation": "The model was validated through numerical simulation of single-crack and multi-site crack initiation modes without experimental data."
         },
         "key_terms": [
-          {
-            "en": "L-PBF",
-            "zh": "激光粉末床熔融"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "钛合金"
-          },
           {
             "en": "crystal plasticity",
             "zh": "晶体塑性"
           },
           {
-            "en": "deformation mechanisms",
-            "zh": "变形机制"
+            "en": "low cycle fatigue",
+            "zh": "低周疲劳"
           },
           {
-            "en": "HEXRD",
-            "zh": "高能X射线衍射"
+            "en": "bilinear Coffin-Manson curve",
+            "zh": "双线性Coffin-Manson曲线"
           },
           {
-            "en": "slip systems",
-            "zh": "滑移系统"
+            "en": "CPFEM-XFEM",
+            "zh": "CPFEM-XFEM"
           },
           {
-            "en": "critical resolved shear stress",
-            "zh": "临界分切应力"
+            "en": "plastic strain heterogeneity",
+            "zh": "塑性应变异质性"
           },
           {
-            "en": "post-processing",
-            "zh": "后处理"
+            "en": "energy dissipation",
+            "zh": "能量耗散"
+          },
+          {
+            "en": "crack initiation",
+            "zh": "裂纹萌生"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:12:37Z"
+      "first_seen_at": "2026-06-07T23:13:39Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "ti6al4v_postprocess_hip": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {

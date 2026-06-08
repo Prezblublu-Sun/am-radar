@@ -4,56 +4,74 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2602.09693v1",
-      "doi": "10.1016/j.actamat.2025.121753",
-      "arxiv_id": "2602.09693v1",
-      "title": "Microstructural origin of the simultaneous enhancements in strength and ductility of a nitrogen-doped high-entropy alloy",
-      "abstract": "As one of the most abundant interstitial elements, nitrogen (N) is effective in improving yield strength of metallic materials, due to interstitial solid solution strengthening. Doping N can substantially enhance the yield strength but often leads to a decreased ductility, revealing a strength-ductility trade-off phenomenon. Here, we simultaneously enhance the strength and ductility in a non-equiatomic CrMnFeCoNi high-entropy alloy via N alloying and unravel the underlying microscopic mechanisms. The N-doped alloy (1 at.% N) shows an excellent combination of higher yield strength (104% increase) and larger ductility (38% increase), with a two-stage strain hardening behavior, compared to the N-free alloy. Detailed transmission electron microscopy (TEM) analysis reveals that N-doping introduces short-range order (SRO) domains within the microstructure, leads to pronounced planar slip, and promotes the formation of nano-spaced (6-15 nm) stacking faults and deformation twins. Continuous generation and interaction of the fine-spaced SFs act as a strong barrier for dislocation movement and provide ample room for dislocation storage. The interaction of SRO with dislocations and the evolution of SFs ascribe to the first strain hardening stage, and the disordering of the SRO along with the activation of deformation twins are attributed to the second strain hardening stage. Our work shows that N-doping is effective in simultaneously improving the strength-ductility synergy and provides novel insights into alloy design with slightly elevating the SFE, and manipulating the ordered structure within the HEA.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7128466879",
+      "doi": "10.1007/s00170-026-17545-4",
+      "title": "Physics-Based porosity prediction in powder bed fusion – laser beam using a thermal simulation algorithm",
+      "abstract": "Powder Bed Fusion–Laser Beam (PBF-LB) is a widely used additive manufacturing technique that enables the fabrication of geometrically complex components, yet it remains susceptible to internal defects, particularly porosity, which can compromise mechanical performance. This study presents a physics-based thermal simulation algorithm developed to predict porosity in Ti6Al4V parts fabricated via PBF-LB without relying on extensive training datasets. The algorithm numerically solves the transient three-dimensional heat conduction problem using the finite volume method, incorporating temperature-dependent material properties, a Gaussian-distributed laser heat source, and relevant thermal loss mechanisms. To validate the predictive capability of the model, six Ti6Al4V specimens were fabricated under varying process parameters using a PBF-LB system, and porosity levels were experimentally evaluated through Archimedes density measurements and high-resolution X-ray micro-Computed Tomography (µ-CT). Additional characterization by Scanning Electron Microscopy (SEM), optical microscopy, and Energy-Dispersive X-ray Spectroscopy (EDS) was performed on cross-sectioned subsurface regions to assess pore morphology and elemental homogeneity. The porosity values predicted by the simulation algorithm exhibited strong agreement with experimental findings in terms of trend and ranking, with predicted porosity ranging from 4.78% to 15.75% and µ-CT results ranging from 3.54% to 13.41%, thereby demonstrating the model’s effectiveness in capturing the relative impact of process parameters on porosity formation in PBF-LB fabricated components.",
       "authors": [
-        "Xiaoxiang Wu",
-        "Zhujun Sun",
-        "Wenqi Guo",
-        "Chang Liu",
-        "Yong-Qiang Yan",
-        "Yan-Ning Zhang",
-        "Yuji Ikeda",
-        "Fritz Körmann",
-        "Jörg Neugebauer",
-        "Zhiming Li",
-        "Baptiste Gault",
-        "Ge Wu"
+        "İbrahim Ülke",
+        "Oğuzhan Yılmaz",
+        "Mehmet Mollamahmutoglu"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Department of Mechanical Engineering, Faculty of Engineering, Gazi University, Ankara, 06570, Turkey",
+      "corresponding_authors": [
+        {
+          "name": "İbrahim Ülke",
+          "affiliation": "Department of Mechanical Engineering, Faculty of Engineering, Gazi University, Ankara, 06570, Turkey"
+        }
+      ],
+      "venue": "The International Journal of Advanced Manufacturing Technology",
       "year": 2026,
       "date": "2026-02-10",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2602.09693v1",
+      "url": "https://doi.org/10.1007/s00170-026-17545-4",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Porosity",
+        "Materials science",
+        "Ranging",
+        "Fusion",
+        "Thermal",
+        "Fabrication",
+        "Thermal conduction",
+        "Composite material",
+        "Characterization (materials science)",
+        "Selective laser melting",
+        "Scanning electron microscope",
+        "Laser",
+        "Volume fraction",
+        "Volume (thermodynamics)",
+        "Laser scanning",
+        "Titanium alloy",
+        "Process (computing)",
+        "Titanium",
+        "Machining",
+        "Finite element method",
+        "Inertial confinement fusion",
+        "Computer simulation",
+        "Thermal conductivity"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "yield strength",
-          "strain hardening",
-          "ductility"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "porosity"
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是氮掺杂高熵合金的强度-塑性协同提升微观机制，未涉及增材制造工艺或AM机械性能。",
-        "why_not_core": "This paper does not involve additive manufacturing processes, build orientations, or process-structure-property relationships specific to AM; it focuses on conventionally processed alloy microstructure.",
-        "validation_kind": "mechanical_testing",
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文针对Ti6Al4V的PBF-LB工艺孔隙率预测，与方向中缺陷/孔隙率相关，但未涉及力学性能测试或建模。",
+        "why_not_core": "No direct measurement or modeling of mechanical properties such as tensile strength, ductility, or fatigue life; focuses solely on porosity prediction without linking to mechanical performance.",
+        "validation_kind": "simulation_case",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -61,81 +79,84 @@
           "is_review": false
         },
         "tags": [
-          "high-entropy alloy",
-          "nitrogen doping",
-          "strength-ductility trade-off",
-          "short-range order",
-          "stacking faults",
-          "transmission electron microscopy"
+          "Ti-6Al-4V",
+          "porosity prediction",
+          "PBF-LB",
+          "thermal simulation",
+          "finite volume method"
         ],
         "summary_zh": {
-          "motivation": "氮掺杂往往导致金属强度提高但塑性下降，如何同时提升强度与塑性？",
-          "method": "通过向非等原子比CrMnFeCoNi高熵合金中掺杂1 at.%氮，结合TEM观察微观结构演变。",
-          "result": "氮掺杂引入短程有序和纳米间距堆垛层错，实现屈服强度增加104%、塑性增加38%。",
-          "validation": "通过TEM观察和力学测试验证微观机制与宏观性能的关联。"
+          "motivation": "针对PBF-LB制造Ti6Al4V零件中孔隙缺陷影响力学性能的问题，提出基于热模拟的孔隙率预测方法。",
+          "method": "采用有限体积法求解瞬态三维热传导问题，结合高斯热源和温度依赖材料属性，预测孔隙率。",
+          "result": "预测孔隙率与实验µ-CT结果趋势一致，范围4.78%-15.75%及3.54%-13.41%。",
+          "validation": "通过Archimedes密度测量和µ-CT实验验证模拟预测的孔隙率。"
         },
         "summary_en": {
-          "motivation": "Nitrogen doping typically improves yield strength at the expense of ductility; this work aims to achieve simultaneous enhancement.",
-          "method": "A non-equiatomic CrMnFeCoNi high-entropy alloy was doped with 1 at.% nitrogen, and microstructural evolution was characterized via TEM.",
-          "result": "Nitrogen doping introduced short-range order domains and nano-spaced stacking faults, leading to a 104% increase in yield strength and 38% increase in ductility.",
-          "validation": "Mechanical testing and detailed TEM analysis validated the correlation between microstructure and mechanical properties."
+          "motivation": "To address porosity defects in PBF-LB Ti6Al4V parts that compromise mechanical performance, a physics-based thermal simulation algorithm is developed for porosity prediction.",
+          "method": "The algorithm solves the transient 3D heat conduction equation using the finite volume method with a Gaussian heat source and temperature-dependent material properties.",
+          "result": "Predicted porosity (4.78-15.75%) agrees well in trend with experimental µ-CT measurements (3.54-13.41%).",
+          "validation": "The model is validated by Archimedes density and µ-CT data from six Ti6Al4V specimens."
         },
         "key_terms": [
           {
-            "en": "high-entropy alloy",
-            "zh": "高熵合金"
+            "en": "powder bed fusion – laser beam",
+            "zh": "粉末床熔融-激光束"
           },
           {
-            "en": "nitrogen doping",
-            "zh": "氮掺杂"
+            "en": "porosity",
+            "zh": "孔隙率"
           },
           {
-            "en": "strength-ductility trade-off",
-            "zh": "强度-塑性权衡"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V"
           },
           {
-            "en": "short-range order",
-            "zh": "短程有序"
+            "en": "thermal simulation",
+            "zh": "热模拟"
           },
           {
-            "en": "stacking fault",
-            "zh": "堆垛层错"
+            "en": "finite volume method",
+            "zh": "有限体积法"
           },
           {
-            "en": "deformation twin",
-            "zh": "变形孪晶"
+            "en": "X-ray micro-Computed Tomography",
+            "zh": "X射线微计算机断层扫描"
           },
           {
-            "en": "strain hardening",
-            "zh": "应变硬化"
+            "en": "Archimedes density",
+            "zh": "阿基米德密度"
           },
           {
-            "en": "transmission electron microscopy",
-            "zh": "透射电子显微镜"
+            "en": "process parameters",
+            "zh": "工艺参数"
+          },
+          {
+            "en": "Gaussian heat source",
+            "zh": "高斯热源"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:19:20Z"
+      "first_seen_at": "2026-06-07T23:25:34Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {
-      "Exclude": 1
+      "Medium": 1
     }
   }
 }

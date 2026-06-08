@@ -5,68 +5,80 @@
   "papers": [
     {
       "source": "openalex",
-      "id": "https://openalex.org/W4414516236",
-      "doi": "10.1186/s42836-025-00331-0",
-      "title": "Prophylactic wiring vs. non-wiring in hip arthroplasty: finite element and cadaveric analysis of proximal femur biomechanics",
-      "abstract": "BACKGROUND: Intraoperative periprosthetic femur fracture is a serious complication in hip arthroplasty, affecting patient outcomes. This study explored the biomechanical properties of the proximal femur, specifically comparing prophylactic cerclage wiring to non-wiring techniques using finite element analysis (FEA) and cadaveric biomechanical testing. METHOD: A finite element model of the proximal femur was constructed using Ansys software, allowing systematic assessment of both wiring area and technique to identify biomechanically optimal locations and configurations for cerclage placement. Twenty fresh cadaveric femurs were prepared according to standard protocols; the left femurs received cerclage wiring, while the right served as controls. Each femur was fitted with a femoral stem and tested under axial loading until catastrophic failure. Outcomes measured included ultimate load, seating load, subsidence distance, and energy absorption. Statistical analysis included the Shapiro-Wilk test for normality and independent t-tests for group comparisons. RESULTS: The wiring group demonstrated comparable biomechanical performance to the non-wiring group across all measured parameters. Energy absorption was similar between groups (41.9 ± 18.1 Nm vs. 41.0 ± 19.1 Nm, P = 0.918). No significant differences were observed in ultimate load (7.6 ± 2.1 kN vs. 7.7 ± 2.0 kN, P = 0.901) or seating load (3.1 ± 0.7 kN vs. 3.4 ± 1.4 kN, P = 0.589). Similarly, subsidence distance showed no intergroup difference (7.7 ± 2.6 mm vs. 7.7 ± 3.8 mm, P = 0.978). CONCLUSION: Cerclage femoral wiring for prophylactic purposes during hip arthroplasty does not confer a significant biomechanical advantage over non-wiring techniques.",
+      "id": "https://openalex.org/W4414511476",
+      "doi": "10.3390/ma18194468",
+      "title": "Coefficient of Thermal Expansion of AlSi10Mg, 316L Stainless Steel and Ti6Al4V Alloys Made with Laser Powder Bed Fusion",
+      "abstract": "This study investigates the coefficient of thermal expansion (CTE) behavior of LPBF-fabricated AlSi10Mg, 316L stainless steel, and Ti-6Al-4V alloys, focusing on the influence of laser power, scanning speed, and annealing. AlSi10Mg exhibits the highest CTE, but its thermal expansion is highly sensitive to porosity and balling defects. 316L stainless steel shows moderate and stable CTE values, with minimal changes after annealing due to its dense microstructure. Ti-6Al-4V has the lowest CTE, with annealing improving expansion. Higher laser power (100 W) improves fusion, reduces porosity, and stabilizes CTE, while lower power (50 W) increases defects, particularly in AlSi10Mg and Ti-6Al-4V. Scanning speed significantly influences porosity, with 0.4 m/s providing an optimal balance between melt efficiency and defect minimization. Annealing enhances CTE uniformity by reducing the lack of fusion defects and refining grain structures, with the greatest improvements seen in low-laser-energy conditions. These findings provide valuable insights for optimizing LPBF parameters to enhance thermal stability and reliability in aerospace, biomedical, and structural applications.",
       "authors": [
-        "Atiwich Sangroungrai",
-        "Vorawit Atipiboonsin",
-        "Kamolsak Sukhonthamarn",
-        "Nattaphon Twinprai",
-        "Thewarid Berkban",
-        "Surasith Piyasin",
-        "Teerawat Laonapakul",
-        "Ong-art Phruetthiphat",
-        "Rit Apinyankul"
+        "Selami Emanet",
+        "Edem Honu",
+        "Kekeli Agbewornu",
+        "Evelyn Quansah",
+        "Congyuan Zeng",
+        "Patrick Kwabena Mensah"
       ],
-      "first_author_affiliation": "Department of Orthopaedics, Faculty of Medicine, Khon Kaen University, Khon Kaen, 40002, Thailand",
+      "first_author_affiliation": "Department of Mechanical & Industrial Engineering, Louisiana State University, Baton Rouge, LA 70803, USA",
       "corresponding_authors": [
         {
-          "name": "Atiwich Sangroungrai",
-          "affiliation": "Department of Orthopaedics, Faculty of Medicine, Khon Kaen University, Khon Kaen, 40002, Thailand"
+          "name": "Congyuan Zeng",
+          "affiliation": "Department of Mechanical Engineering, Southern University and A&M College, Baton Rouge, LA 70807, USA"
         }
       ],
-      "venue": "Arthroplasty",
+      "venue": "Materials",
       "year": 2025,
       "date": "2025-09-25",
       "date_precision": "day",
-      "url": "https://doi.org/10.1186/s42836-025-00331-0",
-      "cited_by_count": 0,
+      "url": "https://doi.org/10.3390/ma18194468",
+      "cited_by_count": 1,
       "concepts": [
-        "Cadaveric spasm",
-        "Biomechanics",
-        "Medicine",
-        "Finite element method",
-        "Orthodontics",
-        "Femur",
-        "Hip arthroplasty",
-        "Cadaver",
-        "Anatomy",
-        "Surgery",
-        "Arthroplasty",
-        "Total hip arthroplasty",
-        "Acetabulum"
+        "Materials science",
+        "Thermal expansion",
+        "Annealing (glass)",
+        "Fusion",
+        "Porosity",
+        "Composite material",
+        "Titanium alloy",
+        "Metallurgy",
+        "Laser",
+        "Grain size",
+        "Laser power scaling",
+        "Scanning electron microscope",
+        "Thermal stability",
+        "Thermal",
+        "Laser scanning",
+        "Titanium",
+        "Friction coefficient"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "am_femoral_stem"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti6Al4V",
+          "Ti 6Al 4V",
+          "porosity",
+          "defect"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti6Al4V",
+          "Ti 6Al 4V",
+          "annealing"
         ]
       },
       "llm": {
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文研究髋关节置换术中预防性钢丝固定的生物力学效果，涉及股骨柄植入和有限元分析，但未直接涉及应力遮挡或骨-种植体界面力学。",
-        "why_not_core": "This paper does not address implant stress shielding, micromotion, or bone-implant interface mechanics; it focuses on the biomechanical effect of prophylactic wiring.",
-        "validation_kind": "cadaveric",
+        "relevance_to_user": "该论文研究了退火对LPBF钛合金热膨胀系数的影响，但未涉及疲劳或力学性能，与后处理对力学性能调控的核心关注点不符。",
+        "why_not_core": "This paper does not investigate fatigue or mechanical performance (tensile/fatigue) modification due to post-processing; it focuses solely on coefficient of thermal expansion, a thermophysical property rather than mechanical.",
+        "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -74,58 +86,65 @@
           "is_review": false
         },
         "tags": [
-          "hip arthroplasty",
-          "finite element analysis",
-          "cadaveric testing",
-          "cerclage wiring",
-          "proximal femur biomechanics"
+          "coefficient of thermal expansion",
+          "laser powder bed fusion",
+          "annealing",
+          "Ti-6Al-4V",
+          "process parameters",
+          "porosity",
+          "AlSi10Mg",
+          "316L stainless steel"
         ],
         "summary_zh": {
-          "motivation": "探究髋关节置换术中预防性钢丝固定的生物力学效果。",
-          "method": "采用有限元分析和尸体实验比较钢丝固定与无钢丝固定组的生物力学参数。",
-          "result": "钢丝固定组与对照组在极限载荷、下沉距离等方面无显著差异。",
-          "validation": "有限元分析和尸体力学测试。"
+          "motivation": "研究LPBF制备的三种合金（含Ti-6Al-4V）的热膨胀系数受工艺参数和退火影响的规律。",
+          "method": "通过改变激光功率、扫描速度和退火处理，测量并分析各合金的CTE变化。",
+          "result": "AlSi10Mg CTE最高且对缺陷敏感，Ti-6Al-4V CTE最低，退火可改善其热膨胀均匀性。",
+          "validation": "实验测量不同工艺条件下的CTE值，与微观结构观察对比验证。"
         },
         "summary_en": {
-          "motivation": "To investigate the biomechanical impact of prophylactic cerclage wiring in hip arthroplasty.",
-          "method": "Finite element analysis and cadaveric biomechanical testing were used to compare wiring versus non-wiring groups.",
-          "result": "No significant biomechanical advantage was found for prophylactic wiring over non-wiring.",
-          "validation": "Finite element simulation and cadaveric mechanical testing."
+          "motivation": "The study aims to understand how LPBF process parameters (laser power, scanning speed) and annealing affect the coefficient of thermal expansion of AlSi10Mg, 316L stainless steel, and Ti-6Al-4V alloys.",
+          "method": "CTE was measured experimentally for specimens fabricated with varying laser powers (50-100 W) and scanning speeds (0.4-0.8 m/s), including as-built and annealed conditions.",
+          "result": "Ti-6Al-4V showed the lowest CTE, with annealing improving expansion uniformity; higher laser power reduced porosity and stabilized CTE, especially for AlSi10Mg.",
+          "validation": "Experimental CTE measurements were compared across processing conditions, supported by microstructural observations of porosity and defects."
         },
         "key_terms": [
           {
-            "en": "hip arthroplasty",
-            "zh": "髋关节置换术"
+            "en": "coefficient of thermal expansion",
+            "zh": "热膨胀系数"
           },
           {
-            "en": "cerclage wiring",
-            "zh": "环形钢丝固定"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "finite element analysis",
-            "zh": "有限元分析"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "cadaveric testing",
-            "zh": "尸体测试"
+            "en": "annealing",
+            "zh": "退火"
           },
           {
-            "en": "proximal femur",
-            "zh": "股骨近端"
+            "en": "process parameters",
+            "zh": "工艺参数"
           },
           {
-            "en": "biomechanics",
-            "zh": "生物力学"
+            "en": "porosity",
+            "zh": "孔隙率"
           },
           {
-            "en": "femoral stem",
-            "zh": "股骨柄"
+            "en": "AlSi10Mg",
+            "zh": "AlSi10Mg"
+          },
+          {
+            "en": "316L stainless steel",
+            "zh": "316L不锈钢"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:13:45Z"
+      "first_seen_at": "2026-06-07T23:15:36Z"
     }
   ],
   "counts": {
@@ -136,7 +155,7 @@
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "am_femoral_stem": 1
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
       "openalex": 1

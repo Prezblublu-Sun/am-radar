@@ -1,0 +1,149 @@
+{
+  "schema_version": "v2",
+  "date": "2026-04-05",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7152331433",
+      "doi": "",
+      "title": "Towards Agentic Defect Reasoning: A Graph-Assisted Retrieval Framework for Laser Powder Bed Fusion",
+      "abstract": "Laser Powder Bed Fusion (LPBF) is highly sensitive to process parameters, which influence defect formation through complex thermal and fluid mechanisms. However, defect-related knowledge is dispersed across the literature, limiting systematic understanding. This study presents a graph-assisted retrieval framework for defect reasoning in LPBF, using Ti6Al4V as a case study. Scientific publications are transformed into a structured representation, and relationships between parameters, mechanisms, and defects are encoded into an evidence-linked knowledge graph. The framework integrates semantic and graph-based retrieval, supported by a lightweight agent-based reasoning layer to construct interpretable defect pathways. Evaluation shows high retrieval accuracy (0.9667) and recall (0.9667), demonstrating effective identification of relevant defect related evidence. The framework enables transparent reasoning chains linking process parameters to defects. This work provides a scalable approach for converting unstructured literature into a query able and interpretable knowledge resource for additive manufacturing.",
+      "authors": [
+        "Muhammad Rizwan Awan",
+        "Volker Pickert",
+        "Muhammad Waqar Ashraf",
+        "Saleh Ali",
+        "Farshid Mahmouditabar",
+        "Shafiq Odhano"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Muhammad Rizwan Awan",
+          "affiliation": ""
+        }
+      ],
+      "venue": "arXiv (Cornell University)",
+      "year": 2026,
+      "date": "2026-04-05",
+      "date_precision": "day",
+      "url": "https://openalex.org/W7152331433",
+      "cited_by_count": 0,
+      "concepts": [
+        "Construct (python library)",
+        "Computer science",
+        "Process (computing)",
+        "Scalability",
+        "Precision and recall",
+        "Fusion",
+        "Identification (biology)",
+        "Resource (disambiguation)",
+        "Artificial intelligence",
+        "Relevance (law)",
+        "Information retrieval",
+        "Knowledge modeling",
+        "Materials science",
+        "Data mining",
+        "Natural language processing",
+        "Recall"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "defect"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要关注缺陷知识检索框架，而非Ti-6Al-4V的力学或疲劳性能。",
+        "why_not_core": "No mechanical or fatigue characterization or modeling of Ti-6Al-4V; the paper focuses on a knowledge retrieval framework for defect reasoning, not on experimental or computational mechanical properties.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "knowledge graph",
+          "defect reasoning",
+          "Ti-6Al-4V"
+        ],
+        "summary_zh": {
+          "motivation": "将分散的激光粉末床熔融缺陷知识结构化。",
+          "method": "构建证据链接知识图谱和图辅助检索框架。",
+          "result": "检索准确率和召回率均达0.9667。",
+          "validation": "使用Ti6Al4V案例评估检索性能。"
+        },
+        "summary_en": {
+          "motivation": "To structure dispersed defect-related knowledge in laser powder bed fusion.",
+          "method": "Build an evidence-linked knowledge graph with graph-assisted retrieval and agent-based reasoning.",
+          "result": "Achieved high retrieval accuracy (0.9667) and recall (0.9667).",
+          "validation": "Evaluated using Ti6Al4V as a case study."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "knowledge graph",
+            "zh": "知识图谱"
+          },
+          {
+            "en": "defect reasoning",
+            "zh": "缺陷推理"
+          },
+          {
+            "en": "retrieval framework",
+            "zh": "检索框架"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "process parameters",
+            "zh": "工艺参数"
+          },
+          {
+            "en": "defect mechanisms",
+            "zh": "缺陷机制"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:29:54Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

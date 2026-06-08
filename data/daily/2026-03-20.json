@@ -4,139 +4,59 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2603.20113v4",
-      "doi": "",
-      "arxiv_id": "2603.20113v4",
-      "title": "An Analytical Model of Critical and Subcritical Alkali Metal Dendrite Growth in Ceramic Solid Electrolytes",
-      "abstract": "In solid-state batteries, ceramic solid electrolytes are penetrated by dendrites when plating above a critical current density $J_\\mathrm{crit}$. A dendrite will propagate by metal deposition at a pre-existing dendrite tip if the mechanical energy required to crack the ceramic open is less than the electrical energy (Joule heating) wasted by forcing the current to detour around the dendrite to the flat electrode surface. Based on this principle of minimal power dissipation, a dependence of $J_\\mathrm{crit}\\propto c_\\mathrm{max}^{3/2}$ is derived. $c_\\mathrm{max}$ is the length of the longest preexisting, sufficiently thin interfacial defect. Furthermore, the theory is expanded to include electrochemical stress-corrosion-cracking at dendrite tips due to residual electron conduction of the solid electrolyte. The resulting subcritical dendrite growth follows the same defect dependence. Consequentially, scattering of dendrite growth between samples must follow a Weibull-distribution, similar to the tensile strength of ceramic components but at smaller Weibull-modulus.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7139932082",
+      "doi": "10.21062/mft.2026.005",
+      "title": "Mechanical Properties of 3D Printed Porous Ti-6Al-4V Alloy for Biomedical Applications",
+      "abstract": "Optimising the mechanical properties required for biomedical applications is something that porous Ti-6Al-4V structures offer the opportunity to do. Triply periodic minimal surface (TPMS) structures, such as the Diamond and Gyroid structures, provide interconnected pores that can be used to adjust strength, stiffness and deformation. The mechanical behaviour of these two architectures under compressive and bending loads is compared in this study, with the use of additively manufactured samples. The results demonstrate that pore geometry significantly impacts mechanical behaviour. Diamond structures exhibit higher stiffness and strength, whereas Gyroid structures provide a more isotropic and flexible response. These findings emphasise the importance of architecture when designing implants and other components for which optimised mechanical properties and geometry are essential.",
       "authors": [
-        "Ansgar Lowack"
+        "Markéta Straková",
+        "Jiří Kubásek",
+        "Dalibor Vojtěch"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Markéta Straková",
+          "affiliation": ""
+        }
+      ],
+      "venue": "MANUFACTURING TECHNOLOGY",
       "year": 2026,
       "date": "2026-03-20",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2603.20113v4",
+      "url": "https://doi.org/10.21062/mft.2026.005",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "3d printed",
+        "Materials science",
+        "Alloy",
+        "Porosity",
+        "Composite material",
+        "3D printing",
+        "Metallurgy"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_femoral_stem"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
       "routing_matches": {
-        "mechanical_properties": [
-          "tensile strength"
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TPMS",
+          "triply periodic minimal surface"
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "本文讨论陶瓷固态电解质中的碱金属枝晶生长，与用户的研究方向（AI生物打印、髋关节植入物应力屏蔽、FEA代理模型、生物医学增材制造）完全无关。",
-        "why_not_core": "This paper focuses on dendrite growth in ceramic solid electrolytes for batteries, with no connection to bioprinting, hip implants, FEA surrogate, or biomedical additive manufacturing.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "solid-state batteries",
-          "dendrite growth",
-          "ceramic electrolyte",
-          "critical current density",
-          "Weibull distribution"
-        ],
-        "summary_zh": {
-          "motivation": "建立陶瓷固态电解质中枝晶生长的解析模型",
-          "method": "基于最小功耗原理和电化学应力腐蚀理论推导",
-          "result": "得到临界电流密度与缺陷长度的3/2次方关系",
-          "validation": "无实验验证，仅为理论推导"
-        },
-        "summary_en": {
-          "motivation": "To derive an analytical model for dendrite penetration in ceramic solid electrolytes during metal plating.",
-          "method": "The model is based on the principle of minimal power dissipation and electrochemical stress-corrosion-cracking at dendrite tips.",
-          "result": "A scaling law J_crit ∝ c_max^(3/2) is derived, and subcritical growth follows a Weibull distribution.",
-          "validation": "No experimental validation; purely theoretical derivation."
-        },
-        "key_terms": [
-          {
-            "en": "dendrite",
-            "zh": "枝晶"
-          },
-          {
-            "en": "solid electrolyte",
-            "zh": "固态电解质"
-          },
-          {
-            "en": "critical current density",
-            "zh": "临界电流密度"
-          },
-          {
-            "en": "stress-corrosion-cracking",
-            "zh": "应力腐蚀开裂"
-          },
-          {
-            "en": "Weibull distribution",
-            "zh": "威布尔分布"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:20:36Z"
-    },
-    {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2603.19905v1",
-      "doi": "",
-      "arxiv_id": "2603.19905v1",
-      "title": "DSC curve fingerprints directly encode mechanical properties of aluminum alloys",
-      "abstract": "Differential scanning calorimetry (DSC) is a standard tool for studying precipitation and phase transformations in aluminum alloys, yet its relation to mechanical performance has so far remained mostly indirect. Here, we demonstrate that DSC curves themselves act as fingerprints that directly encode mechanical properties. Four representative 6xxx series alloys (Al-Mg-Si) were subjected to different natural and artificial aging regimens, followed by DSC heat-flow measurements and tensile testing. Machine learning models trained on the thermograms predicted yield strength, ultimate tensile strength, and uniform elongation in five-fold grouped cross-validation, with the best model (Lasso) achieving R^2 values of 0.93, 0.86, and 0.87 and mean absolute errors of 14.3 MPa, 11.1 MPa, and 1.5 percent, respectively. Leave-one-alloy-out evaluation with sparse calibration using anchor samples further demonstrated generalization across alloy chemistries. While direct prediction on unseen alloy data degraded performance substantially, inclusion of as few as one to two anchor conditions from the target alloy recovered predictive accuracy, approaching that of the standard cross-validation. Feature importance analysis revealed that the 230 to 270 C region, associated with precipitation of the primary hardening phase beta'', contributed most strongly to predictive accuracy, providing direct mechanistic validation of the model. These findings establish DSC as a diagnostic tool that can serve as a rapid proxy for mechanical property evaluation, enabling accelerated alloy screening, process optimization, and integration of thermal analysis into data-driven manufacturing.",
-      "authors": [
-        "Lukas Pichlmann",
-        "Samuel Studer",
-        "Aurel R. Arnoldt",
-        "Paul Oberhauser",
-        "Johannes A. Österreicher"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2026,
-      "date": "2026-03-20",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2603.19905v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "tensile strength",
-          "yield strength",
-          "ultimate tensile strength",
-          "elongation"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "与用户研究方向无关，不涉及任何生物医学背景或植入物相关力学分析",
-        "why_not_core": "This paper focuses on aluminum alloy mechanical property prediction via DSC thermograms, with no connection to biomedical implants, bioprinting, FEA surrogate modeling, or additive manufacturing for biomedical applications.",
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究多孔Ti-6Al-4V的力学性能，对股骨柄的多孔结构设计有参考价值，但未涉及具体的股骨柄结构。",
+        "why_not_core": "This paper does not present a femoral/hip stem design; it only characterizes porous architectures under compression and bending, with no application to stem-specific loading (e.g., ISO fatigue, micromotion, stress shielding).",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -145,88 +65,348 @@
           "is_review": false
         },
         "tags": [
-          "aluminum alloys",
-          "differential scanning calorimetry",
-          "machine learning",
-          "mechanical properties",
-          "material characterization"
+          "Ti-6Al-4V",
+          "porous structures",
+          "TPMS",
+          "Diamond",
+          "Gyroid",
+          "additive manufacturing",
+          "mechanical properties"
         ],
         "summary_zh": {
-          "motivation": "利用DSC曲线直接预测铝合金力学性能",
-          "method": "对Al-Mg-Si合金进行时效处理，采集DSC热流数据并训练机器学习模型",
-          "result": "Lasso模型预测屈服强度R²达0.93，验证了β''相析出区域的关键作用",
-          "validation": "五折交叉验证和留一合金验证，并通过部分锚点样本恢复预测精度"
+          "motivation": "优化多孔Ti-6Al-4V的力学性能以用于生物医学。",
+          "method": "通过增材制造制备Diamond和Gyroid TPMS结构，进行压缩和弯曲测试。",
+          "result": "Diamond结构刚度强度更高，Gyroid结构各向同性更好。",
+          "validation": "实验力学测试。"
         },
         "summary_en": {
-          "motivation": "To establish differential scanning calorimetry (DSC) curves as direct fingerprints for predicting mechanical properties of aluminum alloys.",
-          "method": "Machine learning models, including Lasso, were trained on DSC thermograms from aged 6xxx series alloys to predict yield strength, ultimate tensile strength, and elongation.",
-          "result": "The best model achieved R² values up to 0.93 for yield strength, with feature importance confirming the β'' precipitation region as crucial.",
-          "validation": "Five-fold grouped cross-validation and leave-one-alloy-out evaluation with anchor samples were performed, supported by mechanical testing."
+          "motivation": "To optimize mechanical properties of porous Ti-6Al-4V for biomedical applications.",
+          "method": "Additively manufactured Diamond and Gyroid TPMS structures were tested under compression and bending.",
+          "result": "Diamond structures showed higher stiffness and strength, while Gyroid structures exhibited a more isotropic and flexible response.",
+          "validation": "Experimental mechanical testing of additively manufactured samples."
         },
         "key_terms": [
           {
-            "en": "differential scanning calorimetry",
-            "zh": "差示扫描量热法"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "aluminum alloys",
-            "zh": "铝合金"
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
           },
           {
-            "en": "machine learning",
-            "zh": "机器学习"
+            "en": "TPMS",
+            "zh": "三周期极小曲面"
           },
           {
-            "en": "yield strength",
-            "zh": "屈服强度"
+            "en": "Diamond structure",
+            "zh": "金刚石结构"
           },
           {
-            "en": "precipitation hardening",
-            "zh": "析出强化"
+            "en": "Gyroid structure",
+            "zh": "螺旋结构"
           },
           {
-            "en": "thermogram",
-            "zh": "热谱图"
+            "en": "compressive test",
+            "zh": "压缩测试"
           },
           {
-            "en": "Lasso regression",
-            "zh": "套索回归"
+            "en": "bending test",
+            "zh": "弯曲测试"
           },
           {
             "en": "mechanical properties",
             "zh": "力学性能"
           },
           {
-            "en": "aging treatment",
-            "zh": "时效处理"
+            "en": "porous structures",
+            "zh": "多孔结构"
           },
           {
-            "en": "β'' phase",
-            "zh": "β''相"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:20:36Z"
+      "first_seen_at": "2026-06-07T23:28:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7138914361",
+      "doi": "10.1007/s40964-026-01574-2",
+      "title": "Factors controlling the residual stresses in laser powder bed fusion fabricated AlSi10Mg and Ti6Al4V",
+      "abstract": "Additive manufacturing processes such as laser powder bed fusion (LPBF) introduce residual stresses that can cause part distortion and reduced mechanical properties. LPBF process parameters are often selected to give high relative density and specific mechanical properties; however, it is not straightforward to predict their combined influences on residual stresses. This study examines the relationships between various LPBF parameters (laser power, laser scanning speed, and build plate preheating) and residual stresses in LPBF fabricated AlSi10Mg and Ti6Al4V materials using the bridge curvature method where the sample total flatness deviation (FLTt) is utilized as a measure of the relative residual stress magnitude. For AlSi10Mg, the residual stresses were significantly influenced by any changes in the LPBF process parameters, and a strong positive correlation was found between the solidification cooling rates and the FLTt values across all LPBF process parameter groups. Such results highlight the importance of understanding how LPBF process parameters affect the solidification process for residual stress management in AlSi10Mg. In contrast, while FLTt values were generally higher for Ti6Al4V compared to AlSi10Mg, only build plate preheating showed a significant effect on the residual stresses which was attributed to its effect on the cooling rates during the martensitic phase transformation. Such results highlight that while LPBF process parameters may influence residual stress formation via the sample cooling rates, care must be taken to understand the temperature range over which the cooling rates most strongly influence the residual stresses for a specific alloy system.",
+      "authors": [
+        "M. Rais A. Taufiq",
+        "Peidong He",
+        "Qian Liu",
+        "Zhuohan Cao",
+        "Bernd Gludovatz",
+        "Xiaopeng Li",
+        "Jamie J. Kruzic"
+      ],
+      "first_author_affiliation": "Department of Mechanical and Industrial Engineering, Universitas Gadjah Mada, Yogyakarta, Indonesia",
+      "corresponding_authors": [
+        {
+          "name": "M. Rais A. Taufiq",
+          "affiliation": "Department of Mechanical and Industrial Engineering, Universitas Gadjah Mada, Yogyakarta, Indonesia"
+        }
+      ],
+      "venue": "Progress in Additive Manufacturing",
+      "year": 2026,
+      "date": "2026-03-20",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40964-026-01574-2",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Residual stress",
+        "Fusion",
+        "Titanium alloy",
+        "Laser",
+        "Composite material",
+        "Metallurgy",
+        "Inertial confinement fusion",
+        "Titanium",
+        "Residual"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "residual stress"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文直接研究LPBF Ti-6Al-4V残余应力，残余应力属于方向范围内的机械性能方面，但未涉及疲劳测试。",
+        "why_not_core": "This paper focuses on residual stress measurement and does not provide fatigue or tensile mechanical property data for Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "residual stress",
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "bridge curvature method",
+          "process parameters"
+        ],
+        "summary_zh": {
+          "motivation": "探究LPBF工艺参数对AlSi10Mg和Ti6Al4V残余应力的影响",
+          "method": "采用桥曲率法测量样品的总平面度偏差以表征残余应力",
+          "result": "Ti6Al4V中只有基板预热显著影响残余应力，而AlSi10Mg中所有参数均有显著影响",
+          "validation": "实验测量，通过桥曲率法获取残余应力数据"
+        },
+        "summary_en": {
+          "motivation": "To investigate how LPBF process parameters influence residual stresses in AlSi10Mg and Ti6Al4V alloys.",
+          "method": "The bridge curvature method was used to quantify residual stresses by measuring total flatness deviation (FLTt) of printed samples.",
+          "result": "For Ti6Al4V, only build plate preheating significantly affected residual stresses, while for AlSi10Mg all parameters showed strong correlations.",
+          "validation": "Experimental validation via bridge curvature measurements on as-built samples."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "bridge curvature method",
+            "zh": "桥曲率法"
+          },
+          {
+            "en": "build plate preheating",
+            "zh": "基板预热"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "flatness deviation",
+            "zh": "平面度偏差"
+          },
+          {
+            "en": "solidification cooling rate",
+            "zh": "凝固冷却速率"
+          },
+          {
+            "en": "martensitic phase transformation",
+            "zh": "马氏体相变"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:28:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7138973089",
+      "doi": "10.1007/s40436-026-00596-x",
+      "title": "Multi-objective process parameter optimization using a hybrid reinforcement/machine learning model in metal additive manufacturing",
+      "abstract": "Abstract Additive manufacturing enables the production of complex geometries and lightweight structures. However, producing defect-free components fundamentally depends on the careful optimization of process parameters that influence critical factors, such as melt pool depth, in laser powder bed fusion (L-PBF), an important class of metal additive manufacturing methods. Hence, for the first time, this paper presents a novel data-driven framework that integrates machine learning (ML) with reinforcement learning (RL) to optimize process parameters, ensuring the desired melt pool characteristics while meeting multi-objective design criteria. Experimental data from the literature were extracted to train several ML models, with Gaussian process regression (GPR) featuring a Matérn kernel proved to be the most accurate predictor. This model served as the digital twin of the L-PBF process and was integrated with a Q -learning-based RL agent to derive the optimal process parameters. The GPR model achieved a high prediction accuracy (root mean squared error (RMSE): 34 µm, the coefficient of determination R 2 : 96.05%) for L-PBF Ti6Al4V alloy using minimal training data. Integrating a Q -learning framework with ML demonstrated superior performance in deriving process parameters that achieved the target melt pool depth while minimizing the normalized enthalpy, directly impacting the formation of the keyhole defect.",
+      "authors": [
+        "Arash Seifoddini",
+        "Arefeh Azad",
+        "Mohammad Hossein Mosallanejad",
+        "Abdollah Saboori"
+      ],
+      "first_author_affiliation": "Department of Mechanical and Aerospace Engineering, Polytechnic University of Turin, 10129, Torino, Italy",
+      "corresponding_authors": [
+        {
+          "name": "Abdollah Saboori",
+          "affiliation": "Department of Management and Production Engineering, Polytechnic University of Turin, 10129, Torino, Italy"
+        }
+      ],
+      "venue": "Advances in Manufacturing",
+      "year": 2026,
+      "date": "2026-03-20",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40436-026-00596-x",
+      "cited_by_count": 0,
+      "concepts": [
+        "Kriging",
+        "Process (computing)",
+        "Selective laser melting",
+        "Gaussian process",
+        "Computer science",
+        "Kernel (algebra)",
+        "Keyhole",
+        "Reinforcement learning",
+        "Process optimization",
+        "Design of experiments",
+        "Process variable",
+        "Process modeling",
+        "Mathematical optimization",
+        "Process engineering",
+        "Algorithm",
+        "Mean squared error"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "defect"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文未涉及Ti-6Al-4V的力学或疲劳性能，仅关注工艺参数优化，与方向要求的机械疲劳内容无关。",
+        "why_not_core": "This paper focuses on process parameter optimization for melt pool depth and keyhole defect minimization, but does not include any mechanical or fatigue testing or modeling of Ti-6Al-4V.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "machine learning",
+          "reinforcement learning",
+          "process optimization",
+          "melt pool depth"
+        ],
+        "summary_zh": {
+          "motivation": "利用ML和RL优化LPBF工艺参数以控制熔池深度",
+          "method": "结合高斯过程回归和Q学习的混合框架",
+          "result": "GPR模型预测精度高，RL获得最优参数",
+          "validation": "利用文献实验数据验证模型预测能力"
+        },
+        "summary_en": {
+          "motivation": "To develop a data-driven framework for optimizing L-PBF process parameters to achieve desired melt pool characteristics and minimize defects.",
+          "method": "Integrates Gaussian process regression (GPR) with a Q-learning-based reinforcement learning agent.",
+          "result": "The GPR model achieves high prediction accuracy (R²=96.05%) for Ti6Al4V, and the RL agent successfully derives parameters for target melt pool depth while minimizing normalized enthalpy.",
+          "validation": "Experimental data from literature used to train and validate the ML models."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "reinforcement learning",
+            "zh": "强化学习"
+          },
+          {
+            "en": "process parameter optimization",
+            "zh": "工艺参数优化"
+          },
+          {
+            "en": "melt pool depth",
+            "zh": "熔池深度"
+          },
+          {
+            "en": "Gaussian process regression",
+            "zh": "高斯过程回归"
+          },
+          {
+            "en": "Q-learning",
+            "zh": "Q学习"
+          },
+          {
+            "en": "keyhole defect",
+            "zh": "匙孔缺陷"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:28:07Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "arxiv": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "mechanical_properties": 2
+      "ti6al4v_femoral_stem": 1,
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "arxiv": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
-      "Exclude": 2
+      "Medium": 2,
+      "Low": 1
     }
   }
 }

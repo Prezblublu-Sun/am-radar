@@ -4,135 +4,421 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2602.14927v2",
-      "doi": "",
-      "arxiv_id": "2602.14927v2",
-      "title": "Ferrocene-functionalized covalent organic framework exceeding the ultimate hydrogen storage targets: a first-principles multiscale computational study",
-      "abstract": "The development of efficient hydrogen storage materials is crucial for advancing the hydrogen economy and meeting the U.S. Department of Energy's targets of 6.5 wt% and 50 g H<sub>2</sub>/L for automotive applications. We present a computational study of ferrocene-functionalized covalent organic frameworks (COFs) for hydrogen storage. Following the <b>M</b>ulti-binding <b>S</b>ites <b>U</b>nited in <b>C</b>ovalent-<b>O</b>rganic <b>F</b>ramework (MSUCOF) approach, we introduce MSUCOF-4-FeCp, designed by incorporating ferrocene (FeCp<sub>2</sub>) moieties into IRCOF-102. Notably, it achieves exceptional performance with gravimetric and volumetric uptakes of 18.0 wt% and 72.6 g H<sub>2</sub>/L at 298 K and 700 bar. The material exhibits optimal binding energies (15-20 kJ/mol) ensuring both high storage capacity and deliverable hydrogen under practical conditions. This work establishes ferrocene functionalization as a cost-effective alternative to precious metal incorporation in COFs.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7129079242",
+      "doi": "10.1007/s40964-026-01542-w",
+      "title": "Geometric deviation and compressive failure of Ti-6Al-4V alloy honeycomb structures printed by laser powder bed fusion examined by X-ray microcomputed tomography",
+      "abstract": "While 3D metal printing is extensively employed for fabricating honeycomb structures, the evaluation of their printing quality and defects remains challenging due to technical limitations. This work aims to investigate the influence of printing defects, honeycomb geometries, and printing orientations on the compressive mechanical properties of laser powder bed fusion (L–PBF) Ti-6Al-4V cylinders. Honeycomb cylindrical samples were fabricated with the size of Ø5 mm × 10 mm. X-ray microcomputed tomography (micro-CT) was employed to study geometric formation accuracy and printing defects. The printed honeycomb cylinders were then subject to compression testing, and fractured cylinders were rescanned by micro-CT to study the compression-induced failure behaviors. The findings demonstrated that printed Ti-6Al-4V honeycomb cylinders exhibited varying build quality, porosity, dimensional inconsistency, and partially melted or unmelted powder particles. The vertically printed honeycomb cylinder exhibited higher geometry accuracy than the horizontally printed honeycomb cylinder. The designed honeycomb structures and printing orientations had a significant influence on the nominal modulus. Both the vertical and horizontal printing honeycomb cylinders exhibited compression-induced shear failure. This work describes a micro-CT examination technique for investigating the structural integrity and mechanical failures of 3D metal-printed honeycomb structures.",
       "authors": [
-        "Marcus Djokic",
-        "Jose L. Mendoza-Cortes"
+        "Md. Bengir Ahmed Shuvho",
+        "Sophie Rapagna",
+        "Agatha Labrinidis",
+        "Aditya Khanna",
+        "Andrei Kotousov",
+        "Egon Perilli",
+        "Ling Yin"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "School of Electrical and Mechanical Engineering, The University of Adelaide, Adelaide, SA, 5005, Australia",
+      "corresponding_authors": [
+        {
+          "name": "Md. Bengir Ahmed Shuvho",
+          "affiliation": "School of Electrical and Mechanical Engineering, The University of Adelaide, Adelaide, SA, 5005, Australia"
+        }
+      ],
+      "venue": "Progress in Additive Manufacturing",
       "year": 2026,
       "date": "2026-02-16",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2602.14927v2",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "cond-mat.other",
-        "cond-mat.stat-mech",
-        "physics.chem-ph"
+      "url": "https://doi.org/10.1007/s40964-026-01542-w",
+      "cited_by_count": 1,
+      "concepts": [
+        "Honeycomb",
+        "Materials science",
+        "Honeycomb structure",
+        "Composite material",
+        "Cylinder",
+        "3D printing",
+        "Compressive strength",
+        "Fusion",
+        "Alloy",
+        "3d printed",
+        "Laser",
+        "Compression (physics)",
+        "Rapid prototyping",
+        "Work (physics)",
+        "Inkwell",
+        "Shear (geology)",
+        "Selective laser melting",
+        "Laser scanning"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "s + l + m"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文研究了激光粉末床熔融Ti-6Al-4V蜂窝结构的压缩力学性能及打印缺陷，与用户的力学与疲劳方向直接相关但侧重压缩而非疲劳。",
+        "why_not_core": "This paper focuses on compressive behavior of honeycomb structures rather than fatigue life, tensile properties, or standard mechanical characterization of bulk Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "honeycomb structures",
+          "compressive failure",
+          "micro-CT",
+          "geometric deviation"
         ],
-        "fatigue": [
-          "s + l + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "s + l + m"
+        "summary_zh": {
+          "motivation": "研究打印缺陷和方向对Ti-6Al-4V蜂窝结构压缩性能的影响。",
+          "method": "使用LPBF打印蜂窝圆柱，进行微CT扫描和压缩试验。",
+          "result": "垂直打印的几何精度更高，蜂窝结构和方向显著影响名义模量，压缩失效为剪切破坏。",
+          "validation": "通过微CT和压缩实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the influence of printing defects, honeycomb geometries, and orientations on the compressive mechanical properties of LPBF Ti-6Al-4V.",
+          "method": "Honeycomb cylinders were fabricated by LPBF, examined by micro-CT, and subjected to compression testing with post-failure scanning.",
+          "result": "Vertically printed samples showed higher geometric accuracy; both orientations exhibited compression-induced shear failure; geometry and orientation significantly affected modulus.",
+          "validation": "Experimental compression tests and micro-CT imaging were used."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "honeycomb structure",
+            "zh": "蜂窝结构"
+          },
+          {
+            "en": "compressive failure",
+            "zh": "压缩失效"
+          },
+          {
+            "en": "micro-CT",
+            "zh": "微计算机断层扫描"
+          },
+          {
+            "en": "geometric deviation",
+            "zh": "几何偏差"
+          },
+          {
+            "en": "build orientation",
+            "zh": "建造方向"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "shear failure",
+            "zh": "剪切失效"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:25:34Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7129037989",
+      "doi": "10.3390/ma19040774",
+      "title": "Plasma-Enhanced Graphene Coatings on Ti-6Al-4V: Insights from Non-Destructive Characterization",
+      "abstract": "In this work, the deposition of graphene coatings on substrates of an ELI grade Ti-6Al-4V alloy was carried out using the Plasma Enhanced Chemical Vapor Deposition (PECVD) technique. The purpose of this study was to improve the surface properties of the material. The characterization of the material was carried out by non-destructive techniques, such as Raman Spectroscopy and Thermoelectric Potential. A preliminary characterization of Ti substrates was carried out by Raman spectroscopy. Conversely, thermoelectric potential tests were conducted using three distinct tip systems and four different temperature gradients. Lastly, some surface roughness measurements were conducted on all samples, both coated and uncoated. Graphene micro-structured coatings were obtained using a plasma-activated mixture of hydrogen and methane gases with an equimolar feed ratio (1:1 H2:CH4) at a temperature of 850 °C and a plasma exposure of 150 Watts and duration of 15 min. Raman spectra verified the presence of uniform micrometric graphene on the surface of Ti substrates. Graphene-coated Ti-6Al-4V ELI substrates exhibited Seebeck coefficient values indicating metallic-like behavior and suitability for thermoelectric sensing. In the eddy current analyses, it was found that low frequencies provided the highest sensitivity for differentiating between samples. An inverse relationship was identified between substrate thickness and phase angle, and a direct relationship with calculated electrical conductivity was also identified. This direct relation is attributed to penetration depth and interactions due to the chemical nature of the substrate and coating. Despite a slight increase in surface roughness after graphene deposition, values remained comparable to the base alloy, preserving compatibility for biomedical integration. Thermoelectric potential measurements revealed enhanced sensitivity to surface morphology and interfacial effects when high-sensitivity probe configurations were employed. These results support potential applications in implantable or wearable temperature sensors, energy harvesting devices, and smart biomedical interfaces. The thickness of the graphene coating was also characterized by SEM, which showed that the films deposited by PECVD are about 1 micron thick.",
+      "authors": [
+        "Victor J. Sagrero",
+        "Fnu Gorky",
+        "Vashanti Storr",
+        "Fernando M. de de Oliveira",
+        "Hector Carreon",
+        "Maria L. Carreon"
+      ],
+      "first_author_affiliation": "Instituto de Investigación en Metalurgia y Materiales, Universidad Michoacana de San Nicolás de Hidalgo, Morelia 58030, Michoacán, Mexico",
+      "corresponding_authors": [
+        {
+          "name": "Maria L. Carreon",
+          "affiliation": "Ralph E. Martin Department of Chemical Engineering, University of Arkansas, Fayetteville, AR 72701, USA"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2026,
+      "date": "2026-02-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma19040774",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Graphene",
+        "Raman spectroscopy",
+        "Thermoelectric effect",
+        "Chemical vapor deposition",
+        "Surface roughness",
+        "Seebeck coefficient",
+        "Analytical Chemistry (journal)",
+        "Graphene foam",
+        "Graphene nanoribbons",
+        "Thermal conductivity",
+        "Thermoelectric materials",
+        "Chemical engineering",
+        "Electrical resistivity and conductivity",
+        "Substrate (aquarium)",
+        "Graphene oxide paper",
+        "Surface finish",
+        "Hydrogen",
+        "Nanotechnology"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti-6Al-4V ELI",
+          "surface roughness"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "与用户方向无关，不涉及增材制造或力学性能。",
-        "why_not_core": "No additive manufacturing, no mechanical property testing or characterization, no biomedical implant context.",
+        "relevance_to_user": "该论文研究Ti-6Al-4V基底上的石墨烯涂层，未涉及增材制造或力学/疲劳性能，与用户方向无关。",
+        "why_not_core": "This paper does not address additive manufacturing, mechanical characterization (tensile, fatigue, hardness), or any build-process variables; it focuses solely on coating deposition and non-destructive surface characterization of wrought Ti-6Al-4V.",
         "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "hydrogen storage",
-          "covalent organic frameworks",
-          "computational study",
-          "ferrocene"
+          "graphene coating",
+          "PECVD",
+          "Ti-6Al-4V",
+          "non-destructive characterization",
+          "surface roughness"
         ],
         "summary_zh": {
-          "motivation": "开发高效储氢材料以满足DOE目标",
-          "method": "第一性原理多尺度计算设计铁茂功能化COF",
-          "result": "MSUCOF-4-FeCp实现18.0 wt%和72.6 g H2/L储氢",
-          "validation": "计算模拟验证结合能与容量"
+          "motivation": "通过PECVD在Ti-6Al-4V上沉积石墨烯涂层以改善表面性能。",
+          "method": "采用PECVD技术沉积石墨烯，利用拉曼光谱、热电势和涡流进行非破坏性表征。",
+          "result": "获得了均匀微米级石墨烯涂层，热电性能呈金属行为，表面粗糙度轻微增加。",
+          "validation": "通过拉曼光谱验证石墨烯存在，SEM测量涂层厚度约1微米。"
         },
         "summary_en": {
-          "motivation": "To develop hydrogen storage materials that meet the U.S. Department of Energy's gravimetric and volumetric targets for automotive applications.",
-          "method": "A first-principles multiscale computational approach is used to design ferrocene-functionalized covalent organic frameworks following the MSUCOF strategy.",
-          "result": "The designed MSUCOF-4-FeCp achieves exceptional hydrogen uptakes of 18.0 wt% and 72.6 g H2/L at 298 K and 700 bar.",
-          "validation": "Validation is based on computational binding energy calculations and comparison to DOE targets, without experimental synthesis or testing."
+          "motivation": "To enhance surface properties of Ti-6Al-4V by depositing graphene coatings via PECVD.",
+          "method": "Graphene coatings were deposited using PECVD and characterized non-destructively by Raman spectroscopy, thermoelectric potential, eddy current, and surface roughness measurements.",
+          "result": "Uniform micrometric graphene coatings were obtained, exhibiting metallic Seebeck behavior and slight increase in surface roughness.",
+          "validation": "Raman spectroscopy confirmed graphene presence, and SEM measured coating thickness around 1 μm."
         },
         "key_terms": [
           {
-            "en": "hydrogen storage",
-            "zh": "储氢"
+            "en": "graphene coating",
+            "zh": "石墨烯涂层"
           },
           {
-            "en": "covalent organic framework",
-            "zh": "共价有机框架"
+            "en": "PECVD",
+            "zh": "等离子体增强化学气相沉积"
           },
           {
-            "en": "ferrocene functionalization",
-            "zh": "二茂铁功能化"
+            "en": "Ti-6Al-4V ELI",
+            "zh": "Ti-6Al-4V ELI合金"
           },
           {
-            "en": "first-principles",
-            "zh": "第一性原理"
+            "en": "Raman spectroscopy",
+            "zh": "拉曼光谱"
           },
           {
-            "en": "multiscale computational study",
-            "zh": "多尺度计算研究"
+            "en": "thermoelectric potential",
+            "zh": "热电势"
           },
           {
-            "en": "binding energy",
-            "zh": "结合能"
+            "en": "eddy current",
+            "zh": "涡流"
           },
           {
-            "en": "gravimetric uptake",
-            "zh": "重量吸附量"
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           },
           {
-            "en": "volumetric uptake",
-            "zh": "体积吸附量"
+            "en": "Seebeck coefficient",
+            "zh": "塞贝克系数"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:19:20Z"
+      "first_seen_at": "2026-06-07T23:25:34Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7129075572",
+      "doi": "10.1007/s00170-026-17449-3",
+      "title": "Analysis of the influence of geometric parameters of laser-produced texturing on carbide tools in Ti6Al4V turning",
+      "abstract": "This study focuses on analyzing the influence of different groove texture geometries on carbide cutting tools for turning Ti6Al4V titanium alloy, exploring how different parameters (depth, width, spacing, direction, and distance from the cutting edge) affect machining performance. This work contributes to the advancement of machining techniques, promoting more efficient and sustainable processes, with potential practical applications in industries. The objectives include reducing machining forces while minimizing machining cost. The methodology employed advanced technologies, such as femtosecond lasers, to produce defect-free textures without thermal damage or microcracks. Initial results demonstrated that textured tools can significantly improve the machining process by reducing machining forces. The results showed that texture direction and distance from the cutting edge were the most influential parameters, while texture dimensions had a lesser impact. Furthermore, the effects of textures were found to vary with feed rate, highlighting the need for specific optimizations for different cutting regimes (such as roughing or finishing).",
+      "authors": [
+        "Felipe Chagas Rodrigues de Souza",
+        "Fábio Rüstow de Paula",
+        "Álisson Rocha Machado",
+        "Wagner de Rossi"
+      ],
+      "first_author_affiliation": "Federal University of Uberlandia, Avenue João Naves de Ávila, MG, 38400-902, Uberlândia, Brazil",
+      "corresponding_authors": [
+        {
+          "name": "Felipe Chagas Rodrigues de Souza",
+          "affiliation": "Federal University of Uberlandia, Avenue João Naves de Ávila, MG, 38400-902, Uberlândia, Brazil"
+        }
+      ],
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "year": 2026,
+      "date": "2026-02-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s00170-026-17449-3",
+      "cited_by_count": 0,
+      "concepts": [
+        "Machining",
+        "Enhanced Data Rates for GSM Evolution",
+        "Groove (engineering)",
+        "Carbide",
+        "Materials science",
+        "Texture (cosmology)",
+        "Mechanical engineering",
+        "Titanium alloy",
+        "Thermal",
+        "Cutting tool",
+        "Metallurgy",
+        "Work (physics)",
+        "Tool wear",
+        "Process (computing)",
+        "Engineering drawing",
+        "Titanium",
+        "Cemented carbide"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "defect"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究刀具纹理对加工Ti6Al4V的影响，未涉及Ti-6Al-4V增材制造件的后处理工艺。",
+        "why_not_core": "This paper does not study any post-processing treatment of Ti-6Al-4V; it investigates laser texturing of cutting tools for machining Ti-6Al-4V, which is about tool modification, not material post-processing.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti6Al4V",
+          "laser texturing",
+          "cutting tools",
+          "machining",
+          "turning"
+        ],
+        "summary_zh": {
+          "motivation": "探索不同沟槽纹理几何参数对车削Ti6Al4V的碳化物刀具性能的影响。",
+          "method": "使用飞秒激光在刀具表面制备无缺陷纹理，并测试不同参数下的切削力。",
+          "result": "纹理方向和距离切削刃的距离是影响最大的参数，而纹理尺寸影响较小。",
+          "validation": "通过车削实验测量切削力验证纹理效果。"
+        },
+        "summary_en": {
+          "motivation": "To investigate how different groove texture geometries on carbide cutting tools affect the turning performance of Ti6Al4V titanium alloy.",
+          "method": "Femtosecond laser was used to produce defect-free textures on tool surfaces, and cutting forces were measured under various texture parameters.",
+          "result": "Texture direction and distance from the cutting edge were the most influential parameters, while texture dimensions had lesser impact.",
+          "validation": "Machining experiments with force measurement validated the effects of textures."
+        },
+        "key_terms": [
+          {
+            "en": "laser texturing",
+            "zh": "激光织构"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "钛合金Ti6Al4V"
+          },
+          {
+            "en": "carbide tools",
+            "zh": "硬质合金刀具"
+          },
+          {
+            "en": "machining forces",
+            "zh": "切削力"
+          },
+          {
+            "en": "femtosecond laser",
+            "zh": "飞秒激光"
+          },
+          {
+            "en": "geometric parameters",
+            "zh": "几何参数"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:25:34Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "arxiv": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_base_mechanical_fatigue": 2,
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
-      "Exclude": 1
+      "Medium": 1,
+      "Exclude": 2
     }
   }
 }

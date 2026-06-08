@@ -4,117 +4,6 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2511.20706v2",
-      "doi": "",
-      "arxiv_id": "2511.20706v2",
-      "title": "Vacancy Engineering in Metals and Alloys",
-      "abstract": "Vacancy engineering, the intentional control of atomic-scale vacancies in metals and alloys, is emerging as a powerful yet underexplored strategy for tailoring microstructures and optimizing performance across diverse applications. By enabling excess vacancy populations through quenching, severe deformation, thermomechanical treatments, or additive manufacturing, new microstructures can be obtained that achieve unique combinations of strength, ductility, fatigue life, corrosion resistance, and conductivity. Vacancies are distinct among lattice defects: they are non-conserved entities essential for solute diffusion, yet variably coupled to solutes, dislocations, and phase boundaries. They can accelerate transformations such as nucleation and precipitation or retard kinetics when trapped in clusters, and their transient trapping and release can drive microstructural evolution across time and length scales. This Review synthesizes recent advances in generating, modeling, and characterizing vacancies, highlighting their role in diffusion, precipitation, and phase stability. Case studies in lightweight, high-temperature, fatigue-resistant, electrical, and biomedical materials demonstrate the broad potential of vacancy control. We conclude by emphasizing the opportunity for the metallurgical community to fully exploit excess vacancies as controllable, design-relevant defects that enable new pathways for microstructure and property optimization in next-generation alloys.",
-      "authors": [
-        "Sreenivas Raguraman",
-        "Homero Reyes Pulido",
-        "Christopher Hutchinson",
-        "Arun Devaraj",
-        "Marc H. Weber",
-        "Michael L. Falk",
-        "Timothy P. Weihs"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2025,
-      "date": "2025-11-24",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2511.20706v2",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties",
-        "fatigue"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "ductility"
-        ],
-        "fatigue": [
-          "fatigue life"
-        ]
-      },
-      "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文涉及金属与合金中的空位工程，对生物医学植入物或生物打印方向的直接参考价值有限。",
-        "why_not_core": "This paper does not address biomedical implant design, hip implant stress shielding, bioprinting, or FEA surrogate modeling; it is a general materials science review.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": true
-        },
-        "tags": [
-          "vacancy engineering",
-          "metals",
-          "alloys",
-          "review"
-        ],
-        "summary_zh": {
-          "motivation": "通过空位控制优化金属与合金的微观结构和性能",
-          "method": "综述空位产生、建模和表征的最新进展",
-          "result": "空位控制可改善强度、延展性、疲劳寿命等性能",
-          "validation": "无实验验证，为文献综述"
-        },
-        "summary_en": {
-          "motivation": "The intentional control of atomic vacancies in metals and alloys is emerging as a powerful strategy to tailor microstructures and optimize mechanical and functional properties.",
-          "method": "This review synthesizes recent advances in generating, modeling, and characterizing vacancies, covering approaches such as quenching, severe deformation, thermomechanical treatments, and additive manufacturing.",
-          "result": "Vacancy engineering enables unique combinations of strength, ductility, fatigue life, corrosion resistance, and conductivity across various applications.",
-          "validation": "The paper is a review of existing literature and does not present new experimental validation."
-        },
-        "key_terms": [
-          {
-            "en": "vacancy engineering",
-            "zh": "空位工程"
-          },
-          {
-            "en": "metals and alloys",
-            "zh": "金属与合金"
-          },
-          {
-            "en": "microstructure",
-            "zh": "微观结构"
-          },
-          {
-            "en": "quenching",
-            "zh": "淬火"
-          },
-          {
-            "en": "severe plastic deformation",
-            "zh": "剧烈塑性变形"
-          },
-          {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
-          },
-          {
-            "en": "diffusion",
-            "zh": "扩散"
-          },
-          {
-            "en": "precipitation",
-            "zh": "析出"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:15:55Z"
-    },
-    {
       "source": "openalex",
       "id": "https://openalex.org/W4416594944",
       "doi": "10.1038/s41598-025-25586-0",
@@ -158,21 +47,22 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "ti6al4v_postprocess_hip",
-      "direction_name": "Ti-6Al-4V Post-processing & HIP",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "ti6al4v_postprocess_hip": [
-          "Ti6Al4V"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "surface roughness"
         ]
       },
       "llm": {
-        "priority": "Medium",
+        "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文研究了Ti6Al4V植入物表面与骨之间的摩擦特性，但未涉及热等静压（HIP）等后处理工艺，对您的方向仅提供背景参考。",
-        "why_not_core": "This paper does not investigate any post-processing treatments or HIP; it focuses solely on as-printed SLM surface textures and their frictional behavior against bone.",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要研究骨-植入物界面的摩擦行为，而非Ti-6Al-4V的力学或疲劳性能。",
+        "why_not_core": "This paper does not characterize or model the mechanical/fatigue properties of additively manufactured Ti-6Al-4V; it focuses on interfacial friction with bone, which is outside the scope of L1.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -181,25 +71,23 @@
           "is_review": false
         },
         "tags": [
-          "additive manufacturing",
           "Ti6Al4V",
+          "friction",
+          "bone-implant interface",
           "SLM",
-          "bone-implant friction",
-          "cancellous bone",
-          "surface texture",
           "coefficient of friction"
         ],
         "summary_zh": {
-          "motivation": "骨-植入物界面的摩擦是初始稳定性的关键因素，但不同骨质量和表面纹理的组合数据有限。",
-          "method": "采用往复摩擦测试装置，测量三种骨密度和四种SLM Ti6Al4V表面纹理在不同正应力下的摩擦系数。",
-          "result": "摩擦系数范围为0.37-0.95，受表面粗糙度、骨密度和正应力的显著影响，但无交互作用。",
-          "validation": "通过人松质骨与SLM Ti6Al4V试样的机械摩擦实验进行验证。"
+          "motivation": "骨植入物界面摩擦对初始稳定性至关重要，但缺乏相关数据。",
+          "method": "测量不同骨密度和表面纹理的Ti6Al4V植入物在不同法向应力下的摩擦系数。",
+          "result": "摩擦系数范围0.37-0.95，受表面粗糙度、骨密度和法向应力显著影响。",
+          "validation": "通过往复摩擦试验验证。"
         },
         "summary_en": {
-          "motivation": "Friction at the bone-implant interface is critical for initial stability, yet data on combinations of bone quality and additively manufactured surface textures are scarce.",
-          "method": "A reciprocal friction test apparatus was used to measure interfacial COFs for three levels of human cancellous bone density and four SLM Ti6Al4V surface textures under three normal stress levels.",
-          "result": "COFs ranged from 0.37 to 0.95, significantly influenced by surface roughness (strong positive), bone density (moderate negative), and normal stress (strong negative), with no significant interaction effects.",
-          "validation": "Validation was performed via mechanical friction experiments using human cancellous bone and SLM-fabricated Ti6Al4V specimens."
+          "motivation": "Friction at bone-implant interface is crucial for initial stability but limited data exists.",
+          "method": "Measured interfacial COFs for combinations of bone qualities and SLM-produced Ti6Al4V surface textures under varying normal stresses.",
+          "result": "COFs ranged 0.37-0.95, significantly influenced by surface roughness, bone density, and normal stress.",
+          "validation": "Validated through reciprocal friction testing."
         },
         "key_terms": [
           {
@@ -207,38 +95,26 @@
             "zh": "摩擦系数"
           },
           {
-            "en": "bone mineral density",
-            "zh": "骨密度"
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
           },
           {
-            "en": "selective laser melting",
-            "zh": "选区激光熔化"
+            "en": "bone mineral density",
+            "zh": "骨密度"
           },
           {
             "en": "surface roughness",
             "zh": "表面粗糙度"
           },
           {
-            "en": "cancellous bone",
-            "zh": "松质骨"
-          },
-          {
             "en": "Ti6Al4V",
-            "zh": "Ti6Al4V"
-          },
-          {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
-          },
-          {
-            "en": "implant stability",
-            "zh": "植入物稳定性"
+            "zh": "钛6铝4钒"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:15:55Z"
+      "first_seen_at": "2026-06-07T23:19:10Z"
     },
     {
       "source": "openalex",
@@ -283,25 +159,23 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "elongation"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "Ti6Al4V"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "elongation",
+          "porosity"
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文研究LPBF工艺参数对力学性能的影响，但未涉及生物医学植入物或骨整合，与用户研究方向间接相关。",
-        "why_not_core": "No biomedical implant context, no osseointegration, no fatigue testing; focus is on generic LPBF process-property relations for non-implant alloys.",
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文建立了LPBF工艺参数与Ti-6Al-4V拉伸性能之间的预测模型，但未涉及疲劳性能。",
+        "why_not_core": "Paper focuses on tensile properties and porosity prediction, but does not address fatigue life, S-N curves, or any fatigue-related mechanical performance.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -311,22 +185,23 @@
         },
         "tags": [
           "LPBF",
+          "Ti-6Al-4V",
           "porosity",
+          "tensile properties",
           "GTN model",
-          "mechanical properties",
-          "stainless steel"
+          "stress-strain prediction"
         ],
         "summary_zh": {
-          "motivation": "通过孔隙率预测LPBF零件的力学性能。",
-          "method": "集成熔池物理模型和GTN损伤模型预测应力应变行为。",
-          "result": "模型对316L等合金的UTS和延伸率预测误差在3%-30%。",
-          "validation": "微CT和拉伸试验验证，并与文献数据对比。"
+          "motivation": "建立LPBF工艺参数与孔隙率及拉伸性能之间的定量关联",
+          "method": "集成多物理场熔池模型与GTN连续损伤力学模型预测应力-应变行为",
+          "result": "模型预测Ti-6Al-4V的孔隙率、UTS和延伸率与文献实验值吻合良好",
+          "validation": "通过不锈钢316L试样微CT与拉伸实验以及文献Ti-6Al-4V数据对比验证"
         },
         "summary_en": {
-          "motivation": "To predict the fracture strength and plasticity of LPBF parts by correlating process parameters with porosity-induced damage.",
-          "method": "An integrated multi-physics analytical model combining melt pool formation and lack-of-fusion mechanisms with the GTN continuum damage model.",
-          "result": "The hybrid model predicted ultimate tensile stress and elongation with relative root mean square errors between 3% and 30% for 316L, Ti6Al4V, Inconel 718, and AlSi10Mg.",
-          "validation": "Experimental validation using micro-CT porosity measurements and tensile tests on 316L samples, supplemented by literature data for other alloys."
+          "motivation": "To correlate laser powder bed fusion process parameters with porosity level and resulting tensile properties for additive manufactured metals.",
+          "method": "An integrated multi-physics analytical model coupling melt pool formation and lack-of-fusion mechanisms with the Gurson-Tvergaard-Needleman continuum damage model predicts stress-strain behavior from porosity.",
+          "result": "The model predicts ultimate tensile strength and elongation of Ti-6Al-4V with relative root mean square error between 3% and 20% when compared to literature experimental data.",
+          "validation": "Validation was performed using micro-CT and tensile tests on stainless steel 316L samples and comparisons with published experimental data for Ti-6Al-4V, Inconel 718, and AlSi10Mg."
         },
         "key_terms": [
           {
@@ -338,11 +213,23 @@
             "zh": "孔隙率"
           },
           {
-            "en": "Gurson–Tvergaard–Needleman model",
-            "zh": "Gurson–Tvergaard–Needleman模型"
+            "en": "Gurson-Tvergaard-Needleman model",
+            "zh": "Gurson-Tvergaard-Needleman模型"
           },
           {
-            "en": "ultimate tensile stress",
+            "en": "stress-strain behavior",
+            "zh": "应力-应变行为"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "tensile properties",
+            "zh": "拉伸性能"
+          },
+          {
+            "en": "ultimate tensile strength",
             "zh": "极限抗拉强度"
           },
           {
@@ -350,43 +237,36 @@
             "zh": "延伸率"
           },
           {
-            "en": "micro-CT",
-            "zh": "微CT"
-          },
-          {
             "en": "lack-of-fusion",
             "zh": "未熔合"
           },
           {
-            "en": "process parameters",
-            "zh": "工艺参数"
+            "en": "melt pool",
+            "zh": "熔池"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:15:55Z"
+      "first_seen_at": "2026-06-07T23:19:10Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 2,
     "by_source": {
-      "arxiv": 1,
       "openalex": 2
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "mechanical_properties": 2,
-      "ti6al4v_postprocess_hip": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "arxiv": 1,
       "openalex": 2
     },
-    "scored": 3,
+    "scored": 2,
     "priority_counts": {
-      "Low": 2,
+      "Exclude": 1,
       "Medium": 1
     }
   }

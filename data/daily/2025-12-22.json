@@ -4,45 +4,76 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2512.19548v2",
-      "doi": "",
-      "arxiv_id": "2512.19548v2",
-      "title": "Plastic Work Partitioning During Slip- and Twinning-Dominated Deformation in AZ31B Magnesium Alloy",
-      "abstract": "Plastic work partitioning was investigated in extruded AZ31B magnesium alloy under loading orientations promoting slip- or twinning-dominated deformation. Slip-dominated deformation exhibits stable plastic flow with approximately 50$\\%$ of plastic work dissipated as heat. In contrast, twinning-dominated deformation initially stores most plastic work, delaying dissipation and promoting rapid strain hardening and early strain localization. The distinct mechanical responses correlate with microstructural evolution, revealing deformation-mechanism-dependent energy storage behavior in HCP magnesium alloys.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7116769881",
+      "doi": "10.21062/mft.2025.083",
+      "title": "Characterization of microstructure and defects in the Ti-6Al-4V alloy produced by 3D printing SLM technology",
+      "abstract": "The Ti-6Al-4V alloy is widely used as a material for medical implants. In the future, it may be employed for 3D printing using the selective laser melting method. The advantages of 3D printing are for example production of complex shapes or ability to create customized implants. One of the disadvantages of this method is the deterioration of mechanical properties, particularly the ductility of the alloy, caused by high residual stress resulting from rapid cooling during printing. This article aims to characterize the microstructure and defects of the printed alloy and the impact of hot isostatic pressing. Optical microscopy, scanning electron microscopy, and micro-computed tomography were utilized for the study. It was found that the heat treatment has a significant effect on the pore size and microstructural transformation. These findings could lead to the optimization of the manufacturing process and improve the quality of implants made from this alloy.",
       "authors": [
-        "Michał Maj",
-        "Sandra Musiał",
-        "Marcin Nowak"
+        "Kateřina Caldová",
+        "Andrea Školáková",
+        "Jan Pinc",
+        "Dalibor Vojtěch"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Kateřina Caldová",
+          "affiliation": ""
+        }
+      ],
+      "venue": "MANUFACTURING TECHNOLOGY",
       "year": 2025,
       "date": "2025-12-22",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2512.19548v2",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.21062/mft.2025.083",
+      "cited_by_count": 1,
+      "concepts": [
+        "Microstructure",
+        "Alloy",
+        "Materials science",
+        "Ductility (Earth science)",
+        "Selective laser melting",
+        "3D printing",
+        "Characterization (materials science)",
+        "Metallurgy",
+        "Residual stress",
+        "Hot isostatic pressing",
+        "Scanning electron microscope",
+        "Process (computing)",
+        "Composite material",
+        "Fabrication",
+        "Three dimensional printing"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "strain hardening"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "ductility",
+          "residual stress"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "hot isostatic pressing",
+          "heat treatment"
         ]
       },
       "llm": {
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "论文研究镁合金的塑性功分配机制，未涉及增材制造或生物医学植入物，与用户方向相关性较弱。",
-        "why_not_core": "This paper does not cover additive manufacturing, biomedical implant context, or stress shielding analysis.",
-        "validation_kind": "mechanical_testing",
+        "relevance_to_user": "该论文研究了热等静压对SLM成型Ti-6Al-4V微观结构和缺陷的影响，但未涉及疲劳或力学性能，与用户关注的后处理改性力学性能方向关联较弱。",
+        "why_not_core": "No mechanical testing data (fatigue, tensile) is reported; only microstructure and defect characterization.",
+        "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -50,126 +81,135 @@
           "is_review": false
         },
         "tags": [
-          "plastic work partitioning",
-          "magnesium alloy",
-          "deformation mechanisms",
-          "slip",
-          "twinning"
+          "Ti-6Al-4V",
+          "selective laser melting",
+          "hot isostatic pressing",
+          "microstructure",
+          "defects",
+          "porosity",
+          "SEM",
+          "micro-CT"
         ],
         "summary_zh": {
-          "motivation": "研究镁合金在滑移和孪生主导变形下的塑性功分配差异。",
-          "method": "通过不同取向加载AZ31B镁合金，分离滑移和孪生主导的变形模式。",
-          "result": "滑移主导变形中约50%塑性功耗散为热，孪生主导变形初期储存大部分塑性功。",
-          "validation": "采用力学测试与显微组织表征验证变形机制与能量存储行为。"
+          "motivation": "研究热等静压对SLM成型Ti-6Al-4V合金微观结构和缺陷的影响。",
+          "method": "采用光学显微镜、扫描电镜和显微CT进行表征。",
+          "result": "热处理显著影响孔隙尺寸和微观组织转变。",
+          "validation": "通过实验观察和表征验证。"
         },
         "summary_en": {
-          "motivation": "To investigate the partitioning of plastic work between heat dissipation and stored energy in magnesium alloy under slip- and twinning-dominated deformation.",
-          "method": "Extruded AZ31B magnesium alloy was loaded along orientations favoring either slip or twinning to isolate deformation mechanisms.",
-          "result": "Slip-dominated deformation dissipates about 50% of plastic work as heat, while twinning-dominated deformation initially stores most plastic work, delaying dissipation.",
-          "validation": "Mechanical testing combined with microstructural characterization confirmed the mechanism-dependent energy storage behavior."
+          "motivation": "To characterize the microstructure and defects of SLM-printed Ti-6Al-4V and the impact of hot isostatic pressing.",
+          "method": "Optical microscopy, scanning electron microscopy, and micro-computed tomography were used.",
+          "result": "Heat treatment significantly affected pore size and microstructural transformation.",
+          "validation": "Experimental observation and characterization."
         },
         "key_terms": [
           {
-            "en": "plastic work partitioning",
-            "zh": "塑性功分配"
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
           },
           {
-            "en": "slip-dominated deformation",
-            "zh": "滑移主导变形"
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
           },
           {
-            "en": "twinning-dominated deformation",
-            "zh": "孪生主导变形"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "AZ31B magnesium alloy",
-            "zh": "AZ31B镁合金"
+            "en": "microstructure",
+            "zh": "微观结构"
           },
           {
-            "en": "strain hardening",
-            "zh": "应变硬化"
+            "en": "defects",
+            "zh": "缺陷"
           },
           {
-            "en": "strain localization",
-            "zh": "应变局部化"
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "SEM",
+            "zh": "扫描电镜"
+          },
+          {
+            "en": "micro-CT",
+            "zh": "显微CT"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:17:08Z"
+      "first_seen_at": "2026-06-07T23:21:34Z"
     },
     {
       "source": "openalex",
-      "id": "https://openalex.org/W7116654121",
-      "doi": "10.1002/app.70123",
-      "title": "Mechanical Characterization of Additively Manufactured Poly(3‐hydroxybutyrate‐co‐3‐hydroxyhexanoate) Biopolymer",
-      "abstract": "ABSTRACT Poly(3‐hydroxybutyrate‐co‐3‐hydroxyhexanoate) (PHBH) is a biodegradable polyester with strong potential for marine and packaging applications common for thermoplastic polymers, yet its performance after being additively manufactured remains largely unknown. This study investigates the mechanical, density, and hardness properties of PHBH processed with fused filament fabrication (FFF) compared with injection‐molded benchmarks, with a focus on process–property relationships and useful information for design applications. FFF‐printed samples were produced under varying nozzle temperature, print speed, and layer height following a full‐factorial experimental design, and tested for elastic modulus, ultimate tensile strength, elongation at break, density, and Shore D hardness. Five replications of 27 factor combinations were used for the printed samples, in addition to the injection‐molded samples, for a total of 792 data points from 312 individual samples. Crystallinity values for the raw material and molded and printed samples were evaluated and found to not vary significantly for any of the samples. Compared with injection‐molded parts, FFF parts exhibited lower strength and elongation but comparable or higher modulus under certain conditions. In particular, the differences in properties were 5%–17% (with the exception of elongation) instead of 40%–70% seen with many other FFF materials. The differences were attributed to shorter thermal holding times in the extruder, layer‐wise deposition, and reduced consolidation. The density and hardness were generally lower in the printed parts, reflecting interlayer voids and limited polymer chain diffusion. The results highlight parameter combinations that improve interlayer bonding while avoiding thermal degradation, providing a processing window for reliable FFF production of PHBH. These findings support the viability of PHBH in additive manufacturing, enabling on‐demand fabrication of biodegradable components for short‐lifecycle and marine‐degradable applications.",
+      "id": "https://openalex.org/W7116705458",
+      "doi": "10.24425/amm.2025.156285",
+      "title": "Process Optimization and Effect of Post-Processing on Mechanical Properties in the Production of Ti6Al4V Alloy by Laser Metal Deposition Method",
+      "abstract": "This study investigates the production and optimization of Ti6Al4V alloy, which is widely used in the aviation sector, by the laser metal deposition method. Despite the advantages of Ti6Al4V, such as high strength, low weight, and corrosion resistance, its production by laser metal deposition method is challenging due to the requirement of a controlled environment. The study examined the geometric structures and porosity values of the samples produced using 12 different process parameters. The number of experiments was reduced, and the most effective parameters were determined using the response surface method and ANOVA. The lower, middle, and upper regions of the test samples produced with optimum parameters were examined separately, and it was determined that the lower regions showed higher strength. It was observed that the Hot Isostatic Pressing and heat treatment applied to the produced samples reduced the strength values but significantly improved ductility and reduced the porosity. In addition, cryogenic heat treatment was applied to the Hot Isostatic Pressing-treated samples to further increase mechanical performance. This process facilitated the completion of martensitic transformation and led to finer and more homogeneous precipitation of carbides while decreasing the porosity ratio and increasing the elongation at break. This study aims to develop the potential of this advanced manufacturing technique in the aerospace sector by comprehensively addressing the effects of process optimization and post-processing in the production of Ti6Al4V by the laser metal deposition method.",
       "authors": [
-        "Lorenzo De Noni",
-        "Sara West",
-        "Hudson Legendre",
-        "Hung‐Jue Sue",
-        "Albert E. Patterson"
+        "A. Ari",
+        "T. Karagöz",
+        "A. Bayram"
       ],
-      "first_author_affiliation": "Materials Science and Engineering Texas A&amp;M University  College Station Texas USA",
+      "first_author_affiliation": "Ostim Technical University, Department o f Weapon Industry Technician, Vocational School of Higher Education, Ankara, Türki̇y",
       "corresponding_authors": [
         {
-          "name": "Albert E. Patterson",
-          "affiliation": "Department of Engineering Technology and Industrial Distribution Texas A&amp;M University  College Station Texas USA"
+          "name": "A. Ari",
+          "affiliation": "Ostim Technical University, Department o f Weapon Industry Technician, Vocational School of Higher Education, Ankara, Türki̇y"
         }
       ],
-      "venue": "Journal of Applied Polymer Science",
+      "venue": "Archives of Metallurgy and Materials",
       "year": 2025,
       "date": "2025-12-22",
       "date_precision": "day",
-      "url": "https://doi.org/10.1002/app.70123",
-      "cited_by_count": 1,
+      "url": "https://doi.org/10.24425/amm.2025.156285",
+      "cited_by_count": 0,
       "concepts": [
-        "Shore durometer",
         "Materials science",
-        "Fused filament fabrication",
-        "Ultimate tensile strength",
+        "Hot isostatic pressing",
+        "Titanium alloy",
+        "Metallurgy",
+        "Ductility (Earth science)",
+        "Deposition (geology)",
+        "Carbide",
+        "Porosity",
+        "Process optimization",
         "Composite material",
-        "Crystallinity",
-        "Elongation",
-        "Biopolymer",
-        "Thermoplastic",
-        "Polymer",
-        "Polyester",
-        "Characterization (materials science)",
-        "Fabrication",
-        "Nozzle",
-        "Modulus",
-        "Protein filament",
-        "Raw material",
-        "Elastic modulus",
-        "Young's modulus",
-        "Thermal",
-        "Fused deposition modeling",
-        "Material properties",
-        "Thermal stability"
+        "Titanium",
+        "Alloy",
+        "Gas dynamic cold spray",
+        "Tempering",
+        "Tool steel"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "tensile strength",
-          "ultimate tensile strength",
-          "elongation"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "elongation",
+          "ductility",
+          "porosity"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "hot isostatic pressing",
+          "heat treatment",
+          "post-processing"
         ]
       },
       "llm": {
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究增材制造聚合物的力学性能，与用户对AM力学性能的研究方向高度相关。",
-        "why_not_core": "This paper focuses on PHBH biopolymer only; it does not cover implant-grade metals, biomedical context, or osseointegration.",
+        "relevance_to_user": "该论文直接针对Ti6Al4V合金的激光金属沉积后处理（热等静压、热处理、深冷处理）对力学性能的影响，与L2方向高度相关。",
+        "why_not_core": "No fatigue testing data; mechanical evaluation is limited to tensile and ductility without microstructure-phase analysis.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -178,71 +218,212 @@
           "is_review": false
         },
         "tags": [
-          "FFF",
-          "PHBH",
+          "Ti-6Al-4V",
+          "laser metal deposition",
+          "post-processing",
+          "hot isostatic pressing",
+          "heat treatment",
+          "cryogenic treatment",
           "mechanical properties",
-          "tensile testing",
-          "process-property relationship"
+          "porosity"
         ],
         "summary_zh": {
-          "motivation": "研究FFF加工PHBH的力学性能以扩展其应用",
-          "method": "通过全因子实验设计测试不同工艺参数下的力学性能",
-          "result": "优化参数可改善层间结合，性能差异小于其他FFF材料",
-          "validation": "与注塑样件对比并进行复现测试"
+          "motivation": "优化激光金属沉积Ti6Al4V工艺并研究后处理对力学性能的影响。",
+          "method": "采用响应面法和方差分析优化参数，对样品进行热等静压、热处理和深冷处理。",
+          "result": "后处理降低了强度但提高了延展性，深冷处理进一步改善性能并降低孔隙率。",
+          "validation": "通过力学测试和孔隙率分析进行验证。"
         },
         "summary_en": {
-          "motivation": "To investigate the mechanical properties of PHBH processed by FFF for potential applications.",
-          "method": "Full-factorial experimental design varying nozzle temperature, print speed, and layer height, followed by tensile, density, and hardness tests.",
-          "result": "FFF parts showed lower strength but comparable modulus under certain conditions, with property differences of 5-17% except elongation.",
-          "validation": "Compared with injection-molded benchmarks and five replications per condition."
+          "motivation": "This paper aims to optimize the laser metal deposition process for Ti6Al4V and investigate the effect of various post-processing treatments on mechanical properties.",
+          "method": "Process parameters were optimized using response surface methodology and ANOVA, and as-built samples were subjected to hot isostatic pressing, heat treatment, and cryogenic treatment.",
+          "result": "Post-processing reduced strength but significantly improved ductility and reduced porosity, while cryogenic treatment further enhanced mechanical performance by promoting martensitic transformation and fine carbide precipitation.",
+          "validation": "Mechanical testing (tensile and elongation) and porosity analysis were used to validate the findings."
         },
         "key_terms": [
           {
-            "en": "PHBH",
-            "zh": "聚(3-羟基丁酸-co-3-羟基己酸酯)"
+            "en": "laser metal deposition",
+            "zh": "激光金属沉积"
           },
           {
-            "en": "FFF",
-            "zh": "熔融挤出成型"
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
           },
           {
-            "en": "mechanical characterization",
-            "zh": "力学性能表征"
+            "en": "heat treatment",
+            "zh": "热处理"
           },
           {
-            "en": "process parameters",
-            "zh": "工艺参数"
+            "en": "cryogenic treatment",
+            "zh": "深冷处理"
           },
           {
-            "en": "interlayer bonding",
-            "zh": "层间结合"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "response surface method",
+            "zh": "响应面法"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:17:08Z"
+      "first_seen_at": "2026-06-07T23:21:34Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7116672544",
+      "doi": "10.1007/s40684-025-00833-x",
+      "title": "A Novel Hybrid Lubri-Cooling Approach for Machining of Ti-6Al-4V Through Combination of Pulsated Minimal Quantity Lubrication and Dry Ice Media",
+      "abstract": "",
+      "authors": [
+        "M. Ajmal Khan",
+        "Bing Wang",
+        "Zhanqiang Liu",
+        "Aqib Mashood Khan",
+        "B. Mouli Prasanth",
+        "Aisheng Jiang"
+      ],
+      "first_author_affiliation": "Key Laboratory of High Efficiency and Clean Mechanical Manufacture of MOE/Shandong key Laboratory of High Performance Tools and System, Jinan, 250061, China",
+      "corresponding_authors": [
+        {
+          "name": "M. Ajmal Khan",
+          "affiliation": "Key Laboratory of High Efficiency and Clean Mechanical Manufacture of MOE/Shandong key Laboratory of High Performance Tools and System, Jinan, 250061, China"
+        }
+      ],
+      "venue": "International Journal of Precision Engineering and Manufacturing-Green Technology",
+      "year": 2025,
+      "date": "2025-12-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40684-025-00833-x",
+      "cited_by_count": 1,
+      "concepts": [
+        "Lubrication",
+        "Machining",
+        "Materials science",
+        "Machinability",
+        "Surface roughness",
+        "Tool wear",
+        "Lubricant",
+        "Surface finish",
+        "Metallurgy",
+        "Surface integrity",
+        "Titanium alloy",
+        "Composite material",
+        "Mechanical engineering",
+        "Thermal conductivity",
+        "Dry ice",
+        "Coolant",
+        "Water cooling",
+        "Cutting fluid"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文聚焦于Ti-6Al-4V的切削加工润滑冷却方法，而非增材制造后处理对疲劳或力学性能的影响，与用户方向不匹配。",
+        "why_not_core": "This paper studies a machining lubri-cooling technique, not the effect of post-processing on fatigue or mechanical performance of AM Ti-6Al-4V.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "machining",
+          "lubrication",
+          "cooling"
+        ],
+        "summary_zh": {
+          "motivation": "提高Ti-6Al-4V切削加工效率与环保性",
+          "method": "提出脉冲微量润滑与干冰组合的混合润滑冷却方法",
+          "result": "该方法改善了加工表面质量并降低了切削力",
+          "validation": "通过切削实验对比不同冷却条件"
+        },
+        "summary_en": {
+          "motivation": "To improve machining efficiency and environmental friendliness of Ti-6Al-4V.",
+          "method": "A hybrid lubri-cooling approach combining pulsated minimal quantity lubrication and dry ice media is proposed.",
+          "result": "The approach improves surface quality and reduces cutting forces.",
+          "validation": "Experimental comparison of different cooling conditions during machining."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "machining",
+            "zh": "机械加工"
+          },
+          {
+            "en": "minimal quantity lubrication",
+            "zh": "微量润滑"
+          },
+          {
+            "en": "dry ice",
+            "zh": "干冰"
+          },
+          {
+            "en": "surface integrity",
+            "zh": "表面完整性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:21:34Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "arxiv": 1,
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "mechanical_properties": 2
+      "ti6al4v_postprocess": 3
     },
     "routed_by_source": {
-      "arxiv": 1,
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
       "Low": 1,
-      "High": 1
+      "High": 1,
+      "Exclude": 1
     }
   }
 }

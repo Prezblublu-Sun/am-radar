@@ -1,0 +1,163 @@
+{
+  "schema_version": "v2",
+  "date": "2026-02-12",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7128743600",
+      "doi": "10.1111/ffe.70217",
+      "title": "An Integrated Experimental and Simulation Study on Residual Stress and Fatigue Life of TC4 Alloy Subjected to Cold Expansion and Reaming",
+      "abstract": "ABSTRACT Titanium alloys, notably TC4 (Ti‐6Al‐4V), are critical for aerospace structural components, yet fastener holes within them serve as stress concentration sites prone to fatigue crack initiation. Cold expansion strengthening is a prevalent technique to enhance fatigue life by introducing beneficial compressive residual stresses around these holes. This study systematically investigates the influence of two core process parameters—expansion amount and reaming depth—on the resultant residual stress field and fatigue life enhancement in TC4 alloy. A combined approach of experimental testing and finite element simulation using ABAQUS was employed. The results elucidate that increasing the expansion amount elevates both tangential and radial residual stresses, significantly improving fatigue life; however, excessive expansion induces material damage. Conversely, while reaming improves surface integrity, excessive reaming diminishes the compressive residual stress layer, thereby reducing the fatigue benefit. Optimal parameter combinations were identified for typical structures (A40 and A50), achieving a maximum fatigue life improvement of up to 30 times compared with untreated specimens. This research provides optimized process guidelines and a deeper understanding of the parameter interactions for cold expansion in critical aerospace applications.",
+      "authors": [
+        "Quansheng Hu",
+        "Guangping Zou",
+        "Zixin Zhuang",
+        "Jiajun Wang",
+        "Qichao Xue"
+      ],
+      "first_author_affiliation": "College of Aerospace and Civil Engineering Harbin Engineering University  Harbin China",
+      "corresponding_authors": [
+        {
+          "name": "Qichao Xue",
+          "affiliation": "College of Aerospace and Civil Engineering Harbin Engineering University  Harbin China"
+        }
+      ],
+      "venue": "Fatigue & Fracture of Engineering Materials & Structures",
+      "year": 2026,
+      "date": "2026-02-12",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1111/ffe.70217",
+      "cited_by_count": 0,
+      "concepts": [
+        "Fastener",
+        "Residual stress",
+        "Materials science",
+        "Aerospace",
+        "Finite element method",
+        "Structural engineering",
+        "Stress (linguistics)",
+        "Titanium alloy",
+        "Alloy",
+        "Fatigue limit",
+        "Stress field",
+        "Fatigue testing",
+        "Residual",
+        "Composite material",
+        "Stress concentration",
+        "Core (optical fiber)",
+        "Surface integrity",
+        "Process (computing)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "residual stress",
+          "fatigue",
+          "fatigue life",
+          "fatigue crack initiation"
+        ],
+        "ti6al4v_postprocess": [
+          "TC4",
+          "surface integrity"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "本文研究的是常规制造的TC4合金的冷挤压和铰孔工艺，而非增材制造Ti-6Al-4V的后处理，因此对AM后处理方向不直接相关。",
+        "why_not_core": "This paper studies cold expansion and reaming on conventionally manufactured TC4, not additively manufactured Ti-6Al-4V, so it does not address the AM-specific post-processing focus.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "cold expansion",
+          "reaming",
+          "residual stress",
+          "fatigue life",
+          "Ti-6Al-4V"
+        ],
+        "summary_zh": {
+          "motivation": "研究冷挤压和铰孔工艺参数对TC4合金孔结构疲劳寿命的影响，优化工艺参数。",
+          "method": "结合疲劳实验和ABAQUS有限元模拟，分析扩孔量和铰孔深度对残余应力场的影响。",
+          "result": "适当扩孔量可提升疲劳寿命30倍，但过量扩孔和铰孔会降低残余压应力层。",
+          "validation": "通过疲劳实验对比未处理试样，验证了模拟结果和工艺优化效果。"
+        },
+        "summary_en": {
+          "motivation": "To optimize cold expansion and reaming parameters for enhancing fatigue life of TC4 alloy fastener holes by understanding residual stress distributions.",
+          "method": "Combined experimental fatigue testing and finite element simulation in ABAQUS to study the effects of expansion amount and reaming depth on residual stress fields and fatigue life.",
+          "result": "Appropriate expansion amounts increased fatigue life up to 30 times, while excessive expansion or reaming diminished compressive residual stresses and reduced fatigue benefits.",
+          "validation": "Fatigue life measurements on treated specimens validated the simulation predictions and identified optimal parameter combinations."
+        },
+        "key_terms": [
+          {
+            "en": "cold expansion",
+            "zh": "冷挤压"
+          },
+          {
+            "en": "reaming",
+            "zh": "铰孔"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
+          },
+          {
+            "en": "TC4 alloy",
+            "zh": "TC4钛合金"
+          },
+          {
+            "en": "finite element simulation",
+            "zh": "有限元模拟"
+          },
+          {
+            "en": "process parameters",
+            "zh": "工艺参数"
+          },
+          {
+            "en": "fastener hole",
+            "zh": "紧固件孔"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:25:34Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

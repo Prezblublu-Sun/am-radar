@@ -4,45 +4,84 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2601.09690v1",
-      "doi": "",
-      "arxiv_id": "2601.09690v1",
-      "title": "Electronic structure and elasticity of the Ta-W solid solution",
-      "abstract": "The brittleness or ductility of metals has long been attributed to their elastic constants, with high Poisson ratio, or equivalently high Pugh ratio, favoring greater ductility. Growing evidence links ductility with their electronic structure. Consequently, it is desirable to understand how the electronic structure affects the elastic constants. Here, we examine the Ta-W binary alloy system, which evolves from ductile character at Ta-rich compositions to brittleness at high W. We show that a change in slope of the composition-dependent shear modulus near the equiatomic composition coincides with an abrupt change in the Fermi level density of states. We relate the behaviors of the elastic constants to the characters of occupied electronic orbitals close to the Fermi level. Finally, we consider additional alloy systems from groups V and VI and show that qualitatively similar behavior occurs more broadly.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7124147109",
+      "doi": "10.1016/j.jallcom.2026.186152",
+      "title": "Investigation of the microstructure-property behaviour of powder bed fusion Ti-6Al-4V parts after heat treatment via an integrated high-fidelity phase-field and crystal plasticity framework",
+      "abstract": "",
       "authors": [
-        "Kareem Abdelmaqsoud",
-        "John R. Kitchin",
-        "Michael Widom"
+        "Yuhui Tu",
+        "Jianxin Zhang",
+        "Yaoyi Geng",
+        "S.B. Leen",
+        "Noel M. Harrison"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "I-Form Advanced Manufacturing Research Centre, Ireland",
+      "corresponding_authors": [
+        {
+          "name": "Yuhui Tu",
+          "affiliation": "I-Form Advanced Manufacturing Research Centre, Ireland"
+        },
+        {
+          "name": "Yaoyi Geng",
+          "affiliation": "Mechanical Engineering, University of Galway, Ireland"
+        },
+        {
+          "name": "S.B. Leen",
+          "affiliation": "I-Form Advanced Manufacturing Research Centre, Ireland"
+        },
+        {
+          "name": "Noel M. Harrison",
+          "affiliation": "I-Form Advanced Manufacturing Research Centre, Ireland"
+        }
+      ],
+      "venue": "Journal of Alloys and Compounds",
       "year": 2026,
       "date": "2026-01-14",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2601.09690v1",
+      "url": "https://doi.org/10.1016/j.jallcom.2026.186152",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Electron backscatter diffraction",
+        "Lath",
+        "Plasticity",
+        "Annealing (glass)",
+        "Fusion",
+        "Finite element method",
+        "Ultimate tensile strength",
+        "Composite material",
+        "Thermal",
+        "Metallurgy",
+        "Tensile testing",
+        "Crystal plasticity",
+        "Work (physics)",
+        "Grain boundary",
+        "Yield (engineering)",
+        "Superalloy"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "ductility"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文研究Ta-W合金的电子结构与弹性常数关系，与增材制造机械性能方向无直接关联。",
-        "why_not_core": "This paper does not address additive manufacturing processes, mechanical anisotropy, or any experimental validation related to AM materials.",
-        "validation_kind": "theoretical",
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文通过数值模拟研究热处理对粉末床熔融Ti-6Al-4V合金微观结构和力学性能的影响，与用户关注的Ti-6Al-4V后处理控制方向直接相关，但缺乏实验验证。",
+        "why_not_core": "No experimental validation, no fatigue-specific analysis, purely computational study without experimental comparison.",
+        "validation_kind": "simulation_case",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
@@ -50,76 +89,198 @@
           "is_review": false
         },
         "tags": [
-          "tantalum-tungsten alloys",
-          "elastic constants",
-          "electronic structure",
-          "ductility",
-          "Pugh ratio"
+          "Ti-6Al-4V",
+          "heat treatment",
+          "phase-field",
+          "crystal plasticity",
+          "powder bed fusion",
+          "microstructure-property",
+          "integrated framework"
         ],
         "summary_zh": {
-          "motivation": "探究Ta-W合金脆性与弹性的电子结构起源",
-          "method": "通过第一性原理计算分析不同成分下弹性常数与费米能级态密度",
-          "result": "剪切模量斜率变化与费米面电子结构突变相关",
-          "validation": "基于DFT计算的理论验证"
+          "motivation": "研究热处理对粉末床熔融Ti-6Al-4V微观结构与性能的影响",
+          "method": "集成相场和晶体塑性模型进行高通量模拟",
+          "result": "预测了热处理后微观组织演变及力学性能变化",
+          "validation": "无实验验证，仅通过数值模拟"
         },
         "summary_en": {
-          "motivation": "To understand how electronic structure governs the ductile-to-brittle transition in Ta-W binary alloys.",
-          "method": "First-principles calculations were performed to compute elastic constants and electronic density of states across compositions.",
-          "result": "A slope change in shear modulus near equiatomic composition correlates with an abrupt change in Fermi-level density of states.",
-          "validation": "Theoretical validation through comparison of elastic constant trends and electronic orbital analysis."
+          "motivation": "To investigate the effect of heat treatment on microstructure and mechanical properties of powder bed fusion Ti-6Al-4V.",
+          "method": "An integrated high-fidelity phase-field and crystal plasticity framework is developed.",
+          "result": "The framework predicts microstructure evolution and property changes after heat treatment.",
+          "validation": "No experimental validation; only numerical simulations are performed."
         },
         "key_terms": [
           {
-            "en": "density of states",
-            "zh": "态密度"
+            "en": "powder bed fusion",
+            "zh": "粉末床熔融"
           },
           {
-            "en": "shear modulus",
-            "zh": "剪切模量"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "Poisson ratio",
-            "zh": "泊松比"
+            "en": "heat treatment",
+            "zh": "热处理"
           },
           {
-            "en": "Pugh ratio",
-            "zh": "Pugh比例"
+            "en": "phase-field",
+            "zh": "相场"
           },
           {
-            "en": "Fermi level",
-            "zh": "费米能级"
+            "en": "crystal plasticity",
+            "zh": "晶体塑性"
           },
           {
-            "en": "elastic constants",
-            "zh": "弹性常数"
+            "en": "microstructure",
+            "zh": "微观组织"
           },
           {
-            "en": "ductility",
-            "zh": "延展性"
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "high-fidelity simulation",
+            "zh": "高保真模拟"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:18:22Z"
+      "first_seen_at": "2026-06-07T23:23:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7124131438",
+      "doi": "10.3390/ma19020337",
+      "title": "Effect of Ultrasonic Frequency Pulse Current on the Microstructure and Mechanical Properties of Ti6Al4V TIG Welded Joints",
+      "abstract": "To enhance the performance of Ti6Al4V titanium alloy joints, ultrasonic frequency pulsed TIG welding was employed. The microstructure and mechanical properties of the joints were systematically investigated. Results show that the weld microstructure is predominantly composed of acicular α phase, lath α phase, and a minor amount of β phase. Compared with conventional TIG welding, the application of ultrasonic frequency pulse current effectively refined the grains, achieving an average grain size of 0.54 μm. Concurrently, the proportion of high-angle grain boundaries increased from 96.1% to 97.6%. The average hardness of the fusion zone exceeded that of the base metal and was significantly increased by the ultrasonic frequency pulse current, reaching 350 HV compared to 330 HV for conventional welds. Furthermore, the ultrasonic frequency pulsed TIG joints exhibited higher yield strength and elongation than their conventional welds. These findings demonstrate that introducing ultrasonic frequency current during TIG welding effectively improves the properties of Ti6Al4V welded joints.",
+      "authors": [
+        "Wanghui Xu",
+        "Xiaoyu Cai",
+        "Yu Li",
+        "Jing Wei",
+        "Chunlin Dong",
+        "Li Liu",
+        "Huan He"
+      ],
+      "first_author_affiliation": "School of Intelligent Manufacturing, Guangzhou Maritime University, Guangzhou 510725, China",
+      "corresponding_authors": [
+        {
+          "name": "Wanghui Xu",
+          "affiliation": "School of Intelligent Manufacturing, Guangzhou Maritime University, Guangzhou 510725, China"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2026,
+      "date": "2026-01-14",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma19020337",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Gas tungsten arc welding",
+        "Welding",
+        "Ultrasonic sensor",
+        "Titanium alloy",
+        "Composite material",
+        "Metallurgy",
+        "Acicular",
+        "Grain size",
+        "Grain boundary",
+        "Ultrasonic welding",
+        "Alloy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "yield strength",
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是Ti6Al4V的TIG焊接工艺，而非增材制造，与方向要求无关。",
+        "why_not_core": "The paper investigates TIG welding of Ti6Al4V, not additive manufacturing processes such as LPBF/SLM/EBM/DED, which is the core requirement for this direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "TIG welding",
+          "Ti6Al4V",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "提升Ti6Al4V焊接接头性能",
+          "method": "采用超声频率脉冲TIG焊接",
+          "result": "晶粒细化，强度与硬度提升",
+          "validation": "显微组织与力学性能表征"
+        },
+        "summary_en": {
+          "motivation": "To improve the mechanical properties of Ti6Al4V welded joints.",
+          "method": "Ultrasonic frequency pulsed TIG welding was applied to join Ti6Al4V.",
+          "result": "Grain refinement and increased strength and hardness were achieved.",
+          "validation": "Microstructural analysis and mechanical testing (tensile, hardness) were performed."
+        },
+        "key_terms": [
+          {
+            "en": "TIG welding",
+            "zh": "TIG焊"
+          },
+          {
+            "en": "ultrasonic frequency pulse current",
+            "zh": "超声频率脉冲电流"
+          },
+          {
+            "en": "grain refinement",
+            "zh": "晶粒细化"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:23:51Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "arxiv": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Low": 1
+      "Medium": 1,
+      "Exclude": 1
     }
   }
 }

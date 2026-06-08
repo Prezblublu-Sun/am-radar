@@ -53,25 +53,24 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "fatigue",
-      "direction_name": "AM Fatigue",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "fatigue": [
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue",
           "fatigue life"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "Ti-6Al-4V"
         ]
       },
       "llm": {
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接针对增材制造Ti-6Al-4V合金的疲劳寿命预测，与您的AM疲劳研究方向高度相关。",
-        "why_not_core": "This paper focuses on fatigue life prediction using deep learning, but does not address implant design, stress shielding, or osseointegration.",
+        "relevance_to_user": "该论文直接针对增材制造Ti-6Al-4V合金的疲劳寿命预测，符合L1层关于机械性能和疲劳建模的要求。",
+        "why_not_core": "The paper does not present new experimental characterization or process-property relationships; it focuses on a data-driven prediction model. However, this is still within scope for L1 computational work.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -80,50 +79,62 @@
           "is_review": false
         },
         "tags": [
-          "AM",
-          "Fatigue",
-          "CNN",
-          "Multi-modal",
-          "Ti-6Al-4V"
+          "Ti-6Al-4V",
+          "fatigue life prediction",
+          "deep learning",
+          "multi-modal data fusion",
+          "additive manufacturing"
         ],
         "summary_zh": {
-          "motivation": "利用3D CNN融合多模态数据预测增材制造钛合金疲劳寿命",
-          "method": "构建3D卷积神经网络整合多种数据模态进行疲劳寿命预测",
-          "result": "实现了高精度疲劳寿命预测",
-          "validation": "通过增材制造Ti-6Al-4V疲劳实验验证"
+          "motivation": "提高增材制造Ti-6Al-4V合金的疲劳寿命预测精度。",
+          "method": "采用3D卷积神经网络融合多模态数据进行疲劳寿命预测。",
+          "result": "模型预测精度显著提升，优于传统方法。",
+          "validation": "通过实验疲劳数据验证预测准确性。"
         },
         "summary_en": {
-          "motivation": "To improve fatigue life prediction for additively manufactured Ti-6Al-4V using multi-modal data fusion.",
-          "method": "A 3D convolutional neural network integrates multiple data modalities for fatigue life prediction.",
-          "result": "The model achieves high accuracy in fatigue life prediction.",
-          "validation": "Validated with fatigue experiments on additively manufactured Ti-6Al-4V alloy."
+          "motivation": "To enhance the accuracy of fatigue life prediction for additively manufactured Ti-6Al-4V alloy.",
+          "method": "A 3D convolutional neural network is employed to fuse multi-modal data for fatigue life prediction.",
+          "result": "The proposed model achieves significantly improved prediction accuracy compared to conventional methods.",
+          "validation": "The model is validated using experimental fatigue test data from additively manufactured Ti-6Al-4V specimens."
         },
         "key_terms": [
           {
-            "en": "3D convolutional neural network",
-            "zh": "三维卷积神经网络"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
             "en": "fatigue life prediction",
             "zh": "疲劳寿命预测"
           },
           {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "en": "3D convolutional neural network",
+            "zh": "三维卷积神经网络"
           },
           {
             "en": "multi-modal data fusion",
             "zh": "多模态数据融合"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "deep learning",
+            "zh": "深度学习"
+          },
+          {
+            "en": "mechanical testing",
+            "zh": "力学测试"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:20:36Z"
+      "first_seen_at": "2026-06-07T23:28:07Z"
     }
   ],
   "counts": {
@@ -134,7 +145,7 @@
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
       "openalex": 1

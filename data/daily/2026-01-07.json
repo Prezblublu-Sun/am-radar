@@ -4,45 +4,82 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2601.04044v1",
-      "doi": "",
-      "arxiv_id": "2601.04044v1",
-      "title": "Robust chirality memory in carbon nanotubes growing under modulated and evolving environments",
-      "abstract": "Controlling the chirality and yield of carbon nanotubes is essential for their diverse applications from macroscopic composites to nanoelectronics. Floating-catalyst chemical vapor deposition is widely employed as a scalable synthesis route, where catalysts inevitably traverse spatially varying environments. However, prevailing interpretations of nanotube growth largely rely on ensemble monitoring or static, post-growth snapshots. Here, we combine digital isotope labeling with programmed temperature modulation to reconstruct the dynamic growth histories of supported individual nanotubes. Growth rates exhibit hysteresis and extraordinary sensitivity to temperature changes, indicating irreversible catalyst coarsening; nevertheless, the nanotube chirality remains robustly preserved across lengths exceeding 300 um. This sharp contrast between kinetic adaptability and structural memory in nanotube growth indicates that chirality control can be established at the nucleation stage, while allowing independent optimization of subsequent elongation. Our findings further call for a re-examination of static interpretations of diameter-determination mechanisms derived from post-growth snapshots.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7119523489",
+      "doi": "10.1051/epjconf/202634501060/pdf",
+      "title": "Effect of heat treatment on the microhardness of Ti-6Al-4V alloy fabricated by laser powder bed fusion and its prediction using machine learning",
+      "abstract": "Laser Powder Bed Fusion process of Additive manufacturing has evolved as a game-changing technology for creating highly sophisticated components for automotive, aerospace and medical applications. The impact as well as contribution of LPBF parameters, such as laser power as a source of energy, exposure time and hatch space in developing microhardness for Ti-6Al-4V alloy is explored using a Taguchi-based design of experiments. By employing an orthogonal array, the number of required experimental runs were reduced to nine by ensuring efficient parameter optimization. This study examines the post-processing effect of heat treatment on microhardness of Ti6Al4V alloy specimen, measured using Vickers hardness testing machine. Results obtained have demonstrated a notable hardness improvement after annealing which attributed to microstructural homogenization, reduced porosity and defect mitigation. Among the heat- treated samples, laser power emerged as the most influential parameter, with sample 4S (350 W laser power, 40 µs exposure time, 0.09 mm hatch spacing) achieving the highest microhardness of 543 HV, representing a 20.9% increase over as-built conditions. In the second phase, machine learning algorithms were implemented to develop predictive models of microhardness. The highest accuracy achieved by Random Forest with R2=0.91 and Cat boost with R2= 0.93 for as build and heat-treated samples respectively. Significant insights into process optimisation and property prediction of Ti-6Al-4V produced using LPBF are offered by this integrated experimental - computational approach.",
       "authors": [
-        "K. Otsuka",
-        "R. Fujiwara",
-        "S. Maruyama"
+        "Jateen Shirodkar",
+        "Shruti Maheshwari",
+        "Vijaykumar Jatti",
+        "Vikas Gulia"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Jateen Shirodkar",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Springer Link (Chiba Institute of Technology)",
       "year": 2026,
       "date": "2026-01-07",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2601.04044v1",
+      "url": "https://doi.org/10.1051/epjconf/202634501060/pdf",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Indentation hardness",
+        "Materials science",
+        "Fusion",
+        "Laser power scaling",
+        "Alloy",
+        "Porosity",
+        "Vickers hardness test",
+        "Laser",
+        "Machine learning",
+        "Metallurgy",
+        "Titanium alloy",
+        "Annealing (glass)",
+        "Artificial intelligence",
+        "Power (physics)",
+        "Composite material",
+        "Aerospace",
+        "Microstructure",
+        "Process (computing)"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_postprocess",
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "elongation"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti6Al4V",
+          "Ti 6Al 4V",
+          "heat treatment",
+          "annealing",
+          "post-processing"
+        ],
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti6Al4V",
+          "Ti 6Al 4V",
+          "porosity",
+          "defect"
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究碳纳米管的手性记忆效应，与用户的研究方向（生物打印、髋关节植入物、FEA代理模型、增材制造生物医学）完全无关。",
-        "why_not_core": "The paper does not address any biomedical implant, bioprinting, or biomechanics modeling; it does not involve FEA or surrogate methods.",
-        "validation_kind": "none",
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了热处理对激光粉末床熔融Ti-6Al-4V合金显微硬度的影响，并利用机器学习进行预测，与后处理调控方向直接相关。",
+        "why_not_core": "Paper only reports microhardness, not fatigue life or tensile strength, which are the primary mechanical performance metrics of interest.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -50,70 +87,213 @@
           "is_review": false
         },
         "tags": [
-          "carbon nanotubes",
-          "chirality",
-          "CVD",
-          "temperature modulation"
+          "heat treatment",
+          "microhardness",
+          "LPBF",
+          "Ti-6Al-4V",
+          "machine learning",
+          "Taguchi"
         ],
         "summary_zh": {
-          "motivation": "控制碳纳米管的手性和产率对应用至关重要。",
-          "method": "结合数字同位素标记与程序化温度调控，重建单根纳米管生长历程。",
-          "result": "生长速率对温度敏感且不可逆，但手性在超过300微米长度内稳定保持。",
-          "validation": "通过同位素标记和温度调制实验验证。"
+          "motivation": "探究热处理对激光粉末床熔融Ti-6Al-4V合金显微硬度的影响及其预测方法。",
+          "method": "采用田口设计法优化参数，结合随机森林和CatBoost算法构建硬度预测模型。",
+          "result": "退火后最高显微硬度达543 HV，较沉积态提高20.9%，CatBoost预测准确度最高（R²=0.93）。",
+          "validation": "通过维氏硬度测试验证实验硬度值，并用R²评价模型精度。"
         },
         "summary_en": {
-          "motivation": "Controlling chirality and yield of carbon nanotubes is critical for applications from composites to nanoelectronics.",
-          "method": "Combined digital isotope labeling with programmed temperature modulation to reconstruct dynamic growth histories of individual nanotubes.",
-          "result": "Growth rates show hysteresis and sensitivity to temperature, but chirality is preserved over lengths exceeding 300 μm.",
-          "validation": "Experimental validation using isotope labeling and temperature modulation."
+          "motivation": "To investigate the effect of heat treatment on microhardness of Ti-6Al-4V produced by LPBF and to develop predictive models using machine learning.",
+          "method": "Taguchi orthogonal array was used to reduce experimental runs, and Random Forest and CatBoost algorithms were applied to predict microhardness.",
+          "result": "Annealing achieved a maximum microhardness of 543 HV, a 20.9% increase over as-built condition, with CatBoost yielding the highest prediction accuracy (R²=0.93).",
+          "validation": "Experimental validation was performed by Vickers microhardness testing, and model accuracy was assessed using R² scores."
         },
         "key_terms": [
           {
-            "en": "carbon nanotube",
-            "zh": "碳纳米管"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "chirality",
-            "zh": "手性"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
-            "en": "floating-catalyst chemical vapor deposition",
-            "zh": "浮动催化剂化学气相沉积"
+            "en": "microhardness",
+            "zh": "显微硬度"
           },
           {
-            "en": "digital isotope labeling",
-            "zh": "数字同位素标记"
+            "en": "heat treatment",
+            "zh": "热处理"
           },
           {
-            "en": "temperature modulation",
-            "zh": "温度调控"
+            "en": "annealing",
+            "zh": "退火"
           },
           {
-            "en": "growth hysteresis",
-            "zh": "生长迟滞"
+            "en": "Taguchi method",
+            "zh": "田口法"
+          },
+          {
+            "en": "Random Forest",
+            "zh": "随机森林"
+          },
+          {
+            "en": "CatBoost",
+            "zh": "CatBoost"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          },
+          {
+            "en": "prediction model",
+            "zh": "预测模型"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:18:22Z"
+      "first_seen_at": "2026-06-07T23:23:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7118889618",
+      "doi": "10.3389/fbioe.2025.1681077",
+      "title": "Effect of rear impact on the instrumented cervical spine: a finite element study",
+      "abstract": "Introduction: Degenerative cervical myelopathy (DCM) is a leading cause of spinal cord dysfunction and often requires surgical decompression and instrumentation. Anterior cervical discectomy and fusion (ACDF) is the most commonly performed procedure, but the biomechanical response of instrumented cervical spines under rear-impact loading remains unclear. Methods: A validated finite element model of the head-neck complex with active musculature, spinal cord, and three instrumented constructs was used to simulate a low-speed rear impact corresponding to a 2.6 m/s change in velocity. The following surgical conditions were modeled at C4-C7: ACDF, posterior cervical laminectomy and fusion (PCLF), and laminoplasty (LP). Spinal cord stress and strain, ligament strain (including anterior longitudinal and capsular ligaments), and implant stress were evaluated at the index, superior, and inferior segments. Results: Compared to ACDF, both PCLF and LP reduced spinal cord stress and strain at the index level, with PCLF showing the greatest reduction. LP preserved motion but increased facet capsular ligament strain at the index and adjacent levels. Anterior longitudinal ligament strains remained below 36%, within the reported 40-45% failure range, while PCLF screws exceeded the 900 MPa yield strength of Ti-6Al-4V at all levels except C4, indicating a reduced hardware safety margin. ACDF and LP implants remained within safe stress limits. Conclusion: Under rear-impact loading, PCLF reduced spinal cord stress and strain relative to ACDF but increased hardware stresses, whereas LP preserved motion at the cost of higher facet capsular ligament strain. These findings suggest that PCLF may be preferred when minimizing spinal cord loading is a priority, while LP may be selected when motion preservation is critical, with awareness of construct-specific trade-offs in ligament and implant loading.",
+      "authors": [
+        "Balaji Harinathan",
+        "Davidson Jebaseelan",
+        "Narayan Yoganandan"
+      ],
+      "first_author_affiliation": "Department of Neurosurgery, Medical College of Wisconsin, Milwaukee, WI, United States",
+      "corresponding_authors": [
+        {
+          "name": "Davidson Jebaseelan",
+          "affiliation": "School of Mechanical Engineering, Vellore Institute of Technology, Chennai, India"
+        }
+      ],
+      "venue": "Frontiers in Bioengineering and Biotechnology",
+      "year": 2026,
+      "date": "2026-01-07",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3389/fbioe.2025.1681077",
+      "cited_by_count": 0,
+      "concepts": [
+        "Finite element method",
+        "Facet (psychology)",
+        "Ligament",
+        "Structural engineering",
+        "Strain (injury)",
+        "Materials science",
+        "Spinal cord",
+        "Stress (linguistics)",
+        "Cervical vertebrae",
+        "Biomechanics",
+        "Motion (physics)",
+        "Implant",
+        "Cervical spine",
+        "LS-DYNA",
+        "Biomedical engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "yield strength"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文关注颈椎植入物在后碰撞下的生物力学响应，而非增材制造钛合金的力学性能或疲劳特性。",
+        "why_not_core": "Paper does not involve additive manufacturing of Ti-6Al-4V, nor does it characterize its mechanical or fatigue performance; it is a biomechanical finite element study of cervical spine instrumentation under impact.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "finite element analysis",
+          "cervical spine",
+          "ACDF",
+          "PCLF",
+          "laminoplasty",
+          "rear impact"
+        ],
+        "summary_zh": {
+          "motivation": "研究颈椎术后在后碰撞载荷下的生物力学响应。",
+          "method": "使用已验证的头颈部有限元模型模拟三种手术方式的后碰撞。",
+          "result": "后路椎板切除融合术（PCLF）降低脊髓应力但增加植入物应力，而椎板成形术（LP）保留运动但增加韧带应变。",
+          "validation": "基于已有文献验证的有限元模型进行仿真。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the biomechanical response of instrumented cervical spines under rear-impact loading after different surgical procedures.",
+          "method": "A validated finite element model of the head-neck complex with active musculature and spinal cord was used to simulate low-speed rear impact for three surgical constructs: ACDF, PCLF, and laminoplasty.",
+          "result": "PCLF reduced spinal cord stress but increased implant stress beyond Ti-6Al-4V yield strength, while laminoplasty preserved motion at the cost of higher facet capsular ligament strain.",
+          "validation": "The finite element model was validated against published experimental data for spinal kinematics and tissue properties."
+        },
+        "key_terms": [
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "cervical spine",
+            "zh": "颈椎"
+          },
+          {
+            "en": "anterior cervical discectomy and fusion",
+            "zh": "前路颈椎间盘切除融合术"
+          },
+          {
+            "en": "posterior cervical laminectomy and fusion",
+            "zh": "后路颈椎椎板切除融合术"
+          },
+          {
+            "en": "laminoplasty",
+            "zh": "椎板成形术"
+          },
+          {
+            "en": "rear impact",
+            "zh": "后碰撞"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:23:51Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "arxiv": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
+      "Medium": 1,
       "Exclude": 1
     }
   }

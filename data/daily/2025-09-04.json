@@ -1,0 +1,266 @@
+{
+  "schema_version": "v2",
+  "date": "2025-09-04",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413989984",
+      "doi": "10.3390/ma18174150",
+      "title": "Hydrojet Surface Treatment of Ti-6Al-4V Titanium Produced by Additive Manufacturing",
+      "abstract": "The aim of this study was to analyze the effect of finishing methods on the surface quality of Ti-6Al-4V titanium alloy additively manufactured by selective laser melting. It was observed that among the finishing methods, water jet treatment did not produce significant changes, while the abrasive water jet proved effective in removing defects and smoothing the surface, especially at a pressure of 30 MPa. However, the risk of abrasive particle entrapment in the material was observed. Promising results were also obtained using the water-ice jet, which combines effective material removal with surface smoothing. The selection of the finishing method should be tailored to the application requirements. Further research will focus on optimization and the combination of techniques to improve the functional properties of titanium components.",
+      "authors": [
+        "Monika Szada-Borzyszkowska",
+        "Dorota Laskowska",
+        "Błażej Bałasz",
+        "Wiesław Szada-Borzyszkowski"
+      ],
+      "first_author_affiliation": "Faculty of Mechanical Engineering and Energy, Koszalin University of Technology, Śniadeckich 2, 75-620 Koszalin, Poland",
+      "corresponding_authors": [
+        {
+          "name": "Monika Szada-Borzyszkowska",
+          "affiliation": "Faculty of Mechanical Engineering and Energy, Koszalin University of Technology, Śniadeckich 2, 75-620 Koszalin, Poland"
+        },
+        {
+          "name": "Dorota Laskowska",
+          "affiliation": "Faculty of Mechanical Engineering and Energy, Koszalin University of Technology, Śniadeckich 2, 75-620 Koszalin, Poland"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-09-04",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18174150",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Titanium",
+        "Titanium alloy",
+        "Metallurgy",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及增材制造Ti-6Al-4V的后处理，但未提供机械性能数据，仅关注表面质量。",
+        "why_not_core": "No experimental fatigue or tensile data reported; only surface quality observations without linking to mechanical performance.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "water jet",
+          "surface treatment",
+          "Ti-6Al-4V",
+          "selective laser melting",
+          "additive manufacturing"
+        ],
+        "summary_zh": {
+          "motivation": "研究水力喷射表面处理对增材制造Ti-6Al-4V表面质量的影响",
+          "method": "采用水射流、磨料水射流和水冰射流进行表面处理",
+          "result": "磨料水射流可有效去除缺陷并光滑表面，但存在磨料颗粒嵌入风险",
+          "validation": "仅表面质量观察，无机械性能测试"
+        },
+        "summary_en": {
+          "motivation": "To analyze the effect of finishing methods on surface quality of additively manufactured Ti-6Al-4V.",
+          "method": "Water jet, abrasive water jet, and water-ice jet treatments were applied.",
+          "result": "Abrasive water jet effectively removed defects and smoothed the surface, but risked abrasive particle entrapment.",
+          "validation": "Only surface quality observations, no mechanical testing."
+        },
+        "key_terms": [
+          {
+            "en": "water jet",
+            "zh": "水射流"
+          },
+          {
+            "en": "abrasive water jet",
+            "zh": "磨料水射流"
+          },
+          {
+            "en": "water-ice jet",
+            "zh": "水冰射流"
+          },
+          {
+            "en": "surface treatment",
+            "zh": "表面处理"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:15:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413985616",
+      "doi": "10.1007/s11665-025-12020-9",
+      "title": "Experimental and Numerical Study of Heat Source Modeling for Keyhole Formation in Ti-6Al-4V Single Pass Laser Treatment",
+      "abstract": "Abstract This study analyses the impact of laser surface treatment on Ti-6Al-4V titanium alloy using an air-cooled ytterbium fiber laser system. The alloy’s microstructure, consisting of α and β phases, was processed at different laser powers (80 W, 90 W, 100 W) while maintaining a constant scanning speed. Through microscopic analysis, hardness testing and phase evolution observations, the results revealed notable microstructural changes, particularly the formation of a martensitic Ti-oxide layer. Numerical simulations were conducted using the SFTC DEFORM-3D™ software, which modelled the laser heat source and thermal behaviour, along with a custom subroutine for predicting hardness and phase transformations. The study specifically examined molten pool geometry, Ti-oxide layer thickness and the hardness distribution on the treated surface. Several heat source models were tested, with the Gaussian polynomial curve model providing the most accurate results for simulating keyhole formation, phase transitions and hardness variations. The findings revealed that increasing laser power significantly affected the thermal and mechanical properties of the material, providing crucial insights for selecting the most appropriate thermal heat source model and optimizing laser surface treatment parameters for enhanced performance. Furthermore, the research proposes a new approach for modelling the heat source based on process temperature, as opposed to traditional geometric heat flux models. This study contributes to the broader field of laser-based manufacturing by advancing numerical modelling techniques aimed at improving the mechanical properties and functional behaviour of Ti-6Al-4V components.",
+      "authors": [
+        "Serafino Caruso",
+        "Maria Rosaria Saffioti"
+      ],
+      "first_author_affiliation": "Department of Mechanical, Energy and Management Engineering, University of Calabria, Via Ponte Pietro Bucci, Cubo 45C, 87036, Rende, CS, Italy",
+      "corresponding_authors": [
+        {
+          "name": "Serafino Caruso",
+          "affiliation": "Department of Mechanical, Energy and Management Engineering, University of Calabria, Via Ponte Pietro Bucci, Cubo 45C, 87036, Rende, CS, Italy"
+        }
+      ],
+      "venue": "Journal of Materials Engineering and Performance",
+      "year": 2025,
+      "date": "2025-09-04",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s11665-025-12020-9",
+      "cited_by_count": 1,
+      "concepts": [
+        "Keyhole",
+        "Materials science",
+        "Laser",
+        "Metallurgy",
+        "Mechanics"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "layer thickness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究Ti-6Al-4V的激光表面处理（后处理）对微观结构和硬度的影响，属于后处理控制方向，但未直接涉及疲劳性能。",
+        "why_not_core": "This paper does not focus on fatigue performance or tensile properties, which are core for post-processing control; it primarily addresses heat source modeling and microstructure/hardness changes.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser surface treatment",
+          "Ti-6Al-4V",
+          "heat source modeling",
+          "keyhole formation",
+          "hardness",
+          "microstructure",
+          "DEFORM-3D"
+        ],
+        "summary_zh": {
+          "motivation": "研究激光表面处理对Ti-6Al-4V合金微观结构和硬度的影响。",
+          "method": "实验结合DEFORM-3D数值模拟，比较不同热源模型。",
+          "result": "高斯多项式曲线模型最准确，激光功率显著影响性能。",
+          "validation": "通过显微分析和硬度测试验证模拟结果。"
+        },
+        "summary_en": {
+          "motivation": "This study investigates the effect of laser surface treatment on the microstructure and hardness of Ti-6Al-4V alloy.",
+          "method": "Experimental tests were combined with DEFORM-3D numerical simulations to compare different heat source models for keyhole formation.",
+          "result": "The Gaussian polynomial curve model provided the most accurate predictions, and increasing laser power significantly altered thermal and mechanical properties.",
+          "validation": "Experimental validation included microscopic analysis and hardness testing to confirm simulation accuracy."
+        },
+        "key_terms": [
+          {
+            "en": "laser surface treatment",
+            "zh": "激光表面处理"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "heat source modeling",
+            "zh": "热源建模"
+          },
+          {
+            "en": "keyhole formation",
+            "zh": "匙孔形成"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          },
+          {
+            "en": "DEFORM-3D",
+            "zh": "DEFORM-3D"
+          },
+          {
+            "en": "Gaussian polynomial curve",
+            "zh": "高斯多项式曲线"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:15:36Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 2,
+    "by_source": {
+      "openalex": 2
+    },
+    "after_dedup": 2,
+    "after_routing": 2,
+    "by_direction": {
+      "ti6al4v_postprocess": 2
+    },
+    "routed_by_source": {
+      "openalex": 2
+    },
+    "scored": 2,
+    "priority_counts": {
+      "Low": 1,
+      "Medium": 1
+    }
+  }
+}

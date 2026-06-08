@@ -1,0 +1,172 @@
+{
+  "schema_version": "v2",
+  "date": "2025-10-12",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415097521",
+      "doi": "10.1080/17452759.2025.2569541",
+      "title": "Deep learning driven prediction method for roughness and hardness of laser in-situ forging additive manufacturing Ti-6Al-4V",
+      "abstract": "Laser powder bed fusion suffers from surface quality, thermal stress, defects, and poor fatigue performance in Ti-6Al-4V components due to unstable melting/solidification. Based on this, this research proposes laser in situ forging additive manufacturing (LIF-AM). By using an ultrafast laser to impact the molten layer in situ, the performance of additive manufacturing components can be improved. Addressing complex parameters and unclear mechanisms, this research constructs a deep learning model based on a CNN (Convolutional Neural Network)-Transformer to predict the surface roughness and hardness of LIF-AM components. The CNN’s dynamic sliding kernels extract local interactions, while the Transformer’s self-attention captures global dependencies. This resolves the nonlinear coupling and long-range correlation challenges in high-dimensional parameter space. In the experimental verification, the coefficient of determination R2 is used to measure the degree of fit between the model's predicted values and the actual values. For predicting roughness and hardness, the model achieves R2 values of 0.922 and 0.920, respectively, with mean absolute errors of 0.095 and 3.824, respectively. This research provides a data-driven intelligent solution for the optimisation of the LIF-AM process, significantly reducing the traditional trial-and-error cost and promoting intelligent manufacturing of high-performance titanium alloy components in fields such as aerospace.",
+      "authors": [
+        "Peng He",
+        "Yuming Huang",
+        "Wenhe Wang",
+        "Yifan Guo",
+        "Zichuan Yu",
+        "Wenhua Chen",
+        "Bin Li",
+        "Xiang Wang",
+        "Yang Yu",
+        "Xinlei Pan",
+        "Liucheng Zhou"
+      ],
+      "first_author_affiliation": "Xi’an Jiaotong University",
+      "corresponding_authors": [
+        {
+          "name": "Xinlei Pan",
+          "affiliation": "Air Force Engineering University"
+        },
+        {
+          "name": "Liucheng Zhou",
+          "affiliation": "Air Force Engineering University"
+        }
+      ],
+      "venue": "Virtual and Physical Prototyping",
+      "year": 2025,
+      "date": "2025-10-12",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1080/17452759.2025.2569541",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Surface roughness",
+        "Laser",
+        "Titanium alloy",
+        "Forging",
+        "Mechanical engineering",
+        "Surface finish",
+        "Artificial neural network",
+        "Nonlinear system",
+        "Thermal",
+        "Measure (data warehouse)",
+        "Coupling (piping)",
+        "Fusion",
+        "Artificial intelligence",
+        "Approximation error",
+        "Computer science",
+        "Mean squared error",
+        "Correlation coefficient"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文直接针对Ti-6Al-4V的硬度与表面粗糙度预测，属于方向1涵盖的力学性能范畴，但未涉及疲劳行为。",
+        "why_not_core": "This paper does not directly address fatigue life, tensile properties, or anisotropic mechanical behavior of Ti-6Al-4V; it focuses only on predicting surface roughness and hardness using deep learning.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "laser in-situ forging",
+          "deep learning",
+          "surface roughness",
+          "hardness",
+          "CNN-Transformer"
+        ],
+        "summary_zh": {
+          "motivation": "为提高LPBF Ti-6Al-4V的表面质量和力学性能，提出激光原位锻造增材制造并结合深度学习优化工艺。",
+          "method": "构建基于CNN-Transformer的深度学习模型，预测LIF-AM Ti-6Al-4V的表面粗糙度和硬度。",
+          "result": "模型对粗糙度和硬度的预测R²分别达0.922和0.920，平均绝对误差低。",
+          "validation": "通过实验测量的粗糙度和硬度数据验证模型预测精度。"
+        },
+        "summary_en": {
+          "motivation": "To improve surface quality and mechanical performance of LPBF Ti-6Al-4V, this study proposes laser in-situ forging additive manufacturing (LIF-AM) and leverages deep learning to optimize process parameters.",
+          "method": "A CNN-Transformer deep learning model is constructed to predict surface roughness and hardness of LIF-AM Ti-6Al-4V components, capturing local and global dependencies in the high-dimensional parameter space.",
+          "result": "The model achieves R² values of 0.922 for roughness and 0.920 for hardness, with mean absolute errors of 0.095 and 3.824, respectively.",
+          "validation": "Experimental measurements of surface roughness and hardness are used to train and test the model, with R² and MAE quantifying predictive accuracy."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "laser in-situ forging",
+            "zh": "激光原位锻造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          },
+          {
+            "en": "deep learning",
+            "zh": "深度学习"
+          },
+          {
+            "en": "CNN",
+            "zh": "卷积神经网络"
+          },
+          {
+            "en": "Transformer",
+            "zh": "Transformer"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:17:25Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Medium": 1
+    }
+  }
+}

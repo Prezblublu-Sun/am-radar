@@ -1,0 +1,146 @@
+{
+  "schema_version": "v2",
+  "date": "2025-12-28",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7117411519",
+      "doi": "10.46519/ij3dptdi.1789827",
+      "title": "DEVELOPMENT OF A PHYSICS-INFORMED MELT POOL MODEL FOR POROSITY PREDICTION IN ADDITIVE MANUFACTURING",
+      "abstract": "Powder Bed Fusion–Laser Beam (PBF-LB) has emerged as a leading additive manufacturing technique for producing complex metallic components; however, its susceptibility to process-induced defects, particularly porosity, continues to limit its widespread application. In this study, a physics-informed computational framework was developed to predict porosity formation in Ti-6Al-4V parts by explicitly resolving transient thermal fields, melt pool dynamics, and layer-wise liquid fractions with temperature-dependent material properties. A dedicated graphical user interface was implemented, providing flexibility in defining the critical processing variables in PBF-LB. Model validation was performed using experimentally reported datasets from the literature. Benchmarking against melt pool geometries demonstrated that the algorithm successfully reproduced the depth and width evolution under different laser powers (100–195 W) and scan speeds (500–750 mm/s). Further comparisons with porosity data revealed strong quantitative consistency: for example, a numerical prediction of 0.19% porosity closely matched Archimedes (0.115%) and µ-CT (0.070%) results, while micrograph-based measurements indicated a higher value (0.204%). Across all investigated specimens, the algorithm reliably reflected experimentally observed porosity trends, including near fully dense conditions (",
+      "authors": [
+        "İbrahim Ülke",
+        "Oğuzhan Yılmaz",
+        "Mehmet Mollamahmutoglu"
+      ],
+      "first_author_affiliation": "GAZI UNIVERSITY",
+      "corresponding_authors": [
+        {
+          "name": "İbrahim Ülke",
+          "affiliation": "GAZI UNIVERSITY"
+        }
+      ],
+      "venue": "International Journal of 3D Printing Technologies and Digital Industry",
+      "year": 2025,
+      "date": "2025-12-28",
+      "date_precision": "day",
+      "url": "https://doi.org/10.46519/ij3dptdi.1789827",
+      "cited_by_count": 0,
+      "concepts": [
+        "Porosity",
+        "Materials science",
+        "Limit (mathematics)",
+        "Thermal",
+        "Flexibility (engineering)",
+        "Transient (computer programming)",
+        "Mixing (physics)",
+        "Beam (structure)",
+        "Development (topology)",
+        "Porous medium"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文建立了Ti-6Al-4V激光粉末床熔融过程中的孔隙率预测模型，对理解缺陷对力学性能的影响有参考价值。",
+        "why_not_core": "The paper does not report any mechanical or fatigue testing; it focuses on porosity prediction rather than direct mechanical characterization.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "porosity prediction",
+          "melt pool model",
+          "Ti-6Al-4V",
+          "PBF-LB",
+          "physics-informed"
+        ],
+        "summary_zh": {
+          "motivation": "预测Ti-6Al-4V增材制造中的孔隙缺陷，以提升部件可靠性。",
+          "method": "基于物理信息的熔池模型，耦合瞬态热场、熔池动力学与逐层液相分数。",
+          "result": "模型准确预测了不同工艺参数下的孔隙率，与实验数据吻合良好。",
+          "validation": "利用文献中的熔池几何和孔隙率实验数据进行验证。"
+        },
+        "summary_en": {
+          "motivation": "To predict porosity defects in additively manufactured Ti-6Al-4V parts, which are critical for mechanical performance.",
+          "method": "A physics-informed computational framework resolving transient thermal fields, melt pool dynamics, and layer-wise liquid fractions with temperature-dependent material properties.",
+          "result": "The model accurately predicts porosity levels under varying laser power and scan speed, showing strong consistency with experimental data.",
+          "validation": "Validation against literature-reported melt pool geometries and porosity measurements from Archimedes, µ-CT, and micrography."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "porosity prediction",
+            "zh": "孔隙率预测"
+          },
+          {
+            "en": "melt pool model",
+            "zh": "熔池模型"
+          },
+          {
+            "en": "physics-informed",
+            "zh": "物理信息驱动"
+          },
+          {
+            "en": "process parameters",
+            "zh": "工艺参数"
+          },
+          {
+            "en": "validation",
+            "zh": "验证"
+          },
+          {
+            "en": "defect",
+            "zh": "缺陷"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:21:34Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Medium": 1
+    }
+  }
+}

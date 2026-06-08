@@ -1,0 +1,152 @@
+{
+  "schema_version": "v2",
+  "date": "2025-07-07",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412088540",
+      "doi": "10.3390/ma18133198",
+      "title": "Characterization of Nano-Sized Features in Powder Bed Additively Manufactured Ti-6Al-4V Alloy",
+      "abstract": "In this study, we delve into the intricate microstructural features of Ti-6Al-4V alloy additively manufactured and heat-treated at 800 °C for 4 h. Our in-depth analysis will enable us to gain a better understanding of the β-Ti precipitation process, its dependence on temperature, and its ultimate effect on the overall mechanical properties. As well as α-Ti martensite grains and β-Ti particles interspersed in the α-Ti grain boundaries, there is a third microstructural feature, overlooked by many researchers. This feature is observed as nano-sized particles homogeneously embedded inside the α-Ti laths. Using high-resolution transmission electron microscopy, we reveal that these nano-sized features do not constitute a different phase. Instead, they define isolated regions of α-Ti in its relaxed form, surrounded by the heavily strained form of the α-Ti phase. This phenomenon is a result of the \"incomplete\" precipitation of the β-Ti phase following the heat treatment stage. The straining of the α-Ti phase appears as a shift in the equilibrium atomic position.",
+      "authors": [
+        "Э. Эшед",
+        "Amnon Shirizly"
+      ],
+      "first_author_affiliation": "Rafael Advanced Defense Systems Ltd., P.O. Box 2250, Haifa 3102102, Israel",
+      "corresponding_authors": [
+        {
+          "name": "Э. Эшед",
+          "affiliation": "Rafael Advanced Defense Systems Ltd., P.O. Box 2250, Haifa 3102102, Israel"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-07-07",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18133198",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Alloy",
+        "Characterization (materials science)",
+        "Nano-",
+        "Metallurgy",
+        "Chemical engineering",
+        "Composite material",
+        "Nanotechnology"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了热处理后Ti-6Al-4V合金中的纳米级特征，但未涉及力学性能测试。",
+        "why_not_core": "no mechanical testing (tensile/fatigue) data was presented; only microstructural characterization without linking to mechanical performance.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "heat treatment",
+          "microstructure",
+          "nano-sized features",
+          "TEM",
+          "post-processing"
+        ],
+        "summary_zh": {
+          "motivation": "表征增材制造Ti-6Al-4V合金在热处理后形成的纳米级微观特征。",
+          "method": "采用高分辨率透射电镜分析800°C保温4小时热处理后的试样。",
+          "result": "发现纳米级特征并非新相，而是α-Ti中弛豫区域嵌入高应变区域，源于β相不完全沉淀。",
+          "validation": "通过高分辨率TEM观察确认微观结构。"
+        },
+        "summary_en": {
+          "motivation": "To characterize nano-sized microstructural features in additively manufactured Ti-6Al-4V alloy after heat treatment.",
+          "method": "High-resolution transmission electron microscopy was employed to analyze specimens heat-treated at 800°C for 4 hours.",
+          "result": "The nano-sized features were identified as relaxed α-Ti regions within strained α-Ti laths, resulting from incomplete β-Ti precipitation.",
+          "validation": "Validation was performed through high-resolution TEM imaging."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "precipitation",
+            "zh": "沉淀"
+          },
+          {
+            "en": "transmission electron microscopy",
+            "zh": "透射电镜"
+          },
+          {
+            "en": "nano-sized features",
+            "zh": "纳米特征"
+          },
+          {
+            "en": "α-Ti laths",
+            "zh": "α-Ti板条"
+          },
+          {
+            "en": "β-Ti",
+            "zh": "β-Ti"
+          },
+          {
+            "en": "martensite",
+            "zh": "马氏体"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:11:42Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

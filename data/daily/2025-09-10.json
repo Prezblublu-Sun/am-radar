@@ -4,123 +4,152 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2509.08939v1",
-      "doi": "",
-      "arxiv_id": "2509.08939v1",
-      "title": "A Phase-Field Approach to Fracture and Fatigue Analysis: Bridging Theory and Simulation",
-      "abstract": "This article presents a novel, robust and efficient framework for fatigue crack-propagation that combines the principles of Linear Elastic Fracture Mechanics (LEFM) with phase-field fracture (PFF). Contrary to cycle-by-cycle PFF approaches, this work relies on a single simulation and uses standard crack propagation models such as Paris' law for the material response, simplifying its parametrization.   The core of the methodology is the numerical evaluation of the derivative of a specimen's compliance with respect to the crack area. To retrieve this compliance the framework relies on a PFF-FEM simulation, controlled imposing a monotonic crack growth. This control of the loading process is done by a new crack-control scheme which allows to robustly trace the complete equilibrium path of a crack, capturing complex instabilities. The specimen's compliance obtained from the PFF simulation enables the integration of Paris' law to predict fatigue life.   The proposed methodology is first validated through a series of benchmarks with analytical solutions to demonstrate its accuracy. The framework is then applied to more complex geometries where the crack path is unknown, showing a very good agreement with experimental results of both crack paths and fatigue life.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4416955205",
+      "doi": "10.1115/imece-india2025-161876",
+      "title": "Study of Laser Shock Peening Impact on the Wettability of Ti-Grade 23 Alloy",
+      "abstract": "Abstract Titanium and its alloys are extensively used in critical applications due to their exceptional strength-to-weight ratio, corrosion resistance, and biocompatibility. Among these, Ti Grade 23 (Ti-6Al-4V ELI) is particularly valued for its improved ductility, superior fatigue strength, and reduced interstitial elements. This study investigates the effect of Laser Shock Peening (LSP) on the wetting characteristics of Ti Grade 23 alloy, a property essential for enhancing biocompatibility and tribological performance in biomedical and industrial applications. LSP uses a nanosecond laser to impart compressive residual stresses into the alloy’s surface. These stresses lead to surface chemistry, microstructure, and surface energy alterations, collectively influencing wettability. Experiments were conducted by systematically varying two key parameters, the number of laser passes (P) and the water level (L), to explore their combined effect on the alloy’s wettability. The experimental findings reveal a significant transformation in surface wettability, with the contact angle increasing from hydrophilic (65°) to hydrophobic (90°). This transition is attributed to induced compressive stress, surface topography modifications, and crystal structure changes due to the LSP process. The observed wettability alterations suggest that LSP is a viable method for tailoring surface characteristics to meet the requirements of advanced engineering and biomedical applications. This study underscores the potential of LSP as a robust and versatile surface modification technique for Ti Grade 23. The results contribute to the broader understanding of how laser processing parameters influence surface properties, enabling the development of next-generation materials for critical applications.",
       "authors": [
-        "M. Castillón",
-        "I. Romero",
-        "J. Segurado"
+        "Vipparla Srikanth",
+        "G.L. Samuel",
+        "Dongbin Wei"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Indian Institute of Technology , ,",
+      "corresponding_authors": [
+        {
+          "name": "Vipparla Srikanth",
+          "affiliation": "Indian Institute of Technology , ,"
+        }
+      ],
+      "venue": "",
       "year": 2025,
       "date": "2025-09-10",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2509.08939v1",
+      "url": "https://doi.org/10.1115/imece-india2025-161876",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "math.NA"
+      "concepts": [
+        "Materials science",
+        "Peening",
+        "Wetting",
+        "Residual stress",
+        "Shot peening",
+        "Laser",
+        "Tribology",
+        "Surface roughness",
+        "Surface energy",
+        "Composite material",
+        "Shock (circulatory)",
+        "Surface modification",
+        "Laser peening",
+        "Surface engineering",
+        "Polishing",
+        "Biocompatibility",
+        "Alloy",
+        "Metallurgy",
+        "Surface finish",
+        "Contact angle",
+        "Corrosion",
+        "Compressive strength"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "fatigue"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "fatigue",
-      "direction_name": "AM Fatigue",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "fatigue": [
-          "fatigue life"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti-6Al-4V ELI",
+          "ductility",
+          "fatigue",
+          "fatigue strength"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti-6Al-4V ELI",
+          "laser shock peening"
         ]
       },
       "llm": {
-        "priority": "Medium",
-        "relevance_level": "Transferable",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文提出了结合断裂力学与相场模型的疲劳裂纹扩展框架，可迁移至增材制造疲劳分析。",
-        "why_not_core": "It does not address AM-specific fatigue mechanisms like process-induced defects, microstructure anisotropy, or surface roughness effects.",
-        "validation_kind": "simulation_case",
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V合金的激光冲击强化后处理，但仅研究润湿性，未涉及任何力学性能，因此与用户关注的后处理对疲劳/力学性能的影响不直接相关。",
+        "why_not_core": "The paper does not examine any mechanical performance metrics (fatigue, tensile strength, hardness) and does not correlate LSP parameters with mechanical properties; it focuses solely on wettability.",
+        "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "phase-field fracture",
-          "fatigue crack propagation",
-          "Paris' law",
-          "linear elastic fracture mechanics",
-          "finite element method"
+          "laser shock peening",
+          "wettability",
+          "Ti-6Al-4V",
+          "surface modification"
         ],
         "summary_zh": {
-          "motivation": "提出一种高效且鲁棒的疲劳裂纹扩展相场模拟框架。",
-          "method": "结合线性弹性断裂力学与相场模型，基于单一模拟和Paris定律计算疲劳寿命。",
-          "result": "在复杂几何结构中准确预测裂纹路径和疲劳寿命，与实验结果吻合良好。",
-          "validation": "通过解析解基准和实验对比验证准确性。"
+          "motivation": "研究激光冲击强化对Ti-6Al-4V ELI合金润湿性的影响",
+          "method": "系统改变激光次数和水层参数进行实验",
+          "result": "接触角从亲水(65°)变为疏水(90°)",
+          "validation": "通过接触角测量验证润湿性变化"
         },
         "summary_en": {
-          "motivation": "To develop an efficient framework for fatigue crack propagation by combining phase-field fracture with LEFM and Paris' law, avoiding cycle-by-cycle simulations.",
-          "method": "The compliance derivative with respect to crack area is evaluated from a phase-field FEM simulation under monotonic loading, allowing integration of Paris' law for fatigue life prediction.",
-          "result": "The proposed method accurately predicts crack paths and fatigue lives in complex geometries, showing good agreement with experimental results.",
-          "validation": "Validated against analytical benchmarks and experimental data from literature for crack paths and fatigue life."
+          "motivation": "Investigate the effect of laser shock peening on the wettability of Ti-6Al-4V ELI alloy.",
+          "method": "Systematically varied laser passes and water level parameters in experiments.",
+          "result": "Contact angle increased from hydrophilic (65°) to hydrophobic (90°).",
+          "validation": "Contact angle measurements were used to characterize wettability changes."
         },
         "key_terms": [
           {
-            "en": "phase-field fracture",
-            "zh": "疲劳相场断裂"
+            "en": "laser shock peening",
+            "zh": "激光冲击强化"
           },
           {
-            "en": "Paris' law",
-            "zh": "Paris定律"
+            "en": "contact angle",
+            "zh": "接触角"
           },
           {
-            "en": "crack propagation",
-            "zh": "裂纹扩展"
+            "en": "wettability",
+            "zh": "润湿性"
           },
           {
-            "en": "compliance derivative",
-            "zh": "柔度导数"
+            "en": "Ti-6Al-4V ELI",
+            "zh": "Ti-6Al-4V ELI合金"
           },
           {
-            "en": "finite element method",
-            "zh": "有限元方法"
-          },
-          {
-            "en": "linear elastic fracture mechanics",
-            "zh": "线弹性断裂力学"
-          },
-          {
-            "en": "fatigue life",
-            "zh": "疲劳寿命"
+            "en": "surface modification",
+            "zh": "表面改性"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:13:45Z"
+      "first_seen_at": "2026-06-07T23:15:36Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "fatigue": 1
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {
-      "Medium": 1
+      "Low": 1
     }
   }
 }

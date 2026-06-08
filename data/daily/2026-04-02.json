@@ -4,239 +4,166 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2604.01942v1",
-      "doi": "",
-      "arxiv_id": "2604.01942v1",
-      "title": "Lead-free antiperovskite derivatives Ba$_3$MA$_3$ (M = P, As, Sb, Bi; A = Cl, Br, I): Next-gen materials for optoelectronics",
-      "abstract": "Antiperovskite derivatives have recently emerged as promising lead-free alternatives to halide perovskites for optoelectronic applications. Here, using a comprehensive first-principles calculations including density functional perturbation theory and many-body perturbation theory (involving GW and Bethe-Salpeter equation (BSE)), we investigate the stability, excitonic, polaronic, and optoelectronic properties of cubic Ba$_3$MA$_3$ (M = P, As, Sb, Bi; A = Cl, Br, I). These compounds are found to be dynamically and thermodynamically stable direct-gap semiconductors with G$_0$W$_0$@PBE+SOC band gaps spanning 1.23-2.17 eV. BSE calculations reveal moderate exciton binding energies (0.254-0.352 eV) and intermediate-radius excitons, while Fröhlich polaron analysis indicates intermediate carrier-phonon coupling and mobilities up to $\\sim$ 75 cm$^{2}$V$^{-1}$s$^{-1}$. The resulting spectroscopic limited maximum efficiencies reach $\\sim$ 19-32%, surpassing several lead-based perovskites. Our results establish Ba-based antiperovskite derivatives as a robust, eco-friendly platform for next-generation optoelectronic devices.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7148398883",
+      "doi": "10.1016/j.ijfatigue.2026.109659",
+      "title": "A unified probabilistic defect-based fatigue modelling approach to account for surface and bulk defects in additively manufactured Ti-6Al-4V alloys and defect characterisation",
+      "abstract": "Additively manufactured metals are often affected by material inhomogeneities across multiple length scales. Geometrical inhomogeneities, as well as non-metallic inclusions — commonly referred to as defects — can significantly impair the fatigue performance of the fabricated material, especially in the absence of further post-processing. Therefore, accounting for these defects is essential for a proper assessment of the material’s structural integrity. Fracture Mechanics-based approaches have proven effective in addressing bulk and sub-surface defects; however, a consensus has yet to be reached on the most effective method for addressing surface geometrical inhomogeneities (e.g., surface roughness). This work presents the effectiveness of a generalised defect-based model capable of accounting for bulk, sub-surface, and surface defect (roughness) effects on the fatigue endurance limit. The proposed model is calibrated on a detailed experimental fatigue characterisation study of a Ti-6Al-4V alloy manufactured through two different techniques, i.e., Electron Beam Melting (EBM) and Selective Laser Melting (SLM). To achieve varied defect characteristics and quantitatively assess their influence on fatigue, the additively manufactured materials were subjected to different combinations of post-processing (e.g., Hot Isostatic Pressing, Vacuum Heat Treatment). Defect distributions were investigated using the non-destructive lab-based Computed Tomography (CT), and further data analysis was conducted by exploiting the Extreme Value Statistics (EVS) theory. The approach was effective across all studied material conditions, providing a probabilistic assessment of fatigue failure performance.",
       "authors": [
-        "Surajit Adhikari",
-        "Aftab Alam",
-        "Priya Johari"
+        "Enrico Salvati",
+        "Marco Pelegatti",
+        "Marco Petruzzi",
+        "Alessandro Tognan",
+        "Emanuele Avoledo",
+        "Federico Pérez Milán",
+        "Francesco De Bona",
+        "N. Picco",
+        "Francesco Sordetti",
+        "Alex Lanzutti",
+        "M. Pressacco",
+        "Riccardo Toninato"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Enrico Salvati",
+          "affiliation": ""
+        }
+      ],
+      "venue": "International Journal of Fatigue",
       "year": 2026,
       "date": "2026-04-02",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2604.01942v1",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2026.109659",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "concepts": [
+        "Materials science",
+        "Surface (topology)",
+        "Probabilistic logic",
+        "Composite material",
+        "Structural engineering",
+        "Statistical model",
+        "Engineering drawing"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "defect",
+          "surface roughness",
+          "fatigue"
         ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "hot isostatic pressing",
+          "heat treatment",
+          "post-processing"
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文完全研究光电材料，与增材制造力学性能方向无关。",
-        "why_not_core": "No additive manufacturing, no mechanical testing, no biomedical or structural context; purely optoelectronic simulation.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "antiperovskite",
-          "first-principles",
-          "optoelectronics"
-        ],
-        "summary_zh": {
-          "motivation": "寻找无铅环保的光电材料替代卤化物钙钛矿",
-          "method": "采用第一性原理计算（DFT、GW、BSE）研究稳定性与光电性质",
-          "result": "Ba3MA3化合物是直接带隙半导体，带隙1.23-2.17 eV，效率达19-32%",
-          "validation": "无实验验证，仅理论计算"
-        },
-        "summary_en": {
-          "motivation": "To discover lead-free, eco-friendly alternatives to halide perovskites for optoelectronic applications.",
-          "method": "Comprehensive first-principles calculations including DFT, GW, and BSE to evaluate stability and optoelectronic properties.",
-          "result": "Ba3MA3 compounds are direct-gap semiconductors with band gaps of 1.23-2.17 eV and theoretical efficiencies of 19-32%.",
-          "validation": "No experimental validation; purely computational."
-        },
-        "key_terms": [
-          {
-            "en": "antiperovskite",
-            "zh": "反钙钛矿"
-          },
-          {
-            "en": "first-principles",
-            "zh": "第一性原理"
-          },
-          {
-            "en": "GW approximation",
-            "zh": "GW近似"
-          },
-          {
-            "en": "Bethe-Salpeter equation",
-            "zh": "Bethe-Salpeter方程"
-          },
-          {
-            "en": "band gap",
-            "zh": "带隙"
-          },
-          {
-            "en": "exciton binding energy",
-            "zh": "激子结合能"
-          },
-          {
-            "en": "carrier mobility",
-            "zh": "载流子迁移率"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
-    },
-    {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2604.01908v2",
-      "doi": "",
-      "arxiv_id": "2604.01908v2",
-      "title": "Phonon Thermal Hall Effect in quartz and its absence in silica",
-      "abstract": "The observation of a misalignment between the applied heat flux and the measured temperature gradient in insulating solids induced by magnetic field has become a subject of experimental investigation, theoretical speculation, and unsettled controversy. To identify the origin of this phonon thermal Hall effect, we performed a comparative study of longitudinal and transverse heat transport in crystalline (quartz) and vitreous (silica) SiO$_2$ using identical experimental set-ups and thermometers. A finite signal was detected in the crystalline samples and none in the amorphous sample, within our resolution. The cleaner crystal exhibited a larger thermal Hall conductivity than the dirtier one, ruling out disorder as the driver of the effect. On the other hand, the amplitude of the transverse thermal resistivity is almost identical in the two crystalline samples (W$_{\\perp}$/B$\\approx 10^{-6}$ m.K.W$^{-1}$.T$^{-1}$). We show that in a phonon gas, as in a molecular gas displaying the Senftleben-Beenakker effect, heat is conducted through two channels, and argue that a thermal Hall response is unavoidable whenever these channels differ both in entropy production and in their coupling to the magnetic field. Under such conditions, the conserved energy current and the non-conserved entropy current cease to be parallel. Finally, the magnitude of the transverse thermal resistivity can be accounted for by a surprisingly simple picture. The heat flux induces a tiny drift velocity of the lattice nuclei, the magnetic field exerts a transverse Berry force on this drift, and this force is balanced by an entropic restoring force.",
-      "authors": [
-        "Yu Ling",
-        "Benoît Fauqué",
-        "Kamran Behnia"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2026,
-      "date": "2026-04-02",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2604.01908v2",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "cond-mat.other",
-        "cond-mat.stat-mech",
-        "cond-mat.str-el"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
-        ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究石英和二氧化硅中的声子热霍尔效应，与增材制造力学性能无关。",
-        "why_not_core": "This paper is about phonon thermal transport in condensed matter physics, with no connection to additive manufacturing, mechanical properties, or biomedical implants.",
-        "validation_kind": "none",
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究Ti-6Al-4V增材制造后处理（HIP、真空热处理）对疲劳性能的影响，与L2方向高度契合。",
+        "why_not_core": "Focuses on HIP and heat treatment only; does not cover machining, shot peening, or other surface treatments.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
+          "has_uncertainty_quantification": true,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "thermal Hall effect",
-          "phonon transport",
-          "quartz",
-          "silica",
-          "heat flux"
+          "Ti-6Al-4V",
+          "post-processing",
+          "hot isostatic pressing",
+          "vacuum heat treatment",
+          "fatigue modelling",
+          "defect characterization",
+          "EBM",
+          "SLM"
         ],
         "summary_zh": {
-          "motivation": "探究绝缘固体中声子热霍尔效应的起源。",
-          "method": "对比测量晶体石英和玻璃态二氧化硅的纵向和横向热输运。",
-          "result": "晶体样品有信号，非晶样品无信号，且干净晶体热霍尔电导更大。",
-          "validation": "通过相同实验装置和温度计进行对比实验验证。"
+          "motivation": "增材制造Ti-6Al-4V缺陷（如表面粗糙度）的疲劳效应尚未统一建模。",
+          "method": "提出基于缺陷的概率疲劳模型，结合CT表征和极值统计，校准于EBM和SLM样品的实验数据。",
+          "result": "模型有效预测不同后处理状态（HIP、真空热处理）下的疲劳极限。",
+          "validation": "通过不同后处理状态的Ti-6Al-4V疲劳实验验证模型。"
         },
         "summary_en": {
-          "motivation": "Motivation: Identify the origin of the phonon thermal Hall effect by comparing crystalline and amorphous SiO2.",
-          "method": "Method: Performed comparative measurements of longitudinal and transverse heat transport in quartz and silica using identical setups.",
-          "result": "Result: Finite thermal Hall conductivity in crystalline samples, none in amorphous, with cleaner crystals showing larger effect.",
-          "validation": "Validation: Experimental verification using identical thermometers and setups to ensure comparability."
+          "motivation": "A unified model for fatigue endurance limit considering surface roughness and bulk defects in additively manufactured Ti-6Al-4V is lacking.",
+          "method": "A probabilistic defect-based model integrating bulk/subsurface/surface defects was developed, calibrated on fatigue tests of EBM and SLM Ti-6Al-4V with varied post-processing (HIP, vacuum heat treatment).",
+          "result": "The model accurately predicted fatigue limits across all material conditions, capturing the effects of defect distributions from CT and extreme value statistics.",
+          "validation": "Experimental fatigue characterization of as-built and post-processed Ti-6Al-4V specimens was used for model calibration and validation."
         },
         "key_terms": [
           {
-            "en": "thermal Hall effect",
-            "zh": "热霍尔效应"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "phonon transport",
-            "zh": "声子输运"
+            "en": "electron beam melting",
+            "zh": "电子束熔化"
           },
           {
-            "en": "quartz",
-            "zh": "石英"
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
           },
           {
-            "en": "silica",
-            "zh": "二氧化硅"
+            "en": "vacuum heat treatment",
+            "zh": "真空热处理"
           },
           {
-            "en": "heat flux",
-            "zh": "热流"
+            "en": "fatigue endurance limit",
+            "zh": "疲劳极限"
           },
           {
-            "en": "temperature gradient",
-            "zh": "温度梯度"
+            "en": "defect characterization",
+            "zh": "缺陷表征"
           },
           {
-            "en": "Berry force",
-            "zh": "贝里力"
+            "en": "extreme value statistics",
+            "zh": "极值统计"
+          },
+          {
+            "en": "computed tomography",
+            "zh": "计算机断层扫描"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
+      "first_seen_at": "2026-06-07T23:29:54Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 1,
     "by_source": {
-      "arxiv": 2
+      "openalex": 1
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 1,
+    "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 2
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "arxiv": 2
+      "openalex": 1
     },
-    "scored": 2,
+    "scored": 1,
     "priority_counts": {
-      "Exclude": 2
+      "High": 1
     }
   }
 }

@@ -4,159 +4,199 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2510.05415v1",
-      "doi": "",
-      "arxiv_id": "2510.05415v1",
-      "title": "The roles of elasticity and dimension in liquid-gel phase separation",
-      "abstract": "We compare six elastic models for polymer networks in the context of phase separation within a gel, including a new model that combines the finite extensible Arruda-Boyce model and the slip tube model for entangled chains. We study incompressible uniaxial stretch and compression, and three volume-changing constrained-dimension deformations, in which the material can only deform in the designated dimensions(s) while the constrained direction(s) remain(s) the same. Each model responds differently to large deformations, and our proposed model successfully describes both strain softening and strain hardening, which are both present in well-entangled elastomers. When considering phase separation, we show that the commonly-used neo-Hookean model fails to admit a common tangent construction for phase coexistence for 3D deformations. This can be resolved by using a model with finite extension, such as the Arruda-Boyce model. In constrained-dimension deformations, where the gel's volume is allowed to change, for elastic models in which phase coexistence is possible, the critical temperatures increases and the critical concentration decreases with increasing deformation dimensions. This strong dependence of the phase diagram on spatial dimension and geometry distinguishes phase separation elastic media from conventional phase separation.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4414882035",
+      "doi": "10.48084/etasr.12777",
+      "title": "An Experimental Investigation of the Shape Deviation of SLM Printed Parts",
+      "abstract": "The 3D printing technology is increasingly used in manufacturing, medicine, education, and various other fields. This technology allows for the creation of parts with complex shapes, which would be difficult or even impossible to manufacture using traditional machining methods. However, the quality of the printed products is still a barrier to the widespread use of the 3D printing technology in industrial applications. The former includes the accuracy of the shape, size, and mechanical properties of the printed products. Research to improve the efficiency of the printing process and the printed product quality is essential for application fields. This study, through experiments, determines the relationship between the shape deviation of the printed products and the set of printing parameters. The latter includes the laser power, printing speed, and printing layer thickness. Experimental studies were conducted on the FF-M180D printer using the Selective Laser Melting (SLM) printing method. Ti6Al4V powder is utilized as printing material for this study. Based on the regression model showing the relationship between the printing parameters and shape deviation, the optimal set of parameters to minimize the shape deviation was determined.",
       "authors": [
-        "Shichen Wang",
-        "Peter D. Olmsted"
+        "Thai‐Son Nguyen",
+        "Ngoc-Hien Tran"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Center for Transport Science and Technology, University of Transport and Communications, Hanoi, Vietnam | National Research Institute of Mechanical Engineering, Hanoi, Vietnam",
+      "corresponding_authors": [
+        {
+          "name": "Thai‐Son Nguyen",
+          "affiliation": "Center for Transport Science and Technology, University of Transport and Communications, Hanoi, Vietnam | National Research Institute of Mechanical Engineering, Hanoi, Vietnam"
+        }
+      ],
+      "venue": "Engineering Technology & Applied Science Research",
       "year": 2025,
       "date": "2025-10-06",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2510.05415v1",
+      "url": "https://doi.org/10.48084/etasr.12777",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.soft",
-        "cond-mat.mtrl-sci",
-        "physics.chem-ph"
+      "concepts": [
+        "3D printing",
+        "Engineering drawing",
+        "Machining",
+        "Digital printing",
+        "Mechanical engineering",
+        "3d printed",
+        "Process (computing)",
+        "Quality (philosophy)",
+        "Selective laser melting",
+        "Inkwell",
+        "Die (integrated circuit)",
+        "Set (abstract data type)",
+        "Screen printing",
+        "Design of experiments",
+        "Product (mathematics)",
+        "Materials science",
+        "Fused deposition modeling",
+        "Computer science",
+        "Layer (electronics)"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "strain hardening"
-        ]
-      },
-      "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "本文讨论凝胶中液-固相分离的弹性模型，与用户关注的增材制造或生物医学植入物方向无直接关联。",
-        "why_not_core": "This paper does not address additive manufacturing, biomedical implants, or mechanical property characterization of AM parts; it focuses on theoretical elasticity models of polymer network phase separation.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "phase separation",
-          "elasticity",
-          "polymer network",
-          "theoretical model"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "layer thickness"
         ],
-        "summary_zh": {
-          "motivation": "研究凝胶相分离中不同弹性模型的影响",
-          "method": "比较六种弹性模型，提出结合Arruda-Boyce和滑移管模型的新模型",
-          "result": "新模型描述应变软化和硬化，neo-Hookean模型在三维下无法共存相",
-          "validation": "理论分析无实验验证"
-        },
-        "summary_en": {
-          "motivation": "To understand how different elastic models affect phase separation behavior in polymer gels.",
-          "method": "Six elastic models are compared, including a new model combining the Arruda-Boyce and slip tube models, under various deformations.",
-          "result": "The proposed model captures both strain softening and hardening; the neo-Hookean model fails in 3D phase coexistence.",
-          "validation": "No experimental validation; purely theoretical analysis."
-        },
-        "key_terms": [
-          {
-            "en": "phase separation",
-            "zh": "相分离"
-          },
-          {
-            "en": "elasticity",
-            "zh": "弹性"
-          },
-          {
-            "en": "polymer network",
-            "zh": "聚合物网络"
-          },
-          {
-            "en": "Arruda-Boyce model",
-            "zh": "Arruda-Boyce模型"
-          },
-          {
-            "en": "slip tube model",
-            "zh": "滑移管模型"
-          },
-          {
-            "en": "neo-Hookean model",
-            "zh": "neo-Hookean模型"
-          },
-          {
-            "en": "strain softening",
-            "zh": "应变软化"
-          },
-          {
-            "en": "strain hardening",
-            "zh": "应变硬化"
-          },
-          {
-            "en": "constrained-dimension deformation",
-            "zh": "受限维度变形"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:14:51Z"
-    },
-    {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2510.05021v1",
-      "doi": "10.1016/j.msea.2025.149058",
-      "arxiv_id": "2510.05021v1",
-      "title": "Role of chromium oxides and carbides in strengthening CoCrFeNi multi-principle element alloys",
-      "abstract": "Multi-principal element alloys (MPEAs) can potentially offer exceptional material properties, but their complex, costly manufacturing limits their scalability. Chemical complexity and complex manufacturing processes lead to the formation of some secondary phases, which have a significant impact on the final properties. In this work, chromium compound dispersoid enhancements (Cr- oxides and carbides) were formed in CoCrFeNi MPEAs to enhance their microstructural and high-temperature mechanical properties. A single FCC phase was observed in the arc melted (AM) samples, chromium oxides were detected in the gas-atomized (GA) samples, and Cr2O3 with Cr23C6 or Cr7C3 was found in the mechanically alloyed (MA)samples depending on the sintering temperature. Mechanical tests at room temperature and 575°C, where no phase evolution is expected, showed that the GA samples with oxides achieved enhanced mechanical properties at 575°C. This was co-induced by precipitation strengthening, recrystallization suppression, and twinning-induced plasticity. The MA samples with carbides exhibited high strength but low ductility, with Cr7C3 outperforming Cr23C6 because of its lower hardness and twinning effects. This work links chromium compound evolution to mechanical performance of MPEAs, offering insights to optimize HEA production for high-temperature applications through controlled phase formation.",
-      "authors": [
-        "Artur Olejarz",
-        "Wenyi Huo",
-        "Anna Kosinska",
-        "Maciej Zielinski",
-        "Tomasz Stasiak",
-        "Marcin Chmielewski",
-        "Wojciech Chmurzynski",
-        "Max Rae Chu",
-        "Michael Patrick Short",
-        "Lukasz Kurpaska"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2025,
-      "date": "2025-10-06",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2510.05021v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "ductility"
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "machining"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "与用户研究方向无关，不涉及生物医学植入物或增材制造。",
-        "why_not_core": "This paper does not involve additive manufacturing (LPBF or other) for biomedical implants, nor does it address osseointegration, fatigue, or implant-specific mechanical testing; it focuses on non-biomedical MPEAs processed by arc melting, gas atomization, and mechanical alloying for high-temperature applications.",
+        "relevance_to_user": "该论文研究SLM打印参数对形状偏差的影响，未涉及后处理对疲劳/力学性能的调控，与L2方向无关。",
+        "why_not_core": "The paper focuses on as-built shape deviation from printing parameters, not on post-processing treatments (heat treatment, HIP, machining, etc.) that modify fatigue/mechanical performance.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "SLM",
+          "Ti6Al4V",
+          "shape deviation",
+          "printing parameters"
+        ],
+        "summary_zh": {
+          "motivation": "研究SLM打印参数对Ti6Al4V零件形状偏差的影响，以提高打印质量。",
+          "method": "通过实验测量不同激光功率、速度和层厚下的形状偏差，建立回归模型。",
+          "result": "确定了最优打印参数组合以最小化形状偏差。",
+          "validation": "实验测量形状偏差，无力学性能验证。"
+        },
+        "summary_en": {
+          "motivation": "This paper investigates the effect of SLM printing parameters on shape deviation of Ti6Al4V parts to improve printing quality.",
+          "method": "Experimental measurements of shape deviation under varying laser power, speed, and layer thickness were used to build a regression model.",
+          "result": "The optimal set of parameters to minimize shape deviation was determined.",
+          "validation": "Shape deviation was experimentally measured, but no mechanical performance validation was performed."
+        },
+        "key_terms": [
+          {
+            "en": "Selective Laser Melting",
+            "zh": "选择性激光熔化"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "钛合金Ti6Al4V"
+          },
+          {
+            "en": "shape deviation",
+            "zh": "形状偏差"
+          },
+          {
+            "en": "printing parameters",
+            "zh": "打印参数"
+          },
+          {
+            "en": "regression model",
+            "zh": "回归模型"
+          },
+          {
+            "en": "laser power",
+            "zh": "激光功率"
+          },
+          {
+            "en": "printing speed",
+            "zh": "打印速度"
+          },
+          {
+            "en": "layer thickness",
+            "zh": "层厚"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:17:25Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414866774",
+      "doi": "10.1016/j.ijfatigue.2025.109320",
+      "title": "Torsional and axial tension/compression fatigue behavior of Ti-6Al-4V diamond lattices produced by Laser Powder Bed Fusion (LPBF)",
+      "abstract": "The increasing importance to characterize additively manufactured lattice structures in different load regimes cannot be overemphasized due to their robust load bearing applications in lightweight structural parts or biomedical implants. This study investigates the torsional fatigue behavior of metallic diamond cell structures to check the mean stress sensitivity of these meta-materials. Consistency in results for torsional fatigue is achieved by a unique sample design that minimizes stress concentration, is self-centering and graded. In addition, axial fatigue in tension–tension, compression–compression and tension–compression is studied. The tensile mode is found to be most detrimental to fatigue life of all axial modes. An analytical local stress method (LSM) is presented to estimate the maximum local stresses that occur in the structure. By using this approach, axial tension/compression and torsion fatigue experiments almost fall together due to the similar maximum local stress. Reverse calculations from these local stress curves can provide valuable insight into torsional strength when data are available only for axial fatigue tests. • Unique sample design to provide consistent results under torsional loads. • Fatigue life normalization model for different relative density and load regimes. • Macro and micro-scale correlative fractographic analysis of lattices.",
+      "authors": [
+        "Suresh D. Meshram",
+        "Elina Vanderhenst",
+        "Antonio Cutolo",
+        "Brecht Van Hooreweder"
+      ],
+      "first_author_affiliation": "KU Leuven, Department of Mechanical Engineering, Celestijnenlaan 300, Leuven, 3001, Belgium",
+      "corresponding_authors": [
+        {
+          "name": "Suresh D. Meshram",
+          "affiliation": "KU Leuven, Department of Mechanical Engineering, Celestijnenlaan 300, Leuven, 3001, Belgium"
+        }
+      ],
+      "venue": "International Journal of Fatigue",
+      "year": 2025,
+      "date": "2025-10-06",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2025.109320",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Torsion (gastropod)",
+        "Structural engineering",
+        "Ultimate tensile strength",
+        "Diamond",
+        "Fatigue limit",
+        "Stress concentration",
+        "Stress (linguistics)",
+        "Composite material",
+        "Fusion",
+        "Failure mode and effects analysis",
+        "Fatigue testing",
+        "Rod",
+        "Lattice (music)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue",
+          "fatigue life"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对激光粉末床熔融Ti-6Al-4V点阵结构的扭转和轴向疲劳行为，属于L1层研究范围。",
+        "why_not_core": "论文未涉及后处理（如HIP、热处理）对疲劳性能的影响，也未聚焦于植入物结构。",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -165,428 +205,87 @@
           "is_review": false
         },
         "tags": [
-          "multi-principal element alloys",
-          "chromium compounds",
-          "mechanical properties",
-          "high-temperature"
+          "LPBF",
+          "Ti-6Al-4V",
+          "fatigue",
+          "lattice structures",
+          "torsion",
+          "axial fatigue"
         ],
         "summary_zh": {
-          "motivation": "研究铬化合物对多主元合金力学性能的影响。",
-          "method": "通过电弧熔炼、气雾化和机械合金化制备不同铬化合物的样品，进行力学测试。",
-          "result": "氧化物增强高温性能，碳化物提高强度但降低延性。",
-          "validation": "室温和575°C力学测试。"
+          "motivation": "研究LPBF Ti-6Al-4V点阵结构在扭转和轴向载荷下的疲劳行为。",
+          "method": "独特试样设计实现扭转疲劳自定心，轴向疲劳含拉-拉、压-压、拉-压模式，并用局部应力法分析。",
+          "result": "拉伸是最有害的轴向模式；局部应力法使轴向和扭转疲劳数据归一化。",
+          "validation": "通过扭转和轴向疲劳实验验证，辅以断口分析。"
         },
         "summary_en": {
-          "motivation": "To investigate the role of chromium oxides and carbides in strengthening CoCrFeNi multi-principal element alloys for high-temperature applications.",
-          "method": "Samples were prepared via arc melting, gas atomization, and mechanical alloying, and mechanical properties were tested at room temperature and 575°C.",
-          "result": "Oxide dispersoids enhanced high-temperature mechanical properties through precipitation strengthening and twinning-induced plasticity, while carbides increased strength but reduced ductility.",
-          "validation": "Mechanical testing at two temperatures."
+          "motivation": "To characterize torsional and axial fatigue behavior of additively manufactured Ti-6Al-4V diamond lattices, which are critical for lightweight and biomedical applications.",
+          "method": "A self-centering, graded sample design minimized stress concentrations for torsional fatigue; axial fatigue tests were performed in tension-tension, compression-compression, and tension-compression; an analytical local stress method (LSM) estimated maximum local stresses.",
+          "result": "Tensile mode was most detrimental; LSM consolidated axial and torsional fatigue data onto a master curve based on local stress.",
+          "validation": "Experimental fatigue testing with fractographic analysis validated the approach."
         },
         "key_terms": [
           {
-            "en": "multi-principal element alloy",
-            "zh": "多主元合金"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "chromium oxide",
-            "zh": "氧化铬"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "chromium carbide",
-            "zh": "碳化铬"
+            "en": "fatigue behavior",
+            "zh": "疲劳行为"
           },
           {
-            "en": "precipitation strengthening",
-            "zh": "沉淀强化"
+            "en": "lattice structures",
+            "zh": "点阵结构"
           },
           {
-            "en": "twinning-induced plasticity",
-            "zh": "孪生诱导塑性"
+            "en": "torsional fatigue",
+            "zh": "扭转疲劳"
           },
           {
-            "en": "high-temperature mechanical properties",
-            "zh": "高温力学性能"
+            "en": "axial fatigue",
+            "zh": "轴向疲劳"
           },
           {
-            "en": "arc melting",
-            "zh": "电弧熔炼"
+            "en": "local stress method",
+            "zh": "局部应力法"
           },
           {
-            "en": "gas atomization",
-            "zh": "气雾化"
+            "en": "diamond cell",
+            "zh": "金刚石单元"
           },
           {
-            "en": "mechanical alloying",
-            "zh": "机械合金化"
+            "en": "mean stress sensitivity",
+            "zh": "平均应力敏感性"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:14:51Z"
-    },
-    {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2510.04589v1",
-      "doi": "",
-      "arxiv_id": "2510.04589v1",
-      "title": "Investigating into mechanisms of high temperature strength of refractory high-entropy alloys",
-      "abstract": "The yield strength plateau of two BCC refractory high entropy alloys (RHEAs) - MoNbTaVW and MoNbTaW was examined through hybrid Monte Carlo and molecular dynamics (MC/MD) simulations. By analyzing atomic diffusivities derived from vacancy formation and migration energies around the edge dislocation cores, the number of critical atomic swaps were calculated at different temperatures. Using hybrid MC/MD simulations of these critical swaps, we demonstrate that above 1400K, the stress required to move the dislocations gets saturated, indicating the effect of Dynamic Strain Ageing (DSA) via cross core motion. Further simulations on random solid solutions (0 MC swaps) revealed a similar plateau effect at the intermediate temperatures. This was attributed to the additional athermal stress arising from lattice distortions due to solid solution strengthening. Our findings suggest that the yield strength plateau results from an interplay between the DSA-driven diffusion process and athermal stress. Specifically, the plateau emerges from DSA mechanisms in the presence of atomic diffusion, whereas in the absence of diffusion, it is governed by athermal statistical lattice distortions. This dual mechanism framework provides a comprehensive explanation for the experimentally observed Yield strength behavior in RHEAs at intermediate temperatures.",
-      "authors": [
-        "Sai Anandhi Seetharaman",
-        "Soumyadipta Maiti",
-        "Ambesh Gupta",
-        "Beena Rai"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2025,
-      "date": "2025-10-06",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2510.04589v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "physics.comp-ph"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "yield strength"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究难熔高熵合金的高温强度机制，与用户的研究方向（生物打印、髋关节植入物、FEA代理模型、增材制造生物医学）无直接关联。",
-        "why_not_core": "This paper investigates high-temperature strength mechanisms of refractory high-entropy alloys using atomistic simulations, with no experimental validation, no biomedical application, no implant mechanics, no additive manufacturing context, and no FEA surrogate modeling.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "high-entropy alloys",
-          "molecular dynamics",
-          "Monte Carlo",
-          "dynamic strain ageing",
-          "yield strength"
-        ],
-        "summary_zh": {
-          "motivation": "理解BCC难熔高熵合金在中温下的屈服强度平台机制",
-          "method": "采用混合蒙特卡洛和分子动力学模拟分析位错核心附近的原子扩散和应力",
-          "result": "发现屈服强度平台源于动态应变时效和热应力的共同作用",
-          "validation": "无实验验证，纯数值模拟"
-        },
-        "summary_en": {
-          "motivation": "To understand the mechanisms behind the yield strength plateau in BCC refractory high-entropy alloys at intermediate temperatures.",
-          "method": "Hybrid Monte Carlo and molecular dynamics simulations were used to analyze atomic diffusion and stress around edge dislocation cores.",
-          "result": "The yield strength plateau arises from the interplay between dynamic strain ageing and athermal stress from lattice distortions.",
-          "validation": "No experimental validation was performed; the study relies solely on numerical simulations."
-        },
-        "key_terms": [
-          {
-            "en": "refractory high-entropy alloy",
-            "zh": "难熔高熵合金"
-          },
-          {
-            "en": "yield strength plateau",
-            "zh": "屈服强度平台"
-          },
-          {
-            "en": "dynamic strain ageing",
-            "zh": "动态应变时效"
-          },
-          {
-            "en": "Monte Carlo simulation",
-            "zh": "蒙特卡洛模拟"
-          },
-          {
-            "en": "molecular dynamics",
-            "zh": "分子动力学"
-          },
-          {
-            "en": "edge dislocation",
-            "zh": "刃型位错"
-          },
-          {
-            "en": "athermal stress",
-            "zh": "非热应力"
-          },
-          {
-            "en": "solid solution strengthening",
-            "zh": "固溶强化"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:14:51Z"
-    },
-    {
-      "source": "openalex",
-      "id": "https://openalex.org/W4417472948",
-      "doi": "10.1109/khpiweek61436.2025.11288605",
-      "title": "Comparative Biomechanical Analysis of Shape-Closed and Force-Closed Femoral Stems in Total Hip Arthroplasty",
-      "abstract": "The femoral stem design and cementation technique are among the most important factors determining the long-term success of total hip arthroplasty (THA), especially in patients with low bone quality. Cemented femoral stems can be force-closed or shape-closed, and each type demonstrates unique biomechanical attributes and clinical results. This study focuses on the comparative biomechanical analysis of force-closed versus shape-closed cemented femoral stems, which compares their structural and fatigue properties under physiologically relevant loading conditions. A three-dimensional structural analysis is performed on two cemented femoral stem designs such as i) a collarless, force-closed stem and ii) a collared, shape-closed stem. Static structural and fatigue analysis simulations were conducted for steady loading and a dynamic response. The results were examined for certain key parameters, including von Mises stress, total deformation, strain, and safety factor. Under static loading, the shape-closed design demonstrated superior mechanical performance concerning lower von Mises stress (44.7 MPa vs. 112.5 MPa), strain (2.84×10<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">-4</sup> vs. 5.54×10-4), and deformation (6.27×10-3 mm vs. 7.76×10-3 mm). Dynamic load simulations also showed similar trends in the results. The fatigue analysis corroborated this enhanced performance of the shape-closed stem, revealing a factor of safety more than 2 times higher for every loading condition from the analysis. A femoral stem with a shape-closed design with a biomechanically optimized collar and control of proximal geometry can provide higher stability and fatigue resistance compared with a force-closed design. The results, therefore, imply that shape-closed stems should provide greater durability than forced-closed stems in the press-fit condition of cemented THA, particularly when cementing techniques are not adequate.",
-      "authors": [
-        "Umme Nashitun Haque",
-        "Samia Jahan Emu",
-        "Ishrat Sayeeda Tashfia",
-        "Saira Binte Awal",
-        "Faria Tasnim",
-        "Md Enamul Hoque"
-      ],
-      "first_author_affiliation": "Military Institute of Science and Technology,Dept of Biomedical Engineering,Dhaka,Bangladesh",
-      "corresponding_authors": [
-        {
-          "name": "Umme Nashitun Haque",
-          "affiliation": "Military Institute of Science and Technology,Dept of Biomedical Engineering,Dhaka,Bangladesh"
-        }
-      ],
-      "venue": "",
-      "year": 2025,
-      "date": "2025-10-06",
-      "date_precision": "day",
-      "url": "https://doi.org/10.1109/khpiweek61436.2025.11288605",
-      "cited_by_count": 0,
-      "concepts": [
-        "von Mises yield criterion",
-        "Total hip arthroplasty",
-        "Collar",
-        "Biomechanics",
-        "Orthodontics",
-        "Initial stability",
-        "Femoral neck",
-        "Stress (linguistics)",
-        "Deformation (meteorology)",
-        "Medicine",
-        "Prosthesis",
-        "Total hip replacement",
-        "Femur",
-        "Dynamic loading"
-      ],
-      "categories": [],
-      "raw_type": "article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Medium",
-        "relevance_level": "Direct",
-        "read_action": "Skim only",
-        "relevance_to_user": "该论文直接比较两种骨水泥型股骨柄在植入后的应力与疲劳性能，与用户髋关节植入物方向高度相关",
-        "why_not_core": "该研究仅为有限元仿真对比，缺少实验验证、增材制造工艺或AI代理模型相关内容",
-        "validation_kind": "simulation_case",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "femoral stem",
-          "cemented THA",
-          "biomechanical analysis",
-          "FEA",
-          "fatigue analysis"
-        ],
-        "summary_zh": {
-          "motivation": "比较形状闭合与力闭合型骨水泥股骨柄的生物力学性能",
-          "method": "对两种股骨柄进行三维有限元静力学和疲劳分析",
-          "result": "形状闭合型股骨柄的von Mises应力、应变和变形更小，安全系数更高",
-          "validation": "通过有限元模拟验证，无实验数据"
-        },
-        "summary_en": {
-          "motivation": "This study compares the biomechanical performance of shape-closed and force-closed cemented femoral stems in total hip arthroplasty.",
-          "method": "Three-dimensional finite element analysis was performed for static structural and fatigue simulations under physiologically relevant loading.",
-          "result": "The shape-closed design exhibited significantly lower von Mises stress, strain, and deformation, along with a higher safety factor under both static and dynamic conditions.",
-          "validation": "Validation was limited to simulation results; no experimental or clinical validation was conducted."
-        },
-        "key_terms": [
-          {
-            "en": "femoral stem",
-            "zh": "股骨柄"
-          },
-          {
-            "en": "shape-closed",
-            "zh": "形状闭合型"
-          },
-          {
-            "en": "force-closed",
-            "zh": "力闭合型"
-          },
-          {
-            "en": "cemented THA",
-            "zh": "骨水泥型全髋关节置换"
-          },
-          {
-            "en": "von Mises stress",
-            "zh": "von Mises应力"
-          },
-          {
-            "en": "fatigue analysis",
-            "zh": "疲劳分析"
-          },
-          {
-            "en": "safety factor",
-            "zh": "安全系数"
-          },
-          {
-            "en": "finite element analysis",
-            "zh": "有限元分析"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:14:51Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:41096136",
-      "doi": "10.3390/jcm14197056",
-      "pmid": "41096136",
-      "title": "Predisposition of Hip Prosthesis Component Positioning on Dislocation Risk: Biomechanical Considerations Based on Finite Element Method Analysis.",
-      "abstract": "Background/Objectives: Total hip arthroplasty (THA) is a widely accepted and effective intervention for advanced degenerative hip disease. However, prosthetic dislocation remains one of the most common postoperative complications. This study aimed to evaluate the biomechanical consequences of implant positioning variations and their influence on prosthetic stability. Methods: A three-dimensional finite element model (FEM) of the pelvis and hip joint was developed using SolidWorks Professional 2025, based on CT imaging of an anatomically normal adult. Multiple implant configurations were simulated, varying acetabular cup inclination and anteversion angles, femoral stem depth, and femoral offset. Muscle force vectors replicating single-leg stance conditions were applied according to biomechanical reference data. The mechanical performance of each configuration was quantified using the safety factor (SF), defined as the ratio of allowable material stress to calculated stress in the model. Results: The configuration with 45° cup inclination, 15° anteversion, standard femoral offset, and optimal stem depth demonstrated the highest SF values (9-12), indicating a low risk of mechanical failure or dislocation. In contrast, malpositioned implants-particularly those with low or high anteversion, excessive offset, or shallow stem insertion-resulted in a marked decrease in SF values (2-5), especially in the anterosuperior and posterosuperior quadrants of the acetabular interface. Conclusions: The findings underscore the critical importance of precise implant alignment in THA. Even moderate deviations from optimal positioning can substantially compromise biomechanical stability and increase the risk of dislocation. These results support the need for individualized preoperative planning and the use of assistive technologies during surgery to enhance implant placement accuracy and improve clinical outcomes.",
-      "authors": [
-        "Maciej Kostewicz",
-        "Marcin Zaczyk",
-        "Grzegorz Szczęsny"
-      ],
-      "first_author_affiliation": "Department of Orthopedics and Traumatology of the Musculoskeletal System, Medical University of Warsaw, 02-091 Warsaw, Poland.",
-      "corresponding_authors": [
-        {
-          "name": "Grzegorz Szczęsny",
-          "affiliation": "Department of Orthopedics and Traumatology of the Musculoskeletal System, Medical University of Warsaw, 02-091 Warsaw, Poland.",
-          "inferred": true
-        }
-      ],
-      "venue": "Journal of clinical medicine",
-      "year": 2025,
-      "date": "2025-10-06",
-      "date_precision": "day",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41096136/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Medium",
-        "relevance_level": "Direct",
-        "read_action": "Skim only",
-        "relevance_to_user": "该论文研究了髋关节假体位置对脱位风险的影响，与用户关注的人工髋关节应力遮挡和稳定性有一定关联，但未涉及应力遮挡或微动分析。",
-        "why_not_core": "This paper focuses on dislocation risk due to implant positioning, not on stress shielding, micromotion, or bone-implant interface mechanics which are the core of the user's hip implant direction.",
-        "validation_kind": "simulation_case",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "total hip arthroplasty",
-          "dislocation",
-          "finite element analysis",
-          "implant positioning",
-          "safety factor"
-        ],
-        "summary_zh": {
-          "motivation": "评估髋关节假体位置变化对脱位风险的生物力学影响",
-          "method": "基于CT建立骨盆-髋关节三维有限元模型，改变髋臼杯倾角、前倾角、股骨柄深度和股骨偏距",
-          "result": "最佳位置组合安全系数高，不良位置显著降低稳定性",
-          "validation": "单一解剖模型下的有限元模拟分析"
-        },
-        "summary_en": {
-          "motivation": "To evaluate the biomechanical consequences of hip prosthesis component positioning on dislocation risk under single-leg stance loading.",
-          "method": "A 3D finite element model of the pelvis and hip joint was developed from CT data, simulating variations in cup inclination, anteversion, stem depth, and femoral offset.",
-          "result": "Optimal implant positioning achieved safety factors of 9-12, while malposition reduced values to 2-5, indicating increased dislocation risk.",
-          "validation": "The study is a computational simulation case using a single anatomical model without experimental or clinical validation."
-        },
-        "key_terms": [
-          {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换术"
-          },
-          {
-            "en": "dislocation",
-            "zh": "脱位"
-          },
-          {
-            "en": "finite element analysis",
-            "zh": "有限元分析"
-          },
-          {
-            "en": "acetabular cup inclination",
-            "zh": "髋臼杯倾角"
-          },
-          {
-            "en": "anteversion",
-            "zh": "前倾角"
-          },
-          {
-            "en": "femoral offset",
-            "zh": "股骨偏距"
-          },
-          {
-            "en": "safety factor",
-            "zh": "安全系数"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:14:51Z"
+      "first_seen_at": "2026-06-07T23:17:25Z"
     }
   ],
   "counts": {
-    "fetched_total": 5,
+    "fetched_total": 2,
     "by_source": {
-      "arxiv": 3,
-      "openalex": 1,
-      "pubmed": 1
+      "openalex": 2
     },
-    "after_dedup": 5,
-    "after_routing": 5,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "mechanical_properties": 3,
-      "am_femoral_stem": 2
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 3,
-      "openalex": 1,
-      "pubmed": 1
+      "openalex": 2
     },
-    "scored": 5,
+    "scored": 2,
     "priority_counts": {
-      "Low": 1,
-      "Exclude": 2,
-      "Medium": 2
+      "Exclude": 1,
+      "High": 1
     }
   }
 }

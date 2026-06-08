@@ -1,0 +1,157 @@
+{
+  "schema_version": "v2",
+  "date": "2026-01-03",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7124759843",
+      "doi": "10.21285/1814-3520-2025-4-477-491",
+      "title": "Selection of cutting parameters based on tool strength",
+      "abstract": "This study aimed to improve the efficiency of free cutting of metals by maximizing tool performance. This was achieved through the selection of cutting parameters based on the safety factor of tools. This work employed the finite element method with a Johnson–Cook constitutive model and an Arbitrary Lagrangian–Eulerian mesh adaptation algorithm to simulate the cutting process and reveal the stress distribution in the tool. The tool material was cemented carbide VK8, while the workpieces were steel 45, aluminum alloy 6061-T6, and titanium alloy Ti-6Al-4V. Model adequacy was confirmed by the agreement between the calculated tensile–compressive stress distributions in the tool and the isochromatic lines observed during cutting of lead with an epoxy resin tool. The study established the influence of cutting regimes, workpiece mechanical properties, and tool edge geometry on tool strength. An increase in the cutting depth from 0.2 to 1.4 mm led to a linear increase in the maximum principal stress σ1макс by a factor of 2.05, thereby reducing tool tooth strength. At a depth of 1.4 mm, σ1макс reached 780 MPa, ree-sulting in tool failure. The influence of cutting speed was shown to follow an exponential relationship. An increase in the rake angle reduced tool strength; for instance, during machining with a rake angle of 20° (σ1макс = 760 МПа), the tool failed to maintain its cutting capacity. The safety factor of the tool when machining aluminum alloy 6061-T6 was found to be 3.1 times greater than during free cutting of steel 45. The computational model and analysis of the relationship between tool strength and technological factors enabled the development of a methodology for assigning free‑cutting regimes that incorporate the safety factor of a tool.",
+      "authors": [
+        "B. B. Ponomarev",
+        "Van Duc Nguyen",
+        "V. M. Svinin",
+        "N. V. Vulykh",
+        "Yu. V. Dimov"
+      ],
+      "first_author_affiliation": "Irkutsk National Research Technical University",
+      "corresponding_authors": [
+        {
+          "name": "B. B. Ponomarev",
+          "affiliation": "Irkutsk National Research Technical University"
+        }
+      ],
+      "venue": "iPolytech Journal",
+      "year": 2026,
+      "date": "2026-01-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.21285/1814-3520-2025-4-477-491",
+      "cited_by_count": 0,
+      "concepts": [
+        "Rake angle",
+        "Rake",
+        "Cemented carbide",
+        "Cutting tool",
+        "Machining",
+        "Enhanced Data Rates for GSM Evolution",
+        "Materials science",
+        "Finite element method",
+        "Titanium alloy",
+        "Structural engineering",
+        "Stress (linguistics)",
+        "Mechanical engineering",
+        "Aluminium alloy",
+        "Aluminium",
+        "Material properties",
+        "Carbide",
+        "Alloy",
+        "Deformation (meteorology)",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是切削参数选择，而非Ti-6Al-4V的后处理工艺，与用户关注的后处理对疲劳/力学性能的影响不相关。",
+        "why_not_core": "The paper focuses on cutting tool strength and machining parameter optimization, not on any post-processing treatment (e.g., heat treatment, HIP, shot peening) of Ti-6Al-4V.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "machining parameters",
+          "tool strength",
+          "finite element method",
+          "Ti-6Al-4V",
+          "cutting simulation"
+        ],
+        "summary_zh": {
+          "motivation": "通过最大化刀具性能提高金属自由切削效率。",
+          "method": "采用Johnson-Cook本构模型和ALE网格算法的有限元法模拟切削过程。",
+          "result": "建立了切削参数、工件性能和刀具几何对刀具强度的影响规律。",
+          "validation": "与环氧树脂刀具切削铅的等色线观测结果对比验证模型。"
+        },
+        "summary_en": {
+          "motivation": "To improve metal cutting efficiency by maximizing tool performance through optimal selection of cutting parameters.",
+          "method": "Finite element simulations with Johnson-Cook constitutive model and Arbitrary Lagrangian-Eulerian mesh adaptation were used to analyze stress distribution in the tool during cutting.",
+          "result": "The effects of cutting depth, speed, rake angle, and workpiece material (steel, Al, Ti) on tool strength were quantified, with safety factors determined.",
+          "validation": "Model adequacy was confirmed by comparing simulated tensile-compressive stress distributions in the tool with isochromatic lines observed during lead cutting with an epoxy resin tool."
+        },
+        "key_terms": [
+          {
+            "en": "cutting parameters",
+            "zh": "切削参数"
+          },
+          {
+            "en": "tool strength",
+            "zh": "刀具强度"
+          },
+          {
+            "en": "finite element method",
+            "zh": "有限元法"
+          },
+          {
+            "en": "Johnson-Cook model",
+            "zh": "Johnson-Cook模型"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "safety factor",
+            "zh": "安全系数"
+          },
+          {
+            "en": "machining",
+            "zh": "机械加工"
+          },
+          {
+            "en": "cemented carbide",
+            "zh": "硬质合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:23:51Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

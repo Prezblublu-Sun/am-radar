@@ -4,52 +4,65 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "pubmed",
-      "id": "pubmed:41638519",
-      "doi": "10.1016/j.arth.2026.01.071",
-      "pmid": "41638519",
-      "title": "Mixing Components from Different Manufacturers in Total Hip Arthroplasty: An Analysis of the American Joint Replacement Registry.",
-      "abstract": "BACKGROUND: As implants in primary total hip arthroplasty (THA) continue to evolve, surgeons may elect to combine femoral and acetabular components from different manufacturers. However, the prevalence of mixing implants in contemporary hip arthroplasty is unknown, as is the consequence that this may or may not have on implant survival. METHODS: A nationwide registry was used to select patients 65 years or older who underwent primary THA between 2012 and 2021 and who had a minimum 2-year follow-up to create a retrospective cohort comparison of patients who had matched versus mixed manufacturer components. A total of 434,985 cases were identified [matched: 413,607 (95%), mixed: 21,378 (5%)]. The unadjusted and adjusted risk of all-cause revision, as well as revision for aseptic loosening, infection, instability, and periprosthetic fracture, were modeled with cause-specific Cox models. RESULTS: Mixing THA components increased over time from less than 2% of cases in 2012 to nearly 17% in 2021 (P < 0.001). The mixed cohort more commonly utilized dual mobility bearings (27%, 4,956 versus 7%, 24,631; P < 0.001) and triple-tapered femoral stem designs (18%, 7,185 versus 9%, 27,987; P < 0.001). After controlling for potential confounding variables, there was no difference between the two groups in terms of all-cause revision (hazard ratio (HR) 1.0, 95% confidence interval (CI) 0.9 to 1.1), revision for aseptic loosening (HR 1.2, 95% CI 0.9 to 1.6), revision for infection (HR 1.2, 95% CI 0.9 to 1.4), revision for instability (HR 1.0, 95% CI 0.8 to 1.2), or revision for periprosthetic fracture (HR 0.9, 95% CI 0.7 to 1.2). There was no difference in revision-free survival time between groups. CONCLUSION: Mixing implants from different manufacturers in primary THA does not result in an associated difference in the risk of early revision between mixed versus matched manufacturer components.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7127047314",
+      "doi": "10.3389/fbioe.2025.1675726",
+      "title": "Mechanobiological evaluation of solid and multiple porous humeral stem architectures in reverse shoulder arthroplasty based on design and materials: a finite element study",
+      "abstract": "Introduction: Stress shielding is a major cause of radiological changes in the humeral component, which is commonly evident in cementless stems of reverse shoulder implants. The bulkiness of the humeral stem results in less load being transmitted to the bone, curtailing bone remodeling. Designing an implant with adequate strength and a suitable material that matches the mechanical properties of bone can help prevent the implant migration or loosening, thereby lowering bone resorption. Methods: Humeral stems with no porosity and varied porosities, such as circular, elliptical, and trabecular architecture, were designed using 316L stainless steel and titanium alloy (Ti6Al4V). Finite element analysis (FEA) was conducted on eight bone-implant assemblies under four loading conditions for cortical and trabecular bones. Weighted mean of von Mises stress and mechanobiology associated with the strain energy densities were studied. This serves as a precursor in predicting the effect of stress shielding. Results: The titanium implant with trabecular architecture was mechanically close to the intact bone compared to the other varied porosity designs. It also had better load-bearing capacity than the solid stems. Discussion: These investigations help understand the load-bearing capacity of reverse shoulder humeral stems and ascertain the importance of combining the design and material in enhancing implant stability and longevity.",
       "authors": [
-        "Gregory J Kirchner",
-        "Isabella Zaniletti",
-        "Ayushmita De",
-        "Lucas E Nikkel",
-        "Jeffrey B Stambough"
+        "Pearline Beulah John",
+        "Sharmila Nageswaran"
       ],
-      "first_author_affiliation": "Department of Orthopaedics and Rehabilitation, Penn State Milton S. Hershey Medical Center, Hershey, PA, USA. Electronic address: kirchnergj@gmail.com.",
+      "first_author_affiliation": "Department of Sensor and Biomedical Technology, School of Electronics Engineering, Vellore Institute of Technology",
       "corresponding_authors": [
         {
-          "name": "Gregory J Kirchner",
-          "affiliation": "Department of Orthopaedics and Rehabilitation, Penn State Milton S. Hershey Medical Center, Hershey, PA, USA. Electronic address: kirchnergj@gmail.com."
+          "name": "Pearline Beulah John",
+          "affiliation": "Department of Sensor and Biomedical Technology, School of Electronics Engineering, Vellore Institute of Technology"
         }
       ],
-      "venue": "The Journal of arthroplasty",
+      "venue": "Frontiers in Bioengineering and Biotechnology",
       "year": 2026,
       "date": "2026-02-02",
       "date_precision": "day",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41638519/",
+      "url": "https://doi.org/10.3389/fbioe.2025.1675726",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
+      "concepts": [
+        "Finite element method",
+        "Arthroplasty",
+        "Shoulder Prosthesis",
+        "Materials science",
+        "Implant",
+        "Biomedical engineering",
+        "Orthodontics",
+        "Porosity",
+        "Arthroplasty replacement",
+        "Stability (learning theory)"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "porosity"
+        ],
+        "ti6al4v_femoral_stem": [
+          "Ti6Al4V",
+          "stress shielding"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文是关于全髋关节置换术中混合不同制造商组件的临床登记研究，与用户关注的增材制造或传统股骨柄设计、生物力学分析无关。",
-        "why_not_core": "This paper is a clinical registry analysis of component mixing in THA with no focus on femoral stem design, additive manufacturing, biomechanical modeling, or implant mechanical validation.",
-        "validation_kind": "clinical",
+        "relevance_to_user": "该文研究肩关节假体，与用户关注的髋关节股骨柄设计方向不符，属于不同解剖部位。",
+        "why_not_core": "The paper studies humeral stems for reverse shoulder arthroplasty, not femoral/hip stems, thus it does not meet the required anatomical focus on the hip joint.",
+        "validation_kind": "simulation_case",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
@@ -57,71 +70,67 @@
           "is_review": false
         },
         "tags": [
-          "total hip arthroplasty",
-          "component mixing",
-          "registry study",
-          "clinical outcomes"
+          "reverse shoulder arthroplasty",
+          "humeral stem",
+          "finite element analysis",
+          "stress shielding"
         ],
         "summary_zh": {
-          "motivation": "探究混合制造商组件在全髋关节置换中的发生率及对假体存留的影响",
-          "method": "基于美国关节置换登记处2012-2021年的434985例数据，使用Cox模型比较匹配与混合组件的翻修风险",
-          "result": "混合组件使用率从2%升至17%，但早期翻修风险与匹配组件无差异",
-          "validation": "大规模临床登记数据回顾性队列分析"
+          "motivation": "探索多孔肱骨柄设计对减少应力遮挡的效果",
+          "method": "设计四种孔径结构并采用FEA分析力学响应",
+          "result": "Ti6Al4V梯形多孔柄力学性能最接近完整骨骼",
+          "validation": "仅FEA仿真，无实验验证"
         },
         "summary_en": {
-          "motivation": "To investigate the prevalence and revision risk of mixing femoral and acetabular components from different manufacturers in primary total hip arthroplasty.",
-          "method": "A retrospective cohort study of 434,985 primary THA cases from a national registry (2012-2021) using cause-specific Cox proportional hazards models to compare revision risks between matched and mixed manufacturer components.",
-          "result": "Mixing components increased over time but showed no significant difference in all-cause revision, aseptic loosening, infection, instability, or periprosthetic fracture risk compared to matched components.",
-          "validation": "Large-scale clinical registry data with minimum 2-year follow-up and adjusted multivariable analysis."
+          "motivation": "To reduce stress shielding in reverse shoulder arthroplasty by designing porous humeral stems.",
+          "method": "Four stem architectures (solid, circular, elliptical, trabecular) were modeled in 316L SS and Ti6Al4V and analyzed via FEA under four loading conditions.",
+          "result": "The Ti6Al4V stem with trabecular architecture showed mechanical behavior closest to intact bone.",
+          "validation": "Finite element simulation only, without experimental validation."
         },
         "key_terms": [
           {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换术"
+            "en": "stress shielding",
+            "zh": "应力遮挡"
           },
           {
-            "en": "component mixing",
-            "zh": "组件混合"
+            "en": "humeral stem",
+            "zh": "肱骨柄"
           },
           {
-            "en": "registry study",
-            "zh": "登记研究"
+            "en": "reverse shoulder arthroplasty",
+            "zh": "反向肩关节置换术"
           },
           {
-            "en": "revision risk",
-            "zh": "翻修风险"
+            "en": "finite element analysis",
+            "zh": "有限元分析"
           },
           {
-            "en": "aseptic loosening",
-            "zh": "无菌性松动"
+            "en": "porous architecture",
+            "zh": "多孔结构"
           },
           {
-            "en": "dual mobility bearing",
-            "zh": "双动轴承"
-          },
-          {
-            "en": "triple-tapered femoral stem",
-            "zh": "三重锥度股骨柄"
+            "en": "titanium alloy",
+            "zh": "钛合金"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:19:20Z"
+      "first_seen_at": "2026-06-07T23:25:34Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "pubmed": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "am_femoral_stem": 1
+      "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "pubmed": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {

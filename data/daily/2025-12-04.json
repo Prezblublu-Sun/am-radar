@@ -4,116 +4,139 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "pubmed",
-      "id": "pubmed:41470161",
-      "doi": "10.3390/medicina61122159",
-      "pmid": "41470161",
-      "title": "Quality of Life Following Vancouver Type B Periprosthetic Femoral Fractures: A Cross-Sectional Study.",
-      "abstract": "Background and Objectives: Total hip arthroplasty (THA) is a common orthopedic procedure. It helps restore mobility and reduce pain in patients with hip joint disorders. Periprosthetic femoral fracture (PFF) is an acute complication that may occur after primary THA. The rate of PFFs after primary total hip replacement is approximately 1%. The aim of this study was to assess the overall quality of life of patients following PFF surgery. Materials and Methods: This cross-sectional study included 60 patients with PFFs of Vancouver type B (32 females and 28 males, respectively), with a mean age of 73.02 ± 8.97 years and 30 controls who underwent primary THA. Quality of life was assessed at least 12 months postoperatively using the validated Serbian SF-36 questionnaire and clinical examination. Results: Older age correlated with declines in Physical and Emotional functioning, Vitality (Energy/fatigue), and Social activities (overall SF-36: r = -0.619, p < 0.01). Patients who underwent femoral stem revision with osteosynthesis (B2 and B3) showed better quality of life compared to those who underwent osteosynthesis alone (B1) in General health perceptions (t = -2.266, p = 0.027) and Physical functioning (t = 2.526, p = 0.014). Patients after PFF surgery had lower postoperative quality of life compared to those who underwent primary THA (overall SF-36: 66.68 ± 15.60 vs. 84.10 ± 14.65, t = -5.092, p < 0.0005). Conclusions: Patients with PFF have a lower quality of life than those after primary THA, while combined stem revision and osteosynthesis yield better outcomes than osteosynthesis alone.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4416985287",
+      "doi": "10.17973/mmsj.2025_12_2025168",
+      "title": "IMPACT OF CRYOGENIC MILLING ON TOOL LIFE AND SURFACE INTEGRITY",
+      "abstract": "The machining of titanium alloys is associated with high temperature levels which result in rapid tool wear and poor surface integrity. To overcome this issue, cooling the cutting zone has emerged as a solution. This study evaluates the impact of different cooling/lubrication techniques on tool life, tool wear, and surface integrity during the milling of Ti-6Al-4V. The results show that using LCO2 and MQL extends tool life by factors of 2.4 and 2.9, respectively, compared to conventional flood cooling. These techniques also improve the surface quality of the machined parts.",
       "authors": [
-        "Nemanja Gvozdenović",
-        "Miodrag Vranješ",
-        "Igor Lekić",
-        "Sveto Bjelan",
-        "Andrijana Ćorić"
+        "Achraf Fersi",
+        "A. Yessine",
+        "Luca Bruno",
+        "G. Guenael"
       ],
-      "first_author_affiliation": "Faculty of Medicine, University of Novi Sad, Hajduk Veljkova 3, 21137 Novi Sad, Serbia.; Clinic for Orthopedic Surgery and Traumatology, University Clinical Center of Vojvodina, Hajduk Veljkova 1, 21137 Novi Sad, Serbia.",
+      "first_author_affiliation": "",
       "corresponding_authors": [
         {
-          "name": "Andrijana Ćorić",
-          "affiliation": "Faculty of Medicine, University of Novi Sad, Hajduk Veljkova 3, 21137 Novi Sad, Serbia.",
-          "inferred": true
+          "name": "Achraf Fersi",
+          "affiliation": ""
         }
       ],
-      "venue": "Medicina (Kaunas, Lithuania)",
+      "venue": "MM Science Journal",
       "year": 2025,
       "date": "2025-12-04",
       "date_precision": "day",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41470161/",
+      "url": "https://doi.org/10.17973/mmsj.2025_12_2025168",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
+      "concepts": [
+        "Surface integrity",
+        "Machining",
+        "Tool wear",
+        "Materials science",
+        "Metallurgy",
+        "Surface (topology)",
+        "Titanium alloy",
+        "Cutting tool",
+        "Mechanical engineering",
+        "End milling",
+        "Structural integrity",
+        "Titanium"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining",
+          "surface integrity"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文仅涉及临床生活质量评估，未涉及生物力学建模、植入物设计或增材制造内容。",
-        "why_not_core": "No biomechanics modeling, no implant design, no FEA, no AM-related content.",
-        "validation_kind": "none",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的铣削加工，但未针对增材制造零件或后处理对疲劳/力学性能的影响进行研究。",
+        "why_not_core": "Does not evaluate mechanical performance (fatigue/tensile) nor microstructure evolution from post-processing; focuses on cutting tool life and surface roughness during conventional machining, not on AM Ti-6Al-4V post-processing effects.",
+        "validation_kind": "mechanical_testing",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "clinical study",
-          "quality of life",
-          "periprosthetic fracture"
+          "Ti-6Al-4V",
+          "cryogenic milling",
+          "tool life",
+          "surface integrity",
+          "cooling techniques"
         ],
         "summary_zh": {
-          "motivation": "评估股骨假体周围骨折术后患者的生活质量",
-          "method": "横断面研究，使用SF-36问卷和临床检查",
-          "result": "PFF患者生活质量低于初次THA，联合翻修优于单纯内固定",
-          "validation": "统计分析比较不同治疗组的生活质量"
+          "motivation": "研究冷却技术以提高Ti-6Al-4V铣削中的刀具寿命和表面质量。",
+          "method": "采用LCO2、MQL与传统冷却方式对比实验。",
+          "result": "LCO2和MQL使刀具寿命延长2.4-2.9倍，表面质量提升。",
+          "validation": "通过刀具磨损和表面粗糙度测量验证。"
         },
         "summary_en": {
-          "motivation": "To assess the quality of life of patients after periprosthetic femoral fracture surgery.",
-          "method": "A cross-sectional study using the SF-36 questionnaire and clinical examination at least 12 months postoperatively.",
-          "result": "Patients with PFF had lower quality of life than those after primary THA, and combined stem revision with osteosynthesis yielded better outcomes than osteosynthesis alone.",
-          "validation": "Statistical comparison of SF-36 scores between treatment groups and controls."
+          "motivation": "To investigate cooling techniques for improving tool life and surface quality during milling of Ti-6Al-4V.",
+          "method": "Experimental comparison of liquid CO2, minimum quantity lubrication, and conventional flood cooling in face milling.",
+          "result": "Cryogenic and MQL techniques extended tool life by factors of 2.4 and 2.9, respectively, and improved surface integrity.",
+          "validation": "Tool wear measurements and surface roughness characterization."
         },
         "key_terms": [
           {
-            "en": "quality of life",
-            "zh": "生活质量"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "periprosthetic femoral fracture",
-            "zh": "股骨假体周围骨折"
+            "en": "cryogenic milling",
+            "zh": "低温铣削"
           },
           {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换术"
+            "en": "tool life",
+            "zh": "刀具寿命"
           },
           {
-            "en": "Vancouver classification",
-            "zh": "温哥华分型"
+            "en": "surface integrity",
+            "zh": "表面完整性"
+          },
+          {
+            "en": "minimum quantity lubrication",
+            "zh": "微量润滑"
+          },
+          {
+            "en": "liquid carbon dioxide",
+            "zh": "液态二氧化碳"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:17:08Z"
+      "first_seen_at": "2026-06-07T23:21:34Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "pubmed": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "am_femoral_stem": 1
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "pubmed": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {
-      "Exclude": 1
+      "Low": 1
     }
   }
 }

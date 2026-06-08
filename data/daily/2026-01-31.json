@@ -4,123 +4,297 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2602.00562v1",
-      "doi": "",
-      "arxiv_id": "2602.00562v1",
-      "title": "Synergistic effect of the electronic band delocalization and bond anharmonicity on the thermoelectric performance of Cs2TeX6(X=Cl, Br, I)",
-      "abstract": "We investigate the structural, mechanical, and thermoelectric properties of lead-free double halide perovskites Cs2TeX6 (X = Cl, Br, I) using first-principles calculations and semiclassical Boltzmann transport theory. The HSE06 band gap is incorporated using the scissor correction method along with PBE calculated electronic band structures including spin orbit coupling to accurately predict transport properties. The band gap values are 3.27, 2.50, and 1.55 eV for Cs2TeX6 (X = Cl, Br, I), respectively. The coexistence of heavy and light bands in the Cs2TeI6 band structure helps mitigate the trade-off between the Seebeck coefficient and electrical conductivity. Among these systems, Cs2TeI6 exhibits superior performance with a ZT of 1.97 at 800 K and an electronic concentration of 3.35 x 10^19 cm^-3. Such a high ZT at relatively low carrier concentration arises from high electrical conductivity combined with low lattice thermal conductivity. The lattice thermal conductivity of Cs2TeI6 is found to be 0.41 W m^-1 K^-1 at room temperature. This low lattice thermal conductivity is attributed to weak Te-I bonding and non-uniform out-of-phase displacement of Cs atoms. The presence of local TeX6 units together with weak bonds strongly resists heat conduction, leading to significant suppression of lattice thermal conductivity. In particular, transverse acoustic phonons and optical phonons play a key role in limiting lattice thermal conductivity. These results identify Cs2TeI6 as a promising candidate for high performance thermoelectric applications.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7126464961",
+      "doi": "10.3390/designs10010013",
+      "title": "Abrasive Water Jet Machining (AWJM) of Titanium Alloy—A Review",
+      "abstract": "Abrasive water jet machining (AWJM) is a non-traditional machining process that is increasingly employed for shaping hard-to-machine materials, particularly titanium (Ti)-based alloys such as Ti-6Al-4V. Owing to its non-thermal nature, AWJM enables effective material removal while minimising metallurgical damage and preserving subsurface integrity. The process performance is governed by several interacting parameters, including jet pressure, abrasive type and flow rate, nozzle traverse speed, stand-off distance, jet incident angle, and nozzle design. These parameters collectively influence key output responses such as the material removal rate (MRR), surface roughness, kerf geometry, and subsurface quality. The existing studies consistently report that the jet pressure and abrasive flow rate are directly proportional to MRR, whereas the nozzle traverse speed and stand-off distance exhibit inverse relationships. Nozzle geometry plays a critical role in jet acceleration and abrasive entrainment through the Venturi effect, thereby affecting the cutting efficiency and surface finish. Optimisation studies based on the design of the experiments identify jet pressure and traverse speed as the most significant parameters controlling the surface quality in the AWJM of titanium alloys. Recent research demonstrates the effectiveness of artificial neural networks (ANNs) for process modelling and optimisation of AWJM of Ti-6Al-4V, achieving high predictive accuracy with limited experimental data. This review highlights research gaps in artificial intelligence-based fatigue behaviour prediction, computational fluid dynamics analysis of nozzle wear mechanisms and jet behaviour, and the development of hybrid AWJM systems for enhanced machining performance.",
       "authors": [
-        " Heena",
-        "Vineet Kumar Pandey",
-        "Saanvi Marethiya",
-        "Ambesh Dixit",
-        "Ajay Singh Verma",
-        "K. C. Bhamu"
+        "Aravinthan Arumugam",
+        "Alokesh Pramanik",
+        "Amit Rai Dixit",
+        "Animesh Kumar Basak"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "School of Mechanical Engineering, Engineering Institute of Technology, Perth, WA 6005, Australia",
+      "corresponding_authors": [
+        {
+          "name": "Aravinthan Arumugam",
+          "affiliation": "School of Mechanical Engineering, Engineering Institute of Technology, Perth, WA 6005, Australia"
+        }
+      ],
+      "venue": "Designs",
       "year": 2026,
       "date": "2026-01-31",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2602.00562v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.3390/designs10010013",
+      "cited_by_count": 1,
+      "concepts": [
+        "Nozzle",
+        "Traverse",
+        "Machining",
+        "Materials science",
+        "Jet (fluid)",
+        "Abrasive",
+        "Venturi effect",
+        "Titanium alloy",
+        "Volumetric flow rate",
+        "Mechanical engineering",
+        "Metallurgy",
+        "Flow (mathematics)",
+        "Titanium"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness",
+          "fatigue"
         ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究热电材料性能，与增材制造力学性能方向无关。",
-        "why_not_core": "This paper studies thermoelectric halide perovskites with no additive manufacturing context, no mechanical testing, and no relevance to AM mechanical properties of biomedical implants.",
+        "read_action": "Background only",
+        "relevance_to_user": "该文章是关于磨料水射流加工钛合金的综述，未聚焦于增材制造Ti-6Al-4V的后处理对疲劳或力学性能的影响。",
+        "why_not_core": "This is a general review on abrasive water jet machining of titanium alloys, not specifically addressing post-processing effects on the fatigue or mechanical performance of additively manufactured Ti-6Al-4V.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
-          "is_review": false
+          "is_review": true
         },
         "tags": [
-          "thermoelectric",
-          "perovskite",
-          "first-principles"
+          "abrasive water jet machining",
+          "titanium alloy",
+          "Ti-6Al-4V",
+          "review",
+          "surface integrity"
         ],
         "summary_zh": {
-          "motivation": "探索无铅卤化物双钙钛矿的热电性能潜力",
-          "method": "基于第一性原理计算和玻尔兹曼输运理论，结合HSE06带隙校正",
-          "result": "Cs2TeI6在800K时ZT值达1.97，晶格热导率仅0.41 W/mK",
-          "validation": "理论计算与现有数据对比验证"
+          "motivation": "综述磨料水射流加工钛合金的研究现状。",
+          "method": "通过文献综述分析加工参数对性能的影响。",
+          "result": "总结了压力、速度等参数对材料去除率和表面质量的作用。",
+          "validation": "基于已有文献的系统总结。"
         },
         "summary_en": {
-          "motivation": "To investigate the thermoelectric performance of lead-free double halide perovskites Cs2TeX6 using first-principles calculations.",
-          "method": "First-principles calculations with HSE06 scissor correction and semiclassical Boltzmann transport theory.",
-          "result": "Cs2TeI6 achieves a high ZT of 1.97 at 800 K due to low lattice thermal conductivity from weak Te-I bonding.",
-          "validation": "Theoretical predictions are compared with existing computational benchmarks."
+          "motivation": "To review the current state of research on abrasive water jet machining of titanium alloys.",
+          "method": "A comprehensive literature review was conducted to analyze the effects of process parameters on machining performance.",
+          "result": "Key parameters such as jet pressure and traverse speed were identified as critical for material removal rate and surface quality.",
+          "validation": "The review is based on existing studies without new experimental validation."
         },
         "key_terms": [
           {
-            "en": "thermoelectric",
-            "zh": "热电"
+            "en": "abrasive water jet machining",
+            "zh": "磨料水射流加工"
           },
           {
-            "en": "perovskite",
-            "zh": "钙钛矿"
+            "en": "titanium alloy",
+            "zh": "钛合金"
           },
           {
-            "en": "band structure",
-            "zh": "能带结构"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "lattice thermal conductivity",
-            "zh": "晶格热导率"
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           },
           {
-            "en": "ZT value",
-            "zh": "热电优值"
+            "en": "material removal rate",
+            "zh": "材料去除率"
+          },
+          {
+            "en": "kerf geometry",
+            "zh": "切缝几何"
+          },
+          {
+            "en": "process parameters",
+            "zh": "工艺参数"
+          },
+          {
+            "en": "review",
+            "zh": "综述"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:18:22Z"
+      "first_seen_at": "2026-06-07T23:23:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7126415755",
+      "doi": "10.1002/adem.202501524",
+      "title": "Regulation Mechanism of Friction Stir Processing Parameters on Microstructure and Properties of Laser Metal Deposited TC4 Titanium Alloy",
+      "abstract": "To enhance the microstructure and mechanical properties of TC4 titanium alloy formed by laser metal deposition (LMD), friction stir processing (FSP) was employed to modify the surface of the as‐deposited TC4 titanium alloy. This study systematically investigates the effects of FSP parameters—rotational speed (250–1050 rpm) and travel speed (50–210 mm min −1 )—on the microstructural evolution and mechanical performance of LMD‐formed TC4 titanium alloy. Results indicate that FSP effectively refines the coarse as‐deposited microstructure into uniform equiaxed grains, eliminates the internal defects such as porosity, and enhances phase homogeneity. Microhardness increased from 305.2 HV 1 (LMD) to a maximum of 345.2 HV 1 at 850 rpm and 210 mm min −1 . Grain refinement was confirmed by broadening XRD peaks and increased β‐phase content at higher rotational speeds. The β‐phase stabilizing element V increased from 3.8% to 5.0% with higher heat input, while Al content varied between 5.2% and 6.3% depending on thermal exposure. Wear resistance improved significantly: wear rate decreased from 5.9 × 10 −4 mm 3 N −1 m −1 (LMD) to 2.22 × 10 −4 mm 3 N −1 m −1 at 850 rpm and 210 mm min −1 . These findings validate that suitable FSP parameters can effectively tailor the microstructure and substantially enhance the mechanical properties of LMD‐formed TC4 alloy, offering a viable route for additive‐equivalent hybrid manufacturing.",
+      "authors": [
+        "K Max Zhang",
+        "Yan Li",
+        "Binghan Li",
+        "Weijun Liu",
+        "Xingwei Jiang",
+        "Huiru Wang",
+        "Hongyou Bian"
+      ],
+      "first_author_affiliation": "School of Mechanical Engineering Shenyang University of Technology  Shenyang China",
+      "corresponding_authors": [
+        {
+          "name": "K Max Zhang",
+          "affiliation": "School of Mechanical Engineering Shenyang University of Technology  Shenyang China"
+        },
+        {
+          "name": "Weijun Liu",
+          "affiliation": "School of Mechanical Engineering Shenyang University of Technology  Shenyang China"
+        }
+      ],
+      "venue": "Advanced Engineering Materials",
+      "year": 2026,
+      "date": "2026-01-31",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1002/adem.202501524",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Friction stir processing",
+        "Microstructure",
+        "Equiaxed crystals",
+        "Titanium alloy",
+        "Indentation hardness",
+        "Titanium",
+        "Metallurgy",
+        "Alloy",
+        "Grain size",
+        "Composite material",
+        "Laser",
+        "Phase (matter)",
+        "Metal"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了激光金属沉积TC4钛合金的摩擦搅拌加工后处理，但没有涉及疲劳性能，因此对L1方向的直接贡献有限。",
+        "why_not_core": "No fatigue testing or fatigue life characterization; focuses on post-processing (FSP) rather than as-built condition.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser metal deposition",
+          "TC4 titanium alloy",
+          "friction stir processing",
+          "microstructure refinement",
+          "wear resistance",
+          "microhardness"
+        ],
+        "summary_zh": {
+          "motivation": "改善激光金属沉积TC4钛合金的微观组织和力学性能。",
+          "method": "系统研究摩擦搅拌加工参数（转速和行进速度）对微观组织和性能的影响。",
+          "result": "摩擦搅拌加工细化晶粒、消除孔隙，显微硬度和耐磨性显著提升。",
+          "validation": "通过微观表征和力学测试验证参数效果。"
+        },
+        "summary_en": {
+          "motivation": "To enhance the microstructure and mechanical properties of laser metal deposited TC4 titanium alloy through friction stir processing.",
+          "method": "Systematically investigate the effects of friction stir processing parameters (rotation speed and travel speed) on microstructural evolution and mechanical performance.",
+          "result": "Friction stir processing effectively refines the coarse as-deposited microstructure, eliminates porosity, and improves microhardness and wear resistance.",
+          "validation": "Validated by microstructural characterization (XRD, SEM), microhardness testing, and wear rate measurements."
+        },
+        "key_terms": [
+          {
+            "en": "laser metal deposition",
+            "zh": "激光金属沉积"
+          },
+          {
+            "en": "TC4 titanium alloy",
+            "zh": "TC4钛合金"
+          },
+          {
+            "en": "friction stir processing",
+            "zh": "摩擦搅拌加工"
+          },
+          {
+            "en": "microstructural refinement",
+            "zh": "微观组织细化"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "rotational speed",
+            "zh": "转速"
+          },
+          {
+            "en": "travel speed",
+            "zh": "行进速度"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙"
+          },
+          {
+            "en": "X-ray diffraction",
+            "zh": "X射线衍射"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:23:51Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "arxiv": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 1,
+      "Medium": 1
     }
   }
 }

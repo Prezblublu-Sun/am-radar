@@ -1,0 +1,156 @@
+{
+  "schema_version": "v2",
+  "date": "2025-11-30",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4416828684",
+      "doi": "10.1016/j.matdes.2025.115247",
+      "title": "Inter-pass peening for residual stress control in additive manufacturing: validation using ultrasonic, X-ray and contour method",
+      "abstract": "• This study investigates inter-pass peening as an in-process residual stress mitigation technique for WAAM Ti-6Al-4V components. • A novel ultrasonic method, PAURS, was applied for residual stress measurement using phased array probes and Full Matrix Capture. • Validation was performed by comparing PAURS results with X-ray Diffraction and the Contour Method on corresponding WAAM samples. • PAURS measurements were carried out along the bottom surface of as-deposited and inter-pass peened samples, while the Contour Method and X-ray Diffraction provided validation. In this study, round-robin experiments were carried out to evaluate the effectiveness of inter-pass peening as an in-process residual stress (RS) mitigation technique for Wire Arc Additive Manufacturing (WAAM) of Ti-6Al-4V components. A newly developed method, Phased Array Ultrasonics for Residual Stress Measurement (PAURS), was evaluated for its capability to accurately characterise residual stress distributions. To validate PAURS, two established techniques, X-ray Diffraction (XRD), a non-destructive method, and the Contour Method (CM), a destructive technique, were employed. PAURS, particularly when implemented with Full Matrix Capture (FMC), demonstrated enhanced accuracy through improved data redundancy and outlier rejection. Results from PAURS and XRD showed good qualitative agreement with finite element (FE) models derived from CM data, despite some quantitative differences. Inter-pass peening was found to significantly reduce tensile RS in the heat-affected zone, with performance comparable to post-process peening. These findings support the use of inter-pass peening as an effective in-process RS mitigation strategy and highlight the potential of PAURS as a reliable, non-destructive RS measurement method for WAAM Ti-6Al-4V components.",
+      "authors": [
+        "Joseph Walker",
+        "Brandon Mills",
+        "Yashar Javadi",
+        "Charles MacLeod",
+        "Yongle Sun",
+        "Bilal Ahmad",
+        "Stewart Williams",
+        "Jialuo Ding",
+        "Saeed Tamimi"
+      ],
+      "first_author_affiliation": "Centre for Ultrasonic Engineering (CUE), Department of Electronic & Electrical Engineering (EEE), University of Strathclyde, Glasgow G1 1XQ, UK",
+      "corresponding_authors": [
+        {
+          "name": "Joseph Walker",
+          "affiliation": "Centre for Ultrasonic Engineering (CUE), Department of Electronic & Electrical Engineering (EEE), University of Strathclyde, Glasgow G1 1XQ, UK"
+        }
+      ],
+      "venue": "Materials & Design",
+      "year": 2025,
+      "date": "2025-11-30",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.matdes.2025.115247",
+      "cited_by_count": 2,
+      "concepts": [
+        "Residual stress",
+        "Peening",
+        "Materials science",
+        "Shot peening",
+        "Residual",
+        "Diffraction",
+        "Redundancy (engineering)",
+        "Composite material",
+        "Stress (linguistics)",
+        "Ultrasonic sensor",
+        "Contour line",
+        "Finite element method",
+        "Ultimate tensile strength",
+        "Structural engineering",
+        "Matrix (chemical analysis)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "residual stress"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "post-process"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了WAAM Ti-6Al-4V的层间喷丸处理对残余应力的影响，但未进行力学性能测试，对理解喷丸后处理对疲劳性能的潜在影响有参考价值。",
+        "why_not_core": "The paper does not measure mechanical performance (fatigue or tensile) but only residual stress, so it does not directly address how post-processing modifies fatigue/mechanical performance.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "inter-pass peening",
+          "residual stress",
+          "WAAM",
+          "Ti-6Al-4V",
+          "ultrasonic measurement",
+          "contour method"
+        ],
+        "summary_zh": {
+          "motivation": "为了在增材制造过程中控制残余应力，研究层间喷丸处理的有效性。",
+          "method": "采用相控阵超声波(PAURS)、X射线衍射和轮廓法测量并验证残余应力分布。",
+          "result": "层间喷丸显著降低热影响区的拉伸残余应力，性能与后处理喷丸相当。",
+          "validation": "通过三种方法交叉验证PAURS的准确性，并与有限元模型对比。"
+        },
+        "summary_en": {
+          "motivation": "This study aims to evaluate inter-pass peening as an in-process residual stress mitigation technique for WAAM Ti-6Al-4V components.",
+          "method": "Residual stresses were measured using Phased Array Ultrasonics (PAURS), X-ray Diffraction, and the Contour Method, with validation via finite element models.",
+          "result": "Inter-pass peening significantly reduced tensile residual stresses in the heat-affected zone, achieving performance comparable to post-process peening.",
+          "validation": "Validation was performed through round-robin comparison of PAURS, XRD, and contour method results against FE simulations."
+        },
+        "key_terms": [
+          {
+            "en": "wire arc additive manufacturing",
+            "zh": "电弧增材制造"
+          },
+          {
+            "en": "inter-pass peening",
+            "zh": "层间喷丸"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "phased array ultrasonics",
+            "zh": "相控阵超声波"
+          },
+          {
+            "en": "contour method",
+            "zh": "轮廓法"
+          },
+          {
+            "en": "X-ray diffraction",
+            "zh": "X射线衍射"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:19:10Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Medium": 1
+    }
+  }
+}

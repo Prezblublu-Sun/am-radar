@@ -4,239 +4,271 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2512.15805v1",
-      "doi": "",
-      "arxiv_id": "2512.15805v1",
-      "title": "A new multiscale modeling approach to unravel the influence of interlayer sp3 bonds on the nonlinear large-deformation and fracture behaviors of 2D carbon nanostructures under tension",
-      "abstract": "To delve deeply into the nonlinear large-deformation and fracture behaviors of 2D carbon nanostructures (2D CNs), including bilayer graphene, diamane, and their transitional structures, this paper introduces a multiscale auxiliary nodes (MAN) method rooted in atomic structures and potentials. This approach simulates 2D CNs by constructing two virtual continuum sheets with high-order continuity. The moving least squares (MLS) approximation is employed to facilitate the transformation between atomic displacements and nodal displacements, thereby converting atomic potential energy into strain energy within the continuum model. Through iterative solutions of nonlinear stiffness equations, the equilibrium configuration of the system under specified loading conditions can be obtained. The flexibility in the density and arrangement of nodes allows for a smooth and seamless cross-scale transition from discrete atomic structures to a continuum model. Numerical simulations demonstrate that MAN method accurately predicts the nonlinear large-deformation and fracture behaviors of 2D CNs. The Young's modulus and shear modulus of diamane in both zigzag and armchair directions closely approach those of diamond and are notably higher than those of graphene. Furthermore, the quantity and distribution of interlayer sp3 bonds significantly influence the fracture behavior of 2D CNs, with strategic placement of these bonds effectively enhancing the tensile strength of the structures.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4417420525",
+      "doi": "10.3311/ppme.41069",
+      "title": "Mechanical and Microstructural Characterization of a Titanium-based Ti-6Al-2Cr-2Ni Alloy Produced by SPS Sintering for Use in the Aerospace Industry",
+      "abstract": "Titanium-based alloys are widely applied in the aerospace industry thanks to their excellent strength-to-weight ratio, good corrosion resistance and thermal stability. In this study, a Ti-6Al-2Cr-2Ni alloy was elaborated by Spark Plasma Sintering (SPS), a technique derived from powder metallurgy that enables rapid, controlled densification. Sintering was carried out at 1000 °C under 30 MPa for 8 minutes in an inert atmosphere. A thermal annealing treatment at 550 °C was then applied to optimize microstructure and mechanical properties. Microstructural characterization by scanning electron microscopy (SEM), combined with EDS elemental analysis, revealed a significant reduction in porosity and progressive homogenization of the alloying elements after treatment. X-ray diffraction (XRD) confirmed the presence of a majority of α-Ti phase, associated with intermetallic compounds. Mechanically, Vickers microhardness measurements showed an increase in hardness after annealing, while instrumented indentation enabled Young's modulus to be reliably determined. These results indicate that the Ti-6Al-2Cr-2Ni alloy developed by SPS is a promising alternative to standard alloys such as Ti-6Al-4V, offering improved microstructural controllability, interesting mechanical properties and thermal optimization potential for advanced aerospace applications.",
       "authors": [
-        "Xiangyang Wang",
-        "Huibo Qi",
-        "Biao Xu",
-        "Shichao Dai",
-        "Jiqiang Li"
+        "Sarra Zioual",
+        "Youcef Khelfaoui",
+        "Djamel Amari",
+        "Salim Abdelli",
+        "Atmane Djermoune"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "<p>Université de Bejaia, Faculté de Technologie, Laboratoire de Mécanique, Matériaux et Energétique (L2ME), 06000 Bejaia, Algeria</p>",
+      "corresponding_authors": [
+        {
+          "name": "Sarra Zioual",
+          "affiliation": "<p>Université de Bejaia, Faculté de Technologie, Laboratoire de Mécanique, Matériaux et Energétique (L2ME), 06000 Bejaia, Algeria</p>"
+        }
+      ],
+      "venue": "Periodica Polytechnica Mechanical Engineering",
       "year": 2025,
       "date": "2025-12-17",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2512.15805v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "cond-mat.mes-hall"
+      "url": "https://doi.org/10.3311/ppme.41069",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Spark plasma sintering",
+        "Metallurgy",
+        "Microstructure",
+        "Alloy",
+        "Sintering",
+        "Powder metallurgy",
+        "Indentation hardness",
+        "Intermetallic",
+        "Vickers hardness test",
+        "Scanning electron microscope",
+        "Porosity",
+        "Aerospace",
+        "Corrosion",
+        "Annealing (glass)",
+        "Composite material",
+        "Characterization (materials science)",
+        "Elastic modulus"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "tensile strength"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "porosity"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "annealing"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究二维碳纳米结构的多尺度力学模型，与增材制造（AM）力学性能方向无直接关联。",
-        "why_not_core": "This paper does not address any additive manufacturing process, material, or mechanical property of AM parts; it focuses on 2D carbon nanostructures with no relevance to AM.",
-        "validation_kind": "numerical_benchmark",
+        "relevance_to_user": "该论文研究的合金为Ti-6Al-2Cr-2Ni，不是Ti-6Al-4V，且制造工艺为放电等离子烧结而非增材制造，与用户关注的后处理对增材制造Ti-6Al-4V力学性能的影响无关。",
+        "why_not_core": "The paper does not study Ti-6Al-4V, does not use additive manufacturing, and does not focus on fatigue or mechanical performance relevant to the post-processing control of AM Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "multiscale modeling",
-          "2D carbon nanostructures",
-          "fracture",
-          "interlayer sp3 bonds"
+          "Ti-6Al-2Cr-2Ni",
+          "SPS",
+          "annealing",
+          "microhardness"
         ],
         "summary_zh": {
-          "motivation": "揭示层间sp3键对二维碳纳米结构大变形与断裂行为的影响。",
-          "method": "提出基于原子势的多尺度辅助节点(man)连续介质方法。",
-          "result": "man方法准确预测非线性大变形与断裂，金刚烷弹性模量接近金刚石。",
-          "validation": "通过数值模拟与已知材料性质对比验证。"
+          "motivation": "探索SPS烧结Ti-6Al-2Cr-2Ni合金的可行性及其退火后的微观结构和力学性能。",
+          "method": "采用SPS在1000°C、30MPa下烧结8分钟，随后进行550°C退火处理，通过SEM、XRD和显微硬度测试表征。",
+          "result": "退火后孔隙率显著降低，硬度增加，弹性模量可靠，该合金有望替代Ti-6Al-4V。",
+          "validation": "通过显微硬度测试和仪器化压痕实验验证力学性能。"
         },
         "summary_en": {
-          "motivation": "To understand how interlayer sp3 bonds influence the nonlinear large-deformation and fracture behavior of 2D carbon nanostructures.",
-          "method": "A multiscale auxiliary nodes (MAN) method is introduced, constructing virtual continuum sheets with MLS approximation to convert atomic potential energy into strain energy.",
-          "result": "The MAN method accurately predicts nonlinear deformation and fracture; diamane exhibits Young's and shear moduli approaching diamond, higher than graphene.",
-          "validation": "Numerical simulations are compared with known properties of diamond and graphene for validation."
+          "motivation": "Investigate the feasibility of producing a Ti-6Al-2Cr-2Ni alloy via Spark Plasma Sintering and the effect of post-sintering annealing on its microstructure and mechanical properties.",
+          "method": "The alloy was sintered at 1000°C under 30 MPa for 8 minutes followed by annealing at 550°C; microstructural and mechanical characterization was performed using SEM, XRD, and microhardness testing.",
+          "result": "Annealing significantly reduced porosity, increased hardness, and enabled reliable modulus determination, suggesting this alloy as a potential alternative to Ti-6Al-4V.",
+          "validation": "Mechanical validation was performed via Vickers microhardness and instrumented indentation tests."
         },
         "key_terms": [
           {
-            "en": "multiscale modeling",
-            "zh": "多尺度建模"
+            "en": "Spark Plasma Sintering",
+            "zh": "放电等离子烧结"
           },
           {
-            "en": "interlayer sp3 bonds",
-            "zh": "层间sp3键"
+            "en": "Ti-6Al-2Cr-2Ni alloy",
+            "zh": "Ti-6Al-2Cr-2Ni合金"
           },
           {
-            "en": "nonlinear fracture",
-            "zh": "非线性断裂"
+            "en": "annealing",
+            "zh": "退火"
           },
           {
-            "en": "diamane",
-            "zh": "金刚烷"
+            "en": "microhardness",
+            "zh": "显微硬度"
           },
           {
-            "en": "graphene",
-            "zh": "石墨烯"
-          },
-          {
-            "en": "moving least squares",
-            "zh": "移动最小二乘法"
+            "en": "Young's modulus",
+            "zh": "杨氏模量"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:17:08Z"
+      "first_seen_at": "2026-06-07T23:21:34Z"
     },
     {
-      "source": "pubmed",
-      "id": "pubmed:41419031",
-      "doi": "10.1016/j.arth.2025.12.021",
-      "pmid": "41419031",
-      "title": "Prevalence, Progression, and Clinical Impact of Stem Notching in Ceramic-on-Ceramic Total Hip Arthroplasty: A Minimum 15-Year Follow-Up Study.",
-      "abstract": "BACKGROUND: Stem notching, resulting from impingement between the femoral stem and ceramic liner in ceramic-on-ceramic (CoC) total hip arthroplasty (THA), has been linked to adverse outcomes such as ceramic-related noise and ceramic component fractures. Despite its potential significance, its true incidence is infrequently documented, and the long-term clinical impact remains uncertain. This study aimed to assess the minimum 15-year outcomes and complications associated with stem notching in CoC THA. METHODS: We performed a retrospective cohort analysis of patients who received CoC THA between November 1997 and December 2003, with a minimum follow-up period of 15 years. Stem notching was diagnosed using radiographic evaluation and was observed in 21.5% of cases (63 of 293). The lesions were monitored for an average of 12.5 years from detection (range, one to 23.2). The primary endpoints included changes in notch depth and the occurrence of ceramic-related complications such as ceramic component fractures and noise generation. The secondary outcomes involved functional evaluation via the modified Harris Hip Score. RESULTS: Notch depth did not demonstrate meaningful progression beyond five years after identification. Lower cup inclination and higher anteversion were associated with the presence of notching. The incidence of ceramic component fractures was 6.3% in notched hips compared to 4.3% in hips without notches (P = 0.509), while noise was noted in 25.4% of notched hips and 22.6% of non-notched hips (P = 0.618). Functional assessment revealed similar outcomes between those who did and did not have notches (mean modified Harris Hip Score: 89.3 versus 91.2; P = 0.103). CONCLUSIONS: Stem notching in CoC THA is a relatively common, but often overlooked phenomenon. Most notches remained stable over time and were not associated with inferior functional outcomes. Although hips with notches showed a higher rate of ceramic-related noise and head fractures, these differences were not statistically significant. Clinicians should recognize this finding, maintain routine follow-up, and reassure patients that a notch alone does not pose any immediate problem. LEVEL OF EVIDENCE: Level III, retrospective therapeutic study.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4417437891",
+      "doi": "10.1007/s12540-025-02050-2",
+      "title": "Enhanced Interdiffusion and Multilayer Formation at Ti-6Al-4V/Ni Coating Interface Induced by Laser Shock Peening and Vacuum Heat Treatment",
+      "abstract": "",
       "authors": [
-        "Sang Yoon Kang",
-        "Li Loong Loh",
-        "Yeong June Jeon",
-        "Hong Seok Kim",
-        "Jeong Joon Yoo"
+        "Cheng Gu",
+        "Zenghui Tian",
+        "Jianhua Zhao",
+        "Yajun Wang"
       ],
-      "first_author_affiliation": "Department of Orthopedic Surgery, Seoul National University Hospital, College of Medicine, Seoul National University, Seoul, South Korea.",
+      "first_author_affiliation": "College of Materials Science and Engineering, Chongqing University, Chongqing, 400045, China",
       "corresponding_authors": [
         {
-          "name": "Jeong Joon Yoo",
-          "affiliation": "Department of Orthopedic Surgery, Seoul National University Hospital, College of Medicine, Seoul National University, Seoul, South Korea.",
-          "inferred": true
+          "name": "Cheng Gu",
+          "affiliation": "College of Materials Science and Engineering, Chongqing University, Chongqing, 400045, China"
         }
       ],
-      "venue": "The Journal of arthroplasty",
+      "venue": "Metals and Materials International",
       "year": 2025,
       "date": "2025-12-17",
       "date_precision": "day",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41419031/",
+      "url": "https://doi.org/10.1007/s12540-025-02050-2",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
+      "concepts": [
+        "Materials science",
+        "Peening",
+        "Residual stress",
+        "Composite material",
+        "Coating",
+        "Diffusion",
+        "Shot peening",
+        "Laser peening",
+        "Microstructure",
+        "Layer (electronics)",
+        "Laser",
+        "Shock (circulatory)",
+        "Metallurgy",
+        "Diffusion layer",
+        "Alloy",
+        "Atomic diffusion",
+        "Titanium alloy",
+        "Solid mechanics",
+        "Recrystallization (geology)",
+        "Dislocation",
+        "Grain size",
+        "Nanocrystalline material",
+        "Fluence"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment",
+          "laser shock peening"
         ]
       },
       "llm": {
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文关注陶瓷-陶瓷全髋置换术中股骨柄切迹的长期临床结果，未涉及股骨柄设计、应力遮挡或微动等力学分析。",
-        "why_not_core": "No implant design, FEA, stress shielding, micromotion, or AM/traditional manufacturing comparison.",
-        "validation_kind": "clinical",
+        "relevance_to_user": "该论文研究激光冲击喷丸和真空热处理对Ti-6Al-4V/Ni涂层界面的扩散和多层形成，但未涉及增材制造或疲劳/力学性能。",
+        "why_not_core": "No fatigue or tensile mechanical data, no additive manufacturing context, and the focus is on coating interface diffusion rather than mechanical performance modification.",
+        "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "total hip arthroplasty",
-          "stem notching",
-          "ceramic-on-ceramic",
-          "long-term follow-up",
-          "clinical outcome"
+          "laser shock peening",
+          "vacuum heat treatment",
+          "Ti-6Al-4V",
+          "Ni coating",
+          "interdiffusion",
+          "multilayer formation"
         ],
         "summary_zh": {
-          "motivation": "评估陶瓷对陶瓷全髋置换中股骨柄切迹的长期临床影响。",
-          "method": "回顾性队列分析293例患者，平均随访15年以上，影像学诊断切迹。",
-          "result": "切迹深度5年后稳定，与陶瓷并发症无显著相关，功能评分相似。",
-          "validation": "临床长期随访。"
+          "motivation": "研究激光冲击喷丸和真空热处理对Ti-6Al-4V/Ni涂层界面扩散的影响。",
+          "method": "对Ti-6Al-4V施加激光冲击喷丸和真空热处理，通过微观分析观察界面。",
+          "result": "发现界面处形成多层扩散结构。",
+          "validation": "实验表征验证了多层结构的形成。"
         },
         "summary_en": {
-          "motivation": "To assess the long-term clinical impact and progression of femoral stem notching in ceramic-on-ceramic total hip arthroplasty.",
-          "method": "Retrospective cohort analysis of 293 patients with minimum 15-year follow-up, using radiographic evaluation for stem notching.",
-          "result": "Notch depth stabilized after five years, and ceramic-related complications were not significantly higher in notched hips.",
-          "validation": "Long-term clinical follow-up with radiographic and functional outcomes."
+          "motivation": "To investigate the effect of laser shock peening and vacuum heat treatment on interdiffusion at the Ti-6Al-4V/Ni coating interface.",
+          "method": "Laser shock peening and vacuum heat treatment were applied to Ti-6Al-4V with a Ni coating, followed by microstructural analysis.",
+          "result": "A multilayer diffusion structure was observed at the coating interface.",
+          "validation": "Experimental characterization confirmed the formation of the multilayer structure."
         },
         "key_terms": [
           {
-            "en": "stem notching",
-            "zh": "股骨柄切迹"
+            "en": "laser shock peening",
+            "zh": "激光冲击喷丸"
           },
           {
-            "en": "ceramic-on-ceramic",
-            "zh": "陶瓷对陶瓷"
+            "en": "vacuum heat treatment",
+            "zh": "真空热处理"
           },
           {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换"
+            "en": "interdiffusion",
+            "zh": "相互扩散"
           },
           {
-            "en": "notch depth",
-            "zh": "切迹深度"
+            "en": "multilayer",
+            "zh": "多层结构"
           },
           {
-            "en": "impingement",
-            "zh": "撞击"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "ceramic fracture",
-            "zh": "陶瓷断裂"
-          },
-          {
-            "en": "noise",
-            "zh": "噪音"
-          },
-          {
-            "en": "cup inclination",
-            "zh": "髋臼杯倾斜"
-          },
-          {
-            "en": "anteversion",
-            "zh": "前倾角"
-          },
-          {
-            "en": "modified Harris Hip Score",
-            "zh": "改良Harris髋关节评分"
+            "en": "Ni coating",
+            "zh": "镍涂层"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:17:08Z"
+      "first_seen_at": "2026-06-07T23:21:34Z"
     }
   ],
   "counts": {
     "fetched_total": 2,
     "by_source": {
-      "arxiv": 1,
-      "pubmed": 1
+      "openalex": 2
     },
     "after_dedup": 2,
     "after_routing": 2,
     "by_direction": {
-      "mechanical_properties": 1,
-      "am_femoral_stem": 1
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "arxiv": 1,
-      "pubmed": 1
+      "openalex": 2
     },
     "scored": 2,
     "priority_counts": {

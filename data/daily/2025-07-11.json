@@ -4,150 +4,83 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2507.09056v1",
-      "doi": "10.1016/j.mtphys.2025.101797",
-      "arxiv_id": "2507.09056v1",
-      "title": "Large non-saturating Nernst thermopower and magnetoresistance in compensated semimetal ScSb",
-      "abstract": "Today, high-performance thermoelectric and thermomagnetic materials operating in the low-temperature regime, particularly below the boiling point of liquid nitrogen remain scarce. Most thermomagnetic materials reported to date exhibit a strong Nernst signal along specific crystallographic directions in their single-crystal form. However, their performance typically degrades significantly in the polycrystalline form. Here, we report an improved Nernst thermopower of $\\sim$ 128 $μ$V/K at 30 K and 14 T in polycrystalline compensated semimetal ScSb, in comparison to that was observed in single crystal ScSb previously. The magnetic field dependence of Nernst thermopower shows a linear and non-saturating behavior up to 14 T. The maximum Nernst power factor reaches to $\\sim 240 \\times 10^{-4}$ W m$^{-1}$ K$^{-2}$ and Nernst figure of merit reaches to $\\sim 11 \\times 10^{-4}$ K$^{-1}$. Polycrystalline ScSb also shows a large non-saturating magnetoresistance of $\\sim 940 \\%$ at 2 K and 14 T. These enhanced properties originate from better electron-hole compensation, as revealed by Hall resistivity measurements. The cubic symmetry and absence of anisotropy in ScSb allow its polycrystalline form to achieve similar enhanced thermomagnetic and electromagnetic performance comparable to that of the single crystal.",
+      "source": "openalex",
+      "id": "https://openalex.org/W4412200626",
+      "doi": "10.3390/ma18143285",
+      "title": "Effect of Post-Weld Heat Treatment on Residual Stress and Fatigue Crack Propagation Behavior in Linear Friction Welded Ti-6Al-4V Alloy",
+      "abstract": "In this study, the effects of post-weld heat treatment (PWHT) on residual stress distribution and fatigue crack propagation (FCP) behavior in linear friction welded (LFW) Ti-6Al-4V joints were investigated. Microstructural evolution in the weld center zone (WCZ), thermomechanically affected zone (TMAZ), heat-affected zone (HAZ), and base metal (BM) was characterized using scanning electron microscropy (SEM) and electron backscatter diffraction (EBSD). Mechanical properties were evaluated via Vickers hardness testing and digital image correlation (DIC)-based tensile testing. Residual stresses before and after PWHT were measured using the contour method. The LFW process introduced significant residual stresses, with tensile stresses up to 709.2 MPa in the WCZ, resulting in non-uniform fatigue crack growth behavior. PWHT at 650 °C and 750 °C effectively reduced these stresses. After PWHT, fatigue cracks propagated uniformly across the weld region, enabling reliable determination of crack growth rates. The average crack growth rates of the heat-treated specimens were comparable to those of the base metal, confirming that PWHT, particularly at 750 °C, stabilizes the fatigue crack path and relieves internal stress.",
       "authors": [
-        "Antu Laha",
-        "Sarah Paone",
-        "Niraj Aryal",
-        "Qiang Li"
+        "Sungkyoung Lee",
+        "Hyunsung Choi",
+        "Yunji Cho",
+        "Min Jae Baek",
+        "Hyeonil Park",
+        "Moo‐Young Seok",
+        "Yong Nam Kwon",
+        "Namhyun Kang",
+        "Dong-Jun Lee"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "Aerospace Materials Center, Korea Institute of Materials Science, 797 Changwondaero, Changwon 51508, Republic of Korea",
+      "corresponding_authors": [
+        {
+          "name": "Namhyun Kang",
+          "affiliation": "Department of Materials Science and Engineering, Pusan National University, Busan 46241, Republic of Korea"
+        },
+        {
+          "name": "Dong-Jun Lee",
+          "affiliation": "Aerospace Materials Center, Korea Institute of Materials Science, 797 Changwondaero, Changwon 51508, Republic of Korea"
+        }
+      ],
+      "venue": "Materials",
       "year": 2025,
       "date": "2025-07-11",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2507.09056v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.3390/ma18143285",
+      "cited_by_count": 4,
+      "concepts": [
+        "Materials science",
+        "Residual stress",
+        "Electron backscatter diffraction",
+        "Welding",
+        "Base metal",
+        "Ultimate tensile strength",
+        "Paris' law",
+        "Crack closure",
+        "Metallurgy",
+        "Composite material",
+        "Scanning electron microscope",
+        "Stress concentration",
+        "Fracture mechanics",
+        "Microstructure"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "residual stress",
+          "fatigue",
+          "fatigue crack growth"
         ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文与AM机械性能无关",
-        "why_not_core": "This paper studies thermoelectric properties of ScSb; it does not address additive manufacturing, implant design, mechanical testing, or any biomedical application.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "thermoelectric",
-          "Nernst effect",
-          "semimetal",
-          "magnetoresistance"
-        ],
-        "summary_zh": {
-          "motivation": "研究低温高性能热电材料",
-          "method": "测量多晶ScSb的Nernst热电功率和磁阻",
-          "result": "观察到大的非饱和Nernst热电功率和磁阻",
-          "validation": "通过霍尔电阻测量验证电子-空穴补偿"
-        },
-        "summary_en": {
-          "motivation": "The scarcity of high-performance thermoelectric materials at low temperatures motivates the investigation of compensated semimetals.",
-          "method": "We measured the Nernst thermopower and magnetoresistance of polycrystalline ScSb up to 14 T and low temperatures.",
-          "result": "Polycrystalline ScSb exhibits a Nernst thermopower of 128 μV/K at 30 K and a magnetoresistance of 940% at 2 K.",
-          "validation": "Hall resistivity measurements confirm enhanced electron-hole compensation as the origin of the improved properties."
-        },
-        "key_terms": [
-          {
-            "en": "Nernst thermopower",
-            "zh": "能斯特热电势"
-          },
-          {
-            "en": "magnetoresistance",
-            "zh": "磁电阻"
-          },
-          {
-            "en": "compensated semimetal",
-            "zh": "补偿半金属"
-          },
-          {
-            "en": "polycrystalline",
-            "zh": "多晶"
-          },
-          {
-            "en": "thermoelectric",
-            "zh": "热电"
-          },
-          {
-            "en": "figure of merit",
-            "zh": "品质因数"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:11:37Z"
-    },
-    {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2507.08327v3",
-      "doi": "",
-      "arxiv_id": "2507.08327v3",
-      "title": "High-strength and ductile lightweight cast aluminium alloys with superlattice nano-layered fibres (SNL) and core-shell nano-particles",
-      "abstract": "Lightweight, high-strength structural materials are component enablers in transportation and aerospace, reducing carbon footprints and enhancing fuel efficiency. Cast aluminium alloys, mainly based on eutectic compositions, make up 85% of these materials but often fail catastrophically due to inefficient load transfer across the interfaces between the brittle eutectic phase and the ductile matrix. Here, we discovered that promoting a superlattice nano-layer (SNL) around the eutectic fibres, achieved by adding Zr to an Al-Gd near-eutectic alloy, enables excellent load transfer capabilities, resulting in a 400% increase in tensile ductility. The primary Al matrix also contains a high number density of superlattice core-shell nano-particles. This exceptional increase in formability is attributed to the ability of the SNL to prevent dislocations from accumulating at the weak and brittle eutectic fibre/matrix interfaces, thereby avoiding stress concentrations that would otherwise initiate fibre breakage and debonding. The core-shell nano-particles in Al cause a large number of dislocation cross/multiple-slips on {111} planes, forming ultra-fine (12 nm) dislocation networks that leverage substantial plastic strain accumulation. This atomic interface design overcomes the ductility limitations of cast-eutectic alloys, enabling them for structural applications.",
-      "authors": [
-        "Hemant Kumar",
-        "Praveen Kumar",
-        "Dierk Raabe",
-        "Baptiste Gault",
-        "Surendra Kumar Makineni"
-      ],
-      "venue": "arXiv preprint",
-      "year": 2025,
-      "date": "2025-07-11",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2507.08327v3",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "ductility"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究铸造铝合金，不涉及增材制造工艺或AM力学性能，与用户研究方向无关。",
-        "why_not_core": "This paper focuses on cast aluminium alloys with no additive manufacturing processing, no AM-specific microstructure, and no AM-related mechanical testing.",
+        "read_action": "Background only",
+        "relevance_to_user": "论文涉及Ti-6Al-4V和焊后热处理，但研究对象为线性摩擦焊接头而非增材制造材料，与L2方向中增材制造Ti-6Al-4V的后处理焦点不匹配。",
+        "why_not_core": "No additive manufacturing context; focuses on linear friction welded joints, not AM Ti-6Al-4V.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -156,174 +89,76 @@
           "is_review": false
         },
         "tags": [
-          "cast aluminium alloys",
-          "superlattice nano-layered fibres",
-          "tensile ductility",
-          "dislocation networks"
+          "linear friction welding",
+          "post-weld heat treatment",
+          "Ti-6Al-4V",
+          "residual stress",
+          "fatigue crack propagation"
         ],
         "summary_zh": {
-          "motivation": "提高铸造铝合金融韧性的需求",
-          "method": "添加锆形成超晶格纳米层纤维和核壳纳米颗粒",
-          "result": "拉伸塑性提升400%，形成超细位错网络",
-          "validation": "机械拉伸测试验证力学性能提升"
+          "motivation": "研究焊后热处理对线性摩擦焊Ti-6Al-4V接头残余应力和疲劳裂纹扩展的影响。",
+          "method": "采用SEM、EBSD、硬度测试、DIC拉伸、轮廓法测残余应力和疲劳试验。",
+          "result": "焊后热处理有效降低残余应力，使疲劳裂纹均匀扩展，速率接近母材。",
+          "validation": "通过机械测试和轮廓法残余应力测量验证。"
         },
         "summary_en": {
-          "motivation": "To overcome the catastrophic failure of cast aluminium alloys due to inefficient load transfer at eutectic/matrix interfaces.",
-          "method": "Alloying with Zr to form superlattice nano-layered fibres and core-shell nanoparticles in an Al-Gd near-eutectic alloy.",
-          "result": "A 400% increase in tensile ductility attributed to dislocation prevention at interfaces and formation of ultra-fine dislocation networks.",
-          "validation": "Tensile testing and microstructural characterization (dislocation networks, interface structure)."
+          "motivation": "To investigate the effect of post-weld heat treatment on residual stress and fatigue crack propagation in linear friction welded Ti-6Al-4V joints.",
+          "method": "Microstructural characterization, hardness, DIC tensile testing, contour method for residual stress, and fatigue crack growth tests were conducted.",
+          "result": "PWHT at 650°C and 750°C effectively reduced residual stress and stabilized fatigue crack propagation, with rates comparable to base metal.",
+          "validation": "Experimental mechanical testing and contour method residual stress measurements."
         },
         "key_terms": [
           {
-            "en": "superlattice nano-layered fibres",
-            "zh": "超晶格纳米层纤维"
+            "en": "linear friction welding",
+            "zh": "线性摩擦焊"
           },
           {
-            "en": "core-shell nano-particles",
-            "zh": "核壳纳米颗粒"
+            "en": "post-weld heat treatment",
+            "zh": "焊后热处理"
           },
           {
-            "en": "tensile ductility",
-            "zh": "拉伸塑性"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "eutectic alloy",
-            "zh": "共晶合金"
+            "en": "residual stress",
+            "zh": "残余应力"
           },
           {
-            "en": "dislocation networks",
-            "zh": "位错网络"
+            "en": "fatigue crack propagation",
+            "zh": "疲劳裂纹扩展"
+          },
+          {
+            "en": "contour method",
+            "zh": "轮廓法"
+          },
+          {
+            "en": "digital image correlation",
+            "zh": "数字图像相关"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:11:37Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:40646606",
-      "doi": "10.1186/s13018-025-05979-7",
-      "pmid": "40646606",
-      "title": "Outcomes of cemented and uncemented stem fixation in Vancouver B1 periprosthetic femur fractures treated with locking plates.",
-      "abstract": "BACKGROUND: Vancouver type B1 periprosthetic femoral fractures (PFFs) occur in elderly patients with well-fixed femoral stems and present challenges in treatment due to variations in bone quality and fixation methods. This study compared the clinical and radiological outcomes of cemented versus uncemented femoral stems in B1 PFFs treated with open reduction and internal fixation (ORIF) using locking compression plates. MATERIALS AND METHODS: This retrospective analysis included 41 (28 females and 13 males) patients who were treated between 2008 and 2020. Patients were categorized based on femoral stem fixation type. Data on fracture configuration, union time, complications, and Harris Hip Scores (HHS) were analyzed. RESULTS: Transverse fractures were more common in the cemented group, while long oblique fractures predominated in the uncemented group. The cemented group demonstrated longer union times, greater blood loss, and significantly lower HHS (p < 0.001). The mean union time was found to be 23.22 ± 11.25 weeks in the cemented group and 16.28 ± 4.16 weeks in the uncemented group. Nonunion occurred exclusively in patients with cemented stems. Transverse fractures that had previously undergone cemented femoral stem fixation were observed to have a higher risk of nonunion (Odds ratio 2.4; 95% CI: 1.115-5.05, p = 0.02), indicating that the nonunion rate was 2.4 times higher in cases with cemented stems. The uncemented group showed earlier mobilization and better functional outcomes. In the cemented group, significantly longer healing time for PFF (p = 0.017), and increased blood loss (p < 0.001) were observed. The mean blood loss was 381.3 ± 123.48 mL in the cemented group and 218.33 ± 73.5 mL in the uncemented group. CONCLUSIONS: Vancouver type B1 PFFs with cemented femoral stems, particularly transverse fractures, are associated with poorer outcomes and increased nonunion risk following unilateral plate fixation. Stem revision may be considered in such cases. Further multicenter studies are needed to guide optimal treatment strategies.",
-      "authors": [
-        "Sezer Astan",
-        "Orhan Balta"
-      ],
-      "first_author_affiliation": "Department of Orthopaedics and Traumatology, Tokat Gaziosmanpasa University Hospital, Tokat, Turkey.",
-      "corresponding_authors": [
-        {
-          "name": "Orhan Balta",
-          "affiliation": "Department of Orthopaedics and Traumatology, Tokat Gaziosmanpasa University Hospital, Tokat, Turkey. drorhanbalta@hotmail.com."
-        }
-      ],
-      "venue": "Journal of orthopaedic surgery and research",
-      "year": 2025,
-      "date": "2025-07-11",
-      "date_precision": "day",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40646606/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文为临床回顾性研究，不涉及用户关注的AI生物打印、股骨柄应力遮挡、有限元代理模型或增材制造方向。",
-        "why_not_core": "This paper is a clinical retrospective study on periprosthetic fracture outcomes with no implant design, biomechanical modeling, FEA, or additive manufacturing content.",
-        "validation_kind": "clinical",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "cemented stems",
-          "uncemented stems",
-          "periprosthetic fracture",
-          "locking plates",
-          "clinical outcomes"
-        ],
-        "summary_zh": {
-          "motivation": "比较骨水泥与非骨水泥股骨柄在Vancouver B1型假体周围骨折中的治疗效果",
-          "method": "回顾性分析41例患者，基于固定方式分组，比较愈合时间、并发症及Harris髋关节评分",
-          "result": "骨水泥组愈合时间更长、出血更多、功能评分更低，非骨水泥组疗效更好",
-          "validation": "回顾性临床数据分析"
-        },
-        "summary_en": {
-          "motivation": "To compare clinical and radiological outcomes between cemented and uncemented femoral stems in Vancouver B1 periprosthetic fractures treated with locking plates.",
-          "method": "Retrospective analysis of 41 patients grouped by stem fixation type, evaluating fracture union time, complications, and Harris Hip Scores.",
-          "result": "Cemented stems were associated with longer union times, greater blood loss, and poorer functional outcomes compared to uncemented stems.",
-          "validation": "Retrospective clinical data analysis with statistical comparison."
-        },
-        "key_terms": [
-          {
-            "en": "cemented stem",
-            "zh": "骨水泥型股骨柄"
-          },
-          {
-            "en": "uncemented stem",
-            "zh": "非骨水泥型股骨柄"
-          },
-          {
-            "en": "periprosthetic femoral fracture",
-            "zh": "假体周围股骨骨折"
-          },
-          {
-            "en": "locking compression plate",
-            "zh": "锁定加压钢板"
-          },
-          {
-            "en": "Harris Hip Score",
-            "zh": "Harris髋关节评分"
-          },
-          {
-            "en": "nonunion",
-            "zh": "骨不连"
-          },
-          {
-            "en": "open reduction and internal fixation",
-            "zh": "切开复位内固定"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:11:37Z"
+      "first_seen_at": "2026-06-07T23:11:42Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 1,
     "by_source": {
-      "arxiv": 2,
-      "pubmed": 1
+      "openalex": 1
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 1,
+    "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 2,
-      "am_femoral_stem": 1
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "arxiv": 2,
-      "pubmed": 1
+      "openalex": 1
     },
-    "scored": 3,
+    "scored": 1,
     "priority_counts": {
-      "Exclude": 3
+      "Exclude": 1
     }
   }
 }

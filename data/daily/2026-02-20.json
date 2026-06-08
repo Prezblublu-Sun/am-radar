@@ -4,55 +4,68 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "pubmed",
-      "id": "pubmed:41724410",
-      "doi": "10.1016/j.arth.2026.02.028",
-      "pmid": "41724410",
-      "title": "Does Cement Mantle Grading of Distal Femoral Replacements Correlate With Implant Survivorship?",
-      "abstract": "BACKGROUND: Distal femoral replacement (DFR) is increasingly being used as a salvage procedure for both oncologic and nononcologic cases. However, as aseptic loosening after this complex surgery remains a concern, there is a concomitant uncertainty in the role of cemented fixation in DFRs. The purpose of this study was to evaluate the outcomes following DFR according to femoral stem-to-construct ratio and cement mantle grading. METHODS: This was a retrospective study from 2005 to 2022. The femoral stem-to-construct ratio was determined using radiographic measurements. Cement mantles were graded according to the Barrack grading system and were categorized into three groups: grade A, grade B, and grade C plus D. Clinical outcomes were subsequently compared between the groups. Of the 198 patients included for analysis, 130 (65.7%) were women, their mean age was 71 years (range, 25.0 to 95.9), and their mean body mass index was 32.1 (range, 17.0 to 63.0). In total, 48 cement mantles were categorized as grade A, 100 as grade B, and 50 as grade C plus D. RESULTS: The femoral stem-to-construct ratio was smaller in grade A than in grade B and grade C plus D (1.2 versus 1.5 versus 1.6, respectively, P < 0.001). There were 58 (29.3%) patients who had their DFR revised. The revision rate in grade A stems was 29.2%, compared to 25.0% in grade B stems and 38.0% in grade C plus D stems (P = 0.257). Loosening was observed in 4.2% of grade A stems, 5.0% of grade B stems, and 14.0% of grade C plus D stems (P = 0.118). CONCLUSIONS: This study demonstrated an association between a smaller femoral stem-to-construct ratio and better cement mantle grading. The loosening rate after DFR was comparable between all cement mantle gradings, with no increased risk of loosening with worse cement mantle grading.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7130698077",
+      "doi": "10.1038/s41598-025-97184-z",
+      "title": "Combining multimodal fatigue fracture surface images for analysis with a CNN",
+      "abstract": "This work uses three different modalities, namely SEM, BSE and scanning white light interference (SWLI) to image fatigue fracture surfaces of Ti-6Al-4V. Convolutional neural networks (CNNs) that were pre-trained on images of the natural world were used to predict values such as distance from load line and crack growth rate. SEM images are routinely used to study the topography of fracture surfaces because the shallower interaction volume resolves surface features while BSE images and SWLI data add information about composition and surface height. Combining the three imaging modalities via the use of color channels facilitates overlaying them on the same grid for transferability of models pre-trained on colored images. This work shows that the imaging modalities under the guise of color channels have different levels of importance depending on the model being trained. It also documents how the combination of information from these modalities improves the classification and regression results by 20 and 60 %, respectively, relative to the secondary electron images alone. (162/200).",
       "authors": [
-        "Neeku Salehi",
-        "Alan D Lam",
-        "Alexander A Linton",
-        "Alec M Giakas",
-        "Matthew B Sherman",
-        "David N Kugelman",
-        "Chad A Krueger"
+        "Katelyn Jones",
+        "Dr. Paul  A. Shade",
+        "Reji John",
+        "William D. Musinski",
+        "Elizabeth A. Holm",
+        "Anthony Rollett"
       ],
-      "first_author_affiliation": "Department of Orthopaedic Surgery, Rothman Orthopaedic Institute, Sidney Kimmel Medical College of Thomas Jefferson University, Philadelphia, Pennsylvania.",
+      "first_author_affiliation": "Materials Science and Engineering, Carnegie Mellon University, Pittsburgh, 15213, USA. ktj@alumni.cmu.edu",
       "corresponding_authors": [
         {
-          "name": "Chad A Krueger",
-          "affiliation": "Department of Orthopaedic Surgery, Rothman Orthopaedic Institute, Sidney Kimmel Medical College of Thomas Jefferson University, Philadelphia, Pennsylvania.",
-          "inferred": true
+          "name": "Katelyn Jones",
+          "affiliation": "Materials Science and Engineering, Carnegie Mellon University, Pittsburgh, 15213, USA. ktj@alumni.cmu.edu"
         }
       ],
-      "venue": "The Journal of arthroplasty",
+      "venue": "Scientific Reports",
       "year": 2026,
       "date": "2026-02-20",
       "date_precision": "day",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41724410/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
+      "url": "https://doi.org/10.1038/s41598-025-97184-z",
+      "cited_by_count": 1,
+      "concepts": [
+        "Convolutional neural network",
+        "Computer science",
+        "Artificial intelligence",
+        "Fracture (geology)",
+        "Computer vision",
+        "Pattern recognition (psychology)",
+        "Modalities",
+        "Surface (topology)",
+        "Transferability",
+        "Line (geometry)",
+        "Visualization",
+        "Volume (thermodynamics)",
+        "Overlay"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
         ]
       },
       "llm": {
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文研究股骨远端置换术中的骨水泥鞘分级与假体存活率的关系，与用户关注的股骨柄设计、应力遮挡和微动分析方向间接相关。",
-        "why_not_core": "This paper does not involve implant design, stress shielding, micromotion, finite element analysis, or additive manufacturing; it is a clinical retrospective study on cement mantle grading only.",
-        "validation_kind": "clinical",
+        "relevance_to_user": "该论文使用Ti-6Al-4V疲劳断口表面图像开发多模态CNN，但未直接提供增材制造Ti-6Al-4V的力学或疲劳性能数据。",
+        "why_not_core": "The paper focuses on a multimodal CNN image analysis method for fatigue fracture surfaces rather than on the mechanical or fatigue characterization of additively manufactured Ti-6Al-4V itself.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -60,72 +73,74 @@
           "is_review": false
         },
         "tags": [
-          "distal femoral replacement",
-          "cement mantle",
-          "aseptic loosening",
-          "implant survivorship",
-          "Barrack grading"
+          "Ti-6Al-4V",
+          "fatigue fracture surface",
+          "CNN",
+          "multimodal imaging",
+          "SEM",
+          "BSE",
+          "SWLI"
         ],
         "summary_zh": {
-          "motivation": "评估股骨远端置换中骨水泥鞘分级与假体存活率的关系",
-          "method": "回顾性分析198例患者，根据Barrack分级将骨水泥鞘分为三组并比较临床结果",
-          "result": "股骨柄-假体比越小则骨水泥鞘分级越好，但不同分级间无菌性松动率无显著差异",
-          "validation": "基于2005-2022年回顾性临床数据验证"
+          "motivation": "利用多模态图像改进疲劳断口表面裂纹扩展率的预测能力。",
+          "method": "将SEM、BSE和SWLI图像作为颜色通道输入预训练CNN。",
+          "result": "多模态组合较单模态图像回归精度提升60%。",
+          "validation": "通过对比单模态结果验证多模态效果。"
         },
         "summary_en": {
-          "motivation": "To evaluate the relationship between cement mantle grading and implant survivorship in distal femoral replacements.",
-          "method": "A retrospective analysis of 198 patients categorized cement mantles into three groups (A, B, C+D) using the Barrack grading system and compared revision and loosening rates.",
-          "result": "A smaller femoral stem-to-construct ratio was associated with better cement mantle grading, but loosening rates did not differ significantly among grades.",
-          "validation": "Clinical validation based on a retrospective cohort from 2005 to 2022."
+          "motivation": "To improve the prediction of crack growth rate from fatigue fracture surfaces by leveraging multimodal imaging data.",
+          "method": "SEM, BSE, and SWLI images were combined as color channels and fed into a pre-trained convolutional neural network.",
+          "result": "The multimodal approach improved regression performance by 60% compared to using secondary electron images alone.",
+          "validation": "Validation was performed by comparing the multimodal model's predictions against single-modality results."
         },
         "key_terms": [
           {
-            "en": "distal femoral replacement",
-            "zh": "股骨远端置换"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "cement mantle",
-            "zh": "骨水泥鞘"
+            "en": "fatigue fracture surface",
+            "zh": "疲劳断口表面"
           },
           {
-            "en": "Barrack grading",
-            "zh": "Barrack分级"
+            "en": "convolutional neural network",
+            "zh": "卷积神经网络"
           },
           {
-            "en": "aseptic loosening",
-            "zh": "无菌性松动"
+            "en": "multimodal imaging",
+            "zh": "多模态成像"
           },
           {
-            "en": "implant survivorship",
-            "zh": "假体存活率"
+            "en": "SEM",
+            "zh": "扫描电子显微镜"
           },
           {
-            "en": "stem-to-construct ratio",
-            "zh": "股骨柄-假体比"
+            "en": "BSE",
+            "zh": "背散射电子"
           },
           {
-            "en": "revision rate",
-            "zh": "翻修率"
+            "en": "SWLI",
+            "zh": "扫描白光干涉"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:19:20Z"
+      "first_seen_at": "2026-06-07T23:25:34Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "pubmed": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "am_femoral_stem": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "pubmed": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {

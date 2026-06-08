@@ -4,270 +4,72 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2604.06890v1",
-      "doi": "",
-      "arxiv_id": "2604.06890v1",
-      "title": "Microscopic contributions to the deviation from Amontons friction law",
-      "abstract": "We investigate the nanoscale friction behaviour of MX2 monolayers (M = Mo, W; X = S, Se) on Au(111) and Ag(111) substrates with a silicon tip using classical molecular dynamics simulations with machine-learning-based force fields. This approach enables an accurate description of tip-surface interactions and friction mechanisms at the atomic scale. We observe a pronounced non-monotonic dependence of the friction force on the applied normal load, indicating a breakdown of Amontons's law at the nanoscale. Analysis of lateral force' signals and their spatial Fourier transforms reveals the coexistence of multiple sliding modes, including longitudinal sliding, lateral slip, and zig-zag motions. We show that the overall friction response is governed by the relative contributions of these motions. While the qualitative features of friction are largely substrate-independent, both the magnitude of friction and the balance between sliding modes depend sensitively on the substrate-monolayer combination. In particular, Au/MoSe2/Si exhibits significantly reduced friction due to suppression of lateral slip motion. Our results indicate that the method is broadly applicable for probing nanoscale friction in related heterostructures.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7152487089",
+      "doi": "10.3390/data11040081",
+      "title": "Dataset on Fatigue Results and Fatigue Fracture Initiation Site Characterization in Stress-Relieved PBF-LB/M Ti-6Al-4V Four-Point Bend and Axial Specimens: Part I (High Power, Variable Scan Velocities)",
+      "abstract": "As part of a NASA University Leadership Initiative (ULI) program, this work supports the continued development and evaluation of a fatigue-based process window for stress-relieved Ti-6Al-4V specimens produced via laser powder bed fusion (PBF-LB/M). Four-point bend and axial fatigue specimens were fabricated by NASA ULI collaborators across a range of scan velocities (800–2000 mm/s) at a constant power of 370 W using an EOS M290 system. All fatigue specimens were low-stress-ground by a commercial vendor and tested at Case Western Reserve University (CWRU) under load-controlled cyclic loading at a stress ratio of R = 0.1. This paper presents a curated dataset linking PBF-LB/M process parameters to fatigue outcomes across 175 specimens. Of these, 136 fractured and this study includes fatigue crack initiation site identification and defect morphology metrics derived from post mortem SEM analysis. Specimens that reached runout (107 cycles) and did not fracture under subsequent fatigue testing are retained in the dataset, with fractographic fields marked as ‘NA’ to indicate non-applicability. The dataset includes specimen metadata, processing parameters, fatigue life data, fatigue initiation site classification (e.g., keyhole, gas-entrapped pore (GeP), lack-of-fusion (LoF), contamination), defect size and shape descriptors, and spatial location relative to the free surface. These data are intended to support defect-based fatigue life prediction, probabilistic modeling, process–structure–property studies, and machine learning frameworks linking process parameters to fatigue performance in PBF-LB/M Ti-6Al-4V.",
       "authors": [
-        "Suresh Ravisankar",
-        "Ravikant Kumar",
-        "Antonio Cammarata",
-        "Thilo Glatzel",
-        "Tomas Polcar"
+        "Brett E. Ley",
+        "Austin Ngo",
+        "John J. Lewandowski"
       ],
-      "venue": "arXiv preprint",
-      "year": 2026,
-      "date": "2026-04-08",
-      "date_precision": "day",
-      "url": "http://arxiv.org/abs/2604.06890v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ],
-      "raw_type": "preprint",
-      "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
-      ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
-      "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
-        ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是二维材料在纳米尺度下的摩擦行为，与增材制造力学性能无关。",
-        "why_not_core": "This paper does not cover any aspect of additive manufacturing, implant mechanics, or biomedical materials; it focuses solely on nanoscale friction of 2D materials.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "nanoscale friction",
-          "2D materials",
-          "molecular dynamics",
-          "Amontons law",
-          "machine learning force fields"
-        ],
-        "summary_zh": {
-          "motivation": "探究纳米尺度下摩擦偏离阿蒙顿定律的机制。",
-          "method": "利用基于机器学习的分子动力学模拟MX2单层在金属基底上的摩擦行为。",
-          "result": "发现摩擦力与正压力存在非单调关系，多种滑动模式共存。",
-          "validation": "无实验验证，仅为分子动力学模拟结果。"
-        },
-        "summary_en": {
-          "motivation": "To understand the breakdown of Amontons' friction law at the nanoscale in layered materials.",
-          "method": "Classical molecular dynamics simulations with machine-learning force fields for MX2 monolayers on metal substrates.",
-          "result": "A non-monotonic friction-load dependence is observed, attributed to coexisting sliding modes (longitudinal, lateral, zig-zag).",
-          "validation": "No experimental validation; results are purely computational."
-        },
-        "key_terms": [
-          {
-            "en": "Amontons friction law",
-            "zh": "阿蒙顿摩擦定律"
-          },
-          {
-            "en": "nanoscale friction",
-            "zh": "纳米摩擦"
-          },
-          {
-            "en": "MX2 monolayers",
-            "zh": "MX2单层材料"
-          },
-          {
-            "en": "machine-learning force fields",
-            "zh": "机器学习力场"
-          },
-          {
-            "en": "molecular dynamics",
-            "zh": "分子动力学"
-          },
-          {
-            "en": "sliding modes",
-            "zh": "滑动模式"
-          },
-          {
-            "en": "substrate effects",
-            "zh": "基底效应"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:41951897",
-      "doi": "10.1007/s12306-026-00954-9",
-      "pmid": "41951897",
-      "title": "Assessing predictive accuracy of 2D digital templating in fluoroscopy-guided direct anterior approach total hip arthroplasty.",
-      "abstract": "INTRODUCTION: Preoperative 2D digital templating aids surgical planning in total hip arthroplasty (THA). We evaluated template accuracy by comparing preoperative templated measurements with postoperative findings and final implant sizes. METHODS: We retrospectively reviewed a consecutive series of 100 patients who underwent fluoroscopy-guided direct anterior approach (DAA) THA by a single surgeon from November 2022 to September 2024. All patients received an Emphasys femoral stem with a Pinnacle acetabular cup. A single arthroplasty surgeon used Traumacad™ software for preoperative templating, which was compared to postoperative measurements and implants. RESULTS: Preoperative template averages were: cup size (55.1 mm), femur size (5.8), head size (36 mm), and inclination (41.0°). Delta values (difference between postoperative and templated measurements) were: neck cut length (5.6 mm), neck cut angle (2.8°), LLD (0.1 mm), cup size (1.3 mm), femur size (0.7), head size (0 mm), and inclination (2.9°). Cup size was perfectly predicted in 56% of cases, 95% within two sizes; femur size was perfect in 52% of cases, 88% within one size, and 95% within two sizes. Stem offset was 94% accurate. Regression analysis found that higher BMI and male gender were associated with less accurate predictions for neck angle and cup size, respectively. CONCLUSION: While variables such as higher BMI and male gender may influence the accuracy of templating, our findings suggest that 2D templating for DAA THA offers reliable predictions within a narrow range for final implant sizes, neck cut, and planned leg length changes.",
-      "authors": [
-        "Jonathan Liu",
-        "Noah Gilreath",
-        "Joseph E Nassar",
-        "Mohammad Daher",
-        "Jeffrey Okewunmi",
-        "Simbarashe J Peresuh",
-        "Janine Molino",
-        "Valentin Antoci",
-        "Derek Jenkins"
-      ],
-      "first_author_affiliation": "Brown University, Providence, USA.",
+      "first_author_affiliation": "Department of Materials Science and Engineering, Case Western Reserve University, Cleveland, OH 44106, USA",
       "corresponding_authors": [
         {
-          "name": "Mohammad Daher",
-          "affiliation": "Brown University, Providence, USA. mohdaher1@hotmail.com."
+          "name": "Brett E. Ley",
+          "affiliation": "Department of Materials Science and Engineering, Case Western Reserve University, Cleveland, OH 44106, USA"
+        },
+        {
+          "name": "John J. Lewandowski",
+          "affiliation": "Department of Materials Science and Engineering, Case Western Reserve University, Cleveland, OH 44106, USA"
         }
       ],
-      "venue": "Musculoskeletal surgery",
+      "venue": "Data",
       "year": 2026,
       "date": "2026-04-08",
       "date_precision": "day",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41951897/",
+      "url": "https://doi.org/10.3390/data11040081",
       "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
+      "concepts": [
+        "Fracture (geology)",
+        "Materials science",
+        "Fatigue testing",
+        "Structural engineering",
+        "Stress (linguistics)",
+        "Characterization (materials science)",
+        "Fatigue limit",
+        "Cyclic stress",
+        "Stress concentration",
+        "Work (physics)",
+        "Process (computing)",
+        "Paris' law",
+        "Deformation (meteorology)"
       ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "defect",
+          "fatigue",
+          "fatigue life",
+          "fatigue crack initiation"
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文仅涉及临床术前模板预测，不涉及用户方向的任何内容（生物打印、应力屏蔽、FEA替代模型、AM生物植入物）。",
-        "why_not_core": "No biomechanical modeling, no implant stress shielding analysis, no FEA, no AI/ML, no additive manufacturing, no bioprinting—purely a clinical templating accuracy study.",
-        "validation_kind": "clinical",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": true,
-          "is_review": false
-        },
-        "tags": [
-          "total hip arthroplasty",
-          "digital templating",
-          "femoral stem",
-          "direct anterior approach",
-          "clinical study"
-        ],
-        "summary_zh": {
-          "motivation": "评估2D数字模板在全髋关节置换术中的预测准确性。",
-          "method": "回顾性分析100例直接前入路THA患者的术前模板与术后结果。",
-          "result": "模板在假体型号和肢体长度方面预测可靠，但受BMI和性别影响。",
-          "validation": "术后与模板测量对比的临床回顾性验证。"
-        },
-        "summary_en": {
-          "motivation": "To assess the predictive accuracy of 2D digital templating in fluoroscopy-guided direct anterior approach total hip arthroplasty.",
-          "method": "A retrospective review of 100 consecutive patients, comparing preoperative templated measurements with postoperative findings and implant sizes.",
-          "result": "Digital templating provides reliable predictions for implant sizes and leg length changes, with higher BMI and male gender associated with less accuracy in certain parameters.",
-          "validation": "Clinical retrospective comparison between templated and actual outcomes."
-        },
-        "key_terms": [
-          {
-            "en": "total hip arthroplasty",
-            "zh": "全髋关节置换术"
-          },
-          {
-            "en": "digital templating",
-            "zh": "数字模板"
-          },
-          {
-            "en": "femoral stem",
-            "zh": "股骨柄"
-          },
-          {
-            "en": "direct anterior approach",
-            "zh": "直接前入路"
-          },
-          {
-            "en": "leg length discrepancy",
-            "zh": "肢体长度差异"
-          },
-          {
-            "en": "implant sizing",
-            "zh": "假体尺寸确定"
-          },
-          {
-            "en": "retrospective study",
-            "zh": "回顾性研究"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
-    },
-    {
-      "source": "pubmed",
-      "id": "pubmed:41947362",
-      "doi": "10.4103/aam.aam_444_25",
-      "pmid": "41947362",
-      "title": "Radiological Outcomes of Uncemented Total Hip Replacement: A Prospective Study on Implant Positioning and Alignment.",
-      "abstract": "BACKGROUND: Total hip arthroplasty (THA) is the gold standard for advanced hip diseases. Cementless fixation has gained popularity due to its biological fixation and durability, but precise implant positioning remains crucial for optimal outcomes. Data on immediate postoperative radiological results in Indian patients are limited. AIMS AND OBJECTIVES: To assess immediate postoperative radiological parameters in patients undergoing unilateral uncemented THA at a tertiary center in North India. MATERIALS AND METHODS: A prospective study was conducted on patients undergoing uncemented THA. Standardized postoperative radiographs were analyzed for acetabular cup inclination, anteversion, femoral stem alignment, and limb length discrepancy. RESULTS: Most patients showed acetabular and femoral components within acceptable radiological ranges. Minor deviations were observed in a few cases due to intraoperative challenges. Limb length discrepancy was minimal and clinically insignificant. CONCLUSION: Uncemented THA demonstrated satisfactory immediate radiological outcomes, reflecting good surgical precision. Regular assessment of implant positioning is vital for improving long-term success and reducing complications.",
-      "authors": [
-        "Narendra Singh Kushwaha",
-        "Raza Ahmad Khan",
-        "Dharmendra Kumar",
-        "Sujeet Kumar Chaudhary",
-        "Khurshid Alam Ansari",
-        "Ritesh Chakoo",
-        "Ashish Kumar"
-      ],
-      "first_author_affiliation": "Department of Orthopaedic Surgery, King George Medical University, Lucknow, Uttar Pradesh, India.",
-      "corresponding_authors": [],
-      "venue": "Annals of African medicine",
-      "year": 2026,
-      "date": "2026-04-08",
-      "date_precision": "day",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41947362/",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [],
-      "raw_type": "journal article",
-      "directions": [
-        "am_femoral_stem"
-      ],
-      "direction": "am_femoral_stem",
-      "direction_name": "Femoral Stem (AM + traditional)",
-      "routing_matches": {
-        "am_femoral_stem": [
-          "femoral stem"
-        ]
-      },
-      "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文仅评估了非骨水泥全髋置换术的术后放射学结果，未涉及股骨柄设计、生物力学建模或增材制造。",
-        "why_not_core": "This paper is a purely clinical radiological assessment with no biomechanical analysis, no FEA, no implant design methodology, and no additive manufacturing context.",
-        "validation_kind": "clinical",
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接提供了增材制造Ti-6Al-4V的疲劳数据及裂纹萌生特征，完全符合第一层力学与疲劳性能要求。",
+        "why_not_core": "The paper is a dataset description without novel modeling or mechanistic analysis; it primarily reports data rather than advancing new fatigue understanding or prediction methods.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -275,83 +77,227 @@
           "is_review": false
         },
         "tags": [
-          "uncemented THA",
-          "radiological outcomes",
-          "femoral stem alignment",
-          "clinical study"
+          "Ti-6Al-4V",
+          "PBF-LB/M",
+          "fatigue",
+          "crack initiation",
+          "data paper"
         ],
         "summary_zh": {
-          "motivation": "评估非骨水泥全髋置换术后即刻放射学参数。",
-          "method": "前瞻性研究，分析标准化术后X光片。",
-          "result": "大多数患者假体位置在可接受范围内，偏差较小。",
-          "validation": "临床放射学评估，未进行生物力学验证。"
+          "motivation": "支持疲劳过程窗口的验证，提供应力消除态Ti-6Al-4V的疲劳数据",
+          "method": "通过175个四点弯曲和轴向疲劳试样测试，结合断口SEM分析",
+          "result": "建立了工艺参数与疲劳寿命及裂纹萌生特征的数据集",
+          "validation": "实验疲劳测试与断口形貌表征"
         },
         "summary_en": {
-          "motivation": "To assess immediate postoperative radiological parameters in uncemented total hip arthroplasty for evaluating surgical precision.",
-          "method": "A prospective study was conducted on patients undergoing uncemented THA, with standardized postoperative radiographs analyzed for cup inclination, anteversion, stem alignment, and limb length discrepancy.",
-          "result": "Most patients exhibited acetabular and femoral components within acceptable radiological ranges, with minor deviations in a few cases.",
-          "validation": "Validation was performed through clinical radiographic analysis of postoperative outcomes without biomechanical testing."
+          "motivation": "To support the development of a fatigue-based process window for stress-relieved Ti-6Al-4V produced by laser powder bed fusion.",
+          "method": "Four-point bend and axial fatigue specimens were fabricated at various scan velocities, tested under load-controlled cyclic loading, and post-mortem SEM analysis identified crack initiation sites and defect morphology.",
+          "result": "A curated dataset of 175 specimens links process parameters to fatigue life and fracture initiation characteristics, including defect type, size, and location.",
+          "validation": "Experimental fatigue testing (R=0.1) and fractographic characterization of 136 fractured specimens."
         },
         "key_terms": [
           {
-            "en": "uncemented total hip arthroplasty",
-            "zh": "非骨水泥全髋关节置换术"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "radiological outcomes",
-            "zh": "放射学结果"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
-            "en": "femoral stem alignment",
-            "zh": "股骨柄对线"
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
           },
           {
-            "en": "acetabular cup inclination",
-            "zh": "髋臼杯倾斜角"
+            "en": "crack initiation",
+            "zh": "裂纹萌生"
           },
           {
-            "en": "limb length discrepancy",
-            "zh": "肢体长度差异"
+            "en": "four-point bend",
+            "zh": "四点弯曲"
           },
           {
-            "en": "implant positioning",
-            "zh": "假体定位"
+            "en": "axial fatigue",
+            "zh": "轴向疲劳"
           },
           {
-            "en": "prospective study",
-            "zh": "前瞻性研究"
+            "en": "scan velocity",
+            "zh": "扫描速度"
           },
           {
-            "en": "postoperative radiograph",
-            "zh": "术后X光片"
+            "en": "defect morphology",
+            "zh": "缺陷形貌"
+          },
+          {
+            "en": "stress-relieved",
+            "zh": "应力消除态"
+          },
+          {
+            "en": "probabilistic modeling",
+            "zh": "概率建模"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
+      "first_seen_at": "2026-06-07T23:29:54Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7151844096",
+      "doi": "10.35414/akufemubid.1728462",
+      "title": "Investigation of the Effect of Different Cutting Conditions on Machining Performance in Parting Off Operation Applied to Ti6Al4V Alloy on CNC Lathe",
+      "abstract": "Although every product produced on a lathe is subjected to parting off operation at least once, there has been almost no study on this operation. In this study, Ti6Al4V alloy, which is difficult to machine, was chosen as the work piece material to investigate the parting off operation in a confined space. The effects of different cooling conditions (dry cutting and conventional cooling), different cutting speeds (30 and 50 m/min) and different feeds (0.01, 0.02, 0.03 and 0.04 mm/rev) on surface roughness (Ra), tool wear (Vb) and chip morphology were investigated. In the experiments, it was observed that coolant application is much more vital than in open machining operations, especially in terms of tool wear, with improvements of up to 90%. The increase in cutting speed had a negative effect on Ra, but not a positive one, in contrast to open-machining operations. The increase in feeds increased Ra and Vb values, similar to the open-machining operations. In addition, the increase in feeds resulted in a shorter and more controllable chip form. These results show that machinability studies should not be limited to open-machining operations such as turning and facing, which are easy to implement. It is thought that solving the many problems encountered due to the nature of the process in confined space operations with very different and challenging conditions will add a new dimension to the studies on machinability.",
+      "authors": [
+        "Ayşegül Çakır Şencan",
+        "Müberra Rüveyda Koçak"
+      ],
+      "first_author_affiliation": "Bulent Ecevit University",
+      "corresponding_authors": [
+        {
+          "name": "Ayşegül Çakır Şencan",
+          "affiliation": "Bulent Ecevit University"
+        }
+      ],
+      "venue": "Afyon Kocatepe University Journal of Sciences and Engineering",
+      "year": 2026,
+      "date": "2026-04-08",
+      "date_precision": "day",
+      "url": "https://doi.org/10.35414/akufemubid.1728462",
+      "cited_by_count": 0,
+      "concepts": [
+        "Machinability",
+        "Machining",
+        "Surface roughness",
+        "Coolant",
+        "Materials science",
+        "Mechanical engineering",
+        "Chip",
+        "Metallurgy",
+        "Titanium alloy",
+        "Surface finish",
+        "Chip formation",
+        "Process (computing)",
+        "Thrust",
+        "Drilling",
+        "Cutting tool",
+        "Tool wear",
+        "Threading (protein sequence)",
+        "Alloy",
+        "Dimension (graph theory)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "本研究涉及Ti6Al4V合金的切断加工参数对表面粗糙度和刀具磨损的影响，虽未直接测量疲劳性能，但加工表面质量是影响疲劳寿命的关键因素，可为后处理工艺优化提供参考。",
+        "why_not_core": "The paper does not measure fatigue or mechanical performance (e.g., tensile, fatigue life) after the cutting operation; it focuses on surface roughness and tool wear only.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti6Al4V",
+          "parting off",
+          "machining",
+          "surface roughness",
+          "tool wear",
+          "chip morphology",
+          "cooling conditions",
+          "cutting speed",
+          "feed rate"
+        ],
+        "summary_zh": {
+          "motivation": "研究Ti6Al4V合金切断加工中不同切削条件对加工性能的影响。",
+          "method": "通过实验改变冷却条件、切削速度和进给量，测量表面粗糙度、刀具磨损和切屑形态。",
+          "result": "冷却液使刀具磨损改善高达90%，进给量增加产生更短更可控的切屑。",
+          "validation": "实际切削实验测量表面粗糙度和刀具磨损验证趋势。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of cutting parameters on machining performance during parting off of Ti6Al4V alloy.",
+          "method": "Experimental study varying cooling condition, cutting speed, and feed rate, measuring surface roughness, tool wear, and chip morphology.",
+          "result": "Coolant application improved tool wear by up to 90%, and increased feed resulted in shorter, more controllable chips.",
+          "validation": "Experimental measurements of surface roughness and tool wear under different conditions."
+        },
+        "key_terms": [
+          {
+            "en": "Ti6Al4V alloy",
+            "zh": "Ti6Al4V合金"
+          },
+          {
+            "en": "parting off",
+            "zh": "切断加工"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "tool wear",
+            "zh": "刀具磨损"
+          },
+          {
+            "en": "chip morphology",
+            "zh": "切屑形态"
+          },
+          {
+            "en": "cooling conditions",
+            "zh": "冷却条件"
+          },
+          {
+            "en": "cutting speed",
+            "zh": "切削速度"
+          },
+          {
+            "en": "feed rate",
+            "zh": "进给量"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:29:54Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 2,
     "by_source": {
-      "arxiv": 1,
-      "pubmed": 2
+      "openalex": 2
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "mechanical_properties": 1,
-      "am_femoral_stem": 2
+      "ti6al4v_base_mechanical_fatigue": 1,
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "arxiv": 1,
-      "pubmed": 2
+      "openalex": 2
     },
-    "scored": 3,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 2,
-      "Low": 1
+      "High": 1,
+      "Medium": 1
     }
   }
 }

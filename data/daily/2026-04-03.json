@@ -4,61 +4,76 @@
   "date_precision": "day",
   "papers": [
     {
-      "source": "arxiv",
-      "id": "http://arxiv.org/abs/2604.02657v1",
-      "doi": "",
-      "arxiv_id": "2604.02657v1",
-      "title": "Unraveling Intrinsic Thermal Conductivity in Layered Conductive MOF Single Crystals",
-      "abstract": "Layered conductive metal-organic frameworks (LCMOFs) show great promise in energy and electronics due to their high electrical conductivity and tunable pore structures. They are considered ideal \"phonon-glass, electron-crystal\" materials. However, their intrinsic thermal transport properties, particularly the thermal conductivity in the single-crystalline state, have never been explored before. The applicability of the Wiedemann-Franz law to such complex porous materials is a key scientific question to describe their thermoelectric relationship. We investigated single crystals of three LCMOFs (Cu3HHTP2, Co9HHTP4, Nd3HHTP2) using the microfabricated suspended device. Results showed ultralow thermal conductivities (0.075-0.194 W m-1 K-1) along the π-π stacking direction. Crucially, Nd3HHTP2 exhibited a high electrical conductivity of 398 S cm-1, yet its thermal conductivity (0.148 W m-1 K-1) was comparable to the other two LCMOFs with significantly lower electrical conductivities. Structural characterization revealed that the incommensurate modulation, and in-plane correlated disorder within the Nd3HHTP2 structure are the potential causes of strong phonon scattering and the observed ultralow thermal conductivity.",
+      "source": "openalex",
+      "id": "https://openalex.org/W7148842141",
+      "doi": "10.3221/igf-esis.77.01",
+      "title": "Multimodal residual stress evaluation following one-sided dimpling in a Ti-6Al-4V alloy plate",
+      "abstract": "Residual stress significantly influences the mechanical performance, fatigue resistance, and structural reliability of titanium alloys used in engineering applications. This study investigates the residual stress distribution induced by one-sided dimpling in Ti-6Al-4V alloy using a combined experimental–numerical approach. Localized plastic deformation produced by spherical indentation generates stress fields that are difficult to characterize with a single technique. Residual stresses in the plane were evaluated using Focused Ion Beam–Digital Image Correlation (FIB-DIC) and Electronic Speckle Pattern Interferometry (ESPI). To evaluate the residual stress through the sample thickness, the cross-section warp method was used, that analyze the warping (deplanation) of the cross-section after cutting and provides an alternative way to infer the internal stress distributions and complements existing measurement techniques. The results reveal compressive residual stresses near the dimpled surface and tensile stresses developing at greater depths due to elastic recovery and equilibrium constraints. Finite element simulations match the experimentally observed stress distributions and confirm the reliability of the proposed methodology. The validated finite element model provides a predictive framework for future studies, enabling systematic analysis of how indentation depth and the indenter diameter affect the magnitude and distribution of compressive residual stresses, and supporting the optimization of dimpling parameters for improved structural performance.",
       "authors": [
-        "Jinkun Guo",
-        "Dongyang Wang",
-        "Zhiyi Li",
-        "Haoyang Zhang",
-        "Jiaxiang Zhang",
-        "Zeyue Zhang",
-        "Lei Sun",
-        "Junliang Sun",
-        "Jiawei Zhou",
-        "Chongan Di",
-        "Jinhu Dou"
+        "I. A. Zorin",
+        "V. E. Pisarev",
+        "Svyatoslav I. Eleonsky",
+        "Aleksandr Elkin",
+        "Galina V. Tyurina",
+        "Eugene S. Statnik",
+        "Alexey Salimon",
+        "Alexander M. Korsunsky"
       ],
-      "venue": "arXiv preprint",
+      "first_author_affiliation": "HSM lab, Center for Engineering Systems and Sciences, Skoltech, Moscow, Russia",
+      "corresponding_authors": [
+        {
+          "name": "I. A. Zorin",
+          "affiliation": "HSM lab, Center for Engineering Systems and Sciences, Skoltech, Moscow, Russia"
+        }
+      ],
+      "venue": "Frattura ed Integrità Strutturale",
       "year": 2026,
       "date": "2026-04-03",
       "date_precision": "day",
-      "url": "http://arxiv.org/abs/2604.02657v1",
-      "cited_by_count": 0,
-      "concepts": [],
-      "categories": [
-        "cond-mat.mtrl-sci"
+      "url": "https://doi.org/10.3221/igf-esis.77.01",
+      "cited_by_count": 1,
+      "concepts": [
+        "Residual stress",
+        "Materials science",
+        "Indentation",
+        "Finite element method",
+        "Ultimate tensile strength",
+        "Stress (linguistics)",
+        "Titanium alloy",
+        "Composite material",
+        "Deformation (meteorology)",
+        "Structural engineering",
+        "Radial stress",
+        "Digital image correlation",
+        "Reliability (semiconductor)",
+        "Compressive strength",
+        "Alloy",
+        "Residual",
+        "Plane stress",
+        "Stress concentration"
       ],
-      "raw_type": "preprint",
+      "categories": [],
+      "raw_type": "article",
       "directions": [
-        "mechanical_properties",
-        "fatigue",
-        "ti6al4v_postprocess_hip"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "mechanical_properties",
-      "direction_name": "AM Mechanical Properties",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "mechanical_properties": [
-          "w + a + a + m"
-        ],
-        "fatigue": [
-          "w + a + a + m"
-        ],
-        "ti6al4v_postprocess_hip": [
-          "w + a + a + m"
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "residual stress",
+          "fatigue"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究导电金属有机框架单晶的热导率，与用户的生物打印、髋关节植入物、有限元代理或增材制造方向无关。",
-        "why_not_core": "This paper does not address biomedical implants, bioprinting, finite element analysis, or additive manufacturing for medical applications.",
-        "validation_kind": "none",
+        "relevance_to_user": "论文研究的是常规工艺（压痕）在Ti-6Al-4V板中产生的残余应力，而非增材制造，因此与本方向无关。",
+        "why_not_core": "The paper does not involve additive manufacturing of Ti-6Al-4V; it studies conventional dimpling/indentation on a Ti-6Al-4V plate, with no fatigue or mechanical characterization relevant to AM-processed Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -66,68 +81,69 @@
           "is_review": false
         },
         "tags": [
-          "MOF",
-          "thermal conductivity",
-          "single crystal",
-          "phonon scattering",
-          "Wiedemann-Franz law"
+          "Ti-6Al-4V",
+          "residual stress",
+          "dimpling",
+          "FIB-DIC",
+          "ESPI",
+          "finite element simulation"
         ],
         "summary_zh": {
-          "motivation": "探索层状导电MOF单晶的本征热传导特性",
-          "method": "使用微加工悬浮器件测量三种MOF单晶的热导率",
-          "result": "发现超低热导率且与电导率无关，归因于面内无序调制",
-          "validation": "通过单晶实验测量验证"
+          "motivation": "研究单侧压痕在Ti-6Al-4V板中产生的残余应力分布",
+          "method": "结合FIB-DIC、ESPI和截面翘曲法进行实验测量与有限元模拟",
+          "result": "压痕表面为压应力，深处为拉应力",
+          "validation": "实验与模拟结果吻合"
         },
         "summary_en": {
-          "motivation": "To investigate the intrinsic thermal transport in layered conductive MOF single crystals, which had not been previously explored.",
-          "method": "Thermal conductivity was measured using microfabricated suspended devices on single crystals of three LCMOFs.",
-          "result": "Ultralow thermal conductivities (0.075-0.194 W m-1 K-1) were observed, with Nd3HHTP2 showing high electrical conductivity but comparable thermal conductivity due to incommensurate modulation and disorder.",
-          "validation": "Experimental measurements on single crystals confirmed the ultralow thermal conductivity and the role of structural disorder."
+          "motivation": "To investigate residual stress distribution induced by one-sided dimpling in Ti-6Al-4V alloy plate.",
+          "method": "Combined experimental measurement using FIB-DIC, ESPI, and cross-section warp method with finite element simulation.",
+          "result": "Compressive residual stresses near the dimpled surface and tensile stresses at depth were observed.",
+          "validation": "Experimental results matched finite element predictions."
         },
         "key_terms": [
           {
-            "en": "layered conductive MOF",
-            "zh": "层状导电金属有机框架"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "thermal conductivity",
-            "zh": "热导率"
+            "en": "residual stress",
+            "zh": "残余应力"
           },
           {
-            "en": "single crystal",
-            "zh": "单晶"
+            "en": "dimpling",
+            "zh": "压痕成形"
           },
           {
-            "en": "Wiedemann-Franz law",
-            "zh": "维德曼-弗兰兹定律"
+            "en": "FIB-DIC",
+            "zh": "聚焦离子束-数字图像相关"
           },
           {
-            "en": "phonon scattering",
-            "zh": "声子散射"
+            "en": "ESPI",
+            "zh": "电子散斑干涉"
           },
           {
-            "en": "incommensurate modulation",
-            "zh": "非公度调制"
+            "en": "finite element simulation",
+            "zh": "有限元模拟"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-06T01:21:56Z"
+      "first_seen_at": "2026-06-07T23:29:54Z"
     }
   ],
   "counts": {
     "fetched_total": 1,
     "by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "after_dedup": 1,
     "after_routing": 1,
     "by_direction": {
-      "mechanical_properties": 1
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "arxiv": 1
+      "openalex": 1
     },
     "scored": 1,
     "priority_counts": {

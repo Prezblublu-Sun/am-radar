@@ -1,0 +1,408 @@
+{
+  "schema_version": "v2",
+  "date": "2025-09-08",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414080007",
+      "doi": "10.1016/j.ijmecsci.2025.110704",
+      "title": "Hybrid auxetics: Postponing failure with elastomer infiltration of Ti-6Al-4V lattices",
+      "abstract": "This work examines how a soft elastomeric phase can be used to reinforce and delay the failure of additively manufactured metal lattice structures with auxetic geometry. A novel hexaround unit-cell was designed to ensure printability of Ti-6Al-4V via laser powder-bed fusion. Once infiltrated with a compliant polyurethane, these hybrid lattices showed a pronounced delay in strut-level failure and shear-band formation. Microtomography coupled with in-situ compression experiments confirmed that nodal cracking commonly observed in unfilled lattices is mitigated by the polymer phase. While hybrid lattices exhibited comparable or slightly increased stiffness only at large deformations, their enhanced integrity and stress redistribution suggest promise for crashworthiness and impact applications requiring high ductility or energy absorption. We discuss how the stiffness ratio between filler and metallic skeleton determines the extent of improvement, offering design guidelines for next-generation hybrid lattices. This is the first in-situ tomographic evidence that a compliant matrix can defer the critical shear-band in an additively manufactured metal auxetic lattice. • A re-entrant auxetic lattice design improves printability via laser powder-bed fusion, balancing geometric complexity and robust manufacturability. • Elastomer infiltration helps redistribute stress, delaying nodal cracks and promoting a more controlled collapse under compressive loading. • This is the first in situ tomographic evidence that a compliant matrix can defer the critical shear-band in metal auxetic lattice. • The hybrid structure maintains better load-bearing capacity at large deformations, preserving integrity where unfilled lattices fail. • Enhanced energy absorption at high strains suggests suitability for crashworthiness applications.",
+      "authors": [
+        "Frédéric Albertini",
+        "Justin Dirrenberger",
+        "Cyrille Sollogoub",
+        "Andrey Molotnikov",
+        "Jérôme Adrien",
+        "Éric Maire"
+      ],
+      "first_author_affiliation": "PIMM, Arts et Métiers, Cnam, CNRS UMR 8006, 151 bd de l’Hôpital, 75013 Paris, France",
+      "corresponding_authors": [
+        {
+          "name": "Justin Dirrenberger",
+          "affiliation": "Institut universitaire de France (IUF), Paris, France"
+        }
+      ],
+      "venue": "International Journal of Mechanical Sciences",
+      "year": 2025,
+      "date": "2025-09-08",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.ijmecsci.2025.110704",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Crashworthiness",
+        "Elastomer",
+        "Auxetics",
+        "Stiffness",
+        "Toughness",
+        "Damage tolerance",
+        "Composite number",
+        "Cracking",
+        "Catastrophic failure",
+        "Sapphire",
+        "Polymer",
+        "Natural rubber",
+        "Micromechanics",
+        "Lattice (music)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Peripheral",
+        "read_action": "Skim only",
+        "relevance_to_user": "涉及Ti-6Al-4V点阵结构的力学性能，但主要关注弹性体浸润后处理，而非基体材料的基础力学或疲劳性能。",
+        "why_not_core": "The paper centers on a post-processing method (elastomer infiltration) to enhance lattice behavior, not on the as-built or process-state mechanical/fatigue properties of Ti-6Al-4V as required by the direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "LPBF",
+          "auxetic lattice",
+          "elastomer infiltration",
+          "hybrid",
+          "compression testing",
+          "energy absorption"
+        ],
+        "summary_zh": {
+          "motivation": "通过弹性体浸润延迟金属点阵结构的失效",
+          "method": "设计可打印的六周围单胞，激光粉末床熔融制造Ti-6Al-4V点阵后注入聚氨酯弹性体",
+          "result": "混合点阵延迟了剪切带形成和节点开裂，提高了大应变下的承载能力",
+          "validation": "原位压缩显微CT实验验证了失效延迟和应力再分布"
+        },
+        "summary_en": {
+          "motivation": "To delay failure of additively manufactured metal lattice structures by infiltrating a soft elastomeric phase.",
+          "method": "A novel hexaround unit-cell was designed for printability via LPBF; Ti-6Al-4V lattices were infiltrated with polyurethane and tested under compression with in-situ microtomography.",
+          "result": "Hybrid lattices exhibited delayed strut-level failure and shear-band formation, with mitigated nodal cracking and improved load-bearing capacity at large deformations.",
+          "validation": "In-situ compression combined with microtomography provided direct evidence of failure postponement and stress redistribution."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
+          },
+          {
+            "en": "auxetic lattice",
+            "zh": "拉胀点阵"
+          },
+          {
+            "en": "elastomer infiltration",
+            "zh": "弹性体浸润"
+          },
+          {
+            "en": "hybrid structure",
+            "zh": "混合结构"
+          },
+          {
+            "en": "in-situ compression",
+            "zh": "原位压缩"
+          },
+          {
+            "en": "microtomography",
+            "zh": "显微断层扫描"
+          },
+          {
+            "en": "energy absorption",
+            "zh": "能量吸收"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:15:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414142866",
+      "doi": "10.3390/cryst15090795",
+      "title": "Mechanical and Corrosion Properties of Ultrafine-Grained TC4-0.55Fe Alloy Processed by Equal-Channel Angular Pressing",
+      "abstract": "This study investigates the effects of multi-pass Equal-Channel Angular Pressing (ECAP) on the mechanical and corrosion properties of TC4-0.55Fe alloy through room-temperature tensile tests, electrochemical experiments, SEM, and EBSD characterization. The results demonstrate that, with increasing ECAP passes, the average grain size is progressively refined from the initial 3.8 μm to 1.8 μm after four passes. After four passes, the yield strength and ultimate tensile strength increase from initial values of 906 MPa and 939 MPa to 995 MPa and 1022 MPa, respectively, while the elongation at fracture slightly decreases to 12.0%. Electrochemical corrosion results reveal that ECAP processing significantly enhances the corrosion resistance of the TC4-0.55Fe alloy. Specifically, the two-pass specimen exhibits nearly an order-of-magnitude reduction in both corrosion rate and self-corrosion current density compared to the initial state. The simultaneous improvement in strength and corrosion resistance is primarily attributed to the synergistic effects of grain refinement, increased dislocation density, and the evolution of basal texture.",
+      "authors": [
+        "Yumeng Guo",
+        "Lu Yu",
+        "Miaoxia He",
+        "Yu Wang",
+        "Yuecheng Dong",
+        "Igor Alexandrov"
+      ],
+      "first_author_affiliation": "College of Materials Science and Engineering, Tech Institute for Advanced Materials, Nanjing Tech University, Nanjing 211816, China",
+      "corresponding_authors": [
+        {
+          "name": "Yuecheng Dong",
+          "affiliation": "College of Materials Science and Engineering, Tech Institute for Advanced Materials, Nanjing Tech University, Nanjing 211816, China"
+        }
+      ],
+      "venue": "Crystals",
+      "year": 2025,
+      "date": "2025-09-08",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/cryst15090795",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Corrosion",
+        "Ultimate tensile strength",
+        "Metallurgy",
+        "Pressing",
+        "Alloy",
+        "Elongation",
+        "Electron backscatter diffraction",
+        "Grain size",
+        "Composite material",
+        "Severe plastic deformation",
+        "Grain boundary",
+        "Yield (engineering)",
+        "Electrochemistry",
+        "Dislocation",
+        "Microstructure",
+        "Strengthening mechanisms of materials"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "tensile strength",
+          "yield strength",
+          "ultimate tensile strength",
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及TC4-0.55Fe合金的力学性能，但加工工艺为等通道角挤压（ECAP），非增材制造，且合金成分与标准Ti-6Al-4V有差异，因此与研究方向无关。",
+        "why_not_core": "The paper does not use additive manufacturing (LPBF/SLM/EBM/DED), the alloy composition is modified (TC4-0.55Fe), and it focuses on ECAP processing, not on mechanical or fatigue performance of AM Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "ECAP",
+          "TC4-0.55Fe",
+          "grain refinement",
+          "corrosion resistance",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "研究ECAP对TC4-0.55Fe合金力学和腐蚀性能的影响",
+          "method": "通过多道次ECAP处理，结合室温拉伸、电化学实验和微观表征",
+          "result": "ECAP后晶粒细化，强度提高至995 MPa，腐蚀性能改善",
+          "validation": "拉伸实验和电化学测试验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of ECAP on mechanical and corrosion properties of TC4-0.55Fe alloy",
+          "method": "Multi-pass ECAP processing followed by tensile tests, electrochemical experiments, SEM, and EBSD characterization",
+          "result": "Grain refinement to 1.8 μm, yield strength increased to 995 MPa, and corrosion resistance improved",
+          "validation": "Mechanical testing and electrochemical measurements"
+        },
+        "key_terms": [
+          {
+            "en": "equal-channel angular pressing",
+            "zh": "等通道角挤压"
+          },
+          {
+            "en": "TC4-0.55Fe alloy",
+            "zh": "TC4-0.55Fe合金"
+          },
+          {
+            "en": "grain refinement",
+            "zh": "晶粒细化"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
+          },
+          {
+            "en": "electrochemical corrosion",
+            "zh": "电化学腐蚀"
+          },
+          {
+            "en": "EBSD",
+            "zh": "电子背散射衍射"
+          },
+          {
+            "en": "yield strength",
+            "zh": "屈服强度"
+          },
+          {
+            "en": "elongation",
+            "zh": "伸长率"
+          },
+          {
+            "en": "dislocation density",
+            "zh": "位错密度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:15:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7111897896",
+      "doi": "",
+      "title": "Fretting Fatigue Behaviour of Laser Powder Bed Fusion- Produced Ti-6Al-4V: Experimental and Numerical Analysis",
+      "abstract": "status: Published online",
+      "authors": [
+        "Glodek, Grzegorz",
+        "Gothivarekar, Sanjay",
+        "Van Hooreweder, Brecht",
+        "Talemi, Reza"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Glodek, Grzegorz",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Lirias (KU Leuven)",
+      "year": 2025,
+      "date": "2025-09-08",
+      "date_precision": "day",
+      "url": "https://openalex.org/W7111897896",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Numerical analysis",
+        "Laser",
+        "Composite material",
+        "Finite element method",
+        "Fretting",
+        "Computer simulation",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究激光粉末床熔融Ti-6Al-4V的微动疲劳行为，属于层1基础力学与疲劳范畴，与研究方向高度相关。",
+        "why_not_core": "Does not cover standard uniaxial fatigue or tensile properties, focusing instead on fretting fatigue, a specialized mechanism within the fatigue scope.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "fretting fatigue",
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "experimental",
+          "numerical analysis"
+        ],
+        "summary_zh": {
+          "motivation": "研究激光粉末床熔融Ti-6Al-4V的微动疲劳行为",
+          "method": "结合微动疲劳实验与数值模拟分析",
+          "result": "揭示了微动条件下的疲劳损伤机制与寿命规律",
+          "validation": "通过微动疲劳实验验证结果"
+        },
+        "summary_en": {
+          "motivation": "To investigate the fretting fatigue behavior of laser powder bed fusion-produced Ti-6Al-4V.",
+          "method": "A combined approach of experimental fretting fatigue tests and numerical modeling was employed.",
+          "result": "The damage mechanisms and fatigue life under fretting conditions were characterized.",
+          "validation": "Experimental fretting fatigue tests provided validation for numerical predictions."
+        },
+        "key_terms": [
+          {
+            "en": "fretting fatigue",
+            "zh": "微动疲劳"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "numerical analysis",
+            "zh": "数值分析"
+          },
+          {
+            "en": "experimental validation",
+            "zh": "实验验证"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-07T23:15:36Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 3,
+    "by_source": {
+      "openalex": 3
+    },
+    "after_dedup": 3,
+    "after_routing": 3,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 3
+    },
+    "routed_by_source": {
+      "openalex": 3
+    },
+    "scored": 3,
+    "priority_counts": {
+      "Medium": 1,
+      "Exclude": 1,
+      "High": 1
+    }
+  }
+}
