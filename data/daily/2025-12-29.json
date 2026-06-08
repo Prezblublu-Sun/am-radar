@@ -61,15 +61,22 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "selective laser melting",
+          "SLM",
+          "LPBF",
+          "microstructure",
           "elongation"
         ]
       },
       "llm": {
-        "priority": "Medium",
-        "relevance_level": "Peripheral",
-        "read_action": "Skim only",
-        "relevance_to_user": "该论文研究了Ti-6Al-4V点阵结构的力学性能，但未涉及疲劳性能或实体材料的基础力学行为。",
-        "why_not_core": "The paper focuses on lattice structures and in-situ alloying with Cr, not on solid Ti-6Al-4V mechanical/fatigue properties; no fatigue testing or S-N data.",
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究Ti-6Al-4V增材制造晶格结构的力学性能，符合L1层对机械性能的关注。",
+        "why_not_core": "论文未涉及疲劳性能，且主要聚焦晶格结构而非致密材料，对纯疲劳研究参考有限。",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -79,36 +86,42 @@
         },
         "tags": [
           "Ti-6Al-4V",
-          "lattice structure",
-          "selective laser melting",
+          "lattice structures",
+          "SLM",
+          "LPBF",
           "in-situ alloying",
           "functional gradient",
-          "mechanical properties"
+          "mechanical properties",
+          "microstructure"
         ],
         "summary_zh": {
-          "motivation": "系统研究Ti-6Al-4V点阵结构在SLM/LPBF中的工艺-微观结构-性能关系。",
-          "method": "制备Ti-6Al-4V-3%Cr点阵试样，结合XRD、SEM、EBSD、EDS表征及有限元模拟。",
-          "result": "原位合金化Cr稳定β相，提高强度（UTS达1050 MPa），点阵结构弹性模量0.41-0.76 GPa。",
-          "validation": "通过实验力学测试验证了有限元预测。"
+          "motivation": "研究原位合金化和功能梯度对Ti-6Al-4V晶格结构力学性能的影响",
+          "method": "采用SLM/LPBF制备试样，结合XRD、SEM、EBSD显微分析及FEM模拟",
+          "result": "原位合金化提高强度（UTS达1050 MPa），功能梯度晶格改善应力传递和能量吸收",
+          "validation": "通过实验拉伸测试和显微组织分析验证模拟结果"
         },
         "summary_en": {
-          "motivation": "To investigate the effects of in-situ alloying and functional gradient lattice geometry on the mechanical properties of Ti-6Al-4V fabricated by SLM/LPBF.",
-          "method": "Ti-6Al-4V-3%Cr lattice specimens were fabricated via SLM/LPBF and characterized using XRD, SEM, EBSD, EDS, and finite element modeling.",
-          "result": "In-situ alloying with Cr stabilized β-phase and increased strength (UTS up to 1050 MPa), while lattice structures exhibited elastic moduli from 0.41 to 0.76 GPa.",
-          "validation": "Mechanical tests were performed to validate finite element predictions."
+          "motivation": "To investigate the effect of in-situ alloying and functional gradient design on the mechanical properties of Ti-6Al-4V lattice structures fabricated by additive manufacturing.",
+          "method": "Specimens were fabricated by SLM/LPBF with controlled energy density and scanning parameters, characterized by XRD, SEM, EBSD, EDS, and simulated using finite element modeling.",
+          "result": "In-situ alloying with Cr stabilized β-phase and increased strength (UTS up to 1050 MPa, elongation 8–10%), while functionally graded lattices improved stress transfer and energy absorption.",
+          "validation": "Experimental mechanical testing and microstructural analysis validated the finite element predictions."
         },
         "key_terms": [
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
-          {
-            "en": "lattice structure",
-            "zh": "点阵结构"
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "selective laser melting",
-            "zh": "选择性激光熔化"
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "lattice structures",
+            "zh": "晶格结构"
           },
           {
             "en": "in-situ alloying",
@@ -123,35 +136,323 @@
             "zh": "力学性能"
           },
           {
-            "en": "elastic modulus",
-            "zh": "弹性模量"
+            "en": "microstructure",
+            "zh": "微观组织"
           },
           {
-            "en": "ultimate tensile strength",
-            "zh": "极限抗拉强度"
+            "en": "finite element modeling",
+            "zh": "有限元建模"
+          },
+          {
+            "en": "energy absorption",
+            "zh": "能量吸收"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7117670769",
+      "doi": "10.3390/met16010040",
+      "title": "Stiffness and Damping Properties of LPBF-Fabricated TC4 Alloy Beams Incorporating Self-Sealing Powder and Lattice Structures",
+      "abstract": "Laser powder bed fusion (LPBF) provides an effective method for the preparation of self-sealing powder damping components, but the introduction of cavities simultaneously leads to a decrease in the mechanical properties of the components. In order to achieve a synergistic improvement in the stiffness and damping performance of LPBFed self-sealing powder damping components, this paper designed and prepared TC4 alloy beams incorporating both self-sealing powder and lattice structures, characterized by their manufacturing quality, mechanical properties, and damping performance and established corresponding static and dynamic models. The results show that, as the diameter of the lattice struts increases, the stiffness of the self-sealing powder beams incorporating lattice structures increases, while the amplification factor and structural damping ratio decrease, eventually tending toward that of the solid beam. The changes in damping performance are related to the powder volume and the internal surface area. Compared to self-sealing powder beams containing only cavities, self-sealing powder beams incorporating lattice structures with strut diameters of 0.6 mm and 0.9 mm not only exhibit a significant improvement in stiffness but also demonstrate smaller amplification factors and larger structural damping ratios under 1 g and 2 g vibration inputs, achieving a synergistic enhancement of stiffness and damping. This study provides an effective reference for the regulation and optimization of the mechanical properties and damping performance of LPBFed self-sealing powder structures.",
+      "authors": [
+        "Yong Xu",
+        "Zheng Xiang",
+        "Chenyu Zhang",
+        "Jingang Tang",
+        "Xiaohui Ge",
+        "Tianhao Zhang",
+        "Minghan Sun",
+        "Zhihui Xia",
+        "Jie Chen",
+        "Shuke Huang"
+      ],
+      "first_author_affiliation": "Institute of Systems Engineering, CAEP, Mianyang 621999, China",
+      "corresponding_authors": [
+        {
+          "name": "Jie Chen",
+          "affiliation": "Institute of Machinery Manufacturing Technology, CAEP, Mianyang 621000, China"
+        },
+        {
+          "name": "Shuke Huang",
+          "affiliation": "Institute of Machinery Manufacturing Technology, CAEP, Mianyang 621000, China"
+        }
+      ],
+      "venue": "Metals",
+      "year": 2025,
+      "date": "2025-12-29",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/met16010040",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Stiffness",
+        "Alloy",
+        "Composite material",
+        "Lattice (music)",
+        "Thermoelastic damping",
+        "Vibration",
+        "Damping capacity",
+        "Damping ratio",
+        "Fusion",
+        "Material properties",
+        "Structural engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了LPBF制造的TC4（Ti-6Al-4V）合金梁的刚度和阻尼性能，属于L1方向的力学表征。",
+        "why_not_core": "论文未涉及疲劳寿命、S-N曲线或拉伸强度等典型力学/疲劳指标，而是聚焦于刚度和阻尼性能。",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "LPBF",
+          "Ti-6Al-4V",
+          "TC4 alloy",
+          "lattice structures",
+          "damping",
+          "stiffness",
+          "self-sealing powder",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "为实现LPBF自封粉末阻尼组件刚度和阻尼的协同提升。",
+          "method": "设计制备含自封粉末和点阵结构的TC4梁，表征制造质量、力学和阻尼性能，建立静动态模型。",
+          "result": "增大点阵支柱直径提高刚度，降低放大因子和结构阻尼比；含点阵梁在显著提升刚度的同时保持较大阻尼比。",
+          "validation": "通过振动测试和力学实验验证模型与性能。"
+        },
+        "summary_en": {
+          "motivation": "To achieve synergistic improvement in stiffness and damping of LPBF-fabricated self-sealing powder damping components by incorporating lattice structures.",
+          "method": "Designed and fabricated TC4 alloy beams with self-sealing powder and lattice structures, characterized their manufacturing quality, mechanical properties, and damping performance, and developed static and dynamic models.",
+          "result": "Increasing lattice strut diameter increased stiffness while decreasing amplification factor and structural damping ratio; beams with lattice structures (0.6 mm and 0.9 mm strut diameters) showed significant stiffness improvement and maintained large damping ratios under 1g and 2g vibration inputs.",
+          "validation": "Experimental vibration and mechanical testing validated the models and performance improvements."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "TC4 alloy",
+            "zh": "TC4合金"
+          },
+          {
+            "en": "self-sealing powder",
+            "zh": "自封粉末"
+          },
+          {
+            "en": "lattice structures",
+            "zh": "点阵结构"
+          },
+          {
+            "en": "stiffness",
+            "zh": "刚度"
+          },
+          {
+            "en": "damping",
+            "zh": "阻尼"
+          },
+          {
+            "en": "structural damping ratio",
+            "zh": "结构阻尼比"
+          },
+          {
+            "en": "amplification factor",
+            "zh": "放大因子"
+          },
+          {
+            "en": "vibration input",
+            "zh": "振动输入"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7117487828",
+      "doi": "10.1016/j.ceramint.2025.12.456",
+      "title": "Microstructural evolution and performance optimization of Ti-6Al-4V coatings reinforced with in situ-synthesized TiC/TiBx by laser directed energy deposition",
+      "abstract": "",
+      "authors": [
+        "Wenlong Wang",
+        "Kai Zhang",
+        "Weijun Liu",
+        "Wenchao Xi",
+        "Zhuangzhuang Hou",
+        "Huiru Wang",
+        "Hongyou Bian"
+      ],
+      "first_author_affiliation": "School of Mechanical Engineering, Shenyang University of Technology, Shenyang, Liaoning 110870, China",
+      "corresponding_authors": [
+        {
+          "name": "Kai Zhang",
+          "affiliation": "School of Mechanical Engineering, Shenyang University of Technology, Shenyang, Liaoning 110870, China"
+        },
+        {
+          "name": "Weijun Liu",
+          "affiliation": "School of Mechanical Engineering, Shenyang University of Technology, Shenyang, Liaoning 110870, China"
+        }
+      ],
+      "venue": "Ceramics International",
+      "year": 2025,
+      "date": "2025-12-29",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.ceramint.2025.12.456",
+      "cited_by_count": 7,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Indentation hardness",
+        "Ceramic",
+        "Coating",
+        "Composite material",
+        "Volume fraction",
+        "Deposition (geology)",
+        "Diffraction",
+        "Electron backscatter diffraction",
+        "Pulsed laser deposition",
+        "Laser",
+        "Scanning electron microscope",
+        "Particle (ecology)",
+        "Metallurgy",
+        "Dislocation",
+        "Friction coefficient",
+        "Alloy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "directed energy deposition"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文涉及激光定向能量沉积制备Ti-6Al-4V涂层，与Ti-6Al-4V增材制造的机械和疲劳性能方向有相关性，但侧重于涂层和原位增强，而非基体本身的力学行为。",
+        "why_not_core": "This paper focuses on coatings with in-situ ceramic reinforcement, not on the base mechanical/fatigue properties of bulk Ti-6Al-4V produced by additive manufacturing.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser directed energy deposition",
+          "Ti-6Al-4V coatings",
+          "TiC/TiBx reinforcement",
+          "in situ synthesis",
+          "microstructural evolution"
+        ],
+        "summary_zh": {
+          "motivation": "通过原位合成TiC/TiBx增强相优化激光定向能量沉积Ti-6Al-4V涂层的性能。",
+          "method": "采用激光定向能量沉积技术，在Ti-6Al-4V粉末中混合前驱体原位形成增强相。",
+          "result": "分析了微观结构演变，并评估了涂层的力学性能（如硬度、耐磨性）得到优化。",
+          "validation": "通过微观表征和力学测试验证涂层性能提升。"
+        },
+        "summary_en": {
+          "motivation": "To optimize the performance of Ti-6Al-4V coatings fabricated by laser directed energy deposition through in situ synthesis of TiC/TiBx reinforcements.",
+          "method": "Laser directed energy deposition was used with precursor powders to form TiC/TiBx phases in the Ti-6Al-4V matrix during deposition.",
+          "result": "Microstructural evolution was analyzed, and mechanical properties such as hardness and wear resistance were improved compared to unreinforced coatings.",
+          "validation": "Validation was performed through microstructural characterization and mechanical testing (e.g., hardness, wear tests)."
+        },
+        "key_terms": [
+          {
+            "en": "laser directed energy deposition",
+            "zh": "激光定向能量沉积"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "TiC",
+            "zh": "碳化钛"
+          },
+          {
+            "en": "TiBx",
+            "zh": "硼化钛"
+          },
+          {
+            "en": "in situ synthesis",
+            "zh": "原位合成"
+          },
+          {
+            "en": "coatings",
+            "zh": "涂层"
+          },
+          {
+            "en": "microstructural evolution",
+            "zh": "显微组织演变"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 3
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
+      "High": 2,
       "Medium": 1
     }
   }

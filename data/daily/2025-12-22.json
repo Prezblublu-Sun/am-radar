@@ -57,6 +57,10 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "selective laser melting",
+          "3D printing",
+          "SLM",
+          "microstructure",
           "ductility",
           "residual stress"
         ],
@@ -68,41 +72,43 @@
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文研究了热等静压对SLM成型Ti-6Al-4V微观结构和缺陷的影响，但未涉及疲劳或力学性能，与用户关注的后处理改性力学性能方向关联较弱。",
-        "why_not_core": "No mechanical testing data (fatigue, tensile) is reported; only microstructure and defect characterization.",
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了热等静压对SLM成型Ti-6Al-4V合金显微组织和缺陷的影响，与后处理控制方向相关但没有提供力学性能数据。",
+        "why_not_core": "The paper does not include any mechanical testing (tensile or fatigue) to quantify the effect of post-processing on mechanical performance; only microstructure and defect characterization is presented.",
         "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
+          "hot isostatic pressing",
           "Ti-6Al-4V",
           "selective laser melting",
-          "hot isostatic pressing",
           "microstructure",
           "defects",
-          "porosity",
-          "SEM",
-          "micro-CT"
+          "porosity"
         ],
         "summary_zh": {
-          "motivation": "研究热等静压对SLM成型Ti-6Al-4V合金微观结构和缺陷的影响。",
-          "method": "采用光学显微镜、扫描电镜和显微CT进行表征。",
-          "result": "热处理显著影响孔隙尺寸和微观组织转变。",
-          "validation": "通过实验观察和表征验证。"
+          "motivation": "表征3D打印Ti-6Al-4V合金的显微组织和缺陷，以及热等静压的影响。",
+          "method": "使用光学显微镜、扫描电镜和显微CT进行表征。",
+          "result": "热等静压显著减小孔隙尺寸并改变显微组织。",
+          "validation": "通过实验表征验证了微观结构变化。"
         },
         "summary_en": {
-          "motivation": "To characterize the microstructure and defects of SLM-printed Ti-6Al-4V and the impact of hot isostatic pressing.",
-          "method": "Optical microscopy, scanning electron microscopy, and micro-computed tomography were used.",
-          "result": "Heat treatment significantly affected pore size and microstructural transformation.",
-          "validation": "Experimental observation and characterization."
+          "motivation": "To characterize the microstructure and defects of SLM-produced Ti-6Al-4V alloy and the effect of hot isostatic pressing.",
+          "method": "Optical microscopy, scanning electron microscopy, and micro-computed tomography were used for characterization.",
+          "result": "Hot isostatic pressing significantly reduces pore size and induces microstructural transformation.",
+          "validation": "Experimental characterization via microscopy and micro-CT validated the microstructural changes."
         },
         "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
           {
             "en": "selective laser melting",
             "zh": "选择性激光熔化"
@@ -112,12 +118,8 @@
             "zh": "热等静压"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
-          {
             "en": "microstructure",
-            "zh": "微观结构"
+            "zh": "显微组织"
           },
           {
             "en": "defects",
@@ -128,18 +130,18 @@
             "zh": "孔隙率"
           },
           {
-            "en": "SEM",
+            "en": "scanning electron microscopy",
             "zh": "扫描电镜"
           },
           {
-            "en": "micro-CT",
+            "en": "micro-computed tomography",
             "zh": "显微CT"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     },
     {
       "source": "openalex",
@@ -208,8 +210,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接针对Ti6Al4V合金的激光金属沉积后处理（热等静压、热处理、深冷处理）对力学性能的影响，与L2方向高度相关。",
-        "why_not_core": "No fatigue testing data; mechanical evaluation is limited to tensile and ductility without microstructure-phase analysis.",
+        "relevance_to_user": "该论文直接研究Ti6Al4V合金的激光金属沉积后处理（热等静压、热处理、深冷处理）对力学性能和孔隙率的影响，与用户方向高度相关。",
+        "why_not_core": "The paper does not report fatigue data, focusing on tensile strength, ductility, and porosity reduction.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -218,8 +220,8 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
           "laser metal deposition",
+          "Ti-6Al-4V",
           "post-processing",
           "hot isostatic pressing",
           "heat treatment",
@@ -229,20 +231,24 @@
         ],
         "summary_zh": {
           "motivation": "优化激光金属沉积Ti6Al4V工艺并研究后处理对力学性能的影响。",
-          "method": "采用响应面法和方差分析优化参数，对样品进行热等静压、热处理和深冷处理。",
-          "result": "后处理降低了强度但提高了延展性，深冷处理进一步改善性能并降低孔隙率。",
-          "validation": "通过力学测试和孔隙率分析进行验证。"
+          "method": "采用响应面法优化参数，并对比热等静压、热处理和深冷处理的效果。",
+          "result": "后处理降低了强度但显著提高了塑性和减少孔隙，深冷处理进一步细化组织。",
+          "validation": "通过力学测试和孔隙率分析验证后处理效果。"
         },
         "summary_en": {
-          "motivation": "This paper aims to optimize the laser metal deposition process for Ti6Al4V and investigate the effect of various post-processing treatments on mechanical properties.",
-          "method": "Process parameters were optimized using response surface methodology and ANOVA, and as-built samples were subjected to hot isostatic pressing, heat treatment, and cryogenic treatment.",
-          "result": "Post-processing reduced strength but significantly improved ductility and reduced porosity, while cryogenic treatment further enhanced mechanical performance by promoting martensitic transformation and fine carbide precipitation.",
-          "validation": "Mechanical testing (tensile and elongation) and porosity analysis were used to validate the findings."
+          "motivation": "To optimize the laser metal deposition process for Ti6Al4V and evaluate the effects of post-processing treatments on mechanical properties.",
+          "method": "Response surface methodology and ANOVA were used for parameter optimization, followed by hot isostatic pressing, heat treatment, and cryogenic treatment. Mechanical testing and porosity analysis were performed.",
+          "result": "Post-processing reduced strength but significantly improved ductility and reduced porosity; cryogenic treatment further refined the microstructure and increased elongation.",
+          "validation": "Experimental mechanical tests and porosity measurements validated the effects of each post-processing route."
         },
         "key_terms": [
           {
             "en": "laser metal deposition",
             "zh": "激光金属沉积"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti6Al4V合金"
           },
           {
             "en": "hot isostatic pressing",
@@ -257,16 +263,12 @@
             "zh": "深冷处理"
           },
           {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V合金"
+            "en": "mechanical properties",
+            "zh": "力学性能"
           },
           {
             "en": "porosity",
             "zh": "孔隙率"
-          },
-          {
-            "en": "mechanical properties",
-            "zh": "力学性能"
           },
           {
             "en": "response surface method",
@@ -277,14 +279,14 @@
             "zh": "延展性"
           },
           {
-            "en": "tensile strength",
-            "zh": "抗拉强度"
+            "en": "martensitic transformation",
+            "zh": "马氏体相变"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     },
     {
       "source": "openalex",
@@ -348,82 +350,362 @@
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文聚焦于Ti-6Al-4V的切削加工润滑冷却方法，而非增材制造后处理对疲劳或力学性能的影响，与用户方向不匹配。",
-        "why_not_core": "This paper studies a machining lubri-cooling technique, not the effect of post-processing on fatigue or mechanical performance of AM Ti-6Al-4V.",
-        "validation_kind": "none",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究钛合金加工过程中的润滑冷却技术，未直接评估对疲劳或力学性能的影响。",
+        "why_not_core": "The paper focuses on machining process parameters and cooling techniques, not on the resulting mechanical performance (fatigue, tensile) of Ti-6Al-4V after post-processing.",
+        "validation_kind": "mechanical_testing",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
           "machining",
-          "lubrication",
-          "cooling"
+          "Ti-6Al-4V",
+          "lubri-cooling",
+          "minimum quantity lubrication",
+          "dry ice"
         ],
         "summary_zh": {
-          "motivation": "提高Ti-6Al-4V切削加工效率与环保性",
-          "method": "提出脉冲微量润滑与干冰组合的混合润滑冷却方法",
-          "result": "该方法改善了加工表面质量并降低了切削力",
-          "validation": "通过切削实验对比不同冷却条件"
+          "motivation": "改善钛合金加工过程的热管理和冷却效率。",
+          "method": "结合脉冲微量润滑和干冰介质的混合润滑冷却方法。",
+          "result": "提高了加工表面质量和刀具寿命。",
+          "validation": "通过加工实验对比不同冷却条件下的结果。"
         },
         "summary_en": {
-          "motivation": "To improve machining efficiency and environmental friendliness of Ti-6Al-4V.",
-          "method": "A hybrid lubri-cooling approach combining pulsated minimal quantity lubrication and dry ice media is proposed.",
-          "result": "The approach improves surface quality and reduces cutting forces.",
-          "validation": "Experimental comparison of different cooling conditions during machining."
+          "motivation": "To improve thermal management and cooling efficiency during machining of Ti-6Al-4V.",
+          "method": "A hybrid lubri-cooling approach combining pulsated minimum quantity lubrication and dry ice media.",
+          "result": "Enhanced surface quality and tool life were observed compared to conventional cooling methods.",
+          "validation": "Experimental machining tests with varying cooling conditions validated the approach."
         },
         "key_terms": [
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "zh": "钛合金"
           },
           {
             "en": "machining",
-            "zh": "机械加工"
+            "zh": "加工"
           },
           {
-            "en": "minimal quantity lubrication",
-            "zh": "微量润滑"
+            "en": "pulsated minimum quantity lubrication",
+            "zh": "脉冲微量润滑"
           },
           {
             "en": "dry ice",
             "zh": "干冰"
           },
           {
-            "en": "surface integrity",
-            "zh": "表面完整性"
+            "en": "lubri-cooling",
+            "zh": "润滑冷却"
+          },
+          {
+            "en": "surface quality",
+            "zh": "表面质量"
+          },
+          {
+            "en": "tool life",
+            "zh": "刀具寿命"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7116948858",
+      "doi": "10.1016/j.matdes.2025.115388",
+      "title": "Enhanced microstructure and toughness in narrow-gap oscillating laser-TIG hybrid welded Ti-6Al-4V plates via high-frequency pulsed current",
+      "abstract": "• NG–OL–TIG with 10 kHz pulsed arc refines HAZ width and β grain size within the HAZ. • Current pulsing over 10 kHz promotes columnar-to-equiaxed grain transition of FZ. • Pulsed current mitigates Al segregation and promotes α′ refinement in FZ. • 10 kHz current pulsing makes low-temperature toughness of FL higher than BM. Welding of thick Ti-6Al-4V plates often produces coarse columnar grains and a wide heat-affected zone (HAZ), degrading joint strength and reliability. Recently, a tailored narrow-gap oscillating laser-TIG hybrid welding (NG-OL-TIG) technique has shown promise for high-performance thick Ti-6Al-4V welds. In this study, 100 Hz and 10 kHz pulsed currents were incorporated into NG-OL-TIG welding for 25 mm-thick Ti-6Al-4V plates to optimize microstructure and mechanical properties. Compared with direct-current (DC) welding, pulsed current improved microstructural uniformity and mechanical performance. At a high-frequency pulsed (HFP) current of 10 kHz, the HAZ width decreased by 26 % and the primary β-grain width by nearly 50 %. In the fusion zone (FZ), the HFP current promoted a columnar-to-equiaxed transition (CET) by intensifying thermal fluctuations, characterized by a temperature gradient of ∼370 K/mm, a cooling rate of ∼300 K/s, and a solidification rate of ∼2.6 mm/s. α’-martensite were refined by about 60 %, maintaining tensile ductility with only 3.7 % hardness increase. The −40 °C impact toughness at the fusion line (FL) reached 30 ± 2 J, exceeding that of the base metal (BM). This study proves HFP’s role in achieving high-quality thick Ti-6Al-4V welds during the NG-OL-TIG process.",
+      "authors": [
+        "Gang Ruan",
+        "Chen Shen",
+        "Lin Wang",
+        "Kanglong Wu",
+        "Danqi Zhang",
+        "Jiacheng Huang",
+        "Zihan Li",
+        "Li Wang",
+        "Fengcheng Song",
+        "Yuelong Zhang",
+        "Fang Li",
+        "Zhuguo Li",
+        "Xueming Hua"
+      ],
+      "first_author_affiliation": "Shanghai Changxing Ocean Laboratory, Shanghai 201913, China",
+      "corresponding_authors": [
+        {
+          "name": "Chen Shen",
+          "affiliation": "Shanghai Changxing Ocean Laboratory, Shanghai 201913, China"
+        },
+        {
+          "name": "Xueming Hua",
+          "affiliation": "Shanghai Changxing Ocean Laboratory, Shanghai 201913, China"
+        }
+      ],
+      "venue": "Materials & Design",
+      "year": 2025,
+      "date": "2025-12-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.matdes.2025.115388",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Welding",
+        "Composite material",
+        "Grain size",
+        "Toughness",
+        "Ultimate tensile strength",
+        "Heat-affected zone",
+        "Current (fluid)",
+        "Ductility (Earth science)",
+        "Metallurgy",
+        "Fusion",
+        "Thermal",
+        "Grain boundary",
+        "Temperature gradient"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V的焊接工艺和力学性能，但并非增材制造，与关注方向不相关。",
+        "why_not_core": "The paper focuses on welding of Ti-6Al-4V plates, not additive manufacturing processes (LPBF/SLM/EBM/DED), and does not address fatigue performance as required by the direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "welding",
+          "microstructure",
+          "toughness",
+          "pulsed current"
+        ],
+        "summary_zh": {
+          "motivation": "改善厚板Ti-6Al-4V焊接接头组织与韧性。",
+          "method": "采用窄间隙振荡激光-TIG复合焊接并施加高频脉冲电流(10 kHz)。",
+          "result": "10 kHz脉冲电流使热影响区宽度减小26%，熔合区β晶粒细化，-40°C冲击韧性超过母材。",
+          "validation": "通过拉伸、硬度和冲击韧性测试验证力学性能。"
+        },
+        "summary_en": {
+          "motivation": "To improve the microstructure and mechanical properties of thick Ti-6Al-4V welded joints produced by hybrid welding.",
+          "method": "A narrow-gap oscillating laser-TIG hybrid welding process with high-frequency pulsed current (10 kHz) was applied to 25 mm-thick Ti-6Al-4V plates.",
+          "result": "The 10 kHz pulsed current reduced the heat-affected zone width by 26%, refined β grains, promoted columnar-to-equiaxed transition, and achieved −40°C impact toughness exceeding that of the base metal.",
+          "validation": "Mechanical properties were validated through tensile testing, microhardness, and Charpy impact tests."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "laser-TIG hybrid welding",
+            "zh": "激光-TIG复合焊接"
+          },
+          {
+            "en": "narrow-gap welding",
+            "zh": "窄间隙焊接"
+          },
+          {
+            "en": "high-frequency pulsed current",
+            "zh": "高频脉冲电流"
+          },
+          {
+            "en": "columnar-to-equiaxed transition",
+            "zh": "柱状晶向等轴晶转变"
+          },
+          {
+            "en": "impact toughness",
+            "zh": "冲击韧性"
+          },
+          {
+            "en": "α' martensite",
+            "zh": "α′马氏体"
+          },
+          {
+            "en": "heat-affected zone",
+            "zh": "热影响区"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7116705442",
+      "doi": "10.4028/p-g3cyct",
+      "title": "Optimizing Dental Implant Viability with SLA and Anodizing Surface Treatments for Advanced Biological Adhesion, Enhanced Osseointegration, and Stress Resistance",
+      "abstract": "This study systematically evaluated nine surface treatment conditions on titanium dental implant fixtures, combining Sandblasted Large Grit Acid-etched (SLA) with anodizing methods. A total of 112 samples were characterized using FESEM, EDAX, MTT, wettability, surface energy, and osseointegration analyses. Among the tested protocols, the SLA+Anodizing process with the following parameters proved most effective: sandblasting with 75 µm particles at 4 bar and 30° angle, acid etching at 75°C for 6 minutes, and anodizing at 100 V for 5 minutes. This optimized surface demonstrated superior outcomes, including 97% cell viability, enhanced osseointegration within twelve days, and a chemical composition consistent with Grade 5 titanium alloy (Ti-6Al-4V), typically comprising approximately 90% Ti, 6% Al, 4% V, and trace amounts of O, Fe, and other elements.",
+      "authors": [
+        "Ehsan Anbarzadeh",
+        "Bijan Mohammadi",
+        "Milad Azadzaeim"
+      ],
+      "first_author_affiliation": "Iran University of Science and Technology",
+      "corresponding_authors": [
+        {
+          "name": "Ehsan Anbarzadeh",
+          "affiliation": "Iran University of Science and Technology"
+        }
+      ],
+      "venue": "Journal of biomimetics, biomaterials and biomedical engineering",
+      "year": 2025,
+      "date": "2025-12-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.4028/p-g3cyct",
+      "cited_by_count": 0,
+      "concepts": [
+        "Osseointegration",
+        "Anodizing",
+        "Materials science",
+        "Dental implant",
+        "Titanium",
+        "Titanium alloy",
+        "Metallurgy",
+        "Implant",
+        "Bar (unit)",
+        "Dentistry",
+        "Aluminium",
+        "Etching (microfabrication)",
+        "Biomedical engineering",
+        "Stress (linguistics)",
+        "Peri-implantitis",
+        "Acid etching",
+        "Composite material",
+        "Alloy",
+        "Aluminum oxide"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "grade 5 titanium",
+          "surface treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "本文聚焦于牙科植入物的表面处理以促进骨整合和细胞活性，而非AM Ti-6Al-4V的后处理对疲劳/力学性能的影响。",
+        "why_not_core": "This paper does not address mechanical fatigue or tensile performance of AM Ti-6Al-4V; it focuses on biological osseointegration and cell viability for dental implants, which falls under Layer 3 (implant structure) rather than Layer 2 (post-processing for mechanical performance).",
+        "validation_kind": "in_vitro",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "dental implant",
+          "SLA",
+          "anodizing",
+          "surface treatment",
+          "osseointegration"
+        ],
+        "summary_zh": {
+          "motivation": "优化牙科种植体表面处理以提高生物粘附和骨整合",
+          "method": "结合喷砂大颗粒酸蚀(SLA)与阳极氧化处理钛基台",
+          "result": "优化参数获得97%细胞活性，12天内增强骨整合",
+          "validation": "FESEM、EDAX、MTT、润湿性及表面能分析"
+        },
+        "summary_en": {
+          "motivation": "To optimize surface treatments on titanium dental implants for improved biological adhesion and osseointegration.",
+          "method": "Combined sandblasted large-grit acid-etched (SLA) and anodizing treatments on Ti-6Al-4V fixtures with systematic parameter variation.",
+          "result": "The optimized SLA+anodizing protocol achieved 97% cell viability and enhanced osseointegration within twelve days.",
+          "validation": "Characterization via FESEM, EDAX, MTT assay, wettability, and surface energy measurements."
+        },
+        "key_terms": [
+          {
+            "en": "sandblasted large-grit acid-etched (SLA)",
+            "zh": "喷砂大颗粒酸蚀"
+          },
+          {
+            "en": "anodizing",
+            "zh": "阳极氧化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "dental implant",
+            "zh": "牙科种植体"
+          },
+          {
+            "en": "osseointegration",
+            "zh": "骨整合"
+          },
+          {
+            "en": "cell viability",
+            "zh": "细胞活性"
+          },
+          {
+            "en": "surface treatment",
+            "zh": "表面处理"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 5,
     "by_source": {
-      "openalex": 3
+      "openalex": 5
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 5,
+    "after_routing": 5,
     "by_direction": {
-      "ti6al4v_postprocess": 3
+      "ti6al4v_postprocess": 4,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 3
+      "openalex": 5
     },
-    "scored": 3,
+    "scored": 5,
     "priority_counts": {
-      "Low": 1,
+      "Medium": 1,
       "High": 1,
-      "Exclude": 1
+      "Low": 1,
+      "Exclude": 2
     }
   }
 }

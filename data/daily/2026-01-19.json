@@ -66,9 +66,9 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究激光焊接Ti6Al4V/AA7075异种接头的腐蚀和残余应力，不涉及增材制造Ti-6Al-4V的力学或疲劳性能。",
-        "why_not_core": "This paper focuses on corrosion behaviour and residual stress of laser-welded dissimilar joints with an Ag interlayer, not on the mechanical or fatigue performance of additively manufactured Ti-6Al-4V.",
-        "validation_kind": "none",
+        "relevance_to_user": "本文研究激光焊接Ti6Al4V/AA7075异种接头的腐蚀和残余应力，非增材制造Ti-6Al-4V的力学或疲劳性能。",
+        "why_not_core": "This paper does not concern additively manufactured Ti-6Al-4V; it investigates laser-welded dissimilar joints of Ti6Al4V and AA7075, not additive manufacturing processes such as LPBF, SLM, EBM, or DED.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -76,28 +76,40 @@
           "is_review": false
         },
         "tags": [
-          "corrosion",
-          "residual stress",
-          "laser welding",
           "Ti6Al4V",
           "AA7075",
-          "Ag interlayer"
+          "laser welding",
+          "corrosion",
+          "residual stress",
+          "dissimilar joint"
         ],
         "summary_zh": {
-          "motivation": "研究激光焊接Ti6Al4V/AA7075接头中银中间层的腐蚀行为和残余应力。",
-          "method": "进行动电位极化、循环极化和电化学阻抗谱测试及残余应力测量。",
-          "result": "银中间层接头呈现改善的耐腐蚀性和压缩残余应力场。",
-          "validation": "电化学测试和残余应力测量验证了接头性能。"
+          "motivation": "研究银中间层对激光焊接Ti6Al4V/AA7075异种接头腐蚀行为和残余应力的影响。",
+          "method": "通过动电位极化、循环极化和电化学阻抗谱测试腐蚀性能，并用X射线衍射测量残余应力。",
+          "result": "含银中间层的熔合区腐蚀性能优于AA7075，且残余压应力有利于抑制裂纹萌生。",
+          "validation": "实验结果与铜中间层接头对比，验证了银中间层的优越性。"
         },
         "summary_en": {
-          "motivation": "To investigate the corrosion performance and residual stress state of laser-welded Ti6Al4V/AA7075 joints with a silver interlayer.",
-          "method": "Potentiodynamic polarization, cyclic polarization, EIS, and residual stress measurements were conducted.",
-          "result": "The Ag interlayer joint exhibits improved corrosion resistance and a compressive residual stress field.",
-          "validation": "Validation through electrochemical tests and residual stress measurements."
+          "motivation": "This study aims to investigate the corrosion behavior and residual stress state of laser-welded Ti6Al4V/AA7075 dissimilar joints using a silver interlayer.",
+          "method": "Potentiodynamic polarization, cyclic polarization, and electrochemical impedance spectroscopy were employed to evaluate corrosion resistance, while X-ray diffraction measured near-surface residual stresses.",
+          "result": "The fusion zone with the Ag interlayer exhibited intermediate corrosion response superior to AA7075, and a predominantly compressive residual stress field beneficial for delaying pit-to-crack transition.",
+          "validation": "Comparisons with previously published Cu-interlayer joints validated the improved electrochemical and stress performance of the Ag interlayer."
         },
         "key_terms": [
           {
-            "en": "corrosion behaviour",
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
+          },
+          {
+            "en": "AA7075",
+            "zh": "AA7075铝合金"
+          },
+          {
+            "en": "laser welding",
+            "zh": "激光焊接"
+          },
+          {
+            "en": "corrosion behavior",
             "zh": "腐蚀行为"
           },
           {
@@ -105,26 +117,22 @@
             "zh": "残余应力"
           },
           {
-            "en": "laser welding",
-            "zh": "激光焊接"
-          },
-          {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V"
-          },
-          {
-            "en": "AA7075",
-            "zh": "AA7075"
-          },
-          {
-            "en": "Ag interlayer",
+            "en": "silver interlayer",
             "zh": "银中间层"
+          },
+          {
+            "en": "potentiodynamic polarization",
+            "zh": "动电位极化"
+          },
+          {
+            "en": "electrochemical impedance spectroscopy",
+            "zh": "电化学阻抗谱"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:23:51Z"
+      "first_seen_at": "2026-06-08T08:40:28Z"
     }
   ],
   "counts": {

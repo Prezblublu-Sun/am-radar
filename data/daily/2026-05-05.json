@@ -61,12 +61,12 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "论文涉及Ti-6Al-4V的CNC加工，但未涉及任何后处理工艺对力学性能的影响。",
-        "why_not_core": "The paper focuses on a multi-agent decision-support architecture for CNC machining compensation, not on any post-processing treatment (e.g., heat treatment, HIP, shot peening) that modifies the mechanical or fatigue performance of AM Ti-6Al-4V.",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的数控加工，而非增材制造后处理，与方向无关。",
+        "why_not_core": "The paper focuses on CNC machining of Ti-6Al-4V rotor blades, not additive manufacturing or any post-processing treatment (heat treatment, HIP, surface treatments) that modifies fatigue/mechanical performance of AM Ti-6Al-4V.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
-          "has_uncertainty_quantification": true,
+          "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
@@ -74,69 +74,194 @@
           "Ti-6Al-4V",
           "CNC machining",
           "multi-agent architecture",
-          "digital twin",
-          "decision support"
+          "decision support",
+          "compensation"
         ],
         "summary_zh": {
-          "motivation": "高精度CNC加工需要基于检测和仿真的补偿，但现有LLM无法可靠执行风险约束的多步骤数值工作流。",
-          "method": "提出多智能体知识分析架构MAKA，分离意图路由、工具分析、知识图谱检索和基于物理的验证。",
-          "result": "在Ti-6Al-4V转子叶片测试中，MAKA将工具执行成功率提升最多87.5个百分点，数字孪生预测表面偏差降至约±0.001英寸。",
-          "validation": "基于16个叶片的虚拟加工路径误差、切削力仿真和3D检测偏差图进行验证。"
+          "motivation": "提高航空叶片数控加工的精度与安全性。",
+          "method": "提出多代理知识分析（MAKA）架构，分离意图路由、数值分析和知识检索。",
+          "result": "相比单模型方法，成功执行率提升87.5个百分点，表面偏差从10^-2英寸降至±10^-3英寸。",
+          "validation": "在16个Ti-6Al-4V叶片加工测试和数字孪生仿真中验证。"
         },
         "summary_en": {
-          "motivation": "High-precision CNC machining requires inspection- and simulation-informed compensation, but off-the-shelf LLMs cannot reliably execute risk-constrained multi-step numerical workflows.",
-          "method": "A multi-agent knowledge analysis (MAKA) architecture is proposed that separates intent routing, tool-based quantitative analysis, knowledge graph retrieval, and physics-based critic verification.",
-          "result": "On a Ti-6Al-4V rotor blade testbed, MAKA improves successful tool execution by up to 87.5 percentage points and reduces predicted surface deviation to approximately ±0.001 inches in digital twin simulations.",
-          "validation": "The approach is validated using virtual-machining path-tracking error fields, cutting-force simulations, and 3D inspection deviation maps from 16 blades."
+          "motivation": "To improve precision and safety in high-stakes CNC machining of free-form aerospace components.",
+          "method": "A human-in-the-loop multi-agent architecture that separates intent routing, tools-only quantitative analysis, knowledge graph retrieval, and critic-based verification.",
+          "result": "The architecture improves successful tool execution by up to 87.5 percentage points over a baseline, and reduces predicted surface deviation to approximately ±10^-3 inches.",
+          "validation": "Experimental validation on 16 Ti-6Al-4V rotor blades combined with digital twin simulations."
         },
         "key_terms": [
           {
+            "en": "multi-agent knowledge analysis",
+            "zh": "多代理知识分析"
+          },
+          {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "CNC machining",
-            "zh": "CNC加工"
-          },
-          {
-            "en": "multi-agent system",
-            "zh": "多智能体系统"
-          },
-          {
-            "en": "digital twin",
-            "zh": "数字孪生"
+            "zh": "数控加工"
           },
           {
             "en": "decision support",
             "zh": "决策支持"
           },
           {
-            "en": "surface deviation compensation",
-            "zh": "表面偏差补偿"
+            "en": "digital twin",
+            "zh": "数字孪生"
+          },
+          {
+            "en": "compensation",
+            "zh": "补偿"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7160233552",
+      "doi": "10.1016/j.msea.2026.150332",
+      "title": "Dissimilar friction stir welding of Ti-64 and Ti-407: Microstructural and mechanical evolutions",
+      "abstract": "Dissimilar joining of titanium alloys with different microstructure, chemical composition and mechanical properties offers considerable potential for optimising structural performance and reducing costs in aerospace and lightweight engineering applications. In this work, Ti-6Al-4V (Ti-64) and the recently developed Ti-407 alloy were successfully joined using stationary shoulder friction stir welding (SS-FSW), with Ti-64 placed on the advancing side (AS) and Ti-407 on the retreating side (RS). Comprehensive microstructural, textural, and mechanical characterisations of the parent materials and weld regions were conducted using scanning electron microscopy, electron backscatter diffraction, uniaxial tensile testing, low-cycle fatigue testing, and high-resolution nanoindentation mapping. The weld nugget exhibited a fully martensitic microstructure with refined prior-β grains and a near-random crystallographic texture. In contrast, the thermo-mechanically affected zones (TMAZs) displayed pronounced asymmetry between the advancing and retreating sides. The Ti-64/Ti-407 SS-FSW weld zone showed reduced tensile strength and a significant loss of ductility, attributed to strain localisation within the stir zone. Despite this tensile strength reduction, the weld zone demonstrated low-cycle fatigue lives comparable to, or exceeding, those of both parent alloys, owing to its fine martensitic microstructure, which delayed crack initiation and arrested the crack. Nanoindentation mapping revealed sharp hardness gradients across the weld, whereas elastic modulus variations were comparatively smooth, indicating that plastic deformation behaviour is more sensitive to local microstructural refinement than elastic response. Overall, these results demonstrate that robust cyclic performance can be achieved in dissimilar titanium welded components despite reduced tensile properties. The study confirms that SS-FSW is an effective joining technique for dissimilar Ti-64 and Ti-407 alloy parts; however, heterogeneous microstructural evolution within the weld zone plays a critical role in governing the mechanical performance of the welded parts.",
+      "authors": [
+        "Tushar R. Dandekar",
+        "Gang Liu",
+        "Naveed Iqbal",
+        "Richard Moat",
+        "Jurgita Zekonyte",
+        "Joseph Dunlop",
+        "S. Birosca"
+      ],
+      "first_author_affiliation": "School of Electrical and Mechanical Engineering, Faculty of Technology, University of Portsmouth. Portsmouth PO1 3DJ, UK",
+      "corresponding_authors": [
+        {
+          "name": "Tushar R. Dandekar",
+          "affiliation": "School of Electrical and Mechanical Engineering, Faculty of Technology, University of Portsmouth. Portsmouth PO1 3DJ, UK"
+        }
+      ],
+      "venue": "Materials Science and Engineering A",
+      "year": 2026,
+      "date": "2026-05-05",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.msea.2026.150332",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Friction stir welding",
+        "Metallurgy",
+        "Welding",
+        "Microstructure",
+        "Composite material",
+        "Deformation (meteorology)",
+        "Friction welding"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "tensile strength",
+          "ductility",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的摩擦搅拌焊接，而非增材制造，因此与研究方向不直接相关。",
+        "why_not_core": "This paper focuses on dissimilar friction stir welding of Ti-6Al-4V and Ti-407, not on additively manufactured Ti-6Al-4V as required by the L1 direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "friction stir welding",
+          "dissimilar joining",
+          "Ti-6Al-4V",
+          "Ti-407",
+          "low-cycle fatigue",
+          "microstructure",
+          "nanoindentation"
+        ],
+        "summary_zh": {
+          "motivation": "研究异种钛合金搅拌摩擦焊接的潜力",
+          "method": "采用静止轴肩搅拌摩擦焊连接Ti-64和Ti-407，并进行微观结构和力学表征",
+          "result": "焊接区因细马氏体组织表现出优良的低周疲劳性能",
+          "validation": "通过拉伸、疲劳和纳米压痕测试验证"
+        },
+        "summary_en": {
+          "motivation": "To explore the potential of dissimilar titanium alloy joining via friction stir welding for aerospace applications.",
+          "method": "Stationary shoulder friction stir welding was used to join Ti-6Al-4V and Ti-407, followed by microstructural and mechanical characterization.",
+          "result": "The weld zone exhibited excellent low-cycle fatigue life due to fine martensitic microstructure despite reduced tensile strength.",
+          "validation": "Validation through tensile tests, low-cycle fatigue tests, and nanoindentation mapping."
+        },
+        "key_terms": [
+          {
+            "en": "friction stir welding",
+            "zh": "搅拌摩擦焊"
+          },
+          {
+            "en": "stationary shoulder friction stir welding",
+            "zh": "静止轴肩搅拌摩擦焊"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "Ti-407",
+            "zh": "Ti-407钛合金"
+          },
+          {
+            "en": "low-cycle fatigue",
+            "zh": "低周疲劳"
+          },
+          {
+            "en": "martensitic microstructure",
+            "zh": "马氏体组织"
+          },
+          {
+            "en": "nanoindentation",
+            "zh": "纳米压痕"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:54:38Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 2
     }
   }
 }

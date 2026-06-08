@@ -58,32 +58,32 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文专注于车削温度测量，未涉及增材制造Ti-6Al-4V的后处理及其对力学性能的影响，与研究方向无关。",
-        "why_not_core": "This paper does not concern post-processing of additively manufactured Ti-6Al-4V, does not evaluate mechanical performance or fatigue, and focuses on temperature measurement during conventional turning rather than post-processing effects on AM parts.",
-        "validation_kind": "mechanical_testing",
+        "relevance_to_user": "这篇论文研究的是Ti-6Al-4V合金正交车削过程中的接触温度，而非增材制造后的后处理对疲劳/力学性能的影响。",
+        "why_not_core": "The paper focuses on machining (turning) temperature measurement and modeling, not on any post-processing treatment for AM Ti-6Al-4V such as heat treatment, HIP, or surface treatments.",
+        "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "orthogonal turning",
+          "machining",
+          "cutting temperature",
           "Ti-6Al-4V",
-          "contact temperature",
-          "cutting temperature"
+          "orthogonal turning"
         ],
         "summary_zh": {
-          "motivation": "提出一种测定正交车削Ti-6Al-4V刀面接触温度的方法。",
-          "method": "结合实验切削力、热成像和高速摄像，使用双区热力模型和Shaw方法确定热通量和分配系数。",
-          "result": "得到了工艺参数、摩擦系数和接触长度的关系，并可视化温度分布。",
-          "validation": "通过正交车削实验验证温度测定方法。"
+          "motivation": "提出正交车削Ti-6Al-4V时刀具前刀面接触温度的确定方法",
+          "method": "实验测力、热像、高速摄像结合双区热力学模型和Shaw方法确定热分区系数和接触温度",
+          "result": "建立了工艺参数与摩擦系数、接触长度的关系，并可视化刀具前刀面温度分布",
+          "validation": "基于正交车削实验数据，模型与文献中的双区模型一致"
         },
         "summary_en": {
-          "motivation": "To propose a method for determining the contact temperature on the tool rake face during orthogonal turning of Ti-6Al-4V.",
-          "method": "Combining experimental cutting force, thermovision, and high-speed camera data, a dual-zone thermomechanical model and Shaw approach were used to identify heat flux and partition coefficients.",
-          "result": "Relationships among process parameters, friction coefficient, and chip-tool contact length were obtained, along with temperature distribution visualization.",
-          "validation": "Experimental orthogonal turning tests validated the temperature determination method."
+          "motivation": "This paper proposes a method to determine the contact temperature on the rake face during orthogonal turning of Ti-6Al-4V alloy.",
+          "method": "Experimental cutting force, thermovision, and high-speed camera data are combined with a dual-zone thermomechanical model and the Shaw approach to identify heat partition coefficients and contact temperature.",
+          "result": "Relationships among process parameters, friction coefficients, and chip-tool contact length are established, and the temperature distribution on the rake face is visualized using MATLAB PDE.",
+          "validation": "The model is validated against orthogonal turning experimental data and is consistent with existing dual-zone models in the literature."
         },
         "key_terms": [
           {
@@ -91,38 +91,147 @@
             "zh": "正交车削"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "钛合金"
-          },
-          {
             "en": "contact temperature",
             "zh": "接触温度"
-          },
-          {
-            "en": "dual-zone model",
-            "zh": "双区模型"
-          },
-          {
-            "en": "Shaw approach",
-            "zh": "Shaw方法"
           },
           {
             "en": "rake face",
             "zh": "前刀面"
           },
           {
-            "en": "chip-tool contact",
-            "zh": "切屑-刀具接触"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "heat flux",
-            "zh": "热通量"
+            "en": "cutting force",
+            "zh": "切削力"
+          },
+          {
+            "en": "thermomechanical model",
+            "zh": "热力学模型"
+          },
+          {
+            "en": "heat partition coefficient",
+            "zh": "热分区系数"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411598367",
+      "doi": "10.58286/31443",
+      "title": "Hybrid Modeling of Material Imperfection Indications in X-ray Computed Tomography Datasets",
+      "abstract": "Machine learning, more specifically Deep Learning models, have shown remarkable potential for analyzing 3D CT data within both material science and NDT applications. However, the models require large amounts of training data, especially Deep Learning models. Because high quality real experimental data is expensive to derive, humans annotating, synthetic training data is often utilized. In this work we have explored if training data can be modeled with a hybrid approach; where material imperfection indications are transformed directly into real experimental 3D CT reconstructions from 2D and 3D binary representations at higher contrast and resolutions, skipping the usual synthetic dataset derivation steps of reconstructing from simulated 2D projections. Such representations are often abundant from process-development and can be re-used this way for NDT activities. The simple transformations are derived using existing X-ray imaging models (gVXR) and reconstruction algorithms, the FDK in ASTRA Toolbox. We have limited our study to Metal Additively Manufactured samples, Ti-6Al-4V built using Power Bed Fusion Laser Beam process, and superalloy Hastelloy X built with Directed Energy Deposition Laser Beam powder. We demonstrate realistic looking training data sampled with transformation operations low on computational resources. The high-resolution imperfection data is derived both from real experimental data (lack-of-fusion) as well synthetically from other unrelated imaging modalities (lack-of-fusion) as well as from parametric statistical models of superalloy cracks. We believe that the proposed simple and convenient dataset derivation approach, for both Machine Learning training as well as conventional segmentation algorithm parameter optimization, can be valuable to the X-ray NDT community.",
+      "authors": [
+        "Erik Lindgren",
+        "Fabian Hanning",
+        "Linda Squillaci"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Erik Lindgren",
+          "affiliation": ""
+        }
+      ],
+      "venue": "e-Journal of Nondestructive Testing",
+      "year": 2025,
+      "date": "2025-06-24",
+      "date_precision": "day",
+      "url": "https://doi.org/10.58286/31443",
+      "cited_by_count": 0,
+      "concepts": [
+        "Computed tomography",
+        "Tomography",
+        "X-ray",
+        "Computer science"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "directed energy deposition"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V材料，但仅用于生成CT合成训练数据，不包含任何力学或疲劳性能研究，与用户关注的力学性能方向不直接相关。",
+        "why_not_core": "No mechanical or fatigue data; focuses on synthetic CT training data generation for defect detection, not on Ti-6Al-4V mechanical characterization.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "additive manufacturing",
+          "Ti-6Al-4V",
+          "X-ray computed tomography",
+          "synthetic data",
+          "deep learning",
+          "non-destructive testing"
+        ],
+        "summary_zh": {
+          "motivation": "为X射线CT缺陷检测生成合成训练数据，减少对昂贵实验数据的依赖。",
+          "method": "使用混合方法将2D/3D二值缺陷表示直接变换为实验CT重建图像。",
+          "result": "生成了逼真的训练数据，计算资源消耗低，适用于深度学习训练。",
+          "validation": "通过视觉检查和现有成像模型验证数据真实性。"
+        },
+        "summary_en": {
+          "motivation": "To generate synthetic training data for X-ray CT defect detection, reducing reliance on expensive experimental data.",
+          "method": "A hybrid approach transforms 2D/3D binary defect representations directly into experimental-like CT reconstructions using gVXR models and FDK algorithm.",
+          "result": "Realistic-looking training data is produced with low computational cost, suitable for deep learning and conventional segmentation.",
+          "validation": "Validation is based on visual inspection and existing imaging models, without quantitative experimental mechanical testing."
+        },
+        "key_terms": [
+          {
+            "en": "Metal Additive Manufacturing",
+            "zh": "金属增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "X-ray computed tomography",
+            "zh": "X射线计算机断层扫描"
+          },
+          {
+            "en": "synthetic training data",
+            "zh": "合成训练数据"
+          },
+          {
+            "en": "deep learning",
+            "zh": "深度学习"
+          },
+          {
+            "en": "lack-of-fusion",
+            "zh": "未熔合"
+          },
+          {
+            "en": "NDT",
+            "zh": "无损检测"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
     },
     {
       "source": "openalex",
@@ -178,11 +287,11 @@
         ]
       },
       "llm": {
-        "priority": "Medium",
-        "relevance_level": "Transferable",
-        "read_action": "Skim only",
-        "relevance_to_user": "该论文研究Ti-6Al-4V线切割电火花加工参数对表面粗糙度的影响，表面粗糙度是影响疲劳性能的关键因素，但未直接测试疲劳或力学性能。",
-        "why_not_core": "This paper does not measure fatigue or mechanical performance (e.g., tensile, fatigue life) resulting from wire EDM post-processing; it only examines surface roughness as a response.",
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了线切割加工Ti-6Al-4V的表面粗糙度，但未涉及力学性能（疲劳/拉伸），与后处理对力学性能影响的方向关联较弱。",
+        "why_not_core": "This paper studies surface roughness of Ti-6Al-4V after wire EDM but does not link to mechanical fatigue or tensile performance, and does not involve post-processing treatments like heat treatment or HIP.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -195,24 +304,23 @@
           "surface roughness",
           "Ti-6Al-4V",
           "process parameters",
-          "ANOVA",
           "statistical modelling"
         ],
         "summary_zh": {
-          "motivation": "探究Ti-6Al-4V线切割电火花参数对表面粗糙度的影响",
-          "method": "全析因实验设计结合ANOVA和回归建模",
-          "result": "发现火花电流和脉冲时间增大粗糙度，优化脉冲间隔和冲洗压力改善表面",
-          "validation": "接触式轮廓仪实测粗糙度，R²=0.92验证模型"
+          "motivation": "研究线切割参数对钛合金表面粗糙度的影响",
+          "method": "使用全因子实验设计并建立回归模型",
+          "result": "高电流和长脉冲时间增加粗糙度，优化参数可得到光滑表面",
+          "validation": "通过触针轮廓仪测量和ANOVA验证"
         },
         "summary_en": {
-          "motivation": "To investigate how wire EDM process parameters affect surface roughness of Ti-6Al-4V, which is critical for component durability.",
-          "method": "A full-factorial experimental design with ANOVA and regression modeling was employed to isolate parameter effects.",
-          "result": "Higher spark current and longer pulse-on time increased roughness, while optimized pulse-off time and higher flushing pressure improved surface finish.",
-          "validation": "Surface roughness was measured with a contact profilometer, and the predictive model achieved R²=0.92."
+          "motivation": "To investigate the effect of wire EDM parameters on surface roughness of Ti-6Al-4V.",
+          "method": "A full-factorial experimental design and ANOVA were used to identify significant parameters and develop a predictive regression model.",
+          "result": "Spark current and pulse-on time increase roughness, while optimized pulse-off and flushing pressure reduce it, with model R²=0.92.",
+          "validation": "Surface roughness was measured with a contact profilometer and statistically analyzed."
         },
         "key_terms": [
           {
-            "en": "wire EDM",
+            "en": "wire electrical discharge machining",
             "zh": "线切割电火花加工"
           },
           {
@@ -228,49 +336,162 @@
             "zh": "工艺参数"
           },
           {
-            "en": "spark current",
-            "zh": "火花电流"
-          },
-          {
-            "en": "pulse-on time",
-            "zh": "脉冲开启时间"
-          },
-          {
-            "en": "flushing pressure",
-            "zh": "冲洗压力"
-          },
-          {
-            "en": "ANOVA",
-            "zh": "方差分析"
-          },
-          {
             "en": "statistical modelling",
             "zh": "统计建模"
+          },
+          {
+            "en": "analysis of variance",
+            "zh": "方差分析"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411605428",
+      "doi": "10.1016/j.addma.2025.104867",
+      "title": "Fabrication of robust high-aspect-ratio Ti-6Al-4V ultra-thin-walled structures using powder bed fusion with in-situ focused infrared heating",
+      "abstract": "",
+      "authors": [
+        "Arif Hussain",
+        "Junghoon Lee",
+        "Rae Eon Kim",
+        "Hyoung Seop Kim",
+        "Jeonghong Ha",
+        "Young-Sam Kwon",
+        "Dongsik Kim"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, Pohang University of Science and Technology (POSTECH), Pohang 37673, Republic of Korea",
+      "corresponding_authors": [
+        {
+          "name": "Dongsik Kim",
+          "affiliation": "Department of Mechanical Engineering, Pohang University of Science and Technology (POSTECH), Pohang 37673, Republic of Korea"
+        }
+      ],
+      "venue": "Additive manufacturing",
+      "year": 2025,
+      "date": "2025-06-24",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.addma.2025.104867",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Fabrication",
+        "In situ",
+        "Fusion",
+        "Infrared",
+        "Nanotechnology",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "powder bed fusion"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "此论文直接针对Ti-6Al-4V增材制造的力学性能，包括拉伸强度和微观结构，对用户方向有直接参考价值。",
+        "why_not_core": "No fatigue testing or S-N data, only static mechanical properties.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "powder bed fusion",
+          "in-situ heating",
+          "thin-walled structures",
+          "tensile properties",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "为解决LPBF制造薄壁Ti-6Al-4V结构中的裂纹和缺陷问题。",
+          "method": "采用粉末床熔融结合原位聚焦红外加热及工艺优化。",
+          "result": "实现了近全密度、无裂纹、等轴晶组织，并提升了拉伸强度与塑性。",
+          "validation": "通过密度测量、微观结构分析和拉伸测试进行验证。"
+        },
+        "summary_en": {
+          "motivation": "To fabricate robust high-aspect-ratio Ti-6Al-4V thin-walled structures by mitigating cracks and defects common in laser powder bed fusion.",
+          "method": "Implemented powder bed fusion with in-situ focused infrared heating and optimized process parameters to enhance densification and microstructure control.",
+          "result": "Achieved near-full density, crack-free samples with equiaxed recrystallized grains, and improved tensile strength and ductility compared to conventional processing.",
+          "validation": "Validated by density measurements, microstructural characterization (EBSD, XRD), and tensile mechanical testing."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "in-situ infrared heating",
+            "zh": "原位红外加热"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "high-aspect-ratio thin-walled structures",
+            "zh": "高深宽比薄壁结构"
+          },
+          {
+            "en": "tensile properties",
+            "zh": "拉伸性能"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "crack reduction",
+            "zh": "裂纹减少"
+          },
+          {
+            "en": "equiaxed grains",
+            "zh": "等轴晶"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 4,
     "by_source": {
-      "openalex": 2
+      "openalex": 4
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
-      "ti6al4v_postprocess": 2
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 4
     },
-    "scored": 2,
+    "scored": 4,
     "priority_counts": {
       "Exclude": 1,
-      "Medium": 1
+      "Low": 2,
+      "High": 1
     }
   }
 }

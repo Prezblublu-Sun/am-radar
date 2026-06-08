@@ -53,11 +53,11 @@
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文仅关注激光抛光参数优化对表面粗糙度的影响，未涉及力学性能或疲劳性能，与用户需求（后处理对疲劳/力学性能的影响）相关性较低。",
-        "why_not_core": "This paper only investigates surface roughness reduction from laser polishing and does not report on the effect on mechanical performance (fatigue, tensile) or microstructure changes, which are the core focus of the post-processing direction.",
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了Ti6Al4V激光抛光工艺对表面粗糙度的影响，但未直接评估机械性能，可作为后处理参数优化的参考。",
+        "why_not_core": "No mechanical testing (fatigue/tensile) was performed; the paper only evaluated surface roughness without measuring the effect on mechanical performance.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -66,23 +66,23 @@
           "is_review": false
         },
         "tags": [
-          "Ti6Al4V",
           "laser polishing",
+          "Ti6Al4V",
           "surface roughness",
           "response surface methodology",
           "thermal simulation"
         ],
         "summary_zh": {
-          "motivation": "改善Ti6Al4V表面质量",
-          "method": "实验与仿真结合，响应面法优化参数",
-          "result": "40W功率下粗糙度降低最大",
-          "validation": "实验与仿真对比验证"
+          "motivation": "改善Ti6Al4V表面粗糙度。",
+          "method": "实验与模拟结合，采用响应面法优化激光抛光参数。",
+          "result": "激光功率是主要影响因素，优化参数可显著降低粗糙度。",
+          "validation": "实验验证与模拟结果一致。"
         },
         "summary_en": {
-          "motivation": "To improve surface finish of Ti6Al4V by laser polishing",
-          "method": "Combined experimental and simulation approach with response surface methodology to optimize process parameters",
-          "result": "Optimal parameters (40 W, 175 kHz, 250 ns) achieved highest roughness reduction",
-          "validation": "Experimental measurements validated by thermal simulations"
+          "motivation": "To improve the surface finish of Ti6Al4V via laser polishing.",
+          "method": "Combined experimental and simulation approach with response surface methodology to optimize laser parameters.",
+          "result": "Laser power was the dominant factor, and optimal parameters achieved highest roughness reduction.",
+          "validation": "Experimental results matched simulation predictions."
         },
         "key_terms": [
           {
@@ -109,25 +109,257 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413304129",
+      "doi": "10.1080/02533839.2025.2533511",
+      "title": "Effects of thermal cycling on visco-elastic properties of solution-treated aged and stress relief annealed Ti-6Al-4V alloy",
+      "abstract": "",
+      "authors": [
+        "Putti Venkata Siva Teja",
+        "Suman Pandipati",
+        "Srihari Palli",
+        "Rakesh Chandmal Sharma",
+        "Swati Mohapatra",
+        "Neeraj Kumar Sharma",
+        "Sono Bhardawaj"
+      ],
+      "first_author_affiliation": "Dhanekula Institute of Engineering & Technology",
+      "corresponding_authors": [
+        {
+          "name": "Srihari Palli",
+          "affiliation": "Aditya Institute of Technology and Management"
+        }
+      ],
+      "venue": "Journal of the Chinese Institute of Engineers",
+      "year": 2025,
+      "date": "2025-08-18",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1080/02533839.2025.2533511",
+      "cited_by_count": 0,
+      "concepts": [
+        "Temperature cycling",
+        "Materials science",
+        "Alloy",
+        "Cycling",
+        "Stress relief",
+        "Stress (linguistics)",
+        "Metallurgy",
+        "Composite material",
+        "Thermal"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "stress relief"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了两种后处理（固溶时效和应力消除退火）对Ti-6Al-4V合金粘弹性性能的影响，属于L2方向的核心内容。",
+        "why_not_core": "This paper focuses on visco-elastic properties under thermal cycling rather than traditional fatigue or tensile performance, but it still addresses post-processing effects on mechanical properties.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "solution-treated aged",
+          "stress relief annealing",
+          "thermal cycling",
+          "visco-elastic properties",
+          "mechanical testing"
+        ],
+        "summary_zh": {
+          "motivation": "探究热循环对经过两种后处理的Ti-6Al-4V合金粘弹性能的影响。",
+          "method": "对固溶时效和应力消除退火后的合金进行热循环实验，测量粘弹性参数。",
+          "result": "热循环显著改变了两种后处理状态下的粘弹性行为，且影响程度与初始热处理相关。",
+          "validation": "通过机械测试验证了热循环前后性能变化。"
+        },
+        "summary_en": {
+          "motivation": "To investigate how thermal cycling affects the visco-elastic properties of Ti-6Al-4V alloy that has been subjected to either solution-treated aging or stress relief annealing post-processing.",
+          "method": "Thermal cycling experiments were conducted on specimens in both post-processing states, and visco-elastic parameters were measured.",
+          "result": "Thermal cycling significantly altered the visco-elastic behavior in both conditions, with the extent of change dependent on the initial heat treatment.",
+          "validation": "Mechanical testing was performed to validate the changes in properties before and after thermal cycling."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "solution-treated aged (STA)",
+            "zh": "固溶时效"
+          },
+          {
+            "en": "stress relief annealing (SRA)",
+            "zh": "应力消除退火"
+          },
+          {
+            "en": "thermal cycling",
+            "zh": "热循环"
+          },
+          {
+            "en": "visco-elastic properties",
+            "zh": "粘弹性性能"
+          },
+          {
+            "en": "mechanical testing",
+            "zh": "机械测试"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413301688",
+      "doi": "10.1021/acsomega.5c05440",
+      "title": "Low-Temperature Synthesis of Monetite/Dextran Hybrid Coatings with Tailored Corrosion Resistance on Ti6Al4V",
+      "abstract": ") and kefir-derived Dextran were synthesized on Ti6Al4V substrates using a low-temperature sol-gel-assisted route (≤80 °C), enabling biopolymer integration without thermal degradation. X-ray diffraction (XRD) confirmed the formation of triclinic monetite nanocrystals (∼152 nm), while Fourier transform infrared (FTIR) and scanning electron microscopy/energy dispersive X-ray spectroscopy (SEM/EDS) analyses verified the uniform incorporation of Dextran, particularly in the 4 wt % formulation, which yielded compact, homogeneous surfaces. Electrochemical evaluations in Fusayama artificial saliva revealed a substantial enhancement in corrosion resistance, with the open-circuit potential shifting from -0.272 V (uncoated) to -0.034 V and polarization resistance increasing from 1987.6 to 5573.4 Ω. This performance surpasses several benchmark coatings reported for biomedical alloys, highlighting the synergistic interaction between the inorganic phase and the biopolymeric matrix. The hybrid architecture promotes defect sealing, barrier formation, and interface stabilization. These results position the monetite/Dextran system as a scalable, sustainable, and biocompatible solution for next-generation implant coatings, offering a mild-temperature alternative to traditional ceramic deposition methods.",
+      "authors": [
+        "Robert S. Matos",
+        "Henrique Duarte da Fonseca Filho",
+        "Michael Douglas Santos Monteiro",
+        "Nilson S. Ferreira"
+      ],
+      "first_author_affiliation": "Amazonian Materials Group",
+      "corresponding_authors": [
+        {
+          "name": "Robert S. Matos",
+          "affiliation": "Amazonian Materials Group"
+        },
+        {
+          "name": "Nilson S. Ferreira",
+          "affiliation": "Department of Physics"
+        }
+      ],
+      "venue": "ACS Omega",
+      "year": 2025,
+      "date": "2025-08-18",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1021/acsomega.5c05440",
+      "cited_by_count": 1,
+      "concepts": [
+        "Corrosion",
+        "Materials science",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "defect"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti6Al4V基体上的涂层，但未涉及增材制造、力学性能或疲劳性能。",
+        "why_not_core": "No additive manufacturing, no mechanical or fatigue testing; purely on coating synthesis and corrosion resistance.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "coating",
+          "corrosion",
+          "Ti6Al4V"
+        ],
+        "summary_zh": {
+          "motivation": "开发低温合成方法制备兼具生物相容性和耐蚀性的涂层。",
+          "method": "采用溶胶-凝胶辅助法在Ti6Al4V上合成磷酸氢钙/右旋糖酐杂化涂层。",
+          "result": "4 wt%右旋糖酐涂层致密均匀，在人工唾液中耐蚀性显著提升。",
+          "validation": "通过电化学测试评估涂层的耐腐蚀性能。"
+        },
+        "summary_en": {
+          "motivation": "To develop a low-temperature synthesis route for hybrid coatings that combine biocompatibility and enhanced corrosion resistance on Ti6Al4V.",
+          "method": "Monetite/dextran hybrid coatings were synthesized on Ti6Al4V substrates via a sol-gel-assisted route at ≤80 °C.",
+          "result": "The formulation with 4 wt% dextran yielded compact and homogeneous coatings, significantly improving corrosion resistance in artificial saliva.",
+          "validation": "Electrochemical evaluations including open-circuit potential and polarization resistance measurements were performed."
+        },
+        "key_terms": [
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
+          },
+          {
+            "en": "monetite",
+            "zh": "三斜磷钙石"
+          },
+          {
+            "en": "dextran",
+            "zh": "右旋糖酐"
+          },
+          {
+            "en": "hybrid coating",
+            "zh": "杂化涂层"
+          },
+          {
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
+          },
+          {
+            "en": "sol-gel",
+            "zh": "溶胶-凝胶"
+          },
+          {
+            "en": "artificial saliva",
+            "zh": "人工唾液"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
-      "Low": 1
+      "Medium": 1,
+      "High": 1,
+      "Exclude": 1
     }
   }
 }

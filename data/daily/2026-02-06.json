@@ -1,0 +1,183 @@
+{
+  "schema_version": "v2",
+  "date": "2026-02-06",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7128163771",
+      "doi": "10.3390/cryst16020121",
+      "title": "Laser Power and Scan Speed Effects on Density, Surface Quality, and Mechanical Properties of PBF-LB/M Ti-6Al-4V",
+      "abstract": "This study investigates how laser power–scan speed combinations influence densification, surface quality, and mechanical performance of Ti-6Al-4V parts fabricated by Powder Bed Fusion–Laser Beam/Metal (PBF-LB/M) on a DMG MORI LASERTEC 30 SLM (2nd generation) system. A parametric matrix was explored by varying laser power (150–400 W) and scan speed (0.9–1.4 m·s−1) at constant layer thickness and hatch spacing, deliberately omitting contour exposure to isolate core scan effects. A stable processing window was identified (250–300 W; 0.9–1.0 m·s−1) corresponding to ~50–60 J·mm−3 volumetric energy density (VED) achieved at 99.5% with residual porosity of 0.1–0.3%. In this regime, as-built roughness measured Ra = 4–6 µm on top surfaces and Ra = 15–17 µm on side surfaces. Mechanical testing in the as-built showed ultimate tensile strength (UTS) = 1150–1180 MPa and offset yield strength (YS0.2) = 955–994 MPa, with elongation up to 6.7%. Hardness increased from 220 HV to 360 HV as densification improved. Notably, similar VED values derived from distinct power–speed combinations resulted in divergent outcomes, confirming that VED alone does not uniquely predict quality. Comparative benchmarks from the literature data highlight the performance achieved. The resulting process–property map provides a practical reference for parameter optimization, reproducibility evaluation, and transferability across platforms.",
+      "authors": [
+        "Alexandru Paraschiv",
+        "Adrian Bibiș",
+        "Romica Constantin Stoica",
+        "Sebastian-Gabriel Bucaciuc",
+        "Claudiu Visan",
+        "Florina Brânzoi"
+      ],
+      "first_author_affiliation": "Special Components for Gas Turbines Department, Romanian Research and Development Institute for Gas Turbines COMOTI, 220D Iuliu Maniu, 061126 Bucharest, Romania",
+      "corresponding_authors": [
+        {
+          "name": "Alexandru Paraschiv",
+          "affiliation": "Special Components for Gas Turbines Department, Romanian Research and Development Institute for Gas Turbines COMOTI, 220D Iuliu Maniu, 061126 Bucharest, Romania"
+        }
+      ],
+      "venue": "Crystals",
+      "year": 2026,
+      "date": "2026-02-06",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/cryst16020121",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Ultimate tensile strength",
+        "Composite material",
+        "Porosity",
+        "Surface roughness",
+        "Parametric statistics",
+        "Reproducibility",
+        "Elongation",
+        "Surface finish",
+        "Laser power scaling",
+        "Offset (computer science)",
+        "Laser",
+        "Transferability",
+        "Yield (engineering)",
+        "Residual stress",
+        "Residual",
+        "Tensile testing",
+        "Calibration",
+        "Fractional factorial design",
+        "Laser scanning",
+        "Core (optical fiber)",
+        "Matrix (chemical analysis)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "powder bed fusion",
+          "SLM",
+          "tensile strength",
+          "yield strength",
+          "ultimate tensile strength",
+          "elongation",
+          "layer thickness",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对L1方向，研究了PBF-LB/M Ti-6Al-4V的工艺参数对密度、表面质量和力学性能的影响，结果具有实验验证，对理解工艺-性能关系有直接参考价值。",
+        "why_not_core": "No fatigue data, S-N curves, or crack initiation analysis is reported, only static mechanical properties.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "PBF-LB/M",
+          "Ti-6Al-4V",
+          "laser power",
+          "scan speed",
+          "density",
+          "surface roughness",
+          "mechanical properties",
+          "process map"
+        ],
+        "summary_zh": {
+          "motivation": "研究激光功率和扫描速度对PBF-LB/M Ti-6Al-4V成形致密度、表面质量和力学性能的影响，建立工艺-性能图。",
+          "method": "改变激光功率(150-400 W)和扫描速度(0.9-1.4 m/s)，通过密度、粗糙度、拉伸、硬度测试表征。",
+          "result": "在250-300 W、0.9-1.0 m/s窗口内获得99.5%致密度，抗拉强度1150-1180 MPa，延伸率6.7%。",
+          "validation": "通过密度、表面粗糙度、拉伸和硬度实验验证工艺窗口和性能。"
+        },
+        "summary_en": {
+          "motivation": "This study systematically investigates the effects of laser power and scan speed on density, surface quality, and mechanical properties of Ti-6Al-4V fabricated by PBF-LB/M, aiming to establish a process-property map for parameter optimization.",
+          "method": "A parametric matrix with laser power from 150 to 400 W and scan speed from 0.9 to 1.4 m/s was tested, and specimens were characterized by density, surface roughness, tensile tests, and hardness measurements.",
+          "result": "An optimal processing window (250-300 W, 0.9-1.0 m/s) was identified, yielding ~99.5% density, ultimate tensile strength of 1150-1180 MPa, yield strength of 955-994 MPa, and elongation up to 6.7%.",
+          "validation": "The findings are validated through experimental mechanical testing (tensile and hardness) and density measurements."
+        },
+        "key_terms": [
+          {
+            "en": "PBF-LB/M",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "laser power",
+            "zh": "激光功率"
+          },
+          {
+            "en": "scan speed",
+            "zh": "扫描速度"
+          },
+          {
+            "en": "volumetric energy density (VED)",
+            "zh": "体积能量密度"
+          },
+          {
+            "en": "density",
+            "zh": "致密度"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "ultimate tensile strength",
+            "zh": "极限抗拉强度"
+          },
+          {
+            "en": "yield strength",
+            "zh": "屈服强度"
+          },
+          {
+            "en": "elongation",
+            "zh": "延伸率"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          },
+          {
+            "en": "process map",
+            "zh": "工艺图"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "High": 1
+    }
+  }
+}

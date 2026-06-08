@@ -1,0 +1,164 @@
+{
+  "schema_version": "v2",
+  "date": "2026-05-18",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7161639001",
+      "doi": "10.63174/xdi.bepo1073",
+      "title": "A Critical Review on Tensile Behavior and Johnson-CookConstitutive Model Calibration of Wire Arc Additive Manufactured Materials",
+      "abstract": "Wire arc additive manufacturing (WAAM) has emerged as a key near-net-shape fabrication route for large-scale aerospace metallic components, offering deposition rates of 3-10 kg/h and material utilization exceeding 90%. However, the non-equilibrium microstructures formed under repeated WAAM thermal cycling — comprising coarse columnar grains, heterogeneous Laves phase, Widmanstatten lamellar alpha, and gradient in-situ aging precipitates — render the mechanical behavior of as-deposited materials fundamentally distinct from wrought counterparts. This disparity gives rise to a systematic 'parameter transplantation fallacy' in engineering simulations that rely on Johnson-Cook (JC) constitutive parameters calibrated from forged stock. The present review systematically examines 69 representative studies published between 2009 and 2026, covering three representative WAAM structural materials: Inconel 718, Ti-6Al-4V (TC4), and 18Ni300 maraging steel. A causal framework linking microstructure formation, tensile behavior, and JC calibration is established. Methodologically, this review proposes a new anisotropy classification taxonomy — texture-precipitate coupling type (IN718), grain boundary-texture type (TC4), and phase distribution-thermal history type (18Ni300) — and builds a cross-material three-tier error priority framework quantifying state-jump error, anisotropy error, and model calibration error. Key findings are: (i) classical JC models exhibit systematic prediction errors of 10-30% for WAAM materials at high strain rates (&gt;1000 s-1) and elevated temperatures (&gt;600 degrees C); (ii) for WAAM IN718, the state-jump error (~42%) far exceeds the anisotropy error (~14%) and model error (&lt;2%), establishing as-deposited-specific parameter databases as the highest-priority research task; (iii) all five JC parameters remain entirely uncharacterized for WAAM as-deposited 18Ni300, representing the most critical knowledge gap in the field. A research roadmap with specific experimental matrices is proposed for near-, mid-, and long-term research directions.",
+      "authors": [
+        "Xin Liu"
+      ],
+      "first_author_affiliation": "Shandong Agriculture and Engineering University",
+      "corresponding_authors": [
+        {
+          "name": "Xin Liu",
+          "affiliation": "Shandong Agriculture and Engineering University"
+        }
+      ],
+      "venue": "X-Disciplinarity",
+      "year": 2026,
+      "date": "2026-05-18",
+      "date_precision": "day",
+      "url": "https://doi.org/10.63174/xdi.bepo1073",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Calibration",
+        "Anisotropy",
+        "Inconel",
+        "Ultimate tensile strength",
+        "Aerospace",
+        "Strain rate",
+        "Lamellar structure",
+        "Tensile testing",
+        "Fabrication",
+        "Recrystallization (geology)",
+        "Composite material",
+        "Characterization (materials science)",
+        "Temperature cycling",
+        "Metallurgy",
+        "Thermal",
+        "Elongation"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TC4",
+          "additive manufacturing",
+          "wire arc additive",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该综述为WAAM Ti-6Al-4V的Johnson-Cook本构模型标定提供了方法论框架，对理解其拉伸行为有参考价值。",
+        "why_not_core": "It is a review paper covering multiple materials, not original experimental or modeling work specifically on Ti-6Al-4V mechanical/fatigue performance.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": true
+        },
+        "tags": [
+          "WAAM",
+          "Ti-6Al-4V",
+          "Johnson-Cook",
+          "tensile behavior",
+          "anisotropy",
+          "review"
+        ],
+        "summary_zh": {
+          "motivation": "WAAM材料力学行为与锻件差异大，直接套用Johnson-Cook参数存在系统误差，需系统梳理。",
+          "method": "综述2009-2026年间69项研究，建立微观结构-拉伸行为-JC标定的因果框架，提出各向异性分类和误差优先级。",
+          "result": "JC模型对WAAM材料高应变率高温预测误差10-30%，IN718状态跳跃误差约42%，18Ni300全部参数未表征。",
+          "validation": "综述方法，基于文献数据统计和误差分析，无新实验。"
+        },
+        "summary_en": {
+          "motivation": "The non-equilibrium microstructures of WAAM materials render mechanical behavior distinct from wrought, leading to systematic errors when using Johnson-Cook parameters from forged stock.",
+          "method": "This review examines 69 studies (2009-2026) on IN718, Ti-6Al-4V, and 18Ni300, proposing an anisotropy classification taxonomy and a three-tier error priority framework for JC calibration.",
+          "result": "Classical JC models show 10-30% prediction errors for WAAM materials at high strain rates and elevated temperatures; state-jump error dominates in IN718 (~42%), while all five JC parameters for 18Ni300 are uncharacterized.",
+          "validation": "No experimental validation; the study is a literature-based review with statistical analysis."
+        },
+        "key_terms": [
+          {
+            "en": "wire arc additive manufacturing",
+            "zh": "电弧增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "Johnson-Cook constitutive model",
+            "zh": "Johnson-Cook本构模型"
+          },
+          {
+            "en": "tensile behavior",
+            "zh": "拉伸行为"
+          },
+          {
+            "en": "anisotropy",
+            "zh": "各向异性"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "high strain rate",
+            "zh": "高应变率"
+          },
+          {
+            "en": "Laves phase",
+            "zh": "拉维斯相"
+          },
+          {
+            "en": "Widmanstatten",
+            "zh": "魏氏组织"
+          },
+          {
+            "en": "maraging steel",
+            "zh": "马氏体时效钢"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:54:38Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Medium": 1
+    }
+  }
+}

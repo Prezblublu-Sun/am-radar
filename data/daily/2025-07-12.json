@@ -41,11 +41,17 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
+        "ti6al4v_base_mechanical_fatigue",
         "ti6al4v_femoral_stem"
       ],
       "direction": "ti6al4v_femoral_stem",
       "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "selective laser melting",
+          "SLM"
+        ],
         "ti6al4v_femoral_stem": [
           "Ti6Al4V",
           "TPMS",
@@ -56,8 +62,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究Ti/Al互穿相复合材料的动态力学性能，不涉及股骨柄或植入物结构设计。",
-        "why_not_core": "No femoral stem design, no implant context, no stress shielding or fatigue analysis relevant to hip stems.",
+        "relevance_to_user": "该论文研究Ti/Al互穿相复合材料的动态力学行为，与Ti-6Al-4V股骨柄植入物设计无关。",
+        "why_not_core": "This paper studies high-strain-rate deformation of Ti/Al interpenetrating phase composites for energy absorption, with no connection to femoral stem implant design, stress shielding, or orthopaedic biomechanics.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -66,24 +72,23 @@
           "is_review": false
         },
         "tags": [
-          "Ti6Al4V",
-          "interpenetrating phase composite",
+          "Ti/Al IPC",
           "TPMS",
           "high-strain-rate",
           "SHPB",
-          "dynamic mechanical properties"
+          "dynamic mechanical behavior"
         ],
         "summary_zh": {
-          "motivation": "探究Ti/Al互穿相复合材料在高应变率下的动态力学行为",
-          "method": "通过SLM制备Ti6Al4V TPMS骨架并渗铝，用SHPB测试",
-          "result": "Ti合金体积分数和应变率显著影响动态性能，不同体积分数表现相反",
-          "validation": "SHPB实验和微观表征验证"
+          "motivation": "研究Ti/Al互穿相复合材料在高应变率下的动态力学行为与损伤机制。",
+          "method": "基于TPMS IWP结构设计Ti/Al IPC，SLM制备Ti6Al4V骨架，渗铸AlSi12，采用SHPB实验。",
+          "result": "Ti合金体积分数和应变率显著影响动态力学性能，不同体积分数材料表现出相反的应变率效应。",
+          "validation": "微观表征验证了制备方法的有效性。"
         },
         "summary_en": {
-          "motivation": "To investigate the dynamic mechanical behavior of Ti/Al interpenetrating phase composites under high strain rates.",
-          "method": "Ti6Al4V TPMS scaffolds were fabricated via SLM and infiltrated with AlSi12, then tested with SHPB.",
-          "result": "Ti alloy volume fraction and strain rate significantly affect dynamic properties, with opposite trends for different volume fractions.",
-          "validation": "SHPB experiments and microscopic characterization."
+          "motivation": "To investigate the dynamic mechanical behavior and damage mechanisms of Ti/Al interpenetrating phase composites under high strain rates.",
+          "method": "Ti/Al IPCs based on TPMS IWP structures were designed parametrically, fabricated via SLM of Ti6Al4V scaffolds and infiltration casting of AlSi12, and tested using a split Hopkinson pressure bar.",
+          "result": "Increasing Ti alloy volume fraction significantly affects dynamic properties, and IPCs with different volume fractions exhibit contrasting strain-rate dependencies due to dominant phase contributions.",
+          "validation": "Microscopic characterization confirmed the reliability of the fabrication method."
         },
         "key_terms": [
           {
@@ -91,34 +96,38 @@
             "zh": "互穿相复合材料"
           },
           {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V合金"
-          },
-          {
-            "en": "TPMS",
-            "zh": "三周期极小曲面"
-          },
-          {
             "en": "selective laser melting",
-            "zh": "选区激光熔化"
+            "zh": "选择性激光熔化"
+          },
+          {
+            "en": "triply periodic minimal surface",
+            "zh": "三周期极小曲面"
           },
           {
             "en": "split Hopkinson pressure bar",
             "zh": "分离式霍普金森压杆"
           },
           {
-            "en": "high-strain-rate",
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "AlSi12",
+            "zh": "AlSi12铝合金"
+          },
+          {
+            "en": "high strain rate",
             "zh": "高应变率"
           },
           {
-            "en": "dynamic mechanical properties",
-            "zh": "动态力学性能"
+            "en": "energy absorption",
+            "zh": "能量吸收"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
     }
   ],
   "counts": {

@@ -5,126 +5,6 @@
   "papers": [
     {
       "source": "openalex",
-      "id": "https://openalex.org/W7154233778",
-      "doi": "10.1038/s41467-026-71927-6",
-      "title": "Machine learning driven discovery of low modulus biomedical titanium alloys for additive manufacturing",
-      "abstract": "Designing alloys for additive manufacturing opens opportunities for next-generation biomedical orthopaedic implants. However, most biomedical alloys currently in use are legacy compositions that cannot fully harness the potential of additive manufacturing. Here, we present a machine-learning-driven computational framework for discovering additive-manufacturing-specific β-titanium alloys with low modulus, optimised printability, mechanical and corrosion properties, and biocompatibility. Using this framework, an additive-manufacturing-specific Ti-Nb-Ta-Zr-Sn alloy was designed and validated via laser powder bed fusion. The alloy shows good printability and reduced sensitivity to keyhole pore formation compared with commercial Ti-6Al-4V. Under optimised process parameters, the as-built alloy combines a low Young’s modulus (~42.7 GPa) with high ductility (~30.9%), attributed to its metastable β-phase microstructure, cubic <001> texture, and reduced dislocation density. In this work, we show that this machine-learning-driven approach can facilitate the efficient design of biomedical β-titanium alloys, offering promising opportunities for advancing additive manufacturing in medical and related applications. Researchers combined CALPHAD, machine learning, and multi-objective optimisation to design an AM-specific titanium alloy for implant and orthopaedic applications. Laser powder bed fusion produced low-stiffness (~43 GPa), high-ductility (~31%) components, with good cell compatibility.",
-      "authors": [
-        "Jinlong Su",
-        "Fulin Jiang",
-        "Jin‐Ming Wu",
-        "Yuehua Li",
-        "Ri Han",
-        "Lu Wang",
-        "Raymond Chung Wen Wong",
-        "Jian Wang",
-        "Swee Leong Sing"
-      ],
-      "first_author_affiliation": "College of Materials Science and Engineering, State Key Laboratory of Cemented Carbide, Hunan University, Changsha, China",
-      "corresponding_authors": [
-        {
-          "name": "Fulin Jiang",
-          "affiliation": "College of Materials Science and Engineering, State Key Laboratory of Cemented Carbide, Hunan University, Changsha, China. fulin.jiang.88@hnu.edu.cn"
-        }
-      ],
-      "venue": "Nature Communications",
-      "year": 2026,
-      "date": "2026-04-14",
-      "date_precision": "day",
-      "url": "https://doi.org/10.1038/s41467-026-71927-6",
-      "cited_by_count": 0,
-      "concepts": [
-        "Materials science",
-        "Titanium alloy",
-        "Alloy",
-        "Ductility (Earth science)",
-        "Titanium",
-        "Elastic modulus",
-        "Sensitivity (control systems)",
-        "Modulus",
-        "Corrosion",
-        "Metastability",
-        "Fusion",
-        "Machine learning",
-        "Ultimate tensile strength",
-        "Metallurgy",
-        "Process (computing)"
-      ],
-      "categories": [],
-      "raw_type": "article",
-      "directions": [
-        "ti6al4v_base_mechanical_fatigue"
-      ],
-      "direction": "ti6al4v_base_mechanical_fatigue",
-      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
-      "routing_matches": {
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "ductility"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文主要研究新型β钛合金的设计，而非Ti-6Al-4V，故与当前方向无关。",
-        "why_not_core": "The paper does not study Ti-6Al-4V; it designs a new β-titanium alloy (Ti-Nb-Ta-Zr-Sn) and only uses Ti-6Al-4V as a reference, providing no mechanical/fatigue characterization of Ti-6Al-4V itself.",
-        "validation_kind": "mechanical_testing",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "machine learning",
-          "alloy design",
-          "β-titanium",
-          "LPBF",
-          "low modulus"
-        ],
-        "summary_zh": {
-          "motivation": "设计适用于增材制造的低模量生物医用β钛合金",
-          "method": "采用机器学习、CALPHAD和多目标优化框架设计Ti-Nb-Ta-Zr-Sn合金，并经激光粉末床熔融验证",
-          "result": "该合金具有低杨氏模量(~42.7 GPa)和高延展性(~30.9%)，且打印性能优于Ti-6Al-4V",
-          "validation": "通过激光粉末床熔融实验制备并进行力学和生物相容性测试"
-        },
-        "summary_en": {
-          "motivation": "To design additive-manufacturing-specific low-modulus β-titanium alloys for biomedical implants.",
-          "method": "A machine-learning-driven computational framework integrating CALPHAD and multi-objective optimization was used to design a Ti-Nb-Ta-Zr-Sn alloy validated by laser powder bed fusion.",
-          "result": "The as-built alloy achieved a low Young's modulus (~42.7 GPa) and high ductility (~30.9%) with reduced sensitivity to keyhole pore formation compared to Ti-6Al-4V.",
-          "validation": "Experimental validation via LPBF, mechanical testing, and biocompatibility assays."
-        },
-        "key_terms": [
-          {
-            "en": "laser powder bed fusion",
-            "zh": "激光粉末床熔融"
-          },
-          {
-            "en": "β-titanium alloys",
-            "zh": "β钛合金"
-          },
-          {
-            "en": "low modulus",
-            "zh": "低模量"
-          },
-          {
-            "en": "machine learning",
-            "zh": "机器学习"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
-    },
-    {
-      "source": "openalex",
       "id": "https://openalex.org/W7154381753",
       "doi": "10.55092/am20260006",
       "title": "Laser additive manufacturing of metallic lattice structures: material-structure-property concept, and future perspective",
@@ -184,17 +64,22 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "selective laser melting",
+          "electron beam melting",
+          "SLM",
+          "EBM",
           "defect",
           "surface roughness",
           "residual stress"
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Medium",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该综述涵盖了Ti-6Al-4V点阵结构的力学性能，但并非专门针对其疲劳行为，且无新实验数据。",
-        "why_not_core": "Review-only; lacks specific Ti-6Al-4V mechanical/fatigue characterization or new experimental data.",
+        "relevance_to_user": "这篇综述涉及激光增材制造金属点阵结构，包含Ti-6Al-4V，但主要关注点阵结构而非实体Ti-6Al-4V的力学和疲劳性能。",
+        "why_not_core": "This is a broad review covering multiple materials and lattice structures, not a focused experimental or modeling study on solid Ti-6Al-4V mechanical/fatigue performance.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
@@ -203,28 +88,36 @@
           "is_review": true
         },
         "tags": [
-          "review",
           "lattice structures",
           "laser additive manufacturing",
           "Ti-6Al-4V",
+          "review",
           "mechanical properties"
         ],
         "summary_zh": {
-          "motivation": "综述激光增材制造金属点阵结构的研究现状",
-          "method": "系统回顾SLM和EBM工艺、材料设计及力学性能",
-          "result": "总结了挑战和未来方向，如机器学习辅助设计",
-          "validation": "无实验验证，为文献综述"
+          "motivation": "综述激光增材制造金属点阵结构的最新进展。",
+          "method": "系统分析材料、设计、力学性能和检测方法。",
+          "result": "总结了点阵结构在轻量化、力学性能和多功能方面的进展。",
+          "validation": "文献综述，无新实验验证。"
         },
         "summary_en": {
-          "motivation": "This review aims to consolidate the state of the art in laser additive manufacturing of metallic lattice structures.",
-          "method": "A comprehensive literature analysis covering materials, design optimization, mechanical properties, and defect detection methods.",
-          "result": "Key challenges including surface roughness, residual stress, and size limitations are identified, along with opportunities in AI-assisted design.",
-          "validation": "No experimental validation is performed; the paper is a literature review."
+          "motivation": "This review aims to provide a comprehensive overview of the state of the art in laser additive manufacturing of metallic lattice structures.",
+          "method": "The authors critically analyze recent advances in materials, design optimization, mechanical properties, and quality assurance methods.",
+          "result": "They summarize key findings on lightweight structures, mechanical performance under various loading, and future opportunities.",
+          "validation": "The paper is a literature review; no new experimental validation is conducted."
         },
         "key_terms": [
           {
-            "en": "lattice structures",
-            "zh": "点阵结构"
+            "en": "laser additive manufacturing",
+            "zh": "激光增材制造"
+          },
+          {
+            "en": "metallic lattice structures",
+            "zh": "金属点阵结构"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
           },
           {
             "en": "selective laser melting",
@@ -235,10 +128,6 @@
             "zh": "电子束熔化"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "钛合金Ti-6Al-4V"
-          },
-          {
             "en": "mechanical properties",
             "zh": "力学性能"
           },
@@ -247,37 +136,431 @@
             "zh": "疲劳"
           },
           {
-            "en": "surface roughness",
-            "zh": "表面粗糙度"
+            "en": "micro-CT",
+            "zh": "显微CT"
           },
           {
-            "en": "residual stress",
-            "zh": "残余应力"
+            "en": "AI-based defect identification",
+            "zh": "基于人工智能的缺陷识别"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7154233778",
+      "doi": "10.1038/s41467-026-71927-6",
+      "title": "Machine learning driven discovery of low modulus biomedical titanium alloys for additive manufacturing",
+      "abstract": "Designing alloys for additive manufacturing opens opportunities for next-generation biomedical orthopaedic implants. However, most biomedical alloys currently in use are legacy compositions that cannot fully harness the potential of additive manufacturing. Here, we present a machine-learning-driven computational framework for discovering additive-manufacturing-specific β-titanium alloys with low modulus, optimised printability, mechanical and corrosion properties, and biocompatibility. Using this framework, an additive-manufacturing-specific Ti-Nb-Ta-Zr-Sn alloy was designed and validated via laser powder bed fusion. The alloy shows good printability and reduced sensitivity to keyhole pore formation compared with commercial Ti-6Al-4V. Under optimised process parameters, the as-built alloy combines a low Young’s modulus (~42.7 GPa) with high ductility (~30.9%), attributed to its metastable β-phase microstructure, cubic <001> texture, and reduced dislocation density. In this work, we show that this machine-learning-driven approach can facilitate the efficient design of biomedical β-titanium alloys, offering promising opportunities for advancing additive manufacturing in medical and related applications. Researchers combined CALPHAD, machine learning, and multi-objective optimisation to design an AM-specific titanium alloy for implant and orthopaedic applications. Laser powder bed fusion produced low-stiffness (~43 GPa), high-ductility (~31%) components, with good cell compatibility.",
+      "authors": [
+        "Jinlong Su",
+        "Fulin Jiang",
+        "Jin‐Ming Wu",
+        "Yuehua Li",
+        "Ri Han",
+        "Lu Wang",
+        "Raymond Chung Wen Wong",
+        "Jian Wang",
+        "Swee Leong Sing"
+      ],
+      "first_author_affiliation": "College of Materials Science and Engineering, State Key Laboratory of Cemented Carbide, Hunan University, Changsha, China",
+      "corresponding_authors": [
+        {
+          "name": "Fulin Jiang",
+          "affiliation": "College of Materials Science and Engineering, State Key Laboratory of Cemented Carbide, Hunan University, Changsha, China. fulin.jiang.88@hnu.edu.cn"
+        }
+      ],
+      "venue": "Nature Communications",
+      "year": 2026,
+      "date": "2026-04-14",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1038/s41467-026-71927-6",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Titanium alloy",
+        "Alloy",
+        "Ductility (Earth science)",
+        "Titanium",
+        "Elastic modulus",
+        "Sensitivity (control systems)",
+        "Modulus",
+        "Corrosion",
+        "Metastability",
+        "Fusion",
+        "Machine learning",
+        "Ultimate tensile strength",
+        "Metallurgy",
+        "Process (computing)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "microstructure",
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文不涉及Ti-6Al-4V合金，而是设计新型β钛合金，因此与本方向不相关。",
+        "why_not_core": "The paper does not focus on Ti-6Al-4V; it investigates a novel β-titanium alloy designed for additive manufacturing, with Ti-6Al-4V only used as a baseline comparison.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "machine learning",
+          "alloy design",
+          "biomedical titanium",
+          "laser powder bed fusion",
+          "beta titanium"
+        ],
+        "summary_zh": {
+          "motivation": "设计适用于增材制造的生物医用低模量β钛合金",
+          "method": "采用机器学习、CALPHAD和多目标优化设计合金，激光粉末床熔融制备",
+          "result": "开发出低弹性模量(~42.7 GPa)和高塑性(~30.9%)的β钛合金",
+          "validation": "通过力学实验和细胞相容性实验验证"
+        },
+        "summary_en": {
+          "motivation": "To design additive-manufacturing-specific β-titanium alloys with low modulus for orthopedic implants using machine learning",
+          "method": "A computational framework combining CALPHAD, machine learning, and multi-objective optimization was used to design a Ti-Nb-Ta-Zr-Sn alloy fabricated by laser powder bed fusion",
+          "result": "The as-built alloy exhibited a Young's modulus of ~42.7 GPa and ductility of ~30.9%",
+          "validation": "Mechanical testing (tensile, microhardness) and in vitro cell compatibility tests were performed"
+        },
+        "key_terms": [
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "beta titanium alloy",
+            "zh": "β钛合金"
+          },
+          {
+            "en": "low elastic modulus",
+            "zh": "低弹性模量"
+          },
+          {
+            "en": "biomedical implants",
+            "zh": "生物医用植入物"
+          },
+          {
+            "en": "CALPHAD",
+            "zh": "计算相图"
+          },
+          {
+            "en": "multi-objective optimization",
+            "zh": "多目标优化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7154215266",
+      "doi": "10.3221/igf-esis.77.06",
+      "title": "Application-driven optimization of Ti-6Al-4V alloy via customized heat treatments",
+      "abstract": "This paper examines the influence of controlled heat treatments on the mechanical behaviour of Ti-6Al-4V (Grade 5 Titanium alloy) to improve its performance in structural and high performance applications. Ti-6Al-4V is widely used in aerospace, biomedical and automotive components because of its high strength-to-weight ratio and corrosion resistance: however, simultaneously optimizing strength, ductility, fracture toughness and fatigue resistance remains challenging. Because the alloy is highly sensitive to thermo-mechanical history, heat treatment provides an effective means of tailoring its mechanical response. Four microstructural conditions were examined: (i) annealed, A, (ii) solution-treated and aged, STA, (iii) β-annealed, BA, and (iv) β-solution-treated and overaged, BSTOA. Optical and scanning electron microscopy were used to characterize the resulting microstructures and tensile, hardness, impact strength, fracture mechanics and fatigue tests to determine the respective mechanical properties. A condition exhibited the highest ductility, whereas the STA treatment produced the greatest strength and hardness; BA condition improved fracture toughness, while BSTOA treatment provided the highest high cycle fatigue limit. These findings demonstrated that appropriate selection of the thermal treatment process can significantly enhance the mechanical performance of Grade 5 Titanium alloy for advanced engineering applications.",
+      "authors": [
+        "Andrea Trombetta",
+        "Cesare Certini",
+        "Luca Marco Pasini",
+        "Marco Boniardi",
+        "Luca Rosaspina",
+        "Edoardo Scabini",
+        "Andrea Casaroli"
+      ],
+      "first_author_affiliation": "ATSolution82, via Aldo Galli 7, 22100 Como Italy",
+      "corresponding_authors": [
+        {
+          "name": "Andrea Trombetta",
+          "affiliation": "ATSolution82, via Aldo Galli 7, 22100 Como Italy"
+        }
+      ],
+      "venue": "Frattura ed Integrità Strutturale",
+      "year": 2026,
+      "date": "2026-04-14",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3221/igf-esis.77.06",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Titanium alloy",
+        "Alloy",
+        "Fracture (geology)",
+        "Fracture toughness",
+        "Microstructure",
+        "Metallurgy",
+        "Scanning electron microscope",
+        "Composite material",
+        "Toughness",
+        "Fatigue limit",
+        "Titanium",
+        "Fracture mechanics",
+        "Corrosion",
+        "Material selection",
+        "Cryogenic treatment",
+        "Specific strength",
+        "Heat treating",
+        "Thermal",
+        "Optical microscope"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "grade 5 titanium",
+          "ductility",
+          "fatigue",
+          "high cycle fatigue"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "grade 5 titanium",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V合金的热处理，但未涉及增材制造工艺，因此与L2方向（AM Ti-6Al-4V后处理）不直接相关",
+        "why_not_core": "The paper studies heat treatments of conventional Ti-6Al-4V, not additively manufactured material, and thus does not address post-processing of AM Ti-6Al-4V as required by the direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "heat treatment",
+          "mechanical properties",
+          "fatigue"
+        ],
+        "summary_zh": {
+          "motivation": "为改善Ti-6Al-4V合金的力学性能，研究不同热处理方法的影响。",
+          "method": "对Ti-6Al-4V进行退火、固溶时效、β退火和β固溶过时效处理，并进行显微组织和力学性能表征。",
+          "result": "STA处理获得最高强度，BA处理改善断裂韧性，BSTOA处理提高高周疲劳极限。",
+          "validation": "通过光学和扫描电镜、拉伸、硬度、冲击、断裂力学和疲劳试验验证。"
+        },
+        "summary_en": {
+          "motivation": "To improve the mechanical performance of Ti-6Al-4V alloy by investigating the effects of various heat treatments.",
+          "method": "Four heat treatments (annealed, solution-treated and aged, β-annealed, β-solution-treated and overaged) were applied to Ti-6Al-4V, and microstructural characterization and mechanical testing were conducted.",
+          "result": "STA treatment yielded the highest strength and hardness, BA treatment improved fracture toughness, and BSTOA treatment provided the highest high-cycle fatigue limit.",
+          "validation": "Optical and scanning electron microscopy, tensile, hardness, impact, fracture mechanics, and fatigue tests were used for validation."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "microstructure",
+            "zh": "显微组织"
+          },
+          {
+            "en": "tensile properties",
+            "zh": "拉伸性能"
+          },
+          {
+            "en": "fatigue limit",
+            "zh": "疲劳极限"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7154450513",
+      "doi": "10.25258/ijddt.16.11s.78",
+      "title": "Topology Optimization Customized Femoral Hip Implant.",
+      "abstract": "Aseptic loosening, stress shielding, and wear are some of the dominant issues that would be attempted to resolve in this research work in designing and optimizing femoral hip replacement devices by making use of finite element analysis. This research work will emphasize important aspects in designing the devices that include the size of the head area and taper angle, which were optimized for enhancing their performance. Titanium alloys show superior biocompatibility compared to other alloys. Of these alloys, Ti-6Al-4V provides superior mechanical properties and anticorrosion properties. Simulation tests conducted in this work made use of finite element analysis for studying the stresses and deformations in the devices. This helped in achieving deformations of 0.405mm and a value of 246.38 MPa for stresses that provide structural and efficient use of materials in performance criteria restricted within acceptable limits",
+      "authors": [
+        "Siddharth Tiwari",
+        "N. K. Jain"
+      ],
+      "first_author_affiliation": "Research Scholar, Department of Mechanical Engineering, NIT, Raipur, India",
+      "corresponding_authors": [
+        {
+          "name": "Siddharth Tiwari",
+          "affiliation": "Research Scholar, Department of Mechanical Engineering, NIT, Raipur, India"
+        }
+      ],
+      "venue": "International Journal of Drug Delivery Technology",
+      "year": 2026,
+      "date": "2026-04-14",
+      "date_precision": "day",
+      "url": "https://doi.org/10.25258/ijddt.16.11s.78",
+      "cited_by_count": 0,
+      "concepts": [
+        "Finite element method",
+        "Work (physics)",
+        "Computer science",
+        "Mechanical engineering",
+        "Topology optimization",
+        "Structural engineering",
+        "Stress (linguistics)",
+        "Materials science",
+        "Engineering drawing",
+        "Total hip replacement",
+        "Biocompatibility",
+        "Titanium",
+        "Engineering",
+        "Femoral head"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "stress shielding"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文直接针对Ti-6Al-4V股骨柄结构设计，但仅有限元仿真，缺乏实验验证。",
+        "why_not_core": "No experimental mechanical testing, fatigue testing, or additive manufacturing fabrication; purely FEA simulation without validation.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "topology optimization",
+          "femoral hip implant",
+          "Ti-6Al-4V",
+          "finite element analysis",
+          "stress shielding"
+        ],
+        "summary_zh": {
+          "motivation": "减少髋关节植入物无菌性松动和应力遮挡",
+          "method": "采用有限元分析和拓扑优化设计股骨柄",
+          "result": "实现0.405mm变形和246.38 MPa应力，满足性能要求",
+          "validation": "仅通过有限元仿真验证，无实验测试"
+        },
+        "summary_en": {
+          "motivation": "To reduce aseptic loosening and stress shielding in hip implants through topology optimization.",
+          "method": "Finite element analysis and topology optimization were used to design a customized femoral stem.",
+          "result": "A deformation of 0.405 mm and a stress of 246.38 MPa were achieved, within acceptable limits.",
+          "validation": "The study relied solely on FEA simulation without experimental validation."
+        },
+        "key_terms": [
+          {
+            "en": "topology optimization",
+            "zh": "拓扑优化"
+          },
+          {
+            "en": "femoral hip implant",
+            "zh": "股骨髋关节植入物"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "stress shielding",
+            "zh": "应力遮挡"
+          },
+          {
+            "en": "aseptic loosening",
+            "zh": "无菌性松动"
+          },
+          {
+            "en": "deformation",
+            "zh": "变形"
+          },
+          {
+            "en": "stress analysis",
+            "zh": "应力分析"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 4,
     "by_source": {
-      "openalex": 2
+      "openalex": 4
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 2
+      "ti6al4v_base_mechanical_fatigue": 2,
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 4
     },
-    "scored": 2,
+    "scored": 4,
     "priority_counts": {
-      "Exclude": 1,
-      "Low": 1
+      "Medium": 2,
+      "Exclude": 2
     }
   }
 }

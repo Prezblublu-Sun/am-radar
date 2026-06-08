@@ -62,11 +62,11 @@
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文主要研究Ti6Al4V表面制备梯度中间层以增强羟基磷灰石涂层，未涉及AM Ti-6Al-4V的后处理对疲劳或力学性能的影响。",
-        "why_not_core": "No fatigue or tensile mechanical data; not focused on post-processing for mechanical performance improvement of Ti-6Al-4V; instead focuses on intermetallic interlayer for HA coatings.",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti6Al4V表面处理，但主要关注涂层附着力而非疲劳或力学性能，与后处理控制疲劳/力学性能的方向关联较弱。",
+        "why_not_core": "Does not address fatigue or mechanical performance (only hardness reported); focus is on coating adhesion for hydroxyapatite, not post-processing for mechanical property improvement.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -75,33 +75,36 @@
           "is_review": false
         },
         "tags": [
-          "Ti6Al4V",
-          "intermetallic layer",
-          "EDM",
-          "hydroxyapatite coating",
-          "surface hardness",
-          "adhesion test"
+          "Ti-6Al-4V",
+          "post-processing",
+          "intermetallic layers",
+          "hydroxyapatite coatings",
+          "surface modification"
         ],
         "summary_zh": {
-          "motivation": "改善Ti6Al4V表面与羟基磷灰石涂层的结合性能",
-          "method": "通过电火花沉积铝层并进行热处理/热化学处理形成梯度中间层",
-          "result": "成功生成TiAl2和TiAl3等金属间化合物，表面硬度达1057 HV",
-          "validation": "利用SEM、EDS、XRD和粘附力测试评估层结构和力学稳定性"
+          "motivation": "通过铝沉积和热处理在Ti6Al4V表面形成梯度层以增强羟基磷灰石涂层附着力。",
+          "method": "采用电火花加工沉积铝层并结合热/热化学处理形成钛铝金属间化合物与氧化物层。",
+          "result": "形成了结合良好的TiAl2和TiAl3相，表面硬度最高达1057 HV，未处理与热化学处理层力学稳定性最佳。",
+          "validation": "通过SEM、EDS、XRD及硬度测试和附着力试验验证层结构和力学性能。"
         },
         "summary_en": {
-          "motivation": "To enhance the adhesion and compatibility of hydroxyapatite coatings on Ti6Al4V by developing a metallurgically bonded gradient interlayer.",
-          "method": "Aluminum was deposited on Ti6Al4V via electrical discharge machining (EDM), followed by thermal and thermochemical treatments to induce diffusion and intermetallic formation.",
-          "result": "Formation of Ti-Al intermetallics (TiAl2, TiAl3) and oxide phases (TiO2, Al2O3) with surface hardness up to 1057 HV was achieved.",
-          "validation": "Microstructural (SEM, EDS, XRD) and mechanical (hardness, adhesion) tests were performed to characterize the layers."
+          "motivation": "This study aims to improve surface properties of Ti6Al4V for biomedical applications by creating a compositional gradient intermetallic layer to enhance hydroxyapatite coating adhesion.",
+          "method": "Aluminum is deposited via electrical discharge machining (EDM) followed by thermal and thermochemical treatments to induce diffusion and formation of Ti-Al intermetallics and oxides.",
+          "result": "Well-adhered layers composed of TiAl2, TiAl3, TiO2, and Al2O3 are formed, with hardness reaching 1057 HV; untreated and thermochemically treated layers show superior mechanical stability.",
+          "validation": "Layer formation and properties are validated using SEM, EDS, XRD, hardness testing, and adhesion tests."
         },
         "key_terms": [
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
+          },
           {
             "en": "electrical discharge machining",
             "zh": "电火花加工"
           },
           {
-            "en": "Ti-Al intermetallics",
-            "zh": "钛铝金属间化合物"
+            "en": "intermetallic layer",
+            "zh": "金属间化合物层"
           },
           {
             "en": "hydroxyapatite coating",
@@ -110,24 +113,12 @@
           {
             "en": "surface hardness",
             "zh": "表面硬度"
-          },
-          {
-            "en": "adhesion test",
-            "zh": "粘附力测试"
-          },
-          {
-            "en": "thermal treatment",
-            "zh": "热处理"
-          },
-          {
-            "en": "thermochemical treatment",
-            "zh": "热化学处理"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:17:25Z"
+      "first_seen_at": "2026-06-08T08:27:10Z"
     }
   ],
   "counts": {
@@ -145,7 +136,7 @@
     },
     "scored": 1,
     "priority_counts": {
-      "Exclude": 1
+      "Low": 1
     }
   }
 }

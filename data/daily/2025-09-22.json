@@ -61,6 +61,8 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "additive manufacturing",
+          "electron beam melting",
           "defect",
           "fatigue",
           "fatigue life"
@@ -74,9 +76,9 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文关注的是CT扫描参数优化而非Ti-6Al-4V后处理工艺，不涉及对力学性能的影响。",
-        "why_not_core": "The paper does not study any post-processing treatment (e.g., heat treatment, HIP, surface peening) on Ti-6Al-4V; it optimizes CT scanning parameters for defect detection, and presents no mechanical performance data related to post-processing.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文关注CT扫描参数优化而非Ti-6Al-4V的后处理工艺（如热处理、表面强化等），与研究方向不符。",
+        "why_not_core": "The paper deals with CT post-processing parameter optimization, not with post-processing treatments (heat treatment, HIP, shot peening, etc.) of Ti-6Al-4V parts; no mechanical performance data from post-processed specimens is reported.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": true,
@@ -84,71 +86,71 @@
           "is_review": false
         },
         "tags": [
-          "CT optimization",
-          "defect analysis",
           "Ti-6Al-4V",
-          "electron beam melting",
-          "uncertainty quantification",
-          "defect classification"
+          "Electron Beam Melting",
+          "X-ray Computed Tomography",
+          "Defect Detection",
+          "Uncertainty Quantification",
+          "Defect Classification"
         ],
         "summary_zh": {
-          "motivation": "提高金属增材制造构件缺陷检测的精度与可靠性，以支撑疲劳寿命预测。",
-          "method": "通过迭代比对CT缺陷与断口测量值，优化CT后处理参数，并结合K-means聚类与支持向量机分类。",
-          "result": "优化后阈值参数提升134%，缺陷分类准确率达99%。",
-          "validation": "采用Ti6Al4V电子束熔融样品的断口测量作为CT优化参考。"
+          "motivation": "优化X射线CT参数以提高增材制造钛合金中缺陷检测的准确性。",
+          "method": "迭代比较CT与断口测量，确定最佳灰度阈值，并传播不确定性进行缺陷分类。",
+          "result": "优化后的灰度阈值比商业算法高134%，缺陷分类精度达99%。",
+          "validation": "通过11个电子束熔融Ti-6Al-4V样品的断口测量验证CT优化结果。"
         },
         "summary_en": {
-          "motivation": "To enhance the accuracy and reliability of defect detection in additively manufactured metallic components for improved fatigue life prediction.",
-          "method": "An iterative comparison between CT-based defect measurements and fractographic data is used to optimize CT post-processing parameters, followed by unsupervised K-means clustering and supervised SVM classification of defects.",
-          "result": "The optimized threshold parameter increased by 134% compared to a commercial algorithm, achieving 99% classification accuracy for defect types.",
-          "validation": "The methodology was validated on Ti6Al4V dog-bone samples produced by electron beam melting using fractographic measurements as reference."
+          "motivation": "To optimize X-ray CT post-processing parameters for accurate defect detection in additively manufactured metallic materials.",
+          "method": "Iterative comparison between CT-based defect measurements and fractography data to identify optimal gray threshold, followed by uncertainty propagation and unsupervised classification.",
+          "result": "The optimized gray threshold was 134% higher than a commercial algorithm, reducing systematic uncertainty, and defect classification accuracy reached 99%.",
+          "validation": "Validation via fractography measurements on 11 electron-beam-melted Ti-6Al-4V dog-bone specimens."
         },
         "key_terms": [
           {
-            "en": "X-ray computed tomography",
+            "en": "X-ray Computed Tomography",
             "zh": "X射线计算机断层扫描"
           },
           {
-            "en": "defect analysis",
-            "zh": "缺陷分析"
-          },
-          {
-            "en": "post-processing parameters",
-            "zh": "后处理参数"
+            "en": "defect detection",
+            "zh": "缺陷检测"
           },
           {
             "en": "uncertainty quantification",
-            "zh": "不确定度量化"
+            "zh": "不确定性量化"
           },
           {
             "en": "defect classification",
             "zh": "缺陷分类"
           },
           {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
             "en": "electron beam melting",
             "zh": "电子束熔融"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "en": "gray threshold",
+            "zh": "灰度阈值"
           },
           {
-            "en": "K-means clustering",
-            "zh": "K均值聚类"
+            "en": "fractography",
+            "zh": "断口分析"
           },
           {
-            "en": "support vector machine",
-            "zh": "支持向量机"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           },
           {
-            "en": "fatigue life prediction",
-            "zh": "疲劳寿命预测"
+            "en": "Murakami's parameter",
+            "zh": "村上参数"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
     },
     {
       "source": "openalex",
@@ -197,29 +199,31 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_femoral_stem",
-        "ti6al4v_base_mechanical_fatigue"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_femoral_stem"
       ],
       "direction": "ti6al4v_femoral_stem",
       "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "yield strength"
+        ],
         "ti6al4v_femoral_stem": [
           "Ti6Al4V",
           "graded lattice",
           "triply periodic minimal surface",
           "stress shielding"
-        ],
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti6Al4V",
-          "yield strength"
         ]
       },
       "llm": {
         "priority": "Medium",
         "relevance_level": "Transferable",
         "read_action": "Save for project",
-        "relevance_to_user": "本文研究Ti6Al4V梯度点阵的力学性能，对多孔股骨柄的减应力屏蔽设计有参考价值。",
-        "why_not_core": "该论文研究的是点阵结构单元而非完整的股骨柄或植入物结构，未涉及柄的疲劳、稳定性或具体植入物评估。",
+        "relevance_to_user": "该论文设计了不同梯度方向的Ti6Al4V Split-P点阵结构并测试其力学性能，为髋关节假体柄的应力屏蔽设计提供了可借鉴的材料数据，但未直接涉及股骨柄结构。",
+        "why_not_core": "This paper focuses on graded lattice unit cells rather than a complete femoral stem design; it does not include stem-level structural analysis, ISO fatigue testing, or implant-specific biomechanical assessment.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -228,24 +232,24 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
+          "Ti6Al4V ELI",
           "graded lattice",
-          "Split-P",
+          "Split-P TPMS",
           "energy absorption",
-          "L-PBF",
-          "stress shielding"
+          "laser powder bed fusion",
+          "biomedical implant"
         ],
         "summary_zh": {
-          "motivation": "研究不同梯度方向Ti6Al4V Split-P点阵的力学性能。",
-          "method": "通过L-PBF制备三种梯度方向点阵并测试压缩性能。",
-          "result": "1-D梯度点阵模量接近松质骨，3-D梯度点阵能量吸收更高。",
-          "validation": "压缩实验验证，建立幂律模型预测性能。"
+          "motivation": "研究梯度方向对Ti6Al4V Split-P点阵力学性能与能量吸收的影响，以优化医用植入体设计。",
+          "method": "通过L-PBF制备不同梯度方向（1D/2D/3D）的Split-P点阵，进行准静态压缩试验与均匀化分析。",
+          "result": "1D梯度点阵弹性模量4.97 GPa接近松质骨，3D梯度点阵能量吸收达75.85 MJ/m³。",
+          "validation": "通过压缩实验测试力学性能，并用幂律模型预测不同梯度方向的性能。"
         },
         "summary_en": {
-          "motivation": "To investigate the mechanical properties and energy absorption of graded Ti6Al4V Split-P lattices for potential biomedical implant applications.",
-          "method": "Three types of graded lattices (1-D, 2-D, 3-D) were fabricated via laser powder bed fusion and tested under quasi-static compression.",
-          "result": "The 1-D graded lattice exhibited elastic modulus closest to cancellous bone, while the 3-D graded lattice showed superior energy absorption capacity.",
-          "validation": "Experimental compression tests were conducted and power-law models were derived to predict mechanical properties."
+          "motivation": "To investigate the effect of grading direction on the mechanical and energy absorption properties of Ti6Al4V Split-P lattices for biomedical implant applications.",
+          "method": "Graded Split-P lattices with one-, two-, and three-directional grading were designed and fabricated by laser powder bed fusion, then tested under quasi-static compression with homogenization analysis.",
+          "result": "The 1-D graded lattice achieved an elastic modulus of 4.97 GPa, close to cancellous bone, while the 3-D graded lattice showed the highest energy absorption of 75.85 MJ/m³.",
+          "validation": "Mechanical properties were validated through compression testing and power-law models were developed to predict behavior of graded lattices."
         },
         "key_terms": [
           {
@@ -257,8 +261,8 @@
             "zh": "梯度点阵"
           },
           {
-            "en": "Split-P lattice",
-            "zh": "Split-P点阵"
+            "en": "Split-P",
+            "zh": "Split-P型"
           },
           {
             "en": "energy absorption",
@@ -269,14 +273,145 @@
             "zh": "应力屏蔽"
           },
           {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V合金"
+            "en": "Ti6Al4V ELI",
+            "zh": "Ti6Al4V ELI合金"
+          },
+          {
+            "en": "triply periodic minimal surface",
+            "zh": "三周期极小曲面"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414387059",
+      "doi": "10.1016/j.wear.2025.206356",
+      "title": "Abrasive and oxidative wear mechanisms on additively manufactured Ti-6Al-4V alloy against Al2O3: effect of microstructures and hardness",
+      "abstract": "",
+      "authors": [
+        "Guilherme Arthur Longhitano",
+        "I. Garcı́a",
+        "Elif Nihal Eren",
+        "M.A. Arenas",
+        "J. de Damborenea",
+        "Rubens Maciel Filho",
+        "A. Conde"
+      ],
+      "first_author_affiliation": "3D Printing Open Lab, Center for Information Technology Renato Archer, Campinas, 13069-901, Brazil",
+      "corresponding_authors": [
+        {
+          "name": "Guilherme Arthur Longhitano",
+          "affiliation": "3D Printing Open Lab, Center for Information Technology Renato Archer, Campinas, 13069-901, Brazil"
+        }
+      ],
+      "venue": "Wear",
+      "year": 2025,
+      "date": "2025-09-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.wear.2025.206356",
+      "cited_by_count": 3,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Abrasive",
+        "Alloy",
+        "Vickers hardness test",
+        "Lamellar structure",
+        "Metallurgy",
+        "Reciprocating motion",
+        "Martensite",
+        "Lubricity",
+        "Composite material",
+        "Tribology",
+        "Indentation hardness",
+        "Wear coefficient",
+        "Scanning electron microscope",
+        "Delamination (geology)",
+        "Oxide",
+        "Abrasion (mechanical)",
+        "Indentation"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了增材制造Ti-6Al-4V的磨损机制，而非机械或疲劳性能，因此与本方向核心关注点不符。",
+        "why_not_core": "This paper focuses on abrasive and oxidative wear mechanisms against Al2O3, not on tensile, fatigue, or other mechanical performance metrics specified for Layer 1.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "additive manufacturing",
+          "Ti-6Al-4V",
+          "wear",
+          "hardness",
+          "abrasive wear",
+          "oxidative wear"
+        ],
+        "summary_zh": {
+          "motivation": "研究增材制造Ti-6Al-4V合金的磨损机制",
+          "method": "通过不同显微组织的样品进行Al2O3对磨磨损实验",
+          "result": "磨损机制受显微组织和硬度影响",
+          "validation": "实验磨损测试进行验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate the wear mechanisms of additively manufactured Ti-6Al-4V alloy.",
+          "method": "Wear tests against Al2O3 were conducted on samples with different microstructures produced by additive manufacturing.",
+          "result": "The dominant wear mechanisms (abrasive and oxidative) depend on the microstructure and hardness of the Ti-6Al-4V alloy.",
+          "validation": "Experimental wear testing with microscopic analysis validated the proposed wear mechanism transition."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "abrasive wear",
+            "zh": "磨粒磨损"
+          },
+          {
+            "en": "oxidative wear",
+            "zh": "氧化磨损"
+          },
+          {
+            "en": "microstructure",
+            "zh": "显微组织"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
     },
     {
       "source": "openalex",
@@ -331,6 +466,8 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additively manufactured",
+          "microstructure",
           "fatigue"
         ]
       },
@@ -338,8 +475,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究增材制造Ti-6Al-4V的疲劳行为，包括实验和建模，符合L1层面的力学与疲劳性能评估需求。",
-        "why_not_core": "No post-processing or implant-specific analysis; it focuses solely on process-state fatigue under dwell/overload loading conditions.",
+        "relevance_to_user": "该论文直接研究增材制造Ti-6Al-4V的疲劳行为，包括实验和建模，完全符合L1层要求。",
+        "why_not_core": "Not applicable; the paper is directly within the scope of L1 Ti-6Al-4V base mechanical and fatigue.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -348,25 +485,24 @@
           "is_review": false
         },
         "tags": [
-          "additive manufacturing",
-          "Ti-6Al-4V",
           "fatigue",
           "dwell",
           "overload",
-          "microstructure-sensitive model",
-          "experimental validation"
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "microstructure-sensitive modeling"
         ],
         "summary_zh": {
-          "motivation": "研究增材制造Ti-6Al-4V在周期停留和过载下的疲劳行为。",
-          "method": "采用实验疲劳测试与微观结构敏感模型相结合的方法。",
-          "result": "揭示了停留和过载对疲劳寿命的影响规律。",
-          "validation": "通过实验疲劳数据验证了模型预测。"
+          "motivation": "研究周期性保载和过载对增材制造Ti-6Al-4V疲劳行为的影响",
+          "method": "结合疲劳实验和微观组织敏感模型进行分析",
+          "result": "揭示了保载和过载条件对疲劳寿命的具体影响机制",
+          "validation": "通过实验疲劳数据验证模型预测"
         },
         "summary_en": {
-          "motivation": "To understand the fatigue behavior of additively manufactured Ti-6Al-4V under periodic dwell and overload conditions.",
-          "method": "Combined experimental fatigue tests with a microstructure-sensitive modeling approach.",
-          "result": "Characterized the influence of dwell and overload on fatigue life and crack initiation.",
-          "validation": "Validated the model against experimental fatigue data."
+          "motivation": "To investigate the effects of periodic dwell and overload on the fatigue behavior of additively manufactured Ti-6Al-4V.",
+          "method": "A combined approach of experimental fatigue testing and microstructure-sensitive modeling was employed.",
+          "result": "The study identified key influences of dwell and overload on fatigue life and crack initiation mechanisms.",
+          "validation": "Model predictions were validated against experimental fatigue data from tested specimens."
         },
         "key_terms": [
           {
@@ -375,7 +511,7 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "钛合金Ti-6Al-4V"
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "fatigue",
@@ -383,46 +519,196 @@
           },
           {
             "en": "dwell",
-            "zh": "停留"
+            "zh": "保载"
           },
           {
             "en": "overload",
             "zh": "过载"
           },
           {
-            "en": "microstructure-sensitive model",
-            "zh": "微观结构敏感模型"
+            "en": "microstructure-sensitive modeling",
+            "zh": "微观组织敏感建模"
           },
           {
-            "en": "experimental validation",
-            "zh": "实验验证"
+            "en": "crack initiation",
+            "zh": "裂纹萌生"
+          },
+          {
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414398824",
+      "doi": "10.1016/j.matdes.2025.114805",
+      "title": "A comprehensive framework to study the influence of beam shaping in laser metal fusion processes",
+      "abstract": "Beam shaping is considered a technology capable of dramatically improving quality and robustness of Laser Metal Fusion (LMF) processes. However, systematic investigations of its effects on melt-pool dynamics, temperature field and microstructure are still required. In this work, we propose an integrated approach combining a Computational Fluid Dynamics (CFD) model, in-situ temperature measurements and metallographic analysis to explore programmable ring beam profiles, ranging from Gaussian-dominant to ring-dominant configurations. This method, initially proposed on Ti-6Al-4V bead-on-plate tracks, validates melt-pool temperatures measured in-process by a dual-wavelength pyrometer against CFD predictions, which are in turn validated with metallographic cross-sections. Ring modes lowered peak temperature by up to 35 %, transforming deep-narrow pools (aspect ratio ≈0.9) into shallow-wide ones (≈0.4). This suppressed humping at line energies ≥ 0.28 J mm−1, whereas lower energies produced only superficial melting. Simulations matched pyrometer data within 5 % whenever pool width equalled the pyrometers’ sensing spot; all tracks solidified into ultrafine α with retained β, independent of beam mode. Therefore, the combination of in-situ, ex-situ and CFD tools offers a practical workflow for assisting data-driven process optimization and can be easily extended to other LMF processes, with its potential implementation in industrial Laser Powder Bed Fusion.",
+      "authors": [
+        "Marida Pontrandolfi",
+        "Linda Squillaci",
+        "Jonas Olsson",
+        "Pradip Aryal",
+        "Robert Pederson",
+        "Isabelle Choquet",
+        "Antonio Ancona"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Marida Pontrandolfi",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Materials & Design",
+      "year": 2025,
+      "date": "2025-09-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.matdes.2025.114805",
+      "cited_by_count": 1,
+      "concepts": [
+        "Pyrometer",
+        "Materials science",
+        "Inertial confinement fusion",
+        "Fusion",
+        "Robustness (evolution)",
+        "Laser",
+        "Microstructure",
+        "Beam (structure)",
+        "Laser beam quality",
+        "Computational fluid dynamics",
+        "Temperature measurement",
+        "Workflow",
+        "Optics",
+        "Laser beams",
+        "Selective laser melting",
+        "Ranging",
+        "Mechanical engineering",
+        "Nuclear engineering",
+        "Plasma"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Peripheral",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文聚焦于Ti-6Al-4V的光束整形工艺，未涉及力学或疲劳性能，对力学性能研究者的直接参考价值有限。",
+        "why_not_core": "No mechanical or fatigue characterization; focuses solely on melt-pool dynamics, temperature, and microstructure under beam shaping.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "beam shaping",
+          "laser metal fusion",
+          "Ti-6Al-4V",
+          "melt-pool dynamics",
+          "computational fluid dynamics",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "光束整形技术有望改善激光金属熔融质量，但对其熔池动力学的系统研究尚缺。",
+          "method": "结合CFD模拟、原位温度测量和金相分析，研究环形光束轮廓对Ti-6Al-4V熔池的影响。",
+          "result": "环形模式降低峰值温度35%，将深窄熔池变为浅宽熔池，抑制了驼峰缺陷。",
+          "validation": "CFD预测与高温计测量和金相截面验证，温度误差在5%以内。"
+        },
+        "summary_en": {
+          "motivation": "Beam shaping promises to improve quality and robustness in Laser Metal Fusion, but systematic investigations of its effects on melt-pool dynamics are lacking.",
+          "method": "An integrated approach combining Computational Fluid Dynamics, in-situ pyrometry, and metallographic analysis was used to study programmable ring beam profiles on Ti-6Al-4V bead-on-plate tracks.",
+          "result": "Ring modes lowered peak temperature by up to 35%, transforming deep-narrow pools into shallow-wide ones and suppressing humping at high line energies.",
+          "validation": "CFD predictions were validated against in-situ pyrometer measurements within 5% error and metallographic cross-sections."
+        },
+        "key_terms": [
+          {
+            "en": "beam shaping",
+            "zh": "光束整形"
+          },
+          {
+            "en": "laser metal fusion",
+            "zh": "激光金属熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "melt-pool dynamics",
+            "zh": "熔池动力学"
+          },
+          {
+            "en": "computational fluid dynamics",
+            "zh": "计算流体动力学"
+          },
+          {
+            "en": "pyrometry",
+            "zh": "高温测量"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "ring beam profile",
+            "zh": "环形光束轮廓"
+          },
+          {
+            "en": "humping defect",
+            "zh": "驼峰缺陷"
+          },
+          {
+            "en": "aspect ratio",
+            "zh": "纵横比"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 5,
     "by_source": {
-      "openalex": 3
+      "openalex": 5
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 5,
+    "after_routing": 5,
     "by_direction": {
       "ti6al4v_postprocess": 1,
       "ti6al4v_femoral_stem": 1,
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 3
     },
     "routed_by_source": {
-      "openalex": 3
+      "openalex": 5
     },
-    "scored": 3,
+    "scored": 5,
     "priority_counts": {
       "Exclude": 1,
-      "Medium": 1,
+      "Medium": 2,
+      "Low": 1,
       "High": 1
     }
   }

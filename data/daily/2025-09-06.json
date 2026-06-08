@@ -74,8 +74,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究Ti-6Al-4V常规铣削中的切削液影响，未涉及增材制造件的后处理，与AM后处理方向无关。",
-        "why_not_core": "The paper focuses on conventional milling of Ti-6Al-4V with cutting fluids, not on post-processing of additively manufactured Ti-6Al-4V; it lacks any mention of AM or AM-specific post-processing treatments.",
+        "relevance_to_user": "该论文研究传统铣削中冷却液对Ti-6Al-4V加工性能的影响，不涉及增材制造或后处理，与本方向无关。",
+        "why_not_core": "paper does not involve additive manufacturing or post-processing of AM Ti-6Al-4V; it focuses on cutting fluid performance in conventional milling of Ti-6Al-4V.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -83,33 +83,23 @@
           "is_patient_specific": false,
           "is_review": false
         },
-        "tags": [
-          "Ti-6Al-4V",
-          "machining",
-          "cutting fluids",
-          "tool wear",
-          "temperature"
-        ],
+        "tags": [],
         "summary_zh": {
-          "motivation": "比较不同切削液对Ti-6Al-4V铣削性能的影响，以优化工艺。",
-          "method": "使用嵌入式热电偶测量切削区温度，结合CFD仿真分析传热。",
+          "motivation": "研究不同切削液对钛合金铣削温度和性能的影响。",
+          "method": "通过嵌入式热电偶实时测量切削区温度，结合CFD仿真分析。",
           "result": "乳化液在冷却和润滑间取得最佳平衡，刀具寿命延长约200%。",
-          "validation": "通过实验测量温度、磨损和粗糙度，并用仿真验证热传递。"
+          "validation": "实验测量与仿真结果对比验证。"
         },
         "summary_en": {
-          "motivation": "To compare the influence of different cutting fluids on machining performance of Ti-6Al-4V, aiming to optimize tool life and energy efficiency.",
-          "method": "Embedded thermocouples measured real-time temperature near the cutting edge, complemented by CFD simulations of heat transfer and convective cooling.",
-          "result": "Emulsion achieved the best cooling-lubrication balance, extending tool life by approximately 200% compared to cutting oil and oil-free fluid.",
-          "validation": "Experimental measurements of temperature, tool wear, torque, and surface roughness were validated against thermal and CFD simulations."
+          "motivation": "To compare the effects of different cutting fluids on machining temperatures and performance in side milling of Ti-6Al-4V.",
+          "method": "Real-time temperature measurement near the cutting edge using embedded thermocouples, complemented by thermal and CFD simulations.",
+          "result": "Emulsion achieved the best balance of cooling and lubrication, increasing tool life by approximately 200% compared to cutting oil and oil-free fluid.",
+          "validation": "Experimental measurements were validated against CFD simulations and heat transfer coefficient calculations."
         },
         "key_terms": [
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
-          },
-          {
-            "en": "side milling",
-            "zh": "侧铣"
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "cutting fluids",
@@ -128,26 +118,30 @@
             "zh": "合成无油切削液"
           },
           {
+            "en": "machining temperature",
+            "zh": "加工温度"
+          },
+          {
             "en": "tool wear",
             "zh": "刀具磨损"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           },
           {
             "en": "heat transfer coefficient",
             "zh": "传热系数"
           },
           {
-            "en": "CFD simulation",
-            "zh": "CFD仿真"
-          },
-          {
-            "en": "energy consumption",
-            "zh": "能耗"
+            "en": "flood cooling",
+            "zh": "淹没式冷却"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
     },
     {
       "source": "openalex",
@@ -225,11 +219,11 @@
         ]
       },
       "llm": {
-        "priority": "High",
-        "relevance_level": "Direct",
-        "read_action": "Read now",
-        "relevance_to_user": "本文研究了偏转磨料水射流喷丸（DAWJP）作为Ti-6Al-4V钛合金后处理工艺对表面完整性和微动疲劳性能的影响，与用户关注的后处理控制方向高度一致。",
-        "why_not_core": "The paper focuses exclusively on water jet peening and does not investigate other common post-processing routes such as heat treatment, HIP, or shot peening for Ti-6Al-4V.",
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了喷丸后处理对Ti-6Al-4V钛合金表面完整性和微动疲劳性能的影响，虽未涉及增材制造，但后处理方法和结果对增材制造Ti-6Al-4V的后处理控制具有参考价值。",
+        "why_not_core": "The paper does not specify that the Ti-6Al-4V material is additively manufactured (AM), so its direct applicability to AM Ti-6Al-4V post-processing control is limited; it focuses on conventionally manufactured dovetails.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -238,23 +232,23 @@
           "is_review": false
         },
         "tags": [
-          "water jet peening",
-          "surface integrity",
-          "fretting fatigue",
+          "abrasive waterjet peening",
           "Ti-6Al-4V",
-          "dovetail"
+          "fretting fatigue",
+          "surface integrity",
+          "post-processing"
         ],
         "summary_zh": {
-          "motivation": "探索偏转磨料水射流喷丸对Ti-6Al-4V榫槽表面强化效果。",
-          "method": "在不同压力下对Ti-6Al-4V榫槽进行DAWJP处理，测试表面粗糙度、残余应力、显微硬度和微动疲劳寿命。",
-          "result": "DAWJP处理显著提高微动疲劳寿命，室温下提高5.91倍，400°C下提高2.15倍。",
-          "validation": "通过不同压力条件下的表面完整性测量和微动疲劳试验验证。"
+          "motivation": "探索偏转磨料水射流喷丸工艺对Ti-6Al-4V榫槽表面完整性及微动疲劳寿命的提升效果。",
+          "method": "在不同压力下对Ti-6Al-4V榫槽进行偏转磨料水射流喷丸处理，测试表面粗糙度、残余应力、显微硬度及微动疲劳寿命。",
+          "result": "150 MPa压力下塑性层深度28 μm，最大残余应力-729.62 MPa，室温下疲劳寿命提升至原始试样的5.91倍。",
+          "validation": "通过实验对比处理前后表面完整性及标准微动疲劳测试验证。"
         },
         "summary_en": {
-          "motivation": "To investigate the effect of deflected abrasive waterjet peening (DAWJP) as a post-processing technique on the surface integrity and fretting fatigue life of Ti-6Al-4V dovetail components.",
-          "method": "DAWJP was applied to Ti-6Al-4V dovetail slots at three pressures (50, 100, 150 MPa), and surface roughness, residual stress depth profiles, microhardness, and fretting fatigue life were characterized.",
-          "result": "DAWJP treatment improved fretting fatigue life by up to 5.91 times at room temperature and 2.15 times at 400°C under a 6 kN load, with increased compressive residual stresses and microhardness.",
-          "validation": "Experimental mechanical testing (fretting fatigue tests) and surface integrity measurements (roughness, hardness, residual stress) were used to validate the improvements."
+          "motivation": "To investigate the potential of deflected abrasive waterjet peening (DAWJP) in improving surface integrity and fretting fatigue life of Ti-6Al-4V dovetail slots.",
+          "method": "DAWJP was applied at three pressures (50, 100, 150 MPa) to Ti-6Al-4V dovetails, and surface roughness, residual stress, microhardness, and fretting fatigue life were characterized.",
+          "result": "DAWJP treatment increased plastic layer depth up to 28 μm, maximum compressive residual stress up to -729.62 MPa, and fretting fatigue life at room temperature by 5.91 times compared to untreated specimens.",
+          "validation": "Experimental measurements of surface integrity and standard fretting fatigue tests were conducted to validate the effect of DAWJP."
         },
         "key_terms": [
           {
@@ -262,12 +256,16 @@
             "zh": "偏转磨料水射流喷丸"
           },
           {
-            "en": "surface integrity",
-            "zh": "表面完整性"
+            "en": "Ti-6Al-4V titanium alloy",
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "fretting fatigue",
             "zh": "微动疲劳"
+          },
+          {
+            "en": "surface integrity",
+            "zh": "表面完整性"
           },
           {
             "en": "residual stress",
@@ -278,18 +276,14 @@
             "zh": "显微硬度"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
-          },
-          {
-            "en": "dovetail",
+            "en": "dovetail slot",
             "zh": "榫槽"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
     }
   ],
   "counts": {
@@ -308,7 +302,7 @@
     "scored": 2,
     "priority_counts": {
       "Exclude": 1,
-      "High": 1
+      "Medium": 1
     }
   }
 }

@@ -69,11 +69,11 @@
         ]
       },
       "llm": {
-        "priority": "High",
-        "relevance_level": "Direct",
-        "read_action": "Read now",
-        "relevance_to_user": "该论文直接针对Ti-6Al-4V的后处理工艺（高速超声振动强化铣削）对表面完整性及强化机理进行研究，完全符合用户所需的后处理控制方向。",
-        "why_not_core": "paper does not explicitly report fatigue life or porosity closure; focus is on surface integrity and strengthening mechanism rather than direct fatigue or tensile performance.",
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文提出了一种适用于钛合金的后处理加工方法，虽未直接针对增材制造材料，但其表面强化机理可推广至AM Ti-6Al-4V的后处理工艺。",
+        "why_not_core": "The paper does not specifically address additively manufactured Ti-6Al-4V; it focuses on a machining treatment for conventional Ti-6Al-4V.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -82,34 +82,32 @@
           "is_review": false
         },
         "tags": [
+          "ultrasonic vibration-strengthening milling",
           "Ti-6Al-4V",
-          "ultrasonic vibration milling",
           "surface integrity",
           "strengthening mechanism",
-          "post-processing",
-          "surface roughness",
-          "residual stress"
+          "post-processing"
         ],
         "summary_zh": {
-          "motivation": "探索高速超声振动强化铣削对Ti-6Al-4V表面完整性和强化机制的影响。",
-          "method": "采用高速超声振动强化铣削工艺处理Ti-6Al-4V试样。",
-          "result": "工艺显著改善表面粗糙度、残余压应力分布及显微硬度，提升表面完整性。",
-          "validation": "通过表面粗糙度测量、残余应力测试及硬度实验验证效果。"
+          "motivation": "提升钛合金表面完整性和力学性能",
+          "method": "采用高速超声振动强化铣削进行后处理加工",
+          "result": "揭示了表面强化机理并改善了表面完整性",
+          "validation": "通过力学测试和表面表征验证"
         },
         "summary_en": {
-          "motivation": "To investigate the effect of high-speed ultrasonic vibration-strengthening milling on surface integrity and strengthening mechanism of Ti-6Al-4V.",
-          "method": "High-speed ultrasonic vibration-strengthening milling was applied to Ti-6Al-4V specimens as a post-processing treatment.",
-          "result": "The treatment significantly improved surface roughness, compressive residual stress distribution, and microhardness, enhancing surface integrity.",
-          "validation": "Validation was conducted through surface roughness measurements, residual stress tests, and hardness experiments."
+          "motivation": "To improve surface integrity and mechanical properties of Ti-6Al-4V through a novel post-processing technique.",
+          "method": "High-speed ultrasonic vibration-strengthening milling was applied as a surface treatment.",
+          "result": "Enhanced surface integrity and a strengthening mechanism were identified.",
+          "validation": "Validation was performed through mechanical testing and surface characterization."
         },
         "key_terms": [
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "en": "high-speed ultrasonic vibration-strengthening milling",
+            "zh": "高速超声振动强化铣削"
           },
           {
-            "en": "ultrasonic vibration milling",
-            "zh": "超声振动铣削"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "surface integrity",
@@ -120,39 +118,174 @@
             "zh": "强化机理"
           },
           {
-            "en": "residual stress",
-            "zh": "残余应力"
-          },
-          {
-            "en": "surface roughness",
-            "zh": "表面粗糙度"
-          },
-          {
-            "en": "microhardness",
-            "zh": "显微硬度"
+            "en": "post-processing",
+            "zh": "后处理"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:17:25Z"
+      "first_seen_at": "2026-06-08T08:27:10Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415628892",
+      "doi": "10.1016/j.addlet.2025.100336",
+      "title": "Isolating the influence of residual stress on tensile behaviour of laser-based powder bed fusion Ti alloys via mechanical stress relief",
+      "abstract": "• Mechanical stress relief (MSR) via slow elastic cyclic loading for PBF-LB material • MSR retains printed metastable microstructure while relieving residual stress • High residual stress embrittles the PBF-LB Ti-6Al-4V • Residual stress has minimal influence on PBF-LB metastable β Ti-7Cr-4Sn • Ti-7Cr-4Sn deformation is affected by {332}<113> twinning and ω iso precipitates This study proposes a mechanical stress relief (MSR) process to reduce the residual stress in PBF-LB materials. It involves progressive, slow cyclic loading in the material’s elastic region. Two Ti alloys, Ti-6Al-4V and Ti-7Cr-4Sn, were chosen as model alloys and underwent MSR accordingly. Results suggest that the proposed MSR helps reduce residual stress, and its effectiveness in relieving residual stress is similar across the two alloys. However, the influence of MSR on the tensile performance is different in the two alloys, which is affected by the initial residual stress level and the material’s deformation mechanism. Ti-6Al-4V possesses high residual stress, with deformation slip being the only deformation mechanism. In contrast, Ti-7Cr-4Sn possesses relatively low residual stress, and a unique deformation mechanism involves {332}<113> twinning and ω iso precipitates. Such a unique deformation mechanism leads to crack initiation driven by twin-confined dislocation pile-up.",
+      "authors": [
+        "Zhiyi Zou",
+        "Brandon McWilliams",
+        "Brady G. Butler",
+        "Alexander W. Butler",
+        "Richard Hague",
+        "Marco Simonelli"
+      ],
+      "first_author_affiliation": "Centre for Additive Manufacturing, University of Nottingham, Nottingham NG8 1BB, UK",
+      "corresponding_authors": [
+        {
+          "name": "Zhiyi Zou",
+          "affiliation": "Centre for Additive Manufacturing, University of Nottingham, Nottingham NG8 1BB, UK"
+        },
+        {
+          "name": "Marco Simonelli",
+          "affiliation": "Centre for Additive Manufacturing, University of Nottingham, Nottingham NG8 1BB, UK"
+        }
+      ],
+      "venue": "Additive Manufacturing Letters",
+      "year": 2025,
+      "date": "2025-10-28",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.addlet.2025.100336",
+      "cited_by_count": 1,
+      "concepts": [
+        "Residual stress",
+        "Materials science",
+        "Crystal twinning",
+        "Deformation (meteorology)",
+        "Ultimate tensile strength",
+        "Composite material",
+        "Slip (aerodynamics)",
+        "Deformation mechanism",
+        "Microstructure",
+        "Stress (linguistics)",
+        "Residual",
+        "Metallurgy",
+        "Metastability",
+        "Fusion",
+        "Dislocation"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "powder bed fusion",
+          "microstructure",
+          "residual stress"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "stress relief"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文针对Ti-6Al-4V的机械应力消除后处理，直接研究了残余应力对拉伸性能的影响，与用户关注的AM钛合金后处理调控高度相关。",
+        "why_not_core": "The paper does not address conventional thermal post-processing (e.g., annealing, HIP) or surface treatments, focusing solely on a novel mechanical stress relief method.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "mechanical stress relief",
+          "Ti-6Al-4V",
+          "residual stress",
+          "tensile behaviour",
+          "laser powder bed fusion",
+          "post-processing"
+        ],
+        "summary_zh": {
+          "motivation": "提出机械应力消除法以减少激光粉末床熔融Ti-6Al-4V的残余应力。",
+          "method": "通过渐进缓慢弹性循环加载实现应力消除。",
+          "result": "机械应力消除有效降低残余应力，不影响亚稳态微观结构，但高残余应力导致脆化。",
+          "validation": "通过拉伸测试比较消除前后力学性能。"
+        },
+        "summary_en": {
+          "motivation": "To isolate the influence of residual stress on the tensile behavior of laser-based powder bed fusion Ti-6Al-4V by applying a mechanical stress relief process.",
+          "method": "Mechanical stress relief via progressive slow elastic cyclic loading on as-built specimens.",
+          "result": "The MSR effectively reduces residual stress without altering the metastable microstructure, and high residual stress embrittles Ti-6Al-4V.",
+          "validation": "Tensile tests comparing as-built and MSR-treated specimens confirm the mechanical property changes."
+        },
+        "key_terms": [
+          {
+            "en": "mechanical stress relief",
+            "zh": "机械应力消除"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "tensile behaviour",
+            "zh": "拉伸行为"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "cyclic loading",
+            "zh": "循环加载"
+          },
+          {
+            "en": "elastic region",
+            "zh": "弹性区"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:27:10Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
+      "Medium": 1,
       "High": 1
     }
   }

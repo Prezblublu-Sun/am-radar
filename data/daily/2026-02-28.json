@@ -50,80 +50,347 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additively manufactured",
           "build orientation"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究增材制造Ti-6Al-4V的电化学行为，而非力学性能或疲劳性能，与用户方向无关。",
-        "why_not_core": "The paper investigates electrochemical corrosion behavior, not mechanical or fatigue properties of Ti-6Al-4V.",
-        "validation_kind": "none",
+        "read_action": "Background only",
+        "relevance_to_user": "此论文研究了增材制造Ti-6Al-4V合金的腐蚀行为，与机械性能方向无关。",
+        "why_not_core": "This paper focuses on electrochemical corrosion behavior, not mechanical or fatigue performance, and does not provide tensile, fatigue, or other mechanical characterization data.",
+        "validation_kind": "in_vitro",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "electrochemical behavior",
-          "corrosion",
           "Ti-6Al-4V",
-          "build orientation"
+          "additive manufacturing",
+          "build orientation",
+          "electrochemical behavior",
+          "corrosion"
         ],
         "summary_zh": {
-          "motivation": "研究不同建造方向对增材制造Ti-6Al-4V电化学行为的影响。",
-          "method": "通过电化学测试分析不同建造方向试样的耐腐蚀性能。",
-          "result": "建造方向影响电化学行为，但未涉及力学或疲劳性能。",
-          "validation": "电化学实验验证，无力学测试。"
+          "motivation": "探究增材制造Ti-6Al-4V合金的腐蚀行为受构建方向的影响。",
+          "method": "通过电化学测试分析不同构建方向试样的耐蚀性。",
+          "result": "构建方向显著影响腐蚀速率和钝化行为。",
+          "validation": "实验电化学测试验证了方向效应。"
         },
         "summary_en": {
-          "motivation": "To study the effect of build orientation on the electrochemical behavior of additively manufactured Ti-6Al-4V.",
+          "motivation": "To investigate the effect of build orientation on the corrosion behavior of additively manufactured Ti-6Al-4V alloy.",
           "method": "Electrochemical tests were conducted on specimens with different build orientations to evaluate corrosion resistance.",
-          "result": "Build orientation influences electrochemical behavior, but no mechanical or fatigue data are reported.",
-          "validation": "Validation through electrochemical experiments only, without mechanical testing."
+          "result": "Build orientation significantly influences the corrosion rate and passivation behavior of the alloy.",
+          "validation": "Experimental electrochemical measurements validated the orientation-dependent corrosion performance."
         },
         "key_terms": [
           {
-            "en": "build orientation",
-            "zh": "建造方向"
-          },
-          {
-            "en": "electrochemical behavior",
-            "zh": "电化学行为"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           },
           {
             "en": "Ti-6Al-4V",
             "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
+            "en": "build orientation",
+            "zh": "构建方向"
+          },
+          {
+            "en": "electrochemical behavior",
+            "zh": "电化学行为"
+          },
+          {
+            "en": "corrosion",
+            "zh": "腐蚀"
+          },
+          {
+            "en": "potentiodynamic polarization",
+            "zh": "动电位极化"
+          },
+          {
+            "en": "EIS",
+            "zh": "电化学阻抗谱"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7133135137",
+      "doi": "10.3390/met16030275",
+      "title": "Experimental and Crystal Plasticity Modeling Investigation of Micromechanical Fatigue Behavior of Ti-6Al-4V",
+      "abstract": "This study presents a predictive method for the fatigue behavior of Ti-6Al-4V based on a crystal plasticity finite element (CPFE) model. A thermally activated constitutive model is calibrated using experimental cyclic stress–strain data. The calibrated model simulates the macroscopic cyclic response and grain-scale deformation heterogeneity. By analyzing the simulated micromechanical fields, a scalar fatigue indicator parameter (FIP) is defined based on the accumulated inelastic work. The predictive capability of this FIP is validated against experimental data at multiple stress levels, demonstrating its effectiveness for microstructure-sensitive fatigue assessment.",
+      "authors": [
+        "Huanhuan Chen",
+        "Wei Li",
+        "Zhengming Qian",
+        "Dong Mi",
+        "Haihui Wu",
+        "Yiting Tang",
+        "Can Wu",
+        "Ziyue Zhang",
+        "Tiezheng Tang",
+        "Siqi Zhang",
+        "Dongfeng Li"
+      ],
+      "first_author_affiliation": "AECC Hunan Aviation Powerplant Research Institute, Zhuzhou 412002, China",
+      "corresponding_authors": [
+        {
+          "name": "Huanhuan Chen",
+          "affiliation": "AECC Hunan Aviation Powerplant Research Institute, Zhuzhou 412002, China"
+        }
+      ],
+      "venue": "Metals",
+      "year": 2026,
+      "date": "2026-02-28",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/met16030275",
+      "cited_by_count": 1,
+      "concepts": [
+        "Crystal plasticity",
+        "Materials science",
+        "Plasticity",
+        "Finite element method",
+        "Experimental data",
+        "Structural engineering",
+        "Deformation (meteorology)",
+        "Constitutive equation",
+        "Stress (linguistics)",
+        "Multiscale modeling",
+        "Composite material",
+        "Scalar (mathematics)",
+        "Fatigue testing",
+        "Mechanics",
+        "Micromechanics"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究Ti-6Al-4V的疲劳行为，但未涉及增材制造工艺，与用户关注的增材制造Ti-6Al-4V机械性能方向不符。",
+        "why_not_core": "The paper does not address additively manufactured Ti-6Al-4V; no additive manufacturing context is mentioned.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "crystal plasticity",
+          "fatigue",
+          "FIP",
+          "CPFE"
+        ],
+        "summary_zh": {
+          "motivation": "发展微结构敏感的Ti-6Al-4V疲劳预测方法",
+          "method": "基于晶体塑性有限元模型，定义累积非弹性功的疲劳指示参数",
+          "result": "该参数在多个应力水平下有效预测疲劳行为",
+          "validation": "与实验循环应力-应变及疲劳数据对比验证"
+        },
+        "summary_en": {
+          "motivation": "This study aims to develop a microstructure-sensitive fatigue prediction method for Ti-6Al-4V.",
+          "method": "A crystal plasticity finite element model is calibrated with cyclic stress-strain data, and a fatigue indicator parameter based on accumulated inelastic work is defined.",
+          "result": "The parameter demonstrates predictive capability for fatigue life at multiple stress levels.",
+          "validation": "The model is validated against experimental cyclic and fatigue data."
+        },
+        "key_terms": [
+          {
+            "en": "crystal plasticity finite element (CPFE)",
+            "zh": "晶体塑性有限元"
+          },
+          {
+            "en": "fatigue indicator parameter (FIP)",
+            "zh": "疲劳指示参数"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "accumulated inelastic work",
+            "zh": "累积非弹性功"
+          },
+          {
+            "en": "micromechanical fields",
+            "zh": "微观力学场"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7132821335",
+      "doi": "10.1016/j.tsf.2026.140902",
+      "title": "The thickness dependence of microstructure, mechanical and wear properties of TiO2 coatings formed on Ti-6Al-4V substrate through pulsed anodization",
+      "abstract": "",
+      "authors": [
+        "Yating Liu",
+        "Tao Wang",
+        "Hui Liu",
+        "Qun Huang",
+        "Chao Xu",
+        "Weihao Wang",
+        "Lu Yan",
+        "Binbin Liu"
+      ],
+      "first_author_affiliation": "Beijing Shouhang Science and Technology Development CO., LTD, 100076 Beijing, China",
+      "corresponding_authors": [
+        {
+          "name": "Lu Yan",
+          "affiliation": "Beijing Institute of Astronautical Systems Engineering, 100076 Beijing, China"
+        },
+        {
+          "name": "Binbin Liu",
+          "affiliation": "State Key Laboratory for Advanced Metals and Materials, University of Science and Technology Beijing, 100083 Beijing, China"
+        }
+      ],
+      "venue": "Thin Solid Films",
+      "year": 2026,
+      "date": "2026-02-28",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.tsf.2026.140902",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Coating",
+        "Composite material",
+        "Rutile",
+        "Delamination (geology)",
+        "Substrate (aquarium)",
+        "Anodizing",
+        "Porosity",
+        "Adhesive",
+        "Anatase",
+        "Titanium",
+        "Volume (thermodynamics)",
+        "Layer (electronics)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是通过脉冲阳极氧化在Ti-6Al-4V基底上形成TiO2涂层的性能，而非增材制造Ti-6Al-4V本身的力学或疲劳性能。",
+        "why_not_core": "The paper does not concern additively manufactured Ti-6Al-4V; it is about TiO2 coatings formed by anodization, which is a surface treatment, not a mechanical/fatigue characterization of base AM Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "TiO2 coating",
+          "pulsed anodization",
+          "mechanical properties",
+          "wear properties"
+        ],
+        "summary_zh": {
+          "motivation": "研究TiO2涂层厚度对微观结构和性能的影响",
+          "method": "通过脉冲阳极氧化在Ti-6Al-4V上制备不同厚度TiO2涂层并表征",
+          "result": "涂层厚度显著影响显微硬度、耐磨性和结合强度",
+          "validation": "通过显微硬度、磨损试验和划痕试验验证性能"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of coating thickness on the microstructure, mechanical, and wear properties of TiO2 coatings on Ti-6Al-4V.",
+          "method": "TiO2 coatings of varying thickness were fabricated on Ti-6Al-4V substrates by pulsed anodization and characterized.",
+          "result": "Coating thickness significantly influenced microhardness, wear resistance, and adhesion strength.",
+          "validation": "Mechanical and wear properties were validated via microhardness testing, wear tests, and scratch testing."
+        },
+        "key_terms": [
+          {
+            "en": "TiO2 coating",
+            "zh": "TiO2涂层"
+          },
+          {
+            "en": "pulsed anodization",
+            "zh": "脉冲阳极氧化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "wear properties",
+            "zh": "磨损性能"
+          },
+          {
+            "en": "adhesion strength",
+            "zh": "结合强度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 3
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
-      "Exclude": 1
+      "Low": 1,
+      "Exclude": 2
     }
   }
 }

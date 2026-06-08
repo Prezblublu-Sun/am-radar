@@ -53,6 +53,9 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "selective laser melting",
+          "SLM",
           "tensile strength",
           "defect"
         ]
@@ -61,8 +64,8 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文主要关注增材制造在线缺陷检测系统，而非Ti-6Al-4V的力学或疲劳性能表征。",
-        "why_not_core": "The paper focuses on an in-situ defect detection system for SLM, not on mechanical/fatigue characterization or modeling of Ti-6Al-4V beyond a brief tensile result.",
+        "relevance_to_user": "该论文主要关注增材制造缺陷在线检测系统，而非Ti-6Al-4V的力学或疲劳性能表征。",
+        "why_not_core": "The paper focuses on defect detection system development, not on mechanical or fatigue characterization of Ti-6Al-4V; tensile strength improvement is a secondary outcome, not the primary investigation.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -71,88 +74,198 @@
           "is_review": false
         },
         "tags": [
+          "additive manufacturing",
+          "online defect detection",
           "multi-sensor fusion",
-          "defect detection",
-          "selective laser melting",
           "Ti-6Al-4V",
-          "tensile strength"
+          "selective laser melting"
         ],
         "summary_zh": {
-          "motivation": "现有单传感器系统无法全面检测增材制造缺陷，多传感器融合存在信息丢失和实时性差的问题。",
-          "method": "提出集成可见光、红外和超声波传感器，采用改进的NSCT-PCNN融合算法和YOLOv3进行缺陷检测。",
-          "result": "系统实现95.8% mAP，缺陷率从18.5%降至5.2%，抗拉强度提升12.3%。",
-          "validation": "在EOS M290设备上使用Ti-6Al-4V材料进行实验验证。"
+          "motivation": "解决增材制造中单传感器无法全面检测缺陷的问题。",
+          "method": "提出集成可见光、红外和超声传感器的跨模态注意力融合算法及改进YOLOv3。",
+          "result": "系统缺陷检测mAP达95.8%，闭环控制使构件缺陷率从18.5%降至5.2%。",
+          "validation": "在EOS M290上用Ti-6Al-4V进行了实验验证。"
         },
         "summary_en": {
-          "motivation": "Single-sensor systems cannot comprehensively detect surface, subsurface, and internal defects in additive manufacturing, and existing multi-sensor fusion suffers from information loss and poor real-time performance.",
-          "method": "An online defect detection system integrating visible light, infrared, and ultrasonic sensors is developed, using a cross-modal attention-enhanced NSCT-PCNN fusion algorithm and an improved YOLOv3 with an additional small-scale branch and CIoU loss.",
-          "result": "The system achieves 95.8% mAP, 92.3% small defect detection rate, and 21.5 fps speed; closed-loop control reduces component defect rate from 18.5% to 5.2% and increases tensile strength by 12.3%.",
-          "validation": "Experiments were conducted on an EOS M290 SLM machine using Ti-6Al-4V material, with tensile testing to assess mechanical property changes."
+          "motivation": "To address the limitation of single-sensor systems in comprehensive defect detection during additive manufacturing.",
+          "method": "Developed an online system fusing visible, infrared, and ultrasonic sensors with a cross-modal attention-enhanced NSCT-PCNN fusion algorithm and an improved YOLOv3 detector.",
+          "result": "The system achieved 95.8% mAP, 92.3% detection rate for small defects, and reduced component defect rate from 18.5% to 5.2% via closed-loop control.",
+          "validation": "Experimental validation was conducted on an EOS M290 machine using Ti-6Al-4V material."
         },
         "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
+          },
+          {
+            "en": "online defect detection",
+            "zh": "在线缺陷检测"
+          },
           {
             "en": "multi-sensor fusion",
             "zh": "多传感器融合"
           },
           {
-            "en": "selective laser melting",
-            "zh": "选区激光熔化"
-          },
-          {
-            "en": "defect detection",
-            "zh": "缺陷检测"
-          },
-          {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "zh": "Ti-6Al-4V合金"
           },
           {
             "en": "tensile strength",
             "zh": "抗拉强度"
-          },
-          {
-            "en": "closed-loop control",
-            "zh": "闭环控制"
-          },
-          {
-            "en": "YOLOv3",
-            "zh": "YOLOv3"
-          },
-          {
-            "en": "NSCT-PCNN",
-            "zh": "非下采样轮廓波变换-脉冲耦合神经网络"
-          },
-          {
-            "en": "mAP",
-            "zh": "平均精度均值"
-          },
-          {
-            "en": "defect rate",
-            "zh": "缺陷率"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4417356222",
+      "doi": "10.1016/j.jallcom.2025.185574",
+      "title": "Additive manufacturing of Ti-6Al-4V based oxide dispersion strengthened alloy using in-situ oxide-dispersed powders and bound metal deposition",
+      "abstract": "",
+      "authors": [
+        "Woo Hyeok Kim",
+        "Raj Narayan Hajra",
+        "Hyung-Ki Park",
+        "Jung Yeul Yun",
+        "Jeoung Han Kim"
+      ],
+      "first_author_affiliation": "Department of Materials Science & Engineering, Hanbat National University, Daejeon 34158, Republic of Korea",
+      "corresponding_authors": [
+        {
+          "name": "Raj Narayan Hajra",
+          "affiliation": "Department of Materials Science & Engineering, Hanbat National University, Daejeon 34158, Republic of Korea"
+        },
+        {
+          "name": "Jeoung Han Kim",
+          "affiliation": "Department of Materials Science & Engineering, Hanbat National University, Daejeon 34158, Republic of Korea"
+        }
+      ],
+      "venue": "Journal of Alloys and Compounds",
+      "year": 2025,
+      "date": "2025-12-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jallcom.2025.185574",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Equiaxed crystals",
+        "Acicular",
+        "Microstructure",
+        "Alloy",
+        "Oxide",
+        "Sintering",
+        "Metallurgy",
+        "Dispersion (optics)",
+        "Transmission electron microscopy",
+        "Deposition (geology)",
+        "Nanoparticle",
+        "Composite material",
+        "Chemical engineering",
+        "Metal powder",
+        "Intermetallic",
+        "Metal",
+        "Powder metallurgy",
+        "Internal oxidation",
+        "Cobalt oxide",
+        "Nanostructure",
+        "Grain size",
+        "Solid oxide fuel cell",
+        "Powder mixture"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了基于Ti-6Al-4V的氧化物弥散强化合金的增材制造，可能提供新材料的力学性能数据。",
+        "why_not_core": "No fatigue data or S-N curves reported; focus is on strength and hardness rather than fatigue life.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "additive manufacturing",
+          "Ti-6Al-4V",
+          "oxide dispersion strengthening",
+          "bound metal deposition",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "通过氧化物弥散强化提升Ti-6Al-4V合金的力学性能。",
+          "method": "采用原位氧化物分散粉末和粘结剂金属沉积增材制造技术。",
+          "result": "制备出具有高强度和高硬度的氧化物弥散强化Ti-6Al-4V合金。",
+          "validation": "通过微观结构和力学测试验证了强化效果。"
+        },
+        "summary_en": {
+          "motivation": "To enhance the mechanical properties of Ti-6Al-4V alloy through oxide dispersion strengthening.",
+          "method": "An in-situ oxide-dispersed powder approach combined with bound metal deposition additive manufacturing.",
+          "result": "A Ti-6Al-4V based oxide dispersion strengthened alloy with improved strength and hardness was fabricated.",
+          "validation": "Microstructural characterization and mechanical testing confirmed the strengthening effect."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "oxide dispersion strengthening",
+            "zh": "氧化物弥散强化"
+          },
+          {
+            "en": "bound metal deposition",
+            "zh": "粘结剂金属沉积"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Low": 1
+      "Low": 1,
+      "Medium": 1
     }
   }
 }

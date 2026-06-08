@@ -64,8 +64,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是非增材制造的轻质高熵合金的腐蚀磨损行为，仅以TC4作为对照，不涉及增材制造Ti-6Al-4V的力学或疲劳性能。",
-        "why_not_core": "Paper uses vacuum arc melting (not additive manufacturing), studies corrosion-wear of high-entropy alloys, and only includes TC4 as a baseline; contains no mechanical/fatigue characterization of additively manufactured Ti-6Al-4V.",
+        "relevance_to_user": "该论文研究的是(AlTiV)100−xCrx高熵合金，并非Ti-6Al-4V，与研究方向无关。",
+        "why_not_core": "The paper investigates corrosion-wear of high-entropy alloys, not Ti-6Al-4V, and does not address additive manufacturing of Ti-6Al-4V.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -76,21 +76,20 @@
         "tags": [
           "high-entropy alloy",
           "corrosion-wear",
-          "vacuum arc melting",
           "lightweight alloy",
-          "BCC structure"
+          "TC4 comparison"
         ],
         "summary_zh": {
-          "motivation": "解决轻质合金耐腐蚀磨损性能差的问题",
-          "method": "采用真空电弧熔炼法制备不同Cr含量的(AlTiV)100−xCrx高熵合金",
-          "result": "Cr5在3.5% NaCl溶液中表现出最优的耐腐蚀磨损性能",
-          "validation": "通过显微组织、力学、电化学和磨损实验验证"
+          "motivation": "研究轻质高熵合金的腐蚀-磨损机理。",
+          "method": "通过真空电弧熔炼制备三种不同Cr含量的(AlTiV)100−xCrx合金，表征其微观结构、力学、腐蚀和磨损性能。",
+          "result": "Cr10在去离子水中耐磨性最佳，Cr5在NaCl溶液中耐腐蚀磨损性最优，均优于TC4。",
+          "validation": "通过微观结构表征、硬度、腐蚀电流密度和磨损体积等实验验证。"
         },
         "summary_en": {
-          "motivation": "To address the poor corrosion-wear resistance of lightweight alloys by developing a novel high-entropy alloy.",
-          "method": "Three (AlTiV)100−xCrx alloys with varying Cr content were synthesized via vacuum arc melting and characterized for microstructure, mechanics, corrosion, and wear.",
-          "result": "The Cr5 alloy exhibited the best corrosion-wear resistance in 3.5 wt.% NaCl solution, while Cr10 showed optimal wear resistance in deionized water; both outperformed TC4.",
-          "validation": "Experimental investigation including hardness, toughness, corrosion current density, and wear volume measurements."
+          "motivation": "To elucidate the corrosion-wear mechanism of (AlTiV)100−xCrx high-entropy alloys as a potential solution for poor corrosion-wear resistance of lightweight alloys.",
+          "method": "Three (AlTiV)100−xCrx alloys with varying Cr content were prepared by vacuum arc melting, and their microstructure, mechanical properties, corrosion, wear, and corrosion-wear behaviors were investigated.",
+          "result": "Cr10 exhibited optimal wear resistance in deionized water, while Cr5 showed the best corrosion-wear resistance in 3.5 wt.% NaCl solution, both outperforming TC4.",
+          "validation": "Experimental validation through hardness, polarization curves, wear volume measurements, and comparison with TC4."
         },
         "key_terms": [
           {
@@ -99,7 +98,15 @@
           },
           {
             "en": "corrosion-wear",
-            "zh": "腐蚀磨损"
+            "zh": "腐蚀-磨损"
+          },
+          {
+            "en": "lightweight alloy",
+            "zh": "轻质合金"
+          },
+          {
+            "en": "TC4",
+            "zh": "TC4钛合金"
           },
           {
             "en": "vacuum arc melting",
@@ -110,36 +117,165 @@
             "zh": "体心立方结构"
           },
           {
-            "en": "lightweight alloy",
-            "zh": "轻质合金"
+            "en": "hardness",
+            "zh": "硬度"
           },
           {
-            "en": "TC4",
-            "zh": "TC4钛合金"
+            "en": "wear resistance",
+            "zh": "耐磨性"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411049714",
+      "doi": "10.1016/j.matchar.2025.115260",
+      "title": "Equiaxed fine grain and performance control of laser directed energy deposition Ti-6Al-4V components using synchronous-hammer-forging method",
+      "abstract": "",
+      "authors": [
+        "Fangyong Niu",
+        "Yunfei Li",
+        "Boyang Shan",
+        "Zihao Li",
+        "Mingze Xu",
+        "Yunbo Hao",
+        "Kai Zhao",
+        "Huanyue Zhang",
+        "Guangyi Ma",
+        "Dongjiang Wu"
+      ],
+      "first_author_affiliation": "State Key Laboratory of High-performance Precision Manufacturing, Dalian University of Technology, Dalian 116024, People's Republic of China",
+      "corresponding_authors": [
+        {
+          "name": "Fangyong Niu",
+          "affiliation": "State Key Laboratory of High-performance Precision Manufacturing, Dalian University of Technology, Dalian 116024, People's Republic of China"
+        }
+      ],
+      "venue": "Materials Characterization",
+      "year": 2025,
+      "date": "2025-06-05",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.matchar.2025.115260",
+      "cited_by_count": 9,
+      "concepts": [
+        "Equiaxed crystals",
+        "Materials science",
+        "Forging",
+        "Metallurgy",
+        "Deposition (geology)",
+        "Hammer",
+        "Titanium alloy",
+        "Grain size",
+        "Pulsed laser deposition"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "directed energy deposition"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文通过同步锤锻方法改善了激光定向能量沉积Ti-6Al-4V的微观结构和力学性能，直接相关于增材制造Ti-6Al-4V的基础力学与疲劳性能研究。",
+        "why_not_core": "The paper focuses on grain refinement and mechanical properties via in-situ hammer forging, but does not specifically address fatigue life or S-N curves, which are core to the fatigue direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser directed energy deposition",
+          "Ti-6Al-4V",
+          "synchronous hammer forging",
+          "grain refinement",
+          "mechanical properties",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "为了解决激光定向能量沉积Ti-6Al-4V构件粗大柱状晶和性能不足的问题。",
+          "method": "在激光沉积过程中引入同步锤锻，实现动态再结晶和晶粒细化。",
+          "result": "获得了等轴细晶组织，拉伸强度和塑性同时提升。",
+          "validation": "通过显微组织观察和室温拉伸试验验证了该方法的效果。"
+        },
+        "summary_en": {
+          "motivation": "To overcome the coarse columnar grains and inadequate mechanical properties of laser directed energy deposited Ti-6Al-4V components.",
+          "method": "Synchronous hammer forging was applied during the deposition process to induce dynamic recrystallization and grain refinement.",
+          "result": "Equiaxed fine grains were obtained, resulting in simultaneous improvement of tensile strength and ductility.",
+          "validation": "Microstructural characterization and room-temperature tensile testing confirmed the effectiveness of the method."
+        },
+        "key_terms": [
+          {
+            "en": "laser directed energy deposition",
+            "zh": "激光定向能量沉积"
+          },
+          {
+            "en": "synchronous hammer forging",
+            "zh": "同步锤锻"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "grain refinement",
+            "zh": "晶粒细化"
+          },
+          {
+            "en": "equiaxed grains",
+            "zh": "等轴晶"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "ductility",
+            "zh": "塑性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 1,
+      "High": 1
     }
   }
 }

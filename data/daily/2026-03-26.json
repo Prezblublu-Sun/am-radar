@@ -62,6 +62,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "powder bed fusion",
           "surface roughness"
         ],
         "ti6al4v_postprocess": [
@@ -71,11 +72,11 @@
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文仅报道了表面粗糙度的结果，未涉及任何力学性能测试，因此对评估后处理对力学性能的影响帮助有限。",
-        "why_not_core": "No mechanical (fatigue/tensile) data reported; only surface roughness characterization, so it does not address the effect of post-processing on mechanical performance.",
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文聚焦于Ti-6Al-4V的后处理化学浸蚀工艺，但仅评估表面粗糙度，缺乏对疲劳或力学性能的实验验证。",
+        "why_not_core": "No mechanical performance data (fatigue, tensile) reported; only surface roughness characterization.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -88,20 +89,19 @@
           "electron beam powder bed fusion",
           "chemical immersion",
           "surface roughness",
-          "post-processing",
-          "scan strategy"
+          "post-processing"
         ],
         "summary_zh": {
-          "motivation": "减少PBF-EB/M制造Ti-6Al-4V的表面粗糙度",
-          "method": "采用氢氟酸化学浸没和两种扫描策略的三阶段实验",
-          "result": "粗糙度参数降低约20%，连续轮廓扫描显著增加Rsm",
-          "validation": "表面粗糙度测量"
+          "motivation": "研究化学浸蚀后处理对电子束熔融Ti-6Al-4V表面粗糙度的影响。",
+          "method": "采用三阶段实验，使用1%氢氟酸在室温下浸泡120分钟处理试样。",
+          "result": "粗糙度参数降低约20%，扫描策略对多数粗糙度参数影响不显著。",
+          "validation": "表面粗糙度测量验证了化学浸蚀的效果。"
         },
         "summary_en": {
-          "motivation": "To reduce the as-built surface roughness of Ti-6Al-4V components produced by electron beam powder bed fusion via a chemical immersion post-processing technique.",
-          "method": "A three-stage experimental approach investigated the effects of hydrofluoric acid immersion (1% at room temperature for 120 min) and two electron beam scan strategies (continuous contouring and multi-spot contouring) on surface characteristics.",
-          "result": "Chemical immersion reduced multiple roughness parameters (Ra, Rq, Rz, Rp, Rv) by approximately 20%, while continuous contouring increased the mean spacing of profile irregularities (Rsm) by 45% and altered surface morphology.",
-          "validation": "Surface roughness was characterized using contact profilometry, confirming the changes induced by post-processing and scan strategy."
+          "motivation": "To investigate the effect of chemical immersion post-processing on surface roughness of Ti-6Al-4V fabricated by electron beam powder bed fusion.",
+          "method": "A three-stage experimental approach was employed, using 1% hydrofluoric acid at room temperature for 120 minutes immersion.",
+          "result": "Roughness parameters (Ra, Rq, Rz, Rp, Rv) were reduced by approximately 20%, while scan strategy had minimal effect on most roughness parameters except Rsm.",
+          "validation": "Experimental surface roughness measurements validated the effectiveness of the chemical immersion treatment."
         },
         "key_terms": [
           {
@@ -110,37 +110,33 @@
           },
           {
             "en": "chemical immersion",
-            "zh": "化学浸没"
+            "zh": "化学浸蚀"
           },
           {
             "en": "surface roughness",
             "zh": "表面粗糙度"
           },
           {
-            "en": "Ti-6Al-4V ELI",
-            "zh": "Ti-6Al-4V ELI合金"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
             "en": "scan strategy",
             "zh": "扫描策略"
           },
           {
-            "en": "post-processing",
-            "zh": "后处理"
-          },
-          {
             "en": "hydrofluoric acid",
             "zh": "氢氟酸"
           },
           {
-            "en": "contour scanning",
-            "zh": "轮廓扫描"
+            "en": "post-processing",
+            "zh": "后处理"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
     }
   ],
   "counts": {
@@ -158,7 +154,7 @@
     },
     "scored": 1,
     "priority_counts": {
-      "Low": 1
+      "Medium": 1
     }
   }
 }

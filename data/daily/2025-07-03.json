@@ -49,6 +49,10 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
           "tensile strength",
           "fatigue"
         ],
@@ -62,8 +66,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究了热处理和抛光后处理对Ti-6Al-4V疲劳性能的影响，符合L2方向。",
-        "why_not_core": "The paper focuses on implant-specific osteosynthesis plates, which the routing note suggests belongs to Layer 3, but it still provides direct experimental data on post-processing effects for Ti-6Al-4V.",
+        "relevance_to_user": "该论文直接研究了热处理和抛光后处理对增材制造Ti-6Al-4V疲劳性能的影响，与您的后处理控制方向高度相关。",
+        "why_not_core": "论文仅涉及热处理和抛光两种后处理，未涵盖其他如HIP或喷丸等后处理工艺。",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -74,6 +78,7 @@
         "tags": [
           "Ti-6Al-4V",
           "laser powder bed fusion",
+          "post-processing",
           "heat treatment",
           "polishing",
           "fatigue",
@@ -81,16 +86,16 @@
           "osteosynthesis plate"
         ],
         "summary_zh": {
-          "motivation": "评估激光粉末床熔融Ti-6Al-4V接骨板力学性能是否满足生理载荷要求。",
-          "method": "对热处理及热处理+抛光试样进行ISO标准拉伸和疲劳测试，并结合有限元分析峰值应力。",
-          "result": "热处理+抛光试样的疲劳极限从227MPa提升至286MPa，材料性能满足接骨板需求。",
-          "validation": "通过拉伸和疲劳实验验证力学性能，有限元预测应力低于实验极限。"
+          "motivation": "评估增材制造Ti-6Al-4V接骨板是否满足生理载荷下的力学要求。",
+          "method": "对28例患者个性化接骨板进行有限元分析，并对热处理和抛光后的试样进行拉伸和疲劳测试。",
+          "result": "热处理试样疲劳极限227 MPa，抛光后提升至286 MPa，均高于预测的生理应力。",
+          "validation": "通过ISO标准拉伸和疲劳测试验证力学性能。"
         },
         "summary_en": {
-          "motivation": "To evaluate whether laser powder bed fusion Ti-6Al-4V osteosynthesis plates possess sufficient tensile and fatigue strength for physiological loading conditions.",
-          "method": "Tensile and ISO fatigue tests were conducted on heat-treated only and heat-treated plus polished specimens, and finite element models predicted peak stresses for 28 patient-specific plates.",
-          "result": "Polishing improved the fatigue limit from 227 MPa to 286 MPa, and the experimental yield and fatigue strengths exceeded the finite-element-predicted maximum stresses.",
-          "validation": "Experimental mechanical testing (tensile and fatigue) validated the material's suitability, and finite element analysis confirmed that physiological stresses remained below measured limits."
+          "motivation": "To determine whether additively manufactured Ti-6Al-4V osteosynthesis plates can withstand physiological loading after post-processing.",
+          "method": "Finite element models of patient-specific plates were used to predict peak stresses, and tensile and fatigue tests were conducted on heat-treated and polished specimens.",
+          "result": "The fatigue limit increased from 227 MPa (heat-treated only) to 286 MPa (heat-treated and polished), both exceeding the predicted physiological stress of 166 MPa.",
+          "validation": "Mechanical validation was performed using ISO-compliant tensile and fatigue testing."
         },
         "key_terms": [
           {
@@ -100,6 +105,10 @@
           {
             "en": "Ti-6Al-4V",
             "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
           },
           {
             "en": "heat treatment",
@@ -114,40 +123,267 @@
             "zh": "疲劳极限"
           },
           {
-            "en": "upper yield stress",
-            "zh": "上屈服应力"
+            "en": "tensile strength",
+            "zh": "抗拉强度"
           },
           {
             "en": "osteosynthesis plate",
             "zh": "接骨板"
-          },
-          {
-            "en": "finite element analysis",
-            "zh": "有限元分析"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411992081",
+      "doi": "10.1016/j.triboint.2025.110962",
+      "title": "Development of tribo-efficient novel nanostructured silica coatings on additively manufactured Ti-6Al-4V via PMMA degradation",
+      "abstract": "",
+      "authors": [
+        "Babra Abbas",
+        "Hui-Ci Weng",
+        "Syed Junaid Nawaz",
+        "Nitya Nand Gosvami",
+        "E‐Wen Huang",
+        "Shashwat Mishra",
+        "Jayant Jain"
+      ],
+      "first_author_affiliation": "Department of Materials Science and Engineering, Indian Institute of Technology, Delhi, 110016, India",
+      "corresponding_authors": [
+        {
+          "name": "Jayant Jain",
+          "affiliation": "Department of Materials Science and Engineering, Indian Institute of Technology, Delhi, 110016, India"
+        }
+      ],
+      "venue": "Tribology International",
+      "year": 2025,
+      "date": "2025-07-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.triboint.2025.110962",
+      "cited_by_count": 3,
+      "concepts": [
+        "Degradation (telecommunications)",
+        "Materials science",
+        "Composite material",
+        "Tribology"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文关注增材制造Ti-6Al-4V的涂层，而非其基体力学或疲劳性能，与方向焦点无关。",
+        "why_not_core": "Paper focuses on tribological coating development and wear performance, not on mechanical or fatigue properties of base Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "tribology",
+          "coating",
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "silica"
+        ],
+        "summary_zh": {
+          "motivation": "开发适用于增材制造Ti-6Al-4V的耐磨纳米结构二氧化硅涂层",
+          "method": "通过PMMA降解在AM Ti-6Al-4V上制备二氧化硅涂层",
+          "result": "涂层显著提高了表面的摩擦学性能",
+          "validation": "通过摩擦磨损实验进行验证"
+        },
+        "summary_en": {
+          "motivation": "To develop a tribo-efficient novel nanostructured silica coating for additively manufactured Ti-6Al-4V substrates.",
+          "method": "Silica coatings were synthesized on LPBF Ti-6Al-4V via thermal degradation of PMMA templates.",
+          "result": "The coated surfaces exhibited improved wear resistance and reduced friction coefficients compared to uncoated samples.",
+          "validation": "Tribological performance was validated through pin-on-disc wear tests and surface characterization."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "silica coating",
+            "zh": "二氧化硅涂层"
+          },
+          {
+            "en": "tribology",
+            "zh": "摩擦学"
+          },
+          {
+            "en": "PMMA degradation",
+            "zh": "聚甲基丙烯酸甲酯降解"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412005994",
+      "doi": "10.3390/ma18133163",
+      "title": "Effect of 3 wt% Cu on the Microstructure and Hardness of a Ti-10Ta-1.6Zr Alloy",
+      "abstract": "Alloys of Ti-10Ta-1.6Zr (wt%) with and without 3 wt% Cu made by arc-melting, heat-treated in two stages and quenched to have α + β microstructures were studied. These alloys were studied for potential replacement of Ti-6Al-4V alloys because Ta and Zr are more biocompatible than Al and V, and copper was added for potential antimicrobial properties. The heat-treated samples were investigated by SEM-EDX, transmission Kikuchi diffraction (TKD) and XRD. When studied at a higher magnification, the heat-treated alloys revealed a bi-lamellar microstructure, consisting of broad α lamellae and β transformed to fine α' lamellae with various orientations. The fraction β transformed to fine α' lamellae was higher in the alloy with Cu than that without Cu. Furthermore, copper was found to lower the solubility of tantalum in the β. The hardest alloy was the heat-treated alloy containing Cu, albeit with a wide standard deviation, probably due to the high fraction of martensitically transformed β.",
+      "authors": [
+        "Nobom Gretta Hashe",
+        "Lee Fowler",
+        "Susanne Norgren",
+        "Lesley Cornish",
+        "Lesley H. Chown",
+        "William E. Goosen",
+        "Johan Ewald Westraadt",
+        "Nomsombuluko Hadebe",
+        "Caroline Öhman‐Mägi"
+      ],
+      "first_author_affiliation": "Department of Physics, Nelson Mandela University (NMU), Port Elizabeth 6031, South Africa",
+      "corresponding_authors": [
+        {
+          "name": "Nobom Gretta Hashe",
+          "affiliation": "Department of Physics, Nelson Mandela University (NMU), Port Elizabeth 6031, South Africa"
+        },
+        {
+          "name": "Nomsombuluko Hadebe",
+          "affiliation": "Mintek, Advanced Materials Division, Randburg 2194, South Africa"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-07-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18133163",
+      "cited_by_count": 0,
+      "concepts": [
+        "Microstructure",
+        "Alloy",
+        "Materials science",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的Ti-10Ta-1.6Zr合金并非Ti-6Al-4V，且采用电弧熔炼非增材制造，与用户关注的增材制造Ti-6Al-4V力学疲劳性能无关。",
+        "why_not_core": "This paper does not study Ti-6Al-4V, does not use additive manufacturing, and only evaluates hardness (not tensile/fatigue properties) so it is outside the L1 scope.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-10Ta-1.6Zr",
+          "arc-melting",
+          "microstructure",
+          "hardness",
+          "copper addition"
+        ],
+        "summary_zh": {
+          "motivation": "开发替代Ti-6Al-4V的生物相容合金",
+          "method": "电弧熔炼制备Ti-10Ta-1.6Zr加Cu，热处理后表征",
+          "result": "含Cu合金硬度更高但标准差大",
+          "validation": "实验表征（SEM, XRD, 硬度测试）"
+        },
+        "summary_en": {
+          "motivation": "To develop a biocompatible alloy to replace Ti-6Al-4V",
+          "method": "Ti-10Ta-1.6Zr alloys with and without Cu were arc-melted, heat-treated, and characterized by SEM, TKD, XRD",
+          "result": "The Cu-containing alloy exhibited higher hardness with large standard deviation due to martensitic transformation",
+          "validation": "Experimental characterization including hardness testing"
+        },
+        "key_terms": [
+          {
+            "en": "Ti-10Ta-1.6Zr",
+            "zh": "Ti-10Ta-1.6Zr合金"
+          },
+          {
+            "en": "arc-melting",
+            "zh": "电弧熔炼"
+          },
+          {
+            "en": "copper addition",
+            "zh": "铜添加"
+          },
+          {
+            "en": "bi-lamellar microstructure",
+            "zh": "双片层显微组织"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
-      "High": 1
+      "High": 1,
+      "Low": 1,
+      "Exclude": 1
     }
   }
 }

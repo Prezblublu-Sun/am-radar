@@ -57,6 +57,8 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "3D printing",
+          "3D printed",
           "tensile strength",
           "ultimate tensile strength"
         ],
@@ -67,11 +69,11 @@
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文主要研究Ti25Nb4Ta8Sn合金，仅将Ti-6Al-4V作为基准材料，未深入探讨后处理对Ti-6Al-4V性能的影响。",
-        "why_not_core": "The paper's primary focus is a beta titanium alloy (Ti25Nb4Ta8Sn) for biomedical applications; Ti-6Al-4V is only used as a comparative reference, not as the main subject of post-processing investigation.",
+        "read_action": "Ignore",
+        "relevance_to_user": "论文主要研究Ti25Nb4Ta8Sn合金，仅附带比较Ti-6Al-4V，不符合Ti-6Al-4V后处理控制的焦点。",
+        "why_not_core": "The paper's primary focus is on Ti25Nb4Ta8Sn alloy, not Ti-6Al-4V; it only peripherally compares Ti-6Al-4V, and thus does not contribute directly to post-processing control of Ti-6Al-4V.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -80,37 +82,37 @@
           "is_review": false
         },
         "tags": [
+          "Ti25Nb4Ta8Sn",
           "beta titanium alloy",
-          "Ti-6Al-4V",
-          "post-processing",
           "annealing",
           "etching",
-          "mechanical properties"
+          "sample thickness",
+          "biomedical implants"
         ],
         "summary_zh": {
-          "motivation": "研究后处理对3D打印β钛合金力学性能的影响，以优化植入物设计。",
-          "method": "对Ti25Nb4Ta8Sn和Ti6Al4V进行退火和蚀刻处理，并测试拉伸性能。",
-          "result": "Ti6Al4V强度更高，β钛合金模量更低；退火提高强度，蚀刻降低完整性。",
-          "validation": "通过拉伸实验进行力学性能验证。"
+          "motivation": "研究3D打印β钛合金Ti25Nb4Ta8Sn的力学性能，并与Ti6Al4V比较。",
+          "method": "通过拉伸试验评估不同样品厚度和退火、蚀刻后处理的影响。",
+          "result": "Ti6Al4V抗拉强度高达1200MPa，而Ti25Nb4Ta8Sn弹性模量更低（40-50GPa）。",
+          "validation": "实验力学测试验证后处理对强度和模量的影响。"
         },
         "summary_en": {
-          "motivation": "To evaluate the effect of post-processing (annealing and etching) on the mechanical properties of 3D-printed beta titanium alloys for biomedical implants.",
-          "method": "The study compares Ti25Nb4Ta8Sn and Ti6Al4V alloys subjected to annealing and etching, with tensile testing and microstructural analysis.",
-          "result": "Ti6Al4V exhibits higher ultimate tensile strength (up to 1200 MPa) while the beta alloy shows lower elastic modulus (40-50 GPa); annealing improves strength and reduces internal stresses, whereas etching removes powder but slightly reduces mechanical integrity.",
-          "validation": "Mechanical validation through tensile tests on printed and post-processed specimens."
+          "motivation": "This study investigates the mechanical properties of 3D-printed Ti25Nb4Ta8Sn alloy, a beta titanium alloy for biomedical applications, compared with Ti6Al4V.",
+          "method": "Tensile tests were performed on samples of varying thicknesses subjected to annealing and etching post-processing.",
+          "result": "Ti6Al4V showed significantly higher ultimate tensile strength (up to 1200 MPa) than Ti25Nb4Ta8Sn (up to 360 MPa), while the latter had a lower elastic modulus (40-50 GPa) beneficial for implants.",
+          "validation": "Experimental mechanical testing validated the effects of annealing (improving strength) and etching (removing powder but reducing integrity)."
         },
         "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
           {
             "en": "beta titanium alloy",
             "zh": "β钛合金"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
-          },
-          {
             "en": "Ti25Nb4Ta8Sn",
-            "zh": "Ti25Nb4Ta8Sn"
+            "zh": "Ti25Nb4Ta8Sn合金"
           },
           {
             "en": "annealing",
@@ -121,48 +123,181 @@
             "zh": "蚀刻"
           },
           {
-            "en": "mechanical properties",
-            "zh": "力学性能"
+            "en": "sample thickness",
+            "zh": "样品厚度"
           },
           {
-            "en": "3D printing",
-            "zh": "3D打印"
-          },
-          {
-            "en": "biomedical applications",
-            "zh": "生物医学应用"
-          },
-          {
-            "en": "tensile strength",
-            "zh": "拉伸强度"
+            "en": "ultimate tensile strength",
+            "zh": "极限抗拉强度"
           },
           {
             "en": "elastic modulus",
             "zh": "弹性模量"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          },
+          {
+            "en": "biomedical implants",
+            "zh": "生物医学植入物"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:19:10Z"
+      "first_seen_at": "2026-06-08T08:31:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7162889744",
+      "doi": "10.71644/admt.2026.1223189",
+      "title": "Fretting Behavior of Additively Manufactured Ti-6Al-4V: A Fretting Map Based Framework",
+      "abstract": "Additively manufactured Ti-6Al-4V, fabricated by selective laser melting (SLM), was experimentally investigated under fretting conditions. Fretting tests were conducted by using a bridge-type configuration in accordance with ASTM E2789 on two specimens subjected to different normal loads. Damaged surfaces were examined by optical microscopy and scanning electron microscopy (SEM) and the observations were synthesized in the load-slip amplitude space to develop the fretting maps. Boundaries on these maps delineate contact regimes (stick/partial slip and gross slip) and identify crack prone regions. The results show that increasing slip amplitude shifted the response from fatigue prone regime to wear dominated behavior, consistent with oxide debris interlayer formation and surface smoothing that suppress crack nucleation. The resulting fretting maps provide a systematic basis for distinguishing fretting regimes and support the design and selection of surface engineering strategies appropriate to each regime.",
+      "authors": [
+        "Saba Shirzadi",
+        "Ahmad Sadeghian",
+        "Saeed Adibnazari"
+      ],
+      "first_author_affiliation": "Sharif university of technology",
+      "corresponding_authors": [
+        {
+          "name": "Saba Shirzadi",
+          "affiliation": "Sharif university of technology"
+        }
+      ],
+      "venue": "international journal of advanced design and manufacturing technology",
+      "year": 2025,
+      "date": "2025-11-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.71644/admt.2026.1223189",
+      "cited_by_count": 0,
+      "concepts": [
+        "Fretting",
+        "Materials science",
+        "Slip (aerodynamics)",
+        "Scanning electron microscope",
+        "Fretting wear",
+        "Composite material",
+        "Smoothing",
+        "Optical microscope",
+        "Oxide",
+        "Amplitude",
+        "Microscopy",
+        "Laser scanning"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "selective laser melting",
+          "SLM",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对SLM制造的Ti-6Al-4V的微动行为，属于方向重点关注的力学性能范畴。",
+        "why_not_core": "No conventional tensile or S-N fatigue data, only fretting behavior under specific contact regimes.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "fretting",
+          "SLM",
+          "Ti-6Al-4V",
+          "fretting map",
+          "wear",
+          "fatigue"
+        ],
+        "summary_zh": {
+          "motivation": "研究SLM制造Ti-6Al-4V的微动磨损行为及其机制。",
+          "method": "采用桥型配置进行微动试验，结合光学显微镜和SEM分析损伤表面。",
+          "result": "滑移幅值增加导致从疲劳主导向磨损主导转变，绘制了微动图。",
+          "validation": "通过实验数据构建微动图，识别接触区域和裂纹倾向区。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the fretting behavior of additively manufactured Ti-6Al-4V and establish regime boundaries.",
+          "method": "Fretting tests using a bridge-type configuration per ASTM E2789 were conducted on SLM specimens at different normal loads, with surface inspection via optical microscopy and SEM.",
+          "result": "Increasing slip amplitude shifts the response from fatigue-dominated to wear-dominated behavior, consistent with oxide debris and surface smoothing that suppress crack nucleation.",
+          "validation": "Experimental observations were synthesized into fretting maps delineating stick, partial slip, and gross slip regimes along with crack-prone regions."
+        },
+        "key_terms": [
+          {
+            "en": "fretting",
+            "zh": "微动"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
+          },
+          {
+            "en": "fretting map",
+            "zh": "微动图"
+          },
+          {
+            "en": "slip amplitude",
+            "zh": "滑移幅值"
+          },
+          {
+            "en": "crack nucleation",
+            "zh": "裂纹萌生"
+          },
+          {
+            "en": "oxide debris",
+            "zh": "氧化物碎屑"
+          },
+          {
+            "en": "contact regime",
+            "zh": "接触状态"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:31:07Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Low": 1
+      "Exclude": 1,
+      "High": 1
     }
   }
 }

@@ -59,17 +59,20 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "microstructure",
+          "build direction",
           "yield strength",
           "defect",
           "residual stress"
         ]
       },
       "llm": {
-        "priority": "Medium",
+        "priority": "High",
         "relevance_level": "Direct",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文研究了增材制造Ti-6Al-4V的残余应力和拉伸性能，但缺乏疲劳数据，与L1方向部分相关。",
-        "why_not_core": "No fatigue testing or fatigue life data is reported; the paper focuses on residual stress and static mechanical properties only, not fatigue performance.",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接评估了大型增材制造Ti-6Al-4V的残余应力和力学性能，符合L1力学与疲劳基础层的要求。",
+        "why_not_core": "The paper provides comprehensive mechanical and residual stress characterization but does not include fatigue life or S-N curve testing.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -83,26 +86,433 @@
           "residual stress",
           "microstructure",
           "tensile properties",
-          "hardness",
-          "contour method"
+          "hardness mapping",
+          "basket-weave microstructure"
         ],
         "summary_zh": {
-          "motivation": "评估AFSD工艺制备大型Ti-6Al-4V的残余应力和力学性能",
-          "method": "采用SEM、EBSD、硬度映射、拉伸测试和轮廓法残余应力分析",
-          "result": "AFSD制备的Ti-6Al-4V具有均匀的显微组织和优异的拉伸性能，残余应力仅为屈服强度的13%",
-          "validation": "通过多种实验手段进行验证"
+          "motivation": "探索大型增材摩擦搅拌沉积Ti-6Al-4V的残余应力与微观结构均匀性。",
+          "method": "通过SEM、EBSD、硬度映射、拉伸测试和轮廓法残余应力分析对大型块体进行全面表征。",
+          "result": "AFSD制备的Ti-6Al-4V具有均匀的篮网状α+β组织，残余应力极低（约屈服强度的13%），力学性能达到或超过锻件标准。",
+          "validation": "通过多种实验技术验证了微观结构、力学性能和残余应力。"
         },
         "summary_en": {
-          "motivation": "The study aims to assess residual stresses, microstructure, and mechanical properties in large-scale Ti-6Al-4V blocks produced by additive friction stir deposition, a process not previously evaluated for such builds.",
-          "method": "A 200×35×67 mm3 AFSD Ti-6Al-4V block was characterized using SEM, EBSD, hardness mapping, tensile testing, and full-field contour method residual stress analysis.",
-          "result": "The as-deposited material exhibits a uniform basket-weave α+β microstructure, tensile properties comparable to wrought standards, and longitudinal residual stresses of only +100–150 MPa in the core and –100 to –150 MPa at the top, about 13% of yield strength.",
-          "validation": "Validation was performed through experimental mechanical testing (tensile, hardness) and residual stress measurement using the contour method, supported by microstructural characterization."
+          "motivation": "This work investigates the residual stress and microstructural uniformity of large-scale Ti-6Al-4V components fabricated by additive friction stir deposition (AFSD), a solid-state additive process with limited previous study for titanium alloys.",
+          "method": "A 200 × 35 × 67 mm³ AFSD Ti-6Al-4V block was characterized using SEM, EBSD, hardness mapping, tensile testing, and full-field contour method for residual stress analysis.",
+          "result": "The deposited block exhibits a uniform basket-weave α+β microstructure, consistent hardness and tensile properties meeting or exceeding wrought standards, and exceptionally low residual stresses (longitudinal: +100 to -150 MPa, build direction: -40 to +40 MPa, about 13% of yield strength).",
+          "validation": "Validation was performed through multiple experimental techniques including microscopy, mechanical testing, and the contour method for residual stress measurement."
         },
         "key_terms": [
           {
             "en": "additive friction stir deposition",
-            "zh": "增材搅拌摩擦沉积"
+            "zh": "增材摩擦搅拌沉积"
           },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "basket-weave α+β microstructure",
+            "zh": "篮网状α+β组织"
+          },
+          {
+            "en": "contour method",
+            "zh": "轮廓法"
+          },
+          {
+            "en": "tensile behavior",
+            "zh": "拉伸性能"
+          },
+          {
+            "en": "hardness mapping",
+            "zh": "硬度映射"
+          },
+          {
+            "en": "yield strength",
+            "zh": "屈服强度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7130505866",
+      "doi": "10.55674/cs.v18i2.265879",
+      "title": "AI-driven multi-response optimization of perforated Ti-6Al-4V sheets via two-point incremental forming using an ANN–GA-based approach",
+      "abstract": "This study investigates two-point incremental forming (TPIF) of perforated Ti-6Al-4V sheets using an integrated experimental–computational framework to optimize surface hardness and formability. Room-temperature TPIF of mill-annealed Grade 5 Ti-6Al-4V sheets (100 × 100 × 1 mm) was performed under dry conditions. Sheets with 2 mm holes at pitches of 6, 8, and 10 mm were formed following a Taguchi L9 design. Holes were produced by precision CNC drilling, ensuring clean edges without a heat-affected zone and preserving the base microstructure. Hole pitch (Hp), incremental step depth (ISD), and feed rate (Fr) were evaluated using Vickers hardness (HV) and forming depth (FD). Hole pitch was the dominant factor, contributing 59.1% to hardness and 69.2% to forming depth. An ANN (3–5–2) accurately predicted both responses (RMSE = 1.37 for HV; 0.0458 for FD) and was coupled with GA for multi-response optimization. The ANN–GA converged within 1000 generations and identified the optimum (Hp = 10 mm, ISD = 0.4 mm, Fr = 0.75 mm·min-1 , yielding HV and FD values of 341 and 9.92 mm, respectively. Validation experiments at the optimal condition showed &lt;2% deviation from predictions. Improved performance was attributed to strain redistribution and localized work hardening around perforations. The novelty of this work lies in integrating perforation-assisted deformation mechanics with AI-driven multi-response optimization for a difficult-to-form titanium alloy. This approach offers a practical pathway for lightweight, high-strength titanium component design in aerospace, biomedical, and EV applications. GRAPHICAL ABSTRACT HIGHLIGHTS A hybrid ANN–GA framework was developed to model and optimize the TPIF process of perforated Ti-6Al-4V sheets. The proposed model accurately predicted hardness and forming depth, showing strong agreement with experimental results. ANN–GA optimization identified optimal process parameters that simultaneously enhanced formability and surface hardness. The data-driven approach supports smart manufacturing and Industry 4.0 applications for advanced titanium sheet forming.",
+      "authors": [
+        "Apisit Keawchaloon",
+        "Suriya Prasomthong",
+        "Thanatep Phatungthane",
+        "Chaiya Chomchalao"
+      ],
+      "first_author_affiliation": "Department of Industrial Technology, Nakhon Phanom University, Nakhon Phanom, 48000, Thailand",
+      "corresponding_authors": [
+        {
+          "name": "Apisit Keawchaloon",
+          "affiliation": "Department of Industrial Technology, Nakhon Phanom University, Nakhon Phanom, 48000, Thailand"
+        }
+      ],
+      "venue": "Creative Science",
+      "year": 2026,
+      "date": "2026-02-19",
+      "date_precision": "day",
+      "url": "https://doi.org/10.55674/cs.v18i2.265879",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Incremental sheet forming",
+        "Forming processes",
+        "Vickers hardness test",
+        "Strain hardening exponent",
+        "Composite material",
+        "Taguchi methods",
+        "Work hardening",
+        "Hardening (computing)",
+        "Hardness",
+        "Work (physics)",
+        "Titanium",
+        "Mechanical engineering",
+        "Knoop hardness test",
+        "Surface finish",
+        "Surface roughness",
+        "Process (computing)",
+        "Structural engineering",
+        "Indentation hardness",
+        "Deformation (meteorology)",
+        "Engineering drawing",
+        "Titanium alloy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究穿孔Ti-6Al-4V板材的两点渐进成形，不涉及增材制造，因此与层1的增材制造Ti-6Al-4V力学与疲劳方向无关。",
+        "why_not_core": "This paper focuses on sheet metal forming (TPIF) of Ti-6Al-4V, not additive manufacturing (LPBF/SLM/EBM/DED), so it does not address the mechanical or fatigue performance of additively manufactured Ti-6Al-4V as required by Layer 1.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "incremental forming",
+          "ANN",
+          "GA",
+          "multi-response optimization"
+        ],
+        "summary_zh": {
+          "motivation": "优化穿孔Ti-6Al-4V板材在两点渐进成形中的硬度与成形性。",
+          "method": "采用ANN-GA混合框架，基于Taguchi L9实验设计优化孔距、步深和进给率。",
+          "result": "最优参数（孔距10 mm、步深0.4 mm、进给率0.75 mm/min）下硬度341 HV、成形深度9.92 mm。",
+          "validation": "实验验证显示预测与实测偏差小于2%。"
+        },
+        "summary_en": {
+          "motivation": "To optimize surface hardness and formability of perforated Ti-6Al-4V sheets during two-point incremental forming.",
+          "method": "An ANN-GA hybrid framework was developed and validated using a Taguchi L9 experimental design with hole pitch, incremental step depth, and feed rate as variables.",
+          "result": "The optimal parameters (hole pitch 10 mm, step depth 0.4 mm, feed rate 0.75 mm/min) yielded a hardness of 341 HV and forming depth of 9.92 mm.",
+          "validation": "Validation experiments confirmed predictions with a deviation of less than 2%."
+        },
+        "key_terms": [
+          {
+            "en": "two-point incremental forming",
+            "zh": "两点渐进成形"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "ANN-GA optimization",
+            "zh": "ANN-GA优化"
+          },
+          {
+            "en": "perforated sheet",
+            "zh": "穿孔板材"
+          },
+          {
+            "en": "Vickers hardness",
+            "zh": "维氏硬度"
+          },
+          {
+            "en": "forming depth",
+            "zh": "成形深度"
+          },
+          {
+            "en": "Taguchi L9 design",
+            "zh": "Taguchi L9设计"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7130537423",
+      "doi": "10.1115/1.4071158",
+      "title": "Tribological Performance of Hot-Filament Chemical Vapor Deposited Diamond Coatings on Laser Powder Bed Fusion Fabricated Ti-6Al-4V Alloy Substrates",
+      "abstract": "Abstract This study explores the structural, chemical, and tribological behavior of boron-doped diamond coatings deposited on Ti-6Al-4V alloy substrates using hot filament chemical vapor deposition. The coatings were developed under optimized plasma-enhanced chemical vapor deposition conditions. Their characteristics were assessed through a combination of X-ray diffraction (XRD), Raman spectroscopy, scanning electron microscopy (SEM), energy-dispersive X-ray spectroscopy (EDX), and linear reciprocating tribological testing using silicon carbide (SiC) ball counter faces. XRD patterns confirmed the formation of nanocrystalline diamond layers, with prominent reflections corresponding to the (111), (220), and (311) planes. The suppression of diffraction signals from the underlying titanium alloy suggested uniform and complete coating coverage. Raman spectra showed a sharp sp3 carbon peak at 1332 cm−1, along with D and G bands typical of graphitic structures, indicating the presence of structural changes associated with boron doping. Friction and wear testing demonstrated a notably low coefficient of friction (∼0.0189) and a reduced wear-rate (∼4.02 × 10−5 mm3/N · min), marking a sixfold improvement over the uncoated alloy. Post-test SEM analysis revealed a dense, crack-free surface without signs of delamination. EDX analysis supported this observation, showing high carbon content (∼91.8%) and minimal detection of substrate elements. Furthermore, the wear track depth (110.4 µm) and SiC ball scar diameter (∼810 µm) were both significantly reduced in coated samples. These findings highlight the potential of boron-doped diamond coatings to enhance the surface durability, wear resistance, and mechanical stability of titanium-based materials, particularly for demanding applications such as biomedical implants.",
+      "authors": [
+        "M. Marichamy",
+        "K. Chockalingam",
+        "N. Arunachalam",
+        "A. Dinesh Kumar"
+      ],
+      "first_author_affiliation": "Thiagarajar College of Engineering Department of Mechanical Engineering, , ,   ,",
+      "corresponding_authors": [
+        {
+          "name": "M. Marichamy",
+          "affiliation": "Thiagarajar College of Engineering Department of Mechanical Engineering, , ,   ,"
+        }
+      ],
+      "venue": "Journal of Tribology",
+      "year": 2026,
+      "date": "2026-02-19",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1115/1.4071158",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Tribology",
+        "Raman spectroscopy",
+        "Alloy",
+        "Diamond",
+        "Coating",
+        "Chemical vapor deposition",
+        "Composite material",
+        "Boron carbide",
+        "Nanocrystalline material",
+        "Metallurgy",
+        "Diamond-like carbon",
+        "Carbide",
+        "Titanium alloy",
+        "Substrate (aquarium)",
+        "Carbon fibers",
+        "Scanning electron microscope",
+        "Laser",
+        "Reciprocating motion",
+        "Fusion",
+        "Material properties of diamond",
+        "Synthetic diamond",
+        "Diffraction"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要研究LPBF Ti-6Al-4V基体上金刚石涂层的摩擦学性能，未涉及基体本身的力学或疲劳性能。",
+        "why_not_core": "The paper focuses on tribological performance of diamond coatings, not on the mechanical or fatigue properties of the LPBF Ti-6Al-4V substrate.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "tribology",
+          "diamond coating",
+          "LPBF",
+          "Ti-6Al-4V",
+          "boron doping"
+        ],
+        "summary_zh": {
+          "motivation": "研究硼掺杂金刚石涂层对LPBF Ti-6Al-4V基体摩擦学性能的提升",
+          "method": "采用热丝化学气相沉积在LPBF Ti-6Al-4V上制备涂层，并进行XRD、拉曼、SEM、EDX和往复摩擦测试",
+          "result": "涂层使摩擦系数降至0.0189，磨损率降低六倍",
+          "validation": "通过摩擦磨损实验和SEM/EDX分析验证涂层性能"
+        },
+        "summary_en": {
+          "motivation": "To investigate the tribological enhancement of boron-doped diamond coatings on LPBF Ti-6Al-4V substrates.",
+          "method": "Hot-filament chemical vapor deposition was used to deposit diamond coatings, characterized by XRD, Raman, SEM, EDX, and linear reciprocating tribological testing with SiC balls.",
+          "result": "The coated samples exhibited a low coefficient of friction (~0.0189) and a sixfold reduction in wear rate compared to uncoated Ti-6Al-4V.",
+          "validation": "Tribological tests and post-test SEM/EDX analysis confirmed the coating's integrity and performance."
+        },
+        "key_terms": [
+          {
+            "en": "hot-filament chemical vapor deposition",
+            "zh": "热丝化学气相沉积"
+          },
+          {
+            "en": "boron-doped diamond coatings",
+            "zh": "硼掺杂金刚石涂层"
+          },
+          {
+            "en": "coefficient of friction",
+            "zh": "摩擦系数"
+          },
+          {
+            "en": "wear rate",
+            "zh": "磨损率"
+          },
+          {
+            "en": "LPBF Ti-6Al-4V",
+            "zh": "激光粉末床熔融Ti-6Al-4V"
+          },
+          {
+            "en": "tribological testing",
+            "zh": "摩擦学测试"
+          },
+          {
+            "en": "nanocrystalline diamond",
+            "zh": "纳米晶金刚石"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7130566322",
+      "doi": "10.1016/j.jmrt.2026.02.131",
+      "title": "Mechanism-oriented thermo-mechanical FEM of surface residual stress formation in Ti–6Al–4V machining with experimental validation",
+      "abstract": "This study investigates the formation mechanisms of residual stress during the orthogonal machining of Ti-6Al-4V alloy using a coupled thermo-mechanical finite element model (FEM). The model was validated against X-ray diffraction (XRD) measurements, achieving a quantitative agreement with a Mean Absolute Error (MAE) of approximately 45 MPa for surface residual stresses. A novel continuous analysis path was introduced to track the temperature evolution from the chip formation zone to the machined surface. The study systematically quantified the effects of cutting speed ( =30–180 m/min), feed rate ( =0.1–0.5 mm/rev), and tool geometry on stress distribution. Simulation results reveal that increasing the cutting speed from 30 to 180 m/min causes a transition in surface residual stress from compressive to tensile due to dominant thermal softening effects. Conversely, increasing the feed rate and cutting edge radius ( = 0.01–0.05 mm) promotes deeper subsurface compressive stresses driven by enhanced plastic strain accumulation. Furthermore, the use of positive rake angles (up to 20°) was found to significantly reduce both temperature gradients and stress magnitudes.",
+      "authors": [
+        "Longhui Meng",
+        "Aqib Mashood Khan",
+        "Yicai Shan",
+        "Khalid A. Al-Ghamdi"
+      ],
+      "first_author_affiliation": "School of Mechanical and Power Engineering, Nanjing Tech University, Nanjing 211816, China",
+      "corresponding_authors": [
+        {
+          "name": "Aqib Mashood Khan",
+          "affiliation": "College of Mechanical and Electrical Engineering, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+        },
+        {
+          "name": "Yicai Shan",
+          "affiliation": "School of Electronic Engineering, Nanjing Xiaozhuang University, Nanjing 211171, China"
+        }
+      ],
+      "venue": "Journal of Materials Research and Technology",
+      "year": 2026,
+      "date": "2026-02-19",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jmrt.2026.02.131",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Residual stress",
+        "Machining",
+        "Finite element method",
+        "Enhanced Data Rates for GSM Evolution",
+        "Composite material",
+        "Surface integrity",
+        "Rake angle",
+        "Ultimate tensile strength",
+        "Softening",
+        "Stress (linguistics)",
+        "RADIUS",
+        "Diffraction",
+        "Compressive strength",
+        "Strain rate",
+        "Thermal",
+        "Metallurgy",
+        "Alloy",
+        "Chip formation",
+        "Plane stress",
+        "Cutting tool",
+        "Plasticity",
+        "Plane (geometry)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "residual stress"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究Ti-6Al-4V合金机加工后残余应力的热-力耦合有限元模拟与实验验证，属于后处理（机械加工）对力学性能影响的研究，完全符合L2方向。",
+        "why_not_core": "The paper focuses on residual stress formation during machining, not on direct fatigue or tensile testing, but residual stress is a key factor for mechanical performance of AM Ti-6Al-4V post-processing.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "machining",
+          "residual stress",
+          "finite element model",
+          "experimental validation"
+        ],
+        "summary_zh": {
+          "motivation": "揭示Ti-6Al-4V机加工表面残余应力的形成机制。",
+          "method": "建立热-力耦合有限元模型，引入连续分析路径追踪温度演化。",
+          "result": "提高切削速度使残余应力由压变拉，增加进给量和刀刃半径促进深层压应力。",
+          "validation": "X射线衍射实验验证，表面残余应力平均绝对误差约45 MPa。"
+        },
+        "summary_en": {
+          "motivation": "To understand the formation mechanisms of residual stress during orthogonal machining of Ti-6Al-4V alloy.",
+          "method": "A coupled thermo-mechanical finite element model was developed with a novel continuous analysis path to track temperature evolution from chip formation to the machined surface.",
+          "result": "Increasing cutting speed transitions surface residual stress from compressive to tensile, while higher feed rate and cutting edge radius promote deeper compressive stress.",
+          "validation": "The model was validated against X-ray diffraction measurements, achieving a mean absolute error of approximately 45 MPa for surface residual stresses."
+        },
+        "key_terms": [
           {
             "en": "Ti-6Al-4V",
             "zh": "Ti-6Al-4V合金"
@@ -112,56 +522,63 @@
             "zh": "残余应力"
           },
           {
-            "en": "electron backscatter diffraction",
-            "zh": "电子背散射衍射"
+            "en": "finite element model",
+            "zh": "有限元模型"
           },
           {
-            "en": "contour method",
-            "zh": "轮廓法"
+            "en": "orthogonal machining",
+            "zh": "正交切削"
           },
           {
-            "en": "tensile properties",
-            "zh": "拉伸性能"
+            "en": "cutting speed",
+            "zh": "切削速度"
           },
           {
-            "en": "hardness mapping",
-            "zh": "硬度映射"
+            "en": "feed rate",
+            "zh": "进给率"
           },
           {
-            "en": "basket-weave microstructure",
-            "zh": "篮网状显微组织"
+            "en": "tool geometry",
+            "zh": "刀具几何"
           },
           {
-            "en": "yield strength",
-            "zh": "屈服强度"
+            "en": "thermo-mechanical coupling",
+            "zh": "热力耦合"
           },
           {
-            "en": "mechanical characterization",
-            "zh": "力学表征"
+            "en": "X-ray diffraction",
+            "zh": "X射线衍射"
+          },
+          {
+            "en": "surface integrity",
+            "zh": "表面完整性"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 4,
     "by_source": {
-      "openalex": 1
+      "openalex": 4
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 3,
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 4
     },
-    "scored": 1,
+    "scored": 4,
     "priority_counts": {
-      "Medium": 1
+      "High": 2,
+      "Exclude": 1,
+      "Low": 1
     }
   }
 }

@@ -67,9 +67,9 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究等离子喷涂YSZ涂层，不涉及股骨柄结构设计或力学性能。",
-        "why_not_core": "This paper focuses on YSZ coating deposition and characterization on Ti-6Al-4V, not on femoral stem structural design, lattice architectures, stress shielding, or fatigue testing of the stem implant.",
-        "validation_kind": "mechanical_testing",
+        "relevance_to_user": "该论文主要研究Ti-6Al-4V基体上的YSZ涂层，不涉及股骨柄结构设计或增材制造。",
+        "why_not_core": "This paper focuses on YSZ coating characterization and biocompatibility, not on Ti-6Al-4V femoral stem design, additive manufacturing, or structural mechanics.",
+        "validation_kind": "in_vitro",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -77,27 +77,34 @@
           "is_review": false
         },
         "tags": [
-          "YSZ coating",
-          "plasma spraying",
+          "thermal barrier coating",
+          "YSZ",
+          "plasma spray",
           "Ti-6Al-4V",
-          "biocompatibility",
+          "orthopedic",
+          "dental",
+          "hemocompatibility",
           "antibacterial"
         ],
         "summary_zh": {
-          "motivation": "开发耐久且生物相容的植入体涂层。",
-          "method": "采用等离子喷涂在Ti-6Al-4V上沉积不同摩尔百分比YSZ涂层。",
-          "result": "5 M% YSZ涂层均匀致密，无裂纹，血液相容性、抗菌性及细胞相容性良好。",
-          "validation": "通过XRD、SEM、溶血测试、抗菌实验及细胞毒性实验验证。"
+          "motivation": "开发耐用且生物相容的植入物涂层。",
+          "method": "采用等离子喷涂技术在Ti-6Al-4V上沉积不同摩尔百分比的YSZ涂层。",
+          "result": "5 M% YSZ涂层表现出均匀厚度、低孔隙率、无裂纹，且具有良好的血液相容性、抗菌活性和细胞相容性。",
+          "validation": "通过XRD、SEM、血液相容性、抗菌和细胞毒性实验验证。"
         },
         "summary_en": {
           "motivation": "To develop durable and biocompatible coatings for orthopedic and dental implants.",
-          "method": "Yttria-stabilized zirconia coatings with varying molar percentages were deposited on Ti-6Al-4V substrates using plasma spraying.",
-          "result": "The 5 M% YSZ coating showed uniform thickness, low porosity, no cracks, hemolytic ratio below 5%, antibacterial activity, and non-toxic behavior up to 250 µg/mL.",
-          "validation": "Validation included XRD, SEM, hemocompatibility, antibacterial assays, and cytocompatibility tests with MG-63 cells."
+          "method": "Yttria-stabilized zirconia (YSZ) coatings with varying molar percentages were deposited on Ti-6Al-4V substrates via plasma spraying.",
+          "result": "The 5 M% YSZ coating exhibited uniform thickness, low porosity, and no cracks, along with favorable hemocompatibility, antibacterial activity, and cytocompatibility.",
+          "validation": "Validation included XRD, SEM, hemolysis tests, antibacterial assays, and MG-63 cell viability assays."
         },
         "key_terms": [
           {
-            "en": "yttria-stabilized zirconia",
+            "en": "thermal barrier coating",
+            "zh": "热障涂层"
+          },
+          {
+            "en": "yttria-stabilized zirconia (YSZ)",
             "zh": "氧化钇稳定氧化锆"
           },
           {
@@ -106,29 +113,33 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "钛合金Ti-6Al-4V"
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "orthopedic implant",
+            "zh": "骨科植入物"
+          },
+          {
+            "en": "dental implant",
+            "zh": "牙科植入物"
           },
           {
             "en": "hemocompatibility",
             "zh": "血液相容性"
           },
           {
-            "en": "antibacterial",
-            "zh": "抗菌"
-          },
-          {
             "en": "cytocompatibility",
             "zh": "细胞相容性"
           },
           {
-            "en": "coating",
-            "zh": "涂层"
+            "en": "antibacterial",
+            "zh": "抗菌"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:19:10Z"
+      "first_seen_at": "2026-06-08T08:31:07Z"
     }
   ],
   "counts": {

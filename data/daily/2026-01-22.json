@@ -5,6 +5,134 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W7125377145",
+      "doi": "10.3991/ijoe.v22i01.58385",
+      "title": "Topological Optimization of the Femoral Stem",
+      "abstract": "The present study evaluates the structural behavior of a topologically optimized femoral stem, comparing two metallic materials commonly used in orthopedics: Ti-6Al-4V titanium and cobalt-chrome alloy (CoCr). The three-dimensional model was developed in SolidWorks and analyzed using finite element simulations in ANSYS, following the guidelines of ASTM F2996-20. Six optimized configurations were defined by varying the percentage of retained mass (25%, 35%, and 45%) for each material, assessing displacements, von Mises stresses, and mass reduction. The results show that the configurations with higher retained mass (J1 and J5) exhibited less deformation and more uniformly distributed stresses, remaining within the elastic regime. The optimized design in Ti-6Al-4V with 25% retained mass stood out, achieving a 27.9% weight reduction with high structural safety factors. This study confirms that topological optimization, when applied to clinically approved metallic materials, enables the development of orthopedic implants that are stronger, lighter, and mechanically compatible, contributing to sustainable surgical solutions.",
+      "authors": [
+        "José L. Serna-Landivar",
+        "Madelaine Violeta Risco Sernaqué",
+        "Daniela Milagros Anticona-Valderrama",
+        "Marleni Mendoza Damas",
+        "Maria Ysabel Garcia-Alvarez",
+        "William C. Algoner"
+      ],
+      "first_author_affiliation": "Universidad Científica del Sur, Lima, Peru",
+      "corresponding_authors": [
+        {
+          "name": "José L. Serna-Landivar",
+          "affiliation": "Universidad Científica del Sur, Lima, Peru"
+        }
+      ],
+      "venue": "International Journal of Online and Biomedical Engineering (iJOE)",
+      "year": 2026,
+      "date": "2026-01-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3991/ijoe.v22i01.58385",
+      "cited_by_count": 0,
+      "concepts": [
+        "Finite element method",
+        "Topology (electrical circuits)",
+        "Deformation (meteorology)",
+        "Titanium alloy",
+        "Reduction (mathematics)",
+        "von Mises yield criterion",
+        "Structural engineering",
+        "Materials science",
+        "Topology optimization",
+        "Alloy",
+        "Mechanical engineering",
+        "Titanium",
+        "Engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "femoral stem"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文直接针对Ti-6Al-4V股骨柄进行拓扑优化设计，符合方向需求。",
+        "why_not_core": "No experimental validation (mechanical testing) was performed; only finite element simulations were used.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "topological optimization",
+          "femoral stem",
+          "Ti-6Al-4V",
+          "finite element analysis",
+          "mass reduction",
+          "ASTM F2996-20"
+        ],
+        "summary_zh": {
+          "motivation": "通过拓扑优化减轻股骨柄重量，提高力学兼容性。",
+          "method": "在SolidWorks建模，ANSYS有限元分析，按ASTM F2996-20评估不同质量保留率的设计。",
+          "result": "Ti-6Al-4V 25%质量保留率设计减重27.9%，安全系数高。",
+          "validation": "仅通过有限元模拟验证，无实验测试。"
+        },
+        "summary_en": {
+          "motivation": "To reduce weight and improve mechanical compatibility of femoral stems through topological optimization.",
+          "method": "3D models were built in SolidWorks and analyzed via finite element simulations in ANSYS following ASTM F2996-20 for six configurations varying material (Ti-6Al-4V vs CoCr) and retained mass percentage (25%, 35%, 45%).",
+          "result": "The Ti-6Al-4V configuration with 25% retained mass achieved a 27.9% weight reduction while maintaining high safety factors.",
+          "validation": "The study relied solely on finite element simulations without experimental mechanical testing."
+        },
+        "key_terms": [
+          {
+            "en": "topological optimization",
+            "zh": "拓扑优化"
+          },
+          {
+            "en": "femoral stem",
+            "zh": "股骨柄"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "ASTM F2996-20",
+            "zh": "ASTM F2996-20标准"
+          },
+          {
+            "en": "mass reduction",
+            "zh": "质量减轻"
+          },
+          {
+            "en": "von Mises stress",
+            "zh": "von Mises应力"
+          },
+          {
+            "en": "safety factor",
+            "zh": "安全系数"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:40:28Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W7125425209",
       "doi": "10.1016/j.matdes.2026.115533",
       "title": "Design and validation of Offset Split-P porous titanium implants for mandibular defect repair",
@@ -74,6 +202,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additively manufactured",
           "yield strength",
           "defect"
         ],
@@ -84,11 +213,11 @@
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是下颌骨修复植入物，而非股骨柄，与用户关注的Ti-6Al-4V股骨柄设计方向不匹配。",
-        "why_not_core": "This paper focuses on mandibular defect repair implants, not femoral or hip stems, and thus does not address hip stem structural design, stress shielding, or ISO fatigue testing for femoral stems.",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V增材制造多孔结构，但应用于下颌骨修复而非股骨柄，因此与用户关注的髋关节假体结构设计方向相关性较弱。",
+        "why_not_core": "The paper focuses on mandibular implant design and validation, not on femoral/hip stem structural design, stress shielding, or stem fatigue testing as required by the direction.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -98,62 +227,62 @@
         },
         "tags": [
           "Ti-6Al-4V",
+          "additive manufacturing",
           "lattice structure",
           "mandibular implant",
-          "TPMS",
-          "Offset Split-P",
-          "porous titanium"
+          "mechanical testing",
+          "biocompatibility"
         ],
         "summary_zh": {
-          "motivation": "下颌骨缺损修复需要高性能多孔植入物",
-          "method": "设计并制造了基于Offset Split-P晶格的梯度多孔Ti-6Al-4V下颌植入物",
-          "result": "该结构在力学性能、渗透性和生物相容性方面表现优异",
-          "validation": "通过压缩测试、细胞培养和腐蚀实验进行了验证"
+          "motivation": "为修复下颌骨缺损开发力学与生物学性能匹配的钛合金多孔植入体。",
+          "method": "采用偏移优化和梯度设计的Split-P三周期极小曲面晶格结构，结合仿真与实验评估。",
+          "result": "小尺度Offset Split-P结构在60-90%孔隙率下弹性模量与下颌骨匹配，并具有良好的生物相容性和耐腐蚀性。",
+          "validation": "通过压缩力学测试、细胞培养和腐蚀浸泡实验验证了结构性能。"
         },
         "summary_en": {
-          "motivation": "Mandibular defects require high-performance porous implants to address limited autograft resources.",
-          "method": "A gradient Offset Split-P lattice was designed and additively manufactured from Ti-6Al-4V for patient-specific mandibular implants.",
-          "result": "The structure achieved elastic modulus and yield strength matching mandibular bone, with enhanced cell proliferation and corrosion resistance.",
-          "validation": "Validation included mechanical compression tests, in vitro cell assays, and corrosion immersion experiments on small-scale specimens."
+          "motivation": "To develop a porous titanium implant with tailored mechanical and biological properties for mandibular defect repair.",
+          "method": "An offset-optimized and gradient-designed Split-P triply periodic minimal surface lattice was evaluated via mechanical simulations, fluid dynamics, compression testing, in vitro cell culture, and corrosion immersion.",
+          "result": "The small-scale Offset Split-P structures (porosity 60-90%) achieved elastic modulus matching mandibular bone (3.83-18.89 GPa), yield strength of 28.51-171.90 MPa, and demonstrated good biocompatibility and corrosion resistance.",
+          "validation": "Validation included compression mechanical testing, in vitro cell proliferation and differentiation assays, and corrosion immersion experiments."
         },
         "key_terms": [
           {
             "en": "Ti-6Al-4V",
-            "zh": "钛合金"
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
-            "en": "mandibular implant",
-            "zh": "下颌植入物"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           },
           {
-            "en": "lattice structure",
-            "zh": "晶格结构"
-          },
-          {
-            "en": "TPMS",
+            "en": "triply periodic minimal surface",
             "zh": "三周期极小曲面"
           },
           {
-            "en": "Offset Split-P",
-            "zh": "偏移Split-P"
+            "en": "Split-P lattice",
+            "zh": "Split-P晶格"
           },
           {
-            "en": "gradient design",
-            "zh": "梯度设计"
+            "en": "mandibular implant",
+            "zh": "下颌骨植入体"
           },
           {
-            "en": "porous titanium",
-            "zh": "多孔钛"
+            "en": "elastic modulus",
+            "zh": "弹性模量"
           },
           {
             "en": "biocompatibility",
             "zh": "生物相容性"
+          },
+          {
+            "en": "compression testing",
+            "zh": "压缩测试"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:23:51Z"
+      "first_seen_at": "2026-06-08T08:40:28Z"
     },
     {
       "source": "openalex",
@@ -224,8 +353,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是通过电火花加工表面改性提高Ti-6Al-4V合金的生物活性和抗菌性能，未涉及增材制造或后处理对力学性能的影响。",
-        "why_not_core": "No mechanical performance (fatigue/tensile) evaluation; focuses solely on bioactivity and antibacterial properties, not post-processing control for mechanical performance of AM Ti-6Al-4V.",
+        "relevance_to_user": "该论文专注于Ti-6Al-4V表面的生物活性和抗菌性能，而非力学性能，与用户的后处理对疲劳/力学性能的影响方向无关。",
+        "why_not_core": "No mechanical performance (fatigue/tensile) data; focuses on bioactivity and antibacterial properties, not on post-processing effects on mechanical properties.",
         "validation_kind": "in_vitro",
         "flags": {
           "has_experimental_validation": true,
@@ -234,33 +363,32 @@
           "is_review": false
         },
         "tags": [
-          "exclude",
+          "Ti-6Al-4V",
           "electrical discharge machining",
           "bioactivity",
           "antibacterial",
-          "Ti-6Al-4V",
           "surface modification"
         ],
         "summary_zh": {
-          "motivation": "为了解决钛合金植入物细菌感染和生物活性不足的问题",
-          "method": "使用电火花加工技术，在两种介电液下对Ti-6Al-4V表面进行改性和离子掺入",
-          "result": "含钙磷介电液处理表面具有最佳生物活性和抗菌效果，可显著减少金黄色葡萄球菌附着",
-          "validation": "通过模拟体液浸泡评估生物活性，并通过细菌附着实验评估抗菌性能"
+          "motivation": "提高Ti-6Al-4V植入物的生物活性和抗菌性能",
+          "method": "使用电火花加工（EDM）在不同介电液中处理Ti-6Al-4V表面",
+          "result": "含钙磷介电液处理表面促进矿化并显著减少细菌附着",
+          "validation": "在模拟体液中浸泡和金黄色葡萄球菌培养验证"
         },
         "summary_en": {
-          "motivation": "To address bacterial infections and poor bioactivity of titanium alloy implants.",
-          "method": "Electrical discharge machining was applied to Ti-6Al-4V surfaces using two dielectric fluids containing bioactive ions.",
-          "result": "Surfaces processed with Ca/P-containing dielectric exhibited enhanced mineralization and >80–90% reduction in S. aureus attachment.",
-          "validation": "Bioactivity was validated via SBF immersion for 21 days, and antibacterial performance via S. aureus culture assays."
+          "motivation": "To simultaneously improve bioactivity and antibacterial properties of Ti-6Al-4V implant surfaces.",
+          "method": "Ti-6Al-4V ELI surfaces were modified by electrical discharge machining using two dielectric fluids with different ion compositions and polarities.",
+          "result": "The Ca/P-containing dielectric under positive polarity produced surfaces with favorable Ca/P ratios and over 80–90% reduction in Staphylococcus aureus attachment.",
+          "validation": "Bioactivity was evaluated by immersion in simulated body fluid for 21 days, and antibacterial performance was assessed against Staphylococcus aureus."
         },
         "key_terms": [
           {
-            "en": "electrical discharge machining",
-            "zh": "电火花加工"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "钛合金Ti-6Al-4V"
+            "en": "electrical discharge machining",
+            "zh": "电火花加工"
           },
           {
             "en": "bioactivity",
@@ -271,10 +399,6 @@
             "zh": "抗菌"
           },
           {
-            "en": "surface modification",
-            "zh": "表面改性"
-          },
-          {
             "en": "simulated body fluid",
             "zh": "模拟体液"
           },
@@ -283,171 +407,180 @@
             "zh": "重铸层"
           },
           {
-            "en": "calcium phosphate",
-            "zh": "磷酸钙"
+            "en": "hydroxyapatite",
+            "zh": "羟基磷灰石"
+          },
+          {
+            "en": "Staphylococcus aureus",
+            "zh": "金黄色葡萄球菌"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:23:51Z"
+      "first_seen_at": "2026-06-08T08:40:28Z"
     },
     {
       "source": "openalex",
-      "id": "https://openalex.org/W7125377145",
-      "doi": "10.3991/ijoe.v22i01.58385",
-      "title": "Topological Optimization of the Femoral Stem",
-      "abstract": "The present study evaluates the structural behavior of a topologically optimized femoral stem, comparing two metallic materials commonly used in orthopedics: Ti-6Al-4V titanium and cobalt-chrome alloy (CoCr). The three-dimensional model was developed in SolidWorks and analyzed using finite element simulations in ANSYS, following the guidelines of ASTM F2996-20. Six optimized configurations were defined by varying the percentage of retained mass (25%, 35%, and 45%) for each material, assessing displacements, von Mises stresses, and mass reduction. The results show that the configurations with higher retained mass (J1 and J5) exhibited less deformation and more uniformly distributed stresses, remaining within the elastic regime. The optimized design in Ti-6Al-4V with 25% retained mass stood out, achieving a 27.9% weight reduction with high structural safety factors. This study confirms that topological optimization, when applied to clinically approved metallic materials, enables the development of orthopedic implants that are stronger, lighter, and mechanically compatible, contributing to sustainable surgical solutions.",
+      "id": "https://openalex.org/W7125499043",
+      "doi": "10.3390/coatings16010141",
+      "title": "Effect of V Content on Microstructure and Properties of TiNbZrVx Medium-Entropy Alloy Coatings on TC4 Substrate by Laser Cladding",
+      "abstract": "In order to improve the wear resistance of titanium alloy and apply it to the high-speed train brake disc, TiNbZrVx (x = 0, 0.2, 0.4, 0.6, 0.8) refractory medium-entropy alloy coatings were prepared on Ti-6Al-4V (TC4) substrate. The effect of V content on the microstructure, mechanical properties, and friction and wear properties of the coatings was studied. TiNbZrVx coatings achieved good metallurgical bonding with the substrate, forming BCC and B2 phases and AlZr3 intermetallic compound (IMC). From TiNbZr coating to TiNbZrV0.8 coating, V promotes element segregation and new phase formation, which decreased the average grain size from 85.055 μm to 56.515 μm, increased the average hardness from 265.5 HV to 343.4 HV, and reduced the room temperature (RT) wear rate by 97.8%. However, the ductility of the coatings decreased from 15.7% to 5.8% because the grain boundary precipitates changed the dislocation arrangement, and the tensile fracture mode changed from ductile fracture to brittle fracture. Abrasive wear was the main wear mode at RT, and adhesive wear and oxidation wear were the main wear modes at elevated temperature. The COF at elevated temperature was lower than that at RT, because a large number of friction pair components were transferred to the coating surface at high temperature and were repeatedly rolled to form a dense film, which played a certain lubricating role.",
       "authors": [
-        "José L. Serna-Landivar",
-        "Madelaine Violeta Risco Sernaqué",
-        "Daniela Milagros Anticona-Valderrama",
-        "Marleni Mendoza Damas",
-        "Maria Ysabel Garcia-Alvarez",
-        "William C. Algoner"
+        "Wen Zhang",
+        "Ying Wu",
+        "Chuan Yang",
+        "Yongsheng Zhao",
+        "Zhenhong Wang",
+        "Jia Yang",
+        "Wei Feng",
+        "Yang Deng",
+        "Junjie Zhang",
+        "Qingfeng Xian",
+        "Xingcheng Long",
+        "Zhirong Liang",
+        "Hui Chen"
       ],
-      "first_author_affiliation": "Universidad Científica del Sur, Lima, Peru",
+      "first_author_affiliation": "Key Laboratory of Advanced Technologies of Materials, Ministry of Education, School of Materials Science and Engineering, Southwest Jiaotong University, Chengdu 610031, China",
       "corresponding_authors": [
         {
-          "name": "José L. Serna-Landivar",
-          "affiliation": "Universidad Científica del Sur, Lima, Peru"
+          "name": "Wen Zhang",
+          "affiliation": "Key Laboratory of Advanced Technologies of Materials, Ministry of Education, School of Materials Science and Engineering, Southwest Jiaotong University, Chengdu 610031, China"
         }
       ],
-      "venue": "International Journal of Online and Biomedical Engineering (iJOE)",
+      "venue": "Coatings",
       "year": 2026,
       "date": "2026-01-22",
       "date_precision": "day",
-      "url": "https://doi.org/10.3991/ijoe.v22i01.58385",
+      "url": "https://doi.org/10.3390/coatings16010141",
       "cited_by_count": 0,
       "concepts": [
-        "Finite element method",
-        "Topology (electrical circuits)",
-        "Deformation (meteorology)",
-        "Titanium alloy",
-        "Reduction (mathematics)",
-        "von Mises yield criterion",
-        "Structural engineering",
         "Materials science",
-        "Topology optimization",
+        "Microstructure",
+        "Metallurgy",
+        "Coating",
+        "Intermetallic",
+        "Brittleness",
         "Alloy",
-        "Mechanical engineering",
-        "Titanium",
-        "Engineering"
+        "Abrasive",
+        "Composite material",
+        "Ductility (Earth science)",
+        "Ultimate tensile strength",
+        "Grain size",
+        "Grain boundary",
+        "Titanium alloy",
+        "Deformation (meteorology)",
+        "Layer (electronics)",
+        "Phase (matter)"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_femoral_stem"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "ti6al4v_femoral_stem",
-      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "ti6al4v_femoral_stem": [
+        "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
-          "femoral stem"
+          "TC4",
+          "microstructure",
+          "ductility"
         ]
       },
       "llm": {
-        "priority": "Medium",
-        "relevance_level": "Direct",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文针对Ti-6Al-4V股骨柄进行了拓扑优化和有限元分析，直接涉及植入体结构设计与力学性能评估，与用户方向高度相关。",
-        "why_not_core": "该研究仅为有限元仿真，缺乏实验验证（如机械测试或疲劳测试），且未涉及多孔结构、应力屏蔽或微动等关键生物力学分析。",
-        "validation_kind": "simulation_case",
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "论文研究的是激光熔覆TiNbZrVx涂层在TC4基体上的性能，而非增材制造Ti-6Al-4V本身的力学与疲劳性能。",
+        "why_not_core": "The paper does not study the mechanical/fatigue performance of additively manufactured Ti-6Al-4V; instead it focuses on a laser-cladded TiNbZrVx coating on a TC4 substrate, which is a different alloy and process.",
+        "validation_kind": "mechanical_testing",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "topological optimization",
-          "femoral stem",
-          "Ti-6Al-4V",
-          "finite element analysis",
-          "ASTM F2996-20",
-          "mass reduction",
-          "cobalt-chrome alloy"
+          "laser cladding",
+          "medium-entropy alloy",
+          "TC4 substrate",
+          "coatings",
+          "wear resistance"
         ],
         "summary_zh": {
-          "motivation": "评估拓扑优化股骨柄在两种金属材料下的结构行为，实现轻量化。",
-          "method": "使用SolidWorks建模，ANSYS有限元分析，按ASTM F2996-20标准评估不同保留质量百分比（25%、35%、45%）的构型。",
-          "result": "Ti-6Al-4V在25%保留质量时重量减少27.9%，结构安全系数高。",
-          "validation": "仅通过有限元模拟，无实验验证。"
+          "motivation": "为了提高钛合金的耐磨性，应用于高速列车制动盘。",
+          "method": "在TC4基体上激光熔覆制备不同V含量的TiNbZrVx涂层。",
+          "result": "V含量增加提高了硬度和耐磨性，但降低了延展性，断裂模式由韧性变为脆性。",
+          "validation": "通过微观结构、硬度、拉伸和磨损测试验证。"
         },
         "summary_en": {
-          "motivation": "To evaluate the structural performance of a topologically optimized femoral stem made of Ti-6Al-4V or CoCr for weight reduction while maintaining mechanical integrity.",
-          "method": "Finite element simulations in ANSYS following ASTM F2996-20 were performed on six optimized configurations with varied retained mass percentages (25%, 35%, 45%) for both Ti-6Al-4V and CoCr.",
-          "result": "The Ti-6Al-4V stem with 25% retained mass achieved a 27.9% weight reduction with high safety factors and remained in the elastic regime.",
-          "validation": "The study is purely computational with no experimental validation; results are based on FE simulations only."
+          "motivation": "To improve the wear resistance of titanium alloys for application in high-speed train brake discs.",
+          "method": "Laser cladding of TiNbZrVx medium-entropy alloy coatings with varying V content on TC4 substrates.",
+          "result": "Increasing V content enhanced hardness and wear resistance but reduced ductility, changing fracture from ductile to brittle.",
+          "validation": "Validated through microstructural analysis, hardness, tensile, and wear tests."
         },
         "key_terms": [
           {
-            "en": "topological optimization",
-            "zh": "拓扑优化"
+            "en": "laser cladding",
+            "zh": "激光熔覆"
           },
           {
-            "en": "femoral stem",
-            "zh": "股骨柄"
+            "en": "medium-entropy alloy",
+            "zh": "中熵合金"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "钛合金(Ti-6Al-4V)"
+            "en": "TC4 substrate",
+            "zh": "TC4基体"
           },
           {
-            "en": "cobalt-chrome alloy",
-            "zh": "钴铬合金"
+            "en": "wear resistance",
+            "zh": "耐磨性"
           },
           {
-            "en": "finite element analysis",
-            "zh": "有限元分析"
+            "en": "hardness",
+            "zh": "硬度"
           },
           {
-            "en": "mass reduction",
-            "zh": "质量减少"
+            "en": "ductility",
+            "zh": "延展性"
           },
           {
-            "en": "von Mises stress",
-            "zh": "冯·米塞斯应力"
+            "en": "BCC phase",
+            "zh": "BCC相"
           },
           {
-            "en": "ASTM F2996-20",
-            "zh": "ASTM F2996-20标准"
-          },
-          {
-            "en": "structural safety factor",
-            "zh": "结构安全系数"
-          },
-          {
-            "en": "orthopedic implant",
-            "zh": "骨科植入物"
+            "en": "B2 phase",
+            "zh": "B2相"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:23:51Z"
+      "first_seen_at": "2026-06-08T08:40:28Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 4,
     "by_source": {
-      "openalex": 3
+      "openalex": 4
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
       "ti6al4v_femoral_stem": 2,
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 3
+      "openalex": 4
     },
-    "scored": 3,
+    "scored": 4,
     "priority_counts": {
-      "Exclude": 2,
-      "Medium": 1
+      "Medium": 1,
+      "Low": 1,
+      "Exclude": 2
     }
   }
 }

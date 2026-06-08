@@ -77,11 +77,11 @@
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "论文探讨Ti-6Al-4V表面粗糙度对成纤维细胞的影响，而非力学性能，与用户关注的后处理对疲劳/力学性能的影响无关。",
-        "why_not_core": "No mechanical performance data (fatigue, tensile) measured; the study focuses on biological cell response, not the effect of post-processing on mechanical properties of AM Ti-6Al-4V.",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V表面粗糙度对成纤维细胞行为的影响，但未涉及力学性能（疲劳/拉伸），与用户关注的增材制造Ti-6Al-4V后处理对力学性能的调控方向不吻合。",
+        "why_not_core": "The paper investigates biological response (cell adhesion, cytotoxicity) to surface roughness, but provides no mechanical performance data (fatigue, tensile) and thus does not address the direction's focus on how post-processing modifies fatigue/mechanical performance of AM Ti-6Al-4V.",
         "validation_kind": "in_vitro",
         "flags": {
           "has_experimental_validation": true,
@@ -90,55 +90,54 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
           "surface roughness",
-          "in vitro",
+          "Ti-6Al-4V",
           "fibroblast",
-          "implant",
-          "post-processing"
+          "cytocompatibility",
+          "polishing"
         ],
         "summary_zh": {
-          "motivation": "评估钛合金表面粗糙度对成纤维细胞行为的影响",
-          "method": "制作三种不同表面光洁度的Ti-6Al-4V样品并进行体外细胞实验",
-          "result": "表面粗糙度对细胞活性、毒性和细胞外基质蛋白表达无显著影响",
-          "validation": "体外成纤维细胞实验"
+          "motivation": "评估不同表面粗糙度对钛植入物与成纤维细胞相容性的影响。",
+          "method": "制备三种不同表面光洁度的Ti-6Al-4V样品，进行细胞代谢活性、毒性和免疫细胞化学分析。",
+          "result": "表面粗糙度对成纤维细胞增殖、细胞毒性和ECM蛋白表达无显著影响。",
+          "validation": "通过体外细胞实验验证，使用NHDF细胞进行代谢、毒性和蛋白表达检测。"
         },
         "summary_en": {
-          "motivation": "To evaluate the effect of surface roughness of Ti-6Al-4V implants on human fibroblast cell behavior.",
-          "method": "Three Ti-6Al-4V samples with different surface finishes (non-polished, matte polished, mirror polished) were fabricated and tested with adult normal human dermal fibroblasts.",
-          "result": "No significant differences in metabolic activity, cytotoxicity, or ECM protein expression were observed across surface finishes.",
-          "validation": "In vitro cell assays with NHDFs."
+          "motivation": "This study aims to evaluate the effect of surface roughness of Ti-6Al-4V implants on fibroblast cell behavior to inform implant design. ",
+          "method": "Three surface finishes (non-polished, matte polished, mirror polished) were produced on Ti-6Al-4V samples and analyzed via cell metabolic activity, cytotoxicity, and immunocytochemistry assays using normal human dermal fibroblasts.",
+          "result": "No significant differences in cell proliferation, cytotoxicity, or extracellular matrix protein expression were observed among the surface finishes.",
+          "validation": "In vitro experiments with adult normal human dermal fibroblasts (NHDFs) were conducted, including MTT, LDH, and immunofluorescence assays."
         },
         "key_terms": [
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
-          },
-          {
             "en": "surface roughness",
             "zh": "表面粗糙度"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
           },
           {
             "en": "fibroblast",
             "zh": "成纤维细胞"
           },
           {
-            "en": "in vitro",
-            "zh": "体外"
+            "en": "cytotoxicity",
+            "zh": "细胞毒性"
           },
           {
-            "en": "implant",
-            "zh": "植入物"
+            "en": "polishing",
+            "zh": "抛光"
           },
           {
-            "en": "post-processing",
-            "zh": "后处理"
+            "en": "biocompatibility",
+            "zh": "生物相容性"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
     }
   ],
   "counts": {
@@ -156,7 +155,7 @@
     },
     "scored": 1,
     "priority_counts": {
-      "Exclude": 1
+      "Low": 1
     }
   }
 }

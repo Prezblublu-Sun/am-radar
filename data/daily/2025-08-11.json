@@ -45,28 +45,31 @@
       "categories": [],
       "raw_type": "review",
       "directions": [
-        "ti6al4v_postprocess",
-        "ti6al4v_base_mechanical_fatigue"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "additive manufacturing",
+          "selective laser melting",
+          "electron beam melting",
+          "porosity"
+        ],
         "ti6al4v_postprocess": [
           "Ti6Al4V",
           "machining",
           "post-processing"
-        ],
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti6Al4V",
-          "porosity"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文综述了踝关节置换术的合金选择和制造技术，未涉及Ti-6Al-4V增材制造的后处理对疲劳性能的影响。",
-        "why_not_core": "The paper is a narrative review on total ankle arthroplasty implant materials and manufacturing, not a study on post-processing of AM Ti-6Al-4V for fatigue/mechanical performance; it does not provide experimental data or modeling on any post-processing treatment.",
+        "read_action": "Background only",
+        "relevance_to_user": "这篇综述提到了Ti-6Al-4V和后处理需求，但没有具体研究后处理对力学性能的影响，因此与L2方向核心关注点不直接相关。",
+        "why_not_core": "This is a narrative review on alloy selection and manufacturing for ankle implants, not a study on how post-processing modifies fatigue or mechanical performance of Ti-6Al-4V.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
@@ -76,22 +79,22 @@
         },
         "tags": [
           "total ankle arthroplasty",
-          "alloy selection",
+          "cobalt-chromium alloys",
+          "Ti-6Al-4V",
           "additive manufacturing",
-          "Ti6Al4V",
-          "review"
+          "post-processing"
         ],
         "summary_zh": {
-          "motivation": "综述全踝关节置换术中合金选择和制造技术的发展。",
-          "method": "叙述性综述，分析各类合金和制造技术的优缺点。",
-          "result": "钛合金具有生物相容性优势，但耐磨性差；增材制造可实现个性化植入物，但需后处理。",
-          "validation": "文献综述，无实验验证。"
+          "motivation": "综述全踝关节置换术中合金选择和制造技术的进展。",
+          "method": "采用叙述性综述方法，分析主要合金体系和制造工艺。",
+          "result": "指出Ti6Al4V具有良好的生物相容性，但存在摩擦学限制；增材制造虽可实现个性化几何形状，但面临残余应力和后处理需求。",
+          "validation": "无实验验证，基于文献综述。"
         },
         "summary_en": {
-          "motivation": "To review the metallurgical foundations and manufacturing technologies for total ankle arthroplasty implants.",
-          "method": "A narrative review of primary alloy systems (Co-Cr, Ti6Al4V, β-Ti) and manufacturing methods (traditional vs. additive).",
-          "result": "Titanium alloys offer biocompatibility benefits but suffer from tribological limitations; additive manufacturing enables patient-specific designs but requires post-processing.",
-          "validation": "No experimental validation; this is a review article."
+          "motivation": "To review the metallurgical foundations and manufacturing technologies for total ankle arthroplasty implants, focusing on alloy systems and their mechanical properties.",
+          "method": "A narrative review analyzing primary alloy systems, mechanical properties, and manufacturing techniques including additive manufacturing.",
+          "result": "Ti6Al4V offers good biocompatibility but tribological limits; novel β-titanium alloys eliminate toxic elements; additive manufacturing enables patient-specific geometries but requires post-processing.",
+          "validation": "No experimental validation; the paper is a literature review without original data."
         },
         "key_terms": [
           {
@@ -99,38 +102,46 @@
             "zh": "全踝关节置换术"
           },
           {
+            "en": "cobalt-chromium alloys",
+            "zh": "钴铬合金"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "β-titanium alloys",
+            "zh": "β钛合金"
+          },
+          {
             "en": "additive manufacturing",
             "zh": "增材制造"
           },
           {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V钛合金"
-          },
-          {
             "en": "selective laser melting",
-            "zh": "选区激光熔化"
+            "zh": "选择性激光熔融"
           },
           {
             "en": "electron beam melting",
-            "zh": "电子束熔化"
+            "zh": "电子束熔融"
           },
           {
             "en": "post-processing",
             "zh": "后处理"
           },
           {
-            "en": "biocompatibility",
-            "zh": "生物相容性"
-          },
-          {
             "en": "elastic modulus",
             "zh": "弹性模量"
+          },
+          {
+            "en": "biocompatibility",
+            "zh": "生物相容性"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
     },
     {
       "source": "openalex",
@@ -179,6 +190,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "microstructure",
           "residual stress",
           "fatigue",
           "fatigue crack initiation"
@@ -190,12 +202,12 @@
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文未涉及增材制造Ti-6Al-4V的后处理，而是针对传统制造方式的疲劳裂纹预测，因此与用户方向无关。",
-        "why_not_core": "The paper does not address additive manufacturing (AM) Ti-6Al-4V; it studies conventionally manufactured aerospace-grade Ti-6Al-4V. No post-processing treatment relevant to AM (e.g., heat treatment, HIP, surface treatments) is investigated; the only processing considered is machining, which is not framed as a post-processing control for AM.",
-        "validation_kind": "none",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究机加工后传统Ti-6Al-4V的疲劳萌生，未涉及增材制造Ti-6Al-4V的后处理效果。",
+        "why_not_core": "Paper does not address additive manufacturing (AM) Ti-6Al-4V; it focuses on conventionally fabricated material in as-machined condition, lacking direct relevance to AM post-processing control.",
+        "validation_kind": "simulation_case",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
@@ -205,21 +217,21 @@
         "tags": [
           "crystal plasticity",
           "fatigue crack initiation",
-          "Ti-6Al-4V",
           "machining",
-          "surface integrity"
+          "surface integrity",
+          "Ti-6Al-4V"
         ],
         "summary_zh": {
-          "motivation": "预测航空级Ti-6Al-4V加工表面疲劳裂纹萌生机制",
-          "method": "集成EBSD重构微观结构和残余应力的CPFEM模型",
-          "result": "疲劳萌生由表面拓扑和应变积累主导，Schmid因子不足以解释热点",
-          "validation": "未公开实验验证，依赖数值仿真与极值统计"
+          "motivation": "研究机加工后Ti-6Al-4V疲劳裂纹萌生机制。",
+          "method": "采用晶体塑性有限元法结合表面完整性参数进行模拟。",
+          "result": "裂纹萌生受表面形貌和应变积累控制。",
+          "validation": "无实验验证，仅数值模拟。"
         },
         "summary_en": {
-          "motivation": "To predict fatigue crack initiation in aerospace-grade Ti-6Al-4V by incorporating surface integrity from machining.",
-          "method": "A CPFEM approach integrating EBSD-reconstructed microstructure, deformation history, residual stress, and milling-induced roughness.",
-          "result": "Fatigue initiation is highly localized and driven by surface topology and strain accumulation, with Schmid factor insufficient to explain hotspots.",
-          "validation": "No explicit experimental validation; relies on Extreme Value Statistics from simulation results."
+          "motivation": "To predict fatigue crack initiation in as-machined Ti-6Al-4V using a surface integrity-informed crystal plasticity model.",
+          "method": "A CPFEM approach integrating EBSD-reconstructed microstructure, residual stress, and milling-induced roughness.",
+          "result": "Fatigue initiation is localized, driven by surface topology and crystallographic variations.",
+          "validation": "No experimental validation; simulation-based study."
         },
         "key_terms": [
           {
@@ -231,52 +243,320 @@
             "zh": "疲劳裂纹萌生"
           },
           {
+            "en": "surface integrity",
+            "zh": "表面完整性"
+          },
+          {
+            "en": "machining",
+            "zh": "机加工"
+          },
+          {
             "en": "Ti-6Al-4V",
             "zh": "Ti-6Al-4V钛合金"
           },
           {
-            "en": "electron backscatter diffraction",
+            "en": "EBSD",
             "zh": "电子背散射衍射"
           },
           {
             "en": "residual stress",
             "zh": "残余应力"
-          },
-          {
-            "en": "surface integrity",
-            "zh": "表面完整性"
-          },
-          {
-            "en": "milling",
-            "zh": "铣削"
-          },
-          {
-            "en": "extreme value statistics",
-            "zh": "极值统计"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413218486",
+      "doi": "10.3390/ma18163756",
+      "title": "Effect of Geometry on Local Microstructure in Ti-6Al-4V Fabricated by Laser Powder Bed Fusion",
+      "abstract": "Laser powder bed fusion (L-PBF) is a unique technology that enables manufacturing geometrically complex metal alloys, including Ti-6Al-4V parts. The microstructure of Ti-6Al-4V is determined by its localized thermal history, which is affected by not only the L-PBF process but also the geometry of the part. Understanding the microstructure at specific locations in complex geometries is of great importance in predicting the mechanical performance of Ti-6Al-4V parts. This work investigates the effects of geometric features on the local microstructure. Three geometries, namely, holes, overhangs, and penholders, were designed and used for this study. Three different laser powers, namely 150 W, 250 W, and 350 W, were set to print those geometries. The use of a lower laser power results in improved print quality. While the martensite phase dominates the bulk of the L-PBF Ti-6Al-4V parts, a fine α+β lamellar structure can form at down-skin regions of printed horizontal holes and overhangs. Moreover, the direction of the columnar prime β grain can shift due to directional heat dissipation. The local microstructural evolution after heat treatment is investigated as well.",
+      "authors": [
+        "Chengshang Zhou",
+        "Noah Garcia",
+        "Runlin Pu",
+        "Pei Sun",
+        "Zhigang Zak Fang"
+      ],
+      "first_author_affiliation": "Department of Materials Science and Engineering, The University of Utah, Salt Lake City, UT 84112-0114, USA",
+      "corresponding_authors": [
+        {
+          "name": "Chengshang Zhou",
+          "affiliation": "Department of Materials Science and Engineering, The University of Utah, Salt Lake City, UT 84112-0114, USA"
+        },
+        {
+          "name": "Zhigang Zak Fang",
+          "affiliation": "Department of Materials Science and Engineering, The University of Utah, Salt Lake City, UT 84112-0114, USA"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-08-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18163756",
+      "cited_by_count": 2,
+      "concepts": [
+        "Microstructure",
+        "Materials science",
+        "Fusion",
+        "Lamellar structure",
+        "Titanium alloy",
+        "Laser",
+        "Laser power scaling",
+        "Composite material",
+        "Martensite",
+        "Work (physics)",
+        "Thermal",
+        "Phase (matter)",
+        "Geometry",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "microstructure"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文虽涉及Ti-6Al-4V及热处理，但核心关注几何对微观组织的影响，而非后处理对力学性能的调控。",
+        "why_not_core": "This paper focuses on geometry-induced microstructure variations rather than systematically studying post-processing effects on mechanical performance (fatigue, tensile).",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "L-PBF",
+          "microstructure",
+          "geometry",
+          "heat treatment"
+        ],
+        "summary_zh": {
+          "motivation": "研究几何特征对L-PBF Ti-6Al-4V局部微观组织的影响。",
+          "method": "设计孔、悬垂、笔架三种几何，用150-350W激光功率打印并表征微观组织。",
+          "result": "低功率改善打印质量，下表面形成细α+β层状结构，柱状β晶方向因散热改变。",
+          "validation": "通过实验观察微观组织。"
+        },
+        "summary_en": {
+          "motivation": "To investigate how geometric features influence the local microstructure of Ti-6Al-4V parts fabricated by L-PBF.",
+          "method": "Three geometries (holes, overhangs, penholders) were printed with laser powers of 150, 250, and 350 W, followed by microstructural characterization.",
+          "result": "Lower laser power improved print quality; fine α+β lamellar structure formed at down-skin regions; columnar β grain direction shifted due to directional heat dissipation.",
+          "validation": "Experimental microstructural analysis via microscopy."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "geometry",
+            "zh": "几何结构"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "martensite",
+            "zh": "马氏体"
+          },
+          {
+            "en": "α+β lamellar",
+            "zh": "α+β层状结构"
+          },
+          {
+            "en": "columnar β grain",
+            "zh": "柱状β晶粒"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413106359",
+      "doi": "10.1021/acs.langmuir.5c01811",
+      "title": "Effect of Graphene Oxide-Based Nanodielectric on Electrical Discharge Machining Performance of Ti-6Al-4 V",
+      "abstract": "Graphene oxide (GO), a two-dimensional nanomaterial, exhibits exceptional electrical and thermal conductivity as well as outstanding tensile strength. In this study, GO nanosheets were dispersed into the dielectric fluid during electrical discharge machining (EDM) of Ti-6Al-4V alloy using copper electrodes, enabling a comprehensive evaluation of the modified dielectric's behavior and the alloy's impact on machining performance. The incorporation of GO significantly influenced both the material removal rate (MRR) and the electrode wear ratio (EWR). Surface morphology analysis using scanning electron microscopy (SEM) revealed that GO effectively suppressed the formation of microcracks on the machined surfaces of Ti-6Al-4V. Under optimized machining parameters─specifically, a peak current of 30 A and a pulse duration of 300 μs─employing 0.2 wt % GO in the dielectric resulted in notable enhancements: the MRR increased by 79.3%, the EWR decreased by approximately 41.3%, and the surface roughness improved by about 38.5%. Additional verification through comparative vibration analysis and waveform evaluation confirmed that the introduction of GO substantially improves EDM efficiency, surface quality, and process stability.",
+      "authors": [
+        "Zhengxian Yang",
+        "Zihan Wang",
+        "Jinjin Li",
+        "Songlin Ding",
+        "Shuang Yi"
+      ],
+      "first_author_affiliation": "Nanjing University of Science and Technology",
+      "corresponding_authors": [
+        {
+          "name": "Shuang Yi",
+          "affiliation": "Nanjing University of Science and Technology"
+        }
+      ],
+      "venue": "Langmuir",
+      "year": 2025,
+      "date": "2025-08-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1021/acs.langmuir.5c01811",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Graphene",
+        "Electrical discharge machining",
+        "Machining",
+        "Surface roughness",
+        "Oxide",
+        "Scanning electron microscope",
+        "Dielectric",
+        "Composite material",
+        "Electrode",
+        "Alloy",
+        "Ultimate tensile strength",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "tensile strength",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究Ti-6Al-4V的放电加工性能，而非后处理对力学性能的影响。",
+        "why_not_core": "No evaluation of post-processing effect on fatigue or mechanical properties; focuses on machining performance metrics (MRR, EWR, surface roughness), not on how EDM modifies mechanical performance.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "graphene oxide",
+          "electrical discharge machining",
+          "Ti-6Al-4V",
+          "surface roughness",
+          "material removal rate"
+        ],
+        "summary_zh": {
+          "motivation": "提高Ti-6Al-4V合金放电加工性能，通过添加氧化石墨烯改善介电液。",
+          "method": "实验研究不同浓度氧化石墨烯介电液下的放电加工参数。",
+          "result": "0.2%GO使材料去除率提高79.3%，电极损耗降低41.3%，表面粗糙度改善38.5%。",
+          "validation": "通过扫描电镜、振动分析和波形评估验证加工效果。"
+        },
+        "summary_en": {
+          "motivation": "To enhance the electrical discharge machining performance of Ti-6Al-4V alloy by dispersing graphene oxide in the dielectric fluid.",
+          "method": "Experimental investigation of EDM with varying GO concentrations and machining parameters using copper electrodes.",
+          "result": "Addition of 0.2 wt% GO increased material removal rate by 79.3%, reduced electrode wear ratio by 41.3%, and improved surface roughness by 38.5%.",
+          "validation": "Validation via SEM surface morphology, comparative vibration analysis, and waveform evaluation."
+        },
+        "key_terms": [
+          {
+            "en": "graphene oxide",
+            "zh": "氧化石墨烯"
+          },
+          {
+            "en": "electrical discharge machining",
+            "zh": "放电加工"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "material removal rate",
+            "zh": "材料去除率"
+          },
+          {
+            "en": "electrode wear ratio",
+            "zh": "电极损耗比"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "dielectric fluid",
+            "zh": "介电液"
+          },
+          {
+            "en": "copper electrode",
+            "zh": "铜电极"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 4,
     "by_source": {
-      "openalex": 2
+      "openalex": 4
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
-      "ti6al4v_postprocess": 2
+      "ti6al4v_postprocess": 4
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 4
     },
-    "scored": 2,
+    "scored": 4,
     "priority_counts": {
-      "Exclude": 2
+      "Low": 4
     }
   }
 }

@@ -50,40 +50,43 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "powder bed fusion",
           "porosity"
         ]
       },
       "llm": {
-        "priority": "Medium",
-        "relevance_level": "Transferable",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文建立了Ti-6Al-4V激光粉末床熔融过程中的孔隙率预测模型，对理解缺陷对力学性能的影响有参考价值。",
-        "why_not_core": "The paper does not report any mechanical or fatigue testing; it focuses on porosity prediction rather than direct mechanical characterization.",
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文针对Ti-6Al-4V的激光粉末床熔融过程，建立了物理信息驱动的熔池模型预测孔隙率，直接关联增材制造Ti-6Al-4V的缺陷与力学性能。",
+        "why_not_core": "This paper does not report any mechanical or fatigue test results (e.g., tensile strength, S-N curves); it focuses solely on porosity prediction from a computational model.",
         "validation_kind": "numerical_benchmark",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "porosity prediction",
-          "melt pool model",
           "Ti-6Al-4V",
           "PBF-LB",
-          "physics-informed"
+          "porosity prediction",
+          "physics-informed model",
+          "melt pool dynamics",
+          "computational framework"
         ],
         "summary_zh": {
-          "motivation": "预测Ti-6Al-4V增材制造中的孔隙缺陷，以提升部件可靠性。",
-          "method": "基于物理信息的熔池模型，耦合瞬态热场、熔池动力学与逐层液相分数。",
-          "result": "模型准确预测了不同工艺参数下的孔隙率，与实验数据吻合良好。",
+          "motivation": "激光粉末床熔融过程中孔隙缺陷限制Ti-6Al-4V零件应用，需精确预测孔隙率。",
+          "method": "建立考虑瞬态热场、熔池动力学和温度依赖材料属性的物理信息模型，并开发图形界面。",
+          "result": "模型预测的孔隙率与文献实验数据（阿基米德、μ-CT、金相）定量一致。",
           "validation": "利用文献中的熔池几何和孔隙率实验数据进行验证。"
         },
         "summary_en": {
-          "motivation": "To predict porosity defects in additively manufactured Ti-6Al-4V parts, which are critical for mechanical performance.",
-          "method": "A physics-informed computational framework resolving transient thermal fields, melt pool dynamics, and layer-wise liquid fractions with temperature-dependent material properties.",
-          "result": "The model accurately predicts porosity levels under varying laser power and scan speed, showing strong consistency with experimental data.",
-          "validation": "Validation against literature-reported melt pool geometries and porosity measurements from Archimedes, µ-CT, and micrography."
+          "motivation": "Porosity defects in laser powder bed fusion of Ti-6Al-4V limit its application, necessitating accurate prediction models.",
+          "method": "A physics-informed computational framework resolving transient thermal fields, melt pool dynamics, and temperature-dependent material properties was developed with a graphical user interface.",
+          "result": "The model predictions of porosity showed strong quantitative agreement with literature experimental data (Archimedes, µ-CT, micrograph).",
+          "validation": "Validation was performed against experimentally reported melt pool geometries and porosity datasets from the literature."
         },
         "key_terms": [
           {
@@ -91,38 +94,34 @@
             "zh": "激光粉末床熔融"
           },
           {
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "melt pool dynamics",
+            "zh": "熔池动力学"
+          },
+          {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "porosity prediction",
-            "zh": "孔隙率预测"
+            "en": "physics-informed model",
+            "zh": "物理信息模型"
           },
           {
-            "en": "melt pool model",
-            "zh": "熔池模型"
+            "en": "computational fluid dynamics",
+            "zh": "计算流体动力学"
           },
           {
-            "en": "physics-informed",
-            "zh": "物理信息驱动"
-          },
-          {
-            "en": "process parameters",
-            "zh": "工艺参数"
-          },
-          {
-            "en": "validation",
-            "zh": "验证"
-          },
-          {
-            "en": "defect",
-            "zh": "缺陷"
+            "en": "process-induced defects",
+            "zh": "工艺缺陷"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
@@ -140,7 +139,7 @@
     },
     "scored": 1,
     "priority_counts": {
-      "Medium": 1
+      "High": 1
     }
   }
 }

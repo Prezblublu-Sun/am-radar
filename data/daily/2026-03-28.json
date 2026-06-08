@@ -5,6 +5,131 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W7142532025",
+      "doi": "10.31224/6710",
+      "title": "Probabilistic Framework for Effective Wall Width Estimation in Wire Arc Additive Manufacturing",
+      "abstract": "Wire Arc Additive Manufacturing (WAAM) is a layer-by-layer metal additive manufacturing process that uses wire feedstock and an electric arc to build metallic components. Accurate estimation of Effective Wall Width (EWW) is important for dimensional consistency and structural integrity. This work contributes a probabilistic uncertainty-quantification framework for estimating EWW in WAAM under uncertain process inputs. The framework combines literature-based thermophysical and geometric relations to express EWW as a function of key process parameters, including heat input, wire feed speed, travel speed, and wire cross-sectional area. For Ti-6Al-4V deposition, the uncertain inputs were modeled as independent Gaussian random variables with a coefficient of variation of 15%. Monte Carlo Simulation was first used to propagate input uncertainty, while the unknown layer angle (θ) was estimated for each sample using a nonlinear solver. A lognormal distribution was then fitted to the resulting θ values and incorporated into the computational framework. To improve estimation efficiency, numerical optimization was used to identify the most probable input region contributing to EWW, and Importance Sampling was subsequently applied for variance-reduced estimation. Failure probability was estimated using quantile-based thresholding of the simulated EWW values. Overall, the study establishes a computational foundation for uncertainty-aware assessment of WAAM geometry and provides a basis for future data-informed refinement and validation.",
+      "authors": [
+        "Tasbirul Zihan"
+      ],
+      "first_author_affiliation": "University of Oklahoma",
+      "corresponding_authors": [
+        {
+          "name": "Tasbirul Zihan",
+          "affiliation": "University of Oklahoma"
+        }
+      ],
+      "venue": "",
+      "year": 2026,
+      "date": "2026-03-28",
+      "date_precision": "day",
+      "url": "https://doi.org/10.31224/6710",
+      "cited_by_count": 0,
+      "concepts": [
+        "Probabilistic logic",
+        "Random variable",
+        "Monte Carlo method",
+        "Mathematical optimization",
+        "Uncertainty quantification",
+        "Consistency (knowledge bases)",
+        "Nonlinear system",
+        "Gaussian",
+        "Algorithm",
+        "Computer science",
+        "Probability distribution",
+        "Work (physics)",
+        "Mathematics",
+        "Kriging",
+        "Process (computing)",
+        "Log-normal distribution",
+        "Importance sampling",
+        "Cumulative distribution function",
+        "Function (biology)",
+        "Sampling (signal processing)",
+        "Stochastic process",
+        "Random variate",
+        "Projection (relational algebra)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "wire arc additive"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文关注Ti-6Al-4V线弧增材制造中的有效壁厚概率估计，但未涉及力学或疲劳性能，与用户对增材制造Ti-6Al-4V力学/疲劳性能的研究方向关联较弱。",
+        "why_not_core": "No mechanical or fatigue data reported; focuses on geometric estimation rather than mechanical characterization.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": true,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "WAAM",
+          "Ti-6Al-4V",
+          "effective wall width",
+          "uncertainty quantification",
+          "probabilistic framework"
+        ],
+        "summary_zh": {
+          "motivation": "准确估计线弧增材制造Ti-6Al-4V的有效壁厚对尺寸一致性和结构完整性至关重要。",
+          "method": "基于文献热物理和几何关系，结合蒙特卡洛模拟和重要性抽样，构建了概率不确定性量化框架。",
+          "result": "通过量化不确定性，估计了有效壁厚的分布，并利用分位数阈值计算了失效概率。",
+          "validation": "仅采用数值模拟，未进行实验验证。"
+        },
+        "summary_en": {
+          "motivation": "Accurate estimation of Effective Wall Width (EWW) in Wire Arc Additive Manufacturing (WAAM) is crucial for dimensional consistency and structural integrity.",
+          "method": "A probabilistic framework combining literature-based thermophysical and geometric relations with Monte Carlo simulation and importance sampling was developed to estimate EWW under uncertain process inputs.",
+          "result": "The framework provides uncertainty-aware EWW estimates and failure probability via quantile-based thresholding of simulated values.",
+          "validation": "No experimental validation was performed; the study is purely computational."
+        },
+        "key_terms": [
+          {
+            "en": "Wire Arc Additive Manufacturing",
+            "zh": "线弧增材制造"
+          },
+          {
+            "en": "effective wall width",
+            "zh": "有效壁厚"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "uncertainty quantification",
+            "zh": "不确定性量化"
+          },
+          {
+            "en": "Monte Carlo simulation",
+            "zh": "蒙特卡洛模拟"
+          },
+          {
+            "en": "importance sampling",
+            "zh": "重要性抽样"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W7142407921",
       "doi": "10.1016/j.jmrt.2026.03.248",
       "title": "Synergistic effects of TC4 and heat treatment on the microstructure, mechanical properties, and high-temperature oxidation properties of laser-deposited GH4169 alloys",
@@ -52,6 +177,8 @@
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "TC4",
+          "additive manufacturing",
+          "microstructure",
           "tensile strength",
           "yield strength",
           "elongation"
@@ -67,8 +194,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究了TC4增强GH4169合金的热处理效果，而非纯Ti-6Al-4V的后处理，与用户方向无关。",
-        "why_not_core": "The paper focuses on GH4169 Ni-based superalloy, not on Ti-6Al-4V; the post-processing is applied to the composite, not to pure Ti-6Al-4V.",
+        "relevance_to_user": "该论文主要研究GH4169镍基合金，TC4仅作为增强相添加，未涉及Ti-6Al-4V的后处理工艺对其自身性能的影响。",
+        "why_not_core": "This paper does not study post-processing of Ti-6Al-4V; instead it uses Ti-6Al-4V as a reinforcement in GH4169 alloy and applies heat treatment to the composite, not to Ti-6Al-4V itself.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -77,61 +204,178 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V reinforcement",
+          "laser melting deposition",
           "GH4169",
+          "Ti-6Al-4V",
           "heat treatment",
-          "laser melting deposition"
+          "tensile properties",
+          "oxidation resistance"
         ],
         "summary_zh": {
-          "motivation": "探索TC4添加和热处理对GH4169合金微观结构及性能的协同影响。",
-          "method": "激光熔化沉积制备不同TC4含量的GH4169复合材料，并进行均匀化+双时效热处理。",
-          "result": "热处理提升了5TC4/GH4169的屈服强度45%和延伸率28%，高温氧化增重降低9%。",
-          "validation": "通过微观结构表征、拉伸测试和800°C氧化实验验证。"
+          "motivation": "探究TC4添加和热处理对激光沉积GH4169合金的协同影响",
+          "method": "通过激光熔融沉积制备TC4/GH4169复合材料并进行匀质+双时效处理",
+          "result": "TC4和热处理协同提高强度45%和延伸率28%，并改善抗氧化性",
+          "validation": "拉伸测试和800°C氧化实验验证性能提升"
         },
         "summary_en": {
-          "motivation": "To investigate the synergistic effect of TC4 addition and heat treatment on the microstructure and properties of GH4169 alloy.",
-          "method": "GH4169 composites with varying TC4 content were fabricated by laser melting deposition and subjected to homogenization plus dual aging heat treatment.",
-          "result": "The heat treatment increased yield strength by 45% and elongation by 28% in the 5TC4/GH4169 composite, and reduced high-temperature oxidation mass gain by 9%.",
-          "validation": "Microstructural analysis, tensile testing, and oxidation experiments at 800°C were conducted."
+          "motivation": "This study investigates the synergistic effects of Ti-6Al-4V addition and homogenization plus dual aging heat treatment on the microstructure, tensile properties, and high-temperature oxidation resistance of GH4169 alloys.",
+          "method": "Laser melting deposition was used to fabricate GH4169 composites with TC4 addition, followed by homogenization and dual aging heat treatment.",
+          "result": "The combined TC4 addition and heat treatment increased yield strength by 45% and elongation by 28%, while improving oxidation resistance.",
+          "validation": "Tensile tests and high-temperature oxidation tests at 800°C were conducted to validate the mechanical and oxidation performance."
         },
         "key_terms": [
           {
             "en": "laser melting deposition",
-            "zh": "激光熔化沉积"
+            "zh": "激光熔融沉积"
           },
           {
-            "en": "GH4169 superalloy",
-            "zh": "GH4169高温合金"
+            "en": "GH4169",
+            "zh": "GH4169合金"
           },
           {
-            "en": "Ti-6Al-4V reinforcement",
-            "zh": "Ti-6Al-4V增强"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "homogenization plus dual aging",
-            "zh": "均匀化+双时效"
+            "en": "heat treatment",
+            "zh": "热处理"
           },
           {
             "en": "tensile properties",
             "zh": "拉伸性能"
           },
           {
-            "en": "high-temperature oxidation",
-            "zh": "高温氧化"
-          },
-          {
-            "en": "precipitation strengthening",
-            "zh": "析出强化"
-          },
-          {
-            "en": "dislocation strengthening",
-            "zh": "位错强化"
+            "en": "oxidation resistance",
+            "zh": "抗氧化性"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7143447955",
+      "doi": "10.51271/jccvs-0068",
+      "title": "Biomechanical comparison of commercially pure titanium and Ti-6Al-4V grade 5 sternal plates under static and dynamic loading conditions",
+      "abstract": "Aims: Secure sternal fixation following median sternotomy is essential to prevent postoperative complications such as pain, respiratory dysfunction, sternal dehiscence, and mediastinitis. While Ti-6Al-4V Grade 5 titanium is widely used due to its high static strength, its excessive rigidity and limited ductility may compromise anatomical adaptation and fatigue performance. Commercially pure (CP) titanium, with mechanical properties closer to 316L stainless steel, may offer improved ductility without sacrificing fixation stability. This study aimed to compare the biomechanical behavior of CP titanium and Ti-6Al-4V Grade 5 sternal plates under static and dynamic loading conditions simulating physiological respiratory forces. Methods: Straight, six-hole locked sternal plates manufactured from CP titanium (Grade 2/4) and Grade 5 titanium were evaluated. Static three-point bending tests and dynamic fatigue tests were performed using an Instron universal testing machine. A peak load of 250 N was applied to simulate clinically relevant sternal dehiscence forces, followed by cyclic loading up to 1,000,000 cycles at physiological frequencies. Load–displacement behavior, yield strength, displacement, and failure modes were analyzed and statistically compared. Results: All constructs demonstrated plastic deformation without screw loosening, pull-out, or screw fracture. Catastrophic plate failure occurred exclusively in Grade 5 titanium plates, characterized by a shorter plastic deformation phase and abrupt fracture at the screw hole adjacent to the bending zone. In contrast, CP titanium plates exhibited prolonged plastic deformation without catastrophic failure under the same loading conditions. After 1 million fatigue cycles at 250 N, both materials maintained construct integrity, with no statistically significant difference in post-fatigue displacement (P &gt; 0.05). Conclusion: CP titanium sternal plates provide biomechanical performance comparable to Grade 5 titanium under clinically relevant static and dynamic loads while offering superior ductility and anatomical adaptability. These findings suggest that CP titanium represents a safe and clinically advantageous alternative to Grade 5 titanium for sternal fixation, particularly in anatomically complex and dynamically loaded environments.",
+      "authors": [
+        "Mehmet Kabalcı"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Mehmet Kabalcı",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Journal of Cardiology & Cardiovascular Surgery",
+      "year": 2026,
+      "date": "2026-03-28",
+      "date_precision": "day",
+      "url": "https://doi.org/10.51271/jccvs-0068",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Titanium",
+        "Fixation (population genetics)",
+        "Catastrophic failure",
+        "Deformation (meteorology)",
+        "Composite material",
+        "Ductility (Earth science)",
+        "Bending",
+        "Dynamic loading",
+        "Titanium alloy",
+        "Structural engineering",
+        "Biomechanics",
+        "Failure assessment",
+        "Rigidity (electromagnetism)",
+        "Ultimate failure"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "grade 5 titanium",
+          "yield strength",
+          "ductility",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是常规制造的Ti-6Al-4V胸骨板，与增材制造Ti-6Al-4V的力学性能方向无关。",
+        "why_not_core": "The paper does not involve additive manufacturing of Ti-6Al-4V; it studies conventionally manufactured sternal plates, which is outside the scope.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "commercially pure titanium",
+          "sternal plates",
+          "static testing",
+          "fatigue testing"
+        ],
+        "summary_zh": {
+          "motivation": "比较纯钛与Ti-6Al-4V胸骨板在生理负荷下的力学性能。",
+          "method": "对CP钛和Grade 5钛胸骨板进行三点弯曲和疲劳测试。",
+          "result": "CP钛板表现出更好的延展性，无灾难性失效。",
+          "validation": "通过实验力学测试验证。"
+        },
+        "summary_en": {
+          "motivation": "To compare the biomechanical performance of commercially pure titanium and Ti-6Al-4V grade 5 sternal plates under physiological loading.",
+          "method": "Static three-point bending and dynamic fatigue tests were conducted on CP titanium and Grade 5 titanium locked sternal plates.",
+          "result": "CP titanium plates exhibited superior ductility and no catastrophic failure, while Grade 5 plates showed abrupt fracture.",
+          "validation": "Experimental mechanical testing including static and cyclic loading."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "commercially pure titanium",
+            "zh": "商业纯钛"
+          },
+          {
+            "en": "sternal plate",
+            "zh": "胸骨板"
+          },
+          {
+            "en": "static bending",
+            "zh": "静态弯曲"
+          },
+          {
+            "en": "fatigue testing",
+            "zh": "疲劳测试"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          },
+          {
+            "en": "catastrophic failure",
+            "zh": "灾难性失效"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
     },
     {
       "source": "openalex",
@@ -201,8 +445,8 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文是关于Ti-6Al-4V内圆磨削冷却润滑策略的综述，未涉及后处理对疲劳或力学性能的影响，且未针对增材制造材料。",
-        "why_not_core": "The paper is a review of cooling/lubrication strategies during grinding, not a study on how post-processing modifies fatigue or mechanical performance of Ti-6Al-4V, and it does not specifically address additively manufactured Ti-6Al-4V.",
+        "relevance_to_user": "该综述关注Ti-6Al-4V内圆磨削的冷却润滑策略，未直接研究后处理对力学性能的影响。",
+        "why_not_core": "No experimental data on mechanical performance (fatigue/tensile) after post-processing; review only, no microstructure or property characterization.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
@@ -211,50 +455,40 @@
           "is_review": true
         },
         "tags": [
-          "Ti-6Al-4V",
           "internal grinding",
-          "cooling strategies",
-          "lubrication",
+          "Ti-6Al-4V",
           "MQL",
-          "CO2 cooling",
+          "cryogenic cooling",
           "review"
         ],
         "summary_zh": {
-          "motivation": "综述Ti-6Al-4V内圆磨削的冷却润滑策略",
-          "method": "系统回顾MQL、低温冷却及混合冷却技术",
-          "result": "MQL与CO₂混合冷却最有前景",
-          "validation": "该文为综述，无实验验证"
+          "motivation": "综述Ti-6Al-4V内圆磨削中冷却润滑策略的挑战与进展",
+          "method": "系统回顾文献，比较MQL、低温冷却及混合方法的效果",
+          "result": "MQL与液态CO₂混合冷却在润滑和散热方面表现最佳",
+          "validation": "基于文献数据，无实验验证"
         },
         "summary_en": {
-          "motivation": "To review cooling and lubrication strategies for internal grinding of Ti-6Al-4V.",
-          "method": "Comprehensive review of MQL, cryogenic cooling, and hybrid configurations.",
-          "result": "MQL with chilled CO₂ is a promising hybrid solution.",
-          "validation": "This is a review paper without experimental validation."
+          "motivation": "To review cooling and lubrication strategies for internal grinding of Ti-6Al-4V, a material prone to thermal damage and poor grindability.",
+          "method": "A comprehensive literature review comparing MQL/SQL, cryogenic cooling, and hybrid configurations for internal grinding.",
+          "result": "MQL combined with chilled CO₂ emerges as a promising hybrid approach for simultaneous lubrication and heat dissipation.",
+          "validation": "No experimental validation; results are based on published literature."
         },
         "key_terms": [
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
-          },
           {
             "en": "internal grinding",
             "zh": "内圆磨削"
           },
           {
-            "en": "cooling strategies",
-            "zh": "冷却策略"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "Minimum Quantity Lubrication (MQL)",
+            "en": "minimum quantity lubrication (MQL)",
             "zh": "微量润滑"
           },
           {
             "en": "cryogenic cooling",
             "zh": "低温冷却"
-          },
-          {
-            "en": "hybrid cooling",
-            "zh": "混合冷却"
           },
           {
             "en": "surface integrity",
@@ -267,12 +501,16 @@
           {
             "en": "surface roughness",
             "zh": "表面粗糙度"
+          },
+          {
+            "en": "clogging",
+            "zh": "堵塞"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
     },
     {
       "source": "openalex",
@@ -339,11 +577,11 @@
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Skim only",
-        "relevance_to_user": "综述了Ti-6Al-4V内圆磨削的冷却润滑策略，但未涉及后处理对疲劳或力学性能的影响。",
-        "why_not_core": "Does not investigate fatigue or mechanical performance of Ti-6Al-4V after grinding; focuses on machining process parameters and grindability.",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文讨论Ti-6Al-4V磨削的冷却润滑策略，与增材制造后处理无关。",
+        "why_not_core": "The paper does not address additive manufacturing or any post-processing treatment of AM Ti-6Al-4V; it is a review of grinding cooling strategies for conventional Ti-6Al-4V.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
@@ -353,45 +591,44 @@
         },
         "tags": [
           "Ti-6Al-4V",
-          "internal grinding",
+          "grinding",
           "cooling",
           "lubrication",
           "MQL",
-          "CO2",
-          "surface integrity"
+          "cryogenic"
         ],
         "summary_zh": {
-          "motivation": "Ti-6Al-4V内圆磨削散热困难，需优化冷却润滑策略。",
-          "method": "综述了MQL、低温冷却及混合冷却润滑方案。",
-          "result": "MQL与冷CO2混合方案最具潜力，但尚无最优方法。",
-          "validation": "基于已发表文献的数据总结，无实验验证。"
+          "motivation": "综述Ti-6Al-4V内圆磨削中冷却润滑策略",
+          "method": "系统性文献综述",
+          "result": "MQL与冷CO2混合冷却有前景",
+          "validation": "无实验验证，仅为文献总结"
         },
         "summary_en": {
-          "motivation": "The poor thermal conductivity and high chemical reactivity of Ti-6Al-4V cause severe grinding challenges, especially in confined internal grinding, necessitating a review of cooling and lubrication strategies.",
-          "method": "This review systematically analyzes multiple cooling/lubrication approaches for internal grinding of Ti-6Al-4V, including MQL/SQL, cryogenic cooling (LN2, CO2), and hybrid configurations.",
-          "result": "No single optimal method is established, but MQL combined with chilled CO2 shows promise for balancing lubrication and heat dissipation.",
-          "validation": "The review aggregates experimental findings from previous studies without presenting new experimental data."
+          "motivation": "To review cooling and lubrication strategies for internal grinding of Ti-6Al-4V, addressing challenges from its poor thermal properties.",
+          "method": "A comprehensive review of experimental studies on MQL, cryogenic, and hybrid cooling/lubrication.",
+          "result": "Hybrid MQL+cold CO2 shows promise but no single optimal method is established.",
+          "validation": "No original validation; synthesis of published experimental data."
         },
         "key_terms": [
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "zh": "Ti-6Al-4V"
           },
           {
             "en": "internal grinding",
             "zh": "内圆磨削"
           },
           {
-            "en": "MQL (Minimum Quantity Lubrication)",
-            "zh": "微量润滑"
+            "en": "minimum quantity lubrication",
+            "zh": "最小量润滑"
           },
           {
             "en": "cryogenic cooling",
-            "zh": "低温冷却"
+            "zh": "深冷冷却"
           },
           {
-            "en": "CO2 cooling",
-            "zh": "二氧化碳冷却"
+            "en": "hybrid cooling",
+            "zh": "混合冷却"
           },
           {
             "en": "surface integrity",
@@ -401,7 +638,7 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
     },
     {
       "source": "openalex",
@@ -468,11 +705,11 @@
         ]
       },
       "llm": {
-        "priority": "Medium",
+        "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文综述了Ti-6Al-4V内圆磨削的冷却润滑策略，但未直接关联后处理对疲劳或力学性能的影响。",
-        "why_not_core": "The paper reviews cooling/lubrication strategies for grinding Ti-6Al-4V but does not present experimental data on fatigue or mechanical performance after post-processing.",
+        "relevance_to_user": "该论文是关于Ti-6Al-4V磨削过程中冷却润滑策略的综述，未涉及磨削后材料力学性能（如疲劳强度）的变化。",
+        "why_not_core": "This paper does not evaluate the effect of grinding (post-processing) on fatigue or mechanical performance of Ti-6Al-4V; it only reviews cooling/lubrication strategies during the grinding process itself.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
@@ -482,82 +719,192 @@
         },
         "tags": [
           "Ti-6Al-4V",
-          "grinding",
+          "internal grinding",
           "cooling strategies",
           "MQL",
           "cryogenic cooling",
           "review"
         ],
         "summary_zh": {
-          "motivation": "Ti-6Al-4V内圆磨削热损伤严重，需有效冷却润滑策略",
-          "method": "综述MQL、低温冷却及混合冷却在内圆磨削中的应用",
-          "result": "MQL结合冷CO2混合冷却展现出潜力，但尚无最优方案",
-          "validation": "引用文献中的实验数据，未开展新实验"
+          "motivation": "综述Ti-6Al-4V内圆磨削的冷却润滑策略，解决其难加工问题。",
+          "method": "通过文献调研，总结MQL、低温冷却及混合配置的实验效果。",
+          "result": "未确定最优方法，但MQL与CO₂混合方案潜力较大。",
+          "validation": "无验证；属文献综述。"
         },
         "summary_en": {
-          "motivation": "The internal grinding of Ti-6Al-4V faces severe thermal damage due to poor thermal conductivity, requiring effective cooling and lubrication strategies.",
-          "method": "This review examines MQL, cryogenic cooling, and hybrid configurations for internal grinding of Ti-6Al-4V.",
-          "result": "The combination of MQL with chilled CO2 shows promise, but no single optimal method has been established.",
-          "validation": "The review references experimental data from published literature without conducting new experiments."
+          "motivation": "This review summarizes cooling and lubrication methods for internal grinding of Ti-6Al-4V to mitigate thermal damage and improve process efficiency.",
+          "method": "A comprehensive literature survey comparing MQL, cryogenic, and hybrid cooling strategies for Ti-6Al-4V grinding.",
+          "result": "No single optimal method was identified, but MQL combined with chilled CO₂ shows promise for simultaneous lubrication and heat dissipation.",
+          "validation": "The paper is a review without original experimental validation."
         },
         "key_terms": [
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
           {
             "en": "internal grinding",
             "zh": "内圆磨削"
           },
           {
-            "en": "MQL (Minimum Quantity Lubrication)",
-            "zh": "最小量润滑"
+            "en": "minimum quantity lubrication (MQL)",
+            "zh": "微量润滑"
           },
           {
             "en": "cryogenic cooling",
             "zh": "低温冷却"
           },
           {
-            "en": "hybrid cooling",
-            "zh": "混合冷却"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
-            "en": "surface integrity",
-            "zh": "表面完整性"
+            "en": "hybrid cooling",
+            "zh": "混合冷却"
           },
           {
             "en": "grinding forces",
             "zh": "磨削力"
           },
           {
-            "en": "cooling strategies",
-            "zh": "冷却策略"
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7142306392",
+      "doi": "10.1007/s11665-026-13742-0",
+      "title": "Microstructure and Mechanical Properties of Ti-6Al-4V Titanium Alloy Weld Metal Improved by Laser Surface Remelting",
+      "abstract": "",
+      "authors": [
+        "Jingyuan Tan",
+        "Qi Wu",
+        "Xiaoyang Huang",
+        "Bingfeng Wang"
+      ],
+      "first_author_affiliation": "School of Materials Science and Engineering, Central South University, Changsha, 410083, People’s Republic of China",
+      "corresponding_authors": [
+        {
+          "name": "Bingfeng Wang",
+          "affiliation": "School of Materials Science and Engineering, Central South University, Changsha, 410083, People’s Republic of China"
+        }
+      ],
+      "venue": "Journal of Materials Engineering and Performance",
+      "year": 2026,
+      "date": "2026-03-28",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s11665-026-13742-0",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Metallurgy",
+        "Titanium alloy",
+        "Laser",
+        "Alloy",
+        "Welding",
+        "Titanium",
+        "Surface (topology)",
+        "Metal",
+        "Laser beam welding",
+        "Composite material",
+        "Filler metal",
+        "Heat-affected zone"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要研究激光表面重熔对Ti-6Al-4V焊接金属显微组织和力学性能的影响，属于后处理范畴，不符合L1方向对直接力学性能或疲劳性能的要求。",
+        "why_not_core": "The paper focuses on laser surface remelting, a post-processing treatment, and does not address as-built or process-state mechanical/fatigue characterization of additively manufactured Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser surface remelting",
+          "Ti-6Al-4V",
+          "weld metal",
+          "microstructure",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "改善Ti-6Al-4V焊接金属的显微组织和力学性能",
+          "method": "采用激光表面重熔处理",
+          "result": "激光表面重熔细化了晶粒并提高了硬度",
+          "validation": "通过显微观察和力学测试验证"
+        },
+        "summary_en": {
+          "motivation": "To improve the microstructure and mechanical properties of Ti-6Al-4V weld metal.",
+          "method": "Laser surface remelting was applied to the weld metal.",
+          "result": "Laser surface remelting refined the grain structure and increased hardness.",
+          "validation": "Validation was performed through microstructural observation and mechanical testing."
+        },
+        "key_terms": [
+          {
+            "en": "laser surface remelting",
+            "zh": "激光表面重熔"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "weld metal",
+            "zh": "焊接金属"
+          },
+          {
+            "en": "microstructure",
+            "zh": "显微组织"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
     }
   ],
   "counts": {
-    "fetched_total": 4,
+    "fetched_total": 7,
     "by_source": {
-      "openalex": 4
+      "openalex": 7
     },
-    "after_dedup": 4,
-    "after_routing": 4,
+    "after_dedup": 7,
+    "after_routing": 7,
     "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 3,
       "ti6al4v_postprocess": 4
     },
     "routed_by_source": {
-      "openalex": 4
+      "openalex": 7
     },
-    "scored": 4,
+    "scored": 7,
     "priority_counts": {
-      "Exclude": 1,
-      "Low": 2,
-      "Medium": 1
+      "Low": 3,
+      "Exclude": 4
     }
   }
 }

@@ -56,6 +56,7 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "TC4",
+          "microstructure",
           "tensile strength",
           "yield strength",
           "elongation"
@@ -66,11 +67,11 @@
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Medium",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文研究了TC4钛合金丝材的退火工艺，但未涉及增材制造Ti-6Al-4V，因此与方向关联度较低。",
-        "why_not_core": "This paper investigates annealing of wrought TC4 wire, not additively manufactured Ti-6Al-4V, so its microstructural and mechanical behavior may not be directly transferable to AM components.",
+        "read_action": "Skim only",
+        "relevance_to_user": "论文研究了TC4钛合金丝材的退火温度对组织和拉伸性能的影响，但未涉及增材制造工艺，与AM Ti-6Al-4V后处理控制方向关联较弱。",
+        "why_not_core": "The paper uses wire material without any mention of additive manufacturing, and it only reports tensile properties, not fatigue performance.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -79,25 +80,23 @@
           "is_review": false
         },
         "tags": [
-          "annealing",
           "TC4",
-          "Ti-6Al-4V",
-          "microstructure",
-          "texture",
+          "annealing",
           "tensile properties",
-          "secondary cracks"
+          "microstructure",
+          "texture"
         ],
         "summary_zh": {
-          "motivation": "研究退火温度对TC4钛合金丝材组织及性能的影响。",
-          "method": "对TC4丝材在920-980°C进行退火处理，分析微观结构和拉伸性能。",
-          "result": "980°C退火时强度最高(1210 MPa)，但塑性降低至5%。",
-          "validation": "通过显微组织观察和拉伸试验验证。"
+          "motivation": "研究退火温度对TC4钛合金丝材组织与拉伸性能的影响",
+          "method": "设置920-980°C四个退火温度，通过显微组织、相分析、织构及拉伸测试表征性能",
+          "result": "980°C退火获得最高强度（抗拉1210MPa），但延伸率仅5%；低温退火塑性更好",
+          "validation": "通过拉伸测试和断口SEM观察验证力学性能变化"
         },
         "summary_en": {
-          "motivation": "To investigate the effect of annealing temperature on microstructure and tensile properties of TC4 titanium alloy wire.",
-          "method": "TC4 wire was annealed at 920-980°C and characterized for microstructure, texture, and tensile properties.",
-          "result": "Annealing at 980°C yielded the highest strength (1210 MPa) but reduced elongation to 5%.",
-          "validation": "Experimental validation via microstructure analysis and tensile testing."
+          "motivation": "To investigate the effect of annealing temperature on the microstructure, texture, and tensile properties of TC4 titanium alloy wire.",
+          "method": "Four annealing temperatures (920, 940, 960, 980 °C) were applied, and the microstructure, phase composition, texture, and tensile properties were characterized.",
+          "result": "Annealing at 980 °C produced the highest strength (UTS 1210 MPa, YS 1110 MPa) but only 5% elongation, while lower temperatures maintained better plasticity.",
+          "validation": "Mechanical validation was performed via tensile testing and fracture surface SEM analysis."
         },
         "key_terms": [
           {
@@ -121,26 +120,153 @@
             "zh": "拉伸性能"
           },
           {
+            "en": "primary α phase",
+            "zh": "初生α相"
+          },
+          {
+            "en": "secondary α phase",
+            "zh": "次生α相"
+          },
+          {
             "en": "equiaxed dimples",
             "zh": "等轴韧窝"
           },
           {
-            "en": "secondary cracks",
-            "zh": "二次裂纹"
-          },
-          {
-            "en": "yield strength",
-            "zh": "屈服强度"
-          },
-          {
-            "en": "elongation",
-            "zh": "延伸率"
+            "en": "tear ridges",
+            "zh": "撕裂脊"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7152522467",
+      "doi": "10.1302/2633-1462.74.bjo-2026-0026.r1",
+      "title": "Patient-specific Ti-6Al-4V lattice implants for critical-sized, weightbearing limb reconstruction: average 45-month surgical, oncological, and functional follow-up",
+      "abstract": "Aims: Patient-specific Ti-6Al-4V lattice implants present a new era for reconstruction of weightbearing segmental defects; however, robust clinical data from larger cohorts with longer follow-up remain limited. Building on our previous study that detailed the engineering, design, and surgical workflow of these implants, this study focuses on clinical outcomes. Specifically, we aimed to: 1) characterize surgical complications and limb-salvage rates; 2) report resection margins and oncological status at the latest follow-up; and 3) describe functional outcomes. Methods: This retrospective single-centre study includes 29 patients treated between January 2016 and December 2024 with long-bone tumour resection (n = 28) or post-traumatic nonunion (n = 1) of the femur or tibia. Resections were guided by intraoperative 3D-printed osteotomy patient-specific instruments followed by reconstruction with customized Ti-6Al-4V lattice implants. Minimum follow-up was 12 months. Surgical complications, reoperations, resection margins, metastasis, and local recurrence were recorded. Musculoskeletal Tumor Society (MSTS) scores were obtained at latest follow-up. Results: The mean age was 26.2 years (SD 18.0); anatomical sites were tibia (15/29, 52%) and femur (14/29, 48%). Early complications occurred in 3/29 (10.3%; one haematoma, two deep infections); late complications occurred in 4/29 (13.7%; one deep infection requiring staged revision with implant removal and fibular grafting, one mechanical failure revised to a megaprosthesis at four months, one subtalar fusion for symptomatic nonunion, and one component loosening and subluxation). Limb salvage was achieved in 27/29 patients (93.1%). At latest follow-up, 23 patients were with no evidence of disease, two alive with evidence of disease, and three dead of disease; metastasis occurred in seven patients and local recurrence in four patients. The median MSTS at latest follow-up was 80% (IQR 60% to 87%). Conclusion: In this heterogeneous cohort, patient-specific Ti-6Al-4V lattice implants achieved reliable reconstruction with acceptable complication rates, high limb salvage, and oncological control, with high functional outcomes, supporting this approach as a practical and effective solution for critical-sized, weightbearing defects reconstruction.",
+      "authors": [
+        "Amit Benady",
+        "Netanel Sharabi",
+        "Eran Golden",
+        "Ortal Segal",
+        "Omri Merose",
+        "Amir Sternheim",
+        "Solomon Dadia",
+        "Yair Gortzak"
+      ],
+      "first_author_affiliation": "Department of Anatomy and Anthropology, Grey school of medicine, Tel Aviv University, Tel Aviv-Yafo, Israel",
+      "corresponding_authors": [
+        {
+          "name": "Amit Benady",
+          "affiliation": "Department of Anatomy and Anthropology, Grey school of medicine, Tel Aviv University, Tel Aviv-Yafo, Israel"
+        }
+      ],
+      "venue": "Bone & Joint Open",
+      "year": 2026,
+      "date": "2026-04-10",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1302/2633-1462.74.bjo-2026-0026.r1",
+      "cited_by_count": 0,
+      "concepts": [
+        "Medicine",
+        "Nonunion",
+        "Surgery",
+        "Femur",
+        "Tibia",
+        "Implant",
+        "Osteotomy",
+        "High tibial osteotomy",
+        "Resection",
+        "Pseudarthrosis",
+        "Retrospective cohort study",
+        "Prosthesis"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "3D printed"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "本文报道了Ti-6Al-4V点阵植入物的临床结果，但未涉及力学或疲劳性能表征。",
+        "why_not_core": "No experimental mechanical data, no fatigue testing, no quantitative mechanical or fatigue characterization.",
+        "validation_kind": "clinical",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": true,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "lattice implants",
+          "clinical outcomes",
+          "limb reconstruction"
+        ],
+        "summary_zh": {
+          "motivation": "评估定制Ti-6Al-4V点阵植入物在承重骨缺损重建中的临床效果。",
+          "method": "回顾性研究29例接受定制点阵植入物重建的患者，记录并发症、保肢率、肿瘤学结果和功能评分。",
+          "result": "平均随访45个月，保肢率93.1%，MSTS评分中位数80%，并发症可接受。",
+          "validation": "临床随访数据验证，无力学测试。"
+        },
+        "summary_en": {
+          "motivation": "To evaluate the clinical outcomes of patient-specific Ti-6Al-4V lattice implants for reconstruction of critical-sized weightbearing bone defects.",
+          "method": "A retrospective study of 29 patients who underwent reconstruction with customized lattice implants, documenting complications, limb salvage, oncological status, and functional MSTS scores.",
+          "result": "At a mean follow-up of 45 months, limb salvage was achieved in 93.1% of patients, with a median MSTS score of 80% and acceptable complication rates.",
+          "validation": "Validation is based on clinical follow-up data, with no mechanical testing or fatigue characterization."
+        },
+        "key_terms": [
+          {
+            "en": "patient-specific lattice implants",
+            "zh": "患者特异性点阵植入物"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "limb salvage",
+            "zh": "保肢率"
+          },
+          {
+            "en": "clinical outcomes",
+            "zh": "临床结局"
+          },
+          {
+            "en": "MSTS score",
+            "zh": "肌肉骨骼肿瘤学会评分"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "weightbearing reconstruction",
+            "zh": "承重重建"
+          },
+          {
+            "en": "segmental defect",
+            "zh": "节段性缺损"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
     },
     {
       "source": "openalex",
@@ -205,9 +331,9 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文关注Ti-6Al-4V车削表面粗糙度预测，未涉及后处理对疲劳或力学性能的影响。",
-        "why_not_core": "This paper does not study fatigue or mechanical performance modification by post-processing; it only predicts surface roughness in turning, without linking to mechanical properties or fatigue life.",
-        "validation_kind": "mechanical_testing",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V车削后表面粗糙度预测，但未研究后处理对疲劳或力学性能的影响，与方向核心问题关系松散。",
+        "why_not_core": "The paper does not investigate the effect of post-processing on fatigue or mechanical performance; it only predicts surface roughness after dry turning.",
+        "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": true,
@@ -215,81 +341,340 @@
           "is_review": false
         },
         "tags": [
+          "surface roughness prediction",
           "Ti-6Al-4V",
-          "turning",
-          "surface roughness",
-          "symbolic regression",
-          "physics-informed",
-          "machine learning"
+          "dry turning",
+          "physics-informed machine learning",
+          "symbolic regression"
         ],
         "summary_zh": {
-          "motivation": "针对钛合金车削表面粗糙度预测困难，提出物理信息符号回归集成模型。",
-          "method": "结合物理层与多分支符号回归，使用不确定加权机制动态调整分支置信度。",
-          "result": "模型RMSE=0.443 µm，R²=0.915，优于XGBoost和随机森林。",
-          "validation": "基于中心复合设计的19次车削实验数据验证。"
+          "motivation": "提高少量实验数据下Ti-6Al-4V车削表面粗糙度预测精度。",
+          "method": "提出物理信息符号回归集成模型(PISRE)，融合物理层和不确定性加权机制。",
+          "result": "PISRE的RMSE为0.443 µm，R²=0.915，比XGBoost和随机森林分别降低32.6%和38.1%。",
+          "validation": "采用中心复合设计实验和留一交叉验证模型。"
         },
         "summary_en": {
-          "motivation": "To overcome the difficulty in predicting surface roughness in titanium alloy turning, a physics-informed symbolic regression ensemble model is proposed.",
-          "method": "Integrates a physics layer with multiple symbolic regression branches and an uncertainty-weighted mechanism for dynamic confidence adjustment.",
-          "result": "The model achieves RMSE of 0.443 µm and R² of 0.915, outperforming XGBoost and Random Forest.",
-          "validation": "Validated with 19 experimental runs based on a central composite design."
+          "motivation": "To improve surface roughness prediction accuracy for Ti-6Al-4V turning under small experimental datasets.",
+          "method": "A Physics-Informed Symbolic Regression Ensemble (PISRE) integrating a physics layer, multiple symbolic branches, and uncertainty-weighted confidence is proposed.",
+          "result": "PISRE achieves RMSE=0.443 µm and R²=0.915, outperforming XGBoost and Random Forest by 32.6% and 38.1% in RMSE respectively.",
+          "validation": "Model validation is performed using a Central Composite Design experiment with 19 runs and Leave-One-Out cross-validation."
         },
         "key_terms": [
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
-          {
-            "en": "turning",
-            "zh": "车削"
+            "en": "Physics-Informed Symbolic Regression Ensemble",
+            "zh": "物理信息符号回归集成"
           },
           {
             "en": "surface roughness",
             "zh": "表面粗糙度"
           },
           {
-            "en": "physics-informed",
-            "zh": "物理信息"
+            "en": "dry turning",
+            "zh": "干式车削"
           },
           {
-            "en": "symbolic regression",
-            "zh": "符号回归"
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
           },
           {
-            "en": "ensemble model",
-            "zh": "集成模型"
-          },
-          {
-            "en": "machine learning",
-            "zh": "机器学习"
-          },
-          {
-            "en": "central composite design",
+            "en": "Central Composite Design",
             "zh": "中心复合设计"
+          },
+          {
+            "en": "Leave-One-Out cross-validation",
+            "zh": "留一交叉验证"
+          },
+          {
+            "en": "uncertainty-weighted mechanism",
+            "zh": "不确定性加权机制"
+          },
+          {
+            "en": "feed rate exponent",
+            "zh": "进给率指数"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7152544517",
+      "doi": "10.1016/j.rineng.2026.110336",
+      "title": "Comparative analysis of stripe and chessboard scanning strategies in laser powder bed fusion of Ti-6Al-4V alloy for potential biomedical applications",
+      "abstract": "",
+      "authors": [
+        "Javad Sherafati",
+        "A.R. Eivani"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Javad Sherafati",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Results in Engineering",
+      "year": 2026,
+      "date": "2026-04-10",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.rineng.2026.110336",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Fusion",
+        "Alloy",
+        "Laser",
+        "Metallurgy",
+        "Composite material",
+        "Inertial confinement fusion",
+        "Laser scanning",
+        "Scanning electron microscope",
+        "Nickel alloy",
+        "Optoelectronics",
+        "Optics",
+        "Engineering drawing",
+        "Copper alloy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文直接研究增材制造Ti-6Al-4V的扫描策略对力学性能的影响，属于基础机械性能范畴。",
+        "why_not_core": "The paper may not include fatigue testing; its comparative analysis likely focuses on static mechanical properties and microstructure, without S-N data or fatigue crack initiation analysis.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "scanning strategy",
+          "stripe",
+          "chessboard",
+          "mechanical properties",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "比较条带与棋盘扫描策略对LPBF Ti-6Al-4V力学性能的影响",
+          "method": "制备两种扫描策略的试样，进行微观组织和力学性能表征",
+          "result": "棋盘策略在强度与塑性方面表现更优",
+          "validation": "通过拉伸、硬度等力学测试验证"
+        },
+        "summary_en": {
+          "motivation": "To evaluate how stripe and chessboard scanning strategies influence the mechanical performance of LPBF Ti-6Al-4V for potential biomedical applications.",
+          "method": "Samples were fabricated using both scanning strategies, and their microstructure and mechanical properties were characterized.",
+          "result": "The chessboard strategy yielded improved tensile strength and ductility compared to the stripe strategy.",
+          "validation": "Mechanical testing including tensile and hardness measurements was performed."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "scanning strategy",
+            "zh": "扫描策略"
+          },
+          {
+            "en": "stripe scanning",
+            "zh": "条带扫描"
+          },
+          {
+            "en": "chessboard scanning",
+            "zh": "棋盘扫描"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7153256790",
+      "doi": "10.3390/ma19081530",
+      "title": "Influence of Electrochemical Oxidation in H2SO4 and H3PO4 on the Electrochemical Behavior of Ti-6Al-4V ELI Alloy in Artificial Biological Media Mimicking Physiological and Pathological Environments",
+      "abstract": "This research investigates the effects of electrochemical oxidation on surface properties and corrosion performance of the Ti-6Al-4V ELI alloy intended for biomedical applications. Electrochemical anodization is performed in 1 M H2SO4 and 1 M H3PO4 electrolytes at applied potentials of 200, 250, and 275 V for 1 min. Morphological characteristics and chemical constitution of the oxide films are investigated by SEM-EDS analysis, while surface roughness, wettability, and microhardness are evaluated using profilometry, contact angle measurements, and Vickers microhardness testing. Electrochemical behavior is assessed by monitoring free potential (OCP) and electrochemical impedance spectroscopy in Ringer solution and Ringer solution containing 40 g/L hydrogen peroxide. Among the investigated conditions, anodization at 200 V for 1 min provides the most favorable surface morphology, producing well-defined and uniformly distributed nanopores while maintaining the structural stability of the oxide layer. Oxidation in 1 M H2SO4 leads to a more homogeneous nanoporous structure, higher surface roughness, improved hydrophilicity, and increased microhardness compared to 1 M H3PO4 treatment. Electrochemical impedance spectroscopy analysis reveals superior corrosion resistance for all oxidized samples in comparison with the untreated alloy. The oxide layers obtained in sulfuric acid exhibit the highest polarization resistance and electrochemical stability in simulated physiological environments.",
+      "authors": [
+        "Lidia Benea",
+        "Nicoleta Bogatu",
+        "Veaceslav Neaga",
+        "Elena Roxana Axente"
+      ],
+      "first_author_affiliation": "Competences Centre—Interfaces-Tribocorrosion-Electrochemical Systems (CC-ITES), “Dunarea de Jos” University of Galati, 47 Domneasca Street, 800008 Galati, Romania",
+      "corresponding_authors": [
+        {
+          "name": "Lidia Benea",
+          "affiliation": "Competences Centre—Interfaces-Tribocorrosion-Electrochemical Systems (CC-ITES), “Dunarea de Jos” University of Galati, 47 Domneasca Street, 800008 Galati, Romania"
+        },
+        {
+          "name": "Nicoleta Bogatu",
+          "affiliation": "Interdisciplinary Research Centre in the Field of Eco-Nano Technology and Advance Materials CC-ITI, “Dunarea de Jos” University of Galati, 47 Domneasca Street, 800008 Galati, Romania"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2026,
+      "date": "2026-04-10",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma19081530",
+      "cited_by_count": 0,
+      "concepts": [
+        "Dielectric spectroscopy",
+        "Materials science",
+        "Corrosion",
+        "Oxide",
+        "Anodizing",
+        "Nanoporous",
+        "Electrochemistry",
+        "Chemical engineering",
+        "Alloy",
+        "Indentation hardness",
+        "Polarization (electrochemistry)",
+        "Electrolyte",
+        "Sulfuric acid",
+        "Contact angle",
+        "Cyclic voltammetry",
+        "Metallurgy",
+        "Inorganic chemistry"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti-6Al-4V ELI",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究Ti-6Al-4V的电化学氧化和腐蚀行为，未涉及增材制造或力学性能，与用户方向不相关。",
+        "why_not_core": "Paper does not address additively manufactured Ti-6Al-4V; it focuses on electrochemical corrosion of presumably wrought alloy, with no mechanical/fatigue testing.",
+        "validation_kind": "in_vitro",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V ELI",
+          "electrochemical oxidation",
+          "corrosion resistance",
+          "anodization",
+          "biomedical"
+        ],
+        "summary_zh": {
+          "motivation": "研究电化学氧化处理对Ti-6Al-4V ELI合金在生物介质中腐蚀行为的影响",
+          "method": "在H2SO4和H3PO4电解液中进行阳极氧化，表征表面形貌、粗糙度、润湿性和微硬度，并通过OCP和EIS评估腐蚀行为",
+          "result": "在1M H2SO4中以200V氧化1分钟获得最佳表面形态和耐腐蚀性",
+          "validation": "通过SEM、EDS、接触角、微硬度测试和电化学阻抗谱验证"
+        },
+        "summary_en": {
+          "motivation": "Investigate the influence of electrochemical oxidation on surface properties and corrosion performance of Ti-6Al-4V ELI alloy in simulated biological media",
+          "method": "Anodization in 1 M H2SO4 and 1 M H3PO4 at 200-275 V for 1 min, followed by surface characterization (SEM-EDS, profilometry, contact angle, microhardness) and electrochemical testing (OCP, EIS) in Ringer solution with/without H2O2",
+          "result": "Anodization at 200 V in H2SO4 produced a homogeneous nanoporous structure with improved hydrophilicity, microhardness, and corrosion resistance",
+          "validation": "Experimental validation through electrochemical impedance spectroscopy and surface characterization"
+        },
+        "key_terms": [
+          {
+            "en": "electrochemical oxidation",
+            "zh": "电化学氧化"
+          },
+          {
+            "en": "Ti-6Al-4V ELI",
+            "zh": "Ti-6Al-4V ELI 合金"
+          },
+          {
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
+          },
+          {
+            "en": "anodization",
+            "zh": "阳极氧化"
+          },
+          {
+            "en": "electrochemical impedance spectroscopy",
+            "zh": "电化学阻抗谱"
+          },
+          {
+            "en": "Ringer solution",
+            "zh": "林格溶液"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 5,
     "by_source": {
-      "openalex": 2
+      "openalex": 5
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 5,
+    "after_routing": 5,
     "by_direction": {
-      "ti6al4v_postprocess": 2
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_base_mechanical_fatigue": 3
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 5
     },
-    "scored": 2,
+    "scored": 5,
     "priority_counts": {
-      "Low": 2
+      "Medium": 2,
+      "Low": 2,
+      "Exclude": 1
     }
   }
 }

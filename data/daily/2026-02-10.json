@@ -62,15 +62,17 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "additive manufacturing",
+          "powder bed fusion",
           "porosity"
         ]
       },
       "llm": {
         "priority": "Medium",
         "relevance_level": "Transferable",
-        "read_action": "Skim only",
-        "relevance_to_user": "该论文针对Ti6Al4V的PBF-LB工艺孔隙率预测，与方向中缺陷/孔隙率相关，但未涉及力学性能测试或建模。",
-        "why_not_core": "No direct measurement or modeling of mechanical properties such as tensile strength, ductility, or fatigue life; focuses solely on porosity prediction without linking to mechanical performance.",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文针对Ti-6Al-4V的孔隙率预测，虽未直接提供力学性能数据，但方法可用于后续力学性能研究。",
+        "why_not_core": "The paper focuses on porosity prediction via thermal simulation and does not include mechanical testing or fatigue characterization.",
         "validation_kind": "simulation_case",
         "flags": {
           "has_experimental_validation": true,
@@ -80,35 +82,36 @@
         },
         "tags": [
           "Ti-6Al-4V",
-          "porosity prediction",
           "PBF-LB",
+          "porosity prediction",
           "thermal simulation",
-          "finite volume method"
+          "finite volume method",
+          "µ-CT"
         ],
         "summary_zh": {
-          "motivation": "针对PBF-LB制造Ti6Al4V零件中孔隙缺陷影响力学性能的问题，提出基于热模拟的孔隙率预测方法。",
-          "method": "采用有限体积法求解瞬态三维热传导问题，结合高斯热源和温度依赖材料属性，预测孔隙率。",
-          "result": "预测孔隙率与实验µ-CT结果趋势一致，范围4.78%-15.75%及3.54%-13.41%。",
-          "validation": "通过Archimedes密度测量和µ-CT实验验证模拟预测的孔隙率。"
+          "motivation": "预测Ti6Al4V激光粉末床熔融过程中的孔隙率。",
+          "method": "采用有限体积法求解瞬态三维热传导问题，结合温度依赖材料属性和高斯热源。",
+          "result": "模拟孔隙率（4.78%-15.75%）与µ-CT结果（3.54%-13.41%）趋势一致。",
+          "validation": "通过阿基米德密度和显微CT实验验证孔隙率预测。"
         },
         "summary_en": {
-          "motivation": "To address porosity defects in PBF-LB Ti6Al4V parts that compromise mechanical performance, a physics-based thermal simulation algorithm is developed for porosity prediction.",
-          "method": "The algorithm solves the transient 3D heat conduction equation using the finite volume method with a Gaussian heat source and temperature-dependent material properties.",
-          "result": "Predicted porosity (4.78-15.75%) agrees well in trend with experimental µ-CT measurements (3.54-13.41%).",
-          "validation": "The model is validated by Archimedes density and µ-CT data from six Ti6Al4V specimens."
+          "motivation": "This study aims to predict porosity in Ti6Al4V parts fabricated by laser powder bed fusion without relying on large experimental datasets.",
+          "method": "A physics-based thermal simulation algorithm using the finite volume method solves the transient 3D heat conduction equation with temperature-dependent properties and a Gaussian heat source.",
+          "result": "Predicted porosity values (4.78%–15.75%) show good agreement with experimental µ-CT measurements (3.54%–13.41%) in trend and ranking.",
+          "validation": "The model is validated by comparing simulation results against Archimedes density measurements and high-resolution X-ray micro-computed tomography."
         },
         "key_terms": [
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V"
+          },
           {
             "en": "powder bed fusion – laser beam",
             "zh": "粉末床熔融-激光束"
           },
           {
-            "en": "porosity",
-            "zh": "孔隙率"
-          },
-          {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V"
+            "en": "porosity prediction",
+            "zh": "孔隙率预测"
           },
           {
             "en": "thermal simulation",
@@ -119,44 +122,175 @@
             "zh": "有限体积法"
           },
           {
-            "en": "X-ray micro-Computed Tomography",
-            "zh": "X射线微计算机断层扫描"
+            "en": "micro-computed tomography",
+            "zh": "显微CT"
           },
           {
-            "en": "Archimedes density",
-            "zh": "阿基米德密度"
+            "en": "Archimedes density measurement",
+            "zh": "阿基米德密度测量"
           },
           {
             "en": "process parameters",
             "zh": "工艺参数"
-          },
-          {
-            "en": "Gaussian heat source",
-            "zh": "高斯热源"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7128487609",
+      "doi": "10.1016/j.ndteint.2026.103665",
+      "title": "Automated robotic system for dual ultrasonic and eddy current array integration and data fusion in wire arc additive manufacturing material inspection",
+      "abstract": "Wire Arc Additive Manufacturing (WAAM) is a direct energy deposition method that enables the fabrication of large, complex metal components with minimal material waste, making it a key technology within Industry 4.0. However, WAAM is prone to weld-like defects, such as lack of fusion, keyholes, and porosities, which compromise structural integrity and require a reliable Non-Destructive Evaluation (NDE). Conventional post-process inspection methods, including Ultrasonic Testing (UT) and X-ray imaging, can detect such defects but often lead to costly rework once fabrication is complete. This work presents a dual-sensor robotic inspection system enabling simultaneous phased array UT and Eddy Current Testing (ECT) during WAAM deposition for early defect detection and efficient process monitoring. The system integrates an industrial manipulator with closed-loop force-torque control for repeatable layer-wise scanning without tool changes or process interruption. The system was evaluated using two Ti-6Al-4V reference blocks that replicated WAAM geometries and contained artificial defects. A depth-weighted C-scan data fusion approach, supported by targeted ECT denoising, improved contrast-to-noise ratio by 4.44 dB and 9.02 dB for the two samples, respectively. The approach was further validated on a titanium WAAM sample containing embedded tungsten inclusions, demonstrating the robustness of the methodology. A receiver operating characteristic analysis further confirmed the improved defect discrimination of the fused data, consistently resulting in higher area-under-curve values than either UT or ECT alone across all evaluated samples.",
+      "authors": [
+        "Vedran Tunukovic",
+        "R. B. GOMES",
+        "Shaun McKnight",
+        "Rastislav Zimermann",
+        "Euan Foster",
+        "Charalampos Loukas",
+        "Randika K.W. Vithanage",
+        "Ehsan Mohseni",
+        "S.Gareth Pierce",
+        "Charles N. MacLeod",
+        "Stewart Williams"
+      ],
+      "first_author_affiliation": "Sensor Enabled Automation, Robotics, and Control Hub (SEARCH), Centre for Ultrasonic Engineering (CUE), Electronic and Electrical Engineering Department, University of Strathclyde, Glasgow, UK",
+      "corresponding_authors": [
+        {
+          "name": "Vedran Tunukovic",
+          "affiliation": "Sensor Enabled Automation, Robotics, and Control Hub (SEARCH), Centre for Ultrasonic Engineering (CUE), Electronic and Electrical Engineering Department, University of Strathclyde, Glasgow, UK"
+        }
+      ],
+      "venue": "NDT & E International",
+      "year": 2026,
+      "date": "2026-02-10",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.ndteint.2026.103665",
+      "cited_by_count": 0,
+      "concepts": [
+        "Ultrasonic sensor",
+        "Eddy current",
+        "Robustness (evolution)",
+        "Ultrasonic testing",
+        "Fusion",
+        "Fabrication",
+        "Eddy-current testing",
+        "Process (computing)",
+        "Sensor fusion",
+        "Computer science",
+        "Automation",
+        "Mechanical engineering",
+        "Manufacturing cost",
+        "Engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "wire arc additive",
+          "defect"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "post-process"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究线弧增材制造中的在线检测方法，未涉及Ti-6Al-4V后处理对力学性能的影响。",
+        "why_not_core": "This paper focuses on in-process defect detection using ultrasonic and eddy current testing during WAAM, not on post-processing treatments (heat treatment, HIP, surface modifications) that modify fatigue/mechanical performance of Ti-6Al-4V.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "wire arc additive manufacturing",
+          "ultrasonic testing",
+          "eddy current testing",
+          "non-destructive evaluation",
+          "Ti-6Al-4V"
+        ],
+        "summary_zh": {
+          "motivation": "线弧增材制造易产生缺陷，需要可靠的无损检测方法。",
+          "method": "开发了双传感器机器人检测系统，集成超声和涡流阵列，实现层间扫描和数据融合。",
+          "result": "数据融合提高了缺陷对比度和判别能力，在钛合金样品上验证了有效性。",
+          "validation": "使用含人工缺陷和钨夹杂的Ti-6Al-4V参考块进行实验验证。"
+        },
+        "summary_en": {
+          "motivation": "Wire arc additive manufacturing is prone to defects that compromise structural integrity, requiring reliable non-destructive evaluation.",
+          "method": "A dual-sensor robotic inspection system integrating phased array ultrasonic and eddy current testing was developed for layer-wise scanning during deposition.",
+          "result": "Data fusion via depth-weighted C-scan improved contrast-to-noise ratio and defect discrimination, validated on Ti-6Al-4V samples.",
+          "validation": "Experimental validation using Ti-6Al-4V reference blocks with artificial defects and a WAAM sample with tungsten inclusions."
+        },
+        "key_terms": [
+          {
+            "en": "wire arc additive manufacturing",
+            "zh": "线弧增材制造"
+          },
+          {
+            "en": "ultrasonic testing",
+            "zh": "超声波检测"
+          },
+          {
+            "en": "eddy current testing",
+            "zh": "涡流检测"
+          },
+          {
+            "en": "data fusion",
+            "zh": "数据融合"
+          },
+          {
+            "en": "non-destructive evaluation",
+            "zh": "无损评价"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 1,
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Medium": 1
+      "Medium": 1,
+      "Exclude": 1
     }
   }
 }

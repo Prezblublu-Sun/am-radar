@@ -51,30 +51,32 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_postprocess",
-        "ti6al4v_base_mechanical_fatigue"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "fatigue",
+          "fatigue life"
+        ],
         "ti6al4v_postprocess": [
           "Ti6Al4V",
           "heat treatment",
           "surface treatment",
           "post-processing"
-        ],
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti6Al4V",
-          "fatigue",
-          "fatigue life"
         ]
       },
       "llm": {
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文研究了激光粉末床熔融Ti6Al4V ELI合金的热处理与W-DLC涂层双相后处理对疲劳性能的影响，直接对应您的后处理控制方向。",
-        "why_not_core": "N/A - paper is directly relevant",
+        "relevance_to_user": "该论文直接研究了热处理和W-DLC涂层对激光粉末床熔融Ti6Al4V ELI合金疲劳性能的影响，完全符合L2方向对后处理改性AM Ti-6Al-4V力学性能的关注。",
+        "why_not_core": "This paper focuses on a specific duplex post-processing (heat treatment + W-DLC coating) and does not cover other common post-processing routes such as HIP, shot peening, or laser shock peening.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -83,24 +85,25 @@
           "is_review": false
         },
         "tags": [
-          "laser powder bed fusion",
-          "Ti-6Al-4V",
+          "L-PBF Ti-6Al-4V",
+          "duplex treatment",
           "heat treatment",
           "W-DLC coating",
           "fatigue",
-          "duplex treatment"
+          "post-processing",
+          "temperature effect"
         ],
         "summary_zh": {
-          "motivation": "提升激光粉末床熔融Ti6Al4V ELI合金的疲劳性能",
-          "method": "采用亚β转变热处理加W-DLC涂层双相处理，在不同温度下进行疲劳测试",
-          "result": "双相处理显著提高疲劳寿命，尤其在循环温度条件下效果更明显",
-          "validation": "通过S-N疲劳试验、XRD、SEM和硬度测试验证"
+          "motivation": "研究热处理和W-DLC涂层对LPBF Ti6Al4V ELI在不同温度下疲劳性能的影响",
+          "method": "采用亚β转变热处理和W-DLC涂层双联处理，在不同温度下进行应力-寿命疲劳测试",
+          "result": "双联处理显著提升疲劳寿命，循环温度条件（-50/+50°C）下降幅最大，涂层减少残余应力",
+          "validation": "通过拉伸测试、XRD、SEM和维氏硬度进行微观结构和力学验证"
         },
         "summary_en": {
-          "motivation": "To improve the fatigue performance of L-PBF Ti6Al4V ELI alloy through duplex post-processing.",
-          "method": "Sub-β-transus heat treatment followed by W-DLC coating via CFUBMS, with fatigue testing at multiple steady and cyclic temperatures.",
-          "result": "The duplex treatment notably enhanced fatigue life across all conditions, with the greatest improvement under cyclic temperature (−50/+50 °C).",
-          "validation": "Validation via S-N fatigue testing, XRD, SEM, EDX, and Vickers hardness characterization."
+          "motivation": "This study investigates how a duplex post-processing treatment (sub-β-transus heat treatment plus W-DLC coating) improves the fatigue performance of laser powder bed fused Ti6Al4V ELI under varying thermal conditions.",
+          "method": "Fatigue tests using stress-life methodology were conducted at 25°C, 50°C, 250°C, -50°C, and cyclic -50/+50°C conditions, with microstructural and mechanical characterization via XRD, SEM, EDX, and Vickers hardness.",
+          "result": "The duplex treatment significantly enhanced fatigue life across all test temperatures, with the most pronounced improvement at room temperature, while cyclic thermal conditions caused the greatest fatigue life reduction.",
+          "validation": "Validation was performed through systematic fatigue experiments and post-fracture microstructural analysis confirming protective barrier formation and residual stress reduction."
         },
         "key_terms": [
           {
@@ -108,8 +111,12 @@
             "zh": "激光粉末床熔融"
           },
           {
-            "en": "Ti-6Al-4V ELI",
+            "en": "Ti6Al4V ELI",
             "zh": "Ti6Al4V ELI合金"
+          },
+          {
+            "en": "duplex treatment",
+            "zh": "双联处理"
           },
           {
             "en": "heat treatment",
@@ -124,22 +131,26 @@
             "zh": "疲劳寿命"
           },
           {
-            "en": "duplex treatment",
-            "zh": "双相处理"
+            "en": "post-processing",
+            "zh": "后处理"
           },
           {
-            "en": "sub-β-transus",
-            "zh": "亚β转变"
+            "en": "stress-life method",
+            "zh": "应力-寿命法"
           },
           {
-            "en": "closed-field unbalanced magnetron sputtering",
-            "zh": "闭场非平衡磁控溅射"
+            "en": "microporosity",
+            "zh": "微孔隙"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
     },
     {
       "source": "openalex",
@@ -196,6 +207,8 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
           "surface roughness",
           "fatigue"
         ]
@@ -204,44 +217,36 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "本文涉及Ti-6Al-4V的表面粗糙度预测，但未研究其力学或疲劳性能，仅间接相关。",
-        "why_not_core": "This paper focuses on surface roughness prediction using a physics-guided neural network, not on mechanical or fatigue characterization of Ti-6Al-4V.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的表面粗糙度预测，虽与疲劳性能相关，但未直接提供力学或疲劳数据。",
+        "why_not_core": "The paper does not directly characterize mechanical or fatigue performance of Ti-6Al-4V; it focuses on surface roughness prediction across multiple alloys using a modeling framework.",
+        "validation_kind": "numerical_benchmark",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "surface roughness prediction",
+          "surface roughness",
           "physics-guided neural network",
-          "additive manufacturing",
           "Ti-6Al-4V",
-          "316L stainless steel",
-          "AlSi10Mg"
+          "laser powder bed fusion",
+          "additive manufacturing",
+          "data-efficient learning"
         ],
         "summary_zh": {
-          "motivation": "开发一种数据高效的增材制造金属表面粗糙度预测方法。",
-          "method": "构建物理引导的神经网络，融合能量描述子和替代辅助训练。",
-          "result": "在多种合金上实现高交叉验证R²，预测趋势一致。",
-          "validation": "使用文献和实验数据集进行交叉验证和残差分析。"
+          "motivation": "表面粗糙度严重影响增材制造金属疲劳性能，但现有预测依赖大量实验。",
+          "method": "构建物理引导神经网络，以能量描述符为特征，结合代理训练实现跨合金粗糙度预测。",
+          "result": "在316L、Ti-6Al-4V和AlSi10Mg上实现R²≈0.98-0.995的交叉验证趋势一致性。",
+          "validation": "基于文献数据和五折交叉验证进行数值基准测试。"
         },
         "summary_en": {
-          "motivation": "To develop a data-efficient prediction method for surface roughness in additively manufactured metallic alloys.",
-          "method": "A physics-guided neural network framework integrating energy descriptors and surrogate-assisted training.",
-          "result": "High cross-validated R² (0.98–0.995) for trend-level surface roughness prediction across multiple alloys including Ti-6Al-4V.",
-          "validation": "Cross-validation on literature and experimental datasets with residual analysis and response-surface visualization."
+          "motivation": "Surface roughness critically affects fatigue performance in additively manufactured metals, yet prediction currently relies on extensive experimental campaigns.",
+          "method": "A physics-guided neural network framework was developed using energy-based descriptors and surrogate-assisted training to predict roughness trends across multiple alloys.",
+          "result": "The framework achieved cross-validated trend consistency with R² ≈ 0.98–0.995 for 316L, Ti-6Al-4V, and AlSi10Mg.",
+          "validation": "Validation was performed via fivefold cross-validation using literature-derived datasets."
         },
         "key_terms": [
-          {
-            "en": "laser powder bed fusion",
-            "zh": "激光粉末床熔融"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
           {
             "en": "surface roughness",
             "zh": "表面粗糙度"
@@ -251,42 +256,168 @@
             "zh": "物理引导神经网络"
           },
           {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
             "en": "additive manufacturing",
             "zh": "增材制造"
+          },
+          {
+            "en": "data-efficient learning",
+            "zh": "数据高效学习"
           },
           {
             "en": "energy density",
             "zh": "能量密度"
           },
           {
+            "en": "surrogate-assisted training",
+            "zh": "代理辅助训练"
+          },
+          {
             "en": "cross-validation",
             "zh": "交叉验证"
+          },
+          {
+            "en": "R²",
+            "zh": "决定系数"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7133508343",
+      "doi": "10.1016/j.engfracmech.2026.111993",
+      "title": "Multiaxial fatigue behavior and life prediction of forged Ti-6Al-4V under complex paths with mean stress",
+      "abstract": "",
+      "authors": [
+        "Junqi Feng",
+        "Dasheng Wei",
+        "Xiyuan Zhang",
+        "Tonghui Wang",
+        "Xiang Liu",
+        "Shun Zhen Yang"
+      ],
+      "first_author_affiliation": "Collaborative Innovation Center for Advanced Aero-Engine, Beijing 100191, China",
+      "corresponding_authors": [
+        {
+          "name": "Shun Zhen Yang",
+          "affiliation": "Collaborative Innovation Center for Advanced Aero-Engine, Beijing 100191, China"
+        }
+      ],
+      "venue": "Engineering Fracture Mechanics",
+      "year": 2026,
+      "date": "2026-03-05",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.engfracmech.2026.111993",
+      "cited_by_count": 0,
+      "concepts": [
+        "Structural engineering",
+        "Stress (linguistics)",
+        "Materials science"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究锻造Ti-6Al-4V的多轴疲劳行为，不涉及增材制造工艺，与方向不符。",
+        "why_not_core": "The paper investigates forged, not additively manufactured, Ti-6Al-4V; no AM process (LPBF/SLM/EBM/DED) is used or discussed.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "forged Ti-6Al-4V",
+          "multiaxial fatigue",
+          "mean stress",
+          "life prediction",
+          "not AM"
+        ],
+        "summary_zh": {
+          "motivation": "研究锻造Ti-6Al-4V在复杂路径和平均应力下的多轴疲劳行为。",
+          "method": "进行多轴疲劳实验并建立寿命预测模型。",
+          "result": "揭示了平均应力和加载路径对疲劳寿命的影响。",
+          "validation": "通过实验数据验证了预测模型的有效性。"
+        },
+        "summary_en": {
+          "motivation": "Investigate multiaxial fatigue behavior of forged Ti-6Al-4V under complex loading paths with mean stress.",
+          "method": "Conduct multiaxial fatigue experiments and develop a life prediction model.",
+          "result": "Reveal the effects of mean stress and loading path on fatigue life.",
+          "validation": "Validate the prediction model using experimental data."
+        },
+        "key_terms": [
+          {
+            "en": "forged Ti-6Al-4V",
+            "zh": "锻造Ti-6Al-4V"
+          },
+          {
+            "en": "multiaxial fatigue",
+            "zh": "多轴疲劳"
+          },
+          {
+            "en": "mean stress",
+            "zh": "平均应力"
+          },
+          {
+            "en": "life prediction",
+            "zh": "寿命预测"
+          },
+          {
+            "en": "complex loading paths",
+            "zh": "复杂加载路径"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
       "ti6al4v_postprocess": 1,
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
       "High": 1,
-      "Low": 1
+      "Low": 1,
+      "Exclude": 1
     }
   }
 }

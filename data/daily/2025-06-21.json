@@ -53,6 +53,7 @@
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "TC4",
+          "microstructure",
           "tensile strength",
           "elongation",
           "residual stress"
@@ -62,8 +63,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是Ti-6Al-4V钛合金中厚板的激光-GTA窄间隙焊接，而非增材制造，因此与您的方向无关。",
-        "why_not_core": "The paper focuses on welding (laser-GTA narrow gap welding) of Ti-6Al-4V plates, not on additive manufacturing processes such as LPBF, SLM, EBM, or DED. It does not involve any additive manufacturing mechanical or fatigue characterization.",
+        "relevance_to_user": "论文是关于Ti-6Al-4V钛合金的焊接工艺，而非增材制造，不符合方向要求。",
+        "why_not_core": "The paper studies welding of Ti-6Al-4V plates, not additive manufacturing processes such as LPBF, SLM, EBM, or DED, which are the focus of this direction.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -72,34 +73,35 @@
           "is_review": false
         },
         "tags": [
-          "welding",
           "Ti-6Al-4V",
+          "welding",
+          "narrow gap welding",
           "residual stress",
           "microstructure"
         ],
         "summary_zh": {
-          "motivation": "解决厚钛合金板窄间隙焊接中的熔池不稳定、侧壁熔合不良和残余应力过大问题。",
-          "method": "采用低功率脉冲激光-GTA柔性热源焊接并辅以即时超声冲击处理。",
-          "result": "获得无缺陷焊接接头，抗拉强度870 MPa，断后伸长率17.1%，残余应力控制在200 MPa以内。",
-          "validation": "通过拉伸测试、冲击韧性和残余应力测量验证工艺效果。"
+          "motivation": "解决厚钛合金板窄间隙焊接中的熔池不稳定和残余应力问题。",
+          "method": "采用低功率脉冲激光-GTA柔性热源焊接并辅以超声冲击处理。",
+          "result": "获得无缺陷、低残余应力（<200 MPa）的高性能焊接接头。",
+          "validation": "通过拉伸、冲击和残余应力测试验证了接头性能。"
         },
         "summary_en": {
-          "motivation": "To overcome dynamic molten pool instability, poor sidewall fusion, and excessive residual stress in narrow gap welding of thick titanium alloy plates.",
-          "method": "A low-power pulsed laser-GTA flexible heat source welding process combined with instant ultrasonic impact treatment was employed on 16-mm-thick TC4 titanium alloy.",
-          "result": "Defect-free joints were obtained with a tensile strength of 870 MPa, elongation of 17.1%, and residual stress controlled within 200 MPa.",
-          "validation": "Mechanical testing including tensile, impact toughness, and residual stress measurements validated the process."
+          "motivation": "This study aims to address molten pool instability, poor sidewall fusion, and excessive residual stress in narrow gap welding of thick Ti-6Al-4V plates.",
+          "method": "A low-power pulsed laser-GTA hybrid heat source combined with ultrasonic impact treatment was used to weld 16-mm-thick TC4 titanium alloy.",
+          "result": "The welded joint exhibited no defects, a basketweave martensitic microstructure, tensile strength of 870 MPa, elongation of 17.1%, and residual stress reduced by over 94% near the weld.",
+          "validation": "Mechanical testing (tensile, impact) and residual stress measurements were performed to validate joint performance."
         },
         "key_terms": [
           {
-            "en": "laser-GTA hybrid welding",
-            "zh": "激光-GTA复合焊接"
+            "en": "laser-GTA welding",
+            "zh": "激光-GTA焊接"
           },
           {
             "en": "narrow gap welding",
             "zh": "窄间隙焊接"
           },
           {
-            "en": "Ti-6Al-4V titanium alloy",
+            "en": "Ti-6Al-4V",
             "zh": "Ti-6Al-4V钛合金"
           },
           {
@@ -111,40 +113,156 @@
             "zh": "超声冲击处理"
           },
           {
-            "en": "microstructure",
-            "zh": "微观组织"
+            "en": "basketweave structure",
+            "zh": "篮筐状组织"
           },
           {
             "en": "tensile strength",
             "zh": "抗拉强度"
-          },
-          {
-            "en": "impact toughness",
-            "zh": "冲击韧性"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411571585",
+      "doi": "10.1631/jzus.a2500007",
+      "title": "High-performance milling of Ti-6Al-4V through rotary ultrasonic elliptical milling with anticlockwise elliptical vibration",
+      "abstract": "Ultrasonic elliptical vibration cutting (UEVC) with clockwise elliptical vibration has made notable achievements in precision machining; however, its critical cutting speed limits its application to low-speed machining tasks. Meanwhile, rotary ultrasonic elliptical machining (RUEM) with clockwise elliptical vibration has been validated as an effective high-speed cutting technology. Unfortunately, conventional RUEM leads to increased surface roughness. To address this issue and enhance machining quality, we propose a novel RUEM method employing an anticlockwise vibration direction, called anticlockwise rotary ultrasonic elliptical machining (ARUEM). The mechanisms of surface formation and subsurface strengthening for ARUEM are analyzed. Experimental validations were performed on Ti-6Al-4V alloy, revealing that ARUEM achieved substantially lower ridge heights and up to a 50% reduction in surface roughness compared to conventional RUEM. Additionally, relative to conventional milling, ARUEM resulted in up to 122.6% thicker plastic deformation layers, 53.4% higher surface residual compressive stress, and 19.3% greater surface micro-hardness. This study showcases a promising method for high-performance milling of Ti-6Al-4V, offers new insights into RUEM by examining the influence of vibration direction, and enhances understanding of surface formation and subsurface strengthening in the ARUEM method.",
+      "authors": [
+        "Lianxing Liu",
+        "Xinggang Jiang",
+        "Enze Yingam",
+        "Zhefei Sun",
+        "Daxi Geng",
+        "Deyuan Zhang"
+      ],
+      "first_author_affiliation": "Institute of Bionic and Micro-Nano Systems, Beihang University, Beijing, China",
+      "corresponding_authors": [
+        {
+          "name": "Lianxing Liu",
+          "affiliation": "Institute of Bionic and Micro-Nano Systems, Beihang University, Beijing, China"
+        }
+      ],
+      "venue": "Journal of Zhejiang University. Science A",
+      "year": 2025,
+      "date": "2025-06-21",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1631/jzus.a2500007",
+      "cited_by_count": 26,
+      "concepts": [
+        "Clockwise",
+        "Materials science",
+        "Vibration",
+        "End milling",
+        "Ultrasonic sensor",
+        "Composite material",
+        "Machining"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是Ti-6Al-4V的铣削加工，不涉及增材制造后处理，因此与L2方向无关。",
+        "why_not_core": "This paper does not concern additive-manufactured Ti-6Al-4V; it studies milling of conventional Ti-6Al-4V, so it lacks the post-processing of AM context.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "milling",
+          "ultrasonic elliptical vibration",
+          "surface roughness",
+          "plastic deformation"
+        ],
+        "summary_zh": {
+          "motivation": "为解决传统旋转超声椭圆加工表面粗糙度高的问题。",
+          "method": "提出逆时针旋转超声椭圆铣削方法并分析机理。",
+          "result": "相比传统方法，表面粗糙度降低50%，残余压应力提高53.4%。",
+          "validation": "通过Ti-6Al-4V合金铣削实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To overcome the issue of high surface roughness in conventional rotary ultrasonic elliptical machining.",
+          "method": "A novel anticlockwise rotary ultrasonic elliptical milling method is proposed and its surface formation and subsurface strengthening mechanisms are analyzed.",
+          "result": "The new method achieved up to 50% reduction in surface roughness and 53.4% higher surface residual compressive stress compared to conventional milling.",
+          "validation": "Experimental validation was conducted on Ti-6Al-4V alloy."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "rotary ultrasonic elliptical milling",
+            "zh": "旋转超声椭圆铣削"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "residual compressive stress",
+            "zh": "残余压应力"
+          },
+          {
+            "en": "plastic deformation layer",
+            "zh": "塑性变形层"
+          },
+          {
+            "en": "micro-hardness",
+            "zh": "显微硬度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 1,
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 2
     }
   }
 }

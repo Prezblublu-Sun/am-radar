@@ -61,9 +61,9 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究Ti-6Al-4V合金的MQL加工工艺模拟，未涉及任何后处理对力学性能的影响，与用户关注的后处理对疲劳/力学性能改进方向无关。",
-        "why_not_core": "Does not study the effect of post-processing on fatigue or mechanical performance; only simulates cutting temperature and force during MQL machining of Ti-6Al-4V, with no connection to AM post-processing or mechanical property improvement.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文专注于MQL加工过程的仿真方法，未涉及Ti-6Al-4V后处理对疲劳或力学性能的影响。",
+        "why_not_core": "This paper does not study the effect of any post-processing treatment on the mechanical or fatigue performance of Ti-6Al-4V; it only simulates the MQL machining process without linking to property outcomes.",
+        "validation_kind": "simulation_case",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -71,38 +71,43 @@
           "is_review": false
         },
         "tags": [
-          "MQL machining",
           "Ti-6Al-4V",
-          "FE-CFD simulation"
+          "MQL machining",
+          "FE-CFD coupling",
+          "simulation"
         ],
         "summary_zh": {
-          "motivation": "现有MQL加工模拟方法无法准确反映动态流场变化，预测可靠性低。",
-          "method": "提出双向迭代耦合FE-CFD模型，交替传递热通量和对流换热系数直至收敛。",
-          "result": "模拟的切削温度和主切削力与实验值吻合良好，验证了耦合方法的预测能力。",
-          "validation": "通过车削实验对比温度与力数据验证模拟精度。"
+          "motivation": "现有MQL加工仿真模型对动态流场预测不足",
+          "method": "提出FE-CFD双向迭代耦合框架模拟MQL车削Ti-6Al-4V",
+          "result": "耦合模型提高了切削温度和主力的模拟精度",
+          "validation": "通过不同进给条件下的实验验证仿真结果"
         },
         "summary_en": {
-          "motivation": "Existing simulation approaches for MQL-assisted machining fail to model dynamic flow field variations, compromising predictive reliability.",
-          "method": "A bidirectional iterative coupling framework integrating finite element analysis and computational fluid dynamics was developed, transferring thermal flux and convective heat transfer coefficients iteratively until convergence.",
-          "result": "The coupled model achieved improved agreement with experimental cutting temperature and principal force profiles across different feed rates.",
-          "validation": "Experimental turning tests on Ti-6Al-4V were conducted to validate the simulated temperature and force data."
+          "motivation": "Current simulation models for minimum quantity lubrication machining lack predictive reliability due to inadequate modeling of dynamic flow fields.",
+          "method": "A bidirectional iterative coupling framework integrating finite element analysis and computational fluid dynamics was developed to simulate Ti-6Al-4V turning under MQL conditions.",
+          "result": "The coupled model achieved improved alignment with experimental cutting temperature and principal force data across various feed rates.",
+          "validation": "Validation experiments confirmed the enhanced predictive capability by comparing simulated and measured temperature and force values."
         },
         "key_terms": [
           {
-            "en": "minimum quantity lubrication",
+            "en": "minimum quantity lubrication (MQL)",
             "zh": "微量润滑"
           },
           {
-            "en": "bidirectional coupling",
-            "zh": "双向耦合"
+            "en": "FE-CFD coupling",
+            "zh": "有限元-计算流体动力学耦合"
           },
           {
-            "en": "finite element analysis",
-            "zh": "有限元分析"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "computational fluid dynamics",
-            "zh": "计算流体动力学"
+            "en": "turning",
+            "zh": "车削"
+          },
+          {
+            "en": "convective heat transfer coefficient",
+            "zh": "对流换热系数"
           },
           {
             "en": "cutting temperature",
@@ -113,32 +118,138 @@
             "zh": "主切削力"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "en": "feed rate",
+            "zh": "进给率"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411625915",
+      "doi": "10.55546/jmm.1675925",
+      "title": "Development Of Electronically Controlled Dual-Component Continuous Powder Feeder To Build Functional Graded Materials With Additive Manufacturing Process",
+      "abstract": "Directed Energy Deposition methods allow parts to be produced in functional grades with different compositions across distinct regions. For this, there is a need for a powder feeder that allows multiple components to be fed into the process area simultaneously and in an integrated manner. In this study, a dual-component powder feeder was designed and manufactured. This electronically controlled powder feeder can feed two different powder materials at different flow rates at the same time. The performance of the powder feeder was tested with Ti6Al4V (flow rates of 5, 10, and 15 g/min), Zirconium (13, 20, and 30 g/min), and Inconel 625 (20, 50, and 75 g/min) powder materials. Following the calibration process, the minimum deviations were observed as 2.9% for Ti6Al4V at 15 g/min, 11.5% for Zirconium at 30 g/min, and 6.5% for Inconel 625 at 75 g/min. Conversely, the maximum deviations were recorded as 12.3% for Ti6Al4V at 10 g/min, 28.8% for Zirconium at 20 g/min, and 18.4% for Inconel 625 at 20 g/min. Overall, the lowest deviations occurred at the higher end of the examined flow rate range.",
+      "authors": [
+        "Mehmet Ermurat",
+        "Serhat Ziba"
+      ],
+      "first_author_affiliation": "Kahramanmaraş Sütçü İmam Üniversitesi",
+      "corresponding_authors": [
+        {
+          "name": "Mehmet Ermurat",
+          "affiliation": "Kahramanmaraş Sütçü İmam Üniversitesi"
+        }
+      ],
+      "venue": "Journal of Materials and Mechatronics A",
+      "year": 2025,
+      "date": "2025-06-19",
+      "date_precision": "day",
+      "url": "https://doi.org/10.55546/jmm.1675925",
+      "cited_by_count": 0,
+      "concepts": [
+        "Component (thermodynamics)",
+        "Process (computing)",
+        "Dual (grammatical number)",
+        "Process engineering",
+        "Manufacturing engineering",
+        "Manufacturing process",
+        "Computer science",
+        "Materials science",
+        "Engineering drawing"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "additive manufacturing",
+          "directed energy deposition"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要介绍粉末喂料器的开发，而非Ti-6Al-4V的力学或疲劳性能，与用户方向无关。",
+        "why_not_core": "This paper does not report any mechanical or fatigue properties of additively manufactured Ti-6Al-4V; it focuses on a powder feeder calibration and does not address any mechanical characterization.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "powder feeder",
+          "functional graded materials",
+          "directed energy deposition"
+        ],
+        "summary_zh": {
+          "motivation": "开发用于增材制造功能梯度材料的双组分粉末喂料器",
+          "method": "设计并制造电子控制的双组份粉末喂料器，并用Ti6Al4V、锆和Inconel 625粉末测试其性能",
+          "result": "粉末喂料器在高流量下偏差最小，Ti6Al4V在15 g/min时偏差2.9%",
+          "validation": "通过不同流量下的校准实验验证喂料精度"
+        },
+        "summary_en": {
+          "motivation": "To develop a dual-component powder feeder capable of producing functional graded materials via directed energy deposition",
+          "method": "An electronically controlled powder feeder was designed and manufactured, and its performance was tested with Ti6Al4V, Zirconium, and Inconel 625 powders at various flow rates",
+          "result": "The feeder showed lowest deviations at higher flow rates, with Ti6Al4V achieving 2.9% deviation at 15 g/min",
+          "validation": "Calibration experiments with multiple powders and flow rates"
+        },
+        "key_terms": [
+          {
+            "en": "powder feeder",
+            "zh": "粉末喂料器"
+          },
+          {
+            "en": "functional graded materials",
+            "zh": "功能梯度材料"
+          },
+          {
+            "en": "directed energy deposition",
+            "zh": "定向能量沉积"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V"
+          },
+          {
+            "en": "flow rate deviation",
+            "zh": "流量偏差"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 2
     }
   }
 }

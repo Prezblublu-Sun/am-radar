@@ -53,6 +53,10 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "selective laser melting",
+          "SLM",
+          "microstructure",
           "surface roughness",
           "fatigue",
           "fatigue life"
@@ -65,52 +69,54 @@
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文仅研究SLM钛合金铣削参数对表面粗糙度的影响，未涉及疲劳或力学性能，因此与后处理控制疲劳性能的直接关联较弱。",
-        "why_not_core": "No fatigue or mechanical performance data; only surface roughness optimization, which does not directly address how post-processing modifies mechanical properties.",
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Skim only",
+        "relevance_to_user": "本文研究了SLM成形Ti-6Al-4V的铣削后处理工艺参数对表面粗糙度的影响，直接相关于后处理对疲劳性能的影响。",
+        "why_not_core": "The paper focuses on surface roughness optimization rather than directly measuring fatigue life or mechanical performance changes due to post-processing.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
+          "has_uncertainty_quantification": true,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "surface roughness",
+          "selective laser melting",
+          "Ti-6Al-4V",
           "milling",
+          "surface roughness",
           "Taguchi DOE",
-          "SLM Ti-6Al-4V"
+          "post-processing"
         ],
         "summary_zh": {
-          "motivation": "优化SLM Ti-6Al-4V铣削参数以提高表面质量。",
-          "method": "采用Taguchi L9正交实验设计，分析主轴转速、进给率和切削深度对粗糙度的影响。",
-          "result": "主轴转速是最显著因素（贡献率83.66%），最优参数为7000 rpm、0.1 mm切深、1200 mm/min进给。",
-          "validation": "接触式轮廓仪实测Ra值验证。"
+          "motivation": "优化SLM成形Ti-6Al-4V的铣削参数以提高表面质量。",
+          "method": "采用Taguchi L9正交实验设计，研究主轴转速、进给率和切削深度对表面粗糙度的影响。",
+          "result": "主轴转速是影响表面粗糙度的主要因素（贡献率83.66%），最优参数组合降低表面粗糙度。",
+          "validation": "通过接触式轮廓仪测量表面粗糙度并进行ANOVA分析验证。"
         },
         "summary_en": {
-          "motivation": "To optimize milling parameters for SLM-produced Ti-6Al-4V to achieve better surface finish.",
-          "method": "Taguchi L9 orthogonal array with spindle speed, feed rate, and depth of cut; S/N ratio and ANOVA analysis.",
-          "result": "Spindle speed is the most influential factor (83.66% contribution); optimal parameters: 7000 rpm, 0.1 mm depth of cut, 1200 mm/min feed rate.",
-          "validation": "Experimental surface roughness measurements using a contact profilometer."
+          "motivation": "This study aims to optimize milling parameters for SLM-produced Ti-6Al-4V to achieve better surface quality, which is critical for mechanical performance.",
+          "method": "A Taguchi-based Design of Experiments (L9 orthogonal array) was used to evaluate the effects of spindle speed, feed rate, and depth of cut on surface roughness.",
+          "result": "Spindle speed was identified as the most influential factor (83.66% contribution), and optimal parameters were determined to minimize surface roughness.",
+          "validation": "Experimental validation was performed by measuring arithmetic mean roughness (Ra) with a contact profilometer and analyzing data via S/N ratio and ANOVA."
         },
         "key_terms": [
           {
-            "en": "selective laser melting (SLM)",
-            "zh": "选择性激光熔化"
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
-          },
-          {
-            "en": "surface roughness",
-            "zh": "表面粗糙度"
+            "zh": "钛合金Ti-6Al-4V"
           },
           {
             "en": "milling",
             "zh": "铣削"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           },
           {
             "en": "Taguchi design of experiments",
@@ -131,12 +137,16 @@
           {
             "en": "ANOVA",
             "zh": "方差分析"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
     }
   ],
   "counts": {
@@ -154,7 +164,7 @@
     },
     "scored": 1,
     "priority_counts": {
-      "Low": 1
+      "Medium": 1
     }
   }
 }

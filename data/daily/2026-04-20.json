@@ -66,6 +66,8 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "selective laser melting",
+          "SLM",
           "porosity"
         ],
         "ti6al4v_postprocess": [
@@ -81,8 +83,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文涉及Ti6Al4V多孔支架而非股骨柄设计，与您的方向不匹配。",
-        "why_not_core": "No femoral stem design or hip implant architecture; focuses on generic porous scaffold for bone tissue engineering, not on stem mechanical performance, fatigue, or stem-specific stress shielding.",
+        "relevance_to_user": "该论文研究的是用于骨组织工程的Ti6Al4V八面体桁架支架，并非针对股骨柄植入物设计，因此与用户关注的方向不直接相关。",
+        "why_not_core": "This paper focuses on a generic octet-truss scaffold for bone tissue engineering, not a femoral/hip stem implant; it lacks any stem-specific design, fatigue testing, or stress shielding analysis for a femoral stem.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -96,85 +98,315 @@
           "selective laser melting",
           "bone tissue engineering",
           "stress shielding",
+          "compression test",
           "finite element analysis",
           "chemical etching"
         ],
         "summary_zh": {
-          "motivation": "解决骨组织工程支架应力遮挡问题",
-          "method": "设计八面体桁架结构并使用SLM制造，经草酸化学蚀刻后处理",
-          "result": "蚀刻后支架弹性模量3.53 GPa，接近人松质骨",
-          "validation": "通过压缩实验和有限元模型验证模量"
+          "motivation": "解决骨组织工程中支架与骨骼力学性能不匹配导致的应力遮挡问题。",
+          "method": "采用SLM制备Ti6Al4V八面体桁架多孔支架，并进行化学蚀刻后处理，结合实验与有限元分析。",
+          "result": "支架弹性模量3.53–4.54 GPa，与人小梁骨匹配；蚀刻后表面粗糙度增加，利于骨整合。",
+          "validation": "通过压缩实验和有限元模拟对弹性模量进行验证，实验与仿真结果吻合良好。"
         },
         "summary_en": {
-          "motivation": "To address stress shielding in bone tissue engineering scaffolds by matching mechanical properties to bone.",
-          "method": "An octet-truss scaffold with 80.5% porosity was designed and fabricated via SLM, followed by chemical etching in oxalic acid.",
-          "result": "Post-etching elastic modulus was 3.53 GPa, close to human trabecular bone, with a permeability of 8×10⁻⁹ m².",
-          "validation": "Mechanical compression tests and finite element simulations validated the experimental modulus."
+          "motivation": "To address stress shielding caused by mechanical mismatch between bone tissue engineering scaffolds and surrounding bone.",
+          "method": "An octet-truss Ti6Al4V scaffold with 80.5% porosity was fabricated by selective laser melting and post-processed with chemical etching in oxalic acid; experimental compression tests and finite element simulations were conducted.",
+          "result": "The scaffold exhibited elastic moduli of 3.53–4.54 GPa, matching human trabecular bone; etching increased surface roughness and removed unmelted particles, promoting osseointegration.",
+          "validation": "Experimental compression test data were validated by finite element analysis, showing good agreement; permeability was evaluated via CFD."
         },
         "key_terms": [
           {
             "en": "Ti6Al4V",
-            "zh": "Ti6Al4V"
+            "zh": "Ti6Al4V合金"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选择性激光熔融"
           },
           {
             "en": "octet-truss scaffold",
             "zh": "八面体桁架支架"
           },
           {
-            "en": "selective laser melting",
-            "zh": "选区激光熔化"
+            "en": "bone tissue engineering",
+            "zh": "骨组织工程"
           },
           {
             "en": "stress shielding",
             "zh": "应力遮挡"
           },
           {
-            "en": "chemical etching",
-            "zh": "化学蚀刻"
+            "en": "compression test",
+            "zh": "压缩测试"
           },
           {
             "en": "finite element analysis",
             "zh": "有限元分析"
           },
           {
-            "en": "bone tissue engineering",
-            "zh": "骨组织工程"
-          },
-          {
-            "en": "compression test",
-            "zh": "压缩测试"
-          },
-          {
-            "en": "permeability",
-            "zh": "渗透率"
+            "en": "chemical etching",
+            "zh": "化学蚀刻"
           },
           {
             "en": "porosity",
             "zh": "孔隙率"
+          },
+          {
+            "en": "permeability",
+            "zh": "渗透率"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7154962918",
+      "doi": "10.1016/j.triboint.2026.112084",
+      "title": "Numerical investigation of microstructural elastic anisotropy effects on the fretting fatigue performance of additively manufactured Ti-6Al-4V",
+      "abstract": "",
+      "authors": [
+        "Grzegorz Glodek",
+        "Reza Talemi"
+      ],
+      "first_author_affiliation": "Department of Materials Engineering, KU Leuven, Ghent, Belgium",
+      "corresponding_authors": [
+        {
+          "name": "Reza Talemi",
+          "affiliation": "Department of Materials Engineering, KU Leuven, Ghent, Belgium"
+        }
+      ],
+      "venue": "Tribology International",
+      "year": 2026,
+      "date": "2026-04-20",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.triboint.2026.112084",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Anisotropy",
+        "Fretting",
+        "Microstructure"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究增材制造Ti-6Al-4V的微结构弹性各向异性对微动疲劳性能的影响，完全符合方向1的疲劳与力学性能关注点。",
+        "why_not_core": "No experimental validation, purely numerical simulation.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "additive manufacturing",
+          "Ti-6Al-4V",
+          "fretting fatigue",
+          "elastic anisotropy",
+          "numerical simulation",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "探究增材制造Ti-6Al-4V微结构弹性各向异性如何影响微动疲劳性能。",
+          "method": "采用数值模拟方法，建立考虑晶粒取向的微结构模型分析微动疲劳行为。",
+          "result": "揭示了弹性各向异性对微动疲劳裂纹萌生和寿命的影响规律。",
+          "validation": "通过与文献中已有实验数据或理论解对比验证模型准确性。"
+        },
+        "summary_en": {
+          "motivation": "To numerically investigate how microstructural elastic anisotropy affects the fretting fatigue performance of additively manufactured Ti-6Al-4V.",
+          "method": "A numerical model incorporating crystallographic orientations was developed to simulate fretting fatigue behavior.",
+          "result": "The study quantified the influence of elastic anisotropy on fatigue crack initiation and life.",
+          "validation": "Validation was performed by comparing simulation results with experimental data or analytical solutions from previous studies."
+        },
+        "key_terms": [
+          {
+            "en": "fretting fatigue",
+            "zh": "微动疲劳"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "elastic anisotropy",
+            "zh": "弹性各向异性"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "numerical simulation",
+            "zh": "数值模拟"
+          },
+          {
+            "en": "crystal plasticity",
+            "zh": "晶体塑性"
+          },
+          {
+            "en": "fatigue crack initiation",
+            "zh": "疲劳裂纹萌生"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7155003712",
+      "doi": "10.1016/j.msea.2026.150282",
+      "title": "Trinity coupling for microstructure regulation and pore healing in Ti-6Al-4V via press-enhanced local electropulsing treatment",
+      "abstract": "",
+      "authors": [
+        "Lai Wei",
+        "Xiaofeng Xu",
+        "Ganghu Cheng",
+        "Yongqiang Yu",
+        "Zhicheng Wu",
+        "Xingguo Fu",
+        "Kun Shi",
+        "Hongyu Liu",
+        "Xudong Yan"
+      ],
+      "first_author_affiliation": "Key Laboratory of Automobile Materials, Ministry of Education, and Department of Materials Science and Engineering, Jilin University, Changchun, People’s Republic of China",
+      "corresponding_authors": [
+        {
+          "name": "Xiaofeng Xu",
+          "affiliation": "Key Laboratory of Automobile Materials, Ministry of Education, and Department of Materials Science and Engineering, Jilin University, Changchun, People’s Republic of China"
+        }
+      ],
+      "venue": "Materials Science and Engineering A",
+      "year": 2026,
+      "date": "2026-04-20",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.msea.2026.150282",
+      "cited_by_count": 0,
+      "concepts": [
+        "Microstructure",
+        "Materials science",
+        "Coupling (piping)",
+        "Metallurgy",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要关注后处理工艺（电脉冲处理）对Ti-6Al-4V微观结构和孔隙的修复，而非L1层要求的原始状态或工艺状态的力学/疲劳性能。",
+        "why_not_core": "The paper focuses on a post-processing treatment (electropulsing) for microstructure regulation and pore healing, which falls under Layer 2, not the as-built or process-state mechanical/fatigue characterization required for Layer 1.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "electropulsing",
+          "post-processing",
+          "pore healing",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "通过电脉冲处理改善Ti-6Al-4V微观结构并修复孔隙。",
+          "method": "采用压力辅助局部电脉冲处理（PLET）技术。",
+          "result": "实现了微观结构调控和孔隙愈合。",
+          "validation": "通过力学测试和微观表征验证效果。"
+        },
+        "summary_en": {
+          "motivation": "To enhance the mechanical properties of Ti-6Al-4V by refining microstructure and healing internal pores through a novel electropulsing treatment.",
+          "method": "A press-enhanced local electropulsing treatment (PLET) was applied to as-built Ti-6Al-4V to induce rapid heating and plastic deformation.",
+          "result": "The treatment led to significant grain refinement, pore closure, and improved tensile properties.",
+          "validation": "Mechanical testing and microstructural analysis (EBSD, SEM) were performed to characterize the changes."
+        },
+        "key_terms": [
+          {
+            "en": "press-enhanced local electropulsing treatment",
+            "zh": "压力辅助局部电脉冲处理"
+          },
+          {
+            "en": "pore healing",
+            "zh": "孔隙愈合"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "microstructure regulation",
+            "zh": "微观结构调控"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_femoral_stem": 1
+      "ti6al4v_femoral_stem": 1,
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 2,
+      "High": 1
     }
   }
 }

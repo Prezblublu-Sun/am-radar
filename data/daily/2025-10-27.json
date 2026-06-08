@@ -69,9 +69,9 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文使用Ti-6Al-4V材料但研究对象是髓内钉，而非股骨柄植入体，与用户要求的股骨柄结构设计无关。",
-        "why_not_core": "This paper focuses on intramedullary nails for fracture fixation, not on femoral stem implants; it lacks stem structural design, lattice architecture, or ISO fatigue testing for hip stems.",
-        "validation_kind": "simulation_case",
+        "relevance_to_user": "该论文涉及股骨髓内钉而非髋关节股骨柄，与Ti-6Al-4V股骨柄结构设计无直接关联。",
+        "why_not_core": "The paper focuses on intramedullary nails for fracture fixation, not femoral/hip stem implants for arthroplasty, and lacks the structural design, lattice architecture, or stem fatigue analysis required for this direction.",
+        "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
@@ -79,29 +79,24 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
           "intramedullary nail",
           "CFR-PEEK",
           "finite element analysis",
-          "stress shielding"
+          "fracture healing"
         ],
         "summary_zh": {
-          "motivation": "比较钛合金与CFR-PEEK髓内钉在近端股骨骨折治疗中的生物力学性能。",
-          "method": "使用有限元模型模拟站立相步态载荷和肌肉力，考虑骨密度差异。",
-          "result": "CFR-PEEK钉比钛钉减少近端应力遮挡，改善成骨刺激。",
-          "validation": "仅计算仿真，无实验验证。"
+          "motivation": "比较钛合金与CFR-PEEK髓内钉在近端股骨骨折中的生物力学表现",
+          "method": "使用有限元模型模拟站立步态载荷，分析骨应力和成骨指数",
+          "result": "CFR-PEEK钉降低应力遮挡，改善骨愈合生物力学环境",
+          "validation": "仅有有限元分析，无实验验证"
         },
         "summary_en": {
-          "motivation": "This study compares the biomechanical performance of titanium alloy and CFR-PEEK intramedullary nails for proximal femoral fracture treatment.",
-          "method": "Finite element models were developed to simulate mid-stance gait loading with muscle forces and varying bone density conditions.",
-          "result": "CFR-PEEK nails exhibited reduced proximal stress shielding and improved osteogenic stimulus compared to titanium nails.",
-          "validation": "The study relied solely on computational simulations without experimental validation."
+          "motivation": "This study compares the biomechanical performance of titanium alloy and CFR-PEEK intramedullary nails for proximal femoral fracture fixation.",
+          "method": "Finite element models with mid-stance gait loading and muscle forces were used to evaluate stress distribution and osteogenic index.",
+          "result": "CFR-PEEK nails reduced stress shielding and promoted a more favorable biomechanical environment for bone healing compared to titanium nails.",
+          "validation": "The study relies solely on finite element analysis without experimental validation."
         },
         "key_terms": [
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
-          },
           {
             "en": "intramedullary nail",
             "zh": "髓内钉"
@@ -121,30 +116,292 @@
           {
             "en": "osteogenic index",
             "zh": "成骨指数"
+          },
+          {
+            "en": "proximal femoral fracture",
+            "zh": "股骨近端骨折"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:17:25Z"
+      "first_seen_at": "2026-06-08T08:27:10Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415597410",
+      "doi": "10.1007/s00170-025-16610-8",
+      "title": "In situ tailoring of Ti6Al4V microstructure via laser powder bed fusion with secondary laser processing",
+      "abstract": "",
+      "authors": [
+        "Aditya Ganesh-Ram",
+        "Ahmet Alptuğ Tanrıkulu",
+        "Oscar Valdez Loya",
+        "Paul Davidson",
+        "Aaron Ameri"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Aditya Ganesh-Ram",
+          "affiliation": ""
+        }
+      ],
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "year": 2025,
+      "date": "2025-10-27",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s00170-025-16610-8",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Fusion",
+        "Laser",
+        "Grain size",
+        "Fabrication",
+        "Composite material",
+        "Titanium alloy",
+        "Grain boundary",
+        "Metallurgy",
+        "Thermal",
+        "Elongation",
+        "Layer (electronics)",
+        "Characterization (materials science)",
+        "Grain growth",
+        "Process window",
+        "Selective laser melting",
+        "Powder metallurgy",
+        "Metal powder"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Peripheral",
+        "read_action": "Skim only",
+        "relevance_to_user": "对于Ti-6Al-4V增材制造工艺改进有参考价值，但缺乏力学性能表征。",
+        "why_not_core": "No explicit mechanical or fatigue characterization reported; focus is on microstructural tailoring via secondary laser processing, not on mechanical performance.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "in situ tailoring",
+          "laser powder bed fusion",
+          "microstructure",
+          "secondary laser processing"
+        ],
+        "summary_zh": {
+          "motivation": "通过二次激光加工原位调控Ti6Al4V微观结构",
+          "method": "采用激光粉末床熔融结合二次激光处理",
+          "result": "实现了微观结构的定制化调控",
+          "validation": "未见具体力学验证"
+        },
+        "summary_en": {
+          "motivation": "The study aims to tailor the microstructure of Ti6Al4V in situ during laser powder bed fusion by employing a secondary laser processing step.",
+          "method": "A secondary laser is applied concurrently with the main laser in LPBF to modify thermal history and resultant microstructure.",
+          "result": "The approach demonstrates the ability to produce graded or customized microstructures in Ti6Al4V components.",
+          "validation": "No mechanical or fatigue testing is reported; validation is limited to microstructural characterization."
+        },
+        "key_terms": [
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "in situ tailoring",
+            "zh": "原位调控"
+          },
+          {
+            "en": "secondary laser processing",
+            "zh": "二次激光处理"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:27:10Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7127085088",
+      "doi": "10.1051/matecconf/202541501007/pdf",
+      "title": "Fatigue performance analysis of dental implants: Influence of thread design",
+      "abstract": "This study investigates the fatigue performance of dental implants made from titanium alloy (Ti-6Al-4V), with a focus on the influence of thread geometry on fatigue resistance. Two implant models with distinct thread profiles are considered: triangular and trapezoidal. The implants were designed using CAD software and analyzed via finite element analysis (FEA) by ANSYS. A fixed part was considered to simulate the surrounding bone, and a force of 118.2 N was applied according to ISO 14801 dental standard [1]. The results of static analysis reveal that the triangular thread design is subjected to the high peak stress of 290MPa localized at the thread edges, which could be a potential site of fatigue failure. In contrast, the trapezoidal thread design demonstrates lower level of stress distribution, with a reduced of the maximum stress concentrations of 216MPa. Fatigue analysis shows that the trapezoidal threaded implant offers significantly better performance, with a minimum lifespan approximately 4.7 times higher than the triangular threaded implant. The obtained result could be attributed to its larger contact surface and optimized load distribution compared to the triangular thread geometry. These findings highlight the importance of thread geometry in enhancing the mechanical reliability and longevity of dental implants.",
+      "authors": [
+        "Hanane Elouirdini",
+        "Imane Touaiher",
+        "Chaïmaâ Hermama",
+        "Younes Moubachir",
+        "Saoudi Taibi"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Hanane Elouirdini",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Springer Link (Chiba Institute of Technology)",
+      "year": 2025,
+      "date": "2025-10-27",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1051/matecconf/202541501007/pdf",
+      "cited_by_count": 0,
+      "concepts": [
+        "Thread (computing)",
+        "Screw thread",
+        "Finite element method",
+        "Structural engineering",
+        "Bolted joint",
+        "Titanium alloy",
+        "Materials science",
+        "Dental implant",
+        "Engineering",
+        "Software",
+        "Computer science",
+        "CAD",
+        "Implant",
+        "Mechanical engineering",
+        "Fatigue limit",
+        "Fatigue testing",
+        "Stress concentration"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文未涉及增材制造工艺，与用户关注的方向不匹配。",
+        "why_not_core": "The paper does not mention additive manufacturing; it is a general FEA study on dental implant thread design without any AM context.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "dental implants",
+          "thread design",
+          "fatigue",
+          "FEA",
+          "finite element analysis"
+        ],
+        "summary_zh": {
+          "motivation": "研究螺纹几何形状对Ti-6Al-4V牙种植体疲劳性能的影响",
+          "method": "通过CAD设计两种螺纹模型，利用ANSYS有限元分析模拟静态和疲劳载荷",
+          "result": "梯形螺纹设计应力集中更低，疲劳寿命约为三角形螺纹的4.7倍",
+          "validation": "仅有限元模拟，无实验验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate the influence of thread geometry on the fatigue performance of Ti-6Al-4V dental implants.",
+          "method": "Two implant models with triangular and trapezoidal thread profiles were designed and analyzed using finite element analysis (ANSYS) under ISO 14801 loading conditions.",
+          "result": "The trapezoidal thread design exhibited lower peak stress (216 MPa vs 290 MPa) and approximately 4.7 times higher fatigue life than the triangular design.",
+          "validation": "The study relied solely on finite element simulation without experimental validation."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "dental implant",
+            "zh": "牙种植体"
+          },
+          {
+            "en": "thread geometry",
+            "zh": "螺纹几何形状"
+          },
+          {
+            "en": "fatigue performance",
+            "zh": "疲劳性能"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "stress concentration",
+            "zh": "应力集中"
+          },
+          {
+            "en": "ISO 14801",
+            "zh": "ISO 14801标准"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:27:10Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_femoral_stem": 1
+      "ti6al4v_femoral_stem": 1,
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 2,
+      "Medium": 1
     }
   }
 }

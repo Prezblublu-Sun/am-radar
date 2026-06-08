@@ -62,6 +62,10 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "microstructure",
           "tensile strength",
           "ductility",
           "residual stress"
@@ -76,8 +80,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "论文直接研究了Ti6Al4V激光粉末床熔融后的热处理（退火）对微观结构和力学性能（拉伸、硬度、密度）的影响，符合L2后处理控制方向。",
-        "why_not_core": "The paper does not include fatigue testing, which is a key mechanical performance aspect mentioned in the direction focus.",
+        "relevance_to_user": "该论文直接研究了退火热处理对激光粉末床熔融Ti6Al4V力学性能的影响，完全契合后处理控制方向。",
+        "why_not_core": "该论文仅比较了单一退火条件与未处理样品，缺乏不同后处理工艺之间的对比，且未包含疲劳性能数据。",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -86,24 +90,24 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
           "laser powder bed fusion",
-          "heat treatment",
+          "Ti6Al4V",
           "annealing",
-          "mechanical properties",
-          "microstructure"
+          "microstructure",
+          "tensile properties",
+          "density"
         ],
         "summary_zh": {
-          "motivation": "研究退火热处理对LPBF Ti6Al4V性能的影响，以释放残余应力。",
-          "method": "在935°C退火8小时，比较打印态与热处理态的物理、力学和微观结构。",
-          "result": "退火使密度达99.28%，延展性提高231%，但抗拉强度下降28%，硬度下降13%，微观结构从α'马氏体转变为α+β。",
-          "validation": "通过密度、表面粗糙度、拉伸、硬度测试和显微观察验证。"
+          "motivation": "研究退火热处理对LPBF Ti6Al4V样品整体性能的影响",
+          "method": "在935°C退火8小时，比较退火前后物理、力学性能与微观结构",
+          "result": "退火后密度达99.28%，延展性提高231%，但抗拉强度降低28%，硬度降低13%",
+          "validation": "通过密度、表面粗糙度、拉伸、硬度和微观结构观察验证"
         },
         "summary_en": {
-          "motivation": "To investigate the effect of annealing heat treatment on the performance of Ti6Al4V fabricated by laser powder bed fusion, aiming to relieve residual stress.",
-          "method": "Ti6Al4V samples were annealed at 935°C for 8 hours with controlled heating and cooling rates, and compared with as-built samples in terms of density, surface roughness, tensile properties, hardness, and microstructure.",
-          "result": "Annealing achieved 99.28% density, increased ductility by 231%, but reduced tensile strength by 28% and hardness by 13%, with microstructure transformation from acicular α' martensite to α+β phases.",
-          "validation": "Experimental characterization via density measurement, surface profilometry, tensile testing, hardness testing, and scanning electron microscopy."
+          "motivation": "The paper aims to investigate the effect of annealing heat treatment on the overall performance of Ti6Al4V fabricated by laser powder bed fusion.",
+          "method": "LPBF Ti6Al4V samples were annealed at 935°C for 8 hours, and the physical, mechanical, and microstructural properties were compared between as-built and heat-treated conditions.",
+          "result": "Annealing achieved high density (99.28%) and smooth surface (5.70 μm), improved ductility by 231%, but reduced tensile strength by 28% and hardness by 13%.",
+          "validation": "Validation was performed through density measurement, surface roughness testing, tensile testing, hardness testing, and microstructure observation."
         },
         "key_terms": [
           {
@@ -111,46 +115,46 @@
             "zh": "激光粉末床熔融"
           },
           {
-            "en": "heat treatment",
-            "zh": "热处理"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
           },
           {
-            "en": "annealing",
-            "zh": "退火"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
-          {
-            "en": "mechanical properties",
-            "zh": "力学性能"
+            "en": "annealing heat treatment",
+            "zh": "退火热处理"
           },
           {
             "en": "microstructure",
             "zh": "微观结构"
           },
           {
-            "en": "density",
-            "zh": "密度"
+            "en": "acicular α' martensite",
+            "zh": "针状α'马氏体"
           },
           {
-            "en": "tensile strength",
-            "zh": "抗拉强度"
+            "en": "α+β phases",
+            "zh": "α+β相"
           },
           {
             "en": "ductility",
             "zh": "延展性"
           },
           {
-            "en": "hardness",
-            "zh": "硬度"
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "density",
+            "zh": "密度"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
     }
   ],
   "counts": {

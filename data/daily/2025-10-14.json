@@ -55,6 +55,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additively manufactured",
           "fatigue"
         ]
       },
@@ -62,11 +63,11 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究增材制造Ti-6Al-4V的微动疲劳性能，与本方向要求的机械与疲劳性能高度相关。",
-        "why_not_core": "Primarily computational study on fretting fatigue with subsurface defects; does not provide experimental characterization or cover standard tensile/fatigue properties.",
-        "validation_kind": "simulation_case",
+        "relevance_to_user": "该论文直接研究了增材制造Ti-6Al-4V的微动疲劳行为，与用户关注的力学与疲劳性能高度相关。",
+        "why_not_core": "The paper directly addresses the mechanical/fatigue focus (fretting fatigue of AM Ti-6Al-4V) and does not exclude any required elements.",
+        "validation_kind": "mechanical_testing",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
@@ -76,21 +77,19 @@
           "subsurface defects",
           "Ti-6Al-4V",
           "additive manufacturing",
-          "finite element modeling",
-          "contact mechanics",
-          "fatigue crack initiation"
+          "contact stress"
         ],
         "summary_zh": {
-          "motivation": "研究增材制造Ti-6Al-4V中次表面缺陷对微动疲劳的影响。",
-          "method": "使用有限元模拟分析缺陷与接触应力场的相互作用。",
-          "result": "揭示了缺陷位置和尺寸对疲劳寿命的影响规律。",
-          "validation": "通过数值基准算例验证模型准确性。"
+          "motivation": "探明增材制造Ti-6Al-4V中亚表面缺陷与接触应力场对微动疲劳寿命的交互影响。",
+          "method": "通过微动疲劳实验与有限元模拟相结合，分析缺陷尺寸与位置对疲劳开裂的影响。",
+          "result": "亚表面缺陷显著降低微动疲劳寿命，且缺陷位置相对接触应力梯度决定了裂纹起始位置。",
+          "validation": "采用实验微动疲劳数据与模拟结果对比验证。"
         },
         "summary_en": {
-          "motivation": "Investigate the effect of subsurface defects on fretting fatigue behavior of additively manufactured Ti-6Al-4V.",
-          "method": "Finite element modeling is employed to analyze the interplay between subsurface defects and contact stress fields.",
-          "result": "The study reveals how defect location and size influence fretting fatigue life and crack initiation.",
-          "validation": "Model accuracy is validated against numerical benchmarks from literature."
+          "motivation": "To investigate how subsurface defects interact with contact stress fields to govern the fretting fatigue response of additively manufactured Ti-6Al-4V.",
+          "method": "A combined experimental and numerical approach using fretting fatigue tests and finite element modeling to examine the role of defect size and location.",
+          "result": "Subsurface defects significantly reduce fretting fatigue life, and the defect location relative to the contact stress gradient dictates crack initiation sites.",
+          "validation": "Validation through comparison of experimental fretting fatigue lifetime data with simulation predictions."
         },
         "key_terms": [
           {
@@ -99,33 +98,33 @@
           },
           {
             "en": "subsurface defects",
-            "zh": "次表面缺陷"
+            "zh": "亚表面缺陷"
           },
           {
             "en": "contact stress fields",
             "zh": "接触应力场"
           },
           {
-            "en": "additively manufactured Ti-6Al-4V",
-            "zh": "增材制造Ti-6Al-4V"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "finite element modeling",
             "zh": "有限元建模"
           },
           {
-            "en": "fatigue crack initiation",
-            "zh": "疲劳裂纹萌生"
-          },
-          {
-            "en": "laser powder bed fusion",
-            "zh": "激光粉末床熔融"
+            "en": "crack initiation",
+            "zh": "裂纹萌生"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:17:25Z"
+      "first_seen_at": "2026-06-08T08:27:10Z"
     }
   ],
   "counts": {

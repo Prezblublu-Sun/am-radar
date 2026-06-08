@@ -5,151 +5,6 @@
   "papers": [
     {
       "source": "openalex",
-      "id": "https://openalex.org/W7133200447",
-      "doi": "10.1016/j.matdes.2026.115775",
-      "title": "Strength prediction and microstructure quantification of Ti-6Al-4V alloy by selective laser melting based on machine learning",
-      "abstract": "• First integrated framework connects manufacturing parameters mechanical properties and microstructure for 3D printed titanium alloy • Advanced machine learning model predicts material strength with exceptional accuracy using process data. • Combined deep learning approach achieves high precision analysis of material microstructures automatically. The process parameters, microstructure, and mechanical properties of Ti-6Al-4V alloy fabricated by selective laser melting (SLM) are strongly coupled, limiting the effectiveness of conventional trial-and-error optimization. This study proposes a cross-scale framework integrating machine learning and deep learning to establish quantitative process–structure–property relationships. Based on 750 process parameter sets and 1,225 metallographic images, a multi-scale prediction, analysis, and optimization model is developed. A Bayesian-optimized XGBoost model achieves high-accuracy tensile strength prediction (R 2 = 0.98, MAE = 8.50 MPa), with Shapley Additive Explanations(SHAP) analysis identifying annealing temperature and laser power as the dominant factors. The Broyden-Fletcher-Goldfarb-Shanno(BFGS) algorithm identifies parameters yielding a theoretical maximum tensile strength of 1273.17 MPa. In parallel, deep learning models enable automated microstructure analysis: an enhanced ResNet50 achieves 98% accuracy in classifying lamellar, bimodal, and acicular microstructures, while U-Net and DeepLab V3+ models provide high-precision segmentation of lamellar and bimodal structures, enabling quantitative extraction of α-lamellar and primary equiaxed α phase fractions and characteristic sizes. This framework provides a data-driven pathway for linking SLM process parameters, microstructure evolution, and mechanical performance, highlighting the potential of artificial intelligence in metal additive manufacturing.",
-      "authors": [
-        "M.Y. Zuo",
-        "Y.H. Zeng",
-        "K. Sun",
-        "J. F. Sun",
-        "M. Wang"
-      ],
-      "first_author_affiliation": "School of Materials Science and Engineering, Liaoning Technical University, 47 Zhonghua Road, Fuxin, Liaoning 123000, China",
-      "corresponding_authors": [
-        {
-          "name": "M. Wang",
-          "affiliation": "School of Materials Science and Engineering, Liaoning Technical University, 47 Zhonghua Road, Fuxin, Liaoning 123000, China"
-        }
-      ],
-      "venue": "Materials & Design",
-      "year": 2026,
-      "date": "2026-03-03",
-      "date_precision": "day",
-      "url": "https://doi.org/10.1016/j.matdes.2026.115775",
-      "cited_by_count": 2,
-      "concepts": [
-        "Materials science",
-        "Selective laser melting",
-        "Microstructure",
-        "Equiaxed crystals",
-        "Ultimate tensile strength",
-        "Titanium alloy",
-        "Artificial intelligence",
-        "Machine learning",
-        "Alloy",
-        "Acicular",
-        "Mechanical engineering",
-        "Laser power scaling",
-        "Lamellar structure",
-        "Algorithm",
-        "Composite material",
-        "Smoothing",
-        "Artificial neural network",
-        "Deep learning"
-      ],
-      "categories": [],
-      "raw_type": "article",
-      "directions": [
-        "ti6al4v_base_mechanical_fatigue",
-        "ti6al4v_postprocess"
-      ],
-      "direction": "ti6al4v_postprocess",
-      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
-      "routing_matches": {
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "tensile strength"
-        ],
-        "ti6al4v_postprocess": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "annealing"
-        ]
-      },
-      "llm": {
-        "priority": "Medium",
-        "relevance_level": "Transferable",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文虽然以Ti-6Al-4V为对象并包含退火参数，但其核心是机器学习框架而非系统研究后处理对疲劳/力学性能的影响，后处理仅作为参数之一。",
-        "why_not_core": "The paper does not systematically study the effect of a specific post-processing route on fatigue/mechanical performance; it uses annealing as one parameter in a broader ML framework without dedicated post-processing experiments or comparisons.",
-        "validation_kind": "mechanical_testing",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "SLM Ti-6Al-4V",
-          "machine learning",
-          "tensile strength prediction",
-          "microstructure quantification",
-          "annealing"
-        ],
-        "summary_zh": {
-          "motivation": "建立SLM Ti-6Al-4V工艺-结构-性能关系",
-          "method": "使用贝叶斯优化XGBoost预测强度，深度学习分割微观组织",
-          "result": "强度预测R²=0.98，MAE=8.50 MPa，微观组织分类准确率98%",
-          "validation": "基于文献实验数据验证"
-        },
-        "summary_en": {
-          "motivation": "To establish a quantitative process-structure-property relationship for SLM Ti-6Al-4V using machine learning.",
-          "method": "Integrated a Bayesian-optimized XGBoost model for tensile strength prediction with deep learning for automated microstructure segmentation and classification.",
-          "result": "Achieved high-accuracy strength prediction (R²=0.98, MAE=8.50 MPa) and 98% microstructure classification accuracy, with annealing temperature identified as a key factor.",
-          "validation": "Validated against 750 process parameter sets and 1225 metallographic images from experimental data."
-        },
-        "key_terms": [
-          {
-            "en": "selective laser melting",
-            "zh": "选区激光熔化"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
-          {
-            "en": "machine learning",
-            "zh": "机器学习"
-          },
-          {
-            "en": "XGBoost",
-            "zh": "XGBoost"
-          },
-          {
-            "en": "tensile strength",
-            "zh": "抗拉强度"
-          },
-          {
-            "en": "microstructure",
-            "zh": "微观组织"
-          },
-          {
-            "en": "annealing",
-            "zh": "退火"
-          },
-          {
-            "en": "SHAP",
-            "zh": "SHAP解释"
-          },
-          {
-            "en": "deep learning",
-            "zh": "深度学习"
-          },
-          {
-            "en": "segmentation",
-            "zh": "分割"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
-    },
-    {
-      "source": "openalex",
       "id": "https://openalex.org/W7133345220",
       "doi": "10.3390/met16030284",
       "title": "Research Progress on the Microstructure, Mechanical Properties, and Corrosion Behavior of TC4 Alloy Fabricated by Selective Laser Melting",
@@ -217,6 +72,10 @@
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "TC4",
+          "additive manufacturing",
+          "selective laser melting",
+          "SLM",
+          "microstructure",
           "tensile strength",
           "elongation",
           "ductility",
@@ -238,8 +97,8 @@
         "priority": "Medium",
         "relevance_level": "Direct",
         "read_action": "Save for project",
-        "relevance_to_user": "该综述系统总结了SLM成形TC4合金的后处理（退火、热等静压）对微观组织和力学性能的影响，与后处理调控疲劳/力学性能的研究方向高度相关。",
-        "why_not_core": "The paper is a review without novel experimental or modeling contributions, so it does not provide new quantitative data on post-processing effects.",
+        "relevance_to_user": "该综述系统总结了热处理和热等静压等后处理对选区激光熔化TC4合金微观组织及疲劳性能的影响，直接符合用户关注的后处理调控方向。",
+        "why_not_core": "This is a review paper without novel experimental or modeling data; it synthesizes existing literature rather than contributing new findings on a specific post-processing route.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
@@ -248,25 +107,26 @@
           "is_review": true
         },
         "tags": [
-          "selective laser melting",
           "Ti-6Al-4V",
+          "selective laser melting",
           "post-processing",
-          "annealing",
+          "heat treatment",
           "hot isostatic pressing",
           "fatigue",
-          "corrosion"
+          "corrosion",
+          "microstructure"
         ],
         "summary_zh": {
-          "motivation": "综述SLM成形TC4合金的微观结构、力学性能及腐蚀行为，弥补先前研究的空白。",
-          "method": "综合评述SLM工艺参数、后处理（退火、HIP）对组织演变和性能的影响机制。",
-          "result": "退火和HIP可显著改善塑性并降低孔隙率，疲劳极限与工艺和后处理密切相关。",
-          "validation": "引用已发表文献中的数据，无独立实验验证。"
+          "motivation": "全面更新SLM成型TC4合金的研究进展，填补先前综述在机理分析和多维比较上的空白。",
+          "method": "综合评述了SLM工艺参数、后热处理及热等静压对组织、力学和腐蚀性能的影响。",
+          "result": "后处理可显著改善塑性（延伸率达17.4%）和疲劳性能（HIP降低孔隙率至0.01%）。",
+          "validation": "综述引用了多篇已发表论文中的实验数据，未提出新实验验证。"
         },
         "summary_en": {
-          "motivation": "This review aims to comprehensively update the state of the art on SLM-fabricated TC4 alloy by integrating novel research progress and mechanistic analyses.",
-          "method": "It compares the effects of SLM process parameters and post-treatments like annealing and hot isostatic pressing on microstructure and mechanical properties.",
-          "result": "Annealing at 800°C achieves 1099 MPa tensile strength with 17.4% elongation, while HIP reduces porosity to 0.01% and weakens fatigue anisotropy.",
-          "validation": "The review synthesizes published data without conducting new experiments."
+          "motivation": "To comprehensively update the state of the art on SLM-fabricated Ti-6Al-4V, addressing gaps in previous reviews by integrating novel progress and mechanistic analysis.",
+          "method": "The review synthesizes findings on how SLM process parameters, post-heat treatment, and hot isostatic pressing influence microstructure, tensile properties, fatigue, and corrosion behavior.",
+          "result": "Post-treatment strategies such as annealing at 800°C for 2 h yield 1099 MPa tensile strength and 17.4% elongation, while HIP reduces porosity to 0.01% and weakens fatigue anisotropy.",
+          "validation": "No new experimental validation is provided; the review compiles and compares existing experimental results from the literature."
         },
         "key_terms": [
           {
@@ -275,63 +135,596 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "TC4钛合金"
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "post-processing",
-            "zh": "后处理"
-          },
-          {
-            "en": "annealing",
-            "zh": "退火"
+            "en": "post-heat treatment",
+            "zh": "后热处理"
           },
           {
             "en": "hot isostatic pressing",
             "zh": "热等静压"
           },
           {
-            "en": "fatigue",
-            "zh": "疲劳"
+            "en": "fatigue limit",
+            "zh": "疲劳极限"
           },
           {
-            "en": "corrosion",
-            "zh": "腐蚀"
+            "en": "martensitic α′ phase",
+            "zh": "马氏体α′相"
           },
           {
-            "en": "microstructure",
-            "zh": "微观组织"
+            "en": "porosity",
+            "zh": "孔隙率"
           },
           {
-            "en": "mechanical properties",
-            "zh": "力学性能"
-          },
-          {
-            "en": "phase transformation",
-            "zh": "相变"
+            "en": "corrosion anisotropy",
+            "zh": "腐蚀各向异性"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7133200447",
+      "doi": "10.1016/j.matdes.2026.115775",
+      "title": "Strength prediction and microstructure quantification of Ti-6Al-4V alloy by selective laser melting based on machine learning",
+      "abstract": "• First integrated framework connects manufacturing parameters mechanical properties and microstructure for 3D printed titanium alloy • Advanced machine learning model predicts material strength with exceptional accuracy using process data. • Combined deep learning approach achieves high precision analysis of material microstructures automatically. The process parameters, microstructure, and mechanical properties of Ti-6Al-4V alloy fabricated by selective laser melting (SLM) are strongly coupled, limiting the effectiveness of conventional trial-and-error optimization. This study proposes a cross-scale framework integrating machine learning and deep learning to establish quantitative process–structure–property relationships. Based on 750 process parameter sets and 1,225 metallographic images, a multi-scale prediction, analysis, and optimization model is developed. A Bayesian-optimized XGBoost model achieves high-accuracy tensile strength prediction (R 2 = 0.98, MAE = 8.50 MPa), with Shapley Additive Explanations(SHAP) analysis identifying annealing temperature and laser power as the dominant factors. The Broyden-Fletcher-Goldfarb-Shanno(BFGS) algorithm identifies parameters yielding a theoretical maximum tensile strength of 1273.17 MPa. In parallel, deep learning models enable automated microstructure analysis: an enhanced ResNet50 achieves 98% accuracy in classifying lamellar, bimodal, and acicular microstructures, while U-Net and DeepLab V3+ models provide high-precision segmentation of lamellar and bimodal structures, enabling quantitative extraction of α-lamellar and primary equiaxed α phase fractions and characteristic sizes. This framework provides a data-driven pathway for linking SLM process parameters, microstructure evolution, and mechanical performance, highlighting the potential of artificial intelligence in metal additive manufacturing.",
+      "authors": [
+        "M.Y. Zuo",
+        "Y.H. Zeng",
+        "K. Sun",
+        "J. F. Sun",
+        "M. Wang"
+      ],
+      "first_author_affiliation": "School of Materials Science and Engineering, Liaoning Technical University, 47 Zhonghua Road, Fuxin, Liaoning 123000, China",
+      "corresponding_authors": [
+        {
+          "name": "M. Wang",
+          "affiliation": "School of Materials Science and Engineering, Liaoning Technical University, 47 Zhonghua Road, Fuxin, Liaoning 123000, China"
+        }
+      ],
+      "venue": "Materials & Design",
+      "year": 2026,
+      "date": "2026-03-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.matdes.2026.115775",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Selective laser melting",
+        "Microstructure",
+        "Equiaxed crystals",
+        "Ultimate tensile strength",
+        "Titanium alloy",
+        "Artificial intelligence",
+        "Machine learning",
+        "Alloy",
+        "Acicular",
+        "Mechanical engineering",
+        "Laser power scaling",
+        "Lamellar structure",
+        "Algorithm",
+        "Composite material",
+        "Smoothing",
+        "Artificial neural network",
+        "Deep learning"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "selective laser melting",
+          "3D printed",
+          "SLM",
+          "microstructure",
+          "tensile strength"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "annealing"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文虽未专门研究后处理对疲劳性能的影响，但通过机器学习建立了退火等后处理参数与力学性能的关系，为后处理效果预测提供了数据驱动方法。",
+        "why_not_core": "The paper does not experimentally isolate the effect of a specific post-processing treatment on fatigue or mechanical performance; it is a predictive model using existing data that includes annealing parameters.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "selective laser melting",
+          "machine learning",
+          "annealing",
+          "microstructure quantification",
+          "strength prediction",
+          "SHAP",
+          "deep learning"
+        ],
+        "summary_zh": {
+          "motivation": "建立SLM钛合金工艺-结构-性能关系",
+          "method": "集成XGBoost和深度学习的跨尺度框架",
+          "result": "预测抗拉强度R²=0.98，识别退火温度和激光功率为关键因素",
+          "validation": "使用750组工艺参数和1225幅显微图像验证"
+        },
+        "summary_en": {
+          "motivation": "To establish quantitative process-structure-property relationships for SLM Ti-6Al-4V.",
+          "method": "A cross-scale framework integrating Bayesian-optimized XGBoost for strength prediction and deep learning for microstructure analysis.",
+          "result": "Achieved tensile strength prediction with R²=0.98 and identified annealing temperature and laser power as dominant factors.",
+          "validation": "Validated on 750 process parameter sets and 1,225 metallographic images, with deep learning models achieving 98% classification accuracy."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "annealing",
+            "zh": "退火"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "SHAP",
+            "zh": "SHAP解释"
+          },
+          {
+            "en": "deep learning",
+            "zh": "深度学习"
+          },
+          {
+            "en": "XGBoost",
+            "zh": "XGBoost"
+          },
+          {
+            "en": "segmentation",
+            "zh": "分割"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7134253929",
+      "doi": "10.17780/ksujes.1805703",
+      "title": "INVESTIGATION OF WELDING CURRENT ON MECHANICAL AND CORROSION PROPERTIES OF TITANIUM-HYDROXYAPATITE TIG COATINGS ON TI-6AL-4V BİOMEDİCAL ALLOY",
+      "abstract": "In this study, 5% hydroxyapatite (HA)-95% titanium (Ti) composite coatings were fabricated on Ti-6Al-4V (Ti64) substrates using the Tungsten Inert Gas (TIG) welding method at welding currents of 90A, 100A, and 110A. The effects of welding current on the microstructural, mechanical, electrochemical, and biological properties were systematically investigated. According to ASTM E190 bending tests, interfacial adhesion strength increased with increasing welding current. Electrochemical in vitro corrosion tests showed limited dependence on current, though the 100A coating exhibited the lowest corrosion current density (6.93×10-2 μA·cm-2) and highest polarization resistance (12800 Ω), indicating the most passive surface behavior. In vitro simulated body fluid (SBF) tests demonstrated that the 90A coating promoted optimal apatite-like layer formation. Overall, the welding current strongly affected the coatings’ microstructure, chemical stability, mechanical strength, corrosion resistance, and bioactivity. Among all, 90A was optimal for structural stability, 100A for electrochemical performance, and 110A for mechanical adhesion. Thus, the TIG welding process is a promising approach for producing biofunctional coatings on metallic substrates.",
+      "authors": [
+        "Muhammet Guman Özbey",
+        "Mehmet Topuz"
+      ],
+      "first_author_affiliation": "VAN YÜZÜNCÜ YIL ÜNİVERSİTESİ, MÜHENDİSLİK FAKÜLTESİ",
+      "corresponding_authors": [
+        {
+          "name": "Muhammet Guman Özbey",
+          "affiliation": "VAN YÜZÜNCÜ YIL ÜNİVERSİTESİ, MÜHENDİSLİK FAKÜLTESİ"
+        }
+      ],
+      "venue": "Kahramanmaraş Sütçü İmam Üniversitesi Mühendislik Bilimleri Dergisi",
+      "year": 2026,
+      "date": "2026-03-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.17780/ksujes.1805703",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Gas tungsten arc welding",
+        "Welding",
+        "Corrosion",
+        "Metallurgy",
+        "Coating",
+        "Composite material",
+        "Polarization (electrochemistry)",
+        "Inert gas",
+        "Inert",
+        "Alloy",
+        "Electric resistance welding",
+        "Tungsten",
+        "Heat-affected zone",
+        "Titanium alloy",
+        "Current density",
+        "Composite number",
+        "Filler metal",
+        "Titanium",
+        "Current (fluid)",
+        "Bending"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是Ti-6Al-4V基体上的TIG焊接涂层，而非增材制造，与用户方向完全无关。",
+        "why_not_core": "This paper is about TIG welding coatings on Ti-6Al-4V, not about additively manufactured Ti-6Al-4V, so it is outside the scope of Layer 1.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "TIG welding",
+          "hydroxyapatite coating",
+          "corrosion",
+          "bending test"
+        ],
+        "summary_zh": {
+          "motivation": "研究焊接电流对Ti-6Al-4V表面Ti-HA涂层性能的影响。",
+          "method": "采用TIG焊接法制备复合涂层，改变焊接电流90-110A。",
+          "result": "焊接电流影响涂层微观结构、力学、腐蚀和生物活性。",
+          "validation": "通过弯曲测试、电化学腐蚀和SBF浸泡实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of welding current on the properties of Ti-HA composite coatings deposited on Ti-6Al-4V by TIG welding.",
+          "method": "Ti-HA coatings were fabricated at 90A, 100A, and 110A using TIG welding, and characterized for microstructure, mechanical, electrochemical, and biological performance.",
+          "result": "Welding current significantly influenced coating adhesion, corrosion resistance, and apatite formation; the optimal current varied by property.",
+          "validation": "Mechanical integrity was assessed via ASTM E190 bending tests, electrochemical behavior via potentiodynamic polarization, and bioactivity via SBF immersion."
+        },
+        "key_terms": [
+          {
+            "en": "Tungsten Inert Gas (TIG) welding",
+            "zh": "钨极惰性气体焊接"
+          },
+          {
+            "en": "hydroxyapatite coating",
+            "zh": "羟基磷灰石涂层"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
+          },
+          {
+            "en": "bending test",
+            "zh": "弯曲测试"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7133325690",
+      "doi": "10.1016/j.msea.2026.150024",
+      "title": "The role of martensite decomposition and β-stabilizer segregation to interfaces in Ti-6Al-4V with an initial dual-phase α+α' microstructure",
+      "abstract": "The strength of dual-phase α+α' Ti-6Al-4V sheet material can be significantly enhanced through additional short-time annealing lasting only a few minutes, as shown in previous work and attributed to nano-scale microstructural changes within the martensitically transformed β-phase. However, the microstructural mechanisms remained unclear. In this study, the microstructures of the as-received state, the solution heat treated state with α+α' microstructure and additionally (short-time) annealed states were compared to provide deeper insight into these microstructural processes. Advanced high-resolution techniques, including high resolution scanning transmission electron microscopy, atom probe tomography and high-energy X-ray diffraction, were combined with tensile testing for mechanical assessment. Short-time annealing of metastable Ti-6Al-4V α+α' microstructures at 570 °C for 180 s triggered an α' → α+β transformation, comprising: (i) chemical changes, involving V- and Fe-segregation to interfaces, and the formation of V-/Fe-enriched clusters; and (ii) crystallographic decomposition, manifested by α' lattice relaxation and lattice parameter changes. With prolonged annealing, element partitioning and β precipitation progressed from the clusters and nuclei located along interfaces, accompanied by slight changes in the lattice parameters of both phases. After 3 h, the microstructure approached equilibrium, with stabilized α and β phase fractions and lattice parameters. The strengthening achieved by short-time annealing is attributed to suppression of reorientation-induced plasticity in prior α'-martensite and dislocation-cluster/precipitate/solute interactions. In summary, this work reveals microstructural evolution and processes during martensite decomposition in dual-phase Ti-6Al-4V, including β-stabilizer segregation to interfaces. Further, it discusses their role in strength enhancement, providing guidance for developing effective heat treatment and processing routes.",
+      "authors": [
+        "Nina Pfeffer",
+        "A. Bezold",
+        "Jan Vollhüter",
+        "O. Nagel",
+        "Martin Weiser",
+        "Andreas Stark",
+        "Steffen Neumeier",
+        "H.W. Höppel"
+      ],
+      "first_author_affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Materials Science & Engineering, Institute I: General Materials Properties, Martensstraße 5, 91058 Erlangen, Germany",
+      "corresponding_authors": [
+        {
+          "name": "Nina Pfeffer",
+          "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Department of Materials Science & Engineering, Institute I: General Materials Properties, Martensstraße 5, 91058 Erlangen, Germany"
+        }
+      ],
+      "venue": "Materials Science and Engineering A",
+      "year": 2026,
+      "date": "2026-03-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.msea.2026.150024",
+      "cited_by_count": 1,
+      "concepts": [
+        "Microstructure",
+        "Materials science",
+        "Annealing (glass)",
+        "Martensite",
+        "Atom probe",
+        "Metastability",
+        "Plasticity",
+        "Ultimate tensile strength",
+        "Lattice (music)",
+        "Metallurgy",
+        "Composite material",
+        "Precipitation",
+        "Crystallography",
+        "Transmission electron microscopy",
+        "High-resolution transmission electron microscopy",
+        "Tensile testing",
+        "Lattice constant"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess",
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment",
+          "annealing"
+        ],
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的退火后处理，但研究对象为传统片材而非增材制造，且未涉及疲劳性能。",
+        "why_not_core": "Paper does not involve additive manufacturing (uses conventional sheet material) and does not report fatigue data, only tensile properties.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "martensite decomposition",
+          "annealing",
+          "post-processing",
+          "microstructure",
+          "tensile strength"
+        ],
+        "summary_zh": {
+          "motivation": "探究短时退火对双相α+α' Ti-6Al-4V显微组织演变的影响及其强化机制。",
+          "method": "结合高分辨STEM、原子探针层析、高能X射线衍射与拉伸测试，分析退火过程中的相变和元素偏聚。",
+          "result": "短时退火触发α'→α+β转变，V和Fe向界面偏聚，形成团簇，抑制马氏体再取向塑性，提高强度。",
+          "validation": "通过拉伸试验验证不同退火时间下的力学性能变化。"
+        },
+        "summary_en": {
+          "motivation": "To reveal the microstructural mechanisms underlying the strength enhancement of dual-phase α+α' Ti-6Al-4V by short-time annealing.",
+          "method": "High-resolution STEM, atom probe tomography, and high-energy X-ray diffraction combined with tensile testing were used to characterize the microstructural evolution during annealing.",
+          "result": "Short-time annealing at 570°C for 180 s triggers α'→α+β transformation with V and Fe segregation to interfaces, forming clusters that suppress reorientation-induced plasticity and increase strength.",
+          "validation": "Mechanical assessment via tensile testing on differently annealed samples."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "martensite decomposition",
+            "zh": "马氏体分解"
+          },
+          {
+            "en": "annealing",
+            "zh": "退火"
+          },
+          {
+            "en": "β-stabilizer segregation",
+            "zh": "β稳定元素偏聚"
+          },
+          {
+            "en": "atom probe tomography",
+            "zh": "原子探针层析"
+          },
+          {
+            "en": "tensile testing",
+            "zh": "拉伸试验"
+          },
+          {
+            "en": "dual-phase α+α' microstructure",
+            "zh": "双相α+α'显微组织"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7133340205",
+      "doi": "10.3390/coatings16030312",
+      "title": "A Novel Interface Between Ti6Al4V and Organic Tissue Through a TiOxCy Organometallic Multilayer Coating",
+      "abstract": "Titanium alloys are widely used in biomedical applications, especially in dental implants. In this work, individual TiOxCy thin films and a novel multilayer coating approach were investigated to prevent early implant failure through surface properties optimization. The research focuses on designing an innovative TiOxCy organometallic multilayer coating, varying from mineral (low C) to organic (high C), on Ti6Al4V substrates. These coatings were prepared using the PECVD technique, varying parameters as the reactive gas flow to modify the chemical composition, hydrophilicity, and layer thickness. Comprehensive characterization of the surface was conducted using XPS, and by contact angle to evaluate wettability. To further understand the chemical composition within each layer, XPS depth profiling analyses were performed. The results revealed that the newly designed multilayer coating with a decreasing reactive gas flow clearly exhibited a gradient in its composition. Near the upper substrate surface, the layers display a mineral-like, low-carbon structure, transitioning to an organic-like, high-carbon composition at the outermost surface.",
+      "authors": [
+        "Sandra Rubio",
+        "Pascale Chevallier",
+        "Diego Mantovani",
+        "Laurent Houssiau"
+      ],
+      "first_author_affiliation": "Namur Institute of Structured Matter (NISM), University of Namur, Rue de Bruxelles 61, 5000 Namur, Belgium",
+      "corresponding_authors": [
+        {
+          "name": "Sandra Rubio",
+          "affiliation": "Namur Institute of Structured Matter (NISM), University of Namur, Rue de Bruxelles 61, 5000 Namur, Belgium"
+        },
+        {
+          "name": "Laurent Houssiau",
+          "affiliation": "Namur Institute of Structured Matter (NISM), University of Namur, Rue de Bruxelles 61, 5000 Namur, Belgium"
+        }
+      ],
+      "venue": "Coatings",
+      "year": 2026,
+      "date": "2026-03-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/coatings16030312",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Coating",
+        "X-ray photoelectron spectroscopy",
+        "Contact angle",
+        "Titanium alloy",
+        "Substrate (aquarium)",
+        "Layer (electronics)",
+        "Titanium",
+        "Characterization (materials science)",
+        "Plasma-enhanced chemical vapor deposition",
+        "Thin film",
+        "Chemical composition",
+        "Composite material",
+        "Chemical engineering",
+        "Chemical vapor deposition",
+        "Surface energy",
+        "Surface modification",
+        "Interface (matter)",
+        "Nanotechnology"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "layer thickness"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti6Al4V基板上的涂层，但未涉及增材制造或力学/疲劳性能，与用户关注的方向无关。",
+        "why_not_core": "The paper does not address additive manufacturing of Ti6Al4V nor report any mechanical or fatigue performance; it focuses solely on surface coating chemistry and wettability for biomedical dental implants.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti6Al4V coating",
+          "PECVD",
+          "biomedical",
+          "surface modification"
+        ],
+        "summary_zh": {
+          "motivation": "为了提高钛合金植入物的表面性能以预防早期失效",
+          "method": "采用PECVD在Ti6Al4V上制备成分梯度的TiOxCy有机金属多层涂层",
+          "result": "涂层从矿物状低碳结构过渡到有机状高碳结构",
+          "validation": "通过XPS深度剖析和接触角测量进行表征"
+        },
+        "summary_en": {
+          "motivation": "To improve surface properties of titanium alloy implants to prevent early failure.",
+          "method": "TiOxCy organometallic multilayer coatings with a gradient composition were deposited on Ti6Al4V using PECVD.",
+          "result": "The coating exhibits a gradient from a mineral-like low-carbon structure to an organic-like high-carbon structure.",
+          "validation": "Characterization was performed via XPS depth profiling and contact angle measurements."
+        },
+        "key_terms": [
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V"
+          },
+          {
+            "en": "PECVD",
+            "zh": "等离子体增强化学气相沉积"
+          },
+          {
+            "en": "TiOxCy coating",
+            "zh": "TiOxCy涂层"
+          },
+          {
+            "en": "organometallic multilayer",
+            "zh": "有机金属多层"
+          },
+          {
+            "en": "wettability",
+            "zh": "润湿性"
+          },
+          {
+            "en": "XPS",
+            "zh": "X射线光电子能谱"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 5,
     "by_source": {
-      "openalex": 2
+      "openalex": 5
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 5,
+    "after_routing": 5,
     "by_direction": {
-      "ti6al4v_postprocess": 2
+      "ti6al4v_postprocess": 3,
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 5
     },
-    "scored": 2,
+    "scored": 5,
     "priority_counts": {
-      "Medium": 2
+      "Medium": 3,
+      "Exclude": 2
     }
   }
 }

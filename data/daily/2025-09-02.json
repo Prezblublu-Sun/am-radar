@@ -5,6 +5,134 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W4413920325",
+      "doi": "10.1016/j.jmapro.2025.08.057",
+      "title": "Engineering biocompatibility and mechanical performance via heat treatment of LPBF-fabricated Ti-6Al-4V for next-generation implants",
+      "abstract": "",
+      "authors": [
+        "Pratik Kumar Shaw",
+        "Suryank Dwivedi",
+        "Amit Rai Dixit",
+        "Alokesh Pramanik"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, Indian Institute of Technology (Indian School of Mines) Dhanbad, Jharkhand 826004, India",
+      "corresponding_authors": [
+        {
+          "name": "Amit Rai Dixit",
+          "affiliation": "Department of Mechanical Engineering, Indian Institute of Technology (Indian School of Mines) Dhanbad, Jharkhand 826004, India"
+        }
+      ],
+      "venue": "Journal of Manufacturing Processes",
+      "year": 2025,
+      "date": "2025-09-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jmapro.2025.08.057",
+      "cited_by_count": 7,
+      "concepts": [
+        "Materials science",
+        "Biocompatibility",
+        "Biomedical engineering",
+        "Composite material",
+        "Nanotechnology"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "LPBF"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文研究了热处理对激光粉末床熔融Ti-6Al-4V力学性能和生物相容性的影响，直接对应后处理调控方向。",
+        "why_not_core": "The paper covers both biocompatibility and mechanical performance, but does not specifically isolate fatigue life improvement as the primary metric.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quatification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "heat treatment",
+          "mechanical performance",
+          "biocompatibility",
+          "post-processing"
+        ],
+        "summary_zh": {
+          "motivation": "通过热处理改善LPBF Ti-6Al-4V的力学性能与生物相容性，以满足植入物要求。",
+          "method": "对LPBF成型的Ti-6Al-4V进行不同热处理，分析微观结构与力学性能。",
+          "result": "热处理显著提升了材料的强度、延展性和生物相容性。",
+          "validation": "通过拉伸测试、硬度测试和细胞毒性实验验证性能改进。"
+        },
+        "summary_en": {
+          "motivation": "To enhance both mechanical performance and biocompatibility of laser powder bed fused Ti-6Al-4V through optimized heat treatment for implant applications.",
+          "method": "Various heat treatment cycles were applied to LPBF Ti-6Al-4V, followed by microstructural characterization and mechanical testing.",
+          "result": "Heat treatment improved tensile strength, ductility, and biocompatibility compared to as-built condition.",
+          "validation": "Mechanical testing (tensile, hardness) and in vitro cytotoxicity assays were conducted to validate the improvements."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "mechanical performance",
+            "zh": "力学性能"
+          },
+          {
+            "en": "biocompatibility",
+            "zh": "生物相容性"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W7155508994",
       "doi": "10.14447/jnmes/vol28i2.a06",
       "title": "Evaluation of Mechanical, Corrosion, and Wear Properties of Ti-6Al-4V and Ti-6Al-2Sn-4Zr-2Mo Welded by Nd:YAG Laser, pp. 173-180",
@@ -50,8 +178,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文涉及激光焊接而非增材制造，与Ti-6Al-4V力学与疲劳特性的方向无关。",
-        "why_not_core": "This paper focuses on Nd:YAG laser welding of Ti-6Al-4V and Ti6242 alloys for aerospace applications, not on additively manufactured Ti-6Al-4V mechanical or fatigue performance.",
+        "relevance_to_user": "该论文研究的是激光焊接而非增材制造，与Ti-6Al-4V增材制造的机械与疲劳性能无关",
+        "why_not_core": "The paper investigates laser welding of Ti-6Al-4V and Ti6242, not additive manufacturing; it lacks any AM process such as LPBF, SLM, EBM, or DED, and does not address mechanical/fatigue properties of AM Ti-6Al-4V.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -62,22 +190,22 @@
         "tags": [
           "laser welding",
           "Ti-6Al-4V",
-          "Ti-6Al-2Sn-4Zr-2Mo",
-          "tensile strength",
+          "tensile",
+          "corrosion",
           "wear",
-          "corrosion"
+          "not AM"
         ],
         "summary_zh": {
-          "motivation": "研究激光焊接参数对钛合金焊缝力学、磨损和腐蚀性能的影响，面向航空航天应用。",
-          "method": "采用Nd:YAG激光焊接Ti64与Ti6242，进行拉伸、销盘磨损和电化学腐蚀测试。",
-          "result": "焊缝宽度受激光功率影响显著，磨损率随载荷和速度增加，腐蚀速率在0.00036-0.00354 mmpy之间。",
-          "validation": "通过实验测试验证焊接参数与性能的关联。"
+          "motivation": "研究激光焊接钛合金的机械、磨损和腐蚀性能以优化航空航天应用",
+          "method": "用Nd:YAG激光焊接Ti-6Al-4V和Ti6242，进行拉伸、磨损和电化学腐蚀测试",
+          "result": "焊接参数影响焊缝几何和性能，磨损率随载荷和速度增加，腐蚀速率在0.00036-0.00354 mmpy之间",
+          "validation": "通过实验测量拉伸强度、磨损率和腐蚀速率验证"
         },
         "summary_en": {
-          "motivation": "This study aims to evaluate the mechanical, tribological, and electrochemical corrosion properties of Ti-6Al-4V and Ti-6Al-2Sn-4Zr-2Mo alloys welded by Nd:YAG laser for aerospace applications.",
-          "method": "The research employs tensile tests, pin-on-disc wear tests, and electrochemical corrosion tests to assess the effects of laser welding parameters such as power, speed, and focal position.",
-          "result": "Bead width ranges from 3.46 to 3.92 mm with penetration depth of 2.21-2.23 mm; wear rate increases with load and sliding velocity; corrosion rate varies from 0.00036 to 0.00354 mmpy depending on parameters.",
-          "validation": "Experimental validation is performed through mechanical, tribological, and corrosion testing of welded specimens."
+          "motivation": "This study aims to evaluate the mechanical, tribological, and corrosion properties of laser-welded Ti-6Al-4V and Ti6242 alloys for aerospace applications.",
+          "method": "Nd:YAG laser welding was performed on Ti-6Al-4V and Ti6242, followed by tensile, pin-on-disc wear, and electrochemical corrosion tests.",
+          "result": "Bead width varied with laser power while penetration depth remained constant; wear rate increased with load and sliding speed, and corrosion rates ranged from 0.00036 to 0.00354 mmpy.",
+          "validation": "Experimental data from mechanical, wear, and corrosion tests were used to validate the effects of welding parameters."
         },
         "key_terms": [
           {
@@ -86,15 +214,15 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "zh": "Ti-6Al-4V合金"
           },
           {
             "en": "Ti-6Al-2Sn-4Zr-2Mo",
-            "zh": "Ti-6Al-2Sn-4Zr-2Mo钛合金"
+            "zh": "Ti-6Al-2Sn-4Zr-2Mo合金"
           },
           {
             "en": "tensile strength",
-            "zh": "拉伸强度"
+            "zh": "抗拉强度"
           },
           {
             "en": "wear rate",
@@ -105,35 +233,37 @@
             "zh": "耐腐蚀性"
           },
           {
-            "en": "laser welding parameters",
-            "zh": "激光焊接参数"
+            "en": "laser power",
+            "zh": "激光功率"
           },
           {
-            "en": "aerospace applications",
-            "zh": "航空航天应用"
+            "en": "welding speed",
+            "zh": "焊接速度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
+      "ti6al4v_postprocess": 1,
       "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
+      "High": 1,
       "Exclude": 1
     }
   }

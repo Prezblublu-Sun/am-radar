@@ -76,8 +76,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是牙科植入物而非股骨柄，不涉及股骨柄的结构设计、应力遮挡或疲劳性能。",
-        "why_not_core": "The paper focuses on dental implants, not femoral hip stems, and does not address stem structural design, stress shielding, or fatigue testing.",
+        "relevance_to_user": "该论文研究的是牙科植入物而非股骨柄，与用户关注的钛合金人工髋关节股骨柄结构设计方向无关。",
+        "why_not_core": "The paper focuses on dental implants, not femoral/hip stems, and does not address stem structural design, stress shielding, or additive manufacturing for hip stem applications.",
         "validation_kind": "simulation_case",
         "flags": {
           "has_experimental_validation": false,
@@ -89,69 +89,198 @@
           "dental implant",
           "finite element analysis",
           "Ti-6Al-4V",
-          "porous scaffold",
-          "mechanobiology"
+          "immediate loading",
+          "porous implant"
         ],
         "summary_zh": {
-          "motivation": "比较即刻与延迟加载对牙种植体骨愈合的影响",
-          "method": "使用ABAQUS建立三维有限元模型，结合Prendergast-Huiskes力学刺激预测",
-          "result": "多孔种植体在即刻加载下促进更多骨形成，减少纤维组织",
-          "validation": "仅有有限元模拟，无实验验证"
+          "motivation": "比较即刻负载与延迟负载对牙种植体周围骨愈合的生物力学影响",
+          "method": "建立带0.2mm骨痂的骨块有限元模型，对比螺纹与多孔种植体",
+          "result": "多孔种植体在即刻负载下降低了皮质骨应力并促进骨痂成熟",
+          "validation": "有限元模拟结合机械生物学预测"
         },
         "summary_en": {
-          "motivation": "To compare the biomechanical and mechanobiological response of dental implants under immediate versus delayed loading.",
-          "method": "A three-dimensional finite element model of a bone block with a peri-implant callus was developed, and the Prendergast-Huiskes stimulus was used for mechanobiological predictions.",
-          "result": "The porous implant reduced cortical bone stress and increased callus stimulation, promoting more bone formation under immediate loading.",
-          "validation": "The study relied solely on finite element simulation without experimental validation."
+          "motivation": "To compare the biomechanical and mechanobiological response of threaded and porous dental implants under immediate versus delayed loading.",
+          "method": "A 3D finite element model of a bone block with a 0.2 mm peri-implant callus was developed, comparing a threaded Ti-6Al-4V implant and a porous implant with 64.26% porosity.",
+          "result": "Under immediate loading, the porous implant reduced cortical bone stress and increased callus stimulation, promoting higher fractions of immature and mature bone.",
+          "validation": "The study used finite element analysis combined with the Prendergast-Huiskes mechanobiological stimulus."
         },
         "key_terms": [
-          {
-            "en": "dental implant",
-            "zh": "牙科植入物"
-          },
-          {
-            "en": "immediate loading",
-            "zh": "即刻加载"
-          },
           {
             "en": "finite element analysis",
             "zh": "有限元分析"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "en": "dental implant",
+            "zh": "牙种植体"
           },
           {
-            "en": "porous scaffold",
-            "zh": "多孔支架"
+            "en": "immediate loading",
+            "zh": "即刻负载"
+          },
+          {
+            "en": "porous implant",
+            "zh": "多孔种植体"
           },
           {
             "en": "mechanobiology",
-            "zh": "力学生物学"
+            "zh": "机械生物学"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "peri-implant bone healing",
+            "zh": "种植体周围骨愈合"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7154594344",
+      "doi": "10.4028/p-c0lqa2",
+      "title": "Quasi-Isothermal Forging of Steel-Encapsulated Ti-6Al-4V Billets",
+      "abstract": "Isothermal forging is a common method for manufacturing titanium alloys, but it involves complex processes and equipment. The oxidation of titanium leads to the formation of an alpha-case, which in turn promotes increased crack formation. To prevent this, inert gas is typically required. However, by encapsulating the titanium billet (Ti-6Al-4V) in a steel casing made of AISI 316L, a quasi-isothermal process can be achieved without the need for inert gas. This method maintains protection against oxidation while simultaneously reducing cooling. The sealing of the capsules is crucial to ensure that the titanium is effectively enclosed and protected from the surrounding gases. In this study, various encapsulation methods are compared, including rotary friction welding, diffusion bonding, and press-fitting a lid with an interference fit. The investigation involves differing contact conditions between the titanium and steel sleeve, as well as steel wall thicknesses of 2 mm and 4 mm. These factors showed no impact on the material flow or microstructure of the formed components. Encapsulation can prevent the formation of an alpha-case. Intermetallics form between the titanium and the steel capsule, depending on the contact conditions. The use of graphite as a separating agent prevents the formation of them.",
+      "authors": [
+        "Jytte Möckelmann",
+        "Julius Peddinghaus",
+        "Kai Brunotte",
+        "Bernd Arno Behrens"
+      ],
+      "first_author_affiliation": "Institute of Forming Technology and Machines (IFUM)",
+      "corresponding_authors": [
+        {
+          "name": "Jytte Möckelmann",
+          "affiliation": "Institute of Forming Technology and Machines (IFUM)"
+        }
+      ],
+      "venue": "Materials science forum",
+      "year": 2026,
+      "date": "2026-04-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.4028/p-c0lqa2",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Titanium",
+        "Metallurgy",
+        "Forging",
+        "Casing",
+        "Inert",
+        "Microstructure",
+        "Intermetallic",
+        "Titanium powder",
+        "Graphite",
+        "Titanium alloy",
+        "Inert gas",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的锻造，而非增材制造，因此与研究方向不相关。",
+        "why_not_core": "The paper investigates quasi-isothermal forging of Ti-6Al-4V billets with steel encapsulation, which is a conventional forming process and does not involve additive manufacturing (LPBF/SLM/EBM/DED) or mechanical/fatigue characterization of additively manufactured Ti-6Al-4V.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "forging",
+          "encapsulation",
+          "alpha-case"
+        ],
+        "summary_zh": {
+          "motivation": "为防止钛合金锻造时氧化形成α层",
+          "method": "将Ti-6Al-4V坯料封装在AISI 316L钢套中，比较不同封装方法",
+          "result": "封装可防止α层形成，但接触条件影响金属间化合物生成",
+          "validation": "实验对比不同封装方法的效果"
+        },
+        "summary_en": {
+          "motivation": "To prevent oxidation and alpha-case formation during isothermal forging of titanium alloys.",
+          "method": "Encapsulating Ti-6Al-4V billets in AISI 316L steel casings and comparing rotary friction welding, diffusion bonding, and press-fitting.",
+          "result": "Encapsulation prevents alpha-case formation, but intermetallics form depending on contact conditions.",
+          "validation": "Experimental comparison of different encapsulation methods."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "isothermal forging",
+            "zh": "等温锻造"
+          },
+          {
+            "en": "encapsulation",
+            "zh": "封装"
+          },
+          {
+            "en": "alpha-case",
+            "zh": "α层"
+          },
+          {
+            "en": "AISI 316L",
+            "zh": "AISI 316L不锈钢"
+          },
+          {
+            "en": "rotary friction welding",
+            "zh": "旋转摩擦焊"
+          },
+          {
+            "en": "diffusion bonding",
+            "zh": "扩散连接"
+          },
+          {
+            "en": "intermetallics",
+            "zh": "金属间化合物"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_femoral_stem": 1
+      "ti6al4v_femoral_stem": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 2
     }
   }
 }

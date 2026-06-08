@@ -52,6 +52,7 @@
           "Ti-6Al-4V",
           "Ti6Al4V",
           "Ti 6Al 4V",
+          "additively manufactured",
           "porosity",
           "fatigue",
           "fatigue strength"
@@ -65,11 +66,11 @@
         ]
       },
       "llm": {
-        "priority": "Medium",
-        "relevance_level": "Transferable",
-        "read_action": "Save for project",
-        "relevance_to_user": "论文比较了热等静压后Ti6Al4V增材制造样品的孔隙率测量方法，虽未直接测试力学性能，但对评估后处理效果有参考价值。",
-        "why_not_core": "The paper does not directly measure mechanical performance (fatigue, tensile) or microstructure evolution; it focuses on comparing porosity measurement techniques.",
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "本文仅比较孔隙率测量方法，未提供热等静压对力学性能影响的直接数据。",
+        "why_not_core": "This paper does not measure fatigue or mechanical performance; it only compares porosity measurement techniques (Archimedes vs Micro-CT) for HIPped Ti-6Al-4V, so it does not directly address how post-processing modifies mechanical properties.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -78,81 +79,214 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
-          "additive manufacturing",
-          "hot isostatic pressing",
-          "porosity measurement",
+          "Hot Isostatic Pressing",
           "Archimedes method",
-          "micro-CT"
+          "Micro-CT",
+          "porosity measurement",
+          "Ti-6Al-4V",
+          "additive manufacturing"
         ],
         "summary_zh": {
-          "motivation": "比较热等静压后Ti6Al4V样品孔隙率测量方法的准确性。",
-          "method": "采用阿基米德法和微CT对四种后处理状态的样品进行孔隙率测量并对比。",
-          "result": "两种方法结果一致，但微CT可提供孔隙空间分布和形态信息。",
-          "validation": "通过16个样品分组实验进行对比验证。"
+          "motivation": "比较热等静压AM Ti-6Al-4V样品孔隙率测量方法的实用性",
+          "method": "使用阿基米德法和微CT对四种不同后处理条件的样品进行孔隙率测量与对比",
+          "result": "两种方法结果一致，阿基米德法快速经济，微CT提供孔隙空间分布信息",
+          "validation": "通过两种测量方法的相互验证确保结果可靠"
         },
         "summary_en": {
-          "motivation": "To compare porosity measurement techniques for hot isostatic pressed (HIP) additively manufactured Ti-6Al-4V samples.",
-          "method": "Archimedes method and micro-CT were used to measure porosity of samples in four groups: three HIP conditions and one as-built.",
-          "result": "Good correlation between methods was found, with micro-CT providing additional spatial distribution and morphology of pores.",
-          "validation": "Experimental comparison using 16 samples with partial micro-CT scans."
+          "motivation": "This study aims to compare the practical effectiveness of Archimedes method and micro-CT for measuring porosity in HIPped additively manufactured Ti-6Al-4V samples.",
+          "method": "Porosity was measured using both Archimedes method (all 16 samples) and micro-CT (one representative per group) for four post-processing conditions: three HIP variants and as-built.",
+          "result": "Both techniques showed consistent correlation; Archimedes method provides faster bulk density, while micro-CT reveals pore morphology, size, and spatial distribution.",
+          "validation": "The agreement between Archimedes and micro-CT measurements validates the reliability of both methods for porosity assessment."
         },
         "key_terms": [
           {
-            "en": "Ti-6Al-4V",
-            "zh": "钛合金"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
-          },
-          {
-            "en": "hot isostatic pressing",
+            "en": "Hot Isostatic Pressing",
             "zh": "热等静压"
-          },
-          {
-            "en": "porosity measurement",
-            "zh": "孔隙率测量"
           },
           {
             "en": "Archimedes method",
             "zh": "阿基米德法"
           },
           {
-            "en": "micro-CT",
+            "en": "micro-computed tomography",
             "zh": "微计算机断层扫描"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "relative density",
+            "zh": "相对密度"
           },
           {
             "en": "fatigue strength",
             "zh": "疲劳强度"
           },
           {
-            "en": "relative density",
-            "zh": "相对密度"
+            "en": "defect morphology",
+            "zh": "缺陷形貌"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4417200481",
+      "doi": "10.1115/1.4070625",
+      "title": "Machinability Data to Sustainability Metrics: Cradle-to-Gate Life Cycle Assessment of Lubrication-Assisted Drilling of Cold Metal Transfer-Wire Arc Additive Manufacturing Ti-6Al-4V",
+      "abstract": "Abstract With the rapid advancement of wire arc additive manufacturing (WAAM), assessing the sustainability of postprocessing operations such as machining has become increasingly important. This study investigates sustainability-oriented lubrication strategies using mono-nanofluids (MNFs) and hybrid nanofluids (HNFs) formulated from graphene nanoplatelets and hexagonal boron nitride dispersed in jojoba oil. Drilling experiments were performed on WAAM and wrought Ti-6Al-4V alloys to evaluate machinability and environmental performance. The results demonstrated that HNFs considerably improved machining responses, achieving reductions of nearly 30% in power consumption, over 40% in cutting forces, and around 50% in flank wear compared with dry conditions. A cradle-to-gate life cycle assessment (LCA) was further conducted to quantify the environmental impacts associated with each condition. The analysis revealed that machining WAAM components generated higher CO2 emissions and toxicity indicators than wrought machining, primarily due to increased energy demand. Nevertheless, the application of HNFs effectively mitigated these burdens, leading to approximately 35% lower CO2 emissions and notable decreases in human toxicity and resource depletion. Overall, the study highlights how tailored nanofluid lubrication can deliver measurable environmental benefits, bridging machinability improvements with sustainability goals in advanced alloy manufacturing.",
+      "authors": [
+        "Prameet Vats",
+        "Tarang Lotwala",
+        "Navneet Khanna",
+        "Avinash Kumar",
+        "Kishor Kumar Gajrani"
+      ],
+      "first_author_affiliation": "Indian Institute of Information Technology, Design and Manufacturing Department of Mechanical Engineering, , Kancheepuram,   , ,",
+      "corresponding_authors": [
+        {
+          "name": "Prameet Vats",
+          "affiliation": "Indian Institute of Information Technology, Design and Manufacturing Department of Mechanical Engineering, , Kancheepuram,   , ,"
+        }
+      ],
+      "venue": "Journal of Tribology",
+      "year": 2025,
+      "date": "2025-12-10",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1115/1.4070625",
+      "cited_by_count": 1,
+      "concepts": [
+        "Machinability",
+        "Machining",
+        "Lubrication",
+        "Sustainability",
+        "Metallurgy",
+        "Life-cycle assessment",
+        "Materials science",
+        "Environmental impact assessment",
+        "Nanofluid",
+        "Boron nitride",
+        "Tool wear",
+        "Drilling",
+        "Environmental science"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "wire arc additive"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "本文涉及Ti-6Al-4V的后处理（钻孔），但未研究其对疲劳或力学性能的影响，与L2重点不符。",
+        "why_not_core": "This paper does not investigate the effect of post-processing on fatigue or mechanical performance; it focuses solely on machinability and life cycle assessment.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "WAAM",
+          "Ti-6Al-4V",
+          "drilling",
+          "nanofluid lubrication",
+          "life cycle assessment"
+        ],
+        "summary_zh": {
+          "motivation": "评估WAAM Ti-6Al-4V钻孔加工中润滑策略的可持续性。",
+          "method": "使用单/混合纳米流体在WAAM和锻态Ti-6Al-4V上进行钻孔实验，结合从门到门的生命周期评估。",
+          "result": "混合纳米流体降低能耗约30%、切削力超40%、磨损约50%，但WAAM加工碳排放高于锻态。",
+          "validation": "通过钻孔实验和LCA验证润滑效果与环境影响。"
+        },
+        "summary_en": {
+          "motivation": "This study aims to assess the sustainability of lubrication strategies during drilling of WAAM Ti-6Al-4V, bridging machinability with environmental impacts.",
+          "method": "Drilling experiments were conducted on WAAM and wrought Ti-6Al-4V using mono- and hybrid nanofluids (graphene nanoplatelets and hexagonal boron nitride in jojoba oil), coupled with a cradle-to-gate life cycle assessment.",
+          "result": "Hybrid nanofluids reduced power consumption by nearly 30%, cutting forces by over 40%, and flank wear by around 50% compared to dry conditions, while WAAM components produced higher CO2 emissions than wrought counterparts.",
+          "validation": "Experimental drilling tests and LCA were used to validate the improvements in machinability and environmental performance."
+        },
+        "key_terms": [
+          {
+            "en": "wire arc additive manufacturing",
+            "zh": "电弧增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "nanofluid lubrication",
+            "zh": "纳米流体润滑"
+          },
+          {
+            "en": "machinability",
+            "zh": "切削加工性"
+          },
+          {
+            "en": "life cycle assessment",
+            "zh": "生命周期评估"
+          },
+          {
+            "en": "drilling",
+            "zh": "钻孔"
+          },
+          {
+            "en": "CO2 emissions",
+            "zh": "二氧化碳排放"
+          },
+          {
+            "en": "flank wear",
+            "zh": "后刀面磨损"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Medium": 1
+      "Low": 2
     }
   }
 }

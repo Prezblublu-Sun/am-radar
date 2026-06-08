@@ -5,6 +5,120 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W7155369364",
+      "doi": "10.4995/ceipm2025.2025.21181",
+      "title": "Aplicación del Small Punch Test en la caracterización mecánica de Ti-6Al-4V obtenido por fabricación aditiva",
+      "abstract": "mecánicamente estos materiales sigue siendo un reto por su anisotropía, heterogeneidad y defectos. El ensayo Small Punch Test (SPT) ofrece una solución eficaz cuando el material disponible es limitado, como en componentes biomédicos o de alto valor. Este estudio evalúa la aplicabilidad del SPT en la aleación Ti-6Al-4V fabricada por fusión por haz de electrones (EBM). Se validó la estimación de la resistencia máxima a la tracción (Rm) a partir de la carga máxima (Fm), normalizada por el espesor y el desplazamiento. En titanio forjado, los resultados mostraron buena correlación con ensayos tradicionales. En cambio, en muestras EBM se detectó mayor dispersión debido a anisotropía y defectos superficiales. Aun así, el SPT se consolida como una herramienta útil para el control de calidad con bajo consumo de material. Este trabajo sienta las bases para futuras investigaciones dirigidas a establecer correlaciones más robustas para materiales EBM y a comprender en profundidad la influencia de las orientaciones de construcción en sus propiedades mecánicas.",
+      "authors": [
+        "José Francisco Moreno Ballester",
+        "Vicente  Amigó Borrás",
+        "Ángel Vicente Escuder",
+        "José Ramón Blasco Puchades"
+      ],
+      "first_author_affiliation": "Universitat Politècnica de València, Instituto Universitario de Tecnología de Materiales, Valencia",
+      "corresponding_authors": [
+        {
+          "name": "José Francisco Moreno Ballester",
+          "affiliation": "Universitat Politècnica de València, Instituto Universitario de Tecnología de Materiales, Valencia"
+        }
+      ],
+      "venue": "",
+      "year": 2025,
+      "date": "2025-06-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.4995/ceipm2025.2025.21181",
+      "cited_by_count": 0,
+      "concepts": [
+        "Humanities",
+        "Art"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "EBM"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究EBM Ti-6Al-4V的小冲杆测试方法，为小样本力学表征提供参考。",
+        "why_not_core": "does not provide standard tensile or fatigue data; focuses on method validation rather than comprehensive mechanical characterization",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Small Punch Test",
+          "Ti-6Al-4V",
+          "electron beam melting",
+          "mechanical characterization",
+          "tensile strength estimation"
+        ],
+        "summary_zh": {
+          "motivation": "为克服增材制造Ti-6Al-4V力学表征的样品限制，探索小冲杆测试的适用性。",
+          "method": "通过小冲杆测试获得载荷-位移数据，并建立与拉伸强度的关联模型。",
+          "result": "小冲杆测试能有效估计强度，但EBM样品因缺陷和各向异性导致分散性较大。",
+          "validation": "与锻造Ti-6Al-4V的传统拉伸试验进行对比验证。"
+        },
+        "summary_en": {
+          "motivation": "The study investigates the applicability of the Small Punch Test for mechanical characterization of additively manufactured Ti-6Al-4V when material is limited.",
+          "method": "Small Punch Test was performed on EBM Ti-6Al-4V specimens, and correlations between maximum load and ultimate tensile strength were established with normalization by thickness and displacement.",
+          "result": "SPT showed good correlation for wrought Ti-6Al-4V but higher scatter for EBM specimens due to anisotropy and surface defects.",
+          "validation": "Validation was conducted by comparing SPT-derived strength estimates with conventional tensile test results for wrought Ti-6Al-4V."
+        },
+        "key_terms": [
+          {
+            "en": "Small Punch Test",
+            "zh": "小冲杆测试"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "electron beam melting",
+            "zh": "电子束熔融"
+          },
+          {
+            "en": "mechanical characterization",
+            "zh": "力学表征"
+          },
+          {
+            "en": "tensile strength estimation",
+            "zh": "抗拉强度估算"
+          },
+          {
+            "en": "anisotropy",
+            "zh": "各向异性"
+          },
+          {
+            "en": "surface defects",
+            "zh": "表面缺陷"
+          },
+          {
+            "en": "quality control",
+            "zh": "质量控制"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W7124676038",
       "doi": "10.69547/ns.31.05",
       "title": "Effect of Thermal Oxidation Parameters on Morphological Properties of Thermal Oxide Coatings on Ti6Al4V Titanium Alloy",
@@ -65,33 +179,35 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文研究Ti6Al4V的热氧化涂层形貌，但未涉及力学性能或疲劳性能，与后处理对力学性能影响的方向不直接相关。",
-        "why_not_core": "The paper only characterizes oxide coating morphology (thickness, weight gain, roughness) without any mechanical testing (fatigue, tensile) or microstructure-property correlation, thus it does not address how post-processing modifies fatigue/mechanical performance.",
+        "relevance_to_user": "论文涉及Ti6Al4V合金的热氧化处理，但未涉及力学性能，且不针对增材制造材料，与用户关注的疲劳/力学性能方向关联弱。",
+        "why_not_core": "This paper does not investigate mechanical performance (fatigue, tensile) of Ti-6Al-4V after post-processing, nor does it concern additive-manufactured material.",
         "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "Ti6Al4V",
           "thermal oxidation",
+          "Ti6Al4V",
           "oxide coating",
           "morphology",
-          "annealing"
+          "annealing",
+          "normalizing",
+          "air-quenching"
         ],
         "summary_zh": {
-          "motivation": "探究热氧化参数对Ti6Al4V合金氧化涂层形态的影响。",
-          "method": "在不同温度（850℃和900℃）下进行退火、正火和空气淬火处理，表征涂层形貌、厚度和增重。",
-          "result": "900℃退火生成最均匀致密的氧化物涂层，厚度约195 µm，增重最高。",
-          "validation": "仅进行形貌表征，未涉及力学性能验证。"
+          "motivation": "研究热氧化参数对Ti6Al4V合金氧化涂层形貌的影响。",
+          "method": "采用退火、正火和空淬三种热处理，在850和900°C下对Ti6Al4V进行氧化。",
+          "result": "900°C退火产生均匀致密的涂层，厚度195 µm，增重126 mg/cm²。",
+          "validation": "通过SEM、XRD和重量测量表征涂层形貌和厚度。"
         },
         "summary_en": {
-          "motivation": "The study aims to systematically investigate how thermal oxidation temperature and treatment route affect the morphological properties of oxide coatings on Ti6Al4V alloy.",
-          "method": "Ti6Al4V samples were subjected to annealing, normalizing, and air-quenching at 850°C and 900°C, followed by characterization of surface morphology, coating thickness, and weight gain per unit area.",
-          "result": "Annealing at 900°C produced the most favorable oxide coating with uniform and dense rutile TiO2, moderate thickness of 195 µm, and highest weight gain of 126 mg/cm².",
-          "validation": "No mechanical testing was performed; only morphological and compositional characterizations were conducted."
+          "motivation": "This study aims to investigate how thermal oxidation parameters affect the morphology of oxide coatings on Ti6Al4V alloy.",
+          "method": "Ti6Al4V samples were subjected to annealing, normalizing, and air-quenching at 850 and 900 °C, followed by characterization of oxide coating morphology, thickness, and weight gain.",
+          "result": "Annealing at 900 °C produced a uniform, dense oxide coating (mainly rutile TiO2) with a thickness of 195 µm and weight gain of 126 mg/cm², outperforming other treatments.",
+          "validation": "Experimental characterization (SEM, XRD, gravimetry) was used to evaluate coating properties."
         },
         "key_terms": [
           {
@@ -99,7 +215,7 @@
             "zh": "热氧化"
           },
           {
-            "en": "Ti6Al4V titanium alloy",
+            "en": "Ti6Al4V",
             "zh": "Ti6Al4V钛合金"
           },
           {
@@ -116,11 +232,15 @@
           },
           {
             "en": "air-quenching",
-            "zh": "空气淬火"
+            "zh": "空淬"
           },
           {
             "en": "rutile",
             "zh": "金红石"
+          },
+          {
+            "en": "morphology",
+            "zh": "形貌"
           },
           {
             "en": "coating thickness",
@@ -129,147 +249,131 @@
           {
             "en": "weight gain",
             "zh": "增重"
-          },
-          {
-            "en": "morphology",
-            "zh": "形貌"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
+      "first_seen_at": "2026-06-08T08:12:51Z"
     },
     {
       "source": "openalex",
-      "id": "https://openalex.org/W4411340871",
-      "doi": "10.1016/j.jajp.2025.100321",
-      "title": "Thermo mechanical Finite Element Analysis of the plasma Wire Arc Additive Manufacturing process in DEFORM® 13",
-      "abstract": "This study investigates the potential of Finite Element Analysis in DEFORM® to predict the thermal history, deformation, residual stress state and grain growth in the Wire Arc Additive Manufacturing processes of Ti-6Al-4V. The temperature dependent material model for Ti-6Al-4V was extended and adapted to improve the representation of contact boundary conditions within DEFORM®, focusing on Additive Manufacturing. A single layer quad-mesh approach was employed alongside dummy heat sources to simulate the process by accurate layer wise activation within the arc welding module. The model utilized a normalized double-ellipsoid heat source and introduced a power adaptation strategy to account for differences in volumetric deposition. The extracted thermal history showed very good agreement to corresponding thermocouple measurements. The accuracy of the resulting deformation state was validated using a 3D scan, while the predicted grain size distribution was compared against an as-built micrograph. The simulation showed good overall accuracy, though limitations were noted in the grain size model, which was inadequate in predicting the more complex texture of the mixed α / β -microstructure typical for Ti-6Al-4V. Seven heat treatment strategies were evaluated to address mechanical anisotropy. Solution annealing followed by water quenching and subsequent low temperature aging was found to be most effective. • Thermo-Mechanical Finite Element Model of Wire Arc Additive Manufacturing in DEFORM®. • Independent element activation for a volumetric heat source model in arc welding. • Optimized boundary conditions for Ti-6Al-4V in Additive Manufacturing.",
+      "id": "https://openalex.org/W7155358955",
+      "doi": "10.4995/ceipm2025.2025.21158",
+      "title": "Influence of laser surface remelting process on the mechanical properties of Ti6Al4V samples produced by selective laser melting",
+      "abstract": "O controle da rugosidade superficial é um aspecto crítico na fabricação de componentes de Ti6Al4V produzidos por fusão a laser em leito de pó (L-PBF). As superfícies resultantes exibiram alta rugosidade, exigindo pós-processamento para aplicações específicas. A fusão a laser (LSM) surgiu como um processo promissor. A rugosidade superficial influencia diretamente o comportamento mecânico de um componente. Assim, o controle do acabamento superficial garante maior confiabilidade estrutural em serviço, permitindo inspeções programadas. O processo LSM foi realizado usando um laser de Yb:fibra com potência de 130 W, velocidade de varredura de 50 mm/s, espaçamento de trilhas de 0,1 mm e argônio como gás de processo (9 l/min). Análises de rugosidade e difração de raios X foram usadas para identificar as fases formadas e avaliar os níveis de tensão residual. A rugosidade superficial (Ra) foi reduzida em 56% por meio desse processo. A análise de difração de raios X revelou uma microestrutura composta pela fase α-Ti; No entanto, o processo LSM induziu uma textura superficial e promoveu um aumento de 44% no tamanho dos grãos devido à coalescência dos grãos durante a refusão. A análise de tensões residuais revelou que a superfície original estava livre de tensões, enquanto após o LSM, apresentou tensões compressivas. Portanto, o processo LSM é eficaz no controle da rugosidade, não causa alterações microestruturais e induz tensões compressivas na superfície, o que é benéfico para o comportamento mecânico.",
       "authors": [
-        "Marcel Czipin",
-        "Alexander Wenda",
-        "Karin Hartl",
-        "Emre Akalin",
-        "Martin Stockinger"
+        "Rafael Humberto Mota de Siqueira",
+        "Jonas Jakutis Neto",
+        "Patrícia Freitas Rodrigues",
+        "Diego Javier Celentano",
+        "Carlos Antônio Reis Pereira Baptista",
+        "Gilmar Ferreira Batalha",
+        "Milton Sérgio Fernandes de Lima"
       ],
-      "first_author_affiliation": "Chair of Metal Forming, University of Leoben, Franz-Josef-Straße 18, AT-8700, Leoben, Austria",
+      "first_author_affiliation": "Instituto de Estudos Avançados, Departamento de Ciência e Tecnologia Aeroespacial",
       "corresponding_authors": [
         {
-          "name": "Marcel Czipin",
-          "affiliation": "Chair of Metal Forming, University of Leoben, Franz-Josef-Straße 18, AT-8700, Leoben, Austria"
+          "name": "Rafael Humberto Mota de Siqueira",
+          "affiliation": "Instituto de Estudos Avançados, Departamento de Ciência e Tecnologia Aeroespacial"
         }
       ],
-      "venue": "Journal of Advanced Joining Processes",
+      "venue": "",
       "year": 2025,
       "date": "2025-06-16",
       "date_precision": "day",
-      "url": "https://doi.org/10.1016/j.jajp.2025.100321",
-      "cited_by_count": 1,
+      "url": "https://doi.org/10.4995/ceipm2025.2025.21158",
+      "cited_by_count": 0,
       "concepts": [
-        "Finite element method",
-        "Arc (geometry)",
-        "Plasma arc welding",
         "Materials science",
-        "Process (computing)",
-        "Plasma",
-        "Mechanical engineering",
-        "Composite material"
+        "Laser",
+        "Optics",
+        "Composite material",
+        "Physics"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_base_mechanical_fatigue",
-        "ti6al4v_postprocess"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "ti6al4v_postprocess",
-      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "mechanical anisotropy",
-          "residual stress"
-        ],
-        "ti6al4v_postprocess": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "heat treatment",
-          "annealing"
+          "Ti6Al4V",
+          "selective laser melting"
         ]
       },
       "llm": {
-        "priority": "Medium",
-        "relevance_level": "Direct",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文虽为非激光粉床熔融工艺，但涉及Ti-6Al-4V线弧增材制造后热处理策略对力学各向异性的影响，属于后处理控制方向。",
-        "why_not_core": "No experimental mechanical testing (tensile/fatigue) results; validation limited to thermal, deformation, and grain size, not mechanical performance.",
-        "validation_kind": "simulation_case",
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要研究Ti6Al4V激光表面重熔后处理对表面粗糙度、残余应力和微观结构的影响，未涉及任何力学或疲劳性能测试，与用户关注的增材制造Ti-6Al-4V基础力学和疲劳性能方向不匹配。",
+        "why_not_core": "This paper focuses on laser surface remelting (LSM) post-processing of Ti6Al4V and reports only surface roughness, XRD, and residual stress; it provides no mechanical testing (tensile, fatigue, hardness) and thus does not contribute to the base mechanical/fatigue characterization required by Layer 1.",
+        "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "wire arc additive manufacturing",
-          "Ti-6Al-4V",
-          "heat treatment",
-          "finite element analysis",
-          "residual stress",
-          "grain growth",
-          "DEFORM"
+          "laser surface remelting",
+          "Ti6Al4V",
+          "selective laser melting",
+          "surface roughness",
+          "residual stress"
         ],
         "summary_zh": {
-          "motivation": "使用有限元预测线弧增材制造Ti-6Al-4V的热历史和残余应力。",
-          "method": "在DEFORM®中建立热-力耦合模型，采用双椭球热源和层激活策略，评估七种热处理策略。",
-          "result": "模型与热电偶测量和3D扫描吻合良好，固溶退火加时效处理最有效。",
-          "validation": "通过热电偶、3D扫描和显微组织验证模拟结果。"
+          "motivation": "控制SLM Ti6Al4V的表面粗糙度以提高机械可靠性。",
+          "method": "采用Yb:光纤激光对Ti6Al4V进行表面重熔处理。",
+          "result": "表面粗糙度降低56%，残余应力变为压应力，晶粒尺寸增加44%。",
+          "validation": "通过粗糙度测量、XRD和残余应力分析进行表征。"
         },
         "summary_en": {
-          "motivation": "To develop a finite element model in DEFORM® for predicting thermal history, deformation, residual stress, and grain growth in wire arc additive manufacturing of Ti-6Al-4V.",
-          "method": "A thermo-mechanical model using normalized double-ellipsoid heat source and layer activation with dummy heat sources was built, and seven heat treatment strategies were evaluated.",
-          "result": "The model showed good agreement with thermocouple measurements and 3D scans; solution annealing followed by water quenching and low-temperature aging was most effective for reducing anisotropy.",
-          "validation": "The simulation was validated against thermocouple measurements, 3D scans of deformation, and micrographs for grain size."
+          "motivation": "To control the surface roughness of SLM-produced Ti6Al4V components, which is critical for mechanical reliability.",
+          "method": "Laser surface remelting (LSM) was applied using a Yb:fiber laser at 130 W, 50 mm/s scan speed, 0.1 mm hatch spacing, and argon shielding.",
+          "result": "Surface roughness (Ra) was reduced by 56%, compressive residual stresses were induced, and grain size increased by 44% due to coalescence during remelting.",
+          "validation": "Surface roughness measurements, X-ray diffraction for phase identification and texture, and residual stress analysis were conducted."
         },
         "key_terms": [
           {
-            "en": "wire arc additive manufacturing",
-            "zh": "线弧增材制造"
+            "en": "laser surface remelting",
+            "zh": "激光表面重熔"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
           },
           {
-            "en": "finite element analysis",
-            "zh": "有限元分析"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V"
           },
           {
-            "en": "heat treatment",
-            "zh": "热处理"
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           },
           {
             "en": "residual stress",
             "zh": "残余应力"
           },
           {
-            "en": "grain growth",
-            "zh": "晶粒长大"
+            "en": "X-ray diffraction",
+            "zh": "X射线衍射"
           },
           {
-            "en": "DEFORM",
-            "zh": "DEFORM软件"
+            "en": "grain size",
+            "zh": "晶粒尺寸"
           },
           {
-            "en": "mechanical anisotropy",
-            "zh": "力学各向异性"
+            "en": "compressive stress",
+            "zh": "压应力"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
+      "first_seen_at": "2026-06-08T08:12:51Z"
     },
     {
       "source": "openalex",
@@ -324,6 +428,10 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additively manufactured",
+          "selective laser melting",
+          "SLM",
+          "microstructure",
           "surface roughness"
         ],
         "ti6al4v_postprocess": [
@@ -335,9 +443,9 @@
       "llm": {
         "priority": "Medium",
         "relevance_level": "Direct",
-        "read_action": "Skim only",
-        "relevance_to_user": "本文直接针对Ti-6Al-4V后处理中的超声表面技术，但未涉及疲劳或拉伸力学性能，因此对疲劳性能优化的参考价值有限。",
-        "why_not_core": "This paper does not include fatigue or tensile testing, so the effect on mechanical performance is not directly quantified.",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文直接研究Ti-6Al-4V合金增材制造后的超声表面处理，虽未提供疲劳数据，但表面粗糙度和显微硬度的变化对后处理工艺选择有参考价值。",
+        "why_not_core": "Does not directly measure tensile or fatigue performance; mechanical characterization is limited to microhardness and surface roughness.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -350,19 +458,22 @@
           "Ti-6Al-4V",
           "selective laser melting",
           "surface roughness",
-          "microhardness"
+          "microhardness",
+          "cavitation-erosion treatment",
+          "cavitation-abrasive treatment",
+          "ultrasonic surface plastic deformation"
         ],
         "summary_zh": {
-          "motivation": "比较不同超声表面处理方法对SLM Ti-6Al-4V表面性能的影响",
-          "method": "对SLM Ti-6Al-4V试样进行空蚀、空蚀-磨蚀和超声表面塑性变形处理，评估表面粗糙度和微观组织",
-          "result": "USPD降低粗糙度52%但引入裂纹，CET和CAT有效去除缺陷，显微硬度提高35%",
-          "validation": "通过表面粗糙度测量和显微硬度测试验证"
+          "motivation": "研究不同超声处理方法对SLM成型Ti-6Al-4V表面性能的影响。",
+          "method": "比较空蚀、空蚀-磨粒和超声表面塑性变形三种处理。",
+          "result": "三种方法均降低粗糙度，超声表面塑性变形硬度提高35%但产生裂纹。",
+          "validation": "通过高速摄像、粗糙度测试和金相显微镜验证。"
         },
         "summary_en": {
-          "motivation": "To compare different ultrasonic surface treatment methods for improving surface properties of SLM Ti-6Al-4V alloy.",
-          "method": "Cavitation erosion, cavitation-abrasive, and ultrasonic surface plastic deformation were applied to SLM Ti-6Al-4V samples, and surface roughness, sub-microgeometry, and microstructure were characterized.",
-          "result": "USPD reduced Ra by 52% but introduced cracks and surface defects, while CET and CAT effectively removed surface defects; USPD increased microhardness by 35% in a ~100 µm hardened layer.",
-          "validation": "Validation was performed through surface roughness measurements and microhardness testing."
+          "motivation": "To determine the influence of different ultrasonic treatment types on surface properties of SLM Ti-6Al-4V.",
+          "method": "Comparative testing of cavitation-erosion, cavitation-abrasive, and ultrasonic surface plastic deformation treatments.",
+          "result": "All treatments reduce roughness; USPD increases microhardness by 35% but introduces cracks.",
+          "validation": "High-speed imaging, roughness measurement, and microstructural analysis."
         },
         "key_terms": [
           {
@@ -370,16 +481,12 @@
             "zh": "超声表面处理"
           },
           {
-            "en": "cavitation erosion",
-            "zh": "空蚀"
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
           },
           {
-            "en": "cavitation-abrasive treatment",
-            "zh": "空蚀-磨蚀处理"
-          },
-          {
-            "en": "ultrasonic surface plastic deformation",
-            "zh": "超声表面塑性变形"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
             "en": "surface roughness",
@@ -390,37 +497,423 @@
             "zh": "显微硬度"
           },
           {
-            "en": "selective laser melting",
-            "zh": "选区激光熔化"
+            "en": "cavitation-erosion treatment",
+            "zh": "空蚀处理"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "en": "cavitation-abrasive treatment",
+            "zh": "空蚀-磨粒处理"
+          },
+          {
+            "en": "ultrasonic surface plastic deformation",
+            "zh": "超声表面塑性变形"
+          },
+          {
+            "en": "crack formation",
+            "zh": "裂纹形成"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411340871",
+      "doi": "10.1016/j.jajp.2025.100321",
+      "title": "Thermo mechanical Finite Element Analysis of the plasma Wire Arc Additive Manufacturing process in DEFORM® 13",
+      "abstract": "This study investigates the potential of Finite Element Analysis in DEFORM® to predict the thermal history, deformation, residual stress state and grain growth in the Wire Arc Additive Manufacturing processes of Ti-6Al-4V. The temperature dependent material model for Ti-6Al-4V was extended and adapted to improve the representation of contact boundary conditions within DEFORM®, focusing on Additive Manufacturing. A single layer quad-mesh approach was employed alongside dummy heat sources to simulate the process by accurate layer wise activation within the arc welding module. The model utilized a normalized double-ellipsoid heat source and introduced a power adaptation strategy to account for differences in volumetric deposition. The extracted thermal history showed very good agreement to corresponding thermocouple measurements. The accuracy of the resulting deformation state was validated using a 3D scan, while the predicted grain size distribution was compared against an as-built micrograph. The simulation showed good overall accuracy, though limitations were noted in the grain size model, which was inadequate in predicting the more complex texture of the mixed α / β -microstructure typical for Ti-6Al-4V. Seven heat treatment strategies were evaluated to address mechanical anisotropy. Solution annealing followed by water quenching and subsequent low temperature aging was found to be most effective. • Thermo-Mechanical Finite Element Model of Wire Arc Additive Manufacturing in DEFORM®. • Independent element activation for a volumetric heat source model in arc welding. • Optimized boundary conditions for Ti-6Al-4V in Additive Manufacturing.",
+      "authors": [
+        "Marcel Czipin",
+        "Alexander Wenda",
+        "Karin Hartl",
+        "Emre Akalin",
+        "Martin Stockinger"
+      ],
+      "first_author_affiliation": "Chair of Metal Forming, University of Leoben, Franz-Josef-Straße 18, AT-8700, Leoben, Austria",
+      "corresponding_authors": [
+        {
+          "name": "Marcel Czipin",
+          "affiliation": "Chair of Metal Forming, University of Leoben, Franz-Josef-Straße 18, AT-8700, Leoben, Austria"
+        }
+      ],
+      "venue": "Journal of Advanced Joining Processes",
+      "year": 2025,
+      "date": "2025-06-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jajp.2025.100321",
+      "cited_by_count": 1,
+      "concepts": [
+        "Finite element method",
+        "Arc (geometry)",
+        "Plasma arc welding",
+        "Materials science",
+        "Process (computing)",
+        "Plasma",
+        "Mechanical engineering",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "wire arc additive",
+          "microstructure",
+          "mechanical anisotropy",
+          "residual stress"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment",
+          "annealing"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Peripheral",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V线弧增材制造的热机械有限元模拟，并评估了七种热处理策略对机械各向异性的影响，但与疲劳性能的直接关联较弱。",
+        "why_not_core": "No experimental fatigue or tensile data; the study focuses on process simulation and grain size prediction, not quantitative mechanical performance after post-processing.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "wire arc additive manufacturing",
+          "finite element analysis",
+          "heat treatment",
+          "residual stress",
+          "grain growth"
+        ],
+        "summary_zh": {
+          "motivation": "通过有限元模拟预测线弧增材制造Ti-6Al-4V的热历程和变，并评估热处理对力学各向异性的影响。",
+          "method": "在DEFORM中建立热-力-微观组织耦合模型，采用双椭球热源和逐层激活，对比七种热处理工艺。",
+          "result": "模拟与实验吻合良好，固溶+水淬+时效热处理最有效降低各向异性。",
+          "validation": "热电偶验证热历程，3D扫描验证变形，金相验证晶粒尺寸。"
+        },
+        "summary_en": {
+          "motivation": "This study aims to simulate the thermal history, deformation, and residual stress of wire arc additive manufacturing of Ti-6Al-4V and to evaluate post-processing heat treatments to mitigate mechanical anisotropy.",
+          "method": "A thermo-mechanical finite element model was developed in DEFORM® using a normalized double-ellipsoid heat source and element activation, and seven heat treatment strategies were compared.",
+          "result": "The simulation predictions agreed well with experimental measurements, and solution annealing followed by water quenching and low-temperature aging was identified as the most effective treatment for reducing anisotropy.",
+          "validation": "The model was validated against thermocouple measurements for thermal history, a 3D scan for deformation, and an as-built micrograph for grain size distribution."
+        },
+        "key_terms": [
+          {
+            "en": "wire arc additive manufacturing",
+            "zh": "线弧增材制造"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "grain growth",
+            "zh": "晶粒长大"
+          },
+          {
+            "en": "solution annealing",
+            "zh": "固溶退火"
+          },
+          {
+            "en": "anisotropy",
+            "zh": "各向异性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413218281",
+      "doi": "10.1115/gt2025-152615",
+      "title": "Development of Two-Color Pyrometer for Film Cooling and Transpiration Cooling at High Temperature Conditions",
+      "abstract": "Abstract This study used a non-invasive two-color pyrometry to investigate transpiration cooling and film cooling on a flat-plate model. Unlike typical infrared thermography, this technique is not affected by changes in emissivity due to heating. An industrial camera captured light intensity through interference filters of different wavelengths (1250 nm and 1550 nm) to calculate the target surface’s temperature and emissivity. Calibration was done using a blackbody furnace with temperatures ranging from 375°C to 600 °C. The test was performed in a high-temperature wind tunnel capable of reaching a mainstream flow temperature above 900°C, with test specimens measuring 60mm × 65mm × 4.5mm for film cooling and transpiration cooling. These samples were additively manufactured using Ti-6Al-4V, AISI-316L, and Inconel-718 materials. For film cooling, a fan-shaped hole configuration with a hole pitch-to-diameter ratio of 8 was applied, while for transpiration cooling, an Orthotropic Porous structure with a pore length of 0.4 mm was used. Results showed that the two-color pyrometry successfully measured surface temperature on different materials with less than 5% uncertainty in temperature measurement accuracy.",
+      "authors": [
+        "Bo‐Wei Chen",
+        "J. K. Chang",
+        "Szu-Chi Huang",
+        "Shih-Hsun Chen",
+        "Yao-Hsien Liu"
+      ],
+      "first_author_affiliation": "National Yang Ming Chiao Tung University , ,",
+      "corresponding_authors": [
+        {
+          "name": "Bo‐Wei Chen",
+          "affiliation": "National Yang Ming Chiao Tung University , ,"
+        }
+      ],
+      "venue": "",
+      "year": 2025,
+      "date": "2025-06-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1115/gt2025-152615",
+      "cited_by_count": 0,
+      "concepts": [
+        "Pyrometer",
+        "Emissivity",
+        "Materials science",
+        "Temperature measurement",
+        "Thermography",
+        "Optics",
+        "Infrared",
+        "Calibration",
+        "Black-body radiation",
+        "Optoelectronics"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "文中所用一种材料为增材制造Ti-6Al-4V，但研究核心为高温冷却技术及温度测量，与力学/疲劳性能无关。",
+        "why_not_core": "The paper does not investigate any mechanical or fatigue properties of Ti-6Al-4V; its focus is on pyrometry and cooling performance, not on tensile, fatigue, or other mechanical characterization.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": true,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "two-color pyrometry",
+          "transpiration cooling",
+          "film cooling",
+          "Ti-6Al-4V"
+        ],
+        "summary_zh": {
+          "motivation": "发展高温环境下不依赖发射率的表面温度测量技术",
+          "method": "使用双色高温计通过干涉滤光片（1250/1550nm）及黑体炉标定，测量加肋冷却及发散冷却模型表面温度",
+          "result": "成功测量不同材料（含Ti-6Al-4V）表面温度，测量不确定度小于5%",
+          "validation": "风洞实验（主流温度>900°C）验证，与黑体炉标定结果对比"
+        },
+        "summary_en": {
+          "motivation": "To develop a non-invasive temperature measurement technique that is independent of surface emissivity for high-temperature cooling studies.",
+          "method": "A two-color pyrometer using an industrial camera with interference filters at 1250 nm and 1550 nm, calibrated with a blackbody furnace, was applied to measure surface temperature on film-cooled and transpiration-cooled flat plates.",
+          "result": "The technique successfully measured surface temperatures on Ti-6Al-4V and other additively manufactured specimens with an uncertainty below 5%.",
+          "validation": "Experimental validation was conducted in a high-temperature wind tunnel (mainstream >900°C) with blackbody calibration."
+        },
+        "key_terms": [
+          {
+            "en": "two-color pyrometry",
+            "zh": "双色高温测量"
+          },
+          {
+            "en": "film cooling",
+            "zh": "气膜冷却"
+          },
+          {
+            "en": "transpiration cooling",
+            "zh": "发散冷却"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411327369",
+      "doi": "10.1016/j.jallcom.2025.181592",
+      "title": "Effect of heat treatment process parameters, cooling rate on microstructure morphology, mechanical behaviour and texture evolution of two phase (α+β) Ti-6Al-4V alloy",
+      "abstract": "",
+      "authors": [
+        "Utkal Suresh Patil",
+        "S. M. Jagadeesh Babu",
+        "Manoj Thota",
+        "S. Avinash",
+        "Rahul R. Kulkarni",
+        "S. Gangolu",
+        "S M Dasharath",
+        "Manjesh Kumar Mishra"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, Rajarambapu Institute of Technology, Islampur, Sangli, Maharashtra 415414, India",
+      "corresponding_authors": [
+        {
+          "name": "S. M. Jagadeesh Babu",
+          "affiliation": "School of Mechanical Engineering, REVA University, Bengaluru, Karnataka 560064, India"
+        }
+      ],
+      "venue": "Journal of Alloys and Compounds",
+      "year": 2025,
+      "date": "2025-06-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jallcom.2025.181592",
+      "cited_by_count": 9,
+      "concepts": [
+        "Microstructure",
+        "Materials science",
+        "Alloy",
+        "Texture (cosmology)",
+        "Metallurgy",
+        "Morphology (biology)",
+        "Phase (matter)",
+        "Titanium alloy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了热处理参数对Ti-6Al-4V合金力学性能的影响，虽非直接针对增材制造材料，但热处理工艺对AM后处理具有参考价值。",
+        "why_not_core": "This paper does not focus on additively manufactured Ti-6Al-4V; it studies conventional wrought/cast alloy, so the direct applicability to AM post-processing is limited without verification on AM-specific microstructures.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "heat treatment",
+          "Ti-6Al-4V",
+          "cooling rate",
+          "microstructure",
+          "mechanical behaviour",
+          "texture evolution",
+          "two-phase alloy",
+          "post-processing"
+        ],
+        "summary_zh": {
+          "motivation": "研究热处理参数对Ti-6Al-4V合金组织与性能的影响。",
+          "method": "通过不同冷却速率的热处理实验，分析微观组织与力学行为。",
+          "result": "揭示了冷却速率对微观结构和力学性能的影响规律。",
+          "validation": "通过力学测试和微观表征验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of heat treatment parameters and cooling rate on the microstructure and mechanical properties of two-phase Ti-6Al-4V alloy.",
+          "method": "Experimental heat treatments with varying cooling rates, followed by microstructural analysis and mechanical testing.",
+          "result": "Cooling rate significantly influences the morphology and mechanical behavior, with optimal properties identified.",
+          "validation": "Mechanical testing (tensile/hardness) and microstructural characterization (SEM/EBSD)."
+        },
+        "key_terms": [
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "cooling rate",
+            "zh": "冷却速率"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "mechanical behaviour",
+            "zh": "力学行为"
+          },
+          {
+            "en": "texture evolution",
+            "zh": "织构演变"
+          },
+          {
+            "en": "two-phase alloy",
+            "zh": "两相合金"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 7,
     "by_source": {
-      "openalex": 3
+      "openalex": 7
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 7,
+    "after_routing": 7,
     "by_direction": {
-      "ti6al4v_postprocess": 3
+      "ti6al4v_base_mechanical_fatigue": 3,
+      "ti6al4v_postprocess": 4
     },
     "routed_by_source": {
-      "openalex": 3
+      "openalex": 7
     },
-    "scored": 3,
+    "scored": 7,
     "priority_counts": {
+      "Medium": 4,
       "Low": 1,
-      "Medium": 2
+      "Exclude": 2
     }
   }
 }

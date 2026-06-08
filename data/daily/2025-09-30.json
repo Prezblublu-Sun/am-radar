@@ -55,8 +55,12 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
-          "ductility",
-          "build orientation"
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "build orientation",
+          "ductility"
         ],
         "ti6al4v_postprocess": [
           "Ti6Al4V",
@@ -65,11 +69,11 @@
         ]
       },
       "llm": {
-        "priority": "Medium",
+        "priority": "High",
         "relevance_level": "Direct",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文直接研究了热处理对激光粉末床熔融Ti6Al4V合金剪切性能的影响，符合后处理控制方向。",
-        "why_not_core": "No fatigue testing, only shear strength evaluation; heat treatment limited to single condition (900°C).",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了热处理对增材制造Ti6Al4V剪切性能的影响，符合L2后处理控制方向。",
+        "why_not_core": "该论文聚焦剪切强度而非疲劳性能，且未涉及表面处理（如喷丸、抛光）等其他后处理方式。",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -78,23 +82,23 @@
           "is_review": false
         },
         "tags": [
+          "laser powder bed fusion",
           "Ti6Al4V",
-          "LPBF",
           "heat treatment",
           "shear strength",
           "build orientation"
         ],
         "summary_zh": {
-          "motivation": "研究打印方向和热处理对LPBF Ti6Al4V剪切性能的影响",
-          "method": "不同方向打印试件后热处理，进行短梁剪切试验和断口分析",
-          "result": "方向显著影响剪切强度，热处理提高延展性但略微降低部分方向强度",
-          "validation": "实验剪切测试和断口形貌验证"
+          "motivation": "研究构建取向和热处理对LPBF Ti6Al4V剪切性能的影响",
+          "method": "采用短梁剪切试验评估不同取向和热处理后的横向剪切强度",
+          "result": "45°和90°试样剪切强度相比0°增加约43%，热处理提升延展性但轻微降低强度",
+          "validation": "通过断口形貌分析确认准脆性断裂及韧窝特征"
         },
         "summary_en": {
-          "motivation": "This study aims to understand how build orientation and subsequent heat treatment affect the shear behavior of laser powder bed fused Ti6Al4V.",
-          "method": "Specimens built at 0°, 45°, and 90° orientations were heat-treated at 900°C in argon, then tested via short beam shear method and fractography.",
-          "result": "Build orientation strongly influenced shear strength and ductility; heat treatment enhanced ductility but slightly reduced strength for 45° and 90° specimens.",
-          "validation": "Mechanical testing with fractographic analysis confirmed quasi-brittle failure and dimple presence indicative of improved ductility."
+          "motivation": "This study aims to elucidate the influence of build orientation and heat treatment on the shear performance of LPBF Ti6Al4V for structural applications.",
+          "method": "Specimens fabricated at 0°, 45°, and 90° orientations were heat-treated at 900°C under argon, and transverse shear strength was measured using the short beam shear test.",
+          "result": "Shear strength increased by ~43% for 45° and 90° orientations relative to 0°, while heat treatment enhanced ductility but slightly reduced strength for the off-axis orientations.",
+          "validation": "Fractographic analysis revealed quasi-brittle failure with dimples, validating the ductility improvement after heat treatment."
         },
         "key_terms": [
           {
@@ -115,11 +119,15 @@
           },
           {
             "en": "build orientation",
-            "zh": "打印方向"
+            "zh": "构建取向"
           },
           {
             "en": "short beam shear test",
             "zh": "短梁剪切试验"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
           },
           {
             "en": "fractography",
@@ -129,25 +137,274 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7117257171",
+      "doi": "10.62456/jmem.2025.03.085",
+      "title": "ANALYSIS OF VIBRATIONS AND MACHINED SURFACE QUALITY DURING TURNING OF Ti-6Al-4V ALLOY",
+      "abstract": "&amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;This paper analyzes the influence of basic turning parameters on&amp;amp;nbsp; vibrations and surface quality of titanium alloy Ti-6Al-4V. Due to specific mechanical properties, titanium processing often causes resonance, instability and increased roughness. The experiment was performed on a universal lathe, with varying cutting speed, feed and depth of cut, in order to&amp;amp;nbsp;&amp;lt;br /&amp;gt;test different machining regimes. Vibration and roughness measurements confirmed that the best results are achieved by avoiding operating modes that cause resonance, thus reducing vibrations and improving surface quality. The obtained findings show that for a stable and precise machining process it is important to carefully select parameters and monitor vibrations in real time. In this way, the service life of the tool can be extended and a better quality of the finished product&amp;amp;nbsp;&amp;lt;br /&amp;gt;can be achieved.&amp;lt;/p&amp;gt;",
+      "authors": [
+        "Edin Begović",
+        "Sabahudin Ekinović",
+        "Amina Šut",
+        "Edna Tufekčić"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Edin Begović",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Mašinstvo",
+      "year": 2025,
+      "date": "2025-09-30",
+      "date_precision": "day",
+      "url": "https://doi.org/10.62456/jmem.2025.03.085",
+      "cited_by_count": 0,
+      "concepts": [
+        "Vibration",
+        "Machining",
+        "Surface roughness",
+        "Materials science",
+        "Titanium alloy",
+        "Alloy",
+        "Surface finish",
+        "Mechanical engineering",
+        "Quality (philosophy)",
+        "Process (computing)",
+        "Surface (topology)",
+        "Metallurgy",
+        "Service life",
+        "Titanium",
+        "Cutting tool",
+        "Instability",
+        "Structural engineering",
+        "Machine tool"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究传统车削加工Ti-6Al-4V的表面质量，不涉及增材制造或后处理对疲劳性能的影响。",
+        "why_not_core": "The paper does not address additive manufacturing; it studies turning of conventional Ti-6Al-4V without any AM context or mechanical performance evaluation.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "turning",
+          "surface roughness",
+          "vibration",
+          "machining"
+        ],
+        "summary_zh": {
+          "motivation": "分析车削参数对Ti-6Al-4V振动和表面质量的影响",
+          "method": "在通用车床上改变切削速度、进给和切深进行实验",
+          "result": "避免共振模式可减少振动并改善表面质量",
+          "validation": "通过振动和粗糙度测量验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate the influence of turning parameters on vibrations and surface quality of Ti-6Al-4V alloy.",
+          "method": "Experiments were conducted on a universal lathe with varying cutting speed, feed, and depth of cut.",
+          "result": "Avoiding resonant operating modes reduces vibrations and improves surface quality, extending tool life.",
+          "validation": "Vibration and roughness measurements confirmed the findings."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "turning",
+            "zh": "车削"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "vibration",
+            "zh": "振动"
+          },
+          {
+            "en": "machining parameters",
+            "zh": "加工参数"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415092025",
+      "doi": "10.13074/jent.2025.09.2531712",
+      "title": "Optimization of Machining Parameters for Ti-6Al-4V Nano-alloy in Abrasive Jet Machining Using Taguchi-Grey Relational Analysis with ANN",
+      "abstract": "The goal of this study is to use a multi-response Taguchi-grey relational technique with Artificial Neural Network (ANN) to optimise the machining parameters of Ti-6Al-4V nano-alloy in the abrasive water jet (AJM) process. The emphasis is on discovering the ideal input factors that have a substantial impact on the workpiece's material removal rate (MRR) and surface quality. The study focuses on the effect of abrasive content characteristics such as SiC volume, SiC size, and abrasive flow rate. Because of its flexibility to handle numerous input variables and produce various sets of optimum values for each response, the Taguchi-grey relational with ANN technique was chosen. The results show that adding SiC in conjunction with garnet enhances the MRR—the best combination of 1wt. The study identifies a SiC addition, an abrasive flow rate of 6g/s, and a 100-mesh SiC size. This results in an MRR of 0.5386 MPa and a surface roughness of 3.32m. Images taken with a scanning electron microscope (SEM) show the machined surface of the titanium nano-alloy from several machining attempts. Overall, the Taguchi-grey relational technique is successful for optimising the machining process parameters for Ti-6Al-4V nano-alloy in AJM, resulting in better MRR and surface quality.",
+      "authors": [
+        "P. Sivaraman",
+        "I.J. Induja",
+        "S. V. Anila",
+        "Dawle Nisha",
+        "V. Stanlin Prija",
+        "Robert S. Hansen"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "P. Sivaraman",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Journal of Environmental Nanotechnology",
+      "year": 2025,
+      "date": "2025-09-30",
+      "date_precision": "day",
+      "url": "https://doi.org/10.13074/jent.2025.09.2531712",
+      "cited_by_count": 0,
+      "concepts": [
+        "Machining",
+        "Abrasive",
+        "Surface roughness",
+        "Materials science",
+        "Artificial neural network",
+        "Surface finish",
+        "Mechanical engineering",
+        "Scanning electron microscope",
+        "Grey relational analysis",
+        "Tool wear",
+        "Surface (topology)",
+        "Flow (mathematics)",
+        "Engineering drawing",
+        "Process (computing)",
+        "Volumetric flow rate",
+        "Response surface methodology",
+        "Jet (fluid)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是Ti-6Al-4V纳米合金在磨料水射流加工中的参数优化，不涉及增材制造或后处理对力学性能的影响。",
+        "why_not_core": "This paper does not concern additive-manufactured Ti-6Al-4V, does not evaluate mechanical or fatigue performance, and focuses solely on machining parameter optimization for material removal rate and surface roughness under abrasive jet machining of a nano-alloy.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "abrasive jet machining",
+          "Ti-6Al-4V nano-alloy",
+          "Taguchi-grey relational analysis",
+          "ANN",
+          "material removal rate",
+          "surface roughness"
+        ],
+        "summary_zh": {
+          "motivation": "优化Ti-6Al-4V纳米合金在磨料水射流加工中的工艺参数以提高材料去除率和表面质量。",
+          "method": "采用Taguchi-灰色关联分析与人工神经网络结合的多响应优化方法。",
+          "result": "添加1wt% SiC、磨料流量6g/s、SiC粒度100目时获得最佳MRR和表面粗糙度。",
+          "validation": "通过扫描电镜图像验证加工表面形貌。"
+        },
+        "summary_en": {
+          "motivation": "To optimize machining parameters for Ti-6Al-4V nano-alloy in abrasive jet machining to improve material removal rate and surface quality.",
+          "method": "A multi-response Taguchi-grey relational analysis combined with an artificial neural network was employed to identify optimal input parameters.",
+          "result": "The optimal combination of 1wt% SiC addition, abrasive flow rate of 6g/s, and 100-mesh SiC size yielded an MRR of 0.5386 MPa and surface roughness of 3.32 μm.",
+          "validation": "Scanning electron microscopy images were used to examine the machined surface morphology."
+        },
+        "key_terms": [
+          {
+            "en": "abrasive jet machining",
+            "zh": "磨料水射流加工"
+          },
+          {
+            "en": "Ti-6Al-4V nano-alloy",
+            "zh": "Ti-6Al-4V纳米合金"
+          },
+          {
+            "en": "Taguchi-grey relational analysis",
+            "zh": "Taguchi-灰色关联分析"
+          },
+          {
+            "en": "artificial neural network",
+            "zh": "人工神经网络"
+          },
+          {
+            "en": "material removal rate",
+            "zh": "材料去除率"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 3
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
-      "Medium": 1
+      "High": 1,
+      "Exclude": 2
     }
   }
 }

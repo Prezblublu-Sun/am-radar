@@ -64,6 +64,10 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "selective laser melting",
+          "microstructure",
           "tensile strength",
           "ultimate tensile strength",
           "elongation"
@@ -81,8 +85,8 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文涉及Ti6Al4V多材料结构，但未聚焦于股骨柄设计或结构力学性能评估，仅作为背景材料参考。",
-        "why_not_core": "No femoral stem design, no structural stress shielding analysis, no ISO fatigue testing of stems; it is a materials processing and characterization study without implant-level geometry or mechanics.",
+        "relevance_to_user": "该论文涉及Ti6Al4V的多材料结构制造，但未涉及股骨柄的具体设计或力学性能评估。",
+        "why_not_core": "The paper does not address femoral stem design, structural architecture (lattice/TPMS), stress shielding analysis, or fatigue testing of implants; it focuses on L-PBF processing and characterization of a new Ti15Ta/Ti6Al4V alloy combination.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -94,21 +98,21 @@
           "multi-material",
           "Ti15Ta",
           "Ti6Al4V",
-          "L-PBF",
-          "stress shielding",
-          "orthopedic implants"
+          "laser powder bed fusion",
+          "mechanical properties",
+          "biocompatibility"
         ],
         "summary_zh": {
-          "motivation": "探索多材料钛合金结构用于骨科植入物以减少应力遮挡效应",
-          "method": "通过激光粉末床熔融制备Ti15Ta/Ti6Al4V多材料试样，优化过渡区激光参数",
-          "result": "双扫描策略获得99.49%密度过渡区，拉伸断裂发生在Ti15Ta侧，强度约540 MPa",
-          "validation": "采用SEM、EDS、拉伸测试、显微硬度及细胞活性实验验证"
+          "motivation": "探索多材料钛合金结构以减少应力遮挡效应",
+          "method": "通过激光粉末床熔融制备Ti15Ta/Ti6Al4V双材料试样并优化过渡区参数",
+          "result": "双扫描工艺获得最高致密度，拉伸断裂发生在Ti15Ta侧，强度约540 MPa",
+          "validation": "拉伸测试、显微硬度及细胞毒性实验验证力学与生物相容性"
         },
         "summary_en": {
-          "motivation": "To develop multi-material titanium alloy structures for orthopedic implants to mitigate stress shielding by combining high strength and reduced stiffness.",
-          "method": "Multi-material Ti15Ta/Ti6Al4V specimens were fabricated by laser powder bed fusion, and the transition zone processing parameters were optimized using three regimes including double scanning.",
-          "result": "The double scanning regime achieved 99.49% density in the transition zone, tensile failure occurred in the Ti15Ta region, and ultimate tensile strength ranged from 534 to 543 MPa with elongation of 15.7–16.4%.",
-          "validation": "Microstructure and elemental distribution were characterized by SEM and EDS, mechanical properties via tensile testing and microhardness, and biocompatibility by osteoblast and fibroblast viability assays."
+          "motivation": "To fabricate functionally graded orthopedic implants with reduced stiffness and high strength by multi-material additive manufacturing.",
+          "method": "Ti15Ta/Ti6Al4V bimetallic specimens were produced by laser powder bed fusion (L-PBF) with three processing regimes for the transition zone, and characterized by SEM, EDS, tensile testing, microhardness, and biocompatibility assays.",
+          "result": "The double scanning regime yielded the highest transition zone density (99.49%); tensile failure occurred in the Ti15Ta region with ultimate tensile strength ~540 MPa and elongation ~16%; heat treatment improved the interface microstructure.",
+          "validation": "Mechanical testing (tensile, microhardness) and in vitro cell viability tests (flow cytometry, ISO 10993-5) validated the metallurgical bond quality and non-cytotoxicity."
         },
         "key_terms": [
           {
@@ -116,38 +120,38 @@
             "zh": "激光粉末床熔融"
           },
           {
-            "en": "biocompatibility",
-            "zh": "生物相容性"
-          },
-          {
             "en": "Ti15Ta",
-            "zh": "Ti15Ta合金"
+            "zh": "钛15钽合金"
           },
           {
             "en": "Ti6Al4V",
-            "zh": "Ti6Al4V合金"
+            "zh": "钛6铝4钒合金"
           },
           {
             "en": "multi-material",
             "zh": "多材料"
           },
           {
-            "en": "stress shielding",
-            "zh": "应力遮挡"
+            "en": "transition zone",
+            "zh": "过渡区"
           },
           {
-            "en": "tensile properties",
-            "zh": "拉伸性能"
+            "en": "tensile strength",
+            "zh": "抗拉强度"
           },
           {
-            "en": "microstructure",
-            "zh": "微观结构"
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "biocompatibility",
+            "zh": "生物相容性"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
     }
   ],
   "counts": {

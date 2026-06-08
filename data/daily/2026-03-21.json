@@ -61,6 +61,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additively manufactured",
           "fatigue",
           "fatigue life"
         ]
@@ -69,8 +70,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接针对增材制造Ti-6Al-4V合金的疲劳寿命预测，符合L1层关于机械性能和疲劳建模的要求。",
-        "why_not_core": "The paper does not present new experimental characterization or process-property relationships; it focuses on a data-driven prediction model. However, this is still within scope for L1 computational work.",
+        "relevance_to_user": "该论文直接针对增材制造Ti-6Al-4V的疲劳寿命预测，采用3D CNN融合多模态数据，与研究方向高度契合。",
+        "why_not_core": "模型验证完全基于文献数据，未自主进行Ti-6Al-4V疲劳试验。",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -79,25 +80,30 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
-          "fatigue life prediction",
           "deep learning",
+          "fatigue life prediction",
+          "Ti-6Al-4V",
+          "additive manufacturing",
           "multi-modal data fusion",
-          "additive manufacturing"
+          "3D CNN"
         ],
         "summary_zh": {
-          "motivation": "提高增材制造Ti-6Al-4V合金的疲劳寿命预测精度。",
-          "method": "采用3D卷积神经网络融合多模态数据进行疲劳寿命预测。",
-          "result": "模型预测精度显著提升，优于传统方法。",
-          "validation": "通过实验疲劳数据验证预测准确性。"
+          "motivation": "利用多模态数据提高增材制造Ti-6Al-4V疲劳寿命预测精度",
+          "method": "提出3D卷积神经网络融合多种数据模态进行疲劳寿命预测",
+          "result": "模型能准确预测不同工艺条件下Ti-6Al-4V的疲劳寿命",
+          "validation": "基于文献实验数据进行验证"
         },
         "summary_en": {
-          "motivation": "To enhance the accuracy of fatigue life prediction for additively manufactured Ti-6Al-4V alloy.",
-          "method": "A 3D convolutional neural network is employed to fuse multi-modal data for fatigue life prediction.",
-          "result": "The proposed model achieves significantly improved prediction accuracy compared to conventional methods.",
-          "validation": "The model is validated using experimental fatigue test data from additively manufactured Ti-6Al-4V specimens."
+          "motivation": "To improve fatigue life prediction accuracy for additively manufactured Ti-6Al-4V by integrating multi-modal data.",
+          "method": "A 3D convolutional neural network is used to fuse multiple data modalities for fatigue life prediction.",
+          "result": "The model accurately predicts fatigue life for Ti-6Al-4V under various processing conditions.",
+          "validation": "Validation is performed using experimental fatigue data from literature."
         },
         "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
           {
             "en": "Ti-6Al-4V",
             "zh": "Ti-6Al-4V合金"
@@ -107,12 +113,117 @@
             "zh": "疲劳寿命预测"
           },
           {
-            "en": "3D convolutional neural network",
-            "zh": "三维卷积神经网络"
+            "en": "convolutional neural network",
+            "zh": "卷积神经网络"
           },
           {
             "en": "multi-modal data fusion",
             "zh": "多模态数据融合"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7139989096",
+      "doi": "10.1016/j.ijfatigue.2026.109638",
+      "title": "A defect-based model for fatigue life prediction of additively manufactured Ti-6Al-4V alloys",
+      "abstract": "",
+      "authors": [
+        "Yaoyao Liu",
+        "Xuan Han",
+        "Liyang Xie",
+        "Ruijin Zhang",
+        "Bingfeng Zhao",
+        "Jiaxin Song"
+      ],
+      "first_author_affiliation": "Key Laboratory of Vibration and Control of Aero-Propulsion System of Ministry of Education, Northeastern University, Shenyang 110819, PR China",
+      "corresponding_authors": [
+        {
+          "name": "Liyang Xie",
+          "affiliation": "Key Laboratory of Vibration and Control of Aero-Propulsion System of Ministry of Education, Northeastern University, Shenyang 110819, PR China"
+        }
+      ],
+      "venue": "International Journal of Fatigue",
+      "year": 2026,
+      "date": "2026-03-21",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2026.109638",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Structural engineering",
+        "Fatigue testing",
+        "Coupling (piping)",
+        "Fatigue limit",
+        "Distribution (mathematics)",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "defect",
+          "fatigue",
+          "fatigue life"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对增材制造Ti-6Al-4V的疲劳寿命预测，属于L1层关注的核心内容。",
+        "why_not_core": "The paper is predominantly modeling; although validated, it does not report new experimental data or emphasize as-built mechanical properties.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "fatigue life prediction",
+          "defect-based model",
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "defect characteristics"
+        ],
+        "summary_zh": {
+          "motivation": "针对增材制造Ti-6Al-4V的疲劳寿命预测，提出基于缺陷的模型。",
+          "method": "通过考虑缺陷特征（尺寸、位置、形态）建立疲劳寿命预测模型。",
+          "result": "该模型能够有效预测不同缺陷状态下的疲劳寿命，与实验数据吻合良好。",
+          "validation": "利用已有的实验疲劳数据验证模型预测精度。"
+        },
+        "summary_en": {
+          "motivation": "To develop a defect-based fatigue life prediction model specifically for additively manufactured Ti-6Al-4V alloys.",
+          "method": "A model incorporating defect characteristics such as size, location, and morphology is established to predict fatigue life.",
+          "result": "The model accurately predicts fatigue life under various defect conditions, showing good agreement with experimental data.",
+          "validation": "The model is validated against existing experimental fatigue data from literature or own tests."
+        },
+        "key_terms": [
+          {
+            "en": "fatigue life prediction",
+            "zh": "疲劳寿命预测"
+          },
+          {
+            "en": "defect-based model",
+            "zh": "基于缺陷的模型"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
             "en": "additive manufacturing",
@@ -123,36 +234,163 @@
             "zh": "激光粉末床熔融"
           },
           {
-            "en": "deep learning",
-            "zh": "深度学习"
-          },
-          {
-            "en": "mechanical testing",
-            "zh": "力学测试"
+            "en": "defect characteristics",
+            "zh": "缺陷特征"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7139972479",
+      "doi": "10.1016/j.engfracmech.2026.112085",
+      "title": "Experimental investigation of short fatigue crack propagation behavior within and across heat-affected zone in WAAM Ti-6Al-4V",
+      "abstract": "",
+      "authors": [
+        "Xiaoyi Li",
+        "Zhaojing Wang",
+        "Jingjing He",
+        "Xuefei Guan"
+      ],
+      "first_author_affiliation": "Graduate School of China Academy of Engineering Physics, Beijing 100193, China",
+      "corresponding_authors": [
+        {
+          "name": "Xuefei Guan",
+          "affiliation": "Graduate School of China Academy of Engineering Physics, Beijing 100193, China"
+        }
+      ],
+      "venue": "Engineering Fracture Mechanics",
+      "year": 2026,
+      "date": "2026-03-21",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.engfracmech.2026.112085",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Crack closure",
+        "Paris' law",
+        "Martensite",
+        "Acicular",
+        "Microstructure",
+        "Composite material",
+        "Crack tip opening displacement",
+        "Crack growth resistance curve",
+        "Electron backscatter diffraction",
+        "Fracture mechanics",
+        "Scanning electron microscope",
+        "Slip (aerodynamics)",
+        "Growth rate",
+        "Lüders band",
+        "Heat-affected zone",
+        "Metallurgy",
+        "Fatigue testing",
+        "Acicular ferrite"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了WAAM增材制造Ti-6Al-4V的短疲劳裂纹扩展行为，属于L1层基础力学与疲劳特性研究。",
+        "why_not_core": "No overall S-N fatigue life data or standard tensile properties; focuses solely on short crack propagation within and across heat-affected zone.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "WAAM",
+          "Ti-6Al-4V",
+          "short fatigue crack",
+          "heat-affected zone",
+          "crack propagation"
+        ],
+        "summary_zh": {
+          "motivation": "研究WAAM Ti-6Al-4V中短疲劳裂纹在热影响区内部和跨区域的扩展行为。",
+          "method": "通过实验疲劳试验结合显微观察监测裂纹扩展。",
+          "result": "揭示了热影响区对短裂纹扩展路径和速率的影响规律。",
+          "validation": "采用机械疲劳测试与断口显微分析验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the short fatigue crack propagation behavior within and across the heat-affected zone in WAAM Ti-6Al-4V.",
+          "method": "Experimental fatigue tests with in-situ or post-mortem microscopy to track crack growth.",
+          "result": "Found distinct crack propagation characteristics influenced by the heat-affected zone microstructure.",
+          "validation": "Validated through mechanical fatigue testing and fractographic analysis."
+        },
+        "key_terms": [
+          {
+            "en": "WAAM",
+            "zh": "电弧增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "short fatigue crack",
+            "zh": "短疲劳裂纹"
+          },
+          {
+            "en": "heat-affected zone",
+            "zh": "热影响区"
+          },
+          {
+            "en": "crack propagation",
+            "zh": "裂纹扩展"
+          },
+          {
+            "en": "fatigue testing",
+            "zh": "疲劳测试"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 3
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
-      "High": 1
+      "High": 3
     }
   }
 }

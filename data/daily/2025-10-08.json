@@ -72,11 +72,11 @@
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文研究了Ti-6Al-4V合金线切割加工后的表面特性，但未涉及增材制造或疲劳/力学性能，与用户关注的后处理对AM材料力学性能的影响关联较弱。",
-        "why_not_core": "This paper does not evaluate fatigue or mechanical performance of Ti-6Al-4V, nor does it address post-processing of additively manufactured material; it only studies surface characteristics of WEDM on conventionally processed Ti-6Al-4V.",
+        "read_action": "Ignore",
+        "relevance_to_user": "本文研究WEDM加工Ti-6Al-4V的表面特性，而非后处理对疲劳/力学性能的影响，因此不相关。",
+        "why_not_core": "Does not address any post-processing treatment (heat treatment, HIP, shot peening, etc.) or mechanical performance (fatigue, tensile) of Ti-6Al-4V; focuses solely on WEDM surface characteristics.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -87,29 +87,29 @@
         "tags": [
           "Ti-6Al-4V",
           "WEDM",
-          "surface characteristics",
-          "wire electric discharge machining"
+          "surface roughness",
+          "surface integrity"
         ],
         "summary_zh": {
-          "motivation": "研究线切割加工Ti-6Al-4V复杂几何特征表面特性。",
-          "method": "通过统计、参数、表面完整性分析优化工艺参数。",
-          "result": "最优参数下平面和曲面粗糙度分别为3.27μm和3.58μm。",
-          "validation": "实验验证预测结果误差小于5%。"
+          "motivation": "研究WEDM加工Ti-6Al-4V复杂曲面表面特性。",
+          "method": "优化工艺参数（伺服电压、脉冲时间、线速）获得最佳表面质量。",
+          "result": "优化后曲面粗糙度3.58μm，平面3.27μm。",
+          "validation": "实验与预测结果在95%置信区间内误差小于5%。"
         },
         "summary_en": {
-          "motivation": "This study investigates surface characteristics of complex geometrical features on Ti-6Al-4V alloy processed by WEDM.",
-          "method": "Statistical, parametric, surface integrity, and spectroscopic analyses were performed to optimize WEDM parameters.",
-          "result": "Optimized parameters achieved surface roughness of 3.58 μm on curved features and 3.27 μm on plane features.",
-          "validation": "Predicted results were validated experimentally with less than 5% error under a 95% confidence interval."
+          "motivation": "To investigate the surface characteristics of complex curved and planar features on Ti-6Al-4V alloy processed by WEDM.",
+          "method": "Multi-attribute optimization of WEDM parameters (servo voltage, pulse on/off time, wire speed) to achieve minimal surface roughness and improved surface integrity.",
+          "result": "Optimized parameters yielded surface roughness of 3.58 μm on curved and 3.27 μm on planar features with 75.51% combined desirability.",
+          "validation": "Experimental results validated against predictions with less than 5% error under 95% confidence interval."
         },
         "key_terms": [
           {
-            "en": "Ti-6Al-4V alloy",
+            "en": "Ti-6Al-4V",
             "zh": "Ti-6Al-4V合金"
           },
           {
             "en": "wire electric discharge machining (WEDM)",
-            "zh": "电火花线切割加工"
+            "zh": "线切割电火花加工"
           },
           {
             "en": "surface roughness",
@@ -120,36 +120,159 @@
             "zh": "表面完整性"
           },
           {
-            "en": "parametric optimization",
-            "zh": "参数优化"
+            "en": "optimization",
+            "zh": "优化"
           },
           {
-            "en": "complex geometrical features",
-            "zh": "复杂几何特征"
+            "en": "complex curved features",
+            "zh": "复杂曲面特征"
+          },
+          {
+            "en": "servo voltage",
+            "zh": "伺服电压"
+          },
+          {
+            "en": "pulse on-time",
+            "zh": "脉冲开启时间"
+          },
+          {
+            "en": "pulse off-time",
+            "zh": "脉冲关闭时间"
+          },
+          {
+            "en": "wire speed",
+            "zh": "线速"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:17:25Z"
+      "first_seen_at": "2026-06-08T08:27:10Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415030747",
+      "doi": "10.34883/pi.2025.9.3.001",
+      "title": "Экспериментальное исследование прочностных характеристик цементно-винтовой фиксации ортопедических конструкций к дентальным имплантатам с плоскостным и коническим типом соединения",
+      "abstract": "Введение. В публикации приведены результаты исследования прочностных характеристик цементно-винтовой фиксации абатментов и дентальных имплантатов с плоскостным и коническим типом соединения в условиях эксперимента. Цель. Разработать экспериментальную модель в системе «зубной протез – дентальный имплантат» и провести оценку прочностных характеристик цементно-винтовой фиксации абатментов к дентальным имплантатам с плоскостным и коническим типом соединения в экспериментальных условиях при циклических нагружениях, имитирующих функциональные нагрузки в ротовой полости. Материалы и методы. Оценивали прочностные характеристики цементно-винтовой фиксации абатментов к дентальным имплантатам из сплава Ti-6Al-4V диаметром 3,75 мм и длиной 11,5 мм с коническим и плоскостным типом соединения. Всего в эксперимент было включено 48 дентальных имплантатов – 24 с плоскостным и 24 с коническим типом соединения. В свою очередь каждые 24 имплантата были распределены на шесть групп в зависимости от экспериментальных условий: три группы при угле нагружения 22,5° и силе воздействия 100 Н с количеством циклов нагружения 100 000, 150 000 и 200 000; три группы при угле нагружения 45° и силе воздействия 100 Н с количеством циклов нагружения 100 000, 150 000 и 200 000. Результаты. При сравнительном анализе прочности экспериментальных образцов в условиях максимальной нагрузки (угол нагружения 45° и 200 000 циклов нагружения) во 2-м положении импланта, наиболее слабом элементе всей конструкции, выявлено, что при коническом типе глубина ЦВС снижается на 15%, а степень зажатия винтов − на 54% от изначального уровня до нагрузки, в то время как при плоскостном типе аналогичные параметры снижаются на 39% и 60% соответственно. Выводы. Установлено, что конический тип соединения является наиболее надежным, его использование позволяет значительно повысить величину сопротивления нагрузкам, так как накопление усталости ортопедических конструкций при коническом типе соединения возрастает лишь в 1,2 раза, в то время как при плоскостном – в 1,7 раза. Новая цементно-винтовая ортопедическая конструкция с коническим типом соединения позволяет снизить величину эквивалентных жевательной нагрузке напряжений (по изменению глубины 2-го соединения, имитирующего проекцию 2-го премоляра) на 24% по сравнению с плоскостным типом соединения. Introduction. The publication presents the results of a study of the strength characteristics of cement-screw fixation of abutments and dental implants with a planar and conical type of connection under experimental conditions. Purpose. To develop an experimental model in the \"dental prosthesis-dental implant\" system and evaluate the strength characteristics of cement-screw fixation of abutments to dental implants with a planar and conical type of connection under experimental conditions with cyclic loads simulating functional loads in the oral cavity. Materials and methods. The strength characteristics of the cement-screw fixation of abutments to dental implants made of Ti-6Al-4V alloy with a diameter of 3.75 mm and a length of 11.5 mm with a conical and planar type of connection were evaluated. A total of 48 dental implants were included in the experiment – 24 with a planar and 24 with a conical type of connection. In turn, every 24 implants were divided into six groups depending on the experimental conditions: three groups with a loading angle of 22.50 and a force of 100 N with a number of loading cycles of 100,000, 150,000 and 200,000; three groups at loading angle of 450 and impact force of 100 N with number of loading cycles of 100,000, 150,000 and 200,000. Results. In comparative analysis of the strength of experimental samples under maximum load conditions (loading angle 450 and 200,000 loading cycles) in the 2nd position of the implant, as the weakest element of the entire structure, it was revealed that with a conical type, the depth of the CVS decreases by 15%, and the degree of screw clamping − by 54% from the initial level to the load, while with a planar type, similar parameters decrease by 39% and 60%, respectively. Conclusion. It has been established that the conical type of connection is the most reliable, its use allows you to significantly increase the amount of resistance to loads, since the accumulation of fatigue of orthopedic structures with the conical type of connection increases only 1.2 times, while with the planar – 1.7 times. The new cement-screw orthopedic design with a conical type of connection allows reducing the value of stresses equivalent to chewing load (by changing the depth of the 2nd connection simulating the projection of the 2nd premolar) by 24% compared to the planar type of connection.",
+      "authors": [
+        "С.П. Рубникович",
+        "С.В. Прялкин",
+        "В.Н. Бусько"
+      ],
+      "first_author_affiliation": "Белорусский государственный медицинский университет",
+      "corresponding_authors": [
+        {
+          "name": "С.П. Рубникович",
+          "affiliation": "Белорусский государственный медицинский университет"
+        }
+      ],
+      "venue": "Стоматология Эстетика Инновации",
+      "year": 2025,
+      "date": "2025-10-08",
+      "date_precision": "day",
+      "url": "https://doi.org/10.34883/pi.2025.9.3.001",
+      "cited_by_count": 0,
+      "concepts": [],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V牙种植体的机械性能，但未涉及增材制造，且集中于连接类型而非材料本身。",
+        "why_not_core": "The paper does not address additively manufactured Ti-6Al-4V; it focuses on dental implant connection types using conventionally manufactured Ti-6Al-4V, which is out of scope for L1 base mechanical and fatigue direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "dental implants",
+          "cement-screw fixation",
+          "cyclic loading",
+          "connection type"
+        ],
+        "summary_zh": {
+          "motivation": "评估牙种植体中不同类型连接的强度特性。",
+          "method": "对48个Ti-6Al-4V种植体进行循环加载实验，比较平面型和锥形连接。",
+          "result": "锥形连接比平面型连接更可靠，疲劳积累更慢。",
+          "validation": "通过不同角度和循环次数的机械测试验证。"
+        },
+        "summary_en": {
+          "motivation": "To evaluate the strength characteristics of cement-screw fixation in dental implants with planar and conical connection types under cyclic loading.",
+          "method": "Cyclic loading tests with varying angles (22.5° and 45°) and cycle counts (100k, 150k, 200k) were performed on 48 Ti-6Al-4V dental implants with either planar or conical connections.",
+          "result": "The conical connection type exhibited higher reliability with only 1.2-fold fatigue accumulation compared to 1.7-fold for planar type, and reduced equivalent stress by 24%.",
+          "validation": "Experimental mechanical testing with controlled loading conditions and sample groups."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "dental implant",
+            "zh": "牙种植体"
+          },
+          {
+            "en": "cement-screw fixation",
+            "zh": "水泥-螺丝固定"
+          },
+          {
+            "en": "conical connection",
+            "zh": "锥形连接"
+          },
+          {
+            "en": "planar connection",
+            "zh": "平面连接"
+          },
+          {
+            "en": "cyclic loading",
+            "zh": "循环加载"
+          },
+          {
+            "en": "fatigue accumulation",
+            "zh": "疲劳积累"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:27:10Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Low": 1
+      "Exclude": 2
     }
   }
 }

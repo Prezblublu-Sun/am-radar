@@ -56,8 +56,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是热轧Ti-6Al-4V的疲劳极限，并非增材制造，因此不相关。",
-        "why_not_core": "The paper studies wrought (hot-rolled) Ti-6Al-4V, not additively manufactured Ti-6Al-4V, and thus does not meet the direction's requirement for AM-specific mechanical/fatigue characterization.",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V疲劳极限，但材料通过热轧制备，非增材制造，与方向要求不符。",
+        "why_not_core": "The paper investigates conventionally hot-rolled Ti-6Al-4V, not additively manufactured Ti-6Al-4V, so it falls outside the scope of this direction.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -69,27 +69,25 @@
           "Ti-6Al-4V",
           "fatigue limit",
           "infrared thermography",
-          "self-heating",
-          "lock-in thermography",
-          "wrought alloy",
-          "hot-rolled"
+          "hot rolling",
+          "self-heating"
         ],
         "summary_zh": {
-          "motivation": "快速估算疲劳极限，减少试验时间和试样数量。",
-          "method": "利用红外热像仪监测自热现象，分析锁相热成像第二谐波的斜率变化。",
-          "result": "确定了光滑和缺口Ti-6Al-4V试样的疲劳极限，疲劳强度降低因子与文献一致。",
-          "validation": "与文献值对比验证了缺口敏感系数。"
+          "motivation": "快速估算Ti-6Al-4V疲劳极限以减少实验时间和试样数量",
+          "method": "采用红外热成像监测加载过程中的自发热温升信号，通过第二谐波分析确定疲劳极限",
+          "result": "热信号斜率突变对应的应力与疲劳极限一致，缺口试样结果与文献吻合",
+          "validation": "与传统疲劳试验结果对比验证热成像方法的有效性"
         },
         "summary_en": {
-          "motivation": "To rapidly estimate the fatigue limit while reducing experimental time and specimen count.",
-          "method": "Infrared thermography monitored the self-heating phenomenon during fatigue, and lock-in thermography analysis of the second harmonic detected slope changes.",
-          "result": "Fatigue limits for unnotched and notched Ti-6Al-4V specimens were determined; the fatigue strength reduction factor agreed with literature.",
-          "validation": "The notch sensitivity factor was validated by comparison with literature values."
+          "motivation": "To rapidly estimate the fatigue limit of Ti-6Al-4V without extensive conventional testing.",
+          "method": "Infrared thermography monitors surface temperature during cyclic loading, and lock-in analysis of the second harmonic detects a slope change marking the fatigue limit.",
+          "result": "The stress at the slope transition matches the fatigue limit, and the notch-induced fatigue strength reduction agrees with literature.",
+          "validation": "Validation by comparing thermographically determined fatigue limits with conventional fatigue test results."
         },
         "key_terms": [
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "zh": "Ti-6Al-4V"
           },
           {
             "en": "fatigue limit",
@@ -97,47 +95,177 @@
           },
           {
             "en": "infrared thermography",
-            "zh": "红外热像法"
+            "zh": "红外热成像"
           },
           {
             "en": "self-heating",
-            "zh": "自热现象"
+            "zh": "自发热"
           },
           {
             "en": "lock-in thermography",
-            "zh": "锁相热成像"
+            "zh": "锁定热成像"
+          },
+          {
+            "en": "hot rolling",
+            "zh": "热轧"
           },
           {
             "en": "notched specimen",
             "zh": "缺口试样"
-          },
-          {
-            "en": "hot-rolled",
-            "zh": "热轧"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412584934",
+      "doi": "10.1016/j.matdes.2025.114445",
+      "title": "Enhancing the high-cycle fatigue strength of Ti-Al-N coated Ti-6Al-4V by residual stress design",
+      "abstract": "• Fatigue behavior of hard coated Ti-6Al-4V is dominated by residual stresses. • Sufficiently high residual compressive stress must be present in the coating. • Linear-elastic model further links fatigue strength to residual stress gradient. • Beneficial modification of residual stress gradient leads to fatigue enhancement. • Interlayer improves fatigue strength by shifting stress peak deeper into substrate. Physical vapor deposited coatings are widely utilized as surface protection for metal and ceramic components operating in harsh environments. However, research on the high-cycle fatigue (HCF) life of hard-coated metal substrates has reached contradictory conclusions, leaving it unclear whether ceramic coatings enhance or compromise their fatigue resistance. To improve reliability and extend service life, this study explores the residual stress-dependent influence of arc evaporated TiAlN-based thin films on the fatigue life of Ti-6Al-4V. Therefore, different stress-modifying approaches were implemented, including a substrate bias variation, a Tantalum based alloying strategy, and a specific interlayer design. The combination of high-cycle fatigue tests, synchrotron-based experiments providing depth-resolved stress profiles, and the formulation of a linear-elastic stress-failure model resulted in the following identified relationships: (i) A threshold level in the residual compressive stress state must be present in TiAlN-based coatings to prevent deteriorating HCF performance introduced by failure of the ceramic nitride. (ii) Once the residual compressive stress field is able to shift fatigue crack nucleation into the bulk titanium alloy, the HCF life increases. (iii) The further the residual tensile stress peak is shifted from the bulk material surface — achieved through an optimized residual stress design implementing a metallic interlayer beneath the TiAlN-based top coating — the greater the improvement in HCF strength. Overall, this approach achieved an unprecedented HCF enhancement exceeding 50 % compared to uncoated Ti-6Al-4V (from 420 MPa to 628 MPa at 10 7 load cycles), highlighting the importance of an in-depth understanding of stress gradients within coating-substrate combinations.",
+      "authors": [
+        "Arno Gitschthaler",
+        "Rainer Hahn",
+        "L. Zauner",
+        "Tomasz Wójcik",
+        "Florian Fahrnberger",
+        "Herbert Hutter",
+        "Anton Davydok",
+        "Christina Krywka",
+        "Carmen Jerg",
+        "J. Ramm",
+        "Anders Eriksson",
+        "S. Kolozsvári",
+        "P. Polcik",
+        "H. Riedl"
+      ],
+      "first_author_affiliation": "Christian Doppler Laboratory for Surface Engineering of High-performance Components, TU Wien 1060 Wien, Austria",
+      "corresponding_authors": [
+        {
+          "name": "Arno Gitschthaler",
+          "affiliation": "Christian Doppler Laboratory for Surface Engineering of High-performance Components, TU Wien 1060 Wien, Austria"
+        }
+      ],
+      "venue": "Materials & Design",
+      "year": 2025,
+      "date": "2025-07-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.matdes.2025.114445",
+      "cited_by_count": 4,
+      "concepts": [
+        "Materials science",
+        "Residual stress",
+        "Fatigue testing",
+        "Fatigue limit",
+        "Stress (linguistics)",
+        "Metallurgy",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "residual stress",
+          "fatigue",
+          "fatigue life",
+          "fatigue strength",
+          "high cycle fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "论文涉及Ti-6Al-4V的疲劳性能，但涂层工艺非增材制造，与方向要求无关。",
+        "why_not_core": "This paper concerns coated conventionally manufactured Ti-6Al-4V and does not involve additive manufacturing (LPBF/SLM/EBM/DED), which is the core focus of this direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "high-cycle fatigue",
+          "hard coatings",
+          "residual stress",
+          "TiAlN",
+          "PVD"
+        ],
+        "summary_zh": {
+          "motivation": "探究硬质涂层对Ti-6Al-4V疲劳寿命的影响机制。",
+          "method": "通过电弧蒸发制备TiAlN涂层，结合疲劳测试和应力分析。",
+          "result": "残余压应力设计使疲劳强度提升50%以上。",
+          "validation": "高周疲劳实验与同步辐射应力测试。"
+        },
+        "summary_en": {
+          "motivation": "The contradictory findings on whether ceramic coatings enhance or compromise the fatigue life of metal substrates motivate a systematic study of residual stress effects.",
+          "method": "Arc-evaporated TiAlN-based coatings with various stress-modifying strategies (bias variation, Ta alloying, interlayer design) were applied to Ti-6Al-4V, followed by high-cycle fatigue testing and synchrotron stress profiling.",
+          "result": "An optimized residual stress design, including a metallic interlayer, achieved a >50% increase in fatigue strength (from 420 MPa to 628 MPa at 10^7 cycles) by shifting crack nucleation into the bulk substrate.",
+          "validation": "The study combines high-cycle fatigue experiments with depth-resolved synchrotron stress measurements and a linear-elastic stress-failure model."
+        },
+        "key_terms": [
+          {
+            "en": "high-cycle fatigue",
+            "zh": "高周疲劳"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "TiAlN coating",
+            "zh": "TiAlN涂层"
+          },
+          {
+            "en": "physical vapor deposition",
+            "zh": "物理气相沉积"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "fatigue strength",
+            "zh": "疲劳强度"
+          },
+          {
+            "en": "interlayer",
+            "zh": "中间层"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 2
     }
   }
 }

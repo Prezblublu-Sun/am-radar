@@ -5,145 +5,6 @@
   "papers": [
     {
       "source": "openalex",
-      "id": "https://openalex.org/W7152487089",
-      "doi": "10.3390/data11040081",
-      "title": "Dataset on Fatigue Results and Fatigue Fracture Initiation Site Characterization in Stress-Relieved PBF-LB/M Ti-6Al-4V Four-Point Bend and Axial Specimens: Part I (High Power, Variable Scan Velocities)",
-      "abstract": "As part of a NASA University Leadership Initiative (ULI) program, this work supports the continued development and evaluation of a fatigue-based process window for stress-relieved Ti-6Al-4V specimens produced via laser powder bed fusion (PBF-LB/M). Four-point bend and axial fatigue specimens were fabricated by NASA ULI collaborators across a range of scan velocities (800–2000 mm/s) at a constant power of 370 W using an EOS M290 system. All fatigue specimens were low-stress-ground by a commercial vendor and tested at Case Western Reserve University (CWRU) under load-controlled cyclic loading at a stress ratio of R = 0.1. This paper presents a curated dataset linking PBF-LB/M process parameters to fatigue outcomes across 175 specimens. Of these, 136 fractured and this study includes fatigue crack initiation site identification and defect morphology metrics derived from post mortem SEM analysis. Specimens that reached runout (107 cycles) and did not fracture under subsequent fatigue testing are retained in the dataset, with fractographic fields marked as ‘NA’ to indicate non-applicability. The dataset includes specimen metadata, processing parameters, fatigue life data, fatigue initiation site classification (e.g., keyhole, gas-entrapped pore (GeP), lack-of-fusion (LoF), contamination), defect size and shape descriptors, and spatial location relative to the free surface. These data are intended to support defect-based fatigue life prediction, probabilistic modeling, process–structure–property studies, and machine learning frameworks linking process parameters to fatigue performance in PBF-LB/M Ti-6Al-4V.",
-      "authors": [
-        "Brett E. Ley",
-        "Austin Ngo",
-        "John J. Lewandowski"
-      ],
-      "first_author_affiliation": "Department of Materials Science and Engineering, Case Western Reserve University, Cleveland, OH 44106, USA",
-      "corresponding_authors": [
-        {
-          "name": "Brett E. Ley",
-          "affiliation": "Department of Materials Science and Engineering, Case Western Reserve University, Cleveland, OH 44106, USA"
-        },
-        {
-          "name": "John J. Lewandowski",
-          "affiliation": "Department of Materials Science and Engineering, Case Western Reserve University, Cleveland, OH 44106, USA"
-        }
-      ],
-      "venue": "Data",
-      "year": 2026,
-      "date": "2026-04-08",
-      "date_precision": "day",
-      "url": "https://doi.org/10.3390/data11040081",
-      "cited_by_count": 0,
-      "concepts": [
-        "Fracture (geology)",
-        "Materials science",
-        "Fatigue testing",
-        "Structural engineering",
-        "Stress (linguistics)",
-        "Characterization (materials science)",
-        "Fatigue limit",
-        "Cyclic stress",
-        "Stress concentration",
-        "Work (physics)",
-        "Process (computing)",
-        "Paris' law",
-        "Deformation (meteorology)"
-      ],
-      "categories": [],
-      "raw_type": "article",
-      "directions": [
-        "ti6al4v_base_mechanical_fatigue"
-      ],
-      "direction": "ti6al4v_base_mechanical_fatigue",
-      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
-      "routing_matches": {
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "defect",
-          "fatigue",
-          "fatigue life",
-          "fatigue crack initiation"
-        ]
-      },
-      "llm": {
-        "priority": "High",
-        "relevance_level": "Direct",
-        "read_action": "Read now",
-        "relevance_to_user": "该论文直接提供了增材制造Ti-6Al-4V的疲劳数据及裂纹萌生特征，完全符合第一层力学与疲劳性能要求。",
-        "why_not_core": "The paper is a dataset description without novel modeling or mechanistic analysis; it primarily reports data rather than advancing new fatigue understanding or prediction methods.",
-        "validation_kind": "mechanical_testing",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "Ti-6Al-4V",
-          "PBF-LB/M",
-          "fatigue",
-          "crack initiation",
-          "data paper"
-        ],
-        "summary_zh": {
-          "motivation": "支持疲劳过程窗口的验证，提供应力消除态Ti-6Al-4V的疲劳数据",
-          "method": "通过175个四点弯曲和轴向疲劳试样测试，结合断口SEM分析",
-          "result": "建立了工艺参数与疲劳寿命及裂纹萌生特征的数据集",
-          "validation": "实验疲劳测试与断口形貌表征"
-        },
-        "summary_en": {
-          "motivation": "To support the development of a fatigue-based process window for stress-relieved Ti-6Al-4V produced by laser powder bed fusion.",
-          "method": "Four-point bend and axial fatigue specimens were fabricated at various scan velocities, tested under load-controlled cyclic loading, and post-mortem SEM analysis identified crack initiation sites and defect morphology.",
-          "result": "A curated dataset of 175 specimens links process parameters to fatigue life and fracture initiation characteristics, including defect type, size, and location.",
-          "validation": "Experimental fatigue testing (R=0.1) and fractographic characterization of 136 fractured specimens."
-        },
-        "key_terms": [
-          {
-            "en": "laser powder bed fusion",
-            "zh": "激光粉末床熔融"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
-          },
-          {
-            "en": "fatigue life",
-            "zh": "疲劳寿命"
-          },
-          {
-            "en": "crack initiation",
-            "zh": "裂纹萌生"
-          },
-          {
-            "en": "four-point bend",
-            "zh": "四点弯曲"
-          },
-          {
-            "en": "axial fatigue",
-            "zh": "轴向疲劳"
-          },
-          {
-            "en": "scan velocity",
-            "zh": "扫描速度"
-          },
-          {
-            "en": "defect morphology",
-            "zh": "缺陷形貌"
-          },
-          {
-            "en": "stress-relieved",
-            "zh": "应力消除态"
-          },
-          {
-            "en": "probabilistic modeling",
-            "zh": "概率建模"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
-    },
-    {
-      "source": "openalex",
       "id": "https://openalex.org/W7151844096",
       "doi": "10.35414/akufemubid.1728462",
       "title": "Investigation of the Effect of Different Cutting Conditions on Machining Performance in Parting Off Operation Applied to Ti6Al4V Alloy on CNC Lathe",
@@ -205,12 +66,12 @@
         ]
       },
       "llm": {
-        "priority": "Medium",
-        "relevance_level": "Transferable",
-        "read_action": "Save for project",
-        "relevance_to_user": "本研究涉及Ti6Al4V合金的切断加工参数对表面粗糙度和刀具磨损的影响，虽未直接测量疲劳性能，但加工表面质量是影响疲劳寿命的关键因素，可为后处理工艺优化提供参考。",
-        "why_not_core": "The paper does not measure fatigue or mechanical performance (e.g., tensile, fatigue life) after the cutting operation; it focuses on surface roughness and tool wear only.",
-        "validation_kind": "mechanical_testing",
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究Ti6Al4V合金车床切断加工中的切削条件对表面粗糙度和刀具磨损的影响，未涉及增材制造Ti-6Al-4V的后处理对力学性能的影响。",
+        "why_not_core": "The paper does not investigate post-processing effects on mechanical performance (fatigue/tensile) of AM Ti-6Al-4V; it only studies machinability parameters on conventional alloy.",
+        "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -219,30 +80,28 @@
         },
         "tags": [
           "Ti6Al4V",
-          "parting off",
           "machining",
+          "parting off",
           "surface roughness",
           "tool wear",
           "chip morphology",
-          "cooling conditions",
-          "cutting speed",
-          "feed rate"
+          "cooling conditions"
         ],
         "summary_zh": {
-          "motivation": "研究Ti6Al4V合金切断加工中不同切削条件对加工性能的影响。",
-          "method": "通过实验改变冷却条件、切削速度和进给量，测量表面粗糙度、刀具磨损和切屑形态。",
-          "result": "冷却液使刀具磨损改善高达90%，进给量增加产生更短更可控的切屑。",
-          "validation": "实际切削实验测量表面粗糙度和刀具磨损验证趋势。"
+          "motivation": "研究Ti6Al4V合金在切断加工中切削条件对加工性能的影响",
+          "method": "通过改变冷却条件、切削速度和进给量进行切断实验，测量表面粗糙度、刀具磨损和切屑形态",
+          "result": "冷却液对刀具磨损改善显著，切削速度增加使表面粗糙度恶化，进给增加导致粗糙度和磨损增大",
+          "validation": "实验验证，无力学性能测试"
         },
         "summary_en": {
-          "motivation": "To investigate the effect of cutting parameters on machining performance during parting off of Ti6Al4V alloy.",
-          "method": "Experimental study varying cooling condition, cutting speed, and feed rate, measuring surface roughness, tool wear, and chip morphology.",
-          "result": "Coolant application improved tool wear by up to 90%, and increased feed resulted in shorter, more controllable chips.",
-          "validation": "Experimental measurements of surface roughness and tool wear under different conditions."
+          "motivation": "To investigate the effects of cutting conditions on machining performance during parting off of Ti6Al4V alloy.",
+          "method": "Experiments with varying cooling conditions, cutting speeds, and feeds were conducted; surface roughness, tool wear, and chip morphology were measured.",
+          "result": "Coolant improved tool wear by up to 90%, higher cutting speed negatively affected surface roughness, and increased feed increased roughness and wear while producing shorter chips.",
+          "validation": "Experimental measurement of machinability indicators without mechanical performance testing."
         },
         "key_terms": [
           {
-            "en": "Ti6Al4V alloy",
+            "en": "Ti6Al4V",
             "zh": "Ti6Al4V合金"
           },
           {
@@ -270,14 +129,154 @@
             "zh": "切削速度"
           },
           {
-            "en": "feed rate",
+            "en": "feed",
             "zh": "进给量"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7152487089",
+      "doi": "10.3390/data11040081",
+      "title": "Dataset on Fatigue Results and Fatigue Fracture Initiation Site Characterization in Stress-Relieved PBF-LB/M Ti-6Al-4V Four-Point Bend and Axial Specimens: Part I (High Power, Variable Scan Velocities)",
+      "abstract": "As part of a NASA University Leadership Initiative (ULI) program, this work supports the continued development and evaluation of a fatigue-based process window for stress-relieved Ti-6Al-4V specimens produced via laser powder bed fusion (PBF-LB/M). Four-point bend and axial fatigue specimens were fabricated by NASA ULI collaborators across a range of scan velocities (800–2000 mm/s) at a constant power of 370 W using an EOS M290 system. All fatigue specimens were low-stress-ground by a commercial vendor and tested at Case Western Reserve University (CWRU) under load-controlled cyclic loading at a stress ratio of R = 0.1. This paper presents a curated dataset linking PBF-LB/M process parameters to fatigue outcomes across 175 specimens. Of these, 136 fractured and this study includes fatigue crack initiation site identification and defect morphology metrics derived from post mortem SEM analysis. Specimens that reached runout (107 cycles) and did not fracture under subsequent fatigue testing are retained in the dataset, with fractographic fields marked as ‘NA’ to indicate non-applicability. The dataset includes specimen metadata, processing parameters, fatigue life data, fatigue initiation site classification (e.g., keyhole, gas-entrapped pore (GeP), lack-of-fusion (LoF), contamination), defect size and shape descriptors, and spatial location relative to the free surface. These data are intended to support defect-based fatigue life prediction, probabilistic modeling, process–structure–property studies, and machine learning frameworks linking process parameters to fatigue performance in PBF-LB/M Ti-6Al-4V.",
+      "authors": [
+        "Brett E. Ley",
+        "Austin Ngo",
+        "John J. Lewandowski"
+      ],
+      "first_author_affiliation": "Department of Materials Science and Engineering, Case Western Reserve University, Cleveland, OH 44106, USA",
+      "corresponding_authors": [
+        {
+          "name": "Brett E. Ley",
+          "affiliation": "Department of Materials Science and Engineering, Case Western Reserve University, Cleveland, OH 44106, USA"
+        },
+        {
+          "name": "John J. Lewandowski",
+          "affiliation": "Department of Materials Science and Engineering, Case Western Reserve University, Cleveland, OH 44106, USA"
+        }
+      ],
+      "venue": "Data",
+      "year": 2026,
+      "date": "2026-04-08",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/data11040081",
+      "cited_by_count": 0,
+      "concepts": [
+        "Fracture (geology)",
+        "Materials science",
+        "Fatigue testing",
+        "Structural engineering",
+        "Stress (linguistics)",
+        "Characterization (materials science)",
+        "Fatigue limit",
+        "Cyclic stress",
+        "Stress concentration",
+        "Work (physics)",
+        "Process (computing)",
+        "Paris' law",
+        "Deformation (meteorology)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "defect",
+          "fatigue",
+          "fatigue life",
+          "fatigue crack initiation"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "本文提供了增材制造Ti-6Al-4V疲劳实验数据和缺陷表征，直接支持L1方向的研究。",
+        "why_not_core": "This paper is a dataset description and does not present new mechanical property analysis or predictive models.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "PBF-LB/M",
+          "Ti-6Al-4V",
+          "fatigue",
+          "dataset",
+          "defect characterization",
+          "four-point bend",
+          "axial fatigue",
+          "scan velocity"
+        ],
+        "summary_zh": {
+          "motivation": "为应力消除PBF-LB/M Ti-6Al-4V提供工艺参数与疲劳性能关联的数据集。",
+          "method": "使用175个试样，改变扫描速度，进行四点和轴向疲劳测试及断口SEM分析。",
+          "result": "得到包含疲劳寿命、裂纹萌生位置和缺陷形态的完整数据集。",
+          "validation": "通过疲劳实验和断口分析验证数据可靠性。"
+        },
+        "summary_en": {
+          "motivation": "To provide a curated dataset linking process parameters to fatigue outcomes for stress-relieved PBF-LB/M Ti-6Al-4V.",
+          "method": "175 specimens fabricated at varying scan velocities (800–2000 mm/s) at constant power, fatigue tested, and characterized via post-mortem SEM.",
+          "result": "The dataset includes fatigue lives, crack initiation sites, and defect morphology metrics for 136 fractured specimens and runout data.",
+          "validation": "Experimental validation via fatigue testing (load-controlled, R=0.1) and fractographic analysis."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
+          },
+          {
+            "en": "defect morphology",
+            "zh": "缺陷形态"
+          },
+          {
+            "en": "crack initiation",
+            "zh": "裂纹萌生"
+          },
+          {
+            "en": "scan velocity",
+            "zh": "扫描速度"
+          },
+          {
+            "en": "stress-relieved",
+            "zh": "应力消除"
+          },
+          {
+            "en": "four-point bend",
+            "zh": "四点弯曲"
+          },
+          {
+            "en": "axial fatigue",
+            "zh": "轴向疲劳"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
     }
   ],
   "counts": {
@@ -288,16 +287,16 @@
     "after_dedup": 2,
     "after_routing": 2,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1,
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
       "openalex": 2
     },
     "scored": 2,
     "priority_counts": {
-      "High": 1,
-      "Medium": 1
+      "Exclude": 1,
+      "High": 1
     }
   }
 }

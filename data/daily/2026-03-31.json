@@ -5,6 +5,145 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W7146958806",
+      "doi": "10.3390/app16073406",
+      "title": "Dry Sliding Adhesion and Wear Behavior of LPBF Ti-6Al-4V ELI (Grade 23): Influence of In-Layer Remelting on Microstructure, Surface Integrity, and Tribolayer Stability",
+      "abstract": "Laser Powder Bed Fusion (LPBF) enables the fabrication of complex titanium alloy components with high geometric freedom; however, surface integrity and tribological performance remain critical limitations for sliding-contact applications in biomedical and aerospace systems. In this study, the influence of in-layer laser remelting on the microstructure, surface topography, and dry sliding tribological behavior of LPBF-fabricated Ti-6Al-4V ELI (Grade 23) is systematically investigated. Disc-shaped specimens were produced using single-scan (SS) and double-scan (DS, in-layer remelting) strategies and tested in ball-on-disc configuration against AISI 52100 steel at a constant normal load of 10 N and three sliding speeds of 0.10, 0.15, and 0.20 m·s−1. Microstructural and phase-related characteristics were analyzed by X-ray diffraction combined with Rietveld refinement and Warren–Averbach analysis, revealing that the DS strategy increases retained β-phase fraction (up to 5.2%) and promotes crystallite coarsening relative to the SS condition, without significantly altering bulk hardness. Surface morphology examined by SEM/EDS and AFM revealed a more homogeneous near-surface topography in the DS condition. Tribological results indicate that sliding speed governs steady-state friction and wear, with specific wear rates increasing progressively from 5.13 to 5.44 × 10−4 mm3·N−1·m−1 for SS and from 6.47 to 7.52 × 10−4 mm3·N−1·m−1 for DS across the investigated speed range. The DS specimens exhibited higher wear rates than the SS condition across all tested speeds, while steady-state COF values remained comparable between strategies, indicating that remelting-induced microstructural modifications affect material removal mechanisms without proportionally destabilizing the frictional regime. These findings suggest that in-layer laser remelting represents a process-integrated parameter with measurable consequences for surface integrity and tribological performance, though the generalizability of these results warrants validation across broader experimental conditions.",
+      "authors": [
+        "Corina Bîrleanu",
+        "Cosmin Cosma",
+        "Răzvan Udroiu",
+        "Florin Popișter",
+        "Nicolae Bâlc",
+        "Horea-Ștefan Goia",
+        "Marius Pustan",
+        "Ramona-Crina Suciu"
+      ],
+      "first_author_affiliation": "MicroNano Systems Laboratory, Mechanical Systems Engineering Department, EUt+—Institute for Nanoscience and Nanotechnology of the European University of Technology (EUTINN), Technical University of Cluj-Napoca, Bvd. Muncii no. 103–105, 400641 Cluj-Napoca, Romania",
+      "corresponding_authors": [
+        {
+          "name": "Florin Popișter",
+          "affiliation": "MicroNano Systems Laboratory, Mechanical Systems Engineering Department, EUt+—Institute for Nanoscience and Nanotechnology of the European University of Technology (EUTINN), Technical University of Cluj-Napoca, Bvd. Muncii no. 103–105, 400641 Cluj-Napoca, Romania"
+        },
+        {
+          "name": "Horea-Ștefan Goia",
+          "affiliation": "MicroNano Systems Laboratory, Mechanical Systems Engineering Department, EUt+—Institute for Nanoscience and Nanotechnology of the European University of Technology (EUTINN), Technical University of Cluj-Napoca, Bvd. Muncii no. 103–105, 400641 Cluj-Napoca, Romania"
+        }
+      ],
+      "venue": "Applied Sciences",
+      "year": 2026,
+      "date": "2026-03-31",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/app16073406",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Tribology",
+        "Composite material",
+        "Homogeneous",
+        "Crystallite",
+        "Titanium alloy",
+        "Alloy",
+        "Metallurgy",
+        "Microstructure",
+        "Adhesion",
+        "Fusion"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti-6Al-4V ELI",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "microstructure"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti-6Al-4V ELI",
+          "surface integrity"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是LPBF过程中层内重熔对摩擦磨损性能的影响，而非后处理对疲劳或力学性能的调控。",
+        "why_not_core": "The paper investigates in-layer remelting as a build parameter, not a post-processing treatment, and focuses on tribological behavior rather than fatigue or tensile mechanical performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "LPBF",
+          "Ti-6Al-4V ELI",
+          "in-layer remelting",
+          "wear",
+          "tribology",
+          "surface integrity"
+        ],
+        "summary_zh": {
+          "motivation": "研究层内重熔对激光粉末床熔融Ti-6Al-4V ELI合金微观结构和干滑动摩擦学行为的影响。",
+          "method": "采用单扫描和双扫描(层内重熔)策略制备样品，进行球盘摩擦试验，并通过XRD、SEM、AFM等表征。",
+          "result": "双扫描策略增加了β相含量和晶粒尺寸，但提高了磨损率，稳态摩擦系数相似。",
+          "validation": "实验验证，通过摩擦磨损测试和微观结构分析。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the influence of in-layer laser remelting on the microstructure and dry sliding tribological behavior of LPBF Ti-6Al-4V ELI.",
+          "method": "Disc specimens were produced with single-scan and double-scan (in-layer remelting) strategies and tested in ball-on-disc configuration under dry sliding conditions.",
+          "result": "The double-scan strategy increased retained β-phase fraction and crystallite coarsening but led to higher wear rates, while steady-state coefficient of friction remained comparable.",
+          "validation": "Experimental validation through wear testing and microstructural analysis."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V ELI",
+            "zh": "Ti-6Al-4V ELI合金"
+          },
+          {
+            "en": "in-layer remelting",
+            "zh": "层内重熔"
+          },
+          {
+            "en": "wear rate",
+            "zh": "磨损率"
+          },
+          {
+            "en": "coefficient of friction",
+            "zh": "摩擦系数"
+          },
+          {
+            "en": "β-phase",
+            "zh": "β相"
+          },
+          {
+            "en": "surface integrity",
+            "zh": "表面完整性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W7147508691",
       "doi": "10.1016/j.jmrt.2026.03.278",
       "title": "Strength-ductility synergy mechanism in dual-titanium heterogeneous structures fabricated by multi-material laser powder bed fusion and tailored heat treatments",
@@ -65,6 +204,10 @@
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "Ti64",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
           "tensile strength",
           "ultimate tensile strength",
           "elongation",
@@ -78,11 +221,11 @@
         ]
       },
       "llm": {
-        "priority": "High",
-        "relevance_level": "Direct",
-        "read_action": "Read now",
-        "relevance_to_user": "本研究涉及Ti-6Al-4V的后热处理，并提供了力学性能数据，对后处理控制方向有直接参考价值。",
-        "why_not_core": "The paper does not isolate the post-processing effect on pure Ti-6Al-4V; it studies a dual-material system without fatigue testing.",
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Skim only",
+        "relevance_to_user": "本文研究了Ti-6Al-4V与Ti55511双钛合金异质结构在热处理后的力学性能，虽涉及后处理但对单一Ti-6Al-4V的后处理效果不是核心焦点。",
+        "why_not_core": "The paper focuses on a dual-material heterogeneous structure rather than a dedicated study of post-processing effects on monolithic Ti-6Al-4V, and the heat treatment is tailored to the multi-material system.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -91,90 +234,220 @@
           "is_review": false
         },
         "tags": [
-          "multi-material",
-          "laser powder bed fusion",
-          "heat treatment",
+          "multi-material LPBF",
           "Ti-6Al-4V",
           "Ti55511",
-          "strength-ductility synergy",
-          "heterogeneous structure"
+          "heat treatment",
+          "strength-ductility",
+          "heterogeneous structure",
+          "solution-quench-age",
+          "interfacial transition",
+          "HDI strengthening"
         ],
         "summary_zh": {
-          "motivation": "为克服增材制造多材料钛合金的强度-塑性矛盾，设计异质结构。",
-          "method": "通过多材料激光粉末床熔融制备Ti64/Ti55511双钛合金，并实施固溶-淬火-时效热处理。",
-          "result": "热处理后抗拉强度达1143.7 MPa，延伸率11.26%，强度-塑性协同提升。",
-          "validation": "通过拉伸测试和卸载-再加载滞回环验证异质变形诱导强化。"
+          "motivation": "克服多材料钛合金的强度-塑性权衡困境",
+          "method": "采用多材料激光粉末床熔融制备Ti64/Ti55511异质结构，并设计兼容的固溶-淬火-时效处理",
+          "result": "抗拉强度1143.7 MPa，延伸率11.26%，强度-塑性协同源于成分与微观结构梯度界面带",
+          "validation": "通过准静态拉伸及加卸载滞后环表征变形行为与背应力演化"
         },
         "summary_en": {
-          "motivation": "To overcome the strength-ductility trade-off in additively manufactured multi-material titanium systems, a heterogeneous structure was designed.",
-          "method": "A dual-titanium architecture of Ti64 and Ti55511 was fabricated by multi-material laser powder bed fusion and subsequently subjected to a solution-quench-aging heat treatment.",
-          "result": "The heat-treated structure achieved an ultimate tensile strength of 1143.7 MPa and elongation of 11.26%, demonstrating strength-ductility synergy.",
-          "validation": "The strengthening mechanism was validated via tensile tests and unloading-reloading hysteresis loops that quantified back stress evolution."
+          "motivation": "To overcome the strength-ductility trade-off in additively manufactured multi-material titanium systems by designing a compatible post-processing strategy.",
+          "method": "A dual-titanium architecture combining Ti64 and Ti55511 was fabricated via multi-material laser powder bed fusion and subsequently heat-treated using a novel solution-quench-age process.",
+          "result": "The heat-treated structure achieved an ultimate tensile strength of 1143.7 MPa and elongation of 11.26%, attributing the synergy to a ~200 μm continuous interfacial transition band with compositional and microstructural gradients.",
+          "validation": "Mechanical testing under quasi-static room-temperature conditions, including unloading-reloading hysteresis loops, confirmed hetero-deformation induced strengthening and the accumulation of geometrically necessary dislocations."
         },
         "key_terms": [
           {
-            "en": "laser powder bed fusion",
-            "zh": "激光粉末床熔融"
+            "en": "multi-material laser powder bed fusion",
+            "zh": "多材料激光粉末床熔融"
           },
           {
-            "en": "multi-material",
-            "zh": "多材料"
+            "en": "dual-titanium heterogeneous structure",
+            "zh": "双钛异质结构"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "en": "solution-quench-age treatment",
+            "zh": "固溶-淬火-时效处理"
           },
           {
-            "en": "Ti55511",
-            "zh": "Ti55511合金"
-          },
-          {
-            "en": "heat treatment",
-            "zh": "热处理"
-          },
-          {
-            "en": "solution-quench-age",
-            "zh": "固溶-淬火-时效"
+            "en": "interfacial transition band",
+            "zh": "界面过渡带"
           },
           {
             "en": "strength-ductility synergy",
             "zh": "强度-塑性协同"
           },
           {
-            "en": "heterogeneous structure",
-            "zh": "异质结构"
-          },
-          {
-            "en": "back stress",
-            "zh": "背应力"
+            "en": "hetero-deformation induced (HDI) strengthening",
+            "zh": "异质变形诱导强化"
           },
           {
             "en": "geometrically necessary dislocations",
-            "zh": "几何必需位错"
+            "zh": "几何必要位错"
+          },
+          {
+            "en": "Ti-6Al-4V (Ti64)",
+            "zh": "Ti-6Al-4V (Ti64)"
+          },
+          {
+            "en": "Ti-5Al-5Mo-5V-1Cr-1Fe (Ti55511)",
+            "zh": "Ti-5Al-5Mo-5V-1Cr-1Fe (Ti55511)"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7147048234",
+      "doi": "10.31354/globalce.v8i1.413",
+      "title": "Adhesion Characteristics of HAp Functional Coatings onto 3D-Printed Ti-6Al-4V and PEEK IPCs for Enhanced Bioactivity",
+      "abstract": "The current study probes the growth and characterization of composite hydroxyapatite (HAp) coatings on titanium alloy (Ti-6Al-4V, Grade 5 titanium) + polyetheretherketone (PEEK) substrates by a biomimetic deposition technique. HAp coatings were deposited on three titanium-based substrates: solid Ti-6Al-4V, three-dimensional printed porous Ti-6Al-4V, and interpenetrating composites (IPCs) Ti-6Al-4V + PEEK utilizing 10× concentrated simulated body fluid (SBF) buffered in tris(hydroxymethyl)aminomethane (TRIS or tromethamine) solution at physiological temperature (37 ℃). Analysis of adhesion strength was carried out for assessing the mechanical bonding behavior of HAp coating with various substrate configurations. Surface analysis methods, such as scanning electron microscopy and energy dispersive spectrometry, established the growth of crystalline HAp with morphology similar to bone with all substrates. The findings proved that porous Ti-6Al-4V substrates had better adhesion strength through increased mechanical interlocking, and composite Ti-6Al-4V + PEEK substrates had a better stress distribution and a lower interface mismatch. The values of adhesion strength were from 16.6 ± 2.0 megapascal (MPa) for non-treated coatings to 30.0 ± 2.0 MPa for optimized composite coatings, greatly surpassing the minimum clinical requirements of ≥ 10 MPa. The displaced biomimetic HAp coatings enhanced wettability, better corrosion resistance, and increased apatite formation in SBF, relative to uncoated substrates. These results indicate that composite HAp coatings on Ti-6Al-4V + PEEK IPCs are a potential method for fabricating superior bioactive implant surfaces with outstanding mechanical and biological performance for orthopedic and dental applications.",
+      "authors": [
+        "Sahil Mehta",
+        "Abhineet Saini"
+      ],
+      "first_author_affiliation": "Chitkara University Research and Innovation Network, Chitkara University, Rajpura, Punjab, India",
+      "corresponding_authors": [
+        {
+          "name": "Sahil Mehta",
+          "affiliation": "Chitkara University Research and Innovation Network, Chitkara University, Rajpura, Punjab, India"
+        }
+      ],
+      "venue": "Global Clinical Engineering Journal",
+      "year": 2026,
+      "date": "2026-03-31",
+      "date_precision": "day",
+      "url": "https://doi.org/10.31354/globalce.v8i1.413",
+      "cited_by_count": 0,
+      "concepts": [
+        "Peek",
+        "Materials science",
+        "Composite number",
+        "Adhesion",
+        "Composite material",
+        "Scanning electron microscope",
+        "Coating",
+        "Simulated body fluid",
+        "Porosity",
+        "Titanium",
+        "Apatite",
+        "Corrosion",
+        "Titanium alloy",
+        "Substrate (aquarium)",
+        "Biomaterial",
+        "Deposition (geology)",
+        "Surface energy",
+        "Surface modification"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "grade 5 titanium",
+          "3D printed"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及3D打印Ti-6Al-4V的涂层粘附力，但未研究其自身力学或疲劳性能。",
+        "why_not_core": "The paper does not characterize the mechanical or fatigue properties of additively manufactured Ti-6Al-4V; instead it focuses on coating adhesion for bioactivity.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "HAp coating",
+          "3D-printed",
+          "adhesion",
+          "bioactivity"
+        ],
+        "summary_zh": {
+          "motivation": "评估3D打印Ti-6Al-4V及PEEK复合材料上HAp涂层的粘附性能",
+          "method": "采用仿生沉积法在SBF中制备HAp涂层，并进行粘附强度测试",
+          "result": "复合基底涂层粘附强度达30 MPa，优于临床要求",
+          "validation": "通过粘附强度测试及SEM/EDS表征验证"
+        },
+        "summary_en": {
+          "motivation": "To evaluate the adhesion strength of hydroxyapatite coatings on additively manufactured Ti-6Al-4V and PEEK composite substrates for biomedical implants.",
+          "method": "HAp coatings were deposited via a biomimetic method using 10× concentrated simulated body fluid, and adhesion strength was measured.",
+          "result": "Composite Ti-6Al-4V+PEEK substrates achieved adhesion strengths up to 30.0 ± 2.0 MPa, exceeding clinical requirements.",
+          "validation": "Validation was performed through adhesion strength testing and surface characterization (SEM/EDS)."
+        },
+        "key_terms": [
+          {
+            "en": "hydroxyapatite (HAp)",
+            "zh": "羟基磷灰石"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
+          },
+          {
+            "en": "PEEK",
+            "zh": "聚醚醚酮"
+          },
+          {
+            "en": "adhesion strength",
+            "zh": "粘附强度"
+          },
+          {
+            "en": "simulated body fluid (SBF)",
+            "zh": "模拟体液"
+          },
+          {
+            "en": "biomimetic coating",
+            "zh": "仿生涂层"
+          },
+          {
+            "en": "3D-printed porous",
+            "zh": "3D打印多孔"
+          },
+          {
+            "en": "interpenetrating composite",
+            "zh": "互穿复合材料"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
-      "High": 1
+      "Exclude": 1,
+      "Medium": 1,
+      "Low": 1
     }
   }
 }

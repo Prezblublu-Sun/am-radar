@@ -52,32 +52,38 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_postprocess",
-        "ti6al4v_base_mechanical_fatigue"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "EBM",
+          "LPBF",
+          "build direction",
+          "mechanical anisotropy"
+        ],
         "ti6al4v_postprocess": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "Ti64",
           "hot isostatic pressing",
           "post-processing"
-        ],
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "Ti64",
-          "mechanical anisotropy"
         ]
       },
       "llm": {
-        "priority": "Medium",
+        "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该综述论文涉及Ti-6Al-4V的后处理方法，但以织构和相变为主，缺乏专一的后处理实验数据。",
-        "why_not_core": "The paper is a broad review covering multiple alloys and does not provide new experimental data on post-processing effects specifically for Ti-6Al-4V; post-processing is only briefly discussed as a potential strategy.",
+        "relevance_to_user": "该综述涉及Ti-6Al-4V的后处理策略，但主要关注织构和相变，而非疲劳/力学性能的量化影响。",
+        "why_not_core": "This is a broad review of texture and phase transformation in multiple titanium alloys, and does not focus on quantifying the effect of post-processing treatments on fatigue or mechanical performance of Ti-6Al-4V specifically.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
@@ -86,36 +92,27 @@
           "is_review": true
         },
         "tags": [
-          "review",
+          "Ti-6Al-4V",
           "crystallographic texture",
           "phase transformation",
-          "Ti-6Al-4V",
           "powder bed fusion",
           "post-processing",
-          "heat treatment",
-          "hot isostatic pressing"
+          "review",
+          "mechanical anisotropy"
         ],
         "summary_zh": {
-          "motivation": "总结钛合金增材制造中的织构与相变控制方法。",
-          "method": "系统综述粉末床熔融工艺对晶粒生长、马氏体形成及后处理的影响。",
-          "result": "后处理如热处理和热等静压可调控织构和相平衡。",
-          "validation": "文献综述，无新实验验证。"
+          "motivation": "总结粉末床熔融钛合金中热条件对织构和相变的影响。",
+          "method": "系统综述LPBF和EBPBF工艺下织构演变、马氏体形成和α/β分布。",
+          "result": "AM诱导织构与力学各向异性相关，后处理可改变晶粒结构和稳定相平衡。",
+          "validation": "无实验验证，为文献综述。"
         },
         "summary_en": {
-          "motivation": "To synthesize current understanding of crystallographic texture and phase evolution in additively manufactured titanium alloys.",
-          "method": "A comprehensive review of powder bed fusion processes, focusing on thermal gradients, grain morphology, and solid-state transformations, with discussion of post-processing strategies.",
-          "result": "Post-processing treatments like heat treatment and hot isostatic pressing show potential to modify grain structure and reduce texture intensity.",
-          "validation": "Review of existing literature without new experimental data."
+          "motivation": "This review synthesizes understanding of how steep thermal gradients and rapid solidification in powder bed fusion influence crystallographic texture and phase evolution in titanium alloys.",
+          "method": "It critically examines processing variables, epitaxial β-grain growth, α′ martensite formation, and α/β distributions across LPBF and EBPBF processes for alloys like Ti-6Al-4V.",
+          "result": "AM-induced textures are consistently linked to mechanical anisotropy, and post-processing strategies such as heat treatments and hot isostatic pressing can modify grain structure and stabilize phase balances.",
+          "validation": "No experimental validation; this is a literature review without new data."
         },
         "key_terms": [
-          {
-            "en": "powder bed fusion",
-            "zh": "粉末床熔融"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
-          },
           {
             "en": "crystallographic texture",
             "zh": "晶体织构"
@@ -125,43 +122,312 @@
             "zh": "相变"
           },
           {
-            "en": "post-processing",
-            "zh": "后处理"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "heat treatment",
-            "zh": "热处理"
+            "en": "electron beam powder bed fusion",
+            "zh": "电子束粉末床熔融"
           },
           {
-            "en": "hot isostatic pressing",
-            "zh": "热等静压"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "martensite formation",
+            "zh": "马氏体形成"
           },
           {
             "en": "mechanical anisotropy",
             "zh": "力学各向异性"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          },
+          {
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7117292149",
+      "doi": "10.1371/journal.pone.0339618",
+      "title": "Biocompatibility and antimicrobial efficacy of iodine-supported titania nanotubes on 3D-printed Ti-6Al-4V implants",
+      "abstract": "Implant-associated infections (IAI) are a significant concern within the field of orthopedics. To develop an implant with antimicrobial properties, titania nanotubes (TNTs) supported with iodine were synthesized on 3D-printed Ti-6Al-4V implants using the electrochemical anodization (ECA) technique. This study aims to analyze the release profile of iodine and the antimicrobial efficacy and cytotoxicity of the iodine-supported TNT (I-TNTs) on the 3D-printed Ti-6Al-4V implant. 3D-printed Ti-6Al-4V samples were doped with six different iodine formulations, including four test groups containing TNT and two control groups without TNT. As printed 3D Ti-6Al-4V samples and TNTs samples without iodine were also utilized as control groups. In vitro assays were performed to assess the drug elution, cytotoxicity, and antimicrobial efficacy. All tested I-TNTs samples exhibited sustained iodine release over 28 days without an initial burst. Notably, the amount of iodine released from I-TNTs was significantly higher compared to the control group. TNTs with a higher aspect ratio (AR) and the ECA process using higher potassium iodide (KI) concentration were found to have better cumulative iodine release profiles. No cytotoxicity was observed when tested against the mouse calvaria-derived preosteoblast cell line (MC3T3-E1). The antibacterial property of the implant surface became evident within 24 hours, with complete inhibition of S. aureus and MRSA in I-TNTs samples. This innovative approach is an intriguing alternative for preventing infections on 3D-printed Ti-6Al-4V implants.",
+      "authors": [
+        "Pariwat Taweekitikul",
+        "Abdul Azeez Abdu Aliyu",
+        "Nanthawan Jinakul",
+        "Amaraporn Wongrakpanich",
+        "Chedtha Puncreobutr",
+        "Jirapon Khamwannah",
+        "Boonrat Lohwongwatana",
+        "Saran Tantavisut"
+      ],
+      "first_author_affiliation": "Biomedical Engineering Program, Faculty of Engineering, Chulalongkorn University, Bangkok, Thailand",
+      "corresponding_authors": [
+        {
+          "name": "Pariwat Taweekitikul",
+          "affiliation": "Biomedical Engineering Program, Faculty of Engineering, Chulalongkorn University, Bangkok, Thailand"
+        }
+      ],
+      "venue": "PLoS ONE",
+      "year": 2025,
+      "date": "2025-12-26",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1371/journal.pone.0339618",
+      "cited_by_count": 0,
+      "concepts": [
+        "Iodine",
+        "Antimicrobial",
+        "Biocompatibility",
+        "Cytotoxicity",
+        "Anodizing",
+        "Chemistry",
+        "Nuclear chemistry",
+        "Implant",
+        "Iodide",
+        "Biomedical engineering",
+        "Nanotechnology",
+        "Materials science",
+        "In vitro",
+        "Staphylococcus aureus"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "3D printed"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及3D打印Ti-6Al-4V，但核心是表面改性及抗菌性能，未涉及任何力学或疲劳性能，与L1方向无关。",
+        "why_not_core": "This paper does not report any mechanical or fatigue data; it focuses on surface modification and antimicrobial/cytocompatibility properties only.",
+        "validation_kind": "in_vitro",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "3D-printed",
+          "titania nanotubes",
+          "iodine",
+          "antimicrobial",
+          "electrochemical anodization"
+        ],
+        "summary_zh": {
+          "motivation": "开发具有抗菌性能的3D打印Ti-6Al-4V植入物",
+          "method": "在3D打印Ti-6Al-4V上电化学阳极氧化合成碘负载二氧化钛纳米管",
+          "result": "碘负载纳米管显示持续释放碘并完全抑制细菌，无细胞毒性",
+          "validation": "体外药物释放、细胞毒性和抗菌实验"
+        },
+        "summary_en": {
+          "motivation": "To develop antimicrobial implants using surface modification on 3D-printed Ti-6Al-4V.",
+          "method": "Iodine-supported titania nanotubes were synthesized on 3D-printed Ti-6Al-4V via electrochemical anodization.",
+          "result": "Sustained iodine release and complete inhibition of S. aureus and MRSA without cytotoxicity were observed.",
+          "validation": "In vitro drug elution, cytotoxicity, and antimicrobial assays were performed."
+        },
+        "key_terms": [
+          {
+            "en": "3D-printed Ti-6Al-4V",
+            "zh": "3D打印Ti-6Al-4V"
+          },
+          {
+            "en": "iodine-supported titania nanotubes",
+            "zh": "碘负载二氧化钛纳米管"
+          },
+          {
+            "en": "electrochemical anodization",
+            "zh": "电化学阳极氧化"
+          },
+          {
+            "en": "antimicrobial efficacy",
+            "zh": "抗菌效果"
+          },
+          {
+            "en": "cytotoxicity",
+            "zh": "细胞毒性"
+          },
+          {
+            "en": "implant-associated infections",
+            "zh": "植入物相关感染"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7117299623",
+      "doi": "10.1016/j.knosys.2025.115212",
+      "title": "Knowledge-infused probabilistic modelling for decision support in metal additive manufacturing",
+      "abstract": "• Hybrid Bayesian framework improves fatigue predictions by 28-42% over conventional methods • Physics-based yield strength correction accounts for AM process variability • Quantifies both material (aleatoric) and model (epistemic) uncertainty sources • Validated across four major AM alloys with 10,501 experimental data points This study presents a probabilistic framework for fatigue life prediction in additively manufactured (AM) metals by integrating Bayesian neural networks with a novel physics-informed yield strength correction. The framework analyses 10,501 fatigue data points across Ti-6Al-4V, AlSi10Mg, 316L, and IN718 alloys under varying loading conditions (from R = 0.0 to R = − 1 ), addressing critical limitations of conventional deterministic methods. The yield strength correction accounts for process-induced material variations, while the Bayesian approach quantifies both aleatoric (material variability) and epistemic (model uncertainty) uncertainty components. Results demonstrate significant improvements over conventional predictions, with fatigue strength corrections up to 7 × at 2 million cycles. The hybrid methodology reduces prediction errors by 28-42% while providing statistically rigorous confidence bounds that capture 92% of experimental data within 95% prediction intervals. This integrated approach enables more reliable AM component design through its combination of physical interpretability and comprehensive uncertainty quantification, offering particular value for safety-critical applications where traditional methods prove overly conservative.",
+      "authors": [
+        "Halid Can Yıldırım"
+      ],
+      "first_author_affiliation": "Department of Civil and Architectural Engineering, Aarhus University, Aarhus, 8000, Denmark",
+      "corresponding_authors": [
+        {
+          "name": "Halid Can Yıldırım",
+          "affiliation": "Department of Civil and Architectural Engineering, Aarhus University, Aarhus, 8000, Denmark"
+        }
+      ],
+      "venue": "Knowledge-Based Systems",
+      "year": 2025,
+      "date": "2025-12-26",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.knosys.2025.115212",
+      "cited_by_count": 1,
+      "concepts": [
+        "Interpretability",
+        "Probabilistic logic",
+        "Bayesian probability",
+        "Uncertainty quantification",
+        "Computer science",
+        "Process (computing)",
+        "Artificial neural network",
+        "Component (thermodynamics)",
+        "Yield (engineering)",
+        "Data mining",
+        "Machine learning",
+        "Reliability engineering",
+        "Bayesian inference",
+        "Experimental data",
+        "Prediction interval",
+        "Reliability (semiconductor)",
+        "Decision support system"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "yield strength",
+          "fatigue",
+          "fatigue life",
+          "fatigue strength"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文提出的概率疲劳寿命预测框架涵盖了Ti-6Al-4V合金，但主要贡献在于通用方法而非专用特性，对L1方向具有参考价值。",
+        "why_not_core": "Not exclusively Ti-6Al-4V; includes data from four alloys, and the main contribution is a general probabilistic framework rather than a dedicated Ti-6Al-4V mechanical characterization.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": true,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Bayesian neural network",
+          "fatigue life prediction",
+          "probabilistic modelling",
+          "additive manufacturing",
+          "Ti-6Al-4V"
+        ],
+        "summary_zh": {
+          "motivation": "克服传统确定性疲劳预测方法的局限性，提高增材制造金属疲劳寿命预测的准确性。",
+          "method": "提出融合贝叶斯神经网络与物理修正屈服强度的混合概率框架，分析10,501个疲劳数据点。",
+          "result": "预测误差降低28-42%，置信区间覆盖92%的实验数据，疲劳强度修正可达7倍。",
+          "validation": "基于Ti-6Al-4V、AlSi10Mg等四种合金的实验数据进行验证。"
+        },
+        "summary_en": {
+          "motivation": "To overcome the limitations of deterministic fatigue prediction methods in additive manufacturing by providing probabilistic predictions with uncertainty quantification.",
+          "method": "A hybrid Bayesian neural network framework integrating a physics-informed yield strength correction is developed and validated on 10,501 fatigue data points from four AM alloys.",
+          "result": "The framework reduces prediction errors by 28-42% and captures 92% of experimental data within 95% prediction intervals, yielding fatigue strength corrections up to 7× at 2 million cycles.",
+          "validation": "The model is validated using experimental fatigue data from Ti-6Al-4V, AlSi10Mg, 316L, and IN718 alloys under various loading conditions."
+        },
+        "key_terms": [
+          {
+            "en": "Bayesian neural network",
+            "zh": "贝叶斯神经网络"
+          },
+          {
+            "en": "fatigue life prediction",
+            "zh": "疲劳寿命预测"
+          },
+          {
+            "en": "probabilistic modelling",
+            "zh": "概率建模"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "yield strength correction",
+            "zh": "屈服强度修正"
+          },
+          {
+            "en": "uncertainty quantification",
+            "zh": "不确定性量化"
+          },
+          {
+            "en": "AlSi10Mg",
+            "zh": "AlSi10Mg铝合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
+      "Low": 1,
+      "Exclude": 1,
       "Medium": 1
     }
   }

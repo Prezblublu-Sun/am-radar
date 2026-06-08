@@ -67,6 +67,8 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "microstructure",
           "tensile strength",
           "ultimate tensile strength",
           "elongation",
@@ -82,8 +84,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究Ti-6Al-4V的HIP后处理，涵盖微观结构、密度和拉伸性能，与方向高度相关。",
-        "why_not_core": "It does not include fatigue testing, which is a key aspect for L2 post-processing evaluation.",
+        "relevance_to_user": "该论文直接研究了Ti-6Al-4V合金经热等静压（HIP）后处理后的显微组织和拉伸性能，与后处理调控力学性能的研究方向高度吻合。",
+        "why_not_core": "No fatigue testing; only quasi-static tensile data, not the fatigue or long-term mechanical performance emphasized by the direction.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -94,87 +96,197 @@
         "tags": [
           "Ti-6Al-4V",
           "hot isostatic pressing",
-          "piston-based material extrusion",
+          "material extrusion",
           "microstructure",
-          "mechanical properties",
+          "tensile properties",
           "density"
         ],
         "summary_zh": {
-          "motivation": "探索热等静压（HIP）作为Ti-6Al-4V活塞挤出成形件的后处理工艺",
-          "method": "采用标准和高纯度HIP条件对烧结件进行致密化和组织调控",
-          "result": "HIP将密度提升至99%以上，抗拉强度略有提高而延伸率轻微下降",
-          "validation": "通过拉伸试验和密度测量验证力学性能和组织变化"
+          "motivation": "探究不同热等静压条件对挤出成型Ti-6Al-4V微观结构和力学性能的影响。",
+          "method": "通过活塞挤出成型制备生坯，随后进行标准和高纯热等静压处理，分析微观组织并测试拉伸性能。",
+          "result": "热等静压将密度从97.2%提升至98.9-99.3%，屈服和抗拉强度增加，延伸率略有下降；高纯工艺避免α层形成。",
+          "validation": "通过拉伸实验和密度测量验证力学性能与致密化效果。"
         },
         "summary_en": {
-          "motivation": "To investigate hot isostatic pressing (HIP) as a post-processing route to densify and tailor the microstructure and mechanical properties of Ti-6Al-4V produced by piston-based material extrusion.",
-          "method": "Standard and high-purity HIP (Quintus Purus) conditions were applied to sintered green parts, followed by characterization of microstructure, density, and tensile properties.",
-          "result": "HIP increased density from 97.2% to 98.9–99.3%, transformed the microstructure to a bimodal state, and slightly improved yield and ultimate tensile strength at a minimal reduction in elongation.",
-          "validation": "Validation was performed via density measurements (Archimedes method) and tensile testing according to ASTM standards."
+          "motivation": "To investigate how different hot isostatic pressing conditions tailor the microstructure and mechanical properties of Ti-6Al-4V produced by piston-based material extrusion.",
+          "method": "Green parts were fabricated by piston-based material extrusion and subjected to standard and high-purity hot isostatic pressing, followed by microstructural characterization and tensile testing.",
+          "result": "Hot isostatic pressing increased density from 97.2% to 98.9–99.3%, improved yield and ultimate tensile strength with a slight reduction in elongation, and the high-purity variant prevented α-case formation.",
+          "validation": "Mechanical performance and densification were validated through tensile tests and density measurements."
         },
         "key_terms": [
+          {
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
+          },
           {
             "en": "Ti-6Al-4V",
             "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "hot isostatic pressing (HIP)",
-            "zh": "热等静压"
-          },
-          {
-            "en": "piston-based material extrusion (PEX)",
-            "zh": "活塞式材料挤出成形"
+            "en": "piston-based material extrusion",
+            "zh": "活塞挤出成型"
           },
           {
             "en": "microstructure",
             "zh": "微观组织"
           },
           {
-            "en": "mechanical properties",
-            "zh": "力学性能"
+            "en": "tensile properties",
+            "zh": "拉伸性能"
           },
           {
             "en": "density",
             "zh": "密度"
           },
           {
-            "en": "tensile strength",
-            "zh": "抗拉强度"
-          },
-          {
-            "en": "elongation",
-            "zh": "延伸率"
-          },
-          {
-            "en": "α-case",
+            "en": "alpha-case",
             "zh": "α层"
-          },
-          {
-            "en": "sintering",
-            "zh": "烧结"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7162392393",
+      "doi": "10.3390/ma19112256",
+      "title": "Effect of Sandblasting Pressure Combined with Acid Pickling on the Microstructure and Surface Properties of Ti-6Al-4V Alloy",
+      "abstract": "Titanium alloys are widely used in aerospace, marine engineering, and biomedical fields owing to their excellent specific strength, corrosion resistance, and biocompatibility. As an important surface modification technique, sandblasting combined with acid pickling can not only eliminate the machining defects in Ti-6Al-4V but also improve its surface morphology, thereby playing a crucial role in enhancing its service performance. By employing advanced characterization equipment, including scanning electron microscopy (SEM), energy-dispersive X-ray spectroscopy (EDS), a 3D profilometer, and a friction and wear tester, combined with wetting theoretical models and morphological evolution analysis, this study systematically investigated the comprehensive effects of different pressure sandblasting followed by acid pickling on the surface microstructure, wetting behavior, and tribological properties of forged Ti-6Al-4V alloy. The results indicated that the combined application of sandblasting and acid pickling exerted a significant regulatory effect on the surface and interface characteristics of the Ti-6Al-4V alloy. After the combined sandblasting and acid pickling treatment, a distinct micro-pit network structure was formed on the surface of the Ti-6Al-4V alloy, and its hydrophilicity and roughness showed a positive correlation with the increase in sandblasting pressure. Notably, the microstructural evolution exhibited a high degree of internal consistency with the macroscopic wear resistance: the hierarchical micro-pit network exposed after acid pickling exerted an excellent “debris capture” effect, thereby suppressing the severe third-body abrasive wear observed in the solely sandblasted state. This study aims to enhance the surface roughness, wear resistance, and hydrophilicity of the Ti-6Al-4V alloy, providing a cost-effective and industrially applicable method for the surface texturing of titanium alloys.",
+      "authors": [
+        "Yu Xie",
+        "Lei Li"
+      ],
+      "first_author_affiliation": "School of Science, Inner Mongolia University of Technology, Aimin Sub-District, Xincheng District, Hohhot 010051, China",
+      "corresponding_authors": [
+        {
+          "name": "Yu Xie",
+          "affiliation": "School of Science, Inner Mongolia University of Technology, Aimin Sub-District, Xincheng District, Hohhot 010051, China"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2026,
+      "date": "2026-05-26",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma19112256",
+      "cited_by_count": 0,
+      "concepts": [
+        "Pickling",
+        "Materials science",
+        "Wetting",
+        "Surface roughness",
+        "Abrasive",
+        "Microstructure",
+        "Metallurgy",
+        "Alloy",
+        "Tribology",
+        "Scanning electron microscope",
+        "Contact angle",
+        "Composite material",
+        "Surface finish",
+        "Titanium",
+        "Machining",
+        "Titanium alloy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究锻造Ti-6Al-4V的喷砂和酸洗表面处理，不涉及增材制造疲劳性能，与用户方向无关。",
+        "why_not_core": "This paper studies forged Ti-6Al-4V, not additive-manufactured Ti-6Al-4V, and does not evaluate fatigue or tensile mechanical performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "sandblasting",
+          "acid pickling",
+          "Ti-6Al-4V",
+          "surface treatment",
+          "wear resistance"
+        ],
+        "summary_zh": {
+          "motivation": "研究喷砂压力与酸洗结合对锻造Ti-6Al-4V表面微观结构和性能的影响。",
+          "method": "采用SEM、EDS、3D轮廓仪和摩擦磨损试验机等表征手段。",
+          "result": "形成了微坑网络结构，亲水性和粗糙度与喷砂压力正相关，耐磨性提高。",
+          "validation": "摩擦磨损实验验证表面处理效果。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the combined effect of sandblasting pressure and acid pickling on the microstructure and surface properties of forged Ti-6Al-4V alloy.",
+          "method": "Surface characterization using SEM, EDS, 3D profilometry, and wear testing combined with wetting models.",
+          "result": "A micro-pit network structure was formed, and hydrophilicity, roughness, and wear resistance improved with increasing sandblasting pressure.",
+          "validation": "Mechanical wear tests confirmed the improved tribological performance."
+        },
+        "key_terms": [
+          {
+            "en": "sandblasting",
+            "zh": "喷砂"
+          },
+          {
+            "en": "acid pickling",
+            "zh": "酸洗"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "surface texturing",
+            "zh": "表面织构"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:54:38Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "High": 1
+      "High": 1,
+      "Low": 1
     }
   }
 }

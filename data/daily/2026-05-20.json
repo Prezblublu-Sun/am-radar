@@ -66,8 +66,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "本文研究的是Ti6Al4V的微铣削工艺优化，而非增材制造Ti-6Al-4V的力学或疲劳性能，与用户方向不相关。",
-        "why_not_core": "This paper focuses on micro-milling process optimization for Ti6Al4V microgrooves, not on the mechanical or fatigue performance of additively manufactured Ti-6Al-4V.",
+        "relevance_to_user": "该论文研究的是钛合金Ti6Al4V的微铣削加工，而非增材制造，与方向无关。",
+        "why_not_core": "The paper focuses on conventional subtractive micro-milling of Ti6Al4V for microgrooves, not on additive manufacturing (LPBF/SLM/EBM/DED) of Ti-6Al-4V and thus falls outside the scope of this direction.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -80,19 +80,20 @@
           "Ti6Al4V",
           "burr formation",
           "surface roughness",
-          "multi-objective optimization"
+          "process optimization",
+          "NSGA-II"
         ],
         "summary_zh": {
-          "motivation": "获得高质量Ti6Al4V微沟槽，减少毛刺和表面粗糙度。",
-          "method": "通过单因素实验、正交实验和NSGA-II多目标优化确定最佳切削参数。",
-          "result": "实现了最小化表面粗糙度和毛刺形成的最优切削参数，并加工出了高质量复杂微沟槽。",
-          "validation": "通过实验验证了优化参数的有效性。"
+          "motivation": "微铣削钛合金Ti6Al4V微槽时毛刺和表面粗糙度难以控制，需优化工艺参数。",
+          "method": "通过单因素实验、正交实验、直观分析、极差分析、回归分析和NSGA-II多目标优化确定最优切削参数。",
+          "result": "得到了最小化毛刺宽度和表面粗糙度的最优切削参数，并成功加工出高质量复杂微槽。",
+          "validation": "通过切削实验验证了最优参数的有效性。"
         },
         "summary_en": {
-          "motivation": "To achieve high-quality microgrooves in titanium alloy Ti6Al4V by minimizing burr formation and surface roughness during micro-milling.",
-          "method": "A systematic experimental design combining single-factor experiments, orthogonal experiments, and NSGA-II multi-objective optimization was employed to determine optimal cutting parameters.",
-          "result": "Optimal cutting parameters that minimize both burr width and surface roughness were identified, enabling the fabrication of high-quality complex microgrooves.",
-          "validation": "Experimental validation confirmed the effectiveness of the optimized parameters in achieving the desired microgroove quality."
+          "motivation": "High-quality microgrooves in micro-milling Ti6Al4V are challenging due to burr formation and surface roughness dependence on cutting parameters.",
+          "method": "Systematic experimental design combining single-factor and orthogonal experiments with intuitive analysis, range analysis, regression analysis, and NSGA-II multi-objective optimization to determine optimal cutting parameters.",
+          "result": "Optimal cutting parameters minimizing both burr width and surface roughness were identified, enabling fabrication of high-quality complex microgrooves.",
+          "validation": "Experimental verification of optimal parameters through actual micro-milling of Ti6Al4V microgrooves."
         },
         "key_terms": [
           {
@@ -112,30 +113,26 @@
             "zh": "表面粗糙度"
           },
           {
-            "en": "multi-objective optimization",
-            "zh": "多目标优化"
+            "en": "process optimization",
+            "zh": "工艺优化"
           },
           {
             "en": "NSGA-II",
-            "zh": "NSGA-II算法"
-          },
-          {
-            "en": "cutting parameters",
-            "zh": "切削参数"
+            "zh": "非支配排序遗传算法II"
           },
           {
             "en": "orthogonal experiment",
             "zh": "正交实验"
           },
           {
-            "en": "microgrooves",
-            "zh": "微沟槽"
+            "en": "regression analysis",
+            "zh": "回归分析"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
     }
   ],
   "counts": {

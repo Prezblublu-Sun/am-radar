@@ -5,123 +5,6 @@
   "papers": [
     {
       "source": "openalex",
-      "id": "https://openalex.org/W4413989984",
-      "doi": "10.3390/ma18174150",
-      "title": "Hydrojet Surface Treatment of Ti-6Al-4V Titanium Produced by Additive Manufacturing",
-      "abstract": "The aim of this study was to analyze the effect of finishing methods on the surface quality of Ti-6Al-4V titanium alloy additively manufactured by selective laser melting. It was observed that among the finishing methods, water jet treatment did not produce significant changes, while the abrasive water jet proved effective in removing defects and smoothing the surface, especially at a pressure of 30 MPa. However, the risk of abrasive particle entrapment in the material was observed. Promising results were also obtained using the water-ice jet, which combines effective material removal with surface smoothing. The selection of the finishing method should be tailored to the application requirements. Further research will focus on optimization and the combination of techniques to improve the functional properties of titanium components.",
-      "authors": [
-        "Monika Szada-Borzyszkowska",
-        "Dorota Laskowska",
-        "Błażej Bałasz",
-        "Wiesław Szada-Borzyszkowski"
-      ],
-      "first_author_affiliation": "Faculty of Mechanical Engineering and Energy, Koszalin University of Technology, Śniadeckich 2, 75-620 Koszalin, Poland",
-      "corresponding_authors": [
-        {
-          "name": "Monika Szada-Borzyszkowska",
-          "affiliation": "Faculty of Mechanical Engineering and Energy, Koszalin University of Technology, Śniadeckich 2, 75-620 Koszalin, Poland"
-        },
-        {
-          "name": "Dorota Laskowska",
-          "affiliation": "Faculty of Mechanical Engineering and Energy, Koszalin University of Technology, Śniadeckich 2, 75-620 Koszalin, Poland"
-        }
-      ],
-      "venue": "Materials",
-      "year": 2025,
-      "date": "2025-09-04",
-      "date_precision": "day",
-      "url": "https://doi.org/10.3390/ma18174150",
-      "cited_by_count": 2,
-      "concepts": [
-        "Materials science",
-        "Titanium",
-        "Titanium alloy",
-        "Metallurgy",
-        "Composite material"
-      ],
-      "categories": [],
-      "raw_type": "article",
-      "directions": [
-        "ti6al4v_postprocess"
-      ],
-      "direction": "ti6al4v_postprocess",
-      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
-      "routing_matches": {
-        "ti6al4v_postprocess": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "surface treatment"
-        ]
-      },
-      "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文涉及增材制造Ti-6Al-4V的后处理，但未提供机械性能数据，仅关注表面质量。",
-        "why_not_core": "No experimental fatigue or tensile data reported; only surface quality observations without linking to mechanical performance.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "water jet",
-          "surface treatment",
-          "Ti-6Al-4V",
-          "selective laser melting",
-          "additive manufacturing"
-        ],
-        "summary_zh": {
-          "motivation": "研究水力喷射表面处理对增材制造Ti-6Al-4V表面质量的影响",
-          "method": "采用水射流、磨料水射流和水冰射流进行表面处理",
-          "result": "磨料水射流可有效去除缺陷并光滑表面，但存在磨料颗粒嵌入风险",
-          "validation": "仅表面质量观察，无机械性能测试"
-        },
-        "summary_en": {
-          "motivation": "To analyze the effect of finishing methods on surface quality of additively manufactured Ti-6Al-4V.",
-          "method": "Water jet, abrasive water jet, and water-ice jet treatments were applied.",
-          "result": "Abrasive water jet effectively removed defects and smoothed the surface, but risked abrasive particle entrapment.",
-          "validation": "Only surface quality observations, no mechanical testing."
-        },
-        "key_terms": [
-          {
-            "en": "water jet",
-            "zh": "水射流"
-          },
-          {
-            "en": "abrasive water jet",
-            "zh": "磨料水射流"
-          },
-          {
-            "en": "water-ice jet",
-            "zh": "水冰射流"
-          },
-          {
-            "en": "surface treatment",
-            "zh": "表面处理"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
-          },
-          {
-            "en": "selective laser melting",
-            "zh": "选择性激光熔化"
-          },
-          {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
-    },
-    {
-      "source": "openalex",
       "id": "https://openalex.org/W4413985616",
       "doi": "10.1007/s11665-025-12020-9",
       "title": "Experimental and Numerical Study of Heat Source Modeling for Keyhole Formation in Ti-6Al-4V Single Pass Laser Treatment",
@@ -162,6 +45,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "microstructure",
           "layer thickness"
         ],
         "ti6al4v_postprocess": [
@@ -172,10 +56,10 @@
       },
       "llm": {
         "priority": "Medium",
-        "relevance_level": "Direct",
+        "relevance_level": "Transferable",
         "read_action": "Save for project",
-        "relevance_to_user": "该论文研究Ti-6Al-4V的激光表面处理（后处理）对微观结构和硬度的影响，属于后处理控制方向，但未直接涉及疲劳性能。",
-        "why_not_core": "This paper does not focus on fatigue performance or tensile properties, which are core for post-processing control; it primarily addresses heat source modeling and microstructure/hardness changes.",
+        "relevance_to_user": "该论文研究了激光表面处理对Ti-6Al-4V显微组织和硬度的影响，方法可迁移至增材制造Ti-6Al-4V的后处理模拟，但未直接涉及疲劳性能。",
+        "why_not_core": "The paper does not focus on mechanical performance (fatigue, tensile) improvement from post-processing, nor does it address additive-manufactured Ti-6Al-4V specifically; it is primarily a heat-source modeling study for keyhole formation during laser surface treatment.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -189,20 +73,21 @@
           "heat source modeling",
           "keyhole formation",
           "hardness",
-          "microstructure",
-          "DEFORM-3D"
+          "phase transformation",
+          "DEFORM-3D",
+          "Gaussian polynomial curve"
         ],
         "summary_zh": {
-          "motivation": "研究激光表面处理对Ti-6Al-4V合金微观结构和硬度的影响。",
-          "method": "实验结合DEFORM-3D数值模拟，比较不同热源模型。",
-          "result": "高斯多项式曲线模型最准确，激光功率显著影响性能。",
-          "validation": "通过显微分析和硬度测试验证模拟结果。"
+          "motivation": "研究激光表面处理对Ti-6Al-4V显微组织和硬度的影响。",
+          "method": "通过实验和DEFORM-3D仿真模拟热源模型和相变。",
+          "result": "高斯多项式曲线模型最准确地模拟匙孔形成和硬度变化。",
+          "validation": "通过显微分析和硬度测试验证仿真结果。"
         },
         "summary_en": {
-          "motivation": "This study investigates the effect of laser surface treatment on the microstructure and hardness of Ti-6Al-4V alloy.",
-          "method": "Experimental tests were combined with DEFORM-3D numerical simulations to compare different heat source models for keyhole formation.",
-          "result": "The Gaussian polynomial curve model provided the most accurate predictions, and increasing laser power significantly altered thermal and mechanical properties.",
-          "validation": "Experimental validation included microscopic analysis and hardness testing to confirm simulation accuracy."
+          "motivation": "To analyze the impact of laser surface treatment on Ti-6Al-4V microstructure and hardness, focusing on heat source modeling for keyhole formation.",
+          "method": "Experimental laser treatment at different powers combined with numerical simulations using DEFORM-3D and a custom subroutine for hardness and phase predictions.",
+          "result": "The Gaussian polynomial curve model provided the most accurate predictions for keyhole geometry, phase transitions, and hardness distribution.",
+          "validation": "Experimental characterization of microstructure, oxide layer thickness, and hardness validated the numerical model."
         },
         "key_terms": [
           {
@@ -211,7 +96,7 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "heat source modeling",
@@ -222,16 +107,16 @@
             "zh": "匙孔形成"
           },
           {
-            "en": "microstructure",
-            "zh": "微观结构"
-          },
-          {
             "en": "hardness",
             "zh": "硬度"
           },
           {
+            "en": "phase transformation",
+            "zh": "相变"
+          },
+          {
             "en": "DEFORM-3D",
-            "zh": "DEFORM-3D"
+            "zh": "DEFORM-3D（有限元软件）"
           },
           {
             "en": "Gaussian polynomial curve",
@@ -241,26 +126,406 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413989984",
+      "doi": "10.3390/ma18174150",
+      "title": "Hydrojet Surface Treatment of Ti-6Al-4V Titanium Produced by Additive Manufacturing",
+      "abstract": "The aim of this study was to analyze the effect of finishing methods on the surface quality of Ti-6Al-4V titanium alloy additively manufactured by selective laser melting. It was observed that among the finishing methods, water jet treatment did not produce significant changes, while the abrasive water jet proved effective in removing defects and smoothing the surface, especially at a pressure of 30 MPa. However, the risk of abrasive particle entrapment in the material was observed. Promising results were also obtained using the water-ice jet, which combines effective material removal with surface smoothing. The selection of the finishing method should be tailored to the application requirements. Further research will focus on optimization and the combination of techniques to improve the functional properties of titanium components.",
+      "authors": [
+        "Monika Szada-Borzyszkowska",
+        "Dorota Laskowska",
+        "Błażej Bałasz",
+        "Wiesław Szada-Borzyszkowski"
+      ],
+      "first_author_affiliation": "Faculty of Mechanical Engineering and Energy, Koszalin University of Technology, Śniadeckich 2, 75-620 Koszalin, Poland",
+      "corresponding_authors": [
+        {
+          "name": "Monika Szada-Borzyszkowska",
+          "affiliation": "Faculty of Mechanical Engineering and Energy, Koszalin University of Technology, Śniadeckich 2, 75-620 Koszalin, Poland"
+        },
+        {
+          "name": "Dorota Laskowska",
+          "affiliation": "Faculty of Mechanical Engineering and Energy, Koszalin University of Technology, Śniadeckich 2, 75-620 Koszalin, Poland"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-09-04",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18174150",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Titanium",
+        "Titanium alloy",
+        "Metallurgy",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "selective laser melting"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V增材制造件的后处理表面处理，但未评估力学性能变化，与用户关注的后处理对疲劳/力学性能的影响不直接相关。",
+        "why_not_core": "No mechanical performance (fatigue, tensile) data reported; only surface quality characterization without linking to mechanical properties.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "surface treatment",
+          "Ti-6Al-4V",
+          "selective laser melting",
+          "water jet",
+          "abrasive water jet"
+        ],
+        "summary_zh": {
+          "motivation": "分析不同精加工方法对激光选区熔融Ti-6Al-4V表面质量的影响。",
+          "method": "对比水射流、磨料水射流和水冰射流三种表面处理方法。",
+          "result": "磨料水射流有效去除缺陷但存在颗粒嵌入风险，水冰射流效果良好。",
+          "validation": "通过表面形貌和粗糙度测量进行实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of various finishing methods on the surface quality of additively manufactured Ti-6Al-4V titanium alloy.",
+          "method": "Water jet, abrasive water jet, and water-ice jet treatments were applied and compared on selective laser melted Ti-6Al-4V specimens.",
+          "result": "Abrasive water jet effectively removed surface defects but caused particle entrapment, while water-ice jet showed promising smoothing without contamination.",
+          "validation": "Surface quality was characterized by profilometry and microscopy, but no mechanical properties were measured."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "surface treatment",
+            "zh": "表面处理"
+          },
+          {
+            "en": "water jet",
+            "zh": "水射流"
+          },
+          {
+            "en": "abrasive water jet",
+            "zh": "磨料水射流"
+          },
+          {
+            "en": "water-ice jet",
+            "zh": "水冰射流"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414001970",
+      "doi": "10.1016/j.matdes.2025.114685",
+      "title": "Dissimilar joining of Ti-6Al-4 V with ZK60 and AZ31 by eutectic-melting-induced liquid metal dealloying",
+      "abstract": "• Dissimilar commercial alloys joined for the first time via dealloying. • Ti and Mg alloys joined via bicontinuous structure without intermetallic layers. • Dealloying based joining enabled dissimilar joint with 3% ductility. • Minor alloying elements can inhibit dealloying-based joining process. Ti-6Al-4V and Mg alloys (ZK60 and AZ31) were successfully joined using a dealloying-based method. The interfacial microstructure and mechanical properties of joints were characterized by scanning electron microscopy, scanning-transmission electron microscopy, energy-dispersive X-ray analysis, indentation testing, and tensile testing. When ZK60 was butt-joined to a Ti-Cu interlayer pre-diffusion bonded to the Ti alloy and heated under pressure, eutectic-melting-induced liquid metal dealloying (EMI-LMD) occurred at the interface. This process led to the formation of a bicontinuous Ti/Mg microstructure, resulting in robust mechanical joining between the dissimilar alloys. Specific minor elements in the Mg alloy significantly influenced the occurrence of dealloying. Dealloying did not occur between the Ti-Cu interlayer and AZ31 due to the formation of an Al-rich diffusion barrier. To address this issue, dealloying-based joining was achieved by inserting ZK60 between the Ti-Cu interlayer and AZ31. EMI-LMD induced a concentration gradient of minor elements in the Mg alloy, which affected the joint properties. This study is the first to demonstrate that the EMI-LMD joining method can be applied to joining dissimilar commercial alloys.",
+      "authors": [
+        "Yusuke Ohashi",
+        "Takeshi Wada",
+        "Hidemi Kato"
+      ],
+      "first_author_affiliation": "Tohoku University Institute for Materials Research, Tohoku University, Sendai 980-8577, Japan",
+      "corresponding_authors": [
+        {
+          "name": "Yusuke Ohashi",
+          "affiliation": "Tohoku University Institute for Materials Research, Tohoku University, Sendai 980-8577, Japan"
+        },
+        {
+          "name": "Hidemi Kato",
+          "affiliation": "Tohoku University Institute for Materials Research, Tohoku University, Sendai 980-8577, Japan"
+        }
+      ],
+      "venue": "Materials & Design",
+      "year": 2025,
+      "date": "2025-09-04",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.matdes.2025.114685",
+      "cited_by_count": 1,
+      "concepts": [
+        "Eutectic system",
+        "Materials science",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V与镁合金的连接，但未涉及增材制造，与研究方向无关。",
+        "why_not_core": "This paper does not address additively manufactured Ti-6Al-4V; it focuses on joining wrought Ti-6Al-4V with Mg alloys via dealloying, without any additive manufacturing process or mechanical/fatigue characterization relevant to AM Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "Mg alloys",
+          "joining",
+          "dealloying",
+          "dissimilar metals"
+        ],
+        "summary_zh": {
+          "motivation": "探索通过脱合金方法连接Ti-6Al-4V与镁合金。",
+          "method": "利用共晶熔化诱导的液态金属脱合金(EMI-LMD)形成双连续结构。",
+          "result": "成功实现Ti-6Al-4V与ZK60的接合，接头延展性达3%。",
+          "validation": "扫描电镜、透射电镜、能谱分析、压痕测试和拉伸测试。"
+        },
+        "summary_en": {
+          "motivation": "To develop a dealloying-based method for joining Ti-6Al-4V with Mg alloys without forming brittle intermetallic layers.",
+          "method": "Eutectic-melting-induced liquid metal dealloying (EMI-LMD) was used to create a bicontinuous Ti/Mg microstructure at the interface.",
+          "result": "Dissimilar joints of Ti-6Al-4V with ZK60 were achieved with 3% ductility, while joining with AZ31 was hindered by an Al-rich barrier.",
+          "validation": "Microstructural characterization (SEM, STEM, EDS) and mechanical testing (indentation, tensile) were performed."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "liquid metal dealloying",
+            "zh": "液态金属脱合金"
+          },
+          {
+            "en": "eutectic melting",
+            "zh": "共晶熔化"
+          },
+          {
+            "en": "bicontinuous structure",
+            "zh": "双连续结构"
+          },
+          {
+            "en": "dissimilar joining",
+            "zh": "异种连接"
+          },
+          {
+            "en": "ZK60",
+            "zh": "ZK60"
+          },
+          {
+            "en": "AZ31",
+            "zh": "AZ31"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414213622",
+      "doi": "10.18311/jmmf/2025/49364",
+      "title": "Impact of Cryogenic Cooling on Burnishing of Ti-6AI-4V: An Optimization Approach",
+      "abstract": "The present study investigates the influence of cryogenic cooling on the burnishing process of Ti-6Al-4V, a widely utilized titanium alloy in aerospace and biomedical applications. While conventional burnishing enhances surface integrity by inducing compressive residual stresses and improving hardness, excessive heat generation limits its effectiveness. Cryogenic-assisted burnishing, incorporating liquid nitrogen as a cooling medium, presents a promising alternative to mitigate thermal softening and enhance mechanical properties. This study systematically optimizes the burnishing process using the Taguchi method, evaluating the effects of key parameters like speed, feed rate, depth of cut, and number of passes on surface roughness and microhardness. Results indicate that cryogenic process significantly enhances hardness, with improvements of up to 31.5% compared to normal counterpart. However, cryogenic conditions also led to elevated surface roughness, with the maximum Ra increasing from 0.347 μm (normal) to 1.17 μm under extreme cooling (-196 °C) due to embrittlement and lower plastic deformation at ultra-low temperatures. These results highlight theºritical need for process optimization to balance mechanical enhancement with surface finish degradation. The study provides actionable insights into the cryogenic burnishing of Ti-6Al- 4V and demonstrates its potential as a superior surface modification strategy for high-performance engineering applications. Major Findings: Cryogenic burnishing of Ti-6Al-4V enhanced microhardness by 31.5% through suppressed thermal softening and improved strain hardening but increased surface roughness due to embrittlement and limited plastic deformation at ultralow temperatures. Taguchi optimization helps balance these effects, enhancing applicability in aerospace and biomedical fields.",
+      "authors": [
+        "Samatham Madhukar",
+        "Pratibha Dharmavarapu",
+        "Navya Sree Seelam",
+        "Gopal Reddy",
+        "P. V. Arul Kumar",
+        "U. Ashok Kumar"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, Lords Institute of Engineering and Technology, Himayath Sagar, Hyderabad - 500091, Telangana",
+      "corresponding_authors": [
+        {
+          "name": "Samatham Madhukar",
+          "affiliation": "Department of Mechanical Engineering, Lords Institute of Engineering and Technology, Himayath Sagar, Hyderabad - 500091, Telangana"
+        }
+      ],
+      "venue": "Journal of Mines Metals and Fuels",
+      "year": 2025,
+      "date": "2025-09-04",
+      "date_precision": "day",
+      "url": "https://doi.org/10.18311/jmmf/2025/49364",
+      "cited_by_count": 0,
+      "concepts": [
+        "Burnishing (metal)",
+        "Materials science",
+        "Surface roughness",
+        "Surface integrity",
+        "Metallurgy",
+        "Embrittlement",
+        "Residual stress",
+        "Taguchi methods",
+        "Indentation hardness",
+        "Surface finish",
+        "Titanium alloy",
+        "Composite material",
+        "Softening",
+        "Aerospace",
+        "Alloy",
+        "Hardness",
+        "Surface engineering",
+        "Coating"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface integrity"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V的低温抛光工艺，但未涉及增材制造材料或疲劳性能，与用户关注的AM Ti-6Al-4V后处理控制方向不直接相关。",
+        "why_not_core": "The paper does not involve additively manufactured Ti-6Al-4V and lacks fatigue or mechanical performance testing relevant to post-processing of AM materials.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "cryogenic burnishing",
+          "Ti-6Al-4V",
+          "surface roughness",
+          "microhardness",
+          "Taguchi optimization"
+        ],
+        "summary_zh": {
+          "motivation": "提高Ti-6Al-4V表面完整性，克服常规抛光热软化问题。",
+          "method": "采用Taguchi法优化低温抛光参数，研究速度、进给、切深和道次的影响。",
+          "result": "低温抛光使显微硬度提升31.5%，但表面粗糙度增大。",
+          "validation": "通过实验测量显微硬度和表面粗糙度验证。"
+        },
+        "summary_en": {
+          "motivation": "To improve surface integrity of Ti-6Al-4V by mitigating thermal softening during burnishing through cryogenic cooling.",
+          "method": "Taguchi optimization was applied to evaluate the effects of cryogenic burnishing parameters (speed, feed, depth of cut, number of passes) on surface roughness and microhardness.",
+          "result": "Cryogenic burnishing increased microhardness by up to 31.5% compared to conventional burnishing but led to higher surface roughness due to embrittlement.",
+          "validation": "Experimental measurements of microhardness and surface roughness validated the process performance."
+        },
+        "key_terms": [
+          {
+            "en": "cryogenic burnishing",
+            "zh": "低温抛光"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "Taguchi method",
+            "zh": "田口方法"
+          },
+          {
+            "en": "liquid nitrogen cooling",
+            "zh": "液氮冷却"
+          },
+          {
+            "en": "compressive residual stress",
+            "zh": "压缩残余应力"
+          },
+          {
+            "en": "embrittlement",
+            "zh": "脆化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 4,
     "by_source": {
-      "openalex": 2
+      "openalex": 4
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
-      "ti6al4v_postprocess": 2
+      "ti6al4v_postprocess": 3,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 4
     },
-    "scored": 2,
+    "scored": 4,
     "priority_counts": {
-      "Low": 1,
-      "Medium": 1
+      "Medium": 1,
+      "Low": 2,
+      "Exclude": 1
     }
   }
 }

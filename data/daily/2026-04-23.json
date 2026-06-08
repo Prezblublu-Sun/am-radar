@@ -62,8 +62,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是Ti-6Al-4V的光化学加工工艺，而非增材制造后处理对疲劳等力学性能的影响。",
-        "why_not_core": "This paper investigates photochemical machining process parameters for Ti-6Al-4V, not post-processing treatments; it does not address AM Ti-6Al-4V mechanical performance.",
+        "relevance_to_user": "该论文涉及钛合金化学蚀刻，但未涉及增材制造Ti-6Al-4V的后处理及疲劳/力学性能，因此与关注方向无关。",
+        "why_not_core": "The paper does not address post-processing of additively manufactured Ti-6Al-4V, nor does it evaluate fatigue or mechanical performance; it focuses on chemical machining for biomedical component manufacturing without a post-processing or AM context.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -74,21 +74,21 @@
         "tags": [
           "photochemical machining",
           "Ti-6Al-4V",
-          "etching",
-          "biomedical applications",
-          "surface roughness"
+          "HF-HNO₃ etchant",
+          "surface roughness",
+          "material removal rate"
         ],
         "summary_zh": {
-          "motivation": "研究新型HF-HNO₃刻蚀剂对Ti-6Al-4V光化学加工性能的影响。",
-          "method": "通过25组实验分析刻蚀剂成分和刻蚀时间对边缘偏差、材料去除率和粗糙度的影响。",
-          "result": "新型刻蚀剂实现了最小边缘偏差29 µm、最小粗糙度1.82 µm和最大材料去除率0.967 mg/min。",
-          "validation": "通过实验数据验证刻蚀效果与加工质量。"
+          "motivation": "研究新型HF-HNO₃蚀刻液对Ti-6Al-4V光化学加工性能的影响。",
+          "method": "通过25组实验分析蚀刻成分和时间对边缘偏差、材料去除率和粗糙度的影响。",
+          "result": "新型蚀刻液实现了低边缘偏差（29 µm）和粗糙度（1.82 µm），高材料去除率（0.967 mg/min）。",
+          "validation": "实验测量验证工艺参数与加工质量的关系。"
         },
         "summary_en": {
-          "motivation": "To investigate the effect of novel HF-HNO₃ etchant compositions on the photochemical machining performance of Ti-6Al-4V for biomedical component fabrication.",
-          "method": "25 experiments were conducted to study the influence of etchant composition and etching time on edge deviation, material removal rate, and mean roughness depth.",
-          "result": "The novel etchant achieved minimum edge deviation of 29 µm, minimum roughness of 1.82 µm, and maximum material removal rate of 0.967 mg/min.",
-          "validation": "Experimental measurements of edge deviation, material removal rate, and surface roughness validated the etching performance."
+          "motivation": "To investigate the influence of novel hybrid HF-HNO₃ etchant compositions on the performance of photochemical machining of Ti-6Al-4V for biomedical applications.",
+          "method": "A total of 25 experiments were conducted to examine the effects of etchant composition and etching time on edge deviation, material removal rate, and mean roughness depth.",
+          "result": "The novel etchant achieved a minimum edge deviation of 29 µm, mean roughness depth of 1.82 µm, and maximum material removal rate of 0.967 mg/min.",
+          "validation": "Experimental measurements of geometric and surface quality metrics validated the process performance."
         },
         "key_terms": [
           {
@@ -116,36 +116,178 @@
             "zh": "材料去除率"
           },
           {
-            "en": "mean roughness depth",
-            "zh": "平均粗糙度深度"
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           },
           {
-            "en": "biomedical applications",
-            "zh": "生物医学应用"
+            "en": "etchant",
+            "zh": "蚀刻液"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7155389715",
+      "doi": "10.1177/02670844261444557",
+      "title": "Effect of dual shot peening pretreatment on the performance of Ti-6Al-4V alloy after active screen plasma nitriding",
+      "abstract": "The effect of dual shot-peening (DSP) pretreatment on the performance of Ti-6Al-4V alloy after active screen plasma nitriding (ASPN) was systematically studied. DSP pretreatment was designed by combining an optimized primary shot peening (conducted under 0.3 MPa for 20 min) with a secondary shot peening conducted at reduced pressures (0.1–0.2 MPa) and shorter durations (2–8 min). The secondary peening step effectively decreased surface roughness while maintaining the severe plastic deformation (SPD) layer introduced by primary peening. The optimized DSP parameters were identified as 0.1 MPa for 5 min with a primary stage at 0.3 MPa for 20 min, which reduced the surface roughness from 2.61 to 1.75 μm without inducing excessive subsurface deformation. ASPN treatment on DSP-modified samples produced a thicker and more compact nitride layer, resulting in significantly enhanced wear and corrosion performance in contrast to samples subjected only to ASPN. The improvements are attributed to the refined surface nanostructure and improved surface integrity generated by DSP pretreatment.",
+      "authors": [
+        "Tao Lai",
+        "Hong Gao",
+        "Yan Gao"
+      ],
+      "first_author_affiliation": "South China University of Technology",
+      "corresponding_authors": [
+        {
+          "name": "Yan Gao",
+          "affiliation": "Guangdong Provincial Key Laboratory of Advanced Energy Storage Materials, Guangzhou, P. R. China"
+        }
+      ],
+      "venue": "Surface Engineering",
+      "year": 2026,
+      "date": "2026-04-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1177/02670844261444557",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Shot peening",
+        "Nitriding",
+        "Alloy",
+        "Surface roughness",
+        "Metallurgy",
+        "Severe plastic deformation",
+        "Peening",
+        "Surface finish",
+        "Composite material",
+        "Layer (electronics)",
+        "Nitride",
+        "Corrosion",
+        "Deformation (meteorology)",
+        "Surface modification",
+        "Scanning electron microscope",
+        "Plasma"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess",
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "shot peening",
+          "surface integrity"
+        ],
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V合金的双次喷丸预处理和等离子渗氮，但未涉及增材制造或疲劳力学性能，与用户关注的增材制造后处理对疲劳/力学性能的影响方向关系较弱。",
+        "why_not_core": "This paper does not study additive-manufactured Ti-6Al-4V and does not evaluate fatigue or mechanical properties (tensile/fatigue); it focuses on wear and corrosion after shot peening and nitriding on conventionally processed alloy.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "shot peening",
+          "dual shot peening",
+          "active screen plasma nitriding",
+          "Ti-6Al-4V",
+          "surface modification",
+          "wear resistance",
+          "corrosion resistance"
+        ],
+        "summary_zh": {
+          "motivation": "研究双次喷丸预处理对Ti-6Al-4V合金等离子渗氮后性能的影响",
+          "method": "设计不同参数的双次喷丸（主喷丸+次喷丸）预处理，然后进行活性屏等离子渗氮",
+          "result": "优化参数（0.3 MPa/20 min + 0.1 MPa/5 min）降低了表面粗糙度，获得了更厚更致密的氮化物层，显著提高了耐磨和耐腐蚀性能",
+          "validation": "通过表面粗糙度测量、磨损和腐蚀实验验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of a dual shot peening pretreatment on the subsequent active screen plasma nitriding performance of Ti-6Al-4V alloy.",
+          "method": "A dual shot peening process combining primary peening at 0.3 MPa for 20 min and secondary peening at reduced pressures (0.1–0.2 MPa) for 2–8 min was designed, followed by active screen plasma nitriding.",
+          "result": "The optimized dual peening parameters (0.3 MPa/20 min + 0.1 MPa/5 min) reduced surface roughness to 1.75 μm, produced a thicker and more compact nitride layer, and significantly enhanced wear and corrosion resistance compared to single peening.",
+          "validation": "Validation was performed through surface roughness measurements, wear testing, and corrosion testing."
+        },
+        "key_terms": [
+          {
+            "en": "dual shot peening",
+            "zh": "双次喷丸"
+          },
+          {
+            "en": "active screen plasma nitriding",
+            "zh": "活性屏等离子渗氮"
+          },
+          {
+            "en": "Ti-6Al-4V alloy",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "severe plastic deformation",
+            "zh": "剧烈塑性变形"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
+          },
+          {
+            "en": "nitride layer",
+            "zh": "氮化物层"
+          },
+          {
+            "en": "surface integrity",
+            "zh": "表面完整性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 1,
+      "Low": 1
     }
   }
 }

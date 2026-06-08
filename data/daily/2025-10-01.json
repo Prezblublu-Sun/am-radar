@@ -56,33 +56,36 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_postprocess",
-        "ti6al4v_base_mechanical_fatigue"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "surface roughness"
+        ],
         "ti6al4v_postprocess": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "polishing",
           "post-processing"
-        ],
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "surface roughness"
         ]
       },
       "llm": {
         "priority": "Medium",
         "relevance_level": "Transferable",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文研究了Ti-6Al-4V激光粉末床熔融制造件的化学抛光后处理，但未涉及力学性能（如疲劳）评价，仅为表面质量改善提供参考。",
-        "why_not_core": "No fatigue or tensile mechanical data; only surface roughness and erosion rate reported, lacking mechanical performance evaluation required by the direction.",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的化学抛光后处理，但未研究对疲劳或力学性能的影响，与用户关注的力学性能变化方向关联有限。",
+        "why_not_core": "This paper does not evaluate any mechanical performance (fatigue, tensile, microstructure) of the polished Ti-6Al-4V, limiting its relevance to the post-processing control layer focused on mechanical properties.",
         "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
@@ -93,19 +96,19 @@
           "Ti-6Al-4V",
           "laser powder bed fusion",
           "heat exchanger",
-          "post-processing"
+          "erosion rate"
         ],
         "summary_zh": {
-          "motivation": "研究化学抛光后处理对LPBF制造Ti-6Al-4V换热器通道表面质量的影响。",
-          "method": "采用动态化学抛光，对比两种层厚，用触针和CT测量表面粗糙度及侵蚀率。",
-          "result": "平均表面粗糙度从11-12 µm降至6-8 µm，侵蚀率30-50 µm/min。",
-          "validation": "通过质量损失和表面粗糙度测量验证抛光效果。"
+          "motivation": "研究化学抛光对增材制造Ti-6Al-4V换热器通道表面质量的影响。",
+          "method": "采用强制循环的动态化学抛光方法处理LPBF制造的毫米级通道。",
+          "result": "抛光后表面粗糙度从11-12 µm降低到6-8 µm，侵蚀速率30-50 µm/min。",
+          "validation": "通过接触式探头和断层扫描测量通道尺寸和粗糙度。"
         },
         "summary_en": {
-          "motivation": "To develop an improved chemical polishing method for internal channels of LPBF Ti-6Al-4V heat exchangers and evaluate its effect on surface quality.",
-          "method": "Dynamic chemical polishing with forced circulation was applied to samples with two layer thicknesses; surface roughness and erosion rate were measured using touch probe and tomography.",
-          "result": "Mean surface roughness reduced from 11-12 µm to 6-8 µm, and erosion rate ranged from 30 to 50 µm/min.",
-          "validation": "Experimental characterization of surface roughness and mass loss before and after polishing."
+          "motivation": "To investigate the effect of dynamic chemical polishing on surface quality of additively manufactured Ti-6Al-4V heat exchanger channels.",
+          "method": "A forced-circulation dynamic chemical polishing process was applied to LPBF-produced millimeter-size channels.",
+          "result": "Post-polishing surface roughness was reduced from 11–12 µm to 6–8 µm, with an erosion rate of 30–50 µm/min.",
+          "validation": "Surface roughness and channel dimensions were measured using touch probe and tomography."
         },
         "key_terms": [
           {
@@ -113,38 +116,38 @@
             "zh": "化学抛光"
           },
           {
-            "en": "laser powder bed fusion",
-            "zh": "激光粉末床熔融"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
-          },
-          {
             "en": "surface roughness",
             "zh": "表面粗糙度"
           },
           {
-            "en": "erosion rate",
-            "zh": "侵蚀率"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
             "en": "heat exchanger",
             "zh": "换热器"
           },
           {
-            "en": "post-processing",
-            "zh": "后处理"
+            "en": "erosion rate",
+            "zh": "侵蚀速率"
           },
           {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
+            "en": "millimeter-size channels",
+            "zh": "毫米级通道"
+          },
+          {
+            "en": "layer thickness",
+            "zh": "层厚"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:17:25Z"
+      "first_seen_at": "2026-06-08T08:27:10Z"
     },
     {
       "source": "openalex",
@@ -200,6 +203,9 @@
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "Ti-6Al-4V ELI",
+          "additive manufacturing",
+          "3D printed",
+          "SLM",
           "yield strength",
           "fatigue"
         ],
@@ -214,8 +220,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文主要关注口腔修复体，而非Ti-6Al-4V后处理对疲劳性能的研究。",
-        "why_not_core": "The paper focuses on dental implant abutment design and biocompatibility, not on the effect of post-processing on fatigue/mechanical performance of Ti-6Al-4V.",
+        "relevance_to_user": "该论文主要关注牙科植入物基台的AI优化和生物力学性能，而非Ti-6Al-4V的后处理控制，属于第3层方向。",
+        "why_not_core": "This paper focuses on AI-optimized dental implant abutments (implant structure, Layer 3) and does not systematically investigate the effect of post-processing on Ti-6Al-4V mechanical performance as per Layer 2 requirements.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -227,27 +233,25 @@
           "Ti-6Al-4V",
           "SLM",
           "HIP",
-          "prosthodontics",
-          "abutment",
-          "fatigue testing",
-          "topology optimization"
+          "dental implant",
+          "prosthodontics"
         ],
         "summary_zh": {
-          "motivation": "克服传统基台在生物力学适应性上的局限，开发AI优化3D打印基台。",
-          "method": "基于CT扫描的有限元模型进行拓扑优化，采用SLM打印和HIP后处理制造基台。",
-          "result": "应力集中降低48%，界面间隙减小，疲劳性能提升，生物相容性增强。",
-          "validation": "工业CT测量、ISO疲劳测试、细胞和动物实验验证。"
+          "motivation": "克服传统基台在生物力学适应性方面的限制",
+          "method": "结合AI优化、SLM制造和HIP后处理制备钛基台",
+          "result": "AI优化基台应力降低48%，疲劳性能优于传统",
+          "validation": "通过工业CT、疲劳测试、细胞实验和猪模型验证"
         },
         "summary_en": {
           "motivation": "To overcome limitations of traditional abutments in biomechanical adaptation by integrating AI optimization and additive manufacturing.",
-          "method": "Finite element models from 128 CT scans drove dynamic topology optimization, and Ti-6Al-4V ELI abutments were fabricated by SLM with HIP post-processing.",
-          "result": "AI-optimized abutments achieved 48% stress reduction, 18.3 μm interface gaps, 825 MPa yield strength, and improved biocompatibility.",
-          "validation": "Industrial CT, ISO 14801 fatigue testing, CCK-8 cell assays, and porcine Micro-CT validated the results."
+          "method": "Ti-6Al-4V ELI abutments were produced via SLM with HIP post-processing and optimized using finite element models from 128 CT scans.",
+          "result": "AI-optimized abutments showed 48% stress reduction, 18.3 μm interface gaps, 825 MPa yield strength, and enhanced biocompatibility.",
+          "validation": "Validation included industrial CT metrology, ISO 14801 fatigue testing, fibroblast CCK-8 assays, and porcine osseointegration models."
         },
         "key_terms": [
           {
             "en": "selective laser melting",
-            "zh": "选区激光熔化"
+            "zh": "选择性激光熔化"
           },
           {
             "en": "hot isostatic pressing",
@@ -255,19 +259,23 @@
           },
           {
             "en": "Ti-6Al-4V ELI",
-            "zh": "Ti-6Al-4V ELI合金"
-          },
-          {
-            "en": "topology optimization",
-            "zh": "拓扑优化"
+            "zh": "Ti-6Al-4V ELI"
           },
           {
             "en": "dental abutment",
             "zh": "牙科基台"
           },
           {
-            "en": "fatigue testing",
-            "zh": "疲劳试验"
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "topology optimization",
+            "zh": "拓扑优化"
+          },
+          {
+            "en": "osseointegration",
+            "zh": "骨整合"
           },
           {
             "en": "biocompatibility",
@@ -277,26 +285,931 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:17:25Z"
+      "first_seen_at": "2026-06-08T08:27:10Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414688974",
+      "doi": "10.3390/ma18194572",
+      "title": "Gleeble-Simulated Ultra-Fast Cooling Unlocks Strength–Ductility Synergy in Fully Martensitic Ti-6Al-4V",
+      "abstract": "In additively manufactured (AM) Ti-6Al-4V, the role of martensitic α′ in governing brittleness versus toughness remains debated, largely because complex thermal histories and other intertwined physical factors complicate interpretation. To isolate and clarify the intrinsic effect of cooling rate, we employed a Gleeble thermal simulator, which enables precisely controllable cooling rates while simultaneously achieving ultra-fast quenching comparable to AM (up to ~7000 °C/s). By varying the cooling rate only, three distinct microstructures were obtained: α/β, αm/α′, and fully α′. Compression tests revealed that the ultra-fast-cooled fully martensitic Ti-6Al-4V attained both higher strength and larger fracture strain, with densely distributed elongated dimples indicative of ductile failure. Three-dimensional microstructures reconstructed from microscopy, analyzed using an EVP-FFT crystal plasticity model, demonstrated that refined α′ laths and abundant high-angle boundaries promote more homogeneous strain partitioning and reduce stress triaxiality, thereby delaying fracture. These results provide potential evidence that extreme-rate martensitic transformation can overcome the conventional strength–ductility trade-off in Ti-6Al-4V, offering a new paradigm for processing titanium alloys and AM components with superior performance.",
+      "authors": [
+        "Yaohong Xiao",
+        "Hongling Zhou",
+        "Pengwei Liu",
+        "Lei Chen"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, Mississippi State University, Starkville, MS 39762, USA",
+      "corresponding_authors": [
+        {
+          "name": "Yaohong Xiao",
+          "affiliation": "Department of Mechanical Engineering, Mississippi State University, Starkville, MS 39762, USA"
+        },
+        {
+          "name": "Hongling Zhou",
+          "affiliation": "College of Materials Science and Engineering, Chongqing University, Chongqing 400044, China"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-10-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.3390/ma18194572",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Martensite",
+        "Microstructure",
+        "Brittleness",
+        "Toughness",
+        "Plasticity",
+        "Quenching (fluorescence)",
+        "Metallurgy",
+        "Composite material",
+        "Diffusionless transformation",
+        "Thermal",
+        "Dimple",
+        "Compression (physics)",
+        "Fracture toughness",
+        "Stress (linguistics)",
+        "Strain rate",
+        "Shape-memory alloy",
+        "Homogeneous",
+        "Fracture (geology)",
+        "Titanium alloy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究增材制造Ti-6Al-4V的冷却速率对力学性能的影响，揭示了完全马氏体组织的强度-塑性协同提升机制。",
+        "why_not_core": "It does not include fatigue testing or cyclic loading data; only quasi-static compression is reported.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "martensitic α′",
+          "Gleeble thermal simulator",
+          "ultra-fast cooling",
+          "compression testing",
+          "strength–ductility synergy",
+          "EVP-FFT crystal plasticity"
+        ],
+        "summary_zh": {
+          "motivation": "为了隔离冷却速率对Ti-6Al-4V马氏体力学性能的影响，澄清α′的脆性/韧性争议。",
+          "method": "使用Gleeble热模拟器实现高达7000 °C/s的冷却速率，获得α/β、αm/α′和全α′三种组织，进行压缩测试和EVP-FFT晶体塑性模拟。",
+          "result": "超快冷却的全马氏体Ti-6Al-4V同时获得更高强度和更大断裂应变，延性韧窝分布均匀。",
+          "validation": "通过压缩实验和三维微观结构重建的晶体塑性模型验证。"
+        },
+        "summary_en": {
+          "motivation": "The study isolates the intrinsic effect of cooling rate on the mechanical behavior of martensitic Ti-6Al-4V to resolve the debated role of α′ in brittleness versus toughness.",
+          "method": "A Gleeble thermal simulator was used to apply precisely controlled cooling rates up to ~7000 °C/s, producing α/β, αm/α′, and fully α′ microstructures, which were then characterized by compression tests and EVP-FFT crystal plasticity modeling.",
+          "result": "Ultra-fast-cooled fully martensitic Ti-6Al-4V achieved simultaneous improvement in both strength and fracture strain, with densely distributed elongated dimples indicating ductile failure.",
+          "validation": "Experimental compression tests and three-dimensional microstructure-based crystal plasticity simulations provided validation."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "martensitic α′",
+            "zh": "马氏体α′"
+          },
+          {
+            "en": "Gleeble thermal simulator",
+            "zh": "Gleeble热模拟器"
+          },
+          {
+            "en": "ultra-fast cooling",
+            "zh": "超快冷却"
+          },
+          {
+            "en": "compression test",
+            "zh": "压缩测试"
+          },
+          {
+            "en": "strength-ductility synergy",
+            "zh": "强度-塑性协同"
+          },
+          {
+            "en": "EVP-FFT crystal plasticity",
+            "zh": "EVP-FFT晶体塑性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:27:10Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415768974",
+      "doi": "10.1093/cdm/wqaf007",
+      "title": "Towards strength–ductility balance in a Ti-6Al-4V alloy through microstructure optimization by composite hot forging and two-step annealing processes",
+      "abstract": "Abstract Objectives Obtaining strength–ductility balance in titanium alloys remains a challenge to this day. In this work, we improve the strength–ductility synergy of a Ti-6Al-4V alloy through specialized hot forging and two-step annealing processes. Methods During hot forging, the large equiaxed grains undergo minimal change, while all the lamellar α grains spheroidize to fine equiaxed grains due to severe dynamic recrystallization. During subsequent annealing and water quenching, the large equiaxed grains remain unchanged, and the martensite transformation occurs within fine equiaxed grains, leading to the microstructures composed of large equiaxed grains and nanosized acicular α′ martensite grains in the water quenched (WQ) alloy. Results and conclusion Compared to the hot forged (FG) alloy, the WQ alloy exhibited a significantly increased tensile strength and a decreased elongation. The strengthening effect came from the high dislocation density, high-density grain boundaries, and dense twin boundaries in the region of α′ martensite. The short-time annealed (ST) alloy after the second-step short-time annealing then showed a similar grain size and morphology to the WQ alloy. However, the dislocation density in large equiaxed grains dramatically decreased. This caused an increased elongation without sacrificing strength compared with the WQ alloy, implying the superior strength–ductility balance.",
+      "authors": [
+        "Shenshi Jiang",
+        "Guangqing Zhang",
+        "Lisong Zhu",
+        "Qian Wang",
+        "Feijun Qu",
+        "Jun Wang",
+        "Yao Lu",
+        "Jian Han"
+      ],
+      "first_author_affiliation": "School of Mechanical, Materials, Mechatronic and Biomedical Engineering, University of Wollongong , Wollongong, Northfields Ave, NSW 2522,",
+      "corresponding_authors": [
+        {
+          "name": "Shenshi Jiang",
+          "affiliation": "School of Mechanical, Materials, Mechatronic and Biomedical Engineering, University of Wollongong , Wollongong, Northfields Ave, NSW 2522,"
+        }
+      ],
+      "venue": "Composite Design and Manufacturing",
+      "year": 2025,
+      "date": "2025-10-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1093/cdm/wqaf007",
+      "cited_by_count": 0,
+      "concepts": [
+        "Equiaxed crystals",
+        "Materials science",
+        "Metallurgy",
+        "Annealing (glass)",
+        "Microstructure",
+        "Acicular",
+        "Lamellar structure",
+        "Alloy",
+        "Martensite",
+        "Ultimate tensile strength",
+        "Forging",
+        "Grain boundary",
+        "Titanium alloy",
+        "Thermomechanical processing",
+        "Elongation",
+        "Grain size",
+        "Superplasticity",
+        "Hot rolled",
+        "Grain growth",
+        "Dislocation"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "tensile strength",
+          "elongation",
+          "ductility"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "annealing"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究锻造态Ti-6Al-4V，而非增材制造Ti-6Al-4V，与方向要求不符。",
+        "why_not_core": "This paper studies wrought/forged Ti-6Al-4V, not additively manufactured Ti-6Al-4V, which is the specific focus of the direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "hot forging",
+          "annealing",
+          "strength-ductility",
+          "non-AM"
+        ],
+        "summary_zh": {
+          "motivation": "改善锻造Ti-6Al-4V的强度-延性平衡",
+          "method": "采用复合热锻和两步退火工艺优化微观组织",
+          "result": "短时退火后获得了高强度和良好延性的平衡",
+          "validation": "通过拉伸测试验证力学性能"
+        },
+        "summary_en": {
+          "motivation": "To achieve a balance of strength and ductility in a forged Ti-6Al-4V alloy through microstructure optimization.",
+          "method": "Composite hot forging followed by two-step annealing and water quenching was used to produce a bimodal microstructure.",
+          "result": "Short-time annealing after quenching reduced dislocation density in large grains, improving elongation without sacrificing strength.",
+          "validation": "Tensile testing was performed to evaluate mechanical properties."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "hot forging",
+            "zh": "热锻"
+          },
+          {
+            "en": "two-step annealing",
+            "zh": "两步退火"
+          },
+          {
+            "en": "strength-ductility balance",
+            "zh": "强度-延性平衡"
+          },
+          {
+            "en": "martensite transformation",
+            "zh": "马氏体相变"
+          },
+          {
+            "en": "dislocation density",
+            "zh": "位错密度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:27:10Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414730401",
+      "doi": "10.1007/s40194-025-02162-8",
+      "title": "Microstructure and mechanical properties of dissimilar friction stir welding between butted, thin sheet NiTi and Ti-6Al-4V",
+      "abstract": "Abstract Solid-state dissimilar joining of NiTi and Ti-6Al-4 V is a currently underexplored field with high potential to expand applications for each alloy in the aerospace industry. Friction stir welding of butted 1 mm thick sheets of NiTi and Ti-6Al-4 V was tested under a matrix of welding parameters. Six of eight tested parameter conditions joined but each showed degraded mechanical properties. Higher traverse speed conditions joined more successfully into testable samples. Upper and lower quartiles for tensile strength varied between 140 and 60 MPa with the lower rotation speed showing higher median values. Weld degradation is attributed to the formation of an up to 10 µm wide Ti 2 Ni intermetallic compound layer at the weld interface. Higher rotation speeds showed a thicker intermetallic layer. The Ti 2 Ni layer showed equiaxed grains on the order of 2–3 µm in diameter. It is theorized that this layer grew from pre-existing Ti-6Al-4 V via nickel diffusion from the NiTi due to in-process heating. Accelerated property mapping nanoindentation shows that the Ti 2 Ni layer has a greater microhardness and reduced elastic modulus (12.42 GPa and 150.06 GPa) than the stir zone of the NiTi (5.10 GPa and 97.65 GPa) and Ti-6Al-4 V (5.93 GPa and 137.2 GPa). Crack propagation along this brittle, high stiffness intermetallic layer is proposed as the cause of failure in the welded samples.",
+      "authors": [
+        "Brayden Terry",
+        "A. Shelton",
+        "A. Strauss"
+      ],
+      "first_author_affiliation": "Mechanical Engineering, Vanderbilt University, Nashville, TN, USA",
+      "corresponding_authors": [
+        {
+          "name": "Brayden Terry",
+          "affiliation": "Mechanical Engineering, Vanderbilt University, Nashville, TN, USA"
+        }
+      ],
+      "venue": "Welding in the World",
+      "year": 2025,
+      "date": "2025-10-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1007/s40194-025-02162-8",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Friction stir welding",
+        "Intermetallic",
+        "Nickel titanium",
+        "Metallurgy",
+        "Indentation hardness",
+        "Microstructure",
+        "Welding",
+        "Equiaxed crystals",
+        "Nanoindentation",
+        "Composite material",
+        "Ultimate tensile strength",
+        "Layer (electronics)",
+        "Alloy",
+        "Diffusion layer",
+        "Titanium alloy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "tensile strength"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的摩擦搅拌焊接而非增材制造，与用户关注的增材制造Ti-6Al-4V力学与疲劳性能无关。",
+        "why_not_core": "This paper studies friction stir welding of NiTi to Ti-6Al-4V sheets, not additively manufactured Ti-6Al-4V; no LPBF/SLM/EBM/DED process or AM-specific mechanical/fatigue characterization.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "friction stir welding",
+          "NiTi",
+          "Ti-6Al-4V",
+          "intermetallic",
+          "tensile strength",
+          "nanoindentation"
+        ],
+        "summary_zh": {
+          "motivation": "探索NiTi与Ti-6Al-4V异种金属的固态连接，以扩展其在航空航天领域的应用。",
+          "method": "对1mm厚NiTi和Ti-6Al-4V薄板进行对焊摩擦搅拌焊接，改变焊接参数。",
+          "result": "成功焊接但力学性能下降，归因于界面处形成Ti2Ni金属间化合物层。",
+          "validation": "通过拉伸测试和纳米压痕加速性能图谱验证。"
+        },
+        "summary_en": {
+          "motivation": "To explore solid-state dissimilar joining of NiTi and Ti-6Al-4V for expanding aerospace applications.",
+          "method": "Friction stir welding of butted 1 mm thick NiTi and Ti-6Al-4V sheets under varying welding parameters.",
+          "result": "Successful joints showed degraded tensile strength due to formation of a Ti2Ni intermetallic compound layer at the interface.",
+          "validation": "Mechanical validation via tensile testing and accelerated property mapping nanoindentation."
+        },
+        "key_terms": [
+          {
+            "en": "friction stir welding",
+            "zh": "摩擦搅拌焊接"
+          },
+          {
+            "en": "NiTi",
+            "zh": "镍钛合金"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "intermetallic compound",
+            "zh": "金属间化合物"
+          },
+          {
+            "en": "nanoindentation",
+            "zh": "纳米压痕"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:27:10Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4416577627",
+      "doi": "10.1088/1742-6596/3129/1/012050",
+      "title": "Research Progress on Damage Control and Non-marking Running/Pulling Techniques for Titanium Alloy Oil Well Tubing",
+      "abstract": "Titanium alloy tubing is an ideal material for extreme oil and gas environments—characterized by high temperature, high pressure, and H 2 S/CO 2 /chloride-rich conditions—due to its low density, high strength, excellent corrosion resistance, and fatigue performance. Internationally, Grade 28/29 titanium alloys developed by RMI have been successfully applied in sour gas wells, while Weatherford’s Ti-6Al-4V drill pipes exhibit fatigue resistance ten times higher than steel counterparts. Domestic research started later, yet Chinamade titanium alloy casings achieved their first successful application in natural gas hydrate trial production in 2020, with collapse resistance exceeding 42 MPa. Key failure modes include pitting, crevice, and galvanic corrosion, especially when passive films are damaged under high-temperature (&gt;70 °C) or reducing acidic conditions. While corrosion inhibitors (e.g., Na 2 MoO 4 ) reduce corrosion rates, novel inhibitors for temperatures above 160 °C are still needed. For wear resistance, surface modifications such as TiN or DLC coatings and multilayer coating technologies significantly improve performance. Non-marking running and pulling techniques with optimized jaw designs can limit tooth marks to &lt;0.08 mm, demonstrating effectiveness in high-sulfur environments. Future developments should focus on high-temperature acid-resistant inhibitors, hard-soft alternate coatings, and damage-free running technologies to enable large-scale applications in deep-well and offshore oil and gas operations.",
+      "authors": [
+        "Fan Chen",
+        "Xiansi Wang",
+        "Dejun Cai",
+        "Zhengfeng Shan",
+        "Yongsheng Zhang",
+        "Xiangpeng Li",
+        "Huaqing Liu",
+        "Jingwang Zhang",
+        "Xu Yao",
+        "Liuhe Li"
+      ],
+      "first_author_affiliation": "Drilling Company of CNPC Offshore Engineering Company Limited, Tianjin, 300450, China",
+      "corresponding_authors": [
+        {
+          "name": "Fan Chen",
+          "affiliation": "Drilling Company of CNPC Offshore Engineering Company Limited, Tianjin, 300450, China"
+        }
+      ],
+      "venue": "Journal of Physics Conference Series",
+      "year": 2025,
+      "date": "2025-10-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1088/1742-6596/3129/1/012050",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Metallurgy",
+        "Corrosion",
+        "Oil well",
+        "Coating",
+        "Titanium alloy",
+        "Corrosion fatigue",
+        "Titanium",
+        "Galvanic corrosion",
+        "Tin",
+        "Alloy",
+        "Galvanic cell",
+        "Drill pipe",
+        "Natural gas",
+        "Drill",
+        "Sour gas"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文综述钛合金油井管损伤控制，不涉及增材制造Ti-6Al-4V的力学或疲劳性能。",
+        "why_not_core": "The paper is a review of corrosion and wear of titanium alloy oil well tubing, not focused on additively manufactured Ti-6Al-4V mechanical or fatigue performance.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": true
+        },
+        "tags": [
+          "titanium alloy",
+          "oil well tubing",
+          "corrosion",
+          "wear",
+          "non-marking running"
+        ],
+        "summary_zh": {
+          "motivation": "钛合金油井管在极端油气环境中的应用及损伤控制需求。",
+          "method": "综述钛合金油管腐蚀、磨损防护及无痕起下技术。",
+          "result": "腐蚀抑制剂和涂层技术可提高性能，无痕起下技术有效。",
+          "validation": "文献综述，无新实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To review damage control and non-marking running/pulling techniques for titanium alloy oil well tubing in harsh oil and gas environments.",
+          "method": "A literature review of corrosion, wear, and handling technologies for titanium alloy tubing.",
+          "result": "Corrosion inhibitors and coatings improve performance; non-marking running techniques limit tooth marks to <0.08 mm.",
+          "validation": "Review paper without new experimental validation."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "titanium alloy tubing",
+            "zh": "钛合金油管"
+          },
+          {
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
+          },
+          {
+            "en": "fatigue performance",
+            "zh": "疲劳性能"
+          },
+          {
+            "en": "non-marking running",
+            "zh": "无痕起下"
+          },
+          {
+            "en": "DLC coatings",
+            "zh": "类金刚石涂层"
+          },
+          {
+            "en": "corrosion inhibitors",
+            "zh": "缓蚀剂"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:27:10Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414689985",
+      "doi": "10.3390/biomimetics10100662",
+      "title": "Osseodensification Versus Subtractive Drilling in Cortical Bone: An Evaluation of Implant Surface Characteristics and Their Effects on Osseointegration",
+      "abstract": "Osseodensification (OD) has emerged as a favorable osteotomy preparation technique that preserves and compacts autogenous bone along the osteotomy walls during site preparation, enhancing primary stability and implant osseointegration. While OD has demonstrated promising results in low-density trabecular bone, especially when used in conjunction with acid-etched (AE) implant surfaces, its efficacy in high-density cortical bone remains unclear—particularly in the context of varying implant surface characteristics. In this study, Grade V titanium alloy implants (Ti-6Al-4V, 4 mm × 10 mm) with deep threads, designated bone chambers and either as-machined (Mach) or AE surfaces were placed in 3.8 mm diameter osteotomies in the submandibular region of 16 adult sheep using either OD or conventional (Reg) drilling protocols. Insertion torque values (N·cm) were measured at the time of implant placement to evaluate primary stability. Mandibles were harvested at 3-, 6-, 12-, or 24-weeks post-implantation (n = 4 sheep/time point), and histologic sections were analyzed to quantify bone-to-implant contact (BIC) and bone area fractional occupancy (BAFO). Qualitative histological analysis confirmed successful osseointegration among all groups at each of the healing time points. No statistically significant differences were observed between OD and conventional drilling techniques in insertion torque (p &gt; 0.628), BIC (p &gt; 0.135), or BAFO (p &gt; 0.060) values, regardless of implant surface type or healing interval. The findings indicate that neither drilling technique nor implant surface treatment significantly influences osseointegration in high density cortical bone. Furthermore, as the osteotomy was not considerably undersized, the use of OD instrumentation showed no signs of necrosis, inflammation, microfractures, or impaired osseointegration in dense cortical bone. Both OD and Reg techniques appear to be suitable for implant placement in dense bone, allowing flexibility based on surgeon preference and clinical circumstances.",
+      "authors": [
+        "Sara E. Munkwitz",
+        "Albert Ting",
+        "Hana Shah",
+        "Nicholas J. Iglesias",
+        "Vasudev Vivekanand Nayak",
+        "Arthur Castellano",
+        "Lukasz Witek",
+        "Paulo G. Coelho"
+      ],
+      "first_author_affiliation": "University of Miami Miller School of Medicine, Miami, FL 33136, USA",
+      "corresponding_authors": [
+        {
+          "name": "Paulo G. Coelho",
+          "affiliation": "DeWitt Daughtry Family Department of Surgery, Division of Plastic Surgery, University of Miami Miller School of Medicine, Miami, FL 33136, USA"
+        }
+      ],
+      "venue": "Biomimetics",
+      "year": 2025,
+      "date": "2025-10-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.3390/biomimetics10100662",
+      "cited_by_count": 0,
+      "concepts": [
+        "Osseointegration",
+        "Implant",
+        "Osteotomy",
+        "Materials science",
+        "Biomedical engineering",
+        "Cortical bone",
+        "Dentistry",
+        "Resonance frequency analysis",
+        "Bone healing",
+        "Context (archaeology)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess",
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface treatment"
+        ],
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "primary stability"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究Ti-6Al-4V牙种植体的骨整合，与股骨柄结构设计或增材制造无关。",
+        "why_not_core": "No structural design or mechanical analysis of a femoral/hip stem; no additive manufacturing; no lattice, stress shielding, or fatigue testing; focuses on dental implant osseointegration in cortical bone.",
+        "validation_kind": "animal",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "osseodensification",
+          "Ti-6Al-4V",
+          "cortical bone",
+          "implant surface",
+          "osseointegration"
+        ],
+        "summary_zh": {
+          "motivation": "评估骨压实技术在高密度皮质骨中的应用效果",
+          "method": "在羊下颌骨中比较骨压实与常规钻孔，结合不同种植体表面处理",
+          "result": "两种技术在高密度皮质骨中的骨整合无显著差异",
+          "validation": "动物实验，组织学分析"
+        },
+        "summary_en": {
+          "motivation": "To evaluate whether osseodensification drilling improves implant osseointegration in high-density cortical bone compared to conventional drilling.",
+          "method": "Ti-6Al-4V implants with machined or acid-etched surfaces were placed in sheep mandibles using either osseodensification or conventional drilling; histology and torque measurements were performed.",
+          "result": "No significant differences in insertion torque, bone-to-implant contact, or bone area fractional occupancy were observed between drilling techniques or surface types at any healing time.",
+          "validation": "In vivo animal study with histological and mechanical evaluation."
+        },
+        "key_terms": [
+          {
+            "en": "osseodensification",
+            "zh": "骨压实"
+          },
+          {
+            "en": "cortical bone",
+            "zh": "皮质骨"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "implant surface",
+            "zh": "种植体表面"
+          },
+          {
+            "en": "osseointegration",
+            "zh": "骨整合"
+          },
+          {
+            "en": "sheep model",
+            "zh": "羊模型"
+          },
+          {
+            "en": "bone-to-implant contact",
+            "zh": "骨-种植体接触"
+          },
+          {
+            "en": "insertion torque",
+            "zh": "植入扭矩"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:27:10Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414798108",
+      "doi": "10.1007/s00170-025-16586-5",
+      "title": "Electrically assisted bulging process of Ti-6Al-4V cylinder with small aspect ratio: mechanical properties and microstructure characteristics",
+      "abstract": "",
+      "authors": [
+        "Xudong Cao",
+        "Qing Liu",
+        "Yong Yang",
+        "Xifeng Li",
+        "Jun Chen"
+      ],
+      "first_author_affiliation": "Institute of Forming Technology & Equipment, School of Materials Science and Engineering, Shanghai Jiao Tong University, No.1954 Huashan Rd., Shanghai, 200030, China",
+      "corresponding_authors": [
+        {
+          "name": "Xudong Cao",
+          "affiliation": "Institute of Forming Technology & Equipment, School of Materials Science and Engineering, Shanghai Jiao Tong University, No.1954 Huashan Rd., Shanghai, 200030, China"
+        }
+      ],
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "year": 2025,
+      "date": "2025-10-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1007/s00170-025-16586-5",
+      "cited_by_count": 0,
+      "concepts": [
+        "Equiaxed crystals",
+        "Materials science",
+        "Microstructure",
+        "Cylinder",
+        "Composite material",
+        "Thermal",
+        "Ultimate tensile strength",
+        "Finite element method",
+        "Homogeneity (statistics)",
+        "Roundness (object)",
+        "Forming processes",
+        "Metallurgy",
+        "Deformation (meteorology)",
+        "Material properties",
+        "Machining",
+        "Formability",
+        "Surface finish",
+        "Stress (linguistics)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的电辅助胀形工艺，而非增材制造，与用户方向无关。",
+        "why_not_core": "The paper does not cover additive manufacturing (LPBF/SLM/EBM/DED) of Ti-6Al-4V; it is about a forming (bulging) process.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "electrically assisted bulging",
+          "forming process",
+          "mechanical properties",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "研究Ti-6Al-4V小径厚比筒形件的电辅助胀形工艺。",
+          "method": "采用电辅助胀形实验结合微观表征。",
+          "result": "分析了力学性能和微观组织演变。",
+          "validation": "通过实验验证工艺效果。"
+        },
+        "summary_en": {
+          "motivation": "The study investigates the electrically assisted bulging process of Ti-6Al-4V cylinders with small aspect ratio to improve formability.",
+          "method": "Experimental bulging with electrical assistance was combined with microstructural characterization.",
+          "result": "The mechanical properties and microstructure evolution under different conditions were analyzed.",
+          "validation": "Experimental validation was performed through mechanical testing and microscopy."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "electrically assisted bulging",
+            "zh": "电辅助胀形"
+          },
+          {
+            "en": "small aspect ratio",
+            "zh": "小径厚比"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "forming process",
+            "zh": "成形工艺"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:27:10Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7107989555",
+      "doi": "10.19591/j.cnki.cn11-1974/tf.2024050016",
+      "title": "Microstructure and properties of Ti–6Al–4V matrix composites reinforced by polyetheramine-modified graphene oxide",
+      "abstract": "To solve the severe agglomeration problem of graphene in the metal matrix, leading to the poor mechanical properties of the composite materials, the organic solvent polyether amine (PEA) was used for the in-situ surface modification of graphene oxide nanosheets (GONs) to synthesize the graphene oxide monomers (GOMs). The Ti–6Al–4V (TC4) based composites (GONs/TC4 and GOMs/TC4) were fabricated via ultrasonic stirring and spark plasma sintering. The influence of GONs and GOMs on the microstructure and mechanical properties of the TC4 matrix was investigated, and the fracture behavior and strengthening mechanisms of GOMs/TC4 composites were explored. The results indicate that, compared with the TC4 alloys, the matrix structure of GONs/TC4 composites becomes finer, and the layered structure of TiC particles is formed with length of about 15.0 μm. The matrix structure of the GOMs/TC4 composites is more refined, and the relative density of the composites is higher. TiC is distributed in the matrix in the form of equiaxed particles, indicating that the dispersion of GOMs in the TC4 matrix is significantly improved. The mechanical properties of the TC4-based composites are significantly improved by polyether amine. The tensile strength of the GOMs/TC4 composites reach 1054.0 MPa, which is 20.6% higher than that of the TC4 alloys and 6.0% higher than that of the GONs/TC4 composites. Moreover, the GOMs/TC4 composites still maintain the relatively high elongation after fracture (approximately 8.0%), and the fracture surface exhibits the ductile fracture characteristic. The main strengthening mechanisms of GOMs/TC4 composites are fine-grain strengthening and GOMs load transfer strengthening.",
+      "authors": [
+        "ZHANG Zhongqiang",
+        "XUE Hang",
+        "CHEN Anqi",
+        "TUO Jinpeng",
+        "SHANG Wei",
+        "ZHU Ming",
+        "DONG Longlong",
+        "CHEN Minghua"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "ZHANG Zhongqiang",
+          "affiliation": ""
+        }
+      ],
+      "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "year": 2025,
+      "date": "2025-10-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.19591/j.cnki.cn11-1974/tf.2024050016",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Graphene",
+        "Microstructure",
+        "Ultimate tensile strength",
+        "Oxide",
+        "Composite number",
+        "Dispersion (optics)",
+        "Fracture (geology)",
+        "Equiaxed crystals",
+        "Spark plasma sintering",
+        "Matrix (chemical analysis)",
+        "Delamination (geology)",
+        "Alloy",
+        "Elongation"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "microstructure",
+          "tensile strength",
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是通过放电等离子烧结制备的石墨烯增强钛合金复合材料，而非增材制造工艺，因此与研究方向不相关。",
+        "why_not_core": "The paper does not involve any additive manufacturing process (LPBF/SLM/EBM/DED) for Ti-6Al-4V; it uses spark plasma sintering, which is a conventional powder metallurgy technique.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "composites",
+          "graphene oxide",
+          "spark plasma sintering",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "解决石墨烯在金属基体中团聚导致力学性能差的问题",
+          "method": "使用聚醚胺改性氧化石墨烯，超声搅拌和放电等离子烧结制备TC4基复合材料",
+          "result": "改性后复合材料抗拉强度达1054.0 MPa，延伸率约8%",
+          "validation": "通过拉伸测试和微观表征验证强化机制"
+        },
+        "summary_en": {
+          "motivation": "To address graphene agglomeration in metal matrices that degrades mechanical properties",
+          "method": "Polyetheramine-modified graphene oxide was used to fabricate Ti-6Al-4V matrix composites via ultrasonic stirring and spark plasma sintering",
+          "result": "The modified composites achieved a tensile strength of 1054.0 MPa with 8.0% elongation",
+          "validation": "Mechanical testing and microstructural characterization confirmed fine-grain and load-transfer strengthening"
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "graphene oxide",
+            "zh": "氧化石墨烯"
+          },
+          {
+            "en": "spark plasma sintering",
+            "zh": "放电等离子烧结"
+          },
+          {
+            "en": "composite",
+            "zh": "复合材料"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "elongation",
+            "zh": "延伸率"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:27:10Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 9,
     "by_source": {
-      "openalex": 2
+      "openalex": 9
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 9,
+    "after_routing": 9,
     "by_direction": {
-      "ti6al4v_postprocess": 2
+      "ti6al4v_postprocess": 3,
+      "ti6al4v_base_mechanical_fatigue": 5,
+      "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 9
     },
-    "scored": 2,
+    "scored": 9,
     "priority_counts": {
       "Medium": 1,
-      "Exclude": 1
+      "Exclude": 7,
+      "High": 1
     }
   }
 }

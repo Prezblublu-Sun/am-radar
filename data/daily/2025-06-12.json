@@ -5,6 +5,137 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W4411254318",
+      "doi": "10.1007/s44285-025-00046-3",
+      "title": "Overview of material constitutive law for additive manufacturing metal structures",
+      "abstract": "Abstract Metal materials play a significant role in civil and construction engineering, and additively manufactured (AM) metals are gaining attention as a complementary technology due to their benefits of reduced material waste and greater design flexibility. In recent years, AM carbon steel, stainless steel, and alloy steel have drawn considerable interest from both academia and industry; however, their material properties are not yet fully understood. This paper compiles the mechanical properties of four materials—Ti6Al4V, 17-4PH, 304 stainless steel, and 316 stainless steel under both monotonic tensile loading and low-cycle fatigue conditions from published literatures. It examines the effects of anisotropy, surface treatment, heat treatment, and other post-processing methods on the mechanical properties of AM metals. Finally, this paper evaluates and compares the constitutive models for AM metals subjected to both monotonic tensile and low-cycle fatigue loading, providing insights to aid in the design and analysis of AM metal structures.",
+      "authors": [
+        "Bing‐Lin Lai",
+        "Yiran Li",
+        "Tong Guo",
+        "George Vasdravellis",
+        "J.Y. Richard Liew"
+      ],
+      "first_author_affiliation": "Key Laboratory of Concrete and Prestressed Concrete Structures of Ministry of Education, Southeast University, Nanjing, 211189, China",
+      "corresponding_authors": [
+        {
+          "name": "Bing‐Lin Lai",
+          "affiliation": "Key Laboratory of Concrete and Prestressed Concrete Structures of Ministry of Education, Southeast University, Nanjing, 211189, China"
+        }
+      ],
+      "venue": "Urban Lifeline",
+      "year": 2025,
+      "date": "2025-06-12",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s44285-025-00046-3",
+      "cited_by_count": 1,
+      "concepts": [
+        "Constitutive equation",
+        "Materials science",
+        "Engineering",
+        "Forensic engineering",
+        "Law"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "fatigue"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "heat treatment",
+          "surface treatment",
+          "post-processing"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Peripheral",
+        "read_action": "Skim only",
+        "relevance_to_user": "该综述汇总了包括Ti-6Al-4V在内的多种增材制造金属的后处理对力学性能的影响，但缺乏针对Ti-6Al-4V后处理控制的新实验数据。",
+        "why_not_core": "Literature review without novel experimental data or quantitative comparison of post-processing effects on Ti-6Al-4V fatigue performance.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": true
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "post-processing",
+          "review",
+          "constitutive model",
+          "fatigue",
+          "additive manufacturing"
+        ],
+        "summary_zh": {
+          "motivation": "增材制造金属材料的力学性能尚未完全理解，需要系统总结。",
+          "method": "汇总Ti6Al4V、17-4PH、304和316不锈钢的拉伸和低周疲劳数据，分析各向异性及后处理影响。",
+          "result": "比较了单调拉伸和低周疲劳下增材制造金属的本构模型。",
+          "validation": "基于已发表文献的数据汇编和模型评估。"
+        },
+        "summary_en": {
+          "motivation": "The mechanical properties of additively manufactured metals are not fully understood, motivating a systematic review of existing data and models.",
+          "method": "Compiles tensile and low-cycle fatigue data for Ti6Al4V, 17-4PH, 304 SS, and 316 SS from literature, analyzing effects of anisotropy, surface treatment, heat treatment, and other post-processing methods.",
+          "result": "Evaluates and compares constitutive models for monotonic tensile and low-cycle fatigue loading of AM metals.",
+          "validation": "Based on literature data compilation and model comparison without new experimental validation."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "constitutive model",
+            "zh": "本构模型"
+          },
+          {
+            "en": "low-cycle fatigue",
+            "zh": "低周疲劳"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "surface treatment",
+            "zh": "表面处理"
+          },
+          {
+            "en": "anisotropy",
+            "zh": "各向异性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W4411638975",
       "doi": "10.1177/00325899251348352",
       "title": "Effect of oxygen content in feedstock powders on microstructure and mechanical properties of ELI Ti-6Al-4V fabricated via laser powder bed fusion",
@@ -52,6 +183,10 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "microstructure",
           "porosity"
         ],
         "ti6al4v_postprocess": [
@@ -61,11 +196,11 @@
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "论文研究了Ti-6Al-4V粉末氧含量对微观结构和力学性能的影响，但仅提及热等静压处理后α片层厚度减小，并非系统性的后处理研究。",
-        "why_not_core": "The paper does not systematically vary post-processing parameters; its core focus is feedstock oxygen content rather than a controlled post-processing study.",
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "文章涉及热处理（热等静压）对Ti-6Al-4V微观组织和硬度的影响，与后处理方向相关。",
+        "why_not_core": "主要变量为粉末氧含量，而非系统研究后处理工艺对力学性能（如疲劳）的影响。",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -75,23 +210,23 @@
         },
         "tags": [
           "Ti-6Al-4V",
+          "laser powder bed fusion",
           "oxygen content",
           "hot isostatic pressing",
-          "laser powder bed fusion",
           "microstructure",
           "hardness"
         ],
         "summary_zh": {
-          "motivation": "研究ELI级Ti-6Al-4V粉末氧含量对LPBF成形件组织与性能的影响。",
-          "method": "通过不同氧含量粉末进行LPBF成形，结合热等静压处理，分析显微组织与硬度。",
-          "result": "氧含量增加导致晶格畸变和硬度升高，热等静压后α片层厚度减小。",
-          "validation": "采用维氏硬度测试和X射线衍射等实验验证。"
+          "motivation": "研究激光粉末床熔融Ti-6Al-4V中氧含量对组织和性能的影响。",
+          "method": "采用不同氧含量粉末进行LPBF成型并进行热等静压处理，通过光谱和XRD分析微观结构。",
+          "result": "氧含量增加导致晶格畸变和硬度升高，热等静压后α板条厚度减小。",
+          "validation": "通过维氏硬度和微观结构表征验证氧含量和热等静压的影响。"
         },
         "summary_en": {
-          "motivation": "To investigate how oxygen content in ELI-grade Ti-6Al-4V powder influences the microstructure and mechanical properties of LPBF-fabricated samples.",
-          "method": "LPBF samples were produced from powders with different oxygen contents, followed by hot isostatic pressing, and characterized by microscopy, XRD, and Vickers hardness.",
-          "result": "Higher oxygen content increased lattice distortion and hardness, while HIP reduced alpha lath thickness.",
-          "validation": "Experimental validation via Vickers hardness testing and microstructural analysis."
+          "motivation": "To investigate how the oxygen content in ELI Ti-6Al-4V powders affects the microstructure and mechanical properties of LPBF-fabricated samples.",
+          "method": "Samples were fabricated with varying oxygen content powders and subjected to hot isostatic pressing; microstructural analysis was performed using spectroscopy and XRD.",
+          "result": "Higher oxygen content increased lattice distortion and Vickers hardness, while HIP treatment reduced alpha lath thickness.",
+          "validation": "Validation was conducted through Vickers hardness measurements and microstructural characterization."
         },
         "key_terms": [
           {
@@ -99,7 +234,7 @@
             "zh": "激光粉末床熔融"
           },
           {
-            "en": "ELI Ti-6Al-4V",
+            "en": "extra low interstitial (ELI) Ti-6Al-4V",
             "zh": "超低间隙Ti-6Al-4V"
           },
           {
@@ -107,150 +242,30 @@
             "zh": "氧含量"
           },
           {
-            "en": "hot isostatic pressing",
+            "en": "hot isostatic pressing (HIP)",
             "zh": "热等静压"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
           },
           {
             "en": "Vickers hardness",
             "zh": "维氏硬度"
           },
           {
-            "en": "alpha lath",
-            "zh": "α片层"
+            "en": "alpha lath thickness",
+            "zh": "α板条厚度"
+          },
+          {
+            "en": "lattice distortion",
+            "zh": "晶格畸变"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
-    },
-    {
-      "source": "openalex",
-      "id": "https://openalex.org/W4411254318",
-      "doi": "10.1007/s44285-025-00046-3",
-      "title": "Overview of material constitutive law for additive manufacturing metal structures",
-      "abstract": "Abstract Metal materials play a significant role in civil and construction engineering, and additively manufactured (AM) metals are gaining attention as a complementary technology due to their benefits of reduced material waste and greater design flexibility. In recent years, AM carbon steel, stainless steel, and alloy steel have drawn considerable interest from both academia and industry; however, their material properties are not yet fully understood. This paper compiles the mechanical properties of four materials—Ti6Al4V, 17-4PH, 304 stainless steel, and 316 stainless steel under both monotonic tensile loading and low-cycle fatigue conditions from published literatures. It examines the effects of anisotropy, surface treatment, heat treatment, and other post-processing methods on the mechanical properties of AM metals. Finally, this paper evaluates and compares the constitutive models for AM metals subjected to both monotonic tensile and low-cycle fatigue loading, providing insights to aid in the design and analysis of AM metal structures.",
-      "authors": [
-        "Bing‐Lin Lai",
-        "Yiran Li",
-        "Tong Guo",
-        "George Vasdravellis",
-        "J.Y. Richard Liew"
-      ],
-      "first_author_affiliation": "Key Laboratory of Concrete and Prestressed Concrete Structures of Ministry of Education, Southeast University, Nanjing, 211189, China",
-      "corresponding_authors": [
-        {
-          "name": "Bing‐Lin Lai",
-          "affiliation": "Key Laboratory of Concrete and Prestressed Concrete Structures of Ministry of Education, Southeast University, Nanjing, 211189, China"
-        }
-      ],
-      "venue": "Urban Lifeline",
-      "year": 2025,
-      "date": "2025-06-12",
-      "date_precision": "day",
-      "url": "https://doi.org/10.1007/s44285-025-00046-3",
-      "cited_by_count": 1,
-      "concepts": [
-        "Constitutive equation",
-        "Materials science",
-        "Engineering",
-        "Forensic engineering",
-        "Law"
-      ],
-      "categories": [],
-      "raw_type": "article",
-      "directions": [
-        "ti6al4v_postprocess",
-        "ti6al4v_base_mechanical_fatigue"
-      ],
-      "direction": "ti6al4v_postprocess",
-      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
-      "routing_matches": {
-        "ti6al4v_postprocess": [
-          "Ti6Al4V",
-          "heat treatment",
-          "surface treatment",
-          "post-processing"
-        ],
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti6Al4V",
-          "fatigue"
-        ]
-      },
-      "llm": {
-        "priority": "Medium",
-        "relevance_level": "Direct",
-        "read_action": "Skim only",
-        "relevance_to_user": "这篇综述直接涉及Ti-6Al-4V的后处理（热处理、表面处理）对力学性能的影响，符合L2方向要求。",
-        "why_not_core": "No new experimental data; review of existing literature with broad material scope not solely focused on Ti-6Al-4V.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": false,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": true
-        },
-        "tags": [
-          "Ti-6Al-4V",
-          "post-processing",
-          "heat treatment",
-          "surface treatment",
-          "monotonic tensile",
-          "low-cycle fatigue",
-          "constitutive model",
-          "additive manufacturing",
-          "review"
-        ],
-        "summary_zh": {
-          "motivation": "综述增材制造金属材料（含Ti-6Al-4V）的力学性能及其本构模型。",
-          "method": "收集并比较Ti6Al4V等四种材料的拉伸和疲劳数据，分析后处理（热处理、表面处理）影响。",
-          "result": "总结了后处理对力学性能的改善作用，评估了现有本构模型的适用性。",
-          "validation": "文献综述，无实验验证。"
-        },
-        "summary_en": {
-          "motivation": "To compile and compare the mechanical properties of AM metals including Ti6Al4V under monotonic and fatigue loading, focusing on the effects of post-processing.",
-          "method": "Literature survey of tensile and low-cycle fatigue data for Ti6Al4V, 17-4PH, 304, and 316 stainless steels, analyzing the influence of anisotropy, surface treatment, and heat treatment.",
-          "result": "Post-processing treatments improve mechanical properties, and existing constitutive models are evaluated for their accuracy.",
-          "validation": "No experimental validation; the study is a review of published data."
-        },
-        "key_terms": [
-          {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
-          },
-          {
-            "en": "post-processing",
-            "zh": "后处理"
-          },
-          {
-            "en": "heat treatment",
-            "zh": "热处理"
-          },
-          {
-            "en": "surface treatment",
-            "zh": "表面处理"
-          },
-          {
-            "en": "monotonic tensile",
-            "zh": "单调拉伸"
-          },
-          {
-            "en": "low-cycle fatigue",
-            "zh": "低周疲劳"
-          },
-          {
-            "en": "constitutive model",
-            "zh": "本构模型"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
+      "first_seen_at": "2026-06-08T08:12:51Z"
     },
     {
       "source": "openalex",
@@ -305,12 +320,12 @@
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是Ti-6Al-4V的线切割电火花加工参数优化，不涉及增材制造Ti-6Al-4V的后处理及其力学性能。",
-        "why_not_core": "This paper does not concern additively manufactured Ti-6Al-4V nor does it study the effect of a post-processing treatment on mechanical performance (fatigue, tensile, etc.); it focuses on WEDM parameter optimization for surface roughness of conventional Ti-6Al-4V.",
-        "validation_kind": "mechanical_testing",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的线切割放电加工参数优化，但未涉及增材制造后处理（如热处理、表面强化）对疲劳或力学性能的影响，与用户方向的直接相关性低。",
+        "why_not_core": "Not about post-processing of additive manufactured Ti-6Al-4V; it focuses on wire EDM process parameters for surface roughness, not on modifying fatigue or mechanical performance via post-processing treatments like heat treatment, HIP, or shot peening.",
+        "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -318,54 +333,55 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
           "WEDM",
-          "surface roughness",
-          "process optimization",
-          "Taguchi method"
+          "Ti-6Al-4V",
+          "Taguchi method",
+          "deep neural network",
+          "ANOVA",
+          "surface roughness"
         ],
         "summary_zh": {
-          "motivation": "提高Ti-6Al-4V线切割电火花加工的表面质量与精度。",
-          "method": "结合田口方法、深度神经网络和方差分析优化线切割参数。",
-          "result": "最优参数使表面粗糙度降至1.50 µm，ANN预测精度超过95%。",
-          "validation": "通过L27正交实验和方差分析验证参数显著性。"
+          "motivation": "优化Ti-6Al-4V线切割放电加工的表面质量。",
+          "method": "结合Taguchi正交实验、深度神经网络和方差分析建立混合优化框架。",
+          "result": "最优参数组合使表面粗糙度降至1.50 μm，ANN预测精度超过95%。",
+          "validation": "通过WEDM实验和ANN预测验证模型有效性。"
         },
         "summary_en": {
-          "motivation": "To enhance surface integrity and machining efficiency of Ti-6Al-4V during WEDM through a hybrid optimization framework.",
-          "method": "A Taguchi L27 orthogonal array combined with deep neural networks and ANOVA was used to optimize pulse-on time, pulse-off time, and wire feed rate.",
-          "result": "Optimal parameters achieved a minimum surface roughness of 1.50 µm, and the ANN model predicted Ra with over 95% accuracy.",
-          "validation": "Experimental trials on a WEDM machine and ANOVA at p=0.05 confirmed the statistical significance of the parameters."
+          "motivation": "To enhance surface integrity of Ti-6Al-4V by optimizing Wire Electrical Discharge Machining parameters through a hybrid approach.",
+          "method": "A hybrid framework integrating Taguchi's L27 orthogonal array, Deep Neural Networks, and Analysis of Variance was employed to model and optimize the effect of pulse-on time, pulse-off time, and wire feed rate on surface roughness.",
+          "result": "Optimal parameters (Ton=3 µs, Toff=4 µs, Wf=2 m/min) achieved a minimum Ra of 1.50 µm, and the ANN model predicted roughness with over 95% accuracy.",
+          "validation": "The approach was validated by conducting WEDM experiments and comparing measured surface roughness with ANN predictions, confirmed by ANOVA at p=0.05."
         },
         "key_terms": [
           {
-            "en": "wire electrical discharge machining",
-            "zh": "线切割电火花加工"
+            "en": "Wire Electrical Discharge Machining (WEDM)",
+            "zh": "线切割放电加工"
           },
           {
             "en": "Ti-6Al-4V",
             "zh": "Ti-6Al-4V钛合金"
           },
           {
-            "en": "surface roughness",
-            "zh": "表面粗糙度"
-          },
-          {
             "en": "Taguchi method",
             "zh": "田口方法"
           },
           {
-            "en": "deep neural network",
+            "en": "Deep Neural Network (DNN)",
             "zh": "深度神经网络"
           },
           {
-            "en": "analysis of variance",
+            "en": "Analysis of Variance (ANOVA)",
             "zh": "方差分析"
+          },
+          {
+            "en": "surface roughness (Ra)",
+            "zh": "表面粗糙度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
+      "first_seen_at": "2026-06-08T08:12:51Z"
     }
   ],
   "counts": {
@@ -383,9 +399,8 @@
     },
     "scored": 3,
     "priority_counts": {
-      "Low": 1,
-      "Medium": 1,
-      "Exclude": 1
+      "Medium": 2,
+      "Low": 1
     }
   }
 }

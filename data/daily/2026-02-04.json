@@ -65,16 +65,19 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "additively manufactured",
+          "powder bed fusion",
+          "build direction",
           "porosity"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文主要研究EB-PBF Ti6Al4V的PEO涂层腐蚀性能，不涉及力学或疲劳性能。",
-        "why_not_core": "The paper focuses on corrosion performance of PEO coatings on EB-PBF Ti6Al4V, with no mechanical or fatigue testing, modeling, or analysis.",
-        "validation_kind": "mechanical_testing",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究EB-PBF Ti6Al4V基体上PEO涂层的耐腐蚀性能，未涉及力学或疲劳性能，与筛选方向不直接相关。",
+        "why_not_core": "It does not address mechanical properties or fatigue of Ti-6Al-4V; instead, it focuses on corrosion performance of PEO coatings, which is outside the L1 scope.",
+        "validation_kind": "in_vitro",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -82,50 +85,54 @@
           "is_review": false
         },
         "tags": [
-          "Ti6Al4V",
           "EB-PBF",
-          "PEO coatings",
+          "Ti6Al4V",
+          "build direction",
           "corrosion",
-          "build direction"
+          "PEO coating"
         ],
         "summary_zh": {
-          "motivation": "研究EB-PBF Ti6Al4V基体构建方向对PEO涂层腐蚀性能的影响。",
-          "method": "在不同电流密度和时间下制备PEO涂层，分析形貌、相组成和腐蚀性能。",
-          "result": "构建方向对涂层厚度和孔隙率影响微小，PEO处理消除了未涂层样品的腐蚀各向异性。",
-          "validation": "通过扫描电镜、X射线衍射和电化学测试进行实验验证。"
+          "motivation": "研究EB-PBF Ti6Al4V增材制造方向对PEO涂层腐蚀性能的影响",
+          "method": "在不同电流密度和处理时间下制备PEO涂层，并表征其形貌、相组成和腐蚀性能",
+          "result": "PEO涂层消除了未涂层EB-PBF Ti6Al4V的腐蚀各向异性，表现出均匀的保护性能",
+          "validation": "通过实验制备涂层并进行腐蚀测试验证"
         },
         "summary_en": {
-          "motivation": "To investigate the influence of build direction in EB-PBF Ti6Al4V on the corrosion performance of Plasma Electrolytic Oxidation coatings.",
-          "method": "PEO coatings were produced in Si-P electrolyte under varied current densities and treatment times, followed by characterization of morphology, phase composition, and corrosion resistance.",
-          "result": "Build direction had minimal effect on coating thickness and porosity, and PEO treatment eliminated corrosion anisotropy observed in uncoated EB-PBF Ti6Al4V.",
-          "validation": "Experimental validation via SEM, XRD, and electrochemical corrosion tests."
+          "motivation": "This study investigates how build direction in EB-PBF Ti6Al4V affects the corrosion performance of PEO coatings.",
+          "method": "PEO coatings were produced under varying current densities and treatment times, and characterized for morphology, phase composition, and corrosion resistance.",
+          "result": "PEO treatment eliminated the corrosion anisotropy of uncoated EB-PBF Ti6Al4V, providing uniform protection regardless of build direction.",
+          "validation": "Experimental coating fabrication and corrosion testing validated the findings."
         },
         "key_terms": [
           {
-            "en": "Electron Beam Powder Bed Fusion",
+            "en": "electron beam powder bed fusion",
             "zh": "电子束粉末床熔融"
           },
           {
-            "en": "Plasma Electrolytic Oxidation",
-            "zh": "等离子体电解氧化"
-          },
-          {
-            "en": "corrosion anisotropy",
-            "zh": "腐蚀各向异性"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
           },
           {
             "en": "build direction",
             "zh": "构建方向"
           },
           {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V"
+            "en": "plasma electrolytic oxidation",
+            "zh": "等离子体电解氧化"
+          },
+          {
+            "en": "corrosion performance",
+            "zh": "腐蚀性能"
+          },
+          {
+            "en": "anisotropy",
+            "zh": "各向异性"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
     },
     {
       "source": "openalex",
@@ -178,6 +185,9 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "additive manufacturing",
+          "electron beam melting",
+          "EBM",
           "surface roughness"
         ],
         "ti6al4v_postprocess": [
@@ -189,9 +199,9 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文涉及EBM成形Ti6Al4V合金的微钻孔后处理工艺，但未研究其对疲劳或力学性能的影响，与关注后处理对力学性能影响的L2方向关联度低。",
-        "why_not_core": "No investigation of post-processing effect on fatigue or tensile mechanical performance; focuses solely on drilling process parameters and hole quality.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文涉及EBM Ti6Al4V的微钻孔加工，但未研究后处理对疲劳或力学性能的改善，与用户方向不直接相关。",
+        "why_not_core": "This paper focuses on micro-drilling process parameters and hole quality, not on how post-processing modifies fatigue or mechanical performance of Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -199,26 +209,29 @@
           "is_review": false
         },
         "tags": [
-          "electron beam melting",
-          "Ti6Al4V",
           "micro-drilling",
           "hole quality",
-          "thrust force",
-          "tool wear"
+          "Ti6Al4V",
+          "electron beam melting",
+          "post-processing"
         ],
         "summary_zh": {
-          "motivation": "研究电子束熔融Ti6Al4V合金的微钻孔性能及孔质量优化。",
-          "method": "采用不同钻孔策略、主轴转速和进给率进行实验，测量推力、振动、温度、磨损和孔质量。",
-          "result": "导孔策略和低参数下获得最佳孔质量，推力随进给率和转速增大而增大。",
-          "validation": "通过孔几何形状优化参数并验证各评价指标。"
+          "motivation": "研究EBM Ti6Al4V合金微钻孔的加工性能与孔质量",
+          "method": "实验考察不同钻孔策略、主轴转速和进给率对推力和振动等的影响",
+          "result": "最优参数为引孔策略、7500 r/min和5 μm/r，表面粗糙度2.3~3.5 μm",
+          "validation": "通过实验测量验证孔几何质量与加工条件的关系"
         },
         "summary_en": {
-          "motivation": "To investigate the micro-drilling performance and hole quality of electron beam melted Ti6Al4V alloy under various drilling conditions.",
-          "method": "Experimental drilling tests with different strategies, spindle speeds, and feed rates, measuring thrust force, vibration, tool temperature, wear, and hole quality.",
-          "result": "Optimal hole quality achieved with pilot hole strategy at 7500 rpm and 5 µm/rev; thrust force and vibration increase with feed rate and spindle speed.",
-          "validation": "Process parameters optimized based on hole geometry and validated against multiple evaluation criteria."
+          "motivation": "To investigate the micro-drilling performance and hole quality of Ti6Al4V alloy produced by electron beam melting under various drilling strategies.",
+          "method": "Experimental drilling tests were conducted with different spindle speeds, feed rates, and drilling strategies, measuring thrust force, vibration, tool temperature, and wear.",
+          "result": "Optimal hole quality was achieved using a pilot hole strategy at 7500 rpm and 5 µm/rev, with surface roughness Ra between 2.3 μm and 3.5 μm.",
+          "validation": "Experimental measurements of thrust force, vibration, tool temperature, and wear validated the process parameter optimization."
         },
         "key_terms": [
+          {
+            "en": "micro-drilling",
+            "zh": "微钻孔"
+          },
           {
             "en": "electron beam melting",
             "zh": "电子束熔融"
@@ -228,16 +241,28 @@
             "zh": "Ti6Al4V合金"
           },
           {
-            "en": "micro-drilling",
-            "zh": "微钻孔"
+            "en": "thrust force",
+            "zh": "推力"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           },
           {
             "en": "hole quality",
             "zh": "孔质量"
           },
           {
-            "en": "thrust force",
-            "zh": "推力"
+            "en": "drilling strategy",
+            "zh": "钻孔策略"
+          },
+          {
+            "en": "spindle speed",
+            "zh": "主轴转速"
+          },
+          {
+            "en": "feed rate",
+            "zh": "进给率"
           },
           {
             "en": "tool wear",
@@ -247,7 +272,293 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7127646025",
+      "doi": "10.3390/met16020187",
+      "title": "pH-Dependent Long-Term Degradation and Mechanical Integrity of LPBF-Fabricated Porous Ti-6Al-4V in Hank’s Solutions with Different pH Values",
+      "abstract": "Titanium alloys are widely used as bone graft materials due to their excellent corrosion resistance and biocompatibility. Implant failure can result from long-term exposure to body fluids and inflammation-induced pH decreases, both of which compromise the material’s corrosion resistance and mechanical stability. To address this issue, porous Ti-6Al-4V alloy was selected in this work. Immersion tests were conducted in Hank’s solution with different pH values (3, 5, and 7) for 90 days to simulate the in vivo microenvironment under various physiological conditions. The degradation behavior of porous Ti-6Al-4V alloy during the 90-day immersion period was systematically investigated using a combination of characterization techniques. The results indicated that TiO2, Ca3(PO4)2, and Ca(H2PO4)2 phases were formed on the surface of the after 90 days of immersion. Massive dissolution of TiO2 was observed in solutions with high H+ concentration (low pH). Ion release tests revealed that the concentration of titanium ions released was significantly higher in acidic solutions, suggesting that the passive film formed on porous Ti-6Al-4V alloy was unstable and prone to dissolution under acidic conditions. Consequently, a large amount of corrosion products accumulated on the specimen surfaces immersed in acidic solutions for a long duration. Moreover, the compression properties of the samples deteriorated after immersion. Specifically, the compressive strength decreased by 12.68 MPa, 11.67 MPa, and 5.84 MPa for sample immersed in solutions with pH = 3, 5, and 7, respectively. The significant reduction in compressive performance of the alloy in high H+ concentration solutions was attributed to the decreased compactness caused by ion release. The fracture mode of the porous Ti-6Al-4V alloy after immersion was identified as a mixed mode of ductile and brittle fracture.",
+      "authors": [
+        "Wei-Gang Lv",
+        "Zi-Meng Xiao",
+        "Ze-Xin Wang",
+        "Sheng Lu",
+        "Dubovyy Oleksandr",
+        "Liang-Yu Chen"
+      ],
+      "first_author_affiliation": "School of Materials Science and Engineering, Jiangsu University of Science and Technology, Zhenjiang 212003, China",
+      "corresponding_authors": [
+        {
+          "name": "Wei-Gang Lv",
+          "affiliation": "School of Materials Science and Engineering, Jiangsu University of Science and Technology, Zhenjiang 212003, China"
+        }
+      ],
+      "venue": "Metals",
+      "year": 2026,
+      "date": "2026-02-04",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/met16020187",
+      "cited_by_count": 0,
+      "concepts": [
+        "Dissolution",
+        "Corrosion",
+        "Materials science",
+        "Alloy",
+        "Compressive strength",
+        "Porosity",
+        "Immersion (mathematics)",
+        "Penetration (warfare)",
+        "Simulated body fluid",
+        "Degradation (telecommunications)",
+        "Titanium alloy",
+        "Composite material",
+        "Compression (physics)",
+        "Electrolyte",
+        "Titanium",
+        "Ion",
+        "Chemical engineering",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "LPBF"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文研究了LPBF多孔Ti-6Al-4V在不同pH环境下的降解对压缩性能的影响，但未涉及疲劳性能，因此仅作为转移性背景参考。",
+        "why_not_core": "No fatigue testing, no S-N curve, no defect or anisotropic characterization; mechanical evaluation limited to degradation-affected compression only.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "LPBF",
+          "Ti-6Al-4V",
+          "porous",
+          "degradation",
+          "compressive strength",
+          "Hank's solution",
+          "pH",
+          "corrosion"
+        ],
+        "summary_zh": {
+          "motivation": "研究LPBF制备的多孔Ti-6Al-4V在不同pH模拟体液中的长期降解行为及其对力学完整性的影响。",
+          "method": "将多孔样品在pH 3、5、7的Hank's溶液中浸泡90天，结合表征与压缩测试分析降解机理。",
+          "result": "酸性环境加剧TiO2溶解与离子释放，压缩强度分别下降12.68、11.67和5.84 MPa，断裂为韧脆混合模式。",
+          "validation": "通过90天浸泡实验和压缩力学测试验证降解对性能的影响。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the long-term degradation behavior of LPBF-fabricated porous Ti-6Al-4V in Hank's solutions with varying pH and the consequent effect on mechanical integrity.",
+          "method": "Porous specimens were immersed in Hank's solutions at pH 3, 5, and 7 for 90 days, and characterized by multiple techniques followed by compression testing.",
+          "result": "Acidic conditions promoted TiO2 dissolution and ion release, reducing compressive strength by 12.68, 11.67, and 5.84 MPa for pH 3, 5, and 7, respectively, with a mixed ductile-brittle fracture mode.",
+          "validation": "Experimental immersion and compression mechanical testing validated the degradation-induced performance deterioration."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "porous Ti-6Al-4V",
+            "zh": "多孔Ti-6Al-4V"
+          },
+          {
+            "en": "Hank's solution",
+            "zh": "Hank's溶液"
+          },
+          {
+            "en": "pH",
+            "zh": "pH值"
+          },
+          {
+            "en": "degradation",
+            "zh": "降解"
+          },
+          {
+            "en": "compressive strength",
+            "zh": "抗压强度"
+          },
+          {
+            "en": "ion release",
+            "zh": "离子释放"
+          },
+          {
+            "en": "corrosion",
+            "zh": "腐蚀"
+          },
+          {
+            "en": "TiO2",
+            "zh": "二氧化钛"
+          },
+          {
+            "en": "fracture mode",
+            "zh": "断裂模式"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7127656337",
+      "doi": "10.1016/j.jmrt.2026.01.240",
+      "title": "Differentiated mechanical properties between additively manufactured and as-cast TC4 titanium alloy subject to deep cryogenic treatment regulation",
+      "abstract": "To address the challenge of synergizing strength and ductility in laser-additively manufactured TC4 titanium alloy (Ti-6Al-4V), which forms non-equilibrium high-energy metastable structures due to rapid solidification, this study focuses on the modification effects of deep cryogenic treatment (DCT) on additive-manufactured TC4 (AM-TC4) and systematically compares it with conventional cast specimens (CF-TC4). The key findings demonstrate that DCT synergistically enhances both strength and ductility in AM-TC4: tensile strength, yield strength, and elongation increase by 3.5%, 5.0%, and 33.9%, respectively. In contrast, while cast TC4 exhibits more pronounced plasticity improvement (elongation +58.7%), its strengthening effect is limited and mechanistically distinct, primarily relying on severe grain refinement induced by DCT. Mechanistic analysis reveals that for the high dislocation density and high internal stress microstructure characteristic of additive manufacturing, DCT triggers a “defect restructuring” effect. This promotes β→α′ phase transformation, induces nano-precipitation (precipitation strengthening), and drives dislocation rearrangement. Consequently, an optimized grain boundary structure of “intragranular low-angle grain boundary (LAGB) dispersion + stabilized high-angle grain boundary (HAGB) network” is formed, constituting the fundamental mechanism for achieving its strength-toughness synergy. This study provides a theoretical basis for utilizing deep cryogenic treatment to enhance the comprehensive properties of additive-manufactured titanium alloy components, highlighting its distinct mechanism compared to conventional cast materials. • Experiments on deep cryogenic treatment (DCT) of both additive-manufactured and as-cast TC4 titanium alloy were conducted. • It reveals the distinct microstructural evolution and \"defect restructuring\" mechanism in additive-manufactured TC4 induced by DCT. • The strength and ductility of additive-manufactured TC4 are synergistically improved after DCT treatment. • It clarifies the differential strengthening mechanisms between additive-manufactured and cast TC4 subjected to DCT.",
+      "authors": [
+        "Z.J. Ji",
+        "C. Sun",
+        "H. Nan",
+        "J. Z. Wang",
+        "J.Q. Liao",
+        "X.M. Zhao",
+        "G.R. Li",
+        "H.M. Wang"
+      ],
+      "first_author_affiliation": "AECC Beijing Institute of Aeronautical Materials, Beijing 10095, China",
+      "corresponding_authors": [
+        {
+          "name": "G.R. Li",
+          "affiliation": "Jiangsu University, Zhenjiang, Jiangsu Province, 212013, China"
+        }
+      ],
+      "venue": "Journal of Materials Research and Technology",
+      "year": 2026,
+      "date": "2026-02-04",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jmrt.2026.01.240",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Titanium alloy",
+        "Cryogenic treatment",
+        "Ductility (Earth science)",
+        "Grain boundary",
+        "Metallurgy",
+        "Microstructure",
+        "Alloy",
+        "Ultimate tensile strength",
+        "Deformation mechanism",
+        "Dislocation",
+        "Deformation (meteorology)",
+        "Titanium",
+        "Composite material",
+        "Plasticity",
+        "Elongation",
+        "Superplasticity",
+        "Strengthening mechanisms of materials",
+        "Grain size"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TC4",
+          "additive manufacturing",
+          "additively manufactured",
+          "microstructure",
+          "tensile strength",
+          "yield strength",
+          "elongation",
+          "ductility",
+          "defect"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要研究深冷处理对增材制造TC4合金力学性能的调控，而非直接关注打印态或工艺态Ti-6Al-4V的基础力学与疲劳性能。",
+        "why_not_core": "The paper's main contribution is the effect of deep cryogenic treatment (a post-processing step) on mechanical properties, not the as-built/process-state mechanical or fatigue behavior of additively manufactured Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "deep cryogenic treatment",
+          "mechanical properties",
+          "post-processing"
+        ],
+        "summary_zh": {
+          "motivation": "解决激光增材制造TC4合金强度与塑性协同提升难题。",
+          "method": "对增材制造和铸造TC4进行深冷处理实验，对比微观组织与力学性能。",
+          "result": "深冷处理使增材制造TC4的强度提升3.5%-5%，延伸率提升33.9%。",
+          "validation": "通过拉伸测试和微观表征验证力学性能与组织演变。"
+        },
+        "summary_en": {
+          "motivation": "To overcome the strength-ductility trade-off in laser additively manufactured Ti-6Al-4V alloy.",
+          "method": "Deep cryogenic treatment was applied to both additively manufactured and as-cast TC4 specimens, followed by microstructural and mechanical characterization.",
+          "result": "DCT synergistically increased tensile strength, yield strength, and elongation of AM-TC4 by 3.5%, 5.0%, and 33.9%, respectively.",
+          "validation": "Mechanical properties were validated by tensile tests and microstructural analysis via SEM, EBSD, and XRD."
+        },
+        "key_terms": [
+          {
+            "en": "TC4 titanium alloy",
+            "zh": "TC4钛合金"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "deep cryogenic treatment",
+            "zh": "深冷处理"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "strength-ductility synergy",
+            "zh": "强度-塑性协同"
+          },
+          {
+            "en": "microstructural evolution",
+            "zh": "微观组织演变"
+          },
+          {
+            "en": "defect restructuring",
+            "zh": "缺陷重组"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
     },
     {
       "source": "openalex",
@@ -308,10 +619,10 @@
       },
       "llm": {
         "priority": "Medium",
-        "relevance_level": "Transferable",
-        "read_action": "Skim only",
-        "relevance_to_user": "该论文研究了激光冲击强化对TC4钛合金涂层结合力和耐磨性的影响，但未涉及疲劳或拉伸性能，与用户关注的后处理对疲劳/力学性能的改善方向相关但不够直接。",
-        "why_not_core": "No fatigue or tensile data; focuses on coating adhesion and wear resistance rather than bulk mechanical performance.",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及激光冲击强化（LSP）后处理对TC4钛合金表面涂层性能的影响，但未研究疲劳性能，与方向焦点（疲劳/力学性能）关联较弱。",
+        "why_not_core": "This paper does not examine fatigue behavior; it focuses on wear resistance and coating adhesion of LSP-treated Ti-6Al-4V.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -320,24 +631,24 @@
           "is_review": false
         },
         "tags": [
+          "Ti-6Al-4V",
           "laser shock peening",
-          "AlCrN coating",
-          "TC4 titanium alloy",
-          "adhesion strength",
+          "post-processing",
+          "coatings",
           "wear resistance",
-          "gradient coating"
+          "adhesion"
         ],
         "summary_zh": {
-          "motivation": "提高TC4钛合金上AlCrN涂层的结合力和耐磨性。",
-          "method": "激光冲击强化形成梯度过渡层并再次沉积涂层。",
-          "result": "梯度涂层结合力从13.6 N提高到43.3 N，磨损率降低。",
-          "validation": "通过划痕试验和磨损试验进行力学测试。"
+          "motivation": "为提高Ti-6Al-4V表面AlCrN涂层的结合强度与耐磨性能",
+          "method": "采用激光冲击处理形成梯度涂层结构",
+          "result": "激光冲击能量增大后界面结合强度从13.6N提升至43.3N，磨损率下降至7.67×10^-5 mm^3/(N·m)",
+          "validation": "通过微观形貌与元素分布分析及摩擦磨损实验验证"
         },
         "summary_en": {
-          "motivation": "To improve adhesion and wear resistance of AlCrN coatings on TC4 titanium alloy.",
-          "method": "Laser shock peening was used to form a gradient transition layer, followed by secondary coating deposition.",
-          "result": "Gradient coating increased interfacial adhesion from 13.6 N to 43.3 N and reduced wear rate significantly.",
-          "validation": "Mechanical testing via scratch test and wear test."
+          "motivation": "To improve the interfacial bonding strength and tribological performance of AlCrN coatings on TC4 titanium alloy.",
+          "method": "Laser shock peening was used to create a gradient AlCrN/TC4 transition layer, followed by secondary coating deposition.",
+          "result": "Increasing laser energy raised adhesion from 13.6N to 43.3N and reduced wear rate to 7.67×10^-5 mm^3/(N·m).",
+          "validation": "Systematic investigation of surface/cross-section morphologies, elemental distribution, and wear tests."
         },
         "key_terms": [
           {
@@ -365,39 +676,34 @@
             "zh": "耐磨性"
           },
           {
-            "en": "diffusion interlayer",
-            "zh": "扩散中间层"
-          },
-          {
-            "en": "interfacial bonding",
-            "zh": "界面结合"
+            "en": "elemental diffusion",
+            "zh": "元素扩散"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 5,
     "by_source": {
-      "openalex": 3
+      "openalex": 5
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 5,
+    "after_routing": 5,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1,
+      "ti6al4v_base_mechanical_fatigue": 3,
       "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 3
+      "openalex": 5
     },
-    "scored": 3,
+    "scored": 5,
     "priority_counts": {
-      "Exclude": 1,
-      "Low": 1,
-      "Medium": 1
+      "Low": 3,
+      "Medium": 2
     }
   }
 }

@@ -1,0 +1,169 @@
+{
+  "schema_version": "v2",
+  "date": "2026-01-29",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7126098781",
+      "doi": "10.1016/j.actamat.2026.121976",
+      "title": "Boosting Strength and ductility of Ti-6Al-4V alloy via millisecond-level electric treatment induced heterogeneous nanostructures",
+      "abstract": "",
+      "authors": [
+        "Jiajun Zhang",
+        "Jiajun Wang",
+        "Jiajun Wang",
+        "Yu Yan",
+        "Fei Wang",
+        "Jian Wang",
+        "Jian Wang",
+        "Jianjiang Zhao",
+        "Yunmin Chen",
+        "Yang Ju",
+        "Hua Wei"
+      ],
+      "first_author_affiliation": "Institute of Hypergravity Science and Technology, Zhejiang University, Hangzhou 310058, China",
+      "corresponding_authors": [
+        {
+          "name": "Jiajun Wang",
+          "affiliation": "Department of Mechanical and Materials Engineering, University of Nebraska-Lincoln, Lincoln, NE 68588, USA"
+        },
+        {
+          "name": "Fei Wang",
+          "affiliation": "College of Civil Engineering and Architecture, Zhejiang University, Hangzhou 310058, China"
+        },
+        {
+          "name": "Jian Wang",
+          "affiliation": "Department of Mechanical and Materials Engineering, University of Nebraska-Lincoln, Lincoln, NE 68588, USA"
+        },
+        {
+          "name": "Yang Ju",
+          "affiliation": "School of Mechanical Engineering, Zhejiang University, Hangzhou 310027, China"
+        },
+        {
+          "name": "Hua Wei",
+          "affiliation": "College of Civil Engineering and Architecture, Zhejiang University, Hangzhou 310058, China"
+        }
+      ],
+      "venue": "Acta Materialia",
+      "year": 2026,
+      "date": "2026-01-29",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.actamat.2026.121976",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Joule heating",
+        "Alloy",
+        "Nanoscopic scale",
+        "Nanostructure",
+        "Slip (aerodynamics)",
+        "Composite material",
+        "Ultimate tensile strength",
+        "Ductility (Earth science)",
+        "Joule effect",
+        "Martensite",
+        "Nanotechnology",
+        "Dislocation",
+        "Interphase",
+        "Nanoparticle",
+        "Metallurgy",
+        "Electric current"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要关注Ti-6Al-4V合金的后处理电处理，而非增材制造态或工艺态的力学与疲劳性能，因此与本层方向相关性较低。",
+        "why_not_core": "The paper focuses on a post-processing electric treatment to enhance strength and ductility, not on as-built or process-state mechanical/fatigue characterization of additively manufactured Ti-6Al-4V, which is the core of this layer.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "electric treatment",
+          "strength-ductility",
+          "heterogeneous nanostructures",
+          "post-processing"
+        ],
+        "summary_zh": {
+          "motivation": "克服Ti-6Al-4V合金强度与延展性之间的权衡",
+          "method": "采用毫秒级电处理诱导异质纳米结构",
+          "result": "屈服强度~1186 MPa，延伸率~16.2%，性能优于已报道的同类材料",
+          "validation": "通过拉伸力学测试验证性能提升"
+        },
+        "summary_en": {
+          "motivation": "To overcome the strength-ductility trade-off in Ti-6Al-4V alloy by introducing heterogeneous nanostructures.",
+          "method": "A millisecond-level electric treatment (MET) was applied to induce heterogeneous nanostructures in Ti-6Al-4V.",
+          "result": "The treated sample achieved an outstanding combination of yield strength (~1186 MPa) and elongation (~16.2%), surpassing reported counterparts.",
+          "validation": "Tensile mechanical tests were conducted to validate the enhanced strength and ductility."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "electric treatment",
+            "zh": "电处理"
+          },
+          {
+            "en": "heterogeneous nanostructures",
+            "zh": "异质纳米结构"
+          },
+          {
+            "en": "strength-ductility trade-off",
+            "zh": "强度-延展性权衡"
+          },
+          {
+            "en": "yield strength",
+            "zh": "屈服强度"
+          },
+          {
+            "en": "elongation",
+            "zh": "延伸率"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:40:28Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

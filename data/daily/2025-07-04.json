@@ -50,6 +50,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "microstructure",
           "yield strength"
         ]
       },
@@ -57,8 +58,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文涉及Ti-6Al-4V复合材料，但制备方法为微波烧结而非增材制造，且未研究疲劳性能，与用户关注的方向不相关。",
-        "why_not_core": "The paper uses microwave sintering instead of additive manufacturing (LPBF/SLM/EBM/DED) and studies micro-pillar compression of composites, not bulk mechanical or fatigue properties of pure Ti-6Al-4V.",
+        "relevance_to_user": "该论文涉及微波烧结制备AlCoCrFeNi高熵合金增强Ti-6Al-4V复合材料，不属于增材制造领域，与用户关注的LPBF/SLM/EBM/DED工艺下的Ti-6Al-4V力学及疲劳性能无关。",
+        "why_not_core": "Not additive manufacturing (microwave sintering), not pure Ti-6Al-4V (composite with HEA reinforcement), no fatigue data or mechanical characterization relevant to AM process-structure-property relationships.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -68,66 +69,201 @@
         },
         "tags": [
           "microwave sintering",
-          "HEA-reinforced composite",
+          "Ti-6Al-4V composite",
+          "high-entropy alloy",
           "micro-pillar compression",
-          "Ti-6Al-4V"
+          "interdiffusion layer"
         ],
         "summary_zh": {
-          "motivation": "探索AlCoCrFeNi高熵合金增强Ti-6Al-4V复合材料的微观结构与力学性能。",
-          "method": "采用微波烧结制备复合材料，使用SEM、TEM和微柱压缩测试分析。",
-          "result": "互扩散层强度约为基体的1.5倍，HEA颗粒强度最高。",
-          "validation": "微柱压缩实验验证力学性能。"
+          "motivation": "开发高熵合金增强钛基复合材料，探索其微观结构与力学性能。",
+          "method": "采用微波烧结制备AlCoCrFeNi增强Ti-6Al-4V复合材料，通过微柱压缩测试力学性能。",
+          "result": "界面扩散层实现冶金结合，HEA颗粒强度最高，基体次之，扩散层强度最低。",
+          "validation": "微柱压缩实验验证各相力学性能。"
         },
         "summary_en": {
-          "motivation": "To investigate the microstructure and mechanical properties of Ti-6Al-4V composites reinforced with AlCoCrFeNi high-entropy alloy particles.",
-          "method": "The composites were fabricated via microwave sintering and characterized using SEM, TEM, and micro-pillar compression tests.",
-          "result": "The interdiffusion layer exhibited yield and compressive strengths about 1.5 times lower than the matrix, while HEA particles showed the highest strengths.",
-          "validation": "Mechanical properties were validated through micro-pillar compression experiments."
+          "motivation": "To develop high-entropy alloy particle-reinforced titanium matrix composites and investigate their microstructure and mechanical properties.",
+          "method": "AlCoCrFeNi HEA-reinforced Ti-6Al-4V metal matrix composites were fabricated via microwave sintering, and their mechanical properties were characterized by micro-pillar compression.",
+          "result": "The interdiffusion layer provides metallurgical bonding; HEA particles exhibit the highest strength, followed by the matrix, with the diffusion layer having the lowest strength.",
+          "validation": "Mechanical properties were validated through micro-pillar compression tests on individual phases."
         },
         "key_terms": [
-          {
-            "en": "high-entropy alloy",
-            "zh": "高熵合金"
-          },
-          {
-            "en": "metal matrix composite",
-            "zh": "金属基复合材料"
-          },
           {
             "en": "microwave sintering",
             "zh": "微波烧结"
           },
           {
-            "en": "micro-pillar compression",
-            "zh": "微柱压缩"
+            "en": "high-entropy alloy",
+            "zh": "高熵合金"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "钛合金Ti-6Al-4V"
+            "en": "Ti-6Al-4V composite",
+            "zh": "Ti-6Al-4V复合材料"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "interdiffusion layer",
+            "zh": "互扩散层"
+          },
+          {
+            "en": "micro-pillar compression",
+            "zh": "微柱压缩"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412025944",
+      "doi": "10.1016/j.jmatprotec.2025.118957",
+      "title": "From high cooling rates to high creep performance: Role of metastable beta in in-situ alloyed Ti64-TiAl alloys fabricated by laser powder bed fusion",
+      "abstract": "This study employs a novel processing approach using laser powder bed fusion (L-PBF). It leverages rapid cooling to develop a metastable microstructure that can retain or revert to suit both room and high-temperature applications. This approach is paired with a cost-effective blending strategy to fabricate novel alloys with microstructures that integrate ductile and hard phases. The study demonstrates the effectiveness of this approach in significantly enhancing the creep performance of Ti-6Al-4V (wt. %) through in situ alloying with Ti-48Al-2Cr-2Nb (at. %) at weight fractions of 20% and 40% via L-PBF. A tailored microstructure was achieved, leading to crack free samples. X-ray diffraction (XRD) phase analysis identified a metastable microstructure comprising the ductile β phase alongside hard α/α′/α 2 phases. A significant presence of β phases was observed in the 40% TiAl alloy, comprising 80% of the scanned area according to electron backscatter diffraction (EBSD) analysis, demonstrating the influence of rapid cooling in retaining high-temperature phases. Results from transmission electron microscopy (TEM), energy dispersive spectroscopy (EDS), and selected area electron diffraction (SAED) indicated a high dislocation density within the α phase, which contributed to crack nucleation during mechanical testing. The heat-treated alloys, in which the β phase revert to α 2 , exhibited creep lifetime that surpassed Ti64 by 380% for the 20% TiAl alloy and over 600% for the 40% TiAl alloy. The combination of β and α phases at room temperature contributed to a yield strength of 966 MPa for 20% TiAl and 741 MPa for 40% TiAl, along with elongation percentages of 6.8% for 20% TiAl and 3.2% for 40% TiAl, both of which surpassed those of TiAl. These results pave the way for processing other materials beyond these specific alloys, enabling a wide range of applications. • Novel Ti-alloys of Ti64 with 20% and 40% TiAl processed by laser powder bed fusion. • Cost-effective in-situ alloying introduced beneficial heterogeneity. • Rapid cooling created a metastable microstructure, suppressing cracks in printing. • Improved creep life by 380% and over 600% compared to Ti64.",
+      "authors": [
+        "Hatem A. Soliman",
+        "Ali Ghasemi",
+        "M.A. Elbestawi",
+        "Swee Leong Sing"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, McMaster University, ON L8S 4L7, Canada",
+      "corresponding_authors": [
+        {
+          "name": "Hatem A. Soliman",
+          "affiliation": "Department of Mechanical Engineering, McMaster University, ON L8S 4L7, Canada"
+        },
+        {
+          "name": "Swee Leong Sing",
+          "affiliation": "Department of Mechanical Engineering, National University of Singapore, 117575, Singapore"
+        }
+      ],
+      "venue": "Journal of Materials Processing Technology",
+      "year": 2025,
+      "date": "2025-07-04",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jmatprotec.2025.118957",
+      "cited_by_count": 5,
+      "concepts": [
+        "Materials science",
+        "In situ",
+        "Metastability",
+        "Creep",
+        "Fusion",
+        "Metallurgy",
+        "BETA (programming language)",
+        "Laser"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "microstructure",
+          "yield strength",
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V基合金的增材制造，但材料为原位合金化改性合金，主要关注蠕变而非疲劳或基本力学性能，与层1直接方向关联较弱。",
+        "why_not_core": "The paper investigates a novel in-situ alloyed Ti64-TiAl material, not pure Ti-6Al-4V, and its primary focus is creep performance rather than fatigue or standard mechanical characterization as defined in the direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "in-situ alloying",
+          "creep",
+          "metastable beta"
+        ],
+        "summary_zh": {
+          "motivation": "通过原位合金化提高Ti64的蠕变性能",
+          "method": "采用LPBF混合Ti64与TiAl粉末，利用快速冷却获得亚稳态组织",
+          "result": "20%和40%TiAl合金蠕变寿命分别提高380%和600%以上",
+          "validation": "通过力学测试（拉伸、蠕变）和微观表征验证"
+        },
+        "summary_en": {
+          "motivation": "To enhance the creep performance of Ti-6Al-4V by in-situ alloying with TiAl through laser powder bed fusion.",
+          "method": "Blending Ti64 and TiAl powders during LPBF, leveraging rapid cooling to form a metastable microstructure with β and α phases.",
+          "result": "The 20% and 40% TiAl alloys exhibited creep lifetimes 380% and 600% longer than Ti64, respectively.",
+          "validation": "Mechanical testing (tensile and creep) combined with XRD, EBSD, TEM, and EDS microstructural analysis."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "in-situ alloying",
+            "zh": "原位合金化"
+          },
+          {
+            "en": "creep performance",
+            "zh": "蠕变性能"
+          },
+          {
+            "en": "metastable beta",
+            "zh": "亚稳态β相"
+          },
+          {
+            "en": "mechanical testing",
+            "zh": "力学测试"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 1,
+      "Low": 1
     }
   }
 }

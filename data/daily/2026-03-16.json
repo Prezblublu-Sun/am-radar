@@ -48,6 +48,12 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "selective laser melting",
+          "electron beam melting",
+          "SLM",
+          "EBM",
+          "microstructure",
           "porosity",
           "defect"
         ]
@@ -55,9 +61,9 @@
       "llm": {
         "priority": "Medium",
         "relevance_level": "Direct",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文比较了SLM、EBM和SPS制备的Ti-6Al-4V的显微组织和硬度，但未涉及疲劳性能，适合作为工艺对比的基础参考。",
-        "why_not_core": "This paper does not include any fatigue or tensile testing, only reports hardness and porosity analysis; it also includes SPS, which is not an additive manufacturing process, reducing its direct relevance to AM mechanical/fatigue focus.",
+        "read_action": "Skim only",
+        "relevance_to_user": "本论文比较了SLM、EBM和SPS制备的Ti-6Al-4V的显微组织与硬度，但未涉及拉伸或疲劳性能，对L1方向参考价值有限。",
+        "why_not_core": "The paper reports only hardness and porosity, omitting tensile, fatigue, and other mechanical properties central to the L1 direction; it also includes the non-AM SPS process.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -76,25 +82,25 @@
           "laser remelting"
         ],
         "summary_zh": {
-          "motivation": "比较不同制造工艺对Ti-6Al-4V显微组织和硬度的影响",
-          "method": "通过SLM、EBM和SPS制备试样，并采用激光重熔策略",
-          "result": "SLM试样硬度高于SPS，激光重熔提高硬度均匀性",
-          "validation": "硬度测试和孔隙分析验证"
+          "motivation": "对比增材制造与放电等离子烧结制备Ti-6Al-4V的显微组织与力学性能。",
+          "method": "采用SLM、EBM和SPS制备样品，进行显微组织观察和硬度测试。",
+          "result": "SLM样品硬度高于SPS，激光重熔提高硬度均匀性并减少孔隙。",
+          "validation": "通过硬度测试和孔隙率分析进行实验验证。"
         },
         "summary_en": {
-          "motivation": "To compare the microstructure and mechanical properties (hardness) of Ti-6Al-4V fabricated by SLM, EBM, and SPS, and evaluate the effect of a laser remelting strategy.",
-          "method": "Samples were produced via SLM, EBM, and SPS; SLM samples were also made with a laser remelting strategy (three scans per layer).",
-          "result": "The SLM sample exhibited higher hardness (335 HV) than the SPS sample (305 HV); laser remelting increased hardness and improved homogeneity.",
-          "validation": "Experimental hardness measurements and porosity analysis were performed on the fabricated samples."
+          "motivation": "To compare the microstructure and mechanical properties of Ti-6Al-4V processed by selective laser melting, electron beam melting, and spark plasma sintering.",
+          "method": "Samples were fabricated by SLM, EBM, and SPS, and characterized for microstructure, porosity, and hardness.",
+          "result": "SLM samples exhibited higher hardness than SPS samples; laser remelting improved hardness homogeneity and reduced porosity.",
+          "validation": "Validation was performed through experimental hardness measurements and porosity analysis."
         },
         "key_terms": [
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "zh": "Ti-6Al-4V合金"
           },
           {
             "en": "selective laser melting",
-            "zh": "选择性激光熔化"
+            "zh": "选区激光熔化"
           },
           {
             "en": "electron beam melting",
@@ -109,40 +115,154 @@
             "zh": "硬度"
           },
           {
-            "en": "microstructure",
-            "zh": "显微组织"
-          },
-          {
             "en": "porosity",
             "zh": "孔隙率"
           },
           {
             "en": "laser remelting",
             "zh": "激光重熔"
+          },
+          {
+            "en": "lamellar microstructure",
+            "zh": "层状显微组织"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7136550558",
+      "doi": "10.1007/s00170-026-17857-5",
+      "title": "Microstructure and mechanical properties of the near surface of titanium alloy Ti-6Al-4V machined by micro-textured tools",
+      "abstract": "",
+      "authors": [
+        "R. Palanivel",
+        "I. Dinaharan",
+        "J. David Raja Selvam",
+        "Rudolph Frans Laubscher"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, College of Engineering, Shaqra University, Dawadmi, Riyadh, 11911, Saudi Arabia",
+      "corresponding_authors": [
+        {
+          "name": "R. Palanivel",
+          "affiliation": "Department of Mechanical Engineering, College of Engineering, Shaqra University, Dawadmi, Riyadh, 11911, Saudi Arabia"
+        }
+      ],
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "year": 2026,
+      "date": "2026-03-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s00170-026-17857-5",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Machinability",
+        "Machining",
+        "Lamellar structure",
+        "Texture (cosmology)",
+        "Surface roughness",
+        "Composite material",
+        "Surface finish",
+        "Titanium alloy",
+        "Deformation (meteorology)",
+        "Metallurgy",
+        "Severe plastic deformation",
+        "Nanoindentation",
+        "Surface integrity",
+        "Indentation hardness",
+        "Grain size",
+        "Cutting tool",
+        "Diamond tool"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文关于Ti-6Al-4V的机械加工，而非增材制造，与增材制造Ti-6Al-4V力学性能方向无关。",
+        "why_not_core": "The paper focuses on machining of Ti-6Al-4V with micro-textured tools, not on additively manufactured Ti-6Al-4V mechanical/fatigue performance, thus it is off-topic for this direction.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [],
+        "summary_zh": {
+          "motivation": "研究微纹理刀具加工钛合金Ti-6Al-4V近表面微观结构与力学性能。",
+          "method": "采用微纹理刀具进行车削实验。",
+          "result": "分析了加工参数对表面微观结构和力学性能的影响。",
+          "validation": "实验验证。"
+        },
+        "summary_en": {
+          "motivation": "The study investigates the microstructure and mechanical properties of the near surface layer of Ti-6Al-4V after machining with micro-textured tools.",
+          "method": "Turning experiments were conducted using micro-textured cutting tools.",
+          "result": "The effects of machining parameters on surface microstructure and mechanical properties were analyzed.",
+          "validation": "Experimental validation through machining tests and characterization."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "micro-textured tools",
+            "zh": "微纹理刀具"
+          },
+          {
+            "en": "surface integrity",
+            "zh": "表面完整性"
+          },
+          {
+            "en": "machining",
+            "zh": "机械加工"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Medium": 1
+      "Medium": 1,
+      "Exclude": 1
     }
   }
 }

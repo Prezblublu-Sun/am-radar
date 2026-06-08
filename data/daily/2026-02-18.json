@@ -1,0 +1,290 @@
+{
+  "schema_version": "v2",
+  "date": "2026-02-18",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7130317834",
+      "doi": "10.2514/1.j066453",
+      "title": "Parametric Symbolic Regression for Learning Additive Manufactured Structures’ Unified Crack Growth Models",
+      "abstract": "In aerospace applications, critical metal additive manufacturing (AM) structures require rigorous damage tolerance certification, depending on reliable crack growth analysis. As the bridge from specimen-level experiments to structural assessments, the construction of crack growth models traditionally relied on extensive databases and engineering expertise. Yet the complexity of AM processes hinders the establishment of stable, comprehensive data sets, limiting conventional approaches. To address this challenge, this study proposes a Parametric Symbolic Regression framework for learning crack growth models of AM structures (PSR-AM), in which the symbolic regression is constructed upon parametric candidate models, enabling a unified representation of underlying physical mechanisms while capturing variations across experimental conditions through parameter shifts. Moreover, models’ parameter fitting incorporates both physical and global trend constraints, ensuring reliable and physically consistent modeling even under sparse data conditions. Guided by multiple evaluation metrics, PSR-AM effectively leverages diverse and even sparse AM experimental data sets to derive concise, robust, and generalizable crack growth models. Test on 178 AM Ti-6Al-4V data sets demonstrates that the PSR-AM learned crack growth model captures highly scattered experimental results under multifactor influences with concise mathematical forms and a small set of stable parameters, while outperforming the conventional empirical model in reflecting the intrinsic data characteristics.",
+      "authors": [
+        "Chaoyang Wang",
+        "Xuan Zhou",
+        "Yinghao Song",
+        "Haoning Yu",
+        "R. Liu",
+        "Leiting Dong"
+      ],
+      "first_author_affiliation": "Beihang University",
+      "corresponding_authors": [
+        {
+          "name": "Chaoyang Wang",
+          "affiliation": "Beihang University"
+        }
+      ],
+      "venue": "AIAA Journal",
+      "year": 2026,
+      "date": "2026-02-18",
+      "date_precision": "day",
+      "url": "https://doi.org/10.2514/1.j066453",
+      "cited_by_count": 0,
+      "concepts": [
+        "Parametric statistics",
+        "Symbolic regression",
+        "Computer science",
+        "Set (abstract data type)",
+        "Representation (politics)",
+        "Damage tolerance",
+        "Test data",
+        "Regression analysis",
+        "Parametric model",
+        "Regression",
+        "Mathematical model",
+        "Uncertainty quantification",
+        "Data set",
+        "Data modeling",
+        "Fracture mechanics",
+        "Aerospace",
+        "Algorithm",
+        "Experimental data",
+        "Limiting",
+        "Paris' law",
+        "Structural health monitoring",
+        "Empirical modelling",
+        "Test set",
+        "Machine learning"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对增材制造Ti-6Al-4V的疲劳裂纹扩展行为，提出了基于参数符号回归的统一裂纹扩展模型，并利用178个数据集进行了验证。",
+        "why_not_core": "该论文不涉及具体的拉伸/屈服强度、硬度、各向异性等力学性能表征，而是聚焦于裂纹扩展模型的构建方法。",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "additive manufacturing",
+          "Ti-6Al-4V",
+          "crack growth",
+          "symbolic regression",
+          "damage tolerance",
+          "fatigue"
+        ],
+        "summary_zh": {
+          "motivation": "针对增材制造Ti-6Al-4V裂纹扩展数据稀疏且分散的问题，提出统一模型。",
+          "method": "提出参数符号回归框架，结合物理约束和全局趋势，从稀疏数据中学习裂纹扩展模型。",
+          "result": "在178个AM Ti-6Al-4V数据集上验证，所得模型优于传统经验模型。",
+          "validation": "利用文献中178个AM Ti-6Al-4V的裂纹扩展实验数据集进行验证。"
+        },
+        "summary_en": {
+          "motivation": "To address the challenge of sparse and scattered crack growth data for additively manufactured Ti-6Al-4V, a unified crack growth model is sought.",
+          "method": "A parametric symbolic regression framework is proposed that incorporates physical and global trend constraints to learn crack growth models from diverse and sparse datasets.",
+          "result": "The learned model outperforms conventional empirical models on 178 AM Ti-6Al-4V datasets, capturing highly scattered experimental results with concise mathematical forms.",
+          "validation": "The framework is validated against 178 experimental crack growth datasets from the literature on additively manufactured Ti-6Al-4V."
+        },
+        "key_terms": [
+          {
+            "en": "additively manufactured (AM) Ti-6Al-4V",
+            "zh": "增材制造Ti-6Al-4V"
+          },
+          {
+            "en": "crack growth",
+            "zh": "裂纹扩展"
+          },
+          {
+            "en": "parametric symbolic regression",
+            "zh": "参数符号回归"
+          },
+          {
+            "en": "damage tolerance",
+            "zh": "损伤容限"
+          },
+          {
+            "en": "fatigue",
+            "zh": "疲劳"
+          },
+          {
+            "en": "sparse data",
+            "zh": "稀疏数据"
+          },
+          {
+            "en": "unified model",
+            "zh": "统一模型"
+          },
+          {
+            "en": "AIAA Journal",
+            "zh": "AIAA期刊"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7130391104",
+      "doi": "10.1177/09544089261423596",
+      "title": "Effect of low-power nanosecond fiber laser nozzle position on surface quality of inclined Ti-6Al-4V alloy plate",
+      "abstract": "In this study, a detailed comparison between flat and inclined Ti-6Al-4V alloy plates under nanosecond fiber laser machining is presented, focusing on the combined effects of laser parameters and surface inclination on machining outcomes. The results demonstrate a strong interaction between laser power, beam inclination, and workpiece angle, significantly influencing the width, depth, and heat-affected zone (HAZ) of the machined surfaces. The width of the laser-treated region is highly sensitive to average laser power, exhibiting the greatest impact at the focal position (84.63%) and a similarly substantial effect near the nozzle (+15 mm defocus, 73.92%), while beam angle also contributes to width variations, though to a lesser extent. Groove depth is primarily governed by average power at focus (77.85%), with its influence decreasing at off-focus positions (−15 mm, 30.06%), whereas beam angle plays a more prominent role at defocused positions (42.76% at −15 mm). The HAZ is affected by both average power (64.65% at focus and 61.50% at −15 mm) and beam angle (7.42% at focus and 5.44% at −15 mm). Inclinations of 10° or higher result in increased spatter formation and a higher likelihood of micro-fracture, particularly at focal and +15 mm positions. This work highlights the importance of prioritizing width in laser machining, while depth can be adjusted according to other response requirements. The findings provide valuable insights for optimizing laser parameters to achieve superior surface quality in precision-critical industries such as aerospace, automotive, and medical device manufacturing.",
+      "authors": [
+        "Guddakesh Kumar Chandan",
+        "Chinmaya Kumar Sahoo"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, National Institute of Technology Silchar, Silchar, Assam, India",
+      "corresponding_authors": [
+        {
+          "name": "Guddakesh Kumar Chandan",
+          "affiliation": "Department of Mechanical Engineering, National Institute of Technology Silchar, Silchar, Assam, India"
+        }
+      ],
+      "venue": "Proceedings of the Institution of Mechanical Engineers Part E Journal of Process Mechanical Engineering",
+      "year": 2026,
+      "date": "2026-02-18",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1177/09544089261423596",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Nozzle",
+        "Machining",
+        "Optics",
+        "Laser",
+        "Laser beam quality",
+        "Beam (structure)",
+        "Groove (engineering)",
+        "Focus (optics)",
+        "Position (finance)",
+        "Laser beam machining",
+        "Quality (philosophy)",
+        "Fiber laser",
+        "Beam diameter",
+        "Power (physics)",
+        "Laser power scaling",
+        "Nanosecond",
+        "Laser beams",
+        "Surface (topology)",
+        "Beam parameter product",
+        "Alloy",
+        "Depth of focus (tectonics)",
+        "Work (physics)",
+        "Laser cutting",
+        "Fiber",
+        "Focal length",
+        "Speckle pattern"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "这篇文章研究的是Ti-6Al-4V板材的激光加工表面质量，但未涉及增材制造或疲劳/力学性能，因此与后处理控制方向无关。",
+        "why_not_core": "This paper does not concern additively manufactured Ti-6Al-4V, nor does it evaluate mechanical or fatigue performance; it focuses on laser machining parameters for surface quality of wrought Ti-6Al-4V plates.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "nanosecond fiber laser",
+          "surface quality",
+          "laser machining"
+        ],
+        "summary_zh": {
+          "motivation": "研究激光参数和工件倾角对Ti-6Al-4V板材加工表面质量的影响。",
+          "method": "使用纳秒光纤激光在不同倾角和离焦位置加工钛合金板，分析宽度、深度和热影响区。",
+          "result": "激光功率对加工宽度和深度影响最大，倾角大于10°时易产生飞溅和微裂纹。",
+          "validation": "通过光学显微镜测量和统计分析验证加工结果。"
+        },
+        "summary_en": {
+          "motivation": "This study investigates the combined effects of laser parameters and surface inclination on the machining outcomes of Ti-6Al-4V alloy plates using nanosecond fiber laser. ",
+          "method": "Laser machining was performed on flat and inclined Ti-6Al-4V plates at various focal positions, and the width, depth, and heat-affected zone were analyzed statistically. ",
+          "result": "Laser power dominates width and depth control, while inclinations above 10° increase spatter and micro-fracture risk. ",
+          "validation": "Validation was performed through optical characterization and statistical analysis of machining responses."
+        },
+        "key_terms": [
+          {
+            "en": "nanosecond fiber laser",
+            "zh": "纳秒光纤激光"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "surface inclination",
+            "zh": "表面倾角"
+          },
+          {
+            "en": "heat-affected zone",
+            "zh": "热影响区"
+          },
+          {
+            "en": "laser machining parameters",
+            "zh": "激光加工参数"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 2,
+    "by_source": {
+      "openalex": 2
+    },
+    "after_dedup": 2,
+    "after_routing": 2,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1,
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 2
+    },
+    "scored": 2,
+    "priority_counts": {
+      "High": 1,
+      "Exclude": 1
+    }
+  }
+}

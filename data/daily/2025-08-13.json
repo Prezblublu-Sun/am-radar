@@ -1,0 +1,139 @@
+{
+  "schema_version": "v2",
+  "date": "2025-08-13",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413177706",
+      "doi": "10.1016/j.ijmecsci.2025.110718",
+      "title": "Semi-analytical modelling of forces and tool wear in ultrasonic-assisted milling",
+      "abstract": "• Modified Z-map method developed to identify cutter-workpiece engagement in B-UAM. • Ray-triangle intersection algorithm employed for calculating uncut chip thickness. • Experimental calibration of cutting force coefficients and abrasive wear constant. • Tool flank wear progression predicted by experimentally validated flank wear model. The prediction and monitoring of tool wear following machining is crucial for optimising tool performance and resulting workpiece surface quality. Ball-end ultrasonic-assisted milling (B-UAM) has emerged as a promising alternative to conventional cutting operations for processing difficult-to-cut materials, such as titanium alloys, which are widely used in aerospace applications. However, comprehensive models for predicting cutting forces and tool flank wear specific to B-UAM operations remain notably scant in the current literature, hindering process optimisation and widespread adoption. This paper details an innovative modelling framework specifically developed for B-UAM, incorporating a novel combination of a modified Z-map model for characterising cutter-workpiece engagement (CWE) and determining uncut chip thickness (UCT) using servo-rectangular encirclement (SRE) and ray-triangle intersection methods, together with a semi-analytical model for corresponding cutting force prediction. This was further complemented by a tool flank wear prediction model based on an abrasion dominant wear mechanism. Experimental B-UAM trials using Ti-6Al-4V titanium alloy workpieces validated the capability of the proposed models, with predicted force components ( F x , F y and F z ) showing average errors ranging between 8.7%–26.0%, while results from the tool wear model exhibited close correlation to experimental data with an average coefficient of determination ( R 2 ) of 0.973. The research represents the first analytical based modelling approach for B-UAM operations, providing an essential tool for process optimisation and towards facilitating wider industrial adoption of this advanced machining technology.",
+      "authors": [
+        "Yiming Zhang",
+        "Sein Leung Soo",
+        "Richard Hood"
+      ],
+      "first_author_affiliation": "Machining Research Group, Department of Mechanical Engineering, School of Engineering, University of Birmingham, Edgbaston, Birmingham, United Kingdom",
+      "corresponding_authors": [
+        {
+          "name": "Sein Leung Soo",
+          "affiliation": "Machining Research Group, Department of Mechanical Engineering, School of Engineering, University of Birmingham, Edgbaston, Birmingham, United Kingdom"
+        }
+      ],
+      "venue": "International Journal of Mechanical Sciences",
+      "year": 2025,
+      "date": "2025-08-13",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.ijmecsci.2025.110718",
+      "cited_by_count": 3,
+      "concepts": [
+        "Ultrasonic sensor",
+        "Materials science",
+        "Mechanical engineering",
+        "Tool wear",
+        "Engineering",
+        "Engineering drawing",
+        "Acoustics"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是Ti-6Al-4V超声辅助铣削中的力和刀具磨损模型，未涉及后处理对疲劳或力学性能的影响。",
+        "why_not_core": "This paper models cutting forces and tool wear in ultrasonic-assisted milling of Ti-6Al-4V, but does not study the effect of any post-processing treatment on fatigue or mechanical performance, which is the focus of Layer 2.",
+        "validation_kind": "experimental",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "ultrasonic-assisted milling",
+          "Ti-6Al-4V",
+          "cutting force",
+          "tool wear",
+          "semi-analytical modelling"
+        ],
+        "summary_zh": {
+          "motivation": "预测和监控刀具磨损以优化加工性能",
+          "method": "结合修正Z-map和射线三角交点的半解析力与磨损建模",
+          "result": "力预测误差8.7%-26.0%，磨损模型R²=0.973",
+          "validation": "Ti-6Al-4V超声辅助铣削实验验证"
+        },
+        "summary_en": {
+          "motivation": "To predict and monitor tool wear for optimizing machining performance in ultrasonic-assisted milling.",
+          "method": "A semi-analytical framework combining a modified Z-map model for cutter-workpiece engagement and a ray-triangle intersection method for uncut chip thickness, coupled with an abrasion-dominant flank wear model.",
+          "result": "Force predictions showed average errors between 8.7% and 26.0%, while the tool wear model achieved an R² of 0.973.",
+          "validation": "Experimental ball-end ultrasonic-assisted milling trials on Ti-6Al-4V workpieces validated the force and wear models."
+        },
+        "key_terms": [
+          {
+            "en": "ultrasonic-assisted milling",
+            "zh": "超声辅助铣削"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "cutting force",
+            "zh": "切削力"
+          },
+          {
+            "en": "tool flank wear",
+            "zh": "刀具后刀面磨损"
+          },
+          {
+            "en": "Z-map model",
+            "zh": "Z-map模型"
+          },
+          {
+            "en": "uncut chip thickness",
+            "zh": "未变形切屑厚度"
+          },
+          {
+            "en": "semi-analytical modelling",
+            "zh": "半解析建模"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

@@ -59,8 +59,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究钛合金激光钻孔工艺，不涉及增材制造后处理或疲劳性能。",
-        "why_not_core": "No additive manufacturing context, no post-processing treatment (e.g., heat treatment, HIP, surface modification) applied to AM Ti-6Al-4V, and no evaluation of fatigue or mechanical performance.",
+        "relevance_to_user": "该论文涉及钛合金激光钻孔，而非Ti-6Al-4V的后处理对疲劳/力学性能的影响。",
+        "why_not_core": "The paper studies laser drilling parameters for hole geometry, not a post-processing treatment that modifies mechanical performance or fatigue of Ti-6Al-4V.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -70,22 +70,21 @@
         },
         "tags": [
           "laser drilling",
-          "titanium alloy",
-          "TC4",
-          "pulse parameters",
-          "numerical simulation"
+          "Ti-6Al-4V",
+          "hole geometry",
+          "finite element simulation"
         ],
         "summary_zh": {
-          "motivation": "优化航空发动机涡轮叶片气膜冷却孔的激光钻孔参数。",
-          "method": "采用ANSYS仿真与实验结合研究脉冲参数对微孔质量的影响。",
-          "result": "脉冲能量和次数主导孔径，脉冲宽度和次数影响锥度。",
-          "validation": "通过实验验证仿真得到的参数影响规律。"
+          "motivation": "解决航空发动机叶片冷却孔激光钻孔参数优化问题。",
+          "method": "采用ANSYS模拟和实验验证脉冲宽度、能量、次数对孔径的影响。",
+          "result": "脉冲能量和次数主要控制入口出口直径，脉冲宽度和次数影响锥度。",
+          "validation": "实验验证了模拟结果，测量了孔径和锥度。"
         },
         "summary_en": {
-          "motivation": "To optimize laser drilling parameters for film-cooling holes in aircraft engine turbine blades made of titanium alloy TC4.",
-          "method": "Numerical simulations using ANSYS and experimental percussive drilling were employed to study the effects of pulse width, energy, and count on hole geometry.",
-          "result": "Pulse energy and count primarily control entrance and exit diameters, while pulse width and count strongly influence taper and roundness.",
-          "validation": "Experimental drilling trials confirmed the simulation predictions for parameter effects on hole dimensions and shape."
+          "motivation": "To optimize laser drilling parameters for film-cooling holes in aircraft turbine blades.",
+          "method": "Finite element simulation (ANSYS) combined with percussion drilling experiments to study effects of pulse width, energy, and count on hole geometry.",
+          "result": "Pulse energy and count dominate entrance/exit diameters; pulse width and count strongly influence taper.",
+          "validation": "Experimental measurements of hole entrance/exit diameters, taper, and roundness confirmed simulation trends."
         },
         "key_terms": [
           {
@@ -93,19 +92,23 @@
             "zh": "激光冲击钻孔"
           },
           {
-            "en": "titanium alloy TC4",
-            "zh": "钛合金TC4"
-          },
-          {
-            "en": "pulse energy",
-            "zh": "脉冲能量"
+            "en": "Ti-6Al-4V (TC4)",
+            "zh": "Ti-6Al-4V (TC4)"
           },
           {
             "en": "pulse width",
             "zh": "脉冲宽度"
           },
           {
-            "en": "taper",
+            "en": "pulse energy",
+            "zh": "脉冲能量"
+          },
+          {
+            "en": "pulse count",
+            "zh": "脉冲次数"
+          },
+          {
+            "en": "hole taper",
             "zh": "锥度"
           },
           {
@@ -113,26 +116,14 @@
             "zh": "圆度"
           },
           {
-            "en": "numerical simulation",
-            "zh": "数值模拟"
-          },
-          {
-            "en": "ANSYS",
-            "zh": "ANSYS"
-          },
-          {
-            "en": "micro-hole",
-            "zh": "微孔"
-          },
-          {
-            "en": "film cooling",
-            "zh": "气膜冷却"
+            "en": "ANSYS simulation",
+            "zh": "ANSYS模拟"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
     }
   ],
   "counts": {

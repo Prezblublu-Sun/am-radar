@@ -5,132 +5,6 @@
   "papers": [
     {
       "source": "openalex",
-      "id": "https://openalex.org/W4412629609",
-      "doi": "10.1016/j.actamat.2025.121372",
-      "title": "Microstructural control across multiple length scales in additively manufactured Ti-6Al-4V via cyclic heat treatments",
-      "abstract": "Ti-6Al-4V is a premier titanium alloy widely used across various industrial sectors, thanks to its versatile properties arising from diverse microstructures tailorable via thermomechanical processing (TMP). In contrast, Ti-6Al-4V made by laser powder-bed fusion (LPBF) additive manufacturing (AM) lacks the same microstructural diversity and precise in-process microstructural control, primarily due to rapid thermal cycling inherent to LPBF. In the as-built state, the microstructure predominantly comprises acicular α′ martensites within columnar prior-β grains, which often fails to achieve mechanical properties comparable to those obtained through TMP. This necessitates the use of post-heat treatments as a critical step to ensure superior and reliable mechanical performance. The present study explores cyclic heat treatment (CHT) as an effective strategy for AM-specific microstructural control across multiple length scales, including prior-β grains, primary α, and secondary α. By varying peak temperature, number of cycles, and cooling rate, the initial microstructure dominated by α′ martensite in columnar prior-β grains rapidly evolves into diverse microstructures comparable to those achieved via TMP. These include lamellar α+β in equiaxed prior-β grains, globular α in near-equiaxed prior-β grains, and bimodal microstructure comprising a mixture of globular α and lamellar α+β/acicular α’. The accelerated microstructural evolution driven by the repetitive α↔β phase transformations induced by CHT facilitates processes like epitaxial recrystallisation and α globularisation. The developed CHT protocol provides a framework for microstructural engineering, enabling mechanical property optimisation and supporting broader industrial adoption of LPBF Ti-6Al-4V.",
-      "authors": [
-        "Sahil Dhiman",
-        "Milan Brandt",
-        "Daniel Fabijanic",
-        "Viswanath Chinthapenta",
-        "Wei Xu"
-      ],
-      "first_author_affiliation": "Micro-Mechanics Lab, Department of Mechanical and Aerospace Engineering, Indian Institute of Technology Hyderabad, NH-65, Sangareddy, Kandi, Telangana 502285, India",
-      "corresponding_authors": [
-        {
-          "name": "Viswanath Chinthapenta",
-          "affiliation": "Micro-Mechanics Lab, Department of Mechanical and Aerospace Engineering, Indian Institute of Technology Hyderabad, NH-65, Sangareddy, Kandi, Telangana 502285, India"
-        },
-        {
-          "name": "Wei Xu",
-          "affiliation": "School of Engineering, Deakin University, Victoria 3216, Australia"
-        }
-      ],
-      "venue": "Acta Materialia",
-      "year": 2025,
-      "date": "2025-07-24",
-      "date_precision": "day",
-      "url": "https://doi.org/10.1016/j.actamat.2025.121372",
-      "cited_by_count": 18,
-      "concepts": [
-        "Materials science",
-        "Scale (ratio)",
-        "Chemical engineering",
-        "Composite material"
-      ],
-      "categories": [],
-      "raw_type": "article",
-      "directions": [
-        "ti6al4v_postprocess"
-      ],
-      "direction": "ti6al4v_postprocess",
-      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
-      "routing_matches": {
-        "ti6al4v_postprocess": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "heat treatment"
-        ]
-      },
-      "llm": {
-        "priority": "High",
-        "relevance_level": "Direct",
-        "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究了Ti-6Al-4V通过循环热处理实现多尺度微观组织控制，并优化力学性能，完全符合后处理对疲劳/力学性能影响的研究方向。",
-        "why_not_core": "The paper does not explicitly report fatigue test results, focusing instead on tensile properties and microstructural evolution.",
-        "validation_kind": "mechanical_testing",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "Ti-6Al-4V",
-          "laser powder bed fusion",
-          "cyclic heat treatment",
-          "microstructural control",
-          "post-processing",
-          "mechanical properties"
-        ],
-        "summary_zh": {
-          "motivation": "为克服LPBF Ti-6Al-4V微观组织多样性不足的问题，开发循环热处理策略",
-          "method": "通过改变峰值温度、循环次数和冷却速率进行循环热处理",
-          "result": "实现了从马氏体到多种微组织的快速演变，优化了力学性能",
-          "validation": "通过微观表征和力学测试验证了热处理效果"
-        },
-        "summary_en": {
-          "motivation": "To address the limited microstructural diversity of as-built LPBF Ti-6Al-4V, cyclic heat treatment is investigated as a post-processing strategy.",
-          "method": "Cyclic heat treatments with varying peak temperatures, cycle numbers, and cooling rates are applied to LPBF Ti-6Al-4V.",
-          "result": "The initial martensitic microstructure rapidly transforms into diverse microstructures (e.g., lamellar α+β, globular α, bimodal), leading to improved mechanical properties.",
-          "validation": "Microstructural characterization and mechanical testing confirm the effectiveness of cyclic heat treatments."
-        },
-        "key_terms": [
-          {
-            "en": "laser powder-bed fusion",
-            "zh": "激光粉末床熔融"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
-          },
-          {
-            "en": "cyclic heat treatment",
-            "zh": "循环热处理"
-          },
-          {
-            "en": "microstructure",
-            "zh": "微观组织"
-          },
-          {
-            "en": "prior-β grains",
-            "zh": "原始β晶粒"
-          },
-          {
-            "en": "α′ martensite",
-            "zh": "α′马氏体"
-          },
-          {
-            "en": "globular α",
-            "zh": "等轴α相"
-          },
-          {
-            "en": "bimodal microstructure",
-            "zh": "双态组织"
-          },
-          {
-            "en": "mechanical properties",
-            "zh": "力学性能"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
-    },
-    {
-      "source": "openalex",
       "id": "https://openalex.org/W4412635612",
       "doi": "10.3390/ma18153475",
       "title": "Mechanical Properties and Fatigue Life Estimation of Selective-Laser-Manufactured Ti6Al4V Alloys in a Comparison Between Annealing Treatment and Hot Isostatic Pressing",
@@ -178,6 +52,8 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "selective laser melting",
+          "SLM",
           "defect",
           "fatigue",
           "fatigue life"
@@ -192,8 +68,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "直接比较退火和热等静压对SLM Ti6Al4V疲劳和力学性能的影响，完全符合后处理控制方向。",
-        "why_not_core": "该论文并未涉及表面处理（如喷丸、抛光）等后处理方式，仅关注退火和热等静压。",
+        "relevance_to_user": "该论文直接比较了退火和热等静压两种后处理对SLM Ti6Al4V力学性能和疲劳寿命的影响，完全符合研究方向。",
+        "why_not_core": "该论文未涉及其他后处理如喷丸、抛光或涂层，且未进行有限元或机器学习建模。",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -202,34 +78,35 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
           "selective laser melting",
+          "Ti6Al4V",
           "annealing",
           "hot isostatic pressing",
           "fatigue life",
+          "mechanical properties",
           "microstructure",
           "defects"
         ],
         "summary_zh": {
-          "motivation": "比较退火和热等静压对SLM Ti6Al4V各向异性力学性能的影响",
-          "method": "对水平和垂直构建的试样进行退火和热等静压处理，通过金相、X射线成像和力学测试分析",
-          "result": "力学性能由α相形态和缺陷决定，热等静压显著降低各向异性和分散性，疲劳寿命与缺陷参数呈线性关系",
-          "validation": "通过拉伸、疲劳实验和断口分析验证微观结构与力学性能的关联"
+          "motivation": "比较退火和热等静压对SLM Ti6Al4V不同取向试样力学性能及疲劳寿命的影响。",
+          "method": "使用金相、X射线成像、拉伸和疲劳测试分析微观组织、缺陷及断裂机制。",
+          "result": "力学性能由α相形态和缺陷决定，HIP显著降低各向异性，疲劳寿命与X参数和应力幅呈线性关系。",
+          "validation": "通过实验测试和断口分析验证了微观组织与性能的关系。"
         },
         "summary_en": {
-          "motivation": "To compare the effects of annealing and hot isostatic pressing on the mechanical properties and fatigue life of selective laser melted Ti6Al4V alloys with respect to build orientation.",
-          "method": "Horizontally and vertically built SLM Ti6Al4V specimens were subjected to annealing and HIP treatments, and their microstructures, defects, and mechanical properties were characterized using metallography, X-ray imaging, tensile and fatigue tests.",
-          "result": "Mechanical performance was governed by α-phase morphology and defects; HIP effectively reduced anisotropy and scatter, while fatigue failure origins were correlated with defects and α colonies, with linear relationships established for life estimation.",
-          "validation": "Validation was performed through experimental mechanical testing (tensile and fatigue) combined with fracture surface analysis and microstructural characterization."
+          "motivation": "To compare the effects of annealing and hot isostatic pressing on the mechanical properties and fatigue life of SLM Ti6Al4V alloys fabricated in different orientations.",
+          "method": "Metallography, X-ray imaging, tensile and fatigue tests, and fracture analysis were employed to characterize microstructure, defects, and failure mechanisms.",
+          "result": "Mechanical performance was governed by α-phase morphology and defects; HIP significantly alleviated anisotropy, and linear relationships were established between fatigue life and both the X-parameter and maximum stress amplitude.",
+          "validation": "Experimental mechanical testing combined with microstructural and fractographic analysis validated the findings."
         },
         "key_terms": [
           {
             "en": "selective laser melting",
-            "zh": "选择性激光熔化"
+            "zh": "选区激光熔化"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
           },
           {
             "en": "annealing",
@@ -252,22 +129,158 @@
             "zh": "缺陷"
           },
           {
-            "en": "build orientation",
-            "zh": "构建方向"
+            "en": "anisotropy",
+            "zh": "各向异性"
           },
           {
-            "en": "α phase",
-            "zh": "α相"
-          },
-          {
-            "en": "mechanical properties",
-            "zh": "力学性能"
+            "en": "fracture analysis",
+            "zh": "断口分析"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412629609",
+      "doi": "10.1016/j.actamat.2025.121372",
+      "title": "Microstructural control across multiple length scales in additively manufactured Ti-6Al-4V via cyclic heat treatments",
+      "abstract": "Ti-6Al-4V is a premier titanium alloy widely used across various industrial sectors, thanks to its versatile properties arising from diverse microstructures tailorable via thermomechanical processing (TMP). In contrast, Ti-6Al-4V made by laser powder-bed fusion (LPBF) additive manufacturing (AM) lacks the same microstructural diversity and precise in-process microstructural control, primarily due to rapid thermal cycling inherent to LPBF. In the as-built state, the microstructure predominantly comprises acicular α′ martensites within columnar prior-β grains, which often fails to achieve mechanical properties comparable to those obtained through TMP. This necessitates the use of post-heat treatments as a critical step to ensure superior and reliable mechanical performance. The present study explores cyclic heat treatment (CHT) as an effective strategy for AM-specific microstructural control across multiple length scales, including prior-β grains, primary α, and secondary α. By varying peak temperature, number of cycles, and cooling rate, the initial microstructure dominated by α′ martensite in columnar prior-β grains rapidly evolves into diverse microstructures comparable to those achieved via TMP. These include lamellar α+β in equiaxed prior-β grains, globular α in near-equiaxed prior-β grains, and bimodal microstructure comprising a mixture of globular α and lamellar α+β/acicular α’. The accelerated microstructural evolution driven by the repetitive α↔β phase transformations induced by CHT facilitates processes like epitaxial recrystallisation and α globularisation. The developed CHT protocol provides a framework for microstructural engineering, enabling mechanical property optimisation and supporting broader industrial adoption of LPBF Ti-6Al-4V.",
+      "authors": [
+        "Sahil Dhiman",
+        "Milan Brandt",
+        "Daniel Fabijanic",
+        "Viswanath Chinthapenta",
+        "Wei Xu"
+      ],
+      "first_author_affiliation": "Micro-Mechanics Lab, Department of Mechanical and Aerospace Engineering, Indian Institute of Technology Hyderabad, NH-65, Sangareddy, Kandi, Telangana 502285, India",
+      "corresponding_authors": [
+        {
+          "name": "Viswanath Chinthapenta",
+          "affiliation": "Micro-Mechanics Lab, Department of Mechanical and Aerospace Engineering, Indian Institute of Technology Hyderabad, NH-65, Sangareddy, Kandi, Telangana 502285, India"
+        },
+        {
+          "name": "Wei Xu",
+          "affiliation": "School of Engineering, Deakin University, Victoria 3216, Australia"
+        }
+      ],
+      "venue": "Acta Materialia",
+      "year": 2025,
+      "date": "2025-07-24",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.actamat.2025.121372",
+      "cited_by_count": 18,
+      "concepts": [
+        "Materials science",
+        "Scale (ratio)",
+        "Chemical engineering",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "microstructure"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文研究了循环热处理对激光粉末床熔融Ti-6Al-4V微观结构的多尺度调控，直接关联后处理对力学性能的优化，符合L2方向要求。",
+        "why_not_core": "No explicit fatigue or tensile test results are reported in the abstract, though mechanical property optimization is claimed.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "cycle heat treatment",
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "microstructural control",
+          "post-processing"
+        ],
+        "summary_zh": {
+          "motivation": "增材制造Ti-6Al-4V缺乏热机械加工带来的微观结构多样性，需后热处理改善性能。",
+          "method": "采用循环热处理，通过改变峰值温度、循环次数和冷却速率调控多尺度微观结构。",
+          "result": "实现了类似热机械加工的多种微观结构，包括等轴β晶粒内的片层α+β、球化α及双态组织。",
+          "validation": "通过微观结构表征验证了循环热处理加速组织演化的有效性。"
+        },
+        "summary_en": {
+          "motivation": "Additively manufactured Ti-6Al-4V lacks the microstructural diversity achievable by thermomechanical processing, necessitating post-heat treatments for improved mechanical performance.",
+          "method": "Cyclic heat treatments with varying peak temperature, number of cycles, and cooling rate are used to control microstructure across multiple length scales.",
+          "result": "Microstructures comparable to thermomechanically processed alloys, including lamellar α+β in equiaxed prior-β grains, globular α, and bimodal structures, are achieved.",
+          "validation": "Microstructural characterization confirms accelerated evolution via repetitive α↔β phase transformations."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "cyclic heat treatment",
+            "zh": "循环热处理"
+          },
+          {
+            "en": "microstructural control",
+            "zh": "微观结构控制"
+          },
+          {
+            "en": "prior-β grains",
+            "zh": "原始β晶粒"
+          },
+          {
+            "en": "α′ martensite",
+            "zh": "α′马氏体"
+          },
+          {
+            "en": "globular α",
+            "zh": "球化α相"
+          },
+          {
+            "en": "bimodal microstructure",
+            "zh": "双态组织"
+          },
+          {
+            "en": "epitaxial recrystallisation",
+            "zh": "外延再结晶"
+          },
+          {
+            "en": "α globularisation",
+            "zh": "α球化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
     }
   ],
   "counts": {

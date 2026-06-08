@@ -39,11 +39,18 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
+        "ti6al4v_base_mechanical_fatigue",
         "ti6al4v_femoral_stem"
       ],
       "direction": "ti6al4v_femoral_stem",
       "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "3D printed"
+        ],
         "ti6al4v_femoral_stem": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
@@ -54,9 +61,9 @@
       "llm": {
         "priority": "Medium",
         "relevance_level": "Transferable",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文研究多孔Ti-6Al-4V的力学性能，对股骨柄的多孔结构设计有参考价值，但未涉及具体的股骨柄结构。",
-        "why_not_core": "This paper does not present a femoral/hip stem design; it only characterizes porous architectures under compression and bending, with no application to stem-specific loading (e.g., ISO fatigue, micromotion, stress shielding).",
+        "read_action": "Skim only",
+        "relevance_to_user": "该文研究了Ti-6Al-4V多孔结构的力学性能，虽未直接涉及股骨柄设计，但TPMS结构特性对植入物设计有参考价值。",
+        "why_not_core": "The paper does not focus on a femoral/hip stem design, stress shielding, Gruen zones, or ISO fatigue testing of stems; it only examines generic TPMS lattice samples under compressive and bending loads.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -71,66 +78,69 @@
           "Diamond",
           "Gyroid",
           "additive manufacturing",
-          "mechanical properties"
+          "compression",
+          "bending",
+          "stiffness",
+          "strength"
         ],
         "summary_zh": {
-          "motivation": "优化多孔Ti-6Al-4V的力学性能以用于生物医学。",
-          "method": "通过增材制造制备Diamond和Gyroid TPMS结构，进行压缩和弯曲测试。",
-          "result": "Diamond结构刚度强度更高，Gyroid结构各向同性更好。",
-          "validation": "实验力学测试。"
+          "motivation": "为生物医学应用优化多孔Ti-6Al-4V合金的力学性能。",
+          "method": "通过增材制造制备Diamond和Gyroid结构的样品，进行压缩和弯曲测试。",
+          "result": "Diamond结构刚度和强度更高，Gyroid结构更各向同性且柔性更好。",
+          "validation": "通过实验力学测试验证不同孔隙结构的性能差异。"
         },
         "summary_en": {
-          "motivation": "To optimize mechanical properties of porous Ti-6Al-4V for biomedical applications.",
-          "method": "Additively manufactured Diamond and Gyroid TPMS structures were tested under compression and bending.",
-          "result": "Diamond structures showed higher stiffness and strength, while Gyroid structures exhibited a more isotropic and flexible response.",
-          "validation": "Experimental mechanical testing of additively manufactured samples."
+          "motivation": "The study aims to optimize the mechanical properties of porous Ti-6Al-4V structures for biomedical applications by comparing TPMS architectures.",
+          "method": "Additively manufactured Diamond and Gyroid TPMS samples were tested under compressive and bending loads to evaluate their mechanical behavior.",
+          "result": "Diamond structures exhibited higher stiffness and strength, while Gyroid structures provided a more isotropic and flexible response.",
+          "validation": "The mechanical behavior was validated through experimental compression and bending tests on fabricated specimens."
         },
         "key_terms": [
           {
-            "en": "laser powder bed fusion",
-            "zh": "激光粉末床熔融"
-          },
-          {
             "en": "Ti-6Al-4V",
-            "zh": "钛合金"
-          },
-          {
-            "en": "TPMS",
-            "zh": "三周期极小曲面"
-          },
-          {
-            "en": "Diamond structure",
-            "zh": "金刚石结构"
-          },
-          {
-            "en": "Gyroid structure",
-            "zh": "螺旋结构"
-          },
-          {
-            "en": "compressive test",
-            "zh": "压缩测试"
-          },
-          {
-            "en": "bending test",
-            "zh": "弯曲测试"
-          },
-          {
-            "en": "mechanical properties",
-            "zh": "力学性能"
+            "zh": "钛合金Ti-6Al-4V"
           },
           {
             "en": "porous structures",
             "zh": "多孔结构"
           },
           {
+            "en": "TPMS",
+            "zh": "三周期极小曲面"
+          },
+          {
+            "en": "Diamond",
+            "zh": "钻石结构"
+          },
+          {
+            "en": "Gyroid",
+            "zh": "螺旋结构"
+          },
+          {
             "en": "additive manufacturing",
             "zh": "增材制造"
+          },
+          {
+            "en": "compression",
+            "zh": "压缩"
+          },
+          {
+            "en": "bending",
+            "zh": "弯曲"
+          },
+          {
+            "en": "stiffness",
+            "zh": "刚度"
+          },
+          {
+            "en": "strength",
+            "zh": "强度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
     },
     {
       "source": "openalex",
@@ -182,6 +192,10 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
           "residual stress"
         ]
       },
@@ -189,8 +203,8 @@
         "priority": "Medium",
         "relevance_level": "Direct",
         "read_action": "Save for project",
-        "relevance_to_user": "该论文直接研究LPBF Ti-6Al-4V残余应力，残余应力属于方向范围内的机械性能方面，但未涉及疲劳测试。",
-        "why_not_core": "This paper focuses on residual stress measurement and does not provide fatigue or tensile mechanical property data for Ti-6Al-4V.",
+        "relevance_to_user": "本文研究了激光粉末床熔融Ti6Al4V的残余应力与工艺参数的关系，属于L1方向的核心内容。",
+        "why_not_core": "本文重点在于残余应力控制而非直接的力学性能（如拉伸、疲劳）表征，且同时研究了AlSi10Mg。",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -199,23 +213,23 @@
           "is_review": false
         },
         "tags": [
+          "LPBF",
           "residual stress",
-          "laser powder bed fusion",
-          "Ti-6Al-4V",
+          "Ti6Al4V",
           "bridge curvature method",
           "process parameters"
         ],
         "summary_zh": {
-          "motivation": "探究LPBF工艺参数对AlSi10Mg和Ti6Al4V残余应力的影响",
-          "method": "采用桥曲率法测量样品的总平面度偏差以表征残余应力",
-          "result": "Ti6Al4V中只有基板预热显著影响残余应力，而AlSi10Mg中所有参数均有显著影响",
-          "validation": "实验测量，通过桥曲率法获取残余应力数据"
+          "motivation": "激光粉末床熔融中残余应力影响零件精度和性能，需明确工艺参数的影响。",
+          "method": "采用桥曲率法测量AlSi10Mg和Ti6Al4V的残余应力，分析激光功率、扫描速度和基板预热的影响。",
+          "result": "Ti6Al4V残余应力高于AlSi10Mg，仅基板预热显著影响Ti6Al4V的残余应力，归因于马氏体相变冷却速率。",
+          "validation": "通过桥曲率法实验测量样品平面度偏差作为残余应力指标。"
         },
         "summary_en": {
-          "motivation": "To investigate how LPBF process parameters influence residual stresses in AlSi10Mg and Ti6Al4V alloys.",
-          "method": "The bridge curvature method was used to quantify residual stresses by measuring total flatness deviation (FLTt) of printed samples.",
-          "result": "For Ti6Al4V, only build plate preheating significantly affected residual stresses, while for AlSi10Mg all parameters showed strong correlations.",
-          "validation": "Experimental validation via bridge curvature measurements on as-built samples."
+          "motivation": "Residual stresses in LPBF parts cause distortion and reduce mechanical properties, motivating a systematic study of how process parameters control them.",
+          "method": "The bridge curvature method was used to measure residual stresses in AlSi10Mg and Ti6Al4V samples fabricated with varying laser power, scan speed, and build plate preheating.",
+          "result": "Only build plate preheating significantly affected residual stresses in Ti6Al4V, attributed to its influence on cooling rates during martensitic transformation; AlSi10Mg showed strong correlation with all parameters.",
+          "validation": "Experimental measurement of total flatness deviation (FLTt) via bridge curvature method served as a relative residual stress indicator."
         },
         "key_terms": [
           {
@@ -227,34 +241,38 @@
             "zh": "残余应力"
           },
           {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
             "en": "bridge curvature method",
             "zh": "桥曲率法"
           },
           {
-            "en": "build plate preheating",
-            "zh": "基板预热"
+            "en": "martensitic phase transformation",
+            "zh": "马氏体相变"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "en": "cooling rate",
+            "zh": "冷却速率"
+          },
+          {
+            "en": "process parameters",
+            "zh": "工艺参数"
           },
           {
             "en": "flatness deviation",
             "zh": "平面度偏差"
           },
           {
-            "en": "solidification cooling rate",
-            "zh": "凝固冷却速率"
-          },
-          {
-            "en": "martensitic phase transformation",
-            "zh": "马氏体相变"
+            "en": "AlSi10Mg",
+            "zh": "AlSi10Mg铝合金"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
     },
     {
       "source": "openalex",
@@ -309,15 +327,18 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
           "defect"
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文未涉及Ti-6Al-4V的力学或疲劳性能，仅关注工艺参数优化，与方向要求的机械疲劳内容无关。",
-        "why_not_core": "This paper focuses on process parameter optimization for melt pool depth and keyhole defect minimization, but does not include any mechanical or fatigue testing or modeling of Ti-6Al-4V.",
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文主要研究Ti-6Al-4V的LPBF工艺参数优化，而非力学或疲劳性能，仅间接相关。",
+        "why_not_core": "No experimental mechanical or fatigue characterization of Ti-6Al-4V; focuses on melt pool prediction and defect control via machine learning optimization.",
         "validation_kind": "numerical_benchmark",
         "flags": {
           "has_experimental_validation": false,
@@ -330,20 +351,21 @@
           "Ti-6Al-4V",
           "machine learning",
           "reinforcement learning",
-          "process optimization",
-          "melt pool depth"
+          "process parameter optimization",
+          "melt pool depth",
+          "keyhole defect"
         ],
         "summary_zh": {
-          "motivation": "利用ML和RL优化LPBF工艺参数以控制熔池深度",
-          "method": "结合高斯过程回归和Q学习的混合框架",
-          "result": "GPR模型预测精度高，RL获得最优参数",
-          "validation": "利用文献实验数据验证模型预测能力"
+          "motivation": "为优化LPBF工艺参数以控制熔池缺陷，首次提出机器学习与强化学习混合框架。",
+          "method": "从文献提取数据训练高斯过程回归模型，结合Q学习强化学习智能体推导最优参数。",
+          "result": "GPR模型预测精度高（R²=96.05%），RL方法实现目标熔池深度并最小化归一化焓。",
+          "validation": "使用文献实验数据验证预测精度，未进行新实验验证。"
         },
         "summary_en": {
-          "motivation": "To develop a data-driven framework for optimizing L-PBF process parameters to achieve desired melt pool characteristics and minimize defects.",
-          "method": "Integrates Gaussian process regression (GPR) with a Q-learning-based reinforcement learning agent.",
-          "result": "The GPR model achieves high prediction accuracy (R²=96.05%) for Ti6Al4V, and the RL agent successfully derives parameters for target melt pool depth while minimizing normalized enthalpy.",
-          "validation": "Experimental data from literature used to train and validate the ML models."
+          "motivation": "To optimize L-PBF process parameters for controlling melt pool characteristics and defects, a hybrid machine learning and reinforcement learning framework is proposed for the first time.",
+          "method": "Experimental data from the literature were used to train Gaussian process regression (GPR) models, which were then integrated with a Q-learning agent to derive optimal process parameters.",
+          "result": "The GPR model achieved high prediction accuracy (RMSE 34 µm, R² 96.05%) for melt pool depth, and the RL framework successfully minimized the normalized enthalpy to reduce keyhole defect risk.",
+          "validation": "Validation was performed using literature experimental data to assess model accuracy; no new experimental validation was conducted."
         },
         "key_terms": [
           {
@@ -352,11 +374,11 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "zh": "钛合金Ti-6Al-4V"
           },
           {
-            "en": "machine learning",
-            "zh": "机器学习"
+            "en": "Gaussian process regression",
+            "zh": "高斯过程回归"
           },
           {
             "en": "reinforcement learning",
@@ -371,42 +393,182 @@
             "zh": "熔池深度"
           },
           {
-            "en": "Gaussian process regression",
-            "zh": "高斯过程回归"
+            "en": "keyhole defect",
+            "zh": "匙孔缺陷"
+          },
+          {
+            "en": "digital twin",
+            "zh": "数字孪生"
           },
           {
             "en": "Q-learning",
             "zh": "Q学习"
           },
           {
-            "en": "keyhole defect",
-            "zh": "匙孔缺陷"
+            "en": "normalized enthalpy",
+            "zh": "归一化焓"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7140122327",
+      "doi": "10.3390/met16030350",
+      "title": "Mechanical Properties of High-Entropy Coatings of the (TiZrVCrAl)N System of Different Architectures Deposited by the Arc-PVD Method on the Surface of Ti-6Al-4V Alloy",
+      "abstract": "In this work, for the first time, we applied and determined the mechanical characteristics of protective coatings made of high-entropy alloy (TiZrVCrAl)N with different architectures onto the surface of Ti-6Al-4V alloy with the initial coarse-grained and ultrafine-grained structure using arc physical vapor deposition. We designed and prepared three coating architectures: a monolayer nitride coating (TiZrVCrAl)N, a multilayer coating consisting of nine alternating layers of TiZrVCrAl and (TiZrVCrAl)N, and a multilayer coating consisting of 720 alternating layers of (TiZrVCrAl)N and TiN, with a total thickness not exceeding 2 microns. We evaluated their protective performances by nanoindentation and scratch tests. Importantly, the effect of the substrate microstructure on the coatings’ performance is investigated by comparing their mechanical behavior on coarse-grained and ultrafine-grained Ti-6Al-4V. Our experimental results show that the coating performance improves with increasing number of layers in the coating, and this effect is even more pronounced for the multilayer coating deposited on the ultrafine-grained titanium alloy substrate. We also find that the (TiZrVCrAl)N/TiN (720 layers) multilayer coating deposited on the UFG Ti-6Al-4V alloy substrate exhibits the highest H/E- and H3/E2-values, indicating the coating’s high innovative potential for performance in extreme conditions. The origins of this phenomenon are analyzed and discussed.",
+      "authors": [
+        "Yana N. Savina",
+        "R. R. Valiev",
+        "R. R. Valiev",
+        "Stanislav Ovchinnikov",
+        "A. Yu. Nazarov",
+        "Iuliia Mikhailovna Modina",
+        "А. А. Nikolaev",
+        "K. N. Ramazanov",
+        "Vitaly V. Sanin",
+        "Liliya Yu. Mezhevaia",
+        "Elina Radikovna Kasimova",
+        "Arnaud Caron",
+        "Prof. Ruslan Z. Valiev",
+        "Prof. Ruslan Z. Valiev"
+      ],
+      "first_author_affiliation": "Institute of Physics of Advanced Materials, Ufa University of Science and Technology, Ufa 450076, Russia",
+      "corresponding_authors": [
+        {
+          "name": "R. R. Valiev",
+          "affiliation": "Herbert Gleiter International Institute, Liaoning Academy of Materials, Shenyang 110167, China"
+        },
+        {
+          "name": "Prof. Ruslan Z. Valiev",
+          "affiliation": "Herbert Gleiter International Institute, Liaoning Academy of Materials, Shenyang 110167, China"
+        }
+      ],
+      "venue": "Metals",
+      "year": 2026,
+      "date": "2026-03-20",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/met16030350",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Coating",
+        "Nanoindentation",
+        "Alloy",
+        "Microstructure",
+        "Composite material",
+        "Substrate (aquarium)",
+        "Layer (electronics)",
+        "Scratch",
+        "Titanium alloy",
+        "Nitride",
+        "Metallurgy",
+        "Physical vapor deposition"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "本文涉及Ti-6Al-4V基体上的涂层性能，但未涉及增材制造工艺，因此与方向无关。",
+        "why_not_core": "The paper does not study additively manufactured Ti-6Al-4V; it investigates coatings deposited on conventionally processed Ti-6Al-4V, which is outside the scope of the L1 direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "high-entropy coatings",
+          "arc-PVD",
+          "Ti-6Al-4V",
+          "nanoindentation",
+          "scratch test",
+          "multilayer coating"
+        ],
+        "summary_zh": {
+          "motivation": "研究在Ti-6Al-4V基体上沉积高熵涂层以提升机械性能。",
+          "method": "采用电弧物理气相沉积制备不同结构涂层并进行纳米压痕和划痕测试。",
+          "result": "多层涂层性能优于单层，超细晶基体上效果更佳。",
+          "validation": "纳米压痕和划痕实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the mechanical properties of high-entropy coatings deposited on Ti-6Al-4V substrates with different microstructures.",
+          "method": "Arc-PVD was used to deposit monolayer and multilayer (TiZrVCrAl)N coatings, and mechanical performance was evaluated via nanoindentation and scratch tests.",
+          "result": "Multilayer coatings, especially the 720-layer (TiZrVCrAl)N/TiN on ultrafine-grained Ti-6Al-4V, exhibited superior H/E and H3/E2 ratios.",
+          "validation": "Experimental nanoindentation and scratch testing."
+        },
+        "key_terms": [
+          {
+            "en": "high-entropy alloy coating",
+            "zh": "高熵合金涂层"
+          },
+          {
+            "en": "arc-PVD",
+            "zh": "电弧物理气相沉积"
+          },
+          {
+            "en": "nanoindentation",
+            "zh": "纳米压痕"
+          },
+          {
+            "en": "scratch test",
+            "zh": "划痕测试"
+          },
+          {
+            "en": "multilayer coating",
+            "zh": "多层涂层"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "ultrafine-grained",
+            "zh": "超细晶"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 4,
     "by_source": {
-      "openalex": 3
+      "openalex": 4
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
       "ti6al4v_femoral_stem": 1,
-      "ti6al4v_base_mechanical_fatigue": 2
+      "ti6al4v_base_mechanical_fatigue": 3
     },
     "routed_by_source": {
-      "openalex": 3
+      "openalex": 4
     },
-    "scored": 3,
+    "scored": 4,
     "priority_counts": {
-      "Medium": 2,
-      "Low": 1
+      "Medium": 3,
+      "Exclude": 1
     }
   }
 }

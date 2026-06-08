@@ -5,124 +5,6 @@
   "papers": [
     {
       "source": "openalex",
-      "id": "https://openalex.org/W4414615852",
-      "doi": "10.3389/fbioe.2025.1661278",
-      "title": "Modular Ti-6Al-4V system for in vitro optimization of implant materials",
-      "abstract": "Introduction Titanium is a widely used biomaterial for implants. Research is focused on optimizing titanium by modifying its surface structure and porosity to prevent complications such as implant loosening or foreign body reactions. However, changes to implant materials necessitates preclinical testing, often involving animal testing, which gives rise to ethical concerns. This underscores the significant demand for test systems that can reduce time and costs. Although in vitro models can provide valuable initial insights into the biological evaluation of biomaterials and help reduce the need for animal experiments, dedicated test systems for biomaterial evaluation remain limited. Methods In our work, we developed modular 3D porous stacked models using Ti-6Al-4V sheets with different structural designs. These models are used to demonstrate the migration of primary human fibroblasts into the implant through fluorescence microscopy and investigate the effects of pore size. In addition, Ti alloy sheets with slots were polished and ground (1,200 grid SiC) to examine differences in cell adhesion and migration for different surface properties. Results The MTT results indicate similar cell growth on the different patterns and surface conditions, which suggests the use of more biomimetic structures in the future. Discussion Consequently, our model serves as a screening system for optimization of porosity and surface conditions of implant materials, which contributes to early-stage in vitro biocompatibility and cell migration studies.",
-      "authors": [
-        "Charlotte von Heckel",
-        "Heike Walles",
-        "Georg Hasemann",
-        "Manja Krüger"
-      ],
-      "first_author_affiliation": "Department of Process and Systems Engineering, Core Facility Tissue Engineering, Institute of Chemistry, Otto-von-Guericke University, Magdeburg, Germany",
-      "corresponding_authors": [
-        {
-          "name": "Charlotte von Heckel",
-          "affiliation": "Department of Process and Systems Engineering, Core Facility Tissue Engineering, Institute of Chemistry, Otto-von-Guericke University, Magdeburg, Germany"
-        }
-      ],
-      "venue": "Frontiers in Bioengineering and Biotechnology",
-      "year": 2025,
-      "date": "2025-09-29",
-      "date_precision": "day",
-      "url": "https://doi.org/10.3389/fbioe.2025.1661278",
-      "cited_by_count": 1,
-      "concepts": [
-        "Biocompatibility",
-        "Modular design",
-        "Biomedical engineering",
-        "Implant",
-        "Porosity",
-        "Materials science"
-      ],
-      "categories": [],
-      "raw_type": "article",
-      "directions": [
-        "ti6al4v_base_mechanical_fatigue"
-      ],
-      "direction": "ti6al4v_base_mechanical_fatigue",
-      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
-      "routing_matches": {
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "porosity"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文主要关注Ti-6Al-4V植入材料的体外生物相容性评估，而非其力学性能或疲劳行为，因此与L1方向无关。",
-        "why_not_core": "The paper focuses on in vitro biological evaluation (cell migration, biocompatibility) of Ti-6Al-4V implant materials, with no mechanical testing, fatigue analysis, or any mechanical/fatigue characterization.",
-        "validation_kind": "in_vitro",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "Ti-6Al-4V",
-          "implant",
-          "biocompatibility",
-          "in vitro",
-          "cell migration"
-        ],
-        "summary_zh": {
-          "motivation": "开发用于优化钛植入体材料和结构的测试系统以减少动物实验。",
-          "method": "使用不同孔隙和表面处理的Ti-6Al-4V片材构建模块化3D多孔模型。",
-          "result": "细胞生长在不同结构和表面上相似，表明可进一步使用仿生结构。",
-          "validation": "通过荧光显微镜、MTT实验等体外细胞实验验证。"
-        },
-        "summary_en": {
-          "motivation": "To develop a test system for optimizing implant materials and reducing animal testing by evaluating Ti-6Al-4V porous structures.",
-          "method": "Modular 3D porous stacked models were fabricated from Ti-6Al-4V sheets with varying pore sizes and surface finishes.",
-          "result": "MTT assays showed similar cell growth across different patterns and surface conditions, suggesting the potential for more biomimetic designs.",
-          "validation": "In vitro experiments using fluorescence microscopy and MTT assays assessed cell adhesion and migration."
-        },
-        "key_terms": [
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
-          {
-            "en": "porous titanium",
-            "zh": "多孔钛"
-          },
-          {
-            "en": "biocompatibility",
-            "zh": "生物相容性"
-          },
-          {
-            "en": "cell migration",
-            "zh": "细胞迁移"
-          },
-          {
-            "en": "in vitro model",
-            "zh": "体外模型"
-          },
-          {
-            "en": "implant materials",
-            "zh": "植入材料"
-          },
-          {
-            "en": "surface roughness",
-            "zh": "表面粗糙度"
-          },
-          {
-            "en": "modular system",
-            "zh": "模块化系统"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
-    },
-    {
-      "source": "openalex",
       "id": "https://openalex.org/W4414601317",
       "doi": "10.1038/s41598-025-18310-5",
       "title": "Precision measurement and sustainable assessment in milling of additively manufactured TiC–Ti64-ELI composites",
@@ -186,6 +68,8 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti64",
+          "additively manufactured",
+          "DED",
           "surface roughness"
         ],
         "ti6al4v_postprocess": [
@@ -196,10 +80,10 @@
       "llm": {
         "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Skim only",
-        "relevance_to_user": "该论文涉及TiC–Ti64-ELI复合材料的铣削后处理，但材料并非纯Ti-6Al-4V，且未评估疲劳/力学性能。",
-        "why_not_core": "Paper studies milling of TiC-Ti64-ELI composite, not pure Ti-6Al-4V, and focuses on machinability and sustainability rather than the effect on fatigue or mechanical performance.",
-        "validation_kind": "mechanical_testing",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V铣削后处理，但主要关注可持续性和加工表面质量，未评估疲劳或力学性能，与后处理控制对力学性能的影响方向不直接相关。",
+        "why_not_core": "the paper investigates milling sustainability and machinability of TiC–Ti64-ELI, but does not evaluate mechanical performance (fatigue, tensile) or post-processing control for improving mechanical properties; it lacks fatigue data or microstructure analysis relevant to post-processing effects.",
+        "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -208,22 +92,22 @@
         },
         "tags": [
           "milling",
-          "TiC-Ti64 composite",
-          "cryogenic cooling",
-          "sustainable machining",
-          "surface roughness"
+          "Ti-6Al-4V",
+          "sustainability",
+          "surface roughness",
+          "cryogenic cooling"
         ],
         "summary_zh": {
-          "motivation": "提高增材制造钛基复合材料机加工表面质量并降低碳排放。",
-          "method": "在不同冷却条件下进行TiC–Ti64-ELI铣削实验，分析表面粗糙度、刀具磨损和碳排放。",
-          "result": "二氧化碳低温冷却在降低碳排放的同时保持了高质量表面。",
-          "validation": "通过铣削实验和期望函数优化工艺参数验证。"
+          "motivation": "研究TiC-Ti64-ELI复合材料铣削的可持续性与可加工性。",
+          "method": "在不同环保冷却条件下进行铣削实验，分析碳排放、比切削能、表面粗糙度和刀具磨损。",
+          "result": "液氮CO2冷却能显著降低碳排放并保持高质量。",
+          "validation": "通过实验数据和期望函数优化工艺参数。"
         },
         "summary_en": {
-          "motivation": "To improve machined surface quality and reduce carbon footprint in subtractive finishing of additively manufactured titanium matrix composites.",
-          "method": "Milling experiments on DED-fabricated TiC–Ti64-ELI were conducted under cryogenic, MQL, and dry conditions, evaluating surface roughness, tool wear, specific cutting energy, and carbon emissions.",
-          "result": "Cryogenic CO₂ cooling achieved the best overall performance, significantly lowering carbon emissions while maintaining high surface quality.",
-          "validation": "Experimental machining trials and desirability function optimization validated the process parameters."
+          "motivation": "This work evaluates the sustainability and machinability of milling additively manufactured TiC–Ti64-ELI composites for aviation applications.",
+          "method": "Milling experiments were conducted under distinct environmentally friendly cooling conditions, analyzing carbon emissions, specific cutting energy, surface roughness, and tool wear.",
+          "result": "Cryogenic cooling with CO2 significantly reduced carbon emissions while maintaining high surface quality performance standards.",
+          "validation": "Experimental data and desirability function optimization validated the best speed-feed combinations and cooling conditions."
         },
         "key_terms": [
           {
@@ -231,12 +115,12 @@
             "zh": "直接能量沉积"
           },
           {
-            "en": "TiC–Ti64-ELI composite",
-            "zh": "TiC–Ti64-ELI复合材料"
+            "en": "Ti-6Al-4V ELI",
+            "zh": "Ti-6Al-4V ELI"
           },
           {
-            "en": "cryogenic cooling",
-            "zh": "低温冷却"
+            "en": "milling",
+            "zh": "铣削"
           },
           {
             "en": "surface roughness",
@@ -251,14 +135,132 @@
             "zh": "碳排放"
           },
           {
-            "en": "sustainable machining",
-            "zh": "可持续加工"
+            "en": "cryogenic cooling",
+            "zh": "低温冷却"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414615852",
+      "doi": "10.3389/fbioe.2025.1661278",
+      "title": "Modular Ti-6Al-4V system for in vitro optimization of implant materials",
+      "abstract": "Introduction Titanium is a widely used biomaterial for implants. Research is focused on optimizing titanium by modifying its surface structure and porosity to prevent complications such as implant loosening or foreign body reactions. However, changes to implant materials necessitates preclinical testing, often involving animal testing, which gives rise to ethical concerns. This underscores the significant demand for test systems that can reduce time and costs. Although in vitro models can provide valuable initial insights into the biological evaluation of biomaterials and help reduce the need for animal experiments, dedicated test systems for biomaterial evaluation remain limited. Methods In our work, we developed modular 3D porous stacked models using Ti-6Al-4V sheets with different structural designs. These models are used to demonstrate the migration of primary human fibroblasts into the implant through fluorescence microscopy and investigate the effects of pore size. In addition, Ti alloy sheets with slots were polished and ground (1,200 grid SiC) to examine differences in cell adhesion and migration for different surface properties. Results The MTT results indicate similar cell growth on the different patterns and surface conditions, which suggests the use of more biomimetic structures in the future. Discussion Consequently, our model serves as a screening system for optimization of porosity and surface conditions of implant materials, which contributes to early-stage in vitro biocompatibility and cell migration studies.",
+      "authors": [
+        "Charlotte von Heckel",
+        "Heike Walles",
+        "Georg Hasemann",
+        "Manja Krüger"
+      ],
+      "first_author_affiliation": "Department of Process and Systems Engineering, Core Facility Tissue Engineering, Institute of Chemistry, Otto-von-Guericke University, Magdeburg, Germany",
+      "corresponding_authors": [
+        {
+          "name": "Charlotte von Heckel",
+          "affiliation": "Department of Process and Systems Engineering, Core Facility Tissue Engineering, Institute of Chemistry, Otto-von-Guericke University, Magdeburg, Germany"
+        }
+      ],
+      "venue": "Frontiers in Bioengineering and Biotechnology",
+      "year": 2025,
+      "date": "2025-09-29",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3389/fbioe.2025.1661278",
+      "cited_by_count": 1,
+      "concepts": [
+        "Biocompatibility",
+        "Modular design",
+        "Biomedical engineering",
+        "Implant",
+        "Porosity",
+        "Materials science"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要关注钛合金植入物的体外生物相容性和细胞迁移，未涉及任何力学或疲劳性能测试。",
+        "why_not_core": "Paper focuses on in vitro biocompatibility and cell migration, not mechanical/fatigue characterization or modeling of Ti-6Al-4V.",
+        "validation_kind": "in_vitro",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "in vitro",
+          "biocompatibility",
+          "cell migration",
+          "porosity"
+        ],
+        "summary_zh": {
+          "motivation": "开发模块化钛合金体外测试系统以优化植入物表面和孔隙结构。",
+          "method": "使用不同结构设计的Ti-6Al-4V多孔叠层模型，通过荧光显微镜和MTT法评估成纤维细胞迁移和增殖。",
+          "result": "不同图案和表面条件下细胞生长相似，建议未来使用更仿生的结构。",
+          "validation": "体外细胞实验验证（MTT、荧光显微镜）。"
+        },
+        "summary_en": {
+          "motivation": "To develop a modular Ti-6Al-4V in vitro test system for optimizing implant surface structure and porosity to reduce animal testing.",
+          "method": "3D porous stacked models with various structural designs were fabricated from Ti-6Al-4V sheets, and primary human fibroblast migration was assessed via fluorescence microscopy and MTT assay.",
+          "result": "Similar cell growth across different patterns and surface conditions, suggesting the use of more biomimetic structures in future studies.",
+          "validation": "In vitro cell-based validation (MTT, fluorescence microscopy)."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "modular test system",
+            "zh": "模块化测试系统"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "surface structure",
+            "zh": "表面结构"
+          },
+          {
+            "en": "fibroblast migration",
+            "zh": "成纤维细胞迁移"
+          },
+          {
+            "en": "biocompatibility",
+            "zh": "生物相容性"
+          },
+          {
+            "en": "MTT assay",
+            "zh": "MTT法"
+          },
+          {
+            "en": "fluorescence microscopy",
+            "zh": "荧光显微镜"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
     }
   ],
   "counts": {
@@ -269,16 +271,16 @@
     "after_dedup": 2,
     "after_routing": 2,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1,
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
       "openalex": 2
     },
     "scored": 2,
     "priority_counts": {
-      "Exclude": 1,
-      "Low": 1
+      "Low": 1,
+      "Exclude": 1
     }
   }
 }

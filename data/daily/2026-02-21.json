@@ -59,6 +59,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
           "residual stress"
         ],
         "ti6al4v_postprocess": [
@@ -68,12 +69,12 @@
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Medium",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文关注热处理对Ti-6Al-4V耐腐蚀性的影响，但未涉及疲劳或力学性能，因此与后处理对力学性能调控的方向不直接相关。",
-        "why_not_core": "This paper does not evaluate fatigue or mechanical performance (tensile, fatigue) of Ti-6Al-4V after post-processing; it solely focuses on corrosion resistance.",
-        "validation_kind": "none",
+        "relevance_to_user": "本文涉及增材制造Ti-6Al-4V的热处理，但主要关注氧化膜和耐腐蚀性，而非疲劳或力学性能，与预期方向部分相关。",
+        "why_not_core": "The paper investigates corrosion resistance rather than fatigue or mechanical performance, which is the primary focus of this direction.",
+        "validation_kind": "in_vitro",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -81,28 +82,33 @@
           "is_review": false
         },
         "tags": [
+          "Ti-6Al-4V",
           "heat treatment",
           "corrosion resistance",
           "oxide film",
-          "Ti-6Al-4V",
-          "additive manufacturing"
+          "additive manufacturing",
+          "residual stress"
         ],
         "summary_zh": {
           "motivation": "研究热处理对增材制造Ti-6Al-4V氧化膜形成及耐腐蚀性的调控机制。",
-          "method": "进行不同热处理，分析氧化膜结构和残余应力。",
-          "result": "热处理通过协同影响基体结构和残余应力改善耐腐蚀性。",
-          "validation": "通过腐蚀实验和微观表征验证。"
+          "method": "表征不同热处理条件下氧化膜结构与厚度，并通过电化学测试评价耐腐蚀性。",
+          "result": "热处理通过协同改变基体结构和残余应力影响氧化膜形成及耐腐蚀性。",
+          "validation": "通过实验表征与电化学测试验证。"
         },
         "summary_en": {
-          "motivation": "To investigate the mechanism by which heat treatment regulates oxide film formation on additively manufactured Ti-6Al-4V and its effect on corrosion resistance.",
-          "method": "Different heat treatments were applied, and oxide film structure and residual stress were analyzed.",
-          "result": "Heat treatment improved corrosion resistance through synergistic effects on matrix structure and residual stress.",
-          "validation": "Corrosion tests and microstructural characterization validated the findings."
+          "motivation": "To investigate the mechanism by which heat treatment regulates oxide film formation and corrosion resistance of additively manufactured Ti-6Al-4V.",
+          "method": "Characterized oxide film structure and thickness under different heat treatment conditions and evaluated corrosion resistance via electrochemical tests.",
+          "result": "Heat treatment synergistically influences oxide film formation and corrosion resistance through modification of matrix structure and residual stress.",
+          "validation": "Experimental characterization and electrochemical testing."
         },
         "key_terms": [
           {
             "en": "heat treatment",
             "zh": "热处理"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
           },
           {
             "en": "oxide film",
@@ -113,22 +119,22 @@
             "zh": "耐腐蚀性"
           },
           {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
             "en": "residual stress",
             "zh": "残余应力"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
-          },
-          {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
+            "en": "matrix structure",
+            "zh": "基体结构"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
     }
   ],
   "counts": {
@@ -146,7 +152,7 @@
     },
     "scored": 1,
     "priority_counts": {
-      "Low": 1
+      "Medium": 1
     }
   }
 }

@@ -5,6 +5,133 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W4417437485",
+      "doi": "10.1016/j.engfailanal.2025.110478",
+      "title": "Failure mechanisms and strength of mesostructurally modified Ti-6Al-4V lattice metamaterials designed for additive manufacturing",
+      "abstract": "",
+      "authors": [
+        "Paweł Bielski",
+        "Michał Doroszko",
+        "A. Seweryn"
+      ],
+      "first_author_affiliation": "Gdańsk University of Technology, Narutowicza 11/12, Gdańsk, 80-233, Poland",
+      "corresponding_authors": [
+        {
+          "name": "Paweł Bielski",
+          "affiliation": "Gdańsk University of Technology, Narutowicza 11/12, Gdańsk, 80-233, Poland"
+        }
+      ],
+      "venue": "Engineering Failure Analysis",
+      "year": 2025,
+      "date": "2025-12-17",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.engfailanal.2025.110478",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Relative density",
+        "Ultimate tensile strength",
+        "Truss",
+        "Finite element method",
+        "Composite material",
+        "Metamaterial",
+        "Hardening (computing)",
+        "Compressive strength",
+        "Strain hardening exponent",
+        "Plasticity",
+        "Structural engineering",
+        "Stress (linguistics)",
+        "Lattice (music)",
+        "Fatigue limit",
+        "Stress concentration",
+        "Stress–strain curve",
+        "Ultimate failure",
+        "Material properties",
+        "Cylinder stress",
+        "Fabrication",
+        "Representative elementary volume",
+        "Strength of materials"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "本文研究了增材制造Ti-6Al-4V点阵超材料的失效机制和强度，直接符合方向对力学性能的要求。",
+        "why_not_core": "Does not explicitly address fatigue life or cyclic loading; focuses on static strength and failure mechanisms.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "lattice metamaterials",
+          "additive manufacturing",
+          "failure mechanisms",
+          "strength",
+          "mesostructural modification"
+        ],
+        "summary_zh": {
+          "motivation": "探究增材制造Ti-6Al-4V点阵超材料经微观结构改性后的失效机制和强度。",
+          "method": "通过拉伸和压缩实验测试不同微观改性的点阵试样。",
+          "result": "改性显著影响强度与失效模式。",
+          "validation": "机械测试验证实验数据。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the failure mechanisms and strength of additively manufactured Ti-6Al-4V lattice metamaterials with mesostructural modifications.",
+          "method": "Tensile and compression tests were conducted on Ti-6Al-4V lattice specimens with various mesostructural modifications produced by additive manufacturing.",
+          "result": "Mesostructural modifications significantly influence the strength and failure mechanisms of the lattice metamaterials.",
+          "validation": "Experimental mechanical testing on fabricated specimens served as validation."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "lattice metamaterials",
+            "zh": "点阵超材料"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "failure mechanisms",
+            "zh": "失效机制"
+          },
+          {
+            "en": "strength",
+            "zh": "强度"
+          },
+          {
+            "en": "mesostructural modification",
+            "zh": "介观结构改性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W4417420525",
       "doi": "10.3311/ppme.41069",
       "title": "Mechanical and Microstructural Characterization of a Titanium-based Ti-6Al-2Cr-2Ni Alloy Produced by SPS Sintering for Use in the Aerospace Industry",
@@ -61,6 +188,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "microstructure",
           "porosity"
         ],
         "ti6al4v_postprocess": [
@@ -73,8 +201,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的合金为Ti-6Al-2Cr-2Ni，不是Ti-6Al-4V，且制造工艺为放电等离子烧结而非增材制造，与用户关注的后处理对增材制造Ti-6Al-4V力学性能的影响无关。",
-        "why_not_core": "The paper does not study Ti-6Al-4V, does not use additive manufacturing, and does not focus on fatigue or mechanical performance relevant to the post-processing control of AM Ti-6Al-4V.",
+        "relevance_to_user": "该论文研究的是Ti-6Al-2Cr-2Ni合金的SPS烧结及退火处理，而非增材制造Ti-6Al-4V的后处理，因此不相关。",
+        "why_not_core": "The paper does not concern Ti-6Al-4V nor additive manufacturing; it focuses on a different Ti alloy (Ti-6Al-2Cr-2Ni) produced by SPS sintering, not AM.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -83,22 +211,23 @@
           "is_review": false
         },
         "tags": [
+          "Spark Plasma Sintering",
           "Ti-6Al-2Cr-2Ni",
-          "SPS",
           "annealing",
-          "microhardness"
+          "microhardness",
+          "Young's modulus"
         ],
         "summary_zh": {
-          "motivation": "探索SPS烧结Ti-6Al-2Cr-2Ni合金的可行性及其退火后的微观结构和力学性能。",
-          "method": "采用SPS在1000°C、30MPa下烧结8分钟，随后进行550°C退火处理，通过SEM、XRD和显微硬度测试表征。",
-          "result": "退火后孔隙率显著降低，硬度增加，弹性模量可靠，该合金有望替代Ti-6Al-4V。",
-          "validation": "通过显微硬度测试和仪器化压痕实验验证力学性能。"
+          "motivation": "探索SPS烧结Ti-6Al-2Cr-2Ni合金的微观结构和力学性能",
+          "method": "通过SPS在1000°C/30MPa下烧结8分钟，随后550°C退火处理",
+          "result": "退火后孔隙率降低，硬度增加，杨氏模量可靠测定",
+          "validation": "SEM、EDS、XRD及显微硬度、压痕实验验证"
         },
         "summary_en": {
-          "motivation": "Investigate the feasibility of producing a Ti-6Al-2Cr-2Ni alloy via Spark Plasma Sintering and the effect of post-sintering annealing on its microstructure and mechanical properties.",
-          "method": "The alloy was sintered at 1000°C under 30 MPa for 8 minutes followed by annealing at 550°C; microstructural and mechanical characterization was performed using SEM, XRD, and microhardness testing.",
-          "result": "Annealing significantly reduced porosity, increased hardness, and enabled reliable modulus determination, suggesting this alloy as a potential alternative to Ti-6Al-4V.",
-          "validation": "Mechanical validation was performed via Vickers microhardness and instrumented indentation tests."
+          "motivation": "To develop a titanium-based Ti-6Al-2Cr-2Ni alloy via SPS sintering with improved microstructural control and mechanical properties for aerospace applications.",
+          "method": "The alloy was sintered at 1000°C under 30 MPa for 8 minutes using SPS, followed by a thermal annealing treatment at 550°C.",
+          "result": "Annealing reduced porosity, increased Vickers microhardness, and allowed reliable determination of Young's modulus via instrumented indentation.",
+          "validation": "Microstructural characterization by SEM, EDS, and XRD combined with mechanical testing (microhardness, indentation)."
         },
         "key_terms": [
           {
@@ -106,7 +235,7 @@
             "zh": "放电等离子烧结"
           },
           {
-            "en": "Ti-6Al-2Cr-2Ni alloy",
+            "en": "Ti-6Al-2Cr-2Ni",
             "zh": "Ti-6Al-2Cr-2Ni合金"
           },
           {
@@ -120,12 +249,24 @@
           {
             "en": "Young's modulus",
             "zh": "杨氏模量"
+          },
+          {
+            "en": "X-ray diffraction",
+            "zh": "X射线衍射"
+          },
+          {
+            "en": "scanning electron microscopy",
+            "zh": "扫描电子显微镜"
+          },
+          {
+            "en": "EDS",
+            "zh": "能谱分析"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     },
     {
       "source": "openalex",
@@ -196,34 +337,35 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文研究激光冲击喷丸和真空热处理对Ti-6Al-4V/Ni涂层界面的扩散和多层形成，但未涉及增材制造或疲劳/力学性能。",
-        "why_not_core": "No fatigue or tensile mechanical data, no additive manufacturing context, and the focus is on coating interface diffusion rather than mechanical performance modification.",
+        "relevance_to_user": "该论文研究了激光冲击喷丸和真空热处理对Ti-6Al-4V/Ni涂层界面扩散的影响，但未涉及任何力学性能测试，因此对关注后处理对力学性能影响的直接需求帮助有限。",
+        "why_not_core": "No mechanical testing (fatigue, tensile) of the post-processed Ti-6Al-4V; focus is on interfacial diffusion and coating adhesion rather than mechanical performance.",
         "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
+          "Ti-6Al-4V",
           "laser shock peening",
           "vacuum heat treatment",
-          "Ti-6Al-4V",
-          "Ni coating",
+          "nickel coating",
           "interdiffusion",
-          "multilayer formation"
+          "multilayer formation",
+          "interface"
         ],
         "summary_zh": {
-          "motivation": "研究激光冲击喷丸和真空热处理对Ti-6Al-4V/Ni涂层界面扩散的影响。",
-          "method": "对Ti-6Al-4V施加激光冲击喷丸和真空热处理，通过微观分析观察界面。",
-          "result": "发现界面处形成多层扩散结构。",
-          "validation": "实验表征验证了多层结构的形成。"
+          "motivation": "探究激光冲击喷丸和真空热处理对Ti-6Al-4V/Ni涂层界面互扩散的影响。",
+          "method": "对镀Ni的Ti-6Al-4V试样进行激光冲击喷丸和真空热处理，利用SEM/EDS表征界面微观结构。",
+          "result": "联合处理促进了界面互扩散，形成多层结构。",
+          "validation": "通过实验表征验证了界面微观结构的演变。"
         },
         "summary_en": {
           "motivation": "To investigate the effect of laser shock peening and vacuum heat treatment on interdiffusion at the Ti-6Al-4V/Ni coating interface.",
-          "method": "Laser shock peening and vacuum heat treatment were applied to Ti-6Al-4V with a Ni coating, followed by microstructural analysis.",
-          "result": "A multilayer diffusion structure was observed at the coating interface.",
-          "validation": "Experimental characterization confirmed the formation of the multilayer structure."
+          "method": "Ni-coated Ti-6Al-4V samples were subjected to LSP and VHT, and the interface microstructure was characterized by SEM/EDS.",
+          "result": "The combined treatment enhanced interfacial interdiffusion and formed a multilayer structure.",
+          "validation": "Experimental characterization confirmed the evolution of interface microstructure."
         },
         "key_terms": [
           {
@@ -235,43 +377,49 @@
             "zh": "真空热处理"
           },
           {
-            "en": "interdiffusion",
-            "zh": "相互扩散"
+            "en": "nickel coating",
+            "zh": "镍涂层"
           },
           {
-            "en": "multilayer",
-            "zh": "多层结构"
+            "en": "interdiffusion",
+            "zh": "互扩散"
+          },
+          {
+            "en": "multilayer formation",
+            "zh": "多层结构形成"
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "zh": "钛合金"
           },
           {
-            "en": "Ni coating",
-            "zh": "镍涂层"
+            "en": "interface",
+            "zh": "界面"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1,
       "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
+      "High": 1,
       "Exclude": 1,
       "Low": 1
     }

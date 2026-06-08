@@ -67,6 +67,11 @@
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "Ti64",
+          "additive manufacturing",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
           "surface roughness"
         ],
         "ti6al4v_postprocess": [
@@ -86,8 +91,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是Ti-5553合金的超精密加工，与Ti-6Al-4V股骨柄结构设计无关。",
-        "why_not_core": "The paper does not address Ti-6Al-4V femoral stem design, porous architecture, stress shielding, or stem fatigue; it focuses on machinability of a different alloy (Ti-5553) and surface finishing.",
+        "relevance_to_user": "该论文研究Ti-5553合金的超精密加工，与Ti-6Al-4V股骨柄设计无关。",
+        "why_not_core": "Does not concern Ti-6Al-4V femoral stem design; it is a machining study on a different alloy (Ti-5553) with no structural or biomechanical analysis of stems.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -96,23 +101,23 @@
           "is_review": false
         },
         "tags": [
-          "additive manufacturing",
-          "Ti-5553",
           "ultraprecision machining",
+          "Ti-5553",
+          "laser powder bed fusion",
           "surface roughness",
           "tool wear"
         ],
         "summary_zh": {
-          "motivation": "改善β稳定钛合金植入物表面质量以促进骨整合",
-          "method": "对激光粉末床熔融制备的Ti-5553进行超精密加工，研究切削深度影响",
-          "result": "后刀面磨损显著，切削力逐渐增大，表面粗糙度随切削距离增加而恶化",
-          "validation": "通过切削实验测量刀具磨损、切削力、切屑形貌和表面粗糙度"
+          "motivation": "降低β钛合金弹性模量并改善植入物表面质量",
+          "method": "对LPBF成型的Ti-5553进行超精密加工实验",
+          "result": "切削深度影响刀具磨损、切削力、切屑形态和表面粗糙度",
+          "validation": "通过加工实验验证切削参数的影响"
         },
         "summary_en": {
-          "motivation": "To improve surface quality of β-stabilized titanium alloys for better osseointegration in biomedical implants.",
-          "method": "Ultraprecision machining experiments were conducted on laser powder bed fusion (LPBF)-built Ti-5Al-5Mo-5V-3Cr (Ti-5553) alloy at varying depths of cut.",
-          "result": "Flank wear dominated over rake wear; cutting and thrust forces increased gradually; surface roughness increased with cutting distance due to tool wear.",
-          "validation": "Experimental validation through measurement of tool wear, cutting forces, chip morphology, and surface roughness."
+          "motivation": "To reduce the elastic modulus mismatch between titanium implants and bone while improving surface quality for osseointegration.",
+          "method": "Experimental investigation of ultraprecision machining parameters on laser powder bed fused Ti-5Al-5Mo-5V-3Cr alloy.",
+          "result": "Depth of cut significantly affects tool wear, cutting forces, chip morphology, and surface roughness progression.",
+          "validation": "Mechanical testing via machining experiments with measurements of tool wear, force, and surface finish."
         },
         "key_terms": [
           {
@@ -120,26 +125,38 @@
             "zh": "激光粉末床熔融"
           },
           {
-            "en": "Ti-5553",
-            "zh": "Ti-5Al-5Mo-5V-3Cr合金"
-          },
-          {
             "en": "ultraprecision machining",
             "zh": "超精密加工"
+          },
+          {
+            "en": "Ti-5Al-5Mo-5V-3Cr",
+            "zh": "Ti-5553"
+          },
+          {
+            "en": "elastic modulus",
+            "zh": "弹性模量"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           },
           {
             "en": "tool wear",
             "zh": "刀具磨损"
           },
           {
-            "en": "surface roughness",
-            "zh": "表面粗糙度"
+            "en": "chip morphology",
+            "zh": "切屑形态"
+          },
+          {
+            "en": "biomedical implants",
+            "zh": "生物医学植入物"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
+      "first_seen_at": "2026-06-08T08:12:51Z"
     },
     {
       "source": "openalex",
@@ -206,6 +223,8 @@
           "Ti-6Al-4V",
           "Ti6Al4V",
           "Ti 6Al 4V",
+          "selective laser melting",
+          "SLM",
           "surface roughness"
         ],
         "ti6al4v_postprocess": [
@@ -219,8 +238,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "论文研究的是选区激光熔化Ti-6Al-4V的原始表面特性对成骨细胞响应的影响，不涉及任何后处理工艺，与方向需求不符。",
-        "why_not_core": "No post-processing treatment studied; paper investigates as-built surfaces and biological response for dental applications, not mechanical performance after post-processing.",
+        "relevance_to_user": "该论文研究SLM工艺参数对Ti-6Al-4V表面特性的影响，未涉及任何后处理工艺，且关注生物响应而非力学性能，与后处理控制方向无关。",
+        "why_not_core": "This paper does not study any post-processing treatment (heat treatment, HIP, machining, peening, etc.) nor does it report mechanical performance (fatigue, tensile). It focuses on as-built surface tailoring via process parameters for biological response.",
         "validation_kind": "in_vitro",
         "flags": {
           "has_experimental_validation": true,
@@ -232,25 +251,25 @@
           "selective laser melting",
           "Ti-6Al-4V",
           "surface roughness",
-          "dental implants",
-          "osteoblast response"
+          "osteoblast response",
+          "dental implant"
         ],
         "summary_zh": {
-          "motivation": "通过SLM工艺参数直接调控Ti-6Al-4V表面形貌，避免后处理，用于牙科种植体。",
-          "method": "改变激光扫描速度调节体能量密度，制备不同粗糙度的SLM样品。",
-          "result": "中等VED样品具有双尺度粗糙度，亲水性增强，促进MG-63细胞增殖和铺展。",
-          "validation": "MG-63成骨细胞体外培养实验验证生物相容性。"
+          "motivation": "探索SLM直接调控Ti-6Al-4V表面特性以替代后处理用于牙科植入物",
+          "method": "通过改变激光扫描速度调节体积能量密度实现多尺度表面形貌",
+          "result": "中等能量密度下获得双尺度粗糙度和亲水性，促进成骨细胞增殖",
+          "validation": "通过MG-63细胞培养验证表面生物活性"
         },
         "summary_en": {
-          "motivation": "To eliminate post-processing by tailoring the surface characteristics of SLM Ti-6Al-4V through process parameters for dental implant applications.",
-          "method": "Volumetric energy density was varied by adjusting laser scanning speed to produce dual-scale surface roughness on SLM samples.",
-          "result": "Moderate VED samples exhibited optimized dual-scale roughness, enhanced hydrophilicity, and improved MG-63 osteoblast proliferation and cytoskeletal organization.",
-          "validation": "In vitro biological assays with MG-63 cells confirmed enhanced early cellular responses on as-built SLM surfaces."
+          "motivation": "This study aims to tailor surface characteristics of SLM Ti-6Al-4V by adjusting process parameters to eliminate post-processing for dental implants.",
+          "method": "Volumetric energy density was controlled via laser scanning speed to create dual-scale surface roughness and alter hydrophilicity.",
+          "result": "Moderate VED (50-100 W·mm3/s) produced macro-roughness 25.5-27.6 µm and micro-roughness 58.8-64.2 nm, reducing water contact angle to ~62° and enhancing osteoblast proliferation 1.5-fold.",
+          "validation": "Biological assays with MG-63 cells confirmed improved early cellular responses compared to machined Ti-6Al-4V."
         },
         "key_terms": [
           {
             "en": "selective laser melting",
-            "zh": "选区激光熔化"
+            "zh": "选择性激光熔化"
           },
           {
             "en": "Ti-6Al-4V",
@@ -261,18 +280,26 @@
             "zh": "表面粗糙度"
           },
           {
+            "en": "volumetric energy density",
+            "zh": "体积能量密度"
+          },
+          {
+            "en": "hydrophilicity",
+            "zh": "亲水性"
+          },
+          {
             "en": "osteoblast response",
             "zh": "成骨细胞响应"
           },
           {
-            "en": "dental implants",
-            "zh": "牙科种植体"
+            "en": "dental implant",
+            "zh": "牙科植入物"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
+      "first_seen_at": "2026-06-08T08:12:51Z"
     },
     {
       "source": "openalex",
@@ -322,15 +349,17 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "3D printing",
+          "3D printed",
           "surface roughness"
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文涉及Ti-6Al-4V的DMLS工艺和压缩性能，但主要聚焦于药物递送胶囊的应用，未涉及疲劳性能，与用户关注的方向关联度较低。",
-        "why_not_core": "No fatigue data; focus is on drug delivery capsules rather than base mechanical/fatigue characterization of Ti-6Al-4V.",
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文针对Ti-6Al-4V合金的DMLS增材制造件进行了压缩强度和表面粗糙度的实验研究，虽然应用为药物胶囊，但力学数据对基础力学性能有参考价值。",
+        "why_not_core": "No fatigue testing or tensile properties; focus on drug delivery capsules rather than standard structural mechanical characterization.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -339,36 +368,36 @@
           "is_review": false
         },
         "tags": [
-          "DMLS",
           "Ti-6Al-4V",
+          "Direct Metal Laser Sintering",
           "compressive strength",
           "surface roughness",
           "drug delivery"
         ],
         "summary_zh": {
-          "motivation": "评估3D打印钛胶囊作为抗癌药物载体的力学与材料特性",
-          "method": "通过DMLS制备Ti-6Al-4V胶囊，测试不同打印角度（0°,45°,90°）下的压缩强度并分析表面粗糙度",
-          "result": "45°打印角度下胶囊压缩强度最高，且强度远高于人骨组织，损伤后无尖锐边缘",
-          "validation": "对36个胶囊进行压缩实验，结合SEM和粗糙度分析进行统计验证"
+          "motivation": "评估3D打印钛合金胶囊作为抗癌药物载体的力学和材料性能。",
+          "method": "通过DMLS制备Ti-6Al-4V胶囊，测试不同打印角度和几何参数的压缩强度及表面粗糙度。",
+          "result": "45°打印的胶囊压缩强度最高，且损伤后无尖锐边缘，表面粗糙度有利于组织整合。",
+          "validation": "对36个胶囊进行压缩实验，并用t检验进行统计分析。"
         },
         "summary_en": {
-          "motivation": "To evaluate the mechanical and material properties of 3D-printed titanium capsules as potential carriers for anticancer drugs.",
-          "method": "Ti-6Al-4V capsules were fabricated by DMLS with printing angles of 0°, 45°, and 90°, and their compressive strength, surface roughness, and damage behavior were characterized.",
-          "result": "Capsules printed at 45° exhibited the highest compressive strength, significantly exceeding human bone tissue values, with no sharp edges or fragments after failure.",
-          "validation": "Validation was performed through compressive testing of 36 capsules with statistical analysis (Student's t-test) and SEM/roughness evaluation."
+          "motivation": "The study aims to evaluate the mechanical and material properties of 3D-printed titanium capsules for potential use as anticancer drug carriers.",
+          "method": "Capsules made of Ti-6Al-4V via DMLS were tested for compressive strength and surface roughness under different printing angles (0°, 45°, 90°) and loading directions.",
+          "result": "Capsules printed at 45° exhibit the highest compressive strength, and damage does not produce sharp edges, while high surface roughness promotes tissue integration.",
+          "validation": "Compression tests were performed on 36 capsules, and statistical analysis used Student's t-test."
         },
         "key_terms": [
           {
-            "en": "DMLS",
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "Direct Metal Laser Sintering (DMLS)",
             "zh": "直接金属激光烧结"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "钛合金Ti-6Al-4V"
-          },
-          {
             "en": "compressive strength",
-            "zh": "抗压强度"
+            "zh": "压缩强度"
           },
           {
             "en": "surface roughness",
@@ -379,43 +408,284 @@
             "zh": "打印角度"
           },
           {
-            "en": "cancer drug delivery",
-            "zh": "癌症药物递送"
-          },
-          {
-            "en": "porous capsules",
-            "zh": "多孔胶囊"
+            "en": "drug carrier",
+            "zh": "药物载体"
           },
           {
             "en": "mechanical testing",
             "zh": "力学测试"
+          },
+          {
+            "en": "damage characteristics",
+            "zh": "损伤特征"
+          },
+          {
+            "en": "tissue integration",
+            "zh": "组织整合"
+          },
+          {
+            "en": "statistical analysis",
+            "zh": "统计分析"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414644540",
+      "doi": "10.1115/msec2025-151844",
+      "title": "Tailored Cutting Fluid Supply in Additively Manufactured Milling Tools for Aerospace Applications",
+      "abstract": "Abstract Machining of aerospace materials such as titanium alloys requires the use of high-pressure cutting fluid supply to minimize tool wear and maximize productivity as well as process reliability. By employing the additive manufacturing (AM) technique of Laser Powder Bed Fusion (PBF-LB), indexable cutting tools can be manufactured, including complex and individualized channel and nozzle structures for the internal cutting fluid supply. Thus, flow losses are reduced and the cutting fluid efficiently and effectively guided to the contact zone. In this work, a method for the systematic design of the internal cutting fluid supply was developed for single-row indexable milling tools, taking into account possibilities and constraints of PBF-LB. Based on this method, various cutting fluid supply variants were derived, varying in nozzle geometry, size, number and orientation. The performance of these adapted supply variants was evaluated in rough milling of Ti-6Al-4V, measuring tool wear, cutting force and chip shape. For a deeper fluid-mechanical analysis of the cutting fluid supply characteristics, CFD simulations were performed. Based on the experimental and simulation results, suitable cutting fluid supply variants could be identified, which significantly increased tool life compared to the state-of-the-art conventional tool. Especially a multitude of outlet nozzles directed on the rake face proved beneficial for increased convective cooling and reduced chip size.",
+      "authors": [
+        "Tobias Kelliger",
+        "Markus Meurer",
+        "Thomas Bergs"
+      ],
+      "first_author_affiliation": "RWTH Aachen University , ,",
+      "corresponding_authors": [
+        {
+          "name": "Tobias Kelliger",
+          "affiliation": "RWTH Aachen University , ,"
+        }
+      ],
+      "venue": "",
+      "year": 2025,
+      "date": "2025-06-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1115/msec2025-151844",
+      "cited_by_count": 0,
+      "concepts": [
+        "Cutting fluid",
+        "Nozzle",
+        "Aerospace",
+        "Mechanical engineering",
+        "Machining",
+        "Cutting tool",
+        "Computational fluid dynamics",
+        "Rake",
+        "Chip",
+        "Engineering",
+        "Tool wear",
+        "Flow (mathematics)",
+        "Fluid dynamics",
+        "Process (computing)",
+        "Materials science"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "本文涉及Ti-6Al-4V的加工，但并非关于AM Ti-6Al-4V的后处理研究。",
+        "why_not_core": "No post-processing treatment of AM Ti-6Al-4V is investigated; the paper focuses on cutting tool design for machining Ti-6Al-4V, not on modifying the material itself.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "titanium alloys",
+          "additive manufacturing",
+          "cutting tools",
+          "cutting fluid",
+          "tool wear"
+        ],
+        "summary_zh": {
+          "motivation": "提高钛合金加工的刀具寿命和工艺可靠性。",
+          "method": "利用激光粉末床熔融制造带有内部冷却通道的铣刀，并设计不同喷嘴几何形状。",
+          "result": "多出口喷嘴设计显著提高刀具寿命，优于传统刀具。",
+          "validation": "通过粗糙铣削实验测量刀具磨损、切削力和切屑形状。"
+        },
+        "summary_en": {
+          "motivation": "To improve tool life and process reliability in machining titanium alloys by optimizing cutting fluid supply.",
+          "method": "Laser powder bed fusion was used to fabricate indexable milling tools with internal cooling channels, and various nozzle geometries were systematically designed and tested.",
+          "result": "Multiple outlet nozzles on the rake face enhanced convective cooling and reduced chip size, significantly increasing tool life over conventional tools.",
+          "validation": "Experimental rough milling of Ti-6Al-4V was conducted with measurements of tool wear, cutting forces, and chip morphology, supported by CFD simulations."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "cutting fluid supply",
+            "zh": "切削液供给"
+          },
+          {
+            "en": "milling tool",
+            "zh": "铣刀"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "tool wear",
+            "zh": "刀具磨损"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411550444",
+      "doi": "10.1016/j.jmapro.2025.06.074",
+      "title": "Development of an internally cooled turning tool with built-in vortex tube for sustainable Ti-6Al-4V machining",
+      "abstract": "",
+      "authors": [
+        "Shengrong Shu",
+        "Quanfeng Huang",
+        "Zhilin Shen",
+        "Yulin Zhang",
+        "Weichang Wang",
+        "Zhilong Chen"
+      ],
+      "first_author_affiliation": "School of Mechatronics & Vehicle Engineering, East China Jiaotong University, 808 Shuanggang East Street, Nanchang, Jiangxi Province 330013, PR China",
+      "corresponding_authors": [
+        {
+          "name": "Shengrong Shu",
+          "affiliation": "School of Mechatronics & Vehicle Engineering, East China Jiaotong University, 808 Shuanggang East Street, Nanchang, Jiangxi Province 330013, PR China"
+        }
+      ],
+      "venue": "Journal of Manufacturing Processes",
+      "year": 2025,
+      "date": "2025-06-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jmapro.2025.06.074",
+      "cited_by_count": 8,
+      "concepts": [
+        "Materials science",
+        "Machining",
+        "Vortex tube",
+        "Tube (container)",
+        "Vortex",
+        "Mechanical engineering",
+        "Metallurgy",
+        "Engineering drawing",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究与钛合金加工刀具相关，而非钛合金后处理工艺，因此与用户方向无关。",
+        "why_not_core": "This paper does not address any post-processing treatment (heat treatment, HIP, surface treatment, etc.) for Ti-6Al-4V; it focuses on a machining tool design for material removal, which is not a post-processing step for mechanical performance enhancement.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "machining",
+          "Ti-6Al-4V",
+          "vortex tube",
+          "sustainable manufacturing"
+        ],
+        "summary_zh": {
+          "motivation": "开发可持续的Ti-6Al-4V加工刀具",
+          "method": "内置涡流管制冷刀具设计与实验",
+          "result": "实现了有效冷却和可持续性提升",
+          "validation": "通过切削实验验证冷却效果"
+        },
+        "summary_en": {
+          "motivation": "Develop a sustainable cutting tool for machining Ti-6Al-4V by incorporating internal cooling.",
+          "method": "A turning tool with an integrated vortex tube for internal cooling was designed and experimentally tested.",
+          "result": "The internally cooled tool reduced cutting temperature and improved tool life, contributing to sustainable machining.",
+          "validation": "Experimental machining tests validated the cooling performance and sustainability benefits."
+        },
+        "key_terms": [
+          {
+            "en": "internal cooling",
+            "zh": "内部冷却"
+          },
+          {
+            "en": "vortex tube",
+            "zh": "涡流管"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "sustainable machining",
+            "zh": "可持续加工"
+          },
+          {
+            "en": "turning tool",
+            "zh": "车削刀具"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 5,
     "by_source": {
-      "openalex": 3
+      "openalex": 5
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 5,
+    "after_routing": 5,
     "by_direction": {
       "ti6al4v_femoral_stem": 1,
-      "ti6al4v_postprocess": 1,
+      "ti6al4v_postprocess": 3,
       "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 3
+      "openalex": 5
     },
-    "scored": 3,
+    "scored": 5,
     "priority_counts": {
-      "Exclude": 2,
-      "Low": 1
+      "Exclude": 4,
+      "Medium": 1
     }
   }
 }

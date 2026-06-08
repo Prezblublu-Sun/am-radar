@@ -47,6 +47,11 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "selective laser melting",
+          "electron beam melting",
+          "SLM",
+          "EBM",
           "porosity"
         ],
         "ti6al4v_femoral_stem": [
@@ -59,8 +64,8 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该综述覆盖钛合金骨植入物增材制造，但缺乏对股骨柄结构设计、力学性能及验证的专门分析。",
-        "why_not_core": "This is a broad review on AM orthopaedic implants, not specifically addressing femoral stem structural design, lattice architectures, stress shielding, or stem fatigue/strength with experimental validation.",
+        "relevance_to_user": "该综述广泛涵盖骨科植入物增材制造，但对Ti-6Al-4V股骨柄的结构设计及力学性能缺乏针对性。",
+        "why_not_core": "The paper is a general review covering multiple implant types and materials, with no specific focus on Ti-6Al-4V femoral stem structural design, stress shielding, or mechanical testing.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
@@ -72,20 +77,19 @@
           "additive manufacturing",
           "orthopaedic implants",
           "titanium alloys",
-          "porous structures",
           "review"
         ],
         "summary_zh": {
-          "motivation": "传统方法难以制造个性化骨植入物，需综述增材制造进展。",
-          "method": "系统检索2020-2025年文献，分析钛合金、生物可吸收金属及多孔结构。",
-          "result": "Ti-6Al-4V仍最常用，多孔结构促进骨整合，临床案例显示积极效果。",
-          "validation": "文献综述，未提供新实验或计算验证。"
+          "motivation": "综述增材制造在骨科植入物中的进展，集中于钛合金、生物可吸收金属及多孔结构。",
+          "method": "系统文献分析，涵盖2020-2025年文献，总结SLM、EBM等技术。",
+          "result": "Ti-6Al-4V是最广泛研究的合金，多孔结构可提升骨整合，但临床推广需进一步验证。",
+          "validation": "无实验验证，为文献综述。"
         },
         "summary_en": {
-          "motivation": "To review recent advances in additive manufacturing of orthopaedic implants, focusing on titanium alloys, bioresorbable metals, and porous structures for clinical applications.",
-          "method": "A systematic literature search covering 2020-2025 was conducted across multiple databases to synthesize findings on materials, fabrication techniques, and clinical outcomes.",
-          "result": "Ti-6Al-4V remains the most studied alloy; porous structures enhance osseointegration; case studies in hip, knee, and spine show positive surgical outcomes.",
-          "validation": "No original experimental or computational validation; this is a review paper."
+          "motivation": "This review surveys recent advances in additive manufacturing for orthopaedic implants, focusing on titanium alloys, bioresorbable metals, and porous structures for clinical applications.",
+          "method": "A systematic literature analysis of studies published between 2020 and 2025, covering techniques such as selective laser melting and electron beam melting.",
+          "result": "Ti-6Al-4V remains the most extensively studied alloy, and porous structures fabricated by AM improve osseointegration, but widespread clinical adoption requires further in vivo and long-term data.",
+          "validation": "No experimental validation; the paper is a literature review without original experimental or computational data."
         },
         "key_terms": [
           {
@@ -93,165 +97,46 @@
             "zh": "增材制造"
           },
           {
-            "en": "titanium alloys",
-            "zh": "钛合金"
+            "en": "orthopaedic implants",
+            "zh": "骨科植入物"
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
-          },
-          {
-            "en": "porous structures",
-            "zh": "多孔结构"
-          },
-          {
-            "en": "osseointegration",
-            "zh": "骨整合"
-          },
-          {
-            "en": "selective laser melting",
-            "zh": "选区激光熔化"
-          },
-          {
-            "en": "electron beam melting",
-            "zh": "电子束熔融"
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "bioresorbable metals",
             "zh": "生物可吸收金属"
           },
           {
-            "en": "orthopaedic implants",
-            "zh": "骨科植入物"
+            "en": "porous structures",
+            "zh": "多孔结构"
           },
           {
-            "en": "clinical applications",
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
+          },
+          {
+            "en": "electron beam melting",
+            "zh": "电子束熔化"
+          },
+          {
+            "en": "osseointegration",
+            "zh": "骨整合"
+          },
+          {
+            "en": "clinical implementation",
             "zh": "临床应用"
+          },
+          {
+            "en": "review",
+            "zh": "综述"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
-    },
-    {
-      "source": "openalex",
-      "id": "https://openalex.org/W4412893586",
-      "doi": "10.1007/s40964-025-01268-1",
-      "title": "Critical geometrical constraints and buckling phenomena in Ti6Al4V ultra-thin walls printed by laser-based powder bed fusion",
-      "abstract": "In laser-based powder bed fusion (PBF-LB/M) additive manufacturing (AM), the layer-by-layer fabrication of free-form thin walls is subjected to rapid thermal cycling, inducing significant temperature gradients. These gradients result in nonuniform thermal expansion and contraction, leading to the accumulation of residual stresses that, when exceeding critical thresholds, trigger structural instability such as buckling and complete build failure. This study investigates the buckling mechanisms of free-form thin walls in relation to residual stress evolution during the PBF-LB/M process. Dense, sub-100 µm free-form Ti6Al4V thin-walls were successfully printed, achieving a minimum feature thickness of approximately 75 µm to evaluate the buckling mechanism. Experimental results reveal that thin walls buckle at critical heights due to a substantial reduction in bending stiffness. Notably, the thin-wall aspect ratio, defined as the ratio of critical buckling height (Hcr) to wall thickness (t), remained consistent at approximately 31.5 for sub-150 µm thin walls across varying process conditions. This demonstrates a fundamental geometric constraint governing thin-wall stability in PBF-LB/M. Additionally, we establish an empirical correlation demonstrating that Hcr is a direct function of peak residual stress (Y) and wall thickness (t). Furthermore, we identify three distinct stages of residual stress evolution that either lead to catastrophic build failure or induce wall branching. This study provides new insights into the manufacturability of ultra-thin walls using conventional laser-based PBF, elucidating the key factors that limit their maximum achievable build height.",
-      "authors": [
-        "Arif Hussain",
-        "Junghoon Lee",
-        "Jae Hee Kim",
-        "Hae Ju Park",
-        "Young-Sam Kwon",
-        "Dongsik Kim"
-      ],
-      "first_author_affiliation": "Pohang University of Science and Technology (POSTECH), Pohang, Korea, Republic of",
-      "corresponding_authors": [
-        {
-          "name": "Arif Hussain",
-          "affiliation": "Pohang University of Science and Technology (POSTECH), Pohang, Korea, Republic of"
-        }
-      ],
-      "venue": "Progress in Additive Manufacturing",
-      "year": 2025,
-      "date": "2025-07-29",
-      "date_precision": "day",
-      "url": "https://doi.org/10.1007/s40964-025-01268-1",
-      "cited_by_count": 1,
-      "concepts": [
-        "Buckling",
-        "Fusion",
-        "Materials science",
-        "Titanium alloy",
-        "Laser",
-        "Composite material"
-      ],
-      "categories": [],
-      "raw_type": "article",
-      "directions": [
-        "ti6al4v_base_mechanical_fatigue"
-      ],
-      "direction": "ti6al4v_base_mechanical_fatigue",
-      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
-      "routing_matches": {
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti6Al4V",
-          "residual stress"
-        ]
-      },
-      "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "论文涉及Ti6Al4V薄壁的屈曲和残余应力，但无机械/疲劳性能数据，与Layer 1方向不直接相关。",
-        "why_not_core": "The paper does not include any mechanical/fatigue performance data (e.g., tensile strength, fatigue life, S-N curves) for Ti-6Al-4V, which is the core requirement of the Layer 1 direction.",
-        "validation_kind": "mechanical_testing",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "Ti6Al4V",
-          "laser powder bed fusion",
-          "thin walls",
-          "buckling",
-          "residual stress"
-        ],
-        "summary_zh": {
-          "motivation": "研究激光粉末床熔融中Ti6Al4V超薄壁的屈曲机制与几何约束。",
-          "method": "实验打印不同厚度薄壁并观察屈曲，结合残余应力分析。",
-          "result": "发现临界屈曲高度与壁厚之比恒定约31.5，并建立经验关系。",
-          "validation": "通过实验测量薄壁屈曲高度和残余应力验证。"
-        },
-        "summary_en": {
-          "motivation": "To investigate the buckling mechanisms of free-form thin walls in PBF-LB/M of Ti6Al4V and identify geometric constraints limiting build height.",
-          "method": "Dense sub-100 µm Ti6Al4V thin walls were printed at various thicknesses and observed for buckling, with residual stress evolution characterized.",
-          "result": "A consistent critical buckling height-to-thickness ratio of ~31.5 was found for sub-150 µm walls, and an empirical correlation linking critical height to peak residual stress and thickness was established.",
-          "validation": "Experimental observation of buckling heights and residual stress measurements validated the empirical model."
-        },
-        "key_terms": [
-          {
-            "en": "laser powder bed fusion",
-            "zh": "激光粉末床熔融"
-          },
-          {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V"
-          },
-          {
-            "en": "thin walls",
-            "zh": "薄壁"
-          },
-          {
-            "en": "buckling",
-            "zh": "屈曲"
-          },
-          {
-            "en": "residual stress",
-            "zh": "残余应力"
-          },
-          {
-            "en": "critical buckling height",
-            "zh": "临界屈曲高度"
-          },
-          {
-            "en": "aspect ratio",
-            "zh": "高厚比"
-          },
-          {
-            "en": "build failure",
-            "zh": "构建失败"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
     },
     {
       "source": "openalex",
@@ -302,6 +187,8 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti64",
+          "powder bed fusion",
+          "microstructure",
           "defect",
           "fatigue",
           "high cycle fatigue"
@@ -317,8 +204,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是Ti6246合金而非Ti-6Al-4V，与用户方向要求的材料不符。",
-        "why_not_core": "The paper focuses on Ti-6Al-2Sn-4Zr-6Mo (Ti6246), not Ti-6Al-4V, thus violating the material requirement for this direction.",
+        "relevance_to_user": "论文使用Ti-6Al-2Sn-4Zr-6Mo合金，而非Ti-6Al-4V，与L2方向要求不符。",
+        "why_not_core": "The paper investigates Ti-6Al-2Sn-4Zr-6Mo alloy, not Ti-6Al-4V, thus does not meet the mandatory requirement of the focus direction.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -330,60 +217,292 @@
           "Ti6246",
           "heat treatment",
           "fatigue",
-          "powder bed fusion",
-          "microstructure",
-          "Kitagawa-Takahashi"
+          "PBF-LB"
         ],
         "summary_zh": {
-          "motivation": "研究热处理对PBF-LB制备的Ti6246合金高周疲劳行为的影响",
-          "method": "采用α-β退火和固溶时效两种热处理，通过旋转弯曲疲劳测试分析",
-          "result": "STA825处理获得更细的微观结构，疲劳强度比AN875提高25%",
-          "validation": "通过疲劳实验和Kitagawa-Takahashi模型验证"
+          "motivation": "研究Ti6246合金不同热处理后的疲劳行为差异。",
+          "method": "对比α-β退火和固溶时效两种热处理对显微组织和疲劳性能的影响。",
+          "result": "STA825处理比AN875疲劳强度提高25%，归因于更细的层状显微组织。",
+          "validation": "旋转弯曲疲劳实验和Kitagawa-Takahashi模型分析。"
         },
         "summary_en": {
-          "motivation": "To investigate how post-processing heat treatments affect the high-cycle fatigue behavior of PBF-LB Ti6246 alloy.",
-          "method": "Two heat treatments (α-β annealing at 875°C and solution treatment at 825°C followed by aging at 500°C) were applied, and rotating bending fatigue tests were conducted.",
-          "result": "The STA825 condition exhibited 25% higher fatigue resistance than AN875 due to finer bilamellar microstructure.",
-          "validation": "Fatigue experiments and the Kitagawa-Takahashi approach with the El-Haddad model were used for validation."
+          "motivation": "This study aims to understand how different heat treatments influence the high-cycle fatigue behavior and failure mechanisms of Ti-6Al-2Sn-4Zr-6Mo alloy produced by powder bed fusion.",
+          "method": "Two post-processing heat treatments were applied: α-β annealing at 875°C (AN875) and solution treatment at 825°C followed by aging at 500°C (STA825), and the resulting microstructures and fatigue properties were characterized.",
+          "result": "The STA825 condition exhibited 25% higher fatigue resistance than AN875, attributed to a finer bilamellar microstructure with thinner primary α lamellae and more homogeneous secondary α lamellae distribution.",
+          "validation": "Rotating bending fatigue tests were performed and the Kitagawa-Takahashi approach was used to analyze defect sensitivity and crack propagation resistance."
         },
         "key_terms": [
           {
-            "en": "Ti-6Al-2Sn-4Zr-6Mo (Ti6246)",
-            "zh": "Ti6246合金"
+            "en": "Ti-6Al-2Sn-4Zr-6Mo",
+            "zh": "Ti-6246合金"
           },
           {
-            "en": "powder bed fusion–laser beam",
-            "zh": "粉末床熔融-激光束"
-          },
-          {
-            "en": "high-cycle fatigue",
-            "zh": "高周疲劳"
+            "en": "powder bed fusion laser beam",
+            "zh": "粉末床激光束熔融"
           },
           {
             "en": "heat treatment",
             "zh": "热处理"
           },
           {
-            "en": "α-β annealing",
-            "zh": "α-β退火"
+            "en": "fatigue behavior",
+            "zh": "疲劳行为"
           },
           {
-            "en": "solution treatment and aging",
-            "zh": "固溶时效"
+            "en": "microstructure",
+            "zh": "显微组织"
           },
           {
-            "en": "Kitagawa–Takahashi approach",
-            "zh": "Kitagawa-Takahashi方法"
+            "en": "Kitagawa-Takahashi diagram",
+            "zh": "北川-高桥图"
           },
           {
-            "en": "El-Haddad model",
-            "zh": "El-Haddad模型"
+            "en": "defect sensitivity",
+            "zh": "缺陷敏感性"
+          },
+          {
+            "en": "crack propagation",
+            "zh": "裂纹扩展"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412893586",
+      "doi": "10.1007/s40964-025-01268-1",
+      "title": "Critical geometrical constraints and buckling phenomena in Ti6Al4V ultra-thin walls printed by laser-based powder bed fusion",
+      "abstract": "In laser-based powder bed fusion (PBF-LB/M) additive manufacturing (AM), the layer-by-layer fabrication of free-form thin walls is subjected to rapid thermal cycling, inducing significant temperature gradients. These gradients result in nonuniform thermal expansion and contraction, leading to the accumulation of residual stresses that, when exceeding critical thresholds, trigger structural instability such as buckling and complete build failure. This study investigates the buckling mechanisms of free-form thin walls in relation to residual stress evolution during the PBF-LB/M process. Dense, sub-100 µm free-form Ti6Al4V thin-walls were successfully printed, achieving a minimum feature thickness of approximately 75 µm to evaluate the buckling mechanism. Experimental results reveal that thin walls buckle at critical heights due to a substantial reduction in bending stiffness. Notably, the thin-wall aspect ratio, defined as the ratio of critical buckling height (Hcr) to wall thickness (t), remained consistent at approximately 31.5 for sub-150 µm thin walls across varying process conditions. This demonstrates a fundamental geometric constraint governing thin-wall stability in PBF-LB/M. Additionally, we establish an empirical correlation demonstrating that Hcr is a direct function of peak residual stress (Y) and wall thickness (t). Furthermore, we identify three distinct stages of residual stress evolution that either lead to catastrophic build failure or induce wall branching. This study provides new insights into the manufacturability of ultra-thin walls using conventional laser-based PBF, elucidating the key factors that limit their maximum achievable build height.",
+      "authors": [
+        "Arif Hussain",
+        "Junghoon Lee",
+        "Jae Hee Kim",
+        "Hae Ju Park",
+        "Young-Sam Kwon",
+        "Dongsik Kim"
+      ],
+      "first_author_affiliation": "Pohang University of Science and Technology (POSTECH), Pohang, Korea, Republic of",
+      "corresponding_authors": [
+        {
+          "name": "Arif Hussain",
+          "affiliation": "Pohang University of Science and Technology (POSTECH), Pohang, Korea, Republic of"
+        }
+      ],
+      "venue": "Progress in Additive Manufacturing",
+      "year": 2025,
+      "date": "2025-07-29",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40964-025-01268-1",
+      "cited_by_count": 1,
+      "concepts": [
+        "Buckling",
+        "Fusion",
+        "Materials science",
+        "Titanium alloy",
+        "Laser",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "additive manufacturing",
+          "powder bed fusion",
+          "residual stress"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文直接研究激光粉末床熔融Ti6Al4V薄壁件的屈曲行为，属于L1层的工艺力学性能范畴，但未涉及疲劳或常规力学性能。",
+        "why_not_core": "Does not provide fatigue life, S-N curves, or standard tensile properties; focuses on buckling of ultra-thin walls.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "thin walls",
+          "buckling",
+          "residual stress"
+        ],
+        "summary_zh": {
+          "motivation": "研究激光粉末床熔融超薄钛合金壁的屈曲机理",
+          "method": "实验打印75微米厚薄壁，结合残余应力分析",
+          "result": "发现临界屈曲高度与厚度比约为31.5，与工艺无关",
+          "validation": "实验测量与理论分析结合验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate buckling mechanisms of ultra-thin Ti6Al4V walls fabricated by laser powder bed fusion.",
+          "method": "Experimental printing of sub-100 µm walls and analysis of residual stress and buckling.",
+          "result": "A consistent aspect ratio of 31.5 for critical buckling height to wall thickness was found.",
+          "validation": "Mechanical testing and residual stress measurement."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "thin walls",
+            "zh": "薄壁"
+          },
+          {
+            "en": "buckling",
+            "zh": "屈曲"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "geometric constraints",
+            "zh": "几何约束"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412710962",
+      "doi": "10.1016/j.ijfatigue.2025.109205",
+      "title": "Multiaxial fatigue behavior and modeling for additive manufactured Ti-6Al-4V: The effect of surface texture",
+      "abstract": "",
+      "authors": [
+        "Seung-Jong Lee",
+        "Reza Molaei",
+        "Patricio E. Carrion",
+        "Shuai Shao",
+        "Nima Shamsaei"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, Auburn University, Auburn, AL 36849, USA",
+      "corresponding_authors": [
+        {
+          "name": "Nima Shamsaei",
+          "affiliation": "Department of Mechanical Engineering, Auburn University, Auburn, AL 36849, USA"
+        }
+      ],
+      "venue": "International Journal of Fatigue",
+      "year": 2025,
+      "date": "2025-07-29",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2025.109205",
+      "cited_by_count": 5,
+      "concepts": [
+        "Materials science",
+        "Texture (cosmology)",
+        "Surface (topology)",
+        "Composite material",
+        "Fatigue testing",
+        "Metallurgy",
+        "Structural engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "本论文直接研究了增材制造Ti-6Al-4V的多轴疲劳行为及表面纹理影响，高度相关。",
+        "why_not_core": "This paper fully covers the L1 direction focus; it does not require post-processing or implant-specific aspects.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "multiaxial fatigue",
+          "surface texture",
+          "additive manufacturing",
+          "LPBF",
+          "fatigue modeling"
+        ],
+        "summary_zh": {
+          "motivation": "探究表面纹理对增材制造Ti-6Al-4V多轴疲劳行为的影响。",
+          "method": "通过多轴疲劳实验并结合建模分析表面纹理效应。",
+          "result": "发现表面纹理显著影响多轴疲劳寿命，模型可有效预测。",
+          "validation": "采用多轴疲劳实验数据验证模型准确性。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of surface texture on the multiaxial fatigue behavior of additively manufactured Ti-6Al-4V.",
+          "method": "Multiaxial fatigue experiments were conducted and a modeling framework incorporating surface texture effects was developed.",
+          "result": "Surface texture was found to significantly influence multiaxial fatigue life, and the proposed model accurately predicted the observed behavior.",
+          "validation": "The model was validated against experimental multiaxial fatigue test data."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "multiaxial fatigue",
+            "zh": "多轴疲劳"
+          },
+          {
+            "en": "surface texture",
+            "zh": "表面纹理"
+          },
+          {
+            "en": "fatigue modeling",
+            "zh": "疲劳建模"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
+          },
+          {
+            "en": "experimental validation",
+            "zh": "实验验证"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
     },
     {
       "source": "openalex",
@@ -440,11 +559,11 @@
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "论文涉及Ti-6Al-4V合金的热处理微观结构，但未针对增材制造材料，且主要关注贝叶斯统计方法而非后处理对疲劳性能的影响。",
-        "why_not_core": "Not about additive-manufactured Ti-6Al-4V; no comparison of post-processing effects on mechanical performance; core contribution is a statistical method, not post-processing control.",
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了不同热处理工艺对Ti-6Al-4V合金保载疲劳过程中声发射数据的贝叶斯统计分析，其方法可应用于评估后处理对力学性能的影响，但非直接关注后处理效果。",
+        "why_not_core": "The paper does not directly quantify the effect of post-processing on fatigue life or mechanical performance; instead, it focuses on a novel statistical method for acoustic emission data analysis during dwell-fatigue.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -453,30 +572,26 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
           "dwell-fatigue",
           "acoustic emission",
           "Bayesian analysis",
           "heat treatment",
+          "Ti-6Al-4V",
           "microstructure"
         ],
         "summary_zh": {
-          "motivation": "揭示Ti-6Al-4V合金保载疲劳的阶段性应变累积机制",
-          "method": "对三种不同热处理微观结构的试样进行保载疲劳实验，结合声发射监测与贝叶斯统计分析",
-          "result": "贝叶斯方法成功检测到应变累积曲线的阶段转变点，并利用声发射参数预测了应变行为",
-          "validation": "通过实验声发射数据与应变曲线的对比验证了检测方法的有效性"
+          "motivation": "利用声发射数据贝叶斯统计分析监测Ti-6Al-4V保载疲劳阶段转变",
+          "method": "对三种显微组织的Ti-6Al-4V试样进行保载疲劳实验，采用MCMC方法检测声发射数据拐点",
+          "result": "检测到两个拐点与应变累积曲线三阶段转变强相关，平均频率可监测保载疲劳起始",
+          "validation": "通过保载疲劳实验和声发射测量验证贝叶斯方法有效性"
         },
         "summary_en": {
-          "motivation": "To understand the three-stage strain accumulation behavior during dwell-fatigue of Ti-6Al-4V alloys with different microstructures.",
-          "method": "Uniaxial dwell-fatigue tests with 120-second peak stress hold were performed on Ti-6Al-4V specimens having equiaxed, bimodal, and lamellar microstructures obtained by heat treatment, while recording acoustic emission signals and applying Bayesian Markov chain Monte Carlo methods to detect transition points and select strain accumulation models.",
-          "result": "The Bayesian analysis identified two change-points correlating with the primary-secondary-tertiary stages, and acoustic emission parameters, especially average frequency, enabled the prediction of strain accumulation behavior.",
-          "validation": "The detection of stage transitions was validated by direct comparison with the strain accumulation curves from experiments."
+          "motivation": "To monitor stage transitions in dwell-fatigue of Ti-6Al-4V alloys using Bayesian statistical analysis of acoustic emission data.",
+          "method": "Uniaxial dwell-fatigue tests with 120-second peak stress hold were conducted on Ti-6Al-4V specimens with equiaxed, bimodal, and lamellar microstructures, and Markov chain Monte Carlo simulation was applied to detect change-points in acoustic emission signals.",
+          "result": "Two detected change-points correlated strongly with the three-stage strain accumulation curve, and average frequency was found to be critical for monitoring the onset of dwell-fatigue.",
+          "validation": "Experimental validation was performed through mechanical dwell-fatigue testing with concurrent acoustic emission measurements."
         },
         "key_terms": [
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
           {
             "en": "dwell-fatigue",
             "zh": "保载疲劳"
@@ -486,12 +601,16 @@
             "zh": "声发射"
           },
           {
-            "en": "Bayesian analysis",
-            "zh": "贝叶斯分析"
+            "en": "Bayesian statistical analysis",
+            "zh": "贝叶斯统计分析"
           },
           {
-            "en": "Markov chain Monte Carlo",
+            "en": "Markov chain Monte Carlo (MCMC)",
             "zh": "马尔可夫链蒙特卡洛"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
             "en": "heat treatment",
@@ -499,46 +618,36 @@
           },
           {
             "en": "microstructure",
-            "zh": "微观结构"
-          },
-          {
-            "en": "equiaxed",
-            "zh": "等轴"
-          },
-          {
-            "en": "bimodal",
-            "zh": "双态"
-          },
-          {
-            "en": "lamellar",
-            "zh": "层状"
+            "zh": "显微组织"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
     }
   ],
   "counts": {
-    "fetched_total": 4,
+    "fetched_total": 5,
     "by_source": {
-      "openalex": 4
+      "openalex": 5
     },
-    "after_dedup": 4,
-    "after_routing": 4,
+    "after_dedup": 5,
+    "after_routing": 5,
     "by_direction": {
       "ti6al4v_femoral_stem": 1,
-      "ti6al4v_base_mechanical_fatigue": 1,
-      "ti6al4v_postprocess": 2
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 4
+      "openalex": 5
     },
-    "scored": 4,
+    "scored": 5,
     "priority_counts": {
-      "Low": 3,
-      "Exclude": 1
+      "Low": 1,
+      "Exclude": 1,
+      "Medium": 2,
+      "High": 1
     }
   }
 }

@@ -61,8 +61,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究了热处理方法对Ti-6Al-4V gyroid结构力学性能和能量吸收的影响，与后处理控制方向高度相关。",
-        "why_not_core": "The paper focuses on gyroid cellular structures rather than fully dense material, but it still provides direct experimental data on heat treatment effects on Ti-6Al-4V mechanical performance.",
+        "relevance_to_user": "研究了Ti-6Al-4V gyroid结构热处理对压缩力学性能的影响，与后处理方向相关但未涉及疲劳。",
+        "why_not_core": "No fatigue testing; focuses on compression response and energy absorption of cellular structures, not fatigue life.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -72,23 +72,22 @@
         },
         "tags": [
           "Ti-6Al-4V",
-          "gyroid",
+          "gyroid structures",
           "heat treatment",
-          "energy absorption",
           "compressive properties",
           "PBF-LB"
         ],
         "summary_zh": {
           "motivation": "研究局部几何和热处理对Ti-6Al-4V gyroid结构力学性能的影响。",
-          "method": "通过PBF-LB制造不同几何参数的gyroid结构，并进行不同温度的热处理。",
-          "result": "β相变温度以上热处理显著提高延展性和能量吸收效率，从58%提升至75%。",
-          "validation": "通过压缩实验验证力学性能和能量吸收特性。"
+          "method": "通过PBF-LB制造不同几何参数和热处理状态的gyroid结构，进行压缩测试。",
+          "result": "β-transus以上热处理显著提高延展性和能量吸收效率，从58%增至75%。",
+          "validation": "通过准静态压缩实验验证不同状态下力学响应。"
         },
         "summary_en": {
-          "motivation": "The study aims to understand how local geometry and heat treatment affect the mechanical properties and energy absorption of Ti-6Al-4V gyroid cellular structures.",
-          "method": "Gyroid structures with varying geometric parameters were fabricated via laser powder bed fusion and subjected to different heat treatment conditions, including stress relief and above-β-transus treatment.",
-          "result": "Heat treatment above the β-transus temperature significantly improved ductility and energy absorption efficiency from 58% (as-manufactured) to 75%, while as-manufactured and stress-relieved states were unsuitable for energy absorption.",
-          "validation": "Validation was performed through quasi-static compression tests measuring stiffness, strength, and energy absorption efficiency."
+          "motivation": "To investigate how local geometry and heat treatment affect the compressive modulus and strength of Ti-6Al-4V gyroid cellular structures fabricated by PBF-LB.",
+          "method": "Gyroid structures with varying sizes, cell numbers, thicknesses, and isovalues were produced and tested under compression in as-manufactured, stress-relieved, and above-β-transus heat-treated conditions.",
+          "result": "Heat treatment above β-transus significantly improved ductility and energy absorption efficiency (from 58% to 75%) compared to as-manufactured and stress-relieved states.",
+          "validation": "Mechanical properties were validated through quasi-static compression testing with digital image correlation and post-mortem analysis."
         },
         "key_terms": [
           {
@@ -96,46 +95,38 @@
             "zh": "激光粉末床熔融"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
-          {
             "en": "gyroid structure",
-            "zh": "螺旋二十四面体结构"
+            "zh": "gyroid结构"
           },
           {
             "en": "heat treatment",
             "zh": "热处理"
           },
           {
-            "en": "energy absorption",
-            "zh": "能量吸收"
-          },
-          {
             "en": "compressive properties",
             "zh": "压缩性能"
           },
           {
-            "en": "β-transus temperature",
-            "zh": "β相变温度"
+            "en": "energy absorption",
+            "zh": "能量吸收"
           },
           {
-            "en": "ductility",
-            "zh": "延展性"
-          },
-          {
-            "en": "cellular structure",
-            "zh": "多孔结构"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
             "en": "stress relief",
             "zh": "去应力退火"
+          },
+          {
+            "en": "β-transus",
+            "zh": "β相变温度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
     },
     {
       "source": "openalex",
@@ -179,15 +170,19 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
           "porosity"
         ]
       },
       "llm": {
         "priority": "Medium",
-        "relevance_level": "Transferable",
+        "relevance_level": "Direct",
         "read_action": "Save for project",
-        "relevance_to_user": "该论文研究了Ti-6Al-4V LPBF薄支柱的孔隙率，虽未直接测试力学性能，但孔隙率是影响疲劳性能的关键因素，对理解工艺-缺陷关系具有参考价值。",
-        "why_not_core": "This paper does not report any mechanical or fatigue testing; it focuses solely on porosity characterization without linking to tensile, fatigue, or other mechanical properties.",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V薄支柱L-PBF成形中的孔隙率尺寸效应，虽未直接测试力学性能，但孔隙率是影响疲劳性能的关键因素，对理解工艺-缺陷关系有参考价值。",
+        "why_not_core": "This paper does not report any mechanical or fatigue testing; it focuses solely on porosity characterization in thin struts.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -196,25 +191,23 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
-          "L-PBF",
+          "laser powder-bed fusion",
+          "Ti6Al4V",
           "porosity",
-          "keyhole porosity",
           "thin struts",
-          "size effects",
-          "micro-CT"
+          "keyhole porosity"
         ],
         "summary_zh": {
-          "motivation": "研究激光粉末床熔融Ti-6Al-4V薄支柱中工艺诱导孔隙的尺寸效应。",
-          "method": "采用微CT和图像分析，测量不同能量密度和支柱尺寸下的孔隙率。",
-          "result": "发现支柱直径小于1.25 mm时，孔隙率随尺寸减小而降低，归因于不稳定匙孔。",
-          "validation": "通过微CT实验测量孔隙率并进行图像分析验证。"
+          "motivation": "研究Ti6Al4V薄支柱L-PBF成形中孔隙率的尺寸效应。",
+          "method": "使用微CT和图像分析测量不同尺寸和能量密度下的孔隙率。",
+          "result": "发现小尺寸支柱孔隙率降低，因锁孔未达到稳态。",
+          "validation": "通过实验测量验证了孔隙率变化规律。"
         },
         "summary_en": {
-          "motivation": "To investigate the size effect on process-induced porosity in L-PBF Ti-6Al-4V thin struts, as small parts exhibit different melt pool behavior.",
-          "method": "Micro-computed tomography and image analysis were used to quantify keyhole porosity across various strut diameters and linear energy densities.",
-          "result": "Porosity decreases with decreasing strut diameter below 1.25 mm, suggesting that a stable keyhole is not fully developed in smaller features.",
-          "validation": "Porosity measurements were validated via micro-CT imaging and subsequent image analysis."
+          "motivation": "This study investigates the size effect on keyhole porosity in Ti6Al4V thin struts fabricated by L-PBF, aiming to understand process-induced defects in small features.",
+          "method": "Micro-computed tomography and image analysis were employed to quantify porosity in struts of varying diameters and linear energy densities.",
+          "result": "Porosity decreases with strut size below 1.25 mm diameter, attributed to unstable keyhole formation that does not permanently produce pores.",
+          "validation": "Experimental measurements of porosity from micro-CT scans serve as the primary validation of the observed trends."
         },
         "key_terms": [
           {
@@ -222,57 +215,178 @@
             "zh": "激光粉末床熔融"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V"
           },
           {
             "en": "keyhole porosity",
-            "zh": "匙孔孔隙率"
+            "zh": "锁孔孔隙率"
           },
           {
-            "en": "strut size",
-            "zh": "支柱尺寸"
+            "en": "thin struts",
+            "zh": "薄支柱"
           },
           {
-            "en": "micro-computed tomography",
-            "zh": "微计算机断层扫描"
+            "en": "size effect",
+            "zh": "尺寸效应"
           },
           {
             "en": "linear energy density",
             "zh": "线能量密度"
           },
           {
-            "en": "process-induced porosity",
-            "zh": "工艺诱导孔隙率"
-          },
-          {
-            "en": "thin struts",
-            "zh": "薄支柱"
+            "en": "micro-computed tomography",
+            "zh": "显微CT"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411964712",
+      "doi": "10.1016/j.msea.2025.148753",
+      "title": "Activating the highly desirable transformation-induced plasticity effect in cold-drawn Ti-6Al-4V wires through two-step annealing",
+      "abstract": "Stress-induced martensite transformation (SIMT) and the consequent transformation-induced plasticity (TRIP), established as effective strategies for enhancing strain hardening ability and ductility in metallic materials, are seldom observed and utilized to mitigate the issue of restricted cold deformability in Ti-6Al-4V alloy. This study investigates potential factors influencing SIMT in Ti-6Al-4V, employing one- and two-step annealing approaches on cold-drawn wires within the enigmatic lower α+β regime (500–800 °C). In the one-step annealing scenario, SIMT is solely activated at 750 °C and absent at either lower or higher temperatures. Conversely, two-step annealing, which entails an initial annealing at 800 °C followed by a subsequent annealing at 600–750 °C, facilitates the reactivation of SIMT across a broader temperature spectrum. The onset of SIMT is found to be influenced by several β phase characteristics, including adequate β stabilizer concentrations, diminished dislocation densities, and micron-sized grains. For the deformed Ti-6Al-4V, these factors, which are contradictory in one-step annealing, can be adeptly harmonized through two-step annealing. The first annealing enables dislocation annihilation, while the second annealing engenders reverted β phases with appropriate sizes and compositions. Notably, the two-step annealed 800 + 700WQ achieves an extremely high strain hardening rate exceeding 6.5 GPa and a substantial total elongation of around 22 %, exemplifying the highly desired TRIP effect in the cold-drawn Ti-6Al-4V wires. • Two-step annealing results in an exceptionally high strain hardening rate exceeding 6.5 GPa and the highly desirable TRIP effect in deformed Ti-6Al-4V. • The emergence of SIMT is influenced by several features of β phases, including β stabilizer concentrations, dislocation densities, and phase sizes. • Stress-induced martensite transformation shows different behaviors of temperature dependence between one- and two-step annealing.",
+      "authors": [
+        "Xuefeng Zhou",
+        "Zhengwei He",
+        "Jiaju Wu",
+        "Zilin Liu",
+        "Yiyou Tu",
+        "Feng Fang",
+        "Jianqing Jiang"
+      ],
+      "first_author_affiliation": "Jiangsu Key Laboratory of Advanced Metallic Materials, Southeast University, Nanjing, 211189, China",
+      "corresponding_authors": [
+        {
+          "name": "Xuefeng Zhou",
+          "affiliation": "Jiangsu Key Laboratory of Advanced Metallic Materials, Southeast University, Nanjing, 211189, China"
+        }
+      ],
+      "venue": "Materials Science and Engineering A",
+      "year": 2025,
+      "date": "2025-07-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.msea.2025.148753",
+      "cited_by_count": 1,
+      "concepts": [
+        "Annealing (glass)",
+        "Plasticity",
+        "Materials science",
+        "Transformation (genetics)",
+        "Metallurgy",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "elongation",
+          "ductility"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "annealing"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文通过两步退火处理在冷拉Ti-6Al-4V丝材中激活了相变诱导塑性效应，对后处理工艺优化具有直接参考价值。",
+        "why_not_core": "Does not investigate fatigue life or porosity, but covers tensile properties and strain hardening via annealing.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "cold drawing",
+          "two-step annealing",
+          "transformation-induced plasticity",
+          "stress-induced martensite",
+          "strain hardening"
+        ],
+        "summary_zh": {
+          "motivation": "为在冷拉Ti-6Al-4V丝材中激活相变诱导塑性效应，提升应变硬化能力和延展性。",
+          "method": "采用一步和两步退火工艺，在α+β相区对冷拉丝材进行热处理。",
+          "result": "两步退火（800°C+700°C水淬）实现了超过6.5 GPa的应变硬化率和约22%的总延伸率。",
+          "validation": "通过拉伸力学测试验证了TRIP效应的激活和力学性能提升。"
+        },
+        "summary_en": {
+          "motivation": "This study aims to activate the transformation-induced plasticity (TRIP) effect in cold-drawn Ti-6Al-4V wires to improve strain hardening ability and ductility.",
+          "method": "One-step and two-step annealing treatments were applied to cold-drawn wires at temperatures between 500°C and 800°C in the α+β regime.",
+          "result": "The two-step annealing (800°C + 700°C water quenching) achieved an exceptionally high strain hardening rate over 6.5 GPa and a total elongation of approximately 22%.",
+          "validation": "Mechanical tensile tests were conducted to validate the activation of stress-induced martensite transformation and the resulting TRIP effect."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "cold drawing",
+            "zh": "冷拉拔"
+          },
+          {
+            "en": "two-step annealing",
+            "zh": "两步退火"
+          },
+          {
+            "en": "stress-induced martensite transformation",
+            "zh": "应力诱发马氏体相变"
+          },
+          {
+            "en": "transformation-induced plasticity",
+            "zh": "相变诱导塑性"
+          },
+          {
+            "en": "strain hardening rate",
+            "zh": "应变硬化率"
+          },
+          {
+            "en": "total elongation",
+            "zh": "总延伸率"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_postprocess": 1,
+      "ti6al4v_postprocess": 2,
       "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
-      "High": 1,
+      "High": 2,
       "Medium": 1
     }
   }

@@ -5,6 +5,303 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W4414338177",
+      "doi": "10.1016/j.jallcom.2025.183867",
+      "title": "A cellular automata-based crystal plasticity analysis of slip activity in additive manufactured Ti-6Al-4V during dwell fatigue",
+      "abstract": "A numerical approach combining cellular automaton and crystal plasticity finite element methods was proposed to investigate slip behaviors of additive manufactured Ti-6Al-4V material under dwell fatigue condition. Compared with conventional polygon-based microstructure models, the proposed method generates microstructures that more closely resemble the actual material and allows the simulation to explicitly account for the influence of grain shapes on local stress distributions and slip system activation. A Burgers orientation relationship based minimum elastic strain energy indicator was introduced to determine the α-variant selection during the β-to-α phase transformation. A cellular automata code, ExaCA tool was utilized to generate a selective laser melting fabricated microstructure. The crystal plasticity parameters of the model were calibrated based on tensile test results of the additive manufactured specimen and subsequently applied to the dwell fatigue simulation. The results reveal material hardening arising from accumulated slip system activations and show the relationship between load shedding and slip activity, which is consistent with our previous findings. This approach overcomes the limitations of traditional modeling methods and offers the potential to elucidate the underlying fatigue mechanisms of additively manufactured Ti-6Al-4V alloys. • A crystal plasticity model was developed with cellular automaton method. • Grain morphology evolution was considered in simulation. • A phase transformation method was proposed based on Burgers orientation relation. • Crystal plasticity parameters were calibrated against experimental results. • Dwell fatigue behavior was investigated by studying slip behaviors.",
+      "authors": [
+        "Hanqing Liu",
+        "Masanori Kitamura",
+        "Fabien Briffod",
+        "Takayuki Shiraiwa"
+      ],
+      "first_author_affiliation": "Department of Materials Engineering, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656, Japan",
+      "corresponding_authors": [
+        {
+          "name": "Takayuki Shiraiwa",
+          "affiliation": "Department of Materials Engineering, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656, Japan"
+        }
+      ],
+      "venue": "Journal of Alloys and Compounds",
+      "year": 2025,
+      "date": "2025-09-18",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jallcom.2025.183867",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Crystal plasticity",
+        "Slip (aerodynamics)",
+        "Plasticity",
+        "Cellular automaton",
+        "Dwell time",
+        "Finite element method",
+        "Hardening (computing)",
+        "Microstructure",
+        "Composite material",
+        "Lüders band",
+        "Ultimate tensile strength",
+        "Mechanics",
+        "Crystal (programming language)",
+        "Strain hardening exponent",
+        "Structural engineering",
+        "Biological system",
+        "Stress (linguistics)",
+        "Low-cycle fatigue",
+        "Single crystal"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "selective laser melting",
+          "microstructure",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文专注于增材制造Ti-6Al-4V的驻留疲劳行为建模，与用户关注的力学和疲劳性能直接相关。",
+        "why_not_core": "The paper is purely computational and does not provide new experimental fatigue data; the simulation is not validated against experimental fatigue results.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "crystal plasticity",
+          "dwell fatigue",
+          "cellular automaton",
+          "slip activity",
+          "load shedding"
+        ],
+        "summary_zh": {
+          "motivation": "揭示增材制造Ti-6Al-4V在驻留疲劳下的滑移行为和疲劳机制。",
+          "method": "结合元胞自动机和晶体塑性有限元方法，并引入α变体选择准则。",
+          "result": "模型表明累积滑移导致材料硬化，且载荷转移与滑移活动相关。",
+          "validation": "通过增材制造试样的拉伸实验结果标定晶体塑性参数。"
+        },
+        "summary_en": {
+          "motivation": "To understand slip behaviors and fatigue mechanisms of additively manufactured Ti-6Al-4V under dwell fatigue conditions.",
+          "method": "A cellular automata-based crystal plasticity finite element model with Burgers orientation relationship for α-variant selection.",
+          "result": "The model reveals material hardening from accumulated slip activations and a consistent relationship between load shedding and slip activity.",
+          "validation": "Crystal plasticity parameters were calibrated against tensile test results from additively manufactured specimens."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "crystal plasticity",
+            "zh": "晶体塑性"
+          },
+          {
+            "en": "dwell fatigue",
+            "zh": "驻留疲劳"
+          },
+          {
+            "en": "cellular automaton",
+            "zh": "元胞自动机"
+          },
+          {
+            "en": "slip activity",
+            "zh": "滑移活动"
+          },
+          {
+            "en": "load shedding",
+            "zh": "载荷转移"
+          },
+          {
+            "en": "α-variant selection",
+            "zh": "α变体选择"
+          },
+          {
+            "en": "Burgers orientation relationship",
+            "zh": "伯氏取向关系"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414334272",
+      "doi": "10.3390/jfb16090350",
+      "title": "Data-Driven Design and Additive Manufacturing of Patient-Specific Lattice Titanium Scaffolds for Mandibular Bone Reconstruction",
+      "abstract": "The reconstruction of segmental bone defects requires patient-specific scaffolds that combine mechanical safety, biological functionality, and rapid manufacturing. We converted CT-derived mandibular geometry into a functionally graded Ti-6Al-4V lattice and optimised porosity, screw layout, and strut thickness through a cyber-physical loop that joins high-fidelity FEM, millisecond ANN, and a BN for uncertainty quantification. Fifteen candidate scaffolds were fabricated by direct metal laser sintering and hot isostatic pressing and were mechanically tested. FEM predicted stress and stiffness with 98% accuracy; the ANN reproduced these outputs with 94% fidelity while evaluating 10,000 designs in real time, and the BN limited failure probability to <3% under worst-case loads. The selected 55-65% porosity design reduced titanium use by 15%, shortened development time by 25% and raised multi-objective optimisation efficiency by 20% relative to a solid-plate baseline, while resisting a 600 N bite with a peak von Mises stress of 225 MPa and micromotion < 150 µm. Integrating physics-based simulation, AI speed, and probabilistic rigour yields a validated, additively manufactured scaffold that meets surgical timelines and biomechanical requirements, offering a transferable blueprint for functional scaffolds in bone and joint surgery.",
+      "authors": [
+        "Nail Beisekenov",
+        "Bagdat Azamatov",
+        "Marzhan Anuarbekovna Sadenova",
+        "Dmitriy Dogadkin",
+        "Daniyar Kaliyev",
+        "Sergey Rudenko",
+        "B. V. Syrnev"
+      ],
+      "first_author_affiliation": "Department of Ecology and Conservation Biology, Texas A&M University, College Station, TX 77843, USA",
+      "corresponding_authors": [
+        {
+          "name": "Marzhan Anuarbekovna Sadenova",
+          "affiliation": "Center of Excellence “VERITAS”, D. Serikbayev East Kazakhstan Technical University, Ust-Kamenogorsk 070004, Kazakhstan"
+        }
+      ],
+      "venue": "Journal of Functional Biomaterials",
+      "year": 2025,
+      "date": "2025-09-18",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/jfb16090350",
+      "cited_by_count": 7,
+      "concepts": [
+        "Materials science",
+        "von Mises yield criterion",
+        "Scaffold",
+        "Composite material",
+        "Finite element method",
+        "Stiffness",
+        "Titanium",
+        "Porosity",
+        "Titanium alloy",
+        "3D printing",
+        "Stereolithography",
+        "Stress (linguistics)",
+        "Selective laser sintering",
+        "Hot isostatic pressing",
+        "Biomechanics",
+        "Biomedical engineering",
+        "Compressive strength",
+        "Stress shielding",
+        "Lattice (music)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess",
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "porosity"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "hot isostatic pressing"
+        ],
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "micromotion"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是下颌骨支架而非股骨柄，与用户关注的Ti-6Al-4V股骨假体结构设计方向不符。",
+        "why_not_core": "This paper studies a mandibular bone scaffold, not a femoral/hip stem, so it does not meet the required anatomical application.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": true,
+          "is_patient_specific": true,
+          "is_review": false
+        },
+        "tags": [
+          "mandibular scaffold",
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "lattice",
+          "patient-specific"
+        ],
+        "summary_zh": {
+          "motivation": "针对下颌骨节段缺损重建需求，设计并制造患者特异性多孔钛支架。",
+          "method": "结合CT数据、有限元模拟、人工神经网络和贝叶斯网络进行数据驱动优化。",
+          "result": "优化后的支架孔隙率55-65%，在600N咬合力下峰值应力225MPa，微动<150μm。",
+          "validation": "通过机械测试验证有限元预测精度达98%。"
+        },
+        "summary_en": {
+          "motivation": "To address the need for patient-specific scaffolds for segmental mandibular bone defects, combining mechanical safety and biological functionality.",
+          "method": "A cyber-physical loop integrating CT-derived geometry, high-fidelity FEM, an artificial neural network (ANN) with millisecond speed, and a Bayesian network (BN) for uncertainty quantification.",
+          "result": "The optimized scaffold with 55-65% porosity reduced titanium use by 15%, achieved a peak von Mises stress of 225 MPa and micromotion <150 µm under a 600 N bite load.",
+          "validation": "Mechanical testing confirmed FEM predictions with 98% accuracy and ANN reproduced outputs with 94% fidelity."
+        },
+        "key_terms": [
+          {
+            "en": "patient-specific scaffold",
+            "zh": "患者特异性支架"
+          },
+          {
+            "en": "mandibular bone reconstruction",
+            "zh": "下颌骨重建"
+          },
+          {
+            "en": "functionally graded lattice",
+            "zh": "功能梯度点阵"
+          },
+          {
+            "en": "direct metal laser sintering",
+            "zh": "直接金属激光烧结"
+          },
+          {
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
+          },
+          {
+            "en": "finite element method",
+            "zh": "有限元法"
+          },
+          {
+            "en": "artificial neural network",
+            "zh": "人工神经网络"
+          },
+          {
+            "en": "Bayesian network",
+            "zh": "贝叶斯网络"
+          },
+          {
+            "en": "uncertainty quantification",
+            "zh": "不确定性量化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W4414307381",
       "doi": "10.1016/j.jmrt.2025.09.147",
       "title": "Microstructure evolution and corrosion behavior of Ti-6Al-4V alloy induced by laser shock peening without coating",
@@ -68,6 +365,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "microstructure",
           "surface roughness"
         ],
         "ti6al4v_postprocess": [
@@ -77,11 +375,11 @@
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Medium",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文研究激光冲击无涂层喷丸对Ti-6Al-4V合金腐蚀性能的影响，而非疲劳或力学性能，与方向要求的疲劳/力学性能改性相关性低。",
-        "why_not_core": "The paper focuses on corrosion resistance, not on fatigue or mechanical performance as required by the direction.",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文研究了无涂层激光冲击强化对Ti-6Al-4V合金的耐腐蚀性能，但未涉及疲劳性能，因此与用户关注的后处理对疲劳/力学性能的影响关联度有限。",
+        "why_not_core": "The paper concentrates on corrosion resistance rather than fatigue performance, and does not present any fatigue test data or discuss the effect of LSPwC on fatigue life.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -90,215 +388,84 @@
           "is_review": false
         },
         "tags": [
-          "laser shock peening without coating",
+          "laser shock peening",
           "Ti-6Al-4V",
           "corrosion resistance",
-          "microhardness",
+          "microstructure",
           "residual stress"
         ],
         "summary_zh": {
-          "motivation": "提升Ti-6Al-4V在海洋环境中的耐腐蚀性",
-          "method": "采用激光冲击无涂层喷丸（LSPwC）技术处理合金表面",
-          "result": "LSPwC处理后合金耐腐蚀性提高，微硬度增加30%，残余压应力增大至-615 MPa",
-          "validation": "通过电化学测试和显微硬度、残余应力测量进行验证"
+          "motivation": "提升Ti-6Al-4V在海洋环境中的耐腐蚀性能",
+          "method": "采用无涂层激光冲击强化（LSPwC）处理合金表面",
+          "result": "LSPwC提高了硬度、残余压应力和接触角，细化了晶粒，增强了耐腐蚀性",
+          "validation": "通过电化学测试和微观结构分析验证"
         },
         "summary_en": {
-          "motivation": "To enhance the corrosion resistance of Ti-6Al-4V alloy in marine environments.",
-          "method": "Laser shock peening without coating (LSPwC) was applied with gradient laser energy and multiple passes.",
-          "result": "LSPwC treatment improved corrosion resistance, increased microhardness by 30%, and increased compressive residual stress to -615 MPa.",
-          "validation": "Validation involved electrochemical tests, microhardness measurements, and residual stress analysis."
+          "motivation": "To improve the corrosion resistance of Ti-6Al-4V alloy in marine environments.",
+          "method": "Laser shock peening without coating (LSPwC) was applied to modify the surface properties of the alloy.",
+          "result": "LSPwC increased microhardness by 30%, residual compressive stress from -120 to -615 MPa, contact angle above 100°, refined grain size, and significantly enhanced corrosion resistance.",
+          "validation": "Electrochemical tests (impedance, polarization) and microstructural characterization (SEM, XRD, EBSD) were performed."
         },
         "key_terms": [
           {
             "en": "laser shock peening without coating",
-            "zh": "激光冲击无涂层喷丸"
+            "zh": "无涂层激光冲击强化"
           },
           {
-            "en": "Ti-6Al-4V",
+            "en": "Ti-6Al-4V alloy",
             "zh": "Ti-6Al-4V合金"
           },
           {
             "en": "corrosion resistance",
-            "zh": "耐腐蚀性"
-          },
-          {
-            "en": "microhardness",
-            "zh": "显微硬度"
+            "zh": "耐腐蚀性能"
           },
           {
             "en": "residual compressive stress",
             "zh": "残余压应力"
           },
           {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "contact angle",
+            "zh": "接触角"
+          },
+          {
             "en": "grain refinement",
             "zh": "晶粒细化"
           },
           {
-            "en": "electrochemical impedance spectroscopy",
-            "zh": "电化学阻抗谱"
+            "en": "electrochemical impedance",
+            "zh": "电化学阻抗"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
-    },
-    {
-      "source": "openalex",
-      "id": "https://openalex.org/W4414338177",
-      "doi": "10.1016/j.jallcom.2025.183867",
-      "title": "A cellular automata-based crystal plasticity analysis of slip activity in additive manufactured Ti-6Al-4V during dwell fatigue",
-      "abstract": "A numerical approach combining cellular automaton and crystal plasticity finite element methods was proposed to investigate slip behaviors of additive manufactured Ti-6Al-4V material under dwell fatigue condition. Compared with conventional polygon-based microstructure models, the proposed method generates microstructures that more closely resemble the actual material and allows the simulation to explicitly account for the influence of grain shapes on local stress distributions and slip system activation. A Burgers orientation relationship based minimum elastic strain energy indicator was introduced to determine the α-variant selection during the β-to-α phase transformation. A cellular automata code, ExaCA tool was utilized to generate a selective laser melting fabricated microstructure. The crystal plasticity parameters of the model were calibrated based on tensile test results of the additive manufactured specimen and subsequently applied to the dwell fatigue simulation. The results reveal material hardening arising from accumulated slip system activations and show the relationship between load shedding and slip activity, which is consistent with our previous findings. This approach overcomes the limitations of traditional modeling methods and offers the potential to elucidate the underlying fatigue mechanisms of additively manufactured Ti-6Al-4V alloys. • A crystal plasticity model was developed with cellular automaton method. • Grain morphology evolution was considered in simulation. • A phase transformation method was proposed based on Burgers orientation relation. • Crystal plasticity parameters were calibrated against experimental results. • Dwell fatigue behavior was investigated by studying slip behaviors.",
-      "authors": [
-        "Hanqing Liu",
-        "Masanori Kitamura",
-        "Fabien Briffod",
-        "Takayuki Shiraiwa"
-      ],
-      "first_author_affiliation": "Department of Materials Engineering, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656, Japan",
-      "corresponding_authors": [
-        {
-          "name": "Takayuki Shiraiwa",
-          "affiliation": "Department of Materials Engineering, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656, Japan"
-        }
-      ],
-      "venue": "Journal of Alloys and Compounds",
-      "year": 2025,
-      "date": "2025-09-18",
-      "date_precision": "day",
-      "url": "https://doi.org/10.1016/j.jallcom.2025.183867",
-      "cited_by_count": 2,
-      "concepts": [
-        "Materials science",
-        "Crystal plasticity",
-        "Slip (aerodynamics)",
-        "Plasticity",
-        "Cellular automaton",
-        "Dwell time",
-        "Finite element method",
-        "Hardening (computing)",
-        "Microstructure",
-        "Composite material",
-        "Lüders band",
-        "Ultimate tensile strength",
-        "Mechanics",
-        "Crystal (programming language)",
-        "Strain hardening exponent",
-        "Structural engineering",
-        "Biological system",
-        "Stress (linguistics)",
-        "Low-cycle fatigue",
-        "Single crystal"
-      ],
-      "categories": [],
-      "raw_type": "article",
-      "directions": [
-        "ti6al4v_base_mechanical_fatigue"
-      ],
-      "direction": "ti6al4v_base_mechanical_fatigue",
-      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
-      "routing_matches": {
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "fatigue"
-        ]
-      },
-      "llm": {
-        "priority": "High",
-        "relevance_level": "Direct",
-        "read_action": "Read now",
-        "relevance_to_user": "该论文直接针对增材制造Ti-6Al-4V的保载疲劳滑移行为进行数值模拟，与研究方向高度相关。",
-        "why_not_core": "该论文为纯数值模拟研究，未提供新的实验疲劳数据或S-N曲线。",
-        "validation_kind": "mechanical_testing",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "cellular automaton",
-          "crystal plasticity",
-          "dwell fatigue",
-          "Ti-6Al-4V",
-          "additive manufacturing",
-          "slip behavior"
-        ],
-        "summary_zh": {
-          "motivation": "研究增材制造Ti-6Al-4V在保载疲劳下的滑移行为",
-          "method": "结合元胞自动机和晶体塑性有限元方法模拟微观结构并分析滑移活性",
-          "result": "揭示了累积滑移系统激活引起的材料硬化及载荷转移与滑移活性的关系",
-          "validation": "通过拉伸试验结果校准晶体塑性参数"
-        },
-        "summary_en": {
-          "motivation": "To investigate slip behavior in additively manufactured Ti-6Al-4V under dwell fatigue conditions.",
-          "method": "A combined cellular automaton and crystal plasticity finite element method was developed to generate realistic microstructures and simulate slip activity.",
-          "result": "Material hardening from accumulated slip activations and the relationship between load shedding and slip activity were observed, consistent with previous findings.",
-          "validation": "Crystal plasticity parameters were calibrated using experimental tensile test results."
-        },
-        "key_terms": [
-          {
-            "en": "cellular automaton",
-            "zh": "元胞自动机"
-          },
-          {
-            "en": "crystal plasticity",
-            "zh": "晶体塑性"
-          },
-          {
-            "en": "dwell fatigue",
-            "zh": "保载疲劳"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "钛合金"
-          },
-          {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
-          },
-          {
-            "en": "slip behavior",
-            "zh": "滑移行为"
-          },
-          {
-            "en": "phase transformation",
-            "zh": "相变"
-          },
-          {
-            "en": "Burgers orientation relationship",
-            "zh": "伯氏取向关系"
-          },
-          {
-            "en": "load shedding",
-            "zh": "载荷转移"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_postprocess": 1,
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 1,
+      "ti6al4v_femoral_stem": 1,
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
-      "Low": 1,
-      "High": 1
+      "High": 1,
+      "Exclude": 1,
+      "Medium": 1
     }
   }
 }

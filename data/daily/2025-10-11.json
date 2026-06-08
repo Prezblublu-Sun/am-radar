@@ -43,11 +43,19 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
+        "ti6al4v_base_mechanical_fatigue",
         "ti6al4v_postprocess"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "selective laser melting",
+          "microstructure"
+        ],
         "ti6al4v_postprocess": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
@@ -58,8 +66,8 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文研究了热处理对选区激光熔化Ti-6Al-4V合金腐蚀行为的影响，但未涉及力学性能，与方向关注的疲劳/力学性能不直接相关。",
-        "why_not_core": "This paper does not report any mechanical performance metrics such as fatigue life, tensile strength, or porosity closure; it focuses solely on corrosion behavior.",
+        "relevance_to_user": "该论文研究热处理对SLM Ti-6Al-4V腐蚀行为的影响，未涉及力学性能，与关注的后处理对疲劳/力学性能调控方向关联弱。",
+        "why_not_core": "The paper focuses on corrosion behavior in Ringer's solution, not on mechanical performance (fatigue, tensile) as required by the L2 focus on post-processing effects on mechanical properties.",
         "validation_kind": "in_vitro",
         "flags": {
           "has_experimental_validation": true,
@@ -68,23 +76,23 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
           "selective laser melting",
+          "Ti-6Al-4V",
           "heat treatment",
-          "corrosion behavior",
+          "corrosion resistance",
           "Ringer's solution"
         ],
         "summary_zh": {
-          "motivation": "研究热处理对选区激光熔化Ti-6Al-4V合金腐蚀行为的影响",
-          "method": "在相变温度以下进行热处理，分析微观结构和腐蚀性能",
-          "result": "热处理由于β相增多和α'马氏体减少，提高了合金在Ringer's溶液中的耐腐蚀性",
-          "validation": "通过电化学腐蚀测试验证"
+          "motivation": "提高SLM Ti-6Al-4V合金在模拟体液中的耐腐蚀性能",
+          "method": "在相变温度以下进行热处理，研究其对显微组织和腐蚀行为的影响",
+          "result": "热处理通过增加β相、减少α'马氏体提高了耐腐蚀性",
+          "validation": "在Ringer溶液中进行电化学腐蚀测试"
         },
         "summary_en": {
-          "motivation": "To investigate the effect of sub-transus heat treatment on the corrosion behavior of selective laser melted Ti-6Al-4V alloy.",
-          "method": "Ti-6Al-4V samples were fabricated by selective laser melting and subjected to heat treatment below the polymorphic transformation temperature, followed by microstructural characterization and corrosion testing in Ringer's solution.",
-          "result": "Heat treatment improved corrosion resistance due to increased β phase fraction and reduced α' martensite and microstrain.",
-          "validation": "Corrosion resistance was evaluated using electrochemical tests in Ringer's solution."
+          "motivation": "To improve the corrosion resistance of selective laser melted Ti-6Al-4V alloy in simulated body fluid.",
+          "method": "Heat treatment below the polymorphic transformation temperature was applied and its effect on microstructure and corrosion behavior was investigated.",
+          "result": "Heat treatment enhanced corrosion resistance due to increased β phase and decreased α' martensite and microstrain.",
+          "validation": "Electrochemical corrosion tests were performed in Ringer's solution."
         },
         "key_terms": [
           {
@@ -92,7 +100,7 @@
             "zh": "选区激光熔化"
           },
           {
-            "en": "Ti-6Al-4V alloy",
+            "en": "Ti-6Al-4V",
             "zh": "Ti-6Al-4V合金"
           },
           {
@@ -100,8 +108,8 @@
             "zh": "热处理"
           },
           {
-            "en": "corrosion behaviour",
-            "zh": "腐蚀行为"
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性能"
           },
           {
             "en": "Ringer's solution",
@@ -114,34 +122,287 @@
           {
             "en": "α' martensite",
             "zh": "α'马氏体"
-          },
-          {
-            "en": "microstrain",
-            "zh": "微观应变"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:17:25Z"
+      "first_seen_at": "2026-06-08T08:27:10Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415069766",
+      "doi": "10.1016/j.rinma.2025.100792",
+      "title": "Review on the application of ultrasonic vibration-assisted turning in enhancing machinability of Ti-6Al-4V alloy",
+      "abstract": "Ti-6Al-4V alloy is an α+β titanium alloy that is widely used in aerospace, marine, automobile, architectural, power/energy sectors, and various medical equipment industries due to its exceptional properties, including low density, high fracture toughness, excellent creep and corrosion resistance, a high strength-to-weight ratio, and superior biocompatibility. However, due to some other properties, such as poor thermal conductivity, high heat stress, low elastic modulus, high chemical reactivity, and significant work hardening, it is classified as a difficult-to-cut material. These kinds of materials face difficulties in cutting, such as heat concentration in the cutting zone, high cutting forces, and tool wear acceleration, which results in poor surface finish quality. Therefore, an ultrasonic vibration-assisted turning (UVAT) method has been proposed, which proved to be an efficient method to overcome these difficulties during Ti-6Al-4V titanium alloy cutting. This review article presents the application of the Ti-6Al-4V alloy, the principle of UVAT, and the impact of UVAT on various factors, including chip formation, tool wear, cutting forces, cutting temperature, surface morphology, and roughness. In addition, the significance of minimum quantity lubrication (MQL) in UVAT of Ti-6Al-4V alloy and the finite element analysis (FEA) of UVAT of Ti-6Al-4V alloy are summarized. Expected outcomes include a deeper understanding of the improvements in surface quality, reduction in cutting forces, and enhanced tool life through the UVAT process. The findings aim to guide future research and provide practical insights for manufacturers looking to optimize machining of Ti-6Al-4V alloys for better performance and sustainability in manufacturing processes.",
+      "authors": [
+        "Muhammad Arslan Khan",
+        "Ali B.M. Ali",
+        "Sami Ullah",
+        "Asad Muhammad Khaqan",
+        "M. Ijaz Khan",
+        "Mubashir Umeed",
+        "Nidhal Ben Khedher"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Muhammad Arslan Khan",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Results in Materials",
+      "year": 2025,
+      "date": "2025-10-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.rinma.2025.100792",
+      "cited_by_count": 3,
+      "concepts": [
+        "Machinability",
+        "Materials science",
+        "Titanium alloy",
+        "Alloy",
+        "Metallurgy",
+        "Machining",
+        "Tool wear",
+        "Lubrication",
+        "Chip formation",
+        "Cutting tool",
+        "Reduction (mathematics)",
+        "Creep",
+        "Surface roughness",
+        "Surface integrity",
+        "Ultrasonic sensor",
+        "Fracture (geology)",
+        "Finite element method",
+        "Work (physics)",
+        "Surface finish",
+        "Alloy steel",
+        "Titanium",
+        "Mechanical engineering",
+        "Corrosion",
+        "Thermal"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文综述了超声振动辅助车削对Ti-6Al-4V合金切削性能的影响，但未涉及增材制造后处理或力学性能，与用户关注方向无关。",
+        "why_not_core": "Paper does not address additive manufacturing; it focuses on conventional Ti-6Al-4V machinability, not post-processing of AM parts to improve mechanical performance (fatigue, tensile).",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": true
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "ultrasonic vibration-assisted turning",
+          "machinability",
+          "review",
+          "surface integrity"
+        ],
+        "summary_zh": {
+          "motivation": "综述超声振动辅助车削在提高Ti-6Al-4V合金切削性能中的应用。",
+          "method": "系统回顾了UVAT对切屑形成、刀具磨损、切削力、温度及表面形貌的影响。",
+          "result": "UVAT能显著改善表面质量、降低切削力并延长刀具寿命。",
+          "validation": "本文为文献综述，无实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To review the application of ultrasonic vibration-assisted turning (UVAT) in enhancing the machinability of Ti-6Al-4V alloy.",
+          "method": "The paper systematically summarizes the effects of UVAT on chip formation, tool wear, cutting forces, temperature, and surface morphology.",
+          "result": "UVAT significantly improves surface quality and reduces cutting forces, enhancing tool life.",
+          "validation": "This is a review article with no experimental validation; it synthesizes existing literature."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V alloy",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "ultrasonic vibration-assisted turning",
+            "zh": "超声振动辅助车削"
+          },
+          {
+            "en": "machinability",
+            "zh": "可加工性"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "tool wear",
+            "zh": "刀具磨损"
+          },
+          {
+            "en": "cutting forces",
+            "zh": "切削力"
+          },
+          {
+            "en": "minimum quantity lubrication",
+            "zh": "微量润滑"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:27:10Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415080679",
+      "doi": "10.1016/j.supflu.2025.106804",
+      "title": "Microstructure and corrosion of cold-sprayed/laser-remelted TC4 coatings on 316 L SS in oxygenated NaCl-containing super/subcritical water",
+      "abstract": "",
+      "authors": [
+        "J. W. Zhao",
+        "Lifeng Yang",
+        "Feiyu Chen",
+        "Wendeng Jiang",
+        "Mian Hu",
+        "Zhong-Ting Hu",
+        "Zhiyan Pan",
+        "Junliang Wang"
+      ],
+      "first_author_affiliation": "College of Environment, Zhejiang University of Technology, Hangzhou 310014, China",
+      "corresponding_authors": [
+        {
+          "name": "Junliang Wang",
+          "affiliation": "College of Environment, Zhejiang University of Technology, Hangzhou 310014, China"
+        }
+      ],
+      "venue": "The Journal of Supercritical Fluids",
+      "year": 2025,
+      "date": "2025-10-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.supflu.2025.106804",
+      "cited_by_count": 0,
+      "concepts": [
+        "Corrosion",
+        "Materials science",
+        "Coating",
+        "Microstructure",
+        "Metallurgy",
+        "Oxide",
+        "Scanning electron microscope",
+        "Supercritical fluid",
+        "X-ray photoelectron spectroscopy",
+        "Diffusion",
+        "Metal",
+        "Base metal",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要研究TC4涂层在超临界水中的腐蚀行为，与增材制造Ti-6Al-4V的力学和疲劳性能无关。",
+        "why_not_core": "This paper does not characterize mechanical or fatigue properties of additively manufactured Ti-6Al-4V; it focuses on corrosion of a coating in a specialized environment.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V coating",
+          "corrosion",
+          "cold spray",
+          "laser remelting",
+          "supercritical water"
+        ],
+        "summary_zh": {
+          "motivation": "研究TC4涂层在超临界水中的腐蚀行为",
+          "method": "采用冷喷涂和激光重熔制备TC4涂层，并进行腐蚀实验",
+          "result": "分析了涂层微观结构及腐蚀机理",
+          "validation": "腐蚀实验验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate the corrosion behavior of TC4 coatings on 316L SS in supercritical water environments.",
+          "method": "TC4 coatings were fabricated by cold spraying followed by laser remelting, then exposed to oxygenated NaCl-containing super/subcritical water.",
+          "result": "Microstructural evolution and corrosion mechanisms were characterized, revealing the influence of laser remelting on corrosion resistance.",
+          "validation": "Experimental corrosion tests and microstructural analysis."
+        },
+        "key_terms": [
+          {
+            "en": "cold spray",
+            "zh": "冷喷涂"
+          },
+          {
+            "en": "laser remelting",
+            "zh": "激光重熔"
+          },
+          {
+            "en": "TC4 coating",
+            "zh": "TC4涂层"
+          },
+          {
+            "en": "corrosion",
+            "zh": "腐蚀"
+          },
+          {
+            "en": "supercritical water",
+            "zh": "超临界水"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:27:10Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
-      "Low": 1
+      "Low": 1,
+      "Exclude": 2
     }
   }
 }

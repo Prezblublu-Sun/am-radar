@@ -71,8 +71,8 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文主要研究激光熔覆TC4涂层的腐蚀和磨损性能，而非基体金属的力学或疲劳性能，与用户关注的Ti-6Al-4V机械/疲劳方向相关性低。",
-        "why_not_core": "The paper focuses on corrosion and wear resistance of laser-cladded TC4 coatings, with no testing or modeling of tensile, ductility, or fatigue properties as required by the direction.",
+        "relevance_to_user": "该论文研究激光熔覆TC4涂层的腐蚀和耐磨性，而非机械或疲劳性能，与方向L1（Ti-6Al-4V基础力学与疲劳）相关性较弱。",
+        "why_not_core": "No mechanical/fatigue characterization (tensile, fatigue life, S-N curves); focuses on corrosion and wear resistance.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -83,21 +83,21 @@
         "tags": [
           "laser cladding",
           "TC4",
-          "corrosion resistance",
           "wear resistance",
+          "corrosion resistance",
           "microhardness"
         ],
         "summary_zh": {
-          "motivation": "研究激光功率对激光熔覆TC4合金涂层腐蚀和磨损性能的影响。",
-          "method": "在不同激光功率（1000-2200 W）下制备TC4涂层，进行微观硬度、磨损和电化学腐蚀测试。",
-          "result": "1400 W时腐蚀性能最优，耐磨性随功率增加而提升，疲劳磨损为主机制。",
-          "validation": "通过实验测试和数值模拟验证涂层性能。"
+          "motivation": "研究激光功率对激光熔覆TC4涂层腐蚀和耐磨性能的影响。",
+          "method": "不同功率激光熔覆制备TC4涂层，进行显微硬度、磨损和电化学腐蚀测试及数值模拟。",
+          "result": "涂层显微硬度提高35.17%，1400W时腐蚀性能最佳，磨损深度随功率增加而减小。",
+          "validation": "通过显微硬度仪、磨损试验机和电化学工作站进行实验验证，并辅以数值模拟。"
         },
         "summary_en": {
-          "motivation": "To investigate the effect of laser power on the corrosion and wear resistance of laser-cladded TC4 alloy coatings. ",
-          "method": "TC4 coatings were fabricated at laser powers from 1000 W to 2200 W and characterized for microhardness, wear, and electrochemical corrosion in 3.5% NaCl solution. ",
-          "result": "The coating at 1400 W exhibited the best corrosion resistance, while higher laser power improved wear resistance via fatigue wear mechanism. ",
-          "validation": "Experimental measurements and numerical simulations of galvanic corrosion between α and β phases."
+          "motivation": "To investigate the effect of laser power on the corrosion and wear resistance of laser-clad TC4 coatings on a titanium alloy substrate.",
+          "method": "TC4 coatings were fabricated by laser cladding at powers from 1000 W to 2200 W, and microhardness, wear resistance, and electrochemical corrosion in 3.5% NaCl solution were characterized.",
+          "result": "The coating exhibited 35.17% higher microhardness than the substrate; wear resistance improved with increasing laser power, and the best corrosion performance was achieved at 1400 W.",
+          "validation": "Experimental validation via microhardness testing, wear depth measurement, and electrochemical impedance spectroscopy, supplemented by numerical simulation of galvanic coupling."
         },
         "key_terms": [
           {
@@ -109,48 +109,190 @@
             "zh": "TC4合金"
           },
           {
-            "en": "corrosion resistance",
-            "zh": "耐腐蚀性"
+            "en": "microhardness",
+            "zh": "显微硬度"
           },
           {
             "en": "wear resistance",
             "zh": "耐磨性"
           },
           {
-            "en": "microhardness",
-            "zh": "显微硬度"
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
           },
           {
-            "en": "galvanic corrosion",
+            "en": "electrochemical corrosion",
+            "zh": "电化学腐蚀"
+          },
+          {
+            "en": "galvanic coupling",
             "zh": "电偶腐蚀"
           },
           {
-            "en": "fatigue wear",
-            "zh": "疲劳磨损"
+            "en": "self-corrosion potential",
+            "zh": "自腐蚀电位"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4417303417",
+      "doi": "10.1016/j.triboint.2025.111585",
+      "title": "Tailoring microstructure and tribological performance of directed energy deposited Ti-6Al-4V alloy through in-situ oxygen doping",
+      "abstract": "",
+      "authors": [
+        "Zhen Wang",
+        "Sihan Yu",
+        "Dawei Ji",
+        "Nengbin Hua",
+        "Cuiyong Tang",
+        "Wen Zhou"
+      ],
+      "first_author_affiliation": "School of Materials Science and Engineering, Fujian University of Technology, Fuzhou 350118, China",
+      "corresponding_authors": [
+        {
+          "name": "Sihan Yu",
+          "affiliation": "School of Materials Science and Engineering, Fujian University of Technology, Fuzhou 350118, China"
+        },
+        {
+          "name": "Wen Zhou",
+          "affiliation": "Faculty of Civil Engineering Technology, Universiti Malaysia Pahang Al-Sultan Abdullah, Kuantan 26300, Malaysia"
+        }
+      ],
+      "venue": "Tribology International",
+      "year": 2025,
+      "date": "2025-12-14",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.triboint.2025.111585",
+      "cited_by_count": 2,
+      "concepts": [
+        "Equiaxed crystals",
+        "Materials science",
+        "Microstructure",
+        "Acicular",
+        "Tribology",
+        "Metallurgy",
+        "Oxygen",
+        "Lamellar structure",
+        "Embrittlement",
+        "Alloy",
+        "Grain size",
+        "Composite material",
+        "Limiting oxygen concentration",
+        "Martensite",
+        "Abrasive",
+        "Brittleness",
+        "Tribometer",
+        "Grain boundary",
+        "Oxide",
+        "Doping"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该研究涉及增材制造Ti-6Al-4V的微观结构和摩擦学性能，但未涉及力学或疲劳性能，与方向核心关注点关联较弱。",
+        "why_not_core": "No tensile, fatigue, or mechanical strength data; focuses on tribological performance rather than mechanical/fatigue characterization.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "directed energy deposition",
+          "Ti-6Al-4V",
+          "oxygen doping",
+          "tribology",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "通过原位氧掺杂改善DED Ti-6Al-4V的耐磨性。",
+          "method": "在DED过程中原位掺氧，调控微观组织。",
+          "result": "氧掺杂细化了α板条并产生固溶强化，提高了硬度和耐磨性。",
+          "validation": "摩擦磨损试验与微观组织表征。"
+        },
+        "summary_en": {
+          "motivation": "To enhance the tribological performance of DED Ti-6Al-4V by tailoring its microstructure through in-situ oxygen doping.",
+          "method": "In-situ oxygen doping was applied during directed energy deposition to modify the α-lath morphology and oxygen content.",
+          "result": "Oxygen doping refined the α-lath structure and induced solid solution strengthening, leading to improved hardness and wear resistance.",
+          "validation": "Experimental validation through wear testing and microstructural analysis."
+        },
+        "key_terms": [
+          {
+            "en": "directed energy deposition",
+            "zh": "定向能量沉积"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "in-situ oxygen doping",
+            "zh": "原位氧掺杂"
+          },
+          {
+            "en": "tribological performance",
+            "zh": "摩擦学性能"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "α-lath",
+            "zh": "α板条"
+          },
+          {
+            "en": "solid solution strengthening",
+            "zh": "固溶强化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Low": 1
+      "Low": 2
     }
   }
 }

@@ -1,0 +1,144 @@
+{
+  "schema_version": "v2",
+  "date": "2026-02-13",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7128721323",
+      "doi": "10.1016/j.mfglet.2026.02.003",
+      "title": "Co-extrusion of internally oxidized Nb-1Zr: An avenue to new load-bearing implants",
+      "abstract": "• Co-extrusion of pre-oxidized Nb-1Zr powder results in solid bodies with few defects. • High compression yield stress (829–937 MPa) was obtained upon heat treatment. • The material features no toxic elements and is a promising material for implants. Niobium-zirconium alloys like Nb-1Zr offer high biocompatibility and osteoconductivity, with a lower Young’s modulus than Ti-6Al-4V, but their strength is limited due to a coarse grain structure. In this study, alloy strength is enhanced through controlled internal oxidation. Pre-oxidizing Nb-1Zr powder at 620 °C for 0, 60, and 120 min prior to co-extrusion increased 0.2% offset compression yield stress from 829 to 937 MPa. The improved strength is due to a fine-grained structure and high dislocation density. Longer oxidation times increased brittle niobium oxides. Future work will refine oxidation to tailor the properties of these alloys for load-bearing implants.",
+      "authors": [
+        "Julian-Tobias Schleich",
+        "Julius Max Jakob Siegmund",
+        "Minh Tien Phan",
+        "Philipp‐Cornelius Pott",
+        "Hans Jürgen Maier",
+        "Christian Klose"
+      ],
+      "first_author_affiliation": "Institut für Werkstoffkunde (Materials Science), Leibniz Universität Hannover, An der Universität 2, 30823 Garbsen, Germany",
+      "corresponding_authors": [
+        {
+          "name": "Julian-Tobias Schleich",
+          "affiliation": "Institut für Werkstoffkunde (Materials Science), Leibniz Universität Hannover, An der Universität 2, 30823 Garbsen, Germany"
+        }
+      ],
+      "venue": "Manufacturing Letters",
+      "year": 2026,
+      "date": "2026-02-13",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.mfglet.2026.02.003",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Brittleness",
+        "Biocompatibility",
+        "Niobium",
+        "Alloy",
+        "Metallurgy",
+        "Composite material",
+        "Compression (physics)",
+        "Grain size",
+        "Yield (engineering)",
+        "Dislocation",
+        "Stress (linguistics)",
+        "Strength of materials",
+        "Brittle fracture",
+        "Compressive strength",
+        "Elastic modulus",
+        "Internal stress",
+        "Modulus"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是Nb-1Zr合金而非Ti-6Al-4V，且聚焦于植入物应用，与AM Ti-6Al-4V后处理控制方向完全无关。",
+        "why_not_core": "The paper does not involve Ti-6Al-4V; it focuses on Nb-1Zr for load-bearing implants, which is a different material and application.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "niobium-zirconium",
+          "co-extrusion",
+          "internal oxidation",
+          "compression yield"
+        ],
+        "summary_zh": {
+          "motivation": "通过内氧化提高Nb-1Zr合金强度以用于承重植入物。",
+          "method": "预氧化Nb-1Zr粉末后进行共挤压并热处理。",
+          "result": "热处理后压缩屈服应力达到829-937 MPa。",
+          "validation": "通过压缩力学测试验证强度提升。"
+        },
+        "summary_en": {
+          "motivation": "To enhance the strength of Nb-1Zr alloy for load-bearing implant applications.",
+          "method": "Pre-oxidized Nb-1Zr powder was co-extruded and heat treated.",
+          "result": "Compression yield stress of 829–937 MPa was achieved after heat treatment.",
+          "validation": "Mechanical testing of compression yield stress was performed."
+        },
+        "key_terms": [
+          {
+            "en": "niobium-zirconium alloy",
+            "zh": "铌锆合金"
+          },
+          {
+            "en": "co-extrusion",
+            "zh": "共挤压"
+          },
+          {
+            "en": "internal oxidation",
+            "zh": "内氧化"
+          },
+          {
+            "en": "compression yield stress",
+            "zh": "压缩屈服应力"
+          },
+          {
+            "en": "load-bearing implants",
+            "zh": "承重植入物"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

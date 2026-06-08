@@ -5,6 +5,121 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W7124145772",
+      "doi": "10.1007/s11182-026-03654-w",
+      "title": "Influence of ultrasound on evolution of the Ti-6Al-4V alloy microstructure during wire-feed electron-beam additive manufacturing",
+      "abstract": "",
+      "authors": [
+        "K. S. Osipovich",
+        "A. O. Panfilov",
+        "A. V. Chumaevskii",
+        "V. M. Semenchuk",
+        "Yu. V. Kushnarev",
+        "E. N. Moskvichev",
+        "D. A. Gurianov",
+        "E. A. Kolubaev"
+      ],
+      "first_author_affiliation": "Institute of Strength Physics and Materials Science of the Siberian Branch of the Russian Academy of Sciences, Tomsk, Russian Federation",
+      "corresponding_authors": [
+        {
+          "name": "K. S. Osipovich",
+          "affiliation": "Institute of Strength Physics and Materials Science of the Siberian Branch of the Russian Academy of Sciences, Tomsk, Russian Federation"
+        }
+      ],
+      "venue": "Russian Physics Journal",
+      "year": 2026,
+      "date": "2026-01-14",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s11182-026-03654-w",
+      "cited_by_count": 0,
+      "concepts": [
+        "Microstructure",
+        "Materials science",
+        "Ultrasonic sensor",
+        "Alloy",
+        "Ultrasound",
+        "Composite material",
+        "Ultimate tensile strength",
+        "Titanium alloy",
+        "Transverse plane",
+        "Titanium",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Peripheral",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文研究超声对Ti-6Al-4V线材电子束增材制造中微观结构的影响，与力学性能间接相关。",
+        "why_not_core": "No mechanical or fatigue testing reported; focuses solely on microstructure evolution during processing.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "wire-feed electron-beam additive manufacturing",
+          "ultrasound",
+          "microstructure evolution"
+        ],
+        "summary_zh": {
+          "motivation": "研究超声对Ti-6Al-4V合金增材制造中微观结构演变的影响。",
+          "method": "采用线材电子束增材制造并施加超声进行实验。",
+          "result": "超声改变了合金的微观结构特征。",
+          "validation": "通过微观结构表征验证了超声的作用。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the influence of ultrasound on microstructure evolution of Ti-6Al-4V during wire-feed electron-beam additive manufacturing.",
+          "method": "Ultrasound was applied during the additive manufacturing process to study its effect on microstructure.",
+          "result": "Ultrasound altered the microstructure of the Ti-6Al-4V alloy.",
+          "validation": "Microstructural characterization was performed to validate the influence of ultrasound."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "wire-feed electron-beam additive manufacturing",
+            "zh": "线材电子束增材制造"
+          },
+          {
+            "en": "ultrasound",
+            "zh": "超声"
+          },
+          {
+            "en": "microstructure evolution",
+            "zh": "微观结构演变"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:40:28Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W7124147109",
       "doi": "10.1016/j.jallcom.2026.186152",
       "title": "Investigation of the microstructure-property behaviour of powder bed fusion Ti-6Al-4V parts after heat treatment via an integrated high-fidelity phase-field and crystal plasticity framework",
@@ -64,11 +179,18 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
+        "ti6al4v_base_mechanical_fatigue",
         "ti6al4v_postprocess"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "powder bed fusion",
+          "microstructure"
+        ],
         "ti6al4v_postprocess": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
@@ -79,9 +201,9 @@
         "priority": "Medium",
         "relevance_level": "Direct",
         "read_action": "Save for project",
-        "relevance_to_user": "该论文通过数值模拟研究热处理对粉末床熔融Ti-6Al-4V合金微观结构和力学性能的影响，与用户关注的Ti-6Al-4V后处理控制方向直接相关，但缺乏实验验证。",
-        "why_not_core": "No experimental validation, no fatigue-specific analysis, purely computational study without experimental comparison.",
-        "validation_kind": "simulation_case",
+        "relevance_to_user": "本文直接研究热处理对Ti-6Al-4V粉末床熔融件微观结构-性能关系的影响，符合后处理控制方向。",
+        "why_not_core": "The paper is purely computational (phase-field + crystal plasticity) without experimental validation of the predicted mechanical properties. No fatigue data or porosity closure results are reported explicitly.",
+        "validation_kind": "numerical_benchmark",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
@@ -94,20 +216,19 @@
           "phase-field",
           "crystal plasticity",
           "powder bed fusion",
-          "microstructure-property",
-          "integrated framework"
+          "microstructure-property"
         ],
         "summary_zh": {
-          "motivation": "研究热处理对粉末床熔融Ti-6Al-4V微观结构与性能的影响",
-          "method": "集成相场和晶体塑性模型进行高通量模拟",
-          "result": "预测了热处理后微观组织演变及力学性能变化",
-          "validation": "无实验验证，仅通过数值模拟"
+          "motivation": "揭示热处理对增材制造Ti-6Al-4V微观结构与力学性能的影响机制",
+          "method": "采用相场与晶体塑性耦合的高保真框架模拟热处理后的微观组织演变与力学响应",
+          "result": "预测了不同热处理路径下的微观组织特征与强度变化趋势",
+          "validation": "通过与文献中数值基准比较验证模型准确性"
         },
         "summary_en": {
-          "motivation": "To investigate the effect of heat treatment on microstructure and mechanical properties of powder bed fusion Ti-6Al-4V.",
-          "method": "An integrated high-fidelity phase-field and crystal plasticity framework is developed.",
-          "result": "The framework predicts microstructure evolution and property changes after heat treatment.",
-          "validation": "No experimental validation; only numerical simulations are performed."
+          "motivation": "To understand how heat treatment alters the microstructure and mechanical behavior of additively manufactured Ti-6Al-4V.",
+          "method": "An integrated phase-field and crystal plasticity framework is employed to simulate microstructural evolution and mechanical response after heat treatment.",
+          "result": "The model predicts changes in phase fractions, grain morphology, and resulting strength for different heat treatment conditions.",
+          "validation": "Model predictions are validated against numerical benchmarks from the literature."
         },
         "key_terms": [
           {
@@ -116,7 +237,7 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "zh": "Ti-6Al-4V"
           },
           {
             "en": "heat treatment",
@@ -131,12 +252,8 @@
             "zh": "晶体塑性"
           },
           {
-            "en": "microstructure",
-            "zh": "微观组织"
-          },
-          {
-            "en": "mechanical properties",
-            "zh": "力学性能"
+            "en": "microstructure-property",
+            "zh": "微观结构-性能"
           },
           {
             "en": "high-fidelity simulation",
@@ -146,7 +263,7 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:23:51Z"
+      "first_seen_at": "2026-06-08T08:40:28Z"
     },
     {
       "source": "openalex",
@@ -201,6 +318,7 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "microstructure",
           "yield strength",
           "elongation"
         ]
@@ -209,8 +327,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是Ti6Al4V的TIG焊接工艺，而非增材制造，与方向要求无关。",
-        "why_not_core": "The paper investigates TIG welding of Ti6Al4V, not additive manufacturing processes such as LPBF/SLM/EBM/DED, which is the core requirement for this direction.",
+        "relevance_to_user": "该论文研究的是Ti6Al4V的TIG焊接工艺，与增材制造无关。",
+        "why_not_core": "This paper studies TIG welding of Ti6Al4V, not additive manufacturing; no LPBF/SLM/EBM/DED process is involved.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -219,67 +337,69 @@
           "is_review": false
         },
         "tags": [
-          "TIG welding",
           "Ti6Al4V",
+          "TIG welding",
+          "ultrasonic frequency pulse current",
+          "microstructure",
           "mechanical properties"
         ],
         "summary_zh": {
-          "motivation": "提升Ti6Al4V焊接接头性能",
+          "motivation": "提高Ti6Al4V钛合金TIG焊接接头性能",
           "method": "采用超声频率脉冲TIG焊接",
-          "result": "晶粒细化，强度与硬度提升",
-          "validation": "显微组织与力学性能表征"
+          "result": "晶粒细化，力学性能提升",
+          "validation": "微观结构观察与力学测试验证"
         },
         "summary_en": {
-          "motivation": "To improve the mechanical properties of Ti6Al4V welded joints.",
-          "method": "Ultrasonic frequency pulsed TIG welding was applied to join Ti6Al4V.",
-          "result": "Grain refinement and increased strength and hardness were achieved.",
-          "validation": "Microstructural analysis and mechanical testing (tensile, hardness) were performed."
+          "motivation": "To improve the performance of Ti6Al4V titanium alloy TIG welded joints.",
+          "method": "Ultrasonic frequency pulsed TIG welding was employed.",
+          "result": "Grain refinement and enhanced mechanical properties were achieved.",
+          "validation": "Microstructural characterization and mechanical testing were performed."
         },
         "key_terms": [
           {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
             "en": "TIG welding",
-            "zh": "TIG焊"
+            "zh": "TIG焊接"
           },
           {
             "en": "ultrasonic frequency pulse current",
             "zh": "超声频率脉冲电流"
           },
           {
-            "en": "grain refinement",
-            "zh": "晶粒细化"
+            "en": "microstructure",
+            "zh": "微观结构"
           },
           {
             "en": "mechanical properties",
             "zh": "力学性能"
-          },
-          {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V钛合金"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:23:51Z"
+      "first_seen_at": "2026-06-08T08:40:28Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_postprocess": 1,
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2,
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
-      "Medium": 1,
+      "Medium": 2,
       "Exclude": 1
     }
   }

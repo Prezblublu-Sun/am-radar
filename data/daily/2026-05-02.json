@@ -55,15 +55,17 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "TC4",
+          "powder bed fusion",
+          "microstructure",
           "surface roughness"
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Medium",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "论文涉及TC4合金的工艺优化与微观结构，但缺少拉伸、疲劳等力学性能表征，对直接评估Ti-6Al-4V力学疲劳性能参考价值低。",
-        "why_not_core": "No tensile, fatigue, or any mechanical/fatigue characterization beyond Vickers hardness; the paper focuses on process optimization and microstructural evolution with YH2 addition, not on mechanical/fatigue performance.",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文涉及TC4（Ti-6Al-4V）的PBF-LB工艺优化及显微组织演变，但未提供拉伸或疲劳性能数据，与用户关注的力学及疲劳性能方向关联较弱。",
+        "why_not_core": "No tensile or fatigue properties reported; the only mechanical metric is Vickers hardness, which is insufficient for the mechanical/fatigue focus.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -72,48 +74,41 @@
           "is_review": false
         },
         "tags": [
-          "laser powder bed fusion",
-          "TC4 (Ti-6Al-4V)",
-          "YH2 addition",
+          "Ti-6Al-4V",
+          "PBF-LB",
           "process optimization",
-          "microstructural evolution"
+          "microstructure",
+          "YH2 addition",
+          "Vickers hardness"
         ],
         "summary_zh": {
-          "motivation": "优化含YH2的TC4合金激光粉末床熔融工艺参数，提升成形质量。",
-          "method": "三因素四水平正交实验，结合熵权法和加权和法评估相对密度、表面粗糙度与硬度。",
-          "result": "最佳参数为激光功率200W、扫描速度1100mm/s、扫描间距0.10mm，添加YH2细化α′马氏体并弱化织构。",
-          "validation": "通过实验制备与表征验证最优参数下的微观结构与力学性能（硬度）。"
+          "motivation": "优化含0.3 wt.% YH2的PBF-LB成形TC4合金的工艺参数，提高整体成形质量。",
+          "method": "采用三因素四水平正交设计，结合熵权法和加权和法综合评价相对密度、表面粗糙度和维氏硬度。",
+          "result": "最优参数为激光功率200W、扫描速度1100mm/s、扫描间距0.10mm，YH2添加细化α′马氏体并削弱织构。",
+          "validation": "通过实验制备并测试16组工艺参数下的试样，验证优化结果。"
         },
         "summary_en": {
-          "motivation": "To optimize the powder bed fusion with a laser beam (PBF-LB) process for TC4 alloy containing 0.3 wt.% YH2 to improve overall forming quality.",
-          "method": "A three-factor four-level orthogonal design was employed, and relative density, surface roughness, and Vickers hardness were evaluated using the entropy weight method combined with the weighted-sum method.",
-          "result": "The optimal parameters (200 W, 1100 mm/s, 0.10 mm) yielded superior forming quality; YH2 addition refined α′ martensite and weakened texture via in-situ Y2O3 nanoparticles.",
-          "validation": "Experimental characterization of density, roughness, hardness, and microstructure confirmed the process optimization outcomes."
+          "motivation": "To optimize the process parameters for powder bed fusion with a laser beam (PBF-LB) of TC4 alloy with 0.3 wt.% YH2 addition to achieve superior overall forming quality.",
+          "method": "A three-factor, four-level orthogonal design was conducted, and the entropy weight method combined with the weighted-sum method was used to evaluate relative density, surface roughness, and Vickers hardness.",
+          "result": "Optimal parameters (laser power 200 W, scanning speed 1100 mm/s, hatch spacing 0.10 mm) yielded the best forming quality; YH2 addition refined α′ martensite and weakened texture via in-situ Y2O3 nano-oxide particles.",
+          "validation": "Experimental fabrication and characterization (density, roughness, hardness, microstructure) of specimens for all 16 parameter combinations validated the optimization."
         },
         "key_terms": [
           {
-            "en": "laser powder bed fusion",
-            "zh": "激光粉末床熔融"
+            "en": "Ti-6Al-4V (TC4)",
+            "zh": "Ti-6Al-4V合金（TC4）"
           },
           {
-            "en": "TC4 alloy",
-            "zh": "TC4合金"
+            "en": "powder bed fusion with laser beam (PBF-LB)",
+            "zh": "激光粉末床熔融"
           },
           {
             "en": "YH2 addition",
             "zh": "YH2添加"
           },
           {
-            "en": "process optimization",
-            "zh": "工艺优化"
-          },
-          {
             "en": "orthogonal design",
-            "zh": "正交实验设计"
-          },
-          {
-            "en": "entropy weight method",
-            "zh": "熵权法"
+            "zh": "正交设计"
           },
           {
             "en": "relative density",
@@ -129,39 +124,171 @@
           },
           {
             "en": "microstructure",
-            "zh": "微观结构"
+            "zh": "显微组织"
           },
           {
-            "en": "α′ martensite",
+            "en": "α' martensite",
             "zh": "α′马氏体"
           },
           {
-            "en": "Y2O3 nano-oxide",
-            "zh": "Y2O3纳米氧化物"
+            "en": "process optimization",
+            "zh": "工艺优化"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7160432783",
+      "doi": "10.1016/j.surfin.2026.109477",
+      "title": "Effect of high-temperature plasma immersion ion implantation on the microstructure and hardness of laser beam-welded Ti-6Al-4V alloy",
+      "abstract": "Ti-6Al-4V welded joints remain challenging for thermochemical surface engineering because laser welding produces spatially heterogeneous microstructures and residual stress states, which can strongly affect diffusion and compound-layer formation during subsequent treatments. This study investigates the combined use of laser beam welding (LBW) and high-temperature nitrogen plasma immersion ion implantation (HT-PIII) as a surface engineering route for Ti-6Al-4V alloy joints. LBW was deliberately employed as a metallurgical pre-conditioning step, generating fusion and heat-affected zones with distinct microstructural features and stress conditions. Bead-on-plate welds were produced using a continuous-wave Yb:fiber laser under three nominal heat inputs (25, 50, and 75 J/mm), followed by HT-PIII treatment at 820 °C using a pulsed high-voltage discharge operating at 56 kV, with a pulse width of 30 &#956;s and a repetition frequency of 1 kHz. The treated joints were characterized by X-ray diffraction, optical and scanning electron microscopy, energy-dispersive spectroscopy, Vickers microhardness, and instrumented hardness testing. The results showed the formation of a TiN/Ti2N-containing compound layer and a subsurface nitrogen diffusion zone, with thickness and chemical gradients dependent on the local metallurgical condition imposed by welding. The fusion zone exhibited greater nitrogen incorporation and a thicker implanted layer than the base material, reflecting its refined microstructure and higher defect density. Instrumented hardness measurements revealed pronounced near-surface hardening, with values exceeding 1800 HVIT in the implanted layer, whereas Vickers microhardness profiles indicated moderate hardness reductions in internal regions, likely associated with thermally induced microstructural changes during the HT-PIII thermal cycle. These findings demonstrate that the effectiveness of HT-PIII on Ti-6Al-4V joints cannot be dissociated from the prior welding condition. Rather than acting as an isolated surface treatment, HT-PIII interacts with the thermal and metallurgical state imposed by LBW, leading to spatially dependent surface modification while preserving the mechanical integrity of the welded joint.",
+      "authors": [
+        "Rodrigo Andrade Paes",
+        "Rogério de Moraes Oliveira",
+        "Sérgio Luiz Mineiro"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Rodrigo Andrade Paes",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Surfaces and Interfaces",
+      "year": 2026,
+      "date": "2026-05-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.surfin.2026.109477",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Alloy",
+        "Laser",
+        "Plasma-immersion ion implantation",
+        "Metallurgy",
+        "Immersion (mathematics)",
+        "Ion implantation",
+        "Plasma",
+        "Indentation hardness",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "defect",
+          "residual stress"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是激光焊接Ti-6Al-4V合金后的高温等离子体浸没离子注入处理，而非增材制造Ti-6Al-4V的后处理，因此与用户关注方向不相关。",
+        "why_not_core": "This paper focuses on laser beam welded joints of Ti-6Al-4V, not additive manufactured material, and examines surface hardness rather than fatigue or mechanical performance relevant to AM post-processing control.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "laser beam welding",
+          "plasma immersion ion implantation",
+          "surface hardness",
+          "non-AM"
+        ],
+        "summary_zh": {
+          "motivation": "研究激光焊接后等离子体浸没离子注入对Ti-6Al-4V焊接接头微观组织和硬度的影响。",
+          "method": "采用不同热输入的激光焊接，随后进行高温氮等离子体浸没离子注入处理。",
+          "result": "形成TiN/Ti2N化合物层和氮扩散区，表面硬度超过1800 HVIT，但内部硬度降低。",
+          "validation": "通过XRD、SEM、EDS、维氏硬度和仪器化硬度测试验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the combined effect of laser beam welding and high-temperature plasma immersion ion implantation on the microstructure and hardness of Ti-6Al-4V joints.",
+          "method": "Bead-on-plate welds were produced with three heat inputs using a Yb:fiber laser, followed by HT-PIII treatment at 820 °C with pulsed high-voltage discharge.",
+          "result": "A TiN/Ti2N compound layer and nitrogen diffusion zone formed, with near-surface hardness exceeding 1800 HVIT and internal hardness reductions due to thermal effects.",
+          "validation": "Characterization by XRD, optical and scanning electron microscopy, EDS, Vickers microhardness, and instrumented hardness testing."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "laser beam welding",
+            "zh": "激光焊接"
+          },
+          {
+            "en": "plasma immersion ion implantation",
+            "zh": "等离子体浸没离子注入"
+          },
+          {
+            "en": "surface hardness",
+            "zh": "表面硬度"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "heat input",
+            "zh": "热输入"
+          },
+          {
+            "en": "nitrogen diffusion",
+            "zh": "氮扩散"
+          },
+          {
+            "en": "TiN",
+            "zh": "氮化钛"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:54:38Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 1,
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Low": 1
+      "Medium": 1,
+      "Exclude": 1
     }
   }
 }

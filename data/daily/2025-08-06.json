@@ -58,15 +58,17 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
           "surface roughness"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文主要关注钛合金表面后处理及生物相容性，未涉及增材制造Ti-6Al-4V基体力学或疲劳性能。",
-        "why_not_core": "This paper focuses on post-processing (sandblasting, acid etching) and biological evaluation (osteoblast adhesion) of Ti-6Al-4V and cp-Ti, with no mechanical or fatigue testing or modeling of the base material.",
+        "read_action": "Background only",
+        "relevance_to_user": "本文涉及增材制造Ti-6Al-4V的表面处理，但未提供任何力学或疲劳性能数据，与L1方向不直接相关。",
+        "why_not_core": "No mechanical or fatigue performance characterization; focus is on surface properties and biological response after post-processing.",
         "validation_kind": "in_vitro",
         "flags": {
           "has_experimental_validation": true,
@@ -75,40 +77,42 @@
           "is_review": false
         },
         "tags": [
-          "additively manufactured titanium",
+          "Ti-6Al-4V",
+          "additive manufacturing",
           "sandblasting",
           "acid etching",
           "surface roughness",
+          "wettability",
           "osteoblast adhesion"
         ],
         "summary_zh": {
-          "motivation": "研究喷砂和酸蚀后处理对增材制造钛表面性能及成骨细胞粘附的影响。",
-          "method": "对不同喷砂压力和存储条件下的钛表面进行粗糙度、润湿性及细胞实验分析。",
-          "result": "喷砂降低AM钛粗糙度，酸蚀引入特征图案，存储条件影响润湿性和生物相容性。",
-          "validation": "通过成骨细胞粘附实验验证。"
+          "motivation": "优化增材制造钛合金植入体表面性能以促进骨整合。",
+          "method": "采用不同喷砂压力及酸蚀处理，表征表面粗糙度、润湿性并测试成骨细胞粘附。",
+          "result": "喷砂和酸蚀改变粗糙度，储存条件显著影响润湿性和生物相容性。",
+          "validation": "通过体外成骨细胞粘附和形态学实验验证。"
         },
         "summary_en": {
-          "motivation": "To investigate effects of sandblasting and acid etching post-processing on surface properties and osteoblast adhesion of additively manufactured titanium implants.",
-          "method": "Surface roughness, wettability, and cell adhesion were evaluated on Ti-6Al-4V and cp-Ti specimens under varying sandblasting pressures and storage conditions.",
-          "result": "Sandblasting reduced the high initial roughness of AM titanium, acid etching created irregular patterns, and storage conditions significantly influenced wettability and biocompatibility.",
-          "validation": "In vitro osteoblast adhesion assays were performed to validate biological performance."
+          "motivation": "To optimize surface properties of additively manufactured titanium implants for improved osseointegration.",
+          "method": "Sandblasting at varying pressures followed by acid etching was applied; surface roughness, wettability, and osteoblast adhesion were characterized.",
+          "result": "Sandblasting and acid etching altered roughness; storage conditions critically influenced wettability and biocompatibility.",
+          "validation": "In vitro osteoblast adhesion, morphology, and membrane integrity assays were performed."
         },
         "key_terms": [
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           },
           {
             "en": "sandblasting",
-            "zh": "喷砂处理"
+            "zh": "喷砂"
           },
           {
             "en": "acid etching",
-            "zh": "酸蚀处理"
-          },
-          {
-            "en": "osteoblast adhesion",
-            "zh": "成骨细胞粘附"
+            "zh": "酸蚀"
           },
           {
             "en": "surface roughness",
@@ -119,14 +123,388 @@
             "zh": "润湿性"
           },
           {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
+            "en": "osteoblast adhesion",
+            "zh": "成骨细胞粘附"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413049207",
+      "doi": "10.1016/j.ijfatigue.2025.109224",
+      "title": "Using marker bands in additively manufactured Ti-6Al-4V to measure small fatigue crack growth rates and equivalent initial damage sizes",
+      "abstract": "• Develops and demonstrates marker bands for additively manufactured titanium. • Validates marker band use for crack growth rate measurement. • Demonstrates use of maker bands for equivalent initial damage size estimation. Additive manufactured (AM) structural parts are being increasingly used within Defence platforms across all domains. In the air domain, it is necessary to correctly validate the durability and damage tolerance analysis tools used for certification and sustainment of AM parts. This is emphasised by MIL‑STD‑1530Dc1 and the United States Air Force structures bulletin EZ‑SB‑19‑001. One difficulty with this is that AM production processes are known to lead to multiple different types of discontinuities which can nucleate fatigue cracks. Depending on the size of these discontinuities, they have the potential to significantly reduce the fatigue life of the AM part. The focus of this work is on demonstrating the viability of using marker bands to assist with obtaining both crack growth curves and small crack growth rate data and equivalent initial damage size distributions for AM Ti‑6Al-4V. This technique has previously been used successfully in many wrought aluminium components and full-scale tests. The work here showed that it was possible to design effective marker bands for AM Ti‑6Al‑4V. It is judged that further development of this technique would assist with correlating durability and damage tolerance tools used in the certification of this material.",
+      "authors": [
+        "Christopher Bodger",
+        "Ben Main",
+        "Yi Rye Choi",
+        "Isaac Field",
+        "Simon Barter"
+      ],
+      "first_author_affiliation": "Capability Acquisition and Sustainment Group, Brindabella Park, Canberra, Australia",
+      "corresponding_authors": [
+        {
+          "name": "Simon Barter",
+          "affiliation": "RMIT University, Melbourne, Victoria, Australia"
+        }
+      ],
+      "venue": "International Journal of Fatigue",
+      "year": 2025,
+      "date": "2025-08-06",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2025.109224",
+      "cited_by_count": 4,
+      "concepts": [
+        "Materials science",
+        "Measure (data warehouse)",
+        "Paris' law",
+        "Composite material",
+        "Fatigue testing",
+        "Structural engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "fatigue",
+          "fatigue life",
+          "fatigue crack growth"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对增材制造Ti-6Al-4V的疲劳裂纹扩展和初始损伤尺寸测量，符合层1基础力学与疲劳关注点。",
+        "why_not_core": "The paper focuses on marker band technique for crack growth measurement rather than providing conventional S-N curves or tensile properties.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "marker bands",
+          "small crack growth",
+          "equivalent initial damage size",
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "fatigue",
+          "damage tolerance"
+        ],
+        "summary_zh": {
+          "motivation": "验证标志带技术在增材制造Ti-6Al-4V中用于测量小裂纹扩展速率和等效初始损伤尺寸的可行性。",
+          "method": "设计了适用于AM Ti-6Al-4V的标志带，通过变幅加载产生可识别的疲劳条纹。",
+          "result": "成功在AM Ti-6Al-4V中实现标志带，可提取裂纹扩展数据和等效初始损伤尺寸分布。",
+          "validation": "通过实验疲劳测试验证了标志带技术对裂纹扩展速率测量的有效性。"
+        },
+        "summary_en": {
+          "motivation": "To demonstrate the viability of using marker bands to measure small fatigue crack growth rates and equivalent initial damage sizes in additively manufactured Ti-6Al-4V for certification and sustainment.",
+          "method": "Marker bands were introduced by applying periodic high-to-low load sequences during fatigue testing of AM Ti-6Al-4V specimens, creating distinguishable bands on fracture surfaces.",
+          "result": "The marker band technique successfully provided crack growth rate data and equivalent initial damage size distributions for AM Ti-6Al-4V.",
+          "validation": "The marker band method was validated through comparison with conventional crack growth measurement techniques on AM Ti-6Al-4V specimens."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "marker bands",
+            "zh": "标志带"
+          },
+          {
+            "en": "fatigue crack growth",
+            "zh": "疲劳裂纹扩展"
+          },
+          {
+            "en": "small crack",
+            "zh": "小裂纹"
+          },
+          {
+            "en": "equivalent initial damage size",
+            "zh": "等效初始损伤尺寸"
+          },
+          {
+            "en": "damage tolerance",
+            "zh": "损伤容限"
+          },
+          {
+            "en": "crack growth rate",
+            "zh": "裂纹扩展速率"
+          },
+          {
+            "en": "fractography",
+            "zh": "断口学"
+          },
+          {
+            "en": "load spectrum",
+            "zh": "载荷谱"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412999663",
+      "doi": "10.1016/j.ijfatigue.2025.109213",
+      "title": "Empirical fatigue life model based on micro-CT defect severity indicator for laser powder-bed additively manufactured Ti-6Al-4V",
+      "abstract": "",
+      "authors": [
+        "Shi Da Sun",
+        "Yi Rye Choi",
+        "Dina Bayoumy",
+        "Jonathan D. Miller",
+        "Qianchu Liu"
+      ],
+      "first_author_affiliation": "Defence Science Technology Group, Fishermans Bend, VIC 3207, Australia",
+      "corresponding_authors": [
+        {
+          "name": "Shi Da Sun",
+          "affiliation": "Defence Science Technology Group, Fishermans Bend, VIC 3207, Australia"
+        }
+      ],
+      "venue": "International Journal of Fatigue",
+      "year": 2025,
+      "date": "2025-08-06",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2025.109213",
+      "cited_by_count": 3,
+      "concepts": [
+        "Materials science",
+        "Fatigue testing",
+        "Laser",
+        "Composite material",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "defect",
+          "fatigue",
+          "fatigue life"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对激光粉末床熔融Ti-6Al-4V的疲劳寿命预测，与用户关注的增材制造Ti-6Al-4V力学与疲劳性能高度相关。",
+        "why_not_core": "The paper does not cover post-processing treatments or femoral stem applications, but since the direction is L1 base mechanical & fatigue, this is fully relevant.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "empirical model",
+          "defect severity",
+          "micro-CT",
+          "fatigue life",
+          "laser powder bed fusion",
+          "Ti-6Al-4V"
+        ],
+        "summary_zh": {
+          "motivation": "利用缺陷严重程度指标预测增材制造Ti-6Al-4V的疲劳寿命",
+          "method": "基于微CT缺陷严重度建立经验疲劳寿命模型",
+          "result": "模型能有效关联缺陷特征与疲劳寿命，验证良好",
+          "validation": "通过疲劳实验数据验证模型准确性"
+        },
+        "summary_en": {
+          "motivation": "To predict the fatigue life of additively manufactured Ti-6Al-4V using defect severity indicators from micro-CT.",
+          "method": "An empirical fatigue life model is developed based on a defect severity indicator derived from micro-CT scans.",
+          "result": "The model successfully correlates defect severity with fatigue life, showing good predictive capability.",
+          "validation": "The model is validated against experimental fatigue testing data."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
+          },
+          {
+            "en": "defect severity indicator",
+            "zh": "缺陷严重度指标"
+          },
+          {
+            "en": "micro-CT",
+            "zh": "显微CT"
+          },
+          {
+            "en": "empirical model",
+            "zh": "经验模型"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412988345",
+      "doi": "10.1016/j.rineng.2025.106605",
+      "title": "Shape characterisation for mounted additive manufacturing powders",
+      "abstract": "• Automated Powder morphology characterization on 2D images • Easily accessible methodology of powder preparation for image capture • Reasonable agreement with benchmark 3D characterisation • A useful inspection method for Additive Manufacturing powders • Application to three types of Additive Manufacturing powders Particle morphology plays a role in the flowability of powders used in additive manufacturing processes. Hence, shape properties of feedstock must be routinely assessed and controlled. There are various particle shape analysis methods, but it is necessary to develop an easily accessible methodology for additive manufacturing users, particularly for small and medium-sized enterprises. The work presented here utilises standard metallurgical laboratory equipment and automated image analysis algorithms to analyse particle shape measurements from digital 2D images of cross-sectioned powders mounted in polymer. Particle circularity, convexity, and solidity measures are determined from the 2D images. There are stereological errors introduced when a three-dimensional particle is sectioned onto a two-dimensional plane for observation. The effectiveness of the 2D approach is evaluated by comparing results to benchmark 3D powder data. The proposed method is applied to three unprocessed Ti-6Al-4V powders produced via gas atomisation, plasma atomisation, and ultrasonic processing. Benchmark comparisons with commercial 3D analysis revealed errors under 7.4% for circularity, 2.2% for convexity, and 3.9% for solidity. The gas-atomised powder consistently showed the lowest mean shape descriptor values (circularity = 0.867, convexity = 0.970, solidity = 0.949), indicating higher levels of irregularity and agglomeration, while the ultrasonically processed powder showed the highest mean shape descriptor values (circularity = 0.947, convexity = 0.986, solidity = 0.978) indicating superior particle circularity in the 2D analysis. The results show the extent of the applicability of the 2D approach for cursory and comparative analysis of powders and their morphology.",
+      "authors": [
+        "Courtney Gallagher",
+        "Sagar Nikam",
+        "Emmett Kerr",
+        "Shaun McFadden"
+      ],
+      "first_author_affiliation": "School of Computing, Engineering and Intelligent Systems, Ulster University, Derry/Londonderry, BT48 7JL, UK",
+      "corresponding_authors": [
+        {
+          "name": "Shaun McFadden",
+          "affiliation": "School of Computing, Engineering and Intelligent Systems, Ulster University, Derry/Londonderry, BT48 7JL, UK"
+        }
+      ],
+      "venue": "Results in Engineering",
+      "year": 2025,
+      "date": "2025-08-06",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.rineng.2025.106605",
+      "cited_by_count": 3,
+      "concepts": [
+        "Materials science"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究的是Ti-6Al-4V粉末形貌表征，但未涉及增材制造后的力学或疲劳性能，与本方向直接需求不匹配。",
+        "why_not_core": "No mechanical or fatigue characterization of additively manufactured Ti-6Al-4V; focuses solely on powder morphology before the AM process.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "powder morphology",
+          "Ti-6Al-4V",
+          "gas atomisation",
+          "plasma atomisation",
+          "ultrasonic processing",
+          "circularity",
+          "convexity",
+          "solidity"
+        ],
+        "summary_zh": {
+          "motivation": "发展一种易用的粉末形貌表征方法，以辅助增材制造粉末质量控制。",
+          "method": "使用标准金相设备和自动图像分析算法从2D截面图像测量粉末的圆形度、凸度和坚固度。",
+          "result": "与3D基准比较，2D方法误差较小（圆形度<7.4%，凸度<2.2%，坚固度<3.9%），超声处理粉末形状最佳。",
+          "validation": "通过商业3D分析系统进行基准对比验证2D方法的准确性。"
+        },
+        "summary_en": {
+          "motivation": "The study aims to develop an accessible methodology for routine powder shape characterization to support quality control in additive manufacturing.",
+          "method": "Standard metallographic equipment and automated image analysis were used to measure particle circularity, convexity, and solidity from 2D cross-sectional images of mounted powders.",
+          "result": "The 2D method showed reasonable accuracy (<7.4% error for circularity) compared to commercial 3D analysis, with ultrasonically processed powder exhibiting the highest shape descriptors.",
+          "validation": "Validation was performed by comparing 2D measurements to benchmark 3D data from a commercial particle analyzer."
+        },
+        "key_terms": [
+          {
+            "en": "powder morphology",
+            "zh": "粉末形貌"
+          },
+          {
+            "en": "circularity",
+            "zh": "圆形度"
+          },
+          {
+            "en": "convexity",
+            "zh": "凸度"
+          },
+          {
+            "en": "solidity",
+            "zh": "坚固度"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "gas atomisation",
+            "zh": "气体雾化"
+          },
+          {
+            "en": "plasma atomisation",
+            "zh": "等离子雾化"
+          },
+          {
+            "en": "ultrasonic processing",
+            "zh": "超声处理"
+          },
+          {
+            "en": "stereological errors",
+            "zh": "体视学误差"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
     },
     {
       "source": "openalex",
@@ -184,6 +562,7 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "microstructure",
           "surface roughness"
         ]
       },
@@ -191,9 +570,9 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是Ti6Al4V合金的激光清洗除漆工艺，而非增材制造钛合金的力学或疲劳性能。",
-        "why_not_core": "This paper is about paint removal via laser cleaning, not about additive manufacturing of Ti-6Al-4V. It does not address mechanical or fatigue properties of as-built or processed AM Ti-6Al-4V.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文研究激光清洗工艺而非增材制造Ti-6Al-4V的力学与疲劳性能。",
+        "why_not_core": "The paper focuses on laser cleaning of paint from Ti6Al4V, not on mechanical or fatigue characterization of additively manufactured Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -202,22 +581,22 @@
         },
         "tags": [
           "laser cleaning",
-          "Ti6Al4V",
           "paint removal",
-          "surface roughness",
-          "microstructural evolution"
+          "Ti6Al4V",
+          "microstructure",
+          "hardness"
         ],
         "summary_zh": {
-          "motivation": "研究连续激光清洗Ti6Al4V合金表面涂层的最优参数。",
-          "method": "使用高斯连续波激光在不同功率和扫描速度下清除120μm涂层，分析除漆率、粗糙度、微观结构和硬度。",
-          "result": "最优参数为100W功率和550mm/min速度，清洗后表面粗糙度和硬度变化极小。",
-          "validation": "通过EBSD和硬度测试验证了清洗对基体损伤很小。"
+          "motivation": "研究连续激光清洗去除Ti6Al4V合金表面涂层的工艺参数影响。",
+          "method": "使用高斯连续激光在不同功率和扫描速度下清洗120μm涂层，分析去除率、表面粗糙度、微观结构和硬度。",
+          "result": "最佳参数为100W和550mm/min，表面粗糙度接近原始基材，显微硬度仅增加3.41%。",
+          "validation": "通过EBSD和硬度测试验证基材损伤程度。"
         },
         "summary_en": {
-          "motivation": "To optimize continuous-wave laser cleaning parameters for removing paint coatings from Ti6Al4V alloy without damaging the substrate.",
-          "method": "A Gaussian continuous-wave laser was applied at varying powers (100-200 W) and scanning speeds (520-610 mm/min) to remove a 120 μm coating, and the paint removal rate, surface roughness, microstructure, and hardness were characterized.",
-          "result": "Optimal cleaning was achieved at 100 W and 550 mm/min, yielding a surface roughness similar to the original substrate and only a 3.41% increase in hardness.",
-          "validation": "EBSD and hardness measurements confirmed negligible substrate damage under the optimized parameters."
+          "motivation": "To investigate the effect of continuous-wave laser cleaning parameters on removing paint coatings from Ti6Al4V alloy without damaging the substrate.",
+          "method": "A Gaussian continuous-wave laser was applied at varying power (100-200 W) and scanning speed (520-610 mm/min) to remove a 120 μm paint layer, with characterization of removal rate, surface roughness, microstructure, and hardness.",
+          "result": "Optimal cleaning was achieved at 100 W and 550 mm/min, yielding surface roughness similar to the original substrate (55 nm vs. 56 nm) and only a 3.41% increase in microhardness (347 HV).",
+          "validation": "Experimental validation via EBSD and microhardness testing confirmed minimal substrate damage under the optimized parameters."
         },
         "key_terms": [
           {
@@ -225,38 +604,38 @@
             "zh": "激光清洗"
           },
           {
-            "en": "Ti6Al4V alloy",
-            "zh": "Ti6Al4V合金"
-          },
-          {
             "en": "paint removal",
             "zh": "除漆"
           },
           {
-            "en": "process parameters",
-            "zh": "工艺参数"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
+          },
+          {
+            "en": "continuous-wave laser",
+            "zh": "连续激光"
           },
           {
             "en": "surface roughness",
             "zh": "表面粗糙度"
           },
           {
-            "en": "microstructural evolution",
-            "zh": "微观组织演变"
+            "en": "microhardness",
+            "zh": "显微硬度"
           },
           {
-            "en": "hardness",
-            "zh": "硬度"
+            "en": "EBSD",
+            "zh": "电子背散射衍射"
           },
           {
-            "en": "continuous-wave laser",
-            "zh": "连续激光"
+            "en": "process parameters",
+            "zh": "工艺参数"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
     },
     {
       "source": "openalex",
@@ -322,8 +701,8 @@
         "priority": "Medium",
         "relevance_level": "Transferable",
         "read_action": "Save for project",
-        "relevance_to_user": "该论文研究了激光冲击强化对Ti-6Al-4V疲劳寿命的提升效果，但未涉及增材制造材料，结果可迁移至增材制造后处理场景。",
-        "why_not_core": "This paper does not address additively manufactured Ti-6Al-4V; it uses conventionally processed material, so the findings are only transferable rather than directly applicable to AM-specific microstructure effects.",
+        "relevance_to_user": "该论文研究了激光冲击强化对Ti-6Al-4V疲劳性能的提升，虽然材料并非增材制造，但后处理方法和结果对增材制造Ti-6Al-4V的后处理控制具有参考价值。",
+        "why_not_core": "Does not specify use of additively manufactured Ti-6Al-4V; materials are likely wrought, not AM, and the paper includes multiple alloys without exclusive focus on Ti-6Al-4V post-processing.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -333,22 +712,22 @@
         },
         "tags": [
           "laser shock peening",
+          "fatigue",
           "Ti-6Al-4V",
-          "fatigue life improvement",
-          "post-processing",
-          "surface treatment"
+          "surface treatment",
+          "residual stress"
         ],
         "summary_zh": {
-          "motivation": "研究激光冲击强化提高高强度金属材料疲劳性能的潜力。",
-          "method": "对AA7075-T6、Ti-6Al-4V和AISI316进行激光冲击强化处理并开展疲劳测试和断口分析。",
-          "result": "激光冲击强化使Ti-6Al-4V疲劳寿命提高超过五倍，AA7075-T6相似，AISI316提高1.7倍。",
-          "validation": "通过疲劳测试和断口分析验证激光冲击强化效果。"
+          "motivation": "通过激光冲击强化提升金属材料的疲劳寿命。",
+          "method": "对AA7075-T6、Ti-6Al-4V等材料进行激光冲击处理并开展疲劳测试与断口分析。",
+          "result": "Ti-6Al-4V的疲劳寿命提升超过5倍。",
+          "validation": "疲劳试验与断口形貌观察验证了强化效果。"
         },
         "summary_en": {
-          "motivation": "To investigate the potential of laser shock peening for improving fatigue performance in high-strength ductile metallic materials.",
-          "method": "Fatigue testing and fractography were conducted on AA7075-T6, Ti-6Al-4V, and AISI316 after laser shock peening treatment.",
-          "result": "Laser shock peening increased fatigue life by over five times for Ti-6Al-4V and AA7075-T6, and by 1.7 times for AISI316.",
-          "validation": "The improvement was validated through controlled fatigue tests and fractographic analysis."
+          "motivation": "To improve fatigue life of high-strength ductile metallic materials through laser shock peening (LSP).",
+          "method": "Fatigue testing and fractography were conducted on LSP-treated AA7075-T6, Ti-6Al-4V, and AISI316 stainless steel specimens.",
+          "result": "LSP resulted in over a five-fold increase in fatigue life for Ti-6Al-4V, with material-dependent efficacy.",
+          "validation": "Experimental fatigue tests and fractographic analysis confirmed the performance improvement."
         },
         "key_terms": [
           {
@@ -361,7 +740,7 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "zh": "钛合金"
           },
           {
             "en": "residual stress",
@@ -372,44 +751,165 @@
             "zh": "断口分析"
           },
           {
-            "en": "AA7075-T6",
-            "zh": "AA7075-T6铝合金"
-          },
-          {
-            "en": "AISI316 stainless steel",
-            "zh": "AISI316不锈钢"
-          },
-          {
             "en": "surface treatment",
             "zh": "表面处理"
           },
           {
-            "en": "fatigue testing",
-            "zh": "疲劳测试"
+            "en": "AA7075-T6",
+            "zh": "7075-T6铝合金"
+          },
+          {
+            "en": "AISI316",
+            "zh": "316不锈钢"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413049090",
+      "doi": "10.1088/2631-8695/adf8b3",
+      "title": "Comparative tool wear study on drilling of CFRP/Ti stacks using TiAlN and AlTiSiN coated drill bits",
+      "abstract": "Abstract Drilling of Carbon Fiber Reinforced Plastic (CFRP) and Ti-6Al-4V stacks presents significant challenges due to their contrasting material properties, leading to tool wear, delamination, and increased thrust force. This study evaluates the drilling performance of TiAlN and AlTiSiN-coated solid carbide tools under dry cutting conditions. Experiments were conducted at cutting speeds between 15 and 30 m min −1 and feed rates from 0.025 to 0.1 mm rev −1 . The effects of speed and feed on the thrust force variation of CFRP and Ti-6Al-4V were studied using an online dynamometer, and chip morphology was analyzed to assess machining efficiency. The results showed that higher cutting speeds and feed rates contributed to improved chip fragmentation and surface finish, particularly in stack drilling. TiAlN-coated drills exhibited superior wear resistance, demonstrating reduced flank wear over 100 holes. However, AlTiSiN-coated drills outperformed TiAlN in terms of lower burr formation and improved surface finish, which can be attributed to their enhanced thermal resistance and higher oxidation stability. TiAlN coated tool provided a 15% lower thrust force in CFRP and 10% reduction in titanium compared to AlTiSiN at 30 m min −1 &amp; 0.075 mm rev −1 . AlTiSiN achieved a 20% lower maximum burr height relative to TiAlN under identical conditions. These findings suggest that TiAlN-coated drills provide longer tool life, whereas AlTiSiN-coated drills offer superior hole quality in terms of reduced burr formation, making them a preferred choice for applications where surface finish is critical.",
+      "authors": [
+        "S. Samsudeensadham",
+        "V. Krishnaraj"
+      ],
+      "first_author_affiliation": "PSG College of Technology, Coimbatore, India",
+      "corresponding_authors": [
+        {
+          "name": "S. Samsudeensadham",
+          "affiliation": "PSG College of Technology, Coimbatore, India"
+        },
+        {
+          "name": "V. Krishnaraj",
+          "affiliation": "PSG College of Technology, Coimbatore, India"
+        }
+      ],
+      "venue": "Engineering Research Express",
+      "year": 2025,
+      "date": "2025-08-06",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1088/2631-8695/adf8b3",
+      "cited_by_count": 0,
+      "concepts": [
+        "Drill",
+        "Drilling",
+        "Materials science",
+        "Metallurgy",
+        "Drill bit",
+        "Mechanical engineering",
+        "Composite material",
+        "Geology"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究CFRP/Ti叠层钻孔刀具磨损，不涉及Ti-6Al-4V后处理对疲劳或力学性能的影响。",
+        "why_not_core": "The paper focuses on drilling tool wear and hole quality, not on any post-processing treatment (e.g., heat treatment, HIP, surface modification) that modifies the fatigue or mechanical performance of Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "drilling",
+          "tool wear",
+          "CFRP",
+          "TiAlN",
+          "AlTiSiN"
+        ],
+        "summary_zh": {
+          "motivation": "比较TiAlN与AlTiSiN涂层钻头在CFRP/Ti叠层钻孔中的刀具磨损性能。",
+          "method": "在不同切削速度和进给率下进行干式钻孔实验，测量推力、毛刺高度和刀具磨损。",
+          "result": "TiAlN涂层钻头耐磨性更好，AlTiSiN涂层钻头毛刺更小、表面质量更优。",
+          "validation": "通过100孔钻孔实验和在线测力系统验证。"
+        },
+        "summary_en": {
+          "motivation": "This study evaluates the drilling performance of TiAlN and AlTiSiN-coated solid carbide tools in CFRP/Ti-6Al-4V stacks under dry conditions.",
+          "method": "Drilling experiments were conducted at cutting speeds of 15–30 m/min and feed rates of 0.025–0.1 mm/rev, measuring thrust force, burr height, and flank wear.",
+          "result": "TiAlN-coated drills showed superior wear resistance, while AlTiSiN-coated drills produced lower burr formation and better surface finish.",
+          "validation": "Validation was performed through a 100-hole drilling test and online dynamometer measurements."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "CFRP",
+            "zh": "碳纤维增强塑料"
+          },
+          {
+            "en": "tool wear",
+            "zh": "刀具磨损"
+          },
+          {
+            "en": "TiAlN coating",
+            "zh": "TiAlN涂层"
+          },
+          {
+            "en": "AlTiSiN coating",
+            "zh": "AlTiSiN涂层"
+          },
+          {
+            "en": "drilling",
+            "zh": "钻孔"
+          },
+          {
+            "en": "burr formation",
+            "zh": "毛刺形成"
+          },
+          {
+            "en": "flank wear",
+            "zh": "后刀面磨损"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 7,
     "by_source": {
-      "openalex": 3
+      "openalex": 7
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 7,
+    "after_routing": 7,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 2,
-      "ti6al4v_postprocess": 1
+      "ti6al4v_base_mechanical_fatigue": 5,
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 3
+      "openalex": 7
     },
-    "scored": 3,
+    "scored": 7,
     "priority_counts": {
+      "Low": 2,
+      "High": 2,
       "Exclude": 2,
       "Medium": 1
     }

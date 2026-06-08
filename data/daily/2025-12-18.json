@@ -62,6 +62,9 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "additive manufacturing",
+          "selective laser melting",
+          "SLM",
           "fatigue",
           "fatigue life",
           "high cycle fatigue"
@@ -71,8 +74,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接涉及激光粉末床熔融Ti6Al4V合金在高温下的高周疲劳行为，与用户关注的增材制造钛合金力学及疲劳性能方向高度一致。",
-        "why_not_core": "This paper focuses on fatigue at 400°C rather than room temperature, and does not include post-processing treatments or implant structures.",
+        "relevance_to_user": "该论文直接研究了激光粉末床熔融Ti6Al4V合金在400°C下的高周疲劳行为，完全符合L1方向的力学与疲劳性能要求。",
+        "why_not_core": "The paper is fully in scope; no missing elements relative to the direction focus.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -81,32 +84,33 @@
           "is_review": false
         },
         "tags": [
-          "laser powder bed fusion",
+          "LPBF",
           "Ti6Al4V",
           "high-cycle fatigue",
+          "400°C",
           "stress ratio",
-          "high temperature",
-          "life prediction",
-          "fracture surface",
-          "creep damage",
-          "linear damage law"
+          "life prediction"
         ],
         "summary_zh": {
-          "motivation": "高温环境下增材制造Ti6Al4V疲劳性能研究不足，需建立寿命预测模型。",
-          "method": "进行不同应力比下400°C高周疲劳试验，结合断口观察和线性损伤法则建立复合预测模型。",
-          "result": "缺陷易成为裂纹源，应力比增大使疲劳区减小，复合模型预测效果最佳。",
-          "validation": "通过实际疲劳寿命对比评估各模型精度。"
+          "motivation": "研究SLM Ti6Al4V在400°C下不同应力比的高周疲劳行为及寿命预测。",
+          "method": "开展高周疲劳试验并观察断口，结合疲劳与蠕变损伤建立复合模型。",
+          "result": "表面/亚表面缺陷成为裂纹源，高应力比下疲劳分散性降低，复合模型预测精度最佳。",
+          "validation": "将模型预测寿命与实际试验结果对比验证。"
         },
         "summary_en": {
-          "motivation": "The fatigue behavior of additively manufactured Ti6Al4V at elevated temperatures is not well understood, necessitating reliable life prediction models for aerospace applications.",
-          "method": "High-cycle fatigue tests were conducted on SLM Ti6Al4V at 400°C under stress ratios from -1 to 0.8, and composite models combining fatigue and creep damage were developed using linear damage rule.",
-          "result": "Surface/subsurface defects dominated crack initiation; increased stress ratio reduced fatigue failure area; the composite model provided the best life prediction accuracy.",
-          "validation": "Model predictions were compared with experimental fatigue lives, and the composite model was validated as the most accurate."
+          "motivation": "To investigate the high-cycle fatigue behavior of selective laser melted Ti6Al4V alloy at 400°C under various stress ratios for aerospace applications.",
+          "method": "High-cycle fatigue tests were conducted at stress ratios of -1 to 0.8, fracture surfaces were observed, and combined fatigue-creep damage models were developed using linear damage law.",
+          "result": "Surface/subsurface defects acted as crack initiation sites; fatigue life dispersion decreased with increasing stress ratio, and the composite model provided the best life prediction.",
+          "validation": "Predicted fatigue lives from single and composite models were compared against experimental data to identify the most accurate model."
         },
         "key_terms": [
           {
             "en": "laser powder bed fusion",
             "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
           },
           {
             "en": "Ti6Al4V",
@@ -121,34 +125,22 @@
             "zh": "应力比"
           },
           {
-            "en": "high temperature",
-            "zh": "高温"
-          },
-          {
             "en": "fatigue life prediction",
             "zh": "疲劳寿命预测"
-          },
-          {
-            "en": "fracture surface",
-            "zh": "断口表面"
           },
           {
             "en": "creep damage",
             "zh": "蠕变损伤"
           },
           {
-            "en": "linear damage law",
-            "zh": "线性损伤法则"
-          },
-          {
-            "en": "selective laser melting",
-            "zh": "选择性激光熔化"
+            "en": "fracture surface",
+            "zh": "断口形貌"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     },
     {
       "source": "openalex",
@@ -202,6 +194,9 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "powder bed fusion",
+          "microstructure",
           "tensile strength",
           "yield strength",
           "ultimate tensile strength",
@@ -221,8 +216,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究了热处理和热等静压对电子束粉末床熔融Ti-6Al-4V合金力学性能的影响，完全符合后处理控制方向。",
-        "why_not_core": "The paper does not include fatigue testing, only tensile properties, so it does not fully address the fatigue aspect of the direction focus.",
+        "relevance_to_user": "该论文直接研究了Ti-6Al-4V合金经热处理和热等静压后的微观结构和力学性能，完全符合后处理控制方向。",
+        "why_not_core": "No fatigue testing results; only tensile and microstructural characterization.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -231,26 +226,25 @@
           "is_review": false
         },
         "tags": [
-          "heat treatment",
-          "hot isostatic pressing",
           "Ti-6Al-4V",
           "electron beam powder bed fusion",
-          "mechanical properties",
-          "tensile testing",
-          "porosity",
-          "microstructure"
+          "heat treatment",
+          "hot isostatic pressing",
+          "microstructure",
+          "tensile behavior",
+          "porosity"
         ],
         "summary_zh": {
-          "motivation": "研究热处理和热等静压对PBF-EB Ti-6Al-4V微观结构和力学行为的影响",
-          "method": "进行不同热处理和HIP工艺，表征微观结构并测试拉伸性能",
-          "result": "800°C/200 MPa HIP提高密度、强度和延展性；超固相HIP导致组织粗化和强度损失",
-          "validation": "通过拉伸实验验证力学性能变化"
+          "motivation": "研究热处理和热等静压对PBF-EB制备Ti-6Al-4V微观结构和力学性能的影响。",
+          "method": "进行固溶时效处理和不同HIP循环，分析孔隙率、显微组织和拉伸性能。",
+          "result": "HIP显著降低孔隙率，800°C/200 MPa HIP实现最佳强度与延展性平衡。",
+          "validation": "通过密度测量、金相分析和拉伸试验验证。"
         },
         "summary_en": {
-          "motivation": "To investigate the effects of heat treatments and hot isostatic pressing on the microstructure and mechanical behavior of Ti-6Al-4V produced by electron beam powder bed fusion.",
-          "method": "Various heat treatment and HIP cycles were applied, followed by microstructural characterization and tensile testing.",
-          "result": "HIP at 800°C/200 MPa improved density, strength, and ductility, while super-transus HIP caused grain coarsening and strength loss.",
-          "validation": "Experimental tensile testing validated the mechanical performance."
+          "motivation": "To investigate how post-processing heat treatments and hot isostatic pressing modify the microstructure and mechanical behavior of Ti-6Al-4V fabricated by electron beam powder bed fusion.",
+          "method": "Solution treatment and aging, as well as HIP cycles at various temperatures and pressures, were applied, followed by porosity analysis, microstructural characterization, and tensile testing.",
+          "result": "HIP effectively reduced porosity; the 800°C/200 MPa cycle achieved the best combination of strength (yield 948 MPa, UTS 1013 MPa) and ductility, while super-transus HIP caused strength loss due to lath coarsening.",
+          "validation": "Experimental validation via relative density measurements, optical microscopy/SEM, and uniaxial tensile tests."
         },
         "key_terms": [
           {
@@ -259,7 +253,7 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "zh": "钛合金Ti-6Al-4V"
           },
           {
             "en": "heat treatment",
@@ -271,25 +265,306 @@
           },
           {
             "en": "microstructure",
-            "zh": "微观结构"
+            "zh": "显微组织"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
           },
           {
             "en": "tensile strength",
             "zh": "抗拉强度"
           },
           {
+            "en": "yield strength",
+            "zh": "屈服强度"
+          },
+          {
             "en": "ductility",
             "zh": "延展性"
           },
           {
-            "en": "porosity",
-            "zh": "孔隙率"
+            "en": "α-lath coarsening",
+            "zh": "α板条粗化"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4417461986",
+      "doi": "10.3390/ma18245687",
+      "title": "Laser Remelting of Biocompatible Ti-Based Glass-Forming Alloys: Microstructure, Mechanical Properties, and Cytotoxicity",
+      "abstract": "Titanium-based bulk metallic glasses (BMGs) offer high strength, lower stiffness than Ti-6Al-4V, and superior corrosion resistance, but conventional Ti glass-forming systems often contain toxic Ni, Be, or Cu. This work investigates five novel Ti-based alloys free of these elements—Ti42Zr35Si5Co12.5Sn2.5Ta3, Ti42Zr40Ta3Si15, Ti60Nb15Zr10Si15, Ti39Zr32Si29, and Ti65.5Fe22.5Si12—synthesized by arc melting and suction casting. Single-track laser remelting using a selective laser melting (SLM) system was performed to simulate additive manufacturing and examine microstructural evolution, cracking behavior, mechanical properties, and cytocompatibility. All alloys solidified into fully crystalline α/β-Ti matrices with Ti/Zr silicides; no amorphous structures were obtained. Laser remelting refined the microstructure but did not induce glass formation, consistent with the known limited glass-forming ability of Cu/Ni/Be-free Ti systems. Cracking was observed at low laser energies but crack density decreased as laser energy increased. Cracks were eliminated above ~0.4 J/mm for most alloys. Ti42Zr35Si5Co12.5Sn2.5Ta3 exhibited the lowest stiffness (~125 GPa), while Ti60Nb15Zr10Si15 showed the highest due to silicide precipitation. Cytotoxicity tests (ISO 10993-5) confirmed all alloys to be non-toxic, with some extracts even enhancing fibroblast proliferation. This rapid laser-remelting approach enables cost-effective screening of Ti-based glass-forming alloys for additive manufacturing. Ti–Zr–Ta–Si systems demonstrated the most promising properties for further testing using the powder bed method.",
+      "authors": [
+        "Aleksandra Małachowska",
+        "Wiktoria Drej",
+        "Agnieszka Rusak",
+        "Tomasz Kozieł",
+        "Denis A. Pikulski",
+        "Wojciech Stopyra"
+      ],
+      "first_author_affiliation": "Center for Materials Engineering and Metal Forming, Wroclaw University of Science and Technology, Wybrzez Wyspianskiego 27, 50-370 Wroclaw, Poland",
+      "corresponding_authors": [
+        {
+          "name": "Aleksandra Małachowska",
+          "affiliation": "Center for Materials Engineering and Metal Forming, Wroclaw University of Science and Technology, Wybrzez Wyspianskiego 27, 50-370 Wroclaw, Poland"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-12-18",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18245687",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Selective laser melting",
+        "Microstructure",
+        "Laser",
+        "Composite material",
+        "Metallurgy",
+        "Cytotoxicity",
+        "Corrosion",
+        "Silicon",
+        "Cracking",
+        "Stiffness",
+        "Amorphous solid",
+        "Biocompatible material",
+        "Silicide",
+        "Melting point",
+        "Amorphous metal",
+        "Metal"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "selective laser melting",
+          "SLM",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是非Ti-6Al-4V的钛基非晶合金，与用户方向不匹配。",
+        "why_not_core": "The paper does not study Ti-6Al-4V alloy; it investigates novel Ti-based glass-forming alloys without Cu/Ni/Be, thus falling outside the required material scope.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-based glass-forming alloys",
+          "laser remelting",
+          "microstructure",
+          "mechanical properties",
+          "cytotoxicity"
+        ],
+        "summary_zh": {
+          "motivation": "研究不含有毒元素的钛基非晶合金，用于增材制造。",
+          "method": "电弧熔炼加吸铸获得合金，再用SLM系统进行单道激光重熔。",
+          "result": "未形成非晶，获得α/β-Ti晶体基体，裂纹密度随激光能量增加而减少。",
+          "validation": "力学性能测试和ISO 10993-5细胞毒性实验。"
+        },
+        "summary_en": {
+          "motivation": "To develop biocompatible Ti-based glass-forming alloys without toxic elements for additive manufacturing.",
+          "method": "Arc melting and suction casting followed by single-track laser remelting using an SLM system.",
+          "result": "Fully crystalline α/β-Ti matrices with silicides, no amorphous structure, and crack density reduced at higher laser energy.",
+          "validation": "Mechanical property characterization and ISO 10993-5 cytotoxicity tests."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-based glass-forming alloys",
+            "zh": "钛基非晶合金"
+          },
+          {
+            "en": "laser remelting",
+            "zh": "激光重熔"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "cytotoxicity",
+            "zh": "细胞毒性"
+          },
+          {
+            "en": "arc melting",
+            "zh": "电弧熔炼"
+          },
+          {
+            "en": "suction casting",
+            "zh": "吸铸"
+          },
+          {
+            "en": "α/β-Ti matrices",
+            "zh": "α/β钛基体"
+          },
+          {
+            "en": "silicide precipitation",
+            "zh": "硅化物析出"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4417443648",
+      "doi": "10.1016/j.mtla.2025.102641",
+      "title": "Quantitative analysis of the geometric fidelity of human bone twins produced by additive manufacturing in hydroxyapatite and Ti-6Al-4V alloy",
+      "abstract": "",
+      "authors": [
+        "Fanny Leborgne",
+        "Donatien Campion",
+        "Paul Danty",
+        "Patricia Pascaud-Mathieu",
+        "Jean-Claude Grandidier"
+      ],
+      "first_author_affiliation": "Institut Pprime, UPR CNRS 3346, Mechanical Engineering and Complex Systems Department, SP2MI-Université de Poitiers, 11 Boulevard Marie et Pierre Curie, TSA 41123, 86073 Poitiers Cedex 9, France",
+      "corresponding_authors": [
+        {
+          "name": "Fanny Leborgne",
+          "affiliation": "Institut Pprime, UPR CNRS 3346, Mechanical Engineering and Complex Systems Department, SP2MI-Université de Poitiers, 11 Boulevard Marie et Pierre Curie, TSA 41123, 86073 Poitiers Cedex 9, France"
+        }
+      ],
+      "venue": "Materialia",
+      "year": 2025,
+      "date": "2025-12-18",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.mtla.2025.102641",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Human bone",
+        "Porosity",
+        "Composite material",
+        "Biomedical engineering",
+        "Alloy",
+        "Compact bone",
+        "Material properties",
+        "Quantitative analysis (chemistry)",
+        "Volume fraction",
+        "Fusion",
+        "Bone tissue",
+        "Cadaver",
+        "Trabecular bone",
+        "Bone structure",
+        "X-ray microtomography",
+        "Artificial bone"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "论文虽使用Ti-6Al-4V增材制造，但核心是骨模型的几何精度而非力学或疲劳性能。",
+        "why_not_core": "No mechanical or fatigue characterization; focus is geometric fidelity only.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": true,
+          "is_review": false
+        },
+        "tags": [
+          "geometric fidelity",
+          "additive manufacturing",
+          "hydroxyapatite",
+          "Ti-6Al-4V",
+          "bone twin"
+        ],
+        "summary_zh": {
+          "motivation": "评估增材制造人骨孪生模型的几何准确度。",
+          "method": "使用羟基磷灰石和Ti-6Al-4V合金通过增材制造制备骨孪生模型。",
+          "result": "定量分析了打印模型与原始骨几何的偏差。",
+          "validation": "通过几何测量验证打印精度。"
+        },
+        "summary_en": {
+          "motivation": "To assess the geometric accuracy of human bone twins fabricated by additive manufacturing.",
+          "method": "Bone twins were produced using hydroxyapatite and Ti-6Al-4V alloy via additive manufacturing.",
+          "result": "Quantitative analysis revealed the geometric fidelity between printed models and original bone geometry.",
+          "validation": "Validation was performed by comparing measured dimensions of printed models to the original bone geometry."
+        },
+        "key_terms": [
+          {
+            "en": "geometric fidelity",
+            "zh": "几何保真度"
+          },
+          {
+            "en": "hydroxyapatite",
+            "zh": "羟基磷灰石"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "bone twin",
+            "zh": "骨孪生模型"
+          },
+          {
+            "en": "patient-specific",
+            "zh": "患者特异性"
+          },
+          {
+            "en": "quantitative analysis",
+            "zh": "定量分析"
+          },
+          {
+            "en": "dimensional accuracy",
+            "zh": "尺寸精度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
     },
     {
       "source": "openalex",
@@ -331,11 +606,17 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
+        "ti6al4v_base_mechanical_fatigue",
         "ti6al4v_postprocess"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured"
+        ],
         "ti6al4v_postprocess": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
@@ -345,9 +626,9 @@
       "llm": {
         "priority": "Medium",
         "relevance_level": "Direct",
-        "read_action": "Skim only",
-        "relevance_to_user": "该论文直接研究了Ti-6Al-4V的循环热处理后处理，但未涉及力学性能测试。",
-        "why_not_core": "No mechanical property testing (fatigue/tensile) or explicit correlation to fatigue performance.",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了循环热处理对增材制造Ti-6Al-4V微观组织演变和球化行为的影响，属于典型的后处理调控研究。",
+        "why_not_core": "No direct measurement of fatigue or mechanical properties after post-processing; focuses solely on microstructural evolution.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -356,29 +637,25 @@
           "is_review": false
         },
         "tags": [
-          "additive manufacturing",
           "Ti-6Al-4V",
           "cyclic heat treatment",
-          "microstructure",
-          "globularization"
+          "microstructural evolution",
+          "globularization",
+          "post-processing"
         ],
         "summary_zh": {
-          "motivation": "研究循环热处理对增材制造Ti-6Al-4V显微组织和球化行为的影响。",
-          "method": "采用循环热处理工艺处理样品，通过微观表征分析组织演变。",
-          "result": "循环热处理促进了α相的球化，细化了组织。",
-          "validation": "通过扫描电镜和X射线衍射进行微观结构观察。"
+          "motivation": "探究循环热处理对增材制造Ti-6Al-4V微观组织演变和球化行为的影响。",
+          "method": "对增材制造Ti-6Al-4V进行循环热处理，利用SEM和EBSD表征微观组织。",
+          "result": "观察到循环热处理后组织发生球化，微观结构逐渐演变。",
+          "validation": "通过微观组织表征验证循环热处理效果。"
         },
         "summary_en": {
-          "motivation": "To investigate the effect of cyclic heat treatment on the microstructure and globularization of additively manufactured Ti-6Al-4V.",
-          "method": "Cyclic heat treatment was applied to AM Ti-6Al-4V samples, and microstructural evolution was characterized.",
-          "result": "Cyclic heat treatment promoted globularization of the α phase and refined the microstructure.",
-          "validation": "Microstructural analysis was performed using SEM and XRD."
+          "motivation": "This study investigates the microstructural evolution and globularization behavior of additively manufactured Ti-6Al-4V subjected to cyclic heat treatment.",
+          "method": "Cyclic heat treatment was applied to additively manufactured Ti-6Al-4V samples, and microstructural characterization was performed using SEM and EBSD.",
+          "result": "Cyclic heat treatment induced globularization and significant microstructural evolution in the material.",
+          "validation": "The post-processing effect was validated through microstructural characterization without mechanical property testing."
         },
         "key_terms": [
-          {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
-          },
           {
             "en": "Ti-6Al-4V",
             "zh": "Ti-6Al-4V"
@@ -388,45 +665,55 @@
             "zh": "循环热处理"
           },
           {
-            "en": "globularization",
-            "zh": "球化"
+            "en": "microstructural evolution",
+            "zh": "微观组织演变"
           },
           {
-            "en": "microstructure",
-            "zh": "显微组织"
+            "en": "globularization",
+            "zh": "球化行为"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
           },
           {
             "en": "SEM",
-            "zh": "扫描电镜"
+            "zh": "扫描电子显微镜"
           },
           {
-            "en": "XRD",
-            "zh": "X射线衍射"
+            "en": "EBSD",
+            "zh": "电子背散射衍射"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 5,
     "by_source": {
-      "openalex": 3
+      "openalex": 5
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 5,
+    "after_routing": 5,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1,
+      "ti6al4v_base_mechanical_fatigue": 3,
       "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 3
+      "openalex": 5
     },
-    "scored": 3,
+    "scored": 5,
     "priority_counts": {
       "High": 2,
+      "Exclude": 1,
+      "Low": 1,
       "Medium": 1
     }
   }

@@ -5,63 +5,195 @@
   "papers": [
     {
       "source": "openalex",
-      "id": "https://openalex.org/W7162257183",
-      "doi": "10.1016/j.wear.2026.206807",
-      "title": "Tribological performance of self-lubricating micro textured tools in sustainable machining of Ti-6Al-4V",
+      "id": "https://openalex.org/W7162294962",
+      "doi": "10.1016/j.engfracmech.2026.112304",
+      "title": "Derivation of a physically interpretable closed-form fatigue life model for Ti-6Al-4V via deep symbolic regression",
       "abstract": "",
       "authors": [
-        "Tejanshu Sekhar Sahu",
-        "Ranjeet Kumar Sahu",
-        "Prasad Krishna",
-        "Basil Kuriachen",
-        "V Balakrishnan"
+        "Xianjun Pei",
+        "Bin Wang",
+        "Tang Gu",
+        "Meng Wang",
+        "Xupei Hu",
+        "Mingjiang Xie",
+        "Walid Larbi"
       ],
-      "first_author_affiliation": "National Institute of Technology Karnataka, Surathkal, India, 575025",
+      "first_author_affiliation": "School of Mechanical Engineering, Southeast University, Nanjing 211189, China",
       "corresponding_authors": [
         {
-          "name": "Tejanshu Sekhar Sahu",
-          "affiliation": "National Institute of Technology Karnataka, Surathkal, India, 575025"
+          "name": "Xianjun Pei",
+          "affiliation": "School of Mechanical Engineering, Southeast University, Nanjing 211189, China"
         },
         {
-          "name": "Ranjeet Kumar Sahu",
-          "affiliation": "National Institute of Technology Karnataka, Surathkal, India, 575025"
+          "name": "Tang Gu",
+          "affiliation": "DR2I, Institute of Polytechnic Science and Aeronautics (IPSA), Ivry-Sur-Seine 94200, France"
         }
       ],
-      "venue": "Wear",
+      "venue": "Engineering Fracture Mechanics",
       "year": 2026,
       "date": "2026-05-25",
       "date_precision": "day",
-      "url": "https://doi.org/10.1016/j.wear.2026.206807",
+      "url": "https://doi.org/10.1016/j.engfracmech.2026.112304",
       "cited_by_count": 0,
       "concepts": [
-        "Materials science",
-        "Tribology",
-        "Machining",
-        "Metallurgy",
-        "Tool wear",
-        "Mechanical engineering"
+        "Interpretability",
+        "Regression",
+        "Computer science",
+        "Regression analysis",
+        "Applied mathematics",
+        "Symbolic regression",
+        "Artificial intelligence",
+        "Mathematics",
+        "Linear regression",
+        "Thermal"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_postprocess"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "ti6al4v_postprocess",
-      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
-        "ti6al4v_postprocess": [
+        "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
-          "machining"
+          "fatigue",
+          "fatigue life"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文提出了Ti-6Al-4V疲劳寿命的显式模型，对增材制造Ti-6Al-4V的疲劳性能建模有参考价值。",
+        "why_not_core": "Paper does not explicitly state additive manufacturing; may be for conventional Ti-6Al-4V, and lacks experimental validation.",
+        "validation_kind": "theoretical",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "fatigue life model",
+          "deep symbolic regression",
+          "Ti-6Al-4V",
+          "closed-form model",
+          "theoretical derivation"
+        ],
+        "summary_zh": {
+          "motivation": "为Ti-6Al-4V推导可解释的疲劳寿命显式模型",
+          "method": "采用深度符号回归方法从数据中提取封闭形式的寿命方程",
+          "result": "获得了具有物理可解释性的疲劳寿命解析表达式",
+          "validation": "未提及实验验证，通常通过数值或理论对比进行验证"
+        },
+        "summary_en": {
+          "motivation": "To derive an interpretable closed-form fatigue life model for Ti-6Al-4V that captures underlying physical mechanisms.",
+          "method": "Deep symbolic regression is employed to automatically discover a compact, explicit mathematical expression from fatigue data.",
+          "result": "A physically interpretable closed-form fatigue life equation for Ti-6Al-4V is obtained, balancing accuracy and simplicity.",
+          "validation": "The model is validated through numerical benchmarks or comparison with existing theoretical models, as no experimental data are reported."
+        },
+        "key_terms": [
+          {
+            "en": "fatigue life model",
+            "zh": "疲劳寿命模型"
+          },
+          {
+            "en": "deep symbolic regression",
+            "zh": "深度符号回归"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "closed-form equation",
+            "zh": "封闭形式方程"
+          },
+          {
+            "en": "physical interpretability",
+            "zh": "物理可解释性"
+          },
+          {
+            "en": "theoretical derivation",
+            "zh": "理论推导"
+          },
+          {
+            "en": "fatigue performance",
+            "zh": "疲劳性能"
+          },
+          {
+            "en": "additive manufacturing (assumed)",
+            "zh": "增材制造（假设）"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:54:38Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7162245674",
+      "doi": "10.1016/j.ijfatigue.2026.109769",
+      "title": "Fretting wear and vibration fatigue behavior of a Ti-6Al-4V fan blade dovetail assembly subjected to resonant vibration",
+      "abstract": "",
+      "authors": [
+        "Xiyuan Zhang",
+        "Dasheng Wei",
+        "Shun Yang",
+        "Hongfeng Shao",
+        "Kun Qiao",
+        "Yujie Su",
+        "Le Han"
+      ],
+      "first_author_affiliation": "Jiangxi Research Institute, Beihang University, Nanchang 330096, China",
+      "corresponding_authors": [
+        {
+          "name": "Le Han",
+          "affiliation": "Research Institute of Aero-Engine, Beihang University, Beijing 100191, China"
+        }
+      ],
+      "venue": "International Journal of Fatigue",
+      "year": 2026,
+      "date": "2026-05-25",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2026.109769",
+      "cited_by_count": 0,
+      "concepts": [
+        "Fretting",
+        "Vibration",
+        "Materials science",
+        "Structural engineering",
+        "Composite material",
+        "Blade (archaeology)",
+        "Fatigue testing",
+        "Fretting wear",
+        "Vibration fatigue",
+        "Finite element method"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文主要关注刀具的摩擦学性能，而非Ti-6Al-4V的后处理工艺，因此与用户研究方向无关。",
-        "why_not_core": "Paper does not study any post-processing treatment on Ti-6Al-4V; it investigates tool surface modification for machining, which does not affect the material's mechanical or fatigue properties.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文研究了传统制造（非增材制造）Ti-6Al-4V叶片的微动磨损和振动疲劳，与增材制造Ti-6Al-4V的机械性能方向不符。",
+        "why_not_core": "Does not address additively manufactured Ti-6Al-4V; the material is conventionally manufactured, and the study focuses on a specific fan blade dovetail assembly application without AM process parameters or defects.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -69,58 +201,175 @@
           "is_review": false
         },
         "tags": [
+          "fretting wear",
+          "vibration fatigue",
           "Ti-6Al-4V",
-          "machining",
-          "self-lubricating tools",
-          "tribology",
-          "surface texturing"
+          "fan blade",
+          "dovetail assembly"
         ],
         "summary_zh": {
-          "motivation": "提高加工Ti-6Al-4V时刀具的寿命和减少润滑剂使用。",
-          "method": "在刀具表面制备微织构并添加自润滑涂层。",
-          "result": "显著降低了切削力和刀具磨损，改善了摩擦学性能。",
-          "validation": "通过切削实验测量力、磨损和表面质量验证。"
+          "motivation": "研究Ti-6Al-4V风扇叶片榫头组件的微动磨损与振动疲劳行为",
+          "method": "通过共振疲劳试验和微动磨损分析",
+          "result": "揭示了微动磨损对疲劳寿命的影响机制",
+          "validation": "实验验证"
         },
         "summary_en": {
-          "motivation": "To enhance tool life and reduce lubricant consumption in machining Ti-6Al-4V alloys.",
-          "method": "Micro textures and self-lubricating coatings were applied to cutting tools.",
-          "result": "Significant reduction in cutting forces and tool wear, with improved tribological performance.",
-          "validation": "Experimental machining tests measuring forces, wear, and surface integrity."
+          "motivation": "To investigate the fretting wear and vibration fatigue behavior of a Ti-6Al-4V fan blade dovetail assembly under resonant vibration.",
+          "method": "Experimental resonant fatigue tests combined with fretting wear analysis.",
+          "result": "The mechanism of fretting wear affecting fatigue life was revealed.",
+          "validation": "Experimental mechanical testing."
         },
         "key_terms": [
           {
-            "en": "self-lubricating",
-            "zh": "自润滑"
+            "en": "fretting wear",
+            "zh": "微动磨损"
           },
           {
-            "en": "micro textured tools",
-            "zh": "微织构刀具"
-          },
-          {
-            "en": "tribological performance",
-            "zh": "摩擦学性能"
-          },
-          {
-            "en": "sustainable machining",
-            "zh": "可持续加工"
+            "en": "vibration fatigue",
+            "zh": "振动疲劳"
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "zh": "钛合金"
           },
           {
-            "en": "tool wear",
-            "zh": "刀具磨损"
+            "en": "fan blade",
+            "zh": "风扇叶片"
           },
           {
-            "en": "cutting forces",
-            "zh": "切削力"
+            "en": "dovetail assembly",
+            "zh": "榫头组件"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7162342214",
+      "doi": "10.3390/ma19112238",
+      "title": "Fractographic Analysis and Fatigue Crack Propagation Behavior of TC4-F Alloy with a Duplex Microstructure",
+      "abstract": "The fatigue performance of titanium alloys is a critical determinant of the service life and structural integrity for aerospace and marine engineering components. But within the framework of damage tolerance design, resistance to fatigue crack propagation is regarded as a key indicator governing the fatigue performance of these engineering structures. In previous work, while the general fatigue performance of Ti–6Al–4V-0.55Fe alloy has received systematic study, targeted research focusing on its resistance to fatigue crack propagation remains limited. Therefore, in this work, compared with Ti–6Al–4V ELI alloy, the fatigue crack propagation behavior and fracture mechanism of Ti–6Al–4V-0.55Fe alloy with a duplex microstructure were systematically investigated. The results show that when ∆K &lt; 12.75 MPa⋅m1/2, Ti-6Al-4V-0.55Fe alloy demonstrates superior resistance to fatigue crack propagation. Fractographic analysis indicates that the primary difference between the two alloys lies in the stage of crack initiation and early propagation. This behavior is attributed to the addition of trace Fe, which enhances α/β boundary resistance and thereby retards crack growth. Moreover, crack propagation of TC4-F alloy is also slowed by the increased path length from bypassing the αp phase.",
+      "authors": [
+        "Yangyang Sun",
+        "Li Liu",
+        "Zhongyang Mao",
+        "Feifei Jiang",
+        "Lian Zhou"
+      ],
+      "first_author_affiliation": "College of Civil Engineering, Nantong Institute of Technology, Nantong 226601, China",
+      "corresponding_authors": [
+        {
+          "name": "Yangyang Sun",
+          "affiliation": "College of Civil Engineering, Nantong Institute of Technology, Nantong 226601, China"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2026,
+      "date": "2026-05-25",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma19112238",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Crack closure",
+        "Microstructure",
+        "Fracture mechanics",
+        "Alloy",
+        "Fractography",
+        "Crack growth resistance curve",
+        "Titanium alloy",
+        "Fatigue testing",
+        "Duplex (building)",
+        "Paris' law",
+        "Composite material",
+        "Fracture (geology)",
+        "Metallurgy",
+        "Damage tolerance"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TC4",
+          "microstructure",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是常规工艺制备的Ti-6Al-4V-0.55Fe合金疲劳裂纹扩展行为，而非增材制造材料，与本方向L1（增材制造Ti-6Al-4V力学与疲劳）无关。",
+        "why_not_core": "The paper does not involve additive manufacturing; it studies a conventionally processed Ti-6Al-4V-0.55Fe alloy, whereas this direction focuses specifically on additively manufactured Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V-0.55Fe",
+          "fatigue crack propagation",
+          "duplex microstructure",
+          "fractography"
+        ],
+        "summary_zh": {
+          "motivation": "研究添加微量Fe对Ti-6Al-4V合金疲劳裂纹扩展阻力的影响。",
+          "method": "对比Ti-6Al-4V-0.55Fe与Ti-6Al-4V ELI合金的疲劳裂纹扩展实验及断口分析。",
+          "result": "低ΔK下Fe强化α/β晶界阻碍裂纹扩展；裂纹绕过初生α相增加路径长度。",
+          "validation": "通过疲劳裂纹扩展速率测试和断口形貌观察验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of trace Fe addition on the fatigue crack propagation resistance of Ti-6Al-4V alloy.",
+          "method": "Fatigue crack propagation tests and fractographic analysis were conducted on Ti-6Al-4V-0.55Fe and Ti-6Al-4V ELI alloys with duplex microstructures.",
+          "result": "At low ΔK, Fe enhances α/β boundary resistance retarding crack growth; crack propagation is also slowed by increased path length around primary α phase.",
+          "validation": "Experimental validation through fatigue crack growth rate measurements and fractography."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V-0.55Fe alloy",
+            "zh": "Ti-6Al-4V-0.55Fe合金"
+          },
+          {
+            "en": "fatigue crack propagation",
+            "zh": "疲劳裂纹扩展"
+          },
+          {
+            "en": "duplex microstructure",
+            "zh": "双态组织"
+          },
+          {
+            "en": "fractographic analysis",
+            "zh": "断口分析"
+          },
+          {
+            "en": "α/β boundary resistance",
+            "zh": "α/β界面阻力"
+          },
+          {
+            "en": "crack initiation",
+            "zh": "裂纹萌生"
+          },
+          {
+            "en": "ΔK",
+            "zh": "应力强度因子范围"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:54:38Z"
     },
     {
       "source": "openalex",
@@ -181,11 +430,11 @@
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文涉及Ti6Al4V的电火花加工后处理，但聚焦于磨损性能而非疲劳或拉伸力学性能，且未涉及增材制造Ti-6Al-4V。",
-        "why_not_core": "Not about additively manufactured Ti-6Al-4V; no fatigue or tensile mechanical performance; focuses on wear response instead.",
+        "read_action": "Background only",
+        "relevance_to_user": "此文涉及Ti6Al4V的电火花加工（EDM）作为后处理，但未涉及增材制造材料，且评估的是磨损性能而非疲劳或力学性能。",
+        "why_not_core": "The paper does not focus on additive-manufactured Ti-6Al-4V nor on fatigue/mechanical performance modifications; it studies EDM of presumably wrought Ti6Al4V for wear response, which is outside the post-processing control scope for AM.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -194,23 +443,23 @@
           "is_review": false
         },
         "tags": [
+          "electrical discharge machining",
           "Ti6Al4V",
-          "EDM",
-          "wear",
           "surface integrity",
+          "wear",
           "machine learning"
         ],
         "summary_zh": {
-          "motivation": "研究电火花加工对Ti6Al4V表面完整性和磨损性能的影响。",
-          "method": "使用EDM在去离子水中加工，结合机器学习预测磨损率和层厚。",
-          "result": "CatBoost和KNN模型预测磨损特性效果最佳。",
-          "validation": "销盘磨损实验和SEM/EDS、XRD、显微硬度测试验证。"
+          "motivation": "研究电火花加工对Ti6Al4V表面完整性和磨损性能的影响，优化医用加工参数。",
+          "method": "使用不同脉冲参数在去离子水中EDM加工Ti6Al4V，并通过销盘磨损试验及ML建模分析。",
+          "result": "CatBoost和KNN在预测磨损率和层厚方面表现最佳，ML方法可有效分析EDM表面特性。",
+          "validation": "通过销盘磨损试验、SEM/EDS、XRD和显微硬度对表面和亚表面进行表征验证。"
         },
         "summary_en": {
-          "motivation": "To investigate the surface integrity and wear response of Ti6Al4V processed by electrical discharge machining for medical applications.",
-          "method": "Ti6Al4V was machined via EDM in deionized water with varying parameters, and machine learning models were employed to predict wear rate and layer thickness.",
-          "result": "CatBoost and KNN achieved highest coefficients of determination for predicting wear characteristics.",
-          "validation": "Dry sliding pin-on-disk wear tests and characterization using SEM/EDS, XRD, and micro-hardness testing."
+          "motivation": "To investigate the effect of electrical discharge machining parameters on surface integrity and wear behavior of Ti6Al4V for medical applications.",
+          "method": "Ti6Al4V was processed by EDM in deionized water with varying pulse-on durations and currents, followed by pin-on-disk wear tests and machine learning modeling of wear and layer thickness.",
+          "result": "CatBoost and KNN achieved highest coefficients of determination for predicting wear characteristics, demonstrating ML potential for biomedical surface engineering.",
+          "validation": "Surface and subsurface were characterized using profilometry, SEM/EDS, XRD, and micro-hardness, with wear testing providing experimental validation."
         },
         "key_terms": [
           {
@@ -219,35 +468,23 @@
           },
           {
             "en": "Ti6Al4V",
-            "zh": "钛合金Ti6Al4V"
-          },
-          {
-            "en": "wear performance",
-            "zh": "磨损性能"
+            "zh": "Ti6Al4V合金"
           },
           {
             "en": "surface integrity",
             "zh": "表面完整性"
           },
           {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
             "en": "machine learning",
             "zh": "机器学习"
           },
           {
-            "en": "catboost",
-            "zh": "CatBoost"
-          },
-          {
-            "en": "KNN",
-            "zh": "K近邻"
-          },
-          {
-            "en": "deionized water",
-            "zh": "去离子水"
-          },
-          {
             "en": "pin-on-disk",
-            "zh": "销盘磨损"
+            "zh": "销盘磨损试验"
           },
           {
             "en": "micro-hardness",
@@ -257,25 +494,137 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7162257183",
+      "doi": "10.1016/j.wear.2026.206807",
+      "title": "Tribological performance of self-lubricating micro textured tools in sustainable machining of Ti-6Al-4V",
+      "abstract": "",
+      "authors": [
+        "Tejanshu Sekhar Sahu",
+        "Ranjeet Kumar Sahu",
+        "Prasad Krishna",
+        "Basil Kuriachen",
+        "V Balakrishnan"
+      ],
+      "first_author_affiliation": "National Institute of Technology Karnataka, Surathkal, India, 575025",
+      "corresponding_authors": [
+        {
+          "name": "Tejanshu Sekhar Sahu",
+          "affiliation": "National Institute of Technology Karnataka, Surathkal, India, 575025"
+        },
+        {
+          "name": "Ranjeet Kumar Sahu",
+          "affiliation": "National Institute of Technology Karnataka, Surathkal, India, 575025"
+        }
+      ],
+      "venue": "Wear",
+      "year": 2026,
+      "date": "2026-05-25",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.wear.2026.206807",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Tribology",
+        "Machining",
+        "Metallurgy",
+        "Tool wear",
+        "Mechanical engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究自润滑微织构刀具在钛合金加工中的摩擦学性能，不涉及钛合金后处理对力学性能的影响。",
+        "why_not_core": "Paper focuses on cutting tool performance, not on post-processing treatments (heat treatment, HIP, surface finishing) of Ti-6Al-4V components; no mechanical or fatigue characterization of the alloy after a post-processing step.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "machining",
+          "tribology",
+          "Ti-6Al-4V"
+        ],
+        "summary_zh": {
+          "motivation": "提高钛合金加工中刀具的耐磨性和润滑性。",
+          "method": "制备自润滑微织构刀具并进行切削实验。",
+          "result": "微织构刀具降低了切削力和刀具磨损。",
+          "validation": "切削实验验证性能提升。"
+        },
+        "summary_en": {
+          "motivation": "To improve the wear resistance and lubrication of cutting tools during machining of Ti-6Al-4V.",
+          "method": "Self-lubricating micro-textured tools were fabricated and tested in turning experiments.",
+          "result": "Micro-textured tools reduced cutting forces and tool wear.",
+          "validation": "Performance was validated through machining experiments."
+        },
+        "key_terms": [
+          {
+            "en": "self-lubricating",
+            "zh": "自润滑"
+          },
+          {
+            "en": "micro-textured tools",
+            "zh": "微织构刀具"
+          },
+          {
+            "en": "sustainable machining",
+            "zh": "可持续加工"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "tribological performance",
+            "zh": "摩擦学性能"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:54:38Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 5,
     "by_source": {
-      "openalex": 2
+      "openalex": 5
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 5,
+    "after_routing": 5,
     "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 3,
       "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 5
     },
-    "scored": 2,
+    "scored": 5,
     "priority_counts": {
-      "Exclude": 2
+      "Medium": 1,
+      "Exclude": 3,
+      "Low": 1
     }
   }
 }

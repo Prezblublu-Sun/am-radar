@@ -5,6 +5,135 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W7134355778",
+      "doi": "",
+      "title": "Powder Degradation Analysis In Reused Pure Tungsten For Electron Beam Melting (ebm)",
+      "abstract": "Additive manufacturing (AM) enables unparalleled design freedom and geometric complexity, driving its adoption in aerospace and medical fields. A major advantage of metal powder AM technologies, such as Electron Beam Melting (EBM), is its ability to reuse unused metal powder, reducing material waste and costs. However, reusing powder repeatedly alters its properties, affecting the final product. Despite its significance, research on powder degradation remains limited, primarily focusing on alloys like Ti-6Al-4V. This thesis investigates the degradation of pure tungsten powder reused over multiple Electron Beam Melting (EBM) cycles. A literature review revealed general powder-reuse mechanisms across additive manufacturing (AM) technologies but also a notable lack of studies focused on tungsten and limited reporting of key experimental details needed for reproducibility. Comparisons between virgin powder and reused powder showed consistent trends: a reduction of fine particles, a slightly narrower particle size distribution, relatively stable sphericity, slightly reduced flowability, lower bulk density, and a minor increase in oxygen content. In the produced samples, microstructures consisted of elongated, directional grains parallel to the build direction and equiaxed grains on transverse planes, with no clear reuse-related trends. Relative density decreased with increasing reuse, likely linked to narrower PSD, reduced packing efficiency, and rising oxygen content. Overall, tungsten demonstrated good robustness under reuse, maintaining acceptable powder and part characteristics through 16 cycles. The findings also highlight persistent gaps in the literature, particularly the lack of standardized reporting, which challenges reproducibility in powder-reuse studies",
+      "authors": [
+        "Hernan Valenzuela"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Hernan Valenzuela",
+          "affiliation": ""
+        }
+      ],
+      "venue": "scholarworks - UTEP (The University of Texas at El Paso)",
+      "year": 2025,
+      "date": "2025-12-01",
+      "date_precision": "month",
+      "url": "https://openalex.org/W7134355778",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Tungsten",
+        "Metal powder",
+        "Reuse",
+        "Microstructure",
+        "Metallurgy",
+        "Metal injection molding",
+        "Equiaxed crystals",
+        "Degradation (telecommunications)",
+        "Cathode ray",
+        "Powder metallurgy",
+        "Sintering",
+        "Aerospace",
+        "Particle size",
+        "Composite material",
+        "Metal",
+        "Melting point",
+        "Homogeneity (statistics)",
+        "Transverse plane",
+        "Porosity",
+        "Aerospace materials"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "electron beam melting",
+          "EBM",
+          "build direction"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究纯钨粉的降解，并非Ti-6Al-4V合金，与焦点的材料要求完全不相关。",
+        "why_not_core": "The paper investigates powder degradation of pure tungsten in EBM, not Ti-6Al-4V, violating the core material requirement of this direction.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "powder degradation",
+          "tungsten",
+          "electron beam melting",
+          "pure tungsten",
+          "powder reuse"
+        ],
+        "summary_zh": {
+          "motivation": "研究纯钨粉在电子束熔融中多次重复使用后的降解行为",
+          "method": "对比原生粉与多次使用粉的粒径、形貌、流动性和氧含量，分析微观结构和密度变化",
+          "result": "钨粉表现出良好的稳健性，16次循环后仍保持可接受的粉末和部件特性",
+          "validation": "实验对比分析，包括粉末特性和打印样品的微观结构及密度测试"
+        },
+        "summary_en": {
+          "motivation": "To investigate the degradation characteristics of pure tungsten powder after repeated reuse cycles in Electron Beam Melting (EBM).",
+          "method": "A systematic comparison between virgin and reused tungsten powder was performed, analyzing particle size distribution, morphology, flowability, bulk density, and oxygen content, along with microstructure and relative density of printed samples.",
+          "result": "Tungsten powder exhibited good robustness, maintaining acceptable powder and part characteristics through 16 reuse cycles despite decreases in fine particles and relative density.",
+          "validation": "Experimental characterization of powder and printed specimens using SEM, particle size analysis, flowability tests, and density measurements."
+        },
+        "key_terms": [
+          {
+            "en": "powder degradation",
+            "zh": "粉末降解"
+          },
+          {
+            "en": "tungsten",
+            "zh": "钨"
+          },
+          {
+            "en": "electron beam melting",
+            "zh": "电子束熔融"
+          },
+          {
+            "en": "powder reuse",
+            "zh": "粉末重复使用"
+          },
+          {
+            "en": "relative density",
+            "zh": "相对密度"
+          },
+          {
+            "en": "particle size distribution",
+            "zh": "粒径分布"
+          },
+          {
+            "en": "oxygen content",
+            "zh": "氧含量"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W7134303045",
       "doi": "",
       "title": "Comparison Of Ti-6al-4v Powder And Bulk Specimen Properties Across Manufacturers In Laser Powder-Blown Ded",
@@ -65,6 +194,10 @@
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "Ti64",
+          "additively manufactured",
+          "directed energy deposition",
+          "DED",
+          "microstructure",
           "tensile strength",
           "ultimate tensile strength",
           "porosity",
@@ -72,11 +205,11 @@
         ]
       },
       "llm": {
-        "priority": "Medium",
+        "priority": "High",
         "relevance_level": "Direct",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文直接研究了增材制造Ti-6Al-4V的力学性能，但未涉及疲劳性能。",
-        "why_not_core": "No fatigue testing or data (S-N, crack initiation/growth) included; only focus on tensile strength, hardness, and strain.",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文研究不同供应商粉末对Ti-6Al-4V DED制件力学性能的影响，直接相关于L1层力学与疲劳性能评估。",
+        "why_not_core": "No fatigue testing or S-N data, but covers tensile strength, hardness, and strain for as-built DED Ti-6Al-4V specimens.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -85,62 +218,864 @@
           "is_review": false
         },
         "tags": [
-          "DED",
           "Ti-6Al-4V",
+          "directed energy deposition",
           "powder feedstock",
           "mechanical properties",
-          "anisotropy"
+          "anisotropy",
+          "statistical analysis"
         ],
         "summary_zh": {
-          "motivation": "比较不同供应商Ti64粉末对DED制件力学性能的影响",
-          "method": "保持工艺参数不变，使用四种粉末打印不同角度试样并测试力学性能",
-          "result": "粉末差异导致UTS、应变和硬度显著变化",
-          "validation": "通过力学测试和统计分析验证"
+          "motivation": "探究不同制造商Ti64粉末对DED样品力学性能的影响",
+          "method": "使用相同工艺参数打印不同粉末的样品，并进行拉伸、硬度测试及统计分析",
+          "result": "不同粉末的UTS、应变和硬度存在显著差异，且粉末特性（如流速）影响力学性能",
+          "validation": "通过机械测试和统计验证粉末差异对性能的影响"
         },
         "summary_en": {
-          "motivation": "To investigate how the quality of Ti-6Al-4V powder feedstocks from different manufacturers affects the mechanical properties of DED-fabricated bulk specimens under identical processing parameters.",
-          "method": "Four powder variants from three manufacturers were used to print coupons at build angles of 0-30°, followed by tensile, hardness, and strain measurements, with stress relief applied to preserve as-built microstructure.",
-          "result": "Despite consistent printing parameters, significant variations in ultimate tensile strength, strain, and hardness were observed among powder variants, validated by statistical analysis.",
-          "validation": "Experimental mechanical testing (tensile, hardness, strain) combined with statistical analysis."
+          "motivation": "This study investigates whether different Ti-6Al-4V powder feedstocks from various manufacturers affect the mechanical properties of directed energy deposition (DED) fabricated bulk specimens under identical processing parameters.",
+          "method": "Four Ti64 powders from three manufacturers were characterized and used to print coupons at varying build angles, followed by tensile, hardness, and strain measurements, with statistical analysis to validate observed variances.",
+          "result": "Significant differences in ultimate tensile strength, strain, and hardness were found among powder variants, attributed to discrepancies in volume flow rate and powder morphology despite similar density and mass flow rates.",
+          "validation": "Experimental mechanical testing combined with statistical analysis validated that powder quality contributes to variance in as-built mechanical properties."
         },
         "key_terms": [
           {
-            "en": "laser powder-blown directed energy deposition",
-            "zh": "激光粉末送粉定向能量沉积"
+            "en": "laser powder-blown directed energy deposition (DED)",
+            "zh": "激光粉末吹送定向能量沉积"
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "powder feedstock",
             "zh": "粉末原料"
           },
           {
-            "en": "ultimate tensile strength",
-            "zh": "抗拉强度"
+            "en": "bulk specimens",
+            "zh": "块体试样"
           },
           {
-            "en": "hardness",
-            "zh": "硬度"
-          },
-          {
-            "en": "strain",
-            "zh": "应变"
-          },
-          {
-            "en": "build angle",
-            "zh": "建造角度"
+            "en": "mechanical properties",
+            "zh": "力学性能"
           },
           {
             "en": "anisotropy",
             "zh": "各向异性"
+          },
+          {
+            "en": "ultimate tensile strength (UTS)",
+            "zh": "极限抗拉强度"
+          },
+          {
+            "en": "statistical analysis",
+            "zh": "统计分析"
+          },
+          {
+            "en": "stress relief",
+            "zh": "去应力退火"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7133683587",
+      "doi": "10.1016/j.cjme.2025.100190",
+      "title": "Surface enhancement by micro-arc oxidation induced TiO2 ceramic coating on additive manufacturing Ti-6Al-4V",
+      "abstract": "This study investigates the utilization of micro-arc oxidation (MAO) TiO 2 ceramic coating for the enhancement of surface quality of Ti-6Al-4V (TC4) samples manufactured through selective laser melting (SLM) and selective electron beam melting (SEBM). Prior to treatment with the MAO process in a Na 2 SiO 3 system solution at various voltages, the samples were pre-polished to eliminate adhesion powders. The study systematically compares and assesses the surface roughness and corrosion resistance of as-built TC4 samples with MAO TiO 2 ceramic coating. The outcomes indicate that the combination of pre-polishing and MAO surface treatment decreases the surface roughness of SEBM samples from 13.386 μm to 9.343 μm. By contrast, this two-step surface treatment leads to an increment in surface roughness for SLM samples due to their initial low values and the porous nature of surface coating with high roughness. Furthermore, the MAO treatment considerably enhances the corrosion resistance of the original samples. Specifically, the corrosion current density Icorr of SLM samples decreases from 10.37×10 -7 A/cm 2 to 6.89×10 -7 A/cm 2 (420 V), and that of SEBM samples reduces from 8.013×10 -6 A/cm 2 to 1.672×10 -6 A/cm 2 (400 V). Therefore, MAO is an extremely effective surface treatment method that can considerably enhance the surface properties of TC4 produced through additive manufacturing.",
+      "authors": [
+        "Xin Yang",
+        "Fan Song",
+        "Tianchi Zhang",
+        "Xinlan Yao",
+        "Wanlin Wang",
+        "Zhaoyang Zhang",
+        "Yiyang Hou",
+        "Huan Qi",
+        "Huiping Tang"
+      ],
+      "first_author_affiliation": "Advanced Materials Additive Manufacturing Innovation Research Center, Hangzhou City University, Hangzhou 310015, China",
+      "corresponding_authors": [
+        {
+          "name": "Huan Qi",
+          "affiliation": "Advanced Materials Additive Manufacturing Innovation Research Center, Hangzhou City University, Hangzhou 310015, China"
+        },
+        {
+          "name": "Huiping Tang",
+          "affiliation": "Advanced Materials Additive Manufacturing Innovation Research Center, Hangzhou City University, Hangzhou 310015, China"
+        }
+      ],
+      "venue": "Chinese Journal of Mechanical Engineering",
+      "year": 2025,
+      "date": "2025-12-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.cjme.2025.100190",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Surface roughness",
+        "Corrosion",
+        "Coating",
+        "Ceramic",
+        "Selective laser melting",
+        "Porosity",
+        "Surface finish",
+        "Adhesion",
+        "Composite material",
+        "Metallurgy",
+        "Surface modification"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TC4",
+          "additive manufacturing",
+          "selective laser melting",
+          "electron beam melting",
+          "SLM",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TC4",
+          "polishing",
+          "surface coating",
+          "surface treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "论文研究了微弧氧化涂层对增材制造Ti-6Al-4V表面粗糙度和耐腐蚀性的影响，但未涉及疲劳或力学性能，与后处理控制力学性能的方向关联较弱。",
+        "why_not_core": "This paper focuses on surface roughness and corrosion resistance, not on mechanical performance (fatigue, tensile) which is the main concern of this direction.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "micro-arc oxidation",
+          "Ti-6Al-4V",
+          "surface coating",
+          "corrosion resistance",
+          "additive manufacturing"
+        ],
+        "summary_zh": {
+          "motivation": "提高增材制造Ti-6Al-4V的表面性能，研究微弧氧化TiO2陶瓷涂层。",
+          "method": "对SLM和SEBM试样预抛光后，在不同电压下进行微弧氧化处理形成TiO2涂层。",
+          "result": "MAO处理降低了SEBM试样粗糙度但增加了SLM试样粗糙度，同时显著提高耐腐蚀性。",
+          "validation": "通过表面粗糙度和腐蚀电流密度测试验证涂层性能。"
+        },
+        "summary_en": {
+          "motivation": "To enhance surface properties of additively manufactured Ti-6Al-4V by applying a micro-arc oxidation TiO2 ceramic coating.",
+          "method": "Pre-polished SLM and SEBM Ti-6Al-4V samples were subjected to MAO treatment in Na2SiO3 solution at various voltages to form TiO2 coatings.",
+          "result": "The MAO treatment reduced surface roughness for SEBM samples but increased it for SLM samples, while significantly improving corrosion resistance for both.",
+          "validation": "Surface roughness measurements and corrosion current density tests were conducted to evaluate coating effectiveness."
+        },
+        "key_terms": [
+          {
+            "en": "micro-arc oxidation",
+            "zh": "微弧氧化"
+          },
+          {
+            "en": "TiO2 ceramic coating",
+            "zh": "TiO2陶瓷涂层"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "selective electron beam melting",
+            "zh": "选区电子束熔化"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7117248692",
+      "doi": "10.1016/j.ijlmm.2025.12.004",
+      "title": "Experimental Surface Modification, Prediction Modeling, and Multi-Objective Optimization of μ-EDM Process using GBR-NSGA-II for machining of Ti-6Al-4V+8%Ta",
+      "abstract": "Although metal 3D printing offers a promising solution for producing customized Ti-alloy components. However, due to inherent process limitations, additional post-processing is required for the fabrication of micro-features. Therefore, precision machining techniques like micro-EDM are still required. Micro-EDM is an advanced machining technique better known for its precision while machining titanium alloys. Even though the μ-EDM provides superior performance, the optimization of machining parameters remains a significant challenge due to the complex interactions between electrical and thermal phenomena. Thus, the present research aimed at optimizing the parameters for μ-EDM machining of the SLM-printed Ti-6Al-4V + 8%Ta. A data-driven hybrid optimization framework combining GBR and the NSGA-II is developed to enhance the machinability of the alloy. The GBR models accurately predicted MRR, OC, and MH, achieving R 2 values of 0.987 (MRR), 0.999 (MH), and 0.999 (OC), with correspondingly low MAE and MSE values across training and testing datasets. Whereas the TWR has shown a low R 2 (>75%) value, which can be attributed to the inherent stochasticity. Additionally, the study is structured within a multi-objective optimization framework, emphasizing the maximization of MRR and MH while minimizing OC and TWR. After obtaining the possible number of optimal solutions from the surrogate model, the top five solutions are selected using TOPSIS. Lastly, confirmatory experiments validated the framework, showing MAPE deviations of less than ∼13.96% between predicted and experimental results. This integrated methodology effectively navigates the multifaceted nature of μ-EDM parameter optimization.",
+      "authors": [
+        "Shahid Ali",
+        "Altair Kossymbayev",
+        "Dinmukhammed Kenesbek",
+        "Dulat Yeregenov",
+        "Didier Talamona",
+        "Asma Perveen"
+      ],
+      "first_author_affiliation": "Department of Mechanical & Aerospace Engineering, School of Engineering & Digital Sciences, Nazarbayev University, Republic of Kazakshtan",
+      "corresponding_authors": [
+        {
+          "name": "Asma Perveen",
+          "affiliation": "Department of Mechanical & Aerospace Engineering, School of Engineering & Digital Sciences, Nazarbayev University, Republic of Kazakshtan"
+        }
+      ],
+      "venue": "International Journal of Lightweight Materials and Manufacture",
+      "year": 2025,
+      "date": "2025-12-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.ijlmm.2025.12.004",
+      "cited_by_count": 0,
+      "concepts": [
+        "Machining",
+        "Machinability",
+        "Process (computing)",
+        "Mechanical engineering",
+        "Maximization",
+        "Thermal",
+        "Computer science",
+        "Materials science",
+        "Surface integrity",
+        "Response surface methodology",
+        "Design of experiments",
+        "Fabrication",
+        "Genetic algorithm",
+        "Reliability (semiconductor)",
+        "Surface (topology)",
+        "Titanium alloy",
+        "Surface roughness",
+        "Electrical discharge machining"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "3D printing",
+          "SLM"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining",
+          "post-processing"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了微电火花加工对增材制造Ti-6Al-4V+8%Ta的后处理效果，但未涉及疲劳性能，仅关注显微硬度等加工指标。",
+        "why_not_core": "The paper does not investigate fatigue or tensile properties, and the mechanical performance metric (microhardness) is limited; no porosity closure or microstructure analysis is included.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "micro-EDM",
+          "Ti-6Al-4V",
+          "post-processing",
+          "surface modification",
+          "GBR",
+          "NSGA-II",
+          "optimization"
+        ],
+        "summary_zh": {
+          "motivation": "针对3D打印Ti-6Al-4V+8%Ta微细加工参数优化问题。",
+          "method": "提出GBR-NSGA-II混合优化框架，预测并优化微电火花加工参数。",
+          "result": "成功预测材料去除率等指标，验证误差小于13.96%。",
+          "validation": "通过确认实验验证预测模型有效性。"
+        },
+        "summary_en": {
+          "motivation": "To optimize micro-EDM parameters for post-processing of SLM-printed Ti-6Al-4V+8%Ta alloy.",
+          "method": "A hybrid framework integrating Gradient Boosting Regression and NSGA-II is developed to predict and optimize material removal rate, overcut, microhardness, and tool wear rate.",
+          "result": "The model achieves high accuracy with R² up to 0.999 for most responses, and confirmatory experiments show MAPE deviations below 13.96%.",
+          "validation": "Experimental validation of optimal parameter sets determined by TOPSIS."
+        },
+        "key_terms": [
+          {
+            "en": "micro-EDM",
+            "zh": "微电火花加工"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          },
+          {
+            "en": "surface modification",
+            "zh": "表面改性"
+          },
+          {
+            "en": "Gradient Boosting Regression",
+            "zh": "梯度提升回归"
+          },
+          {
+            "en": "NSGA-II",
+            "zh": "非支配排序遗传算法II"
+          },
+          {
+            "en": "material removal rate",
+            "zh": "材料去除率"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "overcut",
+            "zh": "过切量"
+          },
+          {
+            "en": "tool wear rate",
+            "zh": "工具磨损率"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7116987241",
+      "doi": "10.1088/1742-6596/3150/1/012094",
+      "title": "Investigation of Cavitation Erosion Resistance of Additively Manufactured Ti-6Al-4V Alloy",
+      "abstract": "Abstract Cavitation occurs due to local pressure drops, and its collapse generates strong impact forces. These impact forces repeatedly act on the blades, causing damage. Therefore, this study evaluates the cavitation erosion resistance of Ti-6Al-4V made using additive manufacturing. To investigate the effect of anisotropy due to the build direction, three types of specimens with different build directions were prepared. In this test, the magnetostrictive vibration apparatus is applied. The test results confirmed the erosion resistance varied depending on the build direction. To examine differences in erosion mechanisms, the erosion depth was measured. Although differences in the erosion-affected area were observed depending on the build direction, the maximum erosion depth was same. It’s considered the layered structure of additive manufacturing has a limited effect. On the other hand, it has been reported that epitaxial growth forms columnar grains elongated in the build direction [8]. It’s concluded the differences in erosion volume due to build direction are mainly attributed to differences in microstructural characteristics.",
+      "authors": [
+        "H. Murakami",
+        "K Miyagawa"
+      ],
+      "first_author_affiliation": "Department of Applied Mechanics and Aerospace Engineering, Waseda University, 3-4-1 Okubo, Shinjuku-ku, Tokyo 169-8555, Japan",
+      "corresponding_authors": [
+        {
+          "name": "H. Murakami",
+          "affiliation": "Department of Applied Mechanics and Aerospace Engineering, Waseda University, 3-4-1 Okubo, Shinjuku-ku, Tokyo 169-8555, Japan"
+        }
+      ],
+      "venue": "Journal of Physics Conference Series",
+      "year": 2025,
+      "date": "2025-12-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1088/1742-6596/3150/1/012094",
+      "cited_by_count": 2,
+      "concepts": [
+        "Erosion",
+        "Materials science",
+        "Cavitation erosion",
+        "Anisotropy",
+        "Alloy",
+        "Cavitation",
+        "Composite material",
+        "Volume (thermodynamics)",
+        "Vibration",
+        "Flow resistance",
+        "Metallurgy",
+        "Impact resistance",
+        "Geotechnical engineering",
+        "Flow (mathematics)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "build direction"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究增材制造Ti-6Al-4V的抗空蚀性能及各向异性，虽未直接涉及疲劳或拉伸性能，但提供了工艺-组织-性能关系参考。",
+        "why_not_core": "Paper focuses on cavitation erosion resistance, not on tensile, fatigue, or other core mechanical properties listed in L1 direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "cavitation erosion",
+          "anisotropy",
+          "build direction",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "评估增材制造Ti-6Al-4V在不同构建方向下的抗空蚀性能差异。",
+          "method": "采用磁致伸缩振动装置，对三种构建方向的试件进行空蚀实验并测量侵蚀深度。",
+          "result": "空蚀体积随构建方向变化，但最大侵蚀深度相同，表明层状结构影响有限。",
+          "validation": "通过实验测试对比不同构建方向的侵蚀行为并分析微观组织。"
+        },
+        "summary_en": {
+          "motivation": "To evaluate the cavitation erosion resistance of additively manufactured Ti-6Al-4V and investigate the effect of build direction anisotropy.",
+          "method": "Cavitation erosion tests were conducted using a magnetostrictive vibration apparatus on specimens with three different build directions, and erosion depth was measured.",
+          "result": "Erosion volume varied with build direction while maximum erosion depth remained similar, indicating limited influence of the layered structure.",
+          "validation": "Experimental measurements of erosion depth and volume were combined with microstructural analysis to explain the anisotropy."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "cavitation erosion",
+            "zh": "空蚀"
+          },
+          {
+            "en": "build direction",
+            "zh": "构建方向"
+          },
+          {
+            "en": "anisotropy",
+            "zh": "各向异性"
+          },
+          {
+            "en": "erosion depth",
+            "zh": "侵蚀深度"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7117326388",
+      "doi": "10.1134/s1029959925600272",
+      "title": "Deformation and Fracture of Ti-6Al-4V/TiC Composites 3D Printed using Wire-Feed Electron Beam Additive Manufacturing under Uniaxial Tensile Stress",
+      "abstract": "The deformation and fracture patterns of Ti–6Al–4V/TiC composites 3D printed by wire-feed electron beam additive manufacturing using Ti–6Al–4V wire pre-electrospark alloyed with carbide-containing electrodes or by simultaneous melting of titanium wire and TiC powder are investigated. It is shown that Ti–6Al–4V/TiC composites obtained by both methods are characterized by the same microstructure and volume fraction of the carbide phase (~2%) but different sizes of TiC inclusions. It is found that the ductility of the Ti–6Al–4V/TiC composite obtained by electrospark alloying of the wire and containing TiC inclusions with a diameter of ~1 μm is significantly higher than that of the specimen 3D printed by simultaneous melting of titanium wire and TiC powder, in which the inclusion sizes vary within 15–30 μm. Different fracture characteristics of the investigated Ti–6Al–4V/TiC composites under uniaxial tensile stress were revealed. Three-dimensional modeling of elastic-plastic deformation and fracture of model Ti/TiC composites under mechanical loading is carried out using the method of movable cellular automata. The influence of the size and hardness of TiC particles, as well as the character of their distribution in the titanium matrix, on the regularities of crack initiation and propagation in the model composite is demonstrated. It is shown that the inhomogeneous distribution of large carbide inclusions in the titanium matrix is a key factor for crack initiation and propagation in the model composites.",
+      "authors": [
+        "A. V. Panin",
+        "M. S. Kazachenok",
+        "А. R. Shugurov",
+        "G. M. Eremina",
+        "А. Yu. Smolin"
+      ],
+      "first_author_affiliation": "Institute of Strength Physics and Materials Science SB RAS, 634055, Tomsk, Russia",
+      "corresponding_authors": [
+        {
+          "name": "A. V. Panin",
+          "affiliation": "Institute of Strength Physics and Materials Science SB RAS, 634055, Tomsk, Russia"
+        }
+      ],
+      "venue": "Physical Mesomechanics",
+      "year": 2025,
+      "date": "2025-12-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1134/s1029959925600272",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Deformation (meteorology)",
+        "Microstructure",
+        "Ultimate tensile strength",
+        "Volume fraction",
+        "Fracture (geology)",
+        "Titanium",
+        "Ductility (Earth science)",
+        "Composite number",
+        "Titanium carbide",
+        "Fracture toughness",
+        "Stress (linguistics)",
+        "Carbide",
+        "Beam (structure)",
+        "Silicon carbide",
+        "Stress concentration"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "3D printed",
+          "microstructure",
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究Ti-6Al-4V/TiC复合材料而非纯Ti-6Al-4V，与方向聚焦的基体力学性能不直接相关。",
+        "why_not_core": "The paper focuses on Ti-6Al-4V/TiC composites, not on pure Ti-6Al-4V mechanical or fatigue performance as required by the direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V/TiC composite",
+          "wire-feed electron beam additive manufacturing",
+          "tensile deformation",
+          "fracture",
+          "movable cellular automata",
+          "carbide inclusions",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "研究利用线束电子束增材制造制备的Ti-6Al-4V/TiC复合材料的变形与断裂行为。",
+          "method": "采用两种方法制备复合材料（电火花合金化或同步熔融TiC粉末），并进行实验和可移动元胞自动机模拟。",
+          "result": "较小的TiC夹杂物（~1μm）显著提高了复合材料的塑性，而大夹杂物（15-30μm）导致裂纹萌生和扩展。",
+          "validation": "通过拉伸实验和三维数值模拟验证了夹杂物尺寸和分布对断裂的影响。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the deformation and fracture mechanisms of Ti-6Al-4V/TiC composites fabricated by wire-feed electron beam additive manufacturing.",
+          "method": "Two fabrication methods (electrospark alloying and simultaneous melting of TiC powder) were employed, combined with experiments and movable cellular automata simulations.",
+          "result": "The composite with smaller TiC inclusions (~1 μm) exhibited significantly higher ductility, while larger inclusions (15–30 μm) promoted crack initiation and propagation.",
+          "validation": "Mechanical testing and 3D numerical modeling validated the effect of inclusion size and distribution on fracture behavior."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V/TiC composite",
+            "zh": "Ti-6Al-4V/TiC复合材料"
+          },
+          {
+            "en": "wire-feed electron beam additive manufacturing",
+            "zh": "线束电子束增材制造"
+          },
+          {
+            "en": "tensile deformation",
+            "zh": "拉伸变形"
+          },
+          {
+            "en": "fracture",
+            "zh": "断裂"
+          },
+          {
+            "en": "movable cellular automata",
+            "zh": "可移动元胞自动机"
+          },
+          {
+            "en": "carbide inclusions",
+            "zh": "碳化物夹杂"
+          },
+          {
+            "en": "ductility",
+            "zh": "塑性"
+          },
+          {
+            "en": "crack initiation",
+            "zh": "裂纹萌生"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7115729045",
+      "doi": "10.63958/azojete/2025/21/04/009",
+      "title": "Analysis of the Properties of Spark Plasma Sintered Ti6al4v Matrix Composites Enhanced with Nitride Nanoparticles",
+      "abstract": "Ti6Al4V alloy serves as an optimal lightweight structural material. However, its restricted hardness adversely impacts its abrasion resistance under high performance structural conditions, thereby hindering its extensive use in the aerospace industry. This study employed spark plasma sintering (SPS) to develop Ti6Al4V matrix composites reinforced with 1, 3, and 5 wt. % of three refractory nitride nanoparticles of h-BN, TiN, and AlN. The developed composites were analyzed for microstructure, phase composition, densification, microhardness, and potentiodynamic polarization using field-emission gun scanning electron microscopy, X-ray diffraction, the Archimedes' method, microindentation, and linear polarization investigations. The microstructure and phase analyses revealed marginal porosity and cracks, with no indications of detrimental intermetallic phases. It was observed that as reinforcement content increased, composite densities decreased from 98.4 to 97.4 %, 98.62 to 97.63 %, and 98.64 to 95.14 % for h-BN, TiN, AlN reinforcements, respectively. The microindentation test indicated that, relative to the unreinforced alloy (331.79 HV), hardness increased proportionally with reinforcement content. Interestingly, h-BN exhibits a range of 672.05 to 740.43 HV, TiN ranges from 427.18 to 491.06 HV, and AlN shows values from 441.25 to 504.68 HV. The composite with 3 wt. % AlN presented the best potentiodynamic polarization behaviour with a superior polarization resistance of 5246.2 Ω and a lowered corrosion rate of 0.14321 mm/year. Meanwhile, 5 wt. % AlN-reinforced composite showed the worst densification and potentiodynamic polarization behaviour with a relatively decreased polarization resistance of 219.13 Ω and a higher corrosion rate of 3.6935 mm/year. Additionally, among the developed composites, the 3 wt. % h-BN-reinforced composite exhibited optimal properties, showcasing a microhardness of 716.80 HV, a markedly improved polarisation resistance of 4011.2 Ω, and a considerably reduced corrosion rate of 0.21444 mm/year. Therefore, Improved mechanical and corrosion performance of Ti6Al4V matrix composites tends to reduce the weight of aerospace structures, improve fuel efficiency, and thereby enable the advancement of sustainable and benign aerospace technologies.",
+      "authors": [
+        "J. O. Abe",
+        "O. M. Popoola",
+        "A. P. I. Popoola"
+      ],
+      "first_author_affiliation": "Centre for Energy and Electric Power, Department of Electrical Engineering, Tshwane University of  Technology, P.M.B. X680, Pretoria, South Africa",
+      "corresponding_authors": [
+        {
+          "name": "J. O. Abe",
+          "affiliation": "Centre for Energy and Electric Power, Department of Electrical Engineering, Tshwane University of  Technology, P.M.B. X680, Pretoria, South Africa"
+        }
+      ],
+      "venue": "Arid zone journal of engineering technology and environment/Arid Zone Journal of Engineering Technology and Environment",
+      "year": 2025,
+      "date": "2025-12-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.63958/azojete/2025/21/04/009",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Spark plasma sintering",
+        "Composite material",
+        "Composite number",
+        "Microstructure",
+        "Corrosion",
+        "Tin",
+        "Nitride",
+        "Alloy",
+        "Intermetallic",
+        "Scanning electron microscope",
+        "Nanoparticle",
+        "Polarization (electrochemistry)",
+        "Sintering",
+        "Metal matrix composite",
+        "Porosity",
+        "Titanium nitride",
+        "Titanium alloy",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "microstructure",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "论文采用放电等离子烧结而非增材制造，与方向要求不符。",
+        "why_not_core": "The paper uses spark plasma sintering (SPS), which is not an additive manufacturing process (LPBF/SLM/EBM/DED); the direction specifically focuses on additively manufactured Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "spark plasma sintering",
+          "Ti6Al4V matrix composites",
+          "nitride nanoparticles",
+          "microhardness",
+          "corrosion resistance"
+        ],
+        "summary_zh": {
+          "motivation": "提高Ti6Al4V的硬度和耐磨性以扩展航空航天应用。",
+          "method": "采用SPS制备不同含量h-BN、TiN和AlN纳米颗粒增强Ti6Al4V复合材料。",
+          "result": "3 wt.% h-BN增强复合材料表现出最优显微硬度(716.80 HV)和耐腐蚀性。",
+          "validation": "通过显微硬度和动电位极化实验进行验证。"
+        },
+        "summary_en": {
+          "motivation": "To improve the hardness and wear resistance of Ti6Al4V alloy for high-performance aerospace structural applications.",
+          "method": "Spark plasma sintering was employed to fabricate Ti6Al4V matrix composites reinforced with 1, 3, and 5 wt.% of h-BN, TiN, and AlN nanoparticles.",
+          "result": "The composite with 3 wt.% h-BN exhibited optimal microhardness (716.80 HV) and potentiodynamic polarization resistance.",
+          "validation": "Microindentation and linear polarization measurements were conducted."
+        },
+        "key_terms": [
+          {
+            "en": "spark plasma sintering",
+            "zh": "放电等离子烧结"
+          },
+          {
+            "en": "Ti6Al4V matrix composites",
+            "zh": "Ti6Al4V基复合材料"
+          },
+          {
+            "en": "nitride nanoparticles",
+            "zh": "氮化物纳米颗粒"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "potentiodynamic polarization",
+            "zh": "动电位极化"
+          },
+          {
+            "en": "corrosion rate",
+            "zh": "腐蚀速率"
+          },
+          {
+            "en": "densification",
+            "zh": "致密化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7119492692",
+      "doi": "10.12729/jbtr.2025.26.4.107",
+      "title": "Biocompatibility evaluation of titanium nitride coating for canine patellar groove implant",
+      "abstract": "Medial patellar luxation is a common orthopedic disorder in dogs, and advanced cases with severe skeletal deformities or femoropatellar osteoarthritis are often unresponsive to conventional techniques. Patellar groove replacement (PGR) has been proposed as an alternative surgical option; however, systematic comparisons of coating technologies for veterinary PGR implants remain limited. This study aimed to evaluate the physicochemical properties, biological compatibility, and functional performance of a newly developed titanium nitride (TiN)–coated PGR system compared with a clinically available amorphous diamond-like carbon (ADLC)–coated device. TiN-coated prototypes were fabricated using Ti-6Al-4V alloy by injection molding combined with arc ion plating, which requires simpler equipment and lower production costs than the vacuum plasma deposition used for ADLC. Physicochemical evaluations, including corrosion resistance, hardness, surface roughness, and coating thickness, were conducted following International Organization for Standardization (ISO) and Korean Industrial Standards (KS) guidelines. In vitro biocompatibility was assessed using MTT and cell adhesion assays with L-929 fibroblasts, while inflammatory cytokine profiling (interleukin [IL]-1β and IL-6) in a rat subcutaneous model was used to evaluate local tissue responses. Functional feasibility was examined in a canine femoral model bilaterally implanted with TiN- or ADLC-coated PGR systems and monitored for one year through clinical, radiographic, computed tomography (CT), magnetic resonance imaging , and micro-CT assessments. Both coatings demonstrated excellent corrosion resistance and absence of cytotoxicity. TiN-coated implants showed slightly greater hardness and coating thickness, with comparable surface roughness and biocompatibility. All implants maintained stable fixation, proper patellar tracking, and satisfactory bone–implant integration. These findings indicate that TiN-coated PGR implants achieve biological and mechanical performance equivalent to ADLC devices while offering advantages in manufacturing simplicity, scalability, and cost-efficiency, supporting their clinical applicability in veterinary orthopedics.",
+      "authors": [
+        "Yangwon Chae",
+        "Euisin Yang",
+        "Taehwan Kim",
+        "Hyunmin Jo",
+        "Dong-Hyun Kim",
+        "Byeonghak Kim",
+        "Kyung Mi Shim",
+        "Eun Jung Kim",
+        "Seong Soo Kang"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Yangwon Chae",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Journal of Biomedical Translational Research",
+      "year": 2025,
+      "date": "2025-12-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.12729/jbtr.2025.26.4.107",
+      "cited_by_count": 0,
+      "concepts": [
+        "Biocompatibility",
+        "Materials science",
+        "Biomedical engineering",
+        "Coating",
+        "Implant",
+        "Osteoarthritis",
+        "Medicine",
+        "Titanium alloy",
+        "Titanium",
+        "Surface roughness",
+        "Corrosion"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究Ti-6Al-4V基体上的TiN涂层用于犬植入物，但未涉及任何基础力学或疲劳性能，与L1方向无关。",
+        "why_not_core": "The paper does not provide any tensile, fatigue, or fracture mechanics data for as-built Ti-6Al-4V; its focus is biocompatibility and in vivo performance of a TiN coating, making it a post-processing/biomedical study rather than base mechanical/fatigue characterization.",
+        "validation_kind": "animal",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "titanium nitride coating",
+          "canine patellar groove implant",
+          "biocompatibility",
+          "Ti-6Al-4V",
+          "arc ion plating"
+        ],
+        "summary_zh": {
+          "motivation": "比较TiN涂层与ADLC涂层用于犬髌骨滑车植入物。",
+          "method": "在Ti-6Al-4V基体上通过电弧离子镀制备TiN涂层，并评估理化性能和生物相容性。",
+          "result": "TiN涂层表现出与ADLC相当的生物力学性能，且制造更简单经济。",
+          "validation": "通过体外细胞实验、大鼠皮下模型和犬股骨模型一年随访验证。"
+        },
+        "summary_en": {
+          "motivation": "Compare TiN coating with ADLC coating for canine patellar groove replacement implants.",
+          "method": "TiN coatings were deposited on Ti-6Al-4V by arc ion plating, and physicochemical properties and biocompatibility were evaluated.",
+          "result": "TiN-coated implants showed equivalent biological and mechanical performance to ADLC devices with simpler manufacturing.",
+          "validation": "In vitro cytotoxicity, rat subcutaneous model, and one-year canine femoral implantation study."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "titanium nitride coating",
+            "zh": "氮化钛涂层"
+          },
+          {
+            "en": "patellar groove replacement",
+            "zh": "髌骨滑车置换"
+          },
+          {
+            "en": "arc ion plating",
+            "zh": "电弧离子镀"
+          },
+          {
+            "en": "biocompatibility",
+            "zh": "生物相容性"
+          },
+          {
+            "en": "canine model",
+            "zh": "犬模型"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
     },
     {
       "source": "openalex",
@@ -204,6 +1139,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "microstructure",
           "surface roughness",
           "fatigue",
           "fatigue life"
@@ -216,11 +1152,11 @@
         ]
       },
       "llm": {
-        "priority": "Medium",
-        "relevance_level": "Transferable",
-        "read_action": "Skim only",
-        "relevance_to_user": "该论文研究了Ti-6Al-4V合金的磨削抛光后处理工艺对疲劳性能的提升，虽非增材制造材料，但其表面完整性和梯度微结构的优化机制对增材制造后处理具有借鉴意义。",
-        "why_not_core": "This paper does not study additively manufactured Ti-6Al-4V; it focuses on conventional wrought material, thus lacking direct evidence for AM post-processing effects.",
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了Ti-6Al-4V合金的磨削抛光后处理工艺对疲劳性能的提升，与L2方向高度吻合。",
+        "why_not_core": "该论文不是关于增材制造Ti-6Al-4V的后处理，而是关于锻造材料的磨削抛光，但后处理工艺原理可迁移。",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -230,41 +1166,42 @@
         },
         "tags": [
           "Ti-6Al-4V",
-          "post-processing",
           "fatigue life",
           "grinding",
           "polishing",
           "surface roughness",
-          "gradient microstructure"
+          "gradient microstructure",
+          "post-processing",
+          "hybrid process"
         ],
         "summary_zh": {
-          "motivation": "提高钛合金零件加工效率和疲劳性能。",
-          "method": "提出大切削深度缓进给砂带磨削-抛光混合工艺，优化表面/亚表面完整性。",
-          "result": "疲劳寿命提升约5倍，归因于低粗糙度与梯度微结构的协同效应。",
-          "validation": "通过疲劳测试和微观表征验证了表面完整性的改善。"
+          "motivation": "提高钛合金构件疲劳性能并兼顾加工效率。",
+          "method": "提出大切深缓进给砂带磨削-抛光复合工艺，优化表面/亚表面完整性。",
+          "result": "实现疲劳寿命近5倍提升，归因于低粗糙度与梯度微结构的协同效应。",
+          "validation": "通过疲劳测试和微观表征验证了工艺效果。"
         },
         "summary_en": {
-          "motivation": "To enhance both machining efficiency and fatigue performance of titanium alloy components.",
-          "method": "A large-depth-of-cut creep-feed belt grinding-polishing hybrid process was proposed to optimize surface/subsurface integrity.",
-          "result": "The fatigue life of Ti-6Al-4V was improved nearly fivefold, attributed to the synergistic effect of ultralow surface roughness and a gradient microstructure with refined grains and compressive residual stress.",
-          "validation": "Fatigue testing and microstructural characterization confirmed the improved surface integrity and the anti-fatigue mechanism."
+          "motivation": "To enhance both machining efficiency and fatigue performance of titanium alloy components. ",
+          "method": "A hybrid process combining deep-cut creep-feed belt grinding with polishing is proposed to optimize surface/subsurface integrity. ",
+          "result": "Fatigue life of Ti-6Al-4V is improved nearly fivefold due to the synergistic effect of low surface roughness and gradient microstructure. ",
+          "validation": "Fatigue tests and microscopic characterization confirm the effectiveness of the proposed process. "
         },
         "key_terms": [
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
-          },
-          {
-            "en": "creep-feed grinding",
-            "zh": "缓进给磨削"
-          },
-          {
-            "en": "polishing",
-            "zh": "抛光"
+            "zh": "Ti-6Al-4V合金"
           },
           {
             "en": "fatigue life",
             "zh": "疲劳寿命"
+          },
+          {
+            "en": "creep-feed belt grinding",
+            "zh": "缓进给砂带磨削"
+          },
+          {
+            "en": "polishing",
+            "zh": "抛光"
           },
           {
             "en": "surface roughness",
@@ -283,59 +1220,58 @@
             "zh": "晶粒细化"
           },
           {
+            "en": "post-processing",
+            "zh": "后处理"
+          },
+          {
             "en": "hybrid process",
-            "zh": "混合工艺"
+            "zh": "复合工艺"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     },
     {
       "source": "openalex",
-      "id": "https://openalex.org/W7115729045",
-      "doi": "10.63958/azojete/2025/21/04/009",
-      "title": "Analysis of the Properties of Spark Plasma Sintered Ti6al4v Matrix Composites Enhanced with Nitride Nanoparticles",
-      "abstract": "Ti6Al4V alloy serves as an optimal lightweight structural material. However, its restricted hardness adversely impacts its abrasion resistance under high performance structural conditions, thereby hindering its extensive use in the aerospace industry. This study employed spark plasma sintering (SPS) to develop Ti6Al4V matrix composites reinforced with 1, 3, and 5 wt. % of three refractory nitride nanoparticles of h-BN, TiN, and AlN. The developed composites were analyzed for microstructure, phase composition, densification, microhardness, and potentiodynamic polarization using field-emission gun scanning electron microscopy, X-ray diffraction, the Archimedes' method, microindentation, and linear polarization investigations. The microstructure and phase analyses revealed marginal porosity and cracks, with no indications of detrimental intermetallic phases. It was observed that as reinforcement content increased, composite densities decreased from 98.4 to 97.4 %, 98.62 to 97.63 %, and 98.64 to 95.14 % for h-BN, TiN, AlN reinforcements, respectively. The microindentation test indicated that, relative to the unreinforced alloy (331.79 HV), hardness increased proportionally with reinforcement content. Interestingly, h-BN exhibits a range of 672.05 to 740.43 HV, TiN ranges from 427.18 to 491.06 HV, and AlN shows values from 441.25 to 504.68 HV. The composite with 3 wt. % AlN presented the best potentiodynamic polarization behaviour with a superior polarization resistance of 5246.2 Ω and a lowered corrosion rate of 0.14321 mm/year. Meanwhile, 5 wt. % AlN-reinforced composite showed the worst densification and potentiodynamic polarization behaviour with a relatively decreased polarization resistance of 219.13 Ω and a higher corrosion rate of 3.6935 mm/year. Additionally, among the developed composites, the 3 wt. % h-BN-reinforced composite exhibited optimal properties, showcasing a microhardness of 716.80 HV, a markedly improved polarisation resistance of 4011.2 Ω, and a considerably reduced corrosion rate of 0.21444 mm/year. Therefore, Improved mechanical and corrosion performance of Ti6Al4V matrix composites tends to reduce the weight of aerospace structures, improve fuel efficiency, and thereby enable the advancement of sustainable and benign aerospace technologies.",
+      "id": "https://openalex.org/W7125481157",
+      "doi": "10.1016/s1003-6326(25)66938-x",
+      "title": "Microstructure evolution and mechanical properties of laser-cladding TiFeNiCuV high-entropy alloy coatings",
+      "abstract": "In order to improve the surface properties of titanium alloys, a novel TiFeNiCuV high-entropy alloy (HEA) coating was prepared on a Ti−6Al−4V (TC4) substrate via laser cladding under different laser powers. The microstructure, microhardness, and friction wear properties of the coatings were systematically investigated. The results showed that at laser powers of 1200 and 2000 W, the microstructure of the coatings exhibited a core–shell dendritic structure. At 2800 W, the coatings displayed a daisy-like eutectic structure. The average hardness of the coatings reached HV 692.281 owing to solid-solution and fine-grain strengthening. Wear mechanisms of the coatings at room temperature primarily involved fatigue and slight oxidation wear. The total volume loss of the coatings was 4.22×10 −3 mm 3 , which was 14.47% that of the TC4, indicating excellent wear resistance.",
       "authors": [
-        "J. O. Abe",
-        "O. M. Popoola",
-        "A. P. I. Popoola"
+        "Jin-yu FENG",
+        "Guo-qiang YOU",
+        "Pengcheng Zhou",
+        "Chunyan Wu",
+        "Bin JIANG"
       ],
-      "first_author_affiliation": "Centre for Energy and Electric Power, Department of Electrical Engineering, Tshwane University of  Technology, P.M.B. X680, Pretoria, South Africa",
+      "first_author_affiliation": "College of Materials Science and Engineering, Chongqing University, Chongqing 400044, China",
       "corresponding_authors": [
         {
-          "name": "J. O. Abe",
-          "affiliation": "Centre for Energy and Electric Power, Department of Electrical Engineering, Tshwane University of  Technology, P.M.B. X680, Pretoria, South Africa"
+          "name": "Guo-qiang YOU",
+          "affiliation": "College of Materials Science and Engineering, Chongqing University, Chongqing 400044, China"
         }
       ],
-      "venue": "Arid zone journal of engineering technology and environment/Arid Zone Journal of Engineering Technology and Environment",
+      "venue": "Transactions of Nonferrous Metals Society of China",
       "year": 2025,
       "date": "2025-12-01",
       "date_precision": "month",
-      "url": "https://doi.org/10.63958/azojete/2025/21/04/009",
-      "cited_by_count": 0,
+      "url": "https://doi.org/10.1016/s1003-6326(25)66938-x",
+      "cited_by_count": 1,
       "concepts": [
         "Materials science",
-        "Spark plasma sintering",
-        "Composite material",
-        "Composite number",
+        "Eutectic system",
         "Microstructure",
-        "Corrosion",
-        "Tin",
-        "Nitride",
+        "Coating",
         "Alloy",
-        "Intermetallic",
-        "Scanning electron microscope",
-        "Nanoparticle",
-        "Polarization (electrochemistry)",
-        "Sintering",
-        "Metal matrix composite",
-        "Porosity",
-        "Titanium nitride",
+        "Metallurgy",
         "Titanium alloy",
-        "Metallurgy"
+        "Composite material",
+        "Laser",
+        "Substrate (aquarium)",
+        "Cladding (metalworking)",
+        "Titanium"
       ],
       "categories": [],
       "raw_type": "article",
@@ -346,16 +1282,17 @@
       "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
-          "Ti6Al4V",
-          "porosity"
+          "TC4",
+          "microstructure",
+          "fatigue"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文使用火花等离子烧结（SPS）而非增材制造技术，且研究的是氮化物纳米颗粒增强复合材料，并非LPBF/SLM/EBM/DED工艺下的纯Ti-6Al-4V力学与疲劳性能。",
-        "why_not_core": "This paper uses spark plasma sintering (SPS), not additive manufacturing processes (LPBF/SLM/EBM/DED), and focuses on Ti-6Al-4V matrix composites with nitride nanoparticles, reporting only microhardness and corrosion, not tensile/fatigue properties.",
+        "relevance_to_user": "该论文主要研究激光熔覆高熵合金涂层，而非增材制造Ti-6Al-4V的力学/疲劳性能。",
+        "why_not_core": "The paper focuses on the microstructure and wear properties of a TiFeNiCuV HEA coating on a Ti-6Al-4V substrate, not on the additive manufacturing or mechanical/fatigue characterization of Ti-6Al-4V itself.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -364,115 +1301,121 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
-          "spark plasma sintering",
-          "composites",
-          "nitride nanoparticles",
+          "laser cladding",
+          "high-entropy alloy",
+          "Ti-6Al-4V substrate",
+          "wear resistance",
           "microhardness"
         ],
         "summary_zh": {
-          "motivation": "提高Ti6Al4V合金的硬度和耐磨性以拓展其在航空航天中的应用。",
-          "method": "采用火花等离子烧结制备掺入h-BN、TiN和AlN纳米颗粒的Ti6Al4V基复合材料。",
-          "result": "h-BN增强复合材料硬度达740 HV，腐蚀性能改善；3 wt.% h-BN性能最优。",
-          "validation": "通过SEM、XRD、密度测量、显微硬度和电化学测试进行表征。"
+          "motivation": "提高钛合金表面性能，制备新型高熵合金涂层。",
+          "method": "在不同激光功率下激光熔覆制备TiFeNiCuV高熵合金涂层。",
+          "result": "涂层硬度最高HV 692.2，体积磨损量仅为TC4基体的14.47%。",
+          "validation": "通过显微硬度测试和摩擦磨损实验验证涂层性能。"
         },
         "summary_en": {
-          "motivation": "To enhance the hardness and wear resistance of Ti6Al4V alloy for broader aerospace applications.",
-          "method": "Ti6Al4V matrix composites with h-BN, TiN, and AlN nanoparticles (1,3,5 wt.%) were fabricated via spark plasma sintering.",
-          "result": "h-BN-reinforced composites achieved hardness up to 740 HV and improved corrosion resistance; 3 wt.% h-BN showed optimal overall performance.",
-          "validation": "Characterization by SEM, XRD, density, microindentation, and potentiodynamic polarization tests."
+          "motivation": "To improve the surface properties of titanium alloys by developing a novel high-entropy alloy coating.",
+          "method": "A TiFeNiCuV high-entropy alloy coating was fabricated on a Ti-6Al-4V substrate via laser cladding at varying laser powers.",
+          "result": "The coating achieved an average hardness of HV 692.2 and a volume loss of 4.22×10^{-3} mm^3, only 14.47% that of the TC4 substrate.",
+          "validation": "Microhardness testing and friction-wear experiments were conducted to characterize the coating's mechanical and tribological properties."
         },
         "key_terms": [
           {
-            "en": "spark plasma sintering",
-            "zh": "火花等离子烧结"
+            "en": "laser cladding",
+            "zh": "激光熔覆"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "en": "high-entropy alloy coating",
+            "zh": "高熵合金涂层"
           },
           {
-            "en": "composite",
-            "zh": "复合材料"
-          },
-          {
-            "en": "nitride nanoparticles",
-            "zh": "氮化物纳米颗粒"
+            "en": "Ti-6Al-4V substrate",
+            "zh": "Ti-6Al-4V基体"
           },
           {
             "en": "microhardness",
             "zh": "显微硬度"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "dendritic structure",
+            "zh": "枝晶结构"
+          },
+          {
+            "en": "eutectic structure",
+            "zh": "共晶结构"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     },
     {
       "source": "openalex",
-      "id": "https://openalex.org/W7119492692",
-      "doi": "10.12729/jbtr.2025.26.4.107",
-      "title": "Biocompatibility evaluation of titanium nitride coating for canine patellar groove implant",
-      "abstract": "Medial patellar luxation is a common orthopedic disorder in dogs, and advanced cases with severe skeletal deformities or femoropatellar osteoarthritis are often unresponsive to conventional techniques. Patellar groove replacement (PGR) has been proposed as an alternative surgical option; however, systematic comparisons of coating technologies for veterinary PGR implants remain limited. This study aimed to evaluate the physicochemical properties, biological compatibility, and functional performance of a newly developed titanium nitride (TiN)–coated PGR system compared with a clinically available amorphous diamond-like carbon (ADLC)–coated device. TiN-coated prototypes were fabricated using Ti-6Al-4V alloy by injection molding combined with arc ion plating, which requires simpler equipment and lower production costs than the vacuum plasma deposition used for ADLC. Physicochemical evaluations, including corrosion resistance, hardness, surface roughness, and coating thickness, were conducted following International Organization for Standardization (ISO) and Korean Industrial Standards (KS) guidelines. In vitro biocompatibility was assessed using MTT and cell adhesion assays with L-929 fibroblasts, while inflammatory cytokine profiling (interleukin [IL]-1β and IL-6) in a rat subcutaneous model was used to evaluate local tissue responses. Functional feasibility was examined in a canine femoral model bilaterally implanted with TiN- or ADLC-coated PGR systems and monitored for one year through clinical, radiographic, computed tomography (CT), magnetic resonance imaging , and micro-CT assessments. Both coatings demonstrated excellent corrosion resistance and absence of cytotoxicity. TiN-coated implants showed slightly greater hardness and coating thickness, with comparable surface roughness and biocompatibility. All implants maintained stable fixation, proper patellar tracking, and satisfactory bone–implant integration. These findings indicate that TiN-coated PGR implants achieve biological and mechanical performance equivalent to ADLC devices while offering advantages in manufacturing simplicity, scalability, and cost-efficiency, supporting their clinical applicability in veterinary orthopedics.",
+      "id": "https://openalex.org/W4416850660",
+      "doi": "10.1002/adem.202502194",
+      "title": "SiCNO Ceramic Coatings on Surface‐Treated Ti‐6Al‐4V for Fretting Corrosion Protection",
+      "abstract": "Fretting corrosion at the femoral stem‐neck and head interfaces critically limits hip implant longevity. This study evaluates polymer‐derived silicon oxycarbonitride (SiCNO) coatings on Ti‐6Al‐4V (Ti64) disks pretreated with acid–alkali and plasma processes. Diluted polysilazane (PSZ) preceramic precursors are pyrolyzed at 700–900 °C, forming 2–5 μm SiCNO films. Structural analysis reveals Ti 3 O layers at lower temperatures and rutile TiO 2 at 900 °C. Electrochemical testing shows 10 wt% PSZ at 900 °C achieved the highest corrosion potential (0.3522 V; lifespan 11.4 years), while 30 wt% PSZ at 700 °C maximizes the lifespan, 81.7 years; uncoated Ti64 exhibits minimal protection with a lifespan of 0.1 year. Hardness and reduced modulus increase with temperature and PSZ precursor content, peaking at 8.58 and 64.72 GPa. Elevated H/E (0.1325) and H 3 /E 2 (0.1506 GPa) ratios indicate enhanced wear and fracture resistance, though high‐temperature microcracks reduce corrosion protection. Overall, the SiCNO film with 20 wt% PSZ pyrolyzed at 800 °C provides an optimal balance of corrosion resistance and mechanical performance, demonstrating the promise of SiCNO coatings as durable protective layers for long‐term biomedical implant applications.",
       "authors": [
-        "Yangwon Chae",
-        "Euisin Yang",
-        "Taehwan Kim",
-        "Hyunmin Jo",
-        "Dong-Hyun Kim",
-        "Byeonghak Kim",
-        "Kyung Mi Shim",
-        "Eun Jung Kim",
-        "Seong Soo Kang"
+        "Detang Lu",
+        "Cheng‐Ta Wu",
+        "Lung‐Hao Hu"
       ],
-      "first_author_affiliation": "",
+      "first_author_affiliation": "Department of Mechanical and Electro‐Mechanical Engineering National Sun Yat‐sen University  Kaohsiung 804 Taiwan",
       "corresponding_authors": [
         {
-          "name": "Yangwon Chae",
-          "affiliation": ""
+          "name": "Cheng‐Ta Wu",
+          "affiliation": "Department of Orthopaedic Surgery Kaohsiung Chang Gung Memorial Hospital  Kaohsiung 833 Taiwan"
+        },
+        {
+          "name": "Lung‐Hao Hu",
+          "affiliation": "Department of Mechanical and Electro‐Mechanical Engineering National Sun Yat‐sen University  Kaohsiung 804 Taiwan"
         }
       ],
-      "venue": "Journal of Biomedical Translational Research",
+      "venue": "Advanced Engineering Materials",
       "year": 2025,
       "date": "2025-12-01",
       "date_precision": "month",
-      "url": "https://doi.org/10.12729/jbtr.2025.26.4.107",
+      "url": "https://doi.org/10.1002/adem.202502194",
       "cited_by_count": 0,
       "concepts": [
-        "Biocompatibility",
         "Materials science",
-        "Biomedical engineering",
-        "Coating",
-        "Implant",
-        "Osteoarthritis",
-        "Medicine",
-        "Titanium alloy",
-        "Titanium",
-        "Surface roughness",
-        "Corrosion"
+        "Fretting",
+        "Corrosion",
+        "Ceramic",
+        "Metallurgy",
+        "Composite material",
+        "Pyrolysis",
+        "Modulus",
+        "Cubic zirconia",
+        "Fretting wear",
+        "Rutile",
+        "Titanium"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_base_mechanical_fatigue"
+        "ti6al4v_femoral_stem"
       ],
-      "direction": "ti6al4v_base_mechanical_fatigue",
-      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
       "routing_matches": {
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "surface roughness"
+        "ti6al4v_femoral_stem": [
+          "Ti64",
+          "femoral stem"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文不涉及增材制造Ti-6Al-4V的力学或疲劳性能，而是评估涂层生物相容性，与用户方向无关。",
-        "why_not_core": "No investigation of mechanical or fatigue properties; focus is on biocompatibility and coating evaluation; material is not additively manufactured; no tensile, fatigue, or fracture data.",
-        "validation_kind": "animal",
+        "relevance_to_user": "该论文主要研究Ti-6Al-4V基体上的SiCNO涂层，不涉及股骨柄结构设计或增材制造，与本方向无关。",
+        "why_not_core": "The paper focuses on ceramic coating for fretting corrosion protection, not on structural design, additive manufacturing, or mechanical performance of Ti-6Al-4V femoral stems.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -480,123 +1423,252 @@
           "is_review": false
         },
         "tags": [
-          "TiN coating",
-          "biocompatibility",
-          "patellar groove implant",
-          "Ti-6Al-4V"
+          "SiCNO coating",
+          "fretting corrosion",
+          "Ti-6Al-4V",
+          "hip implant",
+          "surface treatment"
         ],
         "summary_zh": {
-          "motivation": "评估TiN涂层犬髌骨沟植入物的生物相容性与力学性能，但非AM力学/疲劳研究",
-          "method": "注射成型结合电弧离子镀制备TiN涂层Ti-6Al-4V植入物，进行体外和体内评估",
-          "result": "TiN涂层与ADLC涂层性能相当，但制造成本更低",
-          "validation": "大鼠皮下模型和犬股骨模型的一年随访评估"
+          "motivation": "为提升髋关节假体柄颈界面耐磨损腐蚀性能，研究SiCNO涂层对Ti-6Al-4V的保护效果",
+          "method": "在不同预处理Ti-6Al-4V表面涂覆不同浓度聚硅氮烷前驱体，经700-900°C热解形成SiCNO薄膜",
+          "result": "20 wt% PSZ在800°C热解制备的涂层在耐腐蚀和力学性能间取得最佳平衡",
+          "validation": "通过电化学测试、硬度与模量测量评估涂层性能"
         },
         "summary_en": {
-          "motivation": "This study aims to evaluate the biocompatibility and mechanical properties of TiN-coated Ti-6Al-4V patellar groove implants for veterinary use.",
-          "method": "TiN coatings were applied via arc ion plating on injection-molded Ti-6Al-4V substrates; in vitro MTT, cell adhesion, corrosion, hardness, and in vivo rat and canine models were used.",
-          "result": "TiN-coated implants showed equivalent biocompatibility and slightly higher hardness compared to ADLC-coated implants, with lower manufacturing cost.",
-          "validation": "Validation involved rat subcutaneous implantation and one-year bilateral canine femoral implantation with imaging and histological assessments."
+          "motivation": "To improve fretting corrosion resistance at the femoral stem-neck and head interfaces, this study investigates SiCNO coatings on Ti-6Al-4V.",
+          "method": "Polysilazane precursors with different concentrations were coated on acid-alkali and plasma pretreated Ti-6Al-4V disks and pyrolyzed at 700-900°C to form SiCNO films.",
+          "result": "The coating with 20 wt% PSZ pyrolyzed at 800°C achieved the best balance between corrosion resistance and mechanical properties.",
+          "validation": "Electrochemical corrosion tests and nanoindentation hardness/modulus measurements were performed to evaluate coating performance."
         },
         "key_terms": [
           {
-            "en": "titanium nitride coating",
-            "zh": "氮化钛涂层"
+            "en": "SiCNO coating",
+            "zh": "SiCNO涂层"
           },
           {
-            "en": "biocompatibility",
-            "zh": "生物相容性"
-          },
-          {
-            "en": "patellar groove replacement",
-            "zh": "髌骨沟置换"
+            "en": "fretting corrosion",
+            "zh": "微动腐蚀"
           },
           {
             "en": "Ti-6Al-4V",
             "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "arc ion plating",
-            "zh": "电弧离子镀"
+            "en": "polysilazane precursor",
+            "zh": "聚硅氮烷前驱体"
           },
           {
-            "en": "corrosion resistance",
-            "zh": "耐腐蚀性"
+            "en": "electrochemical testing",
+            "zh": "电化学测试"
           },
           {
-            "en": "hardness",
-            "zh": "硬度"
-          },
-          {
-            "en": "canine model",
-            "zh": "犬模型"
-          },
-          {
-            "en": "in vivo",
-            "zh": "体内"
-          },
-          {
-            "en": "in vitro",
-            "zh": "体外"
+            "en": "nanoindentation",
+            "zh": "纳米压痕"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     },
     {
       "source": "openalex",
-      "id": "https://openalex.org/W7133683587",
-      "doi": "10.1016/j.cjme.2025.100190",
-      "title": "Surface enhancement by micro-arc oxidation induced TiO2 ceramic coating on additive manufacturing Ti-6Al-4V",
-      "abstract": "This study investigates the utilization of micro-arc oxidation (MAO) TiO 2 ceramic coating for the enhancement of surface quality of Ti-6Al-4V (TC4) samples manufactured through selective laser melting (SLM) and selective electron beam melting (SEBM). Prior to treatment with the MAO process in a Na 2 SiO 3 system solution at various voltages, the samples were pre-polished to eliminate adhesion powders. The study systematically compares and assesses the surface roughness and corrosion resistance of as-built TC4 samples with MAO TiO 2 ceramic coating. The outcomes indicate that the combination of pre-polishing and MAO surface treatment decreases the surface roughness of SEBM samples from 13.386 μm to 9.343 μm. By contrast, this two-step surface treatment leads to an increment in surface roughness for SLM samples due to their initial low values and the porous nature of surface coating with high roughness. Furthermore, the MAO treatment considerably enhances the corrosion resistance of the original samples. Specifically, the corrosion current density Icorr of SLM samples decreases from 10.37×10 -7 A/cm 2 to 6.89×10 -7 A/cm 2 (420 V), and that of SEBM samples reduces from 8.013×10 -6 A/cm 2 to 1.672×10 -6 A/cm 2 (400 V). Therefore, MAO is an extremely effective surface treatment method that can considerably enhance the surface properties of TC4 produced through additive manufacturing.",
+      "id": "https://openalex.org/W7116070134",
+      "doi": "10.1016/j.dt.2025.12.013",
+      "title": "Mechanical response of a Ti-6Al-4V hierarchical lattice structure: Numerical and analytical studies",
+      "abstract": "This study proposes a snap-fit fabrication strategy for manufacturing hierarchical lattice structures, initially targeting tetrahedron-of-octahedra topologies and readily extendable to octet-of-octahedra topologies with through-thickness direction aligned to the [111] crystallographic direction. Ti-6Al-4V tetrahedron-of-octahedra hierarchical structures (fractal numbers: 5–15, nominal relative densities: 5.26%–0.56%) were numerically and analytically evaluated for their compressive and shear behaviors, with finite element results showing reasonable agreement with analytical predictions. Numerical assessment of the multi-cell structure revealed stress-strain responses comparable to those of the corresponding unit structure, validating the latter’s representativeness. For practical applications, analytical methods were used to construct failure mechanism map across different fractal numbers and small-scale truss aspect ratios for Ti-6Al-4V hierarchical structures. Biaxial loading yield surfaces in the ( ) and ( ) macroscopic stress spaces for the proposed hierarchical structures across different fractal numbers were also constructed via an analytical approach. The proposed Ti-6Al-4V hierarchical lattices exhibit excellent mechanical properties, competitive with most existing materials and topologies, offering a new solution for lightweight, high-temperature, and multifunctional applications. • Tetrahedron-of-octahedra topology enables metamaterial design. • A novel snap-fit method is developed for unit/multi-cell lattice construction. • FE models reveal hierarchical structures’ crushing modes under compression/shear. • Micromechanics predicts mechanical properties, failure map, biaxial yield surfaces. • Ti6Al4V hierarchical structures enable ultra-lightweight load-bearing applications.",
       "authors": [
-        "Xin Yang",
-        "Fan Song",
-        "Tianchi Zhang",
-        "Xinlan Yao",
-        "Wanlin Wang",
-        "Zhaoyang Zhang",
-        "Yiyang Hou",
-        "Huan Qi",
-        "Huiping Tang"
+        "Liang Dong",
+        "Kaihong Yu"
       ],
-      "first_author_affiliation": "Advanced Materials Additive Manufacturing Innovation Research Center, Hangzhou City University, Hangzhou 310015, China",
+      "first_author_affiliation": "College of Science, Northeastern University, Shenyang, 110819, China",
       "corresponding_authors": [
         {
-          "name": "Huan Qi",
-          "affiliation": "Advanced Materials Additive Manufacturing Innovation Research Center, Hangzhou City University, Hangzhou 310015, China"
-        },
-        {
-          "name": "Huiping Tang",
-          "affiliation": "Advanced Materials Additive Manufacturing Innovation Research Center, Hangzhou City University, Hangzhou 310015, China"
+          "name": "Liang Dong",
+          "affiliation": "College of Science, Northeastern University, Shenyang, 110819, China"
         }
       ],
-      "venue": "Chinese Journal of Mechanical Engineering",
+      "venue": "Defence Technology",
       "year": 2025,
       "date": "2025-12-01",
       "date_precision": "month",
-      "url": "https://doi.org/10.1016/j.cjme.2025.100190",
-      "cited_by_count": 2,
+      "url": "https://doi.org/10.1016/j.dt.2025.12.013",
+      "cited_by_count": 0,
       "concepts": [
+        "Micromechanics",
         "Materials science",
-        "Surface roughness",
-        "Corrosion",
-        "Coating",
-        "Ceramic",
-        "Selective laser melting",
-        "Porosity",
-        "Surface finish",
-        "Adhesion",
-        "Composite material",
-        "Metallurgy",
-        "Surface modification"
+        "Lattice (music)",
+        "Fractal",
+        "Hierarchical database model",
+        "Finite element method",
+        "Truss",
+        "Topology (electrical circuits)",
+        "Network topology",
+        "Metamaterial",
+        "Statistical physics",
+        "Structural engineering",
+        "Fabrication",
+        "Shear (geology)",
+        "Hierarchical control system"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_postprocess",
-        "ti6al4v_base_mechanical_fatigue"
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti6Al4V",
+          "Ti 6Al 4V",
+          "lattice structure"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究Ti-6Al-4V层级点阵结构的力学性能，其方法可迁移至股骨柄多孔设计，但未涉及植入物应用。",
+        "why_not_core": "This paper does not address any orthopedic implant or femoral stem application; no stress shielding, micromotion, ISO fatigue testing, or implant-specific design considerations.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V lattice",
+          "hierarchical structure",
+          "failure mechanism map",
+          "snap-fit fabrication",
+          "numerical analysis"
+        ],
+        "summary_zh": {
+          "motivation": "提出新型层级点阵结构以应用于轻量化领域",
+          "method": "采用数值与解析方法研究Ti-6Al-4V层级结构的压缩与剪切行为",
+          "result": "结构力学性能优异，失败机制图与双轴屈服面被建立",
+          "validation": "有限元结果与解析预测吻合良好"
+        },
+        "summary_en": {
+          "motivation": "To propose a novel hierarchical lattice structure for lightweight applications.",
+          "method": "Numerical and analytical methods were employed to study the compressive and shear behaviors of Ti-6Al-4V tetrahedron-of-octahedra hierarchical structures.",
+          "result": "The structures exhibited excellent mechanical properties; failure mechanism maps and biaxial yield surfaces were constructed.",
+          "validation": "Finite element results showed reasonable agreement with analytical predictions."
+        },
+        "key_terms": [
+          {
+            "en": "hierarchical lattice",
+            "zh": "层级点阵"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "snap-fit fabrication",
+            "zh": "卡扣式制造"
+          },
+          {
+            "en": "tetrahedron-of-octahedra",
+            "zh": "八面体四面体"
+          },
+          {
+            "en": "failure mechanism map",
+            "zh": "失效机制图"
+          },
+          {
+            "en": "biaxial yield surface",
+            "zh": "双轴屈服面"
+          },
+          {
+            "en": "compressive behavior",
+            "zh": "压缩行为"
+          },
+          {
+            "en": "shear behavior",
+            "zh": "剪切行为"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "relative density",
+            "zh": "相对密度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4416870773",
+      "doi": "10.1007/s11249-025-02080-2",
+      "title": "Synergistic Enhancement of Tribological Properties of Ti-6Al-4V Alloy via Combined Ultrasonic Shot Peening and Thermal Oxidation Treatment",
+      "abstract": "",
+      "authors": [
+        "Xiaoyi Wang",
+        "Zhibiao Xu",
+        "Hua Lü",
+        "Mingwei Zhang",
+        "Hao Wu",
+        "Xing Xu",
+        "Hao Du"
+      ],
+      "first_author_affiliation": "College of Intelligent Manufacturing, Guangzhou Maritime University, Guangzhou, 510725, China",
+      "corresponding_authors": [
+        {
+          "name": "Xiaoyi Wang",
+          "affiliation": "College of Intelligent Manufacturing, Guangzhou Maritime University, Guangzhou, 510725, China"
+        }
+      ],
+      "venue": "Tribology Letters",
+      "year": 2025,
+      "date": "2025-12-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1007/s11249-025-02080-2",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Shot peening",
+        "Tribology",
+        "Peening",
+        "Indentation hardness",
+        "Diffusion",
+        "Abrasive",
+        "Composite number",
+        "Titanium alloy",
+        "Corrosion",
+        "Surface roughness",
+        "Alloy",
+        "Composite material",
+        "Thermal oxidation",
+        "Metallurgy",
+        "Thermal treatment",
+        "Rutile",
+        "Ultrasonic sensor",
+        "Surface layer",
+        "Layer (electronics)",
+        "Carbide",
+        "Hardness",
+        "Titanium",
+        "Diffusion layer",
+        "Thermal diffusivity",
+        "Titanium carbide",
+        "Severe plastic deformation",
+        "Surface finish",
+        "Deposition (geology)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
@@ -604,25 +1676,16 @@
         "ti6al4v_postprocess": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
-          "TC4",
-          "polishing",
-          "surface coating",
-          "surface treatment"
-        ],
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "TC4",
-          "surface roughness"
+          "shot peening"
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文关注微弧氧化后处理对Ti-6Al-4V表面性能的影响，但未涉及疲劳或力学性能。",
-        "why_not_core": "No mechanical performance data (fatigue, tensile) was reported; only surface roughness and corrosion resistance were evaluated.",
-        "validation_kind": "none",
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Skim only",
+        "relevance_to_user": "研究了Ti-6Al-4V的超声冲击和热氧化复合后处理对摩擦学性能的协同增强，但未涉及疲劳或拉伸力学性能。",
+        "why_not_core": "This paper focuses on tribological properties (wear resistance) rather than fatigue or tensile mechanical performance, which is the core focus of the direction.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -630,79 +1693,81 @@
           "is_review": false
         },
         "tags": [
-          "micro-arc oxidation",
-          "TiO2 coating",
+          "ultrasonic shot peening",
+          "thermal oxidation",
+          "tribology",
           "Ti-6Al-4V",
-          "surface roughness",
-          "corrosion resistance"
+          "post-processing"
         ],
         "summary_zh": {
-          "motivation": "提高SLM/SEBM制备Ti-6Al-4V表面性能。",
-          "method": "微弧氧化制备TiO2陶瓷涂层。",
-          "result": "表面粗糙度和耐腐蚀性改善。",
-          "validation": "实验测量表面粗糙度和腐蚀电流密度。"
+          "motivation": "提升Ti-6Al-4V的耐磨性能",
+          "method": "结合超声冲击和热氧化表面处理",
+          "result": "复合处理后摩擦学性能显著协同增强",
+          "validation": "磨损试验与表面表征"
         },
         "summary_en": {
-          "motivation": "To enhance the surface quality of additively manufactured Ti-6Al-4V via micro-arc oxidation.",
-          "method": "MAO treatment was applied to pre-polished SLM and SEBM samples.",
-          "result": "MAO reduced surface roughness for SEBM but increased for SLM, and improved corrosion resistance for both.",
-          "validation": "Surface profilometry and electrochemical corrosion tests."
+          "motivation": "To improve the wear resistance of Ti-6Al-4V alloy through combined surface treatments.",
+          "method": "A sequential process of ultrasonic shot peening followed by thermal oxidation was applied.",
+          "result": "The combined treatment synergistically enhanced tribological properties, including reduced wear rate and improved surface hardness.",
+          "validation": "Wear tests and surface characterization (SEM, XRD) confirmed the microstructural and mechanical changes."
         },
         "key_terms": [
           {
-            "en": "micro-arc oxidation",
-            "zh": "微弧氧化"
+            "en": "ultrasonic shot peening",
+            "zh": "超声冲击"
           },
           {
-            "en": "TiO2 ceramic coating",
-            "zh": "TiO2陶瓷涂层"
+            "en": "thermal oxidation",
+            "zh": "热氧化"
           },
           {
-            "en": "selective laser melting",
-            "zh": "选区激光熔化"
-          },
-          {
-            "en": "selective electron beam melting",
-            "zh": "选区电子束熔化"
-          },
-          {
-            "en": "surface roughness",
-            "zh": "表面粗糙度"
-          },
-          {
-            "en": "corrosion resistance",
-            "zh": "耐腐蚀性"
+            "en": "tribological properties",
+            "zh": "摩擦学性能"
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "surface treatment",
+            "zh": "表面处理"
+          },
+          {
+            "en": "synergistic effect",
+            "zh": "协同效应"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
-    "fetched_total": 5,
+    "fetched_total": 13,
     "by_source": {
-      "openalex": 5
+      "openalex": 13
     },
-    "after_dedup": 5,
-    "after_routing": 5,
+    "after_dedup": 13,
+    "after_routing": 13,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 3,
-      "ti6al4v_postprocess": 2
+      "ti6al4v_base_mechanical_fatigue": 7,
+      "ti6al4v_postprocess": 4,
+      "ti6al4v_femoral_stem": 2
     },
     "routed_by_source": {
-      "openalex": 5
+      "openalex": 13
     },
-    "scored": 5,
+    "scored": 13,
     "priority_counts": {
-      "Medium": 2,
-      "Exclude": 2,
-      "Low": 1
+      "Exclude": 4,
+      "High": 2,
+      "Low": 3,
+      "Medium": 4
     }
   }
 }

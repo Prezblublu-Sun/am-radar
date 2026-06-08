@@ -58,11 +58,11 @@
         ]
       },
       "llm": {
-        "priority": "Medium",
+        "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Skim only",
-        "relevance_to_user": "本文研究了Ti6Al4V合金的热处理和表面处理对硬度及耐腐蚀性的影响，但未涉及疲劳或拉伸性能，与用户关注的疲劳/力学性能方向关联有限。",
-        "why_not_core": "No fatigue or tensile testing results; focuses on corrosion resistance and hardness instead of mechanical performance required by the direction.",
+        "relevance_to_user": "研究了Ti6Al4V的热处理和表面处理，但缺乏疲劳和拉伸性能数据，仅涉及硬度和腐蚀，与用户关注的疲劳/力学性能方向关联较弱。",
+        "why_not_core": "The paper does not report fatigue or tensile mechanical properties; it focuses on hardness, corrosion resistance, and wettability, missing the core mechanical performance metrics (fatigue, tensile) required by the direction.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -71,25 +71,35 @@
           "is_review": false
         },
         "tags": [
+          "Ti-6Al-4V",
           "heat treatment",
           "surface treatment",
-          "corrosion resistance",
+          "sandblasting",
+          "polishing",
           "hardness",
-          "Ti6Al4V"
+          "pitting corrosion"
         ],
         "summary_zh": {
-          "motivation": "评估热处理和表面处理对增材制造Ti6Al4V样品功能性能的影响。",
-          "method": "对喷砂和抛光样品进行不同温度热处理，测试微观结构、硬度、润湿性和耐腐蚀性。",
-          "result": "所有样品呈亲水性，1020°C热处理后耐腐蚀性最佳。",
-          "validation": "通过硬度测试和Ringer溶液中的点蚀腐蚀实验验证。"
+          "motivation": "评估热处理和表面处理对增材制造Ti6Al4V样品理化性能的影响",
+          "method": "对喷砂和抛光样品进行不同温度热处理，测试硬度、润湿性、表面形貌和耐腐蚀性",
+          "result": "在1020℃热处理获得最佳耐点蚀性能，所有样品呈亲水性",
+          "validation": "通过金相观察、硬度测试和电化学腐蚀实验验证"
         },
         "summary_en": {
-          "motivation": "This study evaluates the influence of heat and surface treatments on the functional properties of additively manufactured Ti6Al4V alloy for personalized implantology.",
-          "method": "Sandblasted and mechanically polished samples were heat-treated at 800, 910, and 1020 °C, then characterized by microscopy, wettability, topography, hardness, and corrosion tests.",
-          "result": "All samples exhibited hydrophilic behavior, and heat treatment at 1020 °C provided the best pitting corrosion resistance.",
-          "validation": "Experimental validation through hardness measurements and pitting corrosion tests in Ringer's solution."
+          "motivation": "This study evaluates the influence of heat and surface treatments on the physicochemical properties of Ti6Al4V samples produced by direct metal sintering, aiming to inform implant material selection.",
+          "method": "Sandblasted and polished samples were subjected to heat treatment at 800, 910, and 1020°C, then characterized by microscopy, hardness, wettability, and pitting corrosion tests in Ringer's solution.",
+          "result": "Heat treatment at 1020°C yielded the highest pitting corrosion resistance, and all samples exhibited hydrophilic behavior.",
+          "validation": "Experimental validation through metallographic observation, hardness measurements, and electrochemical corrosion testing."
         },
         "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "direct metal sintering",
+            "zh": "直接金属烧结"
+          },
           {
             "en": "heat treatment",
             "zh": "热处理"
@@ -99,52 +109,294 @@
             "zh": "表面处理"
           },
           {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V合金"
+            "en": "sandblasting",
+            "zh": "喷砂"
           },
           {
-            "en": "corrosion resistance",
-            "zh": "耐腐蚀性"
+            "en": "polishing",
+            "zh": "抛光"
           },
           {
             "en": "hardness",
             "zh": "硬度"
           },
           {
+            "en": "pitting corrosion",
+            "zh": "点蚀"
+          },
+          {
             "en": "wettability",
             "zh": "润湿性"
-          },
-          {
-            "en": "direct metal sintering",
-            "zh": "直接金属烧结"
-          },
-          {
-            "en": "personalized implantology",
-            "zh": "个性化植入学"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412706839",
+      "doi": "10.1016/j.ijfatigue.2025.109181",
+      "title": "Multiscale modelling of additively manufactured Ti-6Al-4V alloy: Fatigue performance evaluation from material to structural level",
+      "abstract": "Chi W., Wang W., Zhou H., et al. Multiscale modelling of additively manufactured Ti-6Al-4V alloy: Fatigue performance evaluation from material to structural level. International Journal of Fatigue 201, 109181 (2025); https://doi.org/10.1016/j.ijfatigue.2025.109181.",
+      "authors": [
+        "Weiqian Chi",
+        "Wenjing Wang",
+        "Hongchang Zhou",
+        "Rui‐Guo Yan",
+        "Yoshiki Mikami"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Weiqian Chi",
+          "affiliation": ""
+        }
+      ],
+      "venue": "International Journal of Fatigue",
+      "year": 2025,
+      "date": "2025-07-25",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2025.109181",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Titanium alloy",
+        "Alloy",
+        "Fatigue testing",
+        "Structural engineering",
+        "Composite material",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对增材制造Ti-6Al-4V的疲劳性能进行多尺度建模，完全符合L1层方向要求。",
+        "why_not_core": "Mainly computational modeling without experimental validation data.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "additive manufacturing",
+          "Ti-6Al-4V",
+          "fatigue",
+          "multiscale modelling",
+          "finite element method"
+        ],
+        "summary_zh": {
+          "motivation": "为增材制造Ti-6Al-4V合金开发多尺度疲劳预测模型",
+          "method": "从微观组织到结构层次的多尺度有限元建模方法",
+          "result": "实现了从材料到结构层次的疲劳性能准确评估",
+          "validation": "通过数值模拟案例验证模型有效性"
+        },
+        "summary_en": {
+          "motivation": "Develop a multiscale fatigue prediction model for additively manufactured Ti-6Al-4V alloy.",
+          "method": "A multiscale finite element modeling approach spanning from microstructure to structural level.",
+          "result": "The model accurately evaluates fatigue performance across scales.",
+          "validation": "Validation through numerical simulation case studies."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "fatigue",
+            "zh": "疲劳"
+          },
+          {
+            "en": "multiscale modelling",
+            "zh": "多尺度建模"
+          },
+          {
+            "en": "finite element method",
+            "zh": "有限元方法"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "structural level",
+            "zh": "结构层次"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412920373",
+      "doi": "10.3390/ma18153487",
+      "title": "Effects of Ultrasonic Nanocrystal Surface Modification on the Formation of a Nitride Layer in Ti-6Al-4V Alloy",
+      "abstract": "This study investigates the effects of ultrasonic nanocrystalline surface modification (UNSM) on the formation of nitride layers in Ti-6Al-4V alloy during ion-plasma nitriding (IPN). Various UNSM parameters, including vibration amplitude, static load, and processing temperature, were systematically varied to evaluate their influence on microstructure, hardness, elastic modulus, and tribological behavior. The results reveal that pre-treatment with optimized UNSM conditions significantly enhances nitrogen diffusion, leading to the formation of dense and uniform TiN/Ti2N layers. Samples pre-treated under high-load and elevated-temperature UNSM exhibited the greatest improvements in surface hardness (up to 25%), elastic modulus (up to 18%), and wear resistance, with a reduced and stabilized friction coefficient (~0.55). Scanning electron microscopy (SEM) and X-ray diffraction (XRD) analyses confirmed microstructural densification, grain refinement, and increased nitride phase intensity. These findings demonstrate not only the scientific relevance but also the practical potential of UNSM as an effective surface activation technique. The hybrid UNSM + IPN approach may serve as a promising method for extending the service life of load-bearing biomedical implants and engineering components subjected to intensive wear.",
+      "authors": [
+        "Бауыржан Рахадилов",
+        "Нуртолеу Магазов",
+        "Zarina Aringozhina",
+        "Gulzhaz Uazyrkhanova",
+        "Zhuldyz Uazyrkhanova",
+        "Auezhan Amanov"
+      ],
+      "first_author_affiliation": "D. Serikbayev East Kazakhstan Technical University, 69 Protozanov Street, Ust-Kamenogorsk 070000, Kazakhstan",
+      "corresponding_authors": [
+        {
+          "name": "Gulzhaz Uazyrkhanova",
+          "affiliation": "D. Serikbayev East Kazakhstan Technical University, 69 Protozanov Street, Ust-Kamenogorsk 070000, Kazakhstan"
+        },
+        {
+          "name": "Auezhan Amanov",
+          "affiliation": "Faculty of Engineering and Natural Sciences, Tampere University, FIN-33014 Tampere, Finland"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-07-25",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18153487",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Nanocrystalline material",
+        "Surface modification",
+        "Microstructure",
+        "Nitride",
+        "Nitriding",
+        "Tin",
+        "Composite material",
+        "Elastic modulus",
+        "Nanoindentation",
+        "Alloy",
+        "Tribology",
+        "Scanning electron microscope",
+        "Metallurgy",
+        "Layer (electronics)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要研究表面后处理工艺，而非增材制造Ti-6Al-4V的力学或疲劳性能。",
+        "why_not_core": "The paper focuses on a post-processing surface modification (UNSM+nitriding) for Ti-6Al-4V, not on the as-built or process-state mechanical/fatigue performance of additively manufactured Ti-6Al-4V; it lacks any additive manufacturing context or fatigue data.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "surface modification",
+          "ultrasonic nanocrystal surface modification",
+          "ion-plasma nitriding",
+          "Ti-6Al-4V",
+          "hardness",
+          "wear resistance"
+        ],
+        "summary_zh": {
+          "motivation": "探究超声波纳米晶表面改性对Ti-6Al-4V合金氮化物层形成的影响。",
+          "method": "系统改变UNSM参数，通过SEM/XRD/硬度/磨损测试进行表征。",
+          "result": "优化UNSM预处理显著增强氮扩散，形成致密TiN/Ti2N层，提升硬度和耐磨性。",
+          "validation": "通过实验表征（SEM、XRD、硬度、摩擦系数）验证效果。"
+        },
+        "summary_en": {
+          "motivation": "This study investigates how ultrasonic nanocrystalline surface modification (UNSM) influences the formation of nitride layers on Ti-6Al-4V alloy during ion-plasma nitriding.",
+          "method": "UNSM parameters (vibration amplitude, static load, temperature) were varied systematically, and the resulting microstructure, hardness, elastic modulus, and wear behavior were characterized using SEM, XRD, and tribological tests.",
+          "result": "Optimal UNSM pre-treatment significantly enhances nitrogen diffusion, producing dense TiN/Ti2N layers that increase surface hardness by up to 25% and elastic modulus by 18%, with reduced and stabilized friction coefficient (~0.55).",
+          "validation": "The findings are validated through experimental measurements including SEM, XRD, hardness testing, and wear resistance evaluation."
+        },
+        "key_terms": [
+          {
+            "en": "ultrasonic nanocrystal surface modification",
+            "zh": "超声波纳米晶表面改性"
+          },
+          {
+            "en": "ion-plasma nitriding",
+            "zh": "离子等离子渗氮"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "titanium nitride",
+            "zh": "氮化钛"
+          },
+          {
+            "en": "surface hardness",
+            "zh": "表面硬度"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
-      "Medium": 1
+      "Low": 1,
+      "High": 1,
+      "Exclude": 1
     }
   }
 }

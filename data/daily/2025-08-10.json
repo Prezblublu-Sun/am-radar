@@ -61,12 +61,12 @@
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文研究了Ti-6Al-4V的滑移系统应变率敏感性，但未涉及增材制造工艺，因此与层1增材制造钛合金力学性能方向相关性低。",
-        "why_not_core": "Does not concern additively manufactured Ti-6Al-4V; no additive manufacturing process (LPBF/SLM/EBM/DED) is mentioned or studied.",
-        "validation_kind": "mechanical_testing",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究Ti-6Al-4V的滑移系统应变率敏感性，但未涉及增材制造，与用户关注的增材制造Ti-6Al-4V力学性能方向无关。",
+        "why_not_core": "The paper does not concern additive manufacturing; it studies slip system rate sensitivities in Ti-6Al-4V without any AM context.",
+        "validation_kind": "simulation_case",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -75,22 +75,23 @@
         },
         "tags": [
           "Ti-6Al-4V",
-          "slip system rate sensitivity",
+          "slip system",
+          "strain rate sensitivity",
           "high-energy X-ray diffraction microscopy",
           "crystal plasticity",
           "anisotropy"
         ],
         "summary_zh": {
-          "motivation": "量化Ti-6Al-4V中不同滑移系统族的应变率敏感性各向异性。",
-          "method": "利用高能X射线衍射显微镜测量应力松弛过程中的晶粒尺度应力状态。",
-          "result": "发现不同滑移系统族的率敏感性在0.02到0.04之间，相对各向同性。",
-          "validation": "通过晶体塑性有限元模拟展示各向异性率敏感性的影响。"
+          "motivation": "量化Ti-6Al-4V中α相不同滑移系族的应变率敏感性各向异性。",
+          "method": "利用高能X射线衍射显微术测量晶粒尺度应力松弛，结合晶体塑性模拟。",
+          "result": "发现滑移系族率敏感性范围为0.02-0.04，相对各向同性。",
+          "validation": "通过HEDM实验数据验证晶体塑性有限元模拟结果。"
         },
         "summary_en": {
-          "motivation": "The study aims to quantify the anisotropic strain rate sensitivity among different slip system families in Ti-6Al-4V, which has implications for creep and dwell fatigue.  (paraphrased)",
-          "method": "High-energy X-ray diffraction microscopy (HEDM) is used to measure grain-scale stress states during stress relaxation, enabling determination of slip system rate sensitivities.  (paraphrased)",
-          "result": "The rate sensitivities for basal, prismatic, and pyramidal slip systems range from 0.02 to 0.04, showing relatively isotropy compared to literature.  (paraphrased)",
-          "validation": "Crystal plasticity finite element simulations are performed to demonstrate the effects of the measured anisotropic rate sensitivities.  (paraphrased)"
+          "motivation": "To quantify the anisotropic strain rate sensitivity of different slip system families in the α phase of Ti-6Al-4V.",
+          "method": "High-energy X-ray diffraction microscopy measured grain-scale stress states during stress relaxation, combined with crystal plasticity finite element simulations.",
+          "result": "The rate sensitivities for different slip system families range from 0.02 to 0.04, indicating relative isotropy.",
+          "validation": "Crystal plasticity simulations were validated against HEDM experimental data."
         },
         "key_terms": [
           {
@@ -107,7 +108,7 @@
           },
           {
             "en": "high-energy X-ray diffraction microscopy",
-            "zh": "高能X射线衍射显微镜"
+            "zh": "高能X射线衍射显微术"
           },
           {
             "en": "crystal plasticity",
@@ -116,28 +117,12 @@
           {
             "en": "anisotropy",
             "zh": "各向异性"
-          },
-          {
-            "en": "basal slip",
-            "zh": "基面滑移"
-          },
-          {
-            "en": "prismatic slip",
-            "zh": "柱面滑移"
-          },
-          {
-            "en": "pyramidal slip",
-            "zh": "锥面滑移"
-          },
-          {
-            "en": "dwell fatigue",
-            "zh": "保载疲劳"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
     }
   ],
   "counts": {
@@ -155,7 +140,7 @@
     },
     "scored": 1,
     "priority_counts": {
-      "Low": 1
+      "Exclude": 1
     }
   }
 }

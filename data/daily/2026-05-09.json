@@ -60,6 +60,11 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "microstructure",
           "tensile strength",
           "yield strength",
           "ultimate tensile strength",
@@ -75,8 +80,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究Ti-6Al-4V增材制造薄壁件的后处理（表面打磨抛光）对力学性能的影响，与关注后处理改性疲劳/力学性能的方向高度相关。",
-        "why_not_core": "The paper focuses on static tensile properties and does not include fatigue testing, which is a key mechanical performance metric for the direction.",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V薄壁件后处理（表面研磨和抛光）对力学性能的改善，直接契合L2方向对后处理效果的要求。",
+        "why_not_core": "It does not include fatigue testing, only quasi-static tensile properties.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -85,26 +90,26 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
           "laser powder bed fusion",
+          "Ti-6Al-4V",
           "thin walls",
           "size effect",
           "surface grinding",
           "polishing",
-          "mechanical properties",
-          "semi-empirical model"
+          "post-processing",
+          "mechanical properties"
         ],
         "summary_zh": {
-          "motivation": "探究增材制造Ti-6Al-4V薄壁件尺寸效应对力学性能的影响，并建立预测模型。",
-          "method": "采用LPBF制备不同厚度薄壁拉伸件，进行表面打磨抛光后处理，结合实验与半经验模型分析。",
-          "result": "强度随厚度减小而显著下降，表面打磨抛光使屈服强度和抗拉强度分别提升27-39%和22-45%。",
-          "validation": "通过表面处理后的实验值与模型预测值对比验证模型有效性。"
+          "motivation": "揭示Ti-6Al-4V薄壁件尺寸效应机理并提升力学性能",
+          "method": "制备不同厚度LPBF薄壁件，进行拉伸测试及表面研磨抛光后处理",
+          "result": "强度随厚度减小显著下降，表面处理提升屈服强度27-39%和抗拉强度22-45%",
+          "validation": "拉伸力学实验及半经验模型预测验证"
         },
         "summary_en": {
-          "motivation": "To investigate the size-dependent mechanical properties of additively manufactured Ti-6Al-4V thin walls and develop a predictive model linking thickness to strength.",
-          "method": "Ti-6Al-4V thin-walled tensile specimens with thicknesses from 0.2 mm to 1.0 mm were fabricated by LPBF and subjected to surface grinding and polishing; a semi-empirical model incorporating an effective thickness ratio was proposed.",
-          "result": "Yield and ultimate tensile strengths decreased significantly with decreasing thickness; surface grinding and polishing improved YS by 27-39% and UTS by 22-45%.",
-          "validation": "The model predictions for surface-treated specimens agreed well with experimental measurements, validating the approach."
+          "motivation": "To understand the size effect in additively manufactured thin-walled Ti-6Al-4V and improve mechanical properties via post-processing.",
+          "method": "Ti-6Al-4V thin-walled specimens of varying thicknesses were fabricated by LPBF and subjected to surface grinding and polishing, followed by tensile testing and microstructural characterization.",
+          "result": "Yield and ultimate tensile strengths decreased significantly with decreasing thickness, and surface treatment improved YS by 27-39% and UTS by 22-45%.",
+          "validation": "Experimental tensile tests validated the proposed semi-empirical model, showing good agreement with measured strengths of surface-treated specimens."
         },
         "key_terms": [
           {
@@ -113,11 +118,11 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "zh": "钛合金Ti-6Al-4V"
           },
           {
             "en": "thin walls",
-            "zh": "薄壁件"
+            "zh": "薄壁"
           },
           {
             "en": "size effect",
@@ -132,26 +137,18 @@
             "zh": "抛光"
           },
           {
-            "en": "tensile properties",
-            "zh": "拉伸性能"
-          },
-          {
-            "en": "defect analysis",
-            "zh": "缺陷分析"
-          },
-          {
-            "en": "semi-empirical model",
-            "zh": "半经验模型"
-          },
-          {
             "en": "post-processing",
             "zh": "后处理"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "拉伸强度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
     }
   ],
   "counts": {

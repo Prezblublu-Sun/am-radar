@@ -68,9 +68,9 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是切削参数选择，而非Ti-6Al-4V的后处理工艺，与用户关注的后处理对疲劳/力学性能的影响不相关。",
-        "why_not_core": "The paper focuses on cutting tool strength and machining parameter optimization, not on any post-processing treatment (e.g., heat treatment, HIP, shot peening) of Ti-6Al-4V.",
-        "validation_kind": "numerical_benchmark",
+        "relevance_to_user": "论文关注刀具强度而非钛合金后处理，与研究方向无关。",
+        "why_not_core": "No post-processing treatment of Ti-6Al-4V; focuses on tool strength during cutting, not on material's mechanical performance after post-processing.",
+        "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
@@ -78,25 +78,28 @@
           "is_review": false
         },
         "tags": [
-          "machining parameters",
-          "tool strength",
-          "finite element method",
           "Ti-6Al-4V",
-          "cutting simulation"
+          "cutting parameters",
+          "tool strength",
+          "finite element method"
         ],
         "summary_zh": {
-          "motivation": "通过最大化刀具性能提高金属自由切削效率。",
-          "method": "采用Johnson-Cook本构模型和ALE网格算法的有限元法模拟切削过程。",
-          "result": "建立了切削参数、工件性能和刀具几何对刀具强度的影响规律。",
-          "validation": "与环氧树脂刀具切削铅的等色线观测结果对比验证模型。"
+          "motivation": "通过选择切削参数最大化刀具性能。",
+          "method": "采用有限元法和Johnson-Cook本构模型模拟切削过程。",
+          "result": "建立了切削深度、速度等对刀具强度的影响规律。",
+          "validation": "通过铅切削实验验证模型应力分布。"
         },
         "summary_en": {
-          "motivation": "To improve metal cutting efficiency by maximizing tool performance through optimal selection of cutting parameters.",
-          "method": "Finite element simulations with Johnson-Cook constitutive model and Arbitrary Lagrangian-Eulerian mesh adaptation were used to analyze stress distribution in the tool during cutting.",
-          "result": "The effects of cutting depth, speed, rake angle, and workpiece material (steel, Al, Ti) on tool strength were quantified, with safety factors determined.",
-          "validation": "Model adequacy was confirmed by comparing simulated tensile-compressive stress distributions in the tool with isochromatic lines observed during lead cutting with an epoxy resin tool."
+          "motivation": "To improve free-cutting efficiency by selecting parameters based on tool safety factor.",
+          "method": "Used FEM with Johnson-Cook model and ALE mesh adaptation to simulate cutting.",
+          "result": "Established relationships between cutting parameters and tool strength, showing tool failure at high stress.",
+          "validation": "Model validated by comparing stress distributions with isochromatic lines during lead cutting."
         },
         "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
           {
             "en": "cutting parameters",
             "zh": "切削参数"
@@ -106,52 +109,455 @@
             "zh": "刀具强度"
           },
           {
+            "en": "Johnson-Cook constitutive model",
+            "zh": "Johnson-Cook本构模型"
+          },
+          {
             "en": "finite element method",
             "zh": "有限元法"
           },
           {
-            "en": "Johnson-Cook model",
-            "zh": "Johnson-Cook模型"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
-          },
-          {
             "en": "safety factor",
             "zh": "安全系数"
-          },
-          {
-            "en": "machining",
-            "zh": "机械加工"
-          },
-          {
-            "en": "cemented carbide",
-            "zh": "硬质合金"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:23:51Z"
+      "first_seen_at": "2026-06-08T08:40:28Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7118066672",
+      "doi": "10.33667/2078-5631-2025-30-150-155",
+      "title": "A comparative review of the physical and chemical characteristics of titanium and zirconium dioxide used for the production of dental implants",
+      "abstract": "Taking into account the continuing search for the optimal material for the production of dental implants, it seems relevant to compare, according to the literature, the physico-chemical properties (mechanical properties, osseointegration ability, fatigue endurance of titanium (cpTi grade 1-4, Ti-6Al-4V) and yttrium-stabilized zirconium dioxide (ZrO 2 ) used for the production of dental implants. The analysis of published experimental clinical papers (in vitro, in vivo), studies using simulations based on the finite element method. The review shows a comparable ability to osseointegration in both materials, zirconium dioxide demonstrates a higher modulus of elasticity and hardness, but increased sensitivity to fatigue. Titanium retains the advantage of plasticity and proven long-term operation. Thus, titanium remains the most versatile and predictable material, while zirconium implants are a real and promising alternative for a number of clinical cases.",
+      "authors": [
+        "О. О. Yanushevich",
+        "N. I. Krikheli",
+        "P. Yu. Peretyagin",
+        "A. M. Tsitsiashvili",
+        "O. V. Kramar",
+        "N. Yu. Peretyagin",
+        "P. A. Naumenko",
+        "M. N. Bychkova",
+        "E. V. Kuznetsova",
+        "N. V. Solis Pinargote"
+      ],
+      "first_author_affiliation": "Russian University of Medicine of the Ministry of Health of Russia",
+      "corresponding_authors": [
+        {
+          "name": "О. О. Yanushevich",
+          "affiliation": "Russian University of Medicine of the Ministry of Health of Russia"
+        }
+      ],
+      "venue": "Medical alphabet",
+      "year": 2026,
+      "date": "2026-01-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.33667/2078-5631-2025-30-150-155",
+      "cited_by_count": 0,
+      "concepts": [
+        "Zirconium dioxide",
+        "Osseointegration",
+        "Materials science",
+        "Titanium",
+        "Zirconium",
+        "Titanium dioxide",
+        "Dental implant",
+        "Elasticity (physics)",
+        "Young's modulus",
+        "Implant",
+        "Metallurgy",
+        "Modulus",
+        "Dentistry",
+        "Elastic modulus"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文是一篇关于牙科植入物材料的综述，不涉及增材制造或Ti-6Al-4V的力学/疲劳性能。",
+        "why_not_core": "The paper is a review comparing titanium and zirconia for dental implants, without any focus on additive manufacturing processes or AM-specific mechanical/fatigue characterization.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": true
+        },
+        "tags": [
+          "dental implants",
+          "titanium",
+          "zirconium dioxide",
+          "review",
+          "osseointegration"
+        ],
+        "summary_zh": {
+          "motivation": "为牙科植入物寻找最优材料，比较钛和氧化锆的性能。",
+          "method": "基于文献综述，分析已发表的实验和模拟研究。",
+          "result": "钛在延展性和长期使用方面有优势，氧化锆弹性模量和硬度更高但疲劳敏感。",
+          "validation": "文献综述，无实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To find the optimal material for dental implants by comparing the physico-chemical properties of titanium and zirconia.",
+          "method": "A literature review of published experimental and simulation studies on titanium and zirconia dental implants.",
+          "result": "Titanium retains advantages in plasticity and proven long-term performance, while zirconia shows higher elastic modulus and hardness but increased fatigue sensitivity.",
+          "validation": "No experimental validation; the paper is a review of existing literature."
+        },
+        "key_terms": [
+          {
+            "en": "dental implants",
+            "zh": "牙科植入物"
+          },
+          {
+            "en": "titanium",
+            "zh": "钛"
+          },
+          {
+            "en": "zirconium dioxide",
+            "zh": "氧化锆"
+          },
+          {
+            "en": "osseointegration",
+            "zh": "骨整合"
+          },
+          {
+            "en": "fatigue endurance",
+            "zh": "疲劳耐久性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:40:28Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7118069817",
+      "doi": "10.1016/j.jmatprotec.2026.119197",
+      "title": "Role of laser beam shape and energy density in modulating surface quality, porosity, microstructure, and mechanical properties of PBF-LB/M Ti-6Al-4V",
+      "abstract": "Beam shaping has recently gained attention as a means to mitigate the thermal gradients and melt-pool instabilities associated with conventional Gaussian beams in laser powder bed fusion (PBF-LB/M), which often lead to surface roughness, defects, and microstructural inconsistency. This study examines the effects of different beam shapes and volumetric energy densities (VEDs) on the surface quality, porosity, microstructure, and mechanical response of Ti-6Al-4V. Cubic specimens were fabricated on an Aconity MIDI+ system using Gaussian, core-ring, and ring beam profiles over a VED range of 78–341 J/mm³. The results show that beam shaping with optimized VED reduces porosity, refines microstructure, and enhances mechanical performance. The Gaussian beam performed well at low VEDs (≤130 J/mm³) but exhibited increased surface roughness and keyhole porosity at higher energy inputs (≥150 J/mm³), whereas the ring-based beams initially showed higher porosity at low VEDs but achieved ~99.97% relative density and smoother surfaces at higher VEDs. The ring beam promoted stable conduction-mode melting, continuous prior-β grain growth, refined α′ martensitic microstructures, and strong crystallographic texture. From a mechanical perspective, Vickers hardness values (370–400 HV) correlated with the observed microstructural features. In addition, the Gaussian beam exhibited higher indicative strength at low VEDs but deteriorated with increasing energy input, whereas the ring beam showed the opposite trend, reaching an ultimate tensile strength of 1192 MPa and ~21% ductility under optimal conditions. Beam behavior was further evaluated using areal energy density (AED) normalized to the melt-pool width, indicating that melt-pool stability and the resulting surface quality, porosity, and microstructural evolution are primarily influenced by the spatial distribution of laser energy rather than nominal energy metrics alone. These findings provide a physical basis for laser beam shaping as an effective approach to broaden the stable processing window and achieve defect-free, texture-controlled Ti-6Al-4V components. • Beam shaping stabilized melt pool and reduced spatter and keyhole defects. • Ring beams achieved conduction-mode melting and near-full densification. • Broader melt pools promoted stable β-grain growth and enhanced texture alignment. • Shaped beams promote homogeneous α′ laths and reduce local overheating • Shaped beams gave smoother surfaces, high strength, and stable ductility.",
+      "authors": [
+        "Abid Ullah",
+        "Alexander E. Medvedev",
+        "Dirk Herzog",
+        "Andrey Molotnikov",
+        "Tingting Liu",
+        "Ingomar Kelbassa",
+        "Milan Brandt"
+      ],
+      "first_author_affiliation": "Institute for Industrialization of Smart Materials, Hamburg University of Technology, D-21079, Hamburg, Germany",
+      "corresponding_authors": [
+        {
+          "name": "Abid Ullah",
+          "affiliation": "Institute for Industrialization of Smart Materials, Hamburg University of Technology, D-21079, Hamburg, Germany"
+        },
+        {
+          "name": "Milan Brandt",
+          "affiliation": "RMIT Centre for Additive Manufacturing, RMIT University, Melbourne, VIC 3000, Australia"
+        }
+      ],
+      "venue": "Journal of Materials Processing Technology",
+      "year": 2026,
+      "date": "2026-01-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jmatprotec.2026.119197",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Beam (structure)",
+        "Porosity",
+        "Surface roughness",
+        "Ultimate tensile strength",
+        "Composite material",
+        "Surface finish",
+        "Ductility (Earth science)",
+        "Gaussian beam",
+        "Laser",
+        "Thermal stability",
+        "Thermal",
+        "Microstructure",
+        "Surface energy",
+        "Vickers hardness test",
+        "Beam diameter",
+        "Range (aeronautics)",
+        "Optics"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "microstructure",
+          "tensile strength",
+          "ultimate tensile strength",
+          "ductility",
+          "porosity",
+          "defect",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究增材制造Ti-6Al-4V的力学性能，包括强度和延展性，与用户关注的L1方向高度相关。",
+        "why_not_core": "The paper does not include fatigue testing or S-N data, which are part of the direction's focus on fatigue performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser beam shaping",
+          "Ti-6Al-4V",
+          "PBF-LB/M",
+          "mechanical properties",
+          "porosity",
+          "microstructure",
+          "surface roughness"
+        ],
+        "summary_zh": {
+          "motivation": "研究激光束形状和能量密度对增材制造Ti-6Al-4V性能的影响。",
+          "method": "使用高斯、环状等光束形状在不同能量密度下制备试样，分析表面、孔隙、微观结构和力学性能。",
+          "result": "环状光束在优化能量密度下获得近全致密、高强度和良好延展性。",
+          "validation": "通过硬度测试和拉伸试验验证力学性能。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of laser beam shape and energy density on the quality and mechanical properties of additively manufactured Ti-6Al-4V.",
+          "method": "Cubic specimens were fabricated with Gaussian, core-ring, and ring beam profiles under varying volumetric energy densities, and their surface, porosity, microstructure, and mechanical properties were characterized.",
+          "result": "Ring beams at optimized VED achieved near-full density (99.97%), high ultimate tensile strength (1192 MPa), and good ductility (~21%), outperforming Gaussian beams at higher energy inputs.",
+          "validation": "Mechanical validation via Vickers hardness and tensile testing."
+        },
+        "key_terms": [
+          {
+            "en": "laser beam shaping",
+            "zh": "激光束整形"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "conduction-mode melting",
+            "zh": "热传导模式熔化"
+          },
+          {
+            "en": "volumetric energy density",
+            "zh": "体积能量密度"
+          },
+          {
+            "en": "areal energy density",
+            "zh": "面积能量密度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:40:28Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7125985061",
+      "doi": "10.15480/882.16572",
+      "title": "Role of laser beam shape and energy density in modulating surface quality, porosity, microstructure, and mechanical properties of PBF-LB/M Ti-6Al-4V",
+      "abstract": "",
+      "authors": [
+        "Abid Ullah",
+        "Alexander E. Medvedev",
+        "Dirk Herzog",
+        "Andrey Molotnikov",
+        "Tingting Liu",
+        "Ingomar Kelbassa",
+        "Milan Brandt"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Abid Ullah",
+          "affiliation": ""
+        }
+      ],
+      "venue": "TUHH Open Research",
+      "year": 2026,
+      "date": "2026-01-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.15480/882.16572",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Beam (structure)",
+        "Surface roughness",
+        "Porosity",
+        "Ultimate tensile strength",
+        "Composite material",
+        "Surface finish",
+        "Laser",
+        "Ductility (Earth science)",
+        "Gaussian beam",
+        "Microstructure",
+        "Optics",
+        "Thermal",
+        "Thermal stability",
+        "Range (aeronautics)",
+        "Beam diameter",
+        "Surface energy",
+        "Vickers hardness test",
+        "Grain size"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究PBF-LB/M Ti-6Al-4V的激光参数（光束形状和能量密度）对表面质量、孔隙率、微观结构和力学性能的影响，完全符合方向L1的机械性能和疲劳基础研究要求。",
+        "why_not_core": "Fatigue life and S-N curves are not explicitly investigated; the study focuses on tensile properties and porosity rather than cyclic loading behavior.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "PBF-LB/M",
+          "laser beam shape",
+          "energy density",
+          "mechanical properties",
+          "porosity",
+          "microstructure",
+          "surface quality"
+        ],
+        "summary_zh": {
+          "motivation": "研究激光束形状和能量密度对PBF-LB/M Ti-6Al-4V性能的影响",
+          "method": "通过改变激光参数进行实验，分析表面质量、孔隙率、微观结构和力学性能",
+          "result": "建立了激光参数与材料性能之间的关联",
+          "validation": "通过力学测试验证试样性能"
+        },
+        "summary_en": {
+          "motivation": "To investigate how laser beam shape and energy density affect the surface quality, porosity, microstructure, and mechanical properties of PBF-LB/M Ti-6Al-4V.",
+          "method": "Experimental study with systematic variation of laser beam shapes and energy densities during powder bed fusion of Ti-6Al-4V.",
+          "result": "Correlations between laser parameters and material properties such as surface finish, porosity levels, microstructure features, and tensile properties are established.",
+          "validation": "Mechanical testing (e.g., tensile tests) of fabricated specimens provides experimental validation."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "laser beam shape",
+            "zh": "激光束形状"
+          },
+          {
+            "en": "energy density",
+            "zh": "能量密度"
+          },
+          {
+            "en": "surface quality",
+            "zh": "表面质量"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "powder bed fusion",
+            "zh": "粉末床熔融"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:40:28Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 4,
     "by_source": {
-      "openalex": 1
+      "openalex": 4
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 3
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 4
     },
-    "scored": 1,
+    "scored": 4,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 2,
+      "High": 2
     }
   }
 }

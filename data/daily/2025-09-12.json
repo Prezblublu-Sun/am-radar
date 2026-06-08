@@ -81,11 +81,11 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文涉及Ti6Al4V的喷丸处理，但未研究其疲劳或力学性能，因此与本方向（增材制造Ti-6Al-4V后处理对力学性能的影响）不相关。",
-        "why_not_core": "This paper does not evaluate any mechanical performance (fatigue, tensile, hardness) or relate post-processing to mechanical behavior of Ti-6Al-4V, which is the core focus of this direction.",
+        "relevance_to_user": "该论文涉及Ti6Al4V的喷丸后处理，但未研究力学性能（如疲劳），仅关注表面形貌和抗菌性，与用户需求不符。",
+        "why_not_core": "No mechanical performance (fatigue/tensile) data; purely surface properties and antibacterial response.",
         "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
@@ -93,21 +93,21 @@
         "tags": [
           "shot peening",
           "Ti6Al4V",
-          "surface roughness",
+          "surface topography",
           "wettability",
           "antibacterial"
         ],
         "summary_zh": {
-          "motivation": "研究喷丸处理对Ti6Al4V表面形态和抗菌性能的影响。",
-          "method": "使用细丸和常规丸粒对Ti6Al4V进行喷丸处理，分析表面形貌、润湿性和抗菌活性。",
-          "result": "喷丸后表面疏水，抗菌效果因菌种而异。",
+          "motivation": "研究喷丸处理对Ti6Al4V表面形貌和抗菌性能的影响。",
+          "method": "使用传统喷丸和精细喷丸处理Ti6Al4V合金。",
+          "result": "表面粗糙度增加，润湿性由亲水变为疏水，抗菌效果因菌种而异。",
           "validation": "通过接触角测量和细菌培养实验验证。"
         },
         "summary_en": {
-          "motivation": "To investigate how fine and conventional shot peening modify surface properties and antibacterial behavior of biomedical Ti6Al4V.",
-          "method": "Shot peening with fine (100-200 µm) and coarse (700-1000 µm) shots was applied to Ti6Al4V, and surface morphology, topography, wettability, and antibacterial activity against S. aureus and E. coli were characterized.",
-          "result": "Both peening treatments increased surface roughness and induced hydrophobicity; antibacterial response was strain-dependent, with increased S. aureus adhesion on fine-peened surfaces.",
-          "validation": "Experimental characterization using contact angle goniometry, profilometry, and bacterial colony counting."
+          "motivation": "The study investigates the effects of fine and conventional shot peening on surface properties and antibacterial activity of Ti6Al4V.",
+          "method": "Shot peening was performed with fine and coarse shots under controlled parameters.",
+          "result": "Both treatments increased roughness, shifted wettability to hydrophobic, and showed strain-dependent antibacterial response.",
+          "validation": "Contact angle measurements and bacterial colony counts against S. aureus and E. coli."
         },
         "key_terms": [
           {
@@ -119,34 +119,30 @@
             "zh": "Ti6Al4V合金"
           },
           {
-            "en": "surface roughness",
-            "zh": "表面粗糙度"
-          },
-          {
-            "en": "contact angle",
-            "zh": "接触角"
+            "en": "surface morphology",
+            "zh": "表面形貌"
           },
           {
             "en": "wettability",
             "zh": "润湿性"
           },
           {
-            "en": "antibacterial",
-            "zh": "抗菌"
+            "en": "antibacterial activity",
+            "zh": "抗菌活性"
           },
           {
-            "en": "Staphylococcus aureus",
-            "zh": "金黄色葡萄球菌"
+            "en": "contact angle",
+            "zh": "接触角"
           },
           {
-            "en": "Escherichia coli",
-            "zh": "大肠杆菌"
+            "en": "roughness",
+            "zh": "粗糙度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
     },
     {
       "source": "openalex",
@@ -209,8 +205,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是Ti-6Al-4V表面羟基磷灰石复合涂层，而非增材制造Ti-6Al-4V的力学与疲劳性能。",
-        "why_not_core": "The paper uses TIG cladding (not additive manufacturing) and focuses on biomedical coating properties, with no fatigue testing or mechanical characterization relevant to AM Ti-6Al-4V.",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V表面涂层，但非增材制造，且主要关注生物活性和腐蚀，未涉及增材制造Ti-6Al-4V的力学或疲劳性能。",
+        "why_not_core": "This paper is about HA-Ti composite coatings on Ti-6Al-4V via TIG cladding, not additive manufacturing of Ti-6Al-4V; it does not address mechanical or fatigue performance of AM Ti-6Al-4V.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -219,29 +215,25 @@
           "is_review": false
         },
         "tags": [
-          "TIG cladding",
-          "hydroxyapatite composite coating",
           "Ti-6Al-4V",
-          "biomedical coating",
-          "corrosion resistance"
+          "hydroxyapatite coating",
+          "TIG cladding",
+          "corrosion resistance",
+          "bioactivity"
         ],
         "summary_zh": {
-          "motivation": "在Ti-6Al-4V表面制备具有生物活性的HA-Ti复合涂层。",
-          "method": "采用TIG熔覆方法制备不同HA含量的复合涂层。",
-          "result": "10%HA涂层具有最佳耐腐蚀性和亲水性，5%HA保持力学完整性。",
-          "validation": "通过粘附强度、接触角、电化学测试和SBF浸泡实验验证。"
+          "motivation": "研究羟基磷灰石含量对Ti-6Al-4V表面复合涂层性能的影响。",
+          "method": "采用TIG熔覆法制备不同HA含量的Ti-HA复合涂层。",
+          "result": "10%HA涂层具有最佳耐腐蚀性和生物活性，但5%HA保持力学完整性。",
+          "validation": "通过接触角、电化学测试和SBF浸泡实验验证。"
         },
         "summary_en": {
-          "motivation": "To develop bioactive hydroxyapatite-titanium composite coatings on Ti-6Al-4V for biomedical implants.",
-          "method": "HA-Ti composite coatings with varying HA fractions were applied to Ti-6Al-4V using TIG cladding.",
-          "result": "The 10% HA coating showed the highest corrosion resistance and hydrophilicity, while the 5% HA coating maintained adequate adhesion strength.",
-          "validation": "Characterization included adhesion tests, contact angle measurements, electrochemical corrosion tests, and immersion in simulated body fluid."
+          "motivation": "Investigate the effect of hydroxyapatite fraction on performance of HA-Ti composite coatings on Ti-6Al-4V for biomedical implants.",
+          "method": "HA-Ti composite coatings with varying HA content were applied to Ti-6Al-4V using TIG cladding.",
+          "result": "10%HA coating showed highest corrosion resistance and bioactivity, while 5%HA maintained mechanical integrity.",
+          "validation": "Validation by contact angle measurements, electrochemical tests, and SBF immersion tests."
         },
         "key_terms": [
-          {
-            "en": "TIG cladding",
-            "zh": "TIG熔覆"
-          },
           {
             "en": "hydroxyapatite",
             "zh": "羟基磷灰石"
@@ -251,12 +243,12 @@
             "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "composite coating",
-            "zh": "复合涂层"
+            "en": "TIG cladding",
+            "zh": "TIG熔覆"
           },
           {
-            "en": "adhesion strength",
-            "zh": "粘附强度"
+            "en": "composite coating",
+            "zh": "复合涂层"
           },
           {
             "en": "corrosion resistance",
@@ -269,12 +261,16 @@
           {
             "en": "contact angle",
             "zh": "接触角"
+          },
+          {
+            "en": "simulated body fluid",
+            "zh": "模拟体液"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
     }
   ],
   "counts": {

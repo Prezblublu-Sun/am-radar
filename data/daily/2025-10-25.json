@@ -1,0 +1,275 @@
+{
+  "schema_version": "v2",
+  "date": "2025-10-25",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415592057",
+      "doi": "10.1016/j.matdes.2025.115022",
+      "title": "A morphology-aware process–structure–property framework for SLM AlSi10Mg: Decoupling grain and dendrite contributions",
+      "abstract": "• Develop an automated multi-scale PSP framework for AM process optimization. • Integrate ML and physics simulation to build an interpretable process map. • Separate microstructure predictors from misleading proxies for performance. • Identify equiaxed fraction as the dominant yield strength predictor. • Confirm that dendrite morphology is a misleading proxy for hardness. Establishing a robust process–structure–property (PSP) framework is critical for designing additively manufactured (AM) alloys with tailored performance. Here we introduce a morphology-aware PSP workflow for SLM AlSi10Mg that, for the first time, enables systematic quantification of dendritic/cellular morphologies by reconstructing the Si network into closed cells. This high-throughput approach, combined with EBSD grain analysis, thermophysical modelling, and validated statistics, allows direct comparison of grain- and dendrite-level predictors. We show that grain classification (equiaxed vs. columnar) refines the Hall–Petch relation and reliably predicts yield strength. In contrast, while dendritic morphology is widely assumed to correlate with hardness, it fails as a predictor. Moreover, this work presents direct microstructural evidence for decoupling between grains and dendrites. For instance, in the melt pool boundary region, columnar grains are predominantly filled with equiaxed dendrites. This indicates that the final dendritic morphology is more strongly influenced by local solidification conditions than by the parent grain it resides in. The proposed framework is potentially transferable to other AM alloys with cellular or dendritic microstructures (e.g., SLM Ti-6Al-4V, IN718) and highlights the risk of relying on visually intuitive but statistically unsupported proxies in PSP framework.",
+      "authors": [
+        "Lizi Cheng",
+        "Callum Churchman",
+        "Xiangwei Zhu",
+        "Ying Chen"
+      ],
+      "first_author_affiliation": "Department of Materials, The University of Manchester, Manchester M13 9PL, UK",
+      "corresponding_authors": [
+        {
+          "name": "Lizi Cheng",
+          "affiliation": "Department of Materials, The University of Manchester, Manchester M13 9PL, UK"
+        },
+        {
+          "name": "Ying Chen",
+          "affiliation": "Department of Materials, The University of Manchester, Manchester M13 9PL, UK"
+        }
+      ],
+      "venue": "Materials & Design",
+      "year": 2025,
+      "date": "2025-10-25",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.matdes.2025.115022",
+      "cited_by_count": 1,
+      "concepts": [
+        "Equiaxed crystals",
+        "Materials science",
+        "Microstructure",
+        "Dendrite (mathematics)",
+        "Electron backscatter diffraction",
+        "Decoupling (probability)",
+        "Grain boundary",
+        "Homogeneity (statistics)",
+        "Porosity",
+        "Biological system",
+        "Workflow",
+        "Anisotropy",
+        "Grain size",
+        "Smoothing",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "SLM",
+          "microstructure",
+          "yield strength"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是AlSi10Mg合金，未涉及Ti-6Al-4V，不符合方向要求。",
+        "why_not_core": "The paper studies AlSi10Mg, not Ti-6Al-4V, which is a strict requirement of the L1 direction.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "AlSi10Mg",
+          "SLM",
+          "process-structure-property",
+          "dendrite morphology",
+          "grain structure"
+        ],
+        "summary_zh": {
+          "motivation": "建立稳健的工艺-结构-性能框架以优化增材制造合金。",
+          "method": "开发形态感知的多尺度PSP框架，结合物理建模与统计验证。",
+          "result": "等轴晶分数是屈服强度的主导预测因子，而枝晶形态是误导性代理。",
+          "validation": "通过EBSD和热物理建模验证统计结果。"
+        },
+        "summary_en": {
+          "motivation": "To establish a robust process-structure-property framework for optimizing additively manufactured alloys.",
+          "method": "Developed a morphology-aware multi-scale PSP workflow integrating physical modeling and statistical validation.",
+          "result": "Equiaxed fraction is the dominant predictor of yield strength, while dendrite morphology is a misleading proxy.",
+          "validation": "Validated through EBSD analysis and thermophysical modeling."
+        },
+        "key_terms": [
+          {
+            "en": "AlSi10Mg",
+            "zh": "铝硅镁合金"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
+          },
+          {
+            "en": "process-structure-property",
+            "zh": "工艺-结构-性能"
+          },
+          {
+            "en": "equiaxed vs columnar",
+            "zh": "等轴晶与柱状晶"
+          },
+          {
+            "en": "dendrite morphology",
+            "zh": "枝晶形态"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:27:10Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415560477",
+      "doi": "10.3390/met15111185",
+      "title": "Microstructure and Properties of Gas-Nitrided Ti-6Al-4V Alloy",
+      "abstract": "To enhance its surface properties, the Ti-6Al-4V alloy was subjected to a nitrogen atmosphere at elevated temperatures. An orthogonal experiment was employed to investigate the effects of nitriding temperature, nitriding duration, and nitrogen flow rate on the surface hardness and the thickness of the nitrided layer. Mechanical properties were assessed using a micro-Vickers hardness tester and a universal material testing machine. Accelerated corrosion tests were performed by immersing the samples in solutions with varying HF concentrations, while wear resistance was evaluated via a circumferential dry sliding wear test. The results indicate that after nitriding, the subsurface region is primarily composed of TiN, Ti2N, and Ti2AlN. Nitriding temperature exerts the greatest influence on the thickness of the nitrided layer, whereas nitrogen flow rate has the least impact. Conversely, nitrogen flow rate shows the strongest effect on surface hardness, with nitriding temperature having the weakest influence. After nitriding, the microstructure becomes coarse with a decrease in substrate hardness. As nitriding temperature and time increase, the thickness of the nitrided layer grows, but both the tensile strength and percentage elongation after fracture decline. The sample nitrided at 850 °C for 2 h under a nitrogen flow rate of 20 mL·min−1 exhibits favorable overall properties. Compared with the as-received sample, its surface hardness increases noticeably, though both the tensile strength and percentage elongation after fracture decrease. In comparison to the continuous weight loss of the as-received sample when immersed in HF solution, the nitrided sample exhibits an initial mass loss of nearly zero, which suggests that the nitrided layer has a protective efficacy. After nitriding, the wear rate is reduced to no more than 3% of that of the as-received sample. Therefore, gas nitriding is considered a feasible technique for improving the surface properties of Ti-6Al-4V in complex environments.",
+      "authors": [
+        "Qiang Li",
+        "Yichun Zhu",
+        "Shiyu Du",
+        "Xuyan Liu",
+        "Rongbin Li",
+        "Yuqing Miao"
+      ],
+      "first_author_affiliation": "School of Mechanical Engineering, University of Shanghai for Science and Technology, Shanghai 200093, China",
+      "corresponding_authors": [
+        {
+          "name": "Qiang Li",
+          "affiliation": "School of Mechanical Engineering, University of Shanghai for Science and Technology, Shanghai 200093, China"
+        }
+      ],
+      "venue": "Metals",
+      "year": 2025,
+      "date": "2025-10-25",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/met15111185",
+      "cited_by_count": 1,
+      "concepts": [
+        "Nitriding",
+        "Materials science",
+        "Microstructure",
+        "Elongation",
+        "Metallurgy",
+        "Ultimate tensile strength",
+        "Alloy",
+        "Nitrogen",
+        "Hardness",
+        "Layer (electronics)",
+        "Composite material",
+        "Volumetric flow rate",
+        "Substrate (aquarium)",
+        "Indentation hardness",
+        "Corrosion",
+        "Fracture (geology)",
+        "Nitride"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "tensile strength",
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究气体渗氮处理对Ti-6Al-4V合金表面性能的影响，但未涉及增材制造，与本方向无关。",
+        "why_not_core": "This paper does not involve additive manufacturing; it studies gas nitriding of conventionally processed Ti-6Al-4V, which is a post-processing technique outside the scope of as-built AM mechanical/fatigue characterization.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "gas nitriding",
+          "surface hardness",
+          "wear resistance"
+        ],
+        "summary_zh": {
+          "motivation": "提升Ti-6Al-4V合金表面性能",
+          "method": "正交实验设计气体渗氮处理，测试硬度、拉伸、腐蚀和磨损",
+          "result": "渗氮后表面硬度提高但拉伸性能下降，耐磨性显著提升",
+          "validation": "显微硬度、万能材料试验机、浸没腐蚀和干滑动磨损实验"
+        },
+        "summary_en": {
+          "motivation": "To improve the surface properties of Ti-6Al-4V alloy through gas nitriding.",
+          "method": "Orthogonal experiments varying nitriding temperature, duration, and nitrogen flow rate were conducted, followed by microhardness, tensile, corrosion, and wear tests.",
+          "result": "Gas nitriding increased surface hardness and wear resistance but reduced tensile strength and elongation, with best overall properties at 850°C for 2h.",
+          "validation": "Mechanical testing (micro-Vickers hardness, universal testing machine), immersion corrosion tests, and dry sliding wear tests."
+        },
+        "key_terms": [
+          {
+            "en": "gas nitriding",
+            "zh": "气体渗氮"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "orthogonal experiment",
+            "zh": "正交实验"
+          },
+          {
+            "en": "surface hardness",
+            "zh": "表面硬度"
+          },
+          {
+            "en": "nitrided layer",
+            "zh": "渗氮层"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:27:10Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 2,
+    "by_source": {
+      "openalex": 2
+    },
+    "after_dedup": 2,
+    "after_routing": 2,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 2
+    },
+    "routed_by_source": {
+      "openalex": 2
+    },
+    "scored": 2,
+    "priority_counts": {
+      "Exclude": 2
+    }
+  }
+}

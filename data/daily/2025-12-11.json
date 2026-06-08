@@ -5,6 +5,133 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W7114808898",
+      "doi": "10.4028/p-zml07q",
+      "title": "Scanning Strategy Effects on Melt Pool Dynamics and Surface Quality in Selective Laser Melting of Ti-6Al-4V",
+      "abstract": "Selective Laser Melting (SLM) is a promising technique for fabricating intricate metal components. The scanning strategy is a critical parameter that can be optimized to improve the quality of the final parts, as different strategies produce temperature distribution variations. It can impact on the melt pool dynamics and the mechanical properties of the fabricated components. In this study, four scanning strategies were investigated: uni-directional scanning, altered-sequence uni-directional scanning, bi-directional scanning, and altered-sequence bi-directional scanning. Their effects on localized temperature distribution, melt pool morphology, and surface roughness (Ra) during the SLM process of Ti-6Al-4V across five tracks were evaluated using numerical simulation. The simulations were performed using FLOW-3D AM. This simulation integrates the Discrete Element Method (DEM) with Computational Fluid Dynamics (CFD) model. The simulation results demonstrated that the scanning sequence and scanning direction directly effects on the localized temperature distribution. Heat accumulation is more diffusely distributed over the last three scanned tracks in bi-directional scanning and altered sequences of bi-directional scanning. The scanning sequence significantly affects melt pool depth. A symmetric depth profiles of the five tracks were formed at altered sequences of uni-directional scanning and altered sequences of bi-directional scanning cases. Conversely, the left-skewed profiles, where melt pool depth gradually increases with each additional track, peaking at the last one, were generated at uni-directional scanning and bi-directional scanning cases. This trend is primarily attributed to heat accumulation from preceding solidified tracks. In addition, both scanning direction and scanning sequence are significantly impact on the surface roughness by changing from uni-directional scanning to bi-directional scanning showed 27.38% of Ra reduction and changing from uni-directional scanning to altered sequences of uni-directional showed 14.29% of Ra reduction.",
+      "authors": [
+        "Kawintra Khemabulkul",
+        "Patiparn Ninpetch",
+        "Piyapat Chuchuay",
+        "Pruet Kowitwarangkul"
+      ],
+      "first_author_affiliation": "The Sirindhorn International Thai-German Graduate School Mongkut’s University of Technology North Bangkok",
+      "corresponding_authors": [
+        {
+          "name": "Kawintra Khemabulkul",
+          "affiliation": "The Sirindhorn International Thai-German Graduate School Mongkut’s University of Technology North Bangkok"
+        }
+      ],
+      "venue": "Materials science forum",
+      "year": 2025,
+      "date": "2025-12-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.4028/p-zml07q",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Selective laser melting",
+        "Scanning electron microscope",
+        "Laser scanning",
+        "3d scanning",
+        "Surface roughness",
+        "Surface finish",
+        "Confocal laser scanning microscopy",
+        "Composite material",
+        "Scanning acoustic microscope",
+        "Surface (topology)",
+        "Scanning probe microscopy",
+        "Melting point",
+        "Flat surface",
+        "Quality (philosophy)",
+        "Process (computing)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "selective laser melting",
+          "SLM",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V SLM扫描策略对熔池和表面粗糙度的影响，但未涉及力学或疲劳性能，与用户关注的力学性能方向关联较弱。",
+        "why_not_core": "The paper focuses on melt pool dynamics and surface roughness via simulation, but reports no mechanical properties (tensile, fatigue) or fatigue-related data, which are required by the direction.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "selective laser melting",
+          "Ti-6Al-4V",
+          "scanning strategy",
+          "melt pool dynamics",
+          "surface roughness",
+          "numerical simulation"
+        ],
+        "summary_zh": {
+          "motivation": "研究扫描策略对SLM Ti-6Al-4V熔池动力学和表面粗糙度的影响",
+          "method": "采用FLOW-3D AM的DEM-CFD耦合数值模拟",
+          "result": "扫描序列显著影响熔池深度，双向扫描较单向扫描表面粗糙度降低27.38%",
+          "validation": "仅为数值模拟，缺乏实验验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effects of scanning strategy on melt pool dynamics and surface quality in SLM of Ti-6Al-4V.",
+          "method": "Coupled DEM-CFD simulations using FLOW-3D AM were performed for four scanning strategies over five tracks.",
+          "result": "Scanning sequence significantly influences melt pool depth, and bidirectional scanning reduces surface roughness by 27.38% compared to unidirectional scanning.",
+          "validation": "The study is purely numerical with no experimental validation."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "scanning strategy",
+            "zh": "扫描策略"
+          },
+          {
+            "en": "melt pool dynamics",
+            "zh": "熔池动力学"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "computational fluid dynamics",
+            "zh": "计算流体动力学"
+          },
+          {
+            "en": "discrete element method",
+            "zh": "离散元法"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W4417225630",
       "doi": "10.3390/ma18245555",
       "title": "Rapid Stress Relief of Ti-6Al-4V Titanium Alloy by Electropulsing Treatment",
@@ -74,12 +201,12 @@
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文涉及Ti-6Al-4V合金的后处理（电脉冲应力消除），但未针对增材制造材料，且缺乏力学性能评价。",
-        "why_not_core": "The paper does not involve additively manufactured Ti-6Al-4V and does not include mechanical performance evaluation (fatigue or tensile testing).",
-        "validation_kind": "none",
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了电脉冲处理对Ti-6Al-4V合金的快速应力消除效果，虽然未涉及增材制造，但该后处理方法对增材制造Ti-6Al-4V的疲劳性能改善具有潜在借鉴价值。",
+        "why_not_core": "The paper does not specifically address additive manufactured Ti-6Al-4V and does not include fatigue or tensile testing, which are central to the direction's focus on post-processing effects on mechanical performance of AM Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -87,23 +214,23 @@
           "is_review": false
         },
         "tags": [
-          "electropulsing treatment",
+          "electropulsing",
           "stress relief",
           "Ti-6Al-4V",
           "residual stress",
           "post-processing"
         ],
         "summary_zh": {
-          "motivation": "探究电脉冲处理对Ti-6Al-4V合金的快速应力消除效果。",
-          "method": "采用短脉冲宽度的可控交流高密度脉冲处理喷丸后的Ti-6Al-4V试样。",
-          "result": "电脉冲处理在114毫秒内成功消除高达90%的表面残余应力。",
-          "validation": "通过X射线衍射和EBSD测量残余应力和微观结构变化。"
+          "motivation": "探究电脉冲处理对Ti-6Al-4V合金的快速应力消除效果",
+          "method": "施加高密度脉冲电流进行快速处理",
+          "result": "114毫秒内消除高达90%的喷丸诱导残余应力",
+          "validation": "通过XRD和EBSD实验测量残余应力和微观结构变化"
         },
         "summary_en": {
-          "motivation": "To investigate the effectiveness of electropulsing treatment for rapid stress relief in Ti-6Al-4V alloy.",
-          "method": "A controllable alternating high-density pulsing current with short pulse width was applied to shot-peened Ti-6Al-4V specimens.",
-          "result": "Up to 90% of surface residual stresses were relieved within 114 ms, with reductions in low-angle grain boundaries and local misorientation.",
-          "validation": "Residual stress measurements via X-ray diffraction and microstructure characterization using EBSD."
+          "motivation": "To investigate the rapid stress relief of Ti-6Al-4V alloy via electropulsing treatment as an alternative to conventional vacuum annealing.",
+          "method": "A controllable electropulsing treatment with alternating high-density pulsing current and short pulse width was applied to shot-peened specimens.",
+          "result": "Up to 90% of surface residual stresses were relieved within a treatment duration of 114 ms, with no significant grain growth or phase transformation.",
+          "validation": "Experimental validation was performed using X-ray diffraction residual stress measurements and electron backscatter diffraction microstructure analysis."
         },
         "key_terms": [
           {
@@ -115,26 +242,34 @@
             "zh": "应力消除"
           },
           {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
             "en": "residual stress",
             "zh": "残余应力"
           },
           {
             "en": "shot peening",
-            "zh": "喷丸"
+            "zh": "喷丸处理"
+          },
+          {
+            "en": "electron wind force",
+            "zh": "电子风力"
           },
           {
             "en": "dislocation movement",
             "zh": "位错运动"
           },
           {
-            "en": "electron wind force",
-            "zh": "电子风力"
+            "en": "low-angle grain boundaries",
+            "zh": "小角度晶界"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     },
     {
       "source": "openalex",
@@ -207,11 +342,11 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "不涉及增材制造Ti-6Al-4V的后处理，仅研究传统钛合金加工中的冷却润滑。",
-        "why_not_core": "Paper studies machining of conventional Ti-6Al-4V, not additive-manufactured Ti-6Al-4V post-processing (heat treatment, HIP, surface treatments) and does not evaluate fatigue or mechanical performance.",
-        "validation_kind": "mechanical_testing",
+        "relevance_to_user": "该论文研究Ti-6Al-4V的切削加工冷却润滑，而非增材制造后的后处理工艺，与L2方向无关。",
+        "why_not_core": "The paper focuses on machining (cutting) cooling/lubrication, not on post-processing treatments such as heat treatment, HIP, shot peening, or surface coatings for AM Ti-6Al-4V.",
+        "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
@@ -223,33 +358,33 @@
           "cooling lubrication"
         ],
         "summary_zh": {
-          "motivation": "研究钛合金加工中不同低温介质与生物润滑剂的协同冷却润滑机制。",
-          "method": "基于射流核心理论和连续介质假设建立传热与渗透模型，并进行铣削实验。",
-          "result": "低温CO2相比低温空气，平均温升、切削力和表面粗糙度分别降低23.6%、32.8%和11.8%。",
-          "validation": "通过铣削实验验证模型预测的冷却润滑效果。"
+          "motivation": "研究不同低温介质与生物润滑剂协同的冷却润滑机制。",
+          "method": "建立切削区对流换热系数和渗透模型，并进行铣削实验验证。",
+          "result": "低温CO2相比低温空气降低温度23.6%，切削力32.8%，表面粗糙度11.8%。",
+          "validation": "通过铣削实验验证模型和冷却润滑效果。"
         },
         "summary_en": {
-          "motivation": "To investigate the cooling and lubrication mechanism of different cryogenic media combined with bio-lubricant in Ti-6Al-4V machining.",
-          "method": "Convective heat transfer and penetration models were developed based on jet core theory and continuum assumption, validated by milling experiments.",
-          "result": "Cryogenic CO₂ outperformed cryogenic air, reducing average temperature rise by 23.6%, cutting force by 32.8%, and surface roughness by 11.8%.",
-          "validation": "Experimental milling tests were conducted to validate the model predictions."
+          "motivation": "To clarify the cooling and lubrication mechanism of different cryogenic media combined with bio-lubricant in machining Ti-6Al-4V.",
+          "method": "Convective heat transfer coefficient and penetration models were developed based on jet core theory, followed by milling experiments.",
+          "result": "Cryogenic CO2 reduced average temperature rise by 23.6%, cutting force by 32.8%, and surface roughness by 11.8% compared to cryogenic air.",
+          "validation": "Validation was performed through milling experiments comparing cryogenic CO2 and cryogenic air."
         },
         "key_terms": [
+          {
+            "en": "cryogenic minimum quantity lubrication",
+            "zh": "低温微量润滑"
+          },
           {
             "en": "Ti-6Al-4V",
             "zh": "Ti-6Al-4V钛合金"
           },
           {
-            "en": "cryogenic minimum quantity lubrication (CMQL)",
-            "zh": "低温微量润滑技术"
+            "en": "milling",
+            "zh": "铣削"
           },
           {
-            "en": "cooling and lubrication mechanism",
-            "zh": "冷却润滑机制"
-          },
-          {
-            "en": "convective heat transfer coefficient",
-            "zh": "对流换热系数"
+            "en": "cooling and lubrication",
+            "zh": "冷却润滑"
           },
           {
             "en": "penetration ability",
@@ -259,25 +394,27 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1,
       "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
       "Low": 1,
+      "Medium": 1,
       "Exclude": 1
     }
   }

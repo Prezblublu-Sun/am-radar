@@ -56,6 +56,9 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "additive manufacturing",
+          "3D printing",
+          "microstructure",
           "surface roughness"
         ],
         "ti6al4v_postprocess": [
@@ -64,11 +67,11 @@
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Medium",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "本文是一篇关于增材制造零件机加工的综述，未涉及Ti-6Al-4V的后处理控制对疲劳/力学性能的影响。",
-        "why_not_core": "The paper is a review on machining of AM parts, not on post-processing treatments (heat treatment, HIP, peening, etc.) that modify fatigue/mechanical performance of Ti-6Al-4V.",
+        "read_action": "Background only",
+        "relevance_to_user": "此综述涉及增材制造Ti-6Al-4V零件的机械加工，但未定量研究后处理对疲劳/力学性能的影响。",
+        "why_not_core": "This is a review that discusses machinability of AM Ti-6Al-4V but does not provide experimental mechanical data or a specific post-processing effect on fatigue/tensile performance.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
@@ -79,21 +82,20 @@
         "tags": [
           "additive manufacturing",
           "machining",
-          "review",
-          "metal alloys",
-          "Ti6Al4V"
+          "Ti-6Al-4V",
+          "review"
         ],
         "summary_zh": {
-          "motivation": "调研增材制造金属零件机加工研究现状",
-          "method": "文献综述，分类讨论打印工艺与机加工关系",
-          "result": "指出增材制造零件需后续机加工，Ti6Al4V研究不足",
-          "validation": "无实验验证，仅为文献分析"
+          "motivation": "综述增材制造金属零件加工现状，指出Ti6Al4V加工研究不足。",
+          "method": "文献综述，分类金属合金与3D打印技术，分析层取向和微观结构对加工的影响。",
+          "result": "强调后加工不可替代，需研究Ti6Al4V特定打印方法的铣削工艺。",
+          "validation": "无实验验证，仅文献总结。"
         },
         "summary_en": {
-          "motivation": "This review surveys current scientific research on machining of parts produced by additive manufacturing from metal alloys, highlighting the need for further studies.",
-          "method": "A literature review classifying metal alloys and 3D printing technologies, analyzing the influence of printing layer orientation and anisotropy on machining.",
-          "result": "The review concludes that finish machining remains indispensable due to surface roughness and dimensional accuracy requirements, and identifies a lack of research on milling of Ti6Al4V parts.",
-          "validation": "No experimental validation; purely analytical review."
+          "motivation": "This review surveys current research on machining of additively manufactured metal parts and highlights the need for studies on Ti6Al4V.",
+          "method": "A classification of metal alloys and printing technologies is provided, and the influence of layer orientation and microstructure anisotropy on machinability is analyzed.",
+          "result": "It concludes that finish machining cannot be eliminated and that milling of Ti6Al4V parts produced by specific methods requires further investigation.",
+          "validation": "No experimental validation; purely a literature review."
         },
         "key_terms": [
           {
@@ -102,51 +104,286 @@
           },
           {
             "en": "machining",
-            "zh": "机加工"
+            "zh": "机械加工"
           },
           {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V钛合金"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "layer orientation",
             "zh": "层取向"
           },
           {
-            "en": "anisotropy",
-            "zh": "各向异性"
+            "en": "microstructure anisotropy",
+            "zh": "微观结构各向异性"
           },
           {
-            "en": "surface roughness",
-            "zh": "表面粗糙度"
+            "en": "machinability",
+            "zh": "可加工性"
           },
           {
-            "en": "dimensional accuracy",
-            "zh": "尺寸精度"
+            "en": "finish machining",
+            "zh": "精加工"
+          },
+          {
+            "en": "review",
+            "zh": "综述"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411697590",
+      "doi": "10.1007/s12206-025-2301-z",
+      "title": "Systematic studies on structural instability in microscopic polycrystalline Ti-6Al-4V alloys subject to annealing via molecular dynamics",
+      "abstract": "",
+      "authors": [
+        "Taeil Yi"
+      ],
+      "first_author_affiliation": "School of Mechanical Engineering, Kyungnam University, Changwon, 51767, Korea",
+      "corresponding_authors": [
+        {
+          "name": "Taeil Yi",
+          "affiliation": "School of Mechanical Engineering, Kyungnam University, Changwon, 51767, Korea"
+        }
+      ],
+      "venue": "Journal of Mechanical Science and Technology",
+      "year": 2025,
+      "date": "2025-06-26",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s12206-025-2301-z",
+      "cited_by_count": 2,
+      "concepts": [
+        "Instability",
+        "Materials science",
+        "Crystallite",
+        "Annealing (glass)",
+        "Molecular dynamics",
+        "Composite material",
+        "Mechanics"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "annealing"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文通过分子动力学研究退火对Ti-6Al-4V显微组织不稳定性，但未直接涉及力学性能，与后处理控制方向关联较弱。",
+        "why_not_core": "No experimental or modeling data on mechanical performance (fatigue, tensile) after annealing; focuses only on atomic-scale structural instability without linking to macroscopic properties.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "annealing",
+          "molecular dynamics",
+          "polycrystalline",
+          "structural instability"
+        ],
+        "summary_zh": {
+          "motivation": "探究退火过程中Ti-6Al-4V多晶合金的结构不稳定性机理",
+          "method": "采用分子动力学模拟研究退火对微观组织的影响",
+          "result": "揭示了退火条件下原子尺度结构不稳定性演化规律",
+          "validation": "无实验验证，纯分子动力学模拟"
+        },
+        "summary_en": {
+          "motivation": "To investigate the mechanisms of structural instability in Ti-6Al-4V polycrystalline alloys during annealing.",
+          "method": "Molecular dynamics simulations were employed to study microstructural evolution under annealing conditions.",
+          "result": "The simulations revealed atomic-scale structural instability evolution during annealing.",
+          "validation": "No experimental validation; purely computational molecular dynamics study."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "annealing",
+            "zh": "退火"
+          },
+          {
+            "en": "molecular dynamics",
+            "zh": "分子动力学"
+          },
+          {
+            "en": "structural instability",
+            "zh": "结构不稳定性"
+          },
+          {
+            "en": "polycrystalline",
+            "zh": "多晶"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411670386",
+      "doi": "10.3390/ma18133032",
+      "title": "Microstructure and Mechanical Properties of Functionally Graded Materials on a Ti-6Al-4V Titanium Alloy by Laser Cladding",
+      "abstract": "Functionally graded materials (FGMs) are fabricated on Ti-6Al-4V alloy surfaces to improve insufficient surface hardness and wear resistance. Microstructure and mechanical properties and strengthening–toughening mechanisms of FGMs were investigated. The FGM cladding layer exhibits distinct gradient differentiation, demonstrating gradient variations in the nanoindentation hardness, wear resistance, and Al/V elemental composition. Molten pool dynamics analysis reveals that Marangoni convection drives Al/V elements toward the molten pool surface, forming compositional gradients. TiN-AlN eutectic structures generated on the FGM surface enhance wear resistance. Rapid solidification enables heterogeneous nucleation for grain refinement. The irregular wavy interface morphology strengthens interfacial bonding through mechanical interlocking, dispersing impact loads and suppressing crack propagation. FGMs exhibit excellent wear resistance and impact toughness compared with Ti-6Al-4V titanium alloy. The specific wear rate is 1.17 × 10−2 mm3/(N·m), dynamic compressive strength reaches 1701.6 MPa, and impact absorption energy achieves 189.6 MJ/m3. This work provides theoretical guidance for the design of FGM strengthening of Ti-6Al-4V surfaces.",
+      "authors": [
+        "Lanyi Liu",
+        "Xiaoyang Huang",
+        "Guocheng Wang",
+        "Xiaoyong Zhang",
+        "Kechao Zhou",
+        "Bingfeng Wang"
+      ],
+      "first_author_affiliation": "State Key Laboratory of Powder Metallurgy, Central South University, Changsha 410083, China",
+      "corresponding_authors": [
+        {
+          "name": "Bingfeng Wang",
+          "affiliation": "School of Materials Science and Engineering, Central South University, Changsha 410083, China"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-06-26",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18133032",
+      "cited_by_count": 7,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Eutectic system",
+        "Nanoindentation",
+        "Composite material",
+        "Toughness",
+        "Cladding (metalworking)",
+        "Titanium alloy",
+        "Alloy",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V表面功能梯度熔覆层的力学性能，但未研究基体材料的疲劳性能或增材制造状态下的力学行为。",
+        "why_not_core": "No fatigue characterization or as-built AM mechanical properties; focuses on surface coating via laser cladding rather than bulk Ti-6Al-4V mechanical/fatigue performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser cladding",
+          "functionally graded materials",
+          "Ti-6Al-4V",
+          "wear resistance",
+          "impact toughness",
+          "dynamic compression"
+        ],
+        "summary_zh": {
+          "motivation": "提高Ti-6Al-4V表面硬度和耐磨性",
+          "method": "激光熔覆制备功能梯度材料并表征微观结构与力学性能",
+          "result": "熔覆层硬度、耐磨性和冲击韧性显著优于基体",
+          "validation": "通过纳米压痕、磨损试验和动态压缩试验验证"
+        },
+        "summary_en": {
+          "motivation": "To improve the surface hardness and wear resistance of Ti-6Al-4V alloy.",
+          "method": "Functionally graded materials were fabricated on Ti-6Al-4V by laser cladding, and microstructure and mechanical properties were investigated.",
+          "result": "The FGM cladding layer exhibited superior wear resistance, dynamic compressive strength (1701.6 MPa), and impact absorption energy (189.6 MJ/m³) compared to the base alloy.",
+          "validation": "Validated through nanoindentation, wear tests, dynamic compression, and impact testing."
+        },
+        "key_terms": [
+          {
+            "en": "laser cladding",
+            "zh": "激光熔覆"
+          },
+          {
+            "en": "functionally graded materials",
+            "zh": "功能梯度材料"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "impact toughness",
+            "zh": "冲击韧性"
+          },
+          {
+            "en": "dynamic compressive strength",
+            "zh": "动态压缩强度"
+          },
+          {
+            "en": "nanoindentation hardness",
+            "zh": "纳米压痕硬度"
+          },
+          {
+            "en": "Marangoni convection",
+            "zh": "马兰戈尼对流"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
-      "Exclude": 1
+      "Medium": 1,
+      "Low": 2
     }
   }
 }

@@ -64,11 +64,11 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究TiAlV/Zn复合材料中界面金属间相，不涉及增材制造Ti-6Al-4V的后处理及其疲劳/力学性能。",
-        "why_not_core": "The paper does not study any post-processing treatment (e.g., heat treatment, HIP, shot peening) on AM Ti-6Al-4V; instead it characterizes intermetallic phases in a Ti/Zn composite material, which is outside the scope of Layer 2 focus.",
-        "validation_kind": "in_vitro",
+        "relevance_to_user": "该论文研究Ti-6Al-4V/锌复合材料中的金属间相，而非增材制造Ti-6Al-4V的后处理对疲劳/力学性能的调控。",
+        "why_not_core": "No post-processing treatment relevant to AM Ti-6Al-4V fatigue/mechanical performance; focuses on intermetallic phase formation in Ti/Zn composites.",
+        "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
@@ -78,19 +78,19 @@
           "zinc",
           "intermetallic phases",
           "composite",
-          "implantology"
+          "immersion"
         ],
         "summary_zh": {
-          "motivation": "研究Ti/Zn复合材料中脆性金属间相的形成，以避免影响植入物骨整合。",
-          "method": "将Ti-6Al-4V或Ti块浸入锌熔体中不同时间，观察界面相演变。",
-          "result": "发现金属间相的演变顺序依赖于保温时间和温度，表面处理也有影响。",
-          "validation": "通过实验样品的微观结构表征验证相形成。"
+          "motivation": "探究Ti/Zn及TiAlV/Zn复合材料中脆性金属间相的形成条件。",
+          "method": "将Ti-6Al-4V或Ti块浸入不同温度锌熔体中，改变保温时间并空冷。",
+          "result": "金属间相演化序列依赖于温度和保温时间。",
+          "validation": "通过观察界面结构验证相组成。"
         },
         "summary_en": {
-          "motivation": "To understand the formation of brittle intermetallic phases in Ti/Zn composite materials that could impair implant osseointegration.",
-          "method": "Ti-6Al-4V or Ti bulk specimens were immersed in molten zinc for varied dwell times to study interfacial phase evolution.",
-          "result": "The sequence of intermetallic phase evolution was found to depend on dwell time and temperature, with surface treatments also affecting the boundary structure.",
-          "validation": "Experimental microstructural characterization of the samples was performed to validate phase formation."
+          "motivation": "To understand the formation of brittle intermetallic phases in Ti/Zn and TiAlV/Zn composites for implant applications.",
+          "method": "Ti-6Al-4V or Ti bulks were immersed in molten zinc at various temperatures and dwell times, then air-cooled.",
+          "result": "The evolution sequence of intermetallic phases depends on dwell time and temperature.",
+          "validation": "Phase identity and interface structure were characterized by microscopy and diffraction."
         },
         "key_terms": [
           {
@@ -98,26 +98,158 @@
             "zh": "Ti-6Al-4V"
           },
           {
-            "en": "intermetallic phases",
-            "zh": "金属间相"
+            "en": "zinc",
+            "zh": "锌"
           },
           {
-            "en": "zinc melt",
-            "zh": "锌熔体"
+            "en": "intermetallic phases",
+            "zh": "金属间相"
           },
           {
             "en": "composite",
             "zh": "复合材料"
           },
           {
-            "en": "implantology",
-            "zh": "种植学"
+            "en": "immersion",
+            "zh": "浸渍"
+          },
+          {
+            "en": "interface",
+            "zh": "界面"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7154959459",
+      "doi": "10.3390/coatings16040490",
+      "title": "Study on the Wear Resistance of Laser Cladding h-BN Reinforced by TiCN/Ni-Based Coating on TC4 Alloy Surface",
+      "abstract": "Three Ni-based composite coatings with varying TiCN/h-BN contents were fabricated on the surface of Ti-6Al-4V (TC4) alloy by laser cladding. The coatings were formulated with a fixed 15% TiCN and 0%, 2% and 5% h-BN, corresponding to L1–L3 coatings. The microstructure and phase composition were fully characterized and investigated. In addition, the microhardness and wear resistance of the coating were evaluated too. The analysis revealed that the L1–L3 coatings primarily consisted of Ti, TiNi, Ti(C, N) and TiAl3 phases. Microstructural analysis indicated that the top region of the coating was predominantly composed of granular crystals, while the middle and bonding regions featured a combination of dendrites and white granular crystals. The average microhardness values for the L1–L3 coatings were measured at 1203.8, 1216.8 and 1235.5 HV0.2, respectively, while the corresponding wear volumes were 0.098, 0.094 and 0.086 mm3. As the h-BN content increased, the microstructure of the Ni-based composite coating became finer and finer. Some TiB particles were also generated in the coating, which made the average microhardness and wear resistance increase gradually. Notably, the coating with 5% h-BN demonstrated the highest average microhardness and optimal wear resistance. Compared with the substrate, 5% h-BN increased the wear resistance of the substrate by 47.6%. The primary wear mechanism observed was abrasive wear.",
+      "authors": [
+        "Yu Liu",
+        "Guohui Li",
+        "Ruoyu Xu",
+        "Hui Liang",
+        "Nan Ma",
+        "Zhanhui Zhang"
+      ],
+      "first_author_affiliation": "International Shipping Research Institute, Jiujiang Polytechnic University of Science and Technology, Gongqing City 332020, China",
+      "corresponding_authors": [
+        {
+          "name": "Zhanhui Zhang",
+          "affiliation": "School of Intelligent Vehicle, Guangzhou Polytechnic University, No. 1342 Shiliang Road, Panyu District, Guangzhou 511483, China"
+        }
+      ],
+      "venue": "Coatings",
+      "year": 2026,
+      "date": "2026-04-18",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/coatings16040490",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Indentation hardness",
+        "Microstructure",
+        "Coating",
+        "Abrasive",
+        "Alloy",
+        "Metallurgy",
+        "Composite material",
+        "Wear resistance",
+        "Composite number",
+        "Substrate (aquarium)",
+        "Cladding (metalworking)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TC4",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "本文研究的是TC4合金表面激光熔覆涂层的耐磨性，而非增材制造Ti-6Al-4V本身的力学或疲劳性能。",
+        "why_not_core": "The paper is about laser cladding a coating onto Ti-6Al-4V for wear resistance, not about the mechanical or fatigue properties of additively manufactured Ti-6Al-4V itself; it does not report tensile, fatigue, or other mechanical characterization of the base material.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser cladding",
+          "wear resistance",
+          "Ti-6Al-4V",
+          "h-BN",
+          "TiCN",
+          "Ni-based coating"
+        ],
+        "summary_zh": {
+          "motivation": "为了提高TC4合金表面的耐磨性",
+          "method": "采用激光熔覆技术在TC4表面制备不同h-BN含量的Ni基复合涂层",
+          "result": "添加5% h-BN的涂层硬度最高(1235.5 HV0.2)，磨损量最小(0.086 mm³)，耐磨性提高47.6%",
+          "validation": "通过显微硬度测试和磨损实验进行验证"
+        },
+        "summary_en": {
+          "motivation": "To improve the wear resistance of TC4 alloy surface.",
+          "method": "Ni-based composite coatings with varying TiCN/h-BN content were fabricated on TC4 by laser cladding.",
+          "result": "The coating with 5% h-BN exhibited the highest microhardness (1235.5 HV0.2) and best wear resistance, with 47.6% improvement over the substrate.",
+          "validation": "Microhardness testing and wear volume measurements."
+        },
+        "key_terms": [
+          {
+            "en": "laser cladding",
+            "zh": "激光熔覆"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金TC4"
+          },
+          {
+            "en": "h-BN",
+            "zh": "六方氮化硼"
+          },
+          {
+            "en": "TiCN",
+            "zh": "碳氮化钛"
+          },
+          {
+            "en": "Ni-based coating",
+            "zh": "镍基涂层"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "abrasive wear",
+            "zh": "磨粒磨损"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
     },
     {
       "source": "openalex",
@@ -168,6 +300,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "microstructure",
           "surface roughness"
         ],
         "ti6al4v_postprocess": [
@@ -177,40 +310,37 @@
         ]
       },
       "llm": {
-        "priority": "High",
-        "relevance_level": "Direct",
-        "read_action": "Read now",
-        "relevance_to_user": "该论文研究了激光冲击喷丸对Ti-6Al-4V合金显微组织和力学性能的影响，属于后处理控制范畴，与用户方向高度相关。",
-        "why_not_core": "This paper does not directly measure fatigue life or cyclic loading behavior, focusing instead on coating integrity and static mechanical properties.",
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及激光冲击喷丸（LSP）后处理对Ti-6Al-4V合金微观结构和力学性能的影响，但未涉及增材制造（AM）Ti-6Al-4V，且未进行疲劳测试，与L2方向（AM Ti-6Al-4V后处理控制）不直接相关。",
+        "why_not_core": "Paper does not address additively manufactured Ti-6Al-4V; it uses conventional wrought Ti-6Al-4V. Also, it focuses on coating integrity and hardness, not fatigue or tensile properties as required by the L2 direction.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
-          "has_uncertainty_quantification": true,
+          "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
           "laser shock peening",
-          "Ti-6Al-4V",
           "TiO2 coating",
-          "electrophoretic deposition",
-          "hardness",
-          "contact angle",
-          "scratch test",
-          "post-processing",
-          "surface modification"
+          "Ti-6Al-4V",
+          "microstructure",
+          "mechanical properties",
+          "scratch test"
         ],
         "summary_zh": {
-          "motivation": "研究激光冲击喷丸对Ti-6Al-4V合金TiO2涂层性能的影响。",
-          "method": "溶胶-凝胶法制备金红石型TiO2，通过电泳沉积优化参数，比较有无喷丸基体。",
-          "result": "喷丸后硬度从659.5 HV提升至952.1 HV，接触角降低，涂层抗裂性增强。",
-          "validation": "微观结构观察、硬度测试、接触角测量、粘附性划痕测试。"
+          "motivation": "探究激光冲击喷丸对Ti-6Al-4V合金涂层完整性和力学性能的改善效果。",
+          "method": "采用电泳沉积在常规和喷丸处理Ti-6Al-4V上制备TiO2涂层，优化电压和时间。",
+          "result": "喷丸处理使硬度从659.5 HV提升至952.1 HV，接触角降低，抗划痕性能增强。",
+          "validation": "通过显微结构、硬度测试和划痕实验验证涂层性能。"
         },
         "summary_en": {
-          "motivation": "To evaluate the effect of laser shock peening on the microstructure, mechanical properties, and coating integrity of TiO2-coated Ti-6Al-4V alloy.",
-          "method": "Rutile TiO2 coatings were deposited via electrophoretic deposition on both laser shock peened and unpeened Ti-6Al-4V substrates, with process parameters optimized.",
-          "result": "Laser shock peening significantly increased hardness (from 659.5 to 952.1 HV) and improved surface roughness, resulting in enhanced coating adhesion and delayed crack initiation.",
-          "validation": "Microstructural characterization, hardness testing, contact angle measurements, and scratch adhesion tests."
+          "motivation": "To evaluate the effect of laser shock peening on the microstructure, mechanical behavior, and coating integrity of Ti-6Al-4V alloy for improved surface protection.",
+          "method": "Rutile TiO2 coatings were deposited via electrophoretic deposition on both conventional and laser shock peened Ti-6Al-4V substrates with optimized voltage of 70 V and 4-minute process time.",
+          "result": "Laser shock peening increased hardness from 659.5±15.1 HV to 952.1±34.7 HV, reduced contact angle, and delayed crack initiation and propagation during scratch tests.",
+          "validation": "Microstructural characterization, hardness measurements, and qualitative adhesion/scratch tests were performed to validate the coating integrity and mechanical improvements."
         },
         "key_terms": [
           {
@@ -218,20 +348,20 @@
             "zh": "激光冲击喷丸"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
-          {
             "en": "TiO2 coating",
-            "zh": "TiO2涂层"
+            "zh": "二氧化钛涂层"
           },
           {
             "en": "electrophoretic deposition",
             "zh": "电泳沉积"
           },
           {
-            "en": "hardness",
-            "zh": "硬度"
+            "en": "rutile",
+            "zh": "金红石"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
           },
           {
             "en": "contact angle",
@@ -242,37 +372,157 @@
             "zh": "划痕测试"
           },
           {
-            "en": "sol-gel method",
-            "zh": "溶胶-凝胶法"
+            "en": "dislocation network",
+            "zh": "位错网络"
           },
           {
-            "en": "rutile",
-            "zh": "金红石"
+            "en": "orthopedic bioimplant",
+            "zh": "骨科生物植入物"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7154967293",
+      "doi": "10.3390/jfb17040198",
+      "title": "Bone Compatibility of Experimental Ti–Ag and Ti–Cu Alloy Dental Implants in a Beagle Dog Model",
+      "abstract": "Titanium-silver (Ti-Ag) and titanium-copper (Ti-Cu) alloys have been developed to improve the mechanical properties and machinability of titanium (Ti) for dental applications while maintaining corrosion resistance comparable to that of pure Ti. Herein, cylindrical dental implants composed of experimental Ti-20Ag, Ti-30Ag, Ti-5Cu, and Ti-10Cu (mass%) alloys were fabricated and implanted into the jawbones of beagle dogs to evaluate bone compatibility. Pure Ti and Ti-6Al-4V alloy implants were used as controls. Because the implant surfaces were mechanically polished, the experimental alloys, which exhibited higher hardness than Ti, showed lower surface roughness than Ti. Radiographic observations revealed no remarkable bone resorption around any implants during the experimental period. Histological evaluation demonstrated new bone formation and partial bone contact around implants at 1 and 3 months post-implantation. Although the bone-implant contact ratio was relatively low owing to the cylindrical implant design and limited initial stability, no significant differences were observed between the experimental alloys and Ti. These results indicate that Ti-Ag and Ti-Cu alloys improve mechanical properties while maintaining bone compatibility comparable to that of Ti, suggesting their potential as candidate materials for dental implant applications, particularly for narrow dental implants.",
+      "authors": [
+        "Yasumitsu Ohtsuka",
+        "Taichi Tenkumo",
+        "Masatoshi Takahashi",
+        "Yasuhiro Nakanishi",
+        "Hiroaki Takebe",
+        "Takashi Nezu"
+      ],
+      "first_author_affiliation": "Ohtsuka Dental Clinic, 77-18 Miyukigahara-machi, Utsunomiya 321-0982, Japan",
+      "corresponding_authors": [
+        {
+          "name": "Masatoshi Takahashi",
+          "affiliation": "Division of Biomaterials and Bioengineering, School of Dentistry, Health Sciences University of Hokkaido, 1757 Kanazawa, Tobetsu-cho, Hokkaido 061-0293, Japan"
+        }
+      ],
+      "venue": "Journal of Functional Biomaterials",
+      "year": 2026,
+      "date": "2026-04-18",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/jfb17040198",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Beagle",
+        "Titanium alloy",
+        "Alloy",
+        "Dental implant",
+        "Titanium",
+        "Machinability",
+        "Implant",
+        "Surface roughness",
+        "Biomedical engineering",
+        "Dentistry",
+        "Composite material",
+        "Osseointegration",
+        "Bone resorption",
+        "Compatibility (geochemistry)",
+        "Surface finish"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文未涉及Ti-6Al-4V增材制造的力学或疲劳性能。",
+        "why_not_core": "Paper focuses on Ti-Ag and Ti-Cu alloys for dental implants, not on Ti-6Al-4V additive manufacturing mechanical/fatigue characterization.",
+        "validation_kind": "animal",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "titanium alloys",
+          "dental implants",
+          "bone compatibility",
+          "beagle dog model",
+          "Ti-Ag",
+          "Ti-Cu"
+        ],
+        "summary_zh": {
+          "motivation": "开发Ti-Ag和Ti-Cu合金以改善纯钛的力学性能。",
+          "method": "在比格犬下颌骨植入实验合金与纯钛对照。",
+          "result": "Ti-Ag和Ti-Cu合金与纯钛骨相容性相当。",
+          "validation": "动物实验（比格犬模型）。"
+        },
+        "summary_en": {
+          "motivation": "To develop titanium-silver and titanium-copper alloys with improved mechanical properties and machinability for dental applications.",
+          "method": "Cylindrical dental implants made from experimental Ti-Ag and Ti-Cu alloys were implanted into beagle dog jawbones, with pure Ti and Ti-6Al-4V as controls.",
+          "result": "The experimental alloys exhibited bone compatibility comparable to pure Ti, with no significant differences in bone-implant contact.",
+          "validation": "In vivo animal study using beagle dogs with radiographic and histological evaluation."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-Ag alloy",
+            "zh": "钛银合金"
+          },
+          {
+            "en": "Ti-Cu alloy",
+            "zh": "钛铜合金"
+          },
+          {
+            "en": "dental implant",
+            "zh": "牙种植体"
+          },
+          {
+            "en": "bone compatibility",
+            "zh": "骨相容性"
+          },
+          {
+            "en": "beagle dog model",
+            "zh": "比格犬模型"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 4,
     "by_source": {
-      "openalex": 2
+      "openalex": 4
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
-      "ti6al4v_postprocess": 2
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 4
     },
-    "scored": 2,
+    "scored": 4,
     "priority_counts": {
-      "Exclude": 1,
-      "High": 1
+      "Exclude": 2,
+      "Low": 2
     }
   }
 }

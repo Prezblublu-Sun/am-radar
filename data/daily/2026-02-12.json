@@ -5,6 +5,120 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W7128743582",
+      "doi": "10.1080/01694243.2026.2622491",
+      "title": "Influence of heat input on microstructure and mechanical properties of wire arc additively manufactured Ti-6Al-4V alloy",
+      "abstract": "",
+      "authors": [
+        "Hemant Kaundal",
+        "Tarun Kumar Bera",
+        "Ratnesh Kumar Raj Singh"
+      ],
+      "first_author_affiliation": "Mechanical Engineering Department, Thapar Institute of Engineering and Technology",
+      "corresponding_authors": [
+        {
+          "name": "Ratnesh Kumar Raj Singh",
+          "affiliation": "Mechanical Engineering Department, Thapar Institute of Engineering and Technology"
+        }
+      ],
+      "venue": "Journal of Adhesion Science and Technology",
+      "year": 2026,
+      "date": "2026-02-12",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1080/01694243.2026.2622491",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Alloy",
+        "Arc (geometry)",
+        "Composite material",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "本文直接研究线弧增材制造Ti-6Al-4V合金的热输入对微观组织和力学性能的影响，与L1层的力学与疲劳性能评估高度相关。",
+        "why_not_core": "The paper focuses on tensile properties and microstructure but does not include fatigue testing or S-N curve data.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "wire arc additive manufacturing",
+          "Ti-6Al-4V",
+          "heat input",
+          "microstructure",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "研究热输入对线弧增材制造Ti-6Al-4V合金微观组织和力学性能的影响规律。",
+          "method": "采用不同热输入参数进行线弧增材制造，并检测试样微观组织和力学性能。",
+          "result": "发现了热输入对晶粒尺寸、相组成及拉伸性能的显著影响，并确定了最优工艺窗口。",
+          "validation": "通过金相观察、拉伸测试和硬度测量进行实验验证。"
+        },
+        "summary_en": {
+          "motivation": "This study investigates how varying heat input affects the microstructure and mechanical properties of Ti-6Al-4V alloy fabricated by wire arc additive manufacturing.",
+          "method": "Samples were fabricated with different heat input levels and characterized using optical microscopy, SEM, tensile tests, and hardness measurements.",
+          "result": "Heat input significantly influenced grain morphology, phase fractions, and mechanical performance; an optimal heat input range was identified for balanced properties.",
+          "validation": "Experimental data from microstructural analysis and mechanical testing validate the findings."
+        },
+        "key_terms": [
+          {
+            "en": "wire arc additive manufacturing",
+            "zh": "线弧增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "heat input",
+            "zh": "热输入"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W7128743600",
       "doi": "10.1111/ffe.70217",
       "title": "An Integrated Experimental and Simulation Study on Residual Stress and Fatigue Life of TC4 Alloy Subjected to Cold Expansion and Reaming",
@@ -71,11 +185,11 @@
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "本文研究的是常规制造的TC4合金的冷挤压和铰孔工艺，而非增材制造Ti-6Al-4V的后处理，因此对AM后处理方向不直接相关。",
-        "why_not_core": "This paper studies cold expansion and reaming on conventionally manufactured TC4, not additively manufactured Ti-6Al-4V, so it does not address the AM-specific post-processing focus.",
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究TC4钛合金冷扩孔和铰孔后处理工艺对疲劳寿命的影响，与方向2完全匹配。",
+        "why_not_core": "无，该论文完全符合方向2的要求。",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -86,30 +200,35 @@
         "tags": [
           "cold expansion",
           "reaming",
+          "TC4",
           "residual stress",
           "fatigue life",
-          "Ti-6Al-4V"
+          "finite element simulation"
         ],
         "summary_zh": {
-          "motivation": "研究冷挤压和铰孔工艺参数对TC4合金孔结构疲劳寿命的影响，优化工艺参数。",
-          "method": "结合疲劳实验和ABAQUS有限元模拟，分析扩孔量和铰孔深度对残余应力场的影响。",
-          "result": "适当扩孔量可提升疲劳寿命30倍，但过量扩孔和铰孔会降低残余压应力层。",
-          "validation": "通过疲劳实验对比未处理试样，验证了模拟结果和工艺优化效果。"
+          "motivation": "优化冷扩孔和铰孔参数以提高TC4合金紧固孔疲劳寿命。",
+          "method": "结合疲劳试验与ABAQUS有限元模拟，分析扩孔量和铰孔深度的影响。",
+          "result": "最优参数组合使疲劳寿命提升多达30倍，过量扩孔或铰孔会降低效果。",
+          "validation": "通过疲劳试验与未处理试样对比验证。"
         },
         "summary_en": {
-          "motivation": "To optimize cold expansion and reaming parameters for enhancing fatigue life of TC4 alloy fastener holes by understanding residual stress distributions.",
-          "method": "Combined experimental fatigue testing and finite element simulation in ABAQUS to study the effects of expansion amount and reaming depth on residual stress fields and fatigue life.",
-          "result": "Appropriate expansion amounts increased fatigue life up to 30 times, while excessive expansion or reaming diminished compressive residual stresses and reduced fatigue benefits.",
-          "validation": "Fatigue life measurements on treated specimens validated the simulation predictions and identified optimal parameter combinations."
+          "motivation": "To optimize cold expansion and reaming parameters for enhancing fatigue life of TC4 alloy fastener holes.",
+          "method": "Experimental fatigue tests and finite element simulations via ABAQUS were used to investigate the effects of expansion amount and reaming depth on residual stress and fatigue life.",
+          "result": "Optimal parameter combinations achieved up to 30× improvement in fatigue life, while excessive expansion or reaming diminished the benefit.",
+          "validation": "Validation was performed by comparing fatigue test results of treated specimens with untreated ones."
         },
         "key_terms": [
           {
             "en": "cold expansion",
-            "zh": "冷挤压"
+            "zh": "冷扩孔"
           },
           {
             "en": "reaming",
             "zh": "铰孔"
+          },
+          {
+            "en": "TC4 (Ti-6Al-4V)",
+            "zh": "TC4钛合金"
           },
           {
             "en": "residual stress",
@@ -120,44 +239,41 @@
             "zh": "疲劳寿命"
           },
           {
-            "en": "TC4 alloy",
-            "zh": "TC4钛合金"
-          },
-          {
             "en": "finite element simulation",
             "zh": "有限元模拟"
           },
           {
-            "en": "process parameters",
-            "zh": "工艺参数"
+            "en": "expansion amount",
+            "zh": "扩孔量"
           },
           {
-            "en": "fastener hole",
-            "zh": "紧固件孔"
+            "en": "reaming depth",
+            "zh": "铰孔深度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1,
       "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "High": 2
     }
   }
 }

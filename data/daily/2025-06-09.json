@@ -47,6 +47,9 @@
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "Ti64",
+          "selective laser melting",
+          "3D printing",
+          "SLM",
           "yield strength",
           "porosity",
           "defect"
@@ -63,8 +66,8 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文涉及Ti-6Al-4V多孔支架，但未针对股骨柄结构设计或应力遮挡分析。",
-        "why_not_core": "Does not address femoral stem structural design, stress shielding, Gruen zones, or stem fatigue testing; focuses on generic bone scaffolds.",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V多孔支架的力学与生物学性能，但未针对股骨柄结构设计，仅提供背景参考。",
+        "why_not_core": "Paper does not address femoral stem design, hip implant geometry, stress shielding, or stem fatigue; it is a general bone scaffold study without implant-specific structural analysis.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -73,23 +76,25 @@
           "is_review": false
         },
         "tags": [
+          "lattice scaffold",
           "Ti-6Al-4V",
-          "scaffold",
-          "lattice",
-          "SLM",
-          "bone replacement"
+          "selective laser melting",
+          "bone replacement",
+          "porous structure",
+          "mechanical properties",
+          "cytocompatibility"
         ],
         "summary_zh": {
-          "motivation": "针对临界骨缺损，利用3D打印制造钛合金支架",
-          "method": "采用SLM制备不同晶格和TPMS支架，测试力学和生物学性能",
-          "result": "300-600微米孔径支架在力学和生物学性能间达到平衡",
-          "validation": "力学测试和体外细胞实验"
+          "motivation": "为临界尺寸骨缺损优化多孔钛合金支架结构",
+          "method": "利用SLM制备金刚石、立方体及Gyroid点阵结构并改变孔径",
+          "result": "300-600μm孔径支架在力学与细胞响应间达到最佳平衡",
+          "validation": "通过压缩测试与成骨细胞培养验证力学与生物相容性"
         },
         "summary_en": {
-          "motivation": "To address critical-sized bone defects by designing 3D-printed titanium scaffolds with optimized mechanical and biological performance.",
-          "method": "Selective laser melting was used to fabricate Ti-6Al-4V scaffolds with diamond, cubic, and gyroid lattice architectures, followed by mechanical compression tests and in vitro cytocompatibility assays.",
-          "result": "Scaffolds with 300–600 μm pores exhibited Young's modulus within the cortical bone range and enhanced cell proliferation, providing an optimal balance between mechanical integrity and biological response.",
-          "validation": "Mechanical testing (compression) and in vitro cell culture experiments (leachate analysis, DAPI staining) were performed."
+          "motivation": "To optimize porous titanium scaffolds for treating critical-sized bone defects by balancing mechanical integrity and biological response.",
+          "method": "Ti-6Al-4V scaffolds with diamond, cubic, and gyroid lattice architectures were fabricated via selective laser melting with pore sizes from 300 to 900 μm.",
+          "result": "Scaffolds with 300–600 μm pores exhibited optimal stiffness within cortical bone range and enhanced cell proliferation.",
+          "validation": "Mechanical compression tests and in vitro osteoblast assays confirmed structural and biocompatibility performance."
         },
         "key_terms": [
           {
@@ -97,60 +102,196 @@
             "zh": "选择性激光熔化"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
-          },
-          {
             "en": "lattice scaffold",
-            "zh": "晶格支架"
+            "zh": "点阵支架"
           },
           {
-            "en": "triply periodic minimal surface",
-            "zh": "三周期极小曲面"
-          },
-          {
-            "en": "gyroid",
-            "zh": "螺旋结构"
-          },
-          {
-            "en": "Young's modulus",
-            "zh": "杨氏模量"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
             "en": "pore size",
             "zh": "孔径"
           },
           {
-            "en": "critical-sized bone defect",
-            "zh": "临界骨缺损"
+            "en": "mechanical properties",
+            "zh": "力学性能"
           },
           {
-            "en": "osseointegration",
-            "zh": "骨整合"
+            "en": "cytocompatibility",
+            "zh": "细胞相容性"
+          },
+          {
+            "en": "bone defect",
+            "zh": "骨缺损"
+          },
+          {
+            "en": "gyroid",
+            "zh": "Gyroid结构"
+          },
+          {
+            "en": "diamond lattice",
+            "zh": "金刚石点阵"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411153598",
+      "doi": "10.3390/mi16060692",
+      "title": "Hydroxyapatite-Complexed Type I Collagen and Fibrinogen-Modified Porous Titanium Alloy Scaffold: Promoting Osteogenesis and Soft Tissue Integration",
+      "abstract": "Titanium and its alloy scaffolds are widely utilized in clinical settings; however, their biologically inert surfaces and inherent mechanical characteristics impede osteogenesis and soft tissue integration, thereby limiting their application. Selective laser melting (SLM) was employed to fabricate scaffolds with matched cortical bone mechanical properties, achieving a composite coating of hydroxyapatite complexed with trace elements of silicon, strontium, and fluoride (mHA), along with type I collagen (Col I) and fibrinogen (Fg), thus activating the scaffold surface. Initially, we utilized the excellent adhesive properties of dopamine to co-deposit mHA and polydopamine (PDA) onto porous Ti-6Al-4V scaffolds, which was followed by immobilization of type I collagen and fibrinogen onto PDA. This bioinorganic/bioprotein composite coating, formed via PDA bonding, exhibits excellent stability. Moreover, in vitro cell experiments demonstrate excellent biocompatibility of the porous Ti-6Al-4V scaffold with composite bioactive coatings on its surface. Preosteoblasts (MC3T3-E1) and human keratinocytes (HaCaT) exhibit enhanced adhesion and proliferation activity, and the osteogenic performance of the scaffold is significantly improved. The PDA-mHA-Col I-Fg composite-coated porous titanium alloy scaffold holds significant promise in enhancing the efficacy of percutaneous bone transplantation and requires further investigation.",
+      "authors": [
+        "Wenhao Tao",
+        "Gang Tian",
+        "Xu Han",
+        "Jianyong Gao",
+        "Yingchun Zhu",
+        "XU Xiao-gang"
+      ],
+      "first_author_affiliation": "Department of Stomatology, First Affiliated Hospital of Naval Medical University, Shanghai 200433, China",
+      "corresponding_authors": [
+        {
+          "name": "Yingchun Zhu",
+          "affiliation": "Key Laboratory of Inorganic Coating Materials of Chinese Academy of Sciences, Shanghai Institute of Ceramics, Chinese Academy of Sciences, Shanghai 200050, China"
+        },
+        {
+          "name": "XU Xiao-gang",
+          "affiliation": "Department of Stomatology, First Affiliated Hospital of Naval Medical University, Shanghai 200433, China"
+        }
+      ],
+      "venue": "Micromachines",
+      "year": 2025,
+      "date": "2025-06-09",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/mi16060692",
+      "cited_by_count": 1,
+      "concepts": [
+        "Biocompatibility",
+        "Materials science",
+        "Scaffold",
+        "Titanium",
+        "Composite number",
+        "Surface modification",
+        "Biomedical engineering",
+        "Osseointegration",
+        "Coating",
+        "Titanium alloy",
+        "Chemistry",
+        "Alloy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "selective laser melting",
+          "SLM"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要关注生物活性涂层对成骨和软组织整合的影响，未涉及Ti-6Al-4V的力学或疲劳性能表征。",
+        "why_not_core": "No mechanical characterization (tensile, fatigue, hardness) or modeling of Ti-6Al-4V; the paper focuses on biological response and surface coating rather than mechanical performance.",
+        "validation_kind": "in_vitro",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "selective laser melting",
+          "porous scaffold",
+          "hydroxyapatite",
+          "type I collagen",
+          "fibrinogen",
+          "osteogenesis",
+          "soft tissue integration",
+          "biocompatibility"
+        ],
+        "summary_zh": {
+          "motivation": "改善钛合金支架的生物惰性表面，促进成骨和软组织整合。",
+          "method": "利用SLM制备多孔Ti-6Al-4V支架，并通过多巴胺共沉积mHA及固定胶原和纤维蛋白原构建复合涂层。",
+          "result": "复合涂层支架显著增强了前成骨细胞和角质形成细胞的粘附与增殖，提高了成骨性能。",
+          "validation": "通过体外细胞实验验证了涂层的生物相容性和促细胞活性。"
+        },
+        "summary_en": {
+          "motivation": "To address the biological inertness of titanium alloy scaffolds and enhance osteogenesis and soft tissue integration for percutaneous bone transplantation.",
+          "method": "Selective laser melting was used to fabricate porous Ti-6Al-4V scaffolds, followed by polydopamine-assisted co-deposition of hydroxyapatite composite and subsequent immobilization of type I collagen and fibrinogen.",
+          "result": "The composite coating improved adhesion, proliferation, and osteogenic differentiation of MC3T3-E1 and HaCaT cells compared to uncoated scaffolds.",
+          "validation": "In vitro cell assays (MC3T3-E1 and HaCaT) demonstrated enhanced biocompatibility and osteogenic activity."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "hydroxyapatite",
+            "zh": "羟基磷灰石"
+          },
+          {
+            "en": "type I collagen",
+            "zh": "I型胶原蛋白"
+          },
+          {
+            "en": "fibrinogen",
+            "zh": "纤维蛋白原"
+          },
+          {
+            "en": "osteogenesis",
+            "zh": "成骨作用"
+          },
+          {
+            "en": "soft tissue integration",
+            "zh": "软组织整合"
+          },
+          {
+            "en": "porous scaffold",
+            "zh": "多孔支架"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_femoral_stem": 1
+      "ti6al4v_femoral_stem": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Low": 1
+      "Low": 2
     }
   }
 }

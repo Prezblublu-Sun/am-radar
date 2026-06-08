@@ -77,11 +77,11 @@
         ]
       },
       "llm": {
-        "priority": "High",
+        "priority": "Medium",
         "relevance_level": "Direct",
-        "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究激光冲击和喷丸后处理对Ti-6Al-4V疲劳性能的影响，符合方向聚焦。",
-        "why_not_core": "No experimental mechanical data; purely simulation-based study lacks experimental validation.",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究激光冲击喷丸和喷丸强化对Ti-6Al-4V榫头微动疲劳的协同效应，属于后处理对疲劳性能的影响，与用户方向直接相关。",
+        "why_not_core": "纯模拟预测，缺乏实验验证和数据支撑，无法提供定量实验结果。",
         "validation_kind": "simulation_case",
         "flags": {
           "has_experimental_validation": false,
@@ -94,24 +94,25 @@
           "shot peening",
           "fretting fatigue",
           "Ti-6Al-4V",
+          "dovetail joint",
           "simulation"
         ],
         "summary_zh": {
-          "motivation": "研究激光冲击和喷丸协同处理对钛合金疲劳性能的影响。",
-          "method": "采用仿真和预测方法分析后处理对微结构及疲劳寿命的作用。",
-          "result": "揭示了协同处理显著提升疲劳寿命的机制。",
-          "validation": "通过数值仿真与文献数据对比验证模型准确性。"
+          "motivation": "研究激光冲击与喷丸协同对Ti-6Al-4V榫头微动疲劳的影响",
+          "method": "采用数值模拟预测表面处理后的疲劳寿命",
+          "result": "揭示了两种工艺协同提高抗微动疲劳性能的机制",
+          "validation": "基于计算模型验证预测结果"
         },
         "summary_en": {
-          "motivation": "Investigate the synergistic effect of laser shock peening and shot peening on fretting fatigue behavior of Ti-6Al-4V dovetail joints.",
-          "method": "Developed a simulation framework integrating residual stress and microstructure evolution to predict fatigue life under combined peening treatments.",
-          "result": "The synergistic treatment produced deeper compressive residual stress and enhanced fatigue resistance compared to single peening methods.",
-          "validation": "Validated the simulation results against published experimental data and fretting fatigue test benchmarks."
+          "motivation": "To investigate the synergetic effect of laser shock peening and shot peening on fretting fatigue of Ti-6Al-4V dovetail joints.",
+          "method": "A simulation and prediction approach was developed to model the post-processing treatments and their influence on fatigue life.",
+          "result": "The model quantified the synergistic improvement in fretting fatigue resistance.",
+          "validation": "Validation was performed through numerical simulation case studies without experimental data."
         },
         "key_terms": [
           {
             "en": "laser shock peening",
-            "zh": "激光冲击强化"
+            "zh": "激光冲击喷丸"
           },
           {
             "en": "shot peening",
@@ -123,25 +124,21 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "zh": "Ti-6Al-4V合金"
           },
           {
             "en": "dovetail joint",
-            "zh": "燕尾榫接头"
+            "zh": "榫头连接"
           },
           {
             "en": "simulation",
-            "zh": "仿真"
-          },
-          {
-            "en": "prediction",
-            "zh": "预测"
+            "zh": "数值模拟"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:19:10Z"
+      "first_seen_at": "2026-06-08T08:31:07Z"
     }
   ],
   "counts": {
@@ -159,7 +156,7 @@
     },
     "scored": 1,
     "priority_counts": {
-      "High": 1
+      "Medium": 1
     }
   }
 }

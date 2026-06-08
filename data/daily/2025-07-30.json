@@ -61,11 +61,11 @@
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "论文涉及Ti-6Al-4V的EDM表面改性，但未关注疲劳性能，也未明确使用增材制造工艺，与层2方向（AM Ti-6Al-4V后处理对疲劳的影响）关联较弱。",
-        "why_not_core": "No fatigue data, no AM-specific material, and the post-processing (EDM) is not evaluated for mechanical performance beyond hardness.",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是非增材制造的Ti-6Al-4V合金的EDM表面改性，未涉及增材制造或疲劳性能，与关注方向不匹配。",
+        "why_not_core": "The paper does not involve additive-manufactured Ti-6Al-4V; it is unclear whether the material is cast or wrought, and no fatigue or cyclic mechanical testing is reported.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -74,31 +74,27 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
           "EDM",
           "surface modification",
-          "hardness",
-          "cytotoxicity"
+          "Ti-6Al-4V",
+          "microhardness",
+          "biocompatibility"
         ],
         "summary_zh": {
-          "motivation": "通过EDM表面改性提升Ti-6Al-4V合金在植入物中的性能。",
-          "method": "使用不同介电液和极性进行EDM处理，随后进行形貌、硬度及细胞毒性测试。",
-          "result": "EDM处理使表面粗糙度和硬度显著增加，亲水性改善，且无细胞毒性。",
-          "validation": "通过显微硬度测试和体外细胞毒性实验验证表面性能。"
+          "motivation": "改善Ti-6Al-4V合金表面性能以适合植入物应用。",
+          "method": "采用电火花加工(EDM)改变表面形态并测试性能。",
+          "result": "EDM提高了表面粗糙度、亲水性和显微硬度，且无细胞毒性。",
+          "validation": "通过光学显微镜、粗糙度、硬度、接触角和细胞毒性实验验证。"
         },
         "summary_en": {
-          "motivation": "This study aims to enhance the surface properties of Ti-6Al-4V alloy for implant applications through electrical discharge machining (EDM) surface modification.",
-          "method": "Samples were subjected to EDM under varying dielectric fluids and polarities, followed by morphological characterization, hardness testing, and in vitro cytotoxicity assays.",
-          "result": "EDM processing increased surface roughness by up to ~304% in Ra and 305% in Rz, raised Vickers microhardness to 1520 HV in the recast layer, improved hydrophilicity, and maintained non-cytotoxicity per ISO 10993-5.",
-          "validation": "The study employed mechanical testing (Vickers microhardness) and in vitro cell assays to validate surface modifications."
+          "motivation": "To enhance the surface properties of Ti-6Al-4V alloy for biomedical implant applications.",
+          "method": "Electrical discharge machining (EDM) with varying dielectric fluids and polarities was used to modify the surface, followed by morphological, mechanical, and biocompatibility characterization.",
+          "result": "EDM increased surface roughness by up to 304% Ra, improved wettability, and raised microhardness to 1520 HV in the recast layer, while maintaining non-cytotoxicity per ISO 10993-5.",
+          "validation": "Experimental validation through optical microscopy, roughness measurements, Vickers microhardness, contact angle tests, and in vitro cytotoxicity assays."
         },
         "key_terms": [
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
-          {
-            "en": "electrical discharge machining (EDM)",
+            "en": "EDM",
             "zh": "电火花加工"
           },
           {
@@ -106,8 +102,16 @@
             "zh": "表面改性"
           },
           {
-            "en": "hardness",
-            "zh": "硬度"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "contact angle",
+            "zh": "接触角"
           },
           {
             "en": "cytotoxicity",
@@ -117,7 +121,7 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
     },
     {
       "source": "openalex",
@@ -168,6 +172,9 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "microstructure",
           "residual stress"
         ],
         "ti6al4v_postprocess": [
@@ -178,10 +185,10 @@
       "llm": {
         "priority": "Medium",
         "relevance_level": "Transferable",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文研究了Ti-6Al-4V激光粉末床熔融后不同温度去应力退火对残余应力和腐蚀性能的影响，虽未直接测试疲劳或拉伸性能，但为后处理工艺优化提供了重要参考。",
-        "why_not_core": "No fatigue or tensile testing data; outcome focused on corrosion resistance rather than mechanical performance (e.g., fatigue life, tensile strength).",
-        "validation_kind": "mechanical_testing",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文研究了L-PBF Ti6Al4V的应力消除热处理对残余应力和耐腐蚀性的影响，但未涉及疲劳或拉伸力学性能，因此对您的方向（后处理控制力学性能）仅具有参考价值。",
+        "why_not_core": "No fatigue or tensile testing; focuses on corrosion and residual stress rather than mechanical performance (fatigue, tensile).",
+        "validation_kind": "in_vitro",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -189,24 +196,25 @@
           "is_review": false
         },
         "tags": [
+          "L-PBF",
+          "Ti-6Al-4V",
           "stress relieving",
-          "Ti6Al4V",
-          "laser powder bed fusion",
-          "corrosion",
+          "heat treatment",
           "residual stress",
-          "microcapillary electrochemistry"
+          "corrosion",
+          "electrochemical"
         ],
         "summary_zh": {
-          "motivation": "确定最优去应力退火温度，平衡残余应力消除与耐蚀性",
-          "method": "对LPBF Ti6Al4V在400、600、800°C进行去应力退火，结合XRD、SEM和微毛细管电化学表征",
-          "result": "600°C为最佳温度，有效降低残余应力且耐蚀性基本保持，800°C因相变严重损害钝化膜",
-          "validation": "XRD测量残余应力、电化学测试评价耐蚀性、SEM观察显微组织"
+          "motivation": "寻找最优低温应力消除温度，在减小残余应力的同时保持L-PBF Ti6Al4V的耐腐蚀性。",
+          "method": "在400、600、800°C进行应力退火，通过XRD、SEM和微毛细管电化学方法表征微观结构和腐蚀行为。",
+          "result": "600°C退火有效降低残余应力且不影响腐蚀性能，800°C则因相变损害钝化膜。",
+          "validation": "通过模拟口腔环境的电化学测试验证腐蚀行为，并XRD验证残余应力。"
         },
         "summary_en": {
-          "motivation": "This work aims to identify the optimal stress-relieving temperature that minimizes residual stresses while preserving corrosion resistance in L-PBF Ti6Al4V.",
-          "method": "Stress relieving heat treatments at 400, 600, and 800 °C were performed, followed by characterization via XRD, SEM, and a novel microcapillary electrochemical method under simulated oral conditions.",
-          "result": "600 °C was found to be the optimal temperature, effectively reducing residual stress with minimal impact on corrosion resistance; 800 °C caused α'→α+β transformation and severely degraded passive film integrity.",
-          "validation": "Residual stress was measured by XRD, corrosion behavior was assessed electrochemically, and microstructure was observed by SEM."
+          "motivation": "This study aims to identify the optimal low-temperature stress relieving heat treatment that minimizes residual stresses while preserving corrosion resistance in L-PBF Ti6Al4V.",
+          "method": "Stress relieving at 400, 600, and 800°C was applied, and microstructure, residual stress, and electrochemical behavior were characterized using XRD, SEM, and microcapillary electrochemical techniques under simulated oral conditions.",
+          "result": "Heat treatment at 600°C effectively reduces residual stress with minimal impact on corrosion resistance, whereas 800°C leads to α'→α+β transformation and significantly degrades passive film integrity.",
+          "validation": "Experimental validation through X-ray diffraction for residual stress and microcapillary electrochemical testing for corrosion performance."
         },
         "key_terms": [
           {
@@ -214,12 +222,12 @@
             "zh": "激光粉末床熔融"
           },
           {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V钛合金"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
             "en": "stress relieving",
-            "zh": "去应力退火"
+            "zh": "应力消除"
           },
           {
             "en": "residual stress",
@@ -234,41 +242,412 @@
             "zh": "微毛细管电化学方法"
           },
           {
-            "en": "passive film",
-            "zh": "钝化膜"
+            "en": "X-ray diffraction",
+            "zh": "X射线衍射"
           },
           {
-            "en": "α' martensite",
-            "zh": "α'马氏体"
+            "en": "α′ martensite",
+            "zh": "α′马氏体"
           },
           {
             "en": "phase transformation",
             "zh": "相变"
+          },
+          {
+            "en": "passive film",
+            "zh": "钝化膜"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412764090",
+      "doi": "10.1016/j.jallcom.2025.182659",
+      "title": "Constitutive relationship and deformation mechanism of SLM Ti-6Al-4V alloy under high strain rate",
+      "abstract": "",
+      "authors": [
+        "Chaorun Si",
+        "Shuo Wang",
+        "Haodong Sun",
+        "Yi Feng"
+      ],
+      "first_author_affiliation": "School of Mechanical Engineering, Northwestern Polytechnical University, Xi’an 710072, China",
+      "corresponding_authors": [
+        {
+          "name": "Chaorun Si",
+          "affiliation": "School of Mechanical Engineering, Northwestern Polytechnical University, Xi’an 710072, China"
+        }
+      ],
+      "venue": "Journal of Alloys and Compounds",
+      "year": 2025,
+      "date": "2025-07-30",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jallcom.2025.182659",
+      "cited_by_count": 11,
+      "concepts": [
+        "Materials science",
+        "Strain rate",
+        "Deformation (meteorology)",
+        "Titanium alloy",
+        "Alloy",
+        "Metallurgy",
+        "Deformation mechanism",
+        "Strain (injury)",
+        "Mechanism (biology)",
+        "Constitutive equation",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "SLM"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对激光粉末床熔融Ti-6Al-4V的力学性能，符合L1层对增材制造Ti-6Al-4V力学/疲劳性能的关注。",
+        "why_not_core": "该论文未涉及疲劳寿命或S-N曲线，主要关注高应变率下的本构关系而非循环载荷疲劳行为。",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "SLM",
+          "Ti-6Al-4V",
+          "high strain rate",
+          "constitutive model",
+          "deformation mechanism",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "研究SLM Ti-6Al-4V合金在高应变率下的本构关系和变形机制",
+          "method": "结合实验测试与理论建模，分析不同应变率下的力学响应",
+          "result": "建立了高应变率下的本构模型，揭示了应变率强化机制",
+          "validation": "通过动态压缩实验验证模型准确性"
+        },
+        "summary_en": {
+          "motivation": "To investigate the constitutive behavior and deformation mechanisms of SLM-processed Ti-6Al-4V alloy under high strain rate loading.",
+          "method": "Experimental dynamic compression tests combined with constitutive modeling were employed to characterize the strain rate sensitivity.",
+          "result": "A constitutive relationship was established, revealing significant strain rate strengthening and changed deformation mechanisms.",
+          "validation": "The model was validated by comparing predicted stress-strain curves with experimental data from split Hopkinson pressure bar tests."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "high strain rate",
+            "zh": "高应变率"
+          },
+          {
+            "en": "constitutive relationship",
+            "zh": "本构关系"
+          },
+          {
+            "en": "deformation mechanism",
+            "zh": "变形机制"
+          },
+          {
+            "en": "dynamic compression",
+            "zh": "动态压缩"
+          },
+          {
+            "en": "strain rate sensitivity",
+            "zh": "应变率敏感性"
+          },
+          {
+            "en": "mechanical testing",
+            "zh": "力学测试"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412737956",
+      "doi": "10.1016/j.ijfatigue.2025.109148",
+      "title": "In-situ investigation and analytical modeling of crack initiation and propagation in Ti–6Al–4V under low-cycle fatigue conditions on microscale",
+      "abstract": "Ti alloys such as Ti-6Al-4V belong to a group of materials that show tremendous potential in aircraft engine construction due to their mechanical properties and corrosion resistance. However, not only the knowledge of the material properties are relevant, but also a comprehensive understanding of the damage mechanisms that occur. One of the most relevant types of damage mechanisms is caused by the cyclic loading, as this accounts for more than 70% of the economically relevant damages, not only in the construction and operation of gas turbines. The objective of this study is he characterization of the crack growth behaviour under low-cycle fatigue conditions on a phenomenological and mathematical-analyal level. In-situ LCF fatigue measurements revealed that favourable crack initiation due to slip band formation and propagation sites are located within β phases and at grain boundaries in Ti-6Al-4V. Crack closure and merging effects resulted in single but critical crack that lead to failure. In addition, the energetical investigation with elasto-plastic strain response showed a continuous increase in absorbed energy as consequence to formation of crack surfaces. The determination of crack growth rates completed the analytical investigation and enabled a full size modeling revealing advantages and potential of optimization of existing model. • Fullscale in-situ investigation of fatigue crack initiation and propagation under LCF conditions in Ti-6Al-4V. • Determination of slip band formation in β phase and stage I crack propagation along grain boundaries. • Analytic investigation revealed continuous energy absorption according to crack propagation. • Modeling of crack propagation showed potential of optimization of material parameters.",
+      "authors": [
+        "Christopher M. Wuensch"
+      ],
+      "first_author_affiliation": "Institute of Test and Simulation for Gas Turbines, German Aerospace Center, Forschungsallee 1, Augsburg, 86159, Germany",
+      "corresponding_authors": [
+        {
+          "name": "Christopher M. Wuensch",
+          "affiliation": "Institute of Test and Simulation for Gas Turbines, German Aerospace Center, Forschungsallee 1, Augsburg, 86159, Germany"
+        }
+      ],
+      "venue": "International Journal of Fatigue",
+      "year": 2025,
+      "date": "2025-07-30",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2025.109148",
+      "cited_by_count": 2,
+      "concepts": [
+        "Microscale chemistry",
+        "Materials science",
+        "In situ",
+        "Fatigue testing",
+        "Fracture mechanics",
+        "Low-cycle fatigue",
+        "Structural engineering",
+        "Composite material",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue",
+          "fatigue crack initiation"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是传统工艺制造的Ti-6Al-4V的低周疲劳裂纹行为，未涉及增材制造，与用户关注的增材制造Ti-6Al-4V力学性能方向不匹配。",
+        "why_not_core": "Does not address additive manufacturing; material is conventionally manufactured Ti-6Al-4V, not LPBF/SLM/EBM/DED.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "low-cycle fatigue",
+          "crack initiation",
+          "crack propagation",
+          "in-situ",
+          "analytical modeling"
+        ],
+        "summary_zh": {
+          "motivation": "研究Ti-6Al-4V在低周疲劳条件下的裂纹萌生与扩展行为。",
+          "method": "采用原位低周疲劳实验和解析建模相结合的方法。",
+          "result": "裂纹在β相和晶界萌生，滑移带形成，扩展中吸收能量持续增加。",
+          "validation": "通过原位力学测试验证裂纹行为。"
+        },
+        "summary_en": {
+          "motivation": "To understand the crack initiation and propagation mechanisms in Ti-6Al-4V under low-cycle fatigue conditions.",
+          "method": "In-situ low-cycle fatigue experiments combined with analytical modeling of crack growth.",
+          "result": "Crack initiation occurs preferentially at β phases and grain boundaries, and the absorbed energy increases continuously with crack propagation.",
+          "validation": "The study validates findings through in-situ experimental measurements of crack growth."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "low-cycle fatigue",
+            "zh": "低周疲劳"
+          },
+          {
+            "en": "crack initiation",
+            "zh": "裂纹萌生"
+          },
+          {
+            "en": "crack propagation",
+            "zh": "裂纹扩展"
+          },
+          {
+            "en": "in-situ",
+            "zh": "原位"
+          },
+          {
+            "en": "slip band",
+            "zh": "滑移带"
+          },
+          {
+            "en": "grain boundary",
+            "zh": "晶界"
+          },
+          {
+            "en": "β phase",
+            "zh": "β相"
+          },
+          {
+            "en": "analytical modeling",
+            "zh": "解析建模"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412753383",
+      "doi": "10.1016/j.jmrt.2025.07.223",
+      "title": "Effect of Y2O3 content on microstructure and mechanical properties of ODS Ti–6Al–4V alloys fabricated by in situ atomization and SPS",
+      "abstract": "In this study, the microstructure and mechanical properties of oxide dispersion strengthened (ODS) Ti-6Al-4V (Ti64) alloys fabricated via in situ gas atomization and spark plasma sintering (SPS) were investigated. Rod-shaped ingots of ODS Ti64 alloys containing 0.5, 1.0, and 2.0 wt% Y 2 O 3 were prepared using vacuum arc remelting, and powders were subsequently fabricated via electrode induction melting gas atomization. The ODS Ti64 powders exhibited a spherical morphology, with fine Y 2 O 3 particles smaller than 40 nm uniformly distributed within the powders. These powders were then consolidated by SPS, during which the addition of Y 2 O 3 led to an increased in the sintering onset temperature. Although some coarsening of Y 2 O 3 particles occurred during sintering, they remained smaller than 80 nm and were homogeneously dispersed in the sintered compacts, effectively suppressing grain growth and reducing grain size. Mechanical property evaluations revealed that both hardness and compressive strength improved as the Y 2 O 3 content increased. Compression tests showed that the ODS Ti64 alloy containing 1 wt% Y 2 O 3 exhibited significantly enhanced strength while maintaining a fracture strain comparable to that of the Ti64 alloy. In contrast, the ODS Ti64 alloy with 2 wt% Y 2 O 3 showed reduced ductility. Overall, this study confirms the successful fabrication of ODS Ti64 alloys with finely dispersed Y 2 O 3 particles via in situ gas atomization and SPS. Notably, the addition of 1 wt% Y 2 O 3 provided the optimal balance of strength, hardness, and ductility.",
+      "authors": [
+        "Hyeon-Tae Im",
+        "Ryun-Ho Kwak",
+        "Sungmin Park",
+        "Chang-Soo Park",
+        "Hyung-Ki Park"
+      ],
+      "first_author_affiliation": "Functional Materials and Components Group, Korea Institute of Industrial Technology, Gangneung, 25440, Republic of Korea",
+      "corresponding_authors": [
+        {
+          "name": "Hyung-Ki Park",
+          "affiliation": "Functional Materials and Components Group, Korea Institute of Industrial Technology, Gangneung, 25440, Republic of Korea"
+        }
+      ],
+      "venue": "Journal of Materials Research and Technology",
+      "year": 2025,
+      "date": "2025-07-30",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jmrt.2025.07.223",
+      "cited_by_count": 3,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "In situ",
+        "Metallurgy",
+        "Titanium alloy",
+        "Alloy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "microstructure",
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文采用气雾化和放电等离子烧结，而非增材制造技术，与L1方向无关。",
+        "why_not_core": "The fabrication method is gas atomization and spark plasma sintering (SPS), not additive manufacturing (LPBF/SLM/EBM/DED), making it off-topic for the Ti-6Al-4V AM mechanical/fatigue focus.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "ODS",
+          "Y2O3",
+          "SPS",
+          "gas atomization"
+        ],
+        "summary_zh": {
+          "motivation": "研究Y2O3含量对ODS Ti-6Al-4V合金微观结构和力学性能的影响。",
+          "method": "通过真空电弧重熔、电极感应熔炼气雾化和放电等离子烧结制备ODS Ti64合金。",
+          "result": "1 wt% Y2O3的ODS Ti64合金实现了最佳强度、硬度和延展性平衡。",
+          "validation": "通过硬度测试和压缩试验验证力学性能。"
+        },
+        "summary_en": {
+          "motivation": "Investigate the effect of Y2O3 content on the microstructure and mechanical properties of oxide dispersion strengthened (ODS) Ti-6Al-4V alloys.",
+          "method": "ODS Ti64 powders were produced via vacuum arc remelting and electrode induction melting gas atomization, then consolidated by spark plasma sintering (SPS).",
+          "result": "The ODS Ti64 alloy with 1 wt% Y2O3 exhibited optimal balance of strength, hardness, and ductility.",
+          "validation": "Mechanical properties were validated through hardness measurements and compression tests."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "oxide dispersion strengthened",
+            "zh": "氧化物弥散强化"
+          },
+          {
+            "en": "Y2O3",
+            "zh": "氧化钇"
+          },
+          {
+            "en": "gas atomization",
+            "zh": "气雾化"
+          },
+          {
+            "en": "spark plasma sintering",
+            "zh": "放电等离子烧结"
+          },
+          {
+            "en": "compressive strength",
+            "zh": "抗压强度"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 5,
     "by_source": {
-      "openalex": 2
+      "openalex": 5
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 5,
+    "after_routing": 5,
     "by_direction": {
-      "ti6al4v_postprocess": 2
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_base_mechanical_fatigue": 3
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 5
     },
-    "scored": 2,
+    "scored": 5,
     "priority_counts": {
-      "Low": 1,
-      "Medium": 1
+      "Exclude": 3,
+      "Medium": 1,
+      "High": 1
     }
   }
 }

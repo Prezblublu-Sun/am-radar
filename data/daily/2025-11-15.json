@@ -1,0 +1,253 @@
+{
+  "schema_version": "v2",
+  "date": "2025-11-15",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7106222635",
+      "doi": "10.5281/zenodo.17619881",
+      "title": "FLIQ-K & Orbit-Linked Monitor Pod: Family-Based Additive Manufacturing Qualification Architecture - Technical White Paper",
+      "abstract": "Comprehensive technical architecture for family-based additive manufacturing qualification eliminating $25-100M cost barrier through validated standards-compliant framework. Addresses three structural impossibilities: (1) Component-Specific Qualification Economics - traditional aerospace requires dedicated test articles ($500K-2M each) for environmental qualification (TVAC 12 cycles, vibration per GEVS, shock, fatigue); spacecraft with 50 different AM geometries = 50 campaigns totaling $25-100M before flying single mission component; economic trap confines AM to niche applications where extraordinary cost justified (rocket engine injectors, flagship science mission brackets); (2) NASA-STD-6030 Prohibition - standard explicitly states \"protoflight approach... which does not include dedicated test article, is not considered applicable to AM hardware of Classes A1 through B2, nor is 'no test' option for verification by analysis only\"; programs attempting analysis-heavy shortcuts to minimize test cost discover non-compliance during Phase B/C reviews forcing late test campaigns with schedule slip and cost overrun; analysis-only qualification for Class A/B AM: prohibited; (3) Physics-Based Correlation Gap - Federal Aviation Administration formally warns \"bulk material properties derived from coupons may not be representative of actual part microstructure, defect distribution, or overall structural behavior\"; AM final properties \"inextricably linked to part's specific geometry, thermal history, and process parameters\"; simple coupons cannot capture thin-wall effects (different thermal history → different microstructure → different properties), support-induced defects, geometry-driven thermal gradients; coupon X-orientation doesn't represent part Z-features; surface finish dramatically affects fatigue (as-built rough vs coupon machined smooth = 10× fatigue difference). FLIQ-K solution architecture: (1) Family-Linked Kernel Design - define component families sharing material (Ti-6Al-4V, Al-7075, Inconel 718), process (±5% laser power/speed), geometry class (1.5-3.5mm wall thickness), thermal mass (±30% volume), orientation (±15° build angle); design standardized 50-100mm Kernels representing worst-case features (thinnest walls, most aggressive lattice, smallest passages, highest stress concentrations); manufacture with every production lot (not separate campaigns) for destructive testing (microstructure, tensile, fatigue), ground environmental qualification (TVAC, vibration per GEVS), in-flight monitoring via Monitor Pods; economics: qualify 5-10 families ($400-800K each) covering 50 components vs 50 individual campaigns ($25-100M); Kernel cost $2-8K negligible vs full-scale test article $500K-2M; break-even after 3-4 families; (2) Multi-Modal Sensor Integration - embed 4-8 FBG fibers through high-stress regions (14+ years flight heritage ESA Proba-2 launched 2009 \"remains completely functional\", 0.286±0.033mm crack detection at 3mm proximity, complete EMI immunity, 100+ sensors per fiber multiplexing vs strain gauge one-per-wire, minimal radiation degradation vs gauge unpredictable behavior under proton flux); 6-12 foil strain gauges external surfaces for cross-validation; 2-4 thermistors absolute temperature; NASA FOSS passed full GEVS qualification (vibration, shock, TVA",
+      "authors": [
+        "Finks, Christopher"
+      ],
+      "first_author_affiliation": "Constraint Layer Research LLC",
+      "corresponding_authors": [
+        {
+          "name": "Finks, Christopher",
+          "affiliation": "Constraint Layer Research LLC"
+        }
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "year": 2025,
+      "date": "2025-11-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.5281/zenodo.17619881",
+      "cited_by_count": 0,
+      "concepts": [
+        "Aerospace",
+        "Engineering",
+        "Component (thermodynamics)",
+        "Process (computing)",
+        "Computer science",
+        "Spacecraft",
+        "Mechanical engineering",
+        "Original equipment manufacturer",
+        "Architecture",
+        "Dynamometer"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "microstructure",
+          "defect",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文是关于增材制造资格认证架构的技术白皮书，并非针对Ti-6Al-4V的力学或疲劳性能研究。",
+        "why_not_core": "This paper does not present any experimental or computational study on the mechanical or fatigue performance of additively manufactured Ti-6Al-4V; it is a qualification architecture white paper.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "qualification architecture",
+          "additive manufacturing",
+          "Ti-6Al-4V"
+        ],
+        "summary_zh": {
+          "motivation": "消除增材制造零件资格认证的高成本障碍。",
+          "method": "提出基于家族的资格认证架构，包括内核设计和多模态传感器集成。",
+          "result": "通过家族化方法可将资格认证成本从2500万-1亿美元降至40万-80万美元。",
+          "validation": "无实验验证，仅为架构设计和经济学分析。"
+        },
+        "summary_en": {
+          "motivation": "To eliminate the high cost barrier ($25-100M) of additive manufacturing qualification for aerospace components.",
+          "method": "Proposes a family-linked qualification architecture with standardized kernels and multi-modal sensor integration.",
+          "result": "The family-based approach reduces qualification costs to $400-800K per family, covering multiple components.",
+          "validation": "No experimental or computational validation; the paper is a technical white paper outlining a framework."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing qualification",
+            "zh": "增材制造资格认证"
+          },
+          {
+            "en": "family-based approach",
+            "zh": "基于家族的方法"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "NASA-STD-6030",
+            "zh": "NASA标准6030"
+          },
+          {
+            "en": "kernel design",
+            "zh": "内核设计"
+          },
+          {
+            "en": "multi-modal sensor",
+            "zh": "多模态传感器"
+          },
+          {
+            "en": "fatigue",
+            "zh": "疲劳"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:31:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7106278093",
+      "doi": "10.5281/zenodo.17619880",
+      "title": "FLIQ-K & Orbit-Linked Monitor Pod: Family-Based Additive Manufacturing Qualification Architecture - Technical White Paper",
+      "abstract": "Comprehensive technical architecture for family-based additive manufacturing qualification eliminating $25-100M cost barrier through validated standards-compliant framework. Addresses three structural impossibilities: (1) Component-Specific Qualification Economics - traditional aerospace requires dedicated test articles ($500K-2M each) for environmental qualification (TVAC 12 cycles, vibration per GEVS, shock, fatigue); spacecraft with 50 different AM geometries = 50 campaigns totaling $25-100M before flying single mission component; economic trap confines AM to niche applications where extraordinary cost justified (rocket engine injectors, flagship science mission brackets); (2) NASA-STD-6030 Prohibition - standard explicitly states \"protoflight approach... which does not include dedicated test article, is not considered applicable to AM hardware of Classes A1 through B2, nor is 'no test' option for verification by analysis only\"; programs attempting analysis-heavy shortcuts to minimize test cost discover non-compliance during Phase B/C reviews forcing late test campaigns with schedule slip and cost overrun; analysis-only qualification for Class A/B AM: prohibited; (3) Physics-Based Correlation Gap - Federal Aviation Administration formally warns \"bulk material properties derived from coupons may not be representative of actual part microstructure, defect distribution, or overall structural behavior\"; AM final properties \"inextricably linked to part's specific geometry, thermal history, and process parameters\"; simple coupons cannot capture thin-wall effects (different thermal history → different microstructure → different properties), support-induced defects, geometry-driven thermal gradients; coupon X-orientation doesn't represent part Z-features; surface finish dramatically affects fatigue (as-built rough vs coupon machined smooth = 10× fatigue difference). FLIQ-K solution architecture: (1) Family-Linked Kernel Design - define component families sharing material (Ti-6Al-4V, Al-7075, Inconel 718), process (±5% laser power/speed), geometry class (1.5-3.5mm wall thickness), thermal mass (±30% volume), orientation (±15° build angle); design standardized 50-100mm Kernels representing worst-case features (thinnest walls, most aggressive lattice, smallest passages, highest stress concentrations); manufacture with every production lot (not separate campaigns) for destructive testing (microstructure, tensile, fatigue), ground environmental qualification (TVAC, vibration per GEVS), in-flight monitoring via Monitor Pods; economics: qualify 5-10 families ($400-800K each) covering 50 components vs 50 individual campaigns ($25-100M); Kernel cost $2-8K negligible vs full-scale test article $500K-2M; break-even after 3-4 families; (2) Multi-Modal Sensor Integration - embed 4-8 FBG fibers through high-stress regions (14+ years flight heritage ESA Proba-2 launched 2009 \"remains completely functional\", 0.286±0.033mm crack detection at 3mm proximity, complete EMI immunity, 100+ sensors per fiber multiplexing vs strain gauge one-per-wire, minimal radiation degradation vs gauge unpredictable behavior under proton flux); 6-12 foil strain gauges external surfaces for cross-validation; 2-4 thermistors absolute temperature; NASA FOSS passed full GEVS qualification (vibration, shock, TVA",
+      "authors": [
+        "Finks, Christopher"
+      ],
+      "first_author_affiliation": "Constraint Layer Research LLC",
+      "corresponding_authors": [
+        {
+          "name": "Finks, Christopher",
+          "affiliation": "Constraint Layer Research LLC"
+        }
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "year": 2025,
+      "date": "2025-11-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.5281/zenodo.17619880",
+      "cited_by_count": 0,
+      "concepts": [
+        "Aerospace",
+        "Engineering",
+        "Component (thermodynamics)",
+        "Process (computing)",
+        "Computer science",
+        "Spacecraft",
+        "Mechanical engineering",
+        "Original equipment manufacturer",
+        "Architecture",
+        "Dynamometer"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "microstructure",
+          "defect",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文是关于增材制造认证架构的白皮书，未涉及Ti-6Al-4V的力学或疲劳性能实验或建模。",
+        "why_not_core": "This paper does not provide experimental or computational data on the mechanical or fatigue performance of additively manufactured Ti-6Al-4V; it is a conceptual qualification architecture white paper.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "additive manufacturing qualification",
+          "family-based architecture",
+          "white paper"
+        ],
+        "summary_zh": {
+          "motivation": "消除传统增材制造认证的高成本障碍。",
+          "method": "提出基于家族核心设计（Kernel）的标准化认证架构。",
+          "result": "架构可大幅降低认证成本，但未提供实验数据或建模结果。",
+          "validation": "无实验或数值验证，仅为概念性描述。"
+        },
+        "summary_en": {
+          "motivation": "To eliminate the high cost barrier of traditional additive manufacturing qualification for aerospace components.",
+          "method": "Proposes a family-based kernel design architecture where standardized test artifacts represent worst-case features across component families.",
+          "result": "The architecture claims to reduce qualification costs from $25-100M to $400-800K per family, but no experimental or computational results are presented.",
+          "validation": "No validation; the paper is a technical white paper without empirical or simulation data."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing qualification",
+            "zh": "增材制造认证"
+          },
+          {
+            "en": "family-based architecture",
+            "zh": "基于家族的架构"
+          },
+          {
+            "en": "kernel design",
+            "zh": "核心设计"
+          },
+          {
+            "en": "cost barrier",
+            "zh": "成本障碍"
+          },
+          {
+            "en": "standards compliance",
+            "zh": "标准合规性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:31:07Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 2,
+    "by_source": {
+      "openalex": 2
+    },
+    "after_dedup": 2,
+    "after_routing": 2,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 2
+    },
+    "routed_by_source": {
+      "openalex": 2
+    },
+    "scored": 2,
+    "priority_counts": {
+      "Exclude": 2
+    }
+  }
+}

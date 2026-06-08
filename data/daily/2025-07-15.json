@@ -48,6 +48,12 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "3D printing",
+          "microstructure",
           "porosity",
           "defect",
           "residual stress",
@@ -60,8 +66,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接针对增材制造Ti-6Al-4V的疲劳性能，提出了多尺度预测框架，与用户关注方向高度吻合。",
-        "why_not_core": "该论文同时覆盖了AlSi10Mg，但Ti-6Al-4V是主要研究对象之一，且核心方法适用于该合金，因此未偏离方向。",
+        "relevance_to_user": "本文提出了一个集成密度泛函理论和贝叶斯推断的多尺度框架，用于预测增材制造Ti-6Al-4V的疲劳强度分布，并直接与实验数据验证。",
+        "why_not_core": "The paper also includes AlSi10Mg, but Ti-6Al-4V is explicitly treated and the framework is generalizable; it does not cover post-processing or femoral stem applications.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -70,29 +76,37 @@
           "is_review": false
         },
         "tags": [
-          "multiscale modeling",
-          "fatigue",
           "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "fatigue strength",
+          "multiscale modeling",
           "Bayesian inference",
-          "DFT",
-          "indentation"
+          "density functional theory",
+          "indentation",
+          "S-N curves",
+          "Paris crack growth",
+          "sensitivity analysis"
         ],
         "summary_zh": {
-          "motivation": "开发一种结合原子尺度与统计方法的框架，预测增材制造合金的疲劳强度分布。",
-          "method": "集成密度泛函理论、仪器化压痕和最大后验优化，建立微观结构感知的疲劳模型。",
-          "result": "预测的S-N曲线和Paris裂纹扩展参数覆盖了92%以上实验数据，孔隙率和残余应力解释了超过70%的疲劳强度方差。",
-          "validation": "与增材制造Ti-6Al-4V的高周和极高周疲劳实验数据对比验证。"
+          "motivation": "增材制造Ti-6Al-4V的疲劳性能受微观结构异质性影响，需要预测性框架。",
+          "method": "结合密度泛函理论、仪器化压痕和最大后验概率统计模型的多尺度方法。",
+          "result": "预测的疲劳强度分布与实验高周和极高周疲劳数据吻合，孔隙率和残余应力解释超过70%的方差。",
+          "validation": "用实验HCF/VHCF数据验证，Wöhler曲线和Paris参数覆盖92%以上的实测数据。"
         },
         "summary_en": {
-          "motivation": "To develop a multiscale, microstructure-aware framework that predicts fatigue strength distributions in additively manufactured alloys by integrating atomistic and statistical methods.",
-          "method": "The framework combines density functional theory calculations, instrumented indentation modulus measurements, and a maximum a posteriori (MAP) Bayesian optimization to quantify the effect of microstructural heterogeneity on fatigue performance.",
-          "result": "The predicted Woehler curves and Paris crack-growth parameters envelop over 92% of the experimental coupon data, with volumetric porosity and residual stress accounting for more than 70% of the fatigue strength variance.",
-          "validation": "Validation was performed by comparing predicted fatigue strength distributions against experimental high-cycle and very-high-cycle fatigue data for L-PBF Ti-6Al-4V."
+          "motivation": "To address the challenge of predicting fatigue strength in additively manufactured Ti-6Al-4V by accounting for microstructural heterogeneity.",
+          "method": "A multiscale framework integrating density functional theory, instrumented indentation, and maximum a posteriori Bayesian optimization to derive fatigue strength distributions.",
+          "result": "Predicted fatigue strengths (115 MPa for Ti-6Al-4V) with 95% credible intervals match experimental data, and sensitivity analysis attributes over 70% of variance to porosity and residual stress.",
+          "validation": "Validated against experimental high-cycle and very-high-cycle fatigue data, with Wöhler curves and Paris crack-growth parameters enveloping more than 92% of coupon measurements."
         },
         "key_terms": [
           {
-            "en": "additively manufactured Ti-6Al-4V",
-            "zh": "增材制造Ti-6Al-4V"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
           },
           {
             "en": "fatigue strength",
@@ -107,12 +121,16 @@
             "zh": "贝叶斯推断"
           },
           {
-            "en": "Woehler (S-N) curves",
-            "zh": "韦勒曲线(S-N曲线)"
+            "en": "maximum a posteriori",
+            "zh": "最大后验概率"
           },
           {
-            "en": "Paris crack-growth law",
-            "zh": "巴黎裂纹扩展定律"
+            "en": "S-N curve",
+            "zh": "S-N曲线"
+          },
+          {
+            "en": "Paris law",
+            "zh": "Paris定律"
           },
           {
             "en": "porosity",
@@ -121,38 +139,297 @@
           {
             "en": "residual stress",
             "zh": "残余应力"
-          },
-          {
-            "en": "maximum a posteriori optimization",
-            "zh": "最大后验优化"
-          },
-          {
-            "en": "instrumented indentation",
-            "zh": "仪器化压痕"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412424155",
+      "doi": "10.1016/j.ijfatigue.2025.109170",
+      "title": "Micro-plastic deformation behavior and life enhancement mechanism of additively manufactured Ti-6Al-4V titanium alloy during high cycle fatigue",
+      "abstract": "",
+      "authors": [
+        "Haizhou Li",
+        "Yaofu Wang",
+        "Jihong Zhu",
+        "Yan Liu",
+        "Qingyuan Wang",
+        "Yong Chen",
+        "Hui Chen"
+      ],
+      "first_author_affiliation": "School of Materials Science and Engineering, Southwest Jiaotong University, Chengdu 610031, China",
+      "corresponding_authors": [
+        {
+          "name": "Jihong Zhu",
+          "affiliation": "State IJR Center of Aerospace Design and Additive Manufacturing, School of Mechanical Engineering, Northwestern Polytechnical University, Xi’an, Shaanxi 710072, China"
+        },
+        {
+          "name": "Qingyuan Wang",
+          "affiliation": "Failure Mechanics and Engineering Disaster Prevention Key Laboratory of Sichuan Province, Sichuan University, Chengdu 610065, China"
+        },
+        {
+          "name": "Hui Chen",
+          "affiliation": "School of Materials Science and Engineering, Southwest Jiaotong University, Chengdu 610031, China"
+        }
+      ],
+      "venue": "International Journal of Fatigue",
+      "year": 2025,
+      "date": "2025-07-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2025.109170",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Titanium alloy",
+        "Alloy",
+        "Mechanism (biology)",
+        "Deformation (meteorology)",
+        "Titanium",
+        "Metallurgy",
+        "Low-cycle fatigue",
+        "Composite material",
+        "Deformation mechanism",
+        "Severe plastic deformation"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "fatigue",
+          "high cycle fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究增材制造Ti-6Al-4V的高周疲劳微塑变形与寿命增强机制，完全符合方向需求。",
+        "why_not_core": "No specific deficiency; this paper is core to the direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "high cycle fatigue",
+          "micro-plastic deformation",
+          "life enhancement",
+          "LPBF"
+        ],
+        "summary_zh": {
+          "motivation": "阐明增材制造Ti-6Al-4V在高周疲劳中的微塑变形行为及寿命提升机制。",
+          "method": "通过疲劳实验及微观表征研究微塑变形与裂纹萌生扩展。",
+          "result": "揭示了微塑变形对疲劳寿命的影响规律，提出了寿命增强机理。",
+          "validation": "高周疲劳实验与微观组织观察验证。"
+        },
+        "summary_en": {
+          "motivation": "To understand the micro-plastic deformation behavior and life enhancement mechanisms of additively manufactured Ti-6Al-4V under high cycle fatigue.",
+          "method": "Fatigue testing and microstructural characterization were conducted to study micro-plastic deformation and crack initiation/propagation.",
+          "result": "The influence of micro-plastic deformation on fatigue life was revealed, and a mechanism for life enhancement was proposed.",
+          "validation": "High cycle fatigue experiments and microstructural observations were used for validation."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "high cycle fatigue",
+            "zh": "高周疲劳"
+          },
+          {
+            "en": "micro-plastic deformation",
+            "zh": "微塑变形"
+          },
+          {
+            "en": "life enhancement",
+            "zh": "寿命增强"
+          },
+          {
+            "en": "crack initiation",
+            "zh": "裂纹萌生"
+          },
+          {
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412453789",
+      "doi": "10.1016/j.matdes.2025.114368",
+      "title": "Mechanical property and wear behavior of graphene-reinforced Ti-6Al-4V prepared by vacuum arc melting",
+      "abstract": "• Novel Fabrication Method: A method of pre-homogenizing the materials before vacuum arc melting was developed to fabricate FLG/SiC/Ti-6Al-4V (TC4) composites, enabling the production of dense materials with enhanced mechanical properties. • Suppression of Chemical Reactions: The introduction of SiC nanoparticles effectively suppressed the chemical reactions between FLG and the titanium matrix, preserving the structural integrity of FLG and allowing it to exert its self-lubricating effect. • Improved Mechanical Properties: The tensile strength and tensile modulus of the TMCs increased by 11.74% and 29.35%, respectively, compared to pure TC4, with the addition of SiC accounting for 30 wt% of the FLG content. • Superior Wear Resistance: The wear rate of the TMCs decreased by 52.15% compared to pure TC4, demonstrating a significant improvement in wear resistance. The introduction of graphene endows metals with excellent lubricating properties during friction and wear processes. However, in titanium matrix composites (TMCs), especially during vacuum arc melting with high temperature, intense chemical reactions occur between graphene and Ti, making it difficult to achieve the expected lubricating effect because graphene loses its intact structure. In this study, few-layered graphene (FLG)/SiC/Ti-6Al-4 V (TC4) composite were fabricated using vacuum arc melting methods. Results indicated that the introduction of SiC inhibited the chemical reaction between FLG and the matrix, protecting the structural integrity of FLG and enabling it to exert its self-lubricating effect. After adding SiC accounting for 30 wt% of the FLG content, the tensile strength and the tensile modulus of the TMCs increased by 11.74 % and 29.35 % compared with that of TC4, and the wear rate of the TMCs decreased by 52.15 % compared with that of TC4 and by 49.24 % compared with that of the TMCs without SiC addition. With the increase in SiC content, the wear mode changed, and plastic deformation and adhesive wear gradually disappeared.",
+      "authors": [
+        "Rongyang Zhao",
+        "Baoxian Su",
+        "Yinling Jin",
+        "Xiangyu Sun",
+        "Jiaxin Du",
+        "Hongle Tan",
+        "Binbin Wang",
+        "Qian Yang",
+        "Yongsheng Yu",
+        "Liang Wang",
+        "Yanqing Su"
+      ],
+      "first_author_affiliation": "National Key Laboratory for Precision Hot Processing of Metals, School of Materials Science and Engineering, Harbin Institute of Technology, Harbin 150001, China",
+      "corresponding_authors": [
+        {
+          "name": "Baoxian Su",
+          "affiliation": "National Key Laboratory for Precision Hot Processing of Metals, School of Materials Science and Engineering, Harbin Institute of Technology, Harbin 150001, China"
+        },
+        {
+          "name": "Yanqing Su",
+          "affiliation": "National Key Laboratory for Precision Hot Processing of Metals, School of Materials Science and Engineering, Harbin Institute of Technology, Harbin 150001, China"
+        }
+      ],
+      "venue": "Materials & Design",
+      "year": 2025,
+      "date": "2025-07-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.matdes.2025.114368",
+      "cited_by_count": 4,
+      "concepts": [
+        "Materials science",
+        "Vacuum arc",
+        "Arc melting",
+        "Graphene",
+        "Property (philosophy)",
+        "Metallurgy",
+        "Arc (geometry)",
+        "Micro arc oxidation",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TC4",
+          "tensile strength"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文采用真空电弧熔炼而非增材制造，与增材制造Ti-6Al-4V力学和疲劳性能方向不相关。",
+        "why_not_core": "Vacuum arc melting is not an additive manufacturing process; this paper does not study additively manufactured Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "graphene-reinforced",
+          "vacuum arc melting",
+          "wear behavior",
+          "tensile properties"
+        ],
+        "summary_zh": {
+          "motivation": "通过真空电弧熔炼制备石墨烯增强Ti-6Al-4V复合材料以提高力学和耐磨性能。",
+          "method": "预均化原料后真空电弧熔炼，加入SiC抑制石墨烯与钛的反应。",
+          "result": "抗拉强度和模量分别提高11.74%和29.35%，磨损率降低52.15%。",
+          "validation": "拉伸和磨损实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To fabricate graphene-reinforced Ti-6Al-4V composites with enhanced mechanical and wear properties via vacuum arc melting.",
+          "method": "A pre-homogenization and vacuum arc melting method was developed, using SiC nanoparticles to suppress the reaction between graphene and titanium matrix.",
+          "result": "Tensile strength and modulus increased by 11.74% and 29.35%, respectively, and wear rate decreased by 52.15% compared to pure Ti-6Al-4V.",
+          "validation": "Mechanical testing and wear experiments were conducted."
+        },
+        "key_terms": [
+          {
+            "en": "graphene-reinforced",
+            "zh": "石墨烯增强"
+          },
+          {
+            "en": "vacuum arc melting",
+            "zh": "真空电弧熔炼"
+          },
+          {
+            "en": "titanium matrix composites",
+            "zh": "钛基复合材料"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "tensile properties",
+            "zh": "拉伸性能"
+          },
+          {
+            "en": "SiC nanoparticles",
+            "zh": "碳化硅纳米颗粒"
+          },
+          {
+            "en": "self-lubricating effect",
+            "zh": "自润滑效应"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 3
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
-      "High": 1
+      "High": 2,
+      "Exclude": 1
     }
   }
 }

@@ -53,15 +53,18 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "additive manufacturing",
+          "electron beam melting",
+          "EBM",
           "porosity"
         ]
       },
       "llm": {
-        "priority": "Medium",
+        "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Save for project",
-        "relevance_to_user": "该论文涉及Ti6Al4V点阵结构的压缩力学性能，属于增材制造钛合金力学表征的范畴，但未涉及疲劳性能。",
-        "why_not_core": "No fatigue testing or analysis; only compressive mechanical characterization without fatigue life or crack growth data.",
+        "relevance_to_user": "该论文直接研究了增材制造Ti6Al4V点阵结构的力学性能（压缩行为），属于L1方向的核心内容，但未涉及疲劳性能。",
+        "why_not_core": "This paper does not include fatigue testing or fatigue life characterization, focusing solely on quasi-static compressive properties, which is a key aspect of the L1 direction.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -70,33 +73,34 @@
           "is_review": false
         },
         "tags": [
-          "Ti6Al4V",
-          "lattice structures",
+          "Ti-6Al-4V",
           "electron beam melting",
+          "lattice structures",
           "compressive behavior",
-          "design of experiments",
+          "mechanical properties",
+          "microstructure",
           "micro-CT"
         ],
         "summary_zh": {
-          "motivation": "研究电子束熔融Ti6Al4V点阵结构的力学性能。",
-          "method": "使用实验设计方法，制造不同拓扑构型的点阵试样并进行压缩测试。",
-          "result": "分析了拓扑结构、单元尺寸和支柱直径对变形和失效机制的影响。",
-          "validation": "通过光学显微镜和微CT进行微观表征验证。"
+          "motivation": "研究电子束熔融Ti6Al4V点阵结构的拓扑和尺寸对力学性能的影响。",
+          "method": "采用实验设计（DOE）制造48个点阵试样，进行压缩测试及微观分析。",
+          "result": "点阵拓扑和梁直径显著影响变形和失效机制，力学性能可用相对密度归一化。",
+          "validation": "通过光学显微镜和微CT验证实际几何尺寸和内部缺陷。"
         },
         "summary_en": {
           "motivation": "To investigate the influence of lattice topology, cell dimensions, and beam diameter on the deformation and failure mechanisms of Ti6Al4V lattice structures fabricated by electron beam melting under compressive loading.",
-          "method": "A Design of Experiment approach was used to define 16 unit cell geometries, and 48 specimens were manufactured and tested under compression.",
-          "result": "The experimental results were analyzed in absolute terms and as a function of lattice density, revealing the effects of geometry on mechanical behavior.",
-          "validation": "Optical microscopy and micro-CT were used to evaluate actual dimensions and internal defects."
+          "method": "A Design of Experiment (DOE) was employed to define 16 topological configurations, and 48 specimens (three replicas each) were manufactured in random order; compressive tests, optical microscopy, and micro-CT were conducted.",
+          "result": "Mechanical behavior is strongly dependent on topology and beam diameter, with failure modes varying from layer-wise to diagonal shear; properties scale with relative density.",
+          "validation": "Experimental measurements of beam diameters and cell dimensions via optical microscopy, and internal defect assessment via micro-CT, validated the manufactured geometries."
         },
         "key_terms": [
           {
-            "en": "electron beam melting",
-            "zh": "电子束熔融"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
           },
           {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V钛合金"
+            "en": "electron beam melting",
+            "zh": "电子束熔融"
           },
           {
             "en": "lattice structures",
@@ -107,7 +111,7 @@
             "zh": "压缩载荷"
           },
           {
-            "en": "design of experiments",
+            "en": "design of experiment",
             "zh": "实验设计"
           },
           {
@@ -119,32 +123,300 @@
             "zh": "孔隙率"
           },
           {
-            "en": "mechanical behavior",
-            "zh": "力学性能"
+            "en": "deformation mechanism",
+            "zh": "变形机制"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7134170276",
+      "doi": "10.1016/j.almate.2026.03.001",
+      "title": "Novel partially biodegradable Ti-6Al-4V/Zn composites fabricated through hybrid additive manufacturing and powder metallurgy",
+      "abstract": "This study reports the development of a Ti6Al4V-Zn metallic bi-metal composite (Ti64-Zn MBMC) engineered for biodegradable biomedical applications. The composite features a continuous additively manufactured (AM) Ti64 hexagonal lattice that provides a three-dimensional structural framework, while Zn infiltrates and occupies the interconnected pore network. Fabrication was achieved through a hybrid route combining AM and powder metallurgy, wherein the Ti64 lattice was first produced by AM, followed by Zn incorporation and consolidation via spark plasma sintering. The tomography results reveal that the composite consists of approximately 27% Ti64 reinforcement phase and 73% Zn matrix phase, confirming successful introduction of Zn within the architected Ti64 honeycomb scaffold. Microstructural characterization confirmed a crack-free interface with no detectable interfacial reactions between Ti64 and Zn. The Ti64-Zn MBMC exhibited a compressive strength of 292±25 MPa, surpassing that of both pure Zn and the Ti64 lattice. Potentiodynamic polarization in simulated body fluid (SBF) revealed corrosion behavior comparable to pure Zn, with post-corrosion microscopy showing selective dissolution of Zn while Ti64 struts remained intact. In-vitro biodegradation tests indicated an initial degradation rate of 0.1577 mm/year in SBF. Cytocompatibility assessments using MC3T3-E1 pre-osteoblasts demonstrated healthy cell proliferation in media conditioned with composite leachates. Collectively, these results establish the Ti64-Zn MBMC as a promising candidate for next-generation biodegradable implants and tissue-engineering scaffolds. • Employ hybrid fabrication strategy combining additive manufacturing and powder metallurgy. • Fabricate bio-inspired architecture for partially biodegradable implants. • Controlled degradation of implants by galvanic interactions. • Material with healthy cell proliferation and no cytotoxic effects.",
+      "authors": [
+        "Mayank Yadav",
+        "K. Praveenkumar",
+        "Riddhi Shukla",
+        "Sagar Nilawar",
+        "Chandarasekhar Perugu",
+        "Kaushik Chatterjee",
+        "Satyam Suwas",
+        "J. Jayaraj",
+        "K. G. Prashanth"
+      ],
+      "first_author_affiliation": "Department of Mechanical and Industrial Engineering, Tallinn University of Technology, Ehitajate tee 5, 19086, Tallinn, Estonia",
+      "corresponding_authors": [
+        {
+          "name": "K. G. Prashanth",
+          "affiliation": "Department of Biosciences, Saveetha School of Engineering, Saveetha Institute of Medical and Technical Sciences, Chennai, 602117, India"
+        }
+      ],
+      "venue": "Advanced Light Materials",
+      "year": 2026,
+      "date": "2026-03-07",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.almate.2026.03.001",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Composite number",
+        "Fabrication",
+        "Powder metallurgy",
+        "Composite material",
+        "Dissolution",
+        "Biocompatibility",
+        "Compressive strength",
+        "Corrosion",
+        "Microstructure",
+        "Scanning electron microscope",
+        "Biodegradation",
+        "Galvanic cell",
+        "Hybrid material",
+        "Polyester",
+        "Degradation (telecommunications)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti6Al4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "additive manufacturing",
+          "additively manufactured"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的增材制造，但主要关注可降解复合材料而非纯Ti-6Al-4V的力学与疲劳性能。",
+        "why_not_core": "This paper does not report tensile/fatigue properties of pure Ti-6Al-4V; it focuses on a biodegradable Ti64-Zn composite with compressive strength and corrosion behavior.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "biodegradable",
+          "composite",
+          "Ti-6Al-4V",
+          "Zn",
+          "additive manufacturing",
+          "powder metallurgy",
+          "spark plasma sintering"
+        ],
+        "summary_zh": {
+          "motivation": "开发用于生物降解植入物的Ti64-Zn双金属复合材料",
+          "method": "结合增材制造和粉末冶金，通过放电等离子烧结制备Ti64晶格-Zn复合结构",
+          "result": "复合材料抗压强度达292±25 MPa，优于纯Zn和Ti64晶格",
+          "validation": "压缩测试、电化学腐蚀及细胞毒性实验验证性能"
+        },
+        "summary_en": {
+          "motivation": "To develop a partially biodegradable metallic composite for implant applications by combining Ti-6Al-4V lattice and Zn matrix.",
+          "method": "A hybrid approach using additive manufacturing for Ti64 lattice followed by Zn infiltration and spark plasma sintering consolidation.",
+          "result": "The composite achieved a compressive strength of 292±25 MPa and exhibited corrosion behavior similar to pure Zn with selective Zn dissolution.",
+          "validation": "Compression testing, potentiodynamic polarization in SBF, and in-vitro cytocompatibility assays with MC3T3-E1 cells."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "Zn composite",
+            "zh": "锌复合材料"
+          },
+          {
+            "en": "biodegradable implant",
+            "zh": "可降解植入物"
+          },
+          {
+            "en": "hybrid additive manufacturing",
+            "zh": "混合增材制造"
+          },
+          {
+            "en": "spark plasma sintering",
+            "zh": "放电等离子烧结"
+          },
+          {
+            "en": "compressive strength",
+            "zh": "抗压强度"
+          },
+          {
+            "en": "corrosion",
+            "zh": "腐蚀"
+          },
+          {
+            "en": "cytocompatibility",
+            "zh": "细胞相容性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7134138501",
+      "doi": "10.1016/j.matdes.2026.115798",
+      "title": "Machine learning–driven prediction of mechanical properties in heat treated L-PBF Ti-6Al-4V from microstructural images",
+      "abstract": "• A machine learning framework predicts stress–strain curve of heat-treated L-PBF Ti-6Al-4V. • Quantitative microstructural features extracted from as-built OM images using 2-point correlation and autoencoder. • Microstructure-based prediction accounts for effects beyond process parameters, including geometry and environment. • Machine learning framework enables optimization of manufacturing process without repeated heat treatment or tensile testing. In the L-PBF process of Ti-6Al-4V, rapid solidification leads to the formation of acicular martensitic microstructures, which result in high strength but significantly reduced elongation. To overcome this limitation, heat treatment is applied, and the resulting mechanical properties vary greatly depending on the conditions. In this study, we propose an artificial neural network (ANN)-based model that predicts the entire stress–strain curve, including tensile properties, based on the initial microstructure images of Ti-6Al-4V alloy. Microstructural features were quantitatively extracted using a two-point correlation function and an autoencoder. The developed model reconstructed the full stress–strain curve by predicting the fitting parameters of the Voce equation, thereby capturing plastic behavior. This approach demonstrates that mechanical properties can be predicted using initial microstructure information and heat treatment conditions, underscoring the potential of data-driven models to optimize processes without repeated tensile testing.",
+      "authors": [
+        "Chanwoo Park",
+        "Wonjoo Lee",
+        "Howon Lee",
+        "Seong-Hoon Kang",
+        "Jonghun Yoon"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, BK21 FOUR ERICA-ACE Center, Hanyang University, 55, Hanyangdaehak-ro, Sangnok-gu, Ansan-si, Gyeonggi-do 15588, South Korea",
+      "corresponding_authors": [
+        {
+          "name": "Jonghun Yoon",
+          "affiliation": "Department of Mechanical Engineering, BK21 FOUR ERICA-ACE Center, Hanyang University, 55, Hanyangdaehak-ro, Sangnok-gu, Ansan-si, Gyeonggi-do 15588, South Korea"
+        }
+      ],
+      "venue": "Materials & Design",
+      "year": 2026,
+      "date": "2026-03-07",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.matdes.2026.115798",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Microstructure"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "elongation"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接关注热处理后L-PBF Ti-6Al-4V的力学性能预测，与后处理控制方向高度相关。",
+        "why_not_core": "The paper does not experimentally investigate fatigue performance or porosity closure, focusing instead on tensile property prediction from microstructures.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "L-PBF",
+          "Ti-6Al-4V",
+          "heat treatment",
+          "machine learning",
+          "microstructure",
+          "stress-strain curve prediction"
+        ],
+        "summary_zh": {
+          "motivation": "通过机器学习预测热处理后L-PBF Ti-6Al-4V的力学性能以减少反复试验。",
+          "method": "使用人工神经网络基于初始显微图像和热处理条件预测应力-应变曲线。",
+          "result": "模型成功预测了完整应力-应变曲线，展示了数据驱动方法优化工艺的潜力。",
+          "validation": "通过拉伸实验数据验证了模型预测的准确性。"
+        },
+        "summary_en": {
+          "motivation": "To predict the mechanical properties of heat-treated L-PBF Ti-6Al-4V using machine learning from as-built microstructures, reducing the need for repeated tensile testing.",
+          "method": "An artificial neural network model predicts the full stress-strain curve by extracting microstructural features via two-point correlation and autoencoder, and fitting the Voce equation parameters.",
+          "result": "The model accurately reconstructs the stress-strain curve for various heat treatment conditions, demonstrating the potential of data-driven optimization.",
+          "validation": "Validation was performed using experimental tensile test data from heat-treated specimens."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "artificial neural network",
+            "zh": "人工神经网络"
+          },
+          {
+            "en": "stress-strain curve",
+            "zh": "应力-应变曲线"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "Voce equation",
+            "zh": "Voce方程"
+          },
+          {
+            "en": "tensile properties",
+            "zh": "拉伸性能"
+          },
+          {
+            "en": "autoencoder",
+            "zh": "自编码器"
+          },
+          {
+            "en": "two-point correlation",
+            "zh": "两点相关函数"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2,
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
-      "Medium": 1
+      "High": 2,
+      "Low": 1
     }
   }
 }

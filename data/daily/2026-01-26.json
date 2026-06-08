@@ -64,6 +64,10 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "build direction",
           "fatigue",
           "fatigue life"
         ]
@@ -72,8 +76,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究激光粉末床熔融Ti-6Al-4V合金的取向依赖性棘轮-疲劳交互行为，与方向关注的力学与疲劳性能完全匹配。",
-        "why_not_core": "No post-processing or implant-level application; pure as-built mechanical/fatigue characterization.",
+        "relevance_to_user": "该论文直接研究了激光粉末床熔融Ti6Al4V的力学性能和疲劳行为，特别是构建方向对棘轮-疲劳交互作用的影响，完全符合L1方向的要求。",
+        "why_not_core": "The paper does not cover post-processing treatments or biomedical implant applications; its focus is entirely on as-built LPBF Ti6Al4V mechanical and fatigue characterization.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -84,22 +88,22 @@
         "tags": [
           "laser powder bed fusion",
           "Ti6Al4V",
+          "fatigue life",
           "ratchetting",
-          "fatigue",
-          "anisotropy",
-          "build direction"
+          "build direction",
+          "anisotropy"
         ],
         "summary_zh": {
-          "motivation": "探究激光增材制造Ti6Al4V合金的棘轮-疲劳交互行为对构建方向的依赖性。",
-          "method": "对垂直和水平构建方向的试样进行单调拉伸、对称应变控制低周疲劳和非对称应力控制棘轮-疲劳测试。",
-          "result": "垂直构建方向试样具有更高的疲劳寿命和更低的棘轮应变，而水平试样表现出多裂纹萌生。",
-          "validation": "通过力学实验和断口分析验证取向效应。"
+          "motivation": "研究激光增材制造Ti6Al4V的构建方向依赖性棘轮-疲劳交互作用",
+          "method": "对垂直和水平构建方向的试样进行单调拉伸、低周疲劳和非对称应力控制棘轮-疲劳测试",
+          "result": "垂直构建试样因较高屈服应力而表现出更高应力幅值和更低棘轮应变，疲劳寿命更优；高应力水平下棘轮应变增加导致失效模式转变",
+          "validation": "通过机械测试（拉伸、疲劳）和断口分析验证实验结果"
         },
         "summary_en": {
-          "motivation": "To investigate the build direction dependence of ratchetting-fatigue interaction in laser powder bed fused Ti6Al4V.",
-          "method": "Monotonic tensile, symmetric strain-controlled low-cycle fatigue, and asymmetric stress-controlled ratchetting-fatigue tests were conducted on vertical and horizontal build specimens.",
-          "result": "Vertical build direction specimens exhibit higher fatigue life and lower ratchetting strain, while horizontal specimens show multiple crack initiation sites.",
-          "validation": "Validation through mechanical experiments and fractographic analysis."
+          "motivation": "To investigate the build direction-dependent ratchetting-fatigue interaction in laser additively manufactured Ti6Al4V alloy.",
+          "method": "Monotonic tensile tests, symmetric strain-controlled low-cycle fatigue tests, and asymmetric stress-controlled ratchetting-fatigue interaction tests were conducted on vertically and horizontally built LPBF Ti6Al4V specimens.",
+          "result": "Vertically built specimens exhibited higher stress amplitude, lower ratchetting strain, and superior fatigue life compared to horizontally built ones; higher stress levels increased ratchetting strain and reduced fatigue life, shifting failure mode toward ratchetting-dominated failure.",
+          "validation": "Experimental mechanical testing (tensile, low-cycle fatigue, ratchetting-fatigue) combined with fractographic analysis."
         },
         "key_terms": [
           {
@@ -108,27 +112,23 @@
           },
           {
             "en": "Ti6Al4V",
-            "zh": "Ti6Al4V合金"
+            "zh": "Ti6Al4V钛合金"
           },
           {
             "en": "ratchetting",
             "zh": "棘轮效应"
           },
           {
-            "en": "fatigue",
-            "zh": "疲劳"
-          },
-          {
-            "en": "anisotropy",
-            "zh": "各向异性"
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
           },
           {
             "en": "build direction",
             "zh": "构建方向"
           },
           {
-            "en": "crack initiation",
-            "zh": "裂纹萌生"
+            "en": "anisotropy",
+            "zh": "各向异性"
           },
           {
             "en": "low-cycle fatigue",
@@ -141,30 +141,172 @@
           {
             "en": "stress amplitude",
             "zh": "应力幅"
+          },
+          {
+            "en": "ratchetting strain",
+            "zh": "棘轮应变"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:23:51Z"
+      "first_seen_at": "2026-06-08T08:40:28Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7125817503",
+      "doi": "10.1002/adhm.202504606",
+      "title": "Ti6Al4V‐Bioglass‐Copper Composites for Load‐Bearing Implants",
+      "abstract": "Total hip arthroplasty (THA) and total knee arthroplasty (TKA) utilize cobalt-chromium-molybdenum alloys; however, the release of cobalt ions is a significant clinical concern. Ceramic-based alternative systems also have concerns regarding long-term mechanical stability. Ti6Al4V (Ti64) is a better alternative; however, it is unsuitable for articulating surfaces due to its low wear resistance. We have designed and manufactured a novel Ti64-based composite by adding 45S5 bioglass (BG) and copper (Cu). Adding BG on titanium improves wear resistance and biocompatibility, whereas Cu addition improves mechanical strength while providing inherent lifelong bacterial resistance. Ti64, Ti64-1 wt% BG (Ti64-1BG), Ti64-3 wt% BG (Ti64-3BG), and Ti64-3 wt.% BG-3 wt.% (Ti64-3BG-3Cu) compositions were processed using the laser-directed energy deposition (L-DED) additive manufacturing (AM) technique. Microstructural characterisation and phase analysis were done to evaluate the influence of BG and Cu addition on Ti64. While BG was preferentially located along the melt pool boundaries, Cu was uniformly distributed throughout the sample. Uniaxial compression tests were conducted, and the addition of BG and Cu increased the strength. Biotribological analysis using flat-on-disc fixtures under fully immersed conditions in DMEM revealed that wear resistance improved due to the addition of BG and Cu to Ti64. Tribological testing revealed the formation of a protective nanoscale tribofilm on BG-containing samples, as indicated by increased contact resistance and reduced wear rates at higher loads. In vitro biocompatibility studies were done with human osteoblast (OB) cells for 3 and 7 days. Cell attachment and MTT (3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide) assays were performed to understand the influence of BG and Cu on biocompatibility, with Ti64 serving as a control. An antibacterial test was performed for 24 and 72 h using Staphylococcus aureus to evaluate the influence of Cu addition on the sample's antibacterial properties. Overall, the results demonstrated a superior implant material with enhanced biocompatibility, inherent antibacterial properties, and improved wear resistance through the innovative formation of a protective nanoscale tribofilm.",
+      "authors": [
+        "Lochan Upadhayay",
+        "Bryson White",
+        "Susmita Bose",
+        "Amit Bandyopadhyay"
+      ],
+      "first_author_affiliation": "W. M. Keck Biomedical Materials Research Laboratory School of Mechanical and Materials Engineering Washington State University  Pullman Washington USA",
+      "corresponding_authors": [
+        {
+          "name": "Amit Bandyopadhyay",
+          "affiliation": "W. M. Keck Biomedical Materials Research Laboratory School of Mechanical and Materials Engineering Washington State University  Pullman Washington USA"
+        }
+      ],
+      "venue": "Advanced Healthcare Materials",
+      "year": 2026,
+      "date": "2026-01-26",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1002/adhm.202504606",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Biocompatibility",
+        "Tribology",
+        "Wear resistance",
+        "Composite material",
+        "Composite number",
+        "Titanium",
+        "Copper",
+        "Titanium alloy",
+        "Osteoblast",
+        "Total hip replacement",
+        "Simulated body fluid",
+        "Deposition (geology)",
+        "Phase (matter)",
+        "Biomedical engineering",
+        "Compressive strength",
+        "Adhesive wear",
+        "Alloy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "Ti64",
+          "additive manufacturing",
+          "directed energy deposition",
+          "DED"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文通过添加生物活性玻璃和铜制备Ti6Al4V复合材料，侧重于植入物生物性能而非Ti-6Al-4V基础力学或疲劳性能。",
+        "why_not_core": "Does not focus on as-built Ti-6Al-4V mechanical/fatigue characterization; it involves composite additions and emphasizes wear, biocompatibility, and antibacterial properties rather than fatigue life or S-N behavior.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti6Al4V",
+          "composite",
+          "laser-directed energy deposition",
+          "wear resistance",
+          "biocompatibility",
+          "compression testing"
+        ],
+        "summary_zh": {
+          "motivation": "为改善Ti6Al4V在承重植入物中的性能，添加生物活性玻璃和铜。",
+          "method": "采用激光定向能量沉积增材制造Ti6Al4V-生物活性玻璃-铜复合材料。",
+          "result": "复合材料强度、耐磨性、生物相容性和抗菌性能均得到提升。",
+          "validation": "通过压缩测试、摩擦学测试、体外细胞实验和抗菌实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To enhance Ti6Al4V for load-bearing implants by incorporating bioglass and copper to improve wear resistance, strength, and biocompatibility.",
+          "method": "Laser-directed energy deposition additive manufacturing was used to fabricate Ti6Al4V composites with varying amounts of bioglass and copper.",
+          "result": "The composites exhibited increased compressive strength, improved wear resistance due to a protective tribofilm, enhanced biocompatibility with osteoblast cells, and antibacterial properties against Staphylococcus aureus.",
+          "validation": "Validation included uniaxial compression tests, biotribological analysis under simulated body fluid, in vitro biocompatibility assays, and antibacterial tests."
+        },
+        "key_terms": [
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
+          },
+          {
+            "en": "bioglass",
+            "zh": "生物活性玻璃"
+          },
+          {
+            "en": "laser-directed energy deposition",
+            "zh": "激光定向能量沉积"
+          },
+          {
+            "en": "compression test",
+            "zh": "压缩测试"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "biocompatibility",
+            "zh": "生物相容性"
+          },
+          {
+            "en": "antibacterial",
+            "zh": "抗菌性"
+          },
+          {
+            "en": "tribofilm",
+            "zh": "摩擦膜"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:40:28Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "High": 1
+      "High": 1,
+      "Low": 1
     }
   }
 }

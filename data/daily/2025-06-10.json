@@ -49,6 +49,10 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
           "residual stress"
         ],
         "ti6al4v_femoral_stem": [
@@ -61,8 +65,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究Ti-6Al-4V BCC点阵夹芯板的压缩强度与残余应力，但面向航空航天而非骨科植入物，与股骨柄设计无关。",
-        "why_not_core": "This paper does not concern a femoral/hip stem or comparable implant structure; it focuses on lattice sandwich panels for aerospace applications with no implant-specific biomechanical analysis.",
+        "relevance_to_user": "该论文研究Ti-6Al-4V BCC点阵夹层结构的压缩性能和残余应力，属于航空航天应用，与骨科植入物股骨柄设计无关。",
+        "why_not_core": "This paper focuses on lattice sandwich structures for aerospace applications, not on femoral stem design or orthopaedic implant structural mechanics; no hip stem geometry or biomechanical context.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -73,71 +77,207 @@
         "tags": [
           "Ti-6Al-4V",
           "BCC lattice",
-          "L-PBF",
+          "sandwich structures",
           "compressive strength",
           "residual stresses",
-          "sandwich panels"
+          "L-PBF",
+          "cell size",
+          "beam radius"
         ],
         "summary_zh": {
-          "motivation": "探究Ti-6Al-4V BCC点阵夹芯板的胞元尺寸和杆径对压缩强度与残余应力的影响。",
-          "method": "采用实验压缩测试与L-PBF过程数值模拟相结合的方法。",
-          "result": "C2-R0.35样品压缩强度最高，C3-R0.25残余应力最低且最均匀。",
-          "validation": "通过实验压缩测试和数值模拟结果对比验证。"
+          "motivation": "为航空航天应用制造轻量化构件。",
+          "method": "通过实验压缩测试和L-PBF过程数值模拟研究不同晶胞构型。",
+          "result": "C2-R0.35样品抗压强度最高，C3-R0.25残余应力最低且最均匀。",
+          "validation": "机械测试与数值模拟验证。"
         },
         "summary_en": {
-          "motivation": "This study investigates the influence of cell size and beam radius on the compressive strength and residual stresses of Ti-6Al-4V BCC lattice sandwich structures manufactured by L-PBF.",
-          "method": "Experimental compression tests and numerical simulations of the L-PBF process were conducted for different cell configurations.",
-          "result": "The C2-R0.35 configuration exhibited the highest compressive strength, while the C3-R0.25 configuration showed the lowest and most uniform residual stress distribution.",
-          "validation": "Validation was performed through experimental compression testing and finite element simulation of residual stresses."
+          "motivation": "To investigate the influence of cell size and beam radius on the compressive strength and residual stresses of Ti-6Al-4V BCC lattice sandwich structures for aerospace applications.",
+          "method": "Experimental compression tests and numerical simulations of L-PBF process were conducted on different cell configurations.",
+          "result": "The C2-R0.35 configuration exhibited the highest compressive strength, while the C3-R0.25 configuration showed the lowest and most uniform residual stress profile.",
+          "validation": "Mechanical testing and numerical simulation validation."
         },
         "key_terms": [
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
             "en": "BCC lattice",
             "zh": "体心立方点阵"
           },
           {
-            "en": "L-PBF",
-            "zh": "激光粉末床熔融"
+            "en": "sandwich structure",
+            "zh": "夹层结构"
           },
           {
             "en": "compressive strength",
             "zh": "抗压强度"
           },
           {
-            "en": "residual stresses",
+            "en": "residual stress",
             "zh": "残余应力"
           },
           {
-            "en": "sandwich structures",
-            "zh": "夹芯结构"
+            "en": "cell size",
+            "zh": "晶胞尺寸"
+          },
+          {
+            "en": "beam radius",
+            "zh": "杆半径"
+          },
+          {
+            "en": "volume fraction",
+            "zh": "体积分数"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411176103",
+      "doi": "10.1016/j.matlet.2025.138816",
+      "title": "Residual stress-assisted static globularization in electron beam powder bed fusion Ti-6Al-4V from powder recovery and hot isostatic pressing",
+      "abstract": "",
+      "authors": [
+        "Nicholas Derimow",
+        "Thomas A. Berfield",
+        "Keenan Hanson",
+        "Jake T. Benzing",
+        "Nikolas Hrabe"
+      ],
+      "first_author_affiliation": "Applied Chemicals and Materials Division, NIST, 325 Broadway, Boulder, CO 80305, USA",
+      "corresponding_authors": [
+        {
+          "name": "Nicholas Derimow",
+          "affiliation": "Applied Chemicals and Materials Division, NIST, 325 Broadway, Boulder, CO 80305, USA"
+        }
+      ],
+      "venue": "Materials Letters",
+      "year": 2025,
+      "date": "2025-06-10",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.matlet.2025.138816",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Hot isostatic pressing",
+        "Residual stress",
+        "Fusion",
+        "Metallurgy",
+        "Cathode ray",
+        "Stress (linguistics)",
+        "Powder metallurgy",
+        "Pressing",
+        "Composite material",
+        "Microstructure"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "powder bed fusion",
+          "residual stress"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "hot isostatic pressing"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文研究了热等静压和粉末回收对Ti-6Al-4V显微组织球化行为的影响，与AM后处理调控力学性能目标直接相关。",
+        "why_not_core": "No quantitative fatigue or tensile data reported; focus is on globularization mechanism rather than mechanical property outcomes.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "electron beam powder bed fusion",
+          "hot isostatic pressing",
+          "powder recovery",
+          "residual stress",
+          "static globularization"
+        ],
+        "summary_zh": {
+          "motivation": "揭示粉末回收和热等静压过程中残余应力对Ti-6Al-4V静态球化的影响机理。",
+          "method": "通过电子束粉末床熔融制备Ti-6Al-4V样品，结合粉末回收与热等静压处理，分析显微组织演变。",
+          "result": "残余应力促进了α板条的静态球化，形成了更等轴的微观结构。",
+          "validation": "采用扫描电镜和电子背散射衍射表征显微组织变化。"
+        },
+        "summary_en": {
+          "motivation": "To elucidate the role of residual stress in driving static globularization of Ti-6Al-4V during powder recovery and hot isostatic pressing.",
+          "method": "Ti-6Al-4V samples were fabricated by electron beam powder bed fusion and subjected to powder recovery and hot isostatic pressing; microstructural evolution was characterized.",
+          "result": "Residual stress accelerated the static globularization of α laths, leading to a more equiaxed microstructure.",
+          "validation": "Microstructural changes were validated using scanning electron microscopy and electron backscatter diffraction."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "electron beam powder bed fusion",
+            "zh": "电子束粉末床熔融"
+          },
+          {
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
+          },
+          {
+            "en": "powder recovery",
+            "zh": "粉末回收"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "static globularization",
+            "zh": "静态球化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_femoral_stem": 1
+      "ti6al4v_femoral_stem": 1,
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 1,
+      "High": 1
     }
   }
 }

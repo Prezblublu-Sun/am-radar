@@ -60,6 +60,9 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "selective laser melting",
+          "SLM",
+          "microstructure",
           "tensile strength",
           "elongation",
           "ductility"
@@ -69,8 +72,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究了SLM制备Ti6Al4V的微观组织与力学性能，符合L1方向要求，但未涉及疲劳性能。",
-        "why_not_core": "No fatigue data or S-N curve included; only quasi-static tensile properties are reported.",
+        "relevance_to_user": "本文直接研究选区激光熔化Ti6Al4V合金的微观组织与力学性能（拉伸强度与延伸率），通过棋盘扫描策略优化，与L1方向（Ti-6Al-4V基础力学与疲劳）高度相关，但缺少疲劳实验。",
+        "why_not_core": "No fatigue characterization (S-N curve, crack initiation/growth), no anisotropy quantification, no defect or porosity analysis.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -79,33 +82,34 @@
           "is_review": false
         },
         "tags": [
-          "additive manufacturing",
           "selective laser melting",
           "Ti6Al4V",
-          "microstructure",
-          "scanning strategy",
-          "mechanical properties"
+          "chessboard scanning",
+          "grain refinement",
+          "strength-ductility synergy",
+          "α′ martensite",
+          "tensile properties"
         ],
         "summary_zh": {
-          "motivation": "优化SLM制备Ti6Al4V的微观结构和力学性能",
-          "method": "采用棋盘扫描策略并与交替和条带扫描对比",
-          "result": "棋盘扫描细化晶粒至88.64 μm，α′相增至53.3%，抗拉强度1179 MPa，延伸率7.9%",
-          "validation": "通过SEM、EBSD、TEM和力学测试验证"
+          "motivation": "优化选区激光熔化Ti6Al4V合金的微观组织和力学性能。",
+          "method": "采用棋盘扫描策略，与交替和条纹扫描对比，表征热输入、晶粒尺寸、相组成和力学性能。",
+          "result": "棋盘扫描使晶粒细化至88.64 μm，α′含量达53.3%，抗拉强度1179 MPa，延伸率7.9%。",
+          "validation": "通过SEM、EBSD、TEM表征和拉伸测试验证。"
         },
         "summary_en": {
-          "motivation": "To optimize the microstructure and mechanical properties of SLM-fabricated Ti6Al4V by modifying scanning strategy.",
-          "method": "Chessboard scanning strategy was compared with alternating and stripe strategies, and its effects on grain refinement, phase composition, and mechanical performance were characterized.",
-          "result": "Chessboard scanning produced finer grains (88.64 μm), higher α′ content (53.3%), tensile strength of 1179 MPa, and elongation of 7.9%.",
-          "validation": "SEM, EBSD, TEM microstructural characterization and quasi-static tensile tests."
+          "motivation": "To optimize the microstructure and mechanical properties of SLM-fabricated Ti6Al4V alloys by varying scanning strategies.",
+          "method": "A chessboard scanning strategy was compared with alternating and stripe strategies, and its effects on thermal distribution, grain size, phase composition, and tensile properties were characterized using SEM, EBSD, TEM, and mechanical testing.",
+          "result": "The chessboard strategy refined grain size to 88.64 μm, increased α′ martensite content to 53.3%, and achieved a tensile strength of 1179 MPa with elongation of 7.9%, outperforming stripe scanning.",
+          "validation": "Validation was performed through microstructural characterization (SEM, EBSD, TEM) and tensile mechanical testing."
         },
         "key_terms": [
           {
-            "en": "selective laser melting",
+            "en": "selective laser melting (SLM)",
             "zh": "选区激光熔化"
           },
           {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V"
+            "en": "Ti6Al4V alloy",
+            "zh": "Ti6Al4V合金"
           },
           {
             "en": "chessboard scanning strategy",
@@ -116,8 +120,8 @@
             "zh": "晶粒细化"
           },
           {
-            "en": "α′ phase",
-            "zh": "α′相"
+            "en": "α′ martensite",
+            "zh": "α′马氏体"
           },
           {
             "en": "tensile strength",
@@ -126,30 +130,432 @@
           {
             "en": "elongation",
             "zh": "延伸率"
+          },
+          {
+            "en": "scanning strategy",
+            "zh": "扫描策略"
+          },
+          {
+            "en": "electron backscatter diffraction (EBSD)",
+            "zh": "电子背散射衍射"
+          },
+          {
+            "en": "transmission electron microscopy (TEM)",
+            "zh": "透射电子显微镜"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:19:10Z"
+      "first_seen_at": "2026-06-08T08:31:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7104262219",
+      "doi": "10.18429/jacow-ipac2025-thpb050",
+      "title": "Development of robust beam window by additive manufacturing",
+      "abstract": "Construction of the COMET experimental facility is underway to explore the muon-electron conversion process at the J-PARC Hadron facility. An 8 GeV proton beam supplied from the main ring irradiates a target in a superconducting capture solenoid magnet, and the produced pions and muons are transported to the experimental area. In the beam line, the muon transport solenoids are composed of superconducting magnets cooled by liquid Helium (LHe). The beam windows should be robust enough to withstand against rapid and high pressure increase in emergency of LHe quenching until rupture disks break. Simultaneously, the density of the beam window material must be low, and the thickness must be as thin as possible, while minimizing the beam energy loss for high transmission efficiency. Therefore, we have been developing a beam window built by additive manufacturing. We have successfully developed a beam window made of Ti-6Al-4V with a diameter of 269 mm, a thickness of 0.5 mm, and a proof pressure of 30 atm, and have now started development of a beam window made of AlSi10Mg. In this presentation, we will report on the development status of the beam window by additive manufacturing.",
+      "authors": [
+        "Makimura,Shunsuke",
+        "Kurihara,Kenta",
+        "Takahashi,Masakazu",
+        "Fukao,Yoshinori",
+        "Nagasawa,Yutaka",
+        "Onoi,Masahiro",
+        "Kondo,Daisuke",
+        "Yoshida,Masato",
+        "Inoue,Kaoru"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Makimura,Shunsuke",
+          "affiliation": ""
+        }
+      ],
+      "venue": "JACOW",
+      "year": 2025,
+      "date": "2025-11-05",
+      "date_precision": "day",
+      "url": "https://doi.org/10.18429/jacow-ipac2025-thpb050",
+      "cited_by_count": 0,
+      "concepts": [
+        "Beam (structure)",
+        "Materials science",
+        "Muon collider",
+        "Window (computing)",
+        "Process window",
+        "Solenoid",
+        "Magnet",
+        "Optics",
+        "Laser beam quality",
+        "Proton",
+        "Particle accelerator",
+        "Beam diameter",
+        "Nuclear physics",
+        "Superconducting magnet",
+        "Nuclear engineering",
+        "Muon",
+        "Development (topology)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "论文关注Ti-6Al-4V增材制造在束流窗口的具体应用，但未提供通用的机械或疲劳性能数据。",
+        "why_not_core": "The paper reports an application-specific beam window development; it lacks systematic mechanical characterization (tensile, fatigue, anisotropy) or modeling that advances the base understanding of additively manufactured Ti-6Al-4V properties.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "beam window",
+          "proof pressure",
+          "COMET experiment"
+        ],
+        "summary_zh": {
+          "motivation": "开发能承受LHe淬灭高压的增材制造束流窗口",
+          "method": "采用Ti-6Al-4V激光粉末床熔融制造直径269mm、厚0.5mm的束流窗口",
+          "result": "成功实现30 atm的耐压验证，并开始AlSi10Mg材料的开发",
+          "validation": "通过压力测试验证窗口的耐压强度"
+        },
+        "summary_en": {
+          "motivation": "Develop a robust beam window capable of withstanding high pressure during LHe quench in the COMET experiment.",
+          "method": "Fabricated a Ti-6Al-4V beam window (diameter 269 mm, thickness 0.5 mm) using laser powder bed fusion additive manufacturing.",
+          "result": "Achieved a proof pressure of 30 atm, and initiated development of an AlSi10Mg beam window.",
+          "validation": "Validated the window's pressure resistance through proof pressure testing."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "beam window",
+            "zh": "束流窗口"
+          },
+          {
+            "en": "proof pressure",
+            "zh": "耐压试验"
+          },
+          {
+            "en": "COMET experiment",
+            "zh": "COMET实验"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:31:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415901123",
+      "doi": "10.1016/j.rineng.2025.108038",
+      "title": "Environmentally sustainable EDM of Ti-6Al-4V alloy employing copper nanoparticle-dispersed vegetable oil dielectrics",
+      "abstract": "• EDM-based surface finishing of Ti-6Al-4V using biodegradable dielectrics • Sesame oil with Cu nanopowder in EDM achieved the highest MRR of 9.24 mm³/min • The lowest surface roughness was achieved with sunflower oil dielectric • Olive oil dielectric provided the lowest specific energy consumption (161.51 J/mm³) • Biodegradable dielectrics improved SR, MRR, SEC, and olive oil cut CO₂ by 84.1% Titanium-based alloys are widely recognised for their exceptional stability in harsh environments and outstanding mechanical strength. However, these same properties render them among the most challenging materials to machine using conventional techniques. In this context, electrical discharge machining (EDM) has emerged as a promising alternative, offering precise machining of difficult-to-cut materials while avoiding the typical problems of tool wear and thermal distortion associated with traditional processes. Despite these advantages, EDM faces critical limitations when employing hydrocarbon-based dielectric fluids such as kerosene. These fluids not only release toxic gases and increase CO₂ emissions during the discharge process but also pose serious health risks to operators and exacerbate environmental pollution. To address these challenges, the present study investigates the potential of four biodegradable, vegetable oil-based dielectrics: sunflower oil, sesame oil, olive oil, and soybean oil. In addition, copper nanoparticles were introduced into these media to enhance cutting performance. To ensure systematic and rigorous evaluation, the experiments were designed using the Taguchi method, and ANOVA further analysed the results. Three performance indicators were considered: surface roughness (SR), material removal rate (MRR), and specific energy consumption (SEC). The findings revealed notable improvements. Sesame oil achieved the highest MRR of 9.24 mm³/min, which was 74.8% higher than the lowest MRR obtained with sunflower oil (5.28 mm³/min). The utilization of sunflower oil as a dielectric fluid resulted in a surface quality improvement of up to 20% over other dielectrics and an 11.11% enhancement compared to conventional EDM dielectric fluids. Olive oil, in contrast, demonstrated the lowest specific energy consumption (161.5 J/mm³), representing a 28.8% reduction compared with other oils, while also achieving the greatest reduction in CO₂ emissions up to 84% compared with kerosene. These results highlight the strong potential of biodegradable dielectrics in EDM, not only for improving machining efficiency but also for advancing toward a more sustainable and environmentally responsible manufacturing process.",
+      "authors": [
+        "Nguyen Mai Anh",
+        "Nguyen Quang Vu",
+        "Nguyễn Quốc Nhật",
+        "Tran Ngoc Tam",
+        "Dinh Huu Anh",
+        "Nguyen Tien Tung",
+        "Dao Ngoc Hoanh",
+        "Nguyen Duy Trinh"
+      ],
+      "first_author_affiliation": "School of Mechanical and Automotive Engineering, Hanoi University of Industry",
+      "corresponding_authors": [
+        {
+          "name": "Nguyen Duy Trinh",
+          "affiliation": "School of Mechanical and Automotive Engineering, Hanoi University of Industry"
+        }
+      ],
+      "venue": "Results in Engineering",
+      "year": 2025,
+      "date": "2025-11-05",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.rineng.2025.108038",
+      "cited_by_count": 1,
+      "concepts": [
+        "Dielectric",
+        "Materials science",
+        "Vegetable oil",
+        "Sunflower oil",
+        "Surface roughness",
+        "Copper",
+        "Liquid dielectric",
+        "Metalworking",
+        "Electrical discharge machining",
+        "Machining",
+        "Energy consumption",
+        "Metallurgy",
+        "Olive oil",
+        "Surface finish",
+        "Composite material",
+        "Alloy",
+        "Sunflower"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是Ti-6Al-4V的电火花加工，而非增材制造后的后处理工艺，与方向无关。",
+        "why_not_core": "The paper deals with EDM machining of Ti-6Al-4V, not with a post-processing treatment (e.g., heat treatment, HIP, surface peening) applied to additively manufactured Ti-6Al-4V, and does not evaluate mechanical or fatigue performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "EDM",
+          "Ti-6Al-4V",
+          "vegetable oil dielectric",
+          "surface roughness",
+          "material removal rate"
+        ],
+        "summary_zh": {
+          "motivation": "解决传统电火花加工中烃基介电液的环境和健康问题",
+          "method": "使用四种植物油添加铜纳米颗粒作为介电液进行EDM加工Ti-6Al-4V",
+          "result": "芝麻油获最高材料去除率，葵花油获最低表面粗糙度，橄榄油能耗最低且CO₂减排84%",
+          "validation": "通过Taguchi设计和ANOVA分析实验数据"
+        },
+        "summary_en": {
+          "motivation": "To address environmental and health hazards of hydrocarbon-based dielectrics in EDM of Ti-6Al-4V.",
+          "method": "Four biodegradable vegetable oils (sunflower, sesame, olive, soybean) with Cu nanoparticles were tested as dielectrics in EDM of Ti-6Al-4V.",
+          "result": "Sesame oil yielded highest MRR (9.24 mm³/min), sunflower oil best surface finish, olive oil lowest SEC and 84% CO₂ reduction vs kerosene.",
+          "validation": "Taguchi design of experiments and ANOVA analysis."
+        },
+        "key_terms": [
+          {
+            "en": "electrical discharge machining",
+            "zh": "电火花加工"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "biodegradable dielectrics",
+            "zh": "可生物降解介电液"
+          },
+          {
+            "en": "vegetable oil",
+            "zh": "植物油"
+          },
+          {
+            "en": "copper nanoparticles",
+            "zh": "铜纳米颗粒"
+          },
+          {
+            "en": "material removal rate",
+            "zh": "材料去除率"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "specific energy consumption",
+            "zh": "比能耗"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:31:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415931512",
+      "doi": "10.1016/j.jallcom.2025.184894",
+      "title": "Designed two-step dehydrogenation treatment for enhanced strength and ductility in powder-sintered Ti-6Al-4V alloys",
+      "abstract": "",
+      "authors": [
+        "Yusi Li",
+        "Tao Chen",
+        "Weisi Cai",
+        "Junsong Zhang",
+        "Shuzhi Zhang",
+        "Xinyu Zhang",
+        "Chao Yang"
+      ],
+      "first_author_affiliation": "Center for Advanced Structural Materials, State Key Laboratory of Metastable Materials Science and Technology, Yanshan University, Qinhuangdao, 066004, PR China",
+      "corresponding_authors": [
+        {
+          "name": "Tao Chen",
+          "affiliation": "Center for Advanced Structural Materials, State Key Laboratory of Metastable Materials Science and Technology, Yanshan University, Qinhuangdao, 066004, PR China"
+        },
+        {
+          "name": "Weisi Cai",
+          "affiliation": "National Engineering Research Center of Near-net-shape Forming for Metallic Materials, Guangdong Provincial Key Laboratory for Processing and Forming of Advanced Metallic Materials, South China University of Technology, Guangzhou 510640, China"
+        }
+      ],
+      "venue": "Journal of Alloys and Compounds",
+      "year": 2025,
+      "date": "2025-11-05",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jallcom.2025.184894",
+      "cited_by_count": 0,
+      "concepts": [
+        "Dehydrogenation",
+        "Materials science",
+        "Equiaxed crystals",
+        "Lamellar structure",
+        "Microstructure",
+        "Ductility (Earth science)",
+        "Metallurgy",
+        "Hydrogen",
+        "Acicular",
+        "Eutectic system",
+        "Chemical engineering",
+        "Phase (matter)",
+        "Hydrogen storage",
+        "Decomposition"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要关注粉末烧结Ti-6Al-4V合金的脱氢后处理，而非增材制造原态力学性能，与L1方向不符合。",
+        "why_not_core": "This paper focuses on a dehydrogenation post-treatment of powder-sintered Ti-6Al-4V, not on as-built or process-state additive-manufactured Ti-6Al-4V mechanical/fatigue characterization or modeling, thus outside the L1 scope.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "dehydrogenation",
+          "powder sintering",
+          "strength",
+          "ductility",
+          "post-processing"
+        ],
+        "summary_zh": {
+          "motivation": "通过脱氢处理提高粉末烧结Ti-6Al-4V合金的强度与塑性。",
+          "method": "设计两步脱氢热处理工艺。",
+          "result": "显著提升了合金的力学性能。",
+          "validation": "进行拉伸等力学测试验证。"
+        },
+        "summary_en": {
+          "motivation": "To enhance the strength and ductility of powder-sintered Ti-6Al-4V alloys via a designed dehydrogenation treatment.",
+          "method": "A two-step dehydrogenation heat treatment was designed and applied.",
+          "result": "The treatment significantly improved both strength and ductility.",
+          "validation": "Mechanical testing (tensile tests) was performed to validate the property enhancement."
+        },
+        "key_terms": [
+          {
+            "en": "dehydrogenation treatment",
+            "zh": "脱氢处理"
+          },
+          {
+            "en": "powder sintering",
+            "zh": "粉末烧结"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "strength",
+            "zh": "强度"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          },
+          {
+            "en": "two-step heat treatment",
+            "zh": "两步热处理"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:31:07Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 4,
     "by_source": {
-      "openalex": 1
+      "openalex": 4
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 3,
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 4
     },
-    "scored": 1,
+    "scored": 4,
     "priority_counts": {
-      "High": 1
+      "High": 1,
+      "Low": 1,
+      "Exclude": 2
     }
   }
 }

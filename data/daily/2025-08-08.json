@@ -5,6 +5,131 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W4413246414",
+      "doi": "10.3390/machines13080700",
+      "title": "Retrofitting of a High-Performance Aerospace Component via Topology Optimization and Additive Manufacturing",
+      "abstract": "This research presents a novel methodology for lightweighting and cost reduction of components with high structural demands by integrating advanced design and manufacturing techniques. Specifically, it combines topology optimization (TO) with additive manufacturing (AM), also known as 3D printing. Unlike conventional approaches, the proposed method first determines the optimal geometry using an artificially stiff material, and only then evaluates real materials for structural and manufacturing feasibility. This design-first, material-second strategy enables broader material screening and maximizes weight reduction without compromising performance. The proposed workflow is applied to the design of a turbofan air intake—an aeronautical component operating under supersonic conditions—addressing both structural integrity and manufacturing feasibility. Three materials from distinct classes are assessed: two metallic alloys (aluminum alloy 6061 and titanium alloy, Ti6Al4V) and a high-performance polymer (polyetheretherketone, PEEK). This last option is preliminarily discarded after being analyzed for this specific application. Finite element (FE) simulations are used to evaluate the mechanical behavior of the optimized geometries, including bird-strike conditions. Among the evaluated manufacturing techniques, Selective Laser Melting (SLM) is identified as the most suitable for the metallic materials selected, providing an effective balance between performance, manufacturability, and aerospace compliance. This study illustrates the potential of TO–AM synergy as a sustainable and efficient design approach for next-generation aerospace components. Simulation results demonstrate a weight reduction of up to 71% while preserving critical functional regions and maintaining structural integrity in Al 6061 and Ti6Al4V cases, under the diverse loading conditions typical of real flight scenarios, while PEEK remains an attractive option for uses where mechanical demands are less stringent.",
+      "authors": [
+        "Jorge Crespo-Sánchez",
+        "Claudia Solek",
+        "Sergio Fuentes del Toro",
+        "Ana María Camacho",
+        "Álvaro Rodríguez-Prieto"
+      ],
+      "first_author_affiliation": "Department of Manufacturing Engineering, Universidad Nacional de Educación a Distancia (UNED), C. Juan del Rosal, 12, 28040 Madrid, Spain",
+      "corresponding_authors": [
+        {
+          "name": "Jorge Crespo-Sánchez",
+          "affiliation": "Department of Manufacturing Engineering, Universidad Nacional de Educación a Distancia (UNED), C. Juan del Rosal, 12, 28040 Madrid, Spain"
+        }
+      ],
+      "venue": "Machines",
+      "year": 2025,
+      "date": "2025-08-08",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/machines13080700",
+      "cited_by_count": 3,
+      "concepts": [
+        "Design for manufacturability",
+        "Aerospace",
+        "Topology optimization",
+        "Selective laser melting",
+        "Component (thermodynamics)",
+        "Mechanical engineering",
+        "3D printing",
+        "Titanium alloy",
+        "Reduction (mathematics)",
+        "Computer science",
+        "Peek",
+        "Materials science",
+        "Finite element method",
+        "Process engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "additive manufacturing",
+          "selective laser melting",
+          "3D printing",
+          "SLM"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文聚焦于拓扑优化与增材制造结合的航空部件轻量化设计，虽然使用了Ti6Al4V，但并未深入探讨其力学性能或疲劳特性，因此与用户关注的Ti-6Al-4V基础力学与疲劳研究方向关联较弱。",
+        "why_not_core": "The paper focuses on a design methodology (topology optimization) and component-level simulation rather than on mechanical property characterization or fatigue performance of Ti-6Al-4V; no experimental mechanical testing or fatigue data are provided.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "topology optimization",
+          "selective laser melting",
+          "Ti6Al4V",
+          "aerospace component",
+          "finite element analysis"
+        ],
+        "summary_zh": {
+          "motivation": "通过拓扑优化和增材制造实现航空部件轻量化和降成本。",
+          "method": "先设计最优几何再评估材料的'设计优先'策略，结合SLM和FE仿真。",
+          "result": "在Ti6Al4V和Al6061中实现71%减重，结构完整性保持。",
+          "validation": "有限元仿真模拟鸟撞等工况。"
+        },
+        "summary_en": {
+          "motivation": "Propose a design-first, material-second methodology combining topology optimization and additive manufacturing to lightweight and reduce cost of high-performance aerospace components.",
+          "method": "The optimal geometry is determined using an artificially stiff material, then real materials (Al 6061, Ti6Al4V, PEEK) are evaluated via FE simulations for structural and manufacturing feasibility; SLM is chosen for metallic options.",
+          "result": "Weight reduction of up to 71% is achieved for Ti6Al4V and Al 6061 while preserving critical functional regions and maintaining structural integrity under flight loads including bird-strike.",
+          "validation": "Finite element simulations of the optimized geometries under diverse loading conditions, including bird-strike."
+        },
+        "key_terms": [
+          {
+            "en": "topology optimization",
+            "zh": "拓扑优化"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选择性激光熔融"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V"
+          },
+          {
+            "en": "aerospace component",
+            "zh": "航空部件"
+          },
+          {
+            "en": "finite element simulation",
+            "zh": "有限元仿真"
+          },
+          {
+            "en": "bird-strike",
+            "zh": "鸟撞"
+          },
+          {
+            "en": "weight reduction",
+            "zh": "减重"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W4413248412",
       "doi": "10.3390/ma18163726",
       "title": "Evaluation of a Method for Determining Material Strength Based on Hardness Measurements: A Case Study of the Ti6Al4V Alloy",
@@ -52,6 +177,7 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "additively manufactured",
           "tensile strength",
           "ductility"
         ],
@@ -64,8 +190,8 @@
         "priority": "Medium",
         "relevance_level": "Direct",
         "read_action": "Save for project",
-        "relevance_to_user": "该论文评估了热加工对Ti6Al4V合金硬度与抗拉强度关系的影响，可为后处理工艺控制提供参考。",
-        "why_not_core": "The paper focuses on evaluating a hardness-based strength estimation method rather than systematically investigating the effect of a specific post-processing treatment on fatigue or mechanical performance.",
+        "relevance_to_user": "该论文研究了热处理对Ti6Al4V合金拉伸强度与硬度关系的影响，为后处理控制提供了间接评估方法。",
+        "why_not_core": "论文主要关注硬度估算拉伸强度的方法，而非直接揭示后处理对疲劳或力学性能的调控机理。",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -78,20 +204,19 @@
           "hardness",
           "tensile strength",
           "heat treatment",
-          "additive manufacturing",
-          "post-processing"
+          "additive manufacturing"
         ],
         "summary_zh": {
-          "motivation": "评估基于硬度测量间接估算Ti6Al4V抗拉强度的可行性",
-          "method": "对增材制造和传统工艺制备的Ti6Al4V样品进行拉伸试验和硬度测量，分析热处理和制造方法的影响",
-          "result": "硬度与抗拉强度趋势总体一致，但热处理后呈非线性关系，且未拉伸样品硬度更高",
-          "validation": "通过对比拉伸试验和硬度测量结果进行实验验证"
+          "motivation": "评估通过硬度测量间接估算Ti6Al4V合金拉伸强度的可行性。",
+          "method": "对增材制造和传统方法制备的Ti6Al4V样品进行拉伸试验和HV硬度测量。",
+          "result": "硬度与拉伸强度总体相关，但热处理后样品呈现非线性关系，增材制造样品强度最高。",
+          "validation": "通过对比不同工艺状态下硬度与拉伸数据的实验验证。"
         },
         "summary_en": {
-          "motivation": "This study evaluates the feasibility of using hardness measurements to indirectly estimate the tensile strength of Ti6Al4V alloy, considering different manufacturing routes and heat treatments.",
-          "method": "Samples fabricated by additive manufacturing and conventional methods, under as-built and heat-treated conditions, were subjected to static tensile tests and HV hardness measurements.",
-          "result": "Hardness generally correlated with tensile strength, but the relationship was nonlinear in heat-treated specimens, and untested samples exhibited higher hardness than mechanically tested ones.",
-          "validation": "Experimental validation was performed by comparing tensile test results with hardness measurements across various processing conditions."
+          "motivation": "This study evaluates the feasibility of indirectly estimating the tensile strength of Ti6Al4V alloy from hardness measurements across different manufacturing routes and post-processing conditions.",
+          "method": "Static tensile tests and Vickers hardness measurements were performed on Ti6Al4V samples fabricated by additive manufacturing and conventional methods, including as-built and heat-treated conditions.",
+          "result": "Hardness generally correlated with tensile strength, but a nonlinear relationship was observed in heat-treated specimens; as-built samples exhibited the highest tensile strength.",
+          "validation": "Experimental validation was achieved by comparing hardness data with tensile test results from multiple material conditions."
         },
         "key_terms": [
           {
@@ -104,7 +229,7 @@
           },
           {
             "en": "tensile strength",
-            "zh": "抗拉强度"
+            "zh": "拉伸强度"
           },
           {
             "en": "heat treatment",
@@ -115,39 +240,41 @@
             "zh": "增材制造"
           },
           {
-            "en": "conventional manufacturing",
-            "zh": "传统制造"
+            "en": "indirect estimation",
+            "zh": "间接估算"
           },
           {
-            "en": "indirect method",
-            "zh": "间接方法"
+            "en": "Vickers hardness",
+            "zh": "维氏硬度"
           },
           {
-            "en": "mechanical loading",
-            "zh": "机械加载"
+            "en": "mechanical testing",
+            "zh": "力学测试"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1,
       "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
+      "Low": 1,
       "Medium": 1
     }
   }

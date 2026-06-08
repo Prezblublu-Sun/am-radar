@@ -63,6 +63,8 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additively manufactured",
+          "powder bed fusion",
           "residual stress"
         ],
         "ti6al4v_postprocess": [
@@ -72,11 +74,11 @@
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "本文涉及Ti-6Al-4V/Ta双金属的热处理，但主要关注磨损和生物性能，而非直接的Ti-6Al-4V后处理对疲劳/力学性能的影响。",
-        "why_not_core": "The paper focuses on Ti-6Al-4V/Ta bimetal rather than standalone Ti-6Al-4V, and its primary outcomes are wear and biocompatibility, not fatigue or tensile mechanical performance under post-processing.",
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "论文涉及Ti-6Al-4V/Ta双金属的热处理工艺，但主要关注双金属而非纯Ti-6Al-4V的后处理对疲劳性能的影响。",
+        "why_not_core": "Paper focuses on bimetal Ti-6Al-4V/Ta and does not isolate the post-processing effect on Ti-6Al-4V alone; no explicit fatigue testing is performed.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -85,27 +87,31 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V/Ta bimetal",
+          "Ti-6Al-4V",
+          "bimetal",
           "heat treatment",
           "residual stress",
-          "neutron diffraction",
           "wear resistance",
-          "biocompatibility",
-          "post-processing"
+          "neutron diffraction",
+          "powder bed fusion"
         ],
         "summary_zh": {
-          "motivation": "研究Ti-6Al-4V/Ta双金属的残余应力分布及热处理对其性能的影响。",
-          "method": "采用中子衍射分析残余应力，并进行热处理及磨损、生物性能测试。",
-          "result": "热处理降低了残余应力，改善了磨损和生物相容性。",
-          "validation": "通过中子衍射和磨损实验验证了结果。"
+          "motivation": "研究激光粉末床熔融制备的Ti-6Al-4V/Ta双金属中残余应力分布及后处理影响",
+          "method": "通过中子衍射分析残余应力，结合热处理优化双金属性能",
+          "result": "热处理后双金属的耐磨性和生物相容性优于纯Ti-6Al-4V",
+          "validation": "采用中子衍射和磨损实验验证残余应力及性能改善"
         },
         "summary_en": {
-          "motivation": "To investigate the residual stress distribution in as-printed Ti-6Al-4V/Ta bimetal and the effect of heat treatment on its mechanical and biological properties.",
-          "method": "Neutron diffraction measured residual stresses in the bimetal, and heat treatment was applied followed by wear and biocompatibility tests.",
-          "result": "Heat treatment reduced tensile residual stresses in the Ti-6Al-4V part and improved wear resistance and biocompatibility due to tantalum oxide formation.",
-          "validation": "Experimental validation through neutron diffraction residual stress analysis and wear tests."
+          "motivation": "To investigate residual stress distribution and the effect of heat treatment on the properties of additively manufactured Ti-6Al-4V/Ta bimetal for biomedical applications.",
+          "method": "Neutron diffraction residual stress analysis and heat treatment optimization were performed on laser powder bed fused Ti-6Al-4V/Ta bimetals.",
+          "result": "Heat treatment improved wear and corrosion resistance while maintaining good biocompatibility, attributed to tantalum oxide formation.",
+          "validation": "Experimental validation included neutron diffraction for residual stress and wear/corrosion tests for mechanical and bio-properties."
         },
         "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
           {
             "en": "Ti-6Al-4V/Ta bimetal",
             "zh": "Ti-6Al-4V/Ta双金属"
@@ -129,38 +135,263 @@
           {
             "en": "biocompatibility",
             "zh": "生物相容性"
-          },
-          {
-            "en": "powder bed fusion",
-            "zh": "粉末床熔融"
-          },
-          {
-            "en": "post-processing",
-            "zh": "后处理"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7143497592",
+      "doi": "10.1016/j.jallcom.2026.187689",
+      "title": "Thermo-hydrogen processing of Ti-6Al-4V alloy: Recent perspectives on sustainable powder production and additive manufacturing",
+      "abstract": "",
+      "authors": [
+        "Elif Erişman",
+        "A.Yiğit Kaya",
+        "Amir Mostafaei",
+        "Mertol Gökelma"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Elif Erişman",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Journal of Alloys and Compounds",
+      "year": 2026,
+      "date": "2026-03-30",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jallcom.2026.187689",
+      "cited_by_count": 1,
+      "concepts": [
+        "Production (economics)",
+        "Process engineering",
+        "Sustainable production",
+        "Raw material",
+        "Environmental science",
+        "Materials science",
+        "Waste management",
+        "Metallurgy",
+        "Manufacturing engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该文章综述了热氢处理在Ti-6Al-4V粉末生产及增材制造中的可持续性应用，但未涉及力学或疲劳性能。",
+        "why_not_core": "This is a review on powder production and processing, not providing new mechanical/fatigue characterization or modeling of Ti-6Al-4V.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": true
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "thermo-hydrogen processing",
+          "powder production",
+          "additive manufacturing",
+          "review"
+        ],
+        "summary_zh": {
+          "motivation": "综述热氢处理在Ti-6Al-4V粉末生产与增材制造中的研究进展",
+          "method": "文献综述方法",
+          "result": "总结了热氢处理在可持续粉末制备和增材制造中的应用现状与前景",
+          "validation": "无实验验证，为综述文章"
+        },
+        "summary_en": {
+          "motivation": "This review summarizes recent perspectives on thermo-hydrogen processing for sustainable powder production and additive manufacturing of Ti-6Al-4V.",
+          "method": "A comprehensive literature review of thermo-hydrogen processing techniques applied to Ti-6Al-4V.",
+          "result": "The paper outlines current developments and future prospects in utilizing thermo-hydrogen processing for powder synthesis and AM of Ti-6Al-4V.",
+          "validation": "No experimental validation; the work is a review of existing literature."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "thermo-hydrogen processing",
+            "zh": "热氢处理"
+          },
+          {
+            "en": "powder production",
+            "zh": "粉末制备"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "sustainability",
+            "zh": "可持续性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7143296810",
+      "doi": "10.1007/s11665-026-13735-z",
+      "title": "Effect of Anneal Temperature on Microstructure and Mechanical Characteristics of Scrap-Rolled Ti-6Al-4V Alloy Bars",
+      "abstract": "",
+      "authors": [
+        "Peng Shao",
+        "Han Xiao",
+        "Siyuan Zhai",
+        "Kun Liu",
+        "Shuqi Deng"
+      ],
+      "first_author_affiliation": "Faculty of Materials Science and Engineering, Kunming University of Science and Technology, Kunming, 650093, China",
+      "corresponding_authors": [
+        {
+          "name": "Han Xiao",
+          "affiliation": "Faculty of Materials Science and Engineering, Kunming University of Science and Technology, Kunming, 650093, China"
+        }
+      ],
+      "venue": "Journal of Materials Engineering and Performance",
+      "year": 2026,
+      "date": "2026-03-30",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s11665-026-13735-z",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Equiaxed crystals",
+        "Microstructure",
+        "Annealing (glass)",
+        "Electron backscatter diffraction",
+        "Recrystallization (geology)",
+        "Ultimate tensile strength",
+        "Slip (aerodynamics)",
+        "Composite material",
+        "Lamellar structure",
+        "Metallurgy",
+        "Alloy",
+        "Scanning electron microscope",
+        "Grain boundary",
+        "Shear (geology)",
+        "Critical resolved shear stress",
+        "Grain size",
+        "Plasticity",
+        "Grain growth",
+        "Fractography"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究对象为废旧轧制Ti-6Al-4V棒材，与增材制造无关。",
+        "why_not_core": "This paper studies scrap-rolled (wrought) Ti-6Al-4V bars, not additively manufactured Ti-6Al-4V, so it does not address the mechanical/fatigue performance of AM Ti-6Al-4V as required by Layer 1.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "scrap-rolled",
+          "anneal temperature",
+          "mechanical properties",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "研究退火温度对废旧轧制Ti-6Al-4V合金棒材组织与性能的影响。",
+          "method": "对废旧轧制棒材进行不同温度退火处理，并测试其力学性能。",
+          "result": "退火温度显著影响显微组织和力学性能。",
+          "validation": "通过实验测试验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of annealing temperature on the microstructure and mechanical properties of scrap-rolled Ti-6Al-4V alloy bars.",
+          "method": "Scrap-rolled bars were annealed at various temperatures and then characterized microstructurally and mechanically.",
+          "result": "Annealing temperature significantly influences the microstructure and resulting mechanical behavior.",
+          "validation": "Experimental testing was performed to validate the findings."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "scrap-rolled",
+            "zh": "废旧轧制"
+          },
+          {
+            "en": "anneal temperature",
+            "zh": "退火温度"
+          },
+          {
+            "en": "microstructure",
+            "zh": "显微组织"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
-      "Low": 1
+      "Medium": 1,
+      "Low": 1,
+      "Exclude": 1
     }
   }
 }

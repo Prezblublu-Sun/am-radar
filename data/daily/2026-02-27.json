@@ -76,9 +76,9 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "与钛合金增材制造后处理无关，研究铣削过程能耗预测。",
-        "why_not_core": "This paper focuses on energy consumption prediction in milling, not on post-processing effects on mechanical performance of AM Ti-6Al-4V.",
-        "validation_kind": "none",
+        "relevance_to_user": "论文涉及Ti-6Al-4V的铣削加工能耗预测，而非后处理对力学性能的影响。",
+        "why_not_core": "The paper does not study any post-processing treatment (heat treatment, HIP, surface treatment) and does not report mechanical performance (fatigue, tensile); instead it focuses on predicting energy consumption in milling.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -88,34 +88,34 @@
         "tags": [
           "Ti-6Al-4V",
           "milling",
-          "machine learning",
           "specific energy consumption",
+          "machine learning",
           "sustainable manufacturing"
         ],
         "summary_zh": {
-          "motivation": "为实现可持续生产，预测钛合金铣削过程中的单位能耗。",
-          "method": "采用四种机器学习模型（MLR、SVR、GPR、ANFIS）对单位能耗进行预测。",
-          "result": "ANFIS模型预测能力最高，MLR最差。",
-          "validation": "使用统计指标比较预测与实验数据验证模型可靠性。"
+          "motivation": "实现Ti-6Al-4V铣削过程的节能和可持续生产。",
+          "method": "采用四种机器学习模型预测特定能耗。",
+          "result": "ANFIS模型预测性能最佳。",
+          "validation": "通过统计指标对比预测值与实验值。"
         },
         "summary_en": {
-          "motivation": "To enhance energy efficiency and sustainability in machining, this study aims to predict specific energy consumption during milling of Ti-6Al-4V.",
-          "method": "Four machine learning models (multiple linear regression, support vector regression, Gaussian process regression, and adaptive network-based fuzzy inference system) were developed to estimate SEC under cryogenic and MQL cooling conditions.",
-          "result": "The ANFIS model outperformed the others in predictive capability, while MLR showed the worst performance.",
-          "validation": "Model predictions were validated against experimental SEC data using multiple statistical metrics including nMAE, MAPE, nRMSE, and R²."
+          "motivation": "To enhance energy efficiency and sustainability in Ti-6Al-4V milling processes.",
+          "method": "Four machine learning models (MLR, SVR, GPR, ANFIS) were developed to predict specific energy consumption under cryogenic and MQL cooling conditions.",
+          "result": "ANFIS showed the highest predictive capability among the models.",
+          "validation": "Models were validated using statistical metrics (nMAE, MAPE, nRMSE, maxAPE, R2, IA) comparing predicted and experimental SEC data."
         },
         "key_terms": [
           {
+            "en": "specific energy consumption",
+            "zh": "特定能耗"
+          },
+          {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "zh": "Ti-6Al-4V"
           },
           {
             "en": "milling",
             "zh": "铣削"
-          },
-          {
-            "en": "specific energy consumption",
-            "zh": "单位能耗"
           },
           {
             "en": "machine learning",
@@ -130,44 +130,297 @@
             "zh": "微量润滑"
           },
           {
-            "en": "Gaussian process regression",
-            "zh": "高斯过程回归"
-          },
-          {
             "en": "ANFIS",
             "zh": "自适应网络模糊推理系统"
-          },
-          {
-            "en": "sustainable manufacturing",
-            "zh": "可持续制造"
-          },
-          {
-            "en": "multiple linear regression",
-            "zh": "多元线性回归"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7131883498",
+      "doi": "10.3390/coatings16030292",
+      "title": "Microstructure and Oxidation Behavior of Cr–20Al Coatings Synthesized by Mechanical Alloying Method",
+      "abstract": "Cr-Al composite coatings were fabricated on Ti-6Al-4V alloy substrates via mechanical alloying using a high-energy planetary ball mill. The coatings exhibited a distinctive bilayer architecture comprising an inner layer with coarse reinforcing particles and an outer layer featuring a refined, homogenized microstructure. Systematic investigations were conducted to elucidate the influence of rotational speed on coating formation, microstructural evolution, phase composition, and high-temperature oxidation performance. The findings revealed that insufficient milling speeds failed to facilitate adequate powder deposition, resulting in poor interfacial adhesion and the formation of porous or thin coatings. Conversely, excessive rotational speeds induced surface roughening and coating delamination. Optimization studies identified 250 r/min as the optimal milling speed, yielding dense, well-adherent coatings with superior oxidation resistance. Cyclic oxidation testing at 850 °C demonstrated that coated specimens exhibited significantly reduced mass gain compared to uncoated substrates. Post-oxidation characterization confirmed the formation of a protective corundum-type oxide scale (α-Al2O3 and Cr2O3) and revealed a four-layered structure in the oxidized coating: (I) a dense oxide film serving as an oxygen barrier, (II) a dense alloyed layer, (III) a porous alloyed layer, and (IV) an inner diffusion zone. These results demonstrate that the mechanically alloyed Cr-Al coatings provide effective protection against high-temperature oxidation for Ti-6Al-4V alloy substrates.",
+      "authors": [
+        "Qingrui Wang",
+        "Changlu Shi",
+        "Hao Sun",
+        "W. Wang",
+        "Huimei Pang"
+      ],
+      "first_author_affiliation": "China Institute of Atomic Energy, Beijing 102413, China",
+      "corresponding_authors": [
+        {
+          "name": "Qingrui Wang",
+          "affiliation": "China Institute of Atomic Energy, Beijing 102413, China"
+        }
+      ],
+      "venue": "Coatings",
+      "year": 2026,
+      "date": "2026-02-27",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/coatings16030292",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Coating",
+        "Oxide",
+        "Porosity",
+        "Layer (electronics)",
+        "Alloy",
+        "Bilayer",
+        "Composite material",
+        "Metallurgy",
+        "Internal oxidation",
+        "Composite number",
+        "Phase (matter)",
+        "Ball mill",
+        "Chemical engineering",
+        "Diffusion",
+        "Oxygen",
+        "Adhesion",
+        "Tribology"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究Cr-Al涂层对Ti-6Al-4V基体的高温氧化保护，不涉及增材制造Ti-6Al-4V的力学或疲劳性能。",
+        "why_not_core": "The paper does not concern additively manufactured Ti-6Al-4V; it focuses on Cr-Al coatings applied via mechanical alloying with no mechanical or fatigue testing.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Cr-Al coating",
+          "mechanical alloying",
+          "oxidation resistance",
+          "Ti-6Al-4V",
+          "high-temperature oxidation"
+        ],
+        "summary_zh": {
+          "motivation": "研究Cr-Al涂层对Ti-6Al-4V合金的高温氧化防护。",
+          "method": "采用机械合金化在Ti-6Al-4V基体上制备Cr-Al涂层，优化球磨转速。",
+          "result": "250 r/min下获得致密涂层，氧化测试表明形成保护性氧化膜，质量增益显著降低。",
+          "validation": "通过循环氧化实验和微观结构表征验证涂层性能。"
+        },
+        "summary_en": {
+          "motivation": "To improve the high-temperature oxidation resistance of Ti-6Al-4V alloy by applying Cr-Al coatings.",
+          "method": "Cr-Al composite coatings were synthesized on Ti-6Al-4V substrates via mechanical alloying with varying rotational speeds.",
+          "result": "The optimized coating at 250 r/min exhibited dense structure and significantly reduced mass gain during cyclic oxidation at 850°C.",
+          "validation": "Cyclic oxidation testing and post-oxidation microstructure analysis were used for validation."
+        },
+        "key_terms": [
+          {
+            "en": "mechanical alloying",
+            "zh": "机械合金化"
+          },
+          {
+            "en": "high-temperature oxidation",
+            "zh": "高温氧化"
+          },
+          {
+            "en": "Cr-Al coating",
+            "zh": "Cr-Al涂层"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "protective oxide scale",
+            "zh": "保护性氧化膜"
+          },
+          {
+            "en": "cyclic oxidation",
+            "zh": "循环氧化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7131859586",
+      "doi": "10.1007/s42114-026-01678-x",
+      "title": "Enhanced corrosion resistance, wear behavior, and biocompatibility of Ti-6Al-4V alloy for bone implants",
+      "abstract": "Ti-6Al-4V alloy is extensively utilized in biomedical applications such as bone implants due to its high corrosion resistance, favorable mechanical features, and biocompatibility. In this study, a short-time duplex aging treatment at different aging temperatures of 350, 450, 500, 550, 600, and 700 o C was conducted on solution-treated alloys. The microstructural observations revealed a bimodal structure consisting of globular α and α/β lamellae. By increasing the aging temperature, the globular α phase and lamellae experienced growth. With an increase in aging temperature, the strength values decreased while elongation increased. Also, the hardness of aged alloys increased after aging. The hardness grew as the aging temperature decreased. Similarly, the wear resistance improved as the aging temperature decreased. Additionally, the main wear mechanisms were abrasive wear, adhesive wear, and delamination. The aged alloys were less worn at lower aging temperatures, especially after the second stage of aging. Based on the result of in-vitro corrosion, the aged samples showed better corrosion resistance compared to the solution-treated one. In addition, the surfaces were less corroded after the second stage of aging compared to the first stage of aging. Also, an increase in aging temperature resulted in a greater thickness of the oxide layer and enhanced corrosion resistance. Furthermore, a better cytotoxic response of alloys was obtained after employing aging treatment. As the surface roughness and the thickness of the oxide layer increased, improved interaction between chondrocytes and alloys was observed, demonstrating its excellent potential as bone implants.",
+      "authors": [
+        "Mingyang Jiang",
+        "Shenyi Lu",
+        "Ke Zhang",
+        "Rubing Lin",
+        "Tao Wang",
+        "Xifan Zheng",
+        "Jinfeng Meng",
+        "Zhanghui Lin",
+        "R.A. Rodrı́guez",
+        "Zhandong Bo",
+        "Ruqiong Wei"
+      ],
+      "first_author_affiliation": "Department of Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China",
+      "corresponding_authors": [
+        {
+          "name": "Zhandong Bo",
+          "affiliation": "Department of Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China"
+        }
+      ],
+      "venue": "Advanced Composites and Hybrid Materials",
+      "year": 2026,
+      "date": "2026-02-27",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s42114-026-01678-x",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Corrosion",
+        "Alloy",
+        "Metallurgy",
+        "Biocompatibility",
+        "Abrasive",
+        "Surface finish",
+        "Layer (electronics)",
+        "Elongation",
+        "Surface roughness",
+        "Composite material",
+        "Oxide",
+        "Microstructure",
+        "Phase (matter)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "elongation",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "aging treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究了钛合金时效处理对力学和腐蚀性能的影响，但未涉及增材制造Ti-6Al-4V，且未报告疲劳数据。",
+        "why_not_core": "The paper does not concern additively manufactured Ti-6Al-4V; it is based on conventional wrought alloy and lacks fatigue testing, which is central to the direction's focus on post-processing effects on mechanical fatigue.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "aging treatment",
+          "corrosion resistance",
+          "wear behavior",
+          "biocompatibility"
+        ],
+        "summary_zh": {
+          "motivation": "提高骨植入用Ti-6Al-4V合金的耐腐蚀、耐磨和生物相容性",
+          "method": "对固溶处理后的合金进行不同温度短时双时效处理",
+          "result": "时效温度降低提高了硬度和耐磨性，但强度下降；耐腐蚀性随温度升高而增强",
+          "validation": "通过显微观察、力学测试、磨损实验和体外腐蚀实验验证"
+        },
+        "summary_en": {
+          "motivation": "To improve the corrosion resistance, wear behavior, and biocompatibility of Ti-6Al-4V alloy for bone implant applications.",
+          "method": "A short-time duplex aging treatment at various temperatures (350–700°C) was applied to solution-treated Ti-6Al-4V alloy.",
+          "result": "Lower aging temperatures increased hardness and wear resistance but decreased strength; higher aging temperatures enhanced corrosion resistance due to thicker oxide layer.",
+          "validation": "Microstructural characterization, mechanical testing, wear tests, and in-vitro corrosion experiments were conducted."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V alloy",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "duplex aging",
+            "zh": "双时效处理"
+          },
+          {
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
+          },
+          {
+            "en": "wear behavior",
+            "zh": "磨损行为"
+          },
+          {
+            "en": "biocompatibility",
+            "zh": "生物相容性"
+          },
+          {
+            "en": "bimodal structure",
+            "zh": "双峰组织"
+          },
+          {
+            "en": "abrasive wear",
+            "zh": "磨粒磨损"
+          },
+          {
+            "en": "oxide layer",
+            "zh": "氧化层"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 3
     }
   }
 }

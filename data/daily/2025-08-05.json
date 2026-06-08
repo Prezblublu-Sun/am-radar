@@ -59,8 +59,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是PEEK膝关节假体与钛合金钛6铝4V的应力遮挡比较，并非针对钛6铝4V股骨柄的增材制造设计，因此与方向无关。",
-        "why_not_core": "The paper focuses on a knee prosthesis, not a femoral hip stem; it does not address additive manufacturing, stem structural design, lattice architectures, or fatigue testing for Ti-6Al-4V femoral stems.",
+        "relevance_to_user": "该论文研究的是PEEK膝关节假体而非Ti-6Al-4V股骨柄，与用户方向不匹配。",
+        "why_not_core": "The paper studies a knee prosthesis made of PEEK, not a Ti-6Al-4V femoral stem for hip arthroplasty, and does not involve additive manufacturing.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
@@ -72,52 +72,176 @@
           "knee prosthesis",
           "PEEK",
           "stress shielding",
-          "finite element analysis",
-          "titanium alloy",
-          "total knee arthroplasty"
+          "finite element analysis"
         ],
         "summary_zh": {
-          "motivation": "比较PEEK和钛合金膝关节假体的应力遮挡效应",
-          "method": "有限元分析评估胫骨近端应力分布和应力遮挡因子",
-          "result": "PEEK假体应力分布更均匀，应力遮挡更小",
-          "validation": "仅有限元模拟，无实验验证"
+          "motivation": "评估PEEK膝关节假体与钛合金假体的应力遮挡效应。",
+          "method": "使用有限元分析比较PEEK和Ti6Al4V假体在骨质疏松胫骨模型上的应力分布。",
+          "result": "PEEK假体应力传递更均匀，应力遮挡因子接近零，优于钛合金。",
+          "validation": "仅有限元仿真，无实验验证。"
         },
         "summary_en": {
-          "motivation": "To compare stress-shielding effects of PEEK versus titanium alloy Ti6Al4V knee prostheses.",
-          "method": "Finite element analysis evaluated von Mises stress and stress-shielding factor at seven critical points on an osteoporotic tibial bone model under physiological loads.",
-          "result": "The PEEK prosthesis exhibited more uniform stress transmission with values within the optimal range and minimal stress shielding, unlike the titanium implant.",
-          "validation": "Finite element simulation without experimental validation."
+          "motivation": "To evaluate the stress-shielding effect of a PEEK knee prosthesis compared to a conventional titanium implant in total knee arthroplasty.",
+          "method": "Finite element analysis was used to compute stress distribution and stress-shielding factor at seven critical points on the proximal tibia under physiological loading.",
+          "result": "The PEEK prosthesis showed more uniform stress transmission and minimal stress shielding, while titanium implants exhibited significant stress shielding.",
+          "validation": "The study relied solely on finite element simulation without experimental or clinical validation."
         },
         "key_terms": [
+          {
+            "en": "stress shielding",
+            "zh": "应力遮挡"
+          },
           {
             "en": "PEEK",
             "zh": "聚醚醚酮"
           },
           {
-            "en": "knee prosthesis",
-            "zh": "膝关节假体"
-          },
-          {
-            "en": "stress shielding",
-            "zh": "应力遮挡"
+            "en": "total knee arthroplasty",
+            "zh": "全膝关节置换术"
           },
           {
             "en": "finite element analysis",
             "zh": "有限元分析"
           },
           {
-            "en": "titanium alloy Ti6Al4V",
-            "zh": "钛合金Ti6Al4V"
-          },
-          {
-            "en": "total knee arthroplasty",
-            "zh": "全膝关节置换术"
+            "en": "titanium implant",
+            "zh": "钛合金植入物"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412989339",
+      "doi": "10.3390/constrmater5030053",
+      "title": "Establishing Rational Processing Parameters for Dry Finish-Milling of SLM Ti6Al4V over Metal Removal Rate and Tool Wear",
+      "abstract": "The study is motivated by the application of dry finish milling for post-build processing of additive Ti6Al4V blanks, since the use of neither lubricant nor coolants has been attracting increasing attention due to its environmental benefits, non-toxicity, and the elimination of the need for additional cleaning processes. For end mills, wear patterns were investigated upon finish milling of the SLM Ti6Al4V samples under various machining conditions (by varying the values of radial depth of cut and feed values at a constant level of axial depth of cut and cutting speed). When using all the applied milling modes, the identical tool wear mechanism was revealed. Built-up edges mainly developed on the leading surfaces, increasing the surface roughness on the SLM Ti6Al4V samples but protecting the cutting edges. However, abrasive wear was mainly characteristic of the flank surfaces that accelerated peeling of the protective coatings and increased wear of the end mills. The following milling parameters have been established as being close to rational ones: Vc = 60 m/min, Vf = 400 mm/min, ap = 4 mm, and ae = 0.4 mm. They affected the surface roughness of the SLM Ti6Al4V samples in the following way: max cutting thickness—8 μm; built-up edge at rake surface—50 ± 3 μm; max wear of flank surface—15 ± 1 μm; maximum adherence of workpiece. Mode III provided the maximum MRR value and negligible wear of the end mill, but its main disadvantage was the high average surface roughness on the SLM Ti6Al4V sample. Mode II was characterized by both the lowest average surface roughness and the lowest wear of the end mill, as well as an insufficient MRR value. Since these two modes differed only in their feed rates, their values should be optimized in the range from 200 to 400 mm/min.",
+      "authors": [
+        "С. В. Панин",
+        "А. В. Филиппов",
+        "Mengxu Qi",
+        "Zihao Ding",
+        "Qingrong Zhang",
+        "Zeli Han"
+      ],
+      "first_author_affiliation": "Laboratory of Mechanics of Polymer Composite Materials, Institute of Strength Physics and Materials Science of Siberian Branch of Russian Academy of Sciences, 634055 Tomsk, Russia",
+      "corresponding_authors": [
+        {
+          "name": "С. В. Панин",
+          "affiliation": "Laboratory of Mechanics of Polymer Composite Materials, Institute of Strength Physics and Materials Science of Siberian Branch of Russian Academy of Sciences, 634055 Tomsk, Russia"
+        }
+      ],
+      "venue": "Construction Materials",
+      "year": 2025,
+      "date": "2025-08-05",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/constrmater5030053",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Metallurgy",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "SLM",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了SLM Ti6Al4V后处理中的干式精铣削参数优化，但未评估对疲劳或力学性能的影响，因此与用户关注的后处理对力学性能影响方向关联较弱。",
+        "why_not_core": "This paper investigates milling parameters for surface finish and tool wear, but does not provide experimental data on the effect of post-processing on tensile/fatigue properties or microstructure evolution, which is the core requirement for this direction.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "dry finish milling",
+          "SLM Ti6Al4V",
+          "tool wear",
+          "surface roughness",
+          "metal removal rate"
+        ],
+        "summary_zh": {
+          "motivation": "为了环境友好，研究干式精铣削SLM Ti6Al4V的合理参数。",
+          "method": "通过改变径向切深和进给量进行铣削实验，观察刀具磨损和表面粗糙度。",
+          "result": "确定了接近合理的铣削参数（Vc=60 m/min等），并分析了刀具磨损机理。",
+          "validation": "通过实验测量刀具磨损和表面粗糙度验证。"
+        },
+        "summary_en": {
+          "motivation": "To establish rational dry finish-milling parameters for post-processed SLM Ti6Al4V while considering tool wear and surface roughness.",
+          "method": "Milling experiments with varied radial depth of cut and feed rate at constant axial depth and cutting speed, examining tool wear patterns and surface roughness.",
+          "result": "Identified near-optimal parameters (Vc=60 m/min, Vf=400 mm/min, ap=4 mm, ae=0.4 mm) and characterized wear mechanisms (built-up edge, abrasive wear).",
+          "validation": "Experimental measurements of tool wear and surface roughness."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting (SLM)",
+            "zh": "选择性激光熔化"
+          },
+          {
+            "en": "dry finish milling",
+            "zh": "干式精铣削"
+          },
+          {
+            "en": "tool wear",
+            "zh": "刀具磨损"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "metal removal rate",
+            "zh": "金属去除率"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "钛合金Ti6Al4V"
+          },
+          {
+            "en": "built-up edge",
+            "zh": "积屑瘤"
+          },
+          {
+            "en": "abrasive wear",
+            "zh": "磨粒磨损"
+          },
+          {
+            "en": "cutting parameters",
+            "zh": "切削参数"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
     },
     {
       "source": "openalex",
@@ -167,6 +291,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
           "surface roughness",
           "fatigue"
         ]
@@ -175,8 +300,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "本文提出了一种新型高频振动疲劳测试方法，用于评估激光粉末床熔融Ti-6Al-4V合金在纯剪切载荷下的疲劳性能，与标准扭转试验结果一致。",
-        "why_not_core": "This paper concentrates solely on pure shear fatigue and does not cover tensile/compressive or multiaxial fatigue behavior that is also common in structural applications.",
+        "relevance_to_user": "该论文针对激光粉末床熔融Ti-6Al-4V的纯剪切疲劳行为提出了高效振动测试方法，直接符合L1层对增材制造Ti-6Al-4V力学与疲劳性能的研究方向。",
+        "why_not_core": "The paper focuses on developing a novel test method rather than systematically investigating anisotropy, layer thickness, or porosity effects, but it still provides fatigue data for as-built L-PBF Ti-6Al-4V.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -188,22 +313,22 @@
           "high cycle fatigue",
           "pure shear",
           "vibration-based fatigue",
-          "Ti-6Al-4V",
           "L-PBF",
-          "as-built surface",
+          "Ti-6Al-4V",
+          "as-built surfaces",
           "fractography"
         ],
         "summary_zh": {
-          "motivation": "传统疲劳测试成本高、周期长，需开发高效方法。",
-          "method": "设计了共振纯剪切试样，在700Hz下进行振动疲劳试验，并用应变花验证应力状态。",
-          "result": "获得的疲劳强度与标准扭转试验一致，裂纹起裂于典型增材制造缺陷处。",
-          "validation": "通过应变花测量和断口分析验证了纯剪切状态及失效机制。"
+          "motivation": "传统纯剪切疲劳测试耗时且成本高昂，亟需高效方法获取代表性数据。",
+          "method": "开发基于电振动台的纯剪切共振疲劳测试方法，采用平板试样并验证应力状态。",
+          "result": "在700Hz下获得Ti-6Al-4V L-PBF的疲劳强度，与5Hz标准扭转试验结果一致，失效均源于典型AM缺陷。",
+          "validation": "通过应变花验证应力状态，并结合断口分析确认失效机制。"
         },
         "summary_en": {
-          "motivation": "To reduce the high cost and long duration of conventional fatigue tests for multiaxial stresses.",
-          "method": "A resonance-based fatigue specimen was designed to achieve pure shear loading, validated by a strain rosette, and tested at 700 Hz using an electrodynamic shaker.",
-          "result": "The fatigue strengths of L-PBF Ti-6Al-4V with as-built surfaces matched standard torsion tests at 5 Hz, with all failures initiating at process-related discontinuities.",
-          "validation": "Stress state validation via strain measurement and fractography confirmed pure shear conditions and failure mechanisms."
+          "motivation": "Conventional pure shear fatigue tests are time-consuming and expensive, motivating the development of a faster, reliable method.",
+          "method": "A novel vibration-based fatigue test for pure shear loading was designed using plate specimens, validated with strain rosettes, and applied at 700 Hz on an electrodynamic shaker.",
+          "result": "Fatigue strengths of as-built L-PBF Ti-6Al-4V obtained at 700 Hz matched standard torsion test results at 5 Hz, with all failures initiating at lack of fusion or surface roughness features.",
+          "validation": "Experimental validation included strain rosette measurements and fractographic analysis confirming edge-free crack initiation in the high-stress zone."
         },
         "key_terms": [
           {
@@ -216,15 +341,15 @@
           },
           {
             "en": "vibration-based fatigue test",
-            "zh": "振动疲劳试验"
+            "zh": "振动疲劳测试"
+          },
+          {
+            "en": "laser powder bed fusion (L-PBF)",
+            "zh": "激光粉末床熔融"
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
-          },
-          {
-            "en": "laser powder bed fusion",
-            "zh": "激光粉末床熔融"
+            "zh": "钛合金Ti-6Al-4V"
           },
           {
             "en": "as-built surface",
@@ -235,79 +360,70 @@
             "zh": "断口分析"
           },
           {
-            "en": "resonance",
-            "zh": "共振"
-          },
-          {
-            "en": "strain rosette",
-            "zh": "应变花"
-          },
-          {
             "en": "lack of fusion",
-            "zh": "未熔合"
+            "zh": "熔合不良"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
     },
     {
       "source": "openalex",
-      "id": "https://openalex.org/W4412989339",
-      "doi": "10.3390/constrmater5030053",
-      "title": "Establishing Rational Processing Parameters for Dry Finish-Milling of SLM Ti6Al4V over Metal Removal Rate and Tool Wear",
-      "abstract": "The study is motivated by the application of dry finish milling for post-build processing of additive Ti6Al4V blanks, since the use of neither lubricant nor coolants has been attracting increasing attention due to its environmental benefits, non-toxicity, and the elimination of the need for additional cleaning processes. For end mills, wear patterns were investigated upon finish milling of the SLM Ti6Al4V samples under various machining conditions (by varying the values of radial depth of cut and feed values at a constant level of axial depth of cut and cutting speed). When using all the applied milling modes, the identical tool wear mechanism was revealed. Built-up edges mainly developed on the leading surfaces, increasing the surface roughness on the SLM Ti6Al4V samples but protecting the cutting edges. However, abrasive wear was mainly characteristic of the flank surfaces that accelerated peeling of the protective coatings and increased wear of the end mills. The following milling parameters have been established as being close to rational ones: Vc = 60 m/min, Vf = 400 mm/min, ap = 4 mm, and ae = 0.4 mm. They affected the surface roughness of the SLM Ti6Al4V samples in the following way: max cutting thickness—8 μm; built-up edge at rake surface—50 ± 3 μm; max wear of flank surface—15 ± 1 μm; maximum adherence of workpiece. Mode III provided the maximum MRR value and negligible wear of the end mill, but its main disadvantage was the high average surface roughness on the SLM Ti6Al4V sample. Mode II was characterized by both the lowest average surface roughness and the lowest wear of the end mill, as well as an insufficient MRR value. Since these two modes differed only in their feed rates, their values should be optimized in the range from 200 to 400 mm/min.",
+      "id": "https://openalex.org/W4412978767",
+      "doi": "10.1016/j.jmapro.2025.07.081",
+      "title": "Effect of ultrasonic-assisted magnetic abrasive finishing on the surface morphology and defects of TC4 alloy by selective laser melting",
+      "abstract": "",
       "authors": [
-        "С. В. Панин",
-        "А. В. Филиппов",
-        "Mengxu Qi",
-        "Zihao Ding",
-        "Qingrong Zhang",
-        "Zeli Han"
+        "Guang Yang",
+        "Tao Wang",
+        "Yushi Wang",
+        "Xiaodan Li",
+        "Da An"
       ],
-      "first_author_affiliation": "Laboratory of Mechanics of Polymer Composite Materials, Institute of Strength Physics and Materials Science of Siberian Branch of Russian Academy of Sciences, 634055 Tomsk, Russia",
+      "first_author_affiliation": "Mechanical and Electrical Engineering Institute, Shenyang Aerospace University, Shenyang 110136, China",
       "corresponding_authors": [
         {
-          "name": "С. В. Панин",
-          "affiliation": "Laboratory of Mechanics of Polymer Composite Materials, Institute of Strength Physics and Materials Science of Siberian Branch of Russian Academy of Sciences, 634055 Tomsk, Russia"
+          "name": "Guang Yang",
+          "affiliation": "Mechanical and Electrical Engineering Institute, Shenyang Aerospace University, Shenyang 110136, China"
         }
       ],
-      "venue": "Construction Materials",
+      "venue": "Journal of Manufacturing Processes",
       "year": 2025,
       "date": "2025-08-05",
       "date_precision": "day",
-      "url": "https://doi.org/10.3390/constrmater5030053",
-      "cited_by_count": 2,
+      "url": "https://doi.org/10.1016/j.jmapro.2025.07.081",
+      "cited_by_count": 1,
       "concepts": [
         "Materials science",
+        "Abrasive",
+        "Alloy",
+        "Ultrasonic sensor",
+        "Selective laser melting",
+        "Morphology (biology)",
         "Metallurgy",
         "Composite material"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_base_mechanical_fatigue",
-        "ti6al4v_postprocess"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "ti6al4v_postprocess",
-      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
-          "Ti6Al4V",
-          "surface roughness"
-        ],
-        "ti6al4v_postprocess": [
-          "Ti6Al4V",
-          "machining"
+          "TC4",
+          "selective laser melting"
         ]
       },
       "llm": {
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文研究了SLM Ti6Al4V的干式精铣后处理工艺参数，但未涉及疲劳或力学性能，仅关注表面粗糙度和刀具磨损。",
-        "why_not_core": "The paper investigates machining parameters for dry finish-milling of SLM Ti6Al4V but does not evaluate mechanical performance (fatigue, tensile) or microstructure effects relevant to post-processing control.",
+        "relevance_to_user": "该论文研究后处理工艺（超声辅助磁力研磨）对SLM TC4表面形貌和缺陷的影响，而非L1层关注的Ti-6Al-4V的力学或疲劳性能。",
+        "why_not_core": "This paper focuses on a post-processing surface finishing treatment (ultrasonic-assisted magnetic abrasive finishing) rather than the as-built mechanical or fatigue characterization of Ti-6Al-4V required by Layer 1.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -316,84 +432,295 @@
           "is_review": false
         },
         "tags": [
-          "dry finish milling",
-          "SLM Ti6Al4V",
-          "tool wear",
-          "surface roughness",
-          "machining parameters"
+          "Ti-6Al-4V",
+          "selective laser melting",
+          "ultrasonic-assisted magnetic abrasive finishing",
+          "surface morphology",
+          "defects"
         ],
         "summary_zh": {
-          "motivation": "研究干式精铣对SLM Ti6Al4V后处理的适用性，追求环保和成本效益。",
-          "method": "改变径向切深和进给量，分析刀具磨损机制和表面粗糙度。",
-          "result": "确定了优化铣削参数，主要磨损机制为积屑瘤和磨粒磨损。",
-          "validation": "通过多模式实验测量表面粗糙度和刀具磨损验证。"
+          "motivation": "研究超声辅助磁力研磨对SLM TC4合金表面形貌和缺陷的影响",
+          "method": "对SLM TC4样品进行超声辅助磁力研磨处理，并表征表面形貌和缺陷",
+          "result": "超声辅助磁力研磨改善了表面形貌并减少了表面缺陷",
+          "validation": "通过扫描电镜和粗糙度测量进行实验验证"
         },
         "summary_en": {
-          "motivation": "To establish rational dry finish-milling parameters for post-processing of SLM Ti6Al4V, focusing on environmental benefits and cost reduction.",
-          "method": "Varying radial depth of cut and feed rate at constant axial depth and cutting speed to analyze tool wear patterns and surface roughness.",
-          "result": "Identified near-optimal milling parameters and characterized built-up edge and abrasive wear mechanisms.",
-          "validation": "Experimental measurement of surface roughness and tool wear across multiple machining modes."
+          "motivation": "To investigate the effect of ultrasonic-assisted magnetic abrasive finishing on the surface morphology and defects of SLM-produced TC4 alloy.",
+          "method": "Ultrasonic-assisted magnetic abrasive finishing was applied to SLM TC4 samples, and surface morphology and defects were characterized.",
+          "result": "Ultrasonic-assisted magnetic abrasive finishing improved surface morphology and reduced surface defects.",
+          "validation": "Experimental validation was performed through SEM imaging and surface roughness measurements."
         },
         "key_terms": [
           {
-            "en": "dry finish milling",
-            "zh": "干式精铣"
+            "en": "TC4",
+            "zh": "TC4"
           },
           {
-            "en": "SLM Ti6Al4V",
-            "zh": "激光选区熔融Ti6Al4V"
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
           },
           {
-            "en": "tool wear",
-            "zh": "刀具磨损"
+            "en": "ultrasonic-assisted magnetic abrasive finishing",
+            "zh": "超声辅助磁力研磨"
           },
           {
-            "en": "surface roughness",
-            "zh": "表面粗糙度"
+            "en": "surface morphology",
+            "zh": "表面形貌"
           },
           {
-            "en": "built-up edge",
-            "zh": "积屑瘤"
-          },
-          {
-            "en": "abrasive wear",
-            "zh": "磨粒磨损"
-          },
-          {
-            "en": "metal removal rate",
-            "zh": "金属去除率"
-          },
-          {
-            "en": "post-processing",
-            "zh": "后处理"
+            "en": "defects",
+            "zh": "缺陷"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412980987",
+      "doi": "10.1016/j.ijlmm.2025.07.009",
+      "title": "Analysis and optimisation of parent grain reconstruction for additively manufactured Ti–6Al–4V",
+      "abstract": "During solidification processing, most common titanium alloys solidify as high-temperature parent phase and it subsequently transforms into the room-temperature child phase. This parent to child transformation occurred as a solid-state transformation. Even though the parent phase is not observable at room temperature, it is considerably associated with solidification defects such as porosity. Parent grain reconstruction based on Burgers orientation relationship, which shows the crystallographic relationship between two phases, has been applied to examine the high temperature and transitional parent phases of titanium alloys and steels. This contribution presents the reconstructed high temperature parent phase and the sensitivity analysis related to a series of parameters for three crucial parent phase reconstruction steps for additively manufactured titanium alloy Ti-6Al-4V. The analysis examines the reconstruction, merging of very small and neighbouring grains together, and finally cleaning of inclusive noise, which referred as inclusions during the rendering process of the parent phase. The analysis offers an instruction for threshold selection that enables optimised parent phase reconstruction.",
+      "authors": [
+        "Lu Feng Yang",
+        "Saranarayanan Ramachandran",
+        "Axieh Joy I. Bagasol",
+        "Fan Wu",
+        "Qiyu Guan",
+        "David J. Browne",
+        "Denis P. Dowling",
+        "Wajira Mirihanage"
+      ],
+      "first_author_affiliation": "Department of Materials, The University of Manchester, Manchester M13 9PL, UK",
+      "corresponding_authors": [
+        {
+          "name": "Wajira Mirihanage",
+          "affiliation": "Department of Materials, The University of Manchester, Manchester M13 9PL, UK"
+        }
+      ],
+      "venue": "International Journal of Lightweight Materials and Manufacture",
+      "year": 2025,
+      "date": "2025-08-05",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.ijlmm.2025.07.009",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文专注于Ti-6Al-4V的母相晶粒重建方法，未涉及力学或疲劳性能，属于微观结构表征，与力学性能方向关联较弱。",
+        "why_not_core": "No experimental mechanical or fatigue data presented; purely microstructural reconstruction analysis without quantitative mechanical property measurement or modeling.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "parent grain reconstruction",
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "electron backscatter diffraction",
+          "Burgers orientation relationship"
+        ],
+        "summary_zh": {
+          "motivation": "优化增材制造Ti-6Al-4V的母相晶粒重建",
+          "method": "对重建步骤中的参数进行敏感性分析",
+          "result": "提供了阈值选择指导以实现优化重建",
+          "validation": "基于敏感性分析，无实验验证"
+        },
+        "summary_en": {
+          "motivation": "To optimize parent grain reconstruction for additively manufactured Ti-6Al-4V by analyzing parameter sensitivity.",
+          "method": "Sensitivity analysis of parameters in three crucial parent phase reconstruction steps.",
+          "result": "Provides threshold selection guidance for optimized parent phase reconstruction.",
+          "validation": "Sensitivity analysis without experimental validation of mechanical outcomes."
+        },
+        "key_terms": [
+          {
+            "en": "parent grain reconstruction",
+            "zh": "母相晶粒重建"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Burgers orientation relationship",
+            "zh": "伯格斯取向关系"
+          },
+          {
+            "en": "electron backscatter diffraction",
+            "zh": "电子背散射衍射"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413052688",
+      "doi": "10.1016/j.engfailanal.2025.109969",
+      "title": "Gradient TiZrN coating and deformation-enhanced pretreatment to improve the anti-solid particle erosion and fatigue performance of Ti-6Al-4V alloy",
+      "abstract": "",
+      "authors": [
+        "Yanjie Liu",
+        "Daoxin Liu",
+        "Amin Ma",
+        "Zhiqiang Yang",
+        "Junnan Wu",
+        "Kai Zhou",
+        "Mengyao Li",
+        "Xiaohua Zhang"
+      ],
+      "first_author_affiliation": "College of Civil Aviation, Northwestern Polytechnical University, Xi’an 710072, China",
+      "corresponding_authors": [
+        {
+          "name": "Daoxin Liu",
+          "affiliation": "College of Civil Aviation, Northwestern Polytechnical University, Xi’an 710072, China"
+        },
+        {
+          "name": "Xiaohua Zhang",
+          "affiliation": "College of Civil Aviation, Northwestern Polytechnical University, Xi’an 710072, China"
+        }
+      ],
+      "venue": "Engineering Failure Analysis",
+      "year": 2025,
+      "date": "2025-08-05",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.engfailanal.2025.109969",
+      "cited_by_count": 4,
+      "concepts": [
+        "Materials science",
+        "Deformation (meteorology)",
+        "Alloy",
+        "Coating",
+        "Particle (ecology)",
+        "Erosion",
+        "Titanium alloy",
+        "Composite material",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "本文不涉及增材制造Ti-6Al-4V，而是传统Ti-6Al-4V的涂层及预处理研究，与用户方向无关。",
+        "why_not_core": "This paper does not use additively manufactured Ti-6Al-4V; it studies coating and pretreatment on conventionally wrought Ti-6Al-4V, and does not address AM-specific mechanical or fatigue performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "coating",
+          "erosion",
+          "fatigue",
+          "pretreatment"
+        ],
+        "summary_zh": {
+          "motivation": "提高Ti-6Al-4V合金的抗固体颗粒侵蚀和疲劳性能",
+          "method": "采用梯度TiZrN涂层和变形强化预处理",
+          "result": "改善了抗侵蚀和疲劳性能",
+          "validation": "通过侵蚀和疲劳实验验证"
+        },
+        "summary_en": {
+          "motivation": "To improve the solid particle erosion and fatigue resistance of Ti-6Al-4V alloy",
+          "method": "Gradient TiZrN coating combined with deformation-enhanced pretreatment",
+          "result": "The coating and pretreatment effectively enhanced both erosion and fatigue performance",
+          "validation": "Erosion and fatigue tests were conducted"
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V alloy",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "gradient TiZrN coating",
+            "zh": "梯度TiZrN涂层"
+          },
+          {
+            "en": "deformation-enhanced pretreatment",
+            "zh": "变形强化预处理"
+          },
+          {
+            "en": "solid particle erosion",
+            "zh": "固体颗粒侵蚀"
+          },
+          {
+            "en": "fatigue performance",
+            "zh": "疲劳性能"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 6,
     "by_source": {
-      "openalex": 3
+      "openalex": 6
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 6,
+    "after_routing": 6,
     "by_direction": {
       "ti6al4v_femoral_stem": 1,
-      "ti6al4v_base_mechanical_fatigue": 1,
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 4
     },
     "routed_by_source": {
-      "openalex": 3
+      "openalex": 6
     },
-    "scored": 3,
+    "scored": 6,
     "priority_counts": {
-      "Exclude": 1,
-      "High": 1,
-      "Low": 1
+      "Exclude": 2,
+      "Low": 3,
+      "High": 1
     }
   }
 }

@@ -1,0 +1,170 @@
+{
+  "schema_version": "v2",
+  "date": "2025-12-02",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4417045259",
+      "doi": "10.3390/ma18235436",
+      "title": "Effects of Annealing Temperature on the Microstructure and Mechanical Properties of Asymmetrically Rolled Ultra-Thin Ti-6Al-4V",
+      "abstract": "In this study, the asymmetrical rolling technique was employed to fabricate 75 μm-thick Ti-6Al-4V ultra-thin strips from the initial 0.45 mm sheet without intermediate annealing, aiming for applications in fuel cell bipolar plates. The rolled strips exhibited good surface quality without cracking. In order to enhance both the mechanical response and the shaping capability of Ti-6Al-4V strips produced by asymmetric rolling, the material was subjected to annealing at various temperatures, and the resulting changes in microstructural features and mechanical performance were systematically examined. The findings indicated that the cold-rolled Ti-6Al-4V exhibited a microstructure primarily composed of subgrains with an average size of approximately 0.41 μm, a feature that contributed to improved corrosion resistance and enhanced ductility after annealing. When the alloy was subjected to heat treatment within the range of 650-800 °C, it was observed that annealing temperatures below 700 °C favored microstructural changes governed predominantly by recovery processes and the onset of recrystallization. At 700 °C, the grains became equiaxed and uniformly distributed, and the dislocation density significantly decreased. The tensile strength reached 887 MPa, while the elongation increased to 13.7%, achieving an excellent strength-ductility balance. Once the annealing temperature rose above 700 °C, noticeable grain growth took place, accompanied by a more pronounced grain-size gradient and a renewed increase in dislocation density. Meanwhile, the dimples observed on the fracture surface became finer, collectively contributing to a decline in tensile elongation. The Ti-6Al-4V ultra-thin strip annealed at 700 °C was used for bipolar plate stamping, producing fine micro-channels with an aspect ratio of 0.43. Finally, TiN coating was applied to the surface, which significantly improved the corrosion resistance and reduced the interfacial contact resistance (ICR), meeting the performance requirements for bipolar plates.",
+      "authors": [
+        "Tao Sun",
+        "Tan Liu",
+        "Mingpei Jiang",
+        "Peng Huang",
+        "Xianli Yang",
+        "Xianlei Hu"
+      ],
+      "first_author_affiliation": "State Key Laboratory of Digital Steel, Northeastern University, Shenyang 110819, China",
+      "corresponding_authors": [
+        {
+          "name": "Tan Liu",
+          "affiliation": "School of Material Science and Engineering, Northeastern University, Shenyang 110819, China"
+        },
+        {
+          "name": "Xianli Yang",
+          "affiliation": "Suzhou Laboratory, Suzhou 215125, China"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-12-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18235436",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Equiaxed crystals",
+        "Annealing (glass)",
+        "Microstructure",
+        "Ultimate tensile strength",
+        "Composite material",
+        "Elongation",
+        "Hot rolled",
+        "Grain size",
+        "Alloy",
+        "Metallurgy",
+        "STRIPS",
+        "Dimple",
+        "Ductility (Earth science)",
+        "Dislocation",
+        "Grain growth",
+        "Recrystallization (geology)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "tensile strength",
+          "elongation",
+          "ductility"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment",
+          "annealing"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是锻造Ti-6Al-4V板材的退火处理，并非增材制造材料，因此与AM后处理控制方向不相关。",
+        "why_not_core": "Paper does not concern additively manufactured Ti-6Al-4V; it studies wrought material produced by asymmetric rolling, and does not include fatigue testing.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "annealing",
+          "asymmetric rolling",
+          "mechanical properties",
+          "ultra-thin strip"
+        ],
+        "summary_zh": {
+          "motivation": "研究退火温度对异步轧制超薄Ti-6Al-4V板材微观结构和力学性能的影响，以优化其性能用于燃料电池双极板。",
+          "method": "对0.45 mm厚板材进行异步轧制至75 μm，随后在不同温度下退火，表征微观结构和力学性能。",
+          "result": "700°C退火获得最佳强度-塑性平衡，抗拉强度887 MPa，延伸率13.7%。",
+          "validation": "通过拉伸测试和微观结构观察验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of annealing temperature on the microstructure and mechanical properties of asymmetrically rolled ultra-thin Ti-6Al-4V strips for fuel cell bipolar plate applications.",
+          "method": "Cold rolling of 0.45 mm sheet to 75 μm without intermediate annealing, followed by annealing at various temperatures (650-800°C) and characterization of microstructure and tensile properties.",
+          "result": "The strip annealed at 700°C exhibited an excellent strength-ductility balance with tensile strength of 887 MPa and elongation of 13.7%, attributed to equiaxed grains and reduced dislocation density.",
+          "validation": "Mechanical testing (tensile tests) and microstructural analysis."
+        },
+        "key_terms": [
+          {
+            "en": "asymmetric rolling",
+            "zh": "异步轧制"
+          },
+          {
+            "en": "annealing",
+            "zh": "退火"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "ultra-thin strip",
+            "zh": "超薄带材"
+          },
+          {
+            "en": "strength-ductility balance",
+            "zh": "强度-塑性平衡"
+          },
+          {
+            "en": "bipolar plate",
+            "zh": "双极板"
+          },
+          {
+            "en": "fracture surface",
+            "zh": "断口形貌"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

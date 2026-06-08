@@ -57,6 +57,10 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "wire arc additive",
+          "microstructure",
+          "build direction",
           "tensile strength",
           "yield strength",
           "ultimate tensile strength",
@@ -66,10 +70,10 @@
       },
       "llm": {
         "priority": "Medium",
-        "relevance_level": "Transferable",
-        "read_action": "Skim only",
-        "relevance_to_user": "该论文综述了电弧增材制造Ti-6Al-4V的微观结构与力学性能，虽未包含新的疲劳数据，但对理解WAAM工艺-结构-性能关系有参考价值。",
-        "why_not_core": "This paper is a review of arc-based additive manufacturing of Ti-6Al-4V without providing new experimental fatigue data or mechanical characterization results; it primarily synthesizes existing literature without novel contributions.",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该综述总结了Ti-6Al-4V线弧增材制造的工艺-组织-性能关系，对理解该类材料的力学行为有参考价值，但无新实验数据。",
+        "why_not_core": "This is a review paper that synthesizes existing experimental data rather than presenting new mechanical/fatigue characterization or modeling, and it does not provide quantitative mechanical results specific to the direction's focus on as-built or process-state properties.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
@@ -80,31 +84,35 @@
         "tags": [
           "wire arc additive manufacturing",
           "Ti-6Al-4V",
+          "microstructure",
           "mechanical properties",
           "anisotropy",
-          "microstructure",
           "review"
         ],
         "summary_zh": {
-          "motivation": "系统总结电弧增材制造Ti-6Al-4V的工艺-组织-性能关系。",
-          "method": "对现有实验数据进行解析性综合分析。",
-          "result": "揭示了沉积参数对显微组织和力学性能各向异性的影响规律。",
-          "validation": "无新实验验证，基于文献数据综合。"
+          "motivation": "系统整合线弧增材制造Ti-6Al-4V合金的现有实验数据",
+          "method": "对WAAM和GTAW-AM技术的工艺参数、热循环、组织演变及力学性能进行综合评述",
+          "result": "明确了工艺-组织-性能关系，包括柱状晶生长、α片层粗化及拉伸各向异性",
+          "validation": "基于已发表数据的汇总分析，无新实验验证"
         },
         "summary_en": {
-          "motivation": "To systematically synthesize the current body of experimental data on the process-structure-property relationships of Ti-6Al-4V fabricated by wire arc additive manufacturing.",
-          "method": "Analytical synthesis of existing experimental data focusing on deposition parameters, thermal cycling, microstructural evolution, and mechanical anisotropy.",
-          "result": "Identified that heat input, interpass temperature, and deposition strategy govern prior-β grain growth and α-phase morphology, leading to anisotropy in tensile strength and hardness.",
-          "validation": "No new validation; the study is a review based on previously published experimental results."
+          "motivation": "To systematically synthesize the current experimental data on wire arc additive manufacturing of Ti-6Al-4V, focusing on quantitative relationships between process parameters, microstructure, and mechanical properties.",
+          "method": "The paper performs an analytical review of WAAM and GTAW-AM technologies, correlating deposition parameters, thermal cycling, microstructural evolution, and anisotropic mechanical behavior.",
+          "result": "It establishes consistent process-structure-property relationships, including columnar prior-β grain growth, α-lath coarsening, and anisotropy in tensile strength, yield strength, and elongation.",
+          "validation": "No new validation is performed; the study is a review of existing experimental data from the literature."
         },
         "key_terms": [
           {
             "en": "wire arc additive manufacturing",
-            "zh": "电弧增材制造"
+            "zh": "线弧增材制造"
           },
           {
             "en": "Ti-6Al-4V",
             "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "microstructure",
+            "zh": "显微组织"
           },
           {
             "en": "mechanical properties",
@@ -113,10 +121,6 @@
           {
             "en": "anisotropy",
             "zh": "各向异性"
-          },
-          {
-            "en": "microstructure",
-            "zh": "微观组织"
           },
           {
             "en": "prior-β grain",
@@ -131,18 +135,18 @@
             "zh": "魏氏组织"
           },
           {
-            "en": "tensile strength",
-            "zh": "抗拉强度"
+            "en": "heat input",
+            "zh": "热输入"
           },
           {
-            "en": "process-structure-property relationship",
-            "zh": "工艺-组织-性能关系"
+            "en": "interpass temperature",
+            "zh": "层间温度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
     },
     {
       "source": "openalex",
@@ -199,6 +203,9 @@
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "TC4",
+          "additive manufacturing",
+          "additively manufactured",
+          "microstructure",
           "tensile strength",
           "fatigue",
           "fatigue life",
@@ -216,8 +223,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文研究了Ti-6Al-4V（TC4）电子束熔融沉积件的固溶时效热处理对其微观组织和疲劳性能的影响，直接对应后处理控制方向。",
-        "why_not_core": "The paper does not cover other post-processing methods such as HIP, shot peening, or machining, and does not include uncertainty quantification or patient-specific considerations.",
+        "relevance_to_user": "该论文研究了电子束选区熔化成形TC4钛合金经固溶时效处理后的微观组织与疲劳性能，与用户关注的AM Ti-6Al-4V后处理控制方向直接相关。",
+        "why_not_core": "The paper is fully core: it directly studies the effect of a post-processing treatment (solution and aging) on Ti-6Al-4V microstructure and fatigue performance.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -226,71 +233,71 @@
           "is_review": false
         },
         "tags": [
-          "electron beam melting",
           "Ti-6Al-4V",
+          "TC4",
+          "selective electron beam melting",
           "solution and aging treatment",
-          "fatigue",
-          "microstructure",
-          "post-processing"
+          "fatigue property",
+          "microstructure"
         ],
         "summary_zh": {
-          "motivation": "为提升电子束熔融TC4钛合金的疲劳可靠性，需系统研究后处理热处理的影响。",
-          "method": "对SEBM沉积态TC4进行固溶时效处理（SAT），分析不同温度下微观组织演变和力学性能变化。",
-          "result": "SAT处理使α相尺寸增大，950°C时篮网状组织转变为层片状，硬度降低而塑性提高，且疲劳强度和寿命均优于沉积态。",
-          "validation": "通过拉伸、硬度和疲劳试验验证了热处理对组织和性能的改善效果。"
+          "motivation": "电子束选区熔化成形TC4钛合金的力学性能可靠性是其批量生产的前提。",
+          "method": "系统研究了固溶时效处理对TC4合金微观组织和疲劳性能的影响，包括不同温度下的组织演变。",
+          "result": "固溶时效处理提高了合金的拉伸强度、塑性和疲劳寿命，950°C时篮筐组织转变为层状组织。",
+          "validation": "通过微观组织观察、硬度测试、拉伸和疲劳实验验证了性能变化。"
         },
         "summary_en": {
-          "motivation": "To ensure the reliability of mechanical properties for mass production of SEBM Ti-6Al-4V components, the effect of post-processing heat treatment on fatigue performance must be systematically investigated.",
-          "method": "A solution and aging treatment (SAT) was applied to as-deposited SEBM TC4 titanium alloy, and the microstructure evolution and mechanical properties were characterized at varying solution temperatures.",
-          "result": "After SAT, the α phase coarsened; at 950°C the basketweave structure transformed into lamellar structure, hardness decreased while plasticity increased, and both fatigue strength and life were enhanced compared to the as-deposited state.",
-          "validation": "Mechanical testing including tensile, hardness, and fatigue tests was conducted to validate the changes in microstructure and performance after heat treatment."
+          "motivation": "The reliability of mechanical properties of electron beam selective melting (SEBM) Ti-6Al-4V is a prerequisite for mass production, motivating the study of post-processing effects.",
+          "method": "A systematic investigation was conducted on the effect of solution and aging treatment (SAT) on the microstructure and fatigue properties of SEBM TC4 titanium alloy, with varying solution temperatures.",
+          "result": "SAT enhanced tensile strength, plasticity, and fatigue life; at 950°C the basketweave structure transformed to a lamellar structure, accompanied by coarsening and reduced hardness.",
+          "validation": "Validation was performed through microstructural analysis, hardness testing, and uniaxial tensile and fatigue experiments."
         },
         "key_terms": [
           {
-            "en": "selective electron beam melting (SEBM)",
-            "zh": "电子束选区熔融"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "TC4 titanium alloy",
-            "zh": "TC4钛合金"
+            "en": "selective electron beam melting",
+            "zh": "电子束选区熔化"
           },
           {
-            "en": "solution and aging treatment (SAT)",
+            "en": "solution and aging treatment",
             "zh": "固溶时效处理"
-          },
-          {
-            "en": "microstructure",
-            "zh": "微观组织"
           },
           {
             "en": "fatigue property",
             "zh": "疲劳性能"
           },
           {
-            "en": "α phase",
-            "zh": "α相"
-          },
-          {
-            "en": "β columnar crystal",
-            "zh": "β柱状晶"
+            "en": "microstructure",
+            "zh": "微观组织"
           },
           {
             "en": "basketweave structure",
-            "zh": "篮网状组织"
+            "zh": "篮筐组织"
           },
           {
             "en": "lamellar structure",
-            "zh": "层片状组织"
+            "zh": "层状组织"
           },
           {
             "en": "tensile strength",
             "zh": "抗拉强度"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          },
+          {
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
     },
     {
       "source": "openalex",
@@ -356,8 +363,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究了热等静压与固溶时效处理对线弧直接能量沉积Ti-6Al-4V合金拉伸和疲劳性能的协同增强作用，完全符合后处理控制方向。",
-        "why_not_core": "This paper does not cover other post-processing techniques such as machining, polishing, or shot peening; it focuses solely on HIP+STA combination.",
+        "relevance_to_user": "该论文直接研究了热等静压和固溶时效处理对激光定向能量沉积Ti-6Al-4V合金拉伸和高周疲劳性能的协同增强作用，完全符合后处理控制方向。",
+        "why_not_core": "The paper does not address any Layer 3 implant structure or biomedical context; it is purely a post-processing study on DED Ti-6Al-4V.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -366,34 +373,29 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
-          "wire DED",
+          "laser directed energy deposition",
           "hot isostatic pressing",
           "solution treatment and aging",
-          "tensile properties",
           "high-cycle fatigue",
-          "post-processing"
+          "tensile properties",
+          "Ti-6Al-4V"
         ],
         "summary_zh": {
-          "motivation": "协同增强线弧直接能量沉积Ti-6Al-4V的拉伸与高周疲劳性能",
-          "method": "对沉积态试样进行热等静压+固溶时效复合后处理",
-          "result": "复合处理显著提升强度与疲劳寿命，优于单一处理",
-          "validation": "通过拉伸与高周疲劳测试并与不同处理态对比验证"
+          "motivation": "探究热等静压与固溶时效复合处理对增材制造Ti-6Al-4V力学性能的协同增效机制。",
+          "method": "对线材定向能量沉积Ti-6Al-4V进行热等静压+固溶+时效处理，并测试拉伸和高周疲劳性能。",
+          "result": "复合处理显著提升了材料的抗拉强度和疲劳寿命，实现了微观组织优化与缺陷愈合。",
+          "validation": "通过标准拉伸和疲劳试验验证力学性能改善。"
         },
         "summary_en": {
-          "motivation": "To synergistically enhance the tensile and high-cycle fatigue properties of wire direct energy deposition Ti-6Al-4V through combined hot isostatic pressing and solution treatment and aging.",
-          "method": "Applied hot isostatic pressing followed by solution treatment and aging on wire-DED Ti-6Al-4V specimens and conducted tensile and high-cycle fatigue tests.",
-          "result": "The combined post-processing significantly improved both tensile strength and fatigue life compared to as-built and single treatments.",
-          "validation": "Validation was performed through mechanical testing (tensile and high-cycle fatigue) with comparison to as-built and other heat-treated conditions."
+          "motivation": "To investigate the synergistic effect of combining hot isostatic pressing with solution and aging treatments on the mechanical properties of additively manufactured Ti-6Al-4V.",
+          "method": "Wire directed energy deposited Ti-6Al-4V specimens were subjected to a combined post-processing route of hot isostatic pressing followed by solution treatment and aging, and then characterized for tensile and high-cycle fatigue behaviors.",
+          "result": "The combined treatment yielded a simultaneous improvement in tensile strength and high-cycle fatigue life due to enhanced microstructure and porosity closure.",
+          "validation": "Mechanical validation was performed via standard tensile and high-cycle fatigue testing.}"
         },
         "key_terms": [
           {
-            "en": "wire direct energy deposition",
-            "zh": "线弧直接能量沉积"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "en": "wire directed energy deposition",
+            "zh": "线材定向能量沉积"
           },
           {
             "en": "hot isostatic pressing",
@@ -404,12 +406,16 @@
             "zh": "固溶时效处理"
           },
           {
+            "en": "high-cycle fatigue",
+            "zh": "高周疲劳"
+          },
+          {
             "en": "tensile properties",
             "zh": "拉伸性能"
           },
           {
-            "en": "high-cycle fatigue",
-            "zh": "高周疲劳"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
             "en": "post-processing",
@@ -419,7 +425,7 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
     }
   ],
   "counts": {

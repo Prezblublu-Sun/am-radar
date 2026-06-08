@@ -68,11 +68,11 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是新型Ti-20Zr-3Mo-3Sn合金，并非增材制造Ti-6Al-4V，与用户方向无关。",
-        "why_not_core": "The paper does not study additively manufactured Ti-6Al-4V; it investigates a different alloy (Ti-20Zr-3Mo-3Sn) for dental implant applications and lacks fatigue testing.",
-        "validation_kind": "mechanical_testing",
+        "relevance_to_user": "该论文研究Ti-20Zr-3Mo-3Sn新型合金，仅以Ti-6Al-4V作为对照，未涉及增材制造Ti-6Al-4V的力学或疲劳性能",
+        "why_not_core": "Paper focuses on a new Ti-20Zr-3Mo-3Sn alloy, not on additively manufactured Ti-6Al-4V; Ti-6Al-4V is only used as a reference material and is not the subject of mechanical or fatigue characterization for AM conditions.",
+        "validation_kind": "in_vitro",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
@@ -81,46 +81,59 @@
           "Ti-20Zr-3Mo-3Sn",
           "dental implant",
           "biocompatibility",
+          "low modulus",
           "tensile testing"
         ],
         "summary_zh": {
-          "motivation": "开发低弹性模量、无细胞毒性的新型牙科植入钛合金。",
-          "method": "通过拉伸测试、硬度和细胞活性评估Ti2033合金的力学与生物相容性。",
-          "result": "Ti2033合金弹性模量52 GPa，抗拉强度825 MPa，无细胞毒性。",
-          "validation": "力学测试与体外细胞实验验证。"
+          "motivation": "开发用于牙种植体的低弹性模量钛合金，消除潜在毒性元素",
+          "method": "通过拉伸测试和硬度测量评估力学性能，MTT和伤口愈合实验评估生物相容性",
+          "result": "Ti2033合金弹性模量52 GPa，抗拉强度825 MPa，延伸率10%，无细胞毒性",
+          "validation": "使用Saos-2成骨细胞进行体外生物相容性验证"
         },
         "summary_en": {
-          "motivation": "To develop a new titanium alloy with low elastic modulus and no cytotoxic elements for dental implant applications.",
-          "method": "Mechanical properties were measured via tensile testing and hardness, and biocompatibility was assessed using MTT and wound healing assays on Saos-2 osteoblastic cells.",
-          "result": "Ti-20Zr-3Mo-3Sn alloy showed a Young's modulus of 52 GPa, ultimate tensile strength of 825 MPa, and no cytotoxic effects.",
-          "validation": "Validation through in vitro cell assays and standard mechanical testing."
+          "motivation": "To develop a new titanium alloy for dental implants with reduced elastic modulus and no cytotoxic elements.",
+          "method": "Mechanical properties were evaluated via tensile testing and hardness measurements; biocompatibility was assessed using MTT and wound healing assays on Saos-2 osteoblastic cells.",
+          "result": "The Ti2033 alloy exhibits a Young's modulus of 52 GPa, ultimate tensile strength of 825 MPa, elongation of 10%, and no cytotoxicity.",
+          "validation": "In vitro cell-based assays (MTT and wound healing) were used for biocompatibility validation."
         },
         "key_terms": [
           {
-            "en": "Ti-20Zr-3Mo-3Sn",
-            "zh": "Ti-20Zr-3Mo-3Sn合金"
+            "en": "titanium alloy",
+            "zh": "钛合金"
           },
           {
             "en": "dental implant",
-            "zh": "牙科植入体"
+            "zh": "牙种植体"
           },
           {
             "en": "biocompatibility",
             "zh": "生物相容性"
           },
           {
-            "en": "tensile testing",
-            "zh": "拉伸测试"
+            "en": "elastic modulus",
+            "zh": "弹性模量"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
           },
           {
             "en": "Young's modulus",
             "zh": "杨氏模量"
+          },
+          {
+            "en": "cytotoxicity",
+            "zh": "细胞毒性"
+          },
+          {
+            "en": "osteoblastic cells",
+            "zh": "成骨细胞"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:19:10Z"
+      "first_seen_at": "2026-06-08T08:31:07Z"
     }
   ],
   "counts": {

@@ -57,6 +57,8 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "microstructure",
           "tensile strength",
           "elongation",
           "ductility"
@@ -66,8 +68,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接涉及增材制造Ti-6Al-4V的力学性能，提出了新的制造策略并显著提升强度与塑性，对理解工艺-组织-性能关系有直接参考价值。",
-        "why_not_core": "论文未包含疲劳性能测试或循环加载相关数据。",
+        "relevance_to_user": "该论文直接针对激光增材制造Ti-6Al-4V合金的力学性能，通过微合金化显著提升强度和塑性，与方向L1高度相关。",
+        "why_not_core": "This paper does not report fatigue properties, S-N curves, or cyclic loading behavior, which are part of the direction focus.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -76,90 +78,346 @@
           "is_review": false
         },
         "tags": [
-          "laser manufacturing",
-          "wire-powder synchronous feeding",
-          "O-Fe microalloying",
+          "additive manufacturing",
           "Ti-6Al-4V",
+          "wire-powder feeding",
+          "microalloying",
           "strength-ductility synergy",
-          "grain refinement",
-          "mechanical properties"
+          "tensile properties"
         ],
         "summary_zh": {
-          "motivation": "解决Ti-6Al-4V增材制造中强度与韧性的矛盾。",
-          "method": "采用线粉同步送进激光制造技术并添加O-Fe微合金化。",
-          "result": "获得拉伸强度1266.6 MPa、延伸率15.5%，分别提升41.3%和80.2%。",
-          "validation": "通过多尺度表征和定量分析验证微合金化效果。"
+          "motivation": "克服激光制造钛合金强度-延展性难以兼顾的长期难题",
+          "method": "提出丝粉同步送进策略结合O-Fe微合金化调控组织",
+          "result": "获得抗拉强度1266.6 MPa、延伸率15.5%的优异综合力学性能",
+          "validation": "通过多尺度表征和定量分析验证微合金化对晶粒细化和性能提升的作用"
         },
         "summary_en": {
-          "motivation": "To overcome the strength-ductility trade-off in additively manufactured Ti-6Al-4V. ",
-          "method": "A laser-based wire-powder synchronous feeding strategy with oxygen-iron microalloying. ",
-          "result": "The modified Ti-6Al-4V-0.5O-2.3Fe alloy achieved a tensile strength of 1266.6 MPa and elongation of 15.5%, representing 41.3% and 80.2% improvements. ",
-          "validation": "Controlled experiments with multiscale characterization and quantitative microstructural analysis. "
+          "motivation": "To overcome the strength-ductility trade-off in laser-manufactured titanium alloys via a novel wire-powder synchronous feeding strategy with O-Fe microalloying.",
+          "method": "The strategy combines wire and powder feeding with controlled O-Fe additions to refine the microstructure during solidification.",
+          "result": "The optimized Ti-6Al-4V-0.5O-2.3Fe alloy achieved a tensile strength of 1266.6 MPa and an elongation of 15.5%, representing substantial improvements over the base alloy.",
+          "validation": "Multiscale characterization and quantitative analyses confirmed grain refinement, acicular α/α′ modification, and stress relief at phase boundaries."
         },
         "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
           {
             "en": "laser manufacturing",
             "zh": "激光制造"
           },
           {
-            "en": "wire-powder synchronous feeding",
-            "zh": "线粉同步送进"
+            "en": "wire-powder feeding",
+            "zh": "丝粉同步送进"
           },
           {
-            "en": "O-Fe microalloying",
-            "zh": "O-Fe微合金化"
+            "en": "microalloying",
+            "zh": "微合金化"
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "钛合金"
+            "zh": "Ti-6Al-4V"
           },
           {
             "en": "strength-ductility synergy",
-            "zh": "强度-韧性协同"
-          },
-          {
-            "en": "grain refinement",
-            "zh": "晶粒细化"
+            "zh": "强度-延展性协同"
           },
           {
             "en": "acicular α/α′",
             "zh": "针状α/α′"
           },
           {
+            "en": "grain refinement",
+            "zh": "晶粒细化"
+          },
+          {
             "en": "tensile strength",
-            "zh": "拉伸强度"
+            "zh": "抗拉强度"
           },
           {
             "en": "elongation",
             "zh": "延伸率"
-          },
-          {
-            "en": "heterogeneous nucleation",
-            "zh": "异质形核"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7161237295",
+      "doi": "10.1016/j.jmatprotec.2026.119346",
+      "title": "X-ray observation of individual Ti-6Al-4V spherical powder particle impact in an in-situ operando laser directed energy deposition system",
+      "abstract": "",
+      "authors": [
+        "M Haddad",
+        "Jun Fan",
+        "Rama Diop",
+        "Aslan Bafahm Alamdari",
+        "M. Drakopoulos",
+        "Wenda Tan",
+        "Sarah J. Wolff"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "M Haddad",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Journal of Materials Processing Technology",
+      "year": 2026,
+      "date": "2026-05-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jmatprotec.2026.119346",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Deposition (geology)",
+        "Particle (ecology)",
+        "Laser",
+        "Energy (signal processing)",
+        "Composite material",
+        "Pulsed laser deposition",
+        "Particle deposition",
+        "Optoelectronics",
+        "Particle size",
+        "Chemical engineering",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "directed energy deposition"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的定向能量沉积过程，但聚焦于单个粉末颗粒的撞击观察，未提供力学或疲劳性能数据。",
+        "why_not_core": "This paper does not provide mechanical or fatigue characterization of additively manufactured Ti-6Al-4V; it focuses on single particle impact dynamics rather than bulk material properties.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "DED",
+          "powder impact",
+          "X-ray observation"
+        ],
+        "summary_zh": {
+          "motivation": "观察激光定向能量沉积中单个钛合金粉末颗粒的撞击过程",
+          "method": "使用原位X射线成像技术观察颗粒撞击",
+          "result": "揭示了颗粒撞击过程中的变形和飞溅行为",
+          "validation": "实验观察验证"
+        },
+        "summary_en": {
+          "motivation": "To observe the impact of individual Ti-6Al-4V powder particles during laser directed energy deposition.",
+          "method": "In-situ operando X-ray imaging was used to capture single particle impacts.",
+          "result": "The deformation and splashing behavior during particle impact were revealed.",
+          "validation": "Experimental observation provided direct evidence."
+        },
+        "key_terms": [
+          {
+            "en": "laser directed energy deposition",
+            "zh": "激光定向能量沉积"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "powder particle impact",
+            "zh": "粉末颗粒撞击"
+          },
+          {
+            "en": "X-ray observation",
+            "zh": "X射线观察"
+          },
+          {
+            "en": "in-situ",
+            "zh": "原位"
+          },
+          {
+            "en": "operando",
+            "zh": "操作状态"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:54:38Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7161848084",
+      "doi": "10.33599/nasampe/s.26.160",
+      "title": "Effects of Stress Relief Heat Treatment Process on Thermal Analysis and Kinetics of Ti-6Al-4V Alloys",
+      "abstract": "In this study, Ti-6Al-4V alloys were produced using a 3D metal printing process (EOS M290), and their weight change/oxidation (thermogravimetric analysis - TGA) properties were investigated at different processing speeds. After production by layered manufacturing, the printed samples were subjected to stress relief treatment at 700°C for 2 hours. Thermogravimetric analysis (TGA) results of both the as-printed and stress-relieved samples showed an increase in mass values in all samples, starting at approximately 400°C and becoming more pronounced between 600 and 800°C. When the thermodynamic enthalpy and activation energy of these temperature-dependent phase transformations were calculated, it was observed that the stress relief process caused chemical and physical changes in the materials. After stress relief heat treatment, martensite transforms into the more stable α+β phase. Since the defect density decreases, the diffusion rate of oxygen slows down, and the mass increase was found to be 10% less than in the as-printed case. The activation energy, calculated using the Kissinger equation, was found to be 50% lower compared to the stressrelieving heat treatment of the as-printed sample. This indicates that the energy required to initiate the change is easier. Due to the martensite in its microstructure and high dislocation density, the low activation energy also proved, via SEM images, that it is much more unstable to thermal effects. The test results provide an important information for understanding how stress-relieving heat treatment affects the temperature, oxidation resistance, and phase transformation behavior of Ti-6Al-4V alloys produced via doping methods.",
+      "authors": [
+        "Fatih Altun",
+        "Gözde Altuntaş",
+        "Abdulcelil Bayar",
+        "Ramazan Asmatulu",
+        "Bülent Bostan",
+        "Eylem Asmatulu"
+      ],
+      "first_author_affiliation": "Wichita State University",
+      "corresponding_authors": [
+        {
+          "name": "Fatih Altun",
+          "affiliation": "Wichita State University"
+        }
+      ],
+      "venue": "",
+      "year": 2026,
+      "date": "2026-05-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.33599/nasampe/s.26.160",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Activation energy",
+        "Martensite",
+        "Stress (linguistics)",
+        "Stress relief",
+        "Thermogravimetric analysis",
+        "Phase (matter)",
+        "Kinetics",
+        "Enthalpy",
+        "Dislocation",
+        "Metallurgy",
+        "Diffusion",
+        "Microstructure",
+        "Thermodynamics",
+        "Thermal analysis",
+        "Thermal",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "defect"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment",
+          "stress relief"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Peripheral",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文研究了应力消除热处理对Ti-6Al-4V合金热分析和动力学的影响，但未涉及机械性能，与用户关注的疲劳/机械性能方向关联较弱。",
+        "why_not_core": "This paper does not report any mechanical performance data (fatigue, tensile, hardness) after stress relief, focusing instead on thermal oxidation and phase transformation kinetics.",
+        "validation_kind": "in_vitro",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "stress relief",
+          "Ti-6Al-4V",
+          "heat treatment",
+          "thermogravimetric analysis",
+          "phase transformation",
+          "activation energy"
+        ],
+        "summary_zh": {
+          "motivation": "研究应力消除热处理对3D打印Ti-6Al-4V合金热分析和动力学的影响。",
+          "method": "采用激光粉末床熔融制备样品，在700°C进行2小时应力消除处理，通过热重分析、SEM和Kissinger方程计算活化能。",
+          "result": "应力消除后，马氏体转变为α+β相，质量增加减少10%，活化能降低50%。",
+          "validation": "通过TGA和SEM实验验证热处理对氧化和相变的影响。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of stress relief heat treatment on the thermal analysis and kinetics of additively manufactured Ti-6Al-4V alloys.",
+          "method": "Ti-6Al-4V samples were produced by laser powder bed fusion and subjected to stress relief at 700°C for 2 hours, followed by thermogravimetric analysis, SEM, and activation energy calculation using the Kissinger equation.",
+          "result": "Stress relief transformed martensite to α+β phase, reduced mass gain by 10%, and decreased activation energy by 50%.",
+          "validation": "Experimental validation through TGA and SEM analysis."
+        },
+        "key_terms": [
+          {
+            "en": "stress relief heat treatment",
+            "zh": "应力消除热处理"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
+          },
+          {
+            "en": "thermogravimetric analysis",
+            "zh": "热重分析"
+          },
+          {
+            "en": "activation energy",
+            "zh": "活化能"
+          },
+          {
+            "en": "phase transformation",
+            "zh": "相变"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "martensite",
+            "zh": "马氏体"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:54:38Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2,
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 3
     },
-    "scored": 1,
+    "scored": 3,
     "priority_counts": {
-      "High": 1
+      "High": 1,
+      "Low": 1,
+      "Medium": 1
     }
   }
 }

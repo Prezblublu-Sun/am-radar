@@ -1,0 +1,173 @@
+{
+  "schema_version": "v2",
+  "date": "2025-06-07",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411111660",
+      "doi": "10.1016/j.jmrt.2025.06.049",
+      "title": "Macro and micro structural responses of dissimilar TC4/TC17 titanium alloy joints in linear friction welding and post-welding heat treatment processes and their effects on tensile and fatigue performance",
+      "abstract": "The heterogeneous TC4 (Ti-6Al-4V) / TC17 (Ti-5Al-2Sn-2Zr-4Mo-4Cr) joint, formed by linear friction welding (LFW) and post-weld treatment, shows significant potential for blisk manufacturing in aircraft engines. Both LFW and heat treatment involve numerous parameters that can substantially impact joint performance, including strength and fatigue. Macroscopically, welding parameters affect the interface micro voids, influencing tensile strength, while microscopically, post-weld aging can alter the interface microstructure and affect fatigue performance. However, optimizing LFW and post-weld heat treatment for dissimilar titanium alloys remains underexplored. This study investigates the macro and microstructural responses of TC4/TC17 joints during LFW and post-weld aging, focusing on tensile and fatigue properties. Welding was performed at varying pressure (30-150 MPa) and frictional speed (240-400 mm/s) to evaluate burn-off length, interface integrity, and tensile strength. Aging treatments (550-680°C, 4h) were applied to examine their effects on microstructure and fatigue. Results show that a sufficient burn-off length is crucial for joint performance, with welding parameters affecting interface quality, such as micro-voids, which influence tensile strength. The optimal welding conditions for TC4/TC17 joints were found to be 120 MPa pressure and 288-400 mm/s frictional speed, producing defect-free interfaces with joint efficiency comparable to the base material. Aging between 630°C and 680°C caused minimal changes to microstructure and fatigue life, with cracks initiating in the TC4 base material. These insights help optimize LFW for dissimilar titanium alloys in aerospace applications.",
+      "authors": [
+        "Jiatao Liu",
+        "Jinglong Li",
+        "Feng Jin",
+        "Da Zhang",
+        "Wei Guo",
+        "Jiangtao Xiong"
+      ],
+      "first_author_affiliation": "Shaanxi Key Laboratory of Friction Welding Technologies, Northwestern Polytechnical University, Xi’an 710072, PR China",
+      "corresponding_authors": [
+        {
+          "name": "Jinglong Li",
+          "affiliation": "Shaanxi Key Laboratory of Friction Welding Technologies, Northwestern Polytechnical University, Xi’an 710072, PR China"
+        },
+        {
+          "name": "Jiangtao Xiong",
+          "affiliation": "Shaanxi Key Laboratory of Friction Welding Technologies, Northwestern Polytechnical University, Xi’an 710072, PR China"
+        }
+      ],
+      "venue": "Journal of Materials Research and Technology",
+      "year": 2025,
+      "date": "2025-06-07",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jmrt.2025.06.049",
+      "cited_by_count": 4,
+      "concepts": [
+        "Materials science",
+        "Welding",
+        "Friction welding",
+        "Titanium alloy",
+        "Composite material",
+        "Alloy",
+        "Ultimate tensile strength",
+        "Metallurgy",
+        "Macro"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TC4",
+          "microstructure",
+          "tensile strength",
+          "defect",
+          "fatigue",
+          "fatigue life"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TC4",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "本研究涉及TC4（Ti-6Al-4V）与TC17的线性摩擦焊接及焊后热处理，未涉及增材制造，与AM Ti-6Al-4V后处理控制方向无关。",
+        "why_not_core": "This paper does not involve additive manufacturing (AM); it studies linear friction welding of dissimilar wrought titanium alloys, so the post-processing context is irrelevant to AM Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "linear friction welding",
+          "Ti-6Al-4V",
+          "TC17",
+          "post-weld heat treatment",
+          "fatigue",
+          "tensile"
+        ],
+        "summary_zh": {
+          "motivation": "优化TC4/TC17异种钛合金线性摩擦焊接及焊后热处理参数以提升接头性能",
+          "method": "在不同焊接压力和摩擦速度下进行线性摩擦焊接，并对接头进行不同温度的老化处理",
+          "result": "最优焊接参数为120 MPa压力和288-400 mm/s速度，老化对疲劳寿命影响较小",
+          "validation": "通过拉伸和疲劳试验验证接头性能"
+        },
+        "summary_en": {
+          "motivation": "To optimize linear friction welding parameters and post-weld aging for dissimilar TC4/TC17 titanium alloy joints in aerospace blisk manufacturing.",
+          "method": "Linear friction welding was performed at varying pressures (30-150 MPa) and frictional speeds (240-400 mm/s), followed by aging treatments at 550-680°C for 4 hours.",
+          "result": "Optimal welding conditions (120 MPa, 288-400 mm/s) produced defect-free interfaces with joint efficiency comparable to base material; aging between 630-680°C minimally affected fatigue life.",
+          "validation": "Tensile and fatigue testing were conducted to evaluate joint mechanical performance."
+        },
+        "key_terms": [
+          {
+            "en": "linear friction welding",
+            "zh": "线性摩擦焊接"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "TC4钛合金"
+          },
+          {
+            "en": "TC17 titanium alloy",
+            "zh": "TC17钛合金"
+          },
+          {
+            "en": "post-weld heat treatment",
+            "zh": "焊后热处理"
+          },
+          {
+            "en": "aging",
+            "zh": "时效处理"
+          },
+          {
+            "en": "fatigue performance",
+            "zh": "疲劳性能"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "拉伸强度"
+          },
+          {
+            "en": "burn-off length",
+            "zh": "烧损长度"
+          },
+          {
+            "en": "interface integrity",
+            "zh": "界面完整性"
+          },
+          {
+            "en": "blisk",
+            "zh": "整体叶盘"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

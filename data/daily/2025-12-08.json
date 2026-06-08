@@ -1,0 +1,151 @@
+{
+  "schema_version": "v2",
+  "date": "2025-12-08",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4417133857",
+      "doi": "10.1557/s43578-025-01740-2",
+      "title": "A concise review of Ti64 nanoindentation and CPFEM modelling approaches",
+      "abstract": "Abstract Ti–6Al–4V’s dual-phase ( $$\\upalpha +\\upbeta $$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mrow> <mml:mi>α</mml:mi> <mml:mo>+</mml:mo> <mml:mi>β</mml:mi> </mml:mrow> </mml:math> ) microstructure yields local mechanical behaviors that conventional tests cannot fully resolve. Instrumented nanoindentation delivers spatially resolved hardness, modulus, and creep at micron scales, while crystal plasticity finite-element modeling (CPFEM) translates these data into slip-system insights and component-scale predictions. This review unifies three decades of work on Ti64 nanoindentation and CPFEM, covering fundamental alloy chemistry and microstructures (equiaxed, bimodal, lamellar), advanced indentation protocols (continuous stiffness, spherical tips, high-throughput mapping), and CPFEM developments from phenomenological yield laws to gradient-enhanced, multi-phase simulations reproducing orientation-dependent responses. We spotlight four persisting challenges: defining representative volume elements, capturing size effects via length-scale physics, modeling $$\\upalpha /\\upbeta $$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mrow> <mml:mi>α</mml:mi> <mml:mo>/</mml:mo> <mml:mi>β</mml:mi> </mml:mrow> </mml:math> interfacial constraints and Burgers orientation relationships, and managing experimental scatter for robust parameter inversion. We also survey emerging solutions—dense indent grids, in situ lattice-strain validation, and machine-learning-driven calibration—as pathways toward predictive, microstructure-sensitive design of Ti64 components. Graphical abstract",
+      "authors": [
+        "Abdullah Akib",
+        "Garritt J. Tucker",
+        "Dalong Zhang"
+      ],
+      "first_author_affiliation": "Materials Science and Engineering, Baylor University, Waco, TX, USA",
+      "corresponding_authors": [
+        {
+          "name": "Abdullah Akib",
+          "affiliation": "Materials Science and Engineering, Baylor University, Waco, TX, USA"
+        }
+      ],
+      "venue": "Journal of materials research/Pratt's guide to venture capital sources",
+      "year": 2025,
+      "date": "2025-12-08",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1557/s43578-025-01740-2",
+      "cited_by_count": 3,
+      "concepts": [
+        "Nanoindentation",
+        "Indentation",
+        "Materials science",
+        "Creep",
+        "Crystal plasticity",
+        "Microstructure",
+        "Multiscale modeling",
+        "Plasticity",
+        "Work (physics)",
+        "Nanotechnology",
+        "Nanomechanics",
+        "Yield (engineering)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti64",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文综述了Ti-6Al-4V纳米压痕与晶体塑性有限元建模方法，为理解其微观力学行为提供了背景，但未提供新的力学或疲劳数据。",
+        "why_not_core": "This is a review paper, not an original experimental or computational study on mechanical/fatigue performance of additively manufactured Ti-6Al-4V.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": true
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "nanoindentation",
+          "crystal plasticity",
+          "finite element modeling",
+          "review"
+        ],
+        "summary_zh": {
+          "motivation": "统一梳理Ti-6Al-4V合金纳米压痕与晶体塑性有限元建模的研究进展",
+          "method": "综述了过去三十年的文献，涵盖合金微结构、压痕协议和CPFEM发展",
+          "result": "指出了代表性体积单元、尺寸效应、界面约束和数据分散性四个持续挑战",
+          "validation": "综述性文章，无新实验验证"
+        },
+        "summary_en": {
+          "motivation": "To consolidate and review three decades of work on nanoindentation and crystal plasticity finite-element modeling of Ti-6Al-4V.",
+          "method": "The review covers fundamental alloy chemistry, microstructures, advanced indentation protocols, and CPFEM developments from phenomenological laws to multi-phase simulations.",
+          "result": "Four persistent challenges are identified: representative volume elements, size effects, α/β interfacial constraints, and experimental scatter for parameter inversion.",
+          "validation": "No original validation; this is a review paper."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "nanoindentation",
+            "zh": "纳米压痕"
+          },
+          {
+            "en": "crystal plasticity finite-element modeling (CPFEM)",
+            "zh": "晶体塑性有限元建模"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "slip systems",
+            "zh": "滑移系统"
+          },
+          {
+            "en": "Burgers orientation relationship",
+            "zh": "伯氏取向关系"
+          },
+          {
+            "en": "representative volume element (RVE)",
+            "zh": "代表性体积单元"
+          },
+          {
+            "en": "size effects",
+            "zh": "尺寸效应"
+          },
+          {
+            "en": "machine-learning calibration",
+            "zh": "机器学习校准"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Medium": 1
+    }
+  }
+}

@@ -56,6 +56,13 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "electron beam melting",
+          "EBM",
+          "LPBF",
+          "microstructure",
           "porosity",
           "defect"
         ],
@@ -69,8 +76,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究Ti-6Al-4V的耐腐蚀性能，未涉及疲劳或力学性能，与后处理作用无关。",
-        "why_not_core": "Paper focuses on corrosion resistance, not mechanical performance (fatigue/tensile) or post-processing effects on mechanical properties; no evaluation of fatigue or strength.",
+        "relevance_to_user": "该论文研究Ti-6Al-4V的耐腐蚀性而非力学性能，与后处理对疲劳/机械性能的影响无关。",
+        "why_not_core": "No mechanical testing (fatigue or tensile) results; the study focuses on corrosion resistance, not mechanical performance; does not evaluate post-processing effects on mechanical properties.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -79,36 +86,35 @@
           "is_review": false
         },
         "tags": [
-          "corrosion resistance",
+          "corrosion",
           "Ti-6Al-4V",
           "additive manufacturing",
-          "post-processing",
-          "polishing"
+          "post-processing"
         ],
         "summary_zh": {
-          "motivation": "研究不同增材制造技术对Ti-6Al-4V耐腐蚀性的影响。",
-          "method": "比较MEX、EBM、LPBF及锻造样品的腐蚀行为。",
-          "result": "抛光后耐腐蚀性差异小，但孔隙导致局部腐蚀。",
-          "validation": "通过动电位极化、浸泡实验和Volta电位测量验证。"
+          "motivation": "比较不同增材制造技术生产的Ti-6Al-4V的耐腐蚀性能。",
+          "method": "通过动电位极化、恒电位极化和浸泡实验分析表面特征、孔隙率和微观组织的影响。",
+          "result": "所有增材制造合金在抛光前后均表现出良好钝化，但孔隙率会促进局部腐蚀。",
+          "validation": "实验验证，包括电化学测试和长期浸泡。"
         },
         "summary_en": {
-          "motivation": "To investigate how different additive manufacturing technologies affect the corrosion resistance of Ti-6Al-4V alloy.",
-          "method": "Corrosion behavior of MEX, EBM, LPBF, and wrought Ti-6Al-4V was compared using potentiodynamic and potentiostatic tests in PBS.",
-          "result": "All AM alloys showed excellent passivity; polishing reduced differences, but porosity promoted localized corrosion in acidic conditions.",
-          "validation": "Validation via electrochemical tests, immersion experiments, and Volta potential mapping."
+          "motivation": "This study compares the corrosion resistance of Ti-6Al-4V produced by different additive manufacturing technologies, including material extrusion, electron beam melting, and laser powder bed fusion.",
+          "method": "Potentiodynamic polarization, potentiostatic polarization, and immersion tests were conducted to analyze the effects of surface features, porosity, and microstructure on corrosion behavior.",
+          "result": "All additive-manufactured alloys exhibited stable passivity in both as-built and polished conditions, but intrinsic porosity promoted localized corrosion, especially in the material extrusion alloy.",
+          "validation": "Experimental validation via electrochemical testing and long-term immersion in acidified isotonic solutions."
         },
         "key_terms": [
           {
-            "en": "corrosion resistance",
-            "zh": "耐腐蚀性"
-          },
-          {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "zh": "Ti-6Al-4V合金"
           },
           {
             "en": "additive manufacturing",
             "zh": "增材制造"
+          },
+          {
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
           },
           {
             "en": "material extrusion",
@@ -116,25 +122,25 @@
           },
           {
             "en": "electron beam melting",
-            "zh": "电子束熔化"
+            "zh": "电子束熔融"
           },
           {
             "en": "laser powder bed fusion",
             "zh": "激光粉末床熔融"
           },
           {
-            "en": "polishing",
-            "zh": "抛光"
-          },
-          {
             "en": "porosity",
             "zh": "孔隙率"
+          },
+          {
+            "en": "passivation",
+            "zh": "钝化"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:23:51Z"
+      "first_seen_at": "2026-06-08T08:40:28Z"
     },
     {
       "source": "openalex",
@@ -190,16 +196,20 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
           "residual stress"
         ]
       },
       "llm": {
         "priority": "Medium",
-        "relevance_level": "Transferable",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文研究了Ti-6Al-4V的LPBF扫描路径优化以减少残余应力，对改善打印件的力学性能有参考价值，但未直接进行力学或疲劳性能测试。",
-        "why_not_core": "This paper focuses on scan path planning optimization rather than mechanical/fatigue characterization or modeling of Ti-6Al-4V; no mechanical properties (tensile, fatigue, hardness) are reported.",
-        "validation_kind": "simulation_case",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的LPBF工艺优化，但未提供力学性能或疲劳数据，因此与用户关注的力学与疲劳性能方向关联不大。",
+        "why_not_core": "This paper focuses on scan path optimization for thermal uniformity and residual stress reduction, but does not present any mechanical/fatigue performance data (tensile, fatigue life, S-N curves, etc.) that are the core of the L1 direction.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -208,22 +218,23 @@
         },
         "tags": [
           "laser powder bed fusion",
-          "scan strategy",
           "reinforcement learning",
+          "scan path planning",
+          "Ti-6Al-4V",
           "residual stress",
-          "Ti-6Al-4V"
+          "thermal uniformity"
         ],
         "summary_zh": {
-          "motivation": "为解决LPBF中残余应力和变形问题，提出基于强化学习的优化扫描路径。",
-          "method": "利用强化学习分层优化扫描序列，引入新型奖励函数考虑温度均匀性。",
-          "result": "相比传统方法，Reinforced Scan显著降低残余应力。",
+          "motivation": "针对LPBF中热不均匀导致的残余应力问题，提出强化学习优化扫描路径。",
+          "method": "提出Reinforced Scan策略，使用分层奖励函数考虑温度方差和空间均匀性。",
+          "result": "仿真和实验证明该方法有效降低残余应力。",
           "validation": "通过Netfabb仿真和Ti-6Al-4V薄板激光扫描实验验证。"
         },
         "summary_en": {
-          "motivation": "To mitigate residual stresses and deformations in LPBF, a reinforcement learning-based scan path optimization is proposed.",
-          "method": "The method uses hierarchical reinforcement learning to optimize scan sequences with a novel reward function accounting for temperature uniformity.",
-          "result": "Reinforced Scan achieves superior reduction in residual stress compared to conventional heuristic scan sequences.",
-          "validation": "Validated through Netfabb local simulation and real-world laser scanning experiments on Ti-6Al-4V thin plates."
+          "motivation": "To mitigate residual stresses caused by non-uniform temperature distribution in LPBF, a reinforcement learning-based scan path optimization is proposed.",
+          "method": "The Reinforced Scan strategy introduces a hierarchical reward function that accounts for both temperature variance and spatial uniformity of the temperature field.",
+          "result": "Both Netfabb simulation and real-world laser scanning experiments on Ti-6Al-4V thin plates demonstrate that Reinforced Scan reduces residual stress compared to heuristic scan sequences.",
+          "validation": "Validation is performed using Netfabb local simulation and experimental laser scanning with residual stress measurements on Ti-6Al-4V."
         },
         "key_terms": [
           {
@@ -235,49 +246,155 @@
             "zh": "强化学习"
           },
           {
-            "en": "scan strategy",
-            "zh": "扫描策略"
+            "en": "scan path planning",
+            "zh": "扫描路径规划"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "residual stress",
             "zh": "残余应力"
           },
           {
-            "en": "thermal uniformity",
+            "en": "temperature uniformity",
             "zh": "温度均匀性"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "钛合金"
-          },
-          {
-            "en": "Netfabb simulation",
-            "zh": "Netfabb仿真"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:23:51Z"
+      "first_seen_at": "2026-06-08T08:40:28Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7125603264",
+      "doi": "10.1016/j.matdes.2026.115553",
+      "title": "Towards free-machining titanium: role of boron and lanthanum hexaboride in Ti-6Al-4V",
+      "abstract": "Many titanium alloys are notoriously difficult to machine materials, and there is a need to understand new ways to improve their machinability. This study explores the effect of trace element additions, specifically boron (B) and lanthanum hexaboride (LaB6), on the machinability of Ti-6Al-4V (Ti-64). Alloys containing these additives were prepared via casting and evaluated through slot milling tests to assess cutting forces, tool wear, chip morphology, and surface quality. The addition of boron led to the formation of titanium boride (TiB) particles, which contributed to high cutting forces, increased built-up edge (BUE) formation, and irregular chip segmentation. Conversely, LaB6 additions led to the formation of both TiB and La-rich particles, where the La-rich particles enhanced material flow, resulting in reduced cutting forces, uniform chip formation, and improved machined surface quality. These findings offer valuable insights into the design of free-machining titanium alloys and may facilitate more efficient manufacturing of Ti-64 components.",
+      "authors": [
+        "Mandeep Singh",
+        "Chi-Ho Ng",
+        "Muhammad Adeel Zafar",
+        "Matthew S. Dargusch",
+        "M.J. Bermingham"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Mandeep Singh",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Materials & Design",
+      "year": 2026,
+      "date": "2026-01-24",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.matdes.2026.115553",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Boron",
+        "Metallurgy",
+        "Lanthanum",
+        "Inorganic chemistry"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "不涉及增材制造Ti-6Al-4V的后处理工艺。",
+        "why_not_core": "The paper does not concern post-processing of AM Ti-6Al-4V; it investigates alloy composition modifications (boron and LaB6) to improve machinability via casting, not additive manufacturing post-processing.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "machinability",
+          "boron",
+          "lanthanum hexaboride",
+          "casting"
+        ],
+        "summary_zh": {
+          "motivation": "改善Ti-6Al-4V的切削加工性。",
+          "method": "通过铸造添加硼或六硼化镧，进行槽铣测试评估。",
+          "result": "硼添加增加切削力，六硼化镧降低切削力并改善表面质量。",
+          "validation": "通过槽铣实验验证切削力、刀具磨损和表面质量。"
+        },
+        "summary_en": {
+          "motivation": "The study aims to improve the machinability of Ti-6Al-4V by adding trace elements. ",
+          "method": "Boron and lanthanum hexaboride were added to Ti-6Al-4V via casting, and slot milling tests were performed to evaluate cutting forces, tool wear, chip morphology, and surface quality.",
+          "result": "Boron addition increased cutting forces and built-up edge formation, while LaB6 addition reduced cutting forces and improved chip formation and surface quality.",
+          "validation": "Experimental validation through slot milling tests on cast alloys."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "boron",
+            "zh": "硼"
+          },
+          {
+            "en": "lanthanum hexaboride",
+            "zh": "六硼化镧"
+          },
+          {
+            "en": "machinability",
+            "zh": "切削加工性"
+          },
+          {
+            "en": "cutting forces",
+            "zh": "切削力"
+          },
+          {
+            "en": "casting",
+            "zh": "铸造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:40:28Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_postprocess": 1,
+      "ti6al4v_postprocess": 2,
       "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
-      "Exclude": 1,
+      "Exclude": 2,
       "Medium": 1
     }
   }

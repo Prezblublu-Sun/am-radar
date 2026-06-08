@@ -1,0 +1,165 @@
+{
+  "schema_version": "v2",
+  "date": "2025-09-14",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414265696",
+      "doi": "10.1007/s00170-025-16460-4",
+      "title": "The role of laser operation mode on thermal and mechanical behavior in powder bed fusion: a numerical study",
+      "abstract": "Abstract This numerical study investigates the influence of laser operation modes, continuous-wave (CW) and pulsed-wave (PW), on the thermal and mechanical behavior in powder bed fusion-laser beam/metal of Ti-6Al-4V (PBF-LB/M/Ti-6Al-4V). A finite element model was developed to simulate heat transfer and stress evolution, incorporating temperature-dependent material properties. The study compares the melt pool dimensions, temperature gradients, and residual stress development under both CW and PW laser modes. The findings reveal that the PW laser mode induces rapid temperature fluctuations (1300–2100 K) and sharper thermal gradients compared to the stable heat input of the CW laser (~ 2600 K), leading to oscillations in melt pool size and a fluctuating residual stress pattern along the scanning path. PW mode generated approximately 1100 MPa of longitudinal residual stress, about 50% higher than the 740 MPa which observed in CW mode. Furthermore, the study explores the effect of PW process parameters such as duty cycle, frequency, and pulse width on thermal gradients and residual stress. Increasing the duty cycle from 50 to 100% led to a 25% reduction in peak residual stress, with the behavior approaching to CW-PBF-LB at higher duty cycles. While variations in frequency and pulse width (at a constant duty cycle) influenced the temperature profile, they did not significantly alter the overall residual stress magnitude.",
+      "authors": [
+        "Helia Mohammadkamal",
+        "Fabrizia Caiazzo"
+      ],
+      "first_author_affiliation": "Department of Industrial Engineering, University of Salerno, Fisciano, SA, 84084, Italy",
+      "corresponding_authors": [
+        {
+          "name": "Helia Mohammadkamal",
+          "affiliation": "Department of Industrial Engineering, University of Salerno, Fisciano, SA, 84084, Italy"
+        }
+      ],
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "year": 2025,
+      "date": "2025-09-14",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s00170-025-16460-4",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Residual stress",
+        "Duty cycle",
+        "Laser",
+        "Thermal",
+        "Composite material",
+        "Residual",
+        "Finite element method",
+        "Heat transfer",
+        "Stress (linguistics)",
+        "Pulse (music)",
+        "Temperature gradient",
+        "Reduction (mathematics)",
+        "Mechanics",
+        "Computer simulation",
+        "Mode (computer interface)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "powder bed fusion",
+          "residual stress"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文通过数值模拟研究了激光模式对Ti-6Al-4V残余应力的影响，与增材制造力学性能直接相关，但缺乏实验数据。",
+        "why_not_core": "This paper does not report fatigue life or S-N curves; its focus is on residual stress and thermal behavior without mechanical testing or fatigue characterization.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser operation mode",
+          "continuous-wave",
+          "pulsed-wave",
+          "powder bed fusion",
+          "Ti-6Al-4V",
+          "residual stress",
+          "melt pool",
+          "thermal gradient",
+          "duty cycle",
+          "finite element simulation"
+        ],
+        "summary_zh": {
+          "motivation": "研究激光连续波与脉冲波模式对Ti-6Al-4V粉末床熔融热-力学行为的影响。",
+          "method": "建立热-力耦合有限元模型，模拟熔池、温度梯度及残余应力。",
+          "result": "脉冲波模式残余应力较连续波高约50%，增大占空比可降低残余应力。",
+          "validation": "数值结果与文献趋势定性对比，无实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To compare the influence of continuous-wave and pulsed-wave laser modes on thermal and mechanical behavior in powder bed fusion of Ti-6Al-4V using finite element simulation.",
+          "method": "A thermal-mechanical finite element model incorporating temperature-dependent material properties was developed to simulate melt pool dynamics, temperature gradients, and residual stress evolution under different laser operation modes.",
+          "result": "Pulsed-wave mode produced about 50% higher longitudinal residual stress (1100 MPa) compared to continuous-wave mode (740 MPa), and increasing duty cycle reduced peak residual stress by 25%.",
+          "validation": "The numerical predictions were qualitatively compared with literature trends but lacked direct experimental validation."
+        },
+        "key_terms": [
+          {
+            "en": "laser operation mode",
+            "zh": "激光操作模式"
+          },
+          {
+            "en": "continuous-wave (CW)",
+            "zh": "连续波"
+          },
+          {
+            "en": "pulsed-wave (PW)",
+            "zh": "脉冲波"
+          },
+          {
+            "en": "powder bed fusion",
+            "zh": "粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "melt pool",
+            "zh": "熔池"
+          },
+          {
+            "en": "thermal gradient",
+            "zh": "温度梯度"
+          },
+          {
+            "en": "duty cycle",
+            "zh": "占空比"
+          },
+          {
+            "en": "finite element model",
+            "zh": "有限元模型"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Medium": 1
+    }
+  }
+}

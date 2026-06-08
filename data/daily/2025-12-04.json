@@ -5,6 +5,117 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W4416985284",
+      "doi": "10.17973/mmsj.2025_12_2025163",
+      "title": "EXPERIMENTAL BURR ANALYSIS FOR TI-6AL-4V DRILLING APPLICATION",
+      "abstract": "To improve aerostructures assembly processes, aircraft manufacturers want to implement a One-Way Assembly strategy that eliminates the disassembly, cleaning and deburring phases currently required. Implementing this innovative strategy represents major technical challenges, including the management of burr formation at stack interfaces, as they have a negative impact on the assemblies’ fatigue strength. Despite extensive research, the burr formation phenomenon remains poorly understood. This paper presents an interrupted experimental design to investigate the burr formation during the drilling process of Ti-6Al-4V alloy. Analysis of burr geometry and microstructures is complemented by cutting force results for three different drilling tool geometries.",
+      "authors": [
+        "Univ. Bordeaux, CNRS, Bordeaux INP",
+        "B. DEBARD",
+        "Maya Cherif",
+        "Univ. Bordeaux, CNRS, Bordeaux INP",
+        "Pierre-André Rey",
+        "Univ. Bordeaux, CNRS, Bordeaux INP"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Univ. Bordeaux, CNRS, Bordeaux INP",
+          "affiliation": ""
+        }
+      ],
+      "venue": "MM Science Journal",
+      "year": 2025,
+      "date": "2025-12-04",
+      "date_precision": "day",
+      "url": "https://doi.org/10.17973/mmsj.2025_12_2025163",
+      "cited_by_count": 0,
+      "concepts": [
+        "Drilling",
+        "Mechanical engineering",
+        "Stack (abstract data type)",
+        "Process (computing)",
+        "Engineering",
+        "Machining",
+        "Petroleum engineering",
+        "Geology",
+        "Manufacturing engineering",
+        "Engineering drawing"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue",
+          "fatigue strength"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "本文研究Ti-6Al-4V钻孔毛刺形成，不涉及增材制造，因此与本方向（增材制造Ti-6Al-4V力学与疲劳）无关。",
+        "why_not_core": "The paper studies burr formation during conventional drilling of Ti-6Al-4V, not additive manufacturing, so it does not address LPBF/SLM/EBM/DED mechanical or fatigue performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "drilling",
+          "burr formation",
+          "Ti-6Al-4V"
+        ],
+        "summary_zh": {
+          "motivation": "改善航空装配中毛刺对疲劳强度的影响，推动单向装配策略。",
+          "method": "采用中断实验设计，分析三种钻头几何下的毛刺几何、微观结构和切削力。",
+          "result": "揭示了钻头几何对毛刺形成的影响，但未涉及增材制造。",
+          "validation": "通过实验切削力与毛刺测量验证。"
+        },
+        "summary_en": {
+          "motivation": "To mitigate burr-induced fatigue reduction in aerospace assembly and enable one-way assembly strategy.",
+          "method": "An interrupted experimental design with three drill geometries was used to analyze burr geometry, microstructure, and cutting forces during Ti-6Al-4V drilling.",
+          "result": "Drill geometry significantly influences burr formation, but no additive manufacturing context is provided.",
+          "validation": "Experimental cutting force measurements and burr characterization validate the findings."
+        },
+        "key_terms": [
+          {
+            "en": "drilling",
+            "zh": "钻孔"
+          },
+          {
+            "en": "burr formation",
+            "zh": "毛刺形成"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "cutting force",
+            "zh": "切削力"
+          },
+          {
+            "en": "one-way assembly",
+            "zh": "单向装配"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W4416985287",
       "doi": "10.17973/mmsj.2025_12_2025168",
       "title": "IMPACT OF CRYOGENIC MILLING ON TOOL LIFE AND SURFACE INTEGRITY",
@@ -58,11 +169,11 @@
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文涉及Ti-6Al-4V的铣削加工，但未针对增材制造零件或后处理对疲劳/力学性能的影响进行研究。",
-        "why_not_core": "Does not evaluate mechanical performance (fatigue/tensile) nor microstructure evolution from post-processing; focuses on cutting tool life and surface roughness during conventional machining, not on AM Ti-6Al-4V post-processing effects.",
+        "read_action": "Ignore",
+        "relevance_to_user": "这篇论文研究的是传统铣削冷却技术对工具寿命和表面完整性的影响，与增材制造Ti-6Al-4V的后处理无关。",
+        "why_not_core": "The paper does not involve additive manufacturing or any post-processing treatment of AM Ti-6Al-4V; it focuses on conventional machining cooling techniques.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -72,27 +183,27 @@
         },
         "tags": [
           "Ti-6Al-4V",
-          "cryogenic milling",
-          "tool life",
+          "milling",
+          "cryogenic cooling",
           "surface integrity",
-          "cooling techniques"
+          "tool life"
         ],
         "summary_zh": {
-          "motivation": "研究冷却技术以提高Ti-6Al-4V铣削中的刀具寿命和表面质量。",
-          "method": "采用LCO2、MQL与传统冷却方式对比实验。",
-          "result": "LCO2和MQL使刀具寿命延长2.4-2.9倍，表面质量提升。",
-          "validation": "通过刀具磨损和表面粗糙度测量验证。"
+          "motivation": "评估不同冷却润滑技术对钛合金铣削的影响",
+          "method": "实验对比多种冷却润滑方式在Ti-6Al-4V铣削中的应用",
+          "result": "LCO2和MQL分别使刀具寿命延长2.4和2.9倍，提高表面质量",
+          "validation": "通过刀具寿命和表面完整性实验验证"
         },
         "summary_en": {
-          "motivation": "To investigate cooling techniques for improving tool life and surface quality during milling of Ti-6Al-4V.",
-          "method": "Experimental comparison of liquid CO2, minimum quantity lubrication, and conventional flood cooling in face milling.",
-          "result": "Cryogenic and MQL techniques extended tool life by factors of 2.4 and 2.9, respectively, and improved surface integrity.",
-          "validation": "Tool wear measurements and surface roughness characterization."
+          "motivation": "The study aims to evaluate the impact of various cooling/lubrication techniques on tool life and surface integrity during milling of Ti-6Al-4V.",
+          "method": "Experimental comparison of liquid CO2, minimum quantity lubrication, and conventional flood cooling during Ti-6Al-4V milling.",
+          "result": "LCO2 and MQL extended tool life by factors of 2.4 and 2.9, respectively, and improved surface quality.",
+          "validation": "Validation through experimental measurements of tool wear and surface roughness."
         },
         "key_terms": [
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "cryogenic milling",
@@ -107,36 +218,33 @@
             "zh": "表面完整性"
           },
           {
-            "en": "minimum quantity lubrication",
+            "en": "MQL",
             "zh": "微量润滑"
-          },
-          {
-            "en": "liquid carbon dioxide",
-            "zh": "液态二氧化碳"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1,
       "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Low": 1
+      "Exclude": 2
     }
   }
 }

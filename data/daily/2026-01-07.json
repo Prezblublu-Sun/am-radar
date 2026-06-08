@@ -51,12 +51,23 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_postprocess",
-        "ti6al4v_base_mechanical_fatigue"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti6Al4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "porosity",
+          "defect"
+        ],
         "ti6al4v_postprocess": [
           "Ti-6Al-4V",
           "Ti6Al4V",
@@ -64,21 +75,14 @@
           "heat treatment",
           "annealing",
           "post-processing"
-        ],
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti-6Al-4V",
-          "Ti6Al4V",
-          "Ti 6Al 4V",
-          "porosity",
-          "defect"
         ]
       },
       "llm": {
-        "priority": "Medium",
+        "priority": "High",
         "relevance_level": "Direct",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文研究了热处理对激光粉末床熔融Ti-6Al-4V合金显微硬度的影响，并利用机器学习进行预测，与后处理调控方向直接相关。",
-        "why_not_core": "Paper only reports microhardness, not fatigue life or tensile strength, which are the primary mechanical performance metrics of interest.",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究退火热处理对LPBF制备的Ti-6Al-4V显微硬度的影响，并涉及机器学习预测，符合后处理对力学性能调控的方向。",
+        "why_not_core": "Does not include fatigue or tensile testing, limiting its coverage of mechanical performance to microhardness only.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -87,24 +91,25 @@
           "is_review": false
         },
         "tags": [
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
           "heat treatment",
           "microhardness",
-          "LPBF",
-          "Ti-6Al-4V",
           "machine learning",
-          "Taguchi"
+          "annealing",
+          "Taguchi design of experiments"
         ],
         "summary_zh": {
-          "motivation": "探究热处理对激光粉末床熔融Ti-6Al-4V合金显微硬度的影响及其预测方法。",
-          "method": "采用田口设计法优化参数，结合随机森林和CatBoost算法构建硬度预测模型。",
-          "result": "退火后最高显微硬度达543 HV，较沉积态提高20.9%，CatBoost预测准确度最高（R²=0.93）。",
-          "validation": "通过维氏硬度测试验证实验硬度值，并用R²评价模型精度。"
+          "motivation": "探索热处后处理对LPBF Ti-6Al-4V显微硬度的影响，并利用机器学习预测。",
+          "method": "采用田口实验设计对不同激光参数样品进行退火，测量维氏硬度，并用随机森林和CatBoost建模。",
+          "result": "退火后硬度最高提升20.9%（543 HV），CatBoost预测准确度最高（R²=0.93）。",
+          "validation": "通过维氏硬度实测验证模型预测效果。"
         },
         "summary_en": {
-          "motivation": "To investigate the effect of heat treatment on microhardness of Ti-6Al-4V produced by LPBF and to develop predictive models using machine learning.",
-          "method": "Taguchi orthogonal array was used to reduce experimental runs, and Random Forest and CatBoost algorithms were applied to predict microhardness.",
-          "result": "Annealing achieved a maximum microhardness of 543 HV, a 20.9% increase over as-built condition, with CatBoost yielding the highest prediction accuracy (R²=0.93).",
-          "validation": "Experimental validation was performed by Vickers microhardness testing, and model accuracy was assessed using R² scores."
+          "motivation": "This study investigates the effect of post-processing heat treatment on the microhardness of laser powder bed fused Ti-6Al-4V and explores machine learning for its prediction.",
+          "method": "A Taguchi orthogonal array was used to reduce experimental runs; specimens were annealed and measured by Vickers hardness, and Random Forest and CatBoost models were trained on as-built and heat-treated data.",
+          "result": "The highest hardness of 543 HV (20.9% increase) was achieved after annealing, with CatBoost yielding the best prediction accuracy (R²=0.93).",
+          "validation": "Experimental Vickers hardness measurements validated the machine learning predictions."
         },
         "key_terms": [
           {
@@ -113,11 +118,7 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
-          },
-          {
-            "en": "microhardness",
-            "zh": "显微硬度"
+            "zh": "钛合金Ti-6Al-4V"
           },
           {
             "en": "heat treatment",
@@ -128,8 +129,16 @@
             "zh": "退火"
           },
           {
-            "en": "Taguchi method",
-            "zh": "田口法"
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "Vickers hardness",
+            "zh": "维氏硬度"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
           },
           {
             "en": "Random Forest",
@@ -140,18 +149,141 @@
             "zh": "CatBoost"
           },
           {
-            "en": "post-processing",
-            "zh": "后处理"
-          },
-          {
-            "en": "prediction model",
-            "zh": "预测模型"
+            "en": "Taguchi design of experiments",
+            "zh": "田口实验设计"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:23:51Z"
+      "first_seen_at": "2026-06-08T08:40:28Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7125630346",
+      "doi": "10.54552/v86i4.290",
+      "title": "Investigating the Impact of Bio-Inspired Structural Design on the Fatigue Life of Lightweight Metallic Alloys",
+      "abstract": "This study explores the influence of bio-inspired structural designs on the fatigue life of lightweight metallic alloys, specifically AA7075 aluminum and Ti-6Al-4V titanium. Using advanced additive manufacturing techniques, three bio-inspired geometries—honeycomb, trabecular, and cellular lattice—were fabricated and compared to traditional solid block designs under cyclic loading. The results revealed significant improvements in fatigue life for the bio-inspired designs, with the honeycomb structure showing up to a fourfold increase for AA7075 and a threefold increase for Ti-6Al-4V. Stress-life (S-N) curve analysis and Weibull distribution demonstrated the enhanced fatigue resistance and reliability of these designs, while fractographic examination confirmed their ability to distribute stress more effectively and delay crack initiation and propagation. The findings suggest that bio-inspired designs can substantially extend the lifespan and reliability of components in fatigue-prone applications, making them highly suitable for aerospace, automotive, and biomedical engineering. Moreover, this research highlights the potential of additive manufacturing to create complex, optimized geometries, offering new pathways for material efficiency and sustainability in modern engineering.",
+      "authors": [
+        "Hyginus C.O. Unegbu",
+        "Danjuma Yawas"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Hyginus C.O. Unegbu",
+          "affiliation": ""
+        }
+      ],
+      "venue": "The Journal of The Institution of Engineers Malaysia",
+      "year": 2026,
+      "date": "2026-01-07",
+      "date_precision": "day",
+      "url": "https://doi.org/10.54552/v86i4.290",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Reliability (semiconductor)",
+        "Weibull distribution",
+        "Aluminium",
+        "Stress (linguistics)",
+        "Structural engineering",
+        "Fatigue testing",
+        "Damage tolerance",
+        "Reliability engineering",
+        "Microstructure",
+        "Composite material",
+        "Fatigue limit",
+        "Honeycomb"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "fatigue",
+          "fatigue life"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了增材制造Ti-6Al-4V仿生结构的疲劳性能，与用户方向完全契合。",
+        "why_not_core": "The paper examines systemic design-level fatigue behavior rather than material-level microstructure-property relationships.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Additive manufacturing",
+          "Fatigue life",
+          "Ti-6Al-4V",
+          "Bio-inspired structures",
+          "Honeycomb",
+          "S-N curves",
+          "Weibull distribution"
+        ],
+        "summary_zh": {
+          "motivation": "探索仿生结构设计对轻质金属合金疲劳寿命的影响。",
+          "method": "增材制造三种仿生几何结构（蜂窝、小梁、晶格）并进行疲劳测试。",
+          "result": "仿生结构显著提升疲劳寿命，蜂窝结构提升最多达三倍。",
+          "validation": "通过S-N曲线、威布尔分布和断口分析验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of bio-inspired structural designs on the fatigue life of lightweight metallic alloys fabricated by additive manufacturing.",
+          "method": "Three bio-inspired geometries (honeycomb, trabecular, cellular lattice) were fabricated from Ti-6Al-4V and AA7075 using AM and tested under cyclic loading.",
+          "result": "Bio-inspired designs improved fatigue life by up to threefold for Ti-6Al-4V, with honeycomb structures showing the greatest enhancement.",
+          "validation": "Experimental fatigue testing with S-N curves, Weibull distribution analysis, and fractographic examination."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "bio-inspired structures",
+            "zh": "仿生结构"
+          },
+          {
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
+          },
+          {
+            "en": "honeycomb",
+            "zh": "蜂窝结构"
+          },
+          {
+            "en": "S-N curve",
+            "zh": "S-N曲线"
+          },
+          {
+            "en": "Weibull distribution",
+            "zh": "威布尔分布"
+          },
+          {
+            "en": "fractography",
+            "zh": "断口分析"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:40:28Z"
     },
     {
       "source": "openalex",
@@ -212,8 +344,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文关注颈椎植入物在后碰撞下的生物力学响应，而非增材制造钛合金的力学性能或疲劳特性。",
-        "why_not_core": "Paper does not involve additive manufacturing of Ti-6Al-4V, nor does it characterize its mechanical or fatigue performance; it is a biomechanical finite element study of cervical spine instrumentation under impact.",
+        "relevance_to_user": "该论文涉及颈椎植入物的生物力学分析，仅提及Ti-6Al-4V的屈服强度，与增材制造Ti-6Al-4V的力学和疲劳性能无关。",
+        "why_not_core": "The paper does not concern additively manufactured Ti-6Al-4V nor investigate its mechanical or fatigue performance; it is a finite element biomechanical study of cervical spine implants with only a passing mention of Ti-6Al-4V yield strength.",
         "validation_kind": "simulation_case",
         "flags": {
           "has_experimental_validation": false,
@@ -224,31 +356,26 @@
         "tags": [
           "finite element analysis",
           "cervical spine",
-          "ACDF",
-          "PCLF",
-          "laminoplasty",
-          "rear impact"
+          "Ti-6Al-4V implant",
+          "rear impact",
+          "biomechanics"
         ],
         "summary_zh": {
-          "motivation": "研究颈椎术后在后碰撞载荷下的生物力学响应。",
-          "method": "使用已验证的头颈部有限元模型模拟三种手术方式的后碰撞。",
-          "result": "后路椎板切除融合术（PCLF）降低脊髓应力但增加植入物应力，而椎板成形术（LP）保留运动但增加韧带应变。",
-          "validation": "基于已有文献验证的有限元模型进行仿真。"
+          "motivation": "探究后碰撞下颈椎内固定系统的生物力学响应。",
+          "method": "使用带主动肌肉的有限元模型模拟三种手术方式。",
+          "result": "PCLF降低脊髓应力但增加植入物应力，LP保留运动但增加韧带应变。",
+          "validation": "基于验证的有限元模型进行仿真分析。"
         },
         "summary_en": {
-          "motivation": "To investigate the biomechanical response of instrumented cervical spines under rear-impact loading after different surgical procedures.",
-          "method": "A validated finite element model of the head-neck complex with active musculature and spinal cord was used to simulate low-speed rear impact for three surgical constructs: ACDF, PCLF, and laminoplasty.",
-          "result": "PCLF reduced spinal cord stress but increased implant stress beyond Ti-6Al-4V yield strength, while laminoplasty preserved motion at the cost of higher facet capsular ligament strain.",
-          "validation": "The finite element model was validated against published experimental data for spinal kinematics and tissue properties."
+          "motivation": "To understand the biomechanical response of instrumented cervical spines under rear-impact loading conditions.",
+          "method": "A validated finite element model of the head-neck complex with active musculature and spinal cord was used to simulate ACDF, PCLF, and laminoplasty constructs.",
+          "result": "PCLF reduced spinal cord stress and strain at the index level but increased implant stress above Ti-6Al-4V yield strength at most levels; LP preserved motion at the cost of increased facet capsular ligament strain.",
+          "validation": "The study employed a previously validated finite element model of the cervical spine with active musculature."
         },
         "key_terms": [
           {
-            "en": "finite element analysis",
-            "zh": "有限元分析"
-          },
-          {
-            "en": "cervical spine",
-            "zh": "颈椎"
+            "en": "finite element model",
+            "zh": "有限元模型"
           },
           {
             "en": "anterior cervical discectomy and fusion",
@@ -263,37 +390,53 @@
             "zh": "椎板成形术"
           },
           {
+            "en": "Ti-6Al-4V yield strength",
+            "zh": "Ti-6Al-4V屈服强度"
+          },
+          {
+            "en": "spinal cord stress",
+            "zh": "脊髓应力"
+          },
+          {
+            "en": "facet capsular ligament strain",
+            "zh": "小关节囊韧带应变"
+          },
+          {
+            "en": "implants stress",
+            "zh": "植入物应力"
+          },
+          {
             "en": "rear impact",
             "zh": "后碰撞"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "钛合金Ti-6Al-4V"
+            "en": "degenerative cervical myelopathy",
+            "zh": "退变性颈椎病"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:23:51Z"
+      "first_seen_at": "2026-06-08T08:40:28Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
       "ti6al4v_postprocess": 1,
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
-      "Medium": 1,
+      "High": 2,
       "Exclude": 1
     }
   }

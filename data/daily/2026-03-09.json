@@ -57,6 +57,8 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "selective laser melting",
+          "SLM",
           "porosity",
           "surface roughness"
         ]
@@ -65,8 +67,8 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "研究Ti6Al4V的棋盘扫描策略，但未涉及力学性能或疲劳行为，与用户方向关联较弱。",
-        "why_not_core": "No mechanical or fatigue testing data is reported; the paper focuses solely on surface morphology and porosity characterization without any tensile, yield, fatigue, or other mechanical property evaluation.",
+        "relevance_to_user": "该论文研究了Ti6Al4V的SLM棋盘扫描策略对表面粗糙度和孔隙的影响，但未涉及任何力学或疲劳性能，与L1方向的核心关注点关联较弱。",
+        "why_not_core": "This paper does not report any mechanical or fatigue properties (tensile, fatigue, hardness) or modeling; it only focuses on scanning strategy effects on surface roughness and porosity without linking to mechanical performance.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -75,23 +77,23 @@
           "is_review": false
         },
         "tags": [
-          "selective laser melting",
           "Ti6Al4V",
-          "chessboard scanning strategy",
+          "selective laser melting",
+          "chessboard strategy",
           "surface roughness",
           "porosity"
         ],
         "summary_zh": {
-          "motivation": "研究棋盘扫描策略对SLM成形Ti6Al4V的影响。",
-          "method": "使用恒定参数制备圆柱试样，进行表面形貌和孔隙率表征。",
-          "result": "试样几何精度好，表面粗糙度Ra=4.275µm，存在熔合不良孔隙。",
-          "validation": "表面粗糙度测量和SEM观察。"
+          "motivation": "研究SLM中棋盘扫描策略对Ti6Al4V成形质量的影响。",
+          "method": "采用棋盘扫描策略制造圆柱试样，进行表面粗糙度和SEM分析。",
+          "result": "表面粗糙度Ra=4.275±0.655µm，观察到熔合不良孔隙。",
+          "validation": "通过表面形貌和SEM实验验证。"
         },
         "summary_en": {
-          "motivation": "This study investigates the effect of the chessboard scanning strategy on the quality of SLM-fabricated Ti6Al4V parts.",
-          "method": "Cylindrical specimens were fabricated under constant process parameters, and surface morphology and porosity were characterized using profilometry and SEM.",
-          "result": "The fabricated geometry showed good dimensional accuracy, with an average surface roughness Ra of 4.275 ± 0.655 µm and lack-of-fusion porosity detected.",
-          "validation": "Experimental validation was performed via surface roughness measurements and scanning electron microscopy."
+          "motivation": "To investigate the effect of chessboard scanning strategy on the quality of SLM-fabricated Ti6Al4V parts.",
+          "method": "Cylindrical Ti6Al4V specimens were fabricated using the chessboard scanning strategy and characterized by surface roughness measurements and SEM.",
+          "result": "The average surface roughness was 4.275 ± 0.655 µm, and lack-of-fusion porosity was observed.",
+          "validation": "The findings were validated through experimental surface characterization and SEM analysis."
         },
         "key_terms": [
           {
@@ -99,30 +101,38 @@
             "zh": "选择性激光熔化"
           },
           {
-            "en": "Ti6Al4V",
-            "zh": "钛合金Ti6Al4V"
-          },
-          {
             "en": "chessboard scanning strategy",
             "zh": "棋盘扫描策略"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "钛合金Ti6Al4V"
           },
           {
             "en": "surface roughness",
             "zh": "表面粗糙度"
           },
           {
-            "en": "porosity",
-            "zh": "孔隙率"
+            "en": "lack-of-fusion porosity",
+            "zh": "熔合不良孔隙"
           },
           {
-            "en": "lack-of-fusion",
-            "zh": "熔合不良"
+            "en": "process parameters",
+            "zh": "工艺参数"
+          },
+          {
+            "en": "thermal distribution",
+            "zh": "热分布"
+          },
+          {
+            "en": "scanning electron microscopy (SEM)",
+            "zh": "扫描电子显微镜"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
     },
     {
       "source": "openalex",
@@ -180,6 +190,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
           "tensile strength",
           "ultimate tensile strength",
           "fatigue"
@@ -194,9 +205,9 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是齿轮的轻量化设计，与股骨柄植入物的结构设计无关。",
-        "why_not_core": "This paper does not address femoral stem design, implant biomechanics, stress shielding, or any orthopedic application; it focuses on gear weight reduction.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文研究的是齿轮而非股骨柄假体，不涉及骨科植入物结构设计或力学性能。",
+        "why_not_core": "The paper studies a multi-material gear, not a femoral/hip stem or orthopaedic implant; there is no biomechanical analysis, stress shielding, or implant-related performance evaluation.",
+        "validation_kind": "simulation_case",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
@@ -204,56 +215,200 @@
           "is_review": false
         },
         "tags": [
-          "gear",
           "lattice structure",
+          "gear",
           "Ti-6Al-4V",
-          "316L stainless steel",
-          "multi-material",
           "additive manufacturing",
-          "weight reduction"
+          "multi-material"
         ],
         "summary_zh": {
-          "motivation": "减轻齿轮重量而不降低强度是机械设计中的关键挑战。",
-          "method": "采用K-means算法优化变径金刚石线立方晶格，结合有限元应力分布数据设计多材料齿轮。",
-          "result": "与实体模型相比，齿轮质量减少34.8%，应力低于材料极限强度。",
-          "validation": "通过ANSYS显式动力学和疲劳仿真进行验证。"
+          "motivation": "为减轻齿轮重量同时保持强度，提出多材料点阵结构设计。",
+          "method": "采用Ti-6Al-4V外齿轮和316L内齿轮，结合点阵结构和K-means聚类优化。",
+          "result": "齿轮减重34.8%，应力和温度均在安全范围内。",
+          "validation": "通过有限元分析验证结构强度和疲劳寿命，无实验验证。"
         },
         "summary_en": {
-          "motivation": "Reducing gear weight without compromising strength is a key engineering challenge in mechanical systems.",
-          "method": "A multi-material gear with a diamond wire cube lattice of variable strut diameters was designed, optimized using stress distribution from FEA and K-means clustering.",
-          "result": "The lattice gear achieved a 34.8% mass reduction compared to a solid model while keeping stresses below ultimate tensile strength.",
-          "validation": "Structural and fatigue simulations in ANSYS Explicit Dynamics confirmed the design's feasibility and service life."
+          "motivation": "To achieve weight reduction in gears without sacrificing strength by employing additive manufacturing and lattice structures.",
+          "method": "A multi-material gear design with an outer Ti-6Al-4V ring and inner 316L support, incorporating a diamond wire cube lattice with variable strut diameters optimized via finite element analysis and K-means clustering.",
+          "result": "The optimized gear achieves a 34.8% mass reduction while maintaining stresses below the ultimate tensile strength of both materials and a maximum operating temperature of 64.1 °C.",
+          "validation": "Validation is performed through finite element analysis (static, fatigue, and thermal CFD) without experimental testing."
         },
         "key_terms": [
           {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
-          },
-          {
             "en": "lattice structure",
-            "zh": "晶格结构"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "钛合金Ti-6Al-4V"
+            "zh": "点阵结构"
           },
           {
             "en": "gear",
             "zh": "齿轮"
           },
           {
-            "en": "finite element analysis",
-            "zh": "有限元分析"
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
           },
           {
-            "en": "lightweight design",
-            "zh": "轻量化设计"
+            "en": "316L stainless steel",
+            "zh": "316L不锈钢"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "multi-material",
+            "zh": "多材料"
+          },
+          {
+            "en": "weight reduction",
+            "zh": "减重"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7134817586",
+      "doi": "10.1016/j.jmrt.2026.03.079",
+      "title": "A design framework for additively manufactured Ti–6Al–4V cervical corpectomy cage combining standardized topology-optimized core and customized lattice interfaces",
+      "abstract": "Additive manufacturing (AM) enables the integration of topology-optimized load-bearing architectures with lattice-based contact surfaces, offering new opportunities to tailor the mechanical performance of metallic spinal implants. In this study, a Ti-6Al-4V AM cervical corpectomy fusion (PCCF) cage with a weighted topology-optimized core and customized lattice contact surfaces was developed. Finite element analysis and topology optimization under triaxial physiological loading conditions were employed to define the optimal material distribution, resulting in a load-bearing outer shell with a lightweight, hollow interior suitable for bone grafting. The superior and inferior contact surfaces were reconstructed from patient CT data and integrated with a bionic lattice to promote osseointegration. Experimental validation was performed using static compression, fatigue, and subsidence tests in accordance with ASTM F2077-22 and ASTM F2267-22, benchmarked against ISO 23089-2. The PCCF cage exhibited an axial stiffness of 7397.93 ± 142.62 N/mm and a yield load of 8250.79 ± 281.92 N, exceeding ISO reference values, and withstood 5,000,000 cycles of axial (1582 N) and torsional (1.0 N·m) loading without structural failure. Subsidence testing yielded a stiffness (Kp) of 476.06 ± 52.97 N/mm, approximately 1.85 times higher than the ISO benchmark, indicating improved load distribution at the bone–implant interface. In vitro cell viability testing further showed higher metabolic activity on the lattice surface than on a solid surface. The proposed design framework was demonstrated using a customized C3–C6 PCCF cage as a representative case study, highlighting the potential of AM as a design-enabling approach for mechanically robust and subsidence-resistant spinal implants.",
+      "authors": [
+        "Shih-Chieh Shen",
+        "S. H. Huang",
+        "Chiao-Min Chang",
+        "Hao Wang",
+        "CH Lin"
+      ],
+      "first_author_affiliation": "Department of Biomedical Engineering, National Yang Ming Chiao Tung University, Taipei, Taiwan",
+      "corresponding_authors": [
+        {
+          "name": "CH Lin",
+          "affiliation": "Department of Biomedical Engineering, Innovation & Translation Center of Medical Device, National Yang Ming Chaio Tung University, Taipei, Taiwan"
+        }
+      ],
+      "venue": "Journal of Materials Research and Technology",
+      "year": 2026,
+      "date": "2026-03-09",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jmrt.2026.03.079",
+      "cited_by_count": 0,
+      "concepts": [
+        "Corpectomy",
+        "Materials science",
+        "Stiffness",
+        "Cage",
+        "Finite element method",
+        "Structural engineering",
+        "Lattice (music)",
+        "Composite material",
+        "Core (optical fiber)",
+        "Fusion",
+        "Topology (electrical circuits)",
+        "Mechanical engineering",
+        "Biomedical engineering",
+        "Overlay"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V增材制造颈椎融合器的力学与疲劳性能测试，提供了相关实验数据，但主要聚焦于植入物设计而非基础材料性能。",
+        "why_not_core": "The paper focuses on implant-specific design and testing (cervical corpectomy cage) rather than fundamental as-built or process-state mechanical/fatigue characterization of Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": true,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "cervical corpectomy cage",
+          "topology optimization",
+          "lattice structure",
+          "fatigue testing",
+          "additive manufacturing"
+        ],
+        "summary_zh": {
+          "motivation": "结合拓扑优化与点阵结构设计钛合金颈椎融合器，提升力学与骨整合性能。",
+          "method": "有限元分析与拓扑优化设计核心，患者CT数据定制点阵接触面，按ASTM标准进行力学测试。",
+          "result": "融合器轴向刚度7397 N/mm，屈服载荷8250 N，疲劳寿命超500万次，抗下沉刚度476 N/mm。",
+          "validation": "静态压缩、疲劳、下沉实验及细胞活性测试验证。"
+        },
+        "summary_en": {
+          "motivation": "To develop a Ti-6Al-4V cervical corpectomy cage combining topology-optimized load-bearing core and patient-specific lattice interfaces for enhanced mechanical performance and osseointegration.",
+          "method": "Finite element analysis, topology optimization under triaxial loading, and CT-based lattice design were employed, followed by mechanical testing per ASTM F2077 and F2267 standards.",
+          "result": "The cage showed axial stiffness of 7397.93 N/mm, yield load of 8250.79 N, survived 5 million cycles in combined axial-torsional fatigue, and exhibited subsidence stiffness 1.85 times higher than ISO benchmark.",
+          "validation": "Experimental validation through static compression, fatigue, subsidence tests, and in vitro cell viability assays."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "cervical corpectomy cage",
+            "zh": "颈椎椎体切除融合器"
+          },
+          {
+            "en": "topology optimization",
+            "zh": "拓扑优化"
+          },
+          {
+            "en": "lattice structure",
+            "zh": "点阵结构"
+          },
+          {
+            "en": "fatigue testing",
+            "zh": "疲劳测试"
+          },
+          {
+            "en": "ASTM F2077",
+            "zh": "ASTM F2077标准"
+          },
+          {
+            "en": "subsidence",
+            "zh": "下沉"
+          },
+          {
+            "en": "osseointegration",
+            "zh": "骨整合"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
     },
     {
       "source": "openalex",
@@ -305,15 +460,17 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "3D printing",
+          "3D printed",
           "defect"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文涉及3D打印Ti-6Al-4V在牙科修复中的应用，而非Ti-6Al-4V的基础力学与疲劳性能研究。",
-        "why_not_core": "This paper focuses on clinical dental restoration application of Ti-6Al-4V endocrowns, not on base mechanical or fatigue characterization of additively manufactured Ti-6Al-4V material.",
+        "read_action": "Background only",
+        "relevance_to_user": "本文研究了3D打印Ti-6Al-4V牙冠的力学性能，但侧重于牙科修复应用而非基础力学/疲劳性能。",
+        "why_not_core": "Does not report fundamental mechanical or fatigue properties (e.g., tensile, S-N curves) of AM Ti-6Al-4V; focus is dental restorative performance rather than material characterization.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -322,86 +479,83 @@
           "is_review": false
         },
         "tags": [
-          "dental restoration",
-          "endocrown",
           "Ti-6Al-4V",
           "3D printing",
-          "fracture resistance"
+          "endocrown",
+          "fracture resistance",
+          "marginal integrity"
         ],
         "summary_zh": {
-          "motivation": "修复严重缺损磨牙的挑战",
-          "method": "使用3D打印Ti-6Al-4V根延伸端冠与树脂修复比较",
-          "result": "3D打印Ti-6Al-4V端冠具有更高的断裂强度和更低的微渗漏",
-          "validation": "体外力学测试和微渗漏评估"
+          "motivation": "比较3D打印Ti-6Al-4V根延伸牙冠与树脂修复体在严重缺损磨牙中的力学性能。",
+          "method": "体外实验，对42颗离体第三磨牙进行垂直加载断裂测试、微渗漏评估和SEM/Micro-CT分析。",
+          "result": "Ti-6Al-4V牙冠断裂强度显著高于树脂组（4682 vs 1334 N），微渗漏更低，边缘完整性更好。",
+          "validation": "通过断裂力学测试、染料渗入和显微成像验证。"
         },
         "summary_en": {
-          "motivation": "To compare mechanical and marginal properties of 3D-printed Ti-6Al-4V root-extended endocrowns with direct resin composites for molars with severe defects.",
-          "method": "Forty-two extracted molars were restored with either 3D-printed Ti-6Al-4V endocrowns or resin composites, then subjected to thermocycling and mechanical loading.",
-          "result": "The Ti-6Al-4V endocrowns exhibited significantly higher fracture resistance and superior marginal integrity compared to resin composites.",
-          "validation": "Fracture resistance testing, microleakage staining, SEM evaluation, and micro-CT analysis."
+          "motivation": "To compare the mechanical properties and marginal integrity of 3D-printed Ti-6Al-4V root-extended endocrowns versus direct resin composite restorations in molars with severe defects.",
+          "method": "An in vitro study on 42 extracted third molars, assessing fracture resistance via vertical loading, microleakage by methylene blue staining, and marginal integrity by SEM and micro-CT.",
+          "result": "The Ti-6Al-4V endocrowns exhibited significantly higher fracture resistance (4682 vs 1334 N), lower microleakage, and better marginal integrity than resin restorations.",
+          "validation": "Mechanical testing, dye penetration, and microscopic imaging."
         },
         "key_terms": [
           {
-            "en": "3D-printed Ti-6Al-4V endocrown",
-            "zh": "3D打印Ti-6Al-4V端冠"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "3D printing",
+            "zh": "3D打印"
+          },
+          {
+            "en": "endocrown",
+            "zh": "牙冠"
           },
           {
             "en": "fracture resistance",
             "zh": "断裂强度"
           },
           {
-            "en": "microleakage",
-            "zh": "微渗漏"
-          },
-          {
             "en": "marginal integrity",
             "zh": "边缘完整性"
+          },
+          {
+            "en": "microleakage",
+            "zh": "微渗漏"
           },
           {
             "en": "root-extended",
             "zh": "根延伸"
           },
           {
-            "en": "four-wall defect",
-            "zh": "四壁缺损"
-          },
-          {
-            "en": "endodontically treated molars",
-            "zh": "根管治疗后磨牙"
-          },
-          {
-            "en": "thermocycling",
-            "zh": "热循环"
-          },
-          {
-            "en": "micro-CT",
-            "zh": "微计算机断层扫描"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 4,
     "by_source": {
-      "openalex": 3
+      "openalex": 4
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 2,
+      "ti6al4v_base_mechanical_fatigue": 3,
       "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "openalex": 3
+      "openalex": 4
     },
-    "scored": 3,
+    "scored": 4,
     "priority_counts": {
-      "Low": 1,
-      "Exclude": 2
+      "Low": 2,
+      "Exclude": 1,
+      "Medium": 1
     }
   }
 }

@@ -65,8 +65,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究牙科植入物而非股骨柄，不适用于髋关节植入物设计方向。",
-        "why_not_core": "This paper studies dental implants, not femoral/hip stems; no structural design, fatigue testing, or biomechanical analysis relevant to hip stems.",
+        "relevance_to_user": "本文研究牙科植入物，而非髋关节股骨柄，与用户方向不符。",
+        "why_not_core": "The paper studies dental implants, not femoral/hip stems, and thus falls outside the specified direction of Ti-6Al-4V femoral stem design.",
         "validation_kind": "simulation_case",
         "flags": {
           "has_experimental_validation": false,
@@ -77,48 +77,467 @@
         "tags": [
           "dental implant",
           "stress shielding",
+          "FEA",
           "Ti-6Al-4V",
-          "finite element analysis",
-          "CFR-PEEK"
+          "CFR-PEEK",
+          "Y-TZP"
         ],
         "summary_zh": {
-          "motivation": "量化不同材料牙科植入物的应力遮挡效应",
-          "method": "有限元分析比较钛合金、Y-TZP和CFR-PEEK材料的生物力学响应",
-          "result": "CFR-PEEK减少应力遮挡，Y-TZP应力遮挡最严重",
+          "motivation": "比较不同材料牙种植体对应力遮挡的影响",
+          "method": "对Ti-6Al-4V、Y-TZP和CFR-PEEK种植体进行有限元分析",
+          "result": "高刚度种植体增加嵴顶应力集中和加深种植体周围遮挡",
           "validation": "仅有限元模拟，无实验验证"
         },
         "summary_en": {
-          "motivation": "To quantify stress shielding in dental implants made of different materials.",
-          "method": "Finite element analysis compared biomechanical responses of Ti-6Al-4V, Y-TZP, and CFR-PEEK one-piece implants with fully bonded bone-implant interface.",
-          "result": "CFR-PEEK implants showed the least stress shielding and more homogeneous load transfer, while Y-TZP exhibited the greatest shielding.",
-          "validation": "The study relied solely on finite element simulation without experimental validation."
+          "motivation": "To compare stress shielding effects of different materials for dental implants.",
+          "method": "Finite element analysis was performed on Ti-6Al-4V, Y-TZP, and CFR-PEEK one-piece implants.",
+          "result": "Higher-stiffness implants increased crestal stress concentration and deepened peri-implant shielding.",
+          "validation": "Only finite element simulation, no experimental validation."
         },
         "key_terms": [
           {
+            "en": "dental implant",
+            "zh": "牙种植体"
+          },
+          {
             "en": "stress shielding",
             "zh": "应力遮挡"
-          },
-          {
-            "en": "dental implant",
-            "zh": "牙科植入物"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "finite element analysis",
             "zh": "有限元分析"
           },
           {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
             "en": "CFR-PEEK",
             "zh": "碳纤维增强聚醚醚酮"
+          },
+          {
+            "en": "Y-TZP",
+            "zh": "钇稳定四方氧化锆"
+          },
+          {
+            "en": "one-piece implant",
+            "zh": "一体式种植体"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7131382665",
+      "doi": "10.1007/s12540-025-02131-2",
+      "title": "Microstructure and Mechanical Properties of Ti-6Al-4V Fabricated by Laser Powder Bed Fusion Using Plasma-Spheroidized and Gas-Atomized Powders",
+      "abstract": "",
+      "authors": [
+        "Yunfei Liu",
+        "Zhenhua Hao",
+        "Rulong Ma",
+        "Yongchun Shu",
+        "Jilin He"
+      ],
+      "first_author_affiliation": "School of Material Science and Engineering, Zhengzhou University,  Zhengzhou , 450001, China",
+      "corresponding_authors": [
+        {
+          "name": "Zhenhua Hao",
+          "affiliation": "National Key Laboratory of Special Rare Metal Materials, Zhengzhou University,  Zhengzhou , 450001, China"
+        }
+      ],
+      "venue": "Metals and Materials International",
+      "year": 2026,
+      "date": "2026-02-26",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s12540-025-02131-2",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Porosity",
+        "Relative density",
+        "Ultimate tensile strength",
+        "Composite material",
+        "Fusion",
+        "Texture (cosmology)",
+        "Elongation",
+        "Laser",
+        "Grain size",
+        "Solid mechanics",
+        "Dislocation",
+        "Energy density"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究激光粉末床熔融Ti-6Al-4V的微观结构和力学性能，完全契合L1方向重点。",
+        "why_not_core": "该论文未涵盖疲劳寿命或疲劳裂纹萌生/扩展的定量数据，也未涉及后处理或植入物结构。",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "LPBF",
+          "Ti-6Al-4V",
+          "powder type",
+          "plasma-spheroidized",
+          "gas-atomized",
+          "microstructure",
+          "mechanical properties",
+          "tensile",
+          "hardness"
+        ],
+        "summary_zh": {
+          "motivation": "比较等离子球化与气雾化粉末对LPBF Ti-6Al-4V微观结构和力学性能的影响",
+          "method": "采用激光粉末床熔融技术制备试样，进行显微组织和力学性能测试",
+          "result": "等离子球化粉末制备的试样具有更优的致密度和力学性能",
+          "validation": "通过拉伸试验和硬度测量验证力学性能差异"
+        },
+        "summary_en": {
+          "motivation": "This study investigates the influence of plasma-spheroidized versus gas-atomized powders on the microstructure and mechanical properties of Ti-6Al-4V fabricated by laser powder bed fusion.",
+          "method": "Samples were fabricated via LPBF using both powder types, followed by microstructural characterization and mechanical testing (tensile, hardness).",
+          "result": "Samples from plasma-spheroidized powder exhibited higher density and improved mechanical properties compared to those from gas-atomized powder.",
+          "validation": "Mechanical performance differences were validated through tensile tests and hardness measurements."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "plasma-spheroidized powder",
+            "zh": "等离子球化粉末"
+          },
+          {
+            "en": "gas-atomized powder",
+            "zh": "气雾化粉末"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          },
+          {
+            "en": "density",
+            "zh": "致密度"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7131622322",
+      "doi": "10.1115/1.4071231",
+      "title": "Dielectric Barrier Discharge Plasma Jet Treatment on Additively Manufactured Biomedical Implants for Improved Surface Wettability, In Vitro Bone Mineralization, and Bacterial Decontamination",
+      "abstract": "Abstract Metallic biomedical implants require surfaces with improved wettability, decontamination, and biocompatibility to ensure successful osseointegration and long-term durability. Conventional surface functionalization methods are often hindered by high costs, long process times, and complex setups. The atmospheric pressure dielectric barrier discharge (DBD) plasma jet offers a promising alternative, providing a low-power, cost-effective, and low-temperature approach with rapid processing times. This study investigates the application of a DBD plasma jet for surface modification of additively manufactured Ti-6Al-4V ELI (Ti Gr23) to enhance wettability and promote bone cell mineralization, which is crucial for better osseointegration. Improved surface wettability of the plasma-treated Ti Gr23 samples is demonstrated by a significant reduction in the water contact angle (WCA) following only 2 s of treatment. X-ray photoelectron spectroscopy (XPS) analysis reveals that plasma interaction induces the formation of oxide metallic bonds, such as TiO2 and Ti2O3, while reducing carbon contamination, leading to increased surface energy. A parametric study was conducted to evaluate the effects of treatment time, gas flowrate, and input power on the treated area size, WCA reduction, and process cost. The optimal conditions of 8 s of treatment time, 2 slm gas flowrate, and 7.4 W power achieved the largest treated area (70 mm2), maximum WCA reduction (58 deg), and minimal processing cost ($26/m2). Cytocompatibility tests confirmed that plasma treatment had no cytotoxic effects on Ti Gr23 implants. Additionally, plasma treatment of Ti Gr23 surfaces resulted in a 45% increase in bone cell mineralization, highlighting its dual role as a surface modification strategy for improving cell adhesion and as an effective sterilization approach against hospital-acquired pathogens such as MRSA for smooth and rough surfaces. Overall, plasma treatment enables simultaneous enhancement of wettability, cell adhesion, and decontamination on rough bioimplant surfaces, otherwise difficult to achieve with conventional methods like ethanol rinsing.",
+      "authors": [
+        "Shayan Bayki",
+        "Komal Avinash Joshi",
+        "Pushpendra Kumar",
+        "Aryan Bhardwaj",
+        "Jayesh Bellare",
+        "Soham Mujumdar"
+      ],
+      "first_author_affiliation": "Indian Institute of Technology Bombay Department of Mechanical Engineering, , ,   ,",
+      "corresponding_authors": [
+        {
+          "name": "Shayan Bayki",
+          "affiliation": "Indian Institute of Technology Bombay Department of Mechanical Engineering, , ,   ,"
+        }
+      ],
+      "venue": "Journal of Manufacturing Science and Engineering",
+      "year": 2026,
+      "date": "2026-02-26",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1115/1.4071231",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Wetting",
+        "Surface modification",
+        "Contact angle",
+        "Dielectric barrier discharge",
+        "Human decontamination",
+        "Biomedical engineering",
+        "Plasma",
+        "Adhesion",
+        "Sterilization (economics)",
+        "Surface roughness",
+        "Osseointegration",
+        "Nanotechnology",
+        "Composite material",
+        "Biocompatibility",
+        "Surface energy",
+        "Jet (fluid)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti-6Al-4V ELI",
+          "additively manufactured",
+          "SLM"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要关注增材制造Ti-6Al-4V的表面等离子体处理，以改善润湿性和生物相容性，未涉及力学或疲劳性能。",
+        "why_not_core": "The paper focuses on surface wettability, bone mineralization, and bacterial decontamination via plasma treatment, with no mechanical or fatigue characterization of Ti-6Al-4V.",
+        "validation_kind": "in_vitro",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "plasma treatment",
+          "surface wettability",
+          "bone mineralization",
+          "bacterial decontamination",
+          "Ti-6Al-4V ELI",
+          "additive manufacturing",
+          "dielectric barrier discharge"
+        ],
+        "summary_zh": {
+          "motivation": "改善增材制造Ti-6Al-4V植入体表面的润湿性和生物相容性。",
+          "method": "使用大气压介质阻挡放电等离子体射流处理样品表面。",
+          "result": "处理2秒后接触角显著降低，骨矿化增加45%。",
+          "validation": "通过接触角测量、XPS、细胞相容性和细菌实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To enhance surface wettability, biocompatibility, and bacterial decontamination of additively manufactured Ti-6Al-4V ELI implants for improved osseointegration.",
+          "method": "An atmospheric pressure dielectric barrier discharge (DBD) plasma jet was used to treat the implant surfaces.",
+          "result": "Significant water contact angle reduction after 2 s treatment and 45% increase in bone mineralization were observed.",
+          "validation": "Contact angle goniometry, XPS, cytocompatibility, and bacterial decontamination assays were performed."
+        },
+        "key_terms": [
+          {
+            "en": "dielectric barrier discharge",
+            "zh": "介质阻挡放电"
+          },
+          {
+            "en": "plasma jet",
+            "zh": "等离子体射流"
+          },
+          {
+            "en": "Ti-6Al-4V ELI",
+            "zh": "Ti-6Al-4V ELI"
+          },
+          {
+            "en": "wettability",
+            "zh": "润湿性"
+          },
+          {
+            "en": "bone mineralization",
+            "zh": "骨矿化"
+          },
+          {
+            "en": "MRSA",
+            "zh": "耐甲氧西林金黄色葡萄球菌"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7131618939",
+      "doi": "10.1016/j.msea.2026.150007",
+      "title": "Creep behaviour of additively manufactured Ti-6Al-4V alloy using small specimen testing techniques",
+      "abstract": "The Ti-6Al-4V alloy is one of the most widely used alloys in additive manufacturing. In this study, it was processed using Powder Bed Fusion – Laser Beam with Metals (PBF-LB/M). Its creep behaviour was investigated using small specimen testing techniques, namely Small Punch Creep Tests (SPCT) and uniaxial creep tests on miniature specimens. The present work focuses on the study of the PBF-LB/M Ti-6Al-4V in the as-built state in a moderate temperature range (400-500 °C) corresponding to the upper limit of the alloy's potential operating temperature. The present study aims to complement existing literature data and addresses the possibility of microstructure evolution during mechanical testing. Additionally, the obtained SPCT results were compared with uniaxial creep test results. The test results also contributed to the improvement of a finite element model dedicated to simulating SPCT on as-built PBF-LB/M Ti-6Al-4V. This allowed the evaluation of various parameters, including the friction coefficient related to the punch/specimen contact. To better understand the operating creep mechanism, microstructural characterisation was performed on a cross-section on an interrupted SPCT test at 400 C – 450 MPa. A heterogeneous microstructure was identified and related to the local mechanical state obtained through finite element simulations. The accumulation of local strain (plastic + creep) was identified as the driving force for the formation of nanograins. These nanograins are formed by the fragmentation and rotation of α' martensite lamellae’s fractions, allowing deformation by grain boundary sliding. High strain levels can thus be achieved, and an advantageous thermomechanical domain for using the as-built PBF-LB/M martensitic microstructure is identified.",
+      "authors": [
+        "Mathieu Lalé",
+        "Petr Dymáček",
+        "Martin Abendroth",
+        "Arnaud Proietti",
+        "Yannick Thébault",
+        "Bernard Viguier"
+      ],
+      "first_author_affiliation": "Univ Toulouse, Toulouse INP, CNRS, CIRIMAT, 4 Allée Emile Monso, 31030 TOULOUSE, France",
+      "corresponding_authors": [
+        {
+          "name": "Mathieu Lalé",
+          "affiliation": "Univ Toulouse, Toulouse INP, CNRS, CIRIMAT, 4 Allée Emile Monso, 31030 TOULOUSE, France"
+        },
+        {
+          "name": "Bernard Viguier",
+          "affiliation": "Univ Toulouse, Toulouse INP, CNRS, CIRIMAT, 4 Allée Emile Monso, 31030 TOULOUSE, France"
+        }
+      ],
+      "venue": "Materials Science and Engineering A",
+      "year": 2026,
+      "date": "2026-02-26",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.msea.2026.150007",
+      "cited_by_count": 0,
+      "concepts": [
+        "Creep",
+        "Materials science",
+        "Microstructure",
+        "Martensite",
+        "Finite element method",
+        "Alloy",
+        "Deformation (meteorology)",
+        "Composite material",
+        "Metallurgy",
+        "Grain Boundary Sliding",
+        "Grain boundary"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "powder bed fusion",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "本文直接研究激光粉末床熔融Ti-6Al-4V的蠕变行为，属于增材制造Ti-6Al-4V基础力学性能范畴。",
+        "why_not_core": "This paper focuses on creep behavior rather than fatigue or tensile properties, but it still covers mechanical performance of as-built AM Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "creep",
+          "small punch creep test",
+          "PBF-LB/M",
+          "microstructure",
+          "finite element model"
+        ],
+        "summary_zh": {
+          "motivation": "研究增材制造Ti-6Al-4V在中等温度下的蠕变行为。",
+          "method": "采用小型冲杆蠕变试验和单轴蠕变试验，结合微观表征和有限元模拟。",
+          "result": "发现纳米晶通过α'马氏体碎片化旋转形成，滑动变形使应变累积。",
+          "validation": "通过实验蠕变测试和有限元模拟验证结果。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the creep behavior of as-built PBF-LB/M Ti-6Al-4V at moderate temperatures using small specimen testing techniques.",
+          "method": "Small punch creep tests and uniaxial creep tests were conducted on miniature specimens, supported by microstructural characterization and finite element simulations.",
+          "result": "Nanograins formed via fragmentation and rotation of α' martensite lamellae, enabling high strain through grain boundary sliding.",
+          "validation": "Experimental creep tests and finite element modeling provided validation of the observed mechanisms."
+        },
+        "key_terms": [
+          {
+            "en": "creep",
+            "zh": "蠕变"
+          },
+          {
+            "en": "small punch creep test",
+            "zh": "小型冲杆蠕变试验"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "as-built",
+            "zh": "原始态"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "finite element model",
+            "zh": "有限元模型"
+          },
+          {
+            "en": "nanograin",
+            "zh": "纳米晶"
+          },
+          {
+            "en": "martensite",
+            "zh": "马氏体"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
     },
     {
       "source": "openalex",
@@ -175,6 +594,7 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "microstructure",
           "residual stress"
         ]
       },
@@ -182,8 +602,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文未涉及增材制造Ti-6Al-4V的力学性能或疲劳行为，而是研究摩擦焊接，与研究方向不符。",
-        "why_not_core": "The paper does not involve additive manufacturing of Ti-6Al-4V; it studies friction welding, a different joining process, and lacks fatigue characterization.",
+        "relevance_to_user": "该论文研究的是摩擦焊接而非增材制造，与Ti-6Al-4V增材制造力学与疲劳性能直接无关。",
+        "why_not_core": "The paper investigates friction welding, which is not an additive manufacturing process; it does not address LPBF/SLM/EBM/DED mechanical or fatigue performance of Ti-6Al-4V.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -192,23 +612,23 @@
           "is_review": false
         },
         "tags": [
+          "Ti6Al4V",
           "friction welding",
-          "Ti-6Al-4V",
           "residual stress",
           "hardness",
           "microstructure"
         ],
         "summary_zh": {
-          "motivation": "研究摩擦焊接参数对Ti6Al4V合金棒焊接接头的影响。",
-          "method": "通过改变工艺参数进行摩擦焊接，分析残余应力、显微组织和硬度。",
-          "result": "焊接参数变化导致残余应力、硬度和微观结构变化，界面处获得最大压应力和高硬度。",
-          "validation": "实验测量残余应力和硬度。"
+          "motivation": "研究摩擦焊接Ti6Al4V合金棒材的工艺参数影响",
+          "method": "通过改变工艺参数进行摩擦焊接试验，分析残余应力、显微组织和硬度",
+          "result": "工艺参数影响残余应力、硬度和显微组织，细晶区域出现最大压缩残余应力",
+          "validation": "实验测量残余应力、硬度和显微组织"
         },
         "summary_en": {
-          "motivation": "To investigate the effect of friction welding process parameters on the properties of Ti6Al4V alloy rods.",
-          "method": "Various combinations of process inputs were used to weld Ti6Al4V rods, and the resulting residual stresses, microstructure, and hardness were analyzed.",
-          "result": "Variations in process inputs led to changes in residual stress, hardness, and microstructure, with maximum compressive residual stress and high hardness at the weld interface.",
-          "validation": "Experimental measurements of residual stress and hardness."
+          "motivation": "To investigate the effect of process parameters on friction welding of Ti6Al4V alloy rods.",
+          "method": "Friction welding experiments with varying process parameters, followed by residual stress, microstructure, and hardness analysis.",
+          "result": "Variations in process parameters led to changes in residual stress, hardness, and microstructure, with peak compressive residual stress at the weld interface.",
+          "validation": "Experimental characterization using residual stress measurement, hardness testing, and microstructural analysis."
         },
         "key_terms": [
           {
@@ -224,49 +644,182 @@
             "zh": "残余应力"
           },
           {
-            "en": "microstructure",
-            "zh": "显微组织"
-          },
-          {
             "en": "hardness",
             "zh": "硬度"
           },
           {
-            "en": "process parameters",
-            "zh": "工艺参数"
+            "en": "martensite",
+            "zh": "马氏体"
           },
           {
-            "en": "martensitic grains",
-            "zh": "马氏体晶粒"
+            "en": "weld interface",
+            "zh": "焊接界面"
           },
           {
-            "en": "compressive residual stress",
-            "zh": "压缩残余应力"
+            "en": "compressive stress",
+            "zh": "压应力"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7131666757",
+      "doi": "10.1016/j.mtcomm.2026.114922",
+      "title": "Effect of sintering temperature on microstructure, grain boundary characterization and mechanical behaviour of hot-press sintered Ti-6Al-4V alloy",
+      "abstract": "This study investigates the influence of sintering temperature during hot pressing on the microstructural evolution, mechanical behaviour, and grain boundary characteristics of the Ti-6Al-4V alloy. The pre-alloyed Ti-6Al-4V powder was subjected to hot pressing at sintering temperatures of 800 °C, 900 °C, 1000 °C, and 1100 °C under vacuum at a uniaxial pressure of 45 MPa. Microstructural analysis using optical microscopy, field-emission scanning electron microscopy (FESEM), and electron backscatter diffraction (EBSD) revealed significant changes in grain morphology and microstructural evolution with increasing sintering temperature. Mechanical properties were evaluated by conducting tensile tests on sintered compacts. A tensile strength of 944 MPa and better ductility were observed in Ti-6Al-4V sintered at 900 °C. The sample's microstructure exhibited equiaxed and lamellar structures and a fine particle size. At higher temperatures, while densification improved, excessive grain coarsening led to a decline in mechanical performance. These findings highlight the importance of sintering temperature in enhancing the performance of Ti-6Al-4V alloys processed via hot pressing, with 900°C as the optimal condition for achieving improved mechanical properties. • Hot Press Sintering process of pre-alloyed Ti6Al4V was performed at 800–1100 °C for 30 min under 45 MPa in vacuum atmosphere. • Microstructure, grain boundary characteristics and mechanical properties of hot press sintered pre alloyed Ti6Al4V were studied. • Fine grain size with denser microstructure and better mechanical performance was obtained at 900 °C. • Maximum density and hardness were obtained at 1100 °C.",
+      "authors": [
+        "K Sakthivel Rajan",
+        "U Narendra Kumar",
+        "A. Raja Annamalai"
+      ],
+      "first_author_affiliation": "School of Mechanical Engineering, Vellore Institute of Technology, Vellore, 632014, Tamil Nadu, India",
+      "corresponding_authors": [
+        {
+          "name": "A. Raja Annamalai",
+          "affiliation": "Centre for Innovative Manufacturing Research, Vellore Institute of Technology, Vellore, 632014, Tamil Nadu, India"
+        }
+      ],
+      "venue": "Materials Today Communications",
+      "year": 2026,
+      "date": "2026-02-26",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.mtcomm.2026.114922",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Sintering",
+        "Equiaxed crystals",
+        "Microstructure",
+        "Ultimate tensile strength",
+        "Metallurgy",
+        "Grain boundary",
+        "Ductility (Earth science)",
+        "Alloy",
+        "Electron backscatter diffraction",
+        "Grain size",
+        "Composite material",
+        "Hot pressing",
+        "Lamellar structure",
+        "Scanning electron microscope",
+        "Grain growth",
+        "Grain boundary strengthening",
+        "Tensile testing",
+        "Powder metallurgy",
+        "Titanium alloy",
+        "Grain boundary diffusion coefficient"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti6Al4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "tensile strength",
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "这篇论文采用热压烧结而非增材制造工艺，不属于L1方向关注的Ti-6Al-4V增材制造力学与疲劳性能范围。",
+        "why_not_core": "The paper uses hot-press sintering (a powder metallurgy technique) rather than an additive manufacturing process (LPBF/SLM/EBM/DED), so it is outside the scope of additively manufactured Ti-6Al-4V mechanical/fatigue characterization.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "hot pressing",
+          "sintering temperature",
+          "mechanical properties",
+          "grain boundary"
+        ],
+        "summary_zh": {
+          "motivation": "研究热压烧结温度对Ti-6Al-4V合金微观结构和力学性能的影响。",
+          "method": "在800-1100°C下对预合金粉末进行热压烧结，并采用OM、FESEM、EBSD和拉伸测试进行表征。",
+          "result": "900°C烧结获得最佳综合力学性能，抗拉强度达944 MPa，更高温度因晶粒粗化导致性能下降。",
+          "validation": "通过实验拉伸测试和微观结构分析验证温度影响。"
+        },
+        "summary_en": {
+          "motivation": "This study investigates the effect of sintering temperature during hot pressing on the microstructural evolution and mechanical behavior of Ti-6Al-4V alloy.",
+          "method": "Pre-alloyed Ti-6Al-4V powder was hot-pressed at 800–1100°C under 45 MPa in vacuum, and characterized by optical microscopy, FESEM, EBSD, and tensile tests.",
+          "result": "A tensile strength of 944 MPa with good ductility was achieved at 900°C, while higher temperatures caused grain coarsening and degraded mechanical properties.",
+          "validation": "Mechanical testing and microstructural analysis validated the optimal sintering temperature."
+        },
+        "key_terms": [
+          {
+            "en": "hot pressing",
+            "zh": "热压"
+          },
+          {
+            "en": "sintering temperature",
+            "zh": "烧结温度"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "grain boundary",
+            "zh": "晶界"
+          },
+          {
+            "en": "mechanical behavior",
+            "zh": "力学性能"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          },
+          {
+            "en": "microstructural evolution",
+            "zh": "微观组织演变"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 6,
     "by_source": {
-      "openalex": 2
+      "openalex": 6
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 6,
+    "after_routing": 6,
     "by_direction": {
       "ti6al4v_femoral_stem": 1,
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 5
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 6
     },
-    "scored": 2,
+    "scored": 6,
     "priority_counts": {
-      "Exclude": 2
+      "Exclude": 3,
+      "High": 2,
+      "Low": 1
     }
   }
 }

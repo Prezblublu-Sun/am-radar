@@ -60,6 +60,11 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "microstructure",
           "tensile strength",
           "ductility",
           "defect"
@@ -69,8 +74,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究增材制造Ti-6Al-4V的显微组织与力学性能，与方向高度相关。",
-        "why_not_core": "This paper does not cover fatigue performance or fatigue life, which is a key component of the direction focus, but it does provide tensile property data and microstructural insights relevant to mechanical performance.",
+        "relevance_to_user": "该论文直接研究增材制造Ti-6Al-4V的层状马氏体组织对变形孪晶和拉伸性能的影响，完全符合L1方向。",
+        "why_not_core": "This paper does not cover fatigue life or S-N curves; its mechanical focus is on tensile properties and work-hardening, not cyclic loading.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -79,27 +84,32 @@
           "is_review": false
         },
         "tags": [
+          "laser powder bed fusion",
           "Ti-6Al-4V",
-          "LPBF",
-          "martensitic hierarchy",
+          "martensitic structure",
           "deformation twinning",
-          "tensile properties"
+          "tensile properties",
+          "electron microscopy"
         ],
         "summary_zh": {
-          "motivation": "研究增材制造Ti-6Al-4V中层级马氏体结构对变形孪晶的影响。",
-          "method": "采用电子显微镜系统研究LPBF制备的Ti-6Al-4V的显微组织和孪晶行为。",
-          "result": "发现层级马氏体结构调控孪晶形成，同步提升拉伸强度、塑性和加工硬化能力。",
-          "validation": "通过拉伸测试和显微观察验证力学性能与微观结构的关联。"
+          "motivation": "揭示增材制造钛合金中层状马氏体结构对变形孪晶的影响机制。",
+          "method": "利用电子显微镜系统研究LPBF Ti-6Al-4V中不同尺度的孪晶及其与马氏体板条的相互作用。",
+          "result": "发现链接型孪晶比非链接型更厚，且孪晶结构能同时提升强度、塑性和加工硬化能力。",
+          "validation": "通过拉伸力学测试和微观结构表征验证。"
         },
         "summary_en": {
-          "motivation": "To understand how the hierarchical martensitic microstructure in additively manufactured Ti-6Al-4V governs defect formation and deformation twinning under cyclic thermal loading.",
-          "method": "A systematic electron microscopy investigation was conducted on laser powder-bed fusion Ti-6Al-4V to characterize the multilevel lath hierarchy and twin types.",
-          "result": "Two types of deformation twins were identified, and twins linked to fine martensitic plate endpoints were thicker, leading to simultaneous improvements in tensile strength, ductility, and work-hardening.",
-          "validation": "Room-temperature tensile tests combined with electron microscopy validated the microstructural origins of the enhanced mechanical properties."
+          "motivation": "To understand how the hierarchical martensitic structure in additively manufactured Ti-6Al-4V governs deformation twinning and its impact on mechanical properties.",
+          "method": "A systematic electron microscopy study was conducted on as-fabricated LPBF Ti-6Al-4V to identify twin types and their correlation with martensitic lath hierarchy.",
+          "result": "Linked twins at lath endpoints are thicker and contribute to simultaneous improvement in tensile strength, ductility, and work-hardening capability.",
+          "validation": "Mechanical tensile testing combined with detailed microstructural characterization."
         },
         "key_terms": [
           {
-            "en": "laser powder bed fusion",
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "laser powder-bed fusion",
             "zh": "激光粉末床熔融"
           },
           {
@@ -107,8 +117,8 @@
             "zh": "Ti-6Al-4V"
           },
           {
-            "en": "hierarchical martensitic structure",
-            "zh": "层级马氏体结构"
+            "en": "hierarchical martensite",
+            "zh": "层状马氏体"
           },
           {
             "en": "deformation twinning",
@@ -116,14 +126,14 @@
           },
           {
             "en": "tensile strength",
-            "zh": "拉伸强度"
+            "zh": "抗拉强度"
           },
           {
             "en": "ductility",
-            "zh": "塑性"
+            "zh": "延展性"
           },
           {
-            "en": "work hardening",
+            "en": "work-hardening",
             "zh": "加工硬化"
           },
           {
@@ -134,7 +144,7 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
     }
   ],
   "counts": {

@@ -65,8 +65,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究传统Ti6Al4V合金的涂层处理以提高耐腐蚀性，而非增材制造Ti6Al4V的疲劳/力学性能。",
-        "why_not_core": "This paper does not concern additive manufactured Ti-6Al-4V; it uses conventional Ti-6Al-4V alloy and focuses on corrosion resistance rather than fatigue/mechanical performance.",
+        "relevance_to_user": "该论文涉及Ti6Al4V合金的涂层处理，但未关注增材制造Ti-6Al-4V的疲劳或力学性能，且未涉及后处理对机械性能的影响。",
+        "why_not_core": "Not about additively manufactured Ti-6Al-4V; focus on corrosion resistance of coated wrought Ti6Al4V, not mechanical performance or fatigue; no post-processing for fatigue enhancement.",
         "validation_kind": "in_vitro",
         "flags": {
           "has_experimental_validation": true,
@@ -75,25 +75,22 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
-          "hydroxyapatite",
-          "titania",
-          "coating",
-          "electrophoretic deposition",
+          "hydroxyapatite-titania coating",
           "corrosion resistance",
-          "machining waste"
+          "Ti6Al4V",
+          "electrophoretic deposition"
         ],
         "summary_zh": {
-          "motivation": "回收Ti6Al4V机加工碎屑制备涂层以提高植入体耐腐蚀性",
-          "method": "溶胶-凝胶合成HA，球磨制纳米粉，EPD沉积HA-TiO2涂层并真空烧结",
-          "result": "涂层显著提升耐腐蚀性，30wt%HA涂层性能最优",
-          "validation": "SEM、XRD、EIS和极化曲线在模拟体液中验证"
+          "motivation": "回收钛加工废料制备生物相容涂层，提高Ti6Al4V植入物的耐腐蚀性。",
+          "method": "溶胶-凝胶合成羟基磷灰石，球磨回收钛屑，电泳沉积HA-TiO2复合涂层，真空烧结。",
+          "result": "含30wt% HA的涂层在模拟体液中耐腐蚀性能最佳。",
+          "validation": "通过SEM、XRD、EIS和极化曲线进行微观结构和电化学表征。"
         },
         "summary_en": {
-          "motivation": "Recycle Ti6Al4V machining chips to fabricate biocompatible coatings for improved corrosion protection of metallic implants.",
-          "method": "HA synthesized via sol-gel, nanopowder from ball-milled chips, composite coatings deposited by electrophoretic deposition at 45 V for 90 s, then vacuum-sintered at 1100 °C for 4 h.",
-          "result": "All coated samples showed superior corrosion resistance compared to uncoated Ti6Al4V, with the 30 wt% HA coating exhibiting the highest performance due to uniform phase distribution.",
-          "validation": "Microstructural and electrochemical characterization (SEM, XRD, EIS, polarization) in simulated body fluid."
+          "motivation": "To develop a sustainable and cost-effective biocompatible coating for Ti6Al4V implants by recycling titanium machining waste.",
+          "method": "Hydroxyapatite was synthesized via sol-gel, titanium chips were ball-milled into nanopowder, and HA-TiO2 composite coatings were deposited by electrophoretic deposition at 45 V for 90 s, followed by vacuum sintering at 1100 °C.",
+          "result": "The coating with 30 wt% HA exhibited the highest corrosion resistance in simulated body fluid due to uniform phase distribution.",
+          "validation": "Microstructure and corrosion performance were validated using SEM, XRD, EIS, and polarization testing in simulated body fluid."
         },
         "key_terms": [
           {
@@ -109,48 +106,161 @@
             "zh": "电泳沉积"
           },
           {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V合金"
-          },
-          {
             "en": "corrosion resistance",
             "zh": "耐腐蚀性"
           },
           {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
+          },
+          {
             "en": "machining waste",
-            "zh": "机加工废屑"
-          },
-          {
-            "en": "implant coating",
-            "zh": "植入体涂层"
-          },
-          {
-            "en": "vacuum sintering",
-            "zh": "真空烧结"
+            "zh": "加工废料"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7160100031",
+      "doi": "10.1007/s40964-026-01689-6",
+      "title": "Thermal dynamics in direct laser metal deposition of Ti-6Al-4V: comparative study of linear and trochoidal path strategies",
+      "abstract": "Abstract Direct laser metal deposition is a versatile additive manufacturing technique known for its ability to fabricate complex geometries with high precision. However, the thermal history during deposition can significantly influence the microstructure, distortions, and mechanical properties of the final product. This study investigates the influence of scanning path strategies, namely linear bidirectional (conventional), flattened trochoidal (fully circular), and adaptive trochoidal (semi-circular), on the thermal dynamics and resulting material characteristics in direct laser metal deposition (DLMD) of Ti-6Al-4V alloy. Using infrared thermal imaging, detailed comparisons were made of the thermal history, cooling rates, and spatial heat distribution at different scan speeds (100, 250, and 400 mm/min). Results revealed that the adaptive trochoidal path produced the most thermally balanced behaviour, with up to 18% lower peak temperatures and 25–30% lower temperature fluctuation range compared to the linear bidirectional strategy. Cooling rate analysis showed that adaptive trochoidal scanning maintained a more gradual cooling slope, especially at the middle point. Microstructural examination confirmed a finer grain structure in trochoidal paths, particularly adaptive ones, correlating with a 10–15% increase in microhardness compared to linear scanning. The study highlights how path shape optimization can significantly improve thermal management and enhance mechanical performance in DLMD applications, providing valuable insights for the design of complex geometries in additive manufacturing.",
+      "authors": [
+        "Abdul Hamid Ahmad",
+        "Mohd Azlan Suhaimi",
+        "Jailani Jamaludin",
+        "Safian Sharif"
+      ],
+      "first_author_affiliation": "Department of Materials, Manufacturing & Industrial Engineering, Faculty of Mechanical Engineering, Universiti Teknologi Malaysia, Johor Bahru 81310, Johor, Malaysia",
+      "corresponding_authors": [
+        {
+          "name": "Abdul Hamid Ahmad",
+          "affiliation": "Department of Materials, Manufacturing & Industrial Engineering, Faculty of Mechanical Engineering, Universiti Teknologi Malaysia, Johor Bahru 81310, Johor, Malaysia"
+        }
+      ],
+      "venue": "Progress in Additive Manufacturing",
+      "year": 2026,
+      "date": "2026-05-04",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40964-026-01689-6",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Thermal",
+        "Deposition (geology)",
+        "Thermocouple",
+        "Laser",
+        "Thermography",
+        "Indentation hardness",
+        "Path (computing)",
+        "Composite material",
+        "Mechanical engineering",
+        "Thermal analysis",
+        "Range (aeronautics)",
+        "Mechanics"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "本文研究了激光直接金属沉积Ti-6Al-4V的路径策略对热历史和显微硬度的影响，但与疲劳性能无直接关联。",
+        "why_not_core": "Does not report tensile strength, yield strength, elongation, or fatigue life; only microhardness and microstructure.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "direct laser metal deposition",
+          "Ti-6Al-4V",
+          "scanning path strategies",
+          "thermal dynamics",
+          "microhardness",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "探明扫描路径策略对DLMD Ti-6Al-4V热动力学的调控作用",
+          "method": "利用红外热成像比较线性、全圆形和半圆形路径在不同扫描速度下的热历史与冷却速率",
+          "result": "自适应圆形路径使峰值温度降低18%，显微硬度提高10-15%",
+          "validation": "通过热成像、金相和显微硬度实验验证"
+        },
+        "summary_en": {
+          "motivation": "This study investigates how scanning path strategies influence thermal dynamics during DLMD of Ti-6Al-4V to improve mechanical performance.",
+          "method": "Infrared thermal imaging was used to compare linear bidirectional, flattened trochoidal, and adaptive trochoidal paths at various scan speeds.",
+          "result": "The adaptive trochoidal path reduced peak temperatures by 18% and increased microhardness by 10-15% compared to linear scanning.",
+          "validation": "Validation was performed via in-situ thermal imaging, microstructural analysis, and microhardness testing."
+        },
+        "key_terms": [
+          {
+            "en": "direct laser metal deposition",
+            "zh": "直接激光金属沉积"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "scanning path strategies",
+            "zh": "扫描路径策略"
+          },
+          {
+            "en": "thermal dynamics",
+            "zh": "热动力学"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:54:38Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 1,
+      "Medium": 1
     }
   }
 }

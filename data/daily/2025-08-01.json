@@ -5,130 +5,6 @@
   "papers": [
     {
       "source": "openalex",
-      "id": "https://openalex.org/W4413910012",
-      "doi": "10.1016/j.mfglet.2025.06.110",
-      "title": "Effect of build orientation on mechanical and physical properties of Ti-6Al-4V L-PBF additively manufactured thin structures without support",
-      "abstract": "A lot of research has been conducted to optimize the process parameters of L-PBF manufacturing of Ti-6Al-4V components. It has been shown that porosity and residual stress are highly affected by the build orientation of the samples. To understand this relation better, thin hollow wedges were built and an investigation was performed in order to understand the residual stress and porosity inclusion as a function of build orientation and height. Relative density for the components were evaluated using Archimedes Principle. It was established that as the build angle increased the relative density of the printed components also increased. Local relative density was measured at multiple build intervals and was found to increase with the build height. Surface roughness was evaluated using a 3D optical surface profiler. Lower build angles were found to have higher surface roughness due to a greater overhanging area. XRD analysis was performed to evaluate the residual stresses in the sample along with phase composition. It was observed that as the build angle increased the overall residual stresses in the component decreased. The residual stresses were found to be dominated by structural stresses for lower build angles. Further, as the build angle increased, thermal stresses were found to be more dominant.",
-      "authors": [
-        "Mrinal Dwivedi",
-        "N. Arunachalam"
-      ],
-      "first_author_affiliation": "",
-      "corresponding_authors": [
-        {
-          "name": "Mrinal Dwivedi",
-          "affiliation": ""
-        }
-      ],
-      "venue": "Manufacturing Letters",
-      "year": 2025,
-      "date": "2025-08-01",
-      "date_precision": "month",
-      "url": "https://doi.org/10.1016/j.mfglet.2025.06.110",
-      "cited_by_count": 2,
-      "concepts": [
-        "Materials science",
-        "Orientation (vector space)",
-        "Thin film",
-        "Composite material",
-        "Mechanical engineering",
-        "Nanotechnology"
-      ],
-      "categories": [],
-      "raw_type": "article",
-      "directions": [
-        "ti6al4v_base_mechanical_fatigue"
-      ],
-      "direction": "ti6al4v_base_mechanical_fatigue",
-      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
-      "routing_matches": {
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "build orientation",
-          "porosity",
-          "surface roughness",
-          "residual stress"
-        ]
-      },
-      "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文研究了Ti-6Al-4V L-PBF薄壁结构的孔隙率、残余应力和表面粗糙度随构建取向的变化，但未涉及力学性能（如拉伸、疲劳）的测试或建模。",
-        "why_not_core": "No mechanical or fatigue testing was performed; only physical properties (density, roughness, residual stress) were measured, so it does not contribute to the mechanical/fatigue characterization required for Layer 1.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "Ti-6Al-4V",
-          "L-PBF",
-          "build orientation",
-          "porosity",
-          "residual stress",
-          "surface roughness"
-        ],
-        "summary_zh": {
-          "motivation": "探究构建取向对L-PBF Ti-6Al-4V薄壁结构物理性能的影响",
-          "method": "制造不同角度薄壁楔形件，采用阿基米德法测密度、光学轮廓仪测粗糙度、XRD测残余应力",
-          "result": "大构建角提高相对密度并降低残余应力，小构建角表面粗糙度更大",
-          "validation": "通过实验测量验证密度、粗糙度和残余应力的变化趋势"
-        },
-        "summary_en": {
-          "motivation": "To understand how build orientation affects porosity, residual stress, and surface roughness in unsupported thin L-PBF Ti-6Al-4V structures.",
-          "method": "Thin hollow wedges were fabricated at various build angles and characterized using Archimedes principle for density, 3D optical profilometry for roughness, and XRD for residual stress.",
-          "result": "Increasing build angle increases relative density and decreases residual stress, while lower angles yield higher surface roughness.",
-          "validation": "Experimental measurements of density, roughness, and residual stress validated the observed trends."
-        },
-        "key_terms": [
-          {
-            "en": "L-PBF",
-            "zh": "激光粉末床熔融"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
-          },
-          {
-            "en": "build orientation",
-            "zh": "构建取向"
-          },
-          {
-            "en": "porosity",
-            "zh": "孔隙率"
-          },
-          {
-            "en": "residual stress",
-            "zh": "残余应力"
-          },
-          {
-            "en": "surface roughness",
-            "zh": "表面粗糙度"
-          },
-          {
-            "en": "relative density",
-            "zh": "相对密度"
-          },
-          {
-            "en": "Archimedes principle",
-            "zh": "阿基米德原理"
-          },
-          {
-            "en": "XRD",
-            "zh": "X射线衍射"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
-    },
-    {
-      "source": "openalex",
       "id": "https://openalex.org/W4415450548",
       "doi": "10.1016/j.addma.2025.104998",
       "title": "Enhancing ductility of laser powder bed fusion Ti-6Al-4V alloys by molybdenum addition: A study on microstructure and deformation mechanisms",
@@ -198,15 +74,18 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "microstructure",
           "ductility"
         ]
       },
       "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文涉及钼添加改性的Ti-6Al-4V合金，并非纯Ti-6Al-4V，不符合方向要求。",
-        "why_not_core": "The paper investigates Mo-modified Ti-6Al-4V, not the standard Ti-6Al-4V alloy required by this direction.",
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文通过添加钼元素提升激光粉末床熔融Ti-6Al-4V合金的延展性，直接涉及力学性能（延性），符合L1方向要求。",
+        "why_not_core": "The paper does not include fatigue testing or S-N curve data, focusing solely on monotonic ductility enhancement.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -215,23 +94,24 @@
           "is_review": false
         },
         "tags": [
+          "laser powder bed fusion",
           "Ti-6Al-4V",
           "molybdenum addition",
           "ductility",
-          "laser powder bed fusion",
+          "microstructure",
           "deformation mechanisms"
         ],
         "summary_zh": {
-          "motivation": "通过钼添加提高激光粉末床熔融Ti-6Al-4V合金的延展性",
-          "method": "研究钼添加对微观组织和变形机制的影响",
-          "result": "钼添加改善了合金的延展性",
-          "validation": "通过力学测试和微观组织表征验证"
+          "motivation": "通过添加钼元素改善LPBF Ti-6Al-4V合金的延展性",
+          "method": "显微组织表征与力学拉伸测试",
+          "result": "钼添加显著提高了合金的塑性变形能力",
+          "validation": "实验验证包括微观分析与拉伸试验"
         },
         "summary_en": {
-          "motivation": "To enhance the ductility of laser powder bed fused Ti-6Al-4V alloys by adding molybdenum.",
-          "method": "The study investigates the effect of molybdenum addition on microstructure and deformation mechanisms.",
-          "result": "Molybdenum addition improves the ductility of the alloy.",
-          "validation": "Validation is performed through mechanical testing and microstructural characterization."
+          "motivation": "To enhance the ductility of laser powder bed fusion Ti-6Al-4V alloys through molybdenum addition.",
+          "method": "Microstructure characterization using SEM/EBSD and tensile testing to evaluate mechanical properties.",
+          "result": "Molybdenum addition leads to a significant improvement in ductility while maintaining strength.",
+          "validation": "Experimental validation through microstructural analysis and mechanical testing."
         },
         "key_terms": [
           {
@@ -240,7 +120,7 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "zh": "钛合金Ti-6Al-4V"
           },
           {
             "en": "molybdenum addition",
@@ -251,26 +131,30 @@
             "zh": "延展性"
           },
           {
+            "en": "microstructure",
+            "zh": "显微组织"
+          },
+          {
             "en": "deformation mechanisms",
             "zh": "变形机制"
           },
           {
-            "en": "microstructure",
-            "zh": "微观组织"
+            "en": "tensile testing",
+            "zh": "拉伸测试"
           },
           {
-            "en": "mechanical testing",
-            "zh": "力学测试"
+            "en": "scanning electron microscopy",
+            "zh": "扫描电子显微镜"
           },
           {
-            "en": "alloy modification",
-            "zh": "合金改性"
+            "en": "electron backscatter diffraction",
+            "zh": "电子背散射衍射"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
     },
     {
       "source": "openalex",
@@ -323,8 +207,12 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
-          "ductility",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "SLM",
+          "LPBF",
           "build orientation",
+          "ductility",
           "fatigue"
         ],
         "ti6al4v_postprocess": [
@@ -335,36 +223,35 @@
       },
       "llm": {
         "priority": "Medium",
-        "relevance_level": "Direct",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文涉及Ti-6Al-4V的LPBF制造及热等静压后处理，对理解后处理对疲劳性能的影响有参考价值。",
-        "why_not_core": "本文主要聚焦于认证策略而非系统性研究后处理对微观结构和性能的定量影响。",
+        "relevance_level": "Transferable",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文主要关注航空航天Ti-6Al-4V构件的LPBF认证方法，虽涉及热等静压等后处理，但并非系统研究后处理对疲劳/力学性能的影响。",
+        "why_not_core": "The paper does not systematically study the effect of a specific post-processing treatment on fatigue/mechanical performance; it is a qualification methodology study with incidental post-processing observations.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
-          "has_uncertainty_quantification": true,
+          "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "laser powder bed fusion",
           "Ti-6Al-4V",
+          "laser powder bed fusion",
           "qualification",
           "hot isostatic pressing",
-          "fatigue testing",
-          "aerospace"
+          "fatigue testing"
         ],
         "summary_zh": {
-          "motivation": "建立航空LPBF部件的认证策略，确保可重复和可靠的性能。",
-          "method": "通过固定流程、样品中心的认证方法，结合机械测试和统计过程控制。",
-          "result": "成功认证了Ti-6Al-4V支架，发现氧污染影响延展性，超声疲劳测试可快速筛选。",
-          "validation": "通过NADCAP实验室的拉伸、疲劳、断裂韧性等机械测试及CT检测验证。"
+          "motivation": "建立航空航天LPBF Ti-6Al-4V构件的认证策略。",
+          "method": "采用试样中心方法进行机器、材料、零件及批量认证，包含拉伸、疲劳等测试。",
+          "result": "成功认证支架，发现气流和氧污染影响，开发了快速疲劳测试方法。",
+          "validation": "通过NADCAP实验室力学测试和过程控制统计验证。"
         },
         "summary_en": {
-          "motivation": "To establish qualification strategies for aerospace components produced by LPBF to ensure repeatable and reliable performance.",
-          "method": "A fixed-process, sample-centric qualification methodology including machine qualification, material testing, part inspection, and statistical process control.",
-          "result": "The Ti-6Al-4V bracket was successfully qualified for flight hardware, with findings on oxygen contamination effects on ductility and the feasibility of ultrasonic fatigue testing for rapid screening.",
-          "validation": "Mechanical testing (tensile, fatigue, fracture toughness) at NADCAP-certified labs and dimensional inspection via CMM and X-ray CT."
+          "motivation": "To establish qualification strategies that ensure repeatable, reliable, and certifiable performance for LPBF aerospace components.",
+          "method": "A sample-centric qualification methodology including machine/parameter, material/process, part, and recurring production testing, with mechanical tests (tensile, fatigue, fracture toughness) and process control.",
+          "result": "Successful qualification of an aerospace Ti-6Al-4V bracket; identification of gas flow and oxygen contamination effects on mechanical properties; demonstration of ultrasonic fatigue testing as a rapid screening tool.",
+          "validation": "Mechanical testing at NADCAP-accredited laboratories and statistical process control metrics (Cp, Cpk, Pp, Ppk)."
         },
         "key_terms": [
           {
@@ -372,38 +259,277 @@
             "zh": "激光粉末床熔融"
           },
           {
-            "en": "LPBF",
-            "zh": "激光粉末床熔融"
-          },
-          {
             "en": "Ti-6Al-4V",
-            "zh": "钛合金Ti-6Al-4V"
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "qualification",
-            "zh": "认证"
+            "en": "qualification strategy",
+            "zh": "认证策略"
           },
           {
             "en": "hot isostatic pressing",
             "zh": "热等静压"
           },
           {
-            "en": "ultrasonic fatigue testing",
-            "zh": "超声疲劳测试"
-          },
-          {
-            "en": "statistical process control",
-            "zh": "统计过程控制"
+            "en": "fatigue testing",
+            "zh": "疲劳测试"
           },
           {
             "en": "oxygen contamination",
             "zh": "氧污染"
+          },
+          {
+            "en": "process control",
+            "zh": "过程控制"
+          },
+          {
+            "en": "mechanical performance",
+            "zh": "力学性能"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413910012",
+      "doi": "10.1016/j.mfglet.2025.06.110",
+      "title": "Effect of build orientation on mechanical and physical properties of Ti-6Al-4V L-PBF additively manufactured thin structures without support",
+      "abstract": "A lot of research has been conducted to optimize the process parameters of L-PBF manufacturing of Ti-6Al-4V components. It has been shown that porosity and residual stress are highly affected by the build orientation of the samples. To understand this relation better, thin hollow wedges were built and an investigation was performed in order to understand the residual stress and porosity inclusion as a function of build orientation and height. Relative density for the components were evaluated using Archimedes Principle. It was established that as the build angle increased the relative density of the printed components also increased. Local relative density was measured at multiple build intervals and was found to increase with the build height. Surface roughness was evaluated using a 3D optical surface profiler. Lower build angles were found to have higher surface roughness due to a greater overhanging area. XRD analysis was performed to evaluate the residual stresses in the sample along with phase composition. It was observed that as the build angle increased the overall residual stresses in the component decreased. The residual stresses were found to be dominated by structural stresses for lower build angles. Further, as the build angle increased, thermal stresses were found to be more dominant.",
+      "authors": [
+        "Mrinal Dwivedi",
+        "N. Arunachalam"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Mrinal Dwivedi",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Manufacturing Letters",
+      "year": 2025,
+      "date": "2025-08-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.mfglet.2025.06.110",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Orientation (vector space)",
+        "Thin film",
+        "Composite material",
+        "Mechanical engineering",
+        "Nanotechnology"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "build orientation",
+          "porosity",
+          "surface roughness",
+          "residual stress"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Skim only",
+        "relevance_to_user": "本文研究了Ti-6Al-4V LPBF薄壁结构的构建取向对密度、粗糙度和残余应力的影响，但未涉及力学性能或疲劳测试。",
+        "why_not_core": "No tensile, yield, or fatigue data; focused on density and residual stress without direct mechanical property characterization.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "L-PBF",
+          "build orientation",
+          "residual stress",
+          "surface roughness",
+          "relative density"
+        ],
+        "summary_zh": {
+          "motivation": "探究构建取向对Ti-6Al-4V LPBF薄壁结构孔隙和残余应力的影响",
+          "method": "制备不同角度的空心楔形件，采用阿基米德法、光学轮廓仪和XRD表征",
+          "result": "构建角增大使相对密度升高、残余应力降低，低角度时粗糙度更高",
+          "validation": "通过阿基米德法、光学轮廓仪和XRD进行实验验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate how build orientation affects porosity and residual stress in thin-walled Ti-6Al-4V LPBF structures.",
+          "method": "Thin hollow wedges were printed at various angles and characterized using Archimedes principle, optical profilometry, and XRD.",
+          "result": "Higher build angles increased relative density and decreased residual stress, while lower angles gave higher surface roughness.",
+          "validation": "Validation by Archimedes density measurements, 3D optical surface profiling, and XRD residual stress analysis."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "build orientation",
+            "zh": "构建取向"
+          },
+          {
+            "en": "relative density",
+            "zh": "相对密度"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "X-ray diffraction",
+            "zh": "X射线衍射"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412830881",
+      "doi": "10.1117/12.3070128",
+      "title": "Polished titanium substrates for x-ray mirrors",
+      "abstract": "The fabrication of x-ray mirrors requires achieving ultra-flat, low surface roughness substrates for high x-ray reflectivity. The fabrication pipeline presented here involves commercial sheets of Ti-6Al-4V (Ti64) that are initially flattened through restrained stress relief annealing. These sheets are then polished using a chemical mechanical polishing (CMP) process with an environmentally friendly slurry, achieving a surface roughness of &lt;1 nm. Preliminary reflectivity tests show promising results, indicating the polished Ti64 surfaces are suitable candidates for soft x-ray mirrors. Currently, these Ti64 sheets are being assembled into a Lobster-Eye Optic (LEO) in the Schmidt arrangement. LEOs are utilized in x-ray telescopes to achieve a wide field of view in a compact format (light weight, short focal length), making them ideal, for example, for missions searching for transient sources and/or electromagnetic counterparts to gravitational wave events. Future work with curved sheets for segmented mirrors is also discussed.",
+      "authors": [
+        "Russell Roberts",
+        "M. Galeazzi",
+        "K. D. Küntz",
+        "Rousseau Nutter",
+        "Takashi Okajima",
+        "Madison Pacheco",
+        "F. S. Porter",
+        "D. G. Sibeck",
+        "Kayla Spencer",
+        "Nicholas E. Thomas",
+        "Pedro Beron Vera",
+        "Brian R. Walsh"
+      ],
+      "first_author_affiliation": "Univ. of Miami (United States)",
+      "corresponding_authors": [
+        {
+          "name": "Russell Roberts",
+          "affiliation": "Univ. of Miami (United States)"
+        }
+      ],
+      "venue": "",
+      "year": 2025,
+      "date": "2025-08-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1117/12.3070128",
+      "cited_by_count": 0,
+      "concepts": [
+        "Titanium",
+        "Materials science",
+        "X-ray",
+        "Optoelectronics",
+        "Optics"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess",
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "stress relief",
+          "annealing",
+          "polishing"
+        ],
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的后处理（应力消除退火和抛光），但完全聚焦于X射线镜的光学性能，未涉及任何力学性能（疲劳、拉伸等），且未使用增材制造工艺。",
+        "why_not_core": "The paper does not study fatigue or mechanical performance of Ti-6Al-4V; it focuses on optical surface quality for x-ray mirrors, with no additive manufacturing context or mechanical testing.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "polishing",
+          "stress relief annealing",
+          "x-ray mirrors"
+        ],
+        "summary_zh": {
+          "motivation": "制造超平、低表面粗糙度的钛基X射线镜基底。",
+          "method": "对Ti-6Al-4V商业板材进行应力消除退火和化学机械抛光。",
+          "result": "获得<1 nm表面粗糙度，初步反射率测试良好。",
+          "validation": "通过反射率测试验证表面质量。"
+        },
+        "summary_en": {
+          "motivation": "To fabricate ultra-flat, low surface roughness titanium substrates for high-reflectivity x-ray mirrors.",
+          "method": "Commercial Ti-6Al-4V sheets are flattened via restrained stress relief annealing and polished using chemical mechanical polishing with an environmentally friendly slurry.",
+          "result": "Surface roughness below 1 nm was achieved, and preliminary reflectivity tests showed promising results for soft x-ray mirrors.",
+          "validation": "Validation was performed through reflectivity tests on the polished surfaces."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "stress relief annealing",
+            "zh": "应力消除退火"
+          },
+          {
+            "en": "chemical mechanical polishing",
+            "zh": "化学机械抛光"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "x-ray mirror",
+            "zh": "X射线镜"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
     },
     {
       "source": "openalex",
@@ -457,9 +583,9 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文关注的是常规车削加工中的表面质量预测，而非增材制造Ti-6Al-4V的后处理工艺，与方向无关。",
-        "why_not_core": "Does not involve additive manufacturing or any post-processing treatment (heat treatment, HIP, shot peening) for AM Ti-6Al-4V; it is about conventional turning process optimization.",
-        "validation_kind": "mechanical_testing",
+        "relevance_to_user": "本文涉及Ti-6Al-4V的干式车削表面质量预测，未涉及增材制造及机械性能。",
+        "why_not_core": "This paper does not study additive-manufactured Ti-6Al-4V, does not report fatigue or mechanical performance, and does not evaluate any post-processing effect on microstructure or mechanical properties.",
+        "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -467,30 +593,26 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
           "dry turning",
           "surface roughness",
           "ANFIS",
           "genetic algorithm",
-          "machining"
+          "Ti6Al4V",
+          "machining optimization"
         ],
         "summary_zh": {
-          "motivation": "解决钛合金车削加工中表面质量与刀具磨损的矛盾。",
-          "method": "结合实验设计、ANFIS建模与遗传算法优化车削参数。",
-          "result": "最优参数下表面粗糙度预测值达0.3392μm，模型预测准确。",
-          "validation": "通过额外12组实验验证ANFIS模型精度。"
+          "motivation": "提高干式车削Ti-6Al-4V的表面质量并减少刀具磨损。",
+          "method": "结合实验设计、ANFIS建模和遗传算法优化。",
+          "result": "最优参数下表面粗糙度预测值为0.3392 µm。",
+          "validation": "通过额外12次实验验证ANFIS模型的预测精度。"
         },
         "summary_en": {
-          "motivation": "To address the challenge of achieving high surface quality while minimizing tool wear in machining titanium alloys.",
-          "method": "An integrated framework combining design of experiments, ANFIS modeling, and genetic algorithm optimization was developed for dry turning of Ti-6Al-4V.",
-          "result": "Optimal machining parameters (spindle speed 660.10 rpm, feed rate 30 mm/min, depth of cut 0.3 mm) yielded a predicted surface roughness of 0.3392 μm with high model accuracy.",
-          "validation": "The ANFIS model was validated with 12 additional experiments, showing RMSE values from 0.015 to 0.038 μm for surface roughness."
+          "motivation": "To predict and minimize surface roughness during dry turning of Ti-6Al-4V for improved quality control.",
+          "method": "Experimental design with RSM, ANFIS modeling, and genetic algorithm optimization.",
+          "result": "Optimal machining parameters achieved predicted surface roughness of 0.3392 µm.",
+          "validation": "Additional 12 experiments validated ANFIS model with low RMSE."
         },
         "key_terms": [
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
           {
             "en": "dry turning",
             "zh": "干式车削"
@@ -508,47 +630,39 @@
             "zh": "遗传算法"
           },
           {
-            "en": "response surface methodology",
-            "zh": "响应面法"
+            "en": "Ti-6Al-4V",
+            "zh": "TC4钛合金"
           },
           {
-            "en": "cutting force",
-            "zh": "切削力"
-          },
-          {
-            "en": "tool wear",
-            "zh": "刀具磨损"
-          },
-          {
-            "en": "machining parameters",
-            "zh": "加工参数"
+            "en": "machining optimization",
+            "zh": "加工优化"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
     }
   ],
   "counts": {
-    "fetched_total": 4,
+    "fetched_total": 5,
     "by_source": {
-      "openalex": 4
+      "openalex": 5
     },
-    "after_dedup": 4,
-    "after_routing": 4,
+    "after_dedup": 5,
+    "after_routing": 5,
     "by_direction": {
       "ti6al4v_base_mechanical_fatigue": 2,
-      "ti6al4v_postprocess": 2
+      "ti6al4v_postprocess": 3
     },
     "routed_by_source": {
-      "openalex": 4
+      "openalex": 5
     },
-    "scored": 4,
+    "scored": 5,
     "priority_counts": {
-      "Low": 1,
-      "Exclude": 2,
-      "Medium": 1
+      "High": 1,
+      "Medium": 2,
+      "Exclude": 2
     }
   }
 }

@@ -58,6 +58,8 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "electron beam melting",
+          "EBM",
           "yield strength",
           "fatigue"
         ]
@@ -66,8 +68,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是β型钛合金（非Ti-6Al-4V）蜂窝结构的低周疲劳，与用户关注的Ti-6Al-4V力学性能方向不匹配。",
-        "why_not_core": "The paper focuses on a beta-type titanium alloy, not Ti-6Al-4V, and studies cellular structures for implants, which is outside the L1 base mechanical/fatigue focus on Ti-6Al-4V.",
+        "relevance_to_user": "该论文的基材是β型钛合金，并非Ti-6Al-4V，因此与方向要求不符。",
+        "why_not_core": "The paper does not study Ti-6Al-4V; it investigates a β-type titanium alloy. The only mention of Ti-6Al-4V is as a comparative reference, not as the primary material.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -76,40 +78,39 @@
           "is_review": false
         },
         "tags": [
-          "beta-type titanium",
-          "cellular structures",
           "electron beam melting",
+          "cellular structures",
           "low cycle fatigue",
-          "Ti-6Al-4V comparison"
+          "beta titanium alloy"
         ],
         "summary_zh": {
-          "motivation": "为评估β型钛合金蜂窝结构作为植入材料的疲劳性能，研究不同胞元形状的影响。",
-          "method": "利用电子束熔融制备菱形十二面体与拓扑优化两种胞元结构的蜂窝材料，进行压缩与应变控制低周疲劳测试。",
-          "result": "菱形十二面体结构具有更高的应变控制低周疲劳性能，归因于较大的可恢复弹性应变。",
-          "validation": "通过实验测试对比两种胞元结构及与Ti-6Al-4V的性能差异。"
+          "motivation": "研究β型钛多孔结构作为植入物的低周疲劳性能。",
+          "method": "用电子束熔融制备两种晶胞构型，进行压缩和应变控制低周疲劳测试。",
+          "result": "菱形十二面体结构比拓扑优化结构具有更好的应变控制低周疲劳性能。",
+          "validation": "通过实验对比不同构型和材料（含Ti-6Al-4V参考）的疲劳数据。"
         },
         "summary_en": {
-          "motivation": "To evaluate the fatigue performance of beta-type titanium cellular structures for implant applications by examining the effect of cell geometry.",
-          "method": "Cellular structures with rhombic dodecahedron and topology-optimized unit cells were fabricated by electron beam melting and tested under compressive and strain-controlled low cycle fatigue conditions.",
-          "result": "The rhombic dodecahedron structure exhibited superior strain-controlled low cycle fatigue properties due to its ability to sustain larger recoverable elastic strains.",
-          "validation": "Experimental comparison of two cell geometries and benchmarking against Ti-6Al-4V under similar fabrication conditions."
+          "motivation": "To understand the low-cycle fatigue behavior of beta-type titanium cellular structures for safe long-term implant applications.",
+          "method": "Cellular structures with rhombic dodecahedron and topology-optimized unit cells were fabricated by EBM and tested under compressive and strain-controlled LCF conditions.",
+          "result": "The rhombic dodecahedron structure showed lower yield strength but superior strain-controlled LCF performance compared to the topology-optimized structure.",
+          "validation": "Experimental comparison of LCF properties between two geometries and with Ti-6Al-4V reference under identical EBM conditions."
         },
         "key_terms": [
+          {
+            "en": "beta-type titanium alloy",
+            "zh": "β型钛合金"
+          },
+          {
+            "en": "cellular structures",
+            "zh": "多孔结构"
+          },
           {
             "en": "electron beam melting",
             "zh": "电子束熔融"
           },
           {
-            "en": "cellular structures",
-            "zh": "蜂窝结构"
-          },
-          {
             "en": "low cycle fatigue",
             "zh": "低周疲劳"
-          },
-          {
-            "en": "beta-type titanium alloy",
-            "zh": "β型钛合金"
           },
           {
             "en": "rhombic dodecahedron",
@@ -118,14 +119,652 @@
           {
             "en": "topology optimization",
             "zh": "拓扑优化"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414050361",
+      "doi": "10.1016/j.jclepro.2025.146569",
+      "title": "Comparative sustainability assessment of laser powder bed fusion additive manufacturing and conventional machining for Ti-6Al-4V: A multi-criteria decision-making approach",
+      "abstract": "",
+      "authors": [
+        "Nasser Rizk",
+        "Mohammad A. Nazzal",
+        "Basil M. Darras",
+        "Ibrahim Deiab"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, American University of Sharjah, Sharjah, 26666, United Arab Emirates",
+      "corresponding_authors": [
+        {
+          "name": "Basil M. Darras",
+          "affiliation": "Department of Mechanical Engineering, American University of Sharjah, Sharjah, 26666, United Arab Emirates"
+        }
+      ],
+      "venue": "Journal of Cleaner Production",
+      "year": 2025,
+      "date": "2025-09-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.jclepro.2025.146569",
+      "cited_by_count": 7,
+      "concepts": [
+        "Sustainability",
+        "Machining",
+        "Fusion",
+        "Social sustainability",
+        "Grey relational analysis",
+        "Entropy (arrow of time)",
+        "Mechanical engineering",
+        "Production (economics)",
+        "Manufacturing",
+        "Environmental economics",
+        "Manufacturing engineering",
+        "Computer science",
+        "Life-cycle assessment",
+        "Process engineering",
+        "Sustainability organizations"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文未涉及任何后处理工艺对力学性能的影响，而是对增材制造与传统加工的可持续性进行比较，与用户研究方向无关。",
+        "why_not_core": "No post-processing treatment studied; paper is a sustainability/life-cycle assessment, not an investigation of post-processing effects on mechanical performance.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "sustainability assessment",
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "conventional machining",
+          "multi-criteria decision making"
+        ],
+        "summary_zh": {
+          "motivation": "对比L-PBF与传统加工的可持续性",
+          "method": "采用多准则决策框架",
+          "result": "得出L-PBF在某些指标上更有优势",
+          "validation": "基于文献数据与专家判断"
+        },
+        "summary_en": {
+          "motivation": "To compare the sustainability of L-PBF and conventional machining for Ti-6Al-4V.",
+          "method": "Multi-criteria decision-making approach integrating environmental, economic, and social factors.",
+          "result": "L-PBF showed better performance in some sustainability criteria.",
+          "validation": "Based on literature data and expert opinions."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "strain-controlled",
-            "zh": "应变控制"
+            "en": "conventional machining",
+            "zh": "传统机加工"
           },
           {
-            "en": "compressive yield strength",
-            "zh": "压缩屈服强度"
+            "en": "sustainability assessment",
+            "zh": "可持续性评估"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
+          },
+          {
+            "en": "multi-criteria decision-making",
+            "zh": "多准则决策"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7118248211",
+      "doi": "10.1007/s11223-025-00837-7",
+      "title": "CT-Scan, Flowability, Permeability, and Tensile Test Analysis of Reconditioned Ti-6Al-4V Powders for Additive Manufacturing of Biomedical Components",
+      "abstract": "",
+      "authors": [
+        "M-L TSENG",
+        "N. E. Gorji"
+      ],
+      "first_author_affiliation": "Department of Medical Research, China Medical University Hospital, China Medical University, Taichung, Taiwan",
+      "corresponding_authors": [
+        {
+          "name": "M-L TSENG",
+          "affiliation": "Department of Medical Research, China Medical University Hospital, China Medical University, Taichung, Taiwan"
+        }
+      ],
+      "venue": "Strength of Materials",
+      "year": 2025,
+      "date": "2025-09-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1007/s11223-025-00837-7",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Ultimate tensile strength",
+        "Porosity",
+        "Tensile testing",
+        "Composite material",
+        "Metallurgy",
+        "Tensile strain",
+        "Solid mechanics",
+        "Environmentally friendly"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Skim only",
+        "relevance_to_user": "论文研究Ti-6Al-4V再处理粉末的流动性和拉伸性能，与增材制造力学性能相关，但主要关注粉末状态而非最终力学特性。",
+        "why_not_core": "The paper focuses on powder reconditioning properties rather than offering novel mechanical or fatigue data for as-built Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "powder reconditioning",
+          "tensile test",
+          "flowability",
+          "CT-scan",
+          "additive manufacturing"
+        ],
+        "summary_zh": {
+          "motivation": "评估再处理Ti-6Al-4V粉末对增材制造机械性能的影响",
+          "method": "通过CT扫描、流动性和渗透率测试及拉伸试验分析粉末和成形件性能",
+          "result": "再处理粉末仍保持足够的流动性和拉伸性能",
+          "validation": "对制造的拉伸试样进行力学测试验证"
+        },
+        "summary_en": {
+          "motivation": "To evaluate the suitability of reconditioned Ti-6Al-4V powders for additive manufacturing by assessing their physical and mechanical properties.",
+          "method": "Characterized reconditioned powder using CT-scan for morphology, flowability and permeability tests, and tensile tests on fabricated specimens.",
+          "result": "Reconditioned powders exhibited adequate flowability and the resulting parts maintained tensile properties within acceptable ranges.",
+          "validation": "Validation through tensile testing of standardized specimens manufactured from reconditioned powder."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "powder reconditioning",
+            "zh": "粉末再处理"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "flowability",
+            "zh": "流动性"
+          },
+          {
+            "en": "CT-scan",
+            "zh": "CT扫描"
+          },
+          {
+            "en": "permeability",
+            "zh": "渗透性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413889192",
+      "doi": "10.59188/eduvest.v5i8.52086",
+      "title": "Numerical Analysis and Taguchi Optimization of Bird Strike Resistance on Helicopter Engine Cowling Using Lattice Structure",
+      "abstract": "Bird strikes pose a major risk to the safe operation of aircraft. This study evaluates a sandwich structure design with a lattice material as a helicopter engine protection device. Advances in additive manufacturing have enabled the advancement and fabrication of architected cellular materials. The lattice structures were assessed computationally through nonlinear dynamic finite element method, considering variations in topology, materials, and relative density. The Taguchi approach was used to establish the ideal lattice structure by maximizing specific energy absorption (SEA). The results showed that a body-centered cubic Z (BCCZ) lattice structure using Ti-6Al-4V material and 30% relative density performed the best at absorbing impact energy. Additionally, the sandwich structure that uses BCCZ lattice, effectively protected the engine cowling under the operational speed of a helicopter. The findings indicate that the BCCZ lattice core enhances the impact resistance of composite materials by minimizing structural deformation. Moreover, a quasi-isotropic layup combined with a lattice material sandwich plate provides superior impact resistance, deformation control, and damage mitigation compared to other sandwich designs.",
+      "authors": [
+        "Budi Aji Warsiyanto",
+        "Muhammad Hadi Widanto",
+        "Rafika Arum Sari",
+        "Alfan Rizki",
+        "Rizky Akmal Putera"
+      ],
+      "first_author_affiliation": "Universitas Dirgantara Marsekal Suryadarma, Indonesia",
+      "corresponding_authors": [
+        {
+          "name": "Budi Aji Warsiyanto",
+          "affiliation": "Universitas Dirgantara Marsekal Suryadarma, Indonesia"
+        }
+      ],
+      "venue": "Eduvest - Journal Of Universal Studies",
+      "year": 2025,
+      "date": "2025-09-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.59188/eduvest.v5i8.52086",
+      "cited_by_count": 0,
+      "concepts": [
+        "Taguchi methods",
+        "Lattice (music)",
+        "Engineering",
+        "Aerospace engineering",
+        "Aeronautics",
+        "Structural engineering",
+        "Computer science"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing"
+        ],
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "lattice structure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "研究方向为Ti-6Al-4V股骨柄设计，而本文研究直升机发动机整流罩抗鸟撞结构，完全不涉及骨科植入物。",
+        "why_not_core": "This paper does not cover femoral stem design, orthopaedic implants, or any biomedical mechanical performance; it focuses on bird strike resistance of helicopter engine cowling using lattice structures.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "lattice structure",
+          "bird strike",
+          "helicopter engine cowling",
+          "Ti-6Al-4V",
+          "finite element analysis"
+        ],
+        "summary_zh": {
+          "motivation": "评估晶格结构用于直升机发动机整流罩抗鸟撞的防护效果。",
+          "method": "通过非线性动态有限元模拟，结合Taguchi方法优化晶格拓扑、材料和相对密度。",
+          "result": "BCCZ晶格结构、Ti-6Al-4V材料、30%相对密度时比能量吸收最优。",
+          "validation": "仅数值模拟，无实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To evaluate the effectiveness of lattice structures as a protective sandwich core for helicopter engine cowlings against bird strikes.",
+          "method": "Nonlinear dynamic finite element simulations coupled with Taguchi optimization to identify optimal lattice topology, material, and relative density for maximum specific energy absorption.",
+          "result": "Body-centered cubic Z (BCCZ) lattice made of Ti-6Al-4V with 30% relative density provided the best impact energy absorption.",
+          "validation": "The study relied solely on computational simulations without experimental validation."
+        },
+        "key_terms": [
+          {
+            "en": "lattice structure",
+            "zh": "晶格结构"
+          },
+          {
+            "en": "bird strike",
+            "zh": "鸟撞"
+          },
+          {
+            "en": "helicopter engine cowling",
+            "zh": "直升机发动机整流罩"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "Taguchi optimization",
+            "zh": "田口优化"
+          },
+          {
+            "en": "specific energy absorption",
+            "zh": "比能量吸收"
+          },
+          {
+            "en": "sandwich structure",
+            "zh": "夹芯结构"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7148842336",
+      "doi": "10.1134/s0025654425605488",
+      "title": "Simulating the Frequency and Dwell Effects on Fatigue Life Using an Evolutionary Damage Model",
+      "abstract": "The study is aimed at developing an evolutionary model of fatigue damage accumulation, which is a functional of the stress variation over time in a local volume, independent of plastic strains. This model has been generalized to account for the rheonomic effects reflecting the dependence of fatigue life on loading frequency and dwell periods at the maximum stress in a cycle. The material constants of the model have been determined for the two-phase titanium alloy VT6 (the equivalent of Ti-6Al-4V), exhibiting the cold creep that is the sensitivity of fatigue properties to the time characteristics of cyclic loading at room temperature. New data of the fatigue tests with various frequencies and dwell periods in cycles have been used. It has been shown that the model can correctly describe these data and also predict the fatigue life for a wider range of loading conditions. The fatigue life of a gas turbine engine component has been calculated for the flight cycles, accounting for the dwell periods at maximum and intermediate stress values within the cycle, and the calculation results demonstrated a significant non-conservatism of the fatigue life calculations by applying the simplified load-spectrum approach within the framework of the linear damage accumulation hypothesis.",
+      "authors": [
+        "D. S. Petukhov",
+        "I. E. Keller"
+      ],
+      "first_author_affiliation": "Institute of Continuous Media Mechanics UB RAS, 614013, Perm, Russia",
+      "corresponding_authors": [
+        {
+          "name": "D. S. Petukhov",
+          "affiliation": "Institute of Continuous Media Mechanics UB RAS, 614013, Perm, Russia"
+        }
+      ],
+      "venue": "Mechanics of Solids",
+      "year": 2025,
+      "date": "2025-09-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1134/s0025654425605488",
+      "cited_by_count": 0,
+      "concepts": [
+        "Dwell time",
+        "Structural engineering",
+        "Materials science",
+        "Creep",
+        "Stress (linguistics)",
+        "Range (aeronautics)",
+        "Vibration fatigue",
+        "Mechanics",
+        "Fatigue limit",
+        "Titanium alloy",
+        "Fatigue testing",
+        "Goodman relation",
+        "Experimental data",
+        "Gas turbines"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue",
+          "fatigue life"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文提出了考虑加载频率和保载效应的疲劳损伤模型，并针对Ti-6Al-4V进行了实验验证，属于L1层核心研究。",
+        "why_not_core": "The paper is primarily a modeling study, but it includes experimental validation and covers frequency/dwell effects on fatigue, which is within scope; no missing aspects for the L1 direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "fatigue damage model",
+          "frequency effect",
+          "dwell effect",
+          "Ti-6Al-4V",
+          "VT6",
+          "rheonomic effects",
+          "cold creep",
+          "gas turbine engine",
+          "evolutionary model"
+        ],
+        "summary_zh": {
+          "motivation": "模拟加载频率和保载周期对疲劳寿命的影响",
+          "method": "建立与塑性应变无关、依赖于应力时间历程的演化疲劳损伤模型",
+          "result": "模型能准确描述不同频率和保载下的疲劳数据并能预测更广范围载荷条件",
+          "validation": "通过不同频率和保载周期的疲劳试验验证"
+        },
+        "summary_en": {
+          "motivation": "To simulate the influence of loading frequency and dwell periods on the fatigue life of Ti-6Al-4V alloy.",
+          "method": "An evolutionary fatigue damage model was developed as a functional of stress variation over time, generalized to account for rheonomic effects.",
+          "result": "The model correctly describes experimental fatigue data under various frequencies and dwell times and predicts fatigue life for a wider range of loading conditions.",
+          "validation": "The model was validated using fatigue tests with varied frequencies and dwell periods on VT6 (Ti-6Al-4V) specimens."
+        },
+        "key_terms": [
+          {
+            "en": "fatigue damage accumulation",
+            "zh": "疲劳损伤累积"
+          },
+          {
+            "en": "rheonomic effects",
+            "zh": "流变效应"
+          },
+          {
+            "en": "cold creep",
+            "zh": "冷蠕变"
+          },
+          {
+            "en": "loading frequency",
+            "zh": "加载频率"
+          },
+          {
+            "en": "dwell period",
+            "zh": "保载周期"
+          },
+          {
+            "en": "evolutionary damage model",
+            "zh": "演化损伤模型"
+          },
+          {
+            "en": "Ti-6Al-4V (VT6)",
+            "zh": "Ti-6Al-4V (VT6)"
+          },
+          {
+            "en": "gas turbine engine",
+            "zh": "燃气轮机发动机"
+          },
+          {
+            "en": "linear damage accumulation",
+            "zh": "线性损伤累积"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415624023",
+      "doi": "10.1016/j.addma.2025.105007",
+      "title": "Process mapping of Ti-6Al-4V laser powder bed fusion using in situ high-speed synchrotron x-ray imaging",
+      "abstract": "Laser-based powder bed fusion (PBF-LB) of Ti-6Al-4V enables the manufacturing of strong, lightweight, and complex components for high-value engineering applications. Producing reliable safety-critical PBF-LB parts requires an in-depth understanding and control of the laser-material interaction, melt pool and defect dynamics. This study employs in situ high-speed synchrotron X-ray imaging to produce a laser power and scan speed ( P-v ) process map for Ti-6Al-4V single-layer tracks across industrially relevant conditions ( P = 100–500 W and v = 250–2000 mm s –1 ) with a 60 µm powder layer thickness and 85 µm laser spot size. The process map identifies three distinct melting regimes: keyhole, tailed vapour depression, and pure conduction mode, separated into stable and unstable conditions, with associated features, such as porosity and surface perturbations (high- and low-amplitude) and end-of-track defects. Key geometric thresholds include vapour cavity depth-to-length ratios of ~0.33 and ~2.9, which mark boundaries for surface perturbations and pore formation. To minimise keyhole porosity, linear energy densities > 0.345 J mm -1 should be avoided, while > 0.075 J mm -1 is required to form a vapour cavity. Among the process parameter combinations, the defect-lean condition with the highest scan speed of 1600 mm s –1 at 350 W is recommended. This comprehensive process mapping facilitates the identification of a stable processing window optimised for high productivity and defect-lean components. • Ti-6Al-4V process map spans 500 W, 2000 mm s -1 , replicating industrial conditions • Synchrotron imaging maps three melting regimes with associated defect formation • Vapour cavity depth-to-length ratio: <~0.33 perturbations, >~2.9 keyhole porosity • Vapour cavity at LED >0.075 J mm -1 ; porosity at >0.345 J mm -1 & wall angle >77° • Maximum stable processing speed ~1600 mm s -1 achieved at 350 W laser power",
+      "authors": [
+        "Elena Ruckh",
+        "Rubén Lambert-Garcia",
+        "Samy Hocine",
+        "Anna C. M. Getley",
+        "Caterina Iantaffi",
+        "Alisha Bhatt",
+        "Maureen Fitzpatrick",
+        "Sebastian Marussi",
+        "Andy Farndell",
+        "Tim Schubert",
+        "G. Ketzer‐Raichle",
+        "Marta Majkut",
+        "Alexander Rack",
+        "Nick Jones",
+        "Chu Lun Alex Leung",
+        "Peter Lee"
+      ],
+      "first_author_affiliation": "Research Complex at Harwell, Harwell Campus, Didcot, OX11 0FA, United Kingdom",
+      "corresponding_authors": [
+        {
+          "name": "Elena Ruckh",
+          "affiliation": "Research Complex at Harwell, Harwell Campus, Didcot, OX11 0FA, United Kingdom"
+        },
+        {
+          "name": "Chu Lun Alex Leung",
+          "affiliation": "Research Complex at Harwell, Harwell Campus, Didcot, OX11 0FA, United Kingdom"
+        },
+        {
+          "name": "Peter Lee",
+          "affiliation": "Research Complex at Harwell, Harwell Campus, Didcot, OX11 0FA, United Kingdom"
+        }
+      ],
+      "venue": "Additive manufacturing",
+      "year": 2025,
+      "date": "2025-09-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.addma.2025.105007",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Synchrotron",
+        "Keyhole",
+        "Fusion",
+        "Porosity",
+        "Laser",
+        "Process (computing)",
+        "Laser power scaling",
+        "Synchrotron radiation",
+        "Process window",
+        "Thermal conduction",
+        "Composite material",
+        "In situ",
+        "Optics",
+        "Selective laser melting"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "layer thickness",
+          "porosity",
+          "defect"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文专注于Ti-6Al-4V激光粉末床熔融的工艺映射及缺陷形成，虽未直接测量力学性能，但缺陷控制对后续疲劳性能至关重要。",
+        "why_not_core": "The paper does not provide any mechanical or fatigue characterization data; it focuses solely on melt pool dynamics and defect formation during processing.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "process mapping",
+          "synchrotron X-ray imaging",
+          "defect formation",
+          "keyhole porosity"
+        ],
+        "summary_zh": {
+          "motivation": "通过高速同步辐射X射线成像研究Ti-6Al-4V激光粉末床熔融的工艺窗口。",
+          "method": "使用原位高速同步辐射X射线成像产生功率-速度工艺图。",
+          "result": "识别了三种熔化模式及缺陷形成条件，推荐了缺陷少的工艺参数。",
+          "validation": "通过同步辐射X射线成像实验验证工艺图。"
+        },
+        "summary_en": {
+          "motivation": "To investigate process-structure relationships in Ti-6Al-4V laser powder bed fusion using in situ high-speed synchrotron X-ray imaging.",
+          "method": "Process mapping of single-layer tracks across a range of laser powers and scan speeds was performed with synchrotron X-ray imaging.",
+          "result": "Three melting regimes and defect formation thresholds were identified, and a defect-lean processing condition at 350 W and 1600 mm/s was recommended.",
+          "validation": "The process map was validated by in situ synchrotron X-ray imaging experiments."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "process map",
+            "zh": "工艺图"
+          },
+          {
+            "en": "synchrotron X-ray imaging",
+            "zh": "同步辐射X射线成像"
+          },
+          {
+            "en": "melting regime",
+            "zh": "熔化模式"
+          },
+          {
+            "en": "keyhole porosity",
+            "zh": "匙孔孔隙"
+          },
+          {
+            "en": "vapour cavity",
+            "zh": "蒸气空腔"
+          },
+          {
+            "en": "defect formation",
+            "zh": "缺陷形成"
           },
           {
             "en": "Ti-6Al-4V",
@@ -135,7 +774,131 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414330769",
+      "doi": "10.1088/1742-6596/3104/1/012045",
+      "title": "Numerical prediction of process-dependent properties of Ti-6Al-4V in hot-forming applications with LS-DYNA",
+      "abstract": "Abstract The use of high-performance materials and modern manufacturing processes has made it possible to achieve components with ever lower weights at the same load capacity. The local mechanical properties are process-dependent and result from different mechanisms in the material, such as work-hardening effects, microstructure phase-evolution and other processes affecting geometrical aspects of the microstructure. In this contribution, focus is put on the modelling of Ti-6Al-4V. The mechanical strength of this material grade significantly depends on the microstructure phase composition but also on the lath thickness of the martensitic phase. Both properties are direct results of the local temperature history for the material and, thus, have to be accounted for by a numerical material model. The recently enhanced material model *MAT_GENERALIZED_PHASE_CHANGE / *MAT_254 in LS-DYNA offers a framework to model phase changes in the microstructure with up to 24 individual phases and to predict the evolution of generalized internal variables. It will be shown how the specific features of Ti-6Al-4V mentioned above can be translated into this framework. Simple validation examples show that the new implementation predicts resulting mechanical properties in accordance with literature data. Moreover, the simulation of a hot-forming process demonstrates the benefits of the material implementation in combination with multi-physics capabilities of LS-DYNA. The evolution of the internal processes will be shown and discussed and the corresponding predicted strength distribution presented.",
+      "authors": [
+        "Thomas Μ. Kloppel",
+        "André Haufe",
+        "Mathias Merten"
+      ],
+      "first_author_affiliation": "DYNAmore GmbH an Ansys Company, Stuttgart, Germany",
+      "corresponding_authors": [
+        {
+          "name": "Thomas Μ. Kloppel",
+          "affiliation": "DYNAmore GmbH an Ansys Company, Stuttgart, Germany"
+        }
+      ],
+      "venue": "Journal of Physics Conference Series",
+      "year": 2025,
+      "date": "2025-09-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1088/1742-6596/3104/1/012045",
+      "cited_by_count": 0,
+      "concepts": [
+        "Microstructure",
+        "Material properties",
+        "Lath",
+        "Materials science",
+        "Phase (matter)",
+        "Process (computing)",
+        "Focus (optics)",
+        "Martensite",
+        "Computer science",
+        "Mechanical engineering",
+        "Work (physics)",
+        "Mechanics",
+        "Strength of materials"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要涉及热成形工艺中的Ti-6Al-4V力学性能预测，而非增材制造，与方向焦点不符。",
+        "why_not_core": "The paper focuses on hot-forming processes, not additive manufacturing; lacks any AM-specific mechanical or fatigue characterization for Ti-6Al-4V.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "hot-forming",
+          "LS-DYNA",
+          "phase change",
+          "mechanical modeling"
+        ],
+        "summary_zh": {
+          "motivation": "预测热成形工艺中Ti-6Al-4V的工艺依赖力学性能",
+          "method": "利用LS-DYNA的*MAT_254材料模型模拟相变和强度分布",
+          "result": "模型成功预测了热成形后的局部强度分布",
+          "validation": "与文献数据进行对比验证"
+        },
+        "summary_en": {
+          "motivation": "To predict process-dependent mechanical properties of Ti-6Al-4V during hot-forming operations.",
+          "method": "Using the LS-DYNA material model *MAT_254 to simulate phase evolution and resulting strength distribution.",
+          "result": "The model predicts local strength variations in hot-formed components consistent with literature data.",
+          "validation": "Validation performed by comparing simulation results to published experimental data for Ti-6Al-4V."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "hot-forming",
+            "zh": "热成形"
+          },
+          {
+            "en": "LS-DYNA",
+            "zh": "LS-DYNA"
+          },
+          {
+            "en": "phase change",
+            "zh": "相变"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "material model",
+            "zh": "材料模型"
+          },
+          {
+            "en": "strength distribution",
+            "zh": "强度分布"
+          },
+          {
+            "en": "process-dependent",
+            "zh": "工艺依赖"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
     },
     {
       "source": "openalex",
@@ -192,8 +955,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文主要研究下颌骨重建支架的生物力学仿真，仅将Ti-6Al-4V作为固定材料使用，不涉及该合金本身的力学或疲劳性能。",
-        "why_not_core": "This paper does not provide mechanical/fatigue characterization of Ti-6Al-4V; it is a biomechanical simulation of a mandibular scaffold implant using Ti-6Al-4V only as a fixation material, not as the primary subject of study.",
+        "relevance_to_user": "论文主要关注下颌骨重建的多材料支架设计，而非增材制造Ti-6Al-4V的力学性能或疲劳特性。",
+        "why_not_core": "The paper does not present mechanical or fatigue characterization of additively manufactured Ti-6Al-4V; it is a biomechanical simulation study on scaffold design for mandibular reconstruction, using Ti-6Al-4V only as a fixation plate material.",
         "validation_kind": "simulation_case",
         "flags": {
           "has_experimental_validation": false,
@@ -202,29 +965,25 @@
           "is_review": false
         },
         "tags": [
+          "finite element analysis",
           "mandibular reconstruction",
           "scaffold",
-          "finite element",
-          "Ti-6Al-4V",
-          "multimaterial"
+          "Ti-6Al-4V fixation",
+          "biomechanics"
         ],
         "summary_zh": {
-          "motivation": "探究支架设计对下颌骨重建后生物力学环境的影响",
-          "method": "建立下颌骨有限元模型，改变固定材料、支架结构和材料分布进行仿真分析",
-          "result": "多材料支架可提供更有利的应变环境，促进骨愈合",
-          "validation": "有限元仿真模拟，无实验验证"
+          "motivation": "探究支架设计对下颌骨重建生物力学环境的影响。",
+          "method": "建立下颌骨有限元模型，模拟不同固定材料和支架结构的力学响应。",
+          "result": "多材料支架比纯水凝胶支架产生更高应变，可能更利于骨愈合。",
+          "validation": "有限元仿真，未涉及实验验证。"
         },
         "summary_en": {
-          "motivation": "This study investigates the influence of scaffold design on the biomechanical environment after mandibular reconstruction.",
-          "method": "A 3D finite element mandible model was developed, varying fixation materials, scaffold architectures, and material distributions across 12 configurations.",
-          "result": "Multimaterial scaffolds induced higher strains in the healing region, potentially beneficial for bone regeneration.",
-          "validation": "Validation was based solely on finite element simulation without experimental corroboration."
+          "motivation": "The study aims to understand how scaffold design and material distribution affect biomechanical conditions in mandibular reconstruction after segmental resection.",
+          "method": "A 3D finite element model of the mandible was developed to simulate a large bone defect bridged by a scaffold, supported by a titanium mesh, and stabilized with a fixation plate made of either Ti-6Al-4V or PLA, testing three scaffold architectures and two material distributions.",
+          "result": "PLA fixation plates induced higher strains in the healing region than titanium plates; scaffold architecture had little effect, but multimaterial scaffolds (hydrogel/ceramic) produced higher strains than pure hydrogel scaffolds, potentially promoting bone healing.",
+          "validation": "The study is computational only, with no experimental validation of the model or materials."
         },
         "key_terms": [
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
-          },
           {
             "en": "finite element model",
             "zh": "有限元模型"
@@ -238,36 +997,161 @@
             "zh": "支架"
           },
           {
-            "en": "multimaterial",
-            "zh": "多材料"
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
           },
           {
-            "en": "biomechanical simulation",
-            "zh": "生物力学仿真"
+            "en": "biomechanics",
+            "zh": "生物力学"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413974298",
+      "doi": "10.24237/djes.2025.18309",
+      "title": "Effect of Coating Time of Electrophoretic Deposition of Hydroxyapatite-Chitosan-Magnesium Oxide Coatings on Ti-6Al-4V Alloys",
+      "abstract": "This research aims to evaluate various coatings on titanium alloy substrates to increase corrosion resistance and surface quality. This involves coating the substrates with layers of Hydroxyapatite (HAP), Chitosan (CS), and Magnesium oxide (MgO) using the EPD technique. The cell voltage value was set to 5 V, while the coating time was set to 5, 10, and 15 min. SEM was used to measure the thickness of the cross-sectional coating layers, and it was also used to show the morphology of the composite coating. From the results 10-minute deposition time has been established as the most optimal to produce an even, thick, uniform, and dense coating with good mechanical properties. The thickness more than doubles with increases in time with the coat almost tripling at 15 minutes and 5 minutes respectively. EDX analysis showed that the elemental compositions of calcium, oxygen, and phosphorus increased after 15 minutes, indicating a dense coating. The research findings indicate that the adhesion force transitions to a marginally positive value of 0.05 nN, suggesting a weak attachment rather than a robust bond. Additionally, Young's modulus shows a significant decline to 3.93 MPa, which signifies a reduction in the stiffness of the material. The surface stiffness decreases to 0.19 nN/nm between 10 and 15 minutes, indicating a loss of rigidity. Although longer coating times may increase thickness, they can also reduce functionality and raise defect risks. This reinforces that electrophoretic deposition (EPD) effectively improves the alloy's surface quality for biomedical applications.",
+      "authors": [
+        "Anees Kadhim Tayyeh",
+        "Ahmed F. Hasan"
+      ],
+      "first_author_affiliation": "Department of Materials Engineering, College of Engineering, University of Diyala, 32001 Diyala, Iraq",
+      "corresponding_authors": [
+        {
+          "name": "Anees Kadhim Tayyeh",
+          "affiliation": "Department of Materials Engineering, College of Engineering, University of Diyala, 32001 Diyala, Iraq"
+        }
+      ],
+      "venue": "Diyala Journal of Engineering Sciences",
+      "year": 2025,
+      "date": "2025-09-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.24237/djes.2025.18309",
+      "cited_by_count": 1,
+      "concepts": [
+        "Electrophoretic deposition",
+        "Magnesium",
+        "Coating",
+        "Materials science",
+        "Chitosan",
+        "Oxide",
+        "Metallurgy",
+        "Deposition (geology)",
+        "Electrophoresis",
+        "Magnesium alloy",
+        "Chemical engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "defect"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V基材的涂层，但完全不涉及增材制造工艺或力学/疲劳性能，与用户方向无关。",
+        "why_not_core": "The paper does not study additively manufactured Ti-6Al-4V; it is about electrophoretic deposition coating on conventional alloy and focuses on corrosion resistance, not mechanical or fatigue performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "electrophoretic deposition",
+          "hydroxyapatite",
+          "chitosan",
+          "MgO coating",
+          "Ti-6Al-4V"
+        ],
+        "summary_zh": {
+          "motivation": "提高Ti-6Al-4V合金的耐腐蚀性和表面质量",
+          "method": "采用电泳沉积法制备羟基磷灰石-壳聚糖-氧化镁复合涂层",
+          "result": "10分钟沉积时间得到均匀致密涂层，但更长时间导致附着力下降和刚度降低",
+          "validation": "通过SEM、EDX和力学测试表征涂层性能"
+        },
+        "summary_en": {
+          "motivation": "To improve the corrosion resistance and surface quality of Ti-6Al-4V alloy substrates through composite coatings.",
+          "method": "Hydroxyapatite-chitosan-magnesium oxide coatings were deposited on Ti-6Al-4V using electrophoretic deposition at varying times.",
+          "result": "Ten-minute deposition produced uniform and dense coatings, but longer times reduced adhesion and stiffness.",
+          "validation": "Coating morphology, composition, and mechanical properties were characterized by SEM, EDX, and force measurements."
+        },
+        "key_terms": [
+          {
+            "en": "electrophoretic deposition",
+            "zh": "电泳沉积"
+          },
+          {
+            "en": "hydroxyapatite",
+            "zh": "羟基磷灰石"
+          },
+          {
+            "en": "chitosan",
+            "zh": "壳聚糖"
+          },
+          {
+            "en": "magnesium oxide",
+            "zh": "氧化镁"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "coating thickness",
+            "zh": "涂层厚度"
+          },
+          {
+            "en": "adhesion force",
+            "zh": "附着力"
+          },
+          {
+            "en": "Young's modulus",
+            "zh": "杨氏模量"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 9,
     "by_source": {
-      "openalex": 2
+      "openalex": 9
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 9,
+    "after_routing": 9,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 2
+      "ti6al4v_base_mechanical_fatigue": 7,
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 9
     },
-    "scored": 2,
+    "scored": 9,
     "priority_counts": {
-      "Exclude": 2
+      "Exclude": 6,
+      "Medium": 2,
+      "High": 1
     }
   }
 }

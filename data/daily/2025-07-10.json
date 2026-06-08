@@ -57,6 +57,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "microstructure",
           "yield strength"
         ]
       },
@@ -64,8 +65,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是Ti-6Al-4V的热变形行为，而非增材制造状态下的力学与疲劳性能。",
-        "why_not_core": "This paper focuses on hot deformation of Ti-6Al-4V, not additive-manufactured Ti-6Al-4V; it does not address mechanical or fatigue properties in the as-built or process-state relevant to layer 1.",
+        "relevance_to_user": "该论文研究热变形过程，而非增材制造，与Ti-6Al-4V增材制造力学性能方向无关。",
+        "why_not_core": "The paper focuses on hot deformation (forging/stamping) of Ti-6Al-4V, not on additive manufacturing; no additive manufacturing process (LPBF/SLM/EBM/DED) is studied.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -77,36 +78,34 @@
           "hot deformation",
           "Ti-6Al-4V",
           "viscoplastic constitutive model",
-          "grain size",
-          "phase evolution",
           "heating rate",
-          "Gleeble",
-          "hot stamping"
+          "grain size",
+          "phase evolution"
         ],
         "summary_zh": {
-          "motivation": "研究加热速率和温度对钛合金热变形中显微组织和流动应力的影响",
-          "method": "通过Gleeble热拉伸,EBSD/XRD表征,构建考虑加热速率的黏塑性本构模型",
-          "result": "模型对热流动行为和相体积分数的预测精度分别达到92.93%和94.97%",
-          "validation": "电流辅助热冲压实验和有限元仿真验证了模型的预测能力"
+          "motivation": "研究加热速率对Ti-6Al-4V热变形中相变和晶粒演化的影响。",
+          "method": "通过Gleeble热拉伸实验和EBSD/XRD表征，建立考虑加热速率的粘塑性本构模型。",
+          "result": "高加热速率抑制β相变和晶粒粗化，提高成形性；模型预测精度达92-95%。",
+          "validation": "Gleeble热拉伸实验和电流辅助热冲压有限元模拟验证。"
         },
         "summary_en": {
-          "motivation": "To investigate the effects of heating rate and temperature on microstructure evolution and flow behavior during hot deformation of Ti-6Al-4V.",
-          "method": "Gleeble hot tensile tests, EBSD and XRD characterization were used to develop a viscoplastic constitutive model that incorporates heating rate for the first time.",
-          "result": "The model achieved prediction accuracies of 92.93% for flow behavior and 94.97% for β-phase volume fraction.",
-          "validation": "Current-assisted hot stamping experiments and finite element simulations validated the model's accuracy for thickness distribution and phase fraction."
+          "motivation": "To investigate the effect of heating rate on phase transformation and grain size evolution in hot deformation of Ti-6Al-4V.",
+          "method": "Hot tensile experiments on Gleeble and EBSD/XRD characterization were used to develop a viscoplastic constitutive model incorporating heating rate.",
+          "result": "Higher heating rate reduces β-phase transformation and dislocation density, inhibits grain coarsening, and improves formability; prediction accuracy reaches 92-95%.",
+          "validation": "Gleeble hot tensile experiments and current-assisted hot stamping experiments combined with FE simulations."
         },
         "key_terms": [
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
-          },
           {
             "en": "hot deformation",
             "zh": "热变形"
           },
           {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
             "en": "viscoplastic constitutive model",
-            "zh": "黏塑性本构模型"
+            "zh": "粘塑性本构模型"
           },
           {
             "en": "heating rate",
@@ -121,10 +120,6 @@
             "zh": "相演变"
           },
           {
-            "en": "Gleeble test",
-            "zh": "Gleeble热模拟试验"
-          },
-          {
             "en": "EBSD",
             "zh": "电子背散射衍射"
           },
@@ -133,14 +128,18 @@
             "zh": "X射线衍射"
           },
           {
-            "en": "hot stamping",
-            "zh": "热冲压"
+            "en": "Gleeble",
+            "zh": "Gleeble热模拟试验机"
+          },
+          {
+            "en": "finite element simulation",
+            "zh": "有限元模拟"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
     }
   ],
   "counts": {

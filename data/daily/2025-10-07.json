@@ -54,11 +54,17 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
+        "ti6al4v_base_mechanical_fatigue",
         "ti6al4v_femoral_stem"
       ],
       "direction": "ti6al4v_femoral_stem",
       "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "selective laser melting",
+          "SLM"
+        ],
         "ti6al4v_femoral_stem": [
           "Ti6Al4V",
           "TPMS",
@@ -66,11 +72,11 @@
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Transferable",
-        "read_action": "Skim only",
-        "relevance_to_user": "论文研究Ti6Al4V I-WP点阵结构的力学性能与能量吸收，虽不直接涉及股骨柄设计，但点阵结构设计方法可能为多孔股骨柄提供借鉴。",
-        "why_not_core": "The paper does not address femoral stem design, implant mechanics, or any biomedical context; it focuses on generic lattice metamaterial performance without application to orthopaedic implants.",
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究Ti6Al4V点阵结构的力学性能，但未涉及股骨柄或植入物结构设计，与用户关注方向无关。",
+        "why_not_core": "Paper does not address femoral stem or implant structural design; it is a general study on lattice metamaterial mechanical properties without orthopedic context.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -80,27 +86,31 @@
         },
         "tags": [
           "Ti6Al4V",
-          "lattice structures",
+          "lattice metamaterials",
           "TPMS",
-          "energy absorption",
-          "selective laser melting"
+          "SLM",
+          "energy absorption"
         ],
         "summary_zh": {
-          "motivation": "提升三周期极小曲面点阵结构的力学性能与能量吸收能力。",
-          "method": "将X形板与IWP表面结构融合设计新型IWP-X点阵，改变板厚与密度并通过SLM制备。",
-          "result": "IWP-X结构抗压强度提升122.06%，能量吸收提升282.03%，比吸能在板与IWP体积比0.7-0.8时最大。",
-          "validation": "通过压缩实验与有限元模拟验证力学性能与断裂位置。"
+          "motivation": "提升TPMS点阵结构的轴向力学性能与能量吸收能力。",
+          "method": "设计IWP-X结构，通过SLM制造Ti6Al4V样品，进行压缩试验与有限元模拟。",
+          "result": "IWP-X结构抗压强度提升122.06%，能量吸收提升282.03%。",
+          "validation": "实验压缩测试与有限元仿真验证。"
         },
         "summary_en": {
-          "motivation": "To enhance the mechanical properties and energy absorption of TPMS lattice structures for potential structural applications.",
-          "method": "A novel IWP-X lattice metamaterial was designed by fusing an X-shaped plate with an IWP surface, fabricated via selective laser melting in Ti6Al4V with varying plate thickness and density.",
-          "result": "The IWP-X structure achieved a 122.06% improvement in ultimate compressive strength and a 282.03% improvement in energy absorption, with maximum specific energy absorption at a plate-to-IWP volume ratio of 0.7–0.8.",
-          "validation": "Experimental compression tests and finite element simulations validated the stress distribution and fracture locations of the lattice structures."
+          "motivation": "To enhance the axial mechanical properties and energy absorption of TPMS lattice metamaterials.",
+          "method": "A novel IWP-X lattice structure was designed, fabricated via SLM using Ti6Al4V powder, and tested under compression with finite element simulation.",
+          "result": "The IWP-X structure achieved 122.06% improvement in ultimate compressive strength and 282.03% improvement in energy absorption.",
+          "validation": "Experimental compression tests and finite element simulations were conducted."
         },
         "key_terms": [
           {
             "en": "selective laser melting",
-            "zh": "选区激光熔化"
+            "zh": "选择性激光熔化"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
           },
           {
             "en": "triply periodic minimal surface",
@@ -115,26 +125,26 @@
             "zh": "能量吸收"
           },
           {
-            "en": "IWP structure",
-            "zh": "IWP结构"
-          },
-          {
             "en": "compressive strength",
             "zh": "抗压强度"
           },
           {
-            "en": "specific energy absorption",
-            "zh": "比吸能"
-          },
-          {
             "en": "finite element simulation",
             "zh": "有限元模拟"
+          },
+          {
+            "en": "IWP structure",
+            "zh": "IWP结构"
+          },
+          {
+            "en": "specific energy absorption",
+            "zh": "比能量吸收"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:17:25Z"
+      "first_seen_at": "2026-06-08T08:27:10Z"
     }
   ],
   "counts": {
@@ -152,7 +162,7 @@
     },
     "scored": 1,
     "priority_counts": {
-      "Low": 1
+      "Exclude": 1
     }
   }
 }

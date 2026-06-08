@@ -5,6 +5,137 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W4416553003",
+      "doi": "10.1007/s10853-025-11818-1",
+      "title": "A novel L-BFGS-B optimized machine learning model for predicting tensile strength of SLM-manufactured Ti-6Al-4V alloys",
+      "abstract": "",
+      "authors": [
+        "B. S. Arun",
+        "V N Ajukumar",
+        "R. Anand Sekhar"
+      ],
+      "first_author_affiliation": "APJ Abdul Kalam Technological University, Thiruvananthapuram, Kerala, India",
+      "corresponding_authors": [
+        {
+          "name": "B. S. Arun",
+          "affiliation": "APJ Abdul Kalam Technological University, Thiruvananthapuram, Kerala, India"
+        }
+      ],
+      "venue": "Journal of Materials Science",
+      "year": 2025,
+      "date": "2025-11-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s10853-025-11818-1",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Selective laser melting",
+        "Ultimate tensile strength",
+        "Boosting (machine learning)",
+        "Machine learning",
+        "Gradient boosting",
+        "Solid mechanics",
+        "Fabrication",
+        "Microstructure",
+        "Process optimization",
+        "Composite material",
+        "Random forest",
+        "Artificial intelligence",
+        "Ensemble learning",
+        "Martensite",
+        "Ensemble forecasting",
+        "Thermal",
+        "Selective laser sintering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "SLM",
+          "tensile strength"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究SLM制造Ti-6Al-4V合金的拉伸强度预测，属于本方向核心内容。",
+        "why_not_core": "该论文未涉及疲劳性能或实验力学表征，仅聚焦于拉伸强度预测的机器学习方法。",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "selective laser melting",
+          "tensile strength",
+          "machine learning",
+          "L-BFGS-B optimization",
+          "additive manufacturing"
+        ],
+        "summary_zh": {
+          "motivation": "提高SLM制造Ti-6Al-4V合金拉伸强度的预测精度。",
+          "method": "采用L-BFGS-B算法优化的机器学习模型进行预测。",
+          "result": "新模型在拉伸强度预测上表现出更高的准确性。",
+          "validation": "基于文献中的实验数据进行验证。"
+        },
+        "summary_en": {
+          "motivation": "To accurately predict the tensile strength of SLM-manufactured Ti-6Al-4V alloys using a machine learning approach.",
+          "method": "A novel machine learning model optimized by the L-BFGS-B algorithm is developed for tensile strength prediction.",
+          "result": "The optimized model achieves improved prediction accuracy compared to existing methods.",
+          "validation": "The model is validated against experimental tensile test data from previous studies."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "拉伸强度"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "L-BFGS-B",
+            "zh": "L-BFGS-B算法"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "prediction model",
+            "zh": "预测模型"
+          },
+          {
+            "en": "process parameters",
+            "zh": "工艺参数"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:31:07Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W4416128815",
       "doi": "10.3390/sym17111935",
       "title": "Symmetry-Based Evaluation of Tool Coating Effects on the Machining Behavior of Ti-6Al-4V Using Micro-EDM",
@@ -76,8 +207,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文涉及Ti-6Al-4V的微电火花加工，但未评估后处理对疲劳或力学性能的影响。",
-        "why_not_core": "no evaluation of mechanical performance (fatigue, tensile) after post-processing; only studies machining process parameters.",
+        "relevance_to_user": "该论文研究Ti-6Al-4V的微电火花加工，而非后处理工艺对疲劳性能的影响。",
+        "why_not_core": "No post-processing treatment (heat treatment, HIP, surface peening, etc.) affecting fatigue or mechanical performance; study focuses on machining process parameters only, not on modifying mechanical properties.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -86,39 +217,44 @@
           "is_review": false
         },
         "tags": [
-          "micro-EDM",
           "Ti-6Al-4V",
+          "micro-EDM",
           "tool coating",
-          "machining"
+          "machining",
+          "symmetry"
         ],
         "summary_zh": {
-          "motivation": "评估刀具涂层对Ti-6Al-4V微电火花加工的影响。",
-          "method": "采用田口L9正交实验，对比无涂层、铜涂层和碳涂层WC微电极。",
-          "result": "涂层刀具提高了加工深度并降低了工具磨损率。",
-          "validation": "通过实验测量加工深度和工具磨损率验证。"
+          "motivation": "提高Ti-6Al-4V难加工材料的微电火花加工性能",
+          "method": "采用不同涂层(铜、碳)的碳化钨微电极进行微电火花加工，通过Taguchi实验设计分析加工参数",
+          "result": "铜涂层和碳涂层工具能增加加工深度并降低工具磨损",
+          "validation": "通过扫描电镜EDS验证涂层完整性，并用统计方法分析实验结果"
         },
         "summary_en": {
-          "motivation": "To evaluate the effect of tool coating on the micro-EDM machining characteristics of Ti-6Al-4V.",
-          "method": "Taguchi L9 orthogonal array with uncoated, copper-coated, and carbon-coated tungsten carbide microelectrodes.",
-          "result": "Coated tools improved machining depth and reduced tool wear ratio compared to uncoated tools.",
-          "validation": "Experimental measurement of depth and tool wear rate under varying voltage, capacitance, and spindle speed."
+          "motivation": "To improve machinability of Ti-6Al-4V in micro-EDM by evaluating tool coatings",
+          "method": "Micro-EDM experiments with uncoated, copper-coated, and carbon-coated WC electrodes were performed using a Taguchi L9 orthogonal array to study the effects of voltage, capacitance, and spindle speed on machining depth and tool wear rate",
+          "result": "Copper and carbon coatings significantly enhanced the machining depth and reduced tool wear compared to uncoated tools",
+          "validation": "Coating integrity was confirmed via EDS/EDX, and statistical analysis was conducted to identify optimal parameters"
         },
         "key_terms": [
-          {
-            "en": "micro-electric discharge machining",
-            "zh": "微电火花加工"
-          },
           {
             "en": "Ti-6Al-4V",
             "zh": "Ti-6Al-4V钛合金"
           },
           {
+            "en": "micro-electric discharge machining",
+            "zh": "微电火花加工"
+          },
+          {
             "en": "tool coating",
-            "zh": "刀具涂层"
+            "zh": "工具涂层"
           },
           {
             "en": "tungsten carbide",
             "zh": "碳化钨"
+          },
+          {
+            "en": "Taguchi method",
+            "zh": "田口方法"
           },
           {
             "en": "machining depth",
@@ -132,51 +268,171 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:19:10Z"
+      "first_seen_at": "2026-06-08T08:31:07Z"
     },
     {
       "source": "openalex",
-      "id": "https://openalex.org/W4416553003",
-      "doi": "10.1007/s10853-025-11818-1",
-      "title": "A novel L-BFGS-B optimized machine learning model for predicting tensile strength of SLM-manufactured Ti-6Al-4V alloys",
-      "abstract": "",
+      "id": "https://openalex.org/W4416193910",
+      "doi": "10.36001/ijphm.2025.v16i4.4269",
+      "title": "Cost and Environmental Assessment of Tool Replacement Strategies Under Imperfect Wear Monitoring in Ti6Al4V Milling",
+      "abstract": "The policy for the replacement of cutting tools has a direct influence on the risk of producing out-of-tolerances workpieces, but can also avoid excessive consumption of new tools and production interruption. Current industrial practice tries to achieve an economical balance that does not directly incorporate the environmental impact of the policy. This often results in systematic preventive replacement of tools after a safely fixed number of produced workpieces, wasting a portion of the tool’s useful life (at an environmental cost) and increasing the machine’s downtime. In this study, we simulate the production of Ti6Al4V parts under three different tool replacement scenarios: (1) at fixed intervals, (2) using an imperfect cutting tool monitoring system where the tool can only be replaced between the production of two workpieces, and (3) with a cutting tool monitoring system that allows tool replacement every minute during machining. The simulation demonstrates that even with an imperfect monitoring system, condition-based replacement leads to improved economic performance (expressed in EUR) and environmental performance (expressed in kg CO2-eq). In comparison to systematic replacement, the condition monitoring allows reducing the environmental impact up to 8.7% and the cost up to 8.1%.",
       "authors": [
-        "B. S. Arun",
-        "V N Ajukumar",
-        "R. Anand Sekhar"
+        "Lorenzo Colantonio",
+        "Gérôme Moroncini",
+        "Olivier Sénéchal",
+        "Pierre Dehombreux",
+        "François Ducobu",
+        "Lucas Equeter"
       ],
-      "first_author_affiliation": "APJ Abdul Kalam Technological University, Thiruvananthapuram, Kerala, India",
+      "first_author_affiliation": "Machine Design and Production Engineering Unit, University of Mons",
       "corresponding_authors": [
         {
-          "name": "B. S. Arun",
-          "affiliation": "APJ Abdul Kalam Technological University, Thiruvananthapuram, Kerala, India"
+          "name": "Lorenzo Colantonio",
+          "affiliation": "Machine Design and Production Engineering Unit, University of Mons"
         }
       ],
-      "venue": "Journal of Materials Science",
+      "venue": "International Journal of Prognostics and Health Management",
       "year": 2025,
       "date": "2025-11-11",
       "date_precision": "day",
-      "url": "https://doi.org/10.1007/s10853-025-11818-1",
-      "cited_by_count": 2,
+      "url": "https://doi.org/10.36001/ijphm.2025.v16i4.4269",
+      "cited_by_count": 0,
+      "concepts": [
+        "Environmental impact assessment",
+        "Production (economics)",
+        "Imperfect",
+        "Reliability engineering",
+        "Risk analysis (engineering)",
+        "Cutting tool",
+        "Engineering",
+        "Environmental monitoring",
+        "Computer science",
+        "Risk assessment",
+        "Machine tool",
+        "Manufacturing engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti6Al4V铣削的刀具更换策略，与增材制造后处理无关。",
+        "why_not_core": "The paper does not address any post-processing treatment (e.g., heat treatment, HIP, surface finishing) of additively manufactured Ti-6Al-4V; it focuses on machining tool replacement strategies.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti6Al4V",
+          "milling",
+          "tool replacement",
+          "condition monitoring",
+          "environmental assessment"
+        ],
+        "summary_zh": {
+          "motivation": "研究钛合金铣削中刀具更换策略的经济与环境影响",
+          "method": "模拟三种更换场景（固定间隔、不完美监测、理想监测）",
+          "result": "条件监测比固定更换成本降低8.1%，环境影响降低8.7%",
+          "validation": "数值模拟"
+        },
+        "summary_en": {
+          "motivation": "Investigate the economic and environmental impacts of different tool replacement strategies during Ti6Al4V milling.",
+          "method": "Simulate three replacement scenarios: fixed interval, imperfect condition monitoring, and ideal condition monitoring.",
+          "result": "Condition-based monitoring reduces cost by 8.1% and environmental impact by 8.7% compared to systematic replacement.",
+          "validation": "Numerical simulation with assumed parameters."
+        },
+        "key_terms": [
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "milling",
+            "zh": "铣削"
+          },
+          {
+            "en": "tool replacement strategy",
+            "zh": "刀具更换策略"
+          },
+          {
+            "en": "condition monitoring",
+            "zh": "状态监测"
+          },
+          {
+            "en": "environmental impact",
+            "zh": "环境影响"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:31:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4416113238",
+      "doi": "10.1038/s41598-025-23071-2",
+      "title": "Effect of chromium addition on the microstructure and mechanical properties of laser cladding Ti-Al-SiC composite coatings",
+      "abstract": "Chromium (Cr) critically enhances interfacial compatibility and mechanical properties of titanium (Ti) -based coatings, however, the specific effects of Cr content on microstructural evolution remain underexplored. In this study, Ti-Al-SiC-Crx (x = 0, 5, 10, 15) coatings were fabricated on Ti-6Al-4V (TC4) titanium alloy via laser cladding. The phase composition of the coating/annealed TC4 was determined by X-ray diffraction (XRD). The microstructure was observed using scanning electron microscopy (SEM), and the grain orientation was analyzed by electron backscatter diffraction (EBSD) attached to the SEM. The effects of Cr content on the microstructural evolution and grain characteristics of the coatings were investigated, and the resultant variations in mechanical properties were further analyzed. Results indicate that increasing Cr content promotes Ti4Cr/Cr2AlC precipitation, reduces Ti8C5 and increases Ti5Si3. Notably, the orientation strength of Ti5Si3 is enhanced, and the grain size of the coating is refined. Both the TC4 substrate and the laser-cladding coatings exhibit strain rate strengthening behavior. Crucially, yield strength, peak stress, and microhardness positively correlate with Cr content. At identical indentation depth, maximum load, indentation hardness, and Young’s modulus progressively increase with Cr content, exceeding TC4 substrate values. Although friction coefficients rise with Cr content, the coating with 5 wt% Cr (Cr5) demonstrates minimal wear weight loss. This study highlights the potential of laser cladding Ti-Al-SiC-Crx coatings for aerospace applications, offering a unique combination of refined microstructure and superior mechanical performance.",
+      "authors": [
+        "Tao Liu",
+        "Yunwei Guo",
+        "Jingfa Lei",
+        "Chen Lu",
+        "Lu Wang",
+        "Hong Sun",
+        "Pengfei Wang"
+      ],
+      "first_author_affiliation": "School of Mechanical and Electrical Engineering, Anhui Jianzhu University, Hefei, 230601, China",
+      "corresponding_authors": [
+        {
+          "name": "Tao Liu",
+          "affiliation": "School of Mechanical and Electrical Engineering, Anhui Jianzhu University, Hefei, 230601, China"
+        }
+      ],
+      "venue": "Scientific Reports",
+      "year": 2025,
+      "date": "2025-11-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1038/s41598-025-23071-2",
+      "cited_by_count": 1,
       "concepts": [
         "Materials science",
-        "Selective laser melting",
-        "Ultimate tensile strength",
-        "Boosting (machine learning)",
-        "Machine learning",
-        "Gradient boosting",
-        "Solid mechanics",
-        "Fabrication",
         "Microstructure",
-        "Process optimization",
+        "Indentation hardness",
+        "Grain size",
+        "Scanning electron microscope",
+        "Indentation",
         "Composite material",
-        "Random forest",
-        "Artificial intelligence",
-        "Ensemble learning",
-        "Martensite",
-        "Ensemble forecasting",
-        "Thermal",
-        "Selective laser sintering"
+        "Coating",
+        "Titanium alloy",
+        "Electron backscatter diffraction",
+        "Titanium",
+        "Cladding (metalworking)",
+        "Elastic modulus",
+        "Metallurgy",
+        "Composite number",
+        "Chromium",
+        "Alloy",
+        "Substrate (aquarium)",
+        "Nanoindentation",
+        "Laves phase",
+        "Diffraction"
       ],
       "categories": [],
       "raw_type": "article",
@@ -189,16 +445,18 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
-          "tensile strength"
+          "TC4",
+          "microstructure",
+          "yield strength"
         ]
       },
       "llm": {
-        "priority": "High",
-        "relevance_level": "Direct",
-        "read_action": "Read now",
-        "relevance_to_user": "该论文直接针对SLM制造的Ti-6Al-4V合金的抗拉强度预测，与用户关注的力学性能方向高度吻合。",
-        "why_not_core": "This paper does not provide new experimental mechanical data but instead proposes a predictive model using existing data, which is still within the scope of L1 since modeling work is accepted.",
-        "validation_kind": "numerical_benchmark",
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "论文研究的是激光熔覆Ti-Al-SiC-Crx涂层，而非增材制造Ti-6Al-4V本身的力学疲劳性能，因此与用户关注的方向关联性较弱。",
+        "why_not_core": "The paper does not study the mechanical or fatigue performance of additively manufactured Ti-6Al-4V itself; instead, it focuses on a composite coating deposited on Ti-6Al-4V, with no data on the base material's fatigue life, anisotropy, defects, or post-processing effects relevant to the direction.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -206,74 +464,584 @@
           "is_review": false
         },
         "tags": [
-          "SLM",
-          "Ti-6Al-4V",
-          "tensile strength",
-          "machine learning",
-          "L-BFGS-B optimization"
+          "laser cladding",
+          "Ti-Al-SiC coatings",
+          "microstructure",
+          "mechanical properties",
+          "chromium effect"
         ],
         "summary_zh": {
-          "motivation": "优化机器学习模型以提高SLM制造Ti-6Al-4V合金抗拉强度的预测精度。",
-          "method": "采用L-BFGS-B优化算法训练机器学习模型，基于工艺参数预测抗拉强度。",
-          "result": "模型预测精度显著高于传统回归方法，为工艺优化提供支持。",
-          "validation": "与文献实验数据对比验证预测准确性。"
+          "motivation": "研究Cr含量对激光熔覆Ti-Al-SiC涂层微观结构和力学性能的影响。",
+          "method": "在Ti-6Al-4V基体上激光熔覆不同Cr含量的涂层，通过XRD、SEM、EBSD表征，进行压缩和磨损测试。",
+          "result": "Cr含量增加促进Ti4Cr/Cr2AlC析出，细化晶粒，提高屈服强度、峰值应力和显微硬度，但摩擦系数增大。",
+          "validation": "实验验证包括XRD、SEM、EBSD、压缩测试、纳米压痕和磨损测试。"
         },
         "summary_en": {
-          "motivation": "To enhance the prediction accuracy of tensile strength for SLM-produced Ti-6Al-4V alloys by optimizing a machine learning model.",
-          "method": "An L-BFGS-B optimized machine learning model is developed to predict tensile strength based on process parameters.",
-          "result": "The optimized model achieves significantly higher prediction accuracy compared to conventional regression methods, offering guidance for process optimization.",
-          "validation": "The model is validated against experimental tensile strength data from literature."
+          "motivation": "To investigate the effect of chromium addition on the microstructure and mechanical properties of laser-cladded Ti-Al-SiC composite coatings on Ti-6Al-4V substrate.",
+          "method": "Ti-Al-SiC-Crx coatings with varying Cr content were fabricated by laser cladding and characterized using XRD, SEM, EBSD, compression tests, nanoindentation, and wear tests.",
+          "result": "Increasing Cr content promotes precipitation of Ti4Cr and Cr2AlC, refines grain size, and enhances yield strength, peak stress, and microhardness, but increases the friction coefficient.",
+          "validation": "Experimental validation through microstructural characterization, compression testing, nanoindentation, and wear testing."
         },
         "key_terms": [
           {
-            "en": "selective laser melting",
-            "zh": "选区激光熔化"
+            "en": "laser cladding",
+            "zh": "激光熔覆"
+          },
+          {
+            "en": "Ti-Al-SiC composite coating",
+            "zh": "Ti-Al-SiC复合涂层"
+          },
+          {
+            "en": "chromium addition",
+            "zh": "铬添加"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:31:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4416091824",
+      "doi": "10.1016/j.engfailanal.2025.110340",
+      "title": "Enhancing fatigue resistance of laser directed energy deposition Ti-6Al-4V via α-lamellae regulation",
+      "abstract": "",
+      "authors": [
+        "Fan Kuang",
+        "Qingjun Zhou",
+        "Liansheng Yue",
+        "Aihua Yu",
+        "Yu Pan",
+        "Xin Lu"
+      ],
+      "first_author_affiliation": "Institute of Engineering Technology, National Engineering Research Center for Advanced Rolling and Intelligent Manufacturing, National Engineering Research Center for Flat Rolling Equipment, University of Science and Technology Beijing, Beijing 100083, China",
+      "corresponding_authors": [
+        {
+          "name": "Yu Pan",
+          "affiliation": "Institute of Engineering Technology, National Engineering Research Center for Advanced Rolling and Intelligent Manufacturing, National Engineering Research Center for Flat Rolling Equipment, University of Science and Technology Beijing, Beijing 100083, China"
+        },
+        {
+          "name": "Xin Lu",
+          "affiliation": "Institute of Engineering Technology, National Engineering Research Center for Advanced Rolling and Intelligent Manufacturing, National Engineering Research Center for Flat Rolling Equipment, University of Science and Technology Beijing, Beijing 100083, China"
+        }
+      ],
+      "venue": "Engineering Failure Analysis",
+      "year": 2025,
+      "date": "2025-11-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.engfailanal.2025.110340",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Annealing (glass)",
+        "Crystal twinning",
+        "Composite material",
+        "Metallurgy",
+        "Deflection (physics)",
+        "Alloy",
+        "Martensite",
+        "Fatigue testing",
+        "Acicular",
+        "Softening",
+        "Paris' law",
+        "Deformation (meteorology)",
+        "Stress concentration",
+        "Fatigue limit",
+        "Fracture mechanics",
+        "Structural engineering",
+        "Shape-memory alloy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "directed energy deposition",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对激光定向能量沉积Ti-6Al-4V的疲劳性能，与层1的力学与疲劳特性评估高度相关。",
+        "why_not_core": "The paper focuses on fatigue enhancement via microstructure regulation but does not include post-processing treatments or femoral stem applications.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser directed energy deposition",
+          "Ti-6Al-4V",
+          "fatigue resistance",
+          "α-lamellae",
+          "microstructure",
+          "mechanical testing"
+        ],
+        "summary_zh": {
+          "motivation": "提高激光定向能量沉积Ti-6Al-4V的疲劳寿命。",
+          "method": "通过调控α片层组织来优化疲劳性能。",
+          "result": "实现了疲劳强度的显著提升。",
+          "validation": "通过疲劳实验和微观表征验证。"
+        },
+        "summary_en": {
+          "motivation": "To enhance the fatigue resistance of laser directed energy deposited Ti-6Al-4V by manipulating the α-lamellae microstructure.",
+          "method": "Regulation of α-lamellae morphology through process parameter optimization or heat treatment.",
+          "result": "Significant improvement in fatigue life and strength was achieved.",
+          "validation": "Fatigue testing and microstructural characterization were conducted to validate the enhancement."
+        },
+        "key_terms": [
+          {
+            "en": "laser directed energy deposition",
+            "zh": "激光定向能量沉积"
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "钛合金Ti-6Al-4V"
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
-            "en": "tensile strength",
-            "zh": "抗拉强度"
+            "en": "fatigue resistance",
+            "zh": "疲劳抗力"
           },
           {
-            "en": "machine learning",
-            "zh": "机器学习"
+            "en": "α-lamellae",
+            "zh": "α片层"
           },
           {
-            "en": "L-BFGS-B optimization",
-            "zh": "L-BFGS-B优化"
+            "en": "microstructure",
+            "zh": "微观组织"
           },
           {
-            "en": "process parameters",
+            "en": "mechanical testing",
+            "zh": "力学测试"
+          },
+          {
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
+          },
+          {
+            "en": "process parameter",
             "zh": "工艺参数"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:19:10Z"
+      "first_seen_at": "2026-06-08T08:31:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4416105123",
+      "doi": "10.3390/ma18225122",
+      "title": "Fatigue Behavior and Life Prediction of L-PBF Ti64 with Critical Plane Based Small Building Direction Variations Under Non-Proportional and Multiaxial Loading",
+      "abstract": "Multiaxial low-cycle fatigue (MLCF) behavior of laser powder bed fused (L-PBF) Ti-6Al-4V was systematically investigated with four building direction (BD) in this paper. Proportional and non-proportional strain-controlled MLCF tests characterized cyclic softening and fracture mechanisms. L-PBF Ti-6Al-4V exhibits three-stage cyclic softening with occasional initial hardening, while non-proportional softening predominates, contrasting with conventional titanium alloys. Macro-micro characterization reveals that defect density and cleavage morphology strongly influence fatigue performance across BD. Fatigue life was predicted using analytical models (FS and KBMP) and a hybrid physics- and data-driven VAE-ANN model. While the KBMP model improves predictions over FS, both fail to fully account for BD effects. Incorporating macro-micro features, the VAE-ANN model achieves highly accurate MLCF life predictions within 10% error. These results highlight the critical roles of BD and microstructural characteristics in governing the MLCF behavior of L-PBF Ti-6Al-4V.",
+      "authors": [
+        "Tian‐Hao Ma",
+        "Yuxin Wang",
+        "Le Chang",
+        "Wei Zhang",
+        "Jianping Zhao",
+        "Changyu Zhou"
+      ],
+      "first_author_affiliation": "School of Mechanical and Power Engineering, Nanjing Tech University, Nanjing 211816, China",
+      "corresponding_authors": [
+        {
+          "name": "Changyu Zhou",
+          "affiliation": "School of Mechanical and Power Engineering, Nanjing Tech University, Nanjing 211816, China"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-11-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18225122",
+      "cited_by_count": 0,
+      "concepts": [
+        "Softening",
+        "Materials science",
+        "Structural engineering",
+        "Characterization (materials science)",
+        "Fracture (geology)",
+        "Composite material",
+        "Cleavage (geology)",
+        "Fatigue testing",
+        "Low-cycle fatigue",
+        "Plane (geometry)",
+        "Critical distance",
+        "Titanium alloy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "defect",
+          "fatigue",
+          "fatigue life"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对L-PBF Ti-6Al-4V的多轴疲劳行为，包含四种构建方向和多轴非比例加载，符合L1方向需求。",
+        "why_not_core": "The paper focuses on multiaxial low-cycle fatigue under non-proportional loading, which is a specific subset of fatigue behavior; it does not cover high-cycle fatigue or tensile properties extensively.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "L-PBF Ti-6Al-4V",
+          "multiaxial fatigue",
+          "building direction",
+          "life prediction",
+          "VAE-ANN",
+          "non-proportional loading"
+        ],
+        "summary_zh": {
+          "motivation": "研究L-PBF Ti-6Al-4V在多轴非比例加载下的疲劳行为及构建方向影响。",
+          "method": "进行四种构建方向的比例和非比例应变控制低周疲劳试验，并采用FS、KBMP和VAE-ANN模型预测寿命。",
+          "result": "VAE-ANN模型结合宏微观特征将寿命预测误差控制在10%以内。",
+          "validation": "通过多轴低周疲劳实验验证模型预测准确性。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the multiaxial low-cycle fatigue behavior of L-PBF Ti-6Al-4V under proportional and non-proportional loading with varying building directions.",
+          "method": "Strain-controlled multiaxial fatigue tests were conducted for four building directions; fatigue life was predicted using FS, KBMP, and a hybrid VAE-ANN model incorporating macro-micro features.",
+          "result": "The VAE-ANN model achieved high accuracy with life predictions within 10% error, outperforming analytical models and capturing building direction effects.",
+          "validation": "Experimental multiaxial low-cycle fatigue tests validated the predictive models, with fracture surface characterization supporting failure mechanisms."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "multiaxial low-cycle fatigue",
+            "zh": "多轴低周疲劳"
+          },
+          {
+            "en": "building direction",
+            "zh": "构建方向"
+          },
+          {
+            "en": "critical plane model",
+            "zh": "临界平面模型"
+          },
+          {
+            "en": "VAE-ANN",
+            "zh": "变分自编码器-人工神经网络"
+          },
+          {
+            "en": "life prediction",
+            "zh": "寿命预测"
+          },
+          {
+            "en": "non-proportional loading",
+            "zh": "非比例加载"
+          },
+          {
+            "en": "cyclic softening",
+            "zh": "循环软化"
+          },
+          {
+            "en": "defect density",
+            "zh": "缺陷密度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:31:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4416098273",
+      "doi": "10.1007/s00170-025-16853-5",
+      "title": "Geometrical accuracies, defects and compressive mechanical failure of hollow Ti-6Al-4V alloy cylinders printed by laser powder bed fusion using X-ray microcomputed tomography",
+      "abstract": "",
+      "authors": [
+        "Md. Bengir Ahmed Shuvho",
+        "Sophie Rapagna",
+        "Agatha Labrinidis",
+        "Egon Perilli",
+        "Ling Yin"
+      ],
+      "first_author_affiliation": "School of Electrical and Mechanical Engineering, The University of Adelaide, Adelaide, SA, 5005, Australia",
+      "corresponding_authors": [
+        {
+          "name": "Md. Bengir Ahmed Shuvho",
+          "affiliation": "School of Electrical and Mechanical Engineering, The University of Adelaide, Adelaide, SA, 5005, Australia"
+        }
+      ],
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "year": 2025,
+      "date": "2025-11-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s00170-025-16853-5",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "3d printed",
+        "Compressive strength",
+        "Brittleness",
+        "Alloy",
+        "3D printing",
+        "Shear (geology)",
+        "Laser",
+        "Soldering",
+        "Compression (physics)",
+        "Fracture (geology)",
+        "Failure mode and effects analysis",
+        "Fusion",
+        "Relative density",
+        "Elastic modulus"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "本文直接研究了激光粉末床熔融Ti-6Al-4V空心圆管的几何精度、缺陷及压缩力学性能，与L1方向高度相关。",
+        "why_not_core": "This paper does not address cyclic fatigue behavior or S-N curves, only quasi-static compressive failure.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "LPBF",
+          "compressive failure",
+          "X-ray microCT",
+          "geometrical accuracy",
+          "defects"
+        ],
+        "summary_zh": {
+          "motivation": "探究激光粉末床熔融Ti-6Al-4V空心圆管的几何精度和缺陷对压缩力学性能的影响。",
+          "method": "采用LPBF打印空心圆管，结合X射线显微CT表征缺陷，并进行压缩实验。",
+          "result": "发现缺陷类型和分布与压缩强度密切相关，几何偏差影响失效模式。",
+          "validation": "通过压缩实验与显微CT数据对比验证缺陷影响。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the geometrical accuracies and defects in hollow Ti-6Al-4V cylinders fabricated by laser powder bed fusion and their influence on compressive mechanical failure.",
+          "method": "Cylinders were printed by LPBF, characterized by X-ray microcomputed tomography for defect analysis, and subjected to compression tests.",
+          "result": "Defect type and distribution correlated with compressive strength, and geometrical deviations affected failure modes.",
+          "validation": "Experimental compression tests were validated against microCT defect data."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "X-ray microcomputed tomography",
+            "zh": "X射线显微计算机断层扫描"
+          },
+          {
+            "en": "compressive mechanical failure",
+            "zh": "压缩力学失效"
+          },
+          {
+            "en": "geometrical accuracy",
+            "zh": "几何精度"
+          },
+          {
+            "en": "defects",
+            "zh": "缺陷"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:31:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4416136663",
+      "doi": "10.1007/s44251-025-00106-4",
+      "title": "Tribological compatibility of cost-effective TiAlVN coatings deposited using Ti6Al4V alloy targets",
+      "abstract": "TiAlVN coatings were deposited via reactive magnetron sputtering using cost-effective Ti6Al4V alloy targets, offering a practical alternative to conventional sintered targets for TiN-based coatings. The TiAlVN coatings exhibited a microstructure composed of alternating Ti(Al,V)N and TiN nanocolumnar, with a hardness of 30.8 GPa. Tribological performance was evaluated against four counterparts (WC–Co, Si₃N₄, GCr15, and Al). Although Al had the lowest hardness, it resulted in the highest coating wear rate (8.02 × 10⁻⁶ mm3/N·m), whereas the hardest counterpart, WC–Co, showed the best tribological compatibility and the lowest coating wear rate (2.80 × 10⁻⁶ mm3/N·m). The wear mechanisms of the coatings and counterparts were discussed and the tribological compatibility parameter (Wt) was defined based on the wear rates of both the coating and the counterpart. Moreover, a model based on mechanical properties and COF was established to analysis and predict tribological compatibility. The model demonstrated strong correlation with experimental results (R2 = 0.94) and was further validated using external data, highlighting its applicability to other coating-counterpart systems.",
+      "authors": [
+        "Junfeng Shen",
+        "Bi Wu",
+        "Peng Wang",
+        "Huan Zhao",
+        "Deli Duan"
+      ],
+      "first_author_affiliation": "Institute of Metal Research, Chinese Academy of Sciences, Shenyang, China",
+      "corresponding_authors": [
+        {
+          "name": "Junfeng Shen",
+          "affiliation": "Institute of Metal Research, Chinese Academy of Sciences, Shenyang, China"
+        }
+      ],
+      "venue": "Surface Science and Technology",
+      "year": 2025,
+      "date": "2025-11-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s44251-025-00106-4",
+      "cited_by_count": 0,
+      "concepts": [
+        "Tribology",
+        "Materials science",
+        "Compatibility (geochemistry)",
+        "Coating",
+        "Tin",
+        "Microstructure",
+        "Metallurgy",
+        "Titanium alloy",
+        "Sputter deposition",
+        "Composite material",
+        "Alloy",
+        "Friction coefficient"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是TiAlVN涂层，并非增材制造Ti-6Al-4V的力学或疲劳性能，与研究方向无关。",
+        "why_not_core": "The paper focuses on TiAlVN coatings deposited via sputtering, not on the mechanical or fatigue performance of additively manufactured Ti-6Al-4V (LPBF/SLM/EBM/DED).",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "TiAlVN coatings",
+          "tribology",
+          "sputtering"
+        ],
+        "summary_zh": {
+          "motivation": "探索低成本Ti6Al4V靶材制备TiAlVN涂层的可行性及摩擦学性能。",
+          "method": "反应磁控溅射沉积TiAlVN涂层，测试其硬度和与四种对偶材料的摩擦学性能。",
+          "result": "涂层硬度30.8 GPa，与WC-Co对磨时磨损率最低，建立了摩擦学兼容性预测模型。",
+          "validation": "通过实验和外部数据验证模型，R²=0.94。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the tribological performance and cost-effectiveness of TiAlVN coatings deposited using Ti6Al4V alloy targets instead of conventional sintered targets.",
+          "method": "TiAlVN coatings were deposited by reactive magnetron sputtering, and their hardness and wear behavior were tested against four different counterpart materials.",
+          "result": "The coating achieved a hardness of 30.8 GPa, with the lowest wear rate against WC-Co, and a predictive model for tribological compatibility was developed.",
+          "validation": "The model was validated against experimental data and external datasets, achieving an R² of 0.94."
+        },
+        "key_terms": [
+          {
+            "en": "TiAlVN coatings",
+            "zh": "TiAlVN涂层"
+          },
+          {
+            "en": "reactive magnetron sputtering",
+            "zh": "反应磁控溅射"
+          },
+          {
+            "en": "tribological compatibility",
+            "zh": "摩擦学兼容性"
+          },
+          {
+            "en": "wear rate",
+            "zh": "磨损率"
+          },
+          {
+            "en": "Ti6Al4V target",
+            "zh": "Ti6Al4V靶材"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:31:07Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 8,
     "by_source": {
-      "openalex": 2
+      "openalex": 8
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 8,
+    "after_routing": 8,
     "by_direction": {
-      "ti6al4v_postprocess": 1,
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 6,
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 8
     },
-    "scored": 2,
+    "scored": 8,
     "priority_counts": {
-      "Exclude": 1,
-      "High": 1
+      "High": 4,
+      "Exclude": 3,
+      "Low": 1
     }
   }
 }

@@ -58,6 +58,10 @@
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "Ti64",
+          "additive manufacturing",
+          "selective laser melting",
+          "3D printed",
+          "SLM",
           "surface roughness",
           "fatigue",
           "fatigue life"
@@ -74,9 +78,9 @@
         "priority": "Medium",
         "relevance_level": "Direct",
         "read_action": "Skim only",
-        "relevance_to_user": "虽然表面粗糙度影响疲劳性能，但论文未直接测试机械性能。",
-        "why_not_core": "No fatigue, tensile, or other mechanical testing; only reports surface roughness reduction without connecting to mechanical performance.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V的等离子电解抛光后处理工艺，但未提供力学性能数据，仅关注表面粗糙度。",
+        "why_not_core": "No fatigue or tensile testing results; only surface roughness measurements without mechanical performance evaluation.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -85,22 +89,22 @@
         },
         "tags": [
           "plasma electrolytic polishing",
+          "surface finishing",
           "Ti-6Al-4V",
-          "surface roughness",
-          "additive manufacturing",
+          "selective laser melting",
           "post-processing"
         ],
         "summary_zh": {
-          "motivation": "SLM成形Ti64表面粗糙度影响疲劳寿命等性能。",
-          "method": "采用等离子电解抛光（PEP）对SLM Ti64进行单步表面处理。",
-          "result": "PEP在15-20分钟内将粗糙度从9-10 µm降至0.38-0.5 µm，满足卫生表面要求。",
-          "validation": "通过表面粗糙度测量验证抛光效果。"
+          "motivation": "SLM Ti-6Al-4V的高表面粗糙度限制了其疲劳寿命和卫生应用。",
+          "method": "对SLM Ti-6Al-4V施加等离子电解抛光（PEP）处理。",
+          "result": "PEP在15-20分钟内将粗糙度从9-10μm降至0.38-0.5μm。",
+          "validation": "表面轮廓仪测量粗糙度。"
         },
         "summary_en": {
-          "motivation": "The high surface roughness of additively manufactured Ti-6Al-4V parts degrades fatigue life, wear, and corrosion resistance, necessitating effective post-processing.",
-          "method": "Plasma electrolytic polishing (PEP) was applied as a single-step finishing process without pretreatments to selective laser melted Ti-6Al-4V.",
-          "result": "PEP reduced surface roughness from 9–10 µm to 0.38–0.5 µm within 15–20 minutes, meeting hygienic surface standards.",
-          "validation": "Surface profilometry was used to measure roughness before and after PEP treatment."
+          "motivation": "The high surface roughness of SLM Ti-6Al-4V parts adversely affects fatigue life and hygienic compliance.",
+          "method": "Plasma electrolytic polishing (PEP) was applied as a single-step finishing process to as-built Ti-6Al-4V coupons.",
+          "result": "PEP reduced surface roughness from initial ~9-10 µm to 0.38-0.5 µm within 15-20 minutes.",
+          "validation": "Surface roughness was characterized by contact profilometry."
         },
         "key_terms": [
           {
@@ -108,34 +112,26 @@
             "zh": "等离子电解抛光"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
-          {
             "en": "surface roughness",
             "zh": "表面粗糙度"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
             "en": "selective laser melting",
             "zh": "选择性激光熔化"
           },
           {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
-          },
-          {
             "en": "post-processing",
             "zh": "后处理"
-          },
-          {
-            "en": "hygienic surfaces",
-            "zh": "卫生表面"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:17:25Z"
+      "first_seen_at": "2026-06-08T08:27:10Z"
     },
     {
       "source": "openalex",
@@ -193,6 +189,10 @@
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "Ti64",
+          "additive manufacturing",
+          "selective laser melting",
+          "3D printed",
+          "SLM",
           "surface roughness",
           "fatigue",
           "fatigue life"
@@ -206,14 +206,14 @@
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文研究了Ti-6Al-4V增材制造件的等离子电解抛光表面处理，但未涉及任何力学性能测试，因此与后处理对疲劳/力学性能影响的方向核心关联较弱。",
-        "why_not_core": "No mechanical testing data (fatigue, tensile) is reported; only surface roughness measurements.",
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "论文直接涉及Ti-6Al-4V增材制造件的后处理（等离子电解抛光），但未提供疲劳或力学性能数据，因此对用户关注的后处理对力学性能影响的研究仅有参考价值。",
+        "why_not_core": "This paper reports only surface roughness reduction and does not provide any mechanical testing (fatigue, tensile) or microstructural characterization of the post-processed material.",
         "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
@@ -223,36 +223,37 @@
           "surface roughness",
           "Ti-6Al-4V",
           "selective laser melting",
+          "additive manufacturing",
           "post-processing"
         ],
         "summary_zh": {
-          "motivation": "解决选区激光熔融Ti-6Al-4V零件表面粗糙度高的问题",
-          "method": "采用等离子电解抛光（PEP）作为单步精加工工艺",
-          "result": "表面粗糙度从约9–10 µm降至0.38–0.5 µm，满足卫生级表面要求",
-          "validation": "通过表面粗糙度测量验证抛光效果"
+          "motivation": "增材制造Ti-6Al-4V的表面粗糙度问题影响性能和卫生标准。",
+          "method": "采用等离子电解抛光（PEP）作为一步式后处理工艺。",
+          "result": "表面粗糙度从9–10 μm降至0.38–0.5 μm，时间15–20分钟。",
+          "validation": "通过表面轮廓仪测量粗糙度验证。"
         },
         "summary_en": {
-          "motivation": "To address the high surface roughness of selective laser melted Ti-6Al-4V parts, which limits their fatigue life and application in hygienic settings.",
-          "method": "Plasma electrolytic polishing (PEP) was applied as a single-step finishing process without pretreatments.",
-          "result": "Surface roughness was reduced from initial 9–10 µm to 0.38–0.5 µm, meeting hygienic surface standards.",
-          "validation": "Validation was performed through surface roughness measurements using profilometry."
+          "motivation": "The inherent surface roughness of SLM-fabricated Ti-6Al-4V limits fatigue life and compliance with hygienic standards.",
+          "method": "Plasma electrolytic polishing (PEP) is evaluated as a single-step, environmentally friendly finishing process.",
+          "result": "PEP reduces surface roughness from approximately 9–10 μm to as low as 0.38–0.5 μm within 15–20 minutes.",
+          "validation": "Validation is performed via surface profilometry measurements only."
         },
         "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
+          },
           {
             "en": "plasma electrolytic polishing",
             "zh": "等离子电解抛光"
           },
           {
-            "en": "selective laser melting",
-            "zh": "选区激光熔融"
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
-          {
-            "en": "surface roughness",
-            "zh": "表面粗糙度"
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "additive manufacturing",
@@ -261,31 +262,179 @@
           {
             "en": "post-processing",
             "zh": "后处理"
+          },
+          {
+            "en": "hygienic surface",
+            "zh": "卫生表面"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:17:25Z"
+      "first_seen_at": "2026-06-08T08:27:10Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415217203",
+      "doi": "10.1016/j.jmrt.2025.10.100",
+      "title": "In situ synthesized 3D network structure TC4 metal matrix composites reinforced by the graphene via using laser additive manufacturing",
+      "abstract": "Due to high flexibility, non-mold short working cycle, free-from parts structure, and material constraints, laser additive manufacturing (LAM) has been applied to compose nanoparticle-reinforced metal matrix composites. In this work, cost-effective combined with high-performance 3D network graphene nanosheet (GNS) with TiC particles-reinforced Ti–6Al–4V (TC4) composites were conveniently prepared via the LAM process, leveraging the in situ Ti + C → TiC chemical reaction. This preparation method facilitated the formation of a highly uniform reinforcement phase network (GNS-TiC/Ti) distributed within the Ti–6Al–4V α/β matrix. The size of the GNS-TC4 grain decreased synchronously as the addition of GNS increased, primarily caused by the in situ TiC nanoparticles pinning effect along grain boundaries, which plays a limiting role in the process of grain growth. Mechanical result indicated that the incorporation of 1 wt% GNS resulted in 1.56 % increase in microhardness and 29.7 % increase in yield strength compared to the direct addition of TiC-reinforced TC4. The analysis of the alloy structure at the subsurface of the fracture revealed the uniform distribution of the situ-generated TiC particles in the alloy matrix, and no defects of the pores were observed around the particle. The reinforced strength of the GNS-TC4 is attributable primarily to shear-lag strengthening and thermal mismatch strengthening mechanism. This work furnishes new thoughts into the preparation of balanced-performance titanium matrix composites when combined with laser additive manufacturing technology.",
+      "authors": [
+        "Guonan Zhang",
+        "Naiwen Zuo",
+        "Yuxi Gao",
+        "Jingshun Liu",
+        "Yongquan Han",
+        "Huaming Wang"
+      ],
+      "first_author_affiliation": "Inner Mongolia Key Laboratory of New Materials and Surface Engineering, Huhehaote, 010051, Inner Mongolia, China",
+      "corresponding_authors": [
+        {
+          "name": "Yuxi Gao",
+          "affiliation": "Inner Mongolia Key Laboratory of New Materials and Surface Engineering, Huhehaote, 010051, Inner Mongolia, China"
+        }
+      ],
+      "venue": "Journal of Materials Research and Technology",
+      "year": 2025,
+      "date": "2025-10-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jmrt.2025.10.100",
+      "cited_by_count": 5,
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Graphene",
+        "Indentation hardness",
+        "Alloy",
+        "Nanosheet",
+        "Laser",
+        "Titanium alloy",
+        "Microstructure",
+        "Grain size",
+        "Strengthening mechanisms of materials",
+        "Titanium",
+        "Phase (matter)",
+        "Metal",
+        "Nanoparticle",
+        "Grain growth",
+        "Matrix (chemical analysis)",
+        "Yield (engineering)",
+        "Composite number",
+        "In situ"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "additive manufacturing",
+          "yield strength"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了激光增材制造的石墨烯增强TC4复合材料的力学性能，对理解Ti-6Al-4V基复合材料的强化机制有参考价值，但非纯Ti-6Al-4V的力学与疲劳特性。",
+        "why_not_core": "This paper focuses on a graphene-reinforced Ti-6Al-4V composite, not on the mechanical or fatigue characterization of pure additively manufactured Ti-6Al-4V, and provides no fatigue data.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "graphene nanosheet reinforced",
+          "Ti-6Al-4V composite",
+          "laser additive manufacturing",
+          "mechanical properties",
+          "microstructure",
+          "in situ reaction",
+          "TiC particles"
+        ],
+        "summary_zh": {
+          "motivation": "利用激光增材制造原位合成石墨烯增强TC4复合材料，提升力学性能。",
+          "method": "通过激光增材制造原位反应（Ti+C→TiC）制备3D网络结构GNS-TiC/TC4复合材料，并表征其微观结构与力学性能。",
+          "result": "添加1wt%GNS使显微硬度提高1.56%，屈服强度提高29.7%，强化机制为剪切滞后和热错配。",
+          "validation": "通过显微硬度测试、拉伸测试和断口微观分析验证力学性能与组织结构。"
+        },
+        "summary_en": {
+          "motivation": "To develop cost-effective high-performance titanium matrix composites by in situ synthesizing graphene nanosheet and TiC particle reinforcements within Ti-6Al-4V using laser additive manufacturing.",
+          "method": "Laser additive manufacturing was employed to fabricate a 3D network GNS-TiC/Ti composite via the in situ reaction Ti + C → TiC, with graphene nanosheets and TiC nanoparticles uniformly distributed in the α/β matrix.",
+          "result": "Incorporation of 1 wt% GNS increased microhardness by 1.56% and yield strength by 29.7% compared to directly added TiC-reinforced TC4, attributed to shear-lag and thermal mismatch strengthening mechanisms.",
+          "validation": "Mechanical properties were validated through microhardness and tensile tests, and the fracture subsurface analysis confirmed uniform TiC distribution with no pore defects."
+        },
+        "key_terms": [
+          {
+            "en": "laser additive manufacturing",
+            "zh": "激光增材制造"
+          },
+          {
+            "en": "graphene nanosheet",
+            "zh": "石墨烯纳米片"
+          },
+          {
+            "en": "TiC particles",
+            "zh": "TiC颗粒"
+          },
+          {
+            "en": "in situ reaction",
+            "zh": "原位反应"
+          },
+          {
+            "en": "metal matrix composite",
+            "zh": "金属基复合材料"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "yield strength",
+            "zh": "屈服强度"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "strengthening mechanism",
+            "zh": "强化机制"
+          },
+          {
+            "en": "TC4 (Ti-6Al-4V)",
+            "zh": "TC4钛合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:27:10Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_postprocess": 2
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
-      "Medium": 1,
-      "Low": 1
+      "Medium": 3
     }
   }
 }

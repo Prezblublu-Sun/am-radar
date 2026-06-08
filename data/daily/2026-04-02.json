@@ -57,6 +57,11 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additively manufactured",
+          "selective laser melting",
+          "electron beam melting",
+          "SLM",
+          "EBM",
           "defect",
           "surface roughness",
           "fatigue"
@@ -73,8 +78,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究Ti-6Al-4V增材制造后处理（HIP、真空热处理）对疲劳性能的影响，与L2方向高度契合。",
-        "why_not_core": "Focuses on HIP and heat treatment only; does not cover machining, shot peening, or other surface treatments.",
+        "relevance_to_user": "该论文直接研究Ti-6Al-4V合金的后处理（热等静压、真空热处理）对疲劳性能的影响，符合L2方向要求。",
+        "why_not_core": "This paper does not focus on a single post-processing route's effect on microstructure or tensile properties; instead, it presents a defect-based fatigue model calibrated on multiple post-processing conditions.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -84,34 +89,44 @@
         },
         "tags": [
           "Ti-6Al-4V",
+          "fatigue",
+          "defects",
           "post-processing",
           "hot isostatic pressing",
           "vacuum heat treatment",
-          "fatigue modelling",
-          "defect characterization",
-          "EBM",
-          "SLM"
+          "electron beam melting",
+          "selective laser melting",
+          "probabilistic modeling",
+          "fracture mechanics"
         ],
         "summary_zh": {
-          "motivation": "增材制造Ti-6Al-4V缺陷（如表面粗糙度）的疲劳效应尚未统一建模。",
-          "method": "提出基于缺陷的概率疲劳模型，结合CT表征和极值统计，校准于EBM和SLM样品的实验数据。",
-          "result": "模型有效预测不同后处理状态（HIP、真空热处理）下的疲劳极限。",
-          "validation": "通过不同后处理状态的Ti-6Al-4V疲劳实验验证模型。"
+          "motivation": "增材制造Ti-6Al-4V的缺陷严重影响疲劳性能，需要统一模型来评估表面和内部缺陷的影响。",
+          "method": "提出基于概率断裂力学的缺陷模型，结合CT和极值统计，并使用不同后处理条件进行校准。",
+          "result": "模型能有效预测不同后处理状态下Ti-6Al-4V的疲劳极限，提供概率失效评估。",
+          "validation": "通过EBM和SLM两种工艺制造的Ti-6Al-4V在不同后处理后的疲劳实验数据验证。"
         },
         "summary_en": {
-          "motivation": "A unified model for fatigue endurance limit considering surface roughness and bulk defects in additively manufactured Ti-6Al-4V is lacking.",
-          "method": "A probabilistic defect-based model integrating bulk/subsurface/surface defects was developed, calibrated on fatigue tests of EBM and SLM Ti-6Al-4V with varied post-processing (HIP, vacuum heat treatment).",
-          "result": "The model accurately predicted fatigue limits across all material conditions, capturing the effects of defect distributions from CT and extreme value statistics.",
-          "validation": "Experimental fatigue characterization of as-built and post-processed Ti-6Al-4V specimens was used for model calibration and validation."
+          "motivation": "The fatigue performance of additively manufactured Ti-6Al-4V is severely degraded by defects, necessitating a unified model to account for both surface and bulk defects under various post-processing conditions.",
+          "method": "A probabilistic defect-based fatigue model integrating fracture mechanics, computed tomography, and extreme value statistics is calibrated on Ti-6Al-4V specimens subjected to hot isostatic pressing, vacuum heat treatment, and as-built conditions.",
+          "result": "The proposed model effectively predicts the fatigue endurance limit across all studied material states, providing a probabilistic assessment of failure.",
+          "validation": "The model is validated against an extensive experimental fatigue characterization of Ti-6Al-4V manufactured by electron beam melting and selective laser melting with different post-processing treatments."
         },
         "key_terms": [
           {
-            "en": "laser powder bed fusion",
-            "zh": "激光粉末床熔融"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
-            "en": "electron beam melting",
-            "zh": "电子束熔化"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "fatigue",
+            "zh": "疲劳"
+          },
+          {
+            "en": "defect",
+            "zh": "缺陷"
           },
           {
             "en": "hot isostatic pressing",
@@ -122,48 +137,174 @@
             "zh": "真空热处理"
           },
           {
-            "en": "fatigue endurance limit",
-            "zh": "疲劳极限"
+            "en": "electron beam melting",
+            "zh": "电子束熔融"
           },
           {
-            "en": "defect characterization",
-            "zh": "缺陷表征"
+            "en": "selective laser melting",
+            "zh": "选择性激光熔融"
           },
           {
-            "en": "extreme value statistics",
-            "zh": "极值统计"
+            "en": "probabilistic model",
+            "zh": "概率模型"
           },
           {
-            "en": "computed tomography",
-            "zh": "计算机断层扫描"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "en": "fracture mechanics",
+            "zh": "断裂力学"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7148329540",
+      "doi": "10.6084/m9.figshare.31007056.v1",
+      "title": "Virtual and Physical Prototyping Data statement",
+      "abstract": "This dataset contains all figures associated with the manuscript on chamber-free laser wire directed energy deposition (LW-DED) of Ti-6Al-4V using morphing shield technology (MST). The uploaded figures include CFD simulations of gas flow behavior under different shielding configurations, experimental build results for thin-wall and large-scale structures, optical and microstructural observations, and mechanical characterization including hardness distributions.The dataset supports the validation of localized inert gas shielding in open-atmosphere conditions and provides visual evidence of process stability, oxidation control, and structure–property relationships. Figures include comparisons between conventional outer shielding and morphing shield configurations, as well as builds performed with and without real-time melt control.These images are provided to enhance transparency, reproducibility, and further analysis of the reported results.",
+      "authors": [
+        "Veerendra Chitturi"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Veerendra Chitturi",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Figshare",
+      "year": 2026,
+      "date": "2026-04-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.6084/m9.figshare.31007056.v1",
+      "cited_by_count": 0,
+      "concepts": [
+        "Electromagnetic shielding",
+        "Shield",
+        "Characterization (materials science)",
+        "Morphing",
+        "Process (computing)",
+        "Upload",
+        "Mechanical engineering",
+        "Engineering drawing",
+        "Rapid prototyping",
+        "Computer science",
+        "Deposition (geology)",
+        "Inert gas",
+        "Virtual prototyping",
+        "Energy (signal processing)",
+        "Data acquisition",
+        "Software",
+        "Engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "directed energy deposition",
+          "DED"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该数据集提供了Ti-6Al-4V增材制造（LW-DED）的硬度分布等力学表征，但缺乏疲劳性能数据，仅作为辅助资料。",
+        "why_not_core": "This is a dataset of figures supporting a separate manuscript; it does not present standalone mechanical/fatigue characterization or modeling, and contains no fatigue data.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "LW-DED",
+          "morphing shield technology",
+          "hardness",
+          "CFD simulations",
+          "mechanical characterization"
+        ],
+        "summary_zh": {
+          "motivation": "提供激光导线材定向能量沉积Ti-6Al-4V数据的可视化支持。",
+          "method": "包含CFD模拟、实验构建、微观结构和硬度分布的数据集。",
+          "result": "展示了不同屏蔽配置下的气体流动、构建质量和结构-性能关系。",
+          "validation": "通过实验构建和硬度测试验证局部惰性气体屏蔽效果。"
+        },
+        "summary_en": {
+          "motivation": "This dataset provides visual evidence to support the validation of localized inert gas shielding in open-atmosphere LW-DED of Ti-6Al-4V.",
+          "method": "The dataset includes CFD simulations, experimental builds, microstructural observations, and hardness distributions.",
+          "result": "Gas flow behavior, process stability, oxidation control, and structure–property relationships are documented for different shielding configurations.",
+          "validation": "Experimental builds and hardness measurements validate the effectiveness of morphing shield technology."
+        },
+        "key_terms": [
+          {
+            "en": "laser wire directed energy deposition",
+            "zh": "激光导线定向能量沉积"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "morphing shield technology",
+            "zh": "变形屏蔽技术"
+          },
+          {
+            "en": "CFD simulation",
+            "zh": "计算流体动力学模拟"
+          },
+          {
+            "en": "hardness distribution",
+            "zh": "硬度分布"
+          },
+          {
+            "en": "mechanical characterization",
+            "zh": "力学表征"
+          },
+          {
+            "en": "process stability",
+            "zh": "工艺稳定性"
+          },
+          {
+            "en": "oxidation control",
+            "zh": "氧化控制"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "High": 1
+      "High": 1,
+      "Low": 1
     }
   }
 }

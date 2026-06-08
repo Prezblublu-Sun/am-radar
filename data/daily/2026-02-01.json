@@ -70,11 +70,11 @@
         ]
       },
       "llm": {
-        "priority": "Low",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "本文综述了Ti6Al4V的电化学表面改性方法，但未涉及增材制造或疲劳/力学性能，与本方向（增材制造Ti-6Al-4V后处理对力学性能的影响）关联较弱。",
-        "why_not_core": "This paper is a general review of electrochemical surface modification of Ti6Al4V without any focus on additive manufacturing, mechanical performance, or fatigue testing; it does not address post-processing of AM Ti-6Al-4V.",
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "本文对Ti6Al4V的电化学表面改性方法进行了综述，虽未涉及增材制造材料，但为后处理工艺提供了理论参考。",
+        "why_not_core": "This is a review paper that does not present experimental mechanical performance data, nor does it specifically address additive-manufactured Ti-6Al-4V or focus on fatigue/tensile properties.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
@@ -83,22 +83,24 @@
           "is_review": true
         },
         "tags": [
+          "electrochemical surface modification",
           "Ti6Al4V",
           "electrochemical machining",
-          "surface modification",
-          "review"
+          "anodization",
+          "plasma electrolytic oxidation",
+          "electrochemical polishing"
         ],
         "summary_zh": {
-          "motivation": "提高Ti6Al4V表面性能，克服传统表面改性方法的热输入和机械应力问题。",
-          "method": "综述电化学加工（ECM）、阳极氧化、等离子体电解氧化和电化学抛光等方法。",
-          "result": "提出ECM作为低价态溶解途径，可定制表面形貌并抑制钝化膜生成。",
-          "validation": "无实验验证，仅为理论框架综述。"
+          "motivation": "综述Ti6Al4V电化学表面改性方法以改善其耐磨性和硬度。",
+          "method": "将电化学加工与阳极氧化、PEO和ECP整合在统一的电化学表面工程框架内。",
+          "result": "电化学加工实现低价态溶解，抑制钝化膜，获得原子级光滑表面。",
+          "validation": "理论综述，无实验验证。"
         },
         "summary_en": {
-          "motivation": "To improve the surface properties of Ti6Al4V alloy while avoiding thermal and mechanical damage from conventional surface modification techniques.",
-          "method": "This review repositions electrochemical machining (ECM) as a low-valence dissolution pathway and integrates it with anodization, plasma electrolytic oxidation, and electrochemical polishing.",
-          "result": "ECM enables atomically smooth surfaces and inhibits passive film formation, offering better control over surface chemistry without thermal or mechanical stress.",
-          "validation": "No experimental validation; the study presents a theoretical framework based on literature review."
+          "motivation": "This review aims to consolidate electrochemical surface modification techniques for Ti6Al4V to overcome its poor tribological performance and low surface hardness.",
+          "method": "The authors propose a theoretical framework integrating electrochemical machining (ECM) with anodization, plasma electrolytic oxidation (PEO), and electrochemical polishing (ECP) under a unified electrochemical surface engineering paradigm.",
+          "result": "ECM enables valence-controlled dissolution favoring lower oxidation states, inhibits passive film formation, and produces atomically smooth surfaces with enhanced functional and morphological properties.",
+          "validation": "No experimental validation is provided; the work is a conceptual review and theoretical framework."
         },
         "key_terms": [
           {
@@ -106,7 +108,7 @@
             "zh": "Ti6Al4V钛合金"
           },
           {
-            "en": "electrochemical machining",
+            "en": "electrochemical machining (ECM)",
             "zh": "电化学加工"
           },
           {
@@ -114,16 +116,20 @@
             "zh": "阳极氧化"
           },
           {
-            "en": "plasma electrolytic oxidation",
+            "en": "plasma electrolytic oxidation (PEO)",
             "zh": "等离子体电解氧化"
           },
           {
-            "en": "electrochemical polishing",
+            "en": "electrochemical polishing (ECP)",
             "zh": "电化学抛光"
           },
           {
             "en": "surface modification",
             "zh": "表面改性"
+          },
+          {
+            "en": "passive film",
+            "zh": "钝化膜"
           },
           {
             "en": "low-valence dissolution",
@@ -133,25 +139,702 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7128163313",
+      "doi": "10.1016/j.jallcom.2026.186673",
+      "title": "Simultaneous strength and ductility enhancement in in-situ alloying Ti6Al4V alloy by trace carbon addition via laser powder bed fusion (LPBF)",
+      "abstract": "",
+      "authors": [
+        "Hamidreza Shahriari",
+        "Homam Naffakh-Moosavy",
+        "Mohammad Hossein Mosallanejad",
+        "Luca Iuliano",
+        "Abdollah Saboori"
+      ],
+      "first_author_affiliation": "Department of Materials Engineering, Tarbiat Modares University (TMU), PO Box, 14115-143, Tehran, Iran",
+      "corresponding_authors": [
+        {
+          "name": "Homam Naffakh-Moosavy",
+          "affiliation": "Department of Materials Engineering, Tarbiat Modares University (TMU), PO Box, 14115-143, Tehran, Iran"
+        }
+      ],
+      "venue": "Journal of Alloys and Compounds",
+      "year": 2026,
+      "date": "2026-02-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.jallcom.2026.186673",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Titanium alloy",
+        "Ductility (Earth science)",
+        "Alloy",
+        "Ultimate tensile strength",
+        "Carbon fibers",
+        "Carbide",
+        "Hot isostatic pressing",
+        "Metallurgy",
+        "Fractography",
+        "Brittleness",
+        "Grain boundary",
+        "Microstructure",
+        "Martensite",
+        "Titanium",
+        "Elongation",
+        "Titanium carbide",
+        "Phase (matter)",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "本文通过LPBF原位添加微量碳元素实现了Ti-6Al-4V的强度与塑性同步提升，直接契合方向对增材制造Ti-6Al-4V力学性能的研究重点。",
+        "why_not_core": "Paper does not include fatigue life or S-N curves; only static tensile properties are reported.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "in-situ alloying",
+          "carbon addition",
+          "strength-ductility synergy",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "克服增材制造Ti-6Al-4V的强度-塑性矛盾。",
+          "method": "在LPBF过程中原位添加微量碳元素进行合金化。",
+          "result": "成功实现了强度与塑性的同步提升。",
+          "validation": "通过拉伸等力学测试验证性能改善。"
+        },
+        "summary_en": {
+          "motivation": "To overcome the strength-ductility trade-off in additively manufactured Ti-6Al-4V.",
+          "method": "In-situ alloying with trace carbon during laser powder bed fusion (LPBF).",
+          "result": "Simultaneous enhancement of strength and ductility was achieved.",
+          "validation": "Mechanical testing including tensile tests was conducted to validate the property improvements."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "in-situ alloying",
+            "zh": "原位合金化"
+          },
+          {
+            "en": "trace carbon",
+            "zh": "微量碳"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "strength-ductility synergy",
+            "zh": "强度-塑性协同"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7127052129",
+      "doi": "10.1016/j.ijfatigue.2026.109530",
+      "title": "Fatigue quality assessment of additive manufactured Ti-6Al-4V alloy by unified three-dimensional fatigue fracture method",
+      "abstract": "",
+      "authors": [
+        "Yu Xia",
+        "Wanlin Guo"
+      ],
+      "first_author_affiliation": "State Key Laboratory of Mechanics and Control of Mechanical Structures, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China",
+      "corresponding_authors": [
+        {
+          "name": "Wanlin Guo",
+          "affiliation": "State Key Laboratory of Mechanics and Control of Mechanical Structures, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China"
+        }
+      ],
+      "venue": "International Journal of Fatigue",
+      "year": 2026,
+      "date": "2026-02-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2026.109530",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Fracture (geology)",
+        "Consistency (knowledge bases)",
+        "Probabilistic logic",
+        "Quality (philosophy)",
+        "Fatigue limit",
+        "Structural engineering",
+        "Paris' law",
+        "Fatigue testing",
+        "Distribution (mathematics)",
+        "Alloy",
+        "Fracture mechanics",
+        "Vibration fatigue",
+        "Process (computing)",
+        "Manufacturing process"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对增材制造Ti-6Al-4V合金的疲劳性能评估，采用统一三维疲劳断裂方法，与用户关注的力学和疲劳方向高度相关。",
+        "why_not_core": "The paper does not investigate the influence of specific AM process parameters (e.g., build orientation, layer thickness) on fatigue performance.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "fatigue quality assessment",
+          "unified 3D fatigue fracture method",
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "microstructural defects",
+          "fatigue life prediction"
+        ],
+        "summary_zh": {
+          "motivation": "针对增材制造Ti-6Al-4V合金疲劳性能评估问题。",
+          "method": "采用统一三维疲劳断裂方法预测疲劳寿命。",
+          "result": "方法有效预测了含缺陷试样的疲劳寿命。",
+          "validation": "与文献实验数据对比验证。"
+        },
+        "summary_en": {
+          "motivation": "To assess the fatigue quality of additively manufactured Ti-6Al-4V alloy using a unified three-dimensional fatigue fracture method.",
+          "method": "A unified 3D fatigue fracture method incorporating microstructural defects is developed to predict fatigue life.",
+          "result": "The method accurately predicts fatigue life of AM Ti-6Al-4V components with defects.",
+          "validation": "Validation is performed by comparing predicted fatigue lives with experimental data from published literature."
+        },
+        "key_terms": [
+          {
+            "en": "fatigue quality assessment",
+            "zh": "疲劳质量评估"
+          },
+          {
+            "en": "unified three-dimensional fatigue fracture method",
+            "zh": "统一三维疲劳断裂方法"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "microstructural defects",
+            "zh": "微观缺陷"
+          },
+          {
+            "en": "fatigue life prediction",
+            "zh": "疲劳寿命预测"
+          },
+          {
+            "en": "experimental validation",
+            "zh": "实验验证"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7131667808",
+      "doi": "10.1016/j.mtcomm.2026.114923",
+      "title": "Additively manufactured oxygen-doped TiZrNb medium-entropy alloy with enhanced corrosion resistance and apatite-forming ability",
+      "abstract": "The development of load-bearing metallic implants requires an uncommon combination of mechanical compatibility, corrosion resistance in physiological environments, and biocompatibility that supports stable integration with host tissues. In this study, we investigate an oxygen-doped TiZrNb medium-entropy alloy (~1 at.% O) fabricated by laser powder bed fusion (L-PBF) and evaluate its mechanical compatibility and bioactivity-relevant interfacial stability in simulated body fluid (SBF) on the plane perpendicular to the building direction, alongside the previously reported strength-ductility synergy. Nanoindentation reveals a low elastic modulus of ~80.86 GPa, substantially lower than that of commercially pure Ti and Ti-6Al-4V, indicating improved elastic matching with bone and reduced propensity for stress shielding. Electrochemical testing in SBF demonstrates markedly enhanced passivation of the additively manufactured alloy relative to its cast counterpart, evidenced by a low corrosion current density (i corr = 1.52 × 10 -8 A·cm -2 ) and a high charge-transfer resistance (R ct = 207.6 kΩ·cm 2 ). In vitro apatite-forming tests show that the L-PBF surface develops dense and uniformly distributed Ca-P-O-rich deposits, suggesting an improved mineralization capability. Collectively, these results establish an additive manufacturing pathway to integrate bone-friendlier elasticity with robust corrosion/mineralization performance in TiZrNb-based alloys, supporting the promise of L-PBF TiZrNb-O for next-generation, patient-specific load-bearing implants.",
+      "authors": [
+        "Yuan Si",
+        "Yuhua Chen",
+        "Yaqiong An",
+        "Y. N. Liu",
+        "Yong Li",
+        "Jun Ding"
+      ],
+      "first_author_affiliation": "Department of Medical Science Research Center, Brain Injury and Drug Prevention Research Key Laboratory of Shaanxi Universities, Peihua University, Xi’an Shaanxi, 710125, China",
+      "corresponding_authors": [
+        {
+          "name": "Jun Ding",
+          "affiliation": "Center for Alloy Innovation and Design, State Key Laboratory for Mechanical Behavior of Materials, Xi’an Jiaotong University, Xi’an, 710049, China"
+        }
+      ],
+      "venue": "Materials Today Communications",
+      "year": 2026,
+      "date": "2026-02-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.mtcomm.2026.114923",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Corrosion",
+        "Simulated body fluid",
+        "Alloy",
+        "Nanoindentation",
+        "Passivation",
+        "Elastic modulus",
+        "Composite material",
+        "Biocompatibility",
+        "Fusion",
+        "Elasticity (physics)",
+        "Modulus",
+        "Metal",
+        "Perpendicular",
+        "Metallurgy",
+        "Selective laser melting",
+        "Young's modulus",
+        "Electrochemistry"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "ductility"
+        ],
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "stress shielding"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是TiZrNb合金而非Ti-6Al-4V，且不涉及股骨柄结构设计或力学性能。",
+        "why_not_core": "The paper investigates a TiZrNb alloy, not Ti-6Al-4V, and focuses on corrosion resistance and apatite formation rather than femoral stem structural design, stress shielding, or fatigue performance.",
+        "validation_kind": "in_vitro",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "TiZrNb",
+          "medium-entropy alloy",
+          "laser powder bed fusion",
+          "corrosion resistance",
+          "apatite formation"
+        ],
+        "summary_zh": {
+          "motivation": "开发兼具力学相容性和生物活性的承重植入物合金",
+          "method": "激光粉末床熔融制备含氧TiZrNb中熵合金，进行电化学和模拟体液测试",
+          "result": "合金具有低弹性模量（~80.86 GPa）和优异的耐腐蚀性及磷灰石形成能力",
+          "validation": "通过纳米压痕、电化学测试和体外矿化实验验证"
+        },
+        "summary_en": {
+          "motivation": "To develop a load-bearing implant alloy that combines mechanical compatibility with bioactivity.",
+          "method": "Oxygen-doped TiZrNb medium-entropy alloy was fabricated by laser powder bed fusion and evaluated via nanoindentation, electrochemical tests, and apatite formation in simulated body fluid.",
+          "result": "The alloy exhibited a low elastic modulus (~80.86 GPa), enhanced corrosion resistance, and dense Ca-P-O deposits indicating improved mineralization.",
+          "validation": "Validation was performed through nanoindentation, electrochemical impedance spectroscopy, and in vitro apatite formation tests."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "medium-entropy alloy",
+            "zh": "中熵合金"
+          },
+          {
+            "en": "TiZrNb",
+            "zh": "钛锆铌合金"
+          },
+          {
+            "en": "elastic modulus",
+            "zh": "弹性模量"
+          },
+          {
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
+          },
+          {
+            "en": "apatite-forming ability",
+            "zh": "磷灰石形成能力"
+          },
+          {
+            "en": "simulated body fluid",
+            "zh": "模拟体液"
+          },
+          {
+            "en": "nanoindentation",
+            "zh": "纳米压痕"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7127362954",
+      "doi": "10.2351/7.0002035",
+      "title": "Effect of annealing temperature on mechanical properties of welds of Ti-6Al-4V titanium alloy",
+      "abstract": "This study investigates the microstructure and mechanical properties of Ti-6Al-4V welds at different annealing temperatures, aiming to clarify the role of temperature in joining thin-walled titanium alloy pipes for aerospace applications. It is found that (1) with the same annealing temperature, Widmanstätten structures are observed in the welds by laser welding, and no Widmanstätten structure is observed in the welds by TIG welding. (2) The joint performance depends on the average grain size and the dislocation of the weld. When the annealing temperature is set as 650 °C, the tensile strength of the weld by laser is slightly higher (i.e., 0.9%) than that of the weld by TIG, and the microhardness of the weld by laser shows no difference from that of the weld by TIG. The average grain size of the weld by laser is 3.48% higher than that of the weld by TIG. The KAMave of the weld by laser is 14.8% lower than that of the weld by TIG. (3) When the specimens are joined by laser welding and the annealing temperature is increased from 650 to 800 °C, the weld microstructure transforms into a basketweave structure. Both microhardness and tensile strength of the weld are decreased significantly. The average grain size of the weld is increased by 8.73%, and the KAMave of the weld is decreased by 28.3%. In summary, the impact of the annealing temperature on the joint performance of the weld by laser welding is significantly greater than that of the weld by TIG.",
+      "authors": [
+        "Jiangyun Zheng",
+        "Shengjun Peng",
+        "Mingjun Zhang",
+        "Junzhao Li",
+        "Bo Cheng",
+        "Yingzhe Zhang",
+        "Zhengwei Qi",
+        "Jiaying Yan",
+        "Guangliang Li",
+        "Zihao Qin",
+        "Tao Liu"
+      ],
+      "first_author_affiliation": "Hunan Provincial Key Laboratory of Intelligent Manufacturing Technology for High-Performance Mechanical Equipment, Changsha University of Science and Technology 1 , Changsha 410114,",
+      "corresponding_authors": [
+        {
+          "name": "Jiangyun Zheng",
+          "affiliation": "Hunan Provincial Key Laboratory of Intelligent Manufacturing Technology for High-Performance Mechanical Equipment, Changsha University of Science and Technology 1 , Changsha 410114,"
+        }
+      ],
+      "venue": "Journal of Laser Applications",
+      "year": 2026,
+      "date": "2026-02-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.2351/7.0002035",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Welding",
+        "Annealing (glass)",
+        "Metallurgy",
+        "Laser beam welding",
+        "Microstructure",
+        "Ultimate tensile strength",
+        "Indentation hardness",
+        "Gas tungsten arc welding",
+        "Grain size",
+        "Titanium alloy",
+        "Composite material",
+        "Heat-affected zone",
+        "Titanium",
+        "Tensile testing",
+        "Alloy",
+        "Electric resistance welding"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "tensile strength"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "annealing"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究焊接件退火，而非增材制造Ti-6Al-4V的后处理",
+        "why_not_core": "The paper studies Ti-6Al-4V welds, not additive-manufactured Ti-6Al-4V; it lacks an AM context entirely.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "annealing",
+          "welding",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "研究退火温度对Ti-6Al-4V焊接接头性能的影响",
+          "method": "对不同退火温度的激光焊和TIG焊试样进行显微组织和力学性能测试",
+          "result": "激光焊在650°C退火时性能略优于TIG焊，但随温度升高性能下降",
+          "validation": "通过拉伸测试和显微硬度进行机械性能验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of annealing temperature on the mechanical properties of Ti-6Al-4V welds for aerospace pipe joining.",
+          "method": "Laser and TIG welded Ti-6Al-4V specimens were annealed at different temperatures and characterized for microstructure, tensile strength, and microhardness.",
+          "result": "At 650°C annealing, laser welds showed slightly higher tensile strength (0.9%) and finer grain size than TIG welds, but increasing temperature to 800°C degraded properties significantly.",
+          "validation": "Validation via experimental mechanical testing (tensile and microhardness) and microstructural analysis."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "annealing temperature",
+            "zh": "退火温度"
+          },
+          {
+            "en": "laser welding",
+            "zh": "激光焊接"
+          },
+          {
+            "en": "TIG welding",
+            "zh": "TIG焊接"
+          },
+          {
+            "en": "Widmanstätten structure",
+            "zh": "魏氏组织"
+          },
+          {
+            "en": "basketweave structure",
+            "zh": "网篮组织"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "grain size",
+            "zh": "晶粒尺寸"
+          },
+          {
+            "en": "Kernel Average Misorientation (KAM)",
+            "zh": "核平均取向差"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7127721955",
+      "doi": "10.1016/j.cjme.2026.100236",
+      "title": "Study on the influence of tool structure on the gyroscopic milling performance of CFRP/Ti-6Al-4V stacked materials",
+      "abstract": "Carbon fiber reinforced polymer (CFRP)/titanium alloy (Ti-6Al-4V) stacked materials have been widely used in the aerospace field due to their excellent mechanical performance. However, owing to the differences in both mechanical and thermal properties between CFRP and Ti-6Al-4V, the machining characteristics of CFRP/Ti-6Al-4V stacked materials are significantly different from those of single-material components. Therefore, selecting appropriate tool structures and machining processes is an effective approach to improving hole quality. This paper proposes a gyroscopic milling process method and conducts comparative experiments on hole-milling using three milling cutters with different corner radii, performed on a self-developed gyroscopic milling actuator. A multi-point offset thermocouple configuration in both axial and radial directions is proposed for cutting temperature measurement. The influence patterns of tool structure and machining parameters on cutting temperature, axial force, and hole-making quality are analyzed. The results indicate that increasing the spindle speed while decreasing the orbital speed and feed rate can effectively reduce the axial force during gyroscopic milling of stacked materials. As the tool corner radius increases, the cutting temperature and axial force demonstrate certain reductions in all machining zones - whether in CFRP, Ti-6Al-4V, or the two-body material machining zone. Compared to the other two milling cutters, the tool with a 2 mm corner radius strengthens the deformation resistance of the residual material at the hole exit zone during machining, thereby achieving a more ideal hole exit quality.",
+      "authors": [
+        "Hui Xiao",
+        "Tao Chen",
+        "Chunhui Li",
+        "Guangyue Wang",
+        "Zhilong Yu",
+        "Wenjie Kang",
+        "Yu Zhang"
+      ],
+      "first_author_affiliation": "School of Mechanical and Power Engineering, Harbin University of Science and Technology, Harbin 150080, China",
+      "corresponding_authors": [
+        {
+          "name": "Tao Chen",
+          "affiliation": "School of Mechanical and Power Engineering, Harbin University of Science and Technology, Harbin 150080, China"
+        }
+      ],
+      "venue": "Chinese Journal of Mechanical Engineering",
+      "year": 2026,
+      "date": "2026-02-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.cjme.2026.100236",
+      "cited_by_count": 1,
+      "concepts": [
+        "Machining",
+        "Materials science",
+        "Mechanical engineering",
+        "Thermocouple",
+        "Gyroscope",
+        "Deformation (meteorology)",
+        "Cutting tool",
+        "Composite material",
+        "Milling cutter",
+        "Aerospace",
+        "RADIUS",
+        "Alloy",
+        "Thermal",
+        "Offset (computer science)",
+        "Deflection (physics)",
+        "Residual stress",
+        "Precision engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究CFRP/Ti-6Al-4V叠层材料的加工，而非增材制造Ti-6Al-4V的后处理对力学性能的影响。",
+        "why_not_core": "This paper focuses on machining of CFRP/Ti-6Al-4V stacks, not on post-processing treatments (e.g., heat treatment, HIP, surface modification) of AM Ti-6Al-4V to improve fatigue/mechanical performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "gyroscopic milling",
+          "CFRP/Ti-6Al-4V",
+          "tool structure",
+          "cutting temperature",
+          "axial force"
+        ],
+        "summary_zh": {
+          "motivation": "研究工具结构对CFRP/Ti-6Al-4V叠层材料回旋铣削性能的影响。",
+          "method": "使用三种不同刀尖圆弧半径的铣刀进行回旋铣削对比实验，测量切削温度、轴向力和孔质量。",
+          "result": "增大主轴转速、减小轨道转速和进给速度可降低轴向力；增大刀尖圆弧半径可降低切削温度和轴向力，改善孔出口质量。",
+          "validation": "通过实验对比三种刀具在不同工艺参数下的铣削结果进行验证。"
+        },
+        "summary_en": {
+          "motivation": "This study investigates the influence of tool corner radius on the gyroscopic milling performance of CFRP/Ti-6Al-4V stacked materials to improve hole quality.",
+          "method": "Comparative experiments were conducted using three milling cutters with different corner radii on a self-developed gyroscopic milling actuator, with a multi-point thermocouple configuration for temperature measurement.",
+          "result": "Increasing spindle speed while decreasing orbital speed and feed rate reduces axial force; larger tool corner radius decreases cutting temperature and axial force, and improves hole exit quality.",
+          "validation": "Experimental validation was performed by testing the three cutters under various machining parameters and measuring cutting temperature, axial force, and hole quality."
+        },
+        "key_terms": [
+          {
+            "en": "gyroscopic milling",
+            "zh": "回旋铣削"
+          },
+          {
+            "en": "CFRP/Ti-6Al-4V stacked materials",
+            "zh": "CFRP/Ti-6Al-4V叠层材料"
+          },
+          {
+            "en": "tool corner radius",
+            "zh": "刀尖圆弧半径"
+          },
+          {
+            "en": "cutting temperature",
+            "zh": "切削温度"
+          },
+          {
+            "en": "axial force",
+            "zh": "轴向力"
+          },
+          {
+            "en": "hole quality",
+            "zh": "孔质量"
+          },
+          {
+            "en": "machining parameters",
+            "zh": "加工参数"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 6,
     "by_source": {
-      "openalex": 1
+      "openalex": 6
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 6,
+    "after_routing": 6,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 3,
+      "ti6al4v_base_mechanical_fatigue": 2,
+      "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 6
     },
-    "scored": 1,
+    "scored": 6,
     "priority_counts": {
-      "Low": 1
+      "Medium": 1,
+      "High": 2,
+      "Exclude": 3
     }
   }
 }

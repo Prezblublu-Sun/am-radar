@@ -62,6 +62,8 @@
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "Ti-6Al-4V ELI",
+          "additively manufactured",
+          "microstructure",
           "porosity",
           "defect",
           "fatigue",
@@ -79,8 +81,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "本文研究了不同HIP温度对PBF-LB Ti-6Al-4V疲劳性能的影响，直接涉及后处理控制，与本方向高度相关。",
-        "why_not_core": "Does not address post-processing methods other than hot isostatic pressing (HIP), such as shot peening, laser shock peening, or surface coatings.",
+        "relevance_to_user": "该论文直接研究了热等静压（HIP）处理温度对增材制造Ti-6Al-4V疲劳性能的影响，完全符合后处理控制方向。",
+        "why_not_core": "Only considers HIP, not other post-processes like machining or peening; however, this is a core study within the HIP sub-topic.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -89,73 +91,64 @@
           "is_review": false
         },
         "tags": [
+          "Ti-6Al-4V",
+          "PBF-LB",
           "hot isostatic pressing",
           "fatigue crack initiation",
           "microstructure",
-          "β transus",
-          "PBF-LB Ti-6Al-4V",
-          "alpha colony size",
-          "EBSD",
-          "X-ray computed tomography"
+          "α colony size",
+          "β transus"
         ],
         "summary_zh": {
-          "motivation": "为了解决热等静压处理后Ti-6Al-4V疲劳性能差异的问题，研究了HIP温度对疲劳裂纹萌生的影响。",
-          "method": "通过X射线CT、疲劳测试和EBSD分析了不同HIP温度和缺陷含量下疲劳性能与微观结构的关系。",
-          "result": "亚β HIP比超β HIP产生更长的疲劳寿命，α集束大小是控制疲劳的主导微观尺度。",
-          "validation": "实验验证包括缺陷表征、疲劳测试和微观结构分析。"
+          "motivation": "探究HIP温度（亚/超β相变点）对消除缺陷后疲劳寿命的控制机制",
+          "method": "制备两种缺陷水平的PBF-LB Ti-6Al-4V，分别进行亚β和超β HIP处理，进行疲劳测试和微观表征",
+          "result": "亚β HIP的细α结构延长疲劳寿命，超β HIP的粗α团簇促进裂纹萌生",
+          "validation": "通过疲劳试验、CT和EBSD验证缺陷消除和微观结构影响"
         },
         "summary_en": {
-          "motivation": "To understand why HIP-treated additively manufactured Ti-6Al-4V shows varying fatigue performance even at similar residual porosity, this study investigates the role of HIP temperature on fatigue crack initiation.",
-          "method": "Specimens with varying defect content were HIP treated below or above the β transus, and analyzed using X-ray CT, fatigue testing, and EBSD.",
-          "result": "Sub-β HIP consistently resulted in longer fatigue lives than super-β HIP, with α colony size identified as the dominant microstructural fatigue length scale.",
-          "validation": "Experimental validation included defect characterization via X-ray CT, mechanical fatigue testing, and microstructural analysis via EBSD."
+          "motivation": "To investigate whether HIP temperature (sub/super β transus) governs fatigue life after defect closure in PBF-LB Ti-6Al-4V.",
+          "method": "Two sets of PBF-LB Ti-6Al-4V specimens with different initial defect levels were HIP treated below or above the β transus, then subjected to fatigue testing and microstructural characterization.",
+          "result": "Sub-β HIP produced a fine α structure that improved fatigue life, while super-β HIP formed coarse α colonies that localized cyclic slip and promoted early crack initiation.",
+          "validation": "Fatigue tests, X-ray computed tomography for porosity, and EBSD for crystallographic orientation validated the microstructural effects."
         },
         "key_terms": [
           {
+            "en": "laser powder bed fusion (PBF-LB)",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
             "en": "hot isostatic pressing (HIP)",
             "zh": "热等静压"
+          },
+          {
+            "en": "β transus",
+            "zh": "β相变点"
           },
           {
             "en": "fatigue crack initiation",
             "zh": "疲劳裂纹萌生"
           },
           {
-            "en": "β transus",
-            "zh": "β相变温度"
+            "en": "α colony",
+            "zh": "α团簇"
           },
           {
-            "en": "PBF-LB",
-            "zh": "激光粉末床熔融"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
-          },
-          {
-            "en": "α colony size",
-            "zh": "α集束尺寸"
-          },
-          {
-            "en": "EBSD",
-            "zh": "电子背散射衍射"
+            "en": "lack-of-fusion defects",
+            "zh": "未熔合缺陷"
           },
           {
             "en": "X-ray computed tomography",
             "zh": "X射线计算机断层扫描"
-          },
-          {
-            "en": "cyclic plasticity",
-            "zh": "循环塑性"
-          },
-          {
-            "en": "fatigue life",
-            "zh": "疲劳寿命"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
     }
   ],
   "counts": {

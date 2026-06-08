@@ -53,8 +53,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究碱热处理对钛合金生物活性的影响，而非力学性能或疲劳行为，与L2层的后处理对疲劳/力学性能的调控方向无关。",
-        "why_not_core": "The paper does not evaluate mechanical performance (fatigue, tensile) or porosity closure; it only examines bioactivity (calcium phosphate formation) after alkali and heat treatment.",
+        "relevance_to_user": "该论文研究了碱热处理对Ti-6Al-4V生物活性的影响，而非疲劳或力学性能，与用户关注的后处理对力学性能的调控无关。",
+        "why_not_core": "The paper investigates bioactivity (osseointegration) rather than fatigue or mechanical performance, which is the core focus of the user's direction on post-processing control for mechanical properties.",
         "validation_kind": "in_vitro",
         "flags": {
           "has_experimental_validation": true,
@@ -63,63 +63,49 @@
           "is_review": false
         },
         "tags": [
-          "alkali heat treatment",
-          "bioactivity",
           "Ti-6Al-4V",
-          "CP-Ti",
-          "Ti-6Al-7Nb",
-          "SBF immersion"
+          "alkali treatment",
+          "heat treatment",
+          "bioactivity"
         ],
         "summary_zh": {
-          "motivation": "探究合金元素对碱热处理后钛合金生物活性的影响",
-          "method": "对CP-Ti、Ti-6Al-4V和Ti-6Al-7Nb进行碱热处理，并通过SBF浸泡测试生物活性",
-          "result": "CP-Ti表面钙磷覆盖最快，合金表面析出氯化钠盐",
-          "validation": "静态浸泡实验验证钙磷形成"
+          "motivation": "研究合金元素对碱热处理钛合金生物活性的影响",
+          "method": "对CP-Ti、Ti-6Al-4V和Ti-6Al-7Nb进行碱热处理，在SBF中静态浸泡测试",
+          "result": "CP-Ti表面钙磷沉积更快，合金表面形成不同形态结构影响离子交换",
+          "validation": "静态浸泡实验"
         },
         "summary_en": {
-          "motivation": "To investigate how alloying elements influence the bioactivity of alkali- and heat-treated titanium-based alloys for biomedical implants.",
-          "method": "Alkali treatment in 2M NaOH at 37°C for one week followed by heat treatment at 600°C for one hour was applied to CP-Ti, Ti-6Al-4V, and Ti-6Al-7Nb, and bioactivity was assessed via static immersion in triple-concentrated simulated body fluid.",
-          "result": "CP-Ti exhibited the most rapid calcium phosphate formation, while sodium chloride salts precipitated on the alloy surfaces as an indicator of bioactivity.",
-          "validation": "In vitro static immersion tests demonstrated the formation of calcium phosphate on treated surfaces."
+          "motivation": "To investigate the effect of alloying elements on the bioactivity of alkali and heat-treated titanium alloys.",
+          "method": "Alkali treatment in 2M NaOH at 37°C for one week followed by heat treatment at 600°C for one hour, then static immersion in concentrated SBF.",
+          "result": "CP-Ti showed faster calcium phosphate coverage than Ti-6Al-4V and Ti-6Al-7Nb, with distinct morphological structures affecting ionic exchange.",
+          "validation": "Static immersion test in simulated body fluid."
         },
         "key_terms": [
           {
-            "en": "alkali heat treatment",
-            "zh": "碱热处理"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "alkali treatment",
+            "zh": "碱处理"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
           },
           {
             "en": "bioactivity",
             "zh": "生物活性"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
-          },
-          {
             "en": "calcium phosphate",
             "zh": "磷酸钙"
-          },
-          {
-            "en": "simulated body fluid",
-            "zh": "模拟体液"
-          },
-          {
-            "en": "osseointegration",
-            "zh": "骨整合"
-          },
-          {
-            "en": "CP-Ti",
-            "zh": "纯钛"
-          },
-          {
-            "en": "alloying elements",
-            "zh": "合金元素"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
     },
     {
       "source": "openalex",
@@ -166,6 +152,7 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "microstructure",
           "porosity",
           "surface roughness"
         ],
@@ -175,12 +162,12 @@
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文研究了Ti6Al4V表面的射频溅射和激光重熔处理，但主要关注生物活性与耐腐蚀性，未涉及力学性能或疲劳行为，与L2方向无关。",
-        "why_not_core": "The paper does not evaluate mechanical performance (fatigue, tensile) or microstructure/porosity closure; it focuses on biological and corrosion behavior for implant applications, not on post-processing effects on mechanical properties.",
-        "validation_kind": "in_vitro",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是Ti6Al4V的表面处理（溅射和激光重熔）在医学应用中的行为，但未涉及增材制造Ti-6Al-4V的后处理对疲劳或力学性能的影响，因此与用户方向不相关。",
+        "why_not_core": "Paper does not involve additive-manufactured Ti-6Al-4V; it uses wrought Ti6Al4V and focuses on bioactivity and corrosion rather than fatigue or mechanical performance; no post-processing of AM material.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -188,33 +175,28 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
+          "Ti6Al4V",
           "radio frequency sputtering",
           "laser remelting",
-          "surface coating",
-          "bioactivity",
-          "corrosion resistance"
+          "surface modification",
+          "medical applications"
         ],
         "summary_zh": {
           "motivation": "改善Ti6Al4V植入物的生物活性和耐腐蚀性。",
-          "method": "采用射频磁控溅射TiO2涂层并结合激光重熔处理。",
-          "result": "涂层和重熔表面提高了生物活性和耐腐蚀性。",
-          "validation": "通过SEM、XRD、EDS和电化学腐蚀测试验证。"
+          "method": "采用射频磁控溅射TiO2涂层和激光重熔处理。",
+          "result": "表面处理改善了润湿性、粗糙度和耐腐蚀性。",
+          "validation": "通过SEM、XRD、EIS等表征和电化学测试验证。"
         },
         "summary_en": {
-          "motivation": "To enhance the bioactivity and corrosion resistance of Ti6Al4V for orthopedic implant applications.",
-          "method": "RF magnetron sputtering of TiO2 coating followed by Nd:YAG laser remelting of the surface.",
-          "result": "The combined treatment improved surface bioactivity and corrosion resistance by forming a porous, bioactive barrier.",
-          "validation": "Characterization via SEM, XRD, EDS, roughness, hardness, and electrochemical impedance spectroscopy."
+          "motivation": "To enhance the bioactivity and corrosion resistance of Ti6Al4V for orthopedic implants.",
+          "method": "TiO2 coating via radio frequency magnetron sputtering followed by Nd:YAG laser remelting.",
+          "result": "Surface treatments improved wettability, roughness, and corrosion resistance.",
+          "validation": "Characterization with SEM, XRD, EDS, roughness, hardness, and electrochemical tests."
         },
         "key_terms": [
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
-          {
-            "en": "radio frequency sputtering",
-            "zh": "射频溅射"
+            "en": "radio frequency magnetron sputtering",
+            "zh": "射频磁控溅射"
           },
           {
             "en": "laser remelting",
@@ -225,22 +207,26 @@
             "zh": "TiO2涂层"
           },
           {
-            "en": "bioactivity",
-            "zh": "生物活性"
+            "en": "surface modification",
+            "zh": "表面改性"
           },
           {
             "en": "corrosion resistance",
             "zh": "耐腐蚀性"
           },
           {
-            "en": "electrochemical impedance spectroscopy",
-            "zh": "电化学阻抗谱"
+            "en": "bioactivity",
+            "zh": "生物活性"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
     }
   ],
   "counts": {
@@ -258,8 +244,7 @@
     },
     "scored": 2,
     "priority_counts": {
-      "Exclude": 1,
-      "Low": 1
+      "Exclude": 2
     }
   }
 }

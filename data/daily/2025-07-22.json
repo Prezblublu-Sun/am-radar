@@ -57,8 +57,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究Ti-6Al-4V车削加工参数优化，不涉及增材制造后处理对疲劳/力学性能的影响。",
-        "why_not_core": "Paper does not concern additively manufactured Ti-6Al-4V nor post-processing treatments aimed at modifying fatigue/mechanical performance; it focuses on machining parameter optimization for general Ti-6Al-4V components.",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的车削参数优化，但未涉及增材制造或后处理对疲劳/力学性能的影响。",
+        "why_not_core": "The paper does not concern additive manufacturing Ti-6Al-4V and does not evaluate the effect of post-processing on fatigue or mechanical performance.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -67,36 +67,39 @@
           "is_review": false
         },
         "tags": [
+          "machining parameters",
           "Ti-6Al-4V",
-          "machining",
           "goal programming",
-          "optimization",
           "CNC lathe"
         ],
         "summary_zh": {
-          "motivation": "优化Ti6Al4V合金车削参数以平衡功率消耗、刀具磨损、切削力和表面质量。",
-          "method": "进行外圆切削试验，用Minitab建模，通过LINDO/LINGO目标规划优化参数。",
-          "result": "得到最优切削速度227 m/min和进给率0.2416 mm/rev，并通过验证实验确认。",
-          "validation": "通过额外切削实验验证目标规划模型的预测准确性。"
+          "motivation": "优化Ti-6Al-4V车削参数以平衡能耗、刀具磨损、切削力与材料去除率及表面质量。",
+          "method": "通过实验设计结合Minitab和LINDO/LINGO进行目标规划优化。",
+          "result": "得到最优参数vc=227 m/min, fn=0.2416 mm/rev，验证实验证实模型有效性。",
+          "validation": "通过车削实验验证目标规划模型的预测准确性。"
         },
         "summary_en": {
-          "motivation": "This study aims to optimize machining parameters for Ti-6Al-4V components to balance conflicting objectives including power consumption, tool wear, cutting forces, material removal rate, and surface quality.",
-          "method": "External cutting tests were conducted on a CNC lathe with coated carbide tools; mathematical models were built in Minitab and optimized using goal programming in LINDO/LINGO software.",
-          "result": "Optimal parameters were predicted as cutting speed 227 m/min and feed rate 0.2416 mm/rev, with validation experiments confirming the model's applicability.",
-          "validation": "Validation experiments were performed to verify the predicted optimal parameters, demonstrating the consistency of goal programming as a forecasting tool."
+          "motivation": "To optimize machining parameters for Ti-6Al-4V components, balancing conflicting objectives such as power consumption, tool wear, cutting forces, material removal rate, and surface quality.",
+          "method": "Experimental cutting tests were conducted on a CNC lathe with coated carbide tools, followed by mathematical modeling in Minitab and goal programming optimization in LINDO/LINGO.",
+          "result": "The optimal parameters were predicted as cutting speed 227 m/min and feed rate 0.2416 mm/rev, with validation experiments confirming the model's applicability.",
+          "validation": "Validation experiments confirmed the predictive consistency of the goal programming model for titanium cutting parameters on a CNC lathe."
         },
         "key_terms": [
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "machining parameters",
+            "zh": "加工参数"
           },
           {
             "en": "goal programming",
             "zh": "目标规划"
           },
           {
-            "en": "machining parameters",
-            "zh": "加工参数"
+            "en": "CNC lathe",
+            "zh": "数控车床"
           },
           {
             "en": "cutting speed",
@@ -107,40 +110,156 @@
             "zh": "进给率"
           },
           {
-            "en": "CNC lathe",
-            "zh": "数控车床"
-          },
-          {
-            "en": "optimization",
-            "zh": "优化"
+            "en": "material removal rate",
+            "zh": "材料去除率"
           },
           {
             "en": "surface quality",
             "zh": "表面质量"
+          },
+          {
+            "en": "tool wear",
+            "zh": "刀具磨损"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412548570",
+      "doi": "10.1016/j.ijlmm.2025.07.007",
+      "title": "Development of magneto-rheological polishing process with non-Newtonian fluid and uniform magnetic yoke for surface quality Ti–6Al–4V enhancement",
+      "abstract": "Ti-6Al-4V is a widely used and crucial alloy in various industries, particularly in manufacturing. Aiming to achieve a flat and smooth Ti-6Al-4V surface, this study proposes a new magneto-rheological (MR) polishing process, enhanced by a non-Newtonian fluid (thickening fluids) and a uniformly distributed magnetic yoke. A new MR fluid formulation is presented and discussed in detail in this study to address issues of poor particle bonding and non-uniformity. The authors also analyse the magnetic field to evaluate the effectiveness and feasibility of using uniformly dispersed magnetic particles in the MR process. Through evaluations of magnetic field strength, magnetic flux distribution and field variations, the study concludes that this approach is suitable and can enhance polishing performance. A polishing process employing the novel MR suspension and uniformly distributed magnetic yoke was established. The underlying mechanisms and key characteristics of this method were examined and discussed. An experimental setup, based on the previous MR processes, was used to conduct a series of experiments to demonstrate the potential of this method. The experiments also investigated the influence of several key factors, including fluid thickness, magnetic disk speed, working gap and container speed, on surface quality improvement. After 100 min of polishing, the Ti-6Al-4V workpiece achieved a smooth and flat surface with a surface roughness of Ra = 17 nm, demonstrating the high polishing efficiency of the proposed method. This research offers a promising solution for the precision polishing of difficult-to-machine materials and contributes to the advancement of smart finishing technologies for next-generation manufacturing. • Developing a new magnetorheological polishing fluid. • The uniform magnetic field has a good and stable magnetic field distribution, evenly distributed across different regions with a magnetic field variation cycle of 1.1 seconds. • A flat and smooth Ti-6Al-4V surface aftermagnetorheological polishing process with non-Newtonian fluid to a nanometer level. • The use of magnetorheological finishing with TFs enhances the effectiveness of the Ti-6Al-4V surface quantity. • An MR process was constructed based on the new magnetorheological (MR) suspension and the uniformly distributed magnetic yoke.",
+      "authors": [
+        "Nguyen Minh Quang",
+        "Nguyen Tien Tung",
+        "Le Thi Phuong Thanh",
+        "Nguyen Duy Trinh"
+      ],
+      "first_author_affiliation": "School of Mechanical and Automotive Engineering, Hanoi University of Industry, Tu Liem District, Ha Noi, Vietnam",
+      "corresponding_authors": [
+        {
+          "name": "Nguyen Duy Trinh",
+          "affiliation": "School of Mechanical and Automotive Engineering, Hanoi University of Industry, Tu Liem District, Ha Noi, Vietnam"
+        }
+      ],
+      "venue": "International Journal of Lightweight Materials and Manufacture",
+      "year": 2025,
+      "date": "2025-07-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.ijlmm.2025.07.007",
+      "cited_by_count": 0,
+      "concepts": [
+        "Polishing",
+        "Yoke (aeronautics)",
+        "Materials science",
+        "Quality (philosophy)",
+        "Surface (topology)",
+        "Rheology",
+        "Magneto",
+        "Process (computing)",
+        "Composite material",
+        "Mechanical engineering",
+        "Nanotechnology"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "polishing"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "本文提出了一种用于Ti-6Al-4V的磁流变抛光新工艺，但仅关注表面粗糙度，未涉及力学性能，与用户关注的后处理对疲劳/力学性能的影响关联较弱。",
+        "why_not_core": "No mechanical performance data (fatigue, tensile) – only surface roughness improvement.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "magneto-rheological polishing",
+          "surface roughness",
+          "Ti-6Al-4V"
+        ],
+        "summary_zh": {
+          "motivation": "为了获得Ti-6Al-4V的平坦光滑表面，提出了一种新的磁流变抛光工艺。",
+          "method": "使用非牛顿流体和均匀分布磁轭的磁流变抛光方法。",
+          "result": "经过100分钟抛光，Ti-6Al-4V表面粗糙度达到Ra=17 nm。",
+          "validation": "通过实验测量表面粗糙度验证抛光效果。"
+        },
+        "summary_en": {
+          "motivation": "To achieve a flat and smooth Ti-6Al-4V surface, a novel magneto-rheological polishing process is proposed.",
+          "method": "The method employs a non-Newtonian fluid and a uniformly distributed magnetic yoke to enhance polishing performance.",
+          "result": "After 100 minutes of polishing, the Ti-6Al-4V workpiece achieved a surface roughness of Ra=17 nm.",
+          "validation": "The polishing performance was validated by experimental measurement of surface roughness."
+        },
+        "key_terms": [
+          {
+            "en": "magneto-rheological polishing",
+            "zh": "磁流变抛光"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "non-Newtonian fluid",
+            "zh": "非牛顿流体"
+          },
+          {
+            "en": "magnetic yoke",
+            "zh": "磁轭"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 1,
+      "Low": 1
     }
   }
 }

@@ -58,15 +58,19 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
           "defect"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文主要关注缺陷知识检索框架，而非Ti-6Al-4V的力学或疲劳性能。",
-        "why_not_core": "No mechanical or fatigue characterization or modeling of Ti-6Al-4V; the paper focuses on a knowledge retrieval framework for defect reasoning, not on experimental or computational mechanical properties.",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要关于缺陷推理的检索框架，而非Ti-6Al-4V的力学性能或疲劳行为。",
+        "why_not_core": "No experimental mechanical data or fatigue testing; it is a literature mining and retrieval framework, not a mechanical/fatigue characterization or modeling study.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
@@ -75,22 +79,23 @@
           "is_review": false
         },
         "tags": [
-          "laser powder bed fusion",
           "knowledge graph",
           "defect reasoning",
-          "Ti-6Al-4V"
+          "LPBF",
+          "Ti6Al4V",
+          "retrieval framework"
         ],
         "summary_zh": {
-          "motivation": "将分散的激光粉末床熔融缺陷知识结构化。",
-          "method": "构建证据链接知识图谱和图辅助检索框架。",
+          "motivation": "LPBF缺陷知识分散，缺乏系统理解。",
+          "method": "提出图辅助检索框架，将文献转化为知识图谱。",
           "result": "检索准确率和召回率均达0.9667。",
-          "validation": "使用Ti6Al4V案例评估检索性能。"
+          "validation": "通过检索精度评估框架性能。"
         },
         "summary_en": {
-          "motivation": "To structure dispersed defect-related knowledge in laser powder bed fusion.",
-          "method": "Build an evidence-linked knowledge graph with graph-assisted retrieval and agent-based reasoning.",
-          "result": "Achieved high retrieval accuracy (0.9667) and recall (0.9667).",
-          "validation": "Evaluated using Ti6Al4V as a case study."
+          "motivation": "Defect knowledge in LPBF is scattered across literature, hindering systematic understanding.",
+          "method": "A graph-assisted retrieval framework is proposed, transforming publications into a structured knowledge graph with evidence-linked relations.",
+          "result": "The framework achieves high retrieval accuracy (0.9667) and recall (0.9667).",
+          "validation": "Validation is performed by evaluating retrieval accuracy on a curated set of defect-related queries."
         },
         "key_terms": [
           {
@@ -110,22 +115,18 @@
             "zh": "检索框架"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V"
           },
           {
             "en": "process parameters",
             "zh": "工艺参数"
-          },
-          {
-            "en": "defect mechanisms",
-            "zh": "缺陷机制"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
     }
   ],
   "counts": {
@@ -143,7 +144,7 @@
     },
     "scored": 1,
     "priority_counts": {
-      "Exclude": 1
+      "Low": 1
     }
   }
 }

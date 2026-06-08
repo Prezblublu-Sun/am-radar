@@ -1,0 +1,147 @@
+{
+  "schema_version": "v2",
+  "date": "2025-06-15",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4411319038",
+      "doi": "10.1016/j.matchar.2025.115278",
+      "title": "Microstructure and properties of Ti-6Al-4V/Ni-Ti heterogeneous structure with Cu Ni interlayer fabricated by wire-arc directed energy deposition",
+      "abstract": "",
+      "authors": [
+        "Jian Han",
+        "Meiqing Meng",
+        "Xinya Chen",
+        "Hanzhao Zhu",
+        "Jun Lan",
+        "Zhetao Liang",
+        "Yinbao Tian"
+      ],
+      "first_author_affiliation": "School of Materials Science and Engineering, Tianjin University of Technology, Tianjin 300384, China",
+      "corresponding_authors": [
+        {
+          "name": "Yinbao Tian",
+          "affiliation": "School of Materials Science and Engineering, Tianjin University of Technology, Tianjin 300384, China"
+        }
+      ],
+      "venue": "Materials Characterization",
+      "year": 2025,
+      "date": "2025-06-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.matchar.2025.115278",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Arc (geometry)",
+        "Deposition (geology)",
+        "Metallurgy",
+        "Nickel",
+        "Titanium",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "directed energy deposition",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V，但主要研究的是Ti-6Al-4V/Ni-Ti异质结构及其Cu-Ni中间层，而非单独的Ti-6Al-4V增材制造的力学与疲劳性能。",
+        "why_not_core": "The paper focuses on a heterogeneous Ti-6Al-4V/Ni-Ti structure with a Cu-Ni interlayer, not on the mechanical or fatigue performance of pure additively manufactured Ti-6Al-4V as required by Layer 1.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "Ni-Ti",
+          "heterogeneous structure",
+          "wire-arc directed energy deposition",
+          "interfacial microstructure",
+          "mechanical properties",
+          "Cu-Ni interlayer"
+        ],
+        "summary_zh": {
+          "motivation": "制备Ti-6Al-4V/Ni-Ti异质结构并研究其界面和性能。",
+          "method": "采用电弧增材制造（WA-DED）沉积Cu-Ni中间层连接Ti-6Al-4V和Ni-Ti。",
+          "result": "实现了良好的界面结合，力学性能优于单一材料。",
+          "validation": "通过显微组织和力学测试验证界面质量和强化机制。"
+        },
+        "summary_en": {
+          "motivation": "To fabricate a Ti-6Al-4V/Ni-Ti heterogeneous structure using a Cu-Ni interlayer via wire-arc directed energy deposition and investigate its interfacial microstructure and mechanical properties.",
+          "method": "Wire-arc directed energy deposition (WA-DED) was employed to deposit a Cu-Ni interlayer between Ti-6Al-4V and Ni-Ti shape memory alloy.",
+          "result": "A sound metallurgical bond was achieved, and the heterogeneous structure exhibited enhanced mechanical properties compared to the individual constituents.",
+          "validation": "Microstructural characterization and mechanical testing were conducted to validate the interfacial integrity and strengthening mechanisms."
+        },
+        "key_terms": [
+          {
+            "en": "wire-arc directed energy deposition",
+            "zh": "电弧增材制造"
+          },
+          {
+            "en": "heterogeneous structure",
+            "zh": "异质结构"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "Ni-Ti shape memory alloy",
+            "zh": "镍钛形状记忆合金"
+          },
+          {
+            "en": "Cu-Ni interlayer",
+            "zh": "铜镍中间层"
+          },
+          {
+            "en": "interfacial microstructure",
+            "zh": "界面微观结构"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

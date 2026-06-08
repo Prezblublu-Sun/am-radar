@@ -5,6 +5,139 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W7127982715",
+      "doi": "10.31224/6424",
+      "title": "Laser-Enabled Carbon Dot Coating for Powder Bed Fusion Metal Parts",
+      "abstract": "The development of environmentally friendly surface engineering techniques for 3D-printed metal parts is crucial for fluid-related applications. This study introduces two innovative, PFAS-free methods to achieve superhydrophilic surfaces on laser powder bed fusion (L-PBF) fabricated AlSi10Mg and Ti6Al4V samples. The first method involves the direct application of gel-like carbon dots (G-CDs) coating inducing superhydrophilicity. The second method integrates nanosecond laser texturing to create microgrooves that facilitate capillary-driven liquid transport, followed by G-CDs coating, resulting in a stable superwicking surface. This laser-based method also offers precise control over fluid direction by adjusting the orientation of the microgrooves, allowing the surface to be designed with programmable wicking paths. Both methods maintain a water contact angle below 10° for over 30 days. Surface features, surface chemistry, wettability, wicking behavior are measured on AlSi10Mg and Ti6Al4V samples through Scanning Electron Microscopy (SEM), Electron Dispersive Spectroscopy (EDS), contact angle goniometer, and high-speed camera, respectively.",
+      "authors": [
+        "Mohammad Mohammadzadeh Sanandaji",
+        "Benjamin Nelson",
+        "Mohammad Nadir Haider",
+        "Hongtao Ding"
+      ],
+      "first_author_affiliation": "University of Iowa",
+      "corresponding_authors": [
+        {
+          "name": "Mohammad Mohammadzadeh Sanandaji",
+          "affiliation": "University of Iowa"
+        }
+      ],
+      "venue": "",
+      "year": 2026,
+      "date": "2026-02-05",
+      "date_precision": "day",
+      "url": "https://doi.org/10.31224/6424",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Superhydrophilicity",
+        "Contact angle",
+        "Coating",
+        "Scanning electron microscope",
+        "Fusion",
+        "Composite material",
+        "Inertial confinement fusion",
+        "Titanium alloy",
+        "Carbon fibers",
+        "Laser",
+        "Metal",
+        "Metallurgy",
+        "Titanium",
+        "Wetting",
+        "Spectroscopy",
+        "Nanotechnology"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "3D printed"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要研究Ti6Al4V和AlSi10Mg的表面涂层，未涉及力学或疲劳性能，因此与用户的Ti-6Al-4V力学/疲劳方向不相关。",
+        "why_not_core": "No mechanical or fatigue data for Ti-6Al-4V; focuses on surface wettability and coating, not mechanical performance.",
+        "validation_kind": "in_vitro",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "surface coating",
+          "carbon dots",
+          "superhydrophilic",
+          "laser texturing",
+          "wettability",
+          "L-PBF",
+          "Ti6Al4V",
+          "AlSi10Mg"
+        ],
+        "summary_zh": {
+          "motivation": "为3D打印金属部件开发环保的表面工程技术",
+          "method": "采用凝胶状碳点涂层结合激光织构化实现超亲水表面",
+          "result": "两种方法均使水接触角低于10°并持续30天以上，且激光织构可控制液体方向",
+          "validation": "通过SEM、EDS、接触角测量仪和高速相机表征表面性质"
+        },
+        "summary_en": {
+          "motivation": "Develop environmentally friendly surface engineering techniques for 3D-printed metal parts, specifically achieving superhydrophilic surfaces without PFAS.",
+          "method": "Two methods are introduced: direct gel-like carbon dot (G-CDs) coating, and nanosecond laser texturing to create microgrooves followed by G-CDs coating for stable superwicking surfaces.",
+          "result": "Both methods maintain water contact angle below 10° for over 30 days, with laser texturing enabling programmable wicking paths by adjusting microgroove orientation.",
+          "validation": "Surface features, chemistry, wettability, and wicking behavior are characterized using SEM, EDS, contact angle goniometry, and high-speed imaging."
+        },
+        "key_terms": [
+          {
+            "en": "carbon dots",
+            "zh": "碳点"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "superhydrophilic",
+            "zh": "超亲水"
+          },
+          {
+            "en": "wettability",
+            "zh": "润湿性"
+          },
+          {
+            "en": "wicking",
+            "zh": "毛细渗吸"
+          },
+          {
+            "en": "microgrooves",
+            "zh": "微沟槽"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "AlSi10Mg",
+            "zh": "AlSi10Mg铝合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W7127952668",
       "doi": "10.31224/6425",
       "title": "Laser Engineered Slippery Liquid Infused Porous Surfaces (SLIPS) on 3D Printed Metal Alloys",
@@ -56,6 +189,10 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "3D printed",
           "porosity"
         ]
       },
@@ -63,8 +200,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文聚焦于钛合金表面功能化而非力学或疲劳性能，与研究方向不相关。",
-        "why_not_core": "No mechanical (tensile, fatigue, hardness) characterization or modeling of Ti-6Al-4V; paper solely concerns surface wettability and anti-icing functionality.",
+        "relevance_to_user": "该论文研究的是Ti6Al4V合金的SLIPS表面防冰性能，而非力学或疲劳性能，因此与本方向无关。",
+        "why_not_core": "This paper focuses on surface wettability and anti-icing properties via SLIPS, not on mechanical or fatigue characterization of Ti-6Al-4V; it does not provide tensile, fatigue, or other mechanical performance data.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -73,23 +210,24 @@
           "is_review": false
         },
         "tags": [
-          "SLIPS",
-          "laser texturing",
-          "Ti6Al4V",
-          "ice adhesion",
-          "surface engineering"
+          "laser powder bed fusion",
+          "slippery liquid-infused porous surfaces",
+          "anti-icing",
+          "Ti-6Al-4V",
+          "AlSi10Mg",
+          "laser surface texturing"
         ],
         "summary_zh": {
-          "motivation": "提高3D打印金属表面抗冰性能。",
-          "method": "在L-PBF Ti6Al4V表面进行激光织构并注入润滑液。",
-          "result": "获得低冰粘附力（~65 kPa）和良好耐久性。",
-          "validation": "通过接触角、滑动角、冰粘附强度及循环耐久性测试验证。"
+          "motivation": "在L-PBF Ti6Al4V和AlSi10Mg合金上制造SLIPS以实现防冰。",
+          "method": "使用纳秒和皮秒脉冲激光进行表面纹理化，然后氟硅烷功能化和硅油注入。",
+          "result": "接触角>105°，滑动角<10°，冰粘附强度降至~65 kPa (Ti6Al4V) 和~90 kPa (AlSi10Mg)。",
+          "validation": "通过反复结冰-除冰循环、机械磨损、热暴露和紫外照射测试耐久性。"
         },
         "summary_en": {
-          "motivation": "To address the high roughness and porosity of as-printed L-PBF surfaces and enable low-adhesion anti-icing functionality.",
-          "method": "Laser surface texturing with nanosecond and picosecond pulsed lasers was applied to restructure AM surface topography into microchannel networks, followed by fluorosilane functionalization and silicone oil infusion to create SLIPS.",
-          "result": "The SLIPS on Ti6Al4V exhibited static water contact angles >105°, sliding angles <10°, and ice adhesion strength reduced to ~65 kPa with stable performance over repeated cycles.",
-          "validation": "Validation included contact angle goniometry, ice adhesion strength measurements (centrifugal method), and durability tests under mechanical abrasion, thermal exposure, and UV irradiation."
+          "motivation": "To develop a scalable method for fabricating slippery liquid-infused porous surfaces (SLIPS) on as-printed L-PBF Ti6Al4V and AlSi10Mg alloys for anti-icing applications.",
+          "method": "Used nanosecond and picosecond pulsed laser texturing to create microchannel networks, followed by fluorosilane functionalization and silicone oil infusion.",
+          "result": "The SLIPS exhibited static water contact angles >105°, sliding angles <10°, and reduced ice adhesion strength to ~65 kPa for Ti6Al4V and ~90 kPa for AlSi10Mg.",
+          "validation": "Durability was validated through repeated icing/deicing cycles, mechanical abrasion, thermal exposure, and UV irradiation."
         },
         "key_terms": [
           {
@@ -98,37 +236,29 @@
           },
           {
             "en": "slippery liquid-infused porous surfaces",
-            "zh": "润滑液注入多孔表面"
-          },
-          {
-            "en": "laser surface texturing",
-            "zh": "激光表面织构"
+            "zh": " slippery液体灌注多孔表面"
           },
           {
             "en": "ice adhesion strength",
             "zh": "冰粘附强度"
           },
           {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V钛合金"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "contact angle",
-            "zh": "接触角"
+            "en": "AlSi10Mg",
+            "zh": "AlSi10Mg合金"
           },
           {
-            "en": "durability",
-            "zh": "耐久性"
-          },
-          {
-            "en": "anti-icing",
-            "zh": "防冰"
+            "en": "laser surface texturing",
+            "zh": "激光表面纹理化"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
     },
     {
       "source": "openalex",
@@ -197,8 +327,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是传统铣削加工，与增材制造Ti-6Al-4V的后处理无关。",
-        "why_not_core": "The paper investigates surface integrity during conventional milling of Ti-6Al-4V, not a post-processing treatment for additive-manufactured Ti-6Al-4V. No connection to AM or post-processing routes like heat treatment, HIP, or surface finishing.",
+        "relevance_to_user": "该论文涉及传统铣削加工，而非增材制造后处理，与方向无关。",
+        "why_not_core": "This paper studies conventional milling of Ti-6Al-4V, not a post-processing treatment for additively manufactured Ti-6Al-4V, and thus falls outside the defined scope.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
@@ -206,20 +336,28 @@
           "is_patient_specific": false,
           "is_review": false
         },
-        "tags": [],
+        "tags": [
+          "Ti-6Al-4V",
+          "milling",
+          "surface integrity"
+        ],
         "summary_zh": {
-          "motivation": "研究超声振动辅助微量润滑铣削对Ti-6Al-4V薄壁件表面完整性的影响。",
-          "method": "采用超声振动辅助微量润滑铣削实验，分析表面完整性参数。",
-          "result": "该工艺改善表面质量，降低表面粗糙度。",
-          "validation": "通过铣削实验验证表面完整性改善效果。"
+          "motivation": "研究超声振动辅助微量润滑铣削薄壁钛合金零件的表面完整性。",
+          "method": "采用超声振动辅助微量润滑铣削工艺加工Ti-6Al-4V薄壁件。",
+          "result": "分析了铣削参数对表面完整性的影响规律。",
+          "validation": "通过实验测量表面粗糙度和残余应力验证。"
         },
         "summary_en": {
-          "motivation": "To investigate the effect of ultrasonic vibration-assisted minimum quantity lubrication milling on the surface integrity of Ti-6Al-4V thin-walled parts.",
-          "method": "Experimental milling with ultrasonic vibration and minimum quantity lubrication, measuring surface roughness, residual stress, and microstructure.",
-          "result": "The process improves surface finish by reducing roughness and inducing favorable compressive residual stresses.",
-          "validation": "Validation through milling experiments and surface characterization."
+          "motivation": "This study investigates surface integrity in ultrasonic vibration-assisted minimum quantity lubrication milling of Ti-6Al-4V thin-walled parts to improve machined surface quality.",
+          "method": "The authors employed ultrasonic vibration-assisted minimum quantity lubrication (UVAMQL) milling on Ti-6Al-4V thin-walled workpieces and characterized surface roughness, residual stress, and microhardness.",
+          "result": "It was found that UVAMQL milling reduces surface roughness and introduces compressive residual stress compared to conventional milling.",
+          "validation": "Experimental measurements of surface roughness and residual stress validated the improvements."
         },
         "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
           {
             "en": "ultrasonic vibration-assisted milling",
             "zh": "超声振动辅助铣削"
@@ -229,40 +367,37 @@
             "zh": "微量润滑"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
-          },
-          {
             "en": "surface integrity",
             "zh": "表面完整性"
           },
           {
             "en": "thin-walled parts",
-            "zh": "薄壁件"
+            "zh": "薄壁零件"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1,
+      "ti6al4v_base_mechanical_fatigue": 2,
       "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
+      "Low": 1,
       "Exclude": 2
     }
   }

@@ -74,9 +74,9 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究Ti-6Al-4V表面的生物活性涂层，未涉及后处理对力学性能的影响。",
-        "why_not_core": "This paper does not investigate any post-processing effect on fatigue or mechanical performance; it focuses on bioactivity and antibacterial coatings.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文关注生物活性和抗菌性能，而非力学性能（疲劳、拉伸等），与用户关注的后处理对Ti-6Al-4V力学性能影响的方向不符。",
+        "why_not_core": "Paper does not evaluate any mechanical properties (fatigue, tensile, porosity closure) nor does it examine post-processing effects on mechanical performance of Ti-6Al-4V; it solely focuses on bioactivity and antibacterial performance of a surface coating.",
+        "validation_kind": "in_vitro",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -84,34 +84,26 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
-          "thermal oxidation",
           "electrophoretic deposition",
           "hydroxyapatite",
+          "thermal oxidation",
           "bioactivity",
-          "antibacterial"
+          "antibacterial",
+          "Ti-6Al-4V"
         ],
         "summary_zh": {
-          "motivation": "提高钛合金植入物生物活性和抗菌性",
-          "method": "热氧化制备TiO2中间层，绿合成羟基磷灰石电泳沉积",
-          "result": "获得连续覆盖的HAp涂层，显著增强生物活性和抗菌性",
-          "validation": "SBF浸泡和金黄色葡萄球菌实验验证"
+          "motivation": "提高钛合金植入物的生物活性和抗菌性能",
+          "method": "通过火龙果提取物绿色合成羟基磷灰石，并用电泳沉积法涂覆在热氧化处理的钛合金表面",
+          "result": "涂层表面形成良好，显著增强生物活性和抗菌性能",
+          "validation": "模拟体液浸泡和金黄色葡萄球菌抗菌测试"
         },
         "summary_en": {
-          "motivation": "To enhance bioactivity and antibacterial properties of Ti-6Al-4V implants via a multifunctional coating",
-          "method": "Thermal oxidation to create a TiO2 interlayer followed by electrophoretic deposition of green-synthesized hydroxyapatite",
-          "result": "The coating showed good adhesion, enhanced apatite formation, and strong antibacterial effect",
-          "validation": "In vitro bioactivity in SBF and antibacterial test against S. aureus"
+          "motivation": "To enhance the bioactivity and antibacterial performance of Ti-6Al-4V implants through a multifunctional coating.",
+          "method": "A green-synthesized hydroxyapatite was deposited via electrophoretic deposition onto a thermally oxidized TiO2 interlayer on Ti-6Al-4V.",
+          "result": "The coated surfaces showed enhanced apatite formation in SBF and strong antibacterial activity against Staphylococcus aureus.",
+          "validation": "Bioactivity was assessed by apatite formation in simulated body fluid, and antibacterial efficacy by disk diffusion against S. aureus."
         },
         "key_terms": [
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
-          {
-            "en": "thermal oxidation",
-            "zh": "热氧化"
-          },
           {
             "en": "electrophoretic deposition",
             "zh": "电泳沉积"
@@ -121,8 +113,12 @@
             "zh": "羟基磷灰石"
           },
           {
-            "en": "green synthesis",
-            "zh": "绿色合成"
+            "en": "thermal oxidation",
+            "zh": "热氧化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
             "en": "bioactivity",
@@ -131,12 +127,20 @@
           {
             "en": "antibacterial",
             "zh": "抗菌"
+          },
+          {
+            "en": "green synthesis",
+            "zh": "绿色合成"
+          },
+          {
+            "en": "simulated body fluid",
+            "zh": "模拟体液"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
     }
   ],
   "counts": {

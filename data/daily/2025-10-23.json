@@ -50,7 +50,8 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_postprocess"
+        "ti6al4v_postprocess",
+        "ti6al4v_base_mechanical_fatigue"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
@@ -61,14 +62,20 @@
           "heat treatment",
           "machining",
           "post-processing"
+        ],
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "powder bed fusion"
         ]
       },
       "llm": {
-        "priority": "Medium",
+        "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该综述讨论了后处理对EB-PBF Ti-6Al-4V磨损性能的影响，但未涉及疲劳或力学性能，与方向重点不符。",
-        "why_not_core": "Does not investigate fatigue or tensile performance; covers wear resistance only, and is a review without new experimental data.",
+        "relevance_to_user": "该综述关注电子束粉末床熔融Ti-6Al-4V的摩擦学行为，虽涉及后处理（热处理、机加工）对耐磨性的影响，但未直接研究疲劳或传统力学性能，与层2后处理控制方向关联度低。",
+        "why_not_core": "This review focuses on tribological behavior (wear) rather than fatigue, tensile, or porosity closure; it does not provide new experimental data on the effect of post-processing on mechanical performance as defined in the Layer 2 focus.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
@@ -77,24 +84,24 @@
           "is_review": true
         },
         "tags": [
-          "Ti-6Al-4V",
-          "electron beam powder bed fusion",
           "tribology",
+          "EB-PBF",
+          "Ti-6Al-4V",
+          "review",
           "wear",
-          "post-processing",
-          "review"
+          "post-processing"
         ],
         "summary_zh": {
-          "motivation": "综述EB-PBF Ti-6Al-4V的摩擦学行为及其后处理影响。",
-          "method": "系统回顾文献，总结磨损机理和后处理效果。",
-          "result": "后处理可改善磨损性能，但疲劳性能未涉及。",
-          "validation": "无实验验证，基于文献综述。"
+          "motivation": "综述电子束粉末床熔融Ti-6Al-4V的摩擦学行为及后处理的影响",
+          "method": "系统回顾文献，分析摩擦系数、磨损率及磨损机理",
+          "result": "EB-PBF Ti-6Al-4V耐磨性与传统材料相当或更优，后处理可改善耐磨性",
+          "validation": "综述性质，无新实验验证"
         },
         "summary_en": {
-          "motivation": "This review summarizes the tribological behavior of electron beam powder bed fused Ti-6Al-4V with emphasis on the role of post-processing treatments.",
-          "method": "A comprehensive literature review was conducted covering friction, wear rates, and mechanisms under various conditions including post-processing such as machining and heat treatment.",
-          "result": "Post-processing can improve wear resistance, but the effects on fatigue and tensile performance are not addressed.",
-          "validation": "No experimental validation; conclusions are drawn from aggregated literature data."
+          "motivation": "This review comprehensively summarizes the tribological behavior of electron beam powder bed fused Ti-6Al-4V, including the effects of post-processing treatments.",
+          "method": "A literature-based analysis of friction coefficient, wear rate, and wear mechanisms under various conditions, including those modified by heat treatment and machining.",
+          "result": "EB-PBF Ti-6Al-4V exhibits wear resistance comparable or superior to wrought material, and post-processing such as heat treatment and machining can further improve tribological performance.",
+          "validation": "No experimental validation; this is a review of existing studies."
         },
         "key_terms": [
           {
@@ -103,7 +110,7 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "tribological behavior",
@@ -112,10 +119,6 @@
           {
             "en": "wear resistance",
             "zh": "耐磨性"
-          },
-          {
-            "en": "post-processing",
-            "zh": "后处理"
           },
           {
             "en": "heat treatment",
@@ -132,12 +135,20 @@
           {
             "en": "wear rate",
             "zh": "磨损率"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "oxide tribo-layer",
+            "zh": "氧化摩擦层"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:17:25Z"
+      "first_seen_at": "2026-06-08T08:27:10Z"
     },
     {
       "source": "openalex",
@@ -188,11 +199,16 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
+        "ti6al4v_base_mechanical_fatigue",
         "ti6al4v_postprocess"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "3D printed"
+        ],
         "ti6al4v_postprocess": [
           "Ti6Al4V",
           "surface treatment"
@@ -202,69 +218,74 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究3D打印Ti6Al4V植入物的钛离子溶解问题，未涉及任何后处理工艺对力学性能的影响。",
-        "why_not_core": "No post-processing treatment is studied; the paper focuses on geometric and microstructural influences on corrosion, not on how post-processing modifies fatigue or mechanical performance of AM Ti-6Al-4V.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文研究了3D打印Ti6Al4V植入物的离子释放问题，但未涉及任何后处理工艺（如热处理、HIP、抛光等），因此与用户关注的后处理控制方向无关。",
+        "why_not_core": "No post-processing treatment (heat treatment, HIP, machining, shot peening, etc.) is studied; the paper focuses on as-printed structural corrosion and ion release without any post-processing control.",
+        "validation_kind": "in_vitro",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
-          "is_patient_specific": true,
+          "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "titanium ion dissolution",
-          "orthopedic implants",
-          "Ti6Al4V",
-          "mesh structures",
+          "Ti-6Al-4V",
+          "ion dissolution",
+          "orthopedic implant",
           "corrosion",
-          "finite element analysis"
+          "galvanic coupling",
+          "finite element analysis",
+          "microstructure"
         ],
         "summary_zh": {
-          "motivation": "研究3D打印Ti6Al4V植入物中钛离子溶出现象及其对长期稳定性的影响。",
-          "method": "通过有限元分析全尺寸植入物和微观结构分析不同几何形状的立方体样品。",
-          "result": "网状结构因β相含量高和电偶腐蚀加速钛离子释放。",
-          "validation": "有限元模拟与微观结构表征相结合。"
+          "motivation": "研究3D打印Ti6Al4V植入物中钛离子释放的结构影响",
+          "method": "有限元分析和微观结构表征",
+          "result": "网状结构因β相增加而促进离子释放",
+          "validation": "微观结构实验与有限元模拟对照"
         },
         "summary_en": {
-          "motivation": "Elevated titanium ion concentrations in blood after limb salvage surgery with 3D-printed Ti6Al4V implants motivate investigation of dissolution mechanisms.",
-          "method": "Finite element analysis of full-scale pelvic and tibial implants and microstructural analysis of cubical samples with solid, mesh, and hybrid geometries were performed.",
-          "result": "Mesh structures exhibit higher β-phase content (145%-200%) and galvanic corrosion between α and β phases, accelerating Ti ion release.",
-          "validation": "The study combines FEA simulations with experimental microstructural characterization; no post-processing validation is included."
+          "motivation": "To investigate the structural factors influencing titanium ion dissolution from 3D-printed Ti6Al4V orthopedic implants.",
+          "method": "Finite element analysis of full-scale implants and microstructural characterization of cubical samples with different geometries.",
+          "result": "Mesh structures exhibited higher β-phase content and accelerated galvanic corrosion, leading to increased ion release.",
+          "validation": "Experimental microstructural analysis combined with FEA simulations."
         },
         "key_terms": [
           {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "titanium ion dissolution",
-            "zh": "钛离子溶出"
+            "en": "ion dissolution",
+            "zh": "离子溶解"
           },
           {
-            "en": "orthopedic implants",
+            "en": "orthopedic implant",
             "zh": "骨科植入物"
+          },
+          {
+            "en": "corrosion",
+            "zh": "腐蚀"
+          },
+          {
+            "en": "galvanic coupling",
+            "zh": "电偶耦合"
           },
           {
             "en": "finite element analysis",
             "zh": "有限元分析"
           },
           {
-            "en": "mesh structures",
+            "en": "mesh structure",
             "zh": "网状结构"
           },
           {
-            "en": "galvanic corrosion",
-            "zh": "电偶腐蚀"
-          },
-          {
-            "en": "β-phase content",
-            "zh": "β相含量"
+            "en": "β-phase",
+            "zh": "β相"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:17:25Z"
+      "first_seen_at": "2026-06-08T08:27:10Z"
     }
   ],
   "counts": {
@@ -282,7 +303,7 @@
     },
     "scored": 2,
     "priority_counts": {
-      "Medium": 1,
+      "Low": 1,
       "Exclude": 1
     }
   }

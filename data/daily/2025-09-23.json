@@ -5,6 +5,159 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W4414414403",
+      "doi": "10.1016/j.jmapro.2025.09.019",
+      "title": "Physics-based analytical modeling of materials properties in metal additive manufacturing",
+      "abstract": "Emerging additive manufacturing (AM) offers a sustainable alternative to the subtractive processes with significant potential for complex geometries and material efficiency. However, predicting and controlling the microstructure-dependent properties of AM parts, particularly metals, remains challenging due to complex multi-physical processes. This work develops a physics-based analytical modeling framework to predict the evolution of key microstructural features (texture and grain size) and their influence on material properties (elastic modulus, Poisson’s ratio, yield strength) in laser powder bed fusion (LPBF) of Ti-6Al-4V. The framework integrates: (1) a 3D thermal profile model with boundary heat transfer for a moving point heat source; (2) Johnson–Mehl–Avrami–Kolmogorov (JMAK) kinetics and Green’s function-based thermal stress analysis for grain size prediction during heating and cooling; (3) columnar-to-equiaxed transition (CET) criteria and Bunge calculation for multi-phase texture evolution; (4) a self-consistent model to predict texture-affected anisotropic elastic modulus and Poisson’s ratio; and (5) the Hall–Petch relation for grain size-dependent yield strength. Experimental validations confirm the fidelity of the thermal model (molten pool dimensions), texture simulation (pole figure intensities), and predicted properties. Crucially, the simulated effective elastic modulus (109–117 GPa) and yield strength (850–900 MPa) under consistent processing parameters align well with experimental ranges (100–140 GPa and 850–1050 MPa, respectively) and show stability regardless of layer or row settings. The Poisson’s ratio exhibits significant anisotropy (approx. 0.45–0.5 in X/Y vs. lower values in other directions). By bridging processing parameters, microstructure evolution, and final properties, this work provides a paradigm for computationally efficient prediction and optimization of AM material performance, paving the way for inverse design strategies.",
+      "authors": [
+        "Wei Huang",
+        "Ruoqi Gao",
+        "Hamid Garmestani",
+        "Steven Y. Liang"
+      ],
+      "first_author_affiliation": "George W. Woodruff School of Mechanical Engineering, Georgia Institute of Technology, 801 Ferst Drive, Atlanta, 30332, GA, USA",
+      "corresponding_authors": [
+        {
+          "name": "Wei Huang",
+          "affiliation": "George W. Woodruff School of Mechanical Engineering, Georgia Institute of Technology, 801 Ferst Drive, Atlanta, 30332, GA, USA"
+        },
+        {
+          "name": "Steven Y. Liang",
+          "affiliation": "George W. Woodruff School of Mechanical Engineering, Georgia Institute of Technology, 801 Ferst Drive, Atlanta, 30332, GA, USA"
+        }
+      ],
+      "venue": "Journal of Manufacturing Processes",
+      "year": 2025,
+      "date": "2025-09-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jmapro.2025.09.019",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Material properties",
+        "Multiscale modeling",
+        "Grain size",
+        "Anisotropy",
+        "Texture (cosmology)",
+        "Work (physics)",
+        "Thermal",
+        "Inverse",
+        "Elastic modulus",
+        "Modulus",
+        "Composite material",
+        "Yield (engineering)",
+        "Thermal expansion",
+        "Grain boundary",
+        "Material Design",
+        "Fusion",
+        "Bulk modulus",
+        "Grain growth",
+        "Characterization (materials science)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "microstructure",
+          "yield strength"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对激光粉末床熔融Ti-6Al-4V的力学性能（弹性模量、屈服强度）进行物理建模与实验验证，非常适合Layer 1的关注点。",
+        "why_not_core": "Paper does not cover fatigue life or S-N curves, which are part of the direction's scope but not mandatory for Layer 1.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "analytical modeling",
+          "elastic modulus",
+          "yield strength",
+          "microstructure",
+          "texture",
+          "anisotropy"
+        ],
+        "summary_zh": {
+          "motivation": "为预测激光粉末床熔融Ti-6Al-4V的微观结构依赖力学性能建立物理建模框架。",
+          "method": "集成热模型、JMAK动力学、CET准则及自洽模型，预测晶粒尺寸、织构及各向异性弹性模量。",
+          "result": "预测弹性模量109-117 GPa，屈服强度850-900 MPa，实验验证良好且对层/行参数不敏感。",
+          "validation": "通过熔池尺寸、极图强度及力学性能实验数据验证模型。"
+        },
+        "summary_en": {
+          "motivation": "To develop a computationally efficient physics-based modeling framework for predicting microstructure-dependent mechanical properties of LPBF Ti-6Al-4V.",
+          "method": "The framework integrates a 3D thermal model, JMAK kinetics, CET criteria, Bunge texture calculation, and a self-consistent model for anisotropic elastic constants and Hall–Petch yield strength.",
+          "result": "Predicted elastic modulus (109–117 GPa) and yield strength (850–900 MPa) agree well with experimental ranges (100–140 GPa and 850–1050 MPa), showing stability across processing parameters.",
+          "validation": "The thermal model, texture pole figures, and mechanical properties are validated against experimental measurements."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "analytical modeling",
+            "zh": "解析建模"
+          },
+          {
+            "en": "elastic modulus",
+            "zh": "弹性模量"
+          },
+          {
+            "en": "yield strength",
+            "zh": "屈服强度"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "texture",
+            "zh": "织构"
+          },
+          {
+            "en": "anisotropy",
+            "zh": "各向异性"
+          },
+          {
+            "en": "grain size",
+            "zh": "晶粒尺寸"
+          },
+          {
+            "en": "Hall–Petch relation",
+            "zh": "霍尔-佩奇关系"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W4414431648",
       "doi": "10.52899/24141437_2025_03_375",
       "title": "Design Methods Used to Minimize Residual Stresses in Direct Laser Deposition",
@@ -56,6 +209,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
           "defect"
         ]
       },
@@ -63,35 +217,33 @@
         "priority": "Medium",
         "relevance_level": "Direct",
         "read_action": "Save for project",
-        "relevance_to_user": "该论文直接研究Ti-6Al-4V直接激光沉积过程中残余应力的减少方法，涉及力学性能优化，与用户关注的增材制造Ti-6Al-4V力学性能相关。",
-        "why_not_core": "This paper does not focus on fatigue life, tensile properties, or anisotropy; it concentrates on residual stress and plastic deformation reduction through design modifications.",
-        "validation_kind": "mechanical_testing",
+        "relevance_to_user": "该论文对Ti-6Al-4V直激光沉积残余应力的模拟与减少方法有参考价值，但缺少实验机械性能验证。",
+        "why_not_core": "No experimental validation of the proposed methods; results are purely numerical without mechanical property measurements such as fatigue or tensile data.",
+        "validation_kind": "simulation_case",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "residual stress",
           "direct laser deposition",
           "Ti-6Al-4V",
+          "residual stress",
           "finite element method",
-          "plastic deformation",
-          "fillet geometry",
-          "gradient interlayer"
+          "plastic deformation"
         ],
         "summary_zh": {
-          "motivation": "减少直接激光沉积Ti-6Al-4V大型结构中的残余应力和变形。",
-          "method": "通过修改局部几何形状（平/凹圆角）和化学成分（纯钛过渡层）并使用有限元模型分析。",
-          "result": "凹圆角和软质过渡层显著减少塑性变形，实现无缺陷沉积。",
-          "validation": "数值模拟与实证分析相结合。"
+          "motivation": "针对Ti-6Al-4V直激光沉积残余应力问题，提出几何与成分改性方法。",
+          "method": "通过有限元模拟不同端部圆角及纯钛过渡层的残应力与塑性应变。",
+          "result": "凹形圆角和软夹层能有效减少塑性变形，避免开裂。",
+          "validation": "数值模拟验证。"
         },
         "summary_en": {
-          "motivation": "To reduce residual stresses and deformations in large-scale direct-laser-deposited Ti-6Al-4V structures.",
-          "method": "Local geometry modifications (flat/concave fillets) and a gradient chemical composition (pure titanium interlayer) were analyzed using a coupled thermo-mechanical finite element model.",
-          "result": "Concave fillets and a soft interlayer significantly reduce plastic deformation, enabling defect-free deposits.",
-          "validation": "Numerical simulations were complemented by empirical analysis of deposited wall-type specimens."
+          "motivation": "To mitigate residual stresses and deformations in direct laser deposited Ti-6Al-4V large structures.",
+          "method": "A finite element model simulates residual stresses and plastic strains in deposits with flat/concave fillets or a pure titanium gradient interlayer.",
+          "result": "Concave fillets and a soft interlayer significantly reduce plastic deformation, especially in the stronger alloy region.",
+          "validation": "The study relies on numerical simulation without experimental confirmation."
         },
         "key_terms": [
           {
@@ -99,24 +251,24 @@
             "zh": "直接激光沉积"
           },
           {
-            "en": "residual stress",
-            "zh": "残余应力"
-          },
-          {
             "en": "Ti-6Al-4V",
             "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "finite element method",
-            "zh": "有限元法"
+            "en": "residual stress",
+            "zh": "残余应力"
           },
           {
             "en": "plastic deformation",
             "zh": "塑性变形"
           },
           {
-            "en": "fillet geometry",
-            "zh": "圆角几何"
+            "en": "finite element method",
+            "zh": "有限元方法"
+          },
+          {
+            "en": "fillet",
+            "zh": "圆角"
           },
           {
             "en": "gradient interlayer",
@@ -126,7 +278,7 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
     },
     {
       "source": "openalex",
@@ -194,8 +346,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文仅涉及Ti6Al4V的腐蚀防护涂层，未包含任何力学或疲劳性能的研究。",
-        "why_not_core": "The paper focuses entirely on corrosion resistance of PEO coatings on Ti6Al4V, with no mechanical or fatigue characterization or modeling.",
+        "relevance_to_user": "该论文研究Ti6Al4V的PEO涂层耐腐蚀性能，不涉及增材制造或力学/疲劳性能。",
+        "why_not_core": "Paper does not address additive manufacturing (LPBF/SLM/EBM/DED) nor mechanical/fatigue properties of Ti-6Al-4V; it focuses on corrosion resistance of coatings for acidic environments.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -204,58 +356,57 @@
           "is_review": false
         },
         "tags": [
+          "PEO coating",
+          "corrosion",
           "Ti6Al4V",
-          "plasma electrolytic oxidation",
-          "composite coatings",
-          "corrosion resistance",
-          "surface engineering"
+          "acidic environment"
         ],
         "summary_zh": {
-          "motivation": "提高Ti6Al4V在强酸性环境中的耐腐蚀性",
-          "method": "采用等离子电解氧化法在Ti6Al4V上制备含α-Al2O3纳米颗粒的复合陶瓷涂层",
-          "result": "磷酸盐电解质+Al2O3涂层使腐蚀电流密度降至143 nA/cm²，极化电阻达113 kΩ·cm²",
-          "validation": "通过动电位极化和电化学阻抗谱表征涂层的腐蚀性能"
+          "motivation": "提升Ti6Al4V在强酸环境中的耐腐蚀性",
+          "method": "通过等离子体电解氧化在Ti6Al4V上制备复合陶瓷涂层",
+          "result": "磷酸盐电解液加氧化铝纳米颗粒的涂层耐蚀性最佳",
+          "validation": "电化学测试表征腐蚀电流密度和极化电阻"
         },
         "summary_en": {
-          "motivation": "The study aims to enhance the corrosion resistance of Ti6Al4V in harsh acidic environments for electrochemical applications.",
-          "method": "Composite ceramic coatings were synthesized on Ti6Al4V via plasma electrolytic oxidation using silicate, phosphate, and sulfate electrolytes with and without α-alumina nanoparticles.",
-          "result": "Coatings produced in phosphate electrolyte with Al2O3 exhibited the lowest corrosion current density (143 nA/cm²) and highest polarization resistance (113 kΩ·cm²) in 5 M H2SO4.",
-          "validation": "Corrosion performance was validated by potentiodynamic polarization and electrochemical impedance spectroscopy."
+          "motivation": "To enhance the corrosion resistance of Ti6Al4V alloy in harsh acidic environments relevant to energy storage systems.",
+          "method": "Composite ceramic coatings were synthesized on Ti6Al4V via plasma electrolytic oxidation using silicate-, phosphate-, and sulfate-based electrolytes with and without α-alumina nanoparticles.",
+          "result": "Coatings produced in phosphate electrolyte with Al2O3 nanoparticles exhibited the highest polarization resistance (113 kΩ·cm2) and lowest corrosion current density (143 nA/cm2) in 5 M H2SO4.",
+          "validation": "Corrosion performance was validated through electrochemical polarization and impedance measurements in concentrated sulfuric acid."
         },
         "key_terms": [
           {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V"
-          },
-          {
             "en": "plasma electrolytic oxidation",
-            "zh": "等离子电解氧化"
+            "zh": "等离子体电解氧化"
           },
           {
             "en": "composite coating",
             "zh": "复合涂层"
           },
           {
-            "en": "α-alumina nanoparticles",
-            "zh": "α-氧化铝纳米颗粒"
-          },
-          {
             "en": "corrosion resistance",
             "zh": "耐腐蚀性"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
+          },
+          {
+            "en": "α-alumina nanoparticles",
+            "zh": "α-氧化铝纳米颗粒"
           },
           {
             "en": "polarization resistance",
             "zh": "极化电阻"
           },
           {
-            "en": "electrochemical impedance spectroscopy",
-            "zh": "电化学阻抗谱"
+            "en": "sulfuric acid",
+            "zh": "硫酸"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
     },
     {
       "source": "openalex",
@@ -310,6 +461,8 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
           "defect",
           "fatigue",
           "fatigue strength"
@@ -319,11 +472,11 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接针对L-PBF制造的Ti-6Al-4V合金的疲劳强度各向异性，采用数值方法研究缺陷种群的影响，完全符合您的研究方向。",
-        "why_not_core": "The paper does not include its own experimental validation; it relies on literature data for comparison.",
+        "relevance_to_user": "该论文直接研究了L-PBF Ti-6Al-4V合金中缺陷对疲劳强度各向异性的影响，基于有限元模拟，完全符合L1方向。",
+        "why_not_core": "It does not provide new experimental data; it relies on literature for validation.",
         "validation_kind": "numerical_benchmark",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
@@ -331,25 +484,28 @@
         "tags": [
           "L-PBF",
           "Ti-6Al-4V",
-          "fatigue anisotropy",
+          "fatigue strength anisotropy",
           "defect population",
-          "finite element simulation"
+          "finite element simulation",
+          "lack of fusion",
+          "gas pores",
+          "multiaxial loading"
         ],
         "summary_zh": {
-          "motivation": "探究L-PBF制造Ti-6Al-4V合金中缺陷对疲劳强度各向异性的影响。",
-          "method": "采用有限元模拟，分析缺乏熔合和气孔两类缺陷在多轴比例加载下的行为。",
-          "result": "疲劳强度各向异性受缺陷形态和加载方向影响，拉伸加载下各向异性最显著。",
-          "validation": "数值结果与文献中实验数据对比验证。"
+          "motivation": "研究L-PBF Ti-6Al-4V合金缺陷对疲劳强度各向异性的影响。",
+          "method": "采用有限元模拟，分析熔合缺陷和气体孔隙在多轴比例加载下的作用。",
+          "result": "疲劳强度对缺陷取向高度敏感，各向异性在拉伸加载下尤为明显。",
+          "validation": "与文献实验数据对比验证了数值结果的准确性。"
         },
         "summary_en": {
-          "motivation": "This study aims to understand how defect populations affect the fatigue strength anisotropy of Ti-6Al-4V alloy fabricated by L-PBF.",
-          "method": "Finite element simulations were performed under multiaxial proportional loading, considering lack-of-fusion defects and gas pores.",
-          "result": "Fatigue strength anisotropy is highly dependent on defect morphology and loading direction, with tensile loading showing the strongest anisotropy.",
-          "validation": "Numerical predictions of fatigue strength anisotropy were validated against experimental data from the literature."
+          "motivation": "To investigate how defect populations affect the fatigue strength anisotropy of L-PBF Ti-6Al-4V under multiaxial loading.",
+          "method": "Finite element simulations were performed for two defect types (lack of fusion and gas pores) under proportional multiaxial loading.",
+          "result": "Fatigue strength is highly dependent on defect orientation and morphology, with higher anisotropy under tensile loading and for LoF defects.",
+          "validation": "Numerical fatigue strength anisotropy was validated against experimental data from the literature."
         },
         "key_terms": [
           {
-            "en": "laser powder bed fusion",
+            "en": "L-PBF",
             "zh": "激光粉末床熔融"
           },
           {
@@ -357,50 +513,58 @@
             "zh": "疲劳强度各向异性"
           },
           {
-            "en": "lack of fusion defects",
-            "zh": "熔合缺陷"
+            "en": "defect population",
+            "zh": "缺陷群体"
+          },
+          {
+            "en": "lack of fusion",
+            "zh": "未熔合缺陷"
           },
           {
             "en": "gas pores",
             "zh": "气孔"
           },
           {
-            "en": "finite element simulation",
-            "zh": "有限元模拟"
-          },
-          {
             "en": "multiaxial loading",
             "zh": "多轴加载"
           },
           {
+            "en": "finite element simulation",
+            "zh": "有限元模拟"
+          },
+          {
             "en": "Ti-6Al-4V",
             "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "non-local analysis",
+            "zh": "非局部分析"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 4,
     "by_source": {
-      "openalex": 3
+      "openalex": 4
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 3
+      "ti6al4v_base_mechanical_fatigue": 4
     },
     "routed_by_source": {
-      "openalex": 3
+      "openalex": 4
     },
-    "scored": 3,
+    "scored": 4,
     "priority_counts": {
+      "High": 2,
       "Medium": 1,
-      "Exclude": 1,
-      "High": 1
+      "Exclude": 1
     }
   }
 }

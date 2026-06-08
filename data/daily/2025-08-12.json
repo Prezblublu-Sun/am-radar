@@ -1,0 +1,298 @@
+{
+  "schema_version": "v2",
+  "date": "2025-08-12",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413184269",
+      "doi": "10.36922/msam025220044",
+      "title": "Microstructural evolution and mechanical properties of laser-powder bed fusion-fabricated Ti-10Ta-2Nb-2Zr alloy as a potential orthopedic implant material",
+      "abstract": "Titanium alloys are gaining attention for their potential to improve implant performance in biomedical applications. This study investigates the Ti-10Ta-2Nb-2Zr alloy fabricated using laser-powder bed fusion (L-PBF) for potential biomedical applications. The research aims to examine the influence of processing parameters on material structure and properties, and to develop porous structures based on triply periodic minimal surfaces (TPMS) to reduce elastic modulus and improve mechanical compatibility with bone tissue. Spherical Ti-10Ta-2Nb-2Zr powder was processed using L-PBF with varying laser power (250 &amp;ndash; 280 W), scanning speed (500 &amp;ndash; 1000 mm/s), and hatch spacing (80 &amp;ndash; 100 &amp;mu;m). Maximum relative density of 99.91% was achieved at volumetric energy density of 70 J/mm3. Differential scanning calorimetry revealed the &amp;beta;-transus temperature at 862&amp;deg;C. Microstructural analysis showed the formation of martensitic &amp;alpha;&amp;rsquo;-phase in the as-built condition with acicular morphology. Heat treatment at 900&amp;deg;C resulted in the formation of a lamellar &amp;alpha; + &amp;beta; structure. Mechanical properties in the as-built condition were characterized by yield strength of 551.8 MPa, ultimate tensile strength of 641.2 MPa, elongation of 19.0%, and elastic modulus of 89.0 GPa. After heat treatment, strength characteristics decreased by 15 &amp;ndash; 18%, whereas elastic modulus reduced to 86.0 GPa. TPMS porous structures (gyroid, Schwarz, and split) with 50% porosity demonstrated an elastic modulus of 9.2 &amp;ndash; 9.7 GPa, representing approximately 18% of the solid material value. These results demonstrate the potential of Ti-10Ta-2Nb-2Zr as a promising alternative to conventional Ti-6Al-4V for orthopedic applications, offering enhanced mechanical properties and reduced stress shielding due to its lower elastic modulus and tailored porous architectures.",
+      "authors": [
+        "Igor Polozov",
+        "Victoria Nefyodova",
+        "А. И. Золотарев",
+        "Anatoly Popovich"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Igor Polozov",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Materials Science in Additive Manufacturing",
+      "year": 2025,
+      "date": "2025-08-12",
+      "date_precision": "day",
+      "url": "https://doi.org/10.36922/msam025220044",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Alloy",
+        "Fusion",
+        "Implant",
+        "Titanium alloy",
+        "Orthopedic surgery",
+        "Metallurgy",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_femoral_stem",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "tensile strength",
+          "yield strength",
+          "ultimate tensile strength",
+          "elongation",
+          "porosity"
+        ],
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TPMS",
+          "stress shielding",
+          "orthopedic implant"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究的是Ti-10Ta-2Nb-2Zr合金而非Ti-6Al-4V，且未涉及股骨柄设计或应力屏蔽分析，与本方向要求不符。",
+        "why_not_core": "The paper does not address Ti-6Al-4V femoral stem design, stress shielding, stem fatigue, or any stem-specific structural analysis; it is a material study on an alternative alloy with TPMS porous structures.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-10Ta-2Nb-2Zr",
+          "L-PBF",
+          "orthopedic implant",
+          "TPMS",
+          "porous structures"
+        ],
+        "summary_zh": {
+          "motivation": "开发低弹性模量的新型钛合金以替代Ti-6Al-4V用于骨科植入物",
+          "method": "通过L-PBF制备Ti-10Ta-2Nb-2Zr合金，进行热处理并设计TPMS多孔结构",
+          "result": "致密样品抗拉强度641.2 MPa，弹性模量89 GPa；多孔结构弹性模量降至9.2-9.7 GPa",
+          "validation": "采用拉伸试验和压缩试验验证力学性能"
+        },
+        "summary_en": {
+          "motivation": "To develop a new titanium alloy with lower elastic modulus as an alternative to Ti-6Al-4V for orthopedic implants.",
+          "method": "Ti-10Ta-2Nb-2Zr alloy was fabricated by L-PBF with varying parameters, followed by heat treatment and fabrication of TPMS porous structures.",
+          "result": "Solid samples achieved yield strength of 551.8 MPa, ultimate tensile strength of 641.2 MPa, elongation of 19.0%, and elastic modulus of 89 GPa; TPMS porous structures exhibited modulus as low as 9.2 GPa.",
+          "validation": "Mechanical properties were validated through tensile and compression testing of solid and porous specimens."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-10Ta-2Nb-2Zr alloy",
+            "zh": "Ti-10Ta-2Nb-2Zr合金"
+          },
+          {
+            "en": "orthopedic implant",
+            "zh": "骨科植入物"
+          },
+          {
+            "en": "elastic modulus",
+            "zh": "弹性模量"
+          },
+          {
+            "en": "triply periodic minimal surface",
+            "zh": "三周期极小曲面"
+          },
+          {
+            "en": "porous structure",
+            "zh": "多孔结构"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7111189949",
+      "doi": "10.1021/acs.langmuir.5c01811.s001",
+      "title": "Effect of Graphene Oxide-Based Nanodielectric on ElectricalDischarge Machining Performance of Ti-6Al‑4 V",
+      "abstract": "Graphene oxide (GO), a two-dimensional nanomaterial, exhibits exceptional electrical and thermal conductivity as well as outstanding tensile strength. In this study, GO nanosheets were dispersed into the dielectric fluid during electrical discharge machining (EDM) of Ti-6Al-4V alloy using copper electrodes, enabling a comprehensive evaluation of the modified dielectric’s behavior and the alloy’s impact on machining performance. The incorporation of GO significantly influenced both the material removal rate (MRR) and the electrode wear ratio (EWR). Surface morphology analysis using scanning electron microscopy (SEM) revealed that GO effectively suppressed the formation of microcracks on the machined surfaces of Ti-6Al-4V. Under optimized machining parametersspecifically, a peak current of 30 A and a pulse duration of 300 μsemploying 0.2 wt % GO in the dielectric resulted in notable enhancements: the MRR increased by 79.3%, the EWR decreased by approximately 41.3%, and the surface roughness improved by about 38.5%. Additional verification through comparative vibration analysis and waveform evaluation confirmed that the introduction of GO substantially improves EDM efficiency, surface quality, and process stability.",
+      "authors": [
+        "Zheng Yang (264955)",
+        "Zihan Wang (3129810)",
+        "Jinjin Li (849002)",
+        "Songlin Ding (19018799)",
+        "Shuang Yi (8698824)"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Zheng Yang (264955)",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Figshare",
+      "year": 2025,
+      "date": "2025-08-12",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1021/acs.langmuir.5c01811.s001",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Electrical discharge machining",
+        "Machining",
+        "Graphene",
+        "Surface roughness",
+        "Composite material",
+        "Dielectric",
+        "Scanning electron microscope",
+        "Electrode",
+        "Surface integrity",
+        "Oxide",
+        "Waveform",
+        "Surface finish",
+        "Electrical resistivity and conductivity",
+        "Thermal conductivity",
+        "Alloy",
+        "Ultimate tensile strength",
+        "Metallurgy",
+        "Electric discharge",
+        "Copper"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "tensile strength",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的电火花加工，但未研究任何后处理工艺（如热处理或热等静压）对机械性能的影响。",
+        "why_not_core": "The paper focuses on electrical discharge machining (EDM) process modification with graphene oxide, not on any post-processing treatment (e.g., heat treatment, HIP, shot peening) that modifies fatigue or mechanical performance of AM Ti-6Al-4V.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "electrical discharge machining",
+          "graphene oxide",
+          "Ti-6Al-4V",
+          "surface roughness",
+          "material removal rate"
+        ],
+        "summary_zh": {
+          "motivation": "探究氧化石墨烯纳米电介质对Ti-6Al-4V电火花加工性能的影响",
+          "method": "在电火花加工介质中添加氧化石墨烯纳米片，使用铜电极加工Ti-6Al-4V合金",
+          "result": "添加0.2 wt% GO使材料去除率提高79.3%，电极损耗降低41.3%，表面粗糙度改善38.5%",
+          "validation": "通过SEM表面形貌、振动分析和波形评估验证加工效果"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of graphene oxide nanodielectric on the electrical discharge machining performance of Ti-6Al-4V alloy.",
+          "method": "Graphene oxide nanosheets were dispersed into the dielectric fluid during EDM of Ti-6Al-4V using copper electrodes.",
+          "result": "Adding 0.2 wt% GO increased material removal rate by 79.3%, reduced electrode wear ratio by 41.3%, and improved surface roughness by 38.5%.",
+          "validation": "Validation through SEM surface morphology, vibration analysis, and waveform evaluation."
+        },
+        "key_terms": [
+          {
+            "en": "graphene oxide",
+            "zh": "氧化石墨烯"
+          },
+          {
+            "en": "electrical discharge machining",
+            "zh": "电火花加工"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "material removal rate",
+            "zh": "材料去除率"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "electrode wear ratio",
+            "zh": "电极损耗比"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 2,
+    "by_source": {
+      "openalex": 2
+    },
+    "after_dedup": 2,
+    "after_routing": 2,
+    "by_direction": {
+      "ti6al4v_femoral_stem": 1,
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 2
+    },
+    "scored": 2,
+    "priority_counts": {
+      "Low": 2
+    }
+  }
+}

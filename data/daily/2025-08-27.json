@@ -41,11 +41,18 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
+        "ti6al4v_base_mechanical_fatigue",
         "ti6al4v_postprocess"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "Ti64",
+          "powder bed fusion",
+          "microstructure"
+        ],
         "ti6al4v_postprocess": [
           "Ti6Al4V",
           "Ti64",
@@ -54,10 +61,10 @@
       },
       "llm": {
         "priority": "Medium",
-        "relevance_level": "Transferable",
-        "read_action": "Skim only",
-        "relevance_to_user": "该论文涉及Ti-6Al-4V的后处理（阳极氧化+热处理），但未研究疲劳或拉伸性能，仅侧重于生物医学应用中的硬度和耐腐蚀性，因此与方向聚焦的疲劳/力学性能改性关系较弱。",
-        "why_not_core": "No fatigue or tensile data; mechanical evaluation limited to hardness and adhesion, and the study targets biomedical application rather than structural mechanical performance.",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文针对EB-PBF Ti6Al4V的阳极氧化后处理，涉及表面硬度和附着力等力学性能，但缺乏疲劳或拉伸数据，与用户关注的疲劳/力学性能方向部分相关。",
+        "why_not_core": "The paper does not include fatigue testing or tensile properties; it focuses on hardness, scratch adhesion, corrosion resistance, and bioactivity, not on cyclic or monotonic mechanical performance under structural loads.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -66,30 +73,36 @@
           "is_review": false
         },
         "tags": [
+          "additive manufacturing",
+          "electron beam powder bed fusion",
+          "Ti6Al4V",
           "anodization",
           "TiO2 nanotubes",
-          "EB-PBF",
-          "Ti6Al4V",
+          "surface engineering",
           "nanoindentation",
-          "corrosion resistance",
-          "bioactivity",
-          "surface modification",
-          "heat treatment",
-          "hardness"
+          "corrosion resistance"
         ],
         "summary_zh": {
-          "motivation": "研究EB-PBF制造Ti6Al4V合金通过阳极氧化和热处理进行表面改性以提升生物医学性能。",
-          "method": "在不同电压下阳极氧化生成TiO2纳米管阵列，随后550°C热处理，并通过SEM、AFM、XRD、EDS及纳米压痕等表征。",
-          "result": "较低电压生成均匀致密纳米管，硬度更高，耐腐蚀性增强，生物活性改善。",
-          "validation": "纳米压痕、纳米划痕、电化学测试及体外生物活性实验。"
+          "motivation": "通过阳极氧化在EB-PBF Ti6Al4V表面生成TiO2纳米管，提升生物医用性能。",
+          "method": "采用不同电压阳极氧化和后续热处理，系统表征形貌、相结构和力学性能。",
+          "result": "低电压生成更均匀致密的纳米管，硬度更高；高电压导致纳米管更大更无序，力学性能略降。",
+          "validation": "通过SEM、AFM、XRD、EDS、纳米压痕和电化学测试验证表面改性效果。"
         },
         "summary_en": {
-          "motivation": "To investigate anodization and heat treatment as post-processing for EB-PBF Ti6Al4V to enhance surface properties for biomedical applications.",
-          "method": "Ti6Al4V samples were anodized at 40 V and 60 V to form TiO2 nanotube arrays, then heat-treated at 550°C; characterization included SEM, AFM, XRD, EDS, nanoindentation, nanoscratch, and electrochemical tests.",
-          "result": "Lower voltage produced compact nanotubes with higher hardness and better corrosion resistance; bioactivity was improved due to apatite formation.",
-          "validation": "Mechanical testing via nanoindentation and nanoscratch, electrochemical corrosion tests, and in vitro bioactivity assays."
+          "motivation": "To enhance the surface properties of EB-PBF Ti6Al4V for biomedical implants through anodization-induced TiO2 nanotube arrays.",
+          "method": "Ti6Al4V samples were anodized at 40V and 60V for 2h followed by heat treatment at 550°C, and characterized by SEM, AFM, XRD, EDS, nanoindentation, nanoscratch, and electrochemical tests.",
+          "result": "Lower voltage produced uniform, compact nanotubes with higher hardness and adhesion, while higher voltage led to thicker, disordered nanotubes with reduced mechanical performance.",
+          "validation": "Characterization techniques (SEM, AFM, XRD, EDS, nanoindentation, nanoscratch) and electrochemical corrosion tests confirmed the structural and property changes."
         },
         "key_terms": [
+          {
+            "en": "electron beam powder bed fusion",
+            "zh": "电子束粉末床熔融"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V"
+          },
           {
             "en": "anodization",
             "zh": "阳极氧化"
@@ -99,42 +112,30 @@
             "zh": "TiO2纳米管阵列"
           },
           {
-            "en": "electron beam powder bed fusion",
-            "zh": "电子束粉末床熔融"
-          },
-          {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V钛合金"
-          },
-          {
             "en": "nanoindentation",
             "zh": "纳米压痕"
+          },
+          {
+            "en": "nanoscratch",
+            "zh": "纳米划痕"
           },
           {
             "en": "corrosion resistance",
             "zh": "耐腐蚀性"
           },
           {
-            "en": "bioactivity",
-            "zh": "生物活性"
-          },
-          {
-            "en": "surface modification",
-            "zh": "表面改性"
-          },
-          {
             "en": "heat treatment",
             "zh": "热处理"
           },
           {
-            "en": "hardness",
-            "zh": "硬度"
+            "en": "surface engineering",
+            "zh": "表面工程"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
     },
     {
       "source": "openalex",
@@ -179,11 +180,11 @@
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是干式车削钛合金的切削力，不涉及任何后处理工艺（如热处理、表面处理）对疲劳或力学性能的影响，因此与方向无关。",
-        "why_not_core": "Paper does not address any post-processing treatment (heat treatment, shot peening, HIP, etc.) or its effect on fatigue/mechanical performance of Ti-6Al-4V; it focuses solely on cutting forces during dry turning, which is a primary machining process.",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti6Al4V的车削加工，属于后处理范畴，但未研究后处理对疲劳或力学性能的影响，因此仅为边缘相关。",
+        "why_not_core": "The paper does not study the effect of turning on fatigue or mechanical performance of Ti-6Al-4V; it focuses on cutting force and tool life during the machining operation itself.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -192,23 +193,23 @@
           "is_review": false
         },
         "tags": [
-          "titanium alloy",
-          "dry turning",
-          "cutting force",
+          "turning",
+          "Ti6Al4V ELI",
+          "specific cutting force",
           "carbide inserts",
-          "Taguchi method"
+          "machining parameters"
         ],
         "summary_zh": {
-          "motivation": "研究干车削Ti6Al4V ELI时切削参数对切削力的影响，以优化加工效率。",
-          "method": "使用不同牌号硬质合金刀片进行干车削试验，测量切削力并采用Taguchi方法分析。",
-          "result": "切削力主要受切削层横截面积影响，涂层刀片显著降低切削力，表面硬化倾向更低。",
-          "validation": "通过36组切削试验验证，并采用响应曲面法优化参数。"
+          "motivation": "研究干式车削钛合金Ti6Al4V ELI时工艺参数对切削力的影响。",
+          "method": "使用不同硬质合金刀片进行车削实验，测量切削力并分析参数影响。",
+          "result": "切削力主要取决于切削层截面积，涂层刀片降低切削力并延长刀具寿命。",
+          "validation": "通过实验测量和Taguchi方法分析验证。"
         },
         "summary_en": {
-          "motivation": "The study aims to investigate the effect of turning parameters on specific cutting force for Ti6Al4V ELI to improve machining efficiency and tool life.",
-          "method": "Dry turning experiments were conducted with two grades of carbide inserts (H13A and 1115) while varying cutting speed, depth of cut, and feed; specific cutting force was measured and analyzed using the Taguchi method and response surface methodology.",
-          "result": "Specific cutting force depends primarily on the cross-sectional area of the cut; coated inserts reduce cutting force by an average of 282.7 MPa and show lower tendency for built-up edge and surface hardening.",
-          "validation": "Experimental validation was performed through 36 cutting tests, and optimal parameters (v_c=80 m/min, a_p=1.0 mm, f=0.2 mm/rev) were determined using desirability function."
+          "motivation": "To investigate the influence of turning process parameters on specific cutting force during dry machining of Ti6Al4V ELI.",
+          "method": "Experimental cutting tests with different carbide inserts, measuring circumferential cutting force and analyzing parameter significance.",
+          "result": "Specific cutting force primarily depends on cut cross-section; coated inserts reduce force and improve tool life.",
+          "validation": "Experimental measurements and Taguchi/response surface analysis."
         },
         "key_terms": [
           {
@@ -228,30 +229,22 @@
             "zh": "硬质合金刀片"
           },
           {
+            "en": "cutting parameters",
+            "zh": "切削参数"
+          },
+          {
             "en": "Taguchi method",
             "zh": "田口方法"
           },
           {
             "en": "response surface methodology",
-            "zh": "响应曲面法"
-          },
-          {
-            "en": "cutting speed",
-            "zh": "切削速度"
-          },
-          {
-            "en": "depth of cut",
-            "zh": "切削深度"
-          },
-          {
-            "en": "feed",
-            "zh": "进给量"
+            "zh": "响应面法"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
     },
     {
       "source": "openalex",
@@ -301,8 +294,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是非增材制造的TC4合金力学性能，与增材制造Ti-6Al-4V的机械/疲劳方向不相关。",
-        "why_not_core": "This paper focuses on conventionally manufactured TC4 alloy without any additive manufacturing process, defects, or AM-specific features.",
+        "relevance_to_user": "论文研究TC4合金的力学行为，但未涉及增材制造，因此与用户关注的增材制造Ti-6Al-4V力学与疲劳性能不直接相关。",
+        "why_not_core": "Does not specify additive manufacturing; material source likely conventional, not AM Ti-6Al-4V.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -311,86 +304,579 @@
           "is_review": false
         },
         "tags": [
-          "TC4 alloy",
-          "Johnson-Cook constitutive model",
-          "quasi-static tensile",
-          "dynamic tensile",
-          "fracture mechanism"
+          "TC4",
+          "Johnson-Cook",
+          "tensile testing",
+          "SHTB",
+          "fracture"
         ],
         "summary_zh": {
-          "motivation": "研究TC4合金在准静态和动态加载下的力学响应及损伤演化。",
-          "method": "通过准静态拉伸和SHTB动态拉伸实验，修正Johnson-Cook本构模型和失效准则。",
-          "result": "修正模型准确预测载荷-位移曲线，相关系数0.97，断口为韧性微孔聚集型断裂。",
-          "validation": "采用ABAQUS仿真与实验对比验证模型准确性。"
+          "motivation": "研究TC4合金在不同温度和应变率下的力学响应与损伤演化。",
+          "method": "通过准静态和动态拉伸实验，结合SEM和ABAQUS仿真，修正Johnson-Cook模型。",
+          "result": "观察到温度软化效应、缺口尺寸效应和应变率依赖性，修正模型与实验高度吻合（相关系数0.97）。",
+          "validation": "通过实验载荷-位移曲线与仿真对比，以及断口形貌分析验证模型。"
         },
         "summary_en": {
-          "motivation": "To characterize the mechanical response and failure behavior of TC4 alloy under quasi-static and dynamic loading conditions.",
-          "method": "Quasi-static tensile tests at various temperatures and dynamic tensile tests using SHTB were conducted, and the Johnson-Cook model was modified and parameterized.",
-          "result": "The modified Johnson-Cook model accurately predicted load-displacement curves (correlation 0.97), and fracture surfaces showed ductile microvoid-dominated failure.",
-          "validation": "Experimental validation was performed by comparing simulated load-displacement curves with measured data."
+          "motivation": "This work aims to characterize the mechanical response and damage evolution of TC4 alloy under coupled temperature and strain rate conditions.",
+          "method": "Quasi-static and dynamic tensile tests were conducted using a universal testing machine and Split Hopkinson Tensile Bar, and the Johnson-Cook model was modified based on experimental data; a 3D simulation was built in ABAQUS.",
+          "result": "Temperature softening, notch size effect, and strain-rate-dependent hardening were observed; the modified model predicted load–displacement curves with a correlation coefficient of 0.97.",
+          "validation": "The model was validated by comparing simulated load–displacement curves with experimental results and by SEM fractography revealing ductile fracture mechanisms."
         },
         "key_terms": [
           {
-            "en": "TC4 titanium alloy",
-            "zh": "TC4钛合金"
+            "en": "TC4 alloy",
+            "zh": "TC4合金"
           },
           {
             "en": "Johnson-Cook constitutive model",
             "zh": "Johnson-Cook本构模型"
           },
           {
-            "en": "split Hopkinson tensile bar",
+            "en": "Split Hopkinson Tensile Bar",
             "zh": "分离式霍普金森拉杆"
           },
           {
-            "en": "quasi-static tensile",
-            "zh": "准静态拉伸"
+            "en": "quasi-static tensile test",
+            "zh": "准静态拉伸试验"
           },
           {
-            "en": "dynamic tensile",
-            "zh": "动态拉伸"
+            "en": "dynamic tensile test",
+            "zh": "动态拉伸试验"
           },
           {
-            "en": "fracture surface",
-            "zh": "断口形貌"
+            "en": "temperature softening",
+            "zh": "温度软化"
+          },
+          {
+            "en": "notch size effect",
+            "zh": "缺口尺寸效应"
           },
           {
             "en": "ductile fracture",
             "zh": "韧性断裂"
           },
           {
-            "en": "temperature-softening",
-            "zh": "温度软化"
+            "en": "ABAQUS simulation",
+            "zh": "ABAQUS仿真"
           },
           {
-            "en": "strain-hardening",
-            "zh": "应变硬化"
+            "en": "strain rate",
+            "zh": "应变率"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413765174",
+      "doi": "10.1016/j.engfailanal.2025.110042",
+      "title": "In-situ X-ray investigation of ductile failure in additively manufactured Ti-6Al-4V alloy under different stress triaxiality",
+      "abstract": "",
+      "authors": [
+        "Baisen Gao",
+        "Wei Huang",
+        "Shengnan Wang",
+        "Zhigang Liu",
+        "Xianmin Chen",
+        "Shaopu Su"
+      ],
+      "first_author_affiliation": "School of Aeronautics, Northwestern Polytechnical University, Xi’an 710072, China",
+      "corresponding_authors": [
+        {
+          "name": "Wei Huang",
+          "affiliation": "National Key Laboratory of Strength and Structural Integrity, Xi’an 710072, China"
+        }
+      ],
+      "venue": "Engineering Failure Analysis",
+      "year": 2025,
+      "date": "2025-08-27",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.engfailanal.2025.110042",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Alloy",
+        "In situ",
+        "Stress (linguistics)",
+        "Metallurgy",
+        "X-ray",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究增材制造Ti-6Al-4V在不同应力三轴度下的延性破坏，属于L1层机械性能研究。",
+        "why_not_core": "This paper does not focus on fatigue life or S-N curves, but rather on ductile failure mechanisms under varying stress triaxiality.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "ductile failure",
+          "stress triaxiality",
+          "in-situ X-ray",
+          "mechanical characterization"
+        ],
+        "summary_zh": {
+          "motivation": "探索增材制造Ti-6Al-4V在不同应力三轴度下的延性破坏机理",
+          "method": "采用原位X射线成像技术实时观察试样在拉伸过程中的损伤演化",
+          "result": "揭示了应力三轴度对孔洞形核、长大和聚合的影响规律",
+          "validation": "通过原位X射线实验与力学测试数据对比验证"
+        },
+        "summary_en": {
+          "motivation": "To understand the ductile failure mechanisms of additively manufactured Ti-6Al-4V under varying stress triaxiality.",
+          "method": "In-situ X-ray imaging was employed to observe real-time damage evolution during tensile testing.",
+          "result": "The influence of stress triaxiality on void nucleation, growth, and coalescence was revealed.",
+          "validation": "Experimental validation was performed by correlating in-situ X-ray observations with mechanical test data."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "ductile failure",
+            "zh": "延性破坏"
+          },
+          {
+            "en": "stress triaxiality",
+            "zh": "应力三轴度"
+          },
+          {
+            "en": "in-situ X-ray",
+            "zh": "原位X射线"
+          },
+          {
+            "en": "void nucleation",
+            "zh": "孔洞形核"
+          },
+          {
+            "en": "mechanical characterization",
+            "zh": "力学表征"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413769520",
+      "doi": "10.1016/j.msea.2025.149038",
+      "title": "Microstructure and mechanical properties of Ti-6Al-4V alloy processed by additive friction stir deposition over a wide temperature range",
+      "abstract": "The present study examines the effect of temperature on the deposition of Ti-6Al-4V by additive friction stir deposition (AFSD). Microstructure evolution and mechanical properties are characterized for deposition temperatures of 700°C, 800°C, 900°C, and 1000°C. Processing below the β-transus temperature was expected to yield fine equiaxed α grains due to dynamic recrystallization within the (α + β) phase region. However, this study revealed that even processing in the (α + β) phase region at 800°C and 900°C, the as-deposited microstructure exhibited a fully transformed β microstructure with (α + β) lamellae nucleating from the prior β grain boundaries and closely resembled the microstructure observed at 1000°C. These striking microstructural similarities suggested a complete dynamic transformation from α to β, driven by the high strain and strain rate inherent to the AFSD processing. In contrast, at 700°C, the deposit displayed a bimodal structure comprising equiaxed α and (α + β) lamellae. The mechanical properties of the 800°C, 900°C, and 1000°C processed materials were similar, with minor variations associated with the differences in α lath size and prior β grain size. Finally, the tensile properties of as-deposited Ti-6Al-4V were compared with the forging standard requirements outlined in ASTM and other fusion-based additive manufacturing processes. • First study on AFSD processing of Ti-6Al-4V above and below β-transus temperatures. • Processing at 800°C and 900°C led to unexpected fully transformed β microstructure. • Processing at 700°C yielded a bimodal structure with equiaxed α and (α+β) lamellae. • The study highlighted unexpected dynamic transformation (α → β) during AFSD. • The as-deposited alloy showed tensile properties comparable to forged counterparts.",
+      "authors": [
+        "Meet Gor",
+        "Matthew Barnett",
+        "P.P. Bhattacharjee",
+        "Daniel Fabijanic"
+      ],
+      "first_author_affiliation": "Department of Materials Science and Metallurgical Engineering, IIT Hyderabad, Kandi, Sangareddy, Telangana 502284, India",
+      "corresponding_authors": [
+        {
+          "name": "Meet Gor",
+          "affiliation": "Department of Materials Science and Metallurgical Engineering, IIT Hyderabad, Kandi, Sangareddy, Telangana 502284, India"
+        },
+        {
+          "name": "P.P. Bhattacharjee",
+          "affiliation": "Department of Materials Science and Metallurgical Engineering, IIT Hyderabad, Kandi, Sangareddy, Telangana 502284, India"
+        },
+        {
+          "name": "Daniel Fabijanic",
+          "affiliation": "Institute for Frontier Materials, Deakin University, Geelong, Victoria 3216, Australia"
+        }
+      ],
+      "venue": "Materials Science and Engineering A",
+      "year": 2025,
+      "date": "2025-08-27",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.msea.2025.149038",
+      "cited_by_count": 8,
+      "concepts": [
+        "Microstructure",
+        "Materials science",
+        "Friction stir processing",
+        "Alloy",
+        "Deposition (geology)",
+        "Atmospheric temperature range",
+        "Metallurgy",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文研究了增材摩擦搅拌沉积Ti-6Al-4V在不同温度下的微观结构和力学性能，直接关联到钛合金增材制造基础力学与疲劳层。",
+        "why_not_core": "The paper does not include fatigue testing or fatigue life data, which are key aspects of the L1 direction's specific focus, but it provides tensile properties and microstructure characterization relevant to mechanical performance of additively manufactured Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "additive friction stir deposition",
+          "Ti-6Al-4V",
+          "microstructure",
+          "tensile properties",
+          "dynamic transformation"
+        ],
+        "summary_zh": {
+          "motivation": "探究不同增材摩擦搅拌沉积温度对Ti-6Al-4V合金微观结构和力学性能的影响。",
+          "method": "在700°C至1000°C温度范围内进行AFSD沉积，表征微观组织并测试拉伸性能。",
+          "result": "800°C和900°C沉积出现完全转变的β组织，700°C得到双态组织，拉伸性能与锻件相当。",
+          "validation": "通过拉伸力学测试验证沉积态合金的力学性能。"
+        },
+        "summary_en": {
+          "motivation": "This study aims to investigate the effect of deposition temperature on the microstructure and mechanical properties of Ti-6Al-4V processed by additive friction stir deposition (AFSD).",
+          "method": "AFSD was performed at 700°C, 800°C, 900°C, and 1000°C, followed by microstructural characterization and tensile testing of the as-deposited material.",
+          "result": "Processing at 800°C and 900°C unexpectedly produced a fully transformed β microstructure similar to that at 1000°C, while 700°C yielded a bimodal structure; tensile properties met forged standards.",
+          "validation": "Mechanical properties were validated through standard tensile tests comparing results to ASTM forging requirements."
+        },
+        "key_terms": [
+          {
+            "en": "additive friction stir deposition",
+            "zh": "增材摩擦搅拌沉积"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "tensile properties",
+            "zh": "拉伸性能"
+          },
+          {
+            "en": "dynamic transformation",
+            "zh": "动态相变"
+          },
+          {
+            "en": "β transus temperature",
+            "zh": "β相变温度"
+          },
+          {
+            "en": "bimodal structure",
+            "zh": "双态组织"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413741041",
+      "doi": "10.1007/s40964-025-01319-7",
+      "title": "Impact of powder reuse on corrosion properties in Ti-6Al-4V alloy parts fabricated by laser beam powder bed fusion",
+      "abstract": "",
+      "authors": [
+        "Shamim Pourrahimi",
+        "Julien Milanese",
+        "Mahdi Habibnejad-Korayem",
+        "Philippe Bocher",
+        "Lucas A. Hof"
+      ],
+      "first_author_affiliation": "Mechanical Engineering Department, École de technologie supérieure, 1100, Rue Notre-Dame Ouest, Montreal, QC, H3C 1K3, Canada",
+      "corresponding_authors": [
+        {
+          "name": "Shamim Pourrahimi",
+          "affiliation": "Mechanical Engineering Department, École de technologie supérieure, 1100, Rue Notre-Dame Ouest, Montreal, QC, H3C 1K3, Canada"
+        }
+      ],
+      "venue": "Progress in Additive Manufacturing",
+      "year": 2025,
+      "date": "2025-08-27",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40964-025-01319-7",
+      "cited_by_count": 2,
+      "concepts": [
+        "Materials science",
+        "Alloy",
+        "Fusion",
+        "Reuse",
+        "Corrosion",
+        "Metallurgy",
+        "Titanium alloy",
+        "Beam (structure)",
+        "Laser",
+        "Laser beams",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "powder bed fusion"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Skim only",
+        "relevance_to_user": "论文关注增材制造Ti-6Al-4V的粉末重复使用对腐蚀性能的影响，属于Layer 1默认范围。",
+        "why_not_core": "The paper investigates corrosion rather than mechanical/fatigue properties, and no mechanical testing or modeling is reported.",
+        "validation_kind": "in_vitro",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "corrosion",
+          "powder reuse",
+          "additive manufacturing"
+        ],
+        "summary_zh": {
+          "motivation": "探究粉末重复使用对激光粉末床熔融Ti-6Al-4V合金腐蚀性能的影响。",
+          "method": "通过电化学测试等实验方法评估不同粉末复用次数下试样的腐蚀行为。",
+          "result": "粉末重复使用会改变Ti-6Al-4V的微观结构，进而影响其耐腐蚀性能。",
+          "validation": "采用电化学腐蚀实验进行验证。"
+        },
+        "summary_en": {
+          "motivation": "This study investigates the impact of powder reuse on the corrosion properties of Ti-6Al-4V alloy parts fabricated by laser beam powder bed fusion.",
+          "method": "Corrosion behavior was evaluated through electrochemical testing on specimens produced with varying powder reuse cycles.",
+          "result": "Powder reuse alters the microstructure of Ti-6Al-4V, leading to changes in corrosion resistance.",
+          "validation": "The findings are validated by in vitro electrochemical corrosion experiments."
+        },
+        "key_terms": [
+          {
+            "en": "laser beam powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "corrosion properties",
+            "zh": "腐蚀性能"
+          },
+          {
+            "en": "powder reuse",
+            "zh": "粉末重复使用"
+          },
+          {
+            "en": "electrochemical testing",
+            "zh": "电化学测试"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4413861444",
+      "doi": "10.1016/j.matdes.2025.114638",
+      "title": "Mechanical and thermal responses of random triply periodic minimal surface structures",
+      "abstract": "This study investigates the mechanical and thermal responses of stochastic Triply Periodic Minimal Surface (TPMS) structures fabricated using the laser powder bed fusion process with Ti-6Al-4V. Stochastic Gyroid structures were generated by introducing Voronoi-based randomness, allowing for controlled variations in stochasticity. Mechanical behavior was evaluated through finite element (FE) simulations with damage modeling and compressive testing, while thermal performance was analyzed using steady-state finite element modeling with periodic boundary conditions. Experimental and FE results demonstrated that increasing stochasticity alters failure mechanisms by dispersing deformation across sub-domains, reducing macroscopic shear band formation. Among stochastic structures, greater randomness from 5 to 50 random points led to an increase in elastic modulus, initial peak stress, and energy absorption by 38 %, 27 %, and 54 %, respectively. Additionally, while uniform TPMS structures exhibited higher effective thermal conductivity, aligning with the upper limit of Maxwell-Eucken’s models, stochasticity reduced effective thermal conductivity by approximately 8–16 %. Overall, although uniform Gyroid structures exhibited superior mechanical and thermal performance across all evaluated properties, these findings provide new insights into the trade-offs between mechanical resilience and thermal transport in stochastic TPMS architectures, highlighting their potential for multi-functional applications in automotive components, aerospace structures, and structural energy storage systems.",
+      "authors": [
+        "Maytawee Maneein",
+        "Thanakit Yuthchaiming",
+        "Chutima Pankul",
+        "Atikom Sombatmai",
+        "Teerapong Poltue",
+        "Vikram Ahuja",
+        "Raj Das",
+        "Patcharapit Promoppatum"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Maytawee Maneein",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Materials & Design",
+      "year": 2025,
+      "date": "2025-08-27",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.matdes.2025.114638",
+      "cited_by_count": 11,
+      "concepts": [
+        "Materials science",
+        "Thermal",
+        "Surface (topology)",
+        "Composite material",
+        "Crystallography",
+        "Geometry"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion"
+        ],
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TPMS",
+          "triply periodic minimal surface"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究随机TPMS结构的力学和热响应，但未涉及股骨柄或骨科植入物，与方向无关。",
+        "why_not_core": "The paper does not address femoral stem design, orthopaedic implants, stress shielding, or any implant-specific mechanical/biomechanical analysis.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "TPMS",
+          "stochastic structures",
+          "compressive testing",
+          "finite element simulation",
+          "thermal conductivity"
+        ],
+        "summary_zh": {
+          "motivation": "研究随机TPMS结构在力学和热响应上的性能变化。",
+          "method": "通过Voronoi方法生成随机Gyroid结构，进行有限元模拟和压缩实验。",
+          "result": "随机性增加弹性模量、峰值应力和能量吸收，但降低热导率。",
+          "validation": "压缩实验与有限元模拟对比验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the mechanical and thermal responses of stochastic TPMS structures fabricated by laser powder bed fusion.",
+          "method": "Voronoi-based randomness was introduced into Gyroid structures, and FE simulations with damage modeling along with compressive testing were conducted.",
+          "result": "Increasing stochasticity improved elastic modulus, peak stress, and energy absorption by up to 54%, while reducing thermal conductivity by 8-16%.",
+          "validation": "Experimental compression tests validated the FE simulation results."
+        },
+        "key_terms": [
+          {
+            "en": "triply periodic minimal surface",
+            "zh": "三周期极小曲面"
+          },
+          {
+            "en": "stochastic structures",
+            "zh": "随机结构"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
+          },
+          {
+            "en": "finite element simulation",
+            "zh": "有限元模拟"
+          },
+          {
+            "en": "compressive testing",
+            "zh": "压缩实验"
+          },
+          {
+            "en": "thermal conductivity",
+            "zh": "热导率"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 7,
     "by_source": {
-      "openalex": 3
+      "openalex": 7
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 7,
+    "after_routing": 7,
     "by_direction": {
       "ti6al4v_postprocess": 2,
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 4,
+      "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "openalex": 3
+      "openalex": 7
     },
-    "scored": 3,
+    "scored": 7,
     "priority_counts": {
-      "Medium": 1,
-      "Exclude": 2
+      "Medium": 2,
+      "Low": 1,
+      "Exclude": 2,
+      "High": 2
     }
   }
 }

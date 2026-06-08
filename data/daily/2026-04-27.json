@@ -5,6 +5,141 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W7158423582",
+      "doi": "",
+      "title": "Microstructure engineering of Ti-6Al-4V in laser powder bed fusion via 1D thermal modeling and supporting experiments",
+      "abstract": "The microstructure of Ti-6Al-4V has a decisive impact on its mechanical performance; however, controlling phase composition during Laser Powder Bed Fusion (LPBF) remains difficult because of the inherent localized and cyclic thermal history. To fully leverage the design flexibility of LPBF while maintaining an efficient process, it is desirable to tailor the microstructure directly through process-parameter optimization rather than relying on post-processing or in-situ heat treatments. Nevertheless, the large and multidimensional parameter space, combined with the limited availability of experimental data, makes this task particularly challenging. In this work, we develop an efficient computational framework that links process conditions to microstructure evolution by coupling a phase transformation model with a fast 1D finite-difference thermal model, enabling comprehensive insights into process-microstructure relations. The framework predicts the fractions of stable $α_s$, martensitic $α_m$, and $β$ phases and is validated experimentally. A broad design of experiments covering 2,000 parameter combinations (spanning volumetric energy density, layer thickness, interlayer time, and build plate temperature) demonstrates how these parameters influence phase evolution and provides systematic practical guidelines for process design. The framework reproduces experimental trends with sufficient accuracy while being orders of magnitude faster than high-fidelity simulations, enabling rapid exploration of process-structure relationships in LPBF of Ti-6Al-4V.",
+      "authors": [
+        "Carina van der Linde",
+        "Iason Sideris",
+        "Léa Deillon",
+        "Mohamadreza Afrasiabi",
+        "Markus Bambach"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Carina van der Linde",
+          "affiliation": ""
+        }
+      ],
+      "venue": "ArXiv.org",
+      "year": 2026,
+      "date": "2026-04-27",
+      "date_precision": "day",
+      "url": "https://openalex.org/W7158423582",
+      "cited_by_count": 0,
+      "concepts": [
+        "Microstructure",
+        "Materials science",
+        "Fusion",
+        "Leverage (statistics)",
+        "Thermal",
+        "Phase (matter)",
+        "Martensite",
+        "Flexibility (engineering)",
+        "Process (computing)",
+        "Laser",
+        "Coupling (piping)",
+        "Biological system",
+        "Mechanical engineering",
+        "Computer science",
+        "Design of experiments"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "microstructure",
+          "layer thickness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "post-processing"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究通过工艺参数优化控制微观结构，避免后处理，与后处理控制方向不直接相关。",
+        "why_not_core": "The paper explicitly aims to avoid post-processing by optimizing LPBF parameters, so it provides no data on any post-processing treatment (heat treatment, HIP, surface treatment, etc.).",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "microstructure engineering",
+          "process optimization",
+          "1D thermal model",
+          "phase prediction"
+        ],
+        "summary_zh": {
+          "motivation": "优化LPBF工艺参数以控制Ti-6Al-4V微观结构，避免后处理。",
+          "method": "开发耦合相变模型与一维有限差分热模型的框架，预测相组成。",
+          "result": "框架快速准确预测相比例，覆盖2000种参数组合，提供工艺设计指南。",
+          "validation": "通过实验验证了相分数预测趋势。"
+        },
+        "summary_en": {
+          "motivation": "To tailor Ti-6Al-4V microstructure during LPBF via process parameter optimization, avoiding the need for post-processing.",
+          "method": "Developed a computational framework coupling a phase transformation model with a fast 1D finite-difference thermal model to predict phase fractions.",
+          "result": "The framework accurately reproduces experimental phase trends across 2000 parameter combinations, providing systematic guidelines for process design.",
+          "validation": "Experimental validation of phase fraction predictions."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
+          },
+          {
+            "en": "microstructure engineering",
+            "zh": "微观组织工程"
+          },
+          {
+            "en": "phase transformation",
+            "zh": "相变"
+          },
+          {
+            "en": "1D thermal model",
+            "zh": "一维热模型"
+          },
+          {
+            "en": "process parameters",
+            "zh": "工艺参数"
+          },
+          {
+            "en": "experimental validation",
+            "zh": "实验验证"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W7156691269",
       "doi": "10.1002/adma.202516173",
       "title": "Triply‐Twinned Metamaterials: Unraveling the Mechanics and Failure Pathways Through High‐Resolution XCT",
@@ -73,6 +208,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additively manufactured",
           "build orientation",
           "defect"
         ]
@@ -81,8 +217,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文针对增材制造Ti-6Al-4V点阵结构的力学性能提升，实验与模拟结合，直接相关于您的方向。",
-        "why_not_core": "未涉及疲劳测试或S-N曲线数据，且聚焦于点阵结构而非块体材料的基本力学性能。",
+        "relevance_to_user": "该论文直接研究增材制造Ti-6Al-4V晶格结构的力学性能（刚度和强度），属于L1方向的核心内容。",
+        "why_not_core": "The paper focuses on static mechanical properties of lattice structures rather than fatigue life or S-N curves, which are explicitly listed in the L1 focus but not covered here.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -91,34 +227,30 @@
           "is_review": false
         },
         "tags": [
-          "triply-twinned metamaterials",
-          "BCCT lattice",
-          "mechanical performance",
-          "XCT",
           "Ti-6Al-4V",
-          "additive manufacturing",
-          "failure pathways"
+          "lattice metamaterials",
+          "triply-twinned BCC",
+          "mechanical properties",
+          "XCT",
+          "build orientation",
+          "defect-driven fracture"
         ],
         "summary_zh": {
-          "motivation": "提升增材制造点阵结构的力学性能与可靠性。",
-          "method": "设计三重孪晶BCC点阵，结合高分辨XCT、有限元模拟和实验表征。",
-          "result": "实现了高达279%的强度提升，并将断裂机制与缺陷关联。",
-          "validation": "通过力学测试和XCT图像有限元模型验证。"
+          "motivation": "传统BCC晶格变形效率低且对缺陷敏感，需设计更优的晶格结构。",
+          "method": "设计三重孪生BCC晶格，通过增材制造制备，结合XCT和有限元分析评估力学性能。",
+          "result": "三重孪生晶格刚度和强度分别提升380%和279%，调整构建方向可减少50%的缺陷驱动断裂。",
+          "validation": "通过Ti-6Al-4V试样的力学测试和高分辨率XCT表征验证。"
         },
         "summary_en": {
-          "motivation": "To enhance the mechanical performance and reliability of additively manufactured lattice metamaterials.",
-          "method": "Designed triply-twinned BCC lattices and characterized them using high-resolution XCT, image-based FE models, SEM, and pyrometry.",
-          "result": "Achieved up to 279% improvement in strength and correlated fracture mechanisms to architecture design and as-built defects.",
-          "validation": "Validated through mechanical testing and XCT-based finite element simulations."
+          "motivation": "Conventional BCC lattices suffer from inefficient strut deformation and defect-sensitive failure, motivating the design of a novel triply-twinned architecture.",
+          "method": "Triply-twinned BCC lattices were designed, additively manufactured from Ti-6Al-4V, and characterized using synchrotron X-ray computed tomography, image-based finite element models, and mechanical testing.",
+          "result": "The triply-twinned lattices achieved up to 380% improvement in stiffness and 279% in strength, with build orientation optimization reducing defect-driven fracture by 50%.",
+          "validation": "Validation was performed through mechanical testing of Ti-6Al-4V specimens combined with high-resolution XCT and SEM analysis."
         },
         "key_terms": [
           {
-            "en": "triply-twinned metamaterials",
-            "zh": "三重孪晶超材料"
-          },
-          {
-            "en": "BCC lattice",
-            "zh": "体心立方点阵"
+            "en": "triply-twinned BCC lattice",
+            "zh": "三重孪生体心立方晶格"
           },
           {
             "en": "additive manufacturing",
@@ -126,50 +258,56 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "X-ray computed tomography",
-            "zh": "X射线计算机断层扫描"
+            "en": "mechanical stiffness",
+            "zh": "力学刚度"
           },
           {
-            "en": "finite element model",
-            "zh": "有限元模型"
+            "en": "strength",
+            "zh": "强度"
           },
           {
-            "en": "mechanical performance",
-            "zh": "力学性能"
+            "en": "synchrotron X-ray computed tomography",
+            "zh": "同步辐射X射线计算机断层扫描"
           },
           {
-            "en": "failure pathway",
-            "zh": "失效路径"
+            "en": "build orientation",
+            "zh": "构建方向"
           },
           {
             "en": "defect-driven fracture",
             "zh": "缺陷驱动断裂"
+          },
+          {
+            "en": "metamaterial",
+            "zh": "超材料"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
+      "ti6al4v_postprocess": 1,
       "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
+      "Exclude": 1,
       "High": 1
     }
   }

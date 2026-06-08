@@ -74,36 +74,35 @@
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文关注钛合金干切削表面粗糙度预测，未涉及后处理对疲劳/力学性能的影响，因此与方向L2不直接相关。",
-        "why_not_core": "Does not examine the effect of post-processing on mechanical performance (fatigue, tensile); instead focuses on surface roughness prediction during dry machining, not a post-processing treatment per se.",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文关注的是Ti-6Al-4V干式加工的表面粗糙度预测，而非增材制造后处理对疲劳/力学性能的影响。",
+        "why_not_core": "The paper deals with dry machining surface roughness prediction, not with post-processing treatments (heat treatment, HIP, polishing, etc.) for additively manufactured Ti-6Al-4V mechanical performance.",
         "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
-          "dry machining",
+          "machining",
           "surface roughness",
-          "physics-based feature engineering",
-          "machine learning"
+          "Ti-6Al-4V",
+          "physics-based feature engineering"
         ],
         "summary_zh": {
-          "motivation": "干切削钛合金难以准确预测表面粗糙度",
-          "method": "提出基于物理特征工程的AI预测框架，使用多种机器学习模型",
-          "result": "优化XGBoost模型预测R²达0.98，MAE降至0.018μm",
-          "validation": "通过19组中心复合设计实验验证"
+          "motivation": "干式加工Ti-6Al-4V表面粗糙度预测精度受限，需新方法。",
+          "method": "通过中心复合设计实验，提取物理特征并训练多种机器学习模型。",
+          "result": "优化XGBoost模型R²达0.98，MAE降至0.018μm，优于RSM。",
+          "validation": "使用重复交叉验证和基准比较评估模型性能。"
         },
         "summary_en": {
-          "motivation": "Accurate surface roughness prediction in dry machining of Ti-6Al-4V is challenging due to material properties.",
-          "method": "A physics-based feature engineering framework incorporating specific cutting energy, strain rate, and shear stress was combined with multiple machine learning models.",
-          "result": "The optimized XGBoost model achieved R²=0.98 and MAE=0.018 μm, outperforming traditional response surface methodology.",
-          "validation": "Validation was performed using a central composite design with 19 experimental runs measuring surface roughness and cutting forces."
+          "motivation": "Dry machining of Ti-6Al-4V suffers from poor surface roughness prediction accuracy due to its low thermal conductivity and adhesion.",
+          "method": "A Central Composite Design with 19 runs was used to collect data, physics-based features were engineered, and multiple ML models (XGBoost, Neural Network, SVR) were trained and validated via repeated cross-validation.",
+          "result": "The proposed physics-based XGBoost model achieved R²=0.98 and MAE of 0.018 μm, significantly outperforming traditional response surface methodology.",
+          "validation": "Model performance was assessed through repeated cross-validation and benchmark comparisons against classical methods."
         },
         "key_terms": [
           {
@@ -112,7 +111,7 @@
           },
           {
             "en": "dry machining",
-            "zh": "干切削"
+            "zh": "干式加工"
           },
           {
             "en": "surface roughness",
@@ -120,25 +119,29 @@
           },
           {
             "en": "physics-based feature engineering",
-            "zh": "基于物理的特征工程"
+            "zh": "物理特征工程"
           },
           {
             "en": "XGBoost",
-            "zh": "XGBoost"
+            "zh": "XGBoost算法"
+          },
+          {
+            "en": "neural network",
+            "zh": "神经网络"
           },
           {
             "en": "specific cutting energy",
             "zh": "比切削能"
           },
           {
-            "en": "central composite design",
-            "zh": "中心复合设计"
+            "en": "strain rate",
+            "zh": "应变率"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
     }
   ],
   "counts": {
@@ -156,7 +159,7 @@
     },
     "scored": 1,
     "priority_counts": {
-      "Low": 1
+      "Exclude": 1
     }
   }
 }

@@ -58,9 +58,14 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "microstructure",
+          "build orientation",
           "yield strength",
           "ductility",
-          "build orientation",
           "porosity",
           "surface roughness"
         ],
@@ -74,8 +79,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究LPBF Ti-6Al-4V支柱的几何和工艺参数对力学性能的影响，未涉及任何后处理工艺。",
-        "why_not_core": "No post-processing treatment studied; paper focuses on as-built process parameters, size, and orientation effects.",
+        "relevance_to_user": "该论文未涉及任何后处理工艺对Ti-6Al-4V疲劳或力学性能的影响，主要关注成型参数和几何尺寸的影响。",
+        "why_not_core": "This paper does not study any post-processing treatment; it focuses on as-built process parameters and geometry effects, which is Layer 1.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -84,25 +89,23 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
           "laser powder bed fusion",
-          "strut elements",
-          "metamaterials",
+          "Ti-6Al-4V",
           "mechanical performance",
-          "surface roughness",
-          "porosity"
+          "strut elements",
+          "metamaterials"
         ],
         "summary_zh": {
-          "motivation": "探究LPBF Ti-6Al-4V支柱的几何和工艺参数对力学性能的影响",
-          "method": "实验测试不同尺寸、取向和工艺的支柱并进行微观结构分析",
-          "result": "减小支柱直径和水平打印会显著降低延展性和强度，优化激光开启延时可降低表面粗糙度",
-          "validation": "通过拉伸实验和CT扫描验证力学性能和承载面积"
+          "motivation": "研究LPBF Ti-6Al-4V工艺参数、尺寸和打印方向对力学性能的影响。",
+          "method": "通过实验测试、微观结构分析和计算建模，系统研究单胞支柱的力学性能。",
+          "result": "减小支柱直径和水平打印显著降低塑性和强度，粗糙度导致承载面积下降。",
+          "validation": "采用力学测试与显微CT验证实验结果。"
         },
         "summary_en": {
-          "motivation": "To systematically investigate how process parameters, size, and build orientation affect the mechanical properties of LPBF Ti-6Al-4V strut elements for architected materials.",
-          "method": "Conducted tensile tests on struts with varying diameters and orientations, combined with microstructure analysis, porosity measurement, and surface roughness characterization.",
-          "result": "Reducing strut diameter from 1.5 mm to 0.5 mm decreases ductility by 45.8%, and horizontally printed struts show additional reductions in ductility and strength due to warping and dross; tuning laser on delay reduces roughness with up to 84% build rate increase.",
-          "validation": "Validation performed through mechanical testing (tensile), computed tomography (CT) for load-bearing area, and comparison of experimental data with computational models."
+          "motivation": "To systematically investigate the influence of process parameters, size, and build orientation on the mechanical properties of LPBF Ti-6Al-4V strut elements.",
+          "method": "Experimental testing, microstructural analysis, and computational modeling were used to characterize the mechanical performance and defect distribution.",
+          "result": "Reducing strut diameter and horizontal printing significantly decreased ductility and strength; surface roughness reduced load-bearing area.",
+          "validation": "Mechanical testing and computed tomography were employed to validate experimental findings."
         },
         "key_terms": [
           {
@@ -111,7 +114,11 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "zh": "钛合金"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
           },
           {
             "en": "strut elements",
@@ -130,32 +137,183 @@
             "zh": "孔隙率"
           },
           {
-            "en": "mechanical properties",
-            "zh": "力学性能"
+            "en": "build orientation",
+            "zh": "建造方向"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:23:51Z"
+      "first_seen_at": "2026-06-08T08:40:28Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7125512032",
+      "doi": "10.3390/mi17020146",
+      "title": "Multi-Objective Optimization of Material Removal Characteristics for Robot Polishing of Ti-6Al-4V",
+      "abstract": "This study employs a multi-objective particle swarm optimization (MOPSO) algorithm to address the dual-objective challenge in the robotic polishing of Ti-6Al-4V. The aim is to determine optimal parameters that minimize surface roughness while maximizing the material removal rate (MRR), thereby improving both surface quality and processing efficiency. First, a material removal depth model for end-face polishing is established based on Preston’s equation and theoretical analysis, from which the MRR model is derived. Subsequently, orthogonal experiments are conducted to investigate the influence of process parameters and their interactions on surface roughness, followed by the development of a quadratic polynomial roughness prediction model. Analysis of variance (ANOVA) and model validation confirm the model’s reliability. Finally, the MOPSO algorithm is applied to obtain the Pareto optimal solution set, yielding the optimal parameter combination. Experimental results demonstrate that at a normal contact force of 7.58 N, a feed rate of 4.52 mm/s, and a spindle speed of 5851 rpm, the achieved MRR and Ra values are 0.2197 mm3/s and 0.291 μm, respectively. These results exhibit errors of only 5.64% and 2.65% compared to model predictions, validating the proposed method’s effectiveness.",
+      "authors": [
+        "Feihao Chen",
+        "Rui Bao",
+        "Meiling Du",
+        "Mu Han Cheng",
+        "Jiehong Peng"
+      ],
+      "first_author_affiliation": "School of Robot Engineering, Wenzhou University of Technology, Wenzhou 325000, China",
+      "corresponding_authors": [
+        {
+          "name": "Feihao Chen",
+          "affiliation": "School of Robot Engineering, Wenzhou University of Technology, Wenzhou 325000, China"
+        }
+      ],
+      "venue": "Micromachines",
+      "year": 2026,
+      "date": "2026-01-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/mi17020146",
+      "cited_by_count": 1,
+      "concepts": [
+        "Polishing",
+        "Surface roughness",
+        "Particle swarm optimization",
+        "Multi-objective optimization",
+        "Control theory (sociology)",
+        "Process (computing)",
+        "Polynomial",
+        "Surface (topology)",
+        "Robot",
+        "Surface finish",
+        "Response surface methodology",
+        "Mathematical optimization",
+        "Quadratic function",
+        "Computer science",
+        "Design of experiments",
+        "Engineering",
+        "Process variable",
+        "Materials science",
+        "Quadratic equation",
+        "Mechanical engineering",
+        "Conical surface",
+        "Pareto principle"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "polishing"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "本文涉及Ti-6Al-4V的抛光后处理，但未研究其对疲劳或力学性能的影响，与用户关注的力学性能改善方向关联度低。",
+        "why_not_core": "No fatigue or mechanical property testing; only surface roughness and material removal rate are measured, not the effect on mechanical performance.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "robot polishing",
+          "surface roughness",
+          "material removal rate",
+          "multi-objective optimization",
+          "MOPSO"
+        ],
+        "summary_zh": {
+          "motivation": "优化机器人抛光Ti-6Al-4V的参数以提高表面质量与效率。",
+          "method": "基于Preston方程和MOPSO算法，建立了材料去除深度和粗糙度预测模型。",
+          "result": "得到最优参数组合，使粗糙度Ra达0.291μm，材料去除率0.2197mm3/s。",
+          "validation": "通过正交实验和模型验证，预测与实验结果误差小于6%。"
+        },
+        "summary_en": {
+          "motivation": "To optimize robot polishing parameters for Ti-6Al-4V to simultaneously minimize surface roughness and maximize material removal rate.",
+          "method": "A material removal depth model based on Preston’s equation and a quadratic polynomial roughness model were developed, and multi-objective particle swarm optimization was applied.",
+          "result": "The optimal parameters yielded a surface roughness of 0.291 μm and material removal rate of 0.2197 mm3/s, with prediction errors below 6%.",
+          "validation": "Orthogonal experiments and ANOVA confirmed the reliability of the models."
+        },
+        "key_terms": [
+          {
+            "en": "multi-objective optimization",
+            "zh": "多目标优化"
+          },
+          {
+            "en": "robot polishing",
+            "zh": "机器人抛光"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "material removal rate",
+            "zh": "材料去除率"
+          },
+          {
+            "en": "Preston's equation",
+            "zh": "普雷斯顿方程"
+          },
+          {
+            "en": "MOPSO",
+            "zh": "多目标粒子群优化"
+          },
+          {
+            "en": "orthogonal experiment",
+            "zh": "正交实验"
+          },
+          {
+            "en": "ANOVA",
+            "zh": "方差分析"
+          },
+          {
+            "en": "Pareto optimal set",
+            "zh": "帕累托最优解集"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:40:28Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 1,
+      "Low": 1
     }
   }
 }

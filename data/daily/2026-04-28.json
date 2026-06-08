@@ -58,8 +58,11 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
-          "yield strength",
-          "build orientation"
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "build orientation",
+          "yield strength"
         ],
         "ti6al4v_postprocess": [
           "Ti-6Al-4V",
@@ -71,10 +74,10 @@
       "llm": {
         "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "这篇论文关注的是增材制造Ti-6Al-4V的热辅助加工可加工性，而非后处理对力学性能的影响，因此与层2方向相关性较低。",
-        "why_not_core": "The paper does not evaluate the effect of post-processing on mechanical properties (tensile/fatigue) or microstructure/porosity; it focuses on machinability (cutting forces, chip morphology, surface roughness) during thermal assisted machining.",
-        "validation_kind": "mechanical_testing",
+        "read_action": "Skim only",
+        "relevance_to_user": "本文研究热辅助加工对增材制造Ti-6Al-4V可加工性的影响，但未涉及疲劳或力学性能变化，与后处理控制力学性能的核心关注点偏差较大。",
+        "why_not_core": "This paper does not evaluate any mechanical performance (fatigue, tensile) of post-processed Ti-6Al-4V; it focuses on machining process outcomes (surface quality, chip morphology) rather than the resulting mechanical properties.",
+        "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -82,37 +85,32 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
-          "laser powder bed fusion",
-          "build orientation",
           "thermal assisted machining",
           "machinability",
-          "surface integrity"
+          "build orientation",
+          "surface integrity",
+          "chip formation"
         ],
         "summary_zh": {
-          "motivation": "研究激光粉末床熔融Ti-6Al-4V在不同建造方向下的热辅助加工可加工性。",
-          "method": "通过热辅助加工实验，分析预加热温度对表面完整性、切屑形态的影响。",
-          "result": "预加热显著提高表面完整性，90°建造方向效果最佳；室温下产生锯齿状切屑，高温下形成卷曲切屑。",
-          "validation": "通过表面质量和切屑形貌的实验观察验证。"
+          "motivation": "研究热辅助加工对不同构建方向增材制造Ti-6Al-4V可加工性的影响。",
+          "method": "在不同预热温度下对三个构建方向的试样进行切削实验，分析表面完整性和切屑形态。",
+          "result": "预热显著提高表面完整性，90°构建方向效果最佳；室温产生锯齿状切屑，高温产生卷曲切屑。",
+          "validation": "通过切削实验和表面质量测量验证了预热温度和构建方向的影响。"
         },
         "summary_en": {
-          "motivation": "To investigate the machinability of additively manufactured Ti-6Al-4V with different build orientations during thermal assisted machining. ",
-          "method": "Thermal assisted machining experiments were conducted, varying preheating temperature and build orientation, and the resulting surface integrity and chip morphology were analyzed. ",
-          "result": "Preheating notably enhanced surface integrity, with the best results at 90° build orientation; serrated chips formed at room temperature while curlier chips appeared under high preheating. ",
-          "validation": "The findings were validated through experimental observation of surface quality and chip morphology. "
+          "motivation": "To investigate how thermal assisted machining improves the machinability of additively manufactured Ti-6Al-4V with different build orientations.",
+          "method": "Machining experiments were conducted on LPBF Ti-6Al-4V samples with three build orientations under various preheating temperatures, analyzing surface integrity and chip morphology.",
+          "result": "Preheating notably enhanced surface integrity, with the best results at 90° build orientation; serrated chips formed at room temperature and curlier chips under high preheating.",
+          "validation": "The study validated the influence of preheating temperature and build orientation through experimental machining trials and surface quality characterization."
         },
         "key_terms": [
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
           {
             "en": "laser powder bed fusion",
             "zh": "激光粉末床熔融"
           },
           {
-            "en": "build orientation",
-            "zh": "建造方向"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
             "en": "thermal assisted machining",
@@ -123,18 +121,22 @@
             "zh": "可加工性"
           },
           {
+            "en": "build orientation",
+            "zh": "构建方向"
+          },
+          {
             "en": "surface integrity",
             "zh": "表面完整性"
           },
           {
-            "en": "chip morphology",
-            "zh": "切屑形貌"
+            "en": "chip formation",
+            "zh": "切屑形态"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
     },
     {
       "source": "openalex",
@@ -196,8 +198,8 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "本文研究了Ti-6Al-4V内流道的抛光后处理，但未涉及增材制造或疲劳力学性能，仅作为表面处理背景参考。",
-        "why_not_core": "Does not address mechanical performance (fatigue/tensile) and does not specify additive-manufactured Ti-6Al-4V.",
+        "relevance_to_user": "该论文关注Ti-6Al-4V后处理中的抛光技术，但未涉及疲劳或力学性能，与当前方向的核心要求不符。",
+        "why_not_core": "The paper only evaluates surface roughness and morphology, not mechanical performance (fatigue, tensile, etc.), which is the core focus of this direction.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -206,76 +208,205 @@
           "is_review": false
         },
         "tags": [
-          "polishing",
           "Ti-6Al-4V",
-          "surface finishing",
-          "electric field pretreatment",
-          "liquid metal polishing"
+          "polishing",
+          "liquid metal",
+          "chemical pretreatment",
+          "surface finishing"
         ],
         "summary_zh": {
-          "motivation": "克服液态金属驱动磨料抛光Ti-6Al-4V内流道时抛光能力受限的问题",
-          "method": "采用电场辅助化学预处理结合液态金属驱动磨料抛光的两步法",
-          "result": "两步法获得更均匀的表面形貌和更低的粗糙度，有效延缓抛光衰减",
-          "validation": "通过对比直接抛光、化学预处理+抛光及电场辅助预处理+抛光实验验证"
+          "motivation": "克服Ti-6Al-4V内部通道抛光中材料去除衰减的问题。",
+          "method": "采用电场辅助化学预处理结合液态金属驱动磨料抛光的两步工艺。",
+          "result": "预处理后表面更均匀，粗糙度降低，抛光能力边界扩展。",
+          "validation": "通过表面形貌和粗糙度对比实验验证效果。"
         },
         "summary_en": {
-          "motivation": "To overcome the polishing limitation of liquid metal-driven abrasive slurry for Ti-6Al-4V internal channels due to reaction layer formation.",
-          "method": "An electric-field-assisted chemical pretreatment followed by liquid metal-driven abrasive polishing (AB + P).",
-          "result": "The AB + P route produced more homogeneous surfaces, lower Sa values, and significantly reduced plateauing compared to direct polishing.",
-          "validation": "Comparative experiments among P, B + P, and AB + P with varying pretreatment electrification times."
+          "motivation": "To overcome the attenuation of material removal in polishing Ti-6Al-4V internal channels due to oxide/reaction layer formation.",
+          "method": "An electric-field-assisted chemical pretreatment was introduced prior to liquid metal-driven abrasive slurry polishing, creating a two-step route.",
+          "result": "The pretreatment produced more homogeneous surfaces with lower roughness and significantly reduced plateauing, extending the polishing capability boundary.",
+          "validation": "Validation was performed through comparative experiments measuring surface morphology and areal roughness Sa."
         },
         "key_terms": [
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "internal flow channels",
-            "zh": "内部流道"
+            "en": "post-processing",
+            "zh": "后处理"
           },
           {
             "en": "polishing",
             "zh": "抛光"
           },
           {
-            "en": "electric field-assisted chemical pretreatment",
-            "zh": "电场辅助化学预处理"
-          },
-          {
             "en": "liquid metal-driven abrasive slurry",
             "zh": "液态金属驱动磨料浆料"
+          },
+          {
+            "en": "chemical pretreatment",
+            "zh": "化学预处理"
+          },
+          {
+            "en": "electric field",
+            "zh": "电场"
           },
           {
             "en": "surface roughness",
             "zh": "表面粗糙度"
           },
           {
-            "en": "polishing attenuation",
-            "zh": "抛光衰减"
+            "en": "internal flow channels",
+            "zh": "内部流道"
+          },
+          {
+            "en": "oxide/reaction layer",
+            "zh": "氧化物/反应层"
+          },
+          {
+            "en": "material removal",
+            "zh": "材料去除"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7156702658",
+      "doi": "10.1080/09507116.2026.2657345",
+      "title": "Microstructure and mechanical properties of electron beam welded CP-titanium and ti-6al-4v dissimilar joints",
+      "abstract": "",
+      "authors": [
+        "Akash Sharma",
+        "Kiran Kumar B. V.",
+        "Banty Kumar",
+        "Pradyumna J",
+        "Randhir K. Singh",
+        "Jyotirmaya Kar"
+      ],
+      "first_author_affiliation": "Department of Metallurgical and Materials Engineering, Malaviya National Institute of Technology Jaipur",
+      "corresponding_authors": [
+        {
+          "name": "Jyotirmaya Kar",
+          "affiliation": "Department of Metallurgical and Materials Engineering, Malaviya National Institute of Technology Jaipur"
+        }
+      ],
+      "venue": "Welding International",
+      "year": 2026,
+      "date": "2026-04-28",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1080/09507116.2026.2657345",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Welding",
+        "Composite material",
+        "Electron beam welding",
+        "Cathode ray",
+        "Beam (structure)",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "本文涉及Ti-6Al-4V，但研究的是电子束焊接而非增材制造，与方向焦点不匹配。",
+        "why_not_core": "The paper investigates electron beam welding of dissimilar joints, not additive manufacturing (LPBF/SLM/EBM/DED) of Ti-6Al-4V, which is the core focus of this direction.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "electron beam welding",
+          "dissimilar joints",
+          "CP-titanium",
+          "Ti-6Al-4V",
+          "microstructure",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "研究工业纯钛与Ti-6Al-4V异种接头的电子束焊接性能。",
+          "method": "采用电子束焊接工艺制备接头，并进行微观组织和力学性能测试。",
+          "result": "获得了焊接接头的微观结构特征和力学性能数据。",
+          "validation": "通过实验测试验证接头性能。"
+        },
+        "summary_en": {
+          "motivation": "This study aims to investigate the microstructure and mechanical properties of electron beam welded dissimilar joints between CP-titanium and Ti-6Al-4V.",
+          "method": "Electron beam welding was used to fabricate the joints, followed by microstructural characterization and mechanical testing.",
+          "result": "The microstructure and mechanical properties of the welded joints were characterized and reported.",
+          "validation": "Experimental mechanical testing was performed to validate the joint performance."
+        },
+        "key_terms": [
+          {
+            "en": "electron beam welding",
+            "zh": "电子束焊接"
+          },
+          {
+            "en": "dissimilar joints",
+            "zh": "异种接头"
+          },
+          {
+            "en": "CP-titanium",
+            "zh": "工业纯钛"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_postprocess": 2
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
-      "Low": 2
+      "Low": 2,
+      "Exclude": 1
     }
   }
 }

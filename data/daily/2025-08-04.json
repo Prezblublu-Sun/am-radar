@@ -46,15 +46,16 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "TC4",
+          "microstructure",
           "porosity"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "本文涉及Ti-6Al-4V但聚焦于复合涂层的工艺优化与耐腐蚀性，未涉及力学性能或疲劳行为。",
-        "why_not_core": "The paper studies composite coatings on steel substrate, not bulk Ti-6Al-4V additive manufacturing; it reports porosity, microhardness, and corrosion resistance but no mechanical strength, ductility, or fatigue data.",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要研究激光熔覆TC4/AISI431复合涂层的工艺优化与耐腐蚀性能，未提供Ti-6Al-4V的拉伸或疲劳力学数据。",
+        "why_not_core": "The paper does not report tensile, yield, or fatigue strength; its mechanical characterization is limited to microhardness, and the primary focus is on corrosion resistance and porosity optimization.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -64,37 +65,40 @@
         },
         "tags": [
           "laser cladding",
-          "TC4",
-          "composite coatings",
+          "TC4/AISI431 composite coating",
+          "process optimization",
           "response surface methodology",
           "whale optimization algorithm",
-          "porosity",
           "microhardness",
           "corrosion resistance"
         ],
         "summary_zh": {
-          "motivation": "优化高速激光熔覆TC4/AISI431复合涂层工艺参数以改善性能。",
-          "method": "基于响应面法和鲸鱼算法进行多目标参数优化。",
-          "result": "最优参数使孔隙率降低60%，耐腐蚀性提升79.98%，显微硬度基本不变。",
-          "validation": "通过实验表征涂层微观结构和元素组成验证模型。"
+          "motivation": "优化高速激光熔覆TC4/AISI431复合涂层的工艺参数。",
+          "method": "采用响应面法和鲸鱼优化算法建立回归模型并多目标优化。",
+          "result": "最优参数下孔隙率降低60%，耐腐蚀性提升79.98%，显微硬度基本不变。",
+          "validation": "通过微观结构、表面成分和腐蚀实验验证。"
         },
         "summary_en": {
-          "motivation": "To optimize process parameters for high-speed laser cladding of TC4/AISI431 composite coatings on C45 steel for improved coating performance.",
-          "method": "A regression model was built using response surface methodology (BBD) and optimized via whale optimization algorithm for multi-objective optimization of porosity, microhardness, and corrosion resistance.",
-          "result": "Optimal parameters (laser power 5315 W, scanning speed 378 mm/s, TC4 addition 3.6%) reduced porosity by 60% and improved corrosion resistance by 79.98% while microhardness remained unchanged.",
-          "validation": "Experimental characterization of microstructure and surface elemental composition validated the model predictions."
+          "motivation": "This study aims to optimize the process parameters for high-speed laser cladding of TC4/AISI431 composite coatings to improve coating quality.",
+          "method": "A regression model was established using response surface methodology based on Box-Behnken design, and the whale optimization algorithm was employed for multi-objective optimization of porosity, microhardness, and corrosion resistance.",
+          "result": "Optimal parameters (laser power 5315 W, scanning speed 378 mm/s, TC4 addition 3.6%) reduced porosity by 60% and improved corrosion resistance by 79.98%, while microhardness remained nearly unchanged.",
+          "validation": "Experimental validation included microstructure analysis, elemental composition, and corrosion tests confirming the optimization results."
         },
         "key_terms": [
           {
-            "en": "high-speed laser cladding",
-            "zh": "高速激光熔覆"
+            "en": "laser cladding",
+            "zh": "激光熔覆"
           },
           {
             "en": "TC4 (Ti-6Al-4V)",
             "zh": "TC4（Ti-6Al-4V）"
           },
           {
-            "en": "composite coatings",
+            "en": "AISI431 stainless steel",
+            "zh": "AISI431不锈钢"
+          },
+          {
+            "en": "composite coating",
             "zh": "复合涂层"
           },
           {
@@ -121,7 +125,7 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
     }
   ],
   "counts": {
@@ -139,7 +143,7 @@
     },
     "scored": 1,
     "priority_counts": {
-      "Exclude": 1
+      "Low": 1
     }
   }
 }

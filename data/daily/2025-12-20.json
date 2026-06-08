@@ -64,6 +64,9 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "TC4",
+          "selective laser melting",
+          "3D printing",
+          "SLM",
           "defect",
           "residual stress"
         ],
@@ -73,11 +76,11 @@
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文研究SLM成型过程中的热应力模拟，不涉及任何后处理工艺对Ti-6Al-4V疲劳或力学性能的影响。",
-        "why_not_core": "The paper does not study any post-processing treatment; it focuses on as-built stress simulation during selective laser melting, which is Layer 1 (processing), not Layer 2 (post-processing).",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文关注SLM过程中的应力模拟，未涉及任何后处理工艺。",
+        "why_not_core": "No post-processing treatment; the paper simulates thermal stress during selective laser melting, not the effect of heat treatment, HIP, surface treatments, or any other post-processing on Ti-6Al-4V mechanical performance.",
         "validation_kind": "numerical_benchmark",
         "flags": {
           "has_experimental_validation": false,
@@ -86,24 +89,22 @@
           "is_review": false
         },
         "tags": [
-          "CFD-FEM",
-          "thermal stress",
           "selective laser melting",
-          "Ti-6Al-4V",
-          "residual stress",
-          "numerical simulation"
+          "thermal stress",
+          "CFD-FEM",
+          "TC4"
         ],
         "summary_zh": {
-          "motivation": "提高SLM成型过程中热应力预测的准确性",
-          "method": "提出CFD与FEM耦合的热力分析方法模拟微米尺度SLM过程",
-          "result": "表面起伏和未熔合区域局部残余应力可达900 MPa，平滑区域约650 MPa",
-          "validation": "数值模拟对比传统单元生死方法"
+          "motivation": "提出精确的SLM热应力模拟方法，理解缺陷与应力关系。",
+          "method": "结合CFD和FEM模型模拟单道SLM扫描。",
+          "result": "表面波动和未熔合区残余应力达900 MPa，平滑区约650 MPa。",
+          "validation": "与常规生死单元法对比验证模型准确性。"
         },
         "summary_en": {
-          "motivation": "To improve the accuracy of thermal stress prediction during selective laser melting by combining CFD and FEM models.",
-          "method": "A coupled CFD-FEM thermo-mechanical analysis method was proposed to simulate the micrometer-scale SLM process, including post-solidification morphology and stress distribution.",
-          "result": "Residual stress reaches approximately 900 MPa at surface undulations and lack-of-fusion regions, compared to 650 MPa at smooth regions, indicating a positive correlation between surface quality and stress concentration.",
-          "validation": "The method was validated by numerical simulation comparing against the conventional element birth-death method."
+          "motivation": "To develop an accurate thermo-mechanical model for SLM to understand stress distribution and defect formation.",
+          "method": "A coupled CFD-FEM model is proposed to simulate thermal stress in micrometer-scale SLM of a single TC4 track.",
+          "result": "Local residual stress reaches about 900 MPa in surface undulation and lack-of-fusion regions, versus 650 MPa in smooth regions.",
+          "validation": "The model is validated by comparison with the conventional element birth-death method."
         },
         "key_terms": [
           {
@@ -111,20 +112,12 @@
             "zh": "选区激光熔化"
           },
           {
-            "en": "computational fluid dynamics",
-            "zh": "计算流体动力学"
-          },
-          {
-            "en": "finite element method",
-            "zh": "有限元法"
-          },
-          {
             "en": "thermal stress",
             "zh": "热应力"
           },
           {
-            "en": "residual stress",
-            "zh": "残余应力"
+            "en": "CFD-FEM",
+            "zh": "计算流体动力学-有限元"
           },
           {
             "en": "TC4",
@@ -132,7 +125,7 @@
           },
           {
             "en": "surface undulation",
-            "zh": "表面起伏"
+            "zh": "表面波动"
           },
           {
             "en": "lack-of-fusion",
@@ -142,7 +135,7 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
@@ -160,7 +153,7 @@
     },
     "scored": 1,
     "priority_counts": {
-      "Low": 1
+      "Exclude": 1
     }
   }
 }

@@ -5,136 +5,6 @@
   "papers": [
     {
       "source": "openalex",
-      "id": "https://openalex.org/W7117027003",
-      "doi": "10.1016/j.jallcom.2025.185782",
-      "title": "Effects of annealing-tailored microstructure on mechanical properties and deformation behaviors of additively manufactured Ti-6Al-4V Alloy",
-      "abstract": "",
-      "authors": [
-        "Yi Ren",
-        "Canghai Yin",
-        "Yongxun Li",
-        "Wenzhe Nie",
-        "Shan Tang",
-        "C. Y. Lou",
-        "Wei Chen"
-      ],
-      "first_author_affiliation": "School of Aeronautics, Chongqing Jiaotong University, Chongqing 400074, China",
-      "corresponding_authors": [
-        {
-          "name": "Yi Ren",
-          "affiliation": "School of Aeronautics, Chongqing Jiaotong University, Chongqing 400074, China"
-        }
-      ],
-      "venue": "Journal of Alloys and Compounds",
-      "year": 2025,
-      "date": "2025-12-23",
-      "date_precision": "day",
-      "url": "https://doi.org/10.1016/j.jallcom.2025.185782",
-      "cited_by_count": 1,
-      "concepts": [
-        "Materials science",
-        "Crystal twinning",
-        "Equiaxed crystals",
-        "Annealing (glass)",
-        "Microstructure",
-        "Lath",
-        "Ultimate tensile strength",
-        "Deformation mechanism",
-        "Composite material",
-        "Slip (aerodynamics)",
-        "Alloy",
-        "Lamellar structure",
-        "Elongation",
-        "Martensite",
-        "Deformation (meteorology)",
-        "Indentation hardness",
-        "Metallurgy",
-        "Dislocation",
-        "Plasticity"
-      ],
-      "categories": [],
-      "raw_type": "article",
-      "directions": [
-        "ti6al4v_postprocess"
-      ],
-      "direction": "ti6al4v_postprocess",
-      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
-      "routing_matches": {
-        "ti6al4v_postprocess": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "annealing"
-        ]
-      },
-      "llm": {
-        "priority": "High",
-        "relevance_level": "Direct",
-        "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究了退火处理对增材制造Ti-6Al-4V合金微观结构和力学性能的影响，完全符合后处理控制方向。",
-        "why_not_core": "No explicit fatigue testing results, but the paper covers tensile properties and deformation behaviors as part of mechanical performance.",
-        "validation_kind": "mechanical_testing",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "Ti-6Al-4V",
-          "additive manufacturing",
-          "annealing",
-          "mechanical properties",
-          "deformation behavior"
-        ],
-        "summary_zh": {
-          "motivation": "研究退火处理对增材制造Ti-6Al-4V合金微观结构和力学性能的影响。",
-          "method": "通过不同退火条件处理试样，进行拉伸测试和微观结构表征。",
-          "result": "退火处理优化了微观结构，改善了塑性但降低了强度。",
-          "validation": "通过拉伸实验和显微观察验证力学性能与微观结构的关系。"
-        },
-        "summary_en": {
-          "motivation": "To investigate the effect of annealing on the microstructure and mechanical properties of additively manufactured Ti-6Al-4V alloy.",
-          "method": "Specimens were heat-treated under various annealing conditions and subjected to tensile testing and microstructural characterization.",
-          "result": "Annealing tailored the microstructure, improving ductility at the expense of strength.",
-          "validation": "Experimental tensile tests and microscopy were used to correlate mechanical properties with microstructural changes."
-        },
-        "key_terms": [
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
-          },
-          {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
-          },
-          {
-            "en": "annealing",
-            "zh": "退火"
-          },
-          {
-            "en": "mechanical properties",
-            "zh": "力学性能"
-          },
-          {
-            "en": "deformation behavior",
-            "zh": "变形行为"
-          },
-          {
-            "en": "microstructure",
-            "zh": "微观结构"
-          },
-          {
-            "en": "tensile testing",
-            "zh": "拉伸测试"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
-    },
-    {
-      "source": "openalex",
       "id": "https://openalex.org/W7116839373",
       "doi": "10.1021/acsomega.5c08853",
       "title": "Probing the Phase Composition and Surface Roughness in the Biological Response of Additively Manufactured Titanium Alloy Bioimplants",
@@ -194,6 +64,11 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
           "surface roughness"
         ],
         "ti6al4v_postprocess": [
@@ -206,8 +81,8 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文涉及Ti-6Al-4V的热等静压后处理，但主要关注生物学响应而非力学性能，与方向要求的疲劳/力学性能改性不直接相关。",
-        "why_not_core": "No mechanical or fatigue testing data; the study focuses on biological cell viability, not post-processing effects on tensile, fatigue, or porosity closure of Ti-6Al-4V.",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的后处理（HIP）但对力学性能无研究，仅关注生物响应。",
+        "why_not_core": "no mechanical fatigue or tensile data; focus is biological performance not mechanical post-processing effect.",
         "validation_kind": "in_vitro",
         "flags": {
           "has_experimental_validation": true,
@@ -216,25 +91,23 @@
           "is_review": false
         },
         "tags": [
-          "biological response",
-          "cell viability",
           "Ti-6Al-4V",
-          "hot isostatic pressing",
           "laser powder bed fusion",
+          "hot isostatic pressing",
           "surface roughness",
-          "phase composition"
+          "biological response"
         ],
         "summary_zh": {
-          "motivation": "探究增材制造Ti-6Al-4V生物植入物的表面粗糙度和相组成对生物学性能的影响。",
-          "method": "对比激光粉末床熔融和热等静压处理后的样品，进行细胞活性实验。",
-          "result": "表面粗糙度比相组成对生物学性能影响更显著，热等静压样品细胞活性优于未处理样品。",
-          "validation": "通过体外细胞活性实验验证。"
+          "motivation": "探究表面粗糙度和相组成对增材制造Ti-6Al-4V植入物生物性能的影响。",
+          "method": "通过LPBF和HIP制备样品，进行细胞活力测试。",
+          "result": "表面粗糙度相较于相组成对生物性能影响更大，HIP处理提高细胞活力。",
+          "validation": "体外细胞实验验证。"
         },
         "summary_en": {
-          "motivation": "To investigate how surface roughness and phase composition, influenced by manufacturing and post-processing, affect the biological performance of additively manufactured Ti-6Al-4V bioimplants.",
-          "method": "Cell viability assays were conducted on Ti-6Al-4V samples fabricated by laser powder bed fusion and subsequently treated with hot isostatic pressing.",
-          "result": "Surface roughness was found to dominate over phase composition in influencing biological response, with hot isostatic pressed samples showing improved cell viability compared to as-built ones.",
-          "validation": "Validation was performed via in vitro cell viability experiments."
+          "motivation": "The study investigates how surface roughness and phase composition influence the biological performance of additively manufactured Ti-6Al-4V implants.",
+          "method": "Samples were fabricated via laser powder bed fusion (LPBF) and hot isostatic pressing (HIP), followed by cell viability assays.",
+          "result": "Surface roughness dominates over phase composition in determining biological response, and HIP-treated samples show enhanced cell viability compared to as-built LPBF samples.",
+          "validation": "Validation was performed through in vitro cell culture experiments."
         },
         "key_terms": [
           {
@@ -247,23 +120,19 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
-          {
-            "en": "biological response",
-            "zh": "生物学响应"
-          },
-          {
-            "en": "cell viability",
-            "zh": "细胞活性"
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "surface roughness",
             "zh": "表面粗糙度"
           },
           {
-            "en": "phase composition",
-            "zh": "相组成"
+            "en": "biological response",
+            "zh": "生物响应"
+          },
+          {
+            "en": "cell viability",
+            "zh": "细胞活力"
           },
           {
             "en": "bioimplants",
@@ -273,7 +142,152 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7117027003",
+      "doi": "10.1016/j.jallcom.2025.185782",
+      "title": "Effects of annealing-tailored microstructure on mechanical properties and deformation behaviors of additively manufactured Ti-6Al-4V Alloy",
+      "abstract": "",
+      "authors": [
+        "Yi Ren",
+        "Canghai Yin",
+        "Yongxun Li",
+        "Wenzhe Nie",
+        "Shan Tang",
+        "C. Y. Lou",
+        "Wei Chen"
+      ],
+      "first_author_affiliation": "School of Aeronautics, Chongqing Jiaotong University, Chongqing 400074, China",
+      "corresponding_authors": [
+        {
+          "name": "Yi Ren",
+          "affiliation": "School of Aeronautics, Chongqing Jiaotong University, Chongqing 400074, China"
+        }
+      ],
+      "venue": "Journal of Alloys and Compounds",
+      "year": 2025,
+      "date": "2025-12-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jallcom.2025.185782",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Crystal twinning",
+        "Equiaxed crystals",
+        "Annealing (glass)",
+        "Microstructure",
+        "Lath",
+        "Ultimate tensile strength",
+        "Deformation mechanism",
+        "Composite material",
+        "Slip (aerodynamics)",
+        "Alloy",
+        "Lamellar structure",
+        "Elongation",
+        "Martensite",
+        "Deformation (meteorology)",
+        "Indentation hardness",
+        "Metallurgy",
+        "Dislocation",
+        "Plasticity"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "microstructure"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "annealing"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文研究了退火后处理对增材制造Ti-6Al-4V合金微观结构和力学性能的影响，与方向2中的退火热处理直接相关。",
+        "why_not_core": "本文聚焦于退火热处理对Ti-6Al-4V合金力学性能的影响，属于后处理研究，但未涉及其他后处理如HIP、喷丸等。",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "annealing",
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "mechanical properties",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "探究退火调控微观结构对增材制造Ti-6Al-4V力学性能的影响",
+          "method": "对不同退火温度和时间处理后的试样进行微观表征和力学测试",
+          "result": "退火处理显著改变了α/β相比例和晶粒尺寸，优化了强度与塑性的平衡",
+          "validation": "通过拉伸试验和显微硬度测量验证微观结构-性能关系"
+        },
+        "summary_en": {
+          "motivation": "This work investigates how annealing-tailored microstructure influences the mechanical properties of additively manufactured Ti-6Al-4V alloy.",
+          "method": "Specimens were subjected to various annealing temperatures and durations, followed by microstructural characterization and mechanical testing.",
+          "result": "Annealing significantly altered α/β phase fraction and grain size, achieving a balanced improvement in strength and ductility.",
+          "validation": "Tensile tests and microhardness measurements were used to validate the microstructure-property relationships."
+        },
+        "key_terms": [
+          {
+            "en": "annealing",
+            "zh": "退火"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "tensile test",
+            "zh": "拉伸试验"
+          },
+          {
+            "en": "phase fraction",
+            "zh": "相分数"
+          },
+          {
+            "en": "grain size",
+            "zh": "晶粒尺寸"
+          },
+          {
+            "en": "strength and ductility",
+            "zh": "强度与塑性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
     },
     {
       "source": "openalex",
@@ -342,9 +356,9 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究飞秒激光加工Ti-6Al-4V的热影响区预测与优化，不涉及增材制造后处理对疲劳/力学性能的影响。",
-        "why_not_core": "The paper does not address any post-processing treatment for additive-manufactured Ti-6Al-4V, nor does it investigate fatigue or mechanical performance; it focuses on femtosecond laser drilling of cooling holes for aero-engine components.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的飞秒激光加工热影响区预测，但未涉及增材制造件的后处理，与方向无关。",
+        "why_not_core": "The paper does not address post-processing of additively manufactured Ti-6Al-4V; it studies femtosecond laser drilling of wrought alloy for cooling holes, with no mechanical testing or fatigue data.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
@@ -352,36 +366,41 @@
           "is_review": false
         },
         "tags": [
-          "femtosecond laser machining",
           "Ti-6Al-4V",
-          "heat-affected zone",
+          "femtosecond laser",
+          "heat affected zone",
           "machine learning",
-          "genetic algorithm"
+          "genetic algorithm",
+          "multi-objective optimization"
         ],
         "summary_zh": {
-          "motivation": "控制飞秒激光加工Ti-6Al-4V冷却孔的热影响区厚度",
-          "method": "集成高斯支持向量回归与遗传算法的混合预测优化方法",
-          "result": "实现了热影响区厚度的准确预测和多目标参数优化",
-          "validation": "通过实验数据验证预测精度"
+          "motivation": "精确控制飞秒激光钻孔热影响区厚度以保证结构完整性。",
+          "method": "结合高斯支持向量回归和遗传算法进行预测与多目标优化。",
+          "result": "实现了热影响区厚度的可靠预测和参数优化。",
+          "validation": "利用实验数据验证模型预测精度。"
         },
         "summary_en": {
-          "motivation": "To precisely control the heat-affected zone thickness during femtosecond laser drilling of Ti-6Al-4V cooling holes for turbine blades.",
-          "method": "A hybrid approach combining Gaussian support vector regression with a genetic algorithm for prediction and multi-objective optimization.",
-          "result": "The G-SVR-GA framework achieved reliable prediction accuracy and provided optimized parameter sets for minimizing HAZ thickness.",
-          "validation": "Experimental data were used to validate the prediction accuracy of the model."
+          "motivation": "To precisely control the heat-affected zone thickness during femtosecond laser drilling of Ti-6Al-4V for ensuring structural integrity of turbine blade cooling holes.",
+          "method": "A hybrid approach integrating Gaussian support vector regression (G-SVR) with genetic algorithm (GA) for prediction and multi-objective optimization of HAZ thickness.",
+          "result": "The G-SVR-GA framework achieves reliable prediction accuracy and provides optimized laser parameter sets for desired HAZ thickness.",
+          "validation": "Experimental validation was conducted by comparing model predictions with measured HAZ thickness from laser drilling tests."
         },
         "key_terms": [
           {
-            "en": "femtosecond laser machining",
-            "zh": "飞秒激光加工"
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
           },
           {
-            "en": "heat-affected zone",
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
+          },
+          {
+            "en": "heat affected zone",
             "zh": "热影响区"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "en": "femtosecond laser machining",
+            "zh": "飞秒激光加工"
           },
           {
             "en": "support vector regression",
@@ -396,14 +415,14 @@
             "zh": "多目标优化"
           },
           {
-            "en": "cooling hole",
-            "zh": "冷却孔"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     },
     {
       "source": "openalex",
@@ -459,30 +478,32 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_postprocess",
-        "ti6al4v_base_mechanical_fatigue"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "surface roughness"
+        ],
         "ti6al4v_postprocess": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "polishing",
           "surface treatment"
-        ],
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "surface roughness"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是后处理（boost扩散处理）对Ti-6Al-4V磨损行为的影响，而非疲劳或力学性能，不属于L2方向的核心内容。",
-        "why_not_core": "The paper focuses on tribological wear behavior against UHMWPE, not on fatigue or mechanical performance (e.g., tensile, fatigue life) of Ti-6Al-4V after post-processing.",
+        "read_action": "Background only",
+        "relevance_to_user": "本文涉及增材制造Ti-6Al-4V的Boost扩散后处理，但关注的是UHMWPE的磨损行为而非钛合金本身的疲劳或力学性能，与后处理控制方向关联弱。",
+        "why_not_core": "This paper studies wear of UHMWPE against BD-treated Ti-6Al-4V, not fatigue, tensile, or porosity closure of the Ti-6Al-4V itself, and thus does not directly address the post-processing control of mechanical performance as defined in this direction.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -491,33 +512,33 @@
           "is_review": false
         },
         "tags": [
-          "UHMWPE",
           "boost diffusion treatment",
           "wear",
+          "UHMWPE",
           "Ti-6Al-4V",
           "additive manufacturing",
-          "surface treatment"
+          "pin-on-plate"
         ],
         "summary_zh": {
-          "motivation": "研究AM Ti-6Al-4V植入物的磨损行为对关节置换的重要性。",
-          "method": "多方向销盘磨损测试，变化交叉剪切和接触应力。",
-          "result": "BD处理表面初始粗糙导致高磨损，但后续抛光降低磨损率。",
-          "validation": "通过表面表征和与CoCr、未处理Ti-6Al-4V对比验证。"
+          "motivation": "探究增材制造Ti-6Al-4V经Boost扩散处理后与UHMWPE对磨的磨损行为。",
+          "method": "采用多方向销盘磨损试验，改变交叉剪切比和接触应力。",
+          "result": "初始磨损高因表面粗糙，后续磨损率降低且表面无退化。",
+          "validation": "销盘磨损实验验证。"
         },
         "summary_en": {
-          "motivation": "To understand the wear behavior of additively manufactured implants for joint replacements under varying loading and motion conditions.",
-          "method": "Multidirectional pin-on-plate wear testing was conducted across cross-shear ratios from 0 to 0.3 and contact stresses from 0.56 to 14 MPa.",
-          "result": "Wear of UHMWPE against BD-treated Ti-6Al-4V was initially high due to surface roughness but decreased as polishing occurred, accompanied by a reduction in friction coefficient.",
-          "validation": "Wear results were compared against CoCr and untreated wrought Ti-6Al-4V, and surface characterization was performed before and after testing."
+          "motivation": "To investigate the wear behavior of UHMWPE against boost-diffusion-treated additively manufactured Ti-6Al-4V under varying cross-shear and contact stress conditions.",
+          "method": "Multidirectional pin-on-plate wear tests were conducted with cross-shear ratios from 0 to 0.3 and contact stresses from 0.56 to 14 MPa.",
+          "result": "Initial high wear due to surface roughness was followed by polishing of the BD-treated surface, reducing friction and wear rate; no surface degradation was observed.",
+          "validation": "Experimental pin-on-plate wear testing with surface characterization."
         },
         "key_terms": [
           {
             "en": "boost diffusion treatment",
-            "zh": "boost扩散处理"
+            "zh": "Boost扩散处理"
           },
           {
-            "en": "ultra-high molecular weight polyethylene",
-            "zh": "超高分子量聚乙烯"
+            "en": "UHMWPE wear",
+            "zh": "超高分子量聚乙烯磨损"
           },
           {
             "en": "cross-shear",
@@ -528,46 +549,306 @@
             "zh": "接触应力"
           },
           {
-            "en": "wear",
-            "zh": "磨损"
-          },
-          {
             "en": "Ti-6Al-4V",
-            "zh": "钛合金Ti-6Al-4V"
+            "zh": "Ti-6Al-4V合金"
           },
           {
             "en": "additive manufacturing",
             "zh": "增材制造"
           },
           {
-            "en": "pin-on-plate",
-            "zh": "销盘试验"
+            "en": "pin-on-plate wear testing",
+            "zh": "销盘磨损试验"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7117101368",
+      "doi": "10.55452/1998-6688-2025-22-4-374-385",
+      "title": "SYNTHESIS AND INVESTIGATION OF TITANIUM-GOLD (TI-AU) BASED THIN COATINGS FOR BIOMEDICAL APPLICATIONS WITH ENHANCED PHYSICAL-MECHANICAL PROPERTIES",
+      "abstract": "This scientific article investigates the structure and surface properties of Ti-Au-based thin coatings obtained by the PVD (magnetron sputtering) method in a vacuum environment at a high temperature of 450°C under direct current (DC) and radio frequency (RF) modes. The thin coatings deposited using the NanoPVD system had an average thickness of about 1 µm. Experimental studies showed that the chemical composition, microstructure, and properties of the coatings are closely dependent on the technological parameters of the magnetron sputtering process. The effect of Ag and Cu additions on the microstructure and mechanical properties of the Ti-Au coatings was studied using scanning electron microscopy (SEM), energy-dispersive X-ray spectroscopy (EDX), and X-ray diffraction (XRD). The surface roughness characteristics of the coatings were analyzed by atomic force microscopy (AFM), and nanoindentation and tribological tests were carried out to comprehensively evaluate the changes in their properties. It was shown that the modification of the Ti6Al4V substrate surface by the PVD method increases its wear resistance and reduces the coefficient of friction. X-ray phase analysis results revealed that the improvement in the tribological properties of the obtained thin coatings is directly related to the formation of the primary Ti3Au phase and the increase in its content.",
+      "authors": [
+        "D. K. Yeskermessov",
+        "C. C. Lukose",
+        "M. Birkett",
+        "S. A. Pazylbek",
+        "A. S. Yeskermessova",
+        "Zh. T. Toleukhanova"
+      ],
+      "first_author_affiliation": "D. Serikbayev East Kazakhstan Technical University»",
+      "corresponding_authors": [
+        {
+          "name": "D. K. Yeskermessov",
+          "affiliation": "D. Serikbayev East Kazakhstan Technical University»"
+        }
+      ],
+      "venue": "Herald of Kazakh-British technical university",
+      "year": 2025,
+      "date": "2025-12-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.55452/1998-6688-2025-22-4-374-385",
+      "cited_by_count": 0,
+      "concepts": [
+        "Nanoindentation",
+        "Materials science",
+        "Tribology",
+        "Microstructure",
+        "Sputter deposition",
+        "Thin film",
+        "Scanning electron microscope",
+        "Composite material",
+        "Surface roughness",
+        "Substrate (aquarium)",
+        "Surface finish",
+        "Phase (matter)",
+        "Sputtering",
+        "Cavity magnetron",
+        "Metallurgy",
+        "Diffraction",
+        "Characterization (materials science)",
+        "Physical vapor deposition",
+        "Titanium alloy",
+        "Pulsed DC"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "microstructure",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究Ti-Au涂层而非增材制造Ti-6Al-4V的力学或疲劳性能。",
+        "why_not_core": "The paper does not address additively manufactured Ti-6Al-4V; it focuses on PVD-deposited Ti-Au coatings on Ti6Al4V substrates, which is outside the scope of AM mechanical/fatigue performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-Au coating",
+          "PVD",
+          "biomedical",
+          "wear resistance",
+          "Ti6Al4V substrate"
+        ],
+        "summary_zh": {
+          "motivation": "开发具有优异物理力学性能的Ti-Au基薄涂层用于生物医学应用。",
+          "method": "采用直流/射频磁控溅射在Ti6Al4V基体上沉积Ti-Au涂层，添加Ag和Cu，并研究其微观结构和性能。",
+          "result": "PVD改性提高了Ti6Al4V基体的耐磨性并降低了摩擦系数，归因于Ti3Au相的形成。",
+          "validation": "通过SEM、EDX、XRD、AFM、纳米压痕和摩擦学测试进行表征。"
+        },
+        "summary_en": {
+          "motivation": "To develop Ti-Au-based thin coatings with enhanced physical-mechanical properties for biomedical applications.",
+          "method": "Ti-Au coatings were deposited on Ti6Al4V substrates by DC and RF magnetron sputtering, with Ag and Cu additions, and characterized for microstructure and properties.",
+          "result": "PVD modification improved wear resistance and reduced coefficient of friction of the Ti6Al4V substrate, attributed to the formation of the Ti3Au phase.",
+          "validation": "Characterization via SEM, EDX, XRD, AFM, nanoindentation, and tribological tests."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-Au coating",
+            "zh": "钛金涂层"
+          },
+          {
+            "en": "PVD",
+            "zh": "物理气相沉积"
+          },
+          {
+            "en": "magnetron sputtering",
+            "zh": "磁控溅射"
+          },
+          {
+            "en": "Ti6Al4V substrate",
+            "zh": "Ti6Al4V基体"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "coefficient of friction",
+            "zh": "摩擦系数"
+          },
+          {
+            "en": "Ti3Au phase",
+            "zh": "Ti3Au相"
+          },
+          {
+            "en": "nanoindentation",
+            "zh": "纳米压痕"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7116892164",
+      "doi": "10.1007/s40194-025-02296-9",
+      "title": "The influence of fiber laser groove distance on microstructure and mechanical properties of brazing Ti-6Al-4V alloy to 17-4PH martensitic stainless steel dissimilar joint",
+      "abstract": "",
+      "authors": [
+        "Amirreza Ardalani",
+        "Homam Naffakh-Moosavy"
+      ],
+      "first_author_affiliation": "Department of Materials Engineering, Tarbiat Modares University (TMU), P.O. Box 14115-143, Tehran, Iran",
+      "corresponding_authors": [
+        {
+          "name": "Amirreza Ardalani",
+          "affiliation": "Department of Materials Engineering, Tarbiat Modares University (TMU), P.O. Box 14115-143, Tehran, Iran"
+        }
+      ],
+      "venue": "Welding in the World",
+      "year": 2025,
+      "date": "2025-12-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40194-025-02296-9",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Brazing",
+        "Alloy",
+        "Composite material",
+        "Intermetallic",
+        "Martensite",
+        "Joint (building)",
+        "Groove (engineering)",
+        "Brittleness",
+        "Indentation hardness",
+        "Shear strength (soil)",
+        "Metallurgy",
+        "Titanium alloy",
+        "Wetting",
+        "Scanning electron microscope",
+        "Laser",
+        "Fiber laser",
+        "Martensitic stainless steel",
+        "Fiber",
+        "Titanium",
+        "Phase (matter)",
+        "Soldering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "本文研究的是Ti-6Al-4V与不锈钢的钎焊连接，而非增材制造Ti-6Al-4V的力学或疲劳性能，与研究方向无关。",
+        "why_not_core": "The paper focuses on brazing of Ti-6Al-4V to a stainless steel, not on additively manufactured Ti-6Al-4V mechanical or fatigue performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "brazing",
+          "Ti-6Al-4V",
+          "17-4PH",
+          "dissimilar joint",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "研究光纤激光槽距对钛合金与不锈钢钎焊接头的影响",
+          "method": "通过激光加工不同槽距后进行钎焊实验并测试力学性能",
+          "result": "槽距影响界面微观组织和接头强度",
+          "validation": "拉伸测试和微观组织观察"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of fiber laser groove distance on the microstructure and mechanical properties of brazed Ti-6Al-4V to 17-4PH stainless steel joints.",
+          "method": "Brazing experiments were conducted with different groove distances prepared by fiber laser, followed by mechanical testing and microstructural characterization.",
+          "result": "Groove distance significantly influences the interfacial microstructure and joint strength.",
+          "validation": "Tensile testing and microstructural analysis were used to validate the findings."
+        },
+        "key_terms": [
+          {
+            "en": "brazing",
+            "zh": "钎焊"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "17-4PH stainless steel",
+            "zh": "17-4PH马氏体不锈钢"
+          },
+          {
+            "en": "dissimilar joint",
+            "zh": "异种金属接头"
+          },
+          {
+            "en": "groove distance",
+            "zh": "槽距"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
-    "fetched_total": 4,
+    "fetched_total": 6,
     "by_source": {
-      "openalex": 4
+      "openalex": 6
     },
-    "after_dedup": 4,
-    "after_routing": 4,
+    "after_dedup": 6,
+    "after_routing": 6,
     "by_direction": {
-      "ti6al4v_postprocess": 4
+      "ti6al4v_postprocess": 4,
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 4
+      "openalex": 6
     },
-    "scored": 4,
+    "scored": 6,
     "priority_counts": {
+      "Low": 2,
       "High": 1,
-      "Low": 1,
-      "Exclude": 2
+      "Exclude": 3
     }
   }
 }

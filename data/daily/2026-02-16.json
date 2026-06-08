@@ -62,15 +62,17 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
           "porosity"
         ]
       },
       "llm": {
-        "priority": "Medium",
+        "priority": "High",
         "relevance_level": "Direct",
-        "read_action": "Skim only",
-        "relevance_to_user": "该论文研究了激光粉末床熔融Ti-6Al-4V蜂窝结构的压缩力学性能及打印缺陷，与用户的力学与疲劳方向直接相关但侧重压缩而非疲劳。",
-        "why_not_core": "This paper focuses on compressive behavior of honeycomb structures rather than fatigue life, tensile properties, or standard mechanical characterization of bulk Ti-6Al-4V.",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究激光粉末床熔融Ti-6Al-4V蜂窝结构的几何偏差和压缩失效，符合L1方向对增材制造Ti-6Al-4V力学性能的要求。",
+        "why_not_core": "Paper focuses on compressive behavior of honeycomb structures, not on tensile/fatigue properties typical of the direction, but still within scope for Ti-6Al-4V AM mechanical characterization.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -84,19 +86,20 @@
           "honeycomb structures",
           "compressive failure",
           "micro-CT",
-          "geometric deviation"
+          "porosity",
+          "geometric accuracy"
         ],
         "summary_zh": {
-          "motivation": "研究打印缺陷和方向对Ti-6Al-4V蜂窝结构压缩性能的影响。",
-          "method": "使用LPBF打印蜂窝圆柱，进行微CT扫描和压缩试验。",
-          "result": "垂直打印的几何精度更高，蜂窝结构和方向显著影响名义模量，压缩失效为剪切破坏。",
-          "validation": "通过微CT和压缩实验验证。"
+          "motivation": "研究打印缺陷和几何形状对LPBF Ti-6Al-4V蜂窝结构压缩性能的影响。",
+          "method": "采用微CT分析打印质量，并进行压缩试验及断后扫描。",
+          "result": "垂直打印结构几何精度更高，蜂窝设计和打印方向显著影响名义模量，压缩失效模式为剪切破坏。",
+          "validation": "通过微CT和压缩试验验证了打印缺陷与力学性能的关系。"
         },
         "summary_en": {
-          "motivation": "To investigate the influence of printing defects, honeycomb geometries, and orientations on the compressive mechanical properties of LPBF Ti-6Al-4V.",
-          "method": "Honeycomb cylinders were fabricated by LPBF, examined by micro-CT, and subjected to compression testing with post-failure scanning.",
-          "result": "Vertically printed samples showed higher geometric accuracy; both orientations exhibited compression-induced shear failure; geometry and orientation significantly affected modulus.",
-          "validation": "Experimental compression tests and micro-CT imaging were used."
+          "motivation": "To investigate the influence of printing defects, honeycomb geometries, and printing orientations on the compressive mechanical properties of LPBF Ti-6Al-4V cylinders.",
+          "method": "X-ray microcomputed tomography was used to assess geometric formation accuracy and defects, followed by compression testing and post-fracture scanning.",
+          "result": "Vertically printed honeycomb cylinders exhibited higher geometric accuracy; both honeycomb design and orientation significantly affected nominal modulus, with shear failure observed in all cases.",
+          "validation": "Experimental validation via micro-CT characterization and compression mechanical testing."
         },
         "key_terms": [
           {
@@ -105,10 +108,10 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
-            "en": "honeycomb structure",
+            "en": "honeycomb structures",
             "zh": "蜂窝结构"
           },
           {
@@ -116,16 +119,16 @@
             "zh": "压缩失效"
           },
           {
-            "en": "micro-CT",
+            "en": "micro-computed tomography",
             "zh": "微计算机断层扫描"
           },
           {
-            "en": "geometric deviation",
-            "zh": "几何偏差"
+            "en": "geometric accuracy",
+            "zh": "几何精度"
           },
           {
-            "en": "build orientation",
-            "zh": "建造方向"
+            "en": "printing defects",
+            "zh": "打印缺陷"
           },
           {
             "en": "porosity",
@@ -133,13 +136,13 @@
           },
           {
             "en": "shear failure",
-            "zh": "剪切失效"
+            "zh": "剪切破坏"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
     },
     {
       "source": "openalex",
@@ -205,12 +208,12 @@
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究Ti-6Al-4V基底上的石墨烯涂层，未涉及增材制造或力学/疲劳性能，与用户方向无关。",
-        "why_not_core": "This paper does not address additive manufacturing, mechanical characterization (tensile, fatigue, hardness), or any build-process variables; it focuses solely on coating deposition and non-destructive surface characterization of wrought Ti-6Al-4V.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V基体上的石墨烯涂层，但未涉及增材制造或力学/疲劳性能，与用户关注方向无关。",
+        "why_not_core": "No additive manufacturing content; focuses on surface coating and sensing, not on mechanical or fatigue performance of AM Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -218,25 +221,31 @@
           "is_review": false
         },
         "tags": [
+          "Ti-6Al-4V",
           "graphene coating",
           "PECVD",
-          "Ti-6Al-4V",
-          "non-destructive characterization",
+          "Raman spectroscopy",
+          "thermoelectric potential",
+          "eddy current",
           "surface roughness"
         ],
         "summary_zh": {
-          "motivation": "通过PECVD在Ti-6Al-4V上沉积石墨烯涂层以改善表面性能。",
-          "method": "采用PECVD技术沉积石墨烯，利用拉曼光谱、热电势和涡流进行非破坏性表征。",
-          "result": "获得了均匀微米级石墨烯涂层，热电性能呈金属行为，表面粗糙度轻微增加。",
-          "validation": "通过拉曼光谱验证石墨烯存在，SEM测量涂层厚度约1微米。"
+          "motivation": "通过石墨烯涂层改善Ti-6Al-4V表面性能以用于传感应用。",
+          "method": "采用PECVD在Ti-6Al-4V上沉积石墨烯，并用Raman、热电势、涡流等非破坏性方法表征。",
+          "result": "获得了均匀的微米级石墨烯涂层，表现出金属性Seebeck行为，对基底厚度敏感。",
+          "validation": "通过Raman光谱、SEM和热电测量验证涂层质量和性能。"
         },
         "summary_en": {
-          "motivation": "To enhance surface properties of Ti-6Al-4V by depositing graphene coatings via PECVD.",
-          "method": "Graphene coatings were deposited using PECVD and characterized non-destructively by Raman spectroscopy, thermoelectric potential, eddy current, and surface roughness measurements.",
-          "result": "Uniform micrometric graphene coatings were obtained, exhibiting metallic Seebeck behavior and slight increase in surface roughness.",
-          "validation": "Raman spectroscopy confirmed graphene presence, and SEM measured coating thickness around 1 μm."
+          "motivation": "To enhance the surface properties of Ti-6Al-4V for implantable sensor applications by depositing graphene coatings.",
+          "method": "Graphene coatings were deposited on Ti-6Al-4V ELI substrates via PECVD and characterized by Raman spectroscopy, thermoelectric potential, eddy current, and SEM.",
+          "result": "Uniform micrometer-thick graphene coatings with metallic-like Seebeck coefficients and sensitivity to substrate thickness were obtained.",
+          "validation": "Experimental characterization using non-destructive techniques and SEM confirmed coating uniformity and thermoelectric behavior."
         },
         "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
           {
             "en": "graphene coating",
             "zh": "石墨烯涂层"
@@ -244,10 +253,6 @@
           {
             "en": "PECVD",
             "zh": "等离子体增强化学气相沉积"
-          },
-          {
-            "en": "Ti-6Al-4V ELI",
-            "zh": "Ti-6Al-4V ELI合金"
           },
           {
             "en": "Raman spectroscopy",
@@ -258,22 +263,389 @@
             "zh": "热电势"
           },
           {
-            "en": "eddy current",
-            "zh": "涡流"
+            "en": "eddy current testing",
+            "zh": "涡流检测"
           },
           {
             "en": "surface roughness",
             "zh": "表面粗糙度"
-          },
-          {
-            "en": "Seebeck coefficient",
-            "zh": "塞贝克系数"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7129074287",
+      "doi": "10.1016/j.msea.2026.149944",
+      "title": "Effect of melt pool interference modes on mesostructure and microstructure of laser powder bed fusion fabricated Ti-6Al-4V alloy",
+      "abstract": "Melt pool is a critical meso-structural feature inherent to laser powder bed fusion (LPBF) process. However, there is less understanding about the interference among adjacent melt pools and its impact on the LPBF fabricated materials. This study focuses on two distinct melt pool interference modes—continuous and intermittent—and aims to investigate their influence on the local thermal profile, solidification microstructure, and mechanical properties in LPBF fabricated Ti-6Al-4V. Through a combination of numerical simulation and machine learning analysis, it is demonstrated that the thermal profile under intermittent melt pool interference is prone to heat accumulation and thermal discontinuity, leading to defects such as lack of fusion and high tensile residual stress. This interference mode also results in merging of melt pools formed in adjacent tracks, producing high cooling rates and extended thermal dwell times that coarsen the primary and secondary martensite while forming parts of lamellar and fine alpha structures. The results reveal that microstructural inhomogeneity and coarsening, along with defects generated by intermittent melt pool interference are detrimental to the mechanical properties. In contrast, continuous melt pool interference provides a consistent heat input and cooling path, forming a uniform and stable thermal environment that promotes improved mechanical properties and relative density when compared to the intermittent melt pool interference mode.",
+      "authors": [
+        "Zhuohan Cao",
+        "Yi Liu",
+        "Jingyuan Shen",
+        "Zi Li",
+        "Yupei Tian",
+        "Yi Xiong",
+        "Jamie J. Kruzic",
+        "Xiaopeng Li"
+      ],
+      "first_author_affiliation": "Key Laboratory for Advanced Materials Processing Technology, Ministry of Education, Beijing 100084, China",
+      "corresponding_authors": [
+        {
+          "name": "Xiaopeng Li",
+          "affiliation": "School of Mechanical and Manufacturing Engineering, University of New South Wales (UNSW Sydney), Sydney, NSW 2052, Australia"
+        }
+      ],
+      "venue": "Materials Science and Engineering A",
+      "year": 2026,
+      "date": "2026-02-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.msea.2026.149944",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Fusion",
+        "Interference (communication)",
+        "Lamellar structure",
+        "Microstructure",
+        "Thermal",
+        "Dwell time",
+        "Composite material",
+        "Alloy",
+        "Martensite",
+        "Ultimate tensile strength",
+        "Laser",
+        "Residual stress",
+        "Heat transfer",
+        "Metallurgy",
+        "Enthalpy of fusion"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "microstructure",
+          "residual stress"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了激光粉末床熔融Ti-6Al-4V的熔池干扰模式对微观结构和力学性能的影响，符合基础层方向。",
+        "why_not_core": "The paper does not include fatigue testing, focusing instead on tensile properties and defect formation.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "melt pool interference",
+          "microstructure",
+          "mechanical properties",
+          "defects",
+          "residual stress"
+        ],
+        "summary_zh": {
+          "motivation": "研究熔池干扰模式对LPBF Ti-6Al-4V组织和性能的影响。",
+          "method": "采用数值模拟与机器学习分析相结合的方法。",
+          "result": "连续熔池干扰形成均匀热环境，改善力学性能；间歇干扰导致缺陷和组织粗化。",
+          "validation": "通过力学性能测试和相对密度比较验证。"
+        },
+        "summary_en": {
+          "motivation": "To understand how different melt pool interference modes affect the thermal history, microstructure, and resulting mechanical properties in LPBF-fabricated Ti-6Al-4V.",
+          "method": "A combined numerical simulation and machine learning approach was used to analyze local thermal profiles and microstructure evolution under continuous and intermittent melt pool interference.",
+          "result": "Intermittent interference caused heat accumulation, lack-of-fusion defects, high residual stress, and microstructural coarsening leading to degraded mechanical properties, while continuous interference promoted a uniform thermal environment and improved properties.",
+          "validation": "Mechanical properties (strength, ductility) and relative density were measured to validate the detrimental effects of intermittent interference."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "melt pool interference",
+            "zh": "熔池干扰"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "numerical simulation",
+            "zh": "数值模拟"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "lack of fusion",
+            "zh": "未熔合缺陷"
+          },
+          {
+            "en": "martensite",
+            "zh": "马氏体"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7129067046",
+      "doi": "10.82452/me36-2023/36202303",
+      "title": "Estudo de propriedades mecânicas e micro dureza de uma liga de Ti-6Al-4V manufaturada por SLM",
+      "abstract": "",
+      "authors": [
+        "João Alves",
+        "Teresa Morgado",
+        "Ivan Galvão",
+        "Ántónio Pereira"
+      ],
+      "first_author_affiliation": "Instituto Politécnico de Lisboa",
+      "corresponding_authors": [
+        {
+          "name": "João Alves",
+          "affiliation": "Instituto Politécnico de Lisboa"
+        }
+      ],
+      "venue": "Open MIND",
+      "year": 2026,
+      "date": "2026-02-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.82452/me36-2023/36202303",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "SLM"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文直接研究了SLM制造的Ti-6Al-4V的力学性能和微观硬度，与用户关心的基础层方向高度相关。",
+        "why_not_core": "没有包含疲劳性能（S-N曲线、疲劳寿命等）的测试或模拟，仅限于拉伸性能和硬度。",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "SLM",
+          "Ti-6Al-4V",
+          "mechanical properties",
+          "microhardness"
+        ],
+        "summary_zh": {
+          "motivation": "研究SLM制造的Ti-6Al-4V合金的力学性能与微观硬度",
+          "method": "采用SLM工艺制备试样并进行拉伸测试与显微硬度测量",
+          "result": "获得了合金的拉伸强度、延展性及硬度等基本力学数据",
+          "validation": "通过标准力学试验对材料性能进行实验验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate the mechanical properties and microhardness of Ti-6Al-4V alloy fabricated by selective laser melting.",
+          "method": "Specimens were manufactured via SLM and subjected to tensile tests and microhardness measurements.",
+          "result": "The study reported tensile strength, ductility, and hardness values of the as-built alloy.",
+          "validation": "Validation was performed through standard mechanical testing procedures."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "microhardness",
+            "zh": "微观硬度"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "拉伸强度"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7129057963",
+      "doi": "10.1016/j.engfracmech.2026.111953",
+      "title": "Finite element framework for initial plastic strain effects on Ti-6Al-4V alloy fatigue life",
+      "abstract": "",
+      "authors": [
+        "Amir Abdelmawla",
+        "Ashraf Bastawros"
+      ],
+      "first_author_affiliation": "Department of Aerospace Engineering, Iowa State University, Ames, IA, USA",
+      "corresponding_authors": [
+        {
+          "name": "Ashraf Bastawros",
+          "affiliation": "Department of Aerospace Engineering, Iowa State University, Ames, IA, USA"
+        }
+      ],
+      "venue": "Engineering Fracture Mechanics",
+      "year": 2026,
+      "date": "2026-02-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.engfracmech.2026.111953",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Finite element method",
+        "Plasticity",
+        "Structural engineering",
+        "Titanium alloy",
+        "Constitutive equation",
+        "Stress (linguistics)",
+        "Damage mechanics",
+        "Composite material",
+        "Strain (injury)",
+        "Nonlinear system",
+        "Coupling (piping)",
+        "Fatigue testing",
+        "Fracture mechanics",
+        "Monotonic function",
+        "Fatigue limit",
+        "Ductility (Earth science)",
+        "Stress–strain curve"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue",
+          "fatigue life"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对Ti-6Al-4V合金的疲劳寿命建模，与用户关注的增材制造Ti-6Al-4V力学性能方向高度相关。",
+        "why_not_core": "The paper is a computational modeling study without new experimental fatigue data; however, it directly addresses the fatigue life of Ti-6Al-4V and is fully within the scope.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "finite element framework",
+          "initial plastic strain",
+          "fatigue life",
+          "Ti-6Al-4V",
+          "numerical validation"
+        ],
+        "summary_zh": {
+          "motivation": "研究初始塑性应变对Ti-6Al-4V合金疲劳寿命的影响，建立有限元框架。",
+          "method": "采用有限元方法模拟初始塑性应变与疲劳寿命的关系。",
+          "result": "提出了一个新的有限元框架，能够预测初始塑性应变下的疲劳寿命。",
+          "validation": "利用文献中的实验数据进行数值验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of initial plastic strain on the fatigue life of Ti-6Al-4V alloy and develop a finite element framework. (paraphrased from title and abstract context)",
+          "method": "A finite element framework is developed to model the relationship between initial plastic strain and fatigue life. (paraphrased)",
+          "result": "The proposed framework succesfully predicts fatigue life under initial plastic strain conditions, validated against experimental data from literature. (paraphrased)",
+          "validation": "Numerical validation is performed using experimental data available in the literature. (paraphrased)"
+        },
+        "key_terms": [
+          {
+            "en": "initial plastic strain",
+            "zh": "初始塑性应变"
+          },
+          {
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
+          },
+          {
+            "en": "finite element framework",
+            "zh": "有限元框架"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "numerical validation",
+            "zh": "数值验证"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
     },
     {
       "source": "openalex",
@@ -341,8 +713,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究刀具纹理对加工Ti6Al4V的影响，未涉及Ti-6Al-4V增材制造件的后处理工艺。",
-        "why_not_core": "This paper does not study any post-processing treatment of Ti-6Al-4V; it investigates laser texturing of cutting tools for machining Ti-6Al-4V, which is about tool modification, not material post-processing.",
+        "relevance_to_user": "该论文研究的是车刀纹理几何参数对钛合金车削性能的影响，而非Ti-6Al-4V增材制造后的后处理工艺。",
+        "why_not_core": "The paper does not study any post-processing treatment applied to additively manufactured Ti-6Al-4V; instead it investigates laser texturing on carbide cutting tools for turning Ti-6Al-4V.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -351,74 +723,84 @@
           "is_review": false
         },
         "tags": [
-          "Ti6Al4V",
+          "Ti-6Al-4V",
+          "turning",
           "laser texturing",
-          "cutting tools",
-          "machining",
-          "turning"
+          "carbide tools",
+          "machining forces"
         ],
         "summary_zh": {
-          "motivation": "探索不同沟槽纹理几何参数对车削Ti6Al4V的碳化物刀具性能的影响。",
-          "method": "使用飞秒激光在刀具表面制备无缺陷纹理，并测试不同参数下的切削力。",
-          "result": "纹理方向和距离切削刃的距离是影响最大的参数，而纹理尺寸影响较小。",
+          "motivation": "探索不同沟槽纹理几何参数对硬质合金刀具车削Ti6Al4V性能的影响。",
+          "method": "使用飞秒激光在刀具上制备不同深度、宽度、间距、方向和距刃距的纹理，并测试车削力。",
+          "result": "纹理方向和距刃距是影响切削力的主要参数，纹理尺寸影响较小。",
           "validation": "通过车削实验测量切削力验证纹理效果。"
         },
         "summary_en": {
-          "motivation": "To investigate how different groove texture geometries on carbide cutting tools affect the turning performance of Ti6Al4V titanium alloy.",
-          "method": "Femtosecond laser was used to produce defect-free textures on tool surfaces, and cutting forces were measured under various texture parameters.",
-          "result": "Texture direction and distance from the cutting edge were the most influential parameters, while texture dimensions had lesser impact.",
-          "validation": "Machining experiments with force measurement validated the effects of textures."
+          "motivation": "This study aims to understand how geometric parameters of groove textures on carbide cutting tools influence machining performance during turning of Ti6Al4V titanium alloy.",
+          "method": "Femtosecond laser was used to produce defect-free textures with varying depth, width, spacing, direction, and distance from the cutting edge on carbide tools, followed by turning tests.",
+          "result": "Texture direction and distance from the cutting edge were the most influential parameters on machining forces, while texture dimensions had a lesser impact.",
+          "validation": "Experimental turning tests measured machining forces to validate the influence of texture parameters."
         },
         "key_terms": [
           {
             "en": "laser texturing",
-            "zh": "激光织构"
+            "zh": "激光纹理加工"
           },
           {
-            "en": "Ti6Al4V",
-            "zh": "钛合金Ti6Al4V"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
-            "en": "carbide tools",
+            "en": "carbide cutting tools",
             "zh": "硬质合金刀具"
+          },
+          {
+            "en": "turning",
+            "zh": "车削"
           },
           {
             "en": "machining forces",
             "zh": "切削力"
           },
           {
+            "en": "groove texture geometry",
+            "zh": "沟槽纹理几何参数"
+          },
+          {
             "en": "femtosecond laser",
             "zh": "飞秒激光"
           },
           {
-            "en": "geometric parameters",
-            "zh": "几何参数"
+            "en": "feed rate",
+            "zh": "进给率"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 6,
     "by_source": {
-      "openalex": 3
+      "openalex": 6
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 6,
+    "after_routing": 6,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 2,
+      "ti6al4v_base_mechanical_fatigue": 5,
       "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 3
+      "openalex": 6
     },
-    "scored": 3,
+    "scored": 6,
     "priority_counts": {
+      "High": 3,
+      "Low": 1,
       "Medium": 1,
-      "Exclude": 2
+      "Exclude": 1
     }
   }
 }

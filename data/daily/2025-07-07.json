@@ -39,11 +39,17 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
+        "ti6al4v_base_mechanical_fatigue",
         "ti6al4v_postprocess"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured"
+        ],
         "ti6al4v_postprocess": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
@@ -54,8 +60,8 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文研究了热处理后Ti-6Al-4V合金中的纳米级特征，但未涉及力学性能测试。",
-        "why_not_core": "no mechanical testing (tensile/fatigue) data was presented; only microstructural characterization without linking to mechanical performance.",
+        "relevance_to_user": "本文研究了Ti-6Al-4V增材制造后热处理过程中的微观结构特征，但未涉及力学性能（如疲劳）的变化。",
+        "why_not_core": "No mechanical performance data (fatigue, tensile, etc.) reported; only microstructural characterization without linking to post-processing effects on mechanical properties.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -64,29 +70,27 @@
           "is_review": false
         },
         "tags": [
+          "additive manufacturing",
           "Ti-6Al-4V",
           "heat treatment",
-          "microstructure",
-          "nano-sized features",
-          "TEM",
-          "post-processing"
+          "microstructure"
         ],
         "summary_zh": {
-          "motivation": "表征增材制造Ti-6Al-4V合金在热处理后形成的纳米级微观特征。",
-          "method": "采用高分辨率透射电镜分析800°C保温4小时热处理后的试样。",
-          "result": "发现纳米级特征并非新相，而是α-Ti中弛豫区域嵌入高应变区域，源于β相不完全沉淀。",
-          "validation": "通过高分辨率TEM观察确认微观结构。"
+          "motivation": "揭示增材制造Ti-6Al-4V合金在800°C热处理后纳米级特征的微观结构起源。",
+          "method": "采用高分辨率透射电镜表征α-Ti板条内纳米级特征。",
+          "result": "发现这些特征为β-Ti不完全沉淀导致的松弛α-Ti区域，被应变α-Ti包围。",
+          "validation": "高分辨率TEM成像及衍射分析。"
         },
         "summary_en": {
-          "motivation": "To characterize nano-sized microstructural features in additively manufactured Ti-6Al-4V alloy after heat treatment.",
-          "method": "High-resolution transmission electron microscopy was employed to analyze specimens heat-treated at 800°C for 4 hours.",
-          "result": "The nano-sized features were identified as relaxed α-Ti regions within strained α-Ti laths, resulting from incomplete β-Ti precipitation.",
-          "validation": "Validation was performed through high-resolution TEM imaging."
+          "motivation": "To understand the origin and nature of nano-sized features in additively manufactured Ti-6Al-4V after heat treatment at 800°C for 4 hours.",
+          "method": "High-resolution transmission electron microscopy (HRTEM) was used to characterize the nano-sized features embedded within α-Ti laths.",
+          "result": "The nano-sized features are isolated regions of relaxed α-Ti caused by incomplete β-Ti precipitation, surrounded by heavily strained α-Ti.",
+          "validation": "Experimental validation via HRTEM imaging and diffraction pattern analysis."
         },
         "key_terms": [
           {
-            "en": "laser powder bed fusion",
-            "zh": "激光粉末床熔融"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           },
           {
             "en": "Ti-6Al-4V",
@@ -97,38 +101,30 @@
             "zh": "热处理"
           },
           {
-            "en": "precipitation",
-            "zh": "沉淀"
-          },
-          {
-            "en": "transmission electron microscopy",
-            "zh": "透射电镜"
-          },
-          {
             "en": "nano-sized features",
-            "zh": "纳米特征"
+            "zh": "纳米级特征"
+          },
+          {
+            "en": "high-resolution transmission electron microscopy",
+            "zh": "高分辨率透射电子显微镜"
           },
           {
             "en": "α-Ti laths",
             "zh": "α-Ti板条"
           },
           {
-            "en": "β-Ti",
-            "zh": "β-Ti"
+            "en": "β-Ti precipitation",
+            "zh": "β-Ti析出"
           },
           {
-            "en": "martensite",
-            "zh": "马氏体"
-          },
-          {
-            "en": "post-processing",
-            "zh": "后处理"
+            "en": "microstructure characterization",
+            "zh": "微观结构表征"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
     }
   ],
   "counts": {

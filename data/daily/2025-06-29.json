@@ -42,11 +42,18 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
+        "ti6al4v_base_mechanical_fatigue",
         "ti6al4v_femoral_stem"
       ],
       "direction": "ti6al4v_femoral_stem",
       "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "microstructure"
+        ],
         "ti6al4v_femoral_stem": [
           "Ti6Al4V",
           "stress shielding"
@@ -56,8 +63,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是Ti-16Nb合金的LPBF工艺与性能，而非钛合金股骨柄的结构设计，与研究方向无关。",
-        "why_not_core": "This paper does not study Ti-6Al-4V femoral stem design; it investigates an alternative Ti-16Nb alloy's printability and basic mechanical properties, with no stem geometry, porous architecture, or structural performance analysis.",
+        "relevance_to_user": "该研究涉及Ti-16Nb合金而非Ti-6Al-4V，且未讨论股骨柄设计或力学性能，与方向无关。",
+        "why_not_core": "The paper studies a Ti-16Nb alloy, not Ti-6Al-4V, and does not address femoral stem structural design, stress shielding, implant geometry, or any implant-level biomechanical analysis.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -68,21 +75,22 @@
         "tags": [
           "laser powder bed fusion",
           "Ti-16Nb alloy",
-          "biomedical implant",
+          "microstructure",
           "elastic modulus",
-          "microstructure"
+          "hardness",
+          "biomedical implants"
         ],
         "summary_zh": {
-          "motivation": "开发低弹性模量钛合金以减少应力屏蔽",
-          "method": "采用激光粉末床熔融制备Ti-16Nb合金并优化参数",
-          "result": "合金弹性模量30-35 GPa，接近骨骼，硬度28-43 HRC",
-          "validation": "通过显微组织分析和力学测试验证性能"
+          "motivation": "为解决Ti6Al4V弹性模量过高导致应力屏蔽的问题，开发低模量Ti-16Nb合金。",
+          "method": "使用激光粉末床熔融技术从预混粉末制备Ti-16Nb试样，优化工艺参数并表征显微组织和力学性能。",
+          "result": "获得Widmanstätten组织，弹性模量30-35 GPa，与骨匹配，硬度随能量密度变化。",
+          "validation": "通过显微组织观察和硬度、模量测试验证材料性能。"
         },
         "summary_en": {
-          "motivation": "Develop Ti alloys with low elastic modulus to mitigate stress shielding in biomedical implants.",
-          "method": "Fabricated Ti-16Nb alloy samples via L-PBF from premixed powders using optimized parameters.",
-          "result": "Achieved elastic modulus of 30-35 GPa matching bone, with hardness ranging from 28 to 43 HRC.",
-          "validation": "Microstructural characterization and mechanical testing (hardness, modulus) were performed."
+          "motivation": "To address stress shielding caused by the high elastic modulus of Ti6Al4V, a lower modulus Ti-16Nb alloy was developed for biomedical implants.",
+          "method": "Ti-16Nb samples were fabricated by laser powder bed fusion from a premixed powder blend, with optimized process parameters; microstructure and mechanical properties were characterized.",
+          "result": "Widmanstätten microstructure with α+β phases was obtained; elastic modulus ranged from 30 to 35 GPa, matching bone, and hardness varied with energy density.",
+          "validation": "Validation included microstructural analysis and mechanical testing (hardness and elastic modulus measurements)."
         },
         "key_terms": [
           {
@@ -98,30 +106,30 @@
             "zh": "弹性模量"
           },
           {
-            "en": "stress shielding",
-            "zh": "应力屏蔽"
-          },
-          {
-            "en": "biomedical implant",
-            "zh": "生物医用植入物"
-          },
-          {
-            "en": "microstructure",
-            "zh": "微观结构"
-          },
-          {
             "en": "hardness",
             "zh": "硬度"
           },
           {
             "en": "Widmanstätten structure",
             "zh": "魏氏组织"
+          },
+          {
+            "en": "biomedical implant",
+            "zh": "生物医用植入物"
+          },
+          {
+            "en": "stress shielding",
+            "zh": "应力屏蔽"
+          },
+          {
+            "en": "energy density",
+            "zh": "能量密度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
+      "first_seen_at": "2026-06-08T08:12:51Z"
     }
   ],
   "counts": {

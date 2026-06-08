@@ -57,6 +57,9 @@
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "Ti64",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
           "fatigue"
         ]
       },
@@ -64,8 +67,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接针对激光粉末床熔融Ti-6Al-4V的多轴疲劳行为和寿命预测，与用户关注的Ti-6Al-4V基础力学和疲劳性能高度相关。",
-        "why_not_core": "This paper does not cover post-processing treatments or implant-specific structural analysis, which is appropriate for this layer-1 direction.",
+        "relevance_to_user": "该论文直接研究了激光粉末床熔融Ti-6Al-4V的多轴疲劳行为及寿命预测，完全符合L1力学与疲劳方向的需求。",
+        "why_not_core": "This paper does not cover post-processing treatments (e.g., HIP, heat treatment) or femoral stem implant applications; it is a pure as-built mechanical/fatigue characterization.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -74,26 +77,24 @@
           "is_review": false
         },
         "tags": [
+          "LPBF Ti-6Al-4V",
           "multiaxial fatigue",
-          "laser powder bed fusion",
-          "Ti-6Al-4V",
           "building orientation",
           "life prediction",
           "critical plane",
-          "cyclic softening",
-          "defects"
+          "cyclic softening"
         ],
         "summary_zh": {
-          "motivation": "研究激光粉末床熔融Ti-6Al-4V在不同构建方向下的多轴低周疲劳行为",
-          "method": "进行比例应变控制多轴疲劳实验，并基于临界平面和构建方向参数开发KBMP-λ寿命预测模型",
-          "result": "材料呈现三阶段软化特征，裂纹源于内部未熔合缺陷，模型预测误差在20%以内",
-          "validation": "通过多轴疲劳实验验证了模型的准确性"
+          "motivation": "探究激光粉末床熔融Ti-6Al-4V在不同构建方向下的多轴低周疲劳行为。",
+          "method": "基于临界平面法设计四种构建方向，进行比例应变控制的多轴疲劳试验，并提出KBMP-λ寿命预测模型。",
+          "result": "材料呈现三阶段软化特征，裂纹从内部未熔合缺陷萌生，寿命预测误差在20%以内。",
+          "validation": "通过多轴疲劳实验数据验证模型精度。"
         },
         "summary_en": {
-          "motivation": "This study investigates the multiaxial low-cycle fatigue behavior of laser powder bed fusion Ti-6Al-4V components fabricated with different build orientations.",
-          "method": "Proportional strain-controlled multiaxial fatigue tests were conducted, and a KBMP life prediction model incorporating building direction parameters (λ) was developed based on critical plane concepts.",
-          "result": "The material exhibits three-stage cyclic softening, fatigue cracks initiate from lack-of-fusion defects, and the proposed KBMP-λ model predicts fatigue life with relative errors within 20%.",
-          "validation": "Experimental multiaxial fatigue tests on specimens with four build orientations validated the model's predictive capability."
+          "motivation": "To investigate the proportional multiaxial low-cycle fatigue behavior of laser powder bed fusion Ti-6Al-4V with varying building orientations based on critical plane considerations.",
+          "method": "Multiaxial fatigue tests under proportional strain-controlled loading were performed on specimens built in four orientations, and a KBMP life prediction model incorporating building direction parameters (λ) was developed.",
+          "result": "The material exhibits a three-stage cyclic softening response, fatigue cracks initiate from internal lack-of-fusion defects, and the proposed KBMP-λ model predicts fatigue life within 20% error.",
+          "validation": "The model was validated against experimental multiaxial fatigue test data."
         },
         "key_terms": [
           {
@@ -106,15 +107,11 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "building orientation",
             "zh": "构建方向"
-          },
-          {
-            "en": "fatigue life prediction",
-            "zh": "疲劳寿命预测"
           },
           {
             "en": "critical plane",
@@ -125,22 +122,150 @@
             "zh": "循环软化"
           },
           {
-            "en": "lack-of-fusion defects",
+            "en": "life prediction",
+            "zh": "寿命预测"
+          },
+          {
+            "en": "lack-of-fusion defect",
             "zh": "未熔合缺陷"
-          },
-          {
-            "en": "proportional loading",
-            "zh": "比例加载"
-          },
-          {
-            "en": "low-cycle fatigue",
-            "zh": "低周疲劳"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:19:10Z"
+      "first_seen_at": "2026-06-08T08:31:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4415956291",
+      "doi": "10.3390/coatings15111297",
+      "title": "Microstructural Evolution and Properties of In Situ Synthesized Ceramic-Phase Reinforced Ti-Al Composite Coatings Fabricated by Coaxial Powder Feeding Laser Cladding",
+      "abstract": "The Ti-Al-Si composite coatings were effectively fabricated on Ti6Al4V (TC4) substrates via coaxial powder feeding laser cladding technology. This study systematically investigated the influence of in situ synthesized Ti-Si ceramic reinforcement phases and Si content on the microstructure, microhardness, and wear resistance of the composite coatings. An excellent metallurgical bond between the coating and the substrate can be formed during the cladding coating process. When the temperature of the molten pool drops, the Ti and Si elements in situ react to form a Ti5Si3 ceramic reinforced phase originating from the Si-rich zone in the liquid phase. The microhardness of the cladding coatings exhibits a positive correlation with increasing Si content, reaching a maximum value of 820.83 HV. The in situ synthetic Ti5Si3 ceramic reinforced phases can effectively improve the coating’s wear resistance. Notably, the laser cladding coating with 25 wt% Si content exhibits the lowest wear weight loss rate of 0.140 mg·min−1 and the lowest average friction coefficient of 0.412. Analysis of the wear mechanism reveals a combination of adhesive wear and microscopic wear characteristics.",
+      "authors": [
+        "Zhide Wang",
+        "Haitao Zhao",
+        "Lijie Liu",
+        "Yulin Chen",
+        "Haojie Chen"
+      ],
+      "first_author_affiliation": "School of Materials Science and Engineering, Shenyang Ligong University, Shenyang 110159, China",
+      "corresponding_authors": [
+        {
+          "name": "Haitao Zhao",
+          "affiliation": "School of Materials Science and Engineering, Shenyang Ligong University, Shenyang 110159, China"
+        },
+        {
+          "name": "Lijie Liu",
+          "affiliation": "School of Materials Science and Engineering, Shenyang Ligong University, Shenyang 110159, China"
+        }
+      ],
+      "venue": "Coatings",
+      "year": 2025,
+      "date": "2025-11-06",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/coatings15111297",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Coating",
+        "Composite number",
+        "Ceramic",
+        "Indentation hardness",
+        "Cladding (metalworking)",
+        "Coaxial",
+        "In situ",
+        "Adhesive",
+        "Microstructure",
+        "Laser",
+        "Substrate (aquarium)",
+        "Metallurgy",
+        "Phase (matter)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "TC4",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是TC4表面激光熔覆制备Ti-Al-Si复合涂层的微观结构和性能，而非增材制造Ti-6Al-4V的力学或疲劳性能，与用户关注方向不符。",
+        "why_not_core": "The paper studies in-situ synthesized ceramic-reinforced Ti-Al-Si composite coatings on Ti6Al4V substrates via laser cladding, not the mechanical or fatigue performance of additively manufactured Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser cladding",
+          "Ti-6Al-4V coating",
+          "microhardness",
+          "wear resistance",
+          "Ti5Si3"
+        ],
+        "summary_zh": {
+          "motivation": "提高TC4表面硬度和耐磨性",
+          "method": "同轴送粉激光熔覆制备Ti-Al-Si复合涂层",
+          "result": "添加25%Si时硬度最高(820.83 HV),磨损率最低",
+          "validation": "硬度测试和磨损实验"
+        },
+        "summary_en": {
+          "motivation": "To enhance the surface hardness and wear resistance of Ti6Al4V alloy.",
+          "method": "Coaxial powder feeding laser cladding was used to fabricate Ti-Al-Si composite coatings with in situ synthesized Ti5Si3 ceramic phases.",
+          "result": "The coating with 25 wt% Si content achieved a maximum microhardness of 820.83 HV and the lowest wear rate.",
+          "validation": "Vickers microhardness testing and wear weight loss measurements."
+        },
+        "key_terms": [
+          {
+            "en": "laser cladding",
+            "zh": "激光熔覆"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "TC4"
+          },
+          {
+            "en": "in situ synthesis",
+            "zh": "原位合成"
+          },
+          {
+            "en": "Ti5Si3 ceramic phase",
+            "zh": "Ti5Si3陶瓷相"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "composite coating",
+            "zh": "复合涂层"
+          },
+          {
+            "en": "coaxial powder feeding",
+            "zh": "同轴送粉"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:31:07Z"
     },
     {
       "source": "openalex",
@@ -188,7 +313,8 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_postprocess"
+        "ti6al4v_postprocess",
+        "ti6al4v_base_mechanical_fatigue"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
@@ -198,14 +324,19 @@
           "Ti 6Al 4V",
           "annealing",
           "laser shock peening"
+        ],
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
         ]
       },
       "llm": {
-        "priority": "Medium",
-        "relevance_level": "Direct",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文直接研究了退火Ti-6Al-4V合金的深冷循环和激光冲击喷丸后处理，与后处理控制方向高度相关。",
-        "why_not_core": "Does not explicitly focus on fatigue life or high-cycle fatigue characterization, only covers tensile and hardness; lacks quantitative comparison of multiple post-processing routes.",
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V合金的后处理，但未针对增材制造件，与用户关注的AM Ti-6Al-4V后处理方向不直接相关。",
+        "why_not_core": "The paper does not address additive-manufactured Ti-6Al-4V; it studies post-processing on conventional wrought/annealed alloy, which is outside the scope of AM-specific post-processing effects.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -214,79 +345,78 @@
           "is_review": false
         },
         "tags": [
-          "post-processing",
-          "Ti-6Al-4V",
           "deep cryogenic cycling",
           "laser shock peening",
-          "mechanical properties",
-          "annealing"
+          "Ti-6Al-4V",
+          "microstructure",
+          "mechanical properties"
         ],
         "summary_zh": {
-          "motivation": "通过深冷循环和激光冲击处理提高退火Ti-6Al-4V的力学性能。",
-          "method": "深冷循环和双面激光冲击喷丸结合涂层。",
-          "result": "显微组织改善，力学性能提升。",
-          "validation": "实验力学测试（拉伸、硬度等）。"
+          "motivation": "探究深冷循环与激光冲击喷丸复合处理对Ti-6Al-4V合金组织与力学性能的影响。",
+          "method": "对退火态Ti-6Al-4V合金进行深冷循环处理和双面激光冲击喷丸涂层处理。",
+          "result": "复合处理显著细化了显微组织并提高了强度与硬度。",
+          "validation": "通过显微表征和室温拉伸/硬度测试验证效果。"
         },
         "summary_en": {
-          "motivation": "To enhance mechanical properties of annealed Ti-6Al-4V through combined deep cryogenic cycling and laser shock peening treatments.",
-          "method": "Deep cryogenic cycling treatment followed by double-sided laser shock peening with a protective coating.",
-          "result": "Improved microstructure refinement and enhanced tensile strength and hardness.",
-          "validation": "Experimental mechanical testing including tensile and hardness measurements."
+          "motivation": "This study aims to investigate the combined effect of deep cryogenic cycling and double-sided laser shock peening with coating on the microstructure and mechanical properties of annealed Ti-6Al-4V alloy.",
+          "method": "Annealed Ti-6Al-4V alloy was subjected to deep cryogenic cycling followed by double-sided laser shock peening with a protective coating.",
+          "result": "The combined treatment significantly refined the microstructure and enhanced the strength and hardness of the alloy.",
+          "validation": "Validation was performed through microstructural characterization and room-temperature tensile and hardness tests."
         },
         "key_terms": [
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
-          {
             "en": "deep cryogenic cycling",
-            "zh": "深冷循环处理"
+            "zh": "深冷循环"
           },
           {
             "en": "laser shock peening",
             "zh": "激光冲击喷丸"
           },
           {
-            "en": "annealing",
-            "zh": "退火"
+            "en": "Ti-6Al-4V alloy",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "microstructure evolution",
+            "zh": "显微组织演变"
           },
           {
             "en": "mechanical properties",
             "zh": "力学性能"
           },
           {
-            "en": "microstructure",
-            "zh": "微观组织"
+            "en": "annealing",
+            "zh": "退火"
           },
           {
-            "en": "post-processing",
-            "zh": "后处理"
+            "en": "coating",
+            "zh": "涂层"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:19:10Z"
+      "first_seen_at": "2026-06-08T08:31:07Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1,
+      "ti6al4v_base_mechanical_fatigue": 2,
       "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
       "High": 1,
-      "Medium": 1
+      "Exclude": 2
     }
   }
 }

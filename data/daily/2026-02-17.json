@@ -52,31 +52,33 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_postprocess",
-        "ti6al4v_base_mechanical_fatigue"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "selective laser melting",
+          "SLM",
+          "ductility",
+          "surface roughness"
+        ],
         "ti6al4v_postprocess": [
           "Ti6Al4V",
           "heat treatment",
           "machining",
           "shot peening",
           "post-processing"
-        ],
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti6Al4V",
-          "ductility",
-          "surface roughness"
         ]
       },
       "llm": {
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接评估了SLM Ti6Al4V合金经过机加工、喷丸和热处理等后处理工艺对弯曲性能的影响，完全符合L2方向。",
-        "why_not_core": "This paper focuses on static bending behavior rather than fatigue performance, which is equally relevant for mechanical performance but does not include cyclic loading data.",
+        "relevance_to_user": "该论文系统研究了SLM制造Ti6Al4V合金后处理（机加工、喷丸、热处理）对弯曲性能的影响，与用户关注的后处理调控疲劳/力学性能方向高度吻合。",
+        "why_not_core": "This paper focuses on static bending behavior rather than fatigue performance, which is the primary mechanical property of interest in the given direction.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -85,25 +87,26 @@
           "is_review": false
         },
         "tags": [
-          "Ti6Al4V",
           "selective laser melting",
+          "Ti6Al4V",
           "post-processing",
+          "shot peening",
+          "heat treatment",
           "bending behavior",
           "surface roughness",
-          "shot peening",
-          "heat treatment"
+          "microstructure"
         ],
         "summary_zh": {
-          "motivation": "评估不同后处理策略对SLM Ti6Al4V合金静态弯曲行为的影响",
-          "method": "结合表面粗糙度测量、微观组织表征和三点弯曲试验进行多尺度评估",
-          "result": "双级喷丸使弯曲强度提高34%，热处理使弯曲应变增加264%",
-          "validation": "通过三点弯曲试验和断口形貌分析验证结构与性能关系"
+          "motivation": "探究不同后处理策略对SLM制备Ti6Al4V合金静态弯曲性能的多尺度影响",
+          "method": "通过表面粗糙度测量、微观组织表征、三点弯曲试验结合断口分析建立结构-性能关系",
+          "result": "双次喷丸使弯曲强度提高34%，热处理使弯曲应变增加264%",
+          "validation": "采用三点弯曲力学测试与微观表征验证"
         },
         "summary_en": {
-          "motivation": "To evaluate the effects of different post-processing strategies on the static bending behavior of selective laser melted Ti6Al4V alloy.",
-          "method": "A multiscale evaluation integrating surface roughness measurements, microstructural and fracture surface characterizations with three-point bending tests.",
-          "result": "Dual shot peening achieved the highest bending strength increase of 34%, while heat treatment enhanced bending strain by 264% compared to as-built specimens.",
-          "validation": "Experimental validation through three-point bending tests and microstructural analysis confirmed the structure-property relationships."
+          "motivation": "To investigate the multiscale effects of various post-processing strategies on the static bending behavior of SLM-produced Ti6Al4V alloy.",
+          "method": "Surface roughness, microstructure, and fracture surface characterizations were integrated with three-point bending tests to establish structure-property relationships.",
+          "result": "Dual shot peening enhanced bending strength by 34%, while heat treatment increased bending strain by 264% relative to as-built specimens.",
+          "validation": "Experimental validation via three-point bending mechanical testing and microstructural analysis."
         },
         "key_terms": [
           {
@@ -119,38 +122,38 @@
             "zh": "后处理"
           },
           {
-            "en": "machining",
-            "zh": "机加工"
-          },
-          {
             "en": "shot peening",
-            "zh": "喷丸"
+            "zh": "喷丸强化"
           },
           {
             "en": "heat treatment",
             "zh": "热处理"
           },
           {
-            "en": "bending behavior",
-            "zh": "弯曲行为"
+            "en": "three-point bending",
+            "zh": "三点弯曲"
           },
           {
             "en": "surface roughness",
             "zh": "表面粗糙度"
           },
           {
-            "en": "compressive residual stress",
-            "zh": "残余压应力"
+            "en": "bending strength",
+            "zh": "弯曲强度"
           },
           {
-            "en": "three-point bending test",
-            "zh": "三点弯曲试验"
+            "en": "bending strain",
+            "zh": "弯曲应变"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
     },
     {
       "source": "openalex",
@@ -210,6 +213,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "microstructure",
           "residual stress"
         ]
       },
@@ -217,8 +221,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究钒与Ti-6Al-4V扩散焊接界面的微观结构与残余应力，不涉及增材制造Ti-6Al-4V的力学或疲劳性能。",
-        "why_not_core": "The paper investigates vacuum diffusion bonding between V and Ti-6Al-4V, not additive manufacturing of Ti-6Al-4V; it provides no mechanical or fatigue characterization of AM Ti-6Al-4V.",
+        "relevance_to_user": "该论文研究扩散连接界面，而非增材制造，与L1方向无关。",
+        "why_not_core": "Paper focuses on diffusion bonding interface between V and Ti-6Al-4V, not on additively manufactured Ti-6Al-4V mechanical or fatigue performance.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -234,21 +238,21 @@
           "microstructure"
         ],
         "summary_zh": {
-          "motivation": "研究钒与Ti-6Al-4V扩散焊接界面的微观结构与残余应力分布。",
-          "method": "采用EBSD、EDS、纳米压痕和XRD表征界面组织和残余应力。",
-          "result": "发现界面存在多个微观结构区域，残余应力分布复杂且受成分梯度影响。",
-          "validation": "通过多种表面敏感技术交叉验证残余应力测量结果。"
+          "motivation": "研究钒与Ti-6Al-4V扩散连接界面的微观结构和残余应力。",
+          "method": "使用EBSD、EDS、纳米压痕和XRD分析界面组织与应力。",
+          "result": "发现界面处存在多个微观结构区域，残余应力分布复杂。",
+          "validation": "通过多种表面敏感技术交叉验证残余应力测量。"
         },
         "summary_en": {
-          "motivation": "To investigate the microstructure and residual stress across a diffusion-bonded dissimilar metal interface between vanadium and Ti-6Al-4V.",
-          "method": "Electron backscatter diffraction, energy dispersive spectroscopy, nanoindentation, and X-ray diffraction were used to characterize the interface.",
-          "result": "Multiple microstructural regions with complex compositional gradients were identified, and residual stress profiles varied both locally and globally.",
-          "validation": "Cross-correlation EBSD, nanoindentation, and XRD provided complementary measurements to validate residual stress trends."
+          "motivation": "To investigate the microstructure and residual stress at the diffusion bonded interface between vanadium and Ti-6Al-4V for dissimilar metal joining applications.",
+          "method": "Microstructural and compositional analyses via EBSD and EDS, combined with residual stress measurements using cross-correlation EBSD, nanoindentation, and XRD.",
+          "result": "Multiple microstructural regions and complex residual stress profiles were identified across the interface.",
+          "validation": "Validation was achieved through cross-correlation of results from three different surface-sensitive residual stress measurement techniques."
         },
         "key_terms": [
           {
             "en": "diffusion bonding",
-            "zh": "扩散焊接"
+            "zh": "扩散连接"
           },
           {
             "en": "residual stress",
@@ -263,26 +267,26 @@
             "zh": "钒"
           },
           {
-            "en": "microstructure",
-            "zh": "微观结构"
+            "en": "electron backscatter diffraction",
+            "zh": "电子背散射衍射"
           },
           {
-            "en": "EBSD",
-            "zh": "电子背散射衍射"
+            "en": "energy dispersive spectroscopy",
+            "zh": "能谱分析"
           },
           {
             "en": "nanoindentation",
             "zh": "纳米压痕"
           },
           {
-            "en": "dissimilar metal joint",
-            "zh": "异种金属连接"
+            "en": "X-ray diffraction",
+            "zh": "X射线衍射"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
     }
   ],
   "counts": {

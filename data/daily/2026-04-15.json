@@ -5,6 +5,285 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W7154471734",
+      "doi": "10.3390/aerospace13040368",
+      "title": "Design of Hollow Spiral Lattice Architectures for Integrated Thermal and Mechanical Performance in Additive Manufacturing",
+      "abstract": "This study proposes a novel parameterized hollow spiral lattice (HSL) structure designed for additive manufacturing (AM). The structure is composed of two right-handed and two left-handed spiral members. Its unit cell is formed by sweeping a circular ring cross-section along a cylindrical helical path, creating a porous topology that integrates continuous flow channels with structural load-bearing capability. An analytical model correlating key design parameters, including spiral radius, helix angle, and tube inner/outer diameters, with the structural relative density is established. Considering the manufacturability constraints of Laser Powder Bed Fusion (LPBF), an adaptive parametric design framework is developed to simultaneously optimize the geometry, relative density, and process feasibility. Ti6Al4V HSL samples were fabricated using LPBF. Their thermo–mechanical performance was systematically characterized through Computational Fluid Dynamics (CFD) simulations, Finite Element Analysis (FEA), and quasi-static compression experiments. Thermal analysis under internal and internal–external flow conditions reveals that the centrifugal force induced by the spiral geometry generates Dean vortices. This enhances momentum exchange between the central mainstream and near-wall fluid, significantly improving radial mixing, promoting temperature uniformity, and effectively suppressing local hot spots. Mechanically, the HSL exhibits significantly superior specific strength and stiffness compared to traditional body-centered cubic (BCC) and diamond lattices, approaching the performance of cubic topology, thus demonstrating outstanding lightweight load-bearing potential. The developed HSL structure presents a promising innovative design strategy for next-generation applications requiring integrated thermal management and structural load-bearing functions.",
+      "authors": [
+        "Shaoying Li",
+        "Qidong Sun",
+        "Yu Pang",
+        "Yongli Zhang",
+        "Guangzhi Nan",
+        "Yingchao Ma",
+        "Jiawen Chen",
+        "Bin Sun",
+        "Jiang Li"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, National University of Singapore, Singapore 117575, Singapore",
+      "corresponding_authors": [
+        {
+          "name": "Yongli Zhang",
+          "affiliation": "School of Aerospace Engineering and Applied Mechanics, Tongji University, Shanghai 200092, China"
+        }
+      ],
+      "venue": "Aerospace",
+      "year": 2026,
+      "date": "2026-04-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/aerospace13040368",
+      "cited_by_count": 0,
+      "concepts": [
+        "Design for manufacturability",
+        "Materials science",
+        "Mechanical engineering",
+        "Finite element method",
+        "Stiffness",
+        "Thermal",
+        "Spiral (railway)",
+        "Machining",
+        "Parametric statistics",
+        "Lattice (music)",
+        "Structural engineering",
+        "Porosity",
+        "Topology (electrical circuits)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "本文直接涉及LPBF制造的Ti6Al4V螺旋晶格结构的力学性能，符合Ti-6Al-4V增材制造力学性能方向。",
+        "why_not_core": "This paper does not focus on fatigue life, tensile properties, or build orientation effects of standard Ti-6Al-4V; it concentrates on a novel lattice architecture with thermal functionality.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "hollow spiral lattice",
+          "Ti6Al4V",
+          "laser powder bed fusion",
+          "additive manufacturing",
+          "compression testing",
+          "CFD/FEA",
+          "thermal management"
+        ],
+        "summary_zh": {
+          "motivation": "提出一种集成热管理和机械承载的新型螺旋晶格结构。",
+          "method": "通过参数化设计、LPBF制造和CFD/FEA/压缩实验表征。",
+          "result": "HSL结构具有优异比强度，热性能通过迪恩涡流得到增强。",
+          "validation": "实验压缩测试和数值模拟验证。"
+        },
+        "summary_en": {
+          "motivation": "This study proposes a novel hollow spiral lattice design to combine thermal management and structural load-bearing for additive manufacturing.",
+          "method": "An adaptive parametric framework was developed for LPBF fabrication, and thermo-mechanical performance was characterized via CFD, FEA, and quasi-static compression experiments.",
+          "result": "The HSL structure exhibits superior specific strength and stiffness compared to conventional lattices, and Dean vortices enhance radial mixing to suppress hot spots.",
+          "validation": "Validation was performed through experimental compression tests and numerical simulations (CFD and FEA)."
+        },
+        "key_terms": [
+          {
+            "en": "hollow spiral lattice",
+            "zh": "空心螺旋晶格"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "specific strength",
+            "zh": "比强度"
+          },
+          {
+            "en": "Dean vortex",
+            "zh": "迪恩涡流"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "computational fluid dynamics",
+            "zh": "计算流体动力学"
+          },
+          {
+            "en": "relative density",
+            "zh": "相对密度"
+          },
+          {
+            "en": "quasi-static compression",
+            "zh": "准静态压缩"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7154492518",
+      "doi": "10.1007/s40964-026-01627-6",
+      "title": "Efficient DEM calibration of AM powders using a rotating drum through Froude number scaling",
+      "abstract": "Abstract Powder qualification in additive manufacturing (AM) is a complex process, requiring extensive know-how to ensure that powder properties are suitable for a specific hardware solution and AM process. This qualification is typically performed through trial-and-error methods, which are costly, time-consuming, and provide little insight into powder behavior. Without a deeper understanding of powder properties, opportunities for optimizing either the powder itself or the recoating mechanism remain unexplored. The Discrete Element Method (DEM) offers a solution by enabling virtual powder characterization and parameter optimization. A method is proposed for calibrating a DEM model of AM powder that incorporates the real particle size distribution by properly scaling the system geometry rather than relying on coarse-graining techniques. A surrogate model-based calibration approach is employed to adjust DEM model parameters simultaneously, capturing their interdependencies and combined effects. A revolution device serves as the experimental reference for the calibration process. To reduce computational costs, a scaled-down simulation setup is introduced while maintaining dimensions significantly larger than the particle size. The calibration method is demonstrated using two widely used AM powders: Inconel 718 and Ti-6Al-4V (Ti64). The geometry down-scaling approach is validated through simulations with the calibrated model across various scaling factors. Additionally, the simulations provide insights into avalanche progression and size segregation in the revolution device. The contribution of this work is a calibration strategy for DEM-based powder modeling in AM that explicitly accounts for the real particle size distribution and is supported by validation in the revolution device. This provides a basis for reliable representation of powders in rotating drum flow, while future work should clarify the extent to which the calibrated state corresponds to the granular dynamical response during recoating. Graphic abstract",
+      "authors": [
+        "Negar Sani",
+        "Johannes Quist",
+        "Sofia Kazi",
+        "Gowtham Soundarapandiyan",
+        "Gustav Kettil",
+        "Laura Cordova",
+        "Eduard Hryha",
+        "Fredrik Edelvik"
+      ],
+      "first_author_affiliation": "Department of Computational Engineering and Design, Fraunhofer-Chalmers Centre for Industrial Mathematics, Gothenburg, Sweden",
+      "corresponding_authors": [
+        {
+          "name": "Johannes Quist",
+          "affiliation": "Department of Computational Engineering and Design, Fraunhofer-Chalmers Centre for Industrial Mathematics, Gothenburg, Sweden"
+        }
+      ],
+      "venue": "Progress in Additive Manufacturing",
+      "year": 2026,
+      "date": "2026-04-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40964-026-01627-6",
+      "cited_by_count": 0,
+      "concepts": [
+        "Calibration",
+        "Discrete element method",
+        "Scaling",
+        "Particle (ecology)",
+        "Representation (politics)",
+        "Computer science",
+        "Froude number",
+        "Algorithm",
+        "Particle size",
+        "Particle-size distribution",
+        "Characterization (materials science)",
+        "Work (physics)",
+        "Mechanical engineering",
+        "Metal powder",
+        "Distribution (mathematics)",
+        "Mechanics",
+        "Simulation",
+        "Geometry",
+        "Materials science",
+        "Discretization"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "additive manufacturing"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要涉及增材制造粉末的DEM校准，而非Ti-6Al-4V零件的力学或疲劳性能。",
+        "why_not_core": "This paper does not address mechanical or fatigue properties of additively manufactured Ti-6Al-4V parts; it focuses on powder flow calibration for DEM.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "DEM calibration",
+          "rotating drum",
+          "powder characterization",
+          "Ti-6Al-4V",
+          "Inconel 718"
+        ],
+        "summary_zh": {
+          "motivation": "高效校准增材制造粉末的离散元模型参数。",
+          "method": "利用转鼓实验和弗劳德数缩放，结合代理模型进行参数校准。",
+          "result": "在Inconel 718和Ti-6Al-4V粉末上验证了该方法，几何缩放有效。",
+          "validation": "通过实验转鼓与DEM模拟对比验证。"
+        },
+        "summary_en": {
+          "motivation": "To develop an efficient method for calibrating DEM parameters of AM powders using a rotating drum experiment and Froude number scaling.",
+          "method": "The method incorporates the real particle size distribution, uses a scaled-down simulation geometry, and employs a surrogate model for simultaneous parameter calibration.",
+          "result": "The calibration strategy was demonstrated for Inconel 718 and Ti-6Al-4V powders, and the geometry down-scaling approach was validated across various scaling factors.",
+          "validation": "Validation was performed by comparing DEM simulations with experimental data from a revolution device for powder flow."
+        },
+        "key_terms": [
+          {
+            "en": "discrete element method",
+            "zh": "离散元法"
+          },
+          {
+            "en": "DEM calibration",
+            "zh": "DEM校准"
+          },
+          {
+            "en": "rotating drum",
+            "zh": "转鼓"
+          },
+          {
+            "en": "Froude number",
+            "zh": "弗劳德数"
+          },
+          {
+            "en": "powder characterization",
+            "zh": "粉末表征"
+          },
+          {
+            "en": "surrogate model",
+            "zh": "代理模型"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W7154458012",
       "doi": "10.3390/ma19081582",
       "title": "Comparison of the Effects of LSP Treatment on Wrought and Additive Manufactured Ti-6Al-4V Samples",
@@ -56,12 +335,20 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_postprocess",
-        "ti6al4v_base_mechanical_fatigue"
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "additive manufacturing",
+          "microstructure",
+          "residual stress"
+        ],
         "ti6al4v_postprocess": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
@@ -69,20 +356,14 @@
           "laser shock peening",
           "surface treatment",
           "surface integrity"
-        ],
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "Ti64",
-          "residual stress"
         ]
       },
       "llm": {
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究激光冲击强化对增材制造Ti-6Al-4V的残余应力、显微硬度及微观结构的影响，完全符合后处理控制方向。",
-        "why_not_core": "No tensile or fatigue data reported; only residual stress, microhardness, and microstructure.",
+        "relevance_to_user": "该论文直接研究了激光冲击强化（LSP）这一后处理工艺对增材制造Ti-6Al-4V力学性能的影响，包括残余应力、显微硬度和微观结构，完全符合方向要求。",
+        "why_not_core": "Does not include fatigue testing or long-term cyclic data, but covers residual stress and microhardness as mechanical performance indicators.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -94,21 +375,23 @@
           "laser shock peening",
           "Ti-6Al-4V",
           "additive manufacturing",
-          "post-processing",
-          "surface treatment",
-          "wrought comparison"
+          "wrought",
+          "residual stress",
+          "microhardness",
+          "grain refinement",
+          "post-processing"
         ],
         "summary_zh": {
-          "motivation": "比较激光冲击强化对锻造和增材制造Ti-6Al-4V合金的影响。",
-          "method": "对两种制备方式的样品进行相同参数LSP处理，测试残余应力、显微硬度和微观结构。",
-          "result": "LSP后残余压应力达-800 MPa，显微硬度提升22%，晶粒从18.16 μm细化至5.54 μm。",
-          "validation": "通过残余应力、硬度和金相实验验证结果。"
+          "motivation": "比较激光冲击强化对锻造和增材制造Ti-6Al-4V合金表面完整性的影响。",
+          "method": "采用特定激光参数分别处理锻造和增材制造试样，并进行残余应力、显微硬度和微观结构表征。",
+          "result": "两种工艺试样均获得高达-800 MPa的残余压应力、22%的显微硬度提升和晶粒细化。",
+          "validation": "通过实验测量残余应力、显微硬度和微观结构验证效果。"
         },
         "summary_en": {
-          "motivation": "To compare the effects of laser shock peening (LSP) on the surface integrity of wrought and additively manufactured Ti-6Al-4V alloy.",
-          "method": "Samples from both manufacturing routes were treated with identical LSP parameters (6 ns pulse, 1064 nm, 2500 pulses/cm², 0.750 J, 10 Hz) and characterized by residual stress, microhardness, and microstructure analysis.",
-          "result": "LSP induced compressive residual stresses up to −800 MPa, increased microhardness by 22%, and refined grain size from 18.16 μm to 5.54 μm.",
-          "validation": "Experimental measurements of residual stress, microhardness, and grain size were used to validate the treatment effectiveness."
+          "motivation": "To compare the effects of laser shock peening (LSP) on the surface integrity of wrought and additive manufactured Ti-6Al-4V alloys.",
+          "method": "LSP treatment was applied to both wrought and AM Ti-6Al-4V samples using identical parameters, followed by characterization of residual stress, microhardness, and microstructure.",
+          "result": "LSP induced compressive residual stresses up to -800 MPa, increased microhardness by 22%, and refined grain size from 18.16 μm to 5.54 μm in both manufacturing routes.",
+          "validation": "Experimental measurements of residual stress, microhardness, and microstructure were conducted to validate the effectiveness of LSP."
         },
         "key_terms": [
           {
@@ -138,12 +421,256 @@
           {
             "en": "grain refinement",
             "zh": "晶粒细化"
+          },
+          {
+            "en": "surface integrity",
+            "zh": "表面完整性"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7154485616",
+      "doi": "10.1007/s00170-026-18048-y",
+      "title": "Tool wear in machining additively manufactured Ti-6Al-4V alloys: a brief state-of-the-art overview",
+      "abstract": "",
+      "authors": [
+        "Harshal Kulkarni",
+        "Vitoon Uthaisangsuk"
+      ],
+      "first_author_affiliation": "Advanced Metallurgy and Forming Processes Laboratory, Department of Mechanical Engineering, King Mongkut’s University of Technology Thonburi, 126 Pracha Uthit Rd., Bang Mod, Thung Khru, Bangkok, 10140, Thailand",
+      "corresponding_authors": [
+        {
+          "name": "Vitoon Uthaisangsuk",
+          "affiliation": "Advanced Metallurgy and Forming Processes Laboratory, Department of Mechanical Engineering, King Mongkut’s University of Technology Thonburi, 126 Pracha Uthit Rd., Bang Mod, Thung Khru, Bangkok, 10140, Thailand"
+        }
+      ],
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "year": 2026,
+      "date": "2026-04-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s00170-026-18048-y",
+      "cited_by_count": 0,
+      "concepts": [
+        "Machining",
+        "Tool wear",
+        "Mechanical engineering",
+        "Tribology",
+        "Manufacturing engineering",
+        "Materials science",
+        "Engineering",
+        "Domain (mathematical analysis)",
+        "Machine tool",
+        "Metallurgy",
+        "Microstructure",
+        "Focus (optics)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文是关于增材制造Ti-6Al-4V合金加工中刀具磨损的综述，与后处理对力学性能的影响无直接关系。",
+        "why_not_core": "The paper focuses on tool wear during machining, not on the effect of post-processing (machining) on the mechanical performance (fatigue/tensile) of Ti-6Al-4V.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": true
+        },
+        "tags": [
+          "tool wear",
+          "machining",
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "review"
+        ],
+        "summary_zh": {
+          "motivation": "刀具磨损是加工增材制造Ti-6Al-4V合金时的重要因素",
+          "method": "综述相关文献",
+          "result": "总结了刀具磨损的机制和影响因素",
+          "validation": "无实验验证"
+        },
+        "summary_en": {
+          "motivation": "Tool wear is a critical factor when machining additively manufactured Ti-6Al-4V alloys.",
+          "method": "A brief state-of-the-art overview of existing literature.",
+          "result": "Summarizes mechanisms and factors influencing tool wear.",
+          "validation": "No experimental validation."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "tool wear",
+            "zh": "刀具磨损"
+          },
+          {
+            "en": "machining",
+            "zh": "机加工"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          },
+          {
+            "en": "review",
+            "zh": "综述"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7154499288",
+      "doi": "10.1016/j.msea.2026.150254",
+      "title": "Ni-Mo co-alloying for strength-ductility synergy in equiaxed laser additive manufactured Ti-6Al-4V alloys",
+      "abstract": "",
+      "authors": [
+        "Kaibo Zhang",
+        "Hengxin Zhang",
+        "Zimeng Ye",
+        "Fengying Zhang",
+        "Kexin Zhao",
+        "Wenlu Wu",
+        "Wei Su",
+        "Hua Tan"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Kaibo Zhang",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Materials Science and Engineering A",
+      "year": 2026,
+      "date": "2026-04-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.msea.2026.150254",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Metallurgy",
+        "Laser",
+        "Equiaxed crystals"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文研究了通过镍钼共合金化改善激光增材制造Ti-6Al-4V合金的强度-韧性协同性能，虽然成分有所修改，但结果对理解合金元素对力学行为的影响有参考价值。",
+        "why_not_core": "The paper investigates Ni-Mo co-alloyed Ti-6Al-4V, which deviates from the standard composition specified for the L1 direction; thus it does not directly address as-built or process-state Ti-6Al-4V mechanical/fatigue characterization.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "co-alloying",
+          "strength-ductility synergy",
+          "laser additive manufacturing",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "通过合金化改善激光增材制造Ti-6Al-4V的强度-韧性矛盾。",
+          "method": "在Ti-6Al-4V中添加Ni和Mo元素，采用激光增材制造制备等轴晶组织。",
+          "result": "获得了强度与韧性的协同提升，揭示了合金元素对微观组织和力学性能的影响。",
+          "validation": "通过拉伸试验和微观组织表征验证了性能优化效果。"
+        },
+        "summary_en": {
+          "motivation": "To overcome the strength-ductility trade-off in laser additive manufactured Ti-6Al-4V by alloying with Ni and Mo.",
+          "method": "Ni and Mo were co-alloyed into Ti-6Al-4V and processed by laser additive manufacturing to achieve an equiaxed grain structure.",
+          "result": "The co-alloying led to a synergistic improvement in strength and ductility, with the mechanisms elucidated through microstructural analysis.",
+          "validation": "Mechanical testing and microstructural characterization confirmed the enhanced performance."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "laser additive manufacturing",
+            "zh": "激光增材制造"
+          },
+          {
+            "en": "co-alloying",
+            "zh": "共合金化"
+          },
+          {
+            "en": "strength-ductility synergy",
+            "zh": "强度-韧性协同"
+          },
+          {
+            "en": "equiaxed grain",
+            "zh": "等轴晶"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "tensile test",
+            "zh": "拉伸试验"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
     },
     {
       "source": "openalex",
@@ -218,14 +745,14 @@
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "论文主要关注钛基牙种植体的生物活性和抗菌性能，未涉及增材制造Ti-6Al-4V的力学或疲劳性能。",
-        "why_not_core": "No mechanical or fatigue testing of Ti-6Al-4V; focuses on coating bioactivity and antibacterial properties, not on additive manufacturing or base material mechanical performance.",
-        "validation_kind": "in_vitro",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要关注钛合金牙种植体的表面涂层改性以提高生物活性和抗菌性能，而非Ti-6Al-4V增材制造的力学或疲劳性能。",
+        "why_not_core": "Paper focuses on surface coating and bioactivity (antibacterial, remineralization) of Ti-6Al-4V for dental implants, with no mechanical or fatigue characterization, no additive manufacturing context, and no relevance to the mechanical/fatigue performance of AM Ti-6Al-4V.",
+        "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
@@ -233,68 +760,61 @@
         "tags": [
           "Ti-6Al-4V",
           "dental implants",
-          "composite coating",
+          "surface coating",
+          "bioactivity",
           "antibacterial",
-          "bioactivity"
+          "composite resin"
         ],
         "summary_zh": {
-          "motivation": "提高钛合金牙种植体的生物活性和抗菌能力，延长使用寿命",
-          "method": "结合表面微织构与改性光固化复合树脂涂层对TC4进行表面改性",
-          "result": "微织构增大接触面积42.5%，复合树脂涂层抗菌率达74.6%并具有再矿化能力",
-          "validation": "通过接触角测量、细菌培养和人工唾液浸泡实验验证"
+          "motivation": "提高钛合金牙种植体的生物活性和抗菌性能，防止界面松动。",
+          "method": "采用表面微纹理和复合树脂涂层（Ti-HA/TiO2）改性TC4表面。",
+          "result": "微纹理增大接触面积42.5%，涂层粘附损伤仅0.5%；光滑表面抗菌率67.7%，复合涂层抗菌率74.6%并促进再矿化。",
+          "validation": "通过接触角、细菌计数、人工唾液浸泡等实验验证性能。"
         },
         "summary_en": {
-          "motivation": "This study aims to improve the bioactivity and antibacterial properties of titanium dental implants to prevent interfacial loosening and failure.",
-          "method": "Surface microtexturing combined with a light-cured composite resin coating containing Ti-HA/TiO2 was applied to Ti-6Al-4V substrates.",
-          "result": "Microtexturing increased coating-substrate contact area by 42.5%, and the composite coating achieved an antibacterial rate of 74.6% with visible mineralization deposits after 3 days in artificial saliva.",
-          "validation": "Validation was performed through contact angle measurement, bacterial colony counting, and immersion tests in artificial saliva."
+          "motivation": "To improve bioactivity and antibacterial properties of titanium dental implants to prevent interfacial loosening and failure.",
+          "method": "Surface microtexturing combined with a composite resin coating (Ti-HA/TiO2) was applied to TC4 substrates.",
+          "result": "Microtexturing increased coating-substrate contact area by 42.5% and reduced adhesion damage area to 0.5%; smooth surfaces achieved 67.7% antibacterial rate and composite coating reached 74.6% with enhanced mineralization.",
+          "validation": "Performance was validated through contact angle measurement, bacterial colony counting, and artificial saliva immersion tests."
         },
         "key_terms": [
           {
-            "en": "Ti-6Al-4V (TC4)",
-            "zh": "Ti-6Al-4V (TC4)"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
-            "en": "dental implants",
+            "en": "dental implant",
             "zh": "牙种植体"
+          },
+          {
+            "en": "surface microtexturing",
+            "zh": "表面微纹理化"
           },
           {
             "en": "composite resin coating",
             "zh": "复合树脂涂层"
           },
           {
-            "en": "antibacterial",
-            "zh": "抗菌"
+            "en": "antibacterial activity",
+            "zh": "抗菌活性"
           },
           {
             "en": "remineralization",
             "zh": "再矿化"
           },
           {
-            "en": "surface microtexturing",
-            "zh": "表面微织构"
+            "en": "adhesion",
+            "zh": "粘附力"
           },
           {
-            "en": "photocatalytic synergistic effect",
-            "zh": "光催化协同效应"
-          },
-          {
-            "en": "titanium-doped hydroxyapatite",
-            "zh": "钛掺杂羟基磷灰石"
-          },
-          {
-            "en": "titanium dioxide",
-            "zh": "二氧化钛"
-          },
-          {
-            "en": "water contact angle",
-            "zh": "水接触角"
+            "en": "contact angle",
+            "zh": "接触角"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
     },
     {
       "source": "openalex",
@@ -354,12 +874,12 @@
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究Ti6Al4V攻丝过程的热力学行为，未涉及增材制造Ti-6Al-4V的后处理对疲劳或力学性能的影响。",
-        "why_not_core": "The paper does not study post-processing effects on mechanical performance of AM Ti-6Al-4V; it focuses on tapping process mechanics in conventional Ti6Al4V without any experimental validation of fatigue or tensile properties.",
-        "validation_kind": "simulation_case",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti6Al4V的攻丝工艺模拟，但未研究后处理对疲劳或力学性能的影响，与用户关注的后处理控制方向关联度低。",
+        "why_not_core": "The paper studies the tapping process simulation but does not examine how machining post-processing modifies fatigue or mechanical performance of Ti-6Al-4V components.",
+        "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
@@ -367,36 +887,36 @@
           "is_review": false
         },
         "tags": [
-          "Ti6Al4V",
           "tapping",
+          "Ti6Al4V",
           "thermo-mechanical simulation",
-          "cutting forces",
-          "temperature field"
+          "machining",
+          "process mechanics"
         ],
         "summary_zh": {
-          "motivation": "揭示Ti6Al4V合金小孔攻丝过程中的热机械行为及机理。",
-          "method": "采用热力耦合有限元模拟分析攻丝过程的力、温度和压力场。",
-          "result": "得到轴向力三阶段变化、径向力周期性载荷及温度场分布规律。",
-          "validation": "通过多物理场仿真验证，无实验对比。"
+          "motivation": "为优化Ti6Al4V攻丝工艺提供理论依据",
+          "method": "采用热-力耦合模拟分析攻丝过程中的力学与热力学行为",
+          "result": "揭示了轴向力三阶段变化及径向力周期性交变规律",
+          "validation": "无实验验证，仅为仿真结果"
         },
         "summary_en": {
-          "motivation": "This study aims to reveal the thermo-mechanical behavior and mechanisms during small-hole tapping of Ti6Al4V alloy.",
-          "method": "A thermo-mechanical coupled finite element simulation was employed to analyze cutting forces, contact pressure, torque, and temperature distributions.",
-          "result": "The axial force shows a three-stage pattern, radial force exhibits periodic alternating loads, and localized high-temperature zones form at cutting edges.",
-          "validation": "The work is validated only through simulation; no experimental measurements are provided."
+          "motivation": "To provide a theoretical basis for optimizing the tapping process of Ti6Al4V alloy.",
+          "method": "A thermo-mechanically coupled simulation is employed to analyze the mechanical, thermodynamic, and pressure field behaviors during thread formation.",
+          "result": "The axial force exhibits a three-stage variation and the radial force shows periodic alternating loads, reflecting multi-edge cutting dynamics.",
+          "validation": "No experimental validation is performed; the study relies solely on simulation results."
         },
         "key_terms": [
           {
-            "en": "Ti6Al4V alloy",
+            "en": "tapping",
+            "zh": "攻丝"
+          },
+          {
+            "en": "Ti6Al4V",
             "zh": "Ti6Al4V合金"
           },
           {
-            "en": "small-hole tapping",
-            "zh": "小孔攻丝"
-          },
-          {
-            "en": "thermo-mechanical coupled simulation",
-            "zh": "热力耦合模拟"
+            "en": "thermo-mechanical coupling",
+            "zh": "热-力耦合"
           },
           {
             "en": "cutting force",
@@ -411,34 +931,35 @@
             "zh": "温度场"
           },
           {
-            "en": "thread formation",
-            "zh": "螺纹成形"
+            "en": "machining simulation",
+            "zh": "加工仿真"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 7,
     "by_source": {
-      "openalex": 3
+      "openalex": 7
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 7,
+    "after_routing": 7,
     "by_direction": {
-      "ti6al4v_postprocess": 2,
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 4,
+      "ti6al4v_postprocess": 3
     },
     "routed_by_source": {
-      "openalex": 3
+      "openalex": 7
     },
-    "scored": 3,
+    "scored": 7,
     "priority_counts": {
+      "Medium": 2,
+      "Low": 3,
       "High": 1,
-      "Low": 1,
       "Exclude": 1
     }
   }

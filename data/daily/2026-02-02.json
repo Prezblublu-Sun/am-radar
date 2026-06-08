@@ -5,6 +5,133 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W7127073139",
+      "doi": "10.1016/j.mtla.2026.102679",
+      "title": "Effect of powder reuse on forming characteristics and mechanical properties of SLM formed Ti-6Al-4V",
+      "abstract": "",
+      "authors": [
+        "Bibo Yao",
+        "Jiajin Yu",
+        "Jingxuan Ge",
+        "Zhenhua Li",
+        "Meihong Liu",
+        "Zhanliang Liu",
+        "Dingbang Wang",
+        "Xiaoyan Yang"
+      ],
+      "first_author_affiliation": "Faculty of Mechanical and Electrical Engineering, Kunming University of Science and Technology, Kunming, 650500, PR China",
+      "corresponding_authors": [
+        {
+          "name": "Zhenhua Li",
+          "affiliation": "National-Local joint Engineering Laboratory for Technology of Advanced Metallic Solidifcation Forming and Equipment, School of Materials Science and Engineering, Kunming University of Science and Technology, Kunming, 650093, PR China"
+        }
+      ],
+      "venue": "Materialia",
+      "year": 2026,
+      "date": "2026-02-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.mtla.2026.102679",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Selective laser melting",
+        "Reuse",
+        "Ultimate tensile strength",
+        "Relative density",
+        "Elongation",
+        "Composite material",
+        "Thermal",
+        "Laser power scaling",
+        "Power density",
+        "Particle size",
+        "Laser",
+        "Laser scanning",
+        "Particle (ecology)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "SLM"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究SLM成形Ti-6Al-4V的粉末重复使用对机械性能的影响，属于L1层核心关注点。",
+        "why_not_core": "The paper does not include fatigue testing or S-N curve data, focusing instead on static mechanical properties and forming characteristics.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "powder reuse",
+          "SLM",
+          "Ti-6Al-4V",
+          "mechanical properties",
+          "forming characteristics"
+        ],
+        "summary_zh": {
+          "motivation": "探究粉末重复使用对SLM成形Ti-6Al-4V成形特性和力学性能的影响。",
+          "method": "通过实验制备不同重复使用次数的粉末并进行SLM成形，测试力学性能。",
+          "result": "粉末重复使用会影响成形件密度、显微组织和拉伸性能。",
+          "validation": "采用拉伸试验和显微组织观察进行验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of powder reuse on the forming characteristics and mechanical properties of SLM-fabricated Ti-6Al-4V.",
+          "method": "Experimental SLM with powders reused for different cycles, followed by mechanical testing and microstructural analysis.",
+          "result": "Powder reuse alters densification, microstructure, and tensile properties of the SLM parts.",
+          "validation": "Mechanical characterization (tensile tests) and microstructural observation."
+        },
+        "key_terms": [
+          {
+            "en": "powder reuse",
+            "zh": "粉末重复使用"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "forming characteristics",
+            "zh": "成形特性"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "microstructure",
+            "zh": "显微组织"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W7127047314",
       "doi": "10.3389/fbioe.2025.1675726",
       "title": "Mechanobiological evaluation of solid and multiple porous humeral stem architectures in reverse shoulder arthroplasty based on design and materials: a finite element study",
@@ -60,9 +187,9 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该文研究肩关节假体，与用户关注的髋关节股骨柄设计方向不符，属于不同解剖部位。",
-        "why_not_core": "The paper studies humeral stems for reverse shoulder arthroplasty, not femoral/hip stems, thus it does not meet the required anatomical focus on the hip joint.",
-        "validation_kind": "simulation_case",
+        "relevance_to_user": "该论文研究的是反向肩关节置换术中的肱骨柄，而非指定的股骨/髋关节柄，解剖部位不符。",
+        "why_not_core": "The paper focuses on humeral stems for reverse shoulder arthroplasty, not femoral/hip stems as required by the direction; anatomical mismatch makes it non-comparable.",
+        "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
@@ -70,70 +197,77 @@
           "is_review": false
         },
         "tags": [
-          "reverse shoulder arthroplasty",
           "humeral stem",
+          "reverse shoulder arthroplasty",
           "finite element analysis",
-          "stress shielding"
+          "stress shielding",
+          "porous architecture"
         ],
         "summary_zh": {
-          "motivation": "探索多孔肱骨柄设计对减少应力遮挡的效果",
-          "method": "设计四种孔径结构并采用FEA分析力学响应",
-          "result": "Ti6Al4V梯形多孔柄力学性能最接近完整骨骼",
-          "validation": "仅FEA仿真，无实验验证"
+          "motivation": "评估不同多孔肱骨柄设计对减少应力遮挡的效果",
+          "method": "对四种孔型（无孔、圆孔、椭圆孔、小梁孔）的316L和Ti6Al4V肱骨柄进行有限元分析",
+          "result": "钛合金小梁结构柄的力学性能最接近完整骨骼，承载能力优于实心柄",
+          "validation": "仅有限元仿真，无实验验证"
         },
         "summary_en": {
-          "motivation": "To reduce stress shielding in reverse shoulder arthroplasty by designing porous humeral stems.",
-          "method": "Four stem architectures (solid, circular, elliptical, trabecular) were modeled in 316L SS and Ti6Al4V and analyzed via FEA under four loading conditions.",
-          "result": "The Ti6Al4V stem with trabecular architecture showed mechanical behavior closest to intact bone.",
-          "validation": "Finite element simulation only, without experimental validation."
+          "motivation": "To evaluate how different porous humeral stem designs can reduce stress shielding in reverse shoulder arthroplasty.",
+          "method": "Finite element analysis was conducted on eight bone-implant assemblies with varying stem porosities (solid, circular, elliptical, trabecular) made of 316L stainless steel and Ti6Al4V under four loading conditions.",
+          "result": "The Ti6Al4V stem with trabecular architecture showed mechanical properties closest to intact bone and better load-bearing capacity than solid stems.",
+          "validation": "The study is simulation-based with no experimental validation."
         },
         "key_terms": [
           {
-            "en": "stress shielding",
-            "zh": "应力遮挡"
+            "en": "reverse shoulder arthroplasty",
+            "zh": "反向肩关节置换术"
           },
           {
             "en": "humeral stem",
             "zh": "肱骨柄"
           },
           {
-            "en": "reverse shoulder arthroplasty",
-            "zh": "反向肩关节置换术"
+            "en": "stress shielding",
+            "zh": "应力遮挡"
           },
           {
             "en": "finite element analysis",
             "zh": "有限元分析"
           },
           {
+            "en": "Ti6Al4V",
+            "zh": "钛合金Ti6Al4V"
+          },
+          {
             "en": "porous architecture",
             "zh": "多孔结构"
           },
           {
-            "en": "titanium alloy",
-            "zh": "钛合金"
+            "en": "trabecular architecture",
+            "zh": "小梁结构"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1,
       "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
+      "High": 1,
       "Exclude": 1
     }
   }

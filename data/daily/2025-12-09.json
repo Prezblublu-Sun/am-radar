@@ -77,8 +77,8 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文涉及TC4钛合金的热等静压处理，但研究对象为TiC增强复合材料而非增材制造件，且未涉及疲劳性能。",
-        "why_not_core": "No additive manufacturing context; the material is a composite fabricated by HIP, not post-processing of AM Ti-6Al-4V, and fatigue performance is not addressed.",
+        "relevance_to_user": "论文涉及热等静压处理TC4基复合材料，但未涉及增材制造Ti-6Al-4V的后处理对疲劳性能的影响。",
+        "why_not_core": "The paper studies HIP-fabricated TiC/TC4 composites, not post-processing of additively manufactured Ti-6Al-4V, and does not report fatigue data.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -87,22 +87,23 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
           "hot isostatic pressing",
-          "titanium matrix composite",
-          "mechanical properties"
+          "TiC/TC4 composites",
+          "tensile properties",
+          "fracture behavior",
+          "high-temperature strength"
         ],
         "summary_zh": {
-          "motivation": "传统铸造TiC/TC4复合材料存在成分偏析和粗大增强相问题，需优化工艺。",
-          "method": "采用热等静压法制备TiC/TC4复合材料，并测试室温和高温力学性能。",
-          "result": "复合材料室温抗拉强度1058 MPa，伸长率17%；600°C抗拉强度约500 MPa。",
-          "validation": "通过拉伸试验和断口分析验证力学性能和断裂机制。"
+          "motivation": "克服传统铸造钛基复合材料成分偏析和强化相粗大的问题",
+          "method": "通过热等静压制备TiC/TC4复合材料并进行力学测试",
+          "result": "室温抗拉强度1058 MPa，伸长率17%，600°C抗拉强度约500 MPa",
+          "validation": "室温及高温拉伸实验验证力学性能"
         },
         "summary_en": {
-          "motivation": "Conventional casting of TiC/TC4 composites suffers from segregation and coarse reinforcements, prompting the use of hot isostatic pressing.",
-          "method": "TiC/TC4 composites were fabricated via hot isostatic pressing and characterized for tensile properties at room and elevated temperatures.",
-          "result": "The composite achieved room-temperature tensile strength of 1058 MPa with 17% elongation and retained ~500 MPa at 600°C.",
-          "validation": "Validation involved quasi-static tensile tests and fractographic analysis to identify crack initiation sites."
+          "motivation": "To overcome composition segregation and coarse reinforcement phases in conventionally cast titanium matrix composites.",
+          "method": "TiC/TC4 composites were fabricated via hot isostatic pressing and characterized for tensile and fracture behavior.",
+          "result": "The composites achieved room-temperature tensile strength of 1058 MPa, yield strength of 958 MPa, and total elongation of 17%, with high-temperature strength of ~500 MPa at 600°C.",
+          "validation": "Mechanical testing including room-temperature and high-temperature tensile tests was performed."
         },
         "key_terms": [
           {
@@ -110,12 +111,8 @@
             "zh": "热等静压"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
-          },
-          {
-            "en": "titanium matrix composite",
-            "zh": "钛基复合材料"
+            "en": "TiC/TC4 composite",
+            "zh": "TiC/TC4复合材料"
           },
           {
             "en": "tensile strength",
@@ -126,18 +123,26 @@
             "zh": "断裂行为"
           },
           {
-            "en": "strengthening mechanism",
-            "zh": "强化机制"
+            "en": "high-temperature properties",
+            "zh": "高温性能"
           },
           {
-            "en": "elevated temperature",
-            "zh": "高温"
+            "en": "matrix composite",
+            "zh": "基体复合材料"
+          },
+          {
+            "en": "particle reinforcement",
+            "zh": "颗粒增强"
+          },
+          {
+            "en": "secondary α phase",
+            "zh": "二次α相"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     },
     {
       "source": "openalex",
@@ -202,6 +207,11 @@
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "Ti64",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "microstructure",
           "porosity"
         ]
       },
@@ -209,8 +219,8 @@
         "priority": "Medium",
         "relevance_level": "Direct",
         "read_action": "Save for project",
-        "relevance_to_user": "该论文针对LPBF Ti-6Al-4V合金，提出了一种小冲杆蠕变测试方法，属于直接相关的力学性能评估，但主要关注蠕变而非疲劳或拉伸性能。",
-        "why_not_core": "Does not address tensile or fatigue behavior, which are the primary focus of the Layer 1 direction.",
+        "relevance_to_user": "该论文针对LPBF Ti64合金的蠕变性能测试方法，虽然不直接涉及疲劳，但属于力学性能表征，与研究方向相关。",
+        "why_not_core": "The paper focuses on creep properties, which are not explicitly listed in the direction's focus on tensile, fatigue, and hardness; it does not provide direct fatigue or tensile data.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -219,23 +229,23 @@
           "is_review": false
         },
         "tags": [
-          "LPBF",
-          "Ti-6Al-4V",
+          "LPBF Ti-6Al-4V",
           "small punch creep test",
-          "creep properties",
-          "Norton creep parameters"
+          "Norton creep",
+          "inverse FEA",
+          "mechanical characterization"
         ],
         "summary_zh": {
-          "motivation": "LPBF Ti-6Al-4V的微结构异质性需要专门的蠕变表征方法以确保服役性能。",
-          "method": "提出结合代表应力-应变法和逆有限元分析的小冲杆蠕变测试，从SPT和SPCT数据直接推导Norton蠕变参数。",
-          "result": "实验验证显示与SPCT推导的参数高度一致，证明该方法适用于增材制造构件。",
-          "validation": "通过LPBF Ti64合金的小冲杆蠕变实验和有限元反分析进行验证。"
+          "motivation": "开发适用于LPBF Ti64合金的小冲杆蠕变测试方法以获取Norton蠕变参数。",
+          "method": "结合代表应力-应变法和逆有限元分析，从小冲杆测试和蠕变测试中提取参数。",
+          "result": "实验验证表明该方法与理论一致，准确性高。",
+          "validation": "通过实验SPCT和UCT对比验证。"
         },
         "summary_en": {
-          "motivation": "Microstructural heterogeneity in LPBF Ti-6Al-4V requires specialized creep characterization methods to ensure reliable service performance.",
-          "method": "This study proposes a methodology to directly derive Norton creep parameters from small punch test and small punch creep test data, integrating a representative stress-strain method with inverse finite element analysis.",
-          "result": "Experimental validation on LPBF Ti64 alloy shows strong agreement with properties derived from SPCT, confirming the method's accuracy and applicability for AM components.",
-          "validation": "Validation is performed through small punch creep experiments on LPBF Ti64 alloy and inverse FEA to match extracted parameters."
+          "motivation": "To develop a novel small punch creep test method for LPBF Ti64 alloy to determine Norton creep parameters efficiently.",
+          "method": "A combined representative stress-strain method and inverse finite element analysis is used to extract creep parameters from small punch test data.",
+          "result": "The method shows strong agreement with uniaxial creep test results, confirming its accuracy.",
+          "validation": "Experimental validation through small punch creep tests and comparison with uniaxial creep tests."
         },
         "key_terms": [
           {
@@ -244,7 +254,7 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
+            "zh": "Ti-6Al-4V"
           },
           {
             "en": "small punch creep test",
@@ -255,46 +265,158 @@
             "zh": "Norton蠕变参数"
           },
           {
-            "en": "representative stress-strain method",
-            "zh": "代表应力-应变法"
-          },
-          {
             "en": "inverse finite element analysis",
             "zh": "逆有限元分析"
           },
           {
-            "en": "creep behavior",
-            "zh": "蠕变行为"
-          },
-          {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
+            "en": "representative stress-strain method",
+            "zh": "代表应力应变法"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7114820563",
+      "doi": "",
+      "title": "A Dynamic Time Warping-Transfer Learning Approach to Transferring Knowledge in Stress-strain Behaviors from Polymers to Metals: An Affordable and Generalizable Additive Manufacturing Part Qualification Framework",
+      "abstract": "Part qualification in additive manufacturing (AM) ensures that additively manufactured parts can be consistently produced and reliably used in critical applications. One crucial aspect of part qualification is to determine the complex stress-strain behavior of additively manufactured parts. However, conventional part qualification techniques such as the destructive testing and non-destructive testing are costly and time consuming, especially for metal AM. To address this challenge, we develop a dynamic time warping (DTW)-transfer learning (TL) framework for AM part qualification by transferring knowledge gained from the stress-strain behaviors of additively manufactured low-cost polymers to high-performance, expensive metals. Specifically, the framework selects one single optimal polymer dataset that is the most similar to the metal dataset in the target domain using DTW among multiple polymer datasets, including Nylon, PLA, CF-ABS, and Resin. A long short-term memory (LSTM) model is then trained on one single optimal polymer dataset and tested on one of three target metal datasets, including AlSi10Mg, Ti6Al4V, and carbon steel datasets. Experimental results show that the Resin dataset is selected as the optimal polymer dataset in the source domain for the AlSi10Mg and Ti6Al4V datasets, while the Nylon dataset is selected as the optimal polymer dataset in the source domain for the carbon steel dataset. The DTWTL model trained on one single optimal polymer dataset as the source domain achieves the best predictive performance, including an average mean absolute percentage error of 12.41%, an average root mean squared error of 63.75, and an average coefficient of determination of 0.96 when three metals are used as the target domain, outperforming the vanilla LSTM model without TL as well as the TL model trained on all four polymer datasets as the source domain.",
+      "authors": [
+        "Duan, Chenglong",
+        "Wu, Dazhong"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Duan, Chenglong",
+          "affiliation": ""
+        }
+      ],
+      "venue": "ArXiv.org",
+      "year": 2025,
+      "date": "2025-12-09",
+      "date_precision": "day",
+      "url": "https://openalex.org/W7114820563",
+      "cited_by_count": 0,
+      "concepts": [
+        "Polymer",
+        "Image warping",
+        "Computer science",
+        "Dynamic time warping",
+        "Domain (mathematical analysis)",
+        "Materials science",
+        "Process engineering",
+        "Biological system",
+        "Metal",
+        "Mean absolute error"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "additive manufacturing",
+          "additively manufactured"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要关注一种通用的迁移学习方法，将聚合物应力应变知识转移到金属材料，Ti6Al4V仅作为其中一个测试案例，不专注于Ti6Al4V的力学或疲劳性能。",
+        "why_not_core": "Paper does not focus on Ti-6Al-4V mechanical/fatigue characterization; it uses Ti-6Al-4V as one of three test datasets for a general ML framework transferring knowledge from polymers to metals.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "dynamic time warping",
+          "transfer learning",
+          "stress-strain behavior",
+          "additive manufacturing",
+          "AlSi10Mg",
+          "Ti6Al4V",
+          "carbon steel",
+          "LSTM"
+        ],
+        "summary_zh": {
+          "motivation": "提出一种低成本增材制造部件鉴定方法，通过迁移聚合物知识预测金属应力应变。",
+          "method": "利用动态时间规整选择最优聚合物数据集，训练LSTM模型预测金属应力应变曲线。",
+          "result": "在AlSi10Mg、Ti6Al4V和碳钢上取得良好预测精度（MAPE 12.41%）。",
+          "validation": "基于文献中的公开实验数据集进行数值验证。"
+        },
+        "summary_en": {
+          "motivation": "Develop a cost-effective part qualification framework for metal additive manufacturing by transferring knowledge from polymer stress-strain behaviors.",
+          "method": "Use dynamic time warping to select the optimal polymer dataset and train an LSTM model to predict metal stress-strain curves.",
+          "result": "The DTW-TL model achieves high prediction accuracy on AlSi10Mg, Ti6Al4V, and carbon steel datasets with an average MAPE of 12.41%.",
+          "validation": "Validated on existing experimental stress-strain datasets from the literature."
+        },
+        "key_terms": [
+          {
+            "en": "dynamic time warping",
+            "zh": "动态时间规整"
+          },
+          {
+            "en": "transfer learning",
+            "zh": "迁移学习"
+          },
+          {
+            "en": "stress-strain behavior",
+            "zh": "应力应变行为"
+          },
+          {
+            "en": "LSTM",
+            "zh": "长短期记忆网络"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "part qualification",
+            "zh": "部件鉴定"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
       "ti6al4v_postprocess": 1,
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
       "Low": 1,
-      "Medium": 1
+      "Medium": 1,
+      "Exclude": 1
     }
   }
 }

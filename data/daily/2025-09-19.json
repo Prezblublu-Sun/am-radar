@@ -62,6 +62,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
           "build orientation",
           "fatigue",
           "fatigue strength"
@@ -71,8 +72,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文研究了增材制造Ti-6Al-4V的构建取向对超声疲劳性能的影响，直接针对用户关注的力学和疲劳性能方向。",
-        "why_not_core": "该论文同时研究了Inconel 718，但主要针对Ti-6Al-4V，且有实验数据，符合核心方向。",
+        "relevance_to_user": "本文研究了Ti-6Al-4V增材制造试样的超声疲劳性能与构建方向的关系，属于L1层直接相关。",
+        "why_not_core": "Not solely Ti-6Al-4V; also includes Inconel 718, but Ti-6Al-4V results are reported and the focus includes mechanical/fatigue behavior.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -81,25 +82,26 @@
           "is_review": false
         },
         "tags": [
+          "additive manufacturing",
           "Ti-6Al-4V",
           "ultrasonic fatigue",
           "build orientation",
           "anisotropy",
-          "additive manufacturing",
-          "digital image correlation",
-          "finite element analysis"
+          "high-cycle fatigue",
+          "DIC",
+          "FEA"
         ],
         "summary_zh": {
-          "motivation": "研究构建取向对增材制造Ti-6Al-4V超声疲劳行为的影响",
-          "method": "采用超声疲劳测试（20kHz）、DIC和FEA相结合的方法",
-          "result": "水平打印试样具有更长的疲劳寿命和更高的沿加载轴刚度",
-          "validation": "通过实验力学测试（超声疲劳、DIC）及FEA验证"
+          "motivation": "研究构建方向对增材制造Ti-6Al-4V和Inconel 718超声疲劳行为的影响。",
+          "method": "采用20 kHz超声疲劳测试，结合DIC和FEA校准。",
+          "result": "水平构建试样疲劳寿命更长、刚度更高。",
+          "validation": "通过实验力学测试和DIC验证结果。"
         },
         "summary_en": {
-          "motivation": "This study aims to investigate the effect of build orientation (vertical vs. horizontal) on the ultrasonic fatigue performance of additively manufactured Ti-6Al-4V and Inconel 718.",
-          "method": "Ultrasonic fatigue testing at 20 kHz was performed on five specimens per orientation per alloy, supported by Digital Image Correlation (DIC), laser measurements, and Finite Element Analysis (FEA) to characterize mechanical and fatigue behavior.",
-          "result": "Horizontally built specimens exhibited longer fatigue lives and higher stiffness along the loading axis, confirming orientation-dependent anisotropy.",
-          "validation": "Experimental mechanical testing including ultrasonic fatigue and DIC, combined with FEA, provided validation of the stress and deformation behavior."
+          "motivation": "To investigate the effect of build orientation on the ultrasonic fatigue performance of additively manufactured Ti-6Al-4V and Inconel 718.",
+          "method": "Ultrasonic fatigue testing at 20 kHz was performed, supported by Digital Image Correlation (DIC) and Finite Element Analysis (FEA) for calibration and stress analysis.",
+          "result": "Horizontally built specimens exhibited longer fatigue lives and higher stiffness compared to vertically built ones.",
+          "validation": "Experimental mechanical testing and DIC measurements provided validation for the observed anisotropic behavior."
         },
         "key_terms": [
           {
@@ -108,19 +110,15 @@
           },
           {
             "en": "build orientation",
-            "zh": "构建取向"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
-          },
-          {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
+            "zh": "构建方向"
           },
           {
             "en": "anisotropy",
             "zh": "各向异性"
+          },
+          {
+            "en": "high-cycle fatigue",
+            "zh": "高周疲劳"
           },
           {
             "en": "digital image correlation",
@@ -131,22 +129,18 @@
             "zh": "有限元分析"
           },
           {
-            "en": "high-cycle fatigue",
-            "zh": "高周疲劳"
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
           },
           {
-            "en": "Young's modulus",
-            "zh": "杨氏模量"
-          },
-          {
-            "en": "Poisson's ratio",
-            "zh": "泊松比"
+            "en": "Inconel 718",
+            "zh": "因科乃尔718合金"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
     }
   ],
   "counts": {

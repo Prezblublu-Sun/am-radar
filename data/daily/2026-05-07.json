@@ -68,8 +68,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文是关于Ti-6Al-4V微型螺钉的表面精加工方法，不涉及增材制造或力学疲劳性能。",
-        "why_not_core": "This paper focuses on a surface finishing process for Ti-6Al-4V screws, with no mechanical testing, fatigue characterization, or additive manufacturing context.",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V螺钉的表面精加工，但未涉及增材制造，与方向1中增材制造Ti-6Al-4V力学和疲劳性能的研究焦点无关。",
+        "why_not_core": "No additive manufacturing involved; the paper focuses on surface finishing of conventionally manufactured screws, not on AM Ti-6Al-4V mechanical/fatigue behavior.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -78,47 +78,37 @@
           "is_review": false
         },
         "tags": [
-          "surface finishing",
-          "magnetorheological",
-          "ultrasonic-assisted",
           "Ti-6Al-4V",
-          "process optimization"
+          "surface finishing",
+          "magnetorheological finishing"
         ],
         "summary_zh": {
-          "motivation": "Ti-6Al-4V微型螺钉螺纹复杂难以高质量精加工",
-          "method": "设计滚轮式超声辅助磁流变精加工装置并优化工艺参数",
-          "result": "最优参数下表面粗糙度Ra从1.208μm降至0.081μm",
-          "validation": "通过单因素和正交实验验证工艺效果"
+          "motivation": "改善Ti-6Al-4V医疗微型螺钉的表面质量。",
+          "method": "提出滚轮式超声辅助磁流变抛光工艺，并通过实验优化参数。",
+          "result": "表面粗糙度从1.208μm降至0.081μm，降低93.29%。",
+          "validation": "通过单因素和正交实验验证工艺效果。"
         },
         "summary_en": {
-          "motivation": "The threaded geometry and poor machinability of Ti-6Al-4V miniature screws pose challenges for achieving high surface quality.",
-          "method": "A roller-type ultrasonic-assisted magnetorheological finishing device was designed and optimized using finite element analysis and orthogonal experiments.",
-          "result": "Optimal parameters reduced surface roughness Ra from 1.208 μm to 0.081 μm, a 93.29% reduction.",
-          "validation": "Single-factor and orthogonal experiments were conducted to validate the finishing performance and determine optimal parameters."
+          "motivation": "To improve surface quality of Ti-6Al-4V miniature screws for medical implants.",
+          "method": "Proposed a roller-type ultrasonic-assisted magnetorheological finishing process and optimized parameters via single-factor and orthogonal experiments.",
+          "result": "Surface roughness reduced by 93.29% from 1.208 μm to 0.081 μm.",
+          "validation": "Experimental validation using surface roughness measurements under varying process parameters."
         },
         "key_terms": [
           {
-            "en": "laser powder bed fusion",
-            "zh": "激光粉末床熔融"
-          },
-          {
-            "en": "fatigue life",
-            "zh": "疲劳寿命"
-          },
-          {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "zh": "钛合金"
+          },
+          {
+            "en": "magnetorheological finishing",
+            "zh": "磁流变抛光"
           },
           {
             "en": "surface roughness",
             "zh": "表面粗糙度"
           },
           {
-            "en": "magnetorheological finishing",
-            "zh": "磁流变精加工"
-          },
-          {
-            "en": "ultrasonic-assisted",
+            "en": "ultrasonic assistance",
             "zh": "超声辅助"
           },
           {
@@ -133,7 +123,7 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
     }
   ],
   "counts": {

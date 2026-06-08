@@ -55,11 +55,20 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
+        "ti6al4v_base_mechanical_fatigue",
         "ti6al4v_postprocess"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti6Al4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "powder bed fusion",
+          "microstructure"
+        ],
         "ti6al4v_postprocess": [
           "Ti-6Al-4V",
           "Ti6Al4V",
@@ -71,9 +80,9 @@
       "llm": {
         "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文涉及增材制造Ti-6Al-4V的切削后处理，但未评估其对疲劳或力学性能的影响，因此相关性有限。",
-        "why_not_core": "This paper does not report any mechanical performance (fatigue, tensile, or porosity closure) after machining; it focuses on chip formation and surface defects during machining, not on the effect of post-processing on material properties.",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文涉及AM Ti-6Al-4V的金刚石加工（后处理），但未研究其对疲劳或力学性能的影响，仅关注切屑形成和表面缺陷机制。",
+        "why_not_core": "No mechanical testing (fatigue/tensile) to assess effect of machining on performance; focuses on chip formation mechanisms only.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -85,26 +94,30 @@
           "diamond machining",
           "chip formation",
           "friction-induced welding",
-          "surface integrity",
+          "Ti-6Al-4V",
           "additive manufacturing",
-          "Ti-6Al-4V"
+          "post-processing"
         ],
         "summary_zh": {
-          "motivation": "研究增材制造Ti-6Al-4V在精密切削中的切屑形成和表面缺陷机制。",
-          "method": "使用金刚石刀具进行超精密切削实验，观察切屑形态和表面形貌。",
-          "result": "发现摩擦诱导焊接导致碎屑重沉积和表面突起。",
-          "validation": "通过微观表征验证焊接现象。"
+          "motivation": "研究AM Ti-6Al-4V金刚石加工中的切屑形成和摩擦焊接机制。",
+          "method": "通过实验观察揭示了固相摩擦诱导焊接现象和连续切屑形成机制。",
+          "result": "发现了加工表面的再沉积碎屑和局部突起，解释了表面缺陷成因。",
+          "validation": "实验验证了焊接现象和切屑形态。"
         },
         "summary_en": {
-          "motivation": "This study investigates chip formation mechanisms and surface defects during ultra-precision machining of additively manufactured Ti-6Al-4V.",
-          "method": "Diamond turning experiments were conducted, and chips and machined surfaces were characterized using microscopy.",
-          "result": "A previously unreported solid-state friction-induced welding phenomenon was observed, leading to debris redeposition and surface protrusions.",
-          "validation": "The welding mechanism was validated through microstructural analysis of chips and surfaces."
+          "motivation": "This study investigates the chip formation and friction-induced welding mechanisms during diamond machining of additively manufactured Ti-6Al-4V.",
+          "method": "Experimental observations revealed a previously unreported solid-state friction-induced welding phenomenon and a novel continuous chip formation mechanism.",
+          "result": "The welding leads to redeposited debris and localized protrusions on the machined surface, providing a new explanation for surface artifacts.",
+          "validation": "The findings are validated through experimental machining tests and microscopic analysis of chips and surfaces."
         },
         "key_terms": [
           {
             "en": "diamond machining",
             "zh": "金刚石加工"
+          },
+          {
+            "en": "additively manufactured Ti-6Al-4V",
+            "zh": "增材制造Ti-6Al-4V"
           },
           {
             "en": "chip formation",
@@ -119,40 +132,447 @@
             "zh": "表面完整性"
           },
           {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
+            "en": "post-processing",
+            "zh": "后处理"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "en": "continuous chip",
+            "zh": "连续切屑"
           },
           {
-            "en": "ultra-precision machining",
-            "zh": "超精密加工"
+            "en": "solid-state bonding",
+            "zh": "固相连接"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7119141928",
+      "doi": "10.37972/chgpu.2025.64.2.007",
+      "title": "Описание зависимости усталостной долговечности от частоты нагружения и выдержек в рамках эволюционной модели повреждаемости",
+      "abstract": "Разрабатывается эволюционная модель накопления усталостной повреждённости, являющаяся функционалом изменения напряжения во времени в локальном объёме, не связанном с пластическими деформациями. Представлено обобщение модели для учёта реономных эффектов зависимости циклической долговечности от частоты нагружения и выдержек при максимальном напряжении в цикле. Определены материальные константы для двухфазного титанового сплава ВТ6 (аналог Ti-6Al-4V), проявляющего холодную ползучесть и чувствительность усталостных свойств к временным характеристикам циклического нагружения при комнатной температуре. Использованы новые данные усталостных испытаний с различными частотами и выдержками в циклах. Показано, что модель корректно описывает эти данные и позволяет прогнозировать усталостную долговечность в более широком диапазоне условий. Выполнён расчёт долговечности детали газотурбинного двигателя на полётных циклах с выдержками при максимальных и промежуточных значениях напряжения, показавший существенную неконсервативность расчёта методом схематизации программы нагружения в рамках гипотезы линейного суммирования повреждённости. An evolutionary model for the accumulation of fatigue damage is developed as a functional of the time history of stress in a local volume not associated with plastic deformation. The model is generalized to account for rheonomic effects: the dependence of cyclic lifetime on loading frequency and dwell times at the maximum stress within a cycle. Material constants are identified for the two-phase titanium alloy VT6 (Ti-6Al-4V analogue), which exhibits cold creep and sensitivity of fatigue properties to temporal features of cyclic loading at room temperature. New fatigue test data with various frequencies and dwell times are used. The model accurately describes these data and predicts fatigue life over a wider range of loading conditions. A fatigue life assessment is performed for a gas turbine engine component under flight cycles with dwells at maximum and intermediate stress levels, revealing significant nonconservatism of life estimates obtained via program block simplification under the linear damage summation hypothesis.",
+      "authors": [
+        "Д.С. Петухов",
+        "И.Э. Келлер"
+      ],
+      "first_author_affiliation": "Институт механики сплошных сред УрО РАН",
+      "corresponding_authors": [
+        {
+          "name": "Д.С. Петухов",
+          "affiliation": "Институт механики сплошных сред УрО РАН"
+        }
+      ],
+      "venue": "Вестник Чувашского государственного педагогического университета им И Я Яковлева Серия Механика предельного состояния",
+      "year": 2025,
+      "date": "2025-12-19",
+      "date_precision": "day",
+      "url": "https://doi.org/10.37972/chgpu.2025.64.2.007",
+      "cited_by_count": 0,
+      "concepts": [
+        "Dwell time",
+        "Creep",
+        "Materials science",
+        "Stress (linguistics)",
+        "Structural engineering",
+        "Fatigue limit",
+        "Titanium alloy",
+        "Gas turbines",
+        "Fatigue testing",
+        "Range (aeronautics)",
+        "Sensitivity (control systems)",
+        "Vibration fatigue",
+        "Test data",
+        "Volume (thermodynamics)",
+        "Mechanics",
+        "Constant (computer programming)",
+        "Time constant"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue",
+          "fatigue life"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文关注的是传统制造Ti-6Al-4V的疲劳损伤模型，未涉及增材制造工艺。",
+        "why_not_core": "Not about additively manufactured Ti-6Al-4V; it is a general fatigue damage model for conventionally produced Ti-6Al-4V without any AM context.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "fatigue damage model",
+          "Ti-6Al-4V",
+          "VT6",
+          "loading frequency",
+          "dwell time"
+        ],
+        "summary_zh": {
+          "motivation": "建立考虑频率和保载时间的疲劳寿命预测模型",
+          "method": "基于应力时间历程的损伤演化泛函模型",
+          "result": "模型准确描述不同频率和保载下的疲劳数据，并用于燃气轮机叶片寿命预测",
+          "validation": "利用VT6钛合金的新疲劳试验数据验证"
+        },
+        "summary_en": {
+          "motivation": "Develop a fatigue damage model that accounts for loading frequency and dwell times to improve life prediction.",
+          "method": "An evolutionary damage functional based on stress history in a local volume, generalized for rheonomic effects.",
+          "result": "The model accurately describes experimental fatigue data for VT6 (Ti-6Al-4V) under various frequencies and dwells, and reveals nonconservatism of linear damage summation.",
+          "validation": "Validated against new fatigue tests on VT6 alloy and applied to a gas turbine engine component."
+        },
+        "key_terms": [
+          {
+            "en": "fatigue damage model",
+            "zh": "疲劳损伤模型"
+          },
+          {
+            "en": "evolutionary model",
+            "zh": "演化模型"
+          },
+          {
+            "en": "loading frequency",
+            "zh": "加载频率"
+          },
+          {
+            "en": "dwell time",
+            "zh": "保载时间"
+          },
+          {
+            "en": "Ti-6Al-4V (VT6)",
+            "zh": "Ti-6Al-4V (VT6)"
+          },
+          {
+            "en": "cold creep",
+            "zh": "冷蠕变"
+          },
+          {
+            "en": "gas turbine engine component",
+            "zh": "燃气轮机发动机部件"
+          },
+          {
+            "en": "linear damage summation",
+            "zh": "线性损伤累积"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7118490041",
+      "doi": "10.4271/05-19-03-0022",
+      "title": "Mixed Aggregation by Comprehensive Normalization Technique–Based Parametric Optimization of Turning of Ti-6Al-4V Alloy in Minimum Quantity Lubrication Environment",
+      "abstract": "&lt;div&gt;Although Ti-6Al-4V alloy offers high strength-to-weight ratio, corrosion resistance, and biocompatibility properties, its machining is challenging due to low thermal conductivity, high hardness, and chemical reactivity. This study examines turning of Ti-6Al-4V under minimum quantity lubrication (soybean oil). Cutting speed (CS), feed rate (FR), and depth of cut (DOC) are considered as the input parameters. On the other hand, material removal rate (MRR), tool wear rate (TWR), surface roughness (SR), and cutting force (Fc) are treated as the responses. Optimization of the said process is carried out using the mixed aggregation by comprehensive normalization technique (MACONT), a recently developed multi-criteria decision-making (MCDM) method. The optimal parameters are identified as CS = 72.26 m/min, FR = 0.022 mm/rev, and DOC = 0.2 mm, achieving high MRR with low TWR, SR, and Fc. The effects of different turning parameters on the responses are also investigated. Sensitivity analysis confirms robustness, and comparative evaluation with other MCDM tools validates accuracy of the adopted approach. The results demonstrate MACONT’s effectiveness in optimizing turning of hard-to-machine alloys, supporting greener and sustainable machining practices.&lt;/div&gt;",
+      "authors": [
+        "Partha Protim Das",
+        "Saurabh Sharma",
+        "Shankar Chakraborty"
+      ],
+      "first_author_affiliation": "Sikkim Manipal University, Department of Mechanical Engineering, Sikkim\n                    Manipal Institute of Technology, India",
+      "corresponding_authors": [
+        {
+          "name": "Partha Protim Das",
+          "affiliation": "Sikkim Manipal University, Department of Mechanical Engineering, Sikkim\n                    Manipal Institute of Technology, India"
+        }
+      ],
+      "venue": "SAE International Journal of Materials and Manufacturing",
+      "year": 2025,
+      "date": "2025-12-19",
+      "date_precision": "day",
+      "url": "https://doi.org/10.4271/05-19-03-0022",
+      "cited_by_count": 0,
+      "concepts": [
+        "Lubrication",
+        "Machining",
+        "Normalization (sociology)",
+        "Surface roughness",
+        "Mechanical engineering",
+        "Materials science",
+        "Surface finish",
+        "Parametric statistics",
+        "Corrosion",
+        "Alloy",
+        "Response surface methodology",
+        "Tool wear",
+        "Minification",
+        "Thermal",
+        "Metallurgy",
+        "Process engineering",
+        "Design of experiments",
+        "Multi-objective optimization",
+        "Sensitivity (control systems)",
+        "Machine tool",
+        "Process optimization",
+        "Process (computing)",
+        "Process variable"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究钛合金车削参数优化，而非增材制造后处理对力学性能的影响。",
+        "why_not_core": "The paper does not address post-processing of additively manufactured Ti-6Al-4V; it focuses on conventional turning parameter optimization for material removal rate and surface finish, without any link to AM or mechanical properties like fatigue.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "turning",
+          "minimum quantity lubrication",
+          "MACONT",
+          "parameter optimization"
+        ],
+        "summary_zh": {
+          "motivation": "优化Ti-6Al-4V车削参数以提高加工效率和质量。",
+          "method": "采用MACONT多准则决策方法优化车削参数。",
+          "result": "最优参数为CS=72.26 m/min, FR=0.022 mm/rev, DOC=0.2 mm。",
+          "validation": "通过敏感性分析和与其他MCDM方法比较验证。"
+        },
+        "summary_en": {
+          "motivation": "To optimize turning parameters for Ti-6Al-4V alloy under minimum quantity lubrication to improve machining performance.",
+          "method": "The mixed aggregation by comprehensive normalization technique (MACONT) multi-criteria decision-making method was applied to optimize cutting speed, feed rate, and depth of cut.",
+          "result": "Optimal parameters (CS=72.26 m/min, FR=0.022 mm/rev, DOC=0.2 mm) achieved high material removal rate with low tool wear, surface roughness, and cutting force.",
+          "validation": "Sensitivity analysis and comparative evaluation with other MCDM tools confirmed the robustness and accuracy of the approach."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "turning",
+            "zh": "车削"
+          },
+          {
+            "en": "minimum quantity lubrication",
+            "zh": "微量润滑"
+          },
+          {
+            "en": "MACONT",
+            "zh": "混合聚合综合归一化技术"
+          },
+          {
+            "en": "multi-criteria decision-making",
+            "zh": "多准则决策"
+          },
+          {
+            "en": "material removal rate",
+            "zh": "材料去除率"
+          },
+          {
+            "en": "tool wear rate",
+            "zh": "刀具磨损率"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "cutting force",
+            "zh": "切削力"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4417483001",
+      "doi": "10.5194/ms-16-977-2025",
+      "title": "Investigation into micromilling processes for micro thin walls made of Ti-6Al-4V material by customized polycrystalline diamond end mill",
+      "abstract": "Abstract. Titanium alloy, as a material with high specific strength, is prone to severe tool wear during machining, leading to deterioration in the surface quality of the workpiece and presenting significant machining challenges. Therefore, to improve the machining quality of titanium alloy thin walls, the PCD (polycrystalline diamond) micro-end mill with straight peripheral and end cutting edges has been designed and fabricated for this specific task, and the key process factors relating to micromilling of Ti-6Al-4V thin walls have been studied in this paper. A method of identification of specific cutting force is proposed for a customized PCD micro-end mill using a mechanistic force model. Micromilling experiments have been carried out considering different cutting-edge rake angles and cutting fluids to identify the specific cutting force through a linear regression method. The surface roughness, tool wear, and thin-wall dimensional error have been also evaluated. Experimental results show that the specific cutting force has an approximately linear correlation with the cutting-edge rake angles. But the surface roughness, tool wear, and dimensional error have obvious nonlinear relations with the rake angles. Oil mist is the better processing fluid compared with dry cutting and jet cold air, which produces not only the smallest specific cutting force but also the smallest surface roughness value and dimensional error. When machining titanium alloy thin walls with a −45° cutting-edge rake angle tool, the oil mist lubrication process reduces the relative dimensional error from 7.1 % (observed under a dry-cutting process) to 4.5 %. This study provides theoretical and technical guidance for the machining of titanium alloy and other difficult-to-machine material components in the aerospace industry.",
+      "authors": [
+        "Yang Li",
+        "Xiang Cheng"
+      ],
+      "first_author_affiliation": "School of Medical Imaging, Qilu Medical University, Zibo, 255000, China",
+      "corresponding_authors": [
+        {
+          "name": "Yang Li",
+          "affiliation": "School of Medical Imaging, Qilu Medical University, Zibo, 255000, China"
+        }
+      ],
+      "venue": "Mechanical sciences",
+      "year": 2025,
+      "date": "2025-12-19",
+      "date_precision": "day",
+      "url": "https://doi.org/10.5194/ms-16-977-2025",
+      "cited_by_count": 0,
+      "concepts": [
+        "Rake angle",
+        "Machining",
+        "Rake",
+        "End mill",
+        "Materials science",
+        "Surface roughness",
+        "Titanium alloy",
+        "Tool wear",
+        "Surface finish",
+        "Lubrication",
+        "Enhanced Data Rates for GSM Evolution",
+        "Mechanical engineering",
+        "Metallurgy",
+        "Cutting tool",
+        "Composite material",
+        "Engineering drawing"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Skim only",
+        "relevance_to_user": "论文研究了Ti-6Al-4V微铣削工艺对表面质量的影响，但未涉及后处理对疲劳或力学性能的评估，与本方向关联度低。",
+        "why_not_core": "This paper focuses on micromilling process optimization for Ti-6Al-4V thin walls, but does not evaluate the effect of post-processing on mechanical properties (fatigue, tensile, microstructure) as required by the direction.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "micromilling",
+          "Ti-6Al-4V",
+          "thin walls",
+          "surface roughness",
+          "tool wear",
+          "PCD end mill"
+        ],
+        "summary_zh": {
+          "motivation": "提高钛合金微薄壁的加工质量",
+          "method": "设计定制PCD微端铣刀，实验研究不同前角和切削液的影响",
+          "result": "油雾润滑获得最小表面粗糙度和尺寸误差",
+          "validation": "通过实验对比干切削、冷气喷射和油雾润滑效果"
+        },
+        "summary_en": {
+          "motivation": "To improve the machining quality of titanium alloy thin walls by optimizing micromilling parameters.",
+          "method": "A customized polycrystalline diamond micro-end mill was designed, and micromilling experiments were conducted with varying cutting-edge rake angles and cutting fluids.",
+          "result": "Oil mist lubrication yielded the smallest specific cutting force, surface roughness, and dimensional error.",
+          "validation": "Experimental comparisons among dry cutting, jet cold air, and oil mist lubrication were performed to validate the findings."
+        },
+        "key_terms": [
+          {
+            "en": "micromilling",
+            "zh": "微铣削"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "polycrystalline diamond",
+            "zh": "聚晶金刚石"
+          },
+          {
+            "en": "specific cutting force",
+            "zh": "单位切削力"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "tool wear",
+            "zh": "刀具磨损"
+          },
+          {
+            "en": "dimensional error",
+            "zh": "尺寸误差"
+          },
+          {
+            "en": "oil mist lubrication",
+            "zh": "油雾润滑"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 4,
     "by_source": {
-      "openalex": 1
+      "openalex": 4
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 3,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 4
     },
-    "scored": 1,
+    "scored": 4,
     "priority_counts": {
-      "Low": 1
+      "Low": 2,
+      "Exclude": 2
     }
   }
 }

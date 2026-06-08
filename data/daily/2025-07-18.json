@@ -5,6 +5,111 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W4413095570",
+      "doi": "10.1016/j.wear.2025.206249",
+      "title": "Sliding wear behavior of additively manufactured Ti-6Al-4V: The effect of thermal treatment",
+      "abstract": "",
+      "authors": [
+        "Jino Joshy",
+        "Basil Kuriachen",
+        "Nabeel Ahmad",
+        "Nima Shamsaei",
+        "Shuai Shao"
+      ],
+      "first_author_affiliation": "Laboratory for Additive Manufacturing Processes (LAMPs), Department of Mechanical Engineering, National Institute of Technology Calicut, Calicut, 673601, India",
+      "corresponding_authors": [
+        {
+          "name": "Basil Kuriachen",
+          "affiliation": "Department of Mechanical Engineering, Auburn University, Auburn, AL, 36849, United States"
+        }
+      ],
+      "venue": "Wear",
+      "year": 2025,
+      "date": "2025-07-18",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.wear.2025.206249",
+      "cited_by_count": 3,
+      "concepts": [
+        "Materials science",
+        "Thermal",
+        "Composite material",
+        "Metallurgy",
+        "Forensic engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要研究热处理对增材制造Ti-6Al-4V滑动磨损行为的影响，而非本方向重点关注的力学与疲劳性能。",
+        "why_not_core": "Focuses on sliding wear and thermal treatment effects, not on tensile, fatigue, or other core mechanical properties of as-built Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "sliding wear",
+          "thermal treatment"
+        ],
+        "summary_zh": {
+          "motivation": "探究热处理对增材制造Ti-6Al-4V滑动磨损性能的影响。",
+          "method": "对LPBF制备的Ti-6Al-4V样品进行不同类型热处理，并进行滑动磨损测试。",
+          "result": "热处理显著改变显微组织，提高耐磨性。",
+          "validation": "通过磨损测试和微观表征验证效果。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of thermal treatments on the sliding wear behavior of additively manufactured Ti-6Al-4V.",
+          "method": "Ti-6Al-4V samples fabricated by LPBF were subjected to various thermal treatments and then tested under sliding wear conditions.",
+          "result": "Thermal treatments significantly altered the microstructure, leading to improved wear resistance.",
+          "validation": "Wear testing and microstructural characterization validated the findings."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "sliding wear",
+            "zh": "滑动磨损"
+          },
+          {
+            "en": "thermal treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W4413059638",
       "doi": "10.3390/met15070806",
       "title": "Effect of Heat Treatment on Microstructure and Mechanical Properties of (TiB + TiC) /Ti-6Al-4V Composites Fabricated by Directed Energy Deposition",
@@ -55,6 +160,10 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additively manufactured",
+          "directed energy deposition",
+          "DED",
+          "microstructure",
           "tensile strength",
           "ductility"
         ],
@@ -67,10 +176,10 @@
       },
       "llm": {
         "priority": "Medium",
-        "relevance_level": "Direct",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文研究了退火处理对DED制备的(TiB+TiC)/Ti-6Al-4V复合材料微观组织和力学性能的影响，与后处理控制方向相关。",
-        "why_not_core": "The paper investigates (TiB+TiC)/Ti-6Al-4V composites, not pure Ti-6Al-4V, and does not include fatigue testing.",
+        "relevance_level": "Peripheral",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文研究了退火热处理对DED制备的(TiB+TiC)/Ti-6Al-4V复合材料显微组织和拉伸性能的影响，但并非纯Ti-6Al-4V，且未涉及疲劳性能。",
+        "why_not_core": "This paper studies Ti-6Al-4V matrix composites reinforced with TiB and TiC, not pure Ti-6Al-4V, and does not report fatigue testing, which is a key metric for post-processing control of mechanical performance.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -79,23 +188,23 @@
           "is_review": false
         },
         "tags": [
-          "Directed energy deposition",
-          "Ti-6Al-4V composite",
+          "DED",
           "annealing",
-          "tensile properties",
+          "titanium matrix composites",
+          "tensile strength",
           "microstructure"
         ],
         "summary_zh": {
-          "motivation": "克服增材制造钛合金粗大柱状晶问题，优化复合材料的力学性能。",
-          "method": "对DED制备的(TiB+TiC)/Ti-6Al-4V复合材料进行系统退火处理，调控微观组织。",
-          "result": "退火使片状α相转变为等轴状，TiC在1000°C以上粗化但TiB稳定，抗拉强度达1109 MPa。",
-          "validation": "通过拉伸测试和硬度测量验证力学性能变化。"
+          "motivation": "改善DED钛基复合材料粗大柱状晶与性能。",
+          "method": "对(TiB+TiC)/Ti-6Al-4V进行不同温度与时间的退火处理。",
+          "result": "退火使α相从片状转为等轴，硬度下降但拉伸强度提升至1109 MPa。",
+          "validation": "通过扫描电镜与拉伸试验验证显微组织与力学性能变化。"
         },
         "summary_en": {
-          "motivation": "To overcome the coarse columnar grains in additively manufactured titanium alloys and tailor the mechanical properties of titanium matrix composites.",
-          "method": "Systematic annealing heat treatments were applied to in-situ (TiB+TiC)/Ti-6Al-4V composites fabricated by directed energy deposition.",
-          "result": "Annealing transformed plate-like α into equiaxed morphology, with TiC coarsening above 1000°C while TiB remained stable, yielding a tensile strength of 1109 MPa.",
-          "validation": "Mechanical validation was performed via tensile testing and hardness measurements."
+          "motivation": "To overcome coarse columnar grains in additively manufactured titanium alloys by applying post-deposition annealing to titanium matrix composites.",
+          "method": "Systematic annealing treatments at various temperatures and holding times were applied to in situ (TiB + TiC)/Ti-6Al-4V composites fabricated by DED.",
+          "result": "Annealing transformed plate-like α phase into equiaxed morphology, reduced hardness, but enhanced tensile strength to 1109 MPa in the XOY direction.",
+          "validation": "Microstructural evolution and tensile properties were validated through SEM characterization and mechanical testing."
         },
         "key_terms": [
           {
@@ -103,46 +212,38 @@
             "zh": "定向能量沉积"
           },
           {
-            "en": "Ti-6Al-4V composite",
-            "zh": "Ti-6Al-4V复合材料"
+            "en": "annealing",
+            "zh": "退火"
           },
           {
-            "en": "annealing heat treatment",
-            "zh": "退火热处理"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
           },
           {
-            "en": "microstructure evolution",
-            "zh": "微观组织演变"
+            "en": "titanium matrix composite",
+            "zh": "钛基复合材料"
           },
           {
             "en": "tensile strength",
             "zh": "抗拉强度"
           },
           {
-            "en": "ductility",
-            "zh": "延展性"
+            "en": "microstructure",
+            "zh": "显微组织"
           },
           {
-            "en": "TiB whisker",
-            "zh": "TiB晶须"
+            "en": "TiB",
+            "zh": "TiB"
           },
           {
-            "en": "TiC particle",
-            "zh": "TiC颗粒"
-          },
-          {
-            "en": "stress relaxation",
-            "zh": "应力松弛"
-          },
-          {
-            "en": "acicular martensite",
-            "zh": "针状马氏体"
+            "en": "TiC",
+            "zh": "TiC"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
     },
     {
       "source": "openalex",
@@ -195,11 +296,11 @@
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文涉及Ti-6Al-4V的铣削加工，但未研究后处理对疲劳/力学性能的影响",
-        "why_not_core": "Does not evaluate mechanical performance (fatigue, tensile) after machining; purely chip formation and morphology study.",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是Ti-6Al-4V铣削过程中的切屑流动，而非任何后处理工艺（如热处理、HIP、喷丸等），因此与L2方向完全无关。",
+        "why_not_core": "The paper focuses on chip morphology and flow modeling during ball-end milling, which is a subtractive machining process, not a post-processing treatment such as heat treatment, HIP, shot peening, or surface coating. No post-processing effect on mechanical/fatigue performance is studied.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -208,23 +309,23 @@
           "is_review": false
         },
         "tags": [
-          "ball-end milling",
           "Ti-6Al-4V",
-          "chip morphology",
+          "ball-end milling",
+          "chip flow",
           "machining",
-          "post-processing"
+          "cutting parameters"
         ],
         "summary_zh": {
-          "motivation": "研究球头铣刀加工中刀具姿态对切屑形成的影响",
-          "method": "基于CWE模型建立切屑流动模型，并通过Ti-6Al-4V斜面铣削实验验证",
-          "result": "发现切屑流动方向与切削速度方向相互影响，接触区域角度影响切屑卷曲程度",
-          "validation": "通过Ti-6Al-4V倾斜平面铣削实验验证模型"
+          "motivation": "研究球头铣刀在不同刀具姿态下切屑流动与形态变化。",
+          "method": "基于CWE模型建立考虑刀具姿态变化的切屑流动模型，并进行Ti-6Al-4V铣削实验。",
+          "result": "揭示了切屑流动方向与切削速度方向之间的相互作用，以及切屑卷曲程度的影响因素。",
+          "validation": "通过Ti-6Al-4V斜面铣削实验验证模型。"
         },
         "summary_en": {
-          "motivation": "The study aims to understand chip formation and morphological changes during ball-end milling under varying tool posture.",
-          "method": "A chip flow model based on the Cutter Workpiece Engagement (CWE) model was developed and validated via machining experiments on Ti-6Al-4V with inclined surfaces and different feed directions.",
-          "result": "The interaction between chip flow direction and cutting velocity direction was revealed, and the included angle at contact points influences chip curling.",
-          "validation": "Experimental verification was performed through ball-end milling of Ti-6Al-4V inclined planes."
+          "motivation": "This study aims to understand chip formation and morphological changes in ball-end milling under varying tool posture.",
+          "method": "A chip flow model incorporating tool posture variation was developed based on the Cutter Workpiece Engagement model, and milling experiments on Ti-6Al-4V with an inclined plane were conducted.",
+          "result": "Interaction between chip flow direction and cutting velocity direction was found, with the included angle in CWE area influencing chip curling degree.",
+          "validation": "Experimental validation was performed via machining Ti-6Al-4V samples with different feed directions."
         },
         "key_terms": [
           {
@@ -236,49 +337,47 @@
             "zh": "切屑流动方向"
           },
           {
-            "en": "chip curling",
-            "zh": "切屑卷曲"
-          },
-          {
-            "en": "Cutter Workpiece Engagement (CWE)",
-            "zh": "刀具工件啮合"
+            "en": "Cutter Workpiece Engagement",
+            "zh": "刀具工件接触区域"
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "zh": "钛合金Ti-6Al-4V"
           },
           {
-            "en": "machining",
-            "zh": "机械加工"
+            "en": "chip morphology",
+            "zh": "切屑形态"
           },
           {
-            "en": "post-processing",
-            "zh": "后处理"
+            "en": "tool posture",
+            "zh": "刀具姿态"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1,
       "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
+      "Low": 1,
       "Medium": 1,
-      "Low": 1
+      "Exclude": 1
     }
   }
 }

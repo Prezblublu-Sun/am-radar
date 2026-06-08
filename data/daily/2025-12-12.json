@@ -63,6 +63,9 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
           "TC4",
+          "directed energy deposition",
+          "DED",
+          "microstructure",
           "defect"
         ]
       },
@@ -70,8 +73,8 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文涉及Ti6Al4V但主要关注与Inconel625的异质结构，缺乏对Ti-6Al-4V自身力学和疲劳性能的研究。",
-        "why_not_core": "No fatigue testing or characterization; focuses on heterostructure with Inconel625 rather than pure Ti-6Al-4V mechanical/fatigue properties.",
+        "relevance_to_user": "该论文主要研究Inconel625与Ti6Al4V异种材料的梯度过渡连接，而非Ti6Al4V本身的力学或疲劳性能。",
+        "why_not_core": "Paper focuses on bonding of dissimilar alloys (IN625 to TC4) via gradient interlayers, not on mechanical/fatigue characterization of Ti-6Al-4V itself.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -81,23 +84,25 @@
         },
         "tags": [
           "laser directed energy deposition",
-          "heterostructure",
           "Inconel625",
           "Ti6Al4V",
-          "nonlinear gradient",
+          "heterostructure",
+          "gradient transition",
+          "metallurgical bonding",
+          "crack sensitivity",
           "mechanical properties"
         ],
         "summary_zh": {
-          "motivation": "实现IN625与TC4异质结构的可靠冶金结合，用于航空航天。",
-          "method": "采用激光定向能量沉积与非线性梯度过渡层。",
-          "result": "成功制备无冶金缺陷的IN625/TC4异质结构，组织过渡平滑，力学性能良好。",
-          "validation": "通过微观组织和室温力学测试验证。"
+          "motivation": "实现Inconel625与Ti6Al4V异种合金的无缺陷冶金结合",
+          "method": "采用激光定向能量沉积技术制备非线性梯度过渡层",
+          "result": "成功制备出微观组织平滑过渡、裂纹敏感性降低的可靠结合异质结构",
+          "validation": "通过室温力学性能测试和显微组织表征验证"
         },
         "summary_en": {
-          "motivation": "To achieve reliable metallurgical bonding between Inconel625 and Ti6Al4V heterostructure materials for aerospace applications.",
-          "method": "Laser directed energy deposition with a nonlinear gradient transition interlayer design was used to fabricate the heterostructure.",
-          "result": "Defect-free IN625/TC4 heterostructure was obtained with smooth microstructural transition, reduced cracking sensitivity, and good mechanical properties.",
-          "validation": "Microstructural characterization and room-temperature mechanical testing (including tensile and hardness) were performed."
+          "motivation": "To achieve defect-free metallurgical bonding between Inconel625 and Ti6Al4V for graded thermo-mechanical properties in aerospace applications.",
+          "method": "Laser directed energy deposition (L-DED) was used to fabricate IN625/TC4 heterostructures with a nonlinear compositional gradient via mixed powder layers.",
+          "result": "A defect-free heterostructure with smooth microstructure transition, reduced cracking sensitivity, and reliable metallurgical bonding was obtained.",
+          "validation": "Room-temperature mechanical testing and microstructural characterization confirmed the integrity and performance of the heterostructure."
         },
         "key_terms": [
           {
@@ -105,20 +110,20 @@
             "zh": "激光定向能量沉积"
           },
           {
+            "en": "Inconel625",
+            "zh": "英科耐尔625"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
             "en": "heterostructure",
             "zh": "异质结构"
           },
           {
-            "en": "Inconel 625",
-            "zh": "IN625"
-          },
-          {
-            "en": "Ti6Al4V",
-            "zh": "TC4"
-          },
-          {
-            "en": "nonlinear gradient transition",
-            "zh": "非线性梯度过渡"
+            "en": "gradient transition",
+            "zh": "梯度过渡"
           },
           {
             "en": "metallurgical bonding",
@@ -136,25 +141,162 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7114916989",
+      "doi": "10.1016/j.triboint.2025.111574",
+      "title": "Effect of graphene on microstructure and tribological properties of FLG/SiC/TC4 composites prepared by vacuum arc melting",
+      "abstract": "",
+      "authors": [
+        "Rongyang Zhao",
+        "Baoxian Su",
+        "Yinling Jin",
+        "Zhenjie Cui",
+        "Binbin Wang",
+        "Xiangyu Sun",
+        "Bao Ding",
+        "Chao Xu",
+        "Eshov Bakhtiyor",
+        "Chen Liu",
+        "Liang Wang",
+        "Yanqing Su"
+      ],
+      "first_author_affiliation": "National Key Laboratory for Precision Hot Processing of Metals, School of Materials Science and Engineering, Harbin Institute of Technology, Harbin 150001, China",
+      "corresponding_authors": [
+        {
+          "name": "Baoxian Su",
+          "affiliation": "National Key Laboratory for Precision Hot Processing of Metals, School of Materials Science and Engineering, Harbin Institute of Technology, Harbin 150001, China"
+        },
+        {
+          "name": "Zhenjie Cui",
+          "affiliation": "Shandong Laboratory of Aluminum Advanced Manufacturing in Binzhou, Binzhou Institute of Technology, Weiqiao-UCAS Science and Technology Park, Binzhou 256606, China"
+        },
+        {
+          "name": "Yanqing Su",
+          "affiliation": "National Key Laboratory for Precision Hot Processing of Metals, School of Materials Science and Engineering, Harbin Institute of Technology, Harbin 150001, China"
+        }
+      ],
+      "venue": "Tribology International",
+      "year": 2025,
+      "date": "2025-12-12",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.triboint.2025.111574",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Tribology",
+        "Ultimate tensile strength",
+        "Composite material",
+        "Graphene",
+        "Composite number",
+        "Vacuum arc",
+        "Microstructure",
+        "Deformation (meteorology)",
+        "Layer (electronics)",
+        "Wear resistance",
+        "Dry lubricant",
+        "Corrosion"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究真空电弧熔炼制备的复合材料，并非增材制造，与用户关注方向无关。",
+        "why_not_core": "The paper does not use additive manufacturing (LPBF/SLM/EBM/DED) but vacuum arc melting, and focuses on tribological properties rather than mechanical or fatigue characterization required for this direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "graphene",
+          "FLG/SiC/TC4 composites",
+          "vacuum arc melting",
+          "tribology",
+          "Ti-6Al-4V"
+        ],
+        "summary_zh": {
+          "motivation": "研究石墨烯对FLG/SiC/TC4复合材料微观结构和摩擦性能的影响。",
+          "method": "采用真空电弧熔炼制备复合材料，并进行微观结构和摩擦学性能测试。",
+          "result": "石墨烯的添加改善了复合材料的摩擦学性能。",
+          "validation": "通过摩擦磨损试验验证性能。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of graphene on the microstructure and tribological properties of FLG/SiC/TC4 composites.",
+          "method": "Composites were fabricated by vacuum arc melting and characterized for microstructure and tribological performance.",
+          "result": "Addition of graphene improved the tribological properties of the composites.",
+          "validation": "Tribological tests were conducted to validate the performance."
+        },
+        "key_terms": [
+          {
+            "en": "graphene",
+            "zh": "石墨烯"
+          },
+          {
+            "en": "FLG",
+            "zh": "少层石墨烯"
+          },
+          {
+            "en": "SiC",
+            "zh": "碳化硅"
+          },
+          {
+            "en": "TC4",
+            "zh": "TC4钛合金"
+          },
+          {
+            "en": "vacuum arc melting",
+            "zh": "真空电弧熔炼"
+          },
+          {
+            "en": "tribological properties",
+            "zh": "摩擦学性能"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Low": 1
+      "Low": 1,
+      "Exclude": 1
     }
   }
 }

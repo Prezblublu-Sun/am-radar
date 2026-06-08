@@ -65,11 +65,11 @@
         ]
       },
       "llm": {
-        "priority": "Medium",
-        "relevance_level": "Direct",
-        "read_action": "Save for project",
-        "relevance_to_user": "这篇论文研究了热处理对Ti-6Al-4V合金拉伸性能和断裂行为的影响，属于后处理控制方向，但未涉及疲劳性能。",
-        "why_not_core": "The paper does not include fatigue testing or detailed analysis of post-processing effects on fatigue life.",
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文未涉及增材制造Ti-6Al-4V的后处理，而是研究传统铸造/锻造合金的热处理对拉伸性能的影响，与本方向无关。",
+        "why_not_core": "The paper does not specify additively manufactured Ti-6Al-4V; it investigates heat treatment effects on conventionally processed alloy, lacking the AM-specific post-processing context required.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -78,54 +78,49 @@
           "is_review": false
         },
         "tags": [
-          "heat treatment",
           "Ti-6Al-4V",
+          "heat treatment",
           "tensile strength",
-          "fracture behavior",
-          "beta transition"
+          "fracture behavior"
         ],
         "summary_zh": {
-          "motivation": "分析热处理对Ti-6Al-4V合金性能的影响，特别是β转变区附近的热处理。",
-          "method": "对比热加载样品与未热加载样品的拉伸强度和断裂面观察。",
-          "result": "热处理显著改变了合金的拉伸强度和断裂行为。",
-          "validation": "通过拉伸测试和断口形貌分析验证。"
+          "motivation": "研究热处理对Ti-6Al-4V合金拉伸性能和断裂行为的影响",
+          "method": "对Ti-6Al-4V试样进行选定的热处理，并进行拉伸测试和断口分析",
+          "result": "热处理改变了合金的拉伸强度和断裂特征",
+          "validation": "通过拉伸实验和断口形貌观察验证"
         },
         "summary_en": {
-          "motivation": "This study investigates the effect of heat treatment on the tensile strength and fracture behavior of Ti-6Al-4V alloy, focusing on the beta transition region.",
-          "method": "Tensile tests and fracture surface analysis were conducted on thermally loaded and unloaded samples.",
-          "result": "Heat treatment significantly altered the tensile properties and fracture mechanisms of the alloy.",
-          "validation": "Validation was performed through mechanical testing and microstructural observation."
+          "motivation": "The study aims to understand how selected heat treatments affect the tensile properties and fracture behavior of Ti-6Al-4V alloy.",
+          "method": "Ti-6Al-4V specimens were subjected to specific thermal loading regimes and subsequently evaluated via tensile testing and fracture surface analysis.",
+          "result": "Heat treatment altered the tensile strength and fracture characteristics of the alloy compared to untreated samples.",
+          "validation": "Validation was performed through mechanical tensile tests and microscopic examination of fracture surfaces."
         },
         "key_terms": [
-          {
-            "en": "heat treatment",
-            "zh": "热处理"
-          },
           {
             "en": "Ti-6Al-4V",
             "zh": "Ti-6Al-4V合金"
           },
           {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
             "en": "tensile strength",
-            "zh": "抗拉强度"
+            "zh": "拉伸强度"
           },
           {
             "en": "fracture behavior",
             "zh": "断裂行为"
           },
           {
-            "en": "beta transition",
-            "zh": "β转变"
-          },
-          {
-            "en": "thermal loading",
-            "zh": "热加载"
+            "en": "recrystallization temperature",
+            "zh": "再结晶温度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:17:25Z"
+      "first_seen_at": "2026-06-08T08:27:10Z"
     }
   ],
   "counts": {
@@ -143,7 +138,7 @@
     },
     "scored": 1,
     "priority_counts": {
-      "Medium": 1
+      "Exclude": 1
     }
   }
 }

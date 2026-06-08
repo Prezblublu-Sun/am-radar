@@ -78,9 +78,9 @@
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "论文涉及Ti-6Al-4V和焊后热处理，但研究对象为线性摩擦焊接头而非增材制造材料，与L2方向中增材制造Ti-6Al-4V的后处理焦点不匹配。",
-        "why_not_core": "No additive manufacturing context; focuses on linear friction welded joints, not AM Ti-6Al-4V.",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及线性摩擦焊而非增材制造，因此与方向不直接相关。",
+        "why_not_core": "This paper studies welded joints, not additive manufactured components; therefore, it does not address post-processing of AM Ti-6Al-4V.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -96,29 +96,29 @@
           "fatigue crack propagation"
         ],
         "summary_zh": {
-          "motivation": "研究焊后热处理对线性摩擦焊Ti-6Al-4V接头残余应力和疲劳裂纹扩展的影响。",
-          "method": "采用SEM、EBSD、硬度测试、DIC拉伸、轮廓法测残余应力和疲劳试验。",
-          "result": "焊后热处理有效降低残余应力，使疲劳裂纹均匀扩展，速率接近母材。",
-          "validation": "通过机械测试和轮廓法残余应力测量验证。"
+          "motivation": "研究PWHT对线性摩擦焊Ti-6Al-4V接头残余应力和疲劳裂纹扩展的影响。",
+          "method": "采用SEM、EBSD、硬度测试、DIC拉伸和轮廓法测量残余应力。",
+          "result": "PWHT有效降低了残余应力，使疲劳裂纹均匀扩展，速率与母材相当。",
+          "validation": "通过轮廓法测量残余应力，并与疲劳试验结果对比验证。"
         },
         "summary_en": {
-          "motivation": "To investigate the effect of post-weld heat treatment on residual stress and fatigue crack propagation in linear friction welded Ti-6Al-4V joints.",
-          "method": "Microstructural characterization, hardness, DIC tensile testing, contour method for residual stress, and fatigue crack growth tests were conducted.",
-          "result": "PWHT at 650°C and 750°C effectively reduced residual stress and stabilized fatigue crack propagation, with rates comparable to base metal.",
-          "validation": "Experimental mechanical testing and contour method residual stress measurements."
+          "motivation": "To investigate how post-weld heat treatment affects residual stress and fatigue crack propagation in linear friction welded Ti-6Al-4V joints.",
+          "method": "Microstructural characterization (SEM, EBSD), mechanical testing (hardness, DIC tensile), and residual stress measurement (contour method) were conducted.",
+          "result": "Post-weld heat treatment at 650°C and 750°C significantly reduced residual stresses, leading to uniform fatigue crack growth with rates similar to base metal.",
+          "validation": "Experimental validation through residual stress contour method and fatigue crack growth rate comparison."
         },
         "key_terms": [
-          {
-            "en": "linear friction welding",
-            "zh": "线性摩擦焊"
-          },
           {
             "en": "post-weld heat treatment",
             "zh": "焊后热处理"
           },
           {
+            "en": "linear friction welding",
+            "zh": "线性摩擦焊"
+          },
+          {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "zh": "Ti-6Al-4V合金"
           },
           {
             "en": "residual stress",
@@ -140,25 +140,143 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4412845857",
+      "doi": "10.29313/ethos.v13i2.3814",
+      "title": "Hydroxyapatite/Graphene Composite Anticorrosion Coating on Ti-6Al-4V: Fabrications and Trend",
+      "abstract": "Orthopedics implants have become more crucial for bone replacement as the need for bone replacement increases. Titanium alloy Ti-6Al-4V is widely used as an orthopedic implant due to its high biocompatibility and superior mechanical properties. However, it has several serious drawbacks, such as low corrosion resistance. In order to overcome this demerit, coatings should be applied. Hydroxyapatite, a mineral similar to bone composition, is a good candidate for this purpose. By compositing hydroxyapatite with graphene, the mechanical properties and adhesion of the coating are enhanced. Various coating methods are employed to fabricate this composite coating. This work summarizes and discusses trends, fabrication techniques, and the future perspectives of hydroxyapatite/graphene as a Ti-6Al-4V implant coating.",
+      "authors": [
+        "Zufar Maulana",
+        "Falihah Balqis",
+        "Muhammad Irsyad",
+        "Alhadi Kasyfi",
+        "Ekavianty Prajatelistia",
+        "Andrieanto Nurrochman"
+      ],
+      "first_author_affiliation": "Bandung Institute of Technology",
+      "corresponding_authors": [
+        {
+          "name": "Zufar Maulana",
+          "affiliation": "Bandung Institute of Technology"
+        }
+      ],
+      "venue": "ETHOS (Jurnal Penelitian dan Pengabdian)",
+      "year": 2025,
+      "date": "2025-07-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.29313/ethos.v13i2.3814",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Graphene",
+        "Composite number",
+        "Composite material",
+        "Coating",
+        "Titanium alloy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "orthopedic implant"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文讨论Ti-6Al-4V的涂层，而非股骨柄的结构设计或力学性能。",
+        "why_not_core": "Paper does not address femoral stem structural design, lattice architecture, stress shielding, fatigue testing, or any mechanical/biomechanical analysis of stems; it is a review on anticorrosion coatings.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": true
+        },
+        "tags": [
+          "hydroxyapatite",
+          "graphene",
+          "coating",
+          "corrosion",
+          "Ti-6Al-4V",
+          "review"
+        ],
+        "summary_zh": {
+          "motivation": "提高Ti-6Al-4V植入物耐腐蚀性",
+          "method": "综述羟基磷灰石/石墨烯复合涂层制备技术趋势",
+          "result": "总结了涂层制备趋势与未来展望",
+          "validation": "无实验验证，纯综述"
+        },
+        "summary_en": {
+          "motivation": "To improve the corrosion resistance of Ti-6Al-4V orthopedic implants through coatings.",
+          "method": "This work reviews trends, fabrication techniques, and future perspectives of hydroxyapatite/graphene composite coatings on Ti-6Al-4V.",
+          "result": "A summary of current trends and future directions for hydroxyapatite/graphene coatings is provided.",
+          "validation": "No experimental validation; the paper is a literature review."
+        },
+        "key_terms": [
+          {
+            "en": "hydroxyapatite",
+            "zh": "羟基磷灰石"
+          },
+          {
+            "en": "graphene",
+            "zh": "石墨烯"
+          },
+          {
+            "en": "coating",
+            "zh": "涂层"
+          },
+          {
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "orthopedic implant",
+            "zh": "骨科植入物"
+          },
+          {
+            "en": "review",
+            "zh": "综述"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 2
     }
   }
 }

@@ -47,11 +47,11 @@
         ]
       },
       "llm": {
-        "priority": "Low",
+        "priority": "Exclude",
         "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文研究了Ti6Al4V-ELI车削后的微硬度变化，但未涉及增材制造材料，仅提供加工参数对表面完整性的基本参考。",
-        "why_not_core": "Paper does not address additively manufactured Ti-6Al-4V; it uses conventionally sourced material and only measures microhardness, lacking fatigue or tensile data.",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是常规锻造Ti6Al4V-ELI的车削加工，未涉及增材制造Ti-6Al-4V的后处理，与用户方向无关。",
+        "why_not_core": "The paper investigates turning of wrought Ti6Al4V-ELI, not additive-manufactured Ti-6Al-4V; it does not address any post-processing treatment specific to AM material.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -63,46 +63,32 @@
           "Ti6Al4V-ELI",
           "turning",
           "microhardness",
-          "PVD coatings",
-          "white layer",
-          "machining affected zone"
+          "cutting parameters"
         ],
         "summary_zh": {
-          "motivation": "研究切削参数对Ti6Al4V-ELI微硬度的影响。",
-          "method": "使用PVD AlTiN和TiAlN刀片进行干式车削，测试不同切削速度和进给率下的微硬度。",
-          "result": "最高微硬度398 HV0.05，加工影响区达200-300 μm。",
-          "validation": "通过维氏微硬度测试验证。"
+          "motivation": "研究车削参数对Ti6Al4V-ELI显微硬度的影响",
+          "method": "使用PVD AlTiN和TiAlN刀片进行干式车削，测量次表面显微硬度",
+          "result": "切削速度增加导致显微硬度增大，最高硬度398 HV0.05出现在125 m/min和0.20 mm/rev时",
+          "validation": "维氏显微硬度测试验证了加工硬化趋势"
         },
         "summary_en": {
-          "motivation": "To investigate the effect of cutting parameters on the microhardness of Ti6Al4V-ELI during dry turning.",
-          "method": "Dry turning experiments with PVD AlTiN and TiAlN inserts at varying cutting speeds and feed rates, followed by Vickers microhardness testing.",
-          "result": "Maximum microhardness of 398 HV0.05 was achieved, with the machining affected zone extending 200-300 μm below the surface.",
-          "validation": "Vickers microhardness measurements."
+          "motivation": "To investigate the effect of cutting parameters on subsurface microhardness of Ti6Al4V ELI during dry turning.",
+          "method": "Turning experiments with PVD AlTiN and TiAlN inserts at various cutting speeds and feed rates, followed by Vickers microhardness testing.",
+          "result": "Higher cutting speed increased microhardness, with maximum hardness of 398 HV0.05 at 125 m/min and 0.20 mm/rev using TiAlN inserts.",
+          "validation": "Experimental microhardness measurements confirmed work hardening and machining affected zone depths."
         },
         "key_terms": [
           {
             "en": "Ti6Al4V-ELI",
-            "zh": "钛合金Ti6Al4V-ELI"
+            "zh": "Ti6Al4V-ELI钛合金"
           },
           {
-            "en": "turning process",
-            "zh": "车削过程"
+            "en": "turning",
+            "zh": "车削"
           },
           {
             "en": "microhardness",
-            "zh": "微硬度"
-          },
-          {
-            "en": "white layer",
-            "zh": "白层"
-          },
-          {
-            "en": "machining affected zone",
-            "zh": "加工影响区"
-          },
-          {
-            "en": "PVD coatings",
-            "zh": "PVD涂层"
+            "zh": "显微硬度"
           },
           {
             "en": "cutting speed",
@@ -111,30 +97,210 @@
           {
             "en": "feed rate",
             "zh": "进给率"
+          },
+          {
+            "en": "PVD coating",
+            "zh": "物理气相沉积涂层"
+          },
+          {
+            "en": "white layer",
+            "zh": "白层"
+          },
+          {
+            "en": "machining affected zone",
+            "zh": "加工影响区"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:09:50Z"
+      "first_seen_at": "2026-06-08T08:12:51Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4410983038",
+      "doi": "10.1371/journal.pone.0325276",
+      "title": "The critical role of optimized energy density in controlling void morphology and enhancing mechanical properties of L-PBF Ti-6Al-4V ELI alloy",
+      "abstract": "Laser power is referred to as one of the critical process parameters governing the volumetric energy density in the Laser Powder Bed Fusion (L-PBF) process. The purpose of the study is to systematically investigate the influence of laser energy density on the void morphology, microstructure, and mechanical properties of the L-PBF printed parts which were fabricated with laser power ranging from 75 to 175 W. Comprehensive analysis of void defect was conducted by employing Archimedes' method, optical microscope (OM), and X-ray microcomputed tomography (Micro-CT). Surface quality was analyzed by surface roughness measurement. Tensile testing was performed to establish the correlation between process parameters, material microstructure, and mechanical behavior in as-built samples. Under the optimal process parameters, this work achieved a minimum void fraction of 0.3%. At various laser energy densities, three distinct morphologies, namely lack of fusion (LOF), gas pores (GP), and keyhole (KH), were generated. Notably, LOF has a more detrimental effect on tensile characteristics, in comparison to GP and KH defects if laser power was less than 100 W. Interestingly, subsurface spherical pores at the hatch border demonstrate a less substantial influence on the tensile behavior of as-built samples than LOF. The correlation analysis revealed that the presence of void defects primarily influenced strength, modulus of elasticity, and strain at break. Energy density proved to play a pivotal role in defect generation, non-equilibrium microstructure, and mechanical properties of L-PBF. Based on our findings, selecting 100 W of laser power with a speed of 1200 mm/sec could be an optimal choice for achieving a satisfactory result in as-built L-PBF part.",
+      "authors": [
+        "Supapat Trithepchunlayakoon",
+        "Aung Nyein Soe",
+        "Atikom Sombatmai",
+        "Suppakrit Khrueaduangkham",
+        "Vorapat Trachoo",
+        "Dinesh Rokaya",
+        "Patcharapit Promoppatum",
+        "Viritpon Srimaneepong"
+      ],
+      "first_author_affiliation": "Department of Prosthodontics, Faculty of Dentistry, Chulalongkorn University, Bangkok, Thailand",
+      "corresponding_authors": [
+        {
+          "name": "Supapat Trithepchunlayakoon",
+          "affiliation": "Department of Prosthodontics, Faculty of Dentistry, Chulalongkorn University, Bangkok, Thailand"
+        },
+        {
+          "name": "Aung Nyein Soe",
+          "affiliation": "Department of Mechanical Engineering, Faculty of Engineering, King Mongkut's University of Technology Thonburi, Bangkok, Thailand"
+        },
+        {
+          "name": "Atikom Sombatmai",
+          "affiliation": "Department of Mechanical Engineering, Faculty of Engineering, King Mongkut's University of Technology Thonburi, Bangkok, Thailand"
+        },
+        {
+          "name": "Suppakrit Khrueaduangkham",
+          "affiliation": "Department of Mechanical Engineering, Faculty of Engineering, King Mongkut's University of Technology Thonburi, Bangkok, Thailand"
+        },
+        {
+          "name": "Vorapat Trachoo",
+          "affiliation": "Department of Oral Surgery, Faculty of Dentistry, Chulalongkorn University, Bangkok, Thailand"
+        },
+        {
+          "name": "Dinesh Rokaya",
+          "affiliation": "Center of Medical and Bio-Allied Health Sciences Research, Ajman University, Ajman, United Arab Emirates"
+        },
+        {
+          "name": "Patcharapit Promoppatum",
+          "affiliation": "Department of Mechanical Engineering, Faculty of Engineering, King Mongkut's University of Technology Thonburi, Bangkok, Thailand"
+        },
+        {
+          "name": "Viritpon Srimaneepong",
+          "affiliation": "Department of Prosthodontics, Faculty of Dentistry, Chulalongkorn University, Bangkok, Thailand"
+        }
+      ],
+      "venue": "PLoS ONE",
+      "year": 2025,
+      "date": "2025-06-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1371/journal.pone.0325276",
+      "cited_by_count": 2,
+      "concepts": [
+        "Alloy",
+        "Void (composites)",
+        "Morphology (biology)",
+        "Materials science",
+        "Titanium alloy",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti-6Al-4V ELI",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "microstructure",
+          "defect",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对L-PBF Ti-6Al-4V ELI合金的工艺参数-孔隙-力学性能关系，完全符合L1层对Ti-6Al-4V增材制造力学性能的关注。",
+        "why_not_core": "No fatigue or cyclic loading data; only quasi-static tensile properties are reported.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "L-PBF",
+          "Ti-6Al-4V",
+          "energy density",
+          "void morphology",
+          "tensile properties",
+          "porosity",
+          "lack of fusion",
+          "micro-CT"
+        ],
+        "summary_zh": {
+          "motivation": "研究激光能量密度对L-PBF Ti-6Al-4V ELI合金孔隙形态和力学性能的影响。",
+          "method": "改变激光功率（75-175 W），利用Archimedes法、OM和Micro-CT分析孔隙，并进行拉伸测试。",
+          "result": "最优参数下孔隙率0.3%，未熔合缺陷比气孔和匙孔对拉伸性能影响更大。",
+          "validation": "通过Archimedes法、光学显微镜、Micro-CT和拉伸测试进行实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To systematically investigate the effect of laser energy density on void morphology, microstructure, and mechanical properties of L-PBF Ti-6Al-4V ELI alloy.",
+          "method": "Samples fabricated with laser power from 75 to 175 W were analyzed using Archimedes method, optical microscopy, micro-CT, surface roughness measurement, and tensile testing.",
+          "result": "Optimal parameters yielded 0.3% porosity, with lack-of-fusion defects more detrimental than gas pores or keyhole pores, and energy density critically influencing defect generation and tensile properties.",
+          "validation": "Experimental characterization via Archimedes method, OM, Micro-CT, and tensile testing."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "energy density",
+            "zh": "能量密度"
+          },
+          {
+            "en": "void morphology",
+            "zh": "孔隙形态"
+          },
+          {
+            "en": "Ti-6Al-4V ELI",
+            "zh": "Ti-6Al-4V ELI合金"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "tensile behavior",
+            "zh": "拉伸行为"
+          },
+          {
+            "en": "lack of fusion",
+            "zh": "未熔合"
+          },
+          {
+            "en": "gas pores",
+            "zh": "气孔"
+          },
+          {
+            "en": "keyhole",
+            "zh": "匙孔"
+          },
+          {
+            "en": "micro-CT",
+            "zh": "显微CT"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:12:51Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Low": 1
+      "Exclude": 1,
+      "High": 1
     }
   }
 }

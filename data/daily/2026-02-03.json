@@ -53,10 +53,11 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "powder bed fusion",
+          "build orientation",
           "tensile strength",
           "yield strength",
-          "ultimate tensile strength",
-          "build orientation"
+          "ultimate tensile strength"
         ],
         "ti6al4v_postprocess": [
           "Ti6Al4V",
@@ -70,8 +71,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究了热处理和机加工等后处理对Ti-6Al-4V力学性能的影响，完全符合L2方向要求。",
-        "why_not_core": "No fatigue testing or porosity closure analysis, but covers tensile, impact, and bending under post-processing treatments.",
+        "relevance_to_user": "该论文直接研究Ti-6Al-4V增材制造后的热处理和机加工对力学性能的影响，与后处理控制方向高度相关。",
+        "why_not_core": "The paper evaluates tensile, impact, and bending properties but does not include fatigue testing, which is a key aspect of mechanical performance for post-processing control.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -80,34 +81,38 @@
           "is_review": false
         },
         "tags": [
-          "post-processing",
-          "heat treatment",
-          "machining",
           "Ti-6Al-4V",
           "PBF-LB/M",
+          "heat treatment",
+          "machining",
           "mechanical properties",
-          "build orientation"
+          "build orientation",
+          "post-processing"
         ],
         "summary_zh": {
-          "motivation": "研究构建方向、热处理和机加工对PBF-LB/M Ti6Al4V力学性能的影响",
-          "method": "采用拉伸、夏比冲击、弯曲和泊松比等破坏性测试表征力学性能",
-          "result": "应力消除热处理适度降低强度，机加工影响不显著，热处理提高冲击韧性",
-          "validation": "通过多种机械测试实验验证"
+          "motivation": "研究构建取向、热处理和机加工对PBF-LB/M Ti6Al4V力学性能的影响。",
+          "method": "采用拉伸、夏比冲击、弯曲和泊松比测试评估不同工艺条件。",
+          "result": "热处理降低强度但提高冲击韧性，机加工对强度影响小，构建取向影响有限。",
+          "validation": "通过多组力学实验验证不同后处理条件的效果。"
         },
         "summary_en": {
-          "motivation": "This study investigates how build orientation, heat treatment, and machining affect the mechanical properties of PBF-LB/M Ti6Al4V components.",
-          "method": "Destructive testing methods including tensile, Charpy impact, bending, and Poisson's ratio measurements were employed.",
-          "result": "Stress-relief heat treatment moderately reduced strength, machining had no significant effect, and heat treatment increased Charpy impact energy.",
-          "validation": "Experimental mechanical testing provided validation across multiple conditions."
+          "motivation": "To investigate how build orientation, heat treatment, and machining affect the mechanical properties of Ti6Al4V fabricated by PBF-LB/M.",
+          "method": "Mechanical testing including tensile, Charpy impact, bending, and Poisson's ratio measurements were conducted on specimens with various post-processing conditions.",
+          "result": "Heat treatment reduced yield and tensile strength by about 2–9% but increased Charpy impact energy; machining and build orientation had minor effects on strength.",
+          "validation": "Experimental validation through destructive mechanical testing across multiple conditions."
         },
         "key_terms": [
           {
-            "en": "laser powder bed fusion",
-            "zh": "激光粉末床熔融"
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "en": "laser-based powder bed fusion of metals (PBF-LB/M)",
+            "zh": "激光粉末床熔融金属"
+          },
+          {
+            "en": "build orientation",
+            "zh": "构建取向"
           },
           {
             "en": "heat treatment",
@@ -119,11 +124,7 @@
           },
           {
             "en": "stress relief",
-            "zh": "应力消除"
-          },
-          {
-            "en": "tensile properties",
-            "zh": "拉伸性能"
+            "zh": "去应力退火"
           },
           {
             "en": "Charpy impact energy",
@@ -134,132 +135,18 @@
             "zh": "弯曲强度"
           },
           {
-            "en": "build orientation",
-            "zh": "构建方向"
+            "en": "post-processing",
+            "zh": "后处理"
           },
           {
-            "en": "glass blasting",
-            "zh": "玻璃喷砂"
+            "en": "mechanical properties",
+            "zh": "力学性能"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
-    },
-    {
-      "source": "openalex",
-      "id": "https://openalex.org/W7127306550",
-      "doi": "10.1016/j.msea.2026.149833",
-      "title": "The effect of standard heat treatments and process conditions on the fatigue performance of wire arc additively manufactured Ti-6Al-4V",
-      "abstract": "",
-      "authors": [
-        "Jackson Leigh Smith",
-        "Alexander Medvedev",
-        "Edward W. Lui",
-        "Jiayu Ye",
-        "Philip Pille",
-        "Stephen Sun",
-        "Michael Bermingham",
-        "Daniel Fisher",
-        "Jisheng Ma",
-        "Martin Leary",
-        "Qianchu Liu",
-        "Milan Brandt"
-      ],
-      "first_author_affiliation": "",
-      "corresponding_authors": [
-        {
-          "name": "Jackson Leigh Smith",
-          "affiliation": ""
-        }
-      ],
-      "venue": "Materials Science and Engineering A",
-      "year": 2026,
-      "date": "2026-02-03",
-      "date_precision": "day",
-      "url": "https://doi.org/10.1016/j.msea.2026.149833",
-      "cited_by_count": 0,
-      "concepts": [
-        "Arc (geometry)",
-        "Materials science",
-        "Process (computing)",
-        "Metallurgy",
-        "Composite material",
-        "Manufacturing process"
-      ],
-      "categories": [],
-      "raw_type": "article",
-      "directions": [
-        "ti6al4v_base_mechanical_fatigue"
-      ],
-      "direction": "ti6al4v_base_mechanical_fatigue",
-      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
-      "routing_matches": {
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti-6Al-4V",
-          "Ti 6Al 4V",
-          "fatigue"
-        ]
-      },
-      "llm": {
-        "priority": "Medium",
-        "relevance_level": "Transferable",
-        "read_action": "Save for project",
-        "relevance_to_user": "虽然本文关注热处理的疲劳性能，但与L1层直接相关的工艺状态数据有限。",
-        "why_not_core": "The paper focuses on the effect of standard heat treatments on fatigue performance, which is post-processing, rather than as-built or process-state characterization as required for L1.",
-        "validation_kind": "mechanical_testing",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "wire arc additive manufacturing",
-          "Ti-6Al-4V",
-          "fatigue performance",
-          "heat treatment",
-          "process conditions"
-        ],
-        "summary_zh": {
-          "motivation": "研究标准热处理和工艺条件对电弧增材制造Ti-6Al-4V疲劳性能的影响。",
-          "method": "对WAAM Ti-6Al-4V进行不同热处理和工艺条件下的疲劳测试。",
-          "result": "揭示了热处理和工艺条件对疲劳性能的影响。",
-          "validation": "实验疲劳测试验证。"
-        },
-        "summary_en": {
-          "motivation": "To investigate the combined effects of standard heat treatments and process conditions on the fatigue performance of wire-arc additively manufactured Ti-6Al-4V.",
-          "method": "Fatigue tests were conducted on WAAM Ti-6Al-4V specimens subjected to various heat treatments and processing parameters.",
-          "result": "The study elucidates how heat treatments and process conditions influence the fatigue behavior.",
-          "validation": "Experimental fatigue testing provided validation of the observed trends."
-        },
-        "key_terms": [
-          {
-            "en": "wire arc additive manufacturing",
-            "zh": "电弧增材制造"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "钛合金"
-          },
-          {
-            "en": "fatigue performance",
-            "zh": "疲劳性能"
-          },
-          {
-            "en": "heat treatment",
-            "zh": "热处理"
-          },
-          {
-            "en": "process conditions",
-            "zh": "工艺条件"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
     },
     {
       "source": "openalex",
@@ -327,6 +214,7 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "EBM",
           "tensile strength",
           "yield strength",
           "elongation",
@@ -338,8 +226,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是非增材制造的新型钛合金，与激光粉末床熔融Ti-6Al-4V的力学和疲劳性能无关。",
-        "why_not_core": "Paper focuses on novel titanium alloys not produced by additive manufacturing and does not address mechanical or fatigue properties of AM Ti-6Al-4V.",
+        "relevance_to_user": "该论文研究新型铸造钛合金的力学性能，并非增材制造Ti-6Al-4V，与用户关注方向无关。",
+        "why_not_core": "The paper investigates cast titanium alloys for dental implants, not additively manufactured Ti-6Al-4V; it is off-topic for the AM mechanical/fatigue focus.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -351,20 +239,19 @@
           "titanium alloys",
           "dental implants",
           "mechanical properties",
-          "chemical composition",
-          "phase analysis"
+          "chemical composition"
         ],
         "summary_zh": {
-          "motivation": "开发新型牙科植入物钛合金，优化合金元素以获得更好的综合性能。",
-          "method": "制备四种不同成分的钛合金，通过SEM、EDS、XRD和拉伸测试表征其组织和力学性能。",
-          "result": "新合金强度高于纯钛但低于Ti6Al4V，弹性模量更低，塑性各有差异。",
-          "validation": "采用标准拉伸测试和显微组织分析验证力学性能与成分的关系。"
+          "motivation": "优化牙科植入物钛合金成分以提高力学和生物相容性。",
+          "method": "制备四种不同成分的实验钛合金，进行显微组织和力学性能测试。",
+          "result": "实验合金的强度高于纯钛但低于Ti6Al4V，弹性模量更低。",
+          "validation": "通过拉伸、硬度等标准化力学测试验证性能。"
         },
         "summary_en": {
-          "motivation": "To develop novel titanium alloys for dental implants by optimizing chemical composition for improved mechanical and biological performance.",
-          "method": "Four experimental titanium alloys with varying compositions were produced and characterized using SEM, EDS, XRD, and tensile testing per ASTM and ISO standards.",
-          "result": "The new alloys exhibit higher strength than Cp-Ti grade 4 but lower than Ti6Al4V, with reduced elastic modulus and varied ductility.",
-          "validation": "Mechanical properties were validated through standardized tensile tests and microstructure analysis."
+          "motivation": "To optimize the chemical composition of titanium alloys for dental implants to achieve better mechanical and biological performance.",
+          "method": "Four experimental titanium alloys with novel compositions were fabricated and characterized using microscopy, XRD, and tensile/hardness tests.",
+          "result": "The experimental alloys exhibit higher strength than commercially pure titanium but slightly lower than Ti6Al4V, with reduced elastic modulus.",
+          "validation": "Mechanical properties were validated through standardized tensile and hardness testing."
         },
         "key_terms": [
           {
@@ -384,22 +271,138 @@
             "zh": "化学成分"
           },
           {
-            "en": "tensile strength",
-            "zh": "抗拉强度"
-          },
-          {
             "en": "elastic modulus",
             "zh": "弹性模量"
-          },
-          {
-            "en": "microstructure",
-            "zh": "显微组织"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:25:34Z"
+      "first_seen_at": "2026-06-08T08:43:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7127306550",
+      "doi": "10.1016/j.msea.2026.149833",
+      "title": "The effect of standard heat treatments and process conditions on the fatigue performance of wire arc additively manufactured Ti-6Al-4V",
+      "abstract": "",
+      "authors": [
+        "Jackson Leigh Smith",
+        "Alexander Medvedev",
+        "Edward W. Lui",
+        "Jiayu Ye",
+        "Philip Pille",
+        "Stephen Sun",
+        "Michael Bermingham",
+        "Daniel Fisher",
+        "Jisheng Ma",
+        "Martin Leary",
+        "Qianchu Liu",
+        "Milan Brandt"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Jackson Leigh Smith",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Materials Science and Engineering A",
+      "year": 2026,
+      "date": "2026-02-03",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.msea.2026.149833",
+      "cited_by_count": 0,
+      "concepts": [
+        "Arc (geometry)",
+        "Materials science",
+        "Process (computing)",
+        "Metallurgy",
+        "Composite material",
+        "Manufacturing process"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了热处理对电弧增材制造Ti-6Al-4V疲劳性能的影响，虽非直接针对L1层中提到的as-built状态，但疲劳数据和热处理方法对理解基础力学性能具有参考价值。",
+        "why_not_core": "The paper focuses on post-processing heat treatments rather than as-built or process-state mechanical/fatigue characterization, which is the primary scope of L1.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "WAAM",
+          "Ti-6Al-4V",
+          "heat treatment",
+          "fatigue performance",
+          "mechanical properties",
+          "process conditions"
+        ],
+        "summary_zh": {
+          "motivation": "研究标准热处理对电弧增材制造Ti-6Al-4V疲劳性能的影响",
+          "method": "对WAAM Ti-6Al-4V试样进行不同标准热处理并测试疲劳性能",
+          "result": "热处理方法显著影响疲劳寿命，某些热处理可提高疲劳强度",
+          "validation": "通过疲劳测试验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of standard heat treatments on the fatigue performance of wire arc additively manufactured Ti-6Al-4V.",
+          "method": "WAAM Ti-6Al-4V specimens were subjected to various standard heat treatments and subsequently tested for fatigue performance.",
+          "result": "Heat treatment significantly influences fatigue life, with some treatments improving fatigue strength.",
+          "validation": "Fatigue testing was used for validation."
+        },
+        "key_terms": [
+          {
+            "en": "wire arc additive manufacturing",
+            "zh": "电弧增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
+          },
+          {
+            "en": "S-N curve",
+            "zh": "S-N曲线"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "process conditions",
+            "zh": "工艺条件"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:43:44Z"
     }
   ],
   "counts": {
@@ -419,8 +422,8 @@
     "scored": 3,
     "priority_counts": {
       "High": 1,
-      "Medium": 1,
-      "Exclude": 1
+      "Exclude": 1,
+      "Medium": 1
     }
   }
 }

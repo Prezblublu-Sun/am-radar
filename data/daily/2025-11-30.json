@@ -62,6 +62,8 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "wire arc additive",
           "residual stress"
         ],
         "ti6al4v_postprocess": [
@@ -73,9 +75,9 @@
       "llm": {
         "priority": "Medium",
         "relevance_level": "Transferable",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文研究了WAAM Ti-6Al-4V的层间喷丸处理对残余应力的影响，但未进行力学性能测试，对理解喷丸后处理对疲劳性能的潜在影响有参考价值。",
-        "why_not_core": "The paper does not measure mechanical performance (fatigue or tensile) but only residual stress, so it does not directly address how post-processing modifies fatigue/mechanical performance.",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的层间喷丸处理，但未直接报道机械性能（如疲劳、拉伸），只聚焦残余应力测量方法验证，与用户方向中后处理对疲劳/力学性能的影响要求有差距。",
+        "why_not_core": "No mechanical performance (fatigue/tensile) data; peening is applied in-process rather than post-process; only residual stress measurements are reported.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -88,26 +90,23 @@
           "residual stress",
           "WAAM",
           "Ti-6Al-4V",
-          "ultrasonic measurement",
+          "ultrasonic method",
+          "XRD",
           "contour method"
         ],
         "summary_zh": {
-          "motivation": "为了在增材制造过程中控制残余应力，研究层间喷丸处理的有效性。",
-          "method": "采用相控阵超声波(PAURS)、X射线衍射和轮廓法测量并验证残余应力分布。",
-          "result": "层间喷丸显著降低热影响区的拉伸残余应力，性能与后处理喷丸相当。",
-          "validation": "通过三种方法交叉验证PAURS的准确性，并与有限元模型对比。"
+          "motivation": "研究层间喷丸作为WAAM Ti-6Al-4V残余应力控制方法。",
+          "method": "采用超声相控阵、X射线衍射和轮廓法测量残余应力并进行验证。",
+          "result": "层间喷丸可显著降低热影响区拉伸残余应力，效果与后处理喷丸相当。",
+          "validation": "通过三种残余应力测量方法相互验证并与有限元模型对比。"
         },
         "summary_en": {
-          "motivation": "This study aims to evaluate inter-pass peening as an in-process residual stress mitigation technique for WAAM Ti-6Al-4V components.",
-          "method": "Residual stresses were measured using Phased Array Ultrasonics (PAURS), X-ray Diffraction, and the Contour Method, with validation via finite element models.",
-          "result": "Inter-pass peening significantly reduced tensile residual stresses in the heat-affected zone, achieving performance comparable to post-process peening.",
-          "validation": "Validation was performed through round-robin comparison of PAURS, XRD, and contour method results against FE simulations."
+          "motivation": "To investigate inter-pass peening as an in-process residual stress mitigation technique for WAAM Ti-6Al-4V components.",
+          "method": "Phased Array Ultrasonics (PAURS) was evaluated against X-ray Diffraction and the Contour Method for residual stress measurement on as-deposited and inter-pass peened samples.",
+          "result": "Inter-pass peening significantly reduced tensile residual stress in the heat-affected zone, with performance comparable to post-process peening.",
+          "validation": "Round-robin comparison of PAURS, XRD, and Contour Method, supported by finite element models, was used to validate the residual stress measurements."
         },
         "key_terms": [
-          {
-            "en": "wire arc additive manufacturing",
-            "zh": "电弧增材制造"
-          },
           {
             "en": "inter-pass peening",
             "zh": "层间喷丸"
@@ -117,22 +116,34 @@
             "zh": "残余应力"
           },
           {
+            "en": "WAAM",
+            "zh": "电弧增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
+          },
+          {
             "en": "phased array ultrasonics",
-            "zh": "相控阵超声波"
+            "zh": "相控阵超声"
+          },
+          {
+            "en": "X-ray diffraction",
+            "zh": "X射线衍射"
           },
           {
             "en": "contour method",
             "zh": "轮廓法"
           },
           {
-            "en": "X-ray diffraction",
-            "zh": "X射线衍射"
+            "en": "full matrix capture",
+            "zh": "全矩阵捕获"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:19:10Z"
+      "first_seen_at": "2026-06-08T08:31:07Z"
     }
   ],
   "counts": {

@@ -46,11 +46,19 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
+        "ti6al4v_base_mechanical_fatigue",
         "ti6al4v_femoral_stem"
       ],
       "direction": "ti6al4v_femoral_stem",
       "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "SLM",
+          "microstructure"
+        ],
         "ti6al4v_femoral_stem": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
@@ -62,8 +70,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究AlSi10Mg晶格结构，而非Ti-6Al-4V股骨柄，与方向无关。",
-        "why_not_core": "Paper studies AlSi10Mg lattice structures, not Ti-6Al-4V femoral stem or implant design; no mechanical or biomechanical analysis relevant to orthopedic implants.",
+        "relevance_to_user": "该论文研究AlSi10Mg点阵结构而非Ti-6Al-4V，且未涉及股骨柄植入物设计。",
+        "why_not_core": "The paper does not concern Ti-6Al-4V, femoral stem design, or any orthopaedic implant context; it investigates AlSi10Mg lattice structures for lightweight applications.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -74,37 +82,34 @@
         "tags": [
           "lattice structures",
           "AlSi10Mg",
-          "mechanical properties",
+          "TPMS",
           "energy absorption",
+          "mechanical properties",
           "SLM"
         ],
         "summary_zh": {
-          "motivation": "探索AlSi10Mg晶格结构的力学性能与能量吸收，弥补研究空白。",
-          "method": "制备9种不同拓扑的支柱和TPMS晶格，进行压缩测试并建立回归模型。",
-          "result": "TPMS-sheet Diamond晶格具有最高的绝对和比性能，BCCZ性能相近但能量吸收受限于屈曲。",
-          "validation": "通过实验应力-应变曲线和变形模式分析验证结果。"
+          "motivation": "探索AlSi10Mg点阵结构的力学性能与能量吸收能力，其研究相对不足。",
+          "method": "实验研究了9种杆基和TPMS点阵结构，进行压缩测试并建立回归模型。",
+          "result": "TPMS片状金刚石结构具有最高的绝对和比力学性能及能量吸收。",
+          "validation": "通过实验应力-应变曲线和变形模式验证，并与文献数据比较。"
         },
         "summary_en": {
-          "motivation": "To investigate the mechanical properties and energy absorption of AlSi10Mg lattice structures with various topologies, which are less explored than stainless steel or Ti-6Al-4V lattices.",
-          "method": "Nine strut-based and TPMS-based lattice geometries were fabricated via SLM and tested under compression; regression models were derived for peak stress, elastic modulus, and energy absorption.",
-          "result": "TPMS-sheet Diamond lattices exhibited the highest absolute and specific mechanical properties and energy absorption, while BCCZ lattices showed comparable specific properties but limited energy absorption due to strut buckling.",
-          "validation": "Experimental stress-strain curves and deformation modes were analyzed and compared with literature data for different alloys."
+          "motivation": "To investigate the mechanical properties and energy absorption of AlSi10Mg lattice structures, which have been less explored compared to other alloys.",
+          "method": "Nine strut-based and TPMS-based lattice geometries were fabricated via SLM, compression tested, and regression models were derived from experimental data.",
+          "result": "TPMS-sheet Diamond lattices exhibited the highest absolute and specific mechanical properties and energy absorption among the tested topologies.",
+          "validation": "Validation was performed through experimental compression testing, analysis of stress-strain curves and deformation modes, and comparison with literature data."
         },
         "key_terms": [
           {
-            "en": "lattice structures",
-            "zh": "晶格结构"
+            "en": "lattice structure",
+            "zh": "点阵结构"
           },
           {
             "en": "AlSi10Mg",
             "zh": "铝硅10镁合金"
           },
           {
-            "en": "selective laser melting",
-            "zh": "选区激光熔化"
-          },
-          {
-            "en": "triply periodic minimal surface",
+            "en": "TPMS",
             "zh": "三周期极小曲面"
           },
           {
@@ -112,18 +117,26 @@
             "zh": "能量吸收"
           },
           {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
             "en": "mechanical properties",
             "zh": "力学性能"
           },
           {
-            "en": "topology",
-            "zh": "拓扑结构"
+            "en": "strut-based",
+            "zh": "杆基"
+          },
+          {
+            "en": "regression model",
+            "zh": "回归模型"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:19:10Z"
+      "first_seen_at": "2026-06-08T08:31:07Z"
     }
   ],
   "counts": {

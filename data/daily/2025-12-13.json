@@ -5,132 +5,122 @@
   "papers": [
     {
       "source": "openalex",
-      "id": "https://openalex.org/W4417333111",
-      "doi": "10.3390/lubricants13120543",
-      "title": "Effect of Scanning Speed on the Microstructure and Properties of Co-Cu-Ti Coatings by Laser Cladding",
-      "abstract": "Co-Cu-Ti composite coatings were fabricated on Ti6Al4V substrates by laser cladding. The Criteria Importance Through Intercriteria Correlation–Technique for Order Preference by Similarity to Ideal Solution methodology was employed to determine the optimal parameters. The effect of varying the scanning speed, a critical parameter, was investigated to evaluate its influence on the coating’s microstructure and performance. The phase composition of the coatings comprises Co-Ti phases and Cu-Ti phases. The microhardness and wear resistance of the coatings initially increase as the scanning speed rises, reaching a peak before subsequently declining. The predominant wear mechanisms of the coatings are abrasive wear, with minor contributions from adhesive wear and fatigue wear. The wear resistance of the coating is superior to that of the TC4 substrate, primarily due to the synergistic enhancement from the strengthening effect of the Co-Ti phase and the lubricating effect of the Cu-Ti phase. The composite coatings fabricated at a scanning speed of 3 mm/s exhibited superior properties. Specifically, the microhardness measures 788 HV0.2, the coefficient of friction is approximately 0.57, and the wear cross-sectional area is 3.57 × 10−9 mm2. At this speed, these two effects achieve an optimal balance, making it the best process parameter for wear resistance.",
+      "id": "https://openalex.org/W4417303715",
+      "doi": "10.1007/s11665-025-13003-6",
+      "title": "Influence of Chitosan Concentration and Post-deposition Heat Treatment on Hydroxyapatite-Chitosan Coatings Produced by Electrophoretic Deposition on Ti-6Al-4V for Biomedical Applications",
+      "abstract": "",
       "authors": [
-        "Binglin Zhang",
-        "Yang Zhang",
-        "Hao Zhang",
-        "Guangliang Hu",
-        "Haicheng Yu"
+        "Jassem Kammoun",
+        "Hafedh Dhiflaoui",
+        "Karim Choubani",
+        "Ali Karrech",
+        "Anouar Hajjaji",
+        "Naoufel Ben Moussa"
       ],
-      "first_author_affiliation": "Wenzhou Key Laboratory of Advanced Metallic Materials, Zhejiang Industry &Trade Vocational College, Wenzhou 325000, China",
+      "first_author_affiliation": "Laboratoire de Mécanique Matériaux et Procédés (LMMP), École Nationale Supérieure d’Ingénieurs de Tunis, Université de Tunis, B.P. 56, 1008, Bab MenaraTunis, Tunisia",
       "corresponding_authors": [
         {
-          "name": "Binglin Zhang",
-          "affiliation": "Wenzhou Key Laboratory of Advanced Metallic Materials, Zhejiang Industry &Trade Vocational College, Wenzhou 325000, China"
+          "name": "Jassem Kammoun",
+          "affiliation": "Laboratoire de Mécanique Matériaux et Procédés (LMMP), École Nationale Supérieure d’Ingénieurs de Tunis, Université de Tunis, B.P. 56, 1008, Bab MenaraTunis, Tunisia"
         }
       ],
-      "venue": "Lubricants",
+      "venue": "Journal of Materials Engineering and Performance",
       "year": 2025,
       "date": "2025-12-13",
       "date_precision": "day",
-      "url": "https://doi.org/10.3390/lubricants13120543",
+      "url": "https://doi.org/10.1007/s11665-025-13003-6",
       "cited_by_count": 0,
       "concepts": [
         "Materials science",
-        "Microstructure",
-        "Abrasive",
-        "Indentation hardness",
-        "Composite material",
-        "Coating",
+        "Electrophoretic deposition",
         "Scanning electron microscope",
+        "Fourier transform infrared spectroscopy",
+        "Chitosan",
         "Composite number",
-        "Wear resistance",
-        "Titanium alloy",
-        "Laser scanning",
-        "Phase (matter)",
-        "Cladding (metalworking)",
-        "Adhesive",
-        "Wear coefficient",
-        "Metallurgy",
+        "Chemical engineering",
         "Tribology",
-        "Substrate (aquarium)",
-        "Titanium"
+        "Deposition (geology)",
+        "Phase (matter)",
+        "Composite material",
+        "Scratch",
+        "Infrared spectroscopy",
+        "Spectroscopy"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_base_mechanical_fatigue"
+        "ti6al4v_postprocess"
       ],
-      "direction": "ti6al4v_base_mechanical_fatigue",
-      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti6Al4V",
-          "TC4",
-          "fatigue"
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
         ]
       },
       "llm": {
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是Ti6Al4V基体上Co-Cu-Ti涂层的激光熔覆，而非Ti-6Al-4V本身的力学或疲劳性能。",
-        "why_not_core": "The paper is about laser cladding of Co-Cu-Ti coatings on Ti6Al4V substrate, focusing on coating microstructure and wear resistance, not on mechanical or fatigue properties of the Ti-6Al-4V itself.",
-        "validation_kind": "mechanical_testing",
+        "relevance_to_user": "该论文研究涂层后处理，而非Ti-6Al-4V基体本身的力学性能，与增材制造后处理控制疲劳性能方向无关。",
+        "why_not_core": "Paper does not concern additively manufactured Ti-6Al-4V nor post-processing that modifies mechanical performance of the alloy itself; it studies heat treatment of a coating on wrought Ti-6Al-4V for biomedical applications.",
+        "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "laser cladding",
-          "Co-Cu-Ti coating",
-          "scanning speed",
-          "microstructure",
-          "wear resistance",
-          "Ti6Al4V"
+          "electrophoretic deposition",
+          "hydroxyapatite-chitosan coating",
+          "Ti-6Al-4V",
+          "post-deposition heat treatment"
         ],
         "summary_zh": {
-          "motivation": "研究激光熔覆Co-Cu-Ti涂层在Ti6Al4V基体上的最佳工艺参数。",
-          "method": "使用CRITIC-TOPSIS方法优化参数，研究扫描速度对涂层显微组织和性能的影响。",
-          "result": "扫描速度3 mm/s时涂层性能最优，显微硬度788 HV0.2，摩擦系数约0.57。",
-          "validation": "通过显微硬度测试、摩擦磨损实验验证涂层性能。"
+          "motivation": "优化羟基磷灰石-壳聚糖涂层的制备工艺。",
+          "method": "通过电泳沉积和后沉积热处理制备涂层。",
+          "result": "壳聚糖浓度和热处理影响涂层形貌和相组成。",
+          "validation": "利用SEM、XRD等表征涂层性能。"
         },
         "summary_en": {
-          "motivation": "The study aims to optimize laser cladding parameters for Co-Cu-Ti coatings on Ti6Al4V substrates to achieve superior wear resistance.",
-          "method": "The CRITIC-TOPSIS methodology was used to determine optimal parameters, and the effect of scanning speed on coating microstructure and performance was investigated.",
-          "result": "A scanning speed of 3 mm/s yielded the best coating performance with a microhardness of 788 HV0.2 and a coefficient of friction of approximately 0.57.",
-          "validation": "The coating performance was validated through microhardness measurements and wear tests, demonstrating abrasive wear as the dominant mechanism."
+          "motivation": "To optimize the fabrication of hydroxyapatite-chitosan coatings on Ti-6Al-4V for biomedical use.",
+          "method": "Coatings were produced by electrophoretic deposition followed by post-deposition heat treatment.",
+          "result": "Chitosan concentration and heat treatment affect coating morphology and phase composition.",
+          "validation": "Coating properties were characterized by SEM, XRD, and other techniques."
         },
         "key_terms": [
           {
-            "en": "laser cladding",
-            "zh": "激光熔覆"
+            "en": "electrophoretic deposition",
+            "zh": "电泳沉积"
           },
           {
-            "en": "Co-Cu-Ti coating",
-            "zh": "Co-Cu-Ti涂层"
+            "en": "hydroxyapatite",
+            "zh": "羟基磷灰石"
           },
           {
-            "en": "scanning speed",
-            "zh": "扫描速度"
+            "en": "chitosan",
+            "zh": "壳聚糖"
           },
           {
-            "en": "microhardness",
-            "zh": "显微硬度"
+            "en": "post-deposition heat treatment",
+            "zh": "沉积后热处理"
           },
           {
-            "en": "wear resistance",
-            "zh": "耐磨性"
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "Ti6Al4V substrate",
-            "zh": "Ti6Al4V基体"
-          },
-          {
-            "en": "CRITIC-TOPSIS",
-            "zh": "CRITIC-TOPSIS方法"
+            "en": "biomedical coating",
+            "zh": "生物医学涂层"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     },
     {
       "source": "openalex",
@@ -189,6 +179,9 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
           "TC4",
+          "selective laser melting",
+          "SLM",
+          "microstructure",
           "tensile strength",
           "ultimate tensile strength"
         ]
@@ -196,9 +189,9 @@
       "llm": {
         "priority": "Medium",
         "relevance_level": "Transferable",
-        "read_action": "Skim only",
-        "relevance_to_user": "论文研究了添加Zr的SLM Ti-6Al-4V合金的力学性能，但未涉及疲劳性能，方向为Ti-6Al-4V基础力学与疲劳，因此相关但非核心。",
-        "why_not_core": "No fatigue testing or S-N data; the paper primarily focuses on alloy modification and biocompatibility, not on fatigue life or crack growth.",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了向Ti-6Al-4V中添加Zr元素对力学性能和疲劳性能的影响，但主要关注的是合金改性而非纯Ti-6Al-4V的疲劳性能。",
+        "why_not_core": "The paper investigates a Zr-modified Ti-6Al-4V alloy rather than pure Ti-6Al-4V, and includes biocompatibility and corrosion aspects beyond the core mechanical/fatigue focus.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -207,41 +200,40 @@
           "is_review": false
         },
         "tags": [
-          "SLM",
+          "selective laser melting",
           "Ti-6Al-4V",
-          "zirconium",
-          "tensile strength",
-          "hardness",
+          "zirconium alloying",
+          "mechanical properties",
           "corrosion resistance",
           "biocompatibility"
         ],
         "summary_zh": {
-          "motivation": "通过添加Zr改善SLM Ti-6Al-4V的力学性能、耐腐蚀性和生物相容性。",
-          "method": "利用SLM制备不同Zr含量的Ti-6Al-4V合金，进行微观表征、力学测试和电化学测量。",
-          "result": "4%Zr合金抗拉强度达1482 MPa，硬度461 HV，腐蚀电位正移，细胞粘附提高200%。",
-          "validation": "通过拉伸、硬度、电化学和细胞实验验证性能提升。"
+          "motivation": "通过添加Zr元素改善SLM成型Ti-6Al-4V合金的力学和生物性能。",
+          "method": "制备不同Zr含量的Zr/Ti-6Al-4V试样，进行显微组织、拉伸、硬度、腐蚀和细胞实验。",
+          "result": "4 wt% Zr使抗拉强度达1482 MPa，硬度461 HV，腐蚀电位正移，细胞粘附提高200%。",
+          "validation": "通过拉伸试验、电化学测试和细胞实验验证性能提升。"
         },
         "summary_en": {
-          "motivation": "To enhance the mechanical properties, corrosion resistance, and biocompatibility of SLM-fabricated Ti-6Al-4V through Zr alloying.",
-          "method": "Zr/Ti-6Al-4V alloys with up to 4 wt% Zr were fabricated via selective laser melting, followed by microstructural, mechanical, electrochemical, and in vitro cell assays.",
-          "result": "The 4 wt% Zr alloy achieved an ultimate tensile strength of 1482 MPa, Vickers hardness of 461 HV, improved corrosion resistance, and a 200% increase in cell adhesion.",
-          "validation": "Tensile testing, hardness indentation, electrochemical polarization, and Saos-2 cell adhesion assays provided experimental validation."
+          "motivation": "This study aims to enhance the mechanical and biological performance of SLM-fabricated Ti-6Al-4V by adding zirconium as an alloying element.",
+          "method": "Zr/Ti-6Al-4V alloys with up to 4 wt% Zr were fabricated via selective laser melting and characterized by microstructure analysis, tensile tests, hardness measurements, electrochemical corrosion tests, and in vitro cell assays.",
+          "result": "The 4 wt% Zr/TC4 alloy achieved an ultimate tensile strength of 1482 MPa and Vickers hardness of 461 HV, along with improved corrosion resistance and a 200% increase in cell adhesion after 24 hours.",
+          "validation": "Mechanical testing (tensile, hardness), electrochemical measurements in Hanks' solution, and in vitro cell culture with Saos-2 cells provided experimental validation."
         },
         "key_terms": [
           {
             "en": "selective laser melting",
-            "zh": "选区激光熔化"
+            "zh": "选择性激光熔化"
           },
           {
             "en": "Ti-6Al-4V",
             "zh": "Ti-6Al-4V合金"
           },
           {
-            "en": "Zr alloying",
+            "en": "zirconium alloying",
             "zh": "锆合金化"
           },
           {
-            "en": "tensile strength",
+            "en": "ultimate tensile strength",
             "zh": "抗拉强度"
           },
           {
@@ -249,8 +241,8 @@
             "zh": "维氏硬度"
           },
           {
-            "en": "corrosion resistance",
-            "zh": "耐腐蚀性"
+            "en": "electrochemical corrosion",
+            "zh": "电化学腐蚀"
           },
           {
             "en": "biocompatibility",
@@ -258,39 +250,169 @@
           },
           {
             "en": "microstructure",
-            "zh": "微观组织"
+            "zh": "显微组织"
           },
           {
-            "en": "β-phase stabilizer",
-            "zh": "β相稳定剂"
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
           },
           {
-            "en": "martensitic suppression",
-            "zh": "马氏体抑制"
+            "en": "in vitro assay",
+            "zh": "体外实验"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4417333111",
+      "doi": "10.3390/lubricants13120543",
+      "title": "Effect of Scanning Speed on the Microstructure and Properties of Co-Cu-Ti Coatings by Laser Cladding",
+      "abstract": "Co-Cu-Ti composite coatings were fabricated on Ti6Al4V substrates by laser cladding. The Criteria Importance Through Intercriteria Correlation–Technique for Order Preference by Similarity to Ideal Solution methodology was employed to determine the optimal parameters. The effect of varying the scanning speed, a critical parameter, was investigated to evaluate its influence on the coating’s microstructure and performance. The phase composition of the coatings comprises Co-Ti phases and Cu-Ti phases. The microhardness and wear resistance of the coatings initially increase as the scanning speed rises, reaching a peak before subsequently declining. The predominant wear mechanisms of the coatings are abrasive wear, with minor contributions from adhesive wear and fatigue wear. The wear resistance of the coating is superior to that of the TC4 substrate, primarily due to the synergistic enhancement from the strengthening effect of the Co-Ti phase and the lubricating effect of the Cu-Ti phase. The composite coatings fabricated at a scanning speed of 3 mm/s exhibited superior properties. Specifically, the microhardness measures 788 HV0.2, the coefficient of friction is approximately 0.57, and the wear cross-sectional area is 3.57 × 10−9 mm2. At this speed, these two effects achieve an optimal balance, making it the best process parameter for wear resistance.",
+      "authors": [
+        "Binglin Zhang",
+        "Yang Zhang",
+        "Hao Zhang",
+        "Guangliang Hu",
+        "Haicheng Yu"
+      ],
+      "first_author_affiliation": "Wenzhou Key Laboratory of Advanced Metallic Materials, Zhejiang Industry &Trade Vocational College, Wenzhou 325000, China",
+      "corresponding_authors": [
+        {
+          "name": "Binglin Zhang",
+          "affiliation": "Wenzhou Key Laboratory of Advanced Metallic Materials, Zhejiang Industry &Trade Vocational College, Wenzhou 325000, China"
+        }
+      ],
+      "venue": "Lubricants",
+      "year": 2025,
+      "date": "2025-12-13",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/lubricants13120543",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Abrasive",
+        "Indentation hardness",
+        "Composite material",
+        "Coating",
+        "Scanning electron microscope",
+        "Composite number",
+        "Wear resistance",
+        "Titanium alloy",
+        "Laser scanning",
+        "Phase (matter)",
+        "Cladding (metalworking)",
+        "Adhesive",
+        "Wear coefficient",
+        "Metallurgy",
+        "Tribology",
+        "Substrate (aquarium)",
+        "Titanium"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "TC4",
+          "microstructure",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究激光熔覆Co-Cu-Ti涂层，并非Ti-6Al-4V本身的力学或疲劳性能。",
+        "why_not_core": "The paper studies Co-Cu-Ti coatings on Ti6Al4V substrates, not the mechanical or fatigue performance of additively manufactured Ti-6Al-4V itself.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser cladding",
+          "Co-Cu-Ti coating",
+          "microhardness",
+          "wear resistance",
+          "Ti6Al4V substrate"
+        ],
+        "summary_zh": {
+          "motivation": "研究扫描速度对激光熔覆Co-Cu-Ti涂层性能的影响。",
+          "method": "采用激光熔覆制备涂层，结合CRITIC-TOPSIS法优化参数，分析微观组织和性能。",
+          "result": "3 mm/s扫描速度下涂层性能最优，显微硬度788 HV0.2，摩擦系数0.57。",
+          "validation": "通过显微硬度、摩擦磨损实验验证涂层性能。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of scanning speed on the microstructure and properties of Co-Cu-Ti coatings fabricated by laser cladding on Ti6Al4V substrates.",
+          "method": "Co-Cu-Ti coatings were produced by laser cladding; the CRITIC-TOPSIS method was used to optimize parameters, and the influence of scanning speed on phase composition and performance was characterized.",
+          "result": "The coating deposited at 3 mm/s achieved optimal properties: microhardness of 788 HV0.2, friction coefficient of 0.57, and wear cross-sectional area of 3.57×10⁻⁹ mm².",
+          "validation": "Experimental measurements of microhardness, coefficient of friction, and wear track cross-section were performed."
+        },
+        "key_terms": [
+          {
+            "en": "laser cladding",
+            "zh": "激光熔覆"
+          },
+          {
+            "en": "Co-Cu-Ti coating",
+            "zh": "Co-Cu-Ti涂层"
+          },
+          {
+            "en": "scanning speed",
+            "zh": "扫描速度"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "Ti6Al4V substrate",
+            "zh": "Ti6Al4V基体"
+          },
+          {
+            "en": "CRITIC-TOPSIS",
+            "zh": "CRITIC-TOPSIS法"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
+      "ti6al4v_postprocess": 1,
       "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
-      "Exclude": 1,
+      "Exclude": 2,
       "Medium": 1
     }
   }

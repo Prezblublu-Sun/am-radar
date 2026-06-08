@@ -45,11 +45,19 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
+        "ti6al4v_base_mechanical_fatigue",
         "ti6al4v_postprocess"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
       "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "selective laser melting",
+          "SLM",
+          "microstructure"
+        ],
         "ti6al4v_postprocess": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
@@ -60,8 +68,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究了热加工（空气和真空热处理）对SLM制造的Ti-6Al-4V点阵结构微观结构和压缩性能的影响，完全符合方向要求。",
-        "why_not_core": "None; paper fully fits the direction focus on post-processing of Ti-6Al-4V.",
+        "relevance_to_user": "本文直接研究了两种热处理方法（空气和真空）对SLM制造Ti-6Al-4V点阵结构的显微组织和抗压性能的影响，符合后处理研究方向。",
+        "why_not_core": "This paper focuses on compressive strength rather than fatigue, and does not include fatigue testing or other mechanical properties like tensile or fatigue life.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -70,27 +78,34 @@
           "is_review": false
         },
         "tags": [
+          "SLM",
+          "Ti-6Al-4V",
           "heat treatment",
           "oxidation",
-          "Ti-6Al-4V",
-          "selective laser melting",
-          "lattice structures",
           "compressive strength",
-          "vacuum heat treatment"
+          "lattice structure"
         ],
         "summary_zh": {
-          "motivation": "比较空气与真空热处理对SLM Ti-6Al-4V点阵结构的影响。",
-          "method": "进行空气和真空热处理，通过微观分析和压缩测试评估。",
-          "result": "真空热处理避免氧化，改善能量吸收；空气热处理导致氧化层和脆性断裂。",
-          "validation": "通过压缩实验和微观组织观察验证。"
+          "motivation": "比较空气和真空热处理对SLM钛合金点阵结构性能的影响。",
+          "method": "对SLM制备的Ti-6Al-4V点阵进行空气和真空热处理，对比显微组织和压缩性能。",
+          "result": "空气热处理形成氧化层降低强度，真空热处理形成层状组织提高能量吸收。",
+          "validation": "通过压缩实验和微观结构观察验证热处理效果。"
         },
         "summary_en": {
           "motivation": "To compare the effects of air and vacuum heat treatments on the microstructure and compressive properties of SLM-produced Ti-6Al-4V lattice structures.",
-          "method": "Samples underwent either air or vacuum heat treatment, followed by microstructural analysis and compression testing.",
-          "result": "Vacuum heat treatment prevents oxidation, promotes lamellar α-Ti, and enhances energy absorption, while air heat treatment forms an oxide layer and induces brittle fracture.",
-          "validation": "Validation via compression tests and SEM/EBSD microstructural characterization."
+          "method": "Ti-6Al-4V lattice samples were fabricated by SLM and subjected to heat treatment in air or vacuum, followed by microstructural analysis and compression tests.",
+          "result": "Air heat treatment formed an oxide layer that reduced compressive strength and changed fracture mode to brittle, while vacuum heat treatment promoted a lamellar structure and improved energy absorption.",
+          "validation": "Compression testing and SEM/OM microstructural observation were used to validate the effects of the two heat treatment conditions."
         },
         "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选择性激光熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
           {
             "en": "heat treatment",
             "zh": "热处理"
@@ -100,60 +115,171 @@
             "zh": "氧化"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
-          },
-          {
-            "en": "selective laser melting (SLM)",
-            "zh": "选择性激光熔化"
-          },
-          {
-            "en": "lattice structures",
-            "zh": "点阵结构"
-          },
-          {
             "en": "compressive strength",
             "zh": "抗压强度"
           },
           {
-            "en": "vacuum heat treatment",
-            "zh": "真空热处理"
-          },
-          {
-            "en": "air heat treatment",
-            "zh": "空气热处理"
+            "en": "lattice structure",
+            "zh": "点阵结构"
           },
           {
             "en": "microstructure",
-            "zh": "微观结构"
+            "zh": "显微组织"
           },
           {
             "en": "energy absorption",
             "zh": "能量吸收"
+          },
+          {
+            "en": "brittle fracture",
+            "zh": "脆性断裂"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7160141526",
+      "doi": "10.1016/j.msea.2026.150328",
+      "title": "Integrated in-situ experimental and crystal plasticity finite element investigation on grain-scale localized damage and fatigue prediction of forged Ti-6Al-4V alloy",
+      "abstract": "",
+      "authors": [
+        "Xiyuan Zhang",
+        "Dasheng Wei",
+        "Songyun Ma",
+        "Tao Zhang",
+        "Jingyu Sun",
+        "Kun Li",
+        "Xiang Liu",
+        "Ganlie Yu",
+        "Shun Yang"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Xiyuan Zhang",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Materials Science and Engineering A",
+      "year": 2026,
+      "date": "2026-04-30",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.msea.2026.150328",
+      "cited_by_count": 0,
+      "concepts": [
+        "Crystal plasticity",
+        "Materials science",
+        "Finite element method",
+        "Plasticity",
+        "Alloy",
+        "Composite material",
+        "Metallurgy",
+        "Crystal (programming language)",
+        "Structural engineering",
+        "Nickel alloy",
+        "Aluminium alloy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是锻造Ti-6Al-4V合金，而非增材制造材料，与用户关注的增材制造Ti-6Al-4V机械性能方向不符。",
+        "why_not_core": "The paper investigates forged Ti-6Al-4V, not additively manufactured Ti-6Al-4V, which is the core requirement of Layer 1.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "forged",
+          "fatigue",
+          "crystal plasticity",
+          "grain-scale",
+          "in-situ experiment"
+        ],
+        "summary_zh": {
+          "motivation": "揭示锻造Ti-6Al-4V合金在晶粒尺度的局部损伤和疲劳预测机制",
+          "method": "结合原位实验与晶体塑性有限元模拟进行晶粒尺度分析",
+          "result": "实现了对锻造Ti-6Al-4V合金疲劳寿命的准确预测",
+          "validation": "通过原位实验数据验证了晶体塑性模型的预测精度"
+        },
+        "summary_en": {
+          "motivation": "To understand grain-scale localized damage and fatigue behavior in forged Ti-6Al-4V alloy.",
+          "method": "Integrated in-situ experimental characterization with crystal plasticity finite element simulations.",
+          "result": "Accurate fatigue life prediction for forged Ti-6Al-4V was achieved.",
+          "validation": "Validated by in-situ experimental data from mechanical testing and grain-scale observations."
+        },
+        "key_terms": [
+          {
+            "en": "forged Ti-6Al-4V",
+            "zh": "锻造Ti-6Al-4V"
+          },
+          {
+            "en": "crystal plasticity finite element",
+            "zh": "晶体塑性有限元"
+          },
+          {
+            "en": "grain-scale damage",
+            "zh": "晶粒尺度损伤"
+          },
+          {
+            "en": "fatigue prediction",
+            "zh": "疲劳预测"
+          },
+          {
+            "en": "in-situ experiment",
+            "zh": "原位实验"
+          },
+          {
+            "en": "localized damage",
+            "zh": "局部损伤"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:51:36Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "High": 1
+      "High": 1,
+      "Exclude": 1
     }
   }
 }

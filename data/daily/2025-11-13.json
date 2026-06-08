@@ -56,8 +56,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是机器学习框架用于合金成分设计，而非增材制造Ti-6Al-4V的力学或疲劳性能。",
-        "why_not_core": "The paper does not address additively manufactured Ti-6Al-4V; it focuses on as-cast alloy design via machine learning, lacking any AM-specific mechanical or fatigue characterization.",
+        "relevance_to_user": "该论文并非专门针对Ti-6Al-4V的力学或疲劳性能研究，而是提出通用机器学习框架，仅以钛基合金为例验证，不满足方向聚焦要求。",
+        "why_not_core": "The paper does not focus on Ti-6Al-4V; it presents a general ML framework for alloy design with a Ti-based alloy case study, not a dedicated mechanical/fatigue characterization of Ti-6Al-4V.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -66,23 +66,23 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
           "machine learning",
           "alloy design",
           "property prediction",
-          "inverse design"
+          "inverse design",
+          "titanium alloys"
         ],
         "summary_zh": {
-          "motivation": "加速先进合金材料发现，解决成分空间大和性能目标冲突问题。",
-          "method": "提出MATAI通用机器学习框架，集成数据库、神经网络预测器和约束优化引擎。",
-          "result": "在钛合金体系上七次迭代设计出密度低于4.45 g/cm³、强度高于1000 MPa且延展性大于5%的合金。",
-          "validation": "实验验证设计的合金性能优于商业TC4（Ti-6Al-4V）。"
+          "motivation": "利用机器学习加速先进合金的发现",
+          "method": "集成数据库、深度神经网络预测器和约束优化框架",
+          "result": "在钛基合金中快速设计出性能优于TC4的候选合金",
+          "validation": "实验验证设计合金优于商业参考材料"
         },
         "summary_en": {
-          "motivation": "To accelerate the discovery of advanced metallic alloys by addressing vast composition spaces and competing property objectives.",
-          "method": "MATAI integrates a curated alloy database, deep neural network predictors, and a constraint-aware optimization engine with bi-level search.",
-          "result": "The framework identified Ti-alloy candidates with density <4.45 g/cm³, strength >1000 MPa, and ductility >5% within seven iterations.",
-          "validation": "Experimental validation confirmed the designed alloys outperformed commercial TC4 (Ti-6Al-4V)."
+          "motivation": "To accelerate discovery of advanced metallic alloys by overcoming vast composition spaces and competing objectives.",
+          "method": "A machine learning framework integrating curated database, multi-task neural network predictors, constraint-aware optimization, and iterative feedback loop.",
+          "result": "Identified Ti-based alloy candidates with lower density, higher strength, and appreciable ductility within seven iterations.",
+          "validation": "Experimental confirmation that designed alloys outperform commercial TC4 reference."
         },
         "key_terms": [
           {
@@ -102,40 +102,160 @@
             "zh": "逆向设计"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "en": "Ti-based alloys",
+            "zh": "钛基合金"
           },
           {
-            "en": "multi-task learning",
-            "zh": "多任务学习"
-          },
-          {
-            "en": "constrained optimization",
-            "zh": "约束优化"
+            "en": "TC4",
+            "zh": "TC4（Ti-6Al-4V）"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T21:53:42Z"
+      "first_seen_at": "2026-06-08T08:31:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4416179864",
+      "doi": "10.1007/s11665-025-12747-5",
+      "title": "Passive Behavior of Ti-6Al-4V Alloy Fabricated Using Pulsed Arc Additive Manufacturing",
+      "abstract": "",
+      "authors": [
+        "Longfei Song",
+        "Yang Chao",
+        "Bokai Liao",
+        "Yipeng Wang",
+        "Benli Luan"
+      ],
+      "first_author_affiliation": "Eastern Institute for Advanced Study, Eastern Institute of Technology, Ningbo, 315200, China",
+      "corresponding_authors": [
+        {
+          "name": "Yipeng Wang",
+          "affiliation": "College of Materials Science and Engineering, Beijing University of Technology, Beijing, 100124, China"
+        },
+        {
+          "name": "Benli Luan",
+          "affiliation": "Department of Chemistry, Western University, London, ON, N6A 5B7, Canada"
+        }
+      ],
+      "venue": "Journal of Materials Engineering and Performance",
+      "year": 2025,
+      "date": "2025-11-13",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s11665-025-12747-5",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Alloy",
+        "Passivation",
+        "Corrosion",
+        "Electromagnetic shielding",
+        "Metallurgy",
+        "Arc (geometry)",
+        "Electrochemistry",
+        "Direct current",
+        "Titanium alloy",
+        "Composite material",
+        "X-ray photoelectron spectroscopy",
+        "Titanium",
+        "Electrode",
+        "Electric arc",
+        "Semiconductor",
+        "Current (fluid)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及增材制造Ti-6Al-4V的钝化行为，而非力学或疲劳性能，与本方向聚焦点不一致。",
+        "why_not_core": "The paper focuses on corrosion/passive behavior rather than mechanical or fatigue properties, and contains no tensile, fatigue, or other mechanical characterization data.",
+        "validation_kind": "in_vitro",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "pulsed arc additive manufacturing",
+          "passive behavior",
+          "corrosion"
+        ],
+        "summary_zh": {
+          "motivation": "研究脉冲电弧增材制造Ti-6Al-4V的钝化行为",
+          "method": "通过电化学测试分析不同工艺条件下的钝化膜特性",
+          "result": "发现增材制造试样的钝化行为与锻造态存在差异",
+          "validation": "电化学实验验证"
+        },
+        "summary_en": {
+          "motivation": "This study investigates the passive behavior of Ti-6Al-4V alloy fabricated by pulsed arc additive manufacturing to understand its corrosion resistance.",
+          "method": "Electrochemical tests were conducted to characterize the passive film properties under different processing conditions.",
+          "result": "The passive behavior of the additively manufactured specimens differed from that of wrought counterparts.",
+          "validation": "Experimental electrochemical validation."
+        },
+        "key_terms": [
+          {
+            "en": "pulsed arc additive manufacturing",
+            "zh": "脉冲电弧增材制造"
+          },
+          {
+            "en": "passive behavior",
+            "zh": "钝化行为"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
+          },
+          {
+            "en": "electrochemical test",
+            "zh": "电化学测试"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:31:07Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "arxiv": 1
+      "arxiv": 1,
+      "openalex": 1
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "arxiv": 1
+      "arxiv": 1,
+      "openalex": 1
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 1,
+      "Low": 1
     }
   }
 }

@@ -55,6 +55,7 @@
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "TC4",
+          "microstructure",
           "residual stress"
         ]
       },
@@ -62,8 +63,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究飞秒激光焊接石英玻璃与TC4合金，不属于增材制造Ti-6Al-4V的力学与疲劳性能范畴。",
-        "why_not_core": "This paper focuses on femtosecond laser welding of quartz glass to TC4 alloy, not on additively manufactured Ti-6Al-4V mechanical or fatigue performance.",
+        "relevance_to_user": "该论文研究的是飞秒激光焊接石英玻璃与TC4钛合金的工艺，并非增材制造Ti-6Al-4V的力学或疲劳性能。",
+        "why_not_core": "The paper focuses on dissimilar laser welding of quartz glass to TC4, not on additive manufacturing (LPBF/SLM/EBM/DED) of Ti-6Al-4V, and does not address mechanical/fatigue performance typical of AM Ti-6Al-4V.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -73,22 +74,22 @@
         },
         "tags": [
           "femtosecond laser welding",
-          "quartz glass",
-          "TC4",
+          "quartz glass-TC4",
+          "dissimilar joints",
           "residual stress",
           "shear strength"
         ],
         "summary_zh": {
-          "motivation": "针对石英玻璃与TC4合金的飞秒激光焊接工艺优化需求，研究离焦量和焊道间距对焊接质量的影响。",
-          "method": "通过改变离焦量和焊道间距进行飞秒激光焊接实验，利用XRD和GPA分析残余应力与应变。",
-          "result": "离焦量+0.1 mm、焊道间距40 μm时获得最大剪切强度14.4 MPa，焊道间距影响残余应力波动。",
-          "validation": "剪切强度测试及XRD残余应力测量验证工艺参数效果。"
+          "motivation": "研究飞秒激光焊接石英玻璃与TC4钛合金的工艺优化及性能。",
+          "method": "改变离焦量和焊道间距，分析显微组织和残余应力。",
+          "result": "在离焦量+0.1 mm和焊道间距40 μm时获得最大剪切强度14.4 MPa。",
+          "validation": "通过剪切测试和XRD/GPA实验验证残余应力分布。"
         },
         "summary_en": {
-          "motivation": "To optimize femtosecond laser welding of quartz glass to TC4 alloy for specialized photoelectric effect containers by investigating defocus distance and weld spacing effects.",
-          "method": "Femtosecond laser welding experiments with varying defocus distance and weld spacing were conducted, and residual stress was analyzed using XRD and GPA.",
-          "result": "A maximum shear strength of 14.4 MPa was achieved at +0.1 mm defocus and 40 μm spacing, with weld spacing significantly affecting residual stress fluctuations.",
-          "validation": "Experimental validation through shear strength tests and XRD residual stress measurements."
+          "motivation": "To optimize femtosecond laser welding process for joining quartz glass to Ti-6Al-4V alloy under non-optical contact conditions.",
+          "method": "Investigated effects of defocus distance and weld spacing on microstructure, phase composition, and residual stress using XRD and GPA.",
+          "result": "Maximum shear strength of 14.4 MPa achieved at defocus distance +0.1 mm and weld spacing 40 μm.",
+          "validation": "Experimental shear tests and residual stress measurements via XRD and GPA."
         },
         "key_terms": [
           {
@@ -96,12 +97,12 @@
             "zh": "飞秒激光焊接"
           },
           {
-            "en": "quartz glass",
-            "zh": "石英玻璃"
+            "en": "TC4 titanium alloy",
+            "zh": "TC4钛合金"
           },
           {
-            "en": "TC4 alloy (Ti-6Al-4V)",
-            "zh": "TC4合金（Ti-6Al-4V）"
+            "en": "quartz glass",
+            "zh": "石英玻璃"
           },
           {
             "en": "defocus distance",
@@ -120,14 +121,18 @@
             "zh": "残余应力"
           },
           {
-            "en": "GPA (geometric phase analysis)",
+            "en": "XRD",
+            "zh": "X射线衍射"
+          },
+          {
+            "en": "GPA",
             "zh": "几何相位分析"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
     }
   ],
   "counts": {

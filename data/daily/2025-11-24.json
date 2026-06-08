@@ -54,15 +54,19 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "selective laser melting",
+          "SLM",
           "surface roughness"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文主要研究骨-植入物界面的摩擦行为，而非Ti-6Al-4V的力学或疲劳性能。",
-        "why_not_core": "This paper does not characterize or model the mechanical/fatigue properties of additively manufactured Ti-6Al-4V; it focuses on interfacial friction with bone, which is outside the scope of L1.",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要关注骨与增材制造Ti6Al4V植入物界面的摩擦行为，而非Ti-6Al-4V的基础力学或疲劳性能，因此对L1方向的相关性较低。",
+        "why_not_core": "This paper focuses on interfacial friction between bone and implant rather than on the mechanical or fatigue properties of Ti-6Al-4V itself (e.g., tensile strength, S-N curves, crack initiation).",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -72,31 +76,31 @@
         },
         "tags": [
           "Ti6Al4V",
-          "friction",
-          "bone-implant interface",
           "SLM",
-          "coefficient of friction"
+          "coefficient of friction",
+          "bone density",
+          "surface roughness"
         ],
         "summary_zh": {
-          "motivation": "骨植入物界面摩擦对初始稳定性至关重要，但缺乏相关数据。",
-          "method": "测量不同骨密度和表面纹理的Ti6Al4V植入物在不同法向应力下的摩擦系数。",
-          "result": "摩擦系数范围0.37-0.95，受表面粗糙度、骨密度和法向应力显著影响。",
-          "validation": "通过往复摩擦试验验证。"
+          "motivation": "骨-植入物界面摩擦系数数据缺乏，尤其是增材制造表面形态与骨质量组合。",
+          "method": "使用往复摩擦试验测量不同骨密度和SLM Ti6Al4V表面纹理在三种法向应力下的摩擦系数。",
+          "result": "摩擦系数范围为0.37-0.95，受表面粗糙度、骨密度和法向应力的显著影响。",
+          "validation": "通过人松质骨样品和SLM制备的Ti6Al4V试件进行实验验证。"
         },
         "summary_en": {
-          "motivation": "Friction at bone-implant interface is crucial for initial stability but limited data exists.",
-          "method": "Measured interfacial COFs for combinations of bone qualities and SLM-produced Ti6Al4V surface textures under varying normal stresses.",
-          "result": "COFs ranged 0.37-0.95, significantly influenced by surface roughness, bone density, and normal stress.",
-          "validation": "Validated through reciprocal friction testing."
+          "motivation": "Limited data exists on coefficients of friction for combinations of bone quality and additively manufactured implant surface textures, which are critical for initial stability.",
+          "method": "Reciprocal friction tests were conducted with human cancellous bone of three bone mineral density levels and four SLM-produced Ti6Al4V surface textures under three normal stresses.",
+          "result": "Coefficients of friction ranged from 0.37 to 0.95, significantly influenced by surface roughness (positive), bone density (negative), and normal stress (negative), with no significant interaction effects.",
+          "validation": "Validation was performed through experimental friction measurements using actual human bone specimens and additively manufactured Ti6Al4V samples."
         },
         "key_terms": [
           {
-            "en": "coefficient of friction",
-            "zh": "摩擦系数"
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
           },
           {
-            "en": "selective laser melting",
-            "zh": "选择性激光熔化"
+            "en": "coefficient of friction",
+            "zh": "摩擦系数"
           },
           {
             "en": "bone mineral density",
@@ -108,13 +112,13 @@
           },
           {
             "en": "Ti6Al4V",
-            "zh": "钛6铝4钒"
+            "zh": "Ti6Al4V合金"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:19:10Z"
+      "first_seen_at": "2026-06-08T08:31:07Z"
     },
     {
       "source": "openalex",
@@ -166,16 +170,22 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "3D printed",
+          "LPBF",
           "elongation",
           "porosity"
         ]
       },
       "llm": {
         "priority": "Medium",
-        "relevance_level": "Direct",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文建立了LPBF工艺参数与Ti-6Al-4V拉伸性能之间的预测模型，但未涉及疲劳性能。",
-        "why_not_core": "Paper focuses on tensile properties and porosity prediction, but does not address fatigue life, S-N curves, or any fatigue-related mechanical performance.",
+        "relevance_level": "Peripheral",
+        "read_action": "Skim only",
+        "relevance_to_user": "本文主要针对不锈钢316L开发了LPBF工艺-孔隙-力学性能的集成模型，仅用文献数据验证了Ti6Al4V的预测，未提供Ti6Al4V的新实验或专门建模结果。",
+        "why_not_core": "The paper's primary material is stainless steel 316L, with Ti6Al4V only used for comparison using literature data; it does not present new experimental or dedicated modeling for Ti6Al4V LPBF mechanical/fatigue performance.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -185,23 +195,24 @@
         },
         "tags": [
           "LPBF",
-          "Ti-6Al-4V",
           "porosity",
-          "tensile properties",
           "GTN model",
-          "stress-strain prediction"
+          "fracture strength",
+          "process factors",
+          "stainless steel",
+          "Ti6Al4V"
         ],
         "summary_zh": {
-          "motivation": "建立LPBF工艺参数与孔隙率及拉伸性能之间的定量关联",
-          "method": "集成多物理场熔池模型与GTN连续损伤力学模型预测应力-应变行为",
-          "result": "模型预测Ti-6Al-4V的孔隙率、UTS和延伸率与文献实验值吻合良好",
-          "validation": "通过不锈钢316L试样微CT与拉伸实验以及文献Ti-6Al-4V数据对比验证"
+          "motivation": "建立LPBF工艺参数与孔隙率及力学性能之间的关联模型",
+          "method": "集成多物理场模型与GTN损伤模型预测应力-应变曲线",
+          "result": "模型对多种材料（316L、Ti6Al4V等）的孔隙率、UTS和延伸率预测精度良好",
+          "validation": "通过316L的微CT和拉伸实验及文献数据验证"
         },
         "summary_en": {
-          "motivation": "To correlate laser powder bed fusion process parameters with porosity level and resulting tensile properties for additive manufactured metals.",
-          "method": "An integrated multi-physics analytical model coupling melt pool formation and lack-of-fusion mechanisms with the Gurson-Tvergaard-Needleman continuum damage model predicts stress-strain behavior from porosity.",
-          "result": "The model predicts ultimate tensile strength and elongation of Ti-6Al-4V with relative root mean square error between 3% and 20% when compared to literature experimental data.",
-          "validation": "Validation was performed using micro-CT and tensile tests on stainless steel 316L samples and comparisons with published experimental data for Ti-6Al-4V, Inconel 718, and AlSi10Mg."
+          "motivation": "To establish a correlation between LPBF process factors, porosity level, and resulting mechanical properties for additive manufactured parts.",
+          "method": "An integrated multi-physics analytical model combining melt pool and vapor depression mechanics with the Gurson-Tvergaard-Needleman (GTN) continuum damage model was developed to predict stress-strain behavior from process parameters.",
+          "result": "The model successfully predicted porosity, ultimate tensile strength, and elongation for multiple materials (316L, Ti6Al4V, Inconel 718, AlSi10Mg) with relative root mean square error ranging from 3% to 30%.",
+          "validation": "The model was validated against micro-CT and tensile tests for 316L samples and compared with literature data for Ti6Al4V and other alloys."
         },
         "key_terms": [
           {
@@ -213,61 +224,461 @@
             "zh": "孔隙率"
           },
           {
-            "en": "Gurson-Tvergaard-Needleman model",
+            "en": "GTN model",
             "zh": "Gurson-Tvergaard-Needleman模型"
+          },
+          {
+            "en": "fracture strength",
+            "zh": "断裂强度"
           },
           {
             "en": "stress-strain behavior",
             "zh": "应力-应变行为"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "en": "process factors",
+            "zh": "工艺参数"
           },
           {
-            "en": "tensile properties",
-            "zh": "拉伸性能"
+            "en": "stainless steel 316L",
+            "zh": "316L不锈钢"
           },
           {
-            "en": "ultimate tensile strength",
-            "zh": "极限抗拉强度"
-          },
-          {
-            "en": "elongation",
-            "zh": "延伸率"
-          },
-          {
-            "en": "lack-of-fusion",
-            "zh": "未熔合"
-          },
-          {
-            "en": "melt pool",
-            "zh": "熔池"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:19:10Z"
+      "first_seen_at": "2026-06-08T08:31:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4416602662",
+      "doi": "10.1149/ma2025-02151156mtgabs",
+      "title": "Effect of Copper Addition to Titanium Alloy Prepared By Additive Manufacturing for Biomedical Applications",
+      "abstract": "Infection remains one of the most serious complications in orthopedic and dental implants, and the ongoing search for effective solutions to reduce infection rates has been a focal point of research for decades. The challenge is to create a material with inherent antibacterial properties that do not compromise other essential biomaterial qualities. This study aimed to develop and characterize a novel material based on the widely used Ti-6Al-4V alloy commonly employed in orthopedic and dental medicine. Copper was added as an antimicrobial agent and an essential element in the human body, aiming to promote an intrinsic antibacterial ability of the material. The Ti-6Al-4V alloy was produced using additive manufacturing via laser-based direct energy deposition (DED-LB). A laser is applied to melt the locally fed Ti-6Al-4V metal powder and fuse it with the previously deposited layer. The Ti-6Al-4V- x Cu alloy was also produced using DED-LB, but copper powder was added to the Ti-6Al-4V powder. Materials characterization was performed using scanning electron microscopy (SEM) with energy-dispersive X-ray spectroscopy (EDS), X-ray diffraction (XRD) and X-ray photoelectron spectroscopy (XPS). Electrochemical tests were conducted in simulated physiological solutions (Hanks balanced salt solution, 0.9 wt.% sodium chloride and artificial saliva). Commercially available wrought Ti-6Al-4V alloy, produced by conventional metallurgical methods, was used as a reference (1). The microstructure and corrosion resistance of alloys manufactured by DED-LB have been addressed less extensively than those produced by power bed fusion processes. The composition, structure and electrochemical behaviour of Ti-6Al-4V alloy produced by two different methods: (i) wrought alloy produced by conventional metallurgy and (ii) additively manufactured (AM) alloy produced by DED-LB from Ti-6Al-4V without and with Cu powders were studied. Although the wrought and AM Ti-6Al-4V alloys shared identical chemical compositions, they exhibited distinct microstructures. The wrought alloy featured an α-phase matrix with intergranular β-phase, whereas the AM-produced alloys presented a lamellar Widmanstätten structure. Adding copper to the Ti-6Al-4V alloy reflected changes in the alloy’s microstructure and chemical composition. Both wrought, and DED-LB Ti-6Al-4V alloys exhibited passivation in the simulated physiological solution and showed no signs of localized corrosion. Moreover, the addition of copper did not compromise the alloy’s protective behavior in the simulated solutions, as confirmed by the long-term immersion and osseointegration tests. These results demonstrate that the properties of both DED-LB-produced Ti-6Al-4V and Ti-6Al-4V-Cu alloys are comparable to the commercial wrought alloy, highlighting their potential for further investigation regarding corrosion resistance and biological performance. References: Milošev, D. Sačer, B. Kapun, P. Rodič, The effect of metallographic preparation on the surface characteristics and corrosion behaviour of Ti-6Al-4V alloy in simulated physiological solutions, J. Electrochem. Soc. 171 (2024) 111503. Milošev, P. Rodič, B. Kapun, D. Sačer, A. Nair, D. Kramar, A. Jeromen, E. Govekar, Composition, microstructure and corrosion resistance of DED-LB additively manufactured Ti-6Al-4V alloy: comparison with wrought alloy, submitted. Milošev, B. Kapun, D. Sačer, P. Rodič, Effect of copper addition to titanium alloy prepared by laser-based directed energy deposition, in preparation. Acknowledgements: The Ti-6Al-4V(-Cu) alloys were manufactured at the Faculty of Mechanical Engineering of the University of Ljubljana, Slovenia. This study was financed by the Slovenian Research and Innovation Agency (project No. J7-4639, acronym BIOAD).",
+      "authors": [
+        "Ingrid Milošev",
+        "Denis Sačer",
+        "Barbara Kapun",
+        "Chenyang Xie",
+        "Ana Kraš",
+        "Peter Rodič"
+      ],
+      "first_author_affiliation": "Jozef Stefan Institute",
+      "corresponding_authors": [
+        {
+          "name": "Ingrid Milošev",
+          "affiliation": "Jozef Stefan Institute"
+        }
+      ],
+      "venue": "ECS Meeting Abstracts",
+      "year": 2025,
+      "date": "2025-11-24",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1149/ma2025-02151156mtgabs",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Alloy",
+        "Metallurgy",
+        "Scanning electron microscope",
+        "Microstructure",
+        "Corrosion",
+        "Titanium alloy",
+        "Energy-dispersive X-ray spectroscopy",
+        "Copper",
+        "Powder metallurgy",
+        "Biomaterial",
+        "Dielectric spectroscopy",
+        "X-ray photoelectron spectroscopy",
+        "Electrochemistry",
+        "Metal powder"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "directed energy deposition",
+          "DED",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了添加铜的Ti-6Al-4V合金的抗菌性和腐蚀性能，但未涉及任何力学或疲劳性能，因此与本方向的核心关注点不相关。",
+        "why_not_core": "The paper focuses on antibacterial properties, microstructure, and corrosion resistance of Cu-added Ti-6Al-4V, with no mechanical or fatigue characterization.",
+        "validation_kind": "in_vitro",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "copper addition",
+          "direct energy deposition",
+          "antibacterial",
+          "corrosion resistance"
+        ],
+        "summary_zh": {
+          "motivation": "开发具有抗菌性能且不损害生物相容性的Ti-6Al-4V合金。",
+          "method": "通过激光直接能量沉积制备含铜Ti-6Al-4V合金，并进行微观结构和电化学表征。",
+          "result": "添加铜未影响合金在模拟生理溶液中的钝化行为，且无局部腐蚀。",
+          "validation": "通过在模拟生理溶液中的电化学测试和长期浸泡实验验证。"
+        },
+        "summary_en": {
+          "motivation": "This study aims to develop a Ti-6Al-4V alloy with inherent antibacterial properties by adding copper without compromising other biomaterial qualities.",
+          "method": "Ti-6Al-4V-xCu alloys were fabricated by laser-based direct energy deposition (DED-LB) and characterized using SEM/EDS, XRD, XPS, and electrochemical tests.",
+          "result": "Copper addition did not degrade the passivation behavior or corrosion resistance in simulated physiological solutions, and the alloys showed no localized corrosion.",
+          "validation": "Validation was performed through electrochemical tests, long-term immersion, and osseointegration tests in simulated body fluids."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "copper addition",
+            "zh": "铜添加"
+          },
+          {
+            "en": "direct energy deposition",
+            "zh": "直接能量沉积"
+          },
+          {
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
+          },
+          {
+            "en": "antibacterial",
+            "zh": "抗菌"
+          },
+          {
+            "en": "electrochemical test",
+            "zh": "电化学测试"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "biomedical applications",
+            "zh": "生物医学应用"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:31:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4416575315",
+      "doi": "10.3390/ma18235296",
+      "title": "Effect of Cryo-Rolling on the Microstructural Evolution and Mechanical Properties of Ti-6Al-4V Alloy",
+      "abstract": "Ti-6Al-4V is valued for its strength-to-weight ratio in engineering applications. Cryo-rolling at sub-zero temperatures enhances strength and hardness through grain refinement and dislocation build-up. The present study investigates the role of cryo-rolling on the microstructural characteristics and mechanical properties of the alloy, which undergoes various degrees of deformation followed by heating at 900 °C for selected samples. Microstructural analysis reveals grain elongation, sub-grain formation, deformation bands, and dislocation densification with increasing thickness reduction. Twinning dominates deformation at low strain, while dislocation slips take over at high strain because of the decrease in grain size, which makes the formation of new twins progressively more challenging. No metastable phase appears during cryo-rolling or heat treatment, as confirmed by X-ray diffraction. Cryo-rolled samples exhibit about 45% and 29% reduction in grain size and crystallite size, and 160% intensification in dislocation density. This leads to rises of 19%, 23%, and 10% in yield strength, tensile strength, and hardness, respectively, while ductility remains nearly constant across all cryo-rolled conditions. Cryo-rolling inhibits dynamic recovery and recrystallisation, so strengthening mainly results from grain refinement and dislocation accumulation. These findings suggest that cryo-rolling can improve the strength and hardness of Ti-6Al-4V, while maintaining ductility and providing new processing insights.",
+      "authors": [
+        "Vaibhav Gaur",
+        "Pargam Vashishtha",
+        "Biraj Kumar Sahoo",
+        "Ravi Kumar Bandari",
+        "Raj Das"
+      ],
+      "first_author_affiliation": "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India",
+      "corresponding_authors": [
+        {
+          "name": "Vaibhav Gaur",
+          "affiliation": "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India"
+        },
+        {
+          "name": "Ravi Kumar Bandari",
+          "affiliation": "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-11-24",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18235296",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Dislocation",
+        "Grain size",
+        "Ductility (Earth science)",
+        "Crystal twinning",
+        "Crystallite",
+        "Ultimate tensile strength",
+        "Deformation (meteorology)",
+        "Alloy",
+        "Metallurgy",
+        "Deformation mechanism",
+        "Grain boundary strengthening",
+        "Microstructure",
+        "Composite material",
+        "Plasticity",
+        "Phase (matter)",
+        "Metastability",
+        "Yield (engineering)",
+        "Strengthening mechanisms of materials",
+        "Grain boundary",
+        "Grain growth"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "tensile strength",
+          "yield strength",
+          "elongation",
+          "ductility"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是传统加工Ti-6Al-4V的低温轧制，而非增材制造Ti-6Al-4V，因此与用户关注的后处理方向不直接相关。",
+        "why_not_core": "This paper studies cryo-rolling on conventionally processed Ti-6Al-4V, not additively manufactured Ti-6Al-4V, thus it does not address the specific post-processing behavior of AM material.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "cryo-rolling",
+          "Ti-6Al-4V",
+          "microstructural evolution",
+          "mechanical properties",
+          "strength",
+          "ductility"
+        ],
+        "summary_zh": {
+          "motivation": "探索低温轧制对Ti-6Al-4V微观结构和力学性能的影响。",
+          "method": "对Ti-6Al-4V进行不同程度的低温轧制变形，部分样品随后加热至900°C，分析微观结构和力学性能。",
+          "result": "低温轧制使晶粒尺寸减小45%，位错密度增加160%，屈服强度和抗拉强度分别提高19%和23%，硬度提高10%，而延性基本保持不变。",
+          "validation": "通过X射线衍射、微观组织观察和拉伸/硬度测试验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of cryo-rolling on the microstructural evolution and mechanical properties of Ti-6Al-4V alloy.",
+          "method": "Ti-6Al-4V samples were subjected to various degrees of cryo-rolling deformation, with selected samples subsequently heated at 900°C; microstructural and mechanical characterizations were performed.",
+          "result": "Cryo-rolling reduced grain and crystallite sizes by 45% and 29% respectively, increased dislocation density by 160%, and raised yield strength, tensile strength, and hardness by 19%, 23%, and 10% while maintaining ductility.",
+          "validation": "Validation was done via X-ray diffraction, microstructural analysis, and tensile/hardness testing."
+        },
+        "key_terms": [
+          {
+            "en": "cryo-rolling",
+            "zh": "低温轧制"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "grain refinement",
+            "zh": "晶粒细化"
+          },
+          {
+            "en": "dislocation density",
+            "zh": "位错密度"
+          },
+          {
+            "en": "yield strength",
+            "zh": "屈服强度"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          },
+          {
+            "en": "ductility",
+            "zh": "延性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:31:07Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4416589916",
+      "doi": "10.1007/s13369-025-10850-2",
+      "title": "Investigation of Machining Performance of Ti6Al4V Alloy in Face Milling Process Considering the Energy Consumption and Carbon Emission",
+      "abstract": "",
+      "authors": [
+        "Kutay Aydın",
+        "Barış ÖZLÜ",
+        "Levent Uğur"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, Amasya University, Amasya, Turkey",
+      "corresponding_authors": [
+        {
+          "name": "Kutay Aydın",
+          "affiliation": "Department of Mechanical Engineering, Amasya University, Amasya, Turkey"
+        }
+      ],
+      "venue": "Arabian Journal for Science and Engineering",
+      "year": 2025,
+      "date": "2025-11-24",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s13369-025-10850-2",
+      "cited_by_count": 2,
+      "concepts": [
+        "Machining",
+        "Energy consumption",
+        "Materials science",
+        "Mechanical engineering",
+        "Titanium alloy",
+        "Metallurgy",
+        "Carbide",
+        "Tool wear",
+        "Process engineering",
+        "Efficient energy use",
+        "Carbon fibers",
+        "Process (computing)",
+        "Energy (signal processing)",
+        "Alloy",
+        "Specific energy",
+        "Cutting tool",
+        "Carbon steel",
+        "Factorial experiment",
+        "Sustainability",
+        "Rotational speed"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究Ti6Al4V面铣加工过程中的能耗与碳排放，未涉及增材制造后处理对疲劳或力学性能的影响。",
+        "why_not_core": "The paper focuses on machining energy consumption and carbon emission, not on post-processing effects on fatigue or mechanical performance of AM Ti-6Al-4V.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti6Al4V",
+          "face milling",
+          "energy consumption",
+          "carbon emission"
+        ],
+        "summary_zh": {
+          "motivation": "研究Ti6Al4V合金面铣加工的能耗与碳排放规律",
+          "method": "通过实验测量和建模分析加工参数对能耗与碳排放的影响",
+          "result": "发现了加工参数与能耗、碳排放之间的定量关系",
+          "validation": "实验验证了能耗与碳排放模型的准确性"
+        },
+        "summary_en": {
+          "motivation": "To investigate the energy consumption and carbon emission characteristics of face milling of Ti6Al4V alloy.",
+          "method": "Experimental measurements and modeling were employed to analyze the influence of machining parameters on energy and emissions.",
+          "result": "Quantitative relationships between machining parameters, energy consumption, and carbon emissions were established.",
+          "validation": "The energy and emission models were validated through experimental data."
+        },
+        "key_terms": [
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
+          },
+          {
+            "en": "face milling",
+            "zh": "面铣"
+          },
+          {
+            "en": "energy consumption",
+            "zh": "能耗"
+          },
+          {
+            "en": "carbon emission",
+            "zh": "碳排放"
+          },
+          {
+            "en": "machining performance",
+            "zh": "加工性能"
+          },
+          {
+            "en": "sustainable manufacturing",
+            "zh": "可持续制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:31:07Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 5,
     "by_source": {
-      "openalex": 2
+      "openalex": 5
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 5,
+    "after_routing": 5,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 2
+      "ti6al4v_base_mechanical_fatigue": 3,
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 5
     },
-    "scored": 2,
+    "scored": 5,
     "priority_counts": {
-      "Exclude": 1,
-      "Medium": 1
+      "Low": 2,
+      "Medium": 1,
+      "Exclude": 2
     }
   }
 }

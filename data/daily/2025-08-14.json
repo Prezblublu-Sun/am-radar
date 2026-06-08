@@ -5,6 +5,145 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W4417042747",
+      "doi": "10.1108/rpj-07-2024-0301",
+      "title": "Simulation and experimental analysis of melt pool characteristics in selective laser melting of Ti-6Al-4V alloy",
+      "abstract": "Purpose As an additive manufacturing technology, selective laser melting (SLM) has garnered significant attention due to its ability to fabricate complex samples. Ti-6Al-4V, characterized by its superior strength-to-weight ratio and corrosion resistance, is one of the most important raw materials for SLM printing. Nonetheless, Ti-6Al-4V samples, fabricated via SLM, frequently present high porosity and elevated surface roughness as defects. Given the swift thermal cycling inherent in the SLM process, studying the melt pool’s evolution using simulation tools is essential. The aim to this paper is to establish a reliable simulation model to study the influence of laser power and scanning speed on the melt track forming quality during the SLM processing. And the advantage of the visualization of the internal flow of the molten pool in the simulation model is used to analyze the formation reasons of some defects in the melt track. Design/methodology/approach This paper uses Fluent to create a model for the Ti-6Al-4V melt pool during the single-track formation in SLM. The developed model considers factors such as fluid dynamics, heat transfer, surface tension, the Marangoni effect and recoil pressure. Findings The simulation reveals the evolution patterns of the melt pool under different process parameters. The results demonstrate that both the laser power and scanning speed substantially impact the melt pool’s thermal properties and morphological features. At a lower energy density, defects such as unmelted particles and balling tend to occur, while at a higher energy density, defects such as keyholes and spattering tend to occur. This paper further analyzes the causes of these defects. In addition, the simulation analysis conclusions regarding the impact of process parameters on the melt track quality of Ti-6Al-4V samples are validated through experiments. Originality/value In summary, the findings of this study provide a reliable theoretical analysis of the evolution of the melt pool. This serves as a rational basis for optimizing process parameters and improving the quality of the melt track.",
+      "authors": [
+        "Weidong Huang",
+        "Chen Liu",
+        "Hui Wang",
+        "Xiaolei Yan",
+        "Zebin Lin",
+        "Maohua Zhu"
+      ],
+      "first_author_affiliation": "Fujian University of Technology Fujian Key Laboratory of Intelligent Machining Technology and Equipment, , Fuzhou, , and School of Mechanical and Automotive Engineering, Fujian University of Technology, Fuzhou, China",
+      "corresponding_authors": [
+        {
+          "name": "Weidong Huang",
+          "affiliation": "Fujian University of Technology Fujian Key Laboratory of Intelligent Machining Technology and Equipment, , Fuzhou, , and School of Mechanical and Automotive Engineering, Fujian University of Technology, Fuzhou, China"
+        }
+      ],
+      "venue": "Rapid Prototyping Journal",
+      "year": 2025,
+      "date": "2025-08-14",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1108/rpj-07-2024-0301",
+      "cited_by_count": 3,
+      "concepts": [
+        "Selective laser melting",
+        "Materials science",
+        "Marangoni effect",
+        "Laser power scaling",
+        "Surface roughness",
+        "Porosity",
+        "Alloy",
+        "Thermal",
+        "Melt flow index",
+        "Composite material",
+        "Surface finish",
+        "Scanning electron microscope",
+        "Laser",
+        "Volume of fluid method",
+        "Flow (mathematics)",
+        "Microchannel",
+        "Laser scanning",
+        "Thermocouple",
+        "Metallurgy",
+        "Computer simulation",
+        "Fluent"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "selective laser melting",
+          "SLM",
+          "porosity",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了SLM成形Ti-6Al-4V熔池特性，但未提供力学或疲劳性能数据，对L1方向参考价值有限。",
+        "why_not_core": "The paper focuses on melt pool simulation and defect analysis, not on mechanical or fatigue characterization of Ti-6Al-4V.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "selective laser melting",
+          "Ti-6Al-4V",
+          "melt pool simulation",
+          "process parameters",
+          "defect analysis"
+        ],
+        "summary_zh": {
+          "motivation": "优化SLM工艺参数以提高Ti-6Al-4V熔道质量",
+          "method": "基于Fluent建立Ti-6Al-4V熔池CFD模型并实验验证",
+          "result": "激光功率和扫描速度显著影响熔池热特性和缺陷形成",
+          "validation": "通过单道熔池形貌实验对比验证模拟结果"
+        },
+        "summary_en": {
+          "motivation": "To improve the melt track quality of Ti-6Al-4V fabricated by selective laser melting by understanding melt pool evolution.",
+          "method": "A CFD model of the Ti-6Al-4V melt pool during single-track SLM was developed in Fluent, incorporating fluid dynamics, heat transfer, Marangoni effect, and recoil pressure, and validated with experiments.",
+          "result": "Laser power and scanning speed significantly affect melt pool thermal behavior and morphology; low energy density causes unmelted particles and balling, while high energy density leads to keyholes and spattering.",
+          "validation": "Simulation predictions of melt track geometry and defect types were compared with experimental single-track depositions."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "melt pool",
+            "zh": "熔池"
+          },
+          {
+            "en": "laser power",
+            "zh": "激光功率"
+          },
+          {
+            "en": "scanning speed",
+            "zh": "扫描速度"
+          },
+          {
+            "en": "defects",
+            "zh": "缺陷"
+          },
+          {
+            "en": "computational fluid dynamics",
+            "zh": "计算流体动力学"
+          },
+          {
+            "en": "process parameters",
+            "zh": "工艺参数"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W4413378127",
       "doi": "10.3390/mi16080936",
       "title": "Multi-Objective Optimization of Surface Roughness, Cutting Force, and Temperature in Ultrasonic-Vibration-Assisted Milling of Titanium Alloy",
@@ -67,11 +206,11 @@
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是钛合金超声振动辅助铣削的工艺参数优化，并非针对增材制造钛合金的后处理改性。",
-        "why_not_core": "The paper focuses on optimizing milling parameters for surface roughness and cutting forces, not on post-processing treatments that modify mechanical/fatigue performance of AM Ti-6Al-4V.",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及钛合金超声振动辅助铣削工艺参数优化，但未涉及增材制造后处理对疲劳性能的影响，与指定方向不直接相关。",
+        "why_not_core": "No additive manufacturing context, no fatigue or mechanical property testing, only machining parameters optimization without post-processing effects on microstructural/mechanical performance.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -84,24 +223,30 @@
           "Ti-6Al-4V",
           "surface roughness",
           "cutting force",
-          "grey relational analysis"
+          "cutting temperature",
+          "grey relational analysis",
+          "multi-objective optimization"
         ],
         "summary_zh": {
-          "motivation": "钛合金难加工导致切削区温度高、刀具磨损快。",
-          "method": "采用超声振动辅助铣削结合灰色关联分析对工艺参数进行多目标优化。",
-          "result": "优化参数后表面粗糙度0.268 μm，切削力降低，切削温度255.39°C。",
-          "validation": "通过正交实验和与常规铣削对比验证。"
+          "motivation": "优化钛合金超声振动辅助铣削工艺参数，改善加工质量。",
+          "method": "采用正交实验与灰色关联分析进行多目标优化。",
+          "result": "获得最优参数组合，表面粗糙度0.268 μm，切削力和温度显著降低。",
+          "validation": "通过实验验证优化方案的有效性。"
         },
         "summary_en": {
-          "motivation": "Titanium alloys are difficult to machine due to low thermal conductivity and high chemical activity.",
-          "method": "Multi-objective optimization of ultrasonic-vibration-assisted milling parameters using grey relational analysis.",
-          "result": "Optimized parameters achieved surface roughness of 0.268 μm and reduced cutting forces and temperature.",
-          "validation": "Orthogonal experiments and comparison with conventional milling."
+          "motivation": "To optimize process parameters in ultrasonic-vibration-assisted milling of Ti-6Al-4V to improve machining quality.",
+          "method": "Orthogonal experiments and grey relational analysis for multi-objective optimization of surface roughness, cutting force, and temperature.",
+          "result": "The optimized parameters achieved a surface roughness Sa of 0.268 μm and reduced cutting forces and temperature.",
+          "validation": "Experimental confirmation of the optimization scheme's effectiveness."
         },
         "key_terms": [
           {
             "en": "ultrasonic-vibration-assisted milling",
             "zh": "超声振动辅助铣削"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金TC4"
           },
           {
             "en": "surface roughness",
@@ -118,30 +263,35 @@
           {
             "en": "grey relational analysis",
             "zh": "灰色关联分析"
+          },
+          {
+            "en": "multi-objective optimization",
+            "zh": "多目标优化"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1,
       "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Low": 2
     }
   }
 }

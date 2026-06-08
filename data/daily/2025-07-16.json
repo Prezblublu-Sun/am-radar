@@ -5,6 +5,138 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W4412468069",
+      "doi": "10.1016/j.msea.2025.148834",
+      "title": "Enhancing ductility of additively manufactured Ti-6Al-4V via engineered porosity and post hot isostatic pressing treatment",
+      "abstract": "",
+      "authors": [
+        "Zi-Qi Zhao",
+        "M.Y. Xu",
+        "C.H. Wang",
+        "Lingyun Qian",
+        "Yongchun Li",
+        "Chaoyang Sun",
+        "Peipei Li"
+      ],
+      "first_author_affiliation": "Beijing Key Laboratory of Lightweight Metal Forming, Beijing, 100083, China",
+      "corresponding_authors": [
+        {
+          "name": "Peipei Li",
+          "affiliation": "Beijing Key Laboratory of Lightweight Metal Forming, Beijing, 100083, China"
+        }
+      ],
+      "venue": "Materials Science and Engineering A",
+      "year": 2025,
+      "date": "2025-07-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.msea.2025.148834",
+      "cited_by_count": 1,
+      "concepts": [
+        "Hot isostatic pressing",
+        "Ductility (Earth science)",
+        "Materials science",
+        "Porosity",
+        "Pressing",
+        "Metallurgy",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "ductility",
+          "porosity"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "hot isostatic pressing"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了热等静压后处理对SLM Ti-6Al-4V延展性的影响，完全符合L2方向要求。",
+        "why_not_core": "Does not include fatigue testing, only monotonic tensile ductility.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "hot isostatic pressing",
+          "ductility",
+          "porosity",
+          "additive manufacturing",
+          "post-processing",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "通过可控孔隙度和热等静压处理增强增材制造Ti-6Al-4V的延展性。",
+          "method": "采用激光粉末床熔融制备含设计孔隙的Ti-6Al-4V试样，随后进行热等静压处理。",
+          "result": "热等静压后孔隙闭合，延展性显著提升，强度略有降低。",
+          "validation": "通过拉伸测试和微观结构表征验证延展性改善效果。"
+        },
+        "summary_en": {
+          "motivation": "To improve the ductility of additively manufactured Ti-6Al-4V by combining engineered porosity with hot isostatic pressing (HIP) post-treatment.",
+          "method": "Ti-6Al-4V specimens with controlled initial porosity were fabricated by laser powder bed fusion and subsequently subjected to HIP.",
+          "result": "HIP treatment closed the engineered pores and significantly enhanced ductility, with a slight reduction in strength.",
+          "validation": "Validation was performed through tensile testing and microstructural analysis before and after HIP."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          },
+          {
+            "en": "engineered porosity",
+            "zh": "工程孔隙度"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          },
+          {
+            "en": "tensile test",
+            "zh": "拉伸测试"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:16:26Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W4412484623",
       "doi": "10.1007/s11661-025-07896-0",
       "title": "Y2O3-Doped BioGlass Coatings for Ti-6Al-4V Alloy: Insights into Degradation, Bioactivity, Ion Release, Adhesion, and Corrosion Behavior",
@@ -62,8 +194,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究Ti-6Al-4V合金的涂层性能，不涉及股骨柄结构设计或增材制造，与方向无关。",
-        "why_not_core": "This paper focuses solely on Y2O3-doped BioGlass coatings for Ti-6Al-4V alloy, investigating degradation, bioactivity, ion release, and corrosion; it does not address femoral stem structural design, additive manufacturing, lattice architectures, stress shielding, or mechanical performance of stems.",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V合金的涂层改性，但未涉及股骨柄结构设计、增材制造或力学性能，与用户关注的Ti-6Al-4V股骨柄结构设计和服务性能方向无关。",
+        "why_not_core": "No femoral stem design, no additive manufacturing, no structural/mechanical analysis of an implant; this paper studies coatings on Ti-6Al-4V alloy, not a stem or implant structure.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -74,23 +206,23 @@
         "tags": [
           "Ti-6Al-4V",
           "bioglass coating",
-          "Y2O3",
-          "corrosion",
+          "Y2O3 doping",
+          "corrosion resistance",
           "bioactivity",
-          "adhesion strength",
-          "ion release"
+          "ion release",
+          "adhesion strength"
         ],
         "summary_zh": {
-          "motivation": "提高Ti-6Al-4V合金的耐腐蚀性和生物相容性，减少离子释放。",
-          "method": "采用溶胶-凝胶法制备Y2O3掺杂生物玻璃涂层，并测试其性能。",
-          "result": "10 wt% Y2O3涂层附着力提高52%，但生物活性降低，Ti离子释放增加。",
-          "validation": "通过附着力、降解、离子释放和腐蚀实验验证涂层性能。"
+          "motivation": "提高Ti-6Al-4V合金的耐腐蚀性和生物活性，减少离子释放。",
+          "method": "采用溶胶-凝胶法在Ti-6Al-4V合金上制备Y2O3掺杂的生物玻璃涂层。",
+          "result": "10 wt% Y2O3掺杂使涂层附着力提高52%，但降低生物活性和耐腐蚀性，增加Ti离子释放。",
+          "validation": "通过附着力测试、降解实验、生物活性测试和离子释放测量进行实验验证。"
         },
         "summary_en": {
-          "motivation": "To enhance the corrosion resistance and biocompatibility of Ti-6Al-4V alloy while reducing ion release for orthopedic applications.",
-          "method": "Y2O3-doped BioGlass coatings were synthesized via sol-gel method and characterized for adhesion, degradation, bioactivity, ion release, and corrosion behavior.",
-          "result": "The addition of 10 wt% Y2O3 improved adhesion strength by 52% but adversely affected bioactivity and corrosion resistance, and increased Ti ion release.",
-          "validation": "Experimental measurements of adhesion strength, degradation rates, ion concentrations, and corrosion testing were conducted."
+          "motivation": "To enhance the corrosion resistance, biocompatibility, and reduce ion release of Ti-6Al-4V alloy for orthopedic applications.",
+          "method": "Y2O3-doped BioGlass coatings were synthesized by sol-gel method and applied on Ti-6Al-4V substrates.",
+          "result": "The addition of 10 wt% Y2O3 increased adhesion strength by 52% but negatively affected bioactivity, corrosion resistance, and increased Ti ion release.",
+          "validation": "Experimental validation through adhesion tests, degradation studies, bioactivity assays, and ion release measurements."
         },
         "key_terms": [
           {
@@ -106,47 +238,53 @@
             "zh": "Y2O3掺杂"
           },
           {
-            "en": "adhesion strength",
-            "zh": "附着强度"
-          },
-          {
             "en": "corrosion resistance",
             "zh": "耐腐蚀性"
-          },
-          {
-            "en": "ion release",
-            "zh": "离子释放"
           },
           {
             "en": "bioactivity",
             "zh": "生物活性"
           },
           {
+            "en": "ion release",
+            "zh": "离子释放"
+          },
+          {
+            "en": "adhesion strength",
+            "zh": "附着力"
+          },
+          {
             "en": "sol-gel method",
             "zh": "溶胶-凝胶法"
+          },
+          {
+            "en": "orthopedic implant",
+            "zh": "骨科植入物"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
+      "ti6al4v_postprocess": 1,
       "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
+      "High": 1,
       "Exclude": 1
     }
   }

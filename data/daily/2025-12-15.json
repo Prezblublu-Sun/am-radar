@@ -65,6 +65,9 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
           "porosity",
           "surface roughness",
           "residual stress"
@@ -79,8 +82,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是增材制造工艺参数对表面完整性的影响，未涉及任何后处理工艺，因此与后处理控制方向无关。",
-        "why_not_core": "The paper focuses on the effect of LPBF process parameters on surface roughness and residual stresses in the as-built state; it does not study any post‑processing treatment (e.g., heat treatment, HIP, machining) and thus does not fall under Layer 2 post‑processing control.",
+        "relevance_to_user": "论文研究LPBF工艺参数对表面完整性的影响，未涉及任何后处理工艺，与用户关注的Ti-6Al-4V后处理控制方向无关。",
+        "why_not_core": "This paper studies as-built surface integrity as a function of LPBF process parameters, not any post-processing treatment. It does not evaluate the effect of heat treatment, HIP, machining, or any surface modification on mechanical performance.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -92,20 +95,19 @@
           "laser powder bed fusion",
           "Ti-6Al-4V",
           "surface integrity",
-          "residual stress",
-          "process parameters"
+          "residual stress"
         ],
         "summary_zh": {
-          "motivation": "研究激光粉末床熔融Ti-6Al-4V合金工艺参数对表面完整性的影响。",
-          "method": "通过改变激光功率和扫描速度调整能量密度，测量表面粗糙度和残余应力。",
-          "result": "高能量密度降低表面粗糙度，残余应力与表面形貌相关。",
-          "validation": "实验测量与计算结果对比验证。"
+          "motivation": "探究LPBF工艺参数对Ti-6Al-4V表面完整性和残余应力的影响",
+          "method": "改变激光功率和扫描速度获得不同能量密度，测量表面粗糙度和残余应力",
+          "result": "高能量密度可降低表面粗糙度，残余应力与孔隙率相关",
+          "validation": "通过聚焦变化显微镜和残余应力计算与测量对比验证"
         },
         "summary_en": {
-          "motivation": "This study aims to elucidate the evolution of surface topography and residual stresses during LPBF of Ti-6Al-4V as a function of build height and process energy input.",
-          "method": "Ti-6Al-4V samples were fabricated at volumetric energy densities from 21.8 to 65.4 J·mm⁻³ by varying laser power and scanning speed, and surface roughness and residual stresses were measured using focus variation microscopy and computed tomography.",
-          "result": "Higher energy densities resulted in stable melt pools and reduced surface roughness, and residual stresses significantly influenced surface morphology.",
-          "validation": "Computed and measured residual stresses agreed well for sound builds, validating the numerical model."
+          "motivation": "To elucidate the evolution of surface topography and residual stresses as a function of build height and process energy input during LPBF of Ti-6Al-4V.",
+          "method": "Ti-6Al-4V samples were produced at volumetric energy densities from 21.8 to 65.4 J/mm³ by varying laser power and scanning speed, and surface roughness and residual stresses were characterized.",
+          "result": "Higher energy densities led to stable melt pools and reduced surface roughness, while residual stresses agreed well with predictions for sound builds but deviated for porous conditions.",
+          "validation": "Experimental measurements of surface roughness via focus variation microscopy and residual stresses were compared with computational predictions."
         },
         "key_terms": [
           {
@@ -114,7 +116,7 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "钛合金"
+            "zh": "钛合金Ti-6Al-4V"
           },
           {
             "en": "surface integrity",
@@ -131,143 +133,130 @@
           {
             "en": "surface roughness",
             "zh": "表面粗糙度"
-          },
-          {
-            "en": "process parameters",
-            "zh": "工艺参数"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     },
     {
       "source": "openalex",
-      "id": "https://openalex.org/W4417348061",
-      "doi": "10.1002/adem.202502394",
-      "title": "Improving the Ductility of Electron Beam Welded Joint between Additive Manufactured and Forged Ti‐6Al‐4V Alloys through Heat Treatment",
-      "abstract": "Laser melting deposition fabricated Ti‐6Al‐4V (TC4‐LMD) demonstrates exceptional mechanical properties and has been widely adopted in aerospace applications. However, the dimensional constraints of additive manufacturing equipment necessitate welding of TC4‐LMD components with other parts fabricated via conventional processes (e.g., forging). Significant microstructural and mechanical property gradients across distinct zones of a dissimilar welded joint frequently lead to poor overall mechanical performance. This study investigates the microstructural characteristics and mechanical behavior of electron beam welded joints between TC4‐LMD and forged damage tolerance TC4 (TC4‐DT). Digital image correlation (DIC) analysis is employed to elucidate localized strain distribution patterns during tensile deformation of the joint. Postwelding solution‐aging heat treatments with varying solution temperatures and cooling rates are used to tailor the properties of the joint. Results indicate that pronounced heterogeneous microstructures are formed in the initial joint, which substantially deteriorates the tensile properties, particularly ductility. Through solution heat treatment at 950 °C followed by air cooling and aging, the heterogeneous microstructure has been largely eliminated. Furthermore, fine β‐transformed structures are precipitated during the postwelding heat treatment, which also contribute to enhancing the strength‐ductility synergy.",
+      "id": "https://openalex.org/W4417320399",
+      "doi": "10.1007/s40964-025-01443-4",
+      "title": "Process–microstructure–property relationships in Ti–Al alloys fabricated by laser directed energy deposition of Ti6Al4V and al powders",
+      "abstract": "",
       "authors": [
-        "Xinyu Liu",
-        "Yuhe Tian",
-        "Weijun He",
-        "Bin Jiang"
+        "Ainhoa Riquelme",
+        "B. Torres",
+        "J. Rams",
+        "P. Rodrigo"
       ],
-      "first_author_affiliation": "College of Materials Science and Engineering Chongqing University  Chongqing 400044 China",
+      "first_author_affiliation": "King Juan Carlos University, Móstoles, Spain",
       "corresponding_authors": [
         {
-          "name": "Weijun He",
-          "affiliation": "Chongqing Key Laboratory of High‐performance Corrosion‐resistant Alloys Chongqing University  Chongqing 400044 China"
+          "name": "Ainhoa Riquelme",
+          "affiliation": "King Juan Carlos University, Móstoles, Spain"
         }
       ],
-      "venue": "Advanced Engineering Materials",
+      "venue": "Progress in Additive Manufacturing",
       "year": 2025,
       "date": "2025-12-15",
       "date_precision": "day",
-      "url": "https://doi.org/10.1002/adem.202502394",
-      "cited_by_count": 0,
+      "url": "https://doi.org/10.1007/s40964-025-01443-4",
+      "cited_by_count": 1,
       "concepts": [
         "Materials science",
-        "Welding",
         "Microstructure",
-        "Ductility (Earth science)",
-        "Ultimate tensile strength",
-        "Joint (building)",
-        "Composite material",
-        "Electron beam welding",
-        "Metallurgy",
-        "Digital image correlation",
-        "Deformation (meteorology)",
-        "Heat-affected zone",
+        "Laser",
+        "Phase (matter)",
+        "Titanium alloy",
         "Deposition (geology)",
-        "Aerospace",
-        "Beam (structure)",
-        "Material properties",
+        "Composite material",
+        "Substrate (aquarium)",
+        "Laser scanning",
         "Thermal",
-        "Tensile testing",
-        "Damage tolerance"
+        "Scanning electron microscope",
+        "Titanium",
+        "Metallurgy",
+        "Energy-dispersive X-ray spectroscopy",
+        "Indentation hardness",
+        "Beam (structure)",
+        "Pulsed laser deposition",
+        "High-speed steel",
+        "Homogeneous",
+        "Thermal spraying"
       ],
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_base_mechanical_fatigue",
-        "ti6al4v_postprocess"
+        "ti6al4v_base_mechanical_fatigue"
       ],
-      "direction": "ti6al4v_postprocess",
-      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
-          "TC4",
-          "ductility"
-        ],
-        "ti6al4v_postprocess": [
-          "TC4",
-          "heat treatment"
+          "Ti6Al4V",
+          "directed energy deposition",
+          "microstructure"
         ]
       },
       "llm": {
-        "priority": "Medium",
-        "relevance_level": "Transferable",
-        "read_action": "Save for project",
-        "relevance_to_user": "该论文涉及对增材制造Ti-6Al-4V与锻件焊接接头进行热处理，虽非单独研究后处理对AM材料性能的影响，但为后处理改善力学性能提供了参考。",
-        "why_not_core": "The paper focuses on a welded joint between AM and forged Ti-6Al-4V rather than solely on post-processing of AM material, and does not include fatigue testing.",
-        "validation_kind": "mechanical_testing",
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是通过激光定向能量沉积Ti6Al4V和铝粉制备的Ti-Al合金，而非纯粹的Ti-6Al-4V合金，因此与L1方向不匹配。",
+        "why_not_core": "This paper studies Ti-Al alloys fabricated from Ti6Al4V and Al powders, not the standard Ti-6Al-4V alloy itself. Therefore it does not match the direction requirement of concerning Ti-6Al-4V specifically.",
+        "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": true,
+          "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "electron beam welding",
-          "heat treatment",
-          "Ti-6Al-4V",
-          "ductility",
-          "digital image correlation"
+          "directed energy deposition",
+          "Ti-Al alloys",
+          "process-microstructure-property"
         ],
         "summary_zh": {
-          "motivation": "激光熔覆沉积Ti-6Al-4V部件与锻件焊接后性能不均匀，亟需改善接头塑性。",
-          "method": "采用固溶+时效热处理调控电子束焊接头的显微组织，并通过DIC分析拉伸应变分布。",
-          "result": "950℃固溶空冷+时效消除显微组织不均匀性，析出β转变结构提升强度-塑性协同。",
-          "validation": "通过拉伸试验和DIC应变测量验证热处理效果。"
+          "motivation": "研究Ti6Al4V与铝粉混合沉积制备Ti-Al合金的工艺-组织-性能关系。",
+          "method": "采用激光定向能量沉积技术，改变铝粉比例制备Ti-Al合金。",
+          "result": "分析了不同铝含量下的微观组织和力学性能变化。",
+          "validation": "可能包含拉伸或硬度测试，但未详细说明。"
         },
         "summary_en": {
-          "motivation": "Welded joints between additively manufactured and forged Ti-6Al-4V exhibit heterogeneous microstructures that degrade tensile ductility, requiring post-weld heat treatment to improve performance.",
-          "method": "Post-weld solution-aging heat treatments with varying solution temperatures and cooling rates were applied to electron beam welded joints, and digital image correlation was used to map local strain distributions during tensile testing.",
-          "result": "Solution treatment at 950°C followed by air cooling and aging eliminated microstructural heterogeneity and precipitated fine β-transformed structures, enhancing strength-ductility synergy.",
-          "validation": "Tensile tests combined with digital image correlation provided quantitative validation of the heat treatment effect on mechanical properties."
+          "motivation": "To investigate the process-microstructure-property relationships in Ti-Al alloys fabricated by laser directed energy deposition using Ti6Al4V and Al powders.",
+          "method": "Laser directed energy deposition with varying Al powder content to produce Ti-Al alloys.",
+          "result": "Microstructural evolution and mechanical properties were characterized for different Al contents.",
+          "validation": "Experimental characterization including possible tensile or hardness tests."
         },
         "key_terms": [
           {
-            "en": "laser melting deposition",
-            "zh": "激光熔覆沉积"
+            "en": "laser directed energy deposition",
+            "zh": "激光定向能量沉积"
           },
           {
-            "en": "electron beam welding",
-            "zh": "电子束焊接"
+            "en": "Ti-Al alloys",
+            "zh": "钛铝合金"
           },
           {
-            "en": "solution aging heat treatment",
-            "zh": "固溶时效热处理"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V"
           },
           {
-            "en": "digital image correlation",
-            "zh": "数字图像相关"
+            "en": "process-microstructure-property",
+            "zh": "工艺-组织-性能"
           },
           {
-            "en": "ductility",
-            "zh": "塑性"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "en": "additive manufacturing",
+            "zh": "增材制造"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
     },
     {
       "source": "openalex",
@@ -330,9 +319,9 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究Ti6Al4V合金的热传导性能，与骨科植入物股骨柄的结构设计和力学性能无关。",
-        "why_not_core": "No stem structural design, no mechanical testing, no biomechanical analysis, no fatigue or stress shielding; purely thermal conductivity simulation.",
-        "validation_kind": "numerical_benchmark",
+        "relevance_to_user": "该论文研究Ti6Al4V合金的导热性能，与股骨柄结构设计及力学性能无关。",
+        "why_not_core": "No femoral stem design, no mechanical testing, no biomechanical analysis; purely thermal conductivity study with no implant application.",
+        "validation_kind": "simulation_case",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
@@ -340,49 +329,432 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
           "thermal conductivity",
-          "computational fluid dynamics",
-          "BCC lattice"
+          "CFD",
+          "Ti6Al4V",
+          "BCC lattice",
+          "heat propagation"
         ],
         "summary_zh": {
-          "motivation": "研究Ti6Al4V合金的热传导性能",
-          "method": "采用CFD双尺度建模，结合BCC晶格和宏观实体",
-          "result": "热传播延迟且不均匀，归因于低热导率",
-          "validation": "数值模拟，无实验验证"
+          "motivation": "研究Ti6Al4V合金的导热性能及其热传导局限性。",
+          "method": "采用CFD双尺度建模，结合BCC晶格与宏观固体域。",
+          "result": "发现Ti6Al4V热传导延迟且不均匀，归因于低导热率。",
+          "validation": "通过CFD仿真模拟验证热行为。"
         },
         "summary_en": {
-          "motivation": "To investigate the transient thermal behavior of Ti6Al4V alloy for heat dissipation applications.",
-          "method": "A dual-scale CFD model combining a BCC lattice structure and macroscopic solid domain.",
-          "result": "Heat propagation is delayed and uneven due to the alloy's low thermal conductivity of 6.5 W/m·K.",
-          "validation": "Numerical simulation without experimental validation."
+          "motivation": "To characterize the transient thermal behavior and heat-conduction limitations of Ti6Al4V alloy.",
+          "method": "A dual-scale CFD approach was used, combining a simplified BCC lattice for β-phase and a macroscopic solid domain.",
+          "result": "Delayed and uneven heat propagation was observed due to the alloy's intrinsically low thermal conductivity.",
+          "validation": "The study employed computational fluid dynamics simulations over a 10-minute interval with multiple time steps."
         },
         "key_terms": [
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V合金"
-          },
-          {
             "en": "thermal conductivity",
-            "zh": "热导率"
+            "zh": "导热系数"
           },
           {
             "en": "computational fluid dynamics",
             "zh": "计算流体动力学"
           },
           {
-            "en": "body-centered cubic lattice",
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
+          },
+          {
+            "en": "BCC lattice",
             "zh": "体心立方晶格"
           },
           {
-            "en": "heat dissipation",
-            "zh": "散热"
+            "en": "heat propagation",
+            "zh": "热传播"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4417336460",
+      "doi": "10.1007/s10853-025-11985-1",
+      "title": "The influence of energy density in selective laser melting on TNT-coated Ti6Al4V: corrosion resistance and biocompatibility insights",
+      "abstract": "",
+      "authors": [
+        "O. Çomaklı",
+        "M.T. Acar",
+        "M. Yazıcı",
+        "Ersin Arslan",
+        "Hasan Türkez"
+      ],
+      "first_author_affiliation": "Faculty of Engineering, Department of Mechanical Engineering, Erzurum Technical University, Erzurum, Turkey",
+      "corresponding_authors": [
+        {
+          "name": "O. Çomaklı",
+          "affiliation": "Faculty of Engineering, Department of Mechanical Engineering, Erzurum Technical University, Erzurum, Turkey"
+        }
+      ],
+      "venue": "Journal of Materials Science",
+      "year": 2025,
+      "date": "2025-12-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s10853-025-11985-1",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Biocompatibility",
+        "Corrosion",
+        "Anodizing",
+        "Selective laser melting",
+        "Relative density",
+        "Composite material",
+        "Nanotube",
+        "Titanium",
+        "Electrochemistry",
+        "Titanium alloy",
+        "Simulated body fluid",
+        "Laser",
+        "Scanning electron microscope",
+        "Chemical engineering",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "selective laser melting"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要关注涂层后的腐蚀和生物相容性，未涉及力学或疲劳性能。",
+        "why_not_core": "This paper does not report any tensile, yield, hardness, fatigue, or other mechanical/fatigue test results; its core focus is corrosion resistance and biocompatibility of a coated surface.",
+        "validation_kind": "in_vitro",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "SLM",
+          "Ti6Al4V",
+          "corrosion",
+          "biocompatibility",
+          "TNT coating"
+        ],
+        "summary_zh": {
+          "motivation": "研究能量密度对SLM Ti6Al4V表面TNT涂层的影响",
+          "method": "通过SLM制备Ti6Al4V并涂覆TNT涂层",
+          "result": "涂层改善了耐腐蚀性和生物相容性",
+          "validation": "电化学测试和细胞毒性实验验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate how energy density during selective laser melting affects the corrosion resistance and biocompatibility of TNT-coated Ti6Al4V.",
+          "method": "Ti6Al4V samples were fabricated by SLM at various energy densities and subsequently coated with a TNT layer.",
+          "result": "The TNT coating significantly enhanced corrosion resistance and biocompatibility, with optimal performance at intermediate energy densities.",
+          "validation": "Validation was performed through electrochemical corrosion tests and in vitro cell assays."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "TNT coating",
+            "zh": "TNT涂层"
+          },
+          {
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
+          },
+          {
+            "en": "biocompatibility",
+            "zh": "生物相容性"
+          },
+          {
+            "en": "energy density",
+            "zh": "能量密度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4417312362",
+      "doi": "10.1038/s41598-025-31895-1",
+      "title": "High-temperature strength and microstructural evolution of Ti-6Al-4V alloy fabricated by wire Arc additive manufacturing under elevated temperature",
+      "abstract": "This study investigates the high-temperature mechanical properties and compressive deformation behavior of Ti-6Al-4V fabricated by Wire Arc Additive Manufactured (WAAM), in comparison with its hot-rolled counterpart. The WAAM alloy exhibited a fine α-lath Widmanstätten structure containing a nano-film β phase, which developed through solid-state β→α transformation during cooling under a steep thermal gradient induced by rapid solidification and interpass thermal cycling. In contrast, the wrought alloy showed a bimodal microstructure with coarse equiaxed α and α + β lamellar colonies. Compression tests at RT, 300 °C, 500 °C, and 700 °C revealed that WAAM alloy retained higher yield strengths across all temperatures (RT: 1034.1 MPa, 300 °C: 845.7 MPa, 500 °C: 646.2 MPa, 700 °C: 320.4 MPa). This was attributed to the fine α-lath structure, high angle grain boundary (HAGB) fraction, and α/β interface strengthening. However, at 700 °C, accelerated kinking and α-lath fragmentation led to localized dynamic recrystallization (DRX) and rapid flow softening. These findings demonstrate the thermal stability and deformation resistance of WAAM alloy. Based on the above results, the microstructural control approach to enhance its high-temperature performance was also discussed.",
+      "authors": [
+        "Soobin Kim",
+        "Dong-Hyuck Kam",
+        "Kee‐Ahn Lee"
+      ],
+      "first_author_affiliation": "Department of Materials Science and Engineering, Inha University, Incheon, 22212, Republic of Korea",
+      "corresponding_authors": [
+        {
+          "name": "Soobin Kim",
+          "affiliation": "Department of Materials Science and Engineering, Inha University, Incheon, 22212, Republic of Korea"
+        }
+      ],
+      "venue": "Scientific Reports",
+      "year": 2025,
+      "date": "2025-12-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1038/s41598-025-31895-1",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Equiaxed crystals",
+        "Alloy",
+        "Microstructure",
+        "Lamellar structure",
+        "Recrystallization (geology)",
+        "Composite material",
+        "Metallurgy",
+        "Dynamic recrystallization",
+        "Thermal",
+        "Deformation (meteorology)",
+        "Temperature gradient",
+        "Thermal stability",
+        "Grain boundary",
+        "Compression (physics)",
+        "Plasticity"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "wire arc additive",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了WAAM Ti-6Al-4V的高温压缩力学性能，与L1层机械与疲劳性能方向高度相关。",
+        "why_not_core": "Does not cover fatigue or tensile testing; focuses on high-temperature compression behavior rather than room-temperature fatigue or standard mechanical properties.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "WAAM",
+          "Ti-6Al-4V",
+          "high-temperature strength",
+          "compression",
+          "microstructural evolution"
+        ],
+        "summary_zh": {
+          "motivation": "研究WAAM Ti-6Al-4V在高温下的力学性能及微观结构演变。",
+          "method": "对WAAM和热轧Ti-6Al-4V进行室温和300-700°C压缩试验，并分析微观结构。",
+          "result": "WAAM合金在所有温度下屈服强度均高于热轧态，700°C时出现快速流动软化。",
+          "validation": "通过压缩实验与微观表征验证了高温性能差异及微观结构演化机制。"
+        },
+        "summary_en": {
+          "motivation": "This study investigates the high-temperature compressive mechanical properties of Wire Arc Additively Manufactured Ti-6Al-4V compared to hot-rolled material.",
+          "method": "Compression tests were conducted at room temperature, 300°C, 500°C, and 700°C, along with microstructural characterization using SEM/EBSD.",
+          "result": "The WAAM alloy exhibited higher yield strength at all temperatures due to fine α-lath structure and high-angle grain boundaries, but at 700°C it experienced rapid flow softening from kinking and dynamic recrystallization.",
+          "validation": "Experimental compression testing and microstructural analysis validated the temperature-dependent strength and deformation behavior."
+        },
+        "key_terms": [
+          {
+            "en": "Wire Arc Additive Manufacturing (WAAM)",
+            "zh": "电弧增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "high-temperature mechanical properties",
+            "zh": "高温力学性能"
+          },
+          {
+            "en": "compressive yield strength",
+            "zh": "压缩屈服强度"
+          },
+          {
+            "en": "α-lath Widmanstätten structure",
+            "zh": "α-板条魏氏组织"
+          },
+          {
+            "en": "dynamic recrystallization",
+            "zh": "动态再结晶"
+          },
+          {
+            "en": "flow softening",
+            "zh": "流动软化"
+          },
+          {
+            "en": "kinking",
+            "zh": "扭折"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4417348061",
+      "doi": "10.1002/adem.202502394",
+      "title": "Improving the Ductility of Electron Beam Welded Joint between Additive Manufactured and Forged Ti‐6Al‐4V Alloys through Heat Treatment",
+      "abstract": "Laser melting deposition fabricated Ti‐6Al‐4V (TC4‐LMD) demonstrates exceptional mechanical properties and has been widely adopted in aerospace applications. However, the dimensional constraints of additive manufacturing equipment necessitate welding of TC4‐LMD components with other parts fabricated via conventional processes (e.g., forging). Significant microstructural and mechanical property gradients across distinct zones of a dissimilar welded joint frequently lead to poor overall mechanical performance. This study investigates the microstructural characteristics and mechanical behavior of electron beam welded joints between TC4‐LMD and forged damage tolerance TC4 (TC4‐DT). Digital image correlation (DIC) analysis is employed to elucidate localized strain distribution patterns during tensile deformation of the joint. Postwelding solution‐aging heat treatments with varying solution temperatures and cooling rates are used to tailor the properties of the joint. Results indicate that pronounced heterogeneous microstructures are formed in the initial joint, which substantially deteriorates the tensile properties, particularly ductility. Through solution heat treatment at 950 °C followed by air cooling and aging, the heterogeneous microstructure has been largely eliminated. Furthermore, fine β‐transformed structures are precipitated during the postwelding heat treatment, which also contribute to enhancing the strength‐ductility synergy.",
+      "authors": [
+        "Xinyu Liu",
+        "Yuhe Tian",
+        "Weijun He",
+        "Bin Jiang"
+      ],
+      "first_author_affiliation": "College of Materials Science and Engineering Chongqing University  Chongqing 400044 China",
+      "corresponding_authors": [
+        {
+          "name": "Weijun He",
+          "affiliation": "Chongqing Key Laboratory of High‐performance Corrosion‐resistant Alloys Chongqing University  Chongqing 400044 China"
+        }
+      ],
+      "venue": "Advanced Engineering Materials",
+      "year": 2025,
+      "date": "2025-12-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1002/adem.202502394",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Welding",
+        "Microstructure",
+        "Ductility (Earth science)",
+        "Ultimate tensile strength",
+        "Joint (building)",
+        "Composite material",
+        "Electron beam welding",
+        "Metallurgy",
+        "Digital image correlation",
+        "Deformation (meteorology)",
+        "Heat-affected zone",
+        "Deposition (geology)",
+        "Aerospace",
+        "Beam (structure)",
+        "Material properties",
+        "Thermal",
+        "Tensile testing",
+        "Damage tolerance"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "TC4",
+          "additive manufacturing",
+          "microstructure",
+          "ductility"
+        ],
+        "ti6al4v_postprocess": [
+          "TC4",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Peripheral",
+        "read_action": "Skim only",
+        "relevance_to_user": "涉及增材制造Ti-6Al-4V与锻造材料焊接后的热处理，对后处理控制有一定参考价值，但焊接接头不是纯增材制造后处理研究。",
+        "why_not_core": "No fatigue data; focus is on welded joint between AM and forged materials, not pure post-processing of AM Ti-6Al-4V component.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "electron beam welding",
+          "heat treatment",
+          "Ti-6Al-4V",
+          "ductility",
+          "digital image correlation"
+        ],
+        "summary_zh": {
+          "motivation": "提高增材制造与锻造钛合金电子束焊接接头的延展性。",
+          "method": "采用固溶时效热处理调控焊接接头微观组织。",
+          "result": "950°C固溶空冷加时效消除了微观组织不均匀性，提高了强度-延展性协同性。",
+          "validation": "通过拉伸试验和数字图像相关（DIC）分析验证。"
+        },
+        "summary_en": {
+          "motivation": "To improve the ductility of electron beam welded joints between additive manufactured (LMD) and forged Ti-6Al-4V alloys.",
+          "method": "Post-welding solution-aging heat treatments with varying solution temperatures and cooling rates were applied to tailor the microstructure and properties of the joint.",
+          "result": "Solution heat treatment at 950°C followed by air cooling and aging eliminated heterogeneous microstructure and precipitated fine β-transformed structures, enhancing strength-ductility synergy.",
+          "validation": "Tensile tests and digital image correlation (DIC) analysis were used to evaluate mechanical behavior and strain distribution."
+        },
+        "key_terms": [
+          {
+            "en": "electron beam welding",
+            "zh": "电子束焊接"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          },
+          {
+            "en": "digital image correlation",
+            "zh": "数字图像相关"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "laser melting deposition",
+            "zh": "激光熔覆沉积"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
     },
     {
       "source": "openalex",
@@ -420,7 +792,8 @@
       "categories": [],
       "raw_type": "article",
       "directions": [
-        "ti6al4v_postprocess"
+        "ti6al4v_postprocess",
+        "ti6al4v_base_mechanical_fatigue"
       ],
       "direction": "ti6al4v_postprocess",
       "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
@@ -430,14 +803,19 @@
           "Ti 6Al 4V",
           "machining",
           "surface integrity"
+        ],
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Medium",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "不涉及增材制造Ti-6Al-4V的后处理对力学性能的影响",
-        "why_not_core": "The paper does not specifically address additive manufacturing Ti-6Al-4V or its post-processing effects on fatigue/mechanical performance; it is a general review on Ti-6Al-4V covering surface engineering, machining, and ML, without experimental data on post-processing for AM.",
+        "read_action": "Background only",
+        "relevance_to_user": "该综述涵盖了Ti-6Al-4V的表面工程和涂层等后处理内容，但未具体研究后处理对疲劳或力学性能的影响。",
+        "why_not_core": "This review does not present original experimental or modeling results on how a specific post-processing treatment modifies the fatigue or mechanical performance of Ti-6Al-4V; it is a broad survey covering wear, machining, and machine learning.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
@@ -446,31 +824,25 @@
           "is_review": true
         },
         "tags": [
-          "titanium alloy",
           "Ti-6Al-4V",
+          "review",
           "surface engineering",
           "coatings",
-          "machining",
-          "machine learning",
-          "review"
+          "machining"
         ],
         "summary_zh": {
-          "motivation": "综述钛合金（尤其是Ti-6Al-4V）在工程应用中的最新研究",
-          "method": "基于文献综述，将研究分为四个集群：材料与微观结构工程、表面工程与涂层、加工成形过程、机器学习应用",
-          "result": "提出了跨集群整合，连接物理机制与数据驱动框架，指出研究空白",
-          "validation": "无实验验证"
+          "motivation": "钛合金Ti-6Al-4V在应用中存在磨损、难加工等问题，需要系统综述。",
+          "method": "基于文献综合分析，从材料工程、表面工程、加工和机器学习四个集群进行综述。",
+          "result": "识别了研究空白，包括数据标准化不足、模型泛化差和缺乏可持续性评估。",
+          "validation": "文献综述，无实验验证。"
         },
         "summary_en": {
-          "motivation": "This review provides a comprehensive synthesis of recent advances in titanium alloy (Ti-6Al-4V) research, covering materials engineering, surface engineering, machining, and machine learning.",
-          "method": "The review maps four major clusters: materials and microstructure engineering, surface engineering and coatings, machining and forming processes, and machine learning for damage prediction and parameter optimization.",
-          "result": "The main contribution is cross-cluster integration linking physical mechanisms with data-driven frameworks, and highlighting research gaps.",
-          "validation": "No experimental validation; it is a literature review."
+          "motivation": "Ti-6Al-4V faces challenges such as wear and difficult-to-machine behavior, motivating a comprehensive review.",
+          "method": "This review synthesizes literature from 2024–2026 across four clusters: materials engineering, surface engineering, machining, and machine learning.",
+          "result": "Research gaps are identified, including lack of data standardization, poor model generalization, and missing sustainability assessments.",
+          "validation": "No experimental validation; this is a literature review."
         },
         "key_terms": [
-          {
-            "en": "titanium alloy",
-            "zh": "钛合金"
-          },
           {
             "en": "Ti-6Al-4V",
             "zh": "Ti-6Al-4V"
@@ -492,38 +864,436 @@
             "zh": "机器学习"
           },
           {
-            "en": "wear",
-            "zh": "磨损"
+            "en": "wear resistance",
+            "zh": "耐磨性"
           },
           {
-            "en": "literature review",
-            "zh": "文献综述"
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:21:34Z"
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4417331313",
+      "doi": "10.1007/s11665-025-12905-9",
+      "title": "Effect of WC Content on Microstructure and Properties of Ti6Al4V Deposited by Laser-Directed Energy Deposition",
+      "abstract": "",
+      "authors": [
+        "Wei Zhao",
+        "Fei Xing",
+        "Chenyang Wang",
+        "Zijian Wang",
+        "Weijun Liu",
+        "Hongyou Bian"
+      ],
+      "first_author_affiliation": "School of Mechanical Engineering, Shenyang University of Technology, Shenyang, 110870, China",
+      "corresponding_authors": [
+        {
+          "name": "Wei Zhao",
+          "affiliation": "School of Mechanical Engineering, Shenyang University of Technology, Shenyang, 110870, China"
+        }
+      ],
+      "venue": "Journal of Materials Engineering and Performance",
+      "year": 2025,
+      "date": "2025-12-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s11665-025-12905-9",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Metallurgy",
+        "Titanium alloy",
+        "Abrasive",
+        "Coating",
+        "Layer (electronics)",
+        "Cladding (metalworking)",
+        "Titanium",
+        "Porosity",
+        "Composite material",
+        "Substrate (aquarium)",
+        "Deposition (geology)",
+        "Molybdenum",
+        "Wear coefficient",
+        "Tungsten",
+        "Service life",
+        "Hardfacing",
+        "Alloy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "directed energy deposition",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "论文研究了添加WC颗粒的Ti6Al4V复合材料，并非纯Ti-6Al-4V，对基础力学与疲劳性能方向的直接参考价值有限。",
+        "why_not_core": "This paper focuses on Ti6Al4V+WC composite, not pure Ti-6Al-4V; the WC reinforcement alters mechanical properties, so it does not address the base Ti-6Al-4V mechanical/fatigue behavior as required by the direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti6Al4V",
+          "WC",
+          "laser-directed energy deposition",
+          "composite",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "研究WC含量对激光定向能量沉积Ti6Al4V复合材料组织与性能的影响",
+          "method": "采用激光定向能量沉积制备不同WC含量的Ti6Al4V复合材料并进行表征",
+          "result": "WC含量影响复合材料的显微组织和力学性能",
+          "validation": "通过硬度、拉伸等力学测试验证WC添加的效果"
+        },
+        "summary_en": {
+          "motivation": "To investigate the influence of tungsten carbide (WC) content on the microstructure and mechanical properties of Ti6Al4V composites fabricated by laser-directed energy deposition.",
+          "method": "Ti6Al4V composites with varying WC contents were deposited using laser-directed energy deposition and characterized for microstructure and mechanical properties.",
+          "result": "The WC content significantly affects the microstructure, hardness, and tensile properties of the as-deposited composites.",
+          "validation": "Mechanical testing including hardness and tensile tests was conducted to validate the effect of WC reinforcement."
+        },
+        "key_terms": [
+          {
+            "en": "laser-directed energy deposition",
+            "zh": "激光定向能量沉积"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "WC content",
+            "zh": "WC含量"
+          },
+          {
+            "en": "microstructure",
+            "zh": "显微组织"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "composite",
+            "zh": "复合材料"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4417514350",
+      "doi": "10.2472/jsms.74.749",
+      "title": "Study on Growth Life Prediction of Surface Crack in Metallic Materials under Nonproportional Loading",
+      "abstract": "Fatigue crack propagation tests were conducted under various nonproportional loading conditions on stainless steel SUS304 and titanium alloy Ti-6Al-4V. The crack opening displacement was also measured using digital image correlation to determine the effective resultant stress intensity factor range ΔKeff. In addition, the influence of the material on the contribution of the shear stress τθa, max, which arises at the plane where the maximum resultant stress amplitude σθa, max occurs, to the crack closure was investigated. For three typical industrial materials, the effective resultant stress range Δσθ, eff could be uniformly arranged regardless of nonproportional loading conditions by using σθa, max + k'τθa, max with k'=1/2. Moreover, expressing the stress components Δσθ, eff, σθa, max and τθa, max in terms of strain components Δεθ, eff, εθa, max and γθa, max established a unique relationship regardless of the material. Finally, the crack growth lifetime could be predicted with an error of approximately ±30% by using the proposed empirical formula.",
+      "authors": [
+        "Yuichi Ono",
+        "Hiroki KAKIDA",
+        "Kaito Watanabe",
+        "Akari INOUE"
+      ],
+      "first_author_affiliation": "Department of Mechanical and Physical Engineering, Tottori University",
+      "corresponding_authors": [
+        {
+          "name": "Yuichi Ono",
+          "affiliation": "Department of Mechanical and Physical Engineering, Tottori University"
+        }
+      ],
+      "venue": "Journal of the Society of Materials Science Japan",
+      "year": 2025,
+      "date": "2025-12-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.2472/jsms.74.749",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Crack closure",
+        "Stress intensity factor",
+        "Digital image correlation",
+        "Composite material",
+        "Paris' law",
+        "Shear (geology)",
+        "Shear stress",
+        "Stress (linguistics)",
+        "Titanium alloy",
+        "Structural engineering",
+        "Range (aeronautics)",
+        "Metal",
+        "Stress concentration",
+        "Displacement (psychology)",
+        "Fracture mechanics",
+        "Plane stress",
+        "Amplitude",
+        "Plane (geometry)",
+        "Alloy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的疲劳裂纹扩展实验，但主要提出一种统一预测公式，并非专门针对Ti-6Al-4V的力学性能。",
+        "why_not_core": "The paper covers Ti-6Al-4V only as one of several test materials and its main contribution is a generic crack growth prediction method, not a detailed Ti-6Al-4V mechanical/fatigue characterization.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "fatigue crack propagation",
+          "nonproportional loading",
+          "Ti-6Al-4V",
+          "crack growth life prediction",
+          "digital image correlation"
+        ],
+        "summary_zh": {
+          "motivation": "研究非比例加载下金属材料表面裂纹的生长寿命预测方法。",
+          "method": "对SUS304和Ti-6Al-4V进行疲劳裂纹扩展实验，并用数字图像相关测量裂纹开口位移。",
+          "result": "提出基于σθa,max+k'τθa,max的有效应力范围公式，裂纹生长寿命预测误差约±30%。",
+          "validation": "通过两种材料的疲劳实验验证所提经验公式。"
+        },
+        "summary_en": {
+          "motivation": "To develop a method for predicting surface crack growth life in metallic materials under nonproportional loading conditions.",
+          "method": "Fatigue crack propagation tests were conducted on SUS304 and Ti-6Al-4V, and crack opening displacement was measured using digital image correlation to derive effective stress intensity factor ranges.",
+          "result": "An empirical formula using σθa,max + k'τθa,max with k'=1/2 uniformly correlates the effective stress range across materials, allowing crack growth life prediction within ±30% error.",
+          "validation": "The proposed formula was validated by comparing predicted and experimental crack growth lifetimes for both stainless steel and titanium alloy."
+        },
+        "key_terms": [
+          {
+            "en": "fatigue crack propagation",
+            "zh": "疲劳裂纹扩展"
+          },
+          {
+            "en": "nonproportional loading",
+            "zh": "非比例加载"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "crack growth life prediction",
+            "zh": "裂纹生长寿命预测"
+          },
+          {
+            "en": "digital image correlation",
+            "zh": "数字图像相关"
+          },
+          {
+            "en": "effective stress intensity factor",
+            "zh": "有效应力强度因子"
+          },
+          {
+            "en": "crack opening displacement",
+            "zh": "裂纹开口位移"
+          },
+          {
+            "en": "empirical formula",
+            "zh": "经验公式"
+          },
+          {
+            "en": "SUS304",
+            "zh": "SUS304不锈钢"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4417333359",
+      "doi": "10.3390/ma18245628",
+      "title": "Improving the Surface Quality of Network Microstructure Titanium Matrix Composites Using Electrochemical Milling Following EDM",
+      "abstract": "Network microstructure titanium matrix composites (NMTMCs) possess excellent performance and are promising for aerospace applications, yet their microstructural heterogeneity poses substantial challenges to achieving high-quality micro-machined surfaces. The aim of this study is to evaluate electrochemical machining (ECM) as a post-processing method for improving the surface quality of NMTMCs after electrical discharge machining (EDM). This study systematically examines the effects of electrolyte concentration, machining voltage, and pulse frequency on surface roughness. Electrochemical measurements in NaCl and NaNO3 revealed that standalone electrochemical machining causes severe selective corrosion due to the large dissolution rate mismatch between TiBw reinforcements and the Ti-6Al-4V matrix, making it unsuitable for direct finishing. Accordingly, ECM was applied to EDM-prepared surfaces, and under optimized conditions (10 wt.% NaCl, 4.5 V, 200 kHz), ECM effectively mitigates the protrusions at the edges of discharge pits caused by the EDM process. Surface roughness (Sa) is significantly reduced from 0.90 μm to 0.45 μm, and the surface morphology becomes more uniform. These results demonstrate that ECM is a viable post-EDM finishing strategy for achieving high-quality micro-machining of NMTMCs.",
+      "authors": [
+        "Yizhou Hu",
+        "Leheng Zhang",
+        "Sirui Gong",
+        "Zhenlong Wang"
+      ],
+      "first_author_affiliation": "School of Mechatronics Engineering, Harbin Institute of Technology, Harbin 150001, China",
+      "corresponding_authors": [
+        {
+          "name": "Yizhou Hu",
+          "affiliation": "School of Mechatronics Engineering, Harbin Institute of Technology, Harbin 150001, China"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2025,
+      "date": "2025-12-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma18245628",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Machining",
+        "Surface roughness",
+        "Electrochemical machining",
+        "Composite material",
+        "Titanium",
+        "Surface finish",
+        "Electrical discharge machining",
+        "Electrolyte",
+        "Metallurgy",
+        "Electrochemistry",
+        "Titanium alloy",
+        "Corrosion",
+        "Aerospace",
+        "Dissolution",
+        "Tool wear",
+        "Electrode"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining",
+          "post-processing"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的复合材料基体为Ti-6Al-4V，但并非增材制造，且未评估力学性能（疲劳/拉伸），仅关注表面粗糙度。",
+        "why_not_core": "Not about additive-manufactured Ti-6Al-4V; material is a composite (TiBw/Ti-6Al-4V) fabricated by non-AM method, and no mechanical performance (fatigue/tensile) is evaluated.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "titanium matrix composite",
+          "electrochemical machining",
+          "surface roughness",
+          "post-processing",
+          "Ti-6Al-4V"
+        ],
+        "summary_zh": {
+          "motivation": "改善网络结构钛基复合材料EDM后的表面质量",
+          "method": "采用电化学铣削（ECM）作为EDM后处理，优化电解液浓度、电压和脉冲频率",
+          "result": "ECM将表面粗糙度Sa从0.90 μm降至0.45 μm，表面形貌更均匀",
+          "validation": "通过电化学测量和表面粗糙度测试验证工艺效果"
+        },
+        "summary_en": {
+          "motivation": "To improve the surface quality of network microstructure titanium matrix composites after electrical discharge machining (EDM) by applying electrochemical machining (ECM) as a post-processing method.",
+          "method": "Systematically studied the effects of electrolyte concentration, machining voltage, and pulse frequency on surface roughness, applying ECM to EDM-prepared surfaces.",
+          "result": "Under optimized conditions (10 wt.% NaCl, 4.5 V, 200 kHz), ECM reduced surface roughness Sa from 0.90 μm to 0.45 μm and produced a more uniform morphology.",
+          "validation": "Validated through electrochemical measurements in NaCl and NaNO3 and surface roughness characterization."
+        },
+        "key_terms": [
+          {
+            "en": "network microstructure titanium matrix composite",
+            "zh": "网络结构钛基复合材料"
+          },
+          {
+            "en": "electrochemical machining",
+            "zh": "电化学加工"
+          },
+          {
+            "en": "EDM",
+            "zh": "电火花加工"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:36:11Z"
     }
   ],
   "counts": {
-    "fetched_total": 4,
+    "fetched_total": 10,
     "by_source": {
-      "openalex": 4
+      "openalex": 10
     },
-    "after_dedup": 4,
-    "after_routing": 4,
+    "after_dedup": 10,
+    "after_routing": 10,
     "by_direction": {
-      "ti6al4v_postprocess": 3,
+      "ti6al4v_postprocess": 4,
+      "ti6al4v_base_mechanical_fatigue": 5,
       "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "openalex": 4
+      "openalex": 10
     },
-    "scored": 4,
+    "scored": 10,
     "priority_counts": {
-      "Exclude": 3,
-      "Medium": 1
+      "Exclude": 4,
+      "Low": 2,
+      "High": 1,
+      "Medium": 3
     }
   }
 }

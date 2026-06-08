@@ -64,16 +64,17 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additively manufactured",
           "residual stress"
         ]
       },
       "llm": {
         "priority": "Medium",
         "relevance_level": "Direct",
-        "read_action": "Skim only",
-        "relevance_to_user": "该论文针对增材制造Ti-6Al-4V的残余应力进行热力学建模，属于L1层研究方向",
-        "why_not_core": "The paper focuses on residual stress prediction rather than direct mechanical or fatigue characterization, and lacks explicit fatigue life or strength data.",
-        "validation_kind": "numerical_benchmark",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文直接关注增材制造Ti-6Al-4V的残余应力预测，属于L1方向的建模研究。",
+        "why_not_core": "The paper is purely computational without experimental validation of the residual stress predictions.",
+        "validation_kind": "simulation_case",
         "flags": {
           "has_experimental_validation": false,
           "has_uncertainty_quantification": false,
@@ -81,36 +82,36 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
           "residual stress",
           "thermomechanical modeling",
+          "Ti-6Al-4V",
           "additive manufacturing",
-          "LPBF"
+          "part scale"
         ],
         "summary_zh": {
-          "motivation": "预测增材制造Ti-6Al-4V零件残余应力",
-          "method": "基于热力学有限元建模",
-          "result": "实现了零件尺度残余应力分布预测",
-          "validation": "数值基准验证"
+          "motivation": "通过热机械建模预测增材制造Ti-6Al-4V部件的残余应力。",
+          "method": "采用部分尺度热机械模型进行模拟。",
+          "result": "实现了部件尺度残余应力分布的预测。",
+          "validation": "通过数值模拟案例进行验证。"
         },
         "summary_en": {
-          "motivation": "To predict residual stress in additively manufactured Ti-6Al-4V parts at the part scale using thermomechanical modeling.",
-          "method": "A thermomechanical finite element model was developed to simulate the additive manufacturing process and compute residual stress.",
-          "result": "The model successfully predicted residual stress distributions across the part scale.",
-          "validation": "The model was validated against numerical benchmarks or experimental measurements."
+          "motivation": "To predict residual stress in additively manufactured Ti-6Al-4V parts via thermomechanical modeling.",
+          "method": "A part-scale thermomechanical model was developed for the prediction.",
+          "result": "Residual stress distribution was predicted at the part scale.",
+          "validation": "Validation was performed through a simulation case study."
         },
         "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
+          },
           {
             "en": "residual stress",
             "zh": "残余应力"
           },
           {
             "en": "thermomechanical modeling",
-            "zh": "热力学建模"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "zh": "热机械建模"
           },
           {
             "en": "additive manufacturing",
@@ -118,21 +119,17 @@
           },
           {
             "en": "part scale",
-            "zh": "零件尺度"
+            "zh": "部件尺度"
           },
           {
-            "en": "finite element method",
-            "zh": "有限元方法"
-          },
-          {
-            "en": "LPBF",
-            "zh": "激光粉末床熔融"
+            "en": "prediction",
+            "zh": "预测"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
     },
     {
       "source": "openalex",
@@ -190,6 +187,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "microstructure",
           "tensile strength",
           "ultimate tensile strength",
           "elongation",
@@ -200,8 +198,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是Ti-6Al-4V与304不锈钢的旋转摩擦焊接，与增材制造的Ti-6Al-4V力学性能及疲劳无关。",
-        "why_not_core": "该论文研究旋转摩擦焊接，而非增材制造（LPBF/SLM/EBM/DED）的Ti-6Al-4V，且未涉及增材制造Ti-6Al-4V的力学或疲劳性能。",
+        "relevance_to_user": "该论文研究的是旋转摩擦焊接的异种材料连接，未涉及增材制造Ti-6Al-4V的机械性能。",
+        "why_not_core": "This paper does not concern additively manufactured Ti-6Al-4V; it examines rotary friction welding of wrought Ti-6Al-4V to stainless steel, which is outside the AM mechanical/fatigue scope.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -212,29 +210,30 @@
         "tags": [
           "rotary friction welding",
           "dissimilar joining",
-          "Ti-6Al-4V",
-          "304 stainless steel",
           "Inconel 625 interlayer",
-          "tensile strength",
-          "elongation",
-          "microstructure"
+          "Ti-6Al-4V",
+          "304 stainless steel"
         ],
         "summary_zh": {
-          "motivation": "克服Ti-6Al-4V与304不锈钢在旋转摩擦焊接中的不相容性。",
-          "method": "引入Inconel 625中间层进行旋转摩擦焊接。",
-          "result": "焊接接头抗拉强度726.80 MPa，延伸率13.25%，显著改善。",
-          "validation": "通过拉伸测试、硬度测试和微观结构分析验证。"
+          "motivation": "解决Ti-6Al-4V与304不锈钢直接焊接时脆性界面问题",
+          "method": "引入Inconel 625中间层进行旋转摩擦焊接",
+          "result": "接头抗拉强度726.80 MPa，延伸率13.25%，性能显著提升",
+          "validation": "通过拉伸测试、显微组织和硬度分布验证"
         },
         "summary_en": {
-          "motivation": "To overcome the inherent incompatibility between Ti-6Al-4V and 304 stainless steel during rotary friction welding by introducing an Inconel 625 interlayer.",
-          "method": "Rotary friction welding with an Inconel 625 interlayer was employed to join Ti-6Al-4V and 304 stainless steel.",
-          "result": "The joint achieved an ultimate tensile strength of 726.80 MPa and an elongation of 13.25%, representing significant improvements over direct welding.",
-          "validation": "Mechanical testing (tensile, hardness) and microstructural analysis were used to validate the performance."
+          "motivation": "To overcome the inherent incompatibility and brittle interface between Ti-6Al-4V and 304 stainless steel during rotary friction welding.",
+          "method": "An Inconel 625 Ni-based alloy interlayer was introduced between the two materials to act as a diffusion barrier and reaction moderator.",
+          "result": "The joint achieved an ultimate tensile strength of 726.80 MPa and elongation of 13.25%, with fracture shifting to the Ti-6Al-4V base metal.",
+          "validation": "Tensile testing, Vickers hardness profiling, and microstructural analysis (SEM/EDS) confirmed the improved mechanical and microstructural properties."
         },
         "key_terms": [
           {
             "en": "rotary friction welding",
             "zh": "旋转摩擦焊接"
+          },
+          {
+            "en": "Inconel 625 interlayer",
+            "zh": "Inconel 625中间层"
           },
           {
             "en": "Ti-6Al-4V",
@@ -245,8 +244,8 @@
             "zh": "304不锈钢"
           },
           {
-            "en": "Inconel 625 interlayer",
-            "zh": "Inconel 625中间层"
+            "en": "dissimilar joint",
+            "zh": "异种接头"
           },
           {
             "en": "ultimate tensile strength",
@@ -259,16 +258,12 @@
           {
             "en": "intermetallic compounds",
             "zh": "金属间化合物"
-          },
-          {
-            "en": "diffusion barrier",
-            "zh": "扩散阻挡层"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
     }
   ],
   "counts": {

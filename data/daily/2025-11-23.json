@@ -71,8 +71,8 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文研究线切割电火花加工对Ti6Al4V的精度和表面质量，但未涉及增材制造Ti-6Al-4V的后处理及其力学性能。",
-        "why_not_core": "The paper does not concern additive-manufactured Ti-6Al-4V, nor does it investigate mechanical performance (fatigue/tensile) modification by post-processing; it focuses on dimensional accuracy and surface roughness of machined Ti6Al4V using WEDM.",
+        "relevance_to_user": "该论文研究线切割电火花加工Ti6Al4V的精度与表面质量，不涉及增材制造或后处理对力学性能的影响。",
+        "why_not_core": "The paper is about conventional machining (WEDM) of Ti6Al4V, not about post-processing of additively manufactured Ti-6Al-4V; it does not address mechanical or fatigue performance.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -81,55 +81,54 @@
           "is_review": false
         },
         "tags": [
-          "Ti6Al4V",
           "WEDM",
-          "surface roughness",
+          "Ti6Al4V",
           "dimensional accuracy",
-          "Taguchi",
-          "GRA"
+          "surface roughness",
+          "optimization"
         ],
         "summary_zh": {
-          "motivation": "优化线切割电火花加工参数以提高Ti6Al4V的加工精度和表面质量",
-          "method": "采用田口L9正交阵列和灰色关联分析优化脉冲时间等参数",
-          "result": "获得了最佳参数组合，表面粗糙度约4.1-4.5μm",
-          "validation": "通过扫描电镜和光学显微镜验证表面质量"
+          "motivation": "优化线切割电火花加工参数以提高Ti6Al4V的尺寸精度和表面质量。",
+          "method": "采用Taguchi L9正交阵列和灰色关联分析优化脉冲时间等参数。",
+          "result": "优化后方形和圆形孔的粗糙度分别达到4.47μm和4.11μm。",
+          "validation": "通过验证实验在95%置信水平下确认回归方程有效性。"
         },
         "summary_en": {
-          "motivation": "To optimize WEDM parameters for enhancing dimensional accuracy and surface finish of Ti6Al4V components",
-          "method": "Taguchi L9 orthogonal array with gray relational analysis for multi-response optimization",
-          "result": "Optimal parameters achieved surface roughness of 4.11-4.47 μm with improved cylindricity and perpendicularity",
-          "validation": "SEM and OM confirmed surface integrity"
+          "motivation": "This study aims to optimize Wire-Cut EDM parameters for Ti6Al4V to minimize geometrical errors and improve surface integrity, thereby enhancing component performance and lifespan.",
+          "method": "Taguchi L9 orthogonal array and Grey Relational Analysis were used to optimize pulse-on time, pulse-off time, and control of servo for square and circular geometries.",
+          "result": "Optimal parameters reduced surface roughness to 4.47 μm for square holes and 4.11 μm for circular holes, with improved cylindricity and perpendicularity.",
+          "validation": "Regression equations were validated at a 95% confidence level using confirmation experiments; SEM and OM confirmed surface roughness values."
         },
         "key_terms": [
           {
-            "en": "Wire-Cut EDM",
+            "en": "Wire-Cut Electrical Discharge Machining (WEDM)",
             "zh": "线切割电火花加工"
           },
           {
-            "en": "Ti-6Al-4V",
+            "en": "Ti6Al4V",
             "zh": "Ti6Al4V钛合金"
-          },
-          {
-            "en": "surface roughness",
-            "zh": "表面粗糙度"
           },
           {
             "en": "dimensional accuracy",
             "zh": "尺寸精度"
           },
           {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
             "en": "Taguchi method",
             "zh": "田口方法"
           },
           {
-            "en": "gray relational analysis",
+            "en": "Grey Relational Analysis",
             "zh": "灰色关联分析"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:19:10Z"
+      "first_seen_at": "2026-06-08T08:31:07Z"
     }
   ],
   "counts": {

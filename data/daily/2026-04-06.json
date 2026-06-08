@@ -65,11 +65,11 @@
         ]
       },
       "llm": {
-        "priority": "Exclude",
+        "priority": "Low",
         "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文研究的是TC4钛合金的超声表面滚压参数优化，并非增材制造Ti-6Al-4V的力学或疲劳性能。",
-        "why_not_core": "This paper does not concern additively manufactured Ti-6Al-4V; it focuses on a post-processing optimization method for conventionally manufactured TC4, with no mechanical/fatigue characterization.",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及TC4钛合金超声波表面滚压工艺参数优化，但属于后处理而非基础力学性能，与L1方向关注点不符。",
+        "why_not_core": "This paper focuses on post-processing (USRP) optimization, not on as-built or base mechanical/fatigue properties of Ti-6Al-4V; no fatigue testing or tensile data are reported.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -78,51 +78,53 @@
           "is_review": false
         },
         "tags": [
-          "USRP",
-          "optimization",
-          "TC4",
-          "surface properties"
+          "TC4 titanium alloy",
+          "ultrasonic surface rolling process",
+          "multi-objective optimization",
+          "surface roughness",
+          "residual stress",
+          "surface hardness"
         ],
         "summary_zh": {
-          "motivation": "优化TC4钛合金超声表面滚压参数以提升表面性能",
-          "method": "使用改进鲸鱼算法优化RBF神经网络预测模型，结合MOGWO进行多目标优化",
-          "result": "优化参数显著降低表面粗糙度，提高表面硬度和残余压应力",
-          "validation": "通过实验验证优化参数的有效性"
+          "motivation": "优化超声波表面滚压参数以改善TC4钛合金表面性能。",
+          "method": "提出改进鲸鱼算法优化RBF神经网络模型，结合CRITIC-TOPSIS和MOGWO进行多目标优化。",
+          "result": "优化参数显著降低表面粗糙度，提高表面硬度和残余压应力。",
+          "validation": "通过实验测量表面粗糙度、硬度和残余应力验证模型有效性。"
         },
         "summary_en": {
-          "motivation": "To optimize ultrasonic surface rolling process parameters for enhanced surface characteristics of TC4 titanium alloy.",
-          "method": "An IWOA-RBF predictive model integrated with MOGWO and CRITIC-TOPSIS was developed for multi-objective parameter optimization.",
-          "result": "Optimized USRP parameters significantly reduced surface roughness while increasing surface hardness and residual compressive stress.",
-          "validation": "Experimental validation confirmed the effectiveness of the optimized parameters."
+          "motivation": "To optimize ultrasonic surface rolling process parameters for enhanced surface properties of TC4 titanium alloy.",
+          "method": "An improved whale optimization algorithm optimizes an RBF neural network, integrated with CRITIC-TOPSIS and multi-objective grey wolf optimization for Pareto-based parameter selection.",
+          "result": "Optimized parameters significantly reduce surface roughness while increasing surface hardness and compressive residual stress.",
+          "validation": "Experimental validation through measurement of surface roughness, hardness, and residual stress confirms the optimization framework's effectiveness."
         },
         "key_terms": [
-          {
-            "en": "ultrasonic surface rolling process",
-            "zh": "超声表面滚压"
-          },
           {
             "en": "TC4 titanium alloy",
             "zh": "TC4钛合金"
           },
           {
-            "en": "whale optimization algorithm",
-            "zh": "鲸鱼优化算法"
-          },
-          {
-            "en": "RBF neural network",
-            "zh": "RBF神经网络"
+            "en": "ultrasonic surface rolling process",
+            "zh": "超声波表面滚压工艺"
           },
           {
             "en": "multi-objective optimization",
             "zh": "多目标优化"
           },
           {
+            "en": "improved whale optimization algorithm",
+            "zh": "改进鲸鱼算法"
+          },
+          {
+            "en": "RBF neural network",
+            "zh": "径向基函数神经网络"
+          },
+          {
             "en": "surface roughness",
             "zh": "表面粗糙度"
           },
           {
-            "en": "residual compressive stress",
-            "zh": "残余压应力"
+            "en": "residual stress",
+            "zh": "残余应力"
           },
           {
             "en": "surface hardness",
@@ -132,7 +134,7 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:29:54Z"
+      "first_seen_at": "2026-06-08T08:51:36Z"
     }
   ],
   "counts": {
@@ -150,7 +152,7 @@
     },
     "scored": 1,
     "priority_counts": {
-      "Exclude": 1
+      "Low": 1
     }
   }
 }

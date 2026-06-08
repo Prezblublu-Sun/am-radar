@@ -5,6 +5,256 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W7124693539",
+      "doi": "10.3390/ma19020372",
+      "title": "A Review of the Parameters Controlling Crack Growth in AM Steels and Its Implications for Limited-Life AM and CSAM Parts",
+      "abstract": "This paper reviews the fracture mechanics parameters associated with the variability in the crack growth curves associated with forty-two different tests that range from additively manufactured (AM) steels to cold spray additively manufactured (CSAM) 316L steel. As a result of this review, it is found that, to a first approximation, the effects of different building processes and R-ratios on the relationship between ΔK and the crack growth rate (da/dN) can be captured by allowing for changes in the fatigue threshold and the apparent cyclic toughness in the Schwalbe crack driving force (Δκ). Whilst this observation, when taken in conjunction with similar findings for AM Ti-6Al-4V, Inconel 718, Inconel 625, and Boeing Space Intelligence and Weapon Systems (BSI&amp;WS) laser powder bed (LPBF)-built Scalmalloy®, as well as for a range of CSAM pure metals, go a long way in making a point; it is NOT a mathematical proof. It is merely empirical evidence. As a result, this review highlights that for AM and CSAM materials, it is advisable to plot the crack growth rate (da/dN) against both ΔK and Δκ. The observation that, for the AM and CSAM steels examined in this study, the da/dN versus Δκ curves are similar, when coupled with similar observation for a range of other AM materials, supports a prior study that suggested using fracture toughness measurements in conjunction with the flight load spectrum and the operational life requirement to guide the choice of the building process for AM Ti-6Al-4V parts. The observations outlined in this study, when taken together with related findings given in the open literature for AM Ti-6Al-4V, AM Inconel 718, AM Inconel 625, and BSI&amp;WS LPFB-built Scalmalloy®, as well as for a range of CSAM-built pure metals, have implications for the implementation and certification of limited-life AM parts.",
+      "authors": [
+        "R. Jones",
+        "Andrew Ang",
+        "Nam Phan",
+        "Michael R. Brindza",
+        "Michael B. Nicholas",
+        "Chris Timbrell",
+        "Daren Peng",
+        "Ramesh Chandwani"
+      ],
+      "first_author_affiliation": "ARC Industrial Transformation Training Centre on Surface Engineering for Advanced Materials, School of Engineering, Swinburne University of Technology, John Street, Hawthorn, VIC 3122, Australia",
+      "corresponding_authors": [
+        {
+          "name": "R. Jones",
+          "affiliation": "ARC Industrial Transformation Training Centre on Surface Engineering for Advanced Materials, School of Engineering, Swinburne University of Technology, John Street, Hawthorn, VIC 3122, Australia"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2026,
+      "date": "2026-01-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma19020372",
+      "cited_by_count": 0,
+      "concepts": [
+        "Inconel",
+        "Materials science",
+        "Fracture toughness",
+        "Paris' law",
+        "Fracture (geology)",
+        "Range (aeronautics)",
+        "Fracture mechanics",
+        "Toughness",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "LPBF",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要综述增材制造钢的裂纹扩展，仅简要提及Ti-6Al-4V，不符合本方向对Ti-6Al-4V为核心的专注要求。",
+        "why_not_core": "The paper's core subject is additively manufactured steels, not Ti-6Al-4V, which is a mandatory requirement for Layer 1 focus.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": true
+        },
+        "tags": [
+          "review",
+          "crack growth",
+          "fracture mechanics",
+          "additively manufactured steels"
+        ],
+        "summary_zh": {
+          "motivation": "综述增材制造钢在裂纹扩展参数上的变异性及其对有限寿命部件认证的影响。",
+          "method": "回顾42组不同AM钢和冷喷涂钢的裂纹扩展数据，分析ΔK与Δκ的关系。",
+          "result": "发现不同工艺和R比下裂纹扩展曲线可通过Schwalbe驱动力Δκ近似统一。",
+          "validation": "基于已有文献数据的经验观察，无新的实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To review variability in crack growth parameters across additively manufactured steels and assess implications for certification of limited-life parts.",
+          "method": "Meta-analysis of 42 crack growth datasets from various AM steels and cold spray materials, examining ΔK and Schwalbe driving force Δκ.",
+          "result": "Crack growth curves from different processes and R-ratios can be approximately unified by normalizing with Δκ.",
+          "validation": "Empirical comparison with published data; no new experimental validation."
+        },
+        "key_terms": [
+          {
+            "en": "crack growth",
+            "zh": "裂纹扩展"
+          },
+          {
+            "en": "fracture mechanics",
+            "zh": "断裂力学"
+          },
+          {
+            "en": "additively manufactured steels",
+            "zh": "增材制造钢"
+          },
+          {
+            "en": "cold spray additive manufacturing",
+            "zh": "冷喷涂增材制造"
+          },
+          {
+            "en": "Schwalbe driving force",
+            "zh": "Schwalbe驱动力"
+          },
+          {
+            "en": "fatigue threshold",
+            "zh": "疲劳门槛"
+          },
+          {
+            "en": "cyclic toughness",
+            "zh": "循环韧性"
+          },
+          {
+            "en": "R-ratio",
+            "zh": "应力比"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:40:28Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7124428182",
+      "doi": "10.1007/s11665-026-13164-y",
+      "title": "Influence of Process Parameters on Wear Properties of Wire Arc Additive Manufactured Ti-6Al-4V Alloy",
+      "abstract": "",
+      "authors": [
+        "Hemant Kaundal",
+        "Ratnesh Kumar Raj Singh",
+        "Tarun Kumar Bera"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, Thapar Institute of Engineering and Technology, Patiala, India",
+      "corresponding_authors": [
+        {
+          "name": "Ratnesh Kumar Raj Singh",
+          "affiliation": "Department of Mechanical Engineering, Thapar Institute of Engineering and Technology, Patiala, India"
+        }
+      ],
+      "venue": "Journal of Materials Engineering and Performance",
+      "year": 2026,
+      "date": "2026-01-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s11665-026-13164-y",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Tribology",
+        "Taguchi methods",
+        "Alloy",
+        "Orthogonal array",
+        "Metallurgy",
+        "Composite material",
+        "Aerospace",
+        "Reliability (semiconductor)",
+        "Arc (geometry)",
+        "Deposition (geology)",
+        "Friction coefficient",
+        "Process (computing)",
+        "Wear resistance",
+        "Design of experiments",
+        "Heat load",
+        "Alloy steel",
+        "Process variable"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "wire arc additive"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "本文研究线弧增材制造Ti-6Al-4V的磨损性能，而非力学强度或疲劳性能，与用户关注的力学与疲劳方向关联较弱。",
+        "why_not_core": "The paper focuses on wear properties of WAAM Ti-6Al-4V, not on mechanical strength, fatigue, or the specific properties (tensile, hardness, anisotropy, etc.) listed in the evaluation focus.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "wire arc additive manufacturing",
+          "Ti-6Al-4V",
+          "wear properties",
+          "process parameters"
+        ],
+        "summary_zh": {
+          "motivation": "研究线弧增材制造Ti-6Al-4V合金工艺参数对磨损性能的影响",
+          "method": "通过调整线弧增材工艺参数，进行磨损试验并分析微观机制",
+          "result": "工艺参数显著影响磨损率，优化参数可提高耐磨性",
+          "validation": "实验磨损测试结合光学显微镜和轮廓仪验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate how process parameters affect the wear properties of wire arc additive manufactured Ti-6Al-4V alloy.",
+          "method": "Wear tests were performed on specimens fabricated with varying wire arc additive manufacturing parameters, and wear mechanisms were analyzed.",
+          "result": "Process parameters significantly influence wear rate and mechanisms, with optimized parameters improving wear resistance.",
+          "validation": "Experimental wear testing combined with optical microscopy and profilometry for validation."
+        },
+        "key_terms": [
+          {
+            "en": "wire arc additive manufacturing",
+            "zh": "线弧增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "wear properties",
+            "zh": "磨损性能"
+          },
+          {
+            "en": "process parameters",
+            "zh": "工艺参数"
+          },
+          {
+            "en": "wear rate",
+            "zh": "磨损率"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:40:28Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W7124470908",
       "doi": "10.18149/mpm.5352025_4",
       "title": "Strength characteristics of additively manufactured meta-biomaterials made of titanium alloy under cyclic loading",
@@ -51,6 +301,7 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additively manufactured",
           "surface roughness",
           "fatigue",
           "fatigue life",
@@ -62,8 +313,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接针对激光粉末床熔融Ti-6Al-4V点阵和表面超材料的疲劳性能进行实验与仿真研究，完全符合方向要求。",
-        "why_not_core": "The paper focuses on meta-biomaterials (lattice and surface structures) rather than solid material characterization, introducing a structural geometry factor not typical for base mechanical/fatigue studies.",
+        "relevance_to_user": "该论文直接研究了增材制造Ti-6Al-4V超材料的疲劳性能，符合L1方向要求。",
+        "why_not_core": "This paper does not examine anisotropy, build orientation, or porosity effects on fatigue; it focuses on lattice and surface metamaterials.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -72,88 +323,226 @@
           "is_review": false
         },
         "tags": [
-          "meta-biomaterials",
-          "lattice structure",
-          "surface structure",
           "Ti-6Al-4V",
-          "fatigue life",
+          "fatigue",
+          "metamaterials",
+          "lattice",
+          "surface",
           "S-N curve",
-          "surface roughness",
           "additive manufacturing",
-          "LPBF"
+          "numerical simulation"
         ],
         "summary_zh": {
-          "motivation": "研究增材制造Ti-6Al-4V超材料在循环载荷下的疲劳强度",
-          "method": "进行两种超材料（点阵和表面）的全尺寸疲劳试验及数值模拟，引入表面粗糙度参数修正",
-          "result": "发现数值模拟趋于高估疲劳寿命，表面粗糙度参数改善了试验与仿真的吻合度",
-          "validation": "通过疲劳试验和数值仿真对比验证"
+          "motivation": "研究增材制造Ti-6Al-4V超材料的疲劳强度。",
+          "method": "对点阵和曲面超材料进行对称拉压疲劳全尺寸试验。",
+          "result": "确定了疲劳极限，数值模拟高估疲劳寿命，引入表面粗糙度参数改善吻合。",
+          "validation": "通过全尺寸疲劳试验与数值模拟对比验证。"
         },
         "summary_en": {
-          "motivation": "To investigate the fatigue strength of additively manufactured Ti-6Al-4V meta-biomaterials under cyclic loading.",
-          "method": "Full-scale fatigue tests and numerical simulations were conducted on lattice and surface meta-biomaterials, incorporating a surface roughness parameter to improve model accuracy.",
-          "result": "The numerical simulations overestimated fatigue life, but introducing surface roughness significantly improved agreement with experimental results.",
-          "validation": "Experimental fatigue testing and numerical simulation comparison."
+          "motivation": "This study investigates the fatigue performance of additively manufactured Ti-6Al-4V metamaterial structures.",
+          "method": "Full-scale fatigue tests under symmetrical tension-compression cycling were conducted on lattice and surface metamaterials, and S-N curves were constructed.",
+          "result": "Numerical simulations overestimated fatigue life compared to experiments; incorporating surface roughness improved agreement.",
+          "validation": "Experimental fatigue tests were compared with numerical simulations to validate the findings."
         },
         "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
           {
             "en": "meta-biomaterials",
             "zh": "超生物材料"
           },
           {
-            "en": "lattice structure",
-            "zh": "点阵结构"
-          },
-          {
-            "en": "surface structure",
-            "zh": "表面结构"
-          },
-          {
-            "en": "fatigue life",
-            "zh": "疲劳寿命"
+            "en": "fatigue strength",
+            "zh": "疲劳强度"
           },
           {
             "en": "S-N curve",
             "zh": "S-N曲线"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V钛合金"
+            "en": "lattice",
+            "zh": "点阵"
           },
           {
-            "en": "additive manufacturing",
-            "zh": "增材制造"
-          },
-          {
-            "en": "laser powder bed fusion",
-            "zh": "激光粉末床熔融"
+            "en": "surface",
+            "zh": "曲面"
           },
           {
             "en": "surface roughness",
             "zh": "表面粗糙度"
+          },
+          {
+            "en": "numerical simulation",
+            "zh": "数值模拟"
+          },
+          {
+            "en": "full-scale test",
+            "zh": "全尺寸试验"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:23:51Z"
+      "first_seen_at": "2026-06-08T08:40:28Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7124437851",
+      "doi": "10.1038/s41598-026-35262-6",
+      "title": "Investigating property-porosity relationships for micro-architected lattice structures",
+      "abstract": "Micro-architected structures are increasingly valued for their light weight and tunable mechanical properties; this class of material includes sheet structures like the Schöen gyroid and beam lattices like the octet. For design purposes, it is critical to understand how to tune the relative density (RD) to obtain desired mechanical properties. This study investigates the mechanical response of Ti-6Al-4V gyroid structures, spanning a broad range of RDs (0.03-0.90), unit cell sizes (1-4 cm), and sheet thicknesses (0.2-7.8 mm). Results demonstrate that the classical Gibson-Ashby power law scaling between RD and modulus and yield stress does not adequately capture the response over a wide range of RDs, nor does it extrapolate correctly to the fully dense solid. Analytical models, in concert with experimental results and high-fidelity finite element calculations, show that the deviation from Gibson-Ashby reflects a transition from structure-dominated to material-dominated behavior. Distinctions are drawn between scaling relationships and property-porosity models, and an analytical model is proposed to better capture the evolution of mechanical properties with RD. These observations are mirrored in other architected topologies, like the octet, and highlight the importance of understanding the relationship between mechanical properties and geometry for design purposes.",
+      "authors": [
+        "Brandon Zimmerman",
+        "Holly D. Carlton",
+        "Jonathan Lind",
+        "Justin Kerr",
+        "James S. Bellino",
+        "Mukul Kumar"
+      ],
+      "first_author_affiliation": "Lawrence Livermore National Laboratory, Livermore, CA, USA. zimmerman24@llnl.gov",
+      "corresponding_authors": [
+        {
+          "name": "Brandon Zimmerman",
+          "affiliation": "Lawrence Livermore National Laboratory, Livermore, CA, USA. zimmerman24@llnl.gov"
+        }
+      ],
+      "venue": "Scientific Reports",
+      "year": 2026,
+      "date": "2026-01-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1038/s41598-026-35262-6",
+      "cited_by_count": 1,
+      "concepts": [
+        "Gyroid",
+        "Scaling",
+        "Lattice (music)",
+        "Materials science",
+        "Modulus",
+        "Statistical physics",
+        "Finite element method",
+        "Stiffness",
+        "Range (aeronautics)",
+        "Stress (linguistics)",
+        "Relative density",
+        "Elastic modulus",
+        "Material properties",
+        "Condensed matter physics",
+        "Physics",
+        "Geometry",
+        "Young's modulus",
+        "Minimal surface",
+        "Power law"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该文直接研究增材制造Ti-6Al-4V晶格结构的力学性能，与方向1的机械性能需求高度契合。",
+        "why_not_core": "The paper does not investigate fatigue life, S-N curves, or crack behavior, which are central to the Layer 1 fatigue focus.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "gyroid lattice",
+          "relative density",
+          "mechanical properties",
+          "finite element analysis"
+        ],
+        "summary_zh": {
+          "motivation": "为了理解Ti-6Al-4V gyroid结构在宽相对密度范围内的力学响应。",
+          "method": "结合实验压缩测试、高保真有限元模拟和解析建模。",
+          "result": "发现Gibson-Ashby律无法准确预测，提出结构-材料过渡行为的新模型。",
+          "validation": "通过Ti-6Al-4V gyroid样品实验和有限元模拟验证。"
+        },
+        "summary_en": {
+          "motivation": "To understand the mechanical response of Ti-6Al-4V gyroid lattices across a wide range of relative densities and improve upon the classical Gibson-Ashby scaling.",
+          "method": "Combined experimental compression tests, high-fidelity finite element simulations, and analytical modeling.",
+          "result": "The Gibson-Ashby law fails to capture the response over a broad RD range; a transition from structure-dominated to material-dominated behavior is identified, and a new analytical model is proposed.",
+          "validation": "Experimental testing of Ti-6Al-4V gyroid samples and finite element simulations."
+        },
+        "key_terms": [
+          {
+            "en": "micro-architected lattice structures",
+            "zh": "微架构晶格结构"
+          },
+          {
+            "en": "gyroid",
+            "zh": "螺旋面"
+          },
+          {
+            "en": "relative density",
+            "zh": "相对密度"
+          },
+          {
+            "en": "Gibson-Ashby scaling",
+            "zh": "Gibson-Ashby标度律"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "sheet thickness",
+            "zh": "壁厚"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:40:28Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 4,
     "by_source": {
-      "openalex": 1
+      "openalex": 4
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 4
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 4
     },
-    "scored": 1,
+    "scored": 4,
     "priority_counts": {
-      "High": 1
+      "Exclude": 1,
+      "Low": 1,
+      "High": 2
     }
   }
 }

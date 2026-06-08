@@ -5,6 +5,129 @@
   "papers": [
     {
       "source": "openalex",
+      "id": "https://openalex.org/W4413559000",
+      "doi": "10.1007/s40964-025-01313-z",
+      "title": "Detection of sub-superficial defects by infrared thermography in parts made by powder bed fusion with electron beam",
+      "abstract": "Abstract The study explores Joule heating infrared thermography as a cost-effective alternative to computed tomography (CT) for detecting subsurface defects in parts produced by powder bed fusion with electron beam (PBF-EB). The primary objective was to quantify how surface roughness typical of different build orientations in PBF-EB affects thermographic data reliability. Simplified intentional defects of various sizes and depths were created in Ti6Al4V custom-samples under various target surfaces, whose morphology was characterized by confocal microscopy. CT scans provided accurate defect dimensions and revealed that sintered powder within defects does not significantly affect thermographic detection and can be treated as voids, paving the way to the application of the method to closed defects. The research led to the development and calibration of a reliable automated thermographic inspection protocol, the definition of best practices and key performance indicators for detectability, and the initiation of defect detectability maps tailored to the distinctive anisotropic features of additively manufactured parts.",
+      "authors": [
+        "Silvio Defanti",
+        "Simone De Giorgi",
+        "Giovanni Rizza",
+        "Giulia Colombini",
+        "Lucia Denti",
+        "Manuela Galati"
+      ],
+      "first_author_affiliation": "Department of Engineering “Enzo Ferrari”, University of Modena and Reggio Emilia, Modena, Italy",
+      "corresponding_authors": [
+        {
+          "name": "Silvio Defanti",
+          "affiliation": "Department of Engineering “Enzo Ferrari”, University of Modena and Reggio Emilia, Modena, Italy"
+        }
+      ],
+      "venue": "Progress in Additive Manufacturing",
+      "year": 2025,
+      "date": "2025-08-25",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40964-025-01313-z",
+      "cited_by_count": 2,
+      "concepts": [
+        "Thermography",
+        "Fusion",
+        "Infrared",
+        "Materials science",
+        "Cathode ray",
+        "Beam (structure)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "additively manufactured",
+          "powder bed fusion",
+          "defect",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文虽涉及Ti-6Al-4V增材制造，但主要聚焦于红外热成像检测次表面缺陷方法，未提供任何力学或疲劳性能数据。",
+        "why_not_core": "Paper does not present mechanical/fatigue property characterization or modeling; it develops a non-destructive evaluation method for defect detection.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "defect detection",
+          "infrared thermography",
+          "PBF-EB",
+          "Ti-6Al-4V",
+          "subsurface defects",
+          "non-destructive evaluation"
+        ],
+        "summary_zh": {
+          "motivation": "开发低成本替代CT的增材制造零件次表面缺陷检测方法",
+          "method": "利用焦耳热红外热成像对含人工缺陷的Ti6Al4V试样进行检测，结合CT与共聚焦表征",
+          "result": "建立了自动化热成像检测协议和缺陷可检测性图谱，发现烧结粉末不影响检测",
+          "validation": "通过CT和共聚焦显微镜验证缺陷尺寸与形貌"
+        },
+        "summary_en": {
+          "motivation": "To develop a cost-effective infrared thermography method as an alternative to CT for detecting subsurface defects in PBF-EB Ti6Al4V parts.",
+          "method": "Joule heating infrared thermography was applied to samples with intentional defects of varying size and depth, with surface roughness characterized by confocal microscopy and defect dimensions verified by CT.",
+          "result": "A reliable automated inspection protocol and defect detectability maps were established; sintered powder within defects was found not to hinder thermographic detection.",
+          "validation": "CT and confocal microscopy were used to validate defect dimensions and morphology."
+        },
+        "key_terms": [
+          {
+            "en": "infrared thermography",
+            "zh": "红外热成像"
+          },
+          {
+            "en": "powder bed fusion with electron beam",
+            "zh": "电子束粉末床熔融"
+          },
+          {
+            "en": "subsurface defects",
+            "zh": "次表面缺陷"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "non-destructive testing",
+            "zh": "无损检测"
+          },
+          {
+            "en": "computed tomography",
+            "zh": "计算机断层扫描"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "defect detectability",
+            "zh": "缺陷可检测性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:19:43Z"
+    },
+    {
+      "source": "openalex",
       "id": "https://openalex.org/W4413580739",
       "doi": "10.1016/j.rineng.2025.106781",
       "title": "Evaluation of the size and orientation-dependent mechanical properties of additively manufactured Ti-6Al-4V: The role of microstructure, defects, and surface roughness and its implications for lattice structures",
@@ -52,6 +175,11 @@
           "Ti-6Al-4V",
           "Ti6Al4V",
           "Ti 6Al 4V",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "microstructure",
           "tensile strength",
           "yield strength",
           "ultimate tensile strength",
@@ -64,8 +192,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文系统研究了增材制造Ti-6Al-4V的尺寸效应和取向效应对力学性能的影响，与您关注的Ti-6Al-4V基础力学性能方向高度相关。",
-        "why_not_core": "Does not include fatigue testing or S-N data; focuses solely on static tensile properties and microstructure.",
+        "relevance_to_user": "该论文直接研究LPBF Ti-6Al-4V的尺寸和取向依赖性力学性能，包含微观结构、缺陷和表面粗糙度的影响，完全符合L1方向的核心关注点。",
+        "why_not_core": "The paper does not report fatigue life or S-N curves, which are a key part of the L1 fatigue focus; its mechanical results are limited to tensile properties.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -77,23 +205,22 @@
           "LPBF",
           "Ti-6Al-4V",
           "size effect",
+          "mechanical properties",
           "microstructure",
           "defects",
-          "surface roughness",
-          "tensile properties",
-          "anisotropy"
+          "surface roughness"
         ],
         "summary_zh": {
-          "motivation": "探究激光粉末床熔融Ti-6Al-4V中样品尺寸和取向对力学性能的影响",
-          "method": "通过缺陷分析、几何特征、微观组织表征以及计算建模系统评估尺寸效应",
-          "result": "小尺寸试样孔隙率增加，但经准确评估后强度反而提升，归因于α板条细化",
-          "validation": "采用X射线断层扫描和力学实验验证尺寸效应"
+          "motivation": "研究LPBF制造Ti-6Al-4V时特征尺寸变化对微观结构、缺陷和力学性能的影响。",
+          "method": "通过缺陷分析、显微组织表征和X射线断层扫描结合计算建模提取力学性能。",
+          "result": "小尺寸试样孔隙率增加，α板条细化，考虑粗糙度后UTS和YS分别提高3.87%和6.65%。",
+          "validation": "实验表征力学性能并与计算模型对比验证。"
         },
         "summary_en": {
-          "motivation": "To systematically investigate how sample size and orientation affect the mechanical properties of LPBF Ti-6Al-4V through microstructure, defects, and surface roughness.",
-          "method": "Defect analysis, geometry characterization, microstructure examination, and computational modeling were performed to extract accurate mechanical properties.",
-          "result": "Smaller specimens showed increased porosity but higher strength (UTS +3.87%, YS +6.65%) after correcting for load-bearing area, attributed to α-lath refinement.",
-          "validation": "Experimental validation via X-ray tomography and tensile tests confirmed the size effects."
+          "motivation": "To investigate how varying feature sizes in LPBF Ti-6Al-4V affect microstructure, defects, and mechanical behavior, crucial for designing complex lattice structures.",
+          "method": "Systematic defect analysis, microstructure characterization, and X-ray tomography combined with computational modeling to accurately extract mechanical properties.",
+          "result": "Smaller specimens exhibit increased porosity and refined α-laths; after accounting for surface roughness, UTS and YS increase by 3.87% and 6.65%, respectively, compared to larger ones.",
+          "validation": "Experimental characterization of microstructure, defects, and mechanical properties validated by X-ray tomography and computational modeling."
         },
         "key_terms": [
           {
@@ -102,15 +229,19 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "钛合金Ti-6Al-4V"
+            "zh": "Ti-6Al-4V钛合金"
           },
           {
             "en": "size effect",
             "zh": "尺寸效应"
           },
           {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
             "en": "microstructure",
-            "zh": "微观组织"
+            "zh": "微观结构"
           },
           {
             "en": "defects",
@@ -121,22 +252,22 @@
             "zh": "表面粗糙度"
           },
           {
-            "en": "tensile strength",
-            "zh": "拉伸强度"
+            "en": "X-ray tomography",
+            "zh": "X射线断层扫描"
           },
           {
-            "en": "anisotropy",
-            "zh": "各向异性"
+            "en": "ultimate tensile strength",
+            "zh": "极限抗拉强度"
           },
           {
-            "en": "α-lath",
-            "zh": "α板条"
+            "en": "yield strength",
+            "zh": "屈服强度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
     },
     {
       "source": "openalex",
@@ -178,6 +309,9 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "selective laser melting",
+          "3D printing",
+          "SLM",
           "fatigue",
           "fatigue life"
         ]
@@ -186,8 +320,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接研究SLM制造的Ti-6Al-4V的微动疲劳行为，包含实验和损伤表征，完全符合L1层方向。",
-        "why_not_core": "该论文专注于微动疲劳这一特定疲劳模式，未涵盖常规疲劳（如S-N曲线）或拉伸性能，但仍在L1层疲劳框架内。",
+        "relevance_to_user": "该论文直接研究增材制造Ti-6Al-4V的微动疲劳行为，属于L1方向核心内容。",
+        "why_not_core": "Focuses solely on fretting fatigue and damage mapping; does not report standard S-N curves or tensile properties for general fatigue design.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -198,176 +332,56 @@
         "tags": [
           "fretting fatigue",
           "Ti-6Al-4V",
-          "SLM",
-          "fatigue damage",
-          "fretting map"
+          "selective laser melting",
+          "damage mapping",
+          "life assessment"
         ],
         "summary_zh": {
-          "motivation": "研究SLM制造Ti-6Al-4V合金的微动疲劳行为及损伤机理。",
-          "method": "进行微动疲劳实验，结合SEM观察损伤，建立微动疲劳图。",
-          "result": "揭示了不同载荷下损伤演化规律，提出了设计评估框架。",
-          "validation": "通过实验和SEM观察验证。"
+          "motivation": "研究SLM Ti-6Al-4V的微动疲劳损伤与寿命评估。",
+          "method": "进行变载荷微动疲劳试验并利用SEM观察损伤。",
+          "result": "建立了基于SEM的微动图，揭示了损伤演化规律。",
+          "validation": "通过实验测试和微观观察验证结果。"
         },
         "summary_en": {
-          "motivation": "To investigate the fretting fatigue behavior of SLM Ti-6Al-4V and characterize damage mechanisms.",
-          "method": "Fretting fatigue tests on SLM specimens under various axial stresses and contact loads, with SEM damage analysis.",
-          "result": "A fretting map was developed, linking loading conditions to damage evolution, and a design-informed evaluation framework was proposed.",
-          "validation": "Experimental fretting fatigue tests and SEM observations."
+          "motivation": "The study aims to characterize fretting fatigue behavior and damage mechanisms in additively manufactured Ti-6Al-4V components.",
+          "method": "Fretting fatigue tests under varying axial stresses and contact loads were conducted, followed by SEM examination of damage.",
+          "result": "A fretting map was developed from SEM observations, illustrating damage evolution under different loading conditions.",
+          "validation": "Experimental fretting fatigue tests and post-test SEM analysis provided direct validation of the damage map."
         },
         "key_terms": [
-          {
-            "en": "selective laser melting",
-            "zh": "选择性激光熔化"
-          },
-          {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
-          },
           {
             "en": "fretting fatigue",
             "zh": "微动疲劳"
           },
           {
-            "en": "damage mapping",
-            "zh": "损伤映射"
-          },
-          {
-            "en": "SLM",
-            "zh": "SLM"
-          },
-          {
-            "en": "fretting map",
-            "zh": "微动图"
-          },
-          {
-            "en": "fatigue life assessment",
-            "zh": "疲劳寿命评估"
-          }
-        ]
-      },
-      "schema_version": "v2",
-      "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
-    },
-    {
-      "source": "openalex",
-      "id": "https://openalex.org/W4413559000",
-      "doi": "10.1007/s40964-025-01313-z",
-      "title": "Detection of sub-superficial defects by infrared thermography in parts made by powder bed fusion with electron beam",
-      "abstract": "Abstract The study explores Joule heating infrared thermography as a cost-effective alternative to computed tomography (CT) for detecting subsurface defects in parts produced by powder bed fusion with electron beam (PBF-EB). The primary objective was to quantify how surface roughness typical of different build orientations in PBF-EB affects thermographic data reliability. Simplified intentional defects of various sizes and depths were created in Ti6Al4V custom-samples under various target surfaces, whose morphology was characterized by confocal microscopy. CT scans provided accurate defect dimensions and revealed that sintered powder within defects does not significantly affect thermographic detection and can be treated as voids, paving the way to the application of the method to closed defects. The research led to the development and calibration of a reliable automated thermographic inspection protocol, the definition of best practices and key performance indicators for detectability, and the initiation of defect detectability maps tailored to the distinctive anisotropic features of additively manufactured parts.",
-      "authors": [
-        "Silvio Defanti",
-        "Simone De Giorgi",
-        "Giovanni Rizza",
-        "Giulia Colombini",
-        "Lucia Denti",
-        "Manuela Galati"
-      ],
-      "first_author_affiliation": "Department of Engineering “Enzo Ferrari”, University of Modena and Reggio Emilia, Modena, Italy",
-      "corresponding_authors": [
-        {
-          "name": "Silvio Defanti",
-          "affiliation": "Department of Engineering “Enzo Ferrari”, University of Modena and Reggio Emilia, Modena, Italy"
-        }
-      ],
-      "venue": "Progress in Additive Manufacturing",
-      "year": 2025,
-      "date": "2025-08-25",
-      "date_precision": "day",
-      "url": "https://doi.org/10.1007/s40964-025-01313-z",
-      "cited_by_count": 2,
-      "concepts": [
-        "Thermography",
-        "Fusion",
-        "Infrared",
-        "Materials science",
-        "Cathode ray",
-        "Beam (structure)"
-      ],
-      "categories": [],
-      "raw_type": "article",
-      "directions": [
-        "ti6al4v_base_mechanical_fatigue"
-      ],
-      "direction": "ti6al4v_base_mechanical_fatigue",
-      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
-      "routing_matches": {
-        "ti6al4v_base_mechanical_fatigue": [
-          "Ti6Al4V",
-          "defect",
-          "surface roughness"
-        ]
-      },
-      "llm": {
-        "priority": "Exclude",
-        "relevance_level": "Peripheral",
-        "read_action": "Ignore",
-        "relevance_to_user": "该论文关注缺陷检测方法而非机械/疲劳性能，与用户关注的Ti-6Al-4V疲劳性能无直接关联。",
-        "why_not_core": "No mechanical or fatigue testing or modeling; only defect detection using thermography.",
-        "validation_kind": "none",
-        "flags": {
-          "has_experimental_validation": true,
-          "has_uncertainty_quantification": false,
-          "is_patient_specific": false,
-          "is_review": false
-        },
-        "tags": [
-          "infrared thermography",
-          "subsurface defects",
-          "powder bed fusion electron beam",
-          "Ti-6Al-4V",
-          "non-destructive evaluation"
-        ],
-        "summary_zh": {
-          "motivation": "探索焦耳热红外热成像作为CT替代法检测PBF-EB钛合金零件亚表面缺陷。",
-          "method": "在Ti6Al4V样品中引入缺陷，用共聚焦显微镜和CT表征，开发自动热成像检测协议。",
-          "result": "热成像有效检测缺陷，烧结粉末不影响检测，建立了缺陷可检测性图。",
-          "validation": "通过CT验证缺陷尺寸并与热成像对比确认方法可行性。"
-        },
-        "summary_en": {
-          "motivation": "The study investigates Joule heating infrared thermography as a cost-effective alternative to CT for detecting subsurface defects in PBF-EB Ti-6Al-4V parts.",
-          "method": "Intentional defects of various sizes and depths were created in Ti-6Al-4V samples, surface morphology characterized by confocal microscopy, CT provided accurate defect dimensions, and an automated thermographic inspection protocol was developed.",
-          "result": "Thermographic detection is effective despite surface roughness; sintered powder within defects does not hinder detection, and defect detectability maps tailored to anisotropic features were initiated.",
-          "validation": "Validation via CT scans confirmed defect dimensions and the assumption that sintered powder can be treated as voids."
-        },
-        "key_terms": [
-          {
-            "en": "infrared thermography",
-            "zh": "红外热成像"
-          },
-          {
-            "en": "subsurface defects",
-            "zh": "亚表面缺陷"
-          },
-          {
-            "en": "powder bed fusion electron beam",
-            "zh": "电子束粉末床熔融"
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
+            "zh": "钛合金Ti-6Al-4V"
           },
           {
-            "en": "non-destructive evaluation",
-            "zh": "无损检测"
+            "en": "damage mapping",
+            "zh": "损伤图谱"
           },
           {
-            "en": "surface roughness",
-            "zh": "表面粗糙度"
+            "en": "life assessment",
+            "zh": "寿命评估"
           },
           {
-            "en": "computed tomography",
-            "zh": "计算机断层扫描"
+            "en": "scanning electron microscopy",
+            "zh": "扫描电子显微镜"
           },
           {
-            "en": "confocal microscopy",
-            "zh": "共聚焦显微镜"
+            "en": "ASTM E466",
+            "zh": "ASTM E466标准"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:13:39Z"
+      "first_seen_at": "2026-06-08T08:19:43Z"
     }
   ],
   "counts": {
@@ -385,8 +399,8 @@
     },
     "scored": 3,
     "priority_counts": {
-      "High": 2,
-      "Exclude": 1
+      "Low": 1,
+      "High": 2
     }
   }
 }

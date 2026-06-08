@@ -55,6 +55,12 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "microstructure",
           "fatigue"
         ]
       },
@@ -62,8 +68,8 @@
         "priority": "High",
         "relevance_level": "Direct",
         "read_action": "Read now",
-        "relevance_to_user": "该论文直接关注激光粉末床熔融Ti-6Al-4V合金的疲劳损伤演化，提供了原位实验观察，与方向要求高度吻合。",
-        "why_not_core": "No conventional tensile or S-N fatigue curves reported; focuses on in situ crack evolution rather than bulk mechanical properties.",
+        "relevance_to_user": "该论文直接研究了激光粉末床熔融Ti-6Al-4V合金的疲劳损伤演化，属于L1方向的核心内容。",
+        "why_not_core": "The paper covers exactly the core focus: experimental fatigue characterization of LPBF Ti-6Al-4V with in situ tomography.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -72,26 +78,24 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
           "LPBF",
-          "fatigue damage",
-          "in situ",
-          "synchrotron CT",
+          "Ti-6Al-4V",
+          "fatigue",
+          "synchrotron tomography",
           "crack propagation",
-          "basket-weave α-phase",
-          "local high-density zones"
+          "in situ"
         ],
         "summary_zh": {
-          "motivation": "理解LPBF制备Ti-6Al-4V合金的疲劳损伤演化机制",
-          "method": "使用原位同步辐射CT在疲劳加载下实时观测",
-          "result": "观察到裂纹桥接和偏转，局部高密度区影响裂纹扩展",
-          "validation": "原位SR-CT实验验证"
+          "motivation": "揭示激光粉末床熔融Ti-6Al-4V合金的疲劳损伤演化机制。",
+          "method": "利用原位同步辐射计算机断层扫描技术观察疲劳裂纹扩展。",
+          "result": "发现裂纹桥接与偏转现象，局部高密度区与裂纹扩展方向一致。",
+          "validation": "通过疲劳实验和SR-CT原位观测验证。"
         },
         "summary_en": {
-          "motivation": "To understand the fatigue damage evolution in LPBF-produced Ti-6Al-4V alloy, which often exhibits inferior fatigue properties compared to forged counterparts.",
-          "method": "In situ synchrotron radiation computed tomography (SR-CT) was employed to monitor three-dimensional fatigue damage evolution during cyclic loading.",
-          "result": "Crack bridging and deflection were observed, and local high-density zones (LHDZs) were found to correlate with crack propagation direction and rate.",
-          "validation": "Experimental validation through in situ SR-CT imaging and quantitative crack propagation analysis."
+          "motivation": "To understand the fatigue damage evolution mechanism in additively manufactured Ti-6Al-4V alloy using in situ 3D imaging.",
+          "method": "In situ synchrotron radiation computed tomography (SR-CT) was employed during fatigue testing to observe crack propagation and local density variations.",
+          "result": "Crack bridging and deflection were observed, and local high-density zones (LHDZs) correlated with crack propagation direction and basket-weave α-phase microstructure.",
+          "validation": "Experimental validation via in situ fatigue testing with SR-CT imaging and quantitative crack growth analysis."
         },
         "key_terms": [
           {
@@ -100,23 +104,19 @@
           },
           {
             "en": "Ti-6Al-4V",
-            "zh": "钛合金Ti-6Al-4V"
-          },
-          {
-            "en": "synchrotron radiation computed tomography",
-            "zh": "同步辐射计算机断层扫描"
+            "zh": "Ti-6Al-4V"
           },
           {
             "en": "fatigue damage evolution",
             "zh": "疲劳损伤演化"
           },
           {
-            "en": "crack propagation",
-            "zh": "裂纹扩展"
+            "en": "synchrotron radiation computed tomography",
+            "zh": "同步辐射计算机断层扫描"
           },
           {
-            "en": "basket-weave α-phase",
-            "zh": "篮网状α相"
+            "en": "crack bridging",
+            "zh": "裂纹桥接"
           },
           {
             "en": "local high-density zones",
@@ -126,7 +126,7 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
     },
     {
       "source": "openalex",
@@ -177,6 +177,10 @@
       "routing_matches": {
         "ti6al4v_base_mechanical_fatigue": [
           "Ti6Al4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "selective laser melting",
+          "microstructure",
           "yield strength",
           "porosity"
         ]
@@ -185,8 +189,8 @@
         "priority": "Medium",
         "relevance_level": "Direct",
         "read_action": "Save for project",
-        "relevance_to_user": "本文研究增材制造Ti6Al4V生物启发力学超材料的压缩性能，虽未涉及疲劳，但提供力学性能数据。",
-        "why_not_core": "This paper focuses on compressive energy absorption of Ti-6Al-4V metamaterials and does not address fatigue performance or tensile properties.",
+        "relevance_to_user": "该论文研究了选择性激光熔融Ti6Al4V仿生超材料的压缩力学性能，但未涉及疲劳性能，属于L1方向的机械性能范畴但非典型研究。",
+        "why_not_core": "The paper focuses on energy-absorbing metamaterial design and compressive properties, not on standard mechanical/fatigue characterization (e.g., tensile, S-N curves) of as-built Ti-6Al-4V.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -195,41 +199,46 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V",
+          "additive manufacturing",
+          "Ti6Al4V",
           "selective laser melting",
-          "bioinspired metamaterials",
+          "metamaterial",
           "energy absorption",
-          "compressive yield strength",
-          "specific energy absorption"
+          "bioinspired",
+          "compression test"
         ],
         "summary_zh": {
-          "motivation": "利用生物启发几何设计轻质高强吸能力学超材料。",
-          "method": "采用SLM制备Ti6Al4V超材料样品，进行准静态和动态压缩测试。",
-          "result": "基于犀牛甲虫前翅微结构的超材料屈服强度134 MPa，比吸能4.61 J/g。",
-          "validation": "通过准静态和动态压缩实验验证力学性能。"
+          "motivation": "利用仿生结构设计低重量高能量吸收的力学超材料。",
+          "method": "基于柚皮和犀金龟前翅微结构设计超材料，采用SLM制造Ti6Al4V试样并进行压缩测试。",
+          "result": "犀金龟翅基超材料屈服强度134 MPa，比吸能4.61 J/g。",
+          "validation": "通过准静态和动态压缩实验验证了力学性能。"
         },
         "summary_en": {
-          "motivation": "To design lightweight, high-strength, energy-absorbing mechanical metamaterials by mimicking biological structures.",
-          "method": "Ti6Al4V metamaterial specimens with pomelo peel and rhinoceros beetle forewing microstructures were fabricated via selective laser melting and tested under quasi-static and dynamic compression.",
-          "result": "The beetle forewing-based design achieved a compressive yield strength of 134 MPa and a specific energy absorption of 4.61 J/g.",
+          "motivation": "To develop lightweight, high-energy-absorption mechanical metamaterials inspired by natural pomelo peel and beetle forewing microstructures.",
+          "method": "Metamaterial specimens with 80% porosity were designed from bioinspired unit cells, fabricated from Ti6Al4V via selective laser melting, and tested under quasi-static and dynamic compression.",
+          "result": "The beetle-inspired metamaterial achieved a compressive yield strength of 134 MPa and a specific energy absorption of 4.61 J/g.",
           "validation": "Mechanical properties were validated through quasi-static and dynamic compression experiments."
         },
         "key_terms": [
           {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V合金"
-          },
-          {
             "en": "selective laser melting",
-            "zh": "选区激光熔化"
+            "zh": "选择性激光熔融"
           },
           {
-            "en": "bioinspired metamaterials",
-            "zh": "生物启发超材料"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "metamaterial",
+            "zh": "超材料"
           },
           {
             "en": "energy absorption",
             "zh": "能量吸收"
+          },
+          {
+            "en": "bioinspired geometry",
+            "zh": "仿生几何"
           },
           {
             "en": "compressive yield strength",
@@ -238,31 +247,789 @@
           {
             "en": "specific energy absorption",
             "zh": "比吸能"
+          },
+          {
+            "en": "quasi-static compression",
+            "zh": "准静态压缩"
+          },
+          {
+            "en": "dynamic compression",
+            "zh": "动态压缩"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:28:07Z"
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7134885061",
+      "doi": "10.1016/j.rineng.2026.110022",
+      "title": "Enhancing Ti-6Al-4V microstructure prediction in additive manufacturing via integrated heat transfer and phase transition kinetics modeling",
+      "abstract": "• Macro temperature simulations and experiments linked process parameters to microstructure. • Developed two predictive models for α lath width in DEDed Ti-6Al-4V. • Coarsening of α lath in the DED is explained with multiple dissolution-precipitation mechanisms. • Phase fraction and dissolution-precipitation both crucial in α lath width prediction. • The study aids in optimizing DED parameters and improving mechanical properties control. The α lath width is a crucial microstructural feature size that influences the mechanical properties of Ti-6Al-4V components produced by laser directed energy deposition. Predicting the α lath width in as-deposited Ti-6Al-4V improves the control of the microstructure and mechanical properties. However, quantitative evaluation regarding the correlation between the reciprocal thermal cycles in additive manufacturing and the α lath size remains inadequate, and relevant phase-transition kinetics models require further modification to account for multiple heating–cooling cycles. This study combines macroscopic temperature field simulations with univariate controlled experiments to establish the qualitative relationship between the process parameters, thermal history, and microstructural evolution. According to the experimental and simulated correlation, two predictive models for the α lath width based on the phase fraction and the multiple dissolution–precipitation mechanism are developed and optimized by coupling phase transition kinetics. Model accuracy validation experiments reveal that the phase fraction model (27.3%) slightly outperforms the multiple dissolution–precipitation model (28.6%) in terms of the α lath width prediction accuracy. However, the multiple dissolution–precipitation model is valuable for assessing the trend of the α lath width evolution and coarsening with the deposition height during thermal cycles, demonstrating the plausibility of multiple dissolution–precipitation mechanisms in elucidating α lath coarsening during DED.",
+      "authors": [
+        "Pengqing Yan",
+        "Xi Yang",
+        "Yiqi Peng",
+        "Yufan Zhao",
+        "Qingdi Li",
+        "Tanzhi Hua",
+        "Hui Cheng",
+        "Duoqi Wang",
+        "Pengchen Xie",
+        "Haiou Yang",
+        "Xin LIN"
+      ],
+      "first_author_affiliation": "Chinese Flight Test Establishment, Yanliang District, Xi’an, Shaanxi 710089, PR China",
+      "corresponding_authors": [
+        {
+          "name": "Yufan Zhao",
+          "affiliation": "Research & Development Institute of Northwestern Polytechnical University in Shenzhen, Shenzhen, Guangdong 518063, PR China"
+        },
+        {
+          "name": "Xin LIN",
+          "affiliation": "Research & Development Institute of Northwestern Polytechnical University in Shenzhen, Shenzhen, Guangdong 518063, PR China"
+        }
+      ],
+      "venue": "Results in Engineering",
+      "year": 2026,
+      "date": "2026-03-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.rineng.2026.110022",
+      "cited_by_count": 1,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Heat transfer",
+        "Kinetics",
+        "Phase (matter)",
+        "Phase transition",
+        "Work (physics)",
+        "Thermodynamics",
+        "Metallurgy",
+        "Process (computing)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "directed energy deposition",
+          "DED",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文专注于DED Ti-6Al-4V的α板条宽度预测，未涉及力学或疲劳性能测试，对直接获取机械性能数据帮助有限。",
+        "why_not_core": "The paper focuses on microstructure prediction without any experimental mechanical testing or fatigue characterization, thus does not directly provide mechanical performance data.",
+        "validation_kind": "in_vitro",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "directed energy deposition",
+          "α lath width",
+          "phase transition kinetics",
+          "Ti-6Al-4V",
+          "thermal cycles"
+        ],
+        "summary_zh": {
+          "motivation": "通过预测α板条宽度控制DED Ti-6Al-4V的力学性能。",
+          "method": "结合温度场模拟与相变动力学建立两种预测模型。",
+          "result": "相分数模型预测精度略优于多溶解-析出模型（27.3% vs 28.6%）。",
+          "validation": "通过实验测量α板条宽度验证模型。"
+        },
+        "summary_en": {
+          "motivation": "To improve control over mechanical properties of DED Ti-6Al-4V by predicting α lath width.",
+          "method": "Integrated macroscopic temperature field simulations with phase transition kinetics to develop two predictive models.",
+          "result": "The phase fraction model achieved slightly better prediction accuracy (27.3%) than the multiple dissolution-precipitation model (28.6%).",
+          "validation": "Experimental measurement of α lath width in DED samples was used to validate model predictions."
+        },
+        "key_terms": [
+          {
+            "en": "directed energy deposition",
+            "zh": "定向能量沉积"
+          },
+          {
+            "en": "α lath width",
+            "zh": "α板条宽度"
+          },
+          {
+            "en": "phase transition kinetics",
+            "zh": "相变动力学"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "thermal cycles",
+            "zh": "热循环"
+          },
+          {
+            "en": "dissolution-precipitation",
+            "zh": "溶解-析出"
+          },
+          {
+            "en": "phase fraction model",
+            "zh": "相分数模型"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7134945546",
+      "doi": "10.1016/j.msea.2026.150091",
+      "title": "Tensile and fatigue behavior of Ti-6Al-4V-1Fe-1Cr alloy: deformation and failure mechanisms",
+      "abstract": "",
+      "authors": [
+        "Wenzhi Yuan",
+        "Weihong Zhao",
+        "Qifei Zhang",
+        "Qinyang Zhao",
+        "Yamei Mao",
+        "Meilin Huang",
+        "Guohuan Wei",
+        "Yu Liu",
+        "Gaofei Liang",
+        "Shuangjie Chu"
+      ],
+      "first_author_affiliation": "School of Materials Science and Engineering, Chang'an University, 710064, Xi'an, PR China",
+      "corresponding_authors": [
+        {
+          "name": "Qinyang Zhao",
+          "affiliation": "School of Materials Science and Engineering, Chang'an University, 710064, Xi'an, PR China"
+        },
+        {
+          "name": "Gaofei Liang",
+          "affiliation": "China Baowu Special Metallurgy Co., Ltd., 200940, Shanghai, PR China"
+        }
+      ],
+      "venue": "Materials Science and Engineering A",
+      "year": 2026,
+      "date": "2026-03-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.msea.2026.150091",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Deformation (meteorology)",
+        "Ultimate tensile strength",
+        "Composite material",
+        "Failure assessment"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是非增材制造的Ti-6Al-4V-1Fe-1Cr合金，并非标准Ti-6Al-4V，且未涉及增材制造。",
+        "why_not_core": "Paper concerns a modified Ti-6Al-4V-1Fe-1Cr alloy, not standard Ti-6Al-4V, and does not involve additive manufacturing.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V-1Fe-1Cr",
+          "tensile",
+          "fatigue",
+          "deformation"
+        ],
+        "summary_zh": {
+          "motivation": "研究Ti-6Al-4V-1Fe-1Cr合金的拉伸与疲劳行为及其变形失效机制。",
+          "method": "通过力学测试与微观结构分析表征材料性能。",
+          "result": "揭示了该合金的拉伸和疲劳性能及失效机理。",
+          "validation": "实验力学测试验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the tensile and fatigue behavior and underlying deformation and failure mechanisms of Ti-6Al-4V-1Fe-1Cr alloy.",
+          "method": "Mechanical testing combined with microstructural characterization to evaluate properties.",
+          "result": "The study reveals the tensile and fatigue performance and failure mechanisms of the alloy.",
+          "validation": "Experimental mechanical testing validation."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V-1Fe-1Cr",
+            "zh": "Ti-6Al-4V-1Fe-1Cr合金"
+          },
+          {
+            "en": "tensile behavior",
+            "zh": "拉伸行为"
+          },
+          {
+            "en": "fatigue behavior",
+            "zh": "疲劳行为"
+          },
+          {
+            "en": "deformation mechanisms",
+            "zh": "变形机制"
+          },
+          {
+            "en": "failure mechanisms",
+            "zh": "失效机制"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7135045964",
+      "doi": "10.1080/17452759.2026.2638104",
+      "title": "Thermal-mechanical coupled regulation of Ti-22Al-25Nb/Ti-6Al-4V bimetallic structures during an alternating ultrasonic surface rolling – laser directed energy deposition hybrid process",
+      "abstract": "Although bimetallic structures have demonstrated great thermomechanical compatibility under extreme temperature gradients, the poor bonding performance and damage resistance still hinder wider application. In this study, an alternating ultrasonic surface rolling process-laser directed energy deposition (USRP-LDED) hybrid process is proposed to enhance the bonding performance and fracture toughness of Ti-22Al-25Nb/Ti-6Al-4V bimetallic structure based on thermal-mechanical coupled regulation. The study revealed the anisotropic bending response of the bimetallic structure and demonstrated that the hybrid process significantly enhances the fracture toughness under different loading modes. Additionally, the coordinated matching of multi-regional microstructures further enhances bonding strength by 31.4%. Consequently, the thermal-mechanical regulation mechanism was elucidated and decoupled through systematic deconstruction analysis. For the deposition region, the stress-dominated crystal continuity destruction and the precipitation inhibition caused by thermal regulation increased the stress intensity factor to 38.1 MPa·m¹/². For the substrate region, interlayer USRP suppressed the brittleness effect in the heat-affected zone, increasing the elongation by 37% while suppressing α’ phase coarsening. For the transition zone, interlayer USRP reduces elemental diffusion through attenuated heat input while significantly improving bonding strength by refining the α2 phase.",
+      "authors": [
+        "Tingyu Ge",
+        "Yanle Li",
+        "Chenglong Yang",
+        "Heng Chen",
+        "Yunjian Bai",
+        "Fangyi Li"
+      ],
+      "first_author_affiliation": "National Demonstration Center for Experimental Mechanical Engineering Education (Shandong University)",
+      "corresponding_authors": [
+        {
+          "name": "Yanle Li",
+          "affiliation": "National Demonstration Center for Experimental Mechanical Engineering Education (Shandong University)"
+        }
+      ],
+      "venue": "Virtual and Physical Prototyping",
+      "year": 2026,
+      "date": "2026-03-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1080/17452759.2026.2638104",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Bimetallic strip",
+        "Composite material",
+        "Fracture toughness",
+        "Toughness",
+        "Brittleness",
+        "Microstructure",
+        "Metallurgy",
+        "Ultimate tensile strength",
+        "Charpy impact test",
+        "Deposition (geology)",
+        "Residual stress",
+        "Heat treating",
+        "Bond strength"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "directed energy deposition",
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "论文涉及Ti-6Al-4V作为基底的双金属结构，但主要关注异种合金界面结合性能而非Ti-6Al-4V本身的力学与疲劳行为。",
+        "why_not_core": "The paper focuses on a bimetallic structure of Ti-22Al-25Nb/Ti-6Al-4V and the hybrid process for bonding enhancement, not on the standalone mechanical or fatigue characterization of Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "bimetallic",
+          "laser directed energy deposition",
+          "fracture toughness",
+          "Ti-6Al-4V",
+          "ultrasonic surface rolling"
+        ],
+        "summary_zh": {
+          "motivation": "双金属结构界面结合性能差，需提升其断裂韧性。",
+          "method": "采用交替超声表面滚动-激光定向能量沉积混合工艺调控热-力耦合。",
+          "result": "混合工艺使结合强度提升31.4%，应力强度因子达38.1 MPa·m¹/²。",
+          "validation": "通过弯曲试验和显微组织分析验证性能改善。"
+        },
+        "summary_en": {
+          "motivation": "To improve the poor bonding performance and fracture toughness of bimetallic structures under extreme temperature gradients.",
+          "method": "An alternating ultrasonic surface rolling process combined with laser directed energy deposition (USRP-LDED) is proposed for thermal-mechanical coupled regulation of Ti-22Al-25Nb/Ti-6Al-4V bimetallic structures.",
+          "result": "The hybrid process enhances bonding strength by 31.4% and increases the stress intensity factor to 38.1 MPa·m¹/² through multi-regional microstructure coordination.",
+          "validation": "Mechanical bending tests and microstructural analysis were conducted to validate the fracture toughness and bonding enhancement."
+        },
+        "key_terms": [
+          {
+            "en": "bimetallic structure",
+            "zh": "双金属结构"
+          },
+          {
+            "en": "laser directed energy deposition",
+            "zh": "激光定向能量沉积"
+          },
+          {
+            "en": "ultrasonic surface rolling",
+            "zh": "超声表面滚动"
+          },
+          {
+            "en": "fracture toughness",
+            "zh": "断裂韧性"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "bonding strength",
+            "zh": "结合强度"
+          },
+          {
+            "en": "thermal-mechanical coupling",
+            "zh": "热-力耦合"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7134906015",
+      "doi": "10.6084/m9.figshare.31665341",
+      "title": "Thermal-mechanical coupled regulation of Ti-22Al-25Nb/Ti-6Al-4V bimetallic structures during an alternating ultrasonic surface rolling – laser directed energy deposition hybrid process",
+      "abstract": "Although bimetallic structures have demonstrated great thermomechanical compatibility under extreme temperature gradients, the poor bonding performance and damage resistance still hinder wider application. In this study, an alternating ultrasonic surface rolling process-laser directed energy deposition (USRP-LDED) hybrid process is proposed to enhance the bonding performance and fracture toughness of Ti-22Al-25Nb/Ti-6Al-4V bimetallic structure based on thermal-mechanical coupled regulation. The study revealed the anisotropic bending response of the bimetallic structure and demonstrated that the hybrid process significantly enhances the fracture toughness under different loading modes. Additionally, the coordinated matching of multi-regional microstructures further enhances bonding strength by 31.4%. Consequently, the thermal-mechanical regulation mechanism was elucidated and decoupled through systematic deconstruction analysis. For the deposition region, the stress-dominated crystal continuity destruction and the precipitation inhibition caused by thermal regulation increased the stress intensity factor to 38.1 MPa·m¹/². For the substrate region, interlayer USRP suppressed the brittleness effect in the heat-affected zone, increasing the elongation by 37% while suppressing α’ phase coarsening. For the transition zone, interlayer USRP reduces elemental diffusion through attenuated heat input while significantly improving bonding strength by refining the α<sub>2</sub> phase.",
+      "authors": [
+        "Tingyu Ge",
+        "Yanle Li",
+        "Chenglong Yang",
+        "Heng Chen",
+        "Yunjian Bai",
+        "Fangyi Li"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Tingyu Ge",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Figshare",
+      "year": 2026,
+      "date": "2026-03-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.6084/m9.figshare.31665341",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Bimetallic strip",
+        "Composite material",
+        "Fracture toughness",
+        "Toughness",
+        "Metallurgy",
+        "Charpy impact test",
+        "Microstructure",
+        "Brittleness",
+        "Ultimate tensile strength",
+        "Residual stress",
+        "Deposition (geology)",
+        "Dislocation",
+        "Heat treating",
+        "Bond strength",
+        "Substrate (aquarium)",
+        "Nanocrystalline material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "directed energy deposition",
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V，但主要聚焦于Ti-22Al-25Nb/Ti-6Al-4V双金属结构的混合工艺，而非纯粹的Ti-6Al-4V力学性能或疲劳研究。",
+        "why_not_core": "The paper focuses on a bimetallic structure with Ti-22Al-25Nb and a hybrid process, not on the standalone mechanical or fatigue performance of additively manufactured Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "bimetallic",
+          "Ti-6Al-4V",
+          "laser directed energy deposition",
+          "ultrasonic surface rolling",
+          "fracture toughness",
+          "bonding strength"
+        ],
+        "summary_zh": {
+          "motivation": "提高Ti-22Al-25Nb/Ti-6Al-4V双金属结构的结合性能和断裂韧性",
+          "method": "提出交替超声表面滚压-激光定向能量沉积混合工艺",
+          "result": "混合工艺显著提升了断裂韧性和结合强度，解释热-力调控机理",
+          "validation": "通过弯曲和断裂力学测试验证"
+        },
+        "summary_en": {
+          "motivation": "To enhance the bonding performance and fracture toughness of Ti-22Al-25Nb/Ti-6Al-4V bimetallic structures under extreme temperature gradients.",
+          "method": "An alternating ultrasonic surface rolling process-laser directed energy deposition (USRP-LDED) hybrid process was proposed for thermal-mechanical coupled regulation.",
+          "result": "The hybrid process improved fracture toughness to 38.1 MPa·m¹/² and bonding strength by 31.4%, with increased elongation by 37% in the substrate region.",
+          "validation": "Mechanical testing including bending and fracture toughness measurements on the bimetallic structure."
+        },
+        "key_terms": [
+          {
+            "en": "bimetallic structure",
+            "zh": "双金属结构"
+          },
+          {
+            "en": "ultrasonic surface rolling",
+            "zh": "超声表面滚压"
+          },
+          {
+            "en": "laser directed energy deposition",
+            "zh": "激光定向能量沉积"
+          },
+          {
+            "en": "fracture toughness",
+            "zh": "断裂韧性"
+          },
+          {
+            "en": "bonding strength",
+            "zh": "结合强度"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "Ti-22Al-25Nb",
+            "zh": "Ti-22Al-25Nb"
+          },
+          {
+            "en": "hybrid process",
+            "zh": "混合工艺"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7134984258",
+      "doi": "10.6084/m9.figshare.31665341.v1",
+      "title": "Thermal-mechanical coupled regulation of Ti-22Al-25Nb/Ti-6Al-4V bimetallic structures during an alternating ultrasonic surface rolling – laser directed energy deposition hybrid process",
+      "abstract": "Although bimetallic structures have demonstrated great thermomechanical compatibility under extreme temperature gradients, the poor bonding performance and damage resistance still hinder wider application. In this study, an alternating ultrasonic surface rolling process-laser directed energy deposition (USRP-LDED) hybrid process is proposed to enhance the bonding performance and fracture toughness of Ti-22Al-25Nb/Ti-6Al-4V bimetallic structure based on thermal-mechanical coupled regulation. The study revealed the anisotropic bending response of the bimetallic structure and demonstrated that the hybrid process significantly enhances the fracture toughness under different loading modes. Additionally, the coordinated matching of multi-regional microstructures further enhances bonding strength by 31.4%. Consequently, the thermal-mechanical regulation mechanism was elucidated and decoupled through systematic deconstruction analysis. For the deposition region, the stress-dominated crystal continuity destruction and the precipitation inhibition caused by thermal regulation increased the stress intensity factor to 38.1 MPa·m¹/². For the substrate region, interlayer USRP suppressed the brittleness effect in the heat-affected zone, increasing the elongation by 37% while suppressing α’ phase coarsening. For the transition zone, interlayer USRP reduces elemental diffusion through attenuated heat input while significantly improving bonding strength by refining the α<sub>2</sub> phase.",
+      "authors": [
+        "Tingyu Ge",
+        "Yanle Li",
+        "Chenglong Yang",
+        "Heng Chen",
+        "Yunjian Bai",
+        "Fangyi Li"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Tingyu Ge",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Figshare",
+      "year": 2026,
+      "date": "2026-03-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.6084/m9.figshare.31665341.v1",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Bimetallic strip",
+        "Composite material",
+        "Fracture toughness",
+        "Toughness",
+        "Metallurgy",
+        "Charpy impact test",
+        "Microstructure",
+        "Brittleness",
+        "Ultimate tensile strength",
+        "Residual stress",
+        "Deposition (geology)",
+        "Dislocation",
+        "Heat treating",
+        "Bond strength",
+        "Substrate (aquarium)",
+        "Nanocrystalline material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "directed energy deposition",
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V的双金属结构，但主要关注混合工艺优化而非其自身力学性能。",
+        "why_not_core": "This paper focuses on a bimetallic Ti-22Al-25Nb/Ti-6Al-4V structure and a hybrid process, not on the mechanical or fatigue performance of additively manufactured Ti-6Al-4V alone.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser directed energy deposition",
+          "ultrasonic surface rolling",
+          "bimetallic structure",
+          "fracture toughness",
+          "bonding strength",
+          "Ti-6Al-4V",
+          "Ti-22Al-25Nb"
+        ],
+        "summary_zh": {
+          "motivation": "提高双金属结构的结合性能和断裂韧性",
+          "method": "交替超声表面滚压-激光定向能量沉积混合工艺",
+          "result": "显著提升断裂韧性和结合强度",
+          "validation": "弯曲实验与微观结构分析"
+        },
+        "summary_en": {
+          "motivation": "To enhance the bonding performance and fracture toughness of Ti-22Al-25Nb/Ti-6Al-4V bimetallic structures.",
+          "method": "A hybrid process combining alternating ultrasonic surface rolling and laser directed energy deposition for thermal-mechanical coupled regulation.",
+          "result": "The hybrid process significantly improves fracture toughness and bonding strength of the bimetallic structure.",
+          "validation": "Mechanical bending tests and microstructural analysis were used for validation."
+        },
+        "key_terms": [
+          {
+            "en": "laser directed energy deposition",
+            "zh": "激光定向能量沉积"
+          },
+          {
+            "en": "ultrasonic surface rolling",
+            "zh": "超声表面滚压"
+          },
+          {
+            "en": "bimetallic structure",
+            "zh": "双金属结构"
+          },
+          {
+            "en": "fracture toughness",
+            "zh": "断裂韧性"
+          },
+          {
+            "en": "bonding strength",
+            "zh": "结合强度"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "Ti-22Al-25Nb",
+            "zh": "Ti-22Al-25Nb"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7135080453",
+      "doi": "10.1016/j.matchar.2026.116259",
+      "title": "Influence of process parameters on microstructure–property relationships in additive friction stir deposition of Ti-6Al-4V",
+      "abstract": "",
+      "authors": [
+        "Ismail Zabeeullah Kolimi",
+        "Julie Marteau",
+        "Salima Bouvier",
+        "Pierre Auguste",
+        "Wolfgang Pantleon"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Ismail Zabeeullah Kolimi",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Materials Characterization",
+      "year": 2026,
+      "date": "2026-03-11",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.matchar.2026.116259",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Deposition (geology)",
+        "Process (computing)",
+        "Composite material",
+        "Friction stir processing",
+        "Metallurgy",
+        "Microstructure",
+        "Fused deposition modeling",
+        "Friction stir welding"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文直接研究增材制造Ti-6Al-4V的工艺参数对微观结构和性能的影响，属于当前方向关注的核心内容。",
+        "why_not_core": "Title suggests microstructure-property relationships but no explicit mention of fatigue or tensile behavior, likely focusing on hardness and microstructure rather than mechanical or fatigue performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "additive friction stir deposition",
+          "Ti-6Al-4V",
+          "process parameters",
+          "microstructure",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "探究增材摩擦搅拌沉积工艺参数对Ti-6Al-4V微观结构和性能的影响",
+          "method": "采用不同工艺参数进行增材摩擦搅拌沉积实验，结合微观表征和力学测试",
+          "result": "工艺参数显著影响微观组织演变和力学性能，建立了工艺-结构-性能关系",
+          "validation": "通过微观表征和力学测试验证工艺参数对性能的影响规律"
+        },
+        "summary_en": {
+          "motivation": "To investigate the influence of additive friction stir deposition process parameters on the microstructure and mechanical properties of Ti-6Al-4V.",
+          "method": "Specimens were fabricated under varying process parameters, followed by microstructural characterization and mechanical testing.",
+          "result": "Process parameters significantly affect microstructure evolution and mechanical properties, establishing a process-structure-property relationship.",
+          "validation": "Validation was performed through microstructural analysis and mechanical testing to confirm the effects of process parameters."
+        },
+        "key_terms": [
+          {
+            "en": "additive friction stir deposition",
+            "zh": "增材摩擦搅拌沉积"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "process parameters",
+            "zh": "工艺参数"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "property relationships",
+            "zh": "性能关系"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:48:09Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 8,
     "by_source": {
-      "openalex": 2
+      "openalex": 8
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 8,
+    "after_routing": 8,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 2
+      "ti6al4v_base_mechanical_fatigue": 8
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 8
     },
-    "scored": 2,
+    "scored": 8,
     "priority_counts": {
       "High": 1,
-      "Medium": 1
+      "Medium": 3,
+      "Exclude": 1,
+      "Low": 3
     }
   }
 }

@@ -65,6 +65,9 @@
           "Ti-6Al-4V",
           "Ti 6Al 4V",
           "Ti-6Al-4V ELI",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
           "surface roughness"
         ],
         "ti6al4v_postprocess": [
@@ -78,9 +81,9 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文研究了粉末重复使用和表面涂层（阳极氧化、Flash-PEO）对LPBF Ti-6Al-4V腐蚀行为的影响，但未涉及任何力学性能（疲劳、拉伸），因此与后处理对力学性能调控的方向关联较弱。",
-        "why_not_core": "No evaluation of mechanical performance (fatigue, tensile); focuses solely on corrosion behavior, not on how post-processing modifies fatigue or mechanical properties of AM Ti-6Al-4V.",
-        "validation_kind": "none",
+        "relevance_to_user": "该论文研究了后处理（阳极氧化和Flash-PEO）对Ti-6Al-4V腐蚀行为的影响，未涉及机械性能（如疲劳、拉伸），与方向关注点偏离。",
+        "why_not_core": "This paper does not investigate mechanical performance (fatigue, tensile strength, or porosity closure) of Ti-6Al-4V after post-processing; it focuses solely on corrosion behavior in simulated physiological and atmospheric solutions.",
+        "validation_kind": "in_vitro",
         "flags": {
           "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
@@ -88,25 +91,25 @@
           "is_review": false
         },
         "tags": [
-          "Ti-6Al-4V ELI",
+          "Ti-6Al-4V",
           "laser powder bed fusion",
           "powder reuse",
           "anodizing",
-          "flash plasma electrolytic oxidation",
+          "flash-PEO",
           "corrosion resistance",
-          "biomedical"
+          "post-processing"
         ],
         "summary_zh": {
-          "motivation": "探究粉末重复使用对经阳极氧化和Flash-PEO处理的L-PBF Ti-6Al-4V腐蚀性能的影响",
-          "method": "对比新粉与34次重复使用粉末，施加阳极氧化和Flash-PEO涂层，通过电化学测试评估腐蚀行为",
-          "result": "重复使用粉末提高钝化性，涂层使钝化电流降低两个数量级，Flash-PEO有效抑制局部腐蚀",
-          "validation": "通过循环动电位极化测试和微结构表征验证"
+          "motivation": "研究粉末复用和后处理（阳极氧化、Flash-PEO）对LPBF Ti-6Al-4V ELI腐蚀性能的影响",
+          "method": "采用循环动电位极化测试，结合XRD、SEM等表征腐蚀行为",
+          "result": "粉末复用34周期后氧含量增至0.14wt%，增强钝化；Flash-PEO显著提升局部腐蚀抗力",
+          "validation": "通过对比不同粉末状态和表面处理的极化曲线验证"
         },
         "summary_en": {
-          "motivation": "This study investigates how powder reuse affects the corrosion performance of anodized and Flash-PEO coated L-PBF Ti-6Al-4V ELI.",
-          "method": "Virgin and reused (34 cycles) powder feedstocks were compared, with specimens subjected to anodizing and Flash-PEO treatments, followed by microstructural characterization and cyclic potentiodynamic polarization tests.",
-          "result": "Reused powder enhanced passivity, both anodizing and Flash-PEO reduced passive current density by two orders of magnitude, and Flash-PEO provided significant protection against localized corrosion.",
-          "validation": "Validation was performed through experimental electrochemical testing and microstructural analysis."
+          "motivation": "This study investigates how powder reuse up to 34 cycles affects the corrosion resistance of L-PBF Ti-6Al-4V ELI after anodizing and flash-PEO surface treatments.",
+          "method": "Cyclic potentiodynamic polarization tests, X-ray diffraction, scanning electron microscopy, and optical profilometry were employed to characterize corrosion behavior and surface morphology.",
+          "result": "Reused powder (34 cycles) increased oxygen content to 0.14 wt.%, enhancing passivity; flash-PEO coatings provided superior protection against localized corrosion, reducing passive current density by nearly two orders of magnitude.",
+          "validation": "Corrosion resistance was validated through polarization curves in Harrison's and Hanks' solutions, comparing virgin and reused powder builds with different surface treatments."
         },
         "key_terms": [
           {
@@ -115,59 +118,182 @@
           },
           {
             "en": "Ti-6Al-4V ELI",
-            "zh": "Ti-6Al-4V ELI"
+            "zh": "Ti-6Al-4V 超低间隙合金"
           },
           {
             "en": "powder reuse",
-            "zh": "粉末重复使用"
+            "zh": "粉末复用"
           },
           {
             "en": "anodizing",
             "zh": "阳极氧化"
           },
           {
-            "en": "flash plasma electrolytic oxidation",
-            "zh": "闪光等离子体电解氧化"
+            "en": "flash-plasma electrolytic oxidation",
+            "zh": "闪速等离子体电解氧化"
           },
           {
             "en": "corrosion resistance",
-            "zh": "耐腐蚀性"
-          },
-          {
-            "en": "passive current density",
-            "zh": "钝化电流密度"
+            "zh": "耐腐蚀性能"
           },
           {
             "en": "cyclic potentiodynamic polarization",
             "zh": "循环动电位极化"
-          },
-          {
-            "en": "biomedical components",
-            "zh": "生物医用部件"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7162651614",
+      "doi": "10.1016/j.msea.2026.150480",
+      "title": "Unveiling heterogeneous microstructure and deformation behavior in laser-directed energy deposition repaired wrought Ti-6Al-4V thin walls",
+      "abstract": "",
+      "authors": [
+        "Ruixin Wang",
+        "Ruixin Zhao",
+        "Tingwei Cao",
+        "Yuyang Hou",
+        "Songzhe Xu",
+        "Ninshu Ma",
+        "Ting Rong",
+        "Mingliang Li",
+        "Jiang Wang",
+        "Chaoyue Chen",
+        "Zhongming Ren"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Ruixin Wang",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Materials Science and Engineering A",
+      "year": 2026,
+      "date": "2026-05-28",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.msea.2026.150480",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Deformation (meteorology)",
+        "Composite material",
+        "Deposition (geology)",
+        "Energy (signal processing)",
+        "Metallurgy",
+        "Impact energy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "directed energy deposition",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接涉及激光定向能量沉积修复的Ti-6Al-4V薄壁的微观结构和变形行为，属于L1方向的力学性能研究。",
+        "why_not_core": "Does not report fatigue life or S-N curves; focuses on static deformation and microstructure heterogeneity rather than cyclic fatigue performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser-directed energy deposition",
+          "Ti-6Al-4V",
+          "repair",
+          "microstructure",
+          "deformation behavior",
+          "thin walls"
+        ],
+        "summary_zh": {
+          "motivation": "揭示激光定向能量沉积修复Ti-6Al-4V薄壁的异质微观结构和变形机制。",
+          "method": "采用激光定向能量沉积技术修复锻造Ti-6Al-4V薄壁，并进行微观结构表征和力学测试。",
+          "result": "发现了修复区域的异质微观结构及其对整体变形行为的影响。",
+          "validation": "通过微观结构观察和力学性能测试验证了结果。"
+        },
+        "summary_en": {
+          "motivation": "To uncover the heterogeneous microstructure and deformation behavior in laser-directed energy deposition repaired wrought Ti-6Al-4V thin walls.",
+          "method": "Laser-directed energy deposition was used to repair wrought Ti-6Al-4V thin walls, followed by microstructural characterization and mechanical testing.",
+          "result": "Heterogeneous microstructures were observed in the repaired region, influencing the overall deformation behavior.",
+          "validation": "Experimental validation was performed through microstructural analysis and mechanical property measurements."
+        },
+        "key_terms": [
+          {
+            "en": "laser-directed energy deposition",
+            "zh": "激光定向能量沉积"
+          },
+          {
+            "en": "heterogeneous microstructure",
+            "zh": "异质微观结构"
+          },
+          {
+            "en": "deformation behavior",
+            "zh": "变形行为"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "repair",
+            "zh": "修复"
+          },
+          {
+            "en": "thin walls",
+            "zh": "薄壁"
+          },
+          {
+            "en": "mechanical testing",
+            "zh": "力学测试"
+          },
+          {
+            "en": "wrought",
+            "zh": "锻造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:54:38Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Low": 1
+      "Low": 1,
+      "High": 1
     }
   }
 }

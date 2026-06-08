@@ -56,6 +56,8 @@
         "ti6al4v_base_mechanical_fatigue": [
           "Ti-6Al-4V",
           "Ti 6Al 4V",
+          "additive manufacturing",
+          "microstructure",
           "porosity",
           "defect",
           "fatigue",
@@ -75,9 +77,9 @@
       "llm": {
         "priority": "Medium",
         "relevance_level": "Direct",
-        "read_action": "Save for project",
-        "relevance_to_user": "本文综述了后处理（退火、热等静压）对增材制造Ti-6Al-4V缺陷和疲劳性能的影响，直接支持该方向的研究。",
-        "why_not_core": "This paper is a review without new experimental data or a specific post-processing treatment study, so it does not provide novel quantitative results for a particular post-processing route.",
+        "read_action": "Skim only",
+        "relevance_to_user": "该综述系统总结了后处理（热处理、热等静压）对Ti-6Al-4V疲劳性能的影响，与您的方向直接相关但缺乏原创实验数据。",
+        "why_not_core": "This paper is a review of existing literature, not a novel experimental or modeling study on a specific post-processing route; it synthesizes prior work without providing new data.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": false,
@@ -86,25 +88,26 @@
           "is_review": true
         },
         "tags": [
-          "review",
           "Ti-6Al-4V",
-          "post-processing",
-          "fatigue",
+          "additive manufacturing",
           "defects",
+          "post-processing",
           "heat treatment",
-          "hot isostatic pressing"
+          "hot isostatic pressing",
+          "fatigue life",
+          "review"
         ],
         "summary_zh": {
-          "motivation": "系统分析增材制造Ti-6Al-4V合金中关键缺陷对微观结构和疲劳行为的影响。",
-          "method": "文献综述，整合机械测试、断口分析、CT和热处理研究。",
-          "result": "气孔和未熔合缺陷是主要疲劳裂纹源，后处理热处理可改善微观结构和抗裂纹扩展能力。",
-          "validation": "基于现有实验数据的综合分析，无新实验验证。"
+          "motivation": "系统性分析增材制造Ti-6Al-4V合金中关键缺陷对疲劳行为的影响",
+          "method": "综述机械测试、断口分析、CT及热处理研究，聚焦缺陷特征与疲劳关系",
+          "result": "气孔和未熔合缺陷主导裂纹萌生，后处理（退火、热等静压）改善微观结构并提高裂纹扩展抗力",
+          "validation": "基于已有文献数据的综述性分析，无新实验验证"
         },
         "summary_en": {
-          "motivation": "This study systematically reviews the role of critical additive manufacturing defects in the microstructure and fatigue behavior of Ti-6Al-4V alloy.",
-          "method": "A literature review synthesizing studies on mechanical testing, fractography, CT, and heat treatment of Ti-6Al-4V.",
-          "result": "Gas porosity and lack-of-fusion defects are identified as primary crack initiation sites, and post-processing heat treatments such as annealing and HIP improve microstructure and fatigue resistance.",
-          "validation": "No new experiments are conducted; conclusions are drawn from a critical analysis of existing literature."
+          "motivation": "This review systematically analyzes how critical additive manufacturing defects affect the fatigue behavior and reliability of Ti-6Al-4V components.",
+          "method": "The study synthesizes recent works on mechanical testing, fractography, CT, and heat treatment to correlate defect characteristics with fatigue performance.",
+          "result": "Gas porosity and lack-of-fusion defects are identified as primary crack initiation sites, and post-processing treatments such as annealing and HIP improve microstructure and crack growth resistance.",
+          "validation": "The paper is a literature review without new experimental or numerical validation."
         },
         "key_terms": [
           {
@@ -116,22 +119,6 @@
             "zh": "增材制造"
           },
           {
-            "en": "post-processing",
-            "zh": "后处理"
-          },
-          {
-            "en": "heat treatment",
-            "zh": "热处理"
-          },
-          {
-            "en": "hot isostatic pressing (HIP)",
-            "zh": "热等静压"
-          },
-          {
-            "en": "fatigue life",
-            "zh": "疲劳寿命"
-          },
-          {
             "en": "porosity",
             "zh": "孔隙率"
           },
@@ -140,14 +127,154 @@
             "zh": "未熔合"
           },
           {
-            "en": "defects",
-            "zh": "缺陷"
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
+          },
+          {
+            "en": "hot isostatic pressing (HIP)",
+            "zh": "热等静压"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "crack initiation",
+            "zh": "裂纹萌生"
+          },
+          {
+            "en": "defect-controlled fatigue",
+            "zh": "缺陷控制疲劳"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7162088577",
+      "doi": "10.1016/j.mechmat.2026.105734",
+      "title": "Crystal plasticity-based modelling of crack initiation and propagation driven by microstructural porosity in additively manufactured Ti-6Al-4V",
+      "abstract": "",
+      "authors": [
+        "S.S. Biriaie",
+        "H. Ben Boubaker",
+        "M. Nouari",
+        "P. Lohmuller",
+        "P. Laheurte"
+      ],
+      "first_author_affiliation": "Université de Lorraine, CNRS, LEM3, Arts et Métiers ParisTech, Metz 57070, France",
+      "corresponding_authors": [
+        {
+          "name": "H. Ben Boubaker",
+          "affiliation": "Université de Lorraine, CNRS, LEM3, Arts et Métiers ParisTech, Metz 57070, France"
+        }
+      ],
+      "venue": "Mechanics of Materials",
+      "year": 2026,
+      "date": "2026-05-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.mechmat.2026.105734",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Porosity",
+        "Composite material",
+        "Crystal (programming language)",
+        "Crystal plasticity",
+        "Microstructure",
+        "Fracture mechanics"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "本文直接针对增材制造Ti-6Al-4V的裂纹萌生与扩展，通过晶体塑性建模研究微孔缺陷的影响，符合L1方向的力学与疲劳性能需求。",
+        "why_not_core": "No experimental mechanical test data (e.g., tensile or fatigue S-N curves) provided; purely computational study without quantitative experimental validation.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "crystal plasticity",
+          "crack initiation",
+          "crack propagation",
+          "microporosity",
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "finite element method",
+          "fatigue"
+        ],
+        "summary_zh": {
+          "motivation": "研究增材制造Ti-6Al-4V中微孔驱动裂纹萌生与扩展的机制。",
+          "method": "采用晶体塑性有限元方法建立微孔缺陷模型，模拟疲劳裂纹演化。",
+          "result": "揭示了孔隙特征对裂纹路径和寿命的影响规律。",
+          "validation": "通过数值模拟与理论比较验证模型可靠性。"
+        },
+        "summary_en": {
+          "motivation": "To understand the role of microporosity in initiating and propagating fatigue cracks in additively manufactured Ti-6Al-4V.",
+          "method": "A crystal plasticity finite element framework is developed to model crack initiation and propagation driven by microstructural pores.",
+          "result": "The model captures the effect of pore size, shape, and distribution on crack formation and growth.",
+          "validation": "The simulation results are validated through numerical benchmarks and mesh sensitivity studies."
+        },
+        "key_terms": [
+          {
+            "en": "crystal plasticity",
+            "zh": "晶体塑性"
+          },
+          {
+            "en": "crack initiation",
+            "zh": "裂纹萌生"
+          },
+          {
+            "en": "crack propagation",
+            "zh": "裂纹扩展"
+          },
+          {
+            "en": "microporosity",
+            "zh": "微孔"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "finite element method",
+            "zh": "有限元方法"
+          },
+          {
+            "en": "fatigue",
+            "zh": "疲劳"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:54:38Z"
     },
     {
       "source": "openalex",
@@ -209,79 +336,83 @@
         "priority": "Exclude",
         "relevance_level": "Peripheral",
         "read_action": "Ignore",
-        "relevance_to_user": "该论文主要研究Ti2AlNb合金的铣削表面织构，不涉及Ti-6Al-4V的机械或疲劳性能。",
-        "why_not_core": "The paper does not study mechanical or fatigue performance of additively manufactured Ti-6Al-4V; it focuses on surface micro-texture of Ti2AlNb cladding layer under milling, with no mechanical testing or fatigue data.",
+        "relevance_to_user": "论文主要研究Ti2AlNb合金而非Ti-6Al-4V，且关注表面纹理而非力学性能。",
+        "why_not_core": "The paper does not study Ti-6Al-4V mechanical or fatigue performance; it focuses on Ti2AlNb cladding layer surface texture.",
         "validation_kind": "none",
         "flags": {
-          "has_experimental_validation": false,
+          "has_experimental_validation": true,
           "has_uncertainty_quantification": false,
           "is_patient_specific": false,
           "is_review": false
         },
         "tags": [
-          "surface micro-texture",
           "Ti2AlNb",
           "laser cladding",
-          "milling",
-          "ultrasonic vibration"
+          "ultrasonic milling",
+          "surface texture"
         ],
         "summary_zh": {
-          "motivation": "研究Ti2AlNb合金加工表面质量问题",
-          "method": "采用超声振动和温度场辅助铣削加工Ti2AlNb熔覆层",
-          "result": "200℃预热和2μm超声振幅可获得最佳表面形貌",
-          "validation": "通过表面粗糙度和微观形貌验证"
+          "motivation": "Ti2AlNb基合金难加工，需改善表面质量",
+          "method": "激光熔覆制备Ti2AlNb层后超声-温度场辅助铣削",
+          "result": "200℃预热+2μm振幅获得最优表面形貌",
+          "validation": "通过表面粗糙度测量和SEM观察验证"
         },
         "summary_en": {
-          "motivation": "To improve surface quality of Ti2AlNb alloy cladding layer during machining.",
-          "method": "Ultrasonic vibration and temperature field assisted milling was applied to Ti2AlNb cladding layer on Ti-6Al-4V substrate.",
-          "result": "Optimal surface morphology was achieved at 200°C preheating and 2μm ultrasonic amplitude.",
-          "validation": "Surface roughness and microscopic morphology were used to evaluate texture quality."
+          "motivation": "Ti2AlNb-based alloy is difficult to machine, requiring improved surface quality.",
+          "method": "A Ti2AlNb cladding layer was laser-cladded on Ti-6Al-4V, then ultrasonically and thermally assisted milled.",
+          "result": "Optimal surface morphology and texture were achieved at 200°C preheating with 2μm ultrasonic amplitude.",
+          "validation": "Surface roughness measurements and SEM observation were used for validation."
         },
         "key_terms": [
           {
-            "en": "ultrasonic vibration assisted milling",
-            "zh": "超声振动辅助铣削"
-          },
-          {
-            "en": "Ti2AlNb alloy",
-            "zh": "Ti2AlNb合金"
+            "en": "Ti2AlNb-based alloy",
+            "zh": "Ti2AlNb基合金"
           },
           {
             "en": "laser cladding",
             "zh": "激光熔覆"
           },
           {
+            "en": "ultrasonic vibration assisted milling",
+            "zh": "超声振动辅助铣削"
+          },
+          {
+            "en": "temperature field assisted milling",
+            "zh": "温度场辅助铣削"
+          },
+          {
             "en": "surface micro-texture",
             "zh": "表面微织构"
           },
           {
-            "en": "preheating temperature",
-            "zh": "预热温度"
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:31:55Z"
+      "first_seen_at": "2026-06-08T08:54:38Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
       "ti6al4v_postprocess": 1,
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
       "Medium": 1,
+      "High": 1,
       "Exclude": 1
     }
   }

@@ -62,6 +62,10 @@
           "Ti-6Al-4V",
           "Ti6Al4V",
           "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "microstructure",
           "porosity",
           "defect"
         ],
@@ -76,8 +80,8 @@
         "priority": "Low",
         "relevance_level": "Peripheral",
         "read_action": "Background only",
-        "relevance_to_user": "该论文研究了退火对LPBF钛合金热膨胀系数的影响，但未涉及疲劳或力学性能，与后处理对力学性能调控的核心关注点不符。",
-        "why_not_core": "This paper does not investigate fatigue or mechanical performance (tensile/fatigue) modification due to post-processing; it focuses solely on coefficient of thermal expansion, a thermophysical property rather than mechanical.",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V的退火对热膨胀系数的影响，但未涉及疲劳或力学性能，与后处理控制方向的核心需求不符。",
+        "why_not_core": "This paper does not evaluate any mechanical performance (fatigue, tensile) of Ti-6Al-4V post-processing; it focuses solely on coefficient of thermal expansion, which is a thermal property.",
         "validation_kind": "none",
         "flags": {
           "has_experimental_validation": true,
@@ -86,26 +90,23 @@
           "is_review": false
         },
         "tags": [
-          "coefficient of thermal expansion",
-          "laser powder bed fusion",
-          "annealing",
           "Ti-6Al-4V",
-          "process parameters",
-          "porosity",
-          "AlSi10Mg",
-          "316L stainless steel"
+          "laser powder bed fusion",
+          "coefficient of thermal expansion",
+          "annealing",
+          "porosity"
         ],
         "summary_zh": {
-          "motivation": "研究LPBF制备的三种合金（含Ti-6Al-4V）的热膨胀系数受工艺参数和退火影响的规律。",
-          "method": "通过改变激光功率、扫描速度和退火处理，测量并分析各合金的CTE变化。",
-          "result": "AlSi10Mg CTE最高且对缺陷敏感，Ti-6Al-4V CTE最低，退火可改善其热膨胀均匀性。",
-          "validation": "实验测量不同工艺条件下的CTE值，与微观结构观察对比验证。"
+          "motivation": "研究激光粉末床熔融制造的Ti-6Al-4V等合金的热膨胀系数影响因素。",
+          "method": "通过改变激光功率、扫描速度和退火处理，测量热膨胀系数。",
+          "result": "Ti-6Al-4V热膨胀系数最低，退火可改善膨胀均匀性。",
+          "validation": "实验测量不同参数下的热膨胀系数。"
         },
         "summary_en": {
-          "motivation": "The study aims to understand how LPBF process parameters (laser power, scanning speed) and annealing affect the coefficient of thermal expansion of AlSi10Mg, 316L stainless steel, and Ti-6Al-4V alloys.",
-          "method": "CTE was measured experimentally for specimens fabricated with varying laser powers (50-100 W) and scanning speeds (0.4-0.8 m/s), including as-built and annealed conditions.",
-          "result": "Ti-6Al-4V showed the lowest CTE, with annealing improving expansion uniformity; higher laser power reduced porosity and stabilized CTE, especially for AlSi10Mg.",
-          "validation": "Experimental CTE measurements were compared across processing conditions, supported by microstructural observations of porosity and defects."
+          "motivation": "To investigate the coefficient of thermal expansion (CTE) behavior of LPBF-fabricated Ti-6Al-4V, AlSi10Mg, and 316L alloys under varying laser parameters and annealing.",
+          "method": "Experimental measurement of CTE using dilatometry on specimens fabricated with different laser powers, scanning speeds, and annealing conditions.",
+          "result": "Ti-6Al-4V exhibited the lowest CTE, and annealing improved CTE uniformity by reducing defects.",
+          "validation": "Experimental characterization of CTE via dilatometry on LPBF specimens."
         },
         "key_terms": [
           {
@@ -117,52 +118,457 @@
             "zh": "激光粉末床熔融"
           },
           {
-            "en": "Ti-6Al-4V",
-            "zh": "Ti-6Al-4V"
-          },
-          {
             "en": "annealing",
             "zh": "退火"
           },
           {
-            "en": "process parameters",
-            "zh": "工艺参数"
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
           },
           {
             "en": "porosity",
             "zh": "孔隙率"
           },
           {
-            "en": "AlSi10Mg",
-            "zh": "AlSi10Mg"
+            "en": "laser power",
+            "zh": "激光功率"
           },
           {
-            "en": "316L stainless steel",
-            "zh": "316L不锈钢"
+            "en": "scanning speed",
+            "zh": "扫描速度"
           }
         ]
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:15:36Z"
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414517104",
+      "doi": "10.1016/j.rineng.2025.107404",
+      "title": "Machine Learning application in predicting the properties of Ti-6Al-4V samples produced with Power Bed Fusion technology",
+      "abstract": "In the context of Additive Manufacturing (AM) with high-cost materials such as Ti-6Al-4V (Ti64), minimizing physical experimentation through predictive models offers a strategic advantage in reducing lead time and manufacturing costs. In view of this, the present study attempts to build a systematic framework to establish such a predictive compacity. In particular, eight supervised Machine Learning (ML) models are compared based on their performance in predicting critical physical properties of AM components, i.e., 3D surface roughness, relative density, and hardness. The curated dataset comprises both traditional dimensional printing parameters and dimensionless parameters. Specifically, in addition to the conventional Volumetric Energy Density (VED) and four primary printing parameters (laser power, hatching distance, scanning speed, and layer height), the study discusses two dimensionless numbers Π 1 and Π 2 for property prediction. This work underscores the role of selecting predictors and models in advancing data-driven process optimization, offering a scalable approach for reducing experimental overhead in metal AM. • Proposes a predictive modeling framework to estimate key physical properties in Ti-6Al-4V additive manufacturing. • Reduces reliance on costly physical experiments by leveraging advanced machine learning techniques. • Introduces two dimensionless parameters ( Π 1 and Π 2 ) to enhance predictive accuracy beyond standard process inputs. • Compares performance of eight models (statistical and machine learning) on a curated dataset with both conventional and novel features. • Demonstrates that model and feature selection are critical for optimizing metal AM processes.",
+      "authors": [
+        "Quoc-Phu Ma",
+        "Hoang-Sy Nguyen",
+        "Duc Hong Vo",
+        "Jiří Hajnyš",
+        "Jakub Měsíček",
+        "Marek Pagáč",
+        "Jana Petrů"
+      ],
+      "first_author_affiliation": "Department of Machining, Assembly and Engineering Metrology, Faculty of Mechanical Engineering, VŠB-Technical University of Ostrava, Ostrava, Czech Republic",
+      "corresponding_authors": [
+        {
+          "name": "Hoang-Sy Nguyen",
+          "affiliation": "Becamex Business School, Eastern International University, Ho Chi Minh City, Viet Nam"
+        }
+      ],
+      "venue": "Results in Engineering",
+      "year": 2025,
+      "date": "2025-09-25",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.rineng.2025.107404",
+      "cited_by_count": 3,
+      "concepts": [
+        "Machine learning",
+        "Artificial intelligence",
+        "Context (archaeology)",
+        "Computer science",
+        "Predictive modelling",
+        "Process (computing)",
+        "Scalability",
+        "Overhead (engineering)",
+        "Supervised learning",
+        "Predictive maintenance",
+        "Feature selection",
+        "Machine tool",
+        "Key (lock)",
+        "Work (physics)",
+        "Power (physics)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "additive manufacturing",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文关注Ti-6Al-4V增材制造样品物理性能的机器学习预测，虽未直接涉及力学与疲劳性能，但预测方法和模型可迁移至力学性能研究。",
+        "why_not_core": "This paper does not characterize or model mechanical/fatigue properties (tensile, yield, fatigue life) of Ti-6Al-4V; it focuses on predicting surface roughness, relative density, and hardness via machine learning.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "machine learning",
+          "additive manufacturing",
+          "PBF",
+          "surface roughness",
+          "relative density",
+          "hardness"
+        ],
+        "summary_zh": {
+          "motivation": "通过机器学习预测Ti-6Al-4V增材制造样品的物理性质，以减少实验成本。",
+          "method": "比较八种监督学习模型，结合传统与无量纲参数预测粗糙度、密度和硬度。",
+          "result": "模型与特征选择对预测精度至关重要，无量纲参数提升性能。",
+          "validation": "使用Ti-6Al-4V样品实验数据集进行模型验证。"
+        },
+        "summary_en": {
+          "motivation": "To reduce experimental costs by using machine learning to predict key physical properties of additively manufactured Ti-6Al-4V.",
+          "method": "Eight supervised ML models were compared using conventional and dimensionless process parameters to predict surface roughness, relative density, and hardness.",
+          "result": "Model and feature selection significantly influence prediction accuracy, with dimensionless parameters enhancing performance.",
+          "validation": "The models were validated against an experimental dataset of Ti-6Al-4V samples produced by PBF."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "power bed fusion",
+            "zh": "粉末床熔融"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "relative density",
+            "zh": "相对密度"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          },
+          {
+            "en": "volumetric energy density",
+            "zh": "体积能量密度"
+          },
+          {
+            "en": "dimensionless parameters",
+            "zh": "无量纲参数"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414494506",
+      "doi": "10.1103/6bph-n6zj",
+      "title": "Electrical transport in tunably disordered metamaterials",
+      "abstract": "Naturally occurring materials are often disordered, with the dependence of their bulk properties on structure being challenging to predict due to the lack of underlying crystalline axes. In this paper, we develop a digital pipeline from algorithmically created configurations with tunable disorder to 3D printed materials, as a tool to aid in the study of such materials, using electrical resistance as a test case. The designed material begins with a random point cloud that is iteratively evolved using Lloyd's algorithm to approach uniformity, with the points being connected via a Delaunay triangulation to form a disordered network metamaterial. Utilizing laser powder bed fusion additive manufacturing with stainless steel 17-4 PH and titanium alloy Ti-6Al-4V, we are able to experimentally measure the bulk electrical resistivity as a function of the degree of disorder in the network. The effective resistance of the structure calculated from the combinatorial weighted graph Laplacian is in good agreement with experimental data. However, the effective resistance is sensitive to anisotropy and global network topology, preventing a single network statistic or disorder characterization from predicting global resistivity.",
+      "authors": [
+        "Caitlyn Obrero",
+        "Mastawal Tirfe",
+        "Carmen Lee",
+        "Sourabh Saptarshi",
+        "Christopher Rock",
+        "Karen E. Daniels",
+        "Katherine A. Newhall"
+      ],
+      "first_author_affiliation": "North Carolina State University",
+      "corresponding_authors": [
+        {
+          "name": "Caitlyn Obrero",
+          "affiliation": "North Carolina State University"
+        }
+      ],
+      "venue": "Physical review. E",
+      "year": 2025,
+      "date": "2025-09-25",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1103/6bph-n6zj",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Electrical resistivity and conductivity",
+        "Electrical resistance and conductance",
+        "Delaunay triangulation",
+        "Smoothing",
+        "Characterization (materials science)",
+        "Measure (data warehouse)",
+        "Point cloud",
+        "Anisotropy",
+        "Simplex",
+        "Network topology",
+        "Sheet resistance",
+        "Graphene",
+        "Material properties",
+        "Titanium"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "3D printed"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要研究的是电输运性能，而非Ti-6Al-4V增材制造的力学或疲劳性能。",
+        "why_not_core": "Paper focuses on electrical transport, not mechanical/fatigue performance of Ti-6Al-4V.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "electrical transport",
+          "metamaterial",
+          "disorder",
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "stainless steel",
+          "resistivity"
+        ],
+        "summary_zh": {
+          "motivation": "开发从算法生成的无序结构到3D打印材料的数字流程，研究无序对电性能的影响。",
+          "method": "使用Lloyd算法和Delaunay三角剖分设计无序网络结构，通过激光粉末床熔融制造。",
+          "result": "加权图拉普拉斯计算的有效电阻与实验吻合，但各向异性和拓扑影响预测。",
+          "validation": "实验测量电阻率并与计算模型对比。"
+        },
+        "summary_en": {
+          "motivation": "To develop a digital pipeline from algorithmically generated disordered configurations to 3D printed materials for studying the effect of tunable disorder on electrical transport.",
+          "method": "Disordered network metamaterials were designed using Lloyd's algorithm and Delaunay triangulation, then fabricated via laser powder bed fusion using stainless steel 17-4 PH and Ti-6Al-4V.",
+          "result": "The effective resistance calculated from the combinatorial weighted graph Laplacian showed good agreement with experimental data, but the resistance is sensitive to anisotropy and global network topology.",
+          "validation": "Experimental measurements of bulk electrical resistivity were compared with calculations from the weighted graph Laplacian model."
+        },
+        "key_terms": [
+          {
+            "en": "electrical transport",
+            "zh": "电输运"
+          },
+          {
+            "en": "disordered metamaterial",
+            "zh": "无序超材料"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "Delaunay triangulation",
+            "zh": "Delaunay三角剖分"
+          },
+          {
+            "en": "Lloyd's algorithm",
+            "zh": "劳埃德算法"
+          },
+          {
+            "en": "resistivity",
+            "zh": "电阻率"
+          },
+          {
+            "en": "weighted graph Laplacian",
+            "zh": "加权图拉普拉斯"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4414520263",
+      "doi": "10.26896/1028-6861-2025-91-9-51-56",
+      "title": "Study of the structure and properties of a workpiece made of Ti-6Al-4V alloy obtained by hot isostatic pressing",
+      "abstract": "One of the promising and widespread methods of powder metallurgy is hot isostatic pressing (HIP), which makes it possible to obtain dense, non-porous workpiece from metal powders with enhanced mechanical characteristics. However, due to the uneven distribution of temperature and pressure during the casting process, an inhomogeneous structure is formed from the periphery to the center of the workpiece, which negatively affects the further operation of the finished product. The paper presents the results of a study of the structure and properties of a blank made of Ti-6Al-4V titanium alloy obtained by the HIP method. Metallographic analysis was performed, and the distribution of microhardness, density, and porosity over the sample section was analyzed. It is established that the structure of the material formed during the HIP process is heterogeneous, and its properties change from the periphery to the center (microhardness and porosity increase, density decreases). It is shown that the reason for the uneven formation of mechanical properties is the presence of a gradient in the volume fraction of the β-phase, while its content in the material of the peripheral part of the workpiece is ~20%, and in the central part — 28%. The results obtained can be applied in assessing the quality of the obtained HIP workpieces made of Ti-6Al-4V titanium alloy, as well as to create computational models of HIP technological processes.",
+      "authors": [
+        "А. А. Хлыбов",
+        "D. A. Ryabov",
+        "D.L. Bakirov",
+        "С. Н. Пичков"
+      ],
+      "first_author_affiliation": "R. E. Alekseev Nizhny Novgorod State Technical University",
+      "corresponding_authors": [
+        {
+          "name": "А. А. Хлыбов",
+          "affiliation": "R. E. Alekseev Nizhny Novgorod State Technical University"
+        }
+      ],
+      "venue": "Industrial laboratory Diagnostics of materials",
+      "year": 2025,
+      "date": "2025-09-25",
+      "date_precision": "day",
+      "url": "https://doi.org/10.26896/1028-6861-2025-91-9-51-56",
+      "cited_by_count": 0,
+      "concepts": [
+        "Hot isostatic pressing",
+        "Materials science",
+        "Metallurgy",
+        "Porosity",
+        "Alloy",
+        "Casting",
+        "Powder metallurgy",
+        "Titanium alloy",
+        "Pressing",
+        "Volume fraction",
+        "Blank",
+        "Composite material",
+        "Die (integrated circuit)",
+        "Titanium",
+        "Forging",
+        "Microstructure",
+        "Temperature gradient",
+        "Material properties",
+        "Near net shape"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "porosity"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "hot isostatic pressing"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究热等静压（HIP）制备的Ti-6Al-4V工件，但未涉及增材制造（AM）Ti-6Al-4V的后处理，与用户关注点不符。",
+        "why_not_core": "The paper does not involve additive manufacturing (AM) Ti-6Al-4V; HIP is used as a primary consolidation method, not as a post-processing step for AM parts.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "hot isostatic pressing",
+          "Ti-6Al-4V",
+          "microstructure",
+          "porosity",
+          "microhardness"
+        ],
+        "summary_zh": {
+          "motivation": "研究热等静压Ti-6Al-4V坯料的微观结构与性能不均匀性。",
+          "method": "通过金相分析、显微硬度、密度和孔隙率测量，表征从边缘到中心的梯度变化。",
+          "result": "发现β相含量从边缘20%增至中心28%，导致显微硬度和孔隙率增加、密度降低。",
+          "validation": "实验测量与显微组织观察验证了性能梯度与β相分布的相关性。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the heterogeneous structure and property distribution in Ti-6Al-4V workpieces fabricated by hot isostatic pressing.",
+          "method": "Metallographic analysis, microhardness testing, density and porosity measurements were performed across the sample cross-section.",
+          "result": "A gradient in β-phase volume fraction from ~20% at the periphery to ~28% at the center was found, correlating with increased microhardness and porosity and decreased density.",
+          "validation": "Experimental characterization confirmed the structure-property gradient, linking mechanical heterogeneity to phase distribution."
+        },
+        "key_terms": [
+          {
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "β-phase",
+            "zh": "β相"
+          },
+          {
+            "en": "density",
+            "zh": "密度"
+          },
+          {
+            "en": "microstructure gradient",
+            "zh": "微观结构梯度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-08T08:23:47Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 4,
     "by_source": {
-      "openalex": 1
+      "openalex": 4
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 4
     },
-    "scored": 1,
+    "scored": 4,
     "priority_counts": {
-      "Low": 1
+      "Low": 1,
+      "Medium": 1,
+      "Exclude": 2
     }
   }
 }

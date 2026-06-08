@@ -58,10 +58,10 @@
       },
       "llm": {
         "priority": "Medium",
-        "relevance_level": "Peripheral",
-        "read_action": "Background only",
-        "relevance_to_user": "该论文涉及Ti6Al4V的激光表面处理（后处理）对显微硬度和相变的影响，但未涉及疲劳或拉伸性能，因此与后处理控制疲劳性能的焦点相关性较弱。",
-        "why_not_core": "The paper does not report fatigue or tensile properties of Ti-6Al-4V after post-processing; it only measures hardness and models ablation and phase transformation.",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了激光表面处理（一种后处理工艺）对Ti6Al4V合金微观结构和硬度的影响，与方向直接相关。",
+        "why_not_core": "The paper focuses on modeling laser ablation and hardness changes, but does not provide data on fatigue, tensile, or porosity closure relevant to post-processing control of mechanical performance.",
         "validation_kind": "mechanical_testing",
         "flags": {
           "has_experimental_validation": true,
@@ -71,62 +71,49 @@
         },
         "tags": [
           "laser ablation",
-          "keyhole mode",
-          "finite element modeling",
           "Ti6Al4V",
-          "hardness",
+          "finite element model",
+          "keyhole-mode melting",
           "phase transformation",
-          "martensite",
-          "surface treatment"
+          "hardness",
+          "post-processing"
         ],
         "summary_zh": {
-          "motivation": "建立有限元模型模拟Ti6Al4V激光表面处理中的匙孔模式及硬度变化",
-          "method": "采用3D旋转高斯体热源模型及用户子程序进行热-力学模拟",
-          "result": "模型成功预测了烧蚀、相变及硬度增加，归因于马氏体相变和氧化层形成",
-          "validation": "通过显微照片、硬度测试、温度数据和相分析验证模型"
+          "motivation": "开发有限元模型模拟Ti6Al4V激光表面处理中热机械现象",
+          "method": "采用3D旋转高斯体积热源模型结合用户子程序进行模拟",
+          "result": "模型成功预测了匙孔形成、相变及硬度提升，归因于马氏体转变生成氧化钛层",
+          "validation": "通过显微照片、硬度、温度和相分析进行实验验证"
         },
         "summary_en": {
-          "motivation": "To develop a finite element model that simulates keyhole-mode melting and hardness changes during laser surface treatment of Ti6Al4V.",
-          "method": "A 3D rotary Gaussian volumetric heat source with a user subroutine was integrated into an FE code to predict thermal distribution, ablation, and phase evolution.",
-          "result": "The model accurately captured keyhole formation, martensitic phase transformation, and Ti-oxide layer formation, leading to a significant increase in hardness.",
-          "validation": "Experimental validation was performed using micrographs, hardness measurements, temperature data, and phase analysis."
+          "motivation": "To develop a finite element model that simulates thermo-mechanical phenomena during laser surface treatment of Ti6Al4V to predict track geometry and hardness variations.",
+          "method": "A 3D rotary Gaussian volumetric heat source model with a custom user subroutine was integrated into the FE code to simulate thermal distribution, ablation, phase evolution, and hardness changes.",
+          "result": "The model accurately predicted keyhole formation, phase transformations, and a significant hardness increase due to a Ti-oxide layer formed by martensitic transformation.",
+          "validation": "The model was validated experimentally using micrographs, hardness measurements, temperature data, and phase analysis."
         },
         "key_terms": [
           {
-            "en": "laser ablation",
-            "zh": "激光烧蚀"
+            "en": "laser surface treatment",
+            "zh": "激光表面处理"
           },
           {
-            "en": "keyhole mode",
-            "zh": "匙孔模式"
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V合金"
           },
           {
             "en": "finite element model",
             "zh": "有限元模型"
           },
           {
-            "en": "Ti6Al4V",
-            "zh": "Ti6Al4V钛合金"
-          },
-          {
-            "en": "hardness",
-            "zh": "硬度"
+            "en": "keyhole mode",
+            "zh": "匙孔模式"
           },
           {
             "en": "phase transformation",
             "zh": "相变"
           },
           {
-            "en": "martensite",
-            "zh": "马氏体"
-          },
-          {
-            "en": "surface treatment",
-            "zh": "表面处理"
-          },
-          {
-            "en": "Gaussian volumetric heat source",
-            "zh": "高斯体热源"
+            "en": "hardness",
+            "zh": "硬度"
           },
           {
             "en": "Ti-oxide layer",
@@ -136,7 +123,7 @@
       },
       "schema_version": "v2",
       "scorer_version": "v3",
-      "first_seen_at": "2026-06-07T23:11:42Z"
+      "first_seen_at": "2026-06-08T08:16:26Z"
     }
   ],
   "counts": {
