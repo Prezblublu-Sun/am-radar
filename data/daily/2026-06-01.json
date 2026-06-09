@@ -1,0 +1,876 @@
+{
+  "schema_version": "v2",
+  "date": "2026-06-01",
+  "date_precision": "month",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7162994091",
+      "doi": "10.1080/17452759.2026.2676440",
+      "title": "A novel electroplated magnetic grinding tool for magnetically driven internal finishing of additively manufactured Ti-6Al-4V tubes",
+      "abstract": "Internal surfaces produced by laser powder bed fusion (PBF-LB) often exhibit poor surface quality due to the layer-by-layer generation mechanism, which critically limits the functional performance of PBF-LB components. Existing post surface processing techniques generally have limited accessibility, low material removal efficiency, or insufficient tool durability, particularly for titanium alloys. Here, a novel electroplated magnetic grinding tool is developed for magnetically driven internal finishing (MDIF) of PBF-LB Ti-6Al-4V tubes. The tool integrates a drum-shaped NdFeB magnetic core with a bonded electroplated superabrasive layer, enabling stable self-rotation under an externally rotatory magnetic field and consistent abrasive–surface interaction without traditional mechanical transmissions inside the tube. Results show that stable material removal can be maintained for 360 min of continuous polishing. Surface roughness decreased from >7 μm Ra to 1.2–1.4 μm Ra, corresponding to an improvement of ∼80% and an average material removal rate of 4–5 mg/min (corresponding to 38–40 μm/min in depth) was achieved. Uniform finishing of complex tubes was further demonstrated through section polishing experiments with designed tool paths. The proposed electroplated tool and MDIF strategy provide a robust, efficient, and geometry-adaptive solution for improving internal surface quality in additively manufactured components with difficult-to-access cavities.HighlightsElectroplated magnetic grinding tool for PBF-LB Ti-6Al-4V tubes' internal finishingStable polishing for 360 min without severe tool wearAchieved a material removal rate of approximately 4–5 mg/min (38–40 μm/min)Reduced surface roughness by 80–85% to approximately 1.2–1.6 μm RaSuitable for straight, curved and diameter-varying PBF-LB Ti-6Al-4V tubes",
+      "authors": [
+        "Shuangju SHAO",
+        "Di Wang",
+        "Xiaoqi Chen",
+        "Jiong Zhang"
+      ],
+      "first_author_affiliation": "City University of Hong Kong",
+      "corresponding_authors": [
+        {
+          "name": "Xiaoqi Chen",
+          "affiliation": "South China University of Technology"
+        },
+        {
+          "name": "Jiong Zhang",
+          "affiliation": "City University of Hong Kong"
+        }
+      ],
+      "venue": "Virtual and Physical Prototyping",
+      "year": 2026,
+      "date": "2026-06-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1080/17452759.2026.2676440",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Electroplating",
+        "Grinding",
+        "Metallurgy",
+        "Composite material",
+        "Engineering drawing",
+        "Magnetic field",
+        "Magnetic separation"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "polishing"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文研究Ti-6Al-4V增材制造管件的表面后处理抛光技术，虽不涉及疲劳或力学性能，但抛光作为后处理方法可能间接影响疲劳寿命。",
+        "why_not_core": "No mechanical performance data (fatigue, tensile) or microstructure characterization after finishing; only surface roughness and material removal rate are reported.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "post-processing",
+          "surface finishing",
+          "magnetic grinding",
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "internal polishing"
+        ],
+        "summary_zh": {
+          "motivation": "改善增材制造Ti-6Al-4V管件内部表面质量",
+          "method": "开发电镀磁性磨具用于磁驱动内部抛光",
+          "result": "表面粗糙度从>7 μm Ra降至1.2-1.4 μm Ra，材料去除率约4-5 mg/min",
+          "validation": "通过表面粗糙度和材料去除率实验验证"
+        },
+        "summary_en": {
+          "motivation": "Improving the internal surface quality of additively manufactured Ti-6Al-4V tubes, which limits functional performance due to poor surface finish from layer-by-layer fabrication.",
+          "method": "A novel electroplated magnetic grinding tool integrating a drum-shaped NdFeB magnetic core with a bonded superabrasive layer was developed for magnetically driven internal finishing (MDIF) of PBF-LB Ti-6Al-4V tubes.",
+          "result": "Stable material removal was maintained for 360 minutes, reducing surface roughness by approximately 80% to 1.2-1.4 μm Ra, with an average material removal rate of 4-5 mg/min (38-40 μm/min in depth).",
+          "validation": "Experimental characterization of surface roughness and material removal rate over polishing time, including section polishing of complex tube geometries."
+        },
+        "key_terms": [
+          {
+            "en": "electroplated magnetic grinding tool",
+            "zh": "电镀磁性磨具"
+          },
+          {
+            "en": "magnetically driven internal finishing",
+            "zh": "磁驱动内部抛光"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "material removal rate",
+            "zh": "材料去除率"
+          },
+          {
+            "en": "polishing",
+            "zh": "抛光"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-09T08:08:01Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7163685038",
+      "doi": "10.1016/j.msea.2026.150551",
+      "title": "Investigating synergistic effects of process-induced defects and phase substructures on the mechanical response of additively manufactured Ti-6Al-4V alloy via an integrated numerical framework",
+      "abstract": "",
+      "authors": [
+        "Hanqing Liu",
+        "Fabien Briffod",
+        "Takayuki Shiraiwa"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Hanqing Liu",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Materials Science and Engineering A",
+      "year": 2026,
+      "date": "2026-06-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.msea.2026.150551",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Alloy",
+        "Phase (matter)",
+        "Composite material",
+        "Work (physics)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文通过集成数值框架研究增材制造Ti-6Al-4V的力学性能，直接符合L1层方向。",
+        "why_not_core": "This paper is fully within scope; it covers mechanical response of AM Ti-6Al-4V but is a purely numerical study without new experimental data.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "additive manufacturing",
+          "Ti-6Al-4V",
+          "numerical framework",
+          "defects",
+          "phase substructures",
+          "mechanical response"
+        ],
+        "summary_zh": {
+          "motivation": "探究制造缺陷与相亚结构对增材制造Ti-6Al-4V力学响应的协同效应",
+          "method": "建立集成数值框架，耦合缺陷与微观结构模拟力学行为",
+          "result": "揭示了缺陷与亚结构协同影响力学性能的机制",
+          "validation": "通过与文献实验数据对比验证数值模型"
+        },
+        "summary_en": {
+          "motivation": "To investigate the synergistic effects of process-induced defects and phase substructures on the mechanical response of additively manufactured Ti-6Al-4V.",
+          "method": "An integrated numerical framework was developed to couple defect characteristics and phase substructures for simulating the mechanical behavior.",
+          "result": "The framework revealed the combined influence of defects and substructures on the mechanical performance.",
+          "validation": "The numerical model was validated against experimental data from the literature."
+        },
+        "key_terms": [
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "process-induced defects",
+            "zh": "工艺诱导缺陷"
+          },
+          {
+            "en": "phase substructures",
+            "zh": "相亚结构"
+          },
+          {
+            "en": "mechanical response",
+            "zh": "力学响应"
+          },
+          {
+            "en": "numerical framework",
+            "zh": "数值框架"
+          },
+          {
+            "en": "synergistic effects",
+            "zh": "协同效应"
+          },
+          {
+            "en": "validation",
+            "zh": "验证"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-09T08:08:01Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7163068678",
+      "doi": "10.34088/kojose.1739509",
+      "title": "Topology Optimization of an Aircraft Component Using Additive Manufacturing Constraints",
+      "abstract": "This study applies topology optimization techniques to redesign an existing aircraft installation component, incorporating additive manufacturing constraints. Using ANSYS software, the research optimizes a part currently made of AL7050, comparing it with alternatives in Ti-6Al-4V (Ti64) and AlSi10Mg. The optimization process considers manufacturing and installation constraints while aiming to minimize compliance and reduce mass. Results show significant mass reductions across all materials, with AlSi10Mg achieving the most substantial improvement of 38.20% mass reduction and a minimum safety factor of 1.49. The study demonstrates the practical application of combining topology optimization and additive manufacturing in aerospace component design, highlighting opportunities for improved fuel efficiency and sustainable air transportation systems. The research also addresses challenges in integrating manufacturing constraints and material properties into the optimization process. Future work recommendations include exploring multi-physics optimization approaches and investigating the long-term performance of topology-optimized parts in aerospace applications.",
+      "authors": [
+        "Onat Halis Totuk",
+        "Mustafa Özkara",
+        "Samet Akar"
+      ],
+      "first_author_affiliation": "Çankaya Üniversitesi",
+      "corresponding_authors": [
+        {
+          "name": "Onat Halis Totuk",
+          "affiliation": "Çankaya Üniversitesi"
+        }
+      ],
+      "venue": "Kocaeli Journal of Science and Engineering",
+      "year": 2026,
+      "date": "2026-06-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.34088/kojose.1739509",
+      "cited_by_count": 0,
+      "concepts": [
+        "Topology optimization",
+        "Aerospace",
+        "Component (thermodynamics)",
+        "Process (computing)",
+        "Engineering",
+        "Mathematical optimization",
+        "Manufacturing engineering",
+        "Reduction (mathematics)",
+        "Work (physics)",
+        "Computer science",
+        "Optimization problem",
+        "Engineering optimization",
+        "Constraint (computer-aided design)",
+        "Minification",
+        "Manufacturing process"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "additive manufacturing"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要关注拓扑优化设计，涉及Ti-6Al-4V材料但未提供其力学或疲劳性能的实验或建模数据。",
+        "why_not_core": "No experimental mechanical or fatigue data for Ti-6Al-4V; it is a pure design optimization study without mechanical characterization.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "topology optimization",
+          "additive manufacturing",
+          "Ti-6Al-4V",
+          "aircraft component",
+          "mass reduction"
+        ],
+        "summary_zh": {
+          "motivation": "为航空部件减重并满足增材制造约束，进行拓扑优化。",
+          "method": "使用ANSYS软件对三种材料（包括Ti-6Al-4V）进行拓扑优化。",
+          "result": "AlSi10Mg减重效果最佳，达38.20%，安全系数1.49。",
+          "validation": "仅仿真优化，无实验验证。"
+        },
+        "summary_en": {
+          "motivation": "The study aims to reduce mass of an aircraft component by topology optimization while respecting additive manufacturing constraints.",
+          "method": "Topology optimization is performed using ANSYS for three materials (including Ti-6Al-4V) under manufacturing and installation constraints.",
+          "result": "AlSi10Mg achieves the highest mass reduction of 38.20% with a minimum safety factor of 1.49.",
+          "validation": "No experimental validation; results are purely computational from optimization simulations."
+        },
+        "key_terms": [
+          {
+            "en": "topology optimization",
+            "zh": "拓扑优化"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "compliance minimization",
+            "zh": "柔度最小化"
+          },
+          {
+            "en": "mass reduction",
+            "zh": "减重"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-09T08:08:01Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7163825765",
+      "doi": "10.1016/j.ijfatigue.2026.109795",
+      "title": "On the origins of the dwell-fatigue lifetime variability in a Ti-6Al-4V forging",
+      "abstract": "Over the past 50 years, premature aero-engine failures have occasionally been associated with titanium components subjected to dwell-fatigue loading. These infrequent events are linked to microstructural variability induced by prior thermo-mechanical processing. The presently reported study aimed at clarifying the consequences of heterogeneous microstructure characteristics in a Ti-6Al-4V forging on dwell-fatigue lifetimes. Extensive mechanical testing was combined with microstructure and texture characterization to highlight differences in behavior and clarify underlying causes. The competition between multiple failure mechanisms was evidenced. Microstructural characteristics and loading conditions favoring their prevalence were identified using complementary investigations of microstructure configurations at main crack initiation sites and analyses of crack nucleation kinetics. Collected data were then employed to perform a statistical analysis of the dwell-fatigue behavior sensitivity to microstructural and mechanical testing parameters. Lifetime predictions were derived and showed a good agreement with experimental measurements, indicating a reliable identification of most influential features. In particular, this study highlights the beneficial effect of high cooling rates on the dwell-fatigue resistance through mitigating microtexture intensity via the introduction of multiple crystallographic variants in transformed β regions.",
+      "authors": [
+        "Lucas Prince",
+        "Patrick Villechaise",
+        "Jérôme Delfosse",
+        "Loïc Dimithe Aboumou",
+        "S. Hémery"
+      ],
+      "first_author_affiliation": "Institut PPRIME, Université de Poitiers, CNRS, ENSMA, UPR 3346, Futuroscope-Chasseneuil 86961, France",
+      "corresponding_authors": [
+        {
+          "name": "S. Hémery",
+          "affiliation": "Institut PPRIME, Université de Poitiers, CNRS, ENSMA, UPR 3346, Futuroscope-Chasseneuil 86961, France"
+        }
+      ],
+      "venue": "International Journal of Fatigue",
+      "year": 2026,
+      "date": "2026-06-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2026.109795",
+      "cited_by_count": 0,
+      "concepts": [
+        "Microstructure",
+        "Forging",
+        "Nucleation",
+        "Materials science",
+        "Characterization (materials science)",
+        "Texture (cosmology)",
+        "Metallurgy",
+        "Titanium alloy",
+        "Structural engineering",
+        "Fatigue testing",
+        "Sensitivity (control systems)",
+        "Composite material",
+        "Statistical analysis",
+        "Competition (biology)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究锻造Ti-6Al-4V的保载疲劳，非增材制造，与方向无关。",
+        "why_not_core": "The paper investigates dwell-fatigue in a forged Ti-6Al-4V component, not an additively manufactured one, and therefore does not address the mechanical performance of AM Ti-6Al-4V per the direction's scope.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "forging",
+          "dwell-fatigue",
+          "microtexture",
+          "lifetime variability"
+        ],
+        "summary_zh": {
+          "motivation": "揭示锻造Ti-6Al-4V保载疲劳寿命分散的微观结构原因",
+          "method": "结合力学测试与微观表征，分析裂纹萌生机制及统计建模",
+          "result": "高冷却速率通过引入多晶体变体减弱微织构强度，提升保载疲劳抗力",
+          "validation": "实验寿命数据与预测结果吻合良好"
+        },
+        "summary_en": {
+          "motivation": "This study aims to clarify the microstructural origins of dwell-fatigue lifetime variability in forged Ti-6Al-4V components.",
+          "method": "Extensive mechanical testing combined with microstructure and texture characterization, plus statistical analysis of crack nucleation kinetics.",
+          "result": "High cooling rates improve dwell-fatigue resistance by reducing microtexture intensity through multiple crystallographic variants in transformed β regions.",
+          "validation": "Lifetime predictions from identified influential features agree well with experimental measurements."
+        },
+        "key_terms": [
+          {
+            "en": "dwell-fatigue",
+            "zh": "保载疲劳"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "forging",
+            "zh": "锻造"
+          },
+          {
+            "en": "microtexture",
+            "zh": "微织构"
+          },
+          {
+            "en": "lifetime variability",
+            "zh": "寿命变异性"
+          },
+          {
+            "en": "crack initiation",
+            "zh": "裂纹萌生"
+          },
+          {
+            "en": "cooling rate",
+            "zh": "冷却速率"
+          },
+          {
+            "en": "crystallographic variant",
+            "zh": "晶体学变体"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-09T08:08:01Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7163761468",
+      "doi": "10.1016/j.jer.2026.06.003",
+      "title": "Topology-Driven Structural Optimization and Cross-Material Robustness Assessment of Automotive Wheel Rims Using Finite Element Analysis",
+      "abstract": "This paper gives a combined approach to the structural optimization and finite element analysis of an automotive alloy wheel rim where the mass is to be minimized without compromising the structural integrity to the expected loads in the service. A three-dimensional finite element model was created to assess the distribution of the stresses, radial movement, and safety performance under standardized stressful conditions of the static load. Geometric optimization based on topology was then used to enhance the strength-to-weight ratio, and a multi-material sensitivity study conducted to determine the sensitivity of the optimized design when using materials with vastly different mechanical properties. Besides traditional lightweight alloys, high-strength materials such as Ti-6Al-4V and W-Ni-Fe were taken as cases of benchmarking in order to assess the material- geometry interaction. The optimal design resulted in a 7.20 kg to 6.10 kg (about 15.3 percent) mass reduction, a reduction in maximum von Mises stress by 420 to 355 Mpa and a radial displacement by 3.05 to 1.90 mm. The factor of safety increased to 1.50 as compared to 1.20, and fatigue endurance increased to 1.0× 106 cycles as compared to 2.0× 105 cycles. Numerical predictions were strongly agreed with by experimental validation with a maximum deviation of less than 3.5%. The results confirm the argument that topology optimization and cross-material sensitivity analysis can offer a sound and material-blind design methodology capable of maximizing the structural performance at the cost of manufacturability and safety thresholds. The technique results in a transferable design of advanced lightweight in vehicle structural components.",
+      "authors": [
+        "Saad Alsarayefi",
+        "Noor Najm",
+        "Mustafa M. Mansour",
+        "Alaa M. lafta"
+      ],
+      "first_author_affiliation": "Petroleum and Gas Engineering Department, College of Engineering, University of Thi-Qar, Thi-Qar, 64001, Iraq",
+      "corresponding_authors": [
+        {
+          "name": "Mustafa M. Mansour",
+          "affiliation": "Department of Mechanical engineering, College of engineering, University of Thi-Qar, Thi-Qar, 64001, Iraq"
+        }
+      ],
+      "venue": "Journal of Engineering Research",
+      "year": 2026,
+      "date": "2026-06-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.jer.2026.06.003",
+      "cited_by_count": 0,
+      "concepts": [
+        "Topology optimization",
+        "Finite element method",
+        "Robustness (evolution)",
+        "von Mises yield criterion",
+        "Design for manufacturability",
+        "Sensitivity (control systems)",
+        "Structural engineering",
+        "Automotive industry",
+        "Optimal design",
+        "Safety factor",
+        "Engineering",
+        "Displacement (psychology)",
+        "Size effect on structural strength",
+        "Reduction (mathematics)",
+        "Computer science",
+        "Factor of safety",
+        "Automotive engineering",
+        "Design of experiments",
+        "Mechanical engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要研究汽车轮辋的结构优化，而非增材制造Ti-6Al-4V的力学与疲劳性能，因此与本方向无关。",
+        "why_not_core": "This paper does not address additively manufactured Ti-6Al-4V; it focuses on topology optimization of automotive wheel rims with conventional materials, and Ti-6Al-4V is only used as a comparative benchmark material in a multi-material study, not in the context of additive manufacturing mechanical/fatigue performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "topology optimization",
+          "automotive wheel rim",
+          "finite element analysis",
+          "multi-material",
+          "structural optimization"
+        ],
+        "summary_zh": {
+          "motivation": "最小化汽车轮辋质量同时保证结构完整性",
+          "method": "结合拓扑优化与多材料灵敏度分析的有限元方法",
+          "result": "实现了15.3%的质量减轻，疲劳寿命提高至1.0×10^6次",
+          "validation": "通过实验验证，最大偏差小于3.5%"
+        },
+        "summary_en": {
+          "motivation": "To minimize the mass of automotive wheel rims without compromising structural integrity under service loads.",
+          "method": "A combined approach of topology optimization and cross-material sensitivity analysis using finite element modeling.",
+          "result": "Achieved a 15.3% mass reduction, improved fatigue endurance to 1.0×10^6 cycles, and increased factor of safety to 1.50.",
+          "validation": "Experimental validation confirmed numerical predictions with a maximum deviation of less than 3.5%."
+        },
+        "key_terms": [
+          {
+            "en": "topology optimization",
+            "zh": "拓扑优化"
+          },
+          {
+            "en": "automotive wheel rim",
+            "zh": "汽车轮辋"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "fatigue endurance",
+            "zh": "疲劳寿命"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-09T08:08:01Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7163019027",
+      "doi": "10.1016/j.msea.2026.150511",
+      "title": "Pore architecture-controlled permeability and mechanical behavior of Ti-6Al-4V designed materials fabricated by laser powder bed fusion",
+      "abstract": "",
+      "authors": [
+        "Hosseinali Shiravi",
+        "Eskandar Fereiduni",
+        "Ali Ghasemi",
+        "Mohamed Elbestawi",
+        "Thomas Nagy-Zambo",
+        "Chad Beamer",
+        "Swee Leong Sing"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Hosseinali Shiravi",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Materials Science and Engineering A",
+      "year": 2026,
+      "date": "2026-06-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.msea.2026.150511",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Fusion",
+        "Composite material",
+        "Permeability (electromagnetism)",
+        "Laser",
+        "Porosity"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了激光粉末床熔融Ti-6Al-4V多孔材料的力学行为，与方向要求的力学和疲劳性能直接相关。",
+        "why_not_core": "The paper focuses on permeability in addition to mechanical behavior, and likely does not report fatigue data or S-N curves.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "porous materials",
+          "permeability",
+          "mechanical behavior"
+        ],
+        "summary_zh": {
+          "motivation": "探究孔结构对Ti-6Al-4V多孔材料渗透性和力学性能的影响。",
+          "method": "通过激光粉末床熔融制备不同孔结构的Ti-6Al-4V样品，并进行渗透性和力学测试。",
+          "result": "发现孔结构显著影响渗透性和力学性能，可实现性能调控。",
+          "validation": "实验测试验证了渗透性和力学性能与孔结构的关系。"
+        },
+        "summary_en": {
+          "motivation": "To investigate how pore architecture controls the permeability and mechanical behavior of additively manufactured Ti-6Al-4V porous materials.",
+          "method": "Ti-6Al-4V samples with various pore architectures were fabricated via laser powder bed fusion and subjected to permeability and mechanical testing.",
+          "result": "Pore architecture significantly influences both permeability and mechanical properties, enabling performance tailoring.",
+          "validation": "Experimental measurements confirmed the relationship between pore structure and the quantified permeability and mechanical properties."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "pore architecture",
+            "zh": "孔结构"
+          },
+          {
+            "en": "permeability",
+            "zh": "渗透性"
+          },
+          {
+            "en": "mechanical behavior",
+            "zh": "力学行为"
+          },
+          {
+            "en": "porous materials",
+            "zh": "多孔材料"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-09T08:08:01Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7163363328",
+      "doi": "10.31185/wjes.vol14.iss2.930",
+      "title": "&lt;b&gt;Influence of High-Pressure Torsion Method on the Mechanical Properties of Ti-6Al-4V.&lt;/b&gt;",
+      "abstract": "Titanium alloys, particularly Ti-6Al-4V, are one of the most widely used groups of alloys and have been extensively used for biomedical and aerospace applications due to their mechanical behaviour and biocompatibility. However, improving its mechanical properties remains a critical research priority to ensure efficient behaviour and long-term viability. Therefore, this article aims to explore the effect of using the severe plastic deformation technique, particularly the High-Pressure Torsion method (HPT), on the microstructure and mechanical properties of Ti-6Al-4V under an applied pressure of 3 GPa at the ambient temperature. Various numbers of turns are employed, which are 1, 3, 5, 7, and 9 turns of HPT, and compared with the bulk sample. The findings observed that the microhardness increased significantly after one HPT rotation relative to the bulk sample. The mechanical properties of the Ti-6Al-4V alloy showed improving after turns 5 and 7.",
+      "authors": [
+        "Hayder Masood",
+        "Anwer Al-Obaidi",
+        "Righdan Namus",
+        "Abd El-Nabi Z. El-Sayed"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, University of Wasit",
+      "corresponding_authors": [
+        {
+          "name": "Hayder Masood",
+          "affiliation": "Department of Mechanical Engineering, University of Wasit"
+        }
+      ],
+      "venue": "Wasit Journal of Engineering Sciences",
+      "year": 2026,
+      "date": "2026-06-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.31185/wjes.vol14.iss2.930",
+      "cited_by_count": 0,
+      "concepts": [
+        "Torsion (gastropod)",
+        "Materials science",
+        "Indentation hardness",
+        "Titanium alloy",
+        "Microstructure",
+        "Severe plastic deformation",
+        "Alloy",
+        "Composite material",
+        "Aerospace",
+        "Metallurgy",
+        "Deformation (meteorology)",
+        "Material properties"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是高压力扭转（HPT）对Ti-6Al-4V机械性能的影响，但并未涉及增材制造工艺，因此与用户关注的增材制造Ti-6Al-4V力学和疲劳方向无关。",
+        "why_not_core": "The paper does not involve additive manufacturing; it applies high-pressure torsion to wrought Ti-6Al-4V, which is outside the scope of additively manufactured Ti-6Al-4V mechanical/fatigue characterization.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "high-pressure torsion",
+          "severe plastic deformation",
+          "microhardness",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "探索高压力扭转（HPT）对Ti-6Al-4V微观结构和力学性能的影响。",
+          "method": "使用3 GPa压力、1至9圈HPT处理Ti-6Al-4V，并与原始样品比较。",
+          "result": "微硬度在1圈后显著增加，机械性能在5和7圈后改善。",
+          "validation": "通过显微硬度测试和力学性能测试进行实验验证。"
+        },
+        "summary_en": {
+          "motivation": "This study investigates the effect of High-Pressure Torsion (HPT) as a severe plastic deformation technique on the microstructure and mechanical properties of Ti-6Al-4V alloy.",
+          "method": "Ti-6Al-4V samples were subjected to HPT under 3 GPa pressure at ambient temperature with 1, 3, 5, 7, and 9 turns, and compared to the bulk sample.",
+          "result": "Microhardness increased significantly after one HPT turn, and mechanical properties improved after 5 and 7 turns relative to the bulk.",
+          "validation": "Experimental validation was conducted via microhardness measurements and mechanical testing."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "high-pressure torsion",
+            "zh": "高压力扭转"
+          },
+          {
+            "en": "severe plastic deformation",
+            "zh": "剧烈塑性变形"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-09T08:08:01Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 7,
+    "by_source": {
+      "openalex": 7
+    },
+    "after_dedup": 7,
+    "after_routing": 7,
+    "by_direction": {
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 6
+    },
+    "routed_by_source": {
+      "openalex": 7
+    },
+    "scored": 7,
+    "priority_counts": {
+      "Medium": 2,
+      "High": 1,
+      "Low": 1,
+      "Exclude": 3
+    }
+  }
+}

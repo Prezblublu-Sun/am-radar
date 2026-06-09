@@ -1,0 +1,137 @@
+{
+  "schema_version": "v2",
+  "date": "2026-06-05",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7163706729",
+      "doi": "10.1016/j.engfracmech.2026.112294",
+      "title": "Surface-integrity-informed energy-based life prediction for shot-peened Ti-6Al-4V blades under non-proportional axial–torsional low-cycle fatigue",
+      "abstract": "",
+      "authors": [
+        "Nan Zhang (46264)",
+        "Peng Duan",
+        "Zhenyu Liu",
+        "Jie Feng",
+        "kang shu",
+        "mingyu shen"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Nan Zhang (46264)",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Engineering Fracture Mechanics",
+      "year": 2026,
+      "date": "2026-06-05",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.engfracmech.2026.112294",
+      "cited_by_count": 0,
+      "concepts": [
+        "Structural engineering",
+        "Materials science",
+        "Computer science",
+        "Engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface integrity"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文研究了喷丸处理对Ti-6Al-4V疲劳寿命的影响，但未明确针对增材制造材料，方法可借鉴。",
+        "why_not_core": "No explicit mention of additive manufacturing (AM) Ti-6Al-4V; the material source (wrought/forged) is unclear, so the post-processing effect on AM-specific microstructure/porosity is not addressed.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "shot peening",
+          "Ti-6Al-4V",
+          "fatigue life prediction",
+          "surface integrity",
+          "low-cycle fatigue"
+        ],
+        "summary_zh": {
+          "motivation": "预测喷丸处理Ti-6Al-4V叶片在非比例载荷下的疲劳寿命",
+          "method": "建立基于表面完整性的能量寿命预测模型",
+          "result": "模型能够预测喷丸件的低周疲劳寿命",
+          "validation": "通过叶片疲劳试验验证模型"
+        },
+        "summary_en": {
+          "motivation": "To predict the fatigue life of shot-peened Ti-6Al-4V blades under non-proportional axial-torsional loading.",
+          "method": "An energy-based life prediction model incorporating surface integrity parameters was developed.",
+          "result": "The model effectively predicts low-cycle fatigue life of shot-peened components.",
+          "validation": "Experimental fatigue tests on blades were used to validate the model."
+        },
+        "key_terms": [
+          {
+            "en": "shot peening",
+            "zh": "喷丸处理"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "low-cycle fatigue",
+            "zh": "低周疲劳"
+          },
+          {
+            "en": "surface integrity",
+            "zh": "表面完整性"
+          },
+          {
+            "en": "energy-based life prediction",
+            "zh": "基于能量的寿命预测"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-09T08:08:01Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Medium": 1
+    }
+  }
+}

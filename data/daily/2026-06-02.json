@@ -1,0 +1,970 @@
+{
+  "schema_version": "v2",
+  "date": "2026-06-02",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7163201607",
+      "doi": "10.1038/s41598-026-46836-9",
+      "title": "Evaluation of surface roughness of titanium implants on human fibroblast cells",
+      "abstract": "A soft-anchored titanium (Ti-6Al-4V) mesh implantable device was designed and morphologically characterised in an in vitro study. The mesh implant consists of a titanium mesh aimed at preserving continence and improving the quality of life for patients with a stoma. Titanium alloys are widely used in implantable devices such as knee and dental prosthetics; however, soft-anchored or percutaneous implant options remain limited. Surface roughness is known to influence cell adhesion and proliferation; thus, three titanium samples were produced with different surface finishes: non-polished (NP), matte polished (MaP), and mirror polished (MiP). Comparative analyses were conducted via cell metabolic activity, cytotoxicity, and immunocytochemistry assays with adult normal human dermal fibroblasts (NHDFs). No significant difference in NHDF metabolic activity was observed ([Formula: see text]), and the cytotoxicity results revealed no toxicity ([Formula: see text]) between the surfaces. Collagen type I expression was 568.86 ± 88.12, 433.26 ± 147.02, and 681.52 ± 86.14 [Formula: see text] for NP, MaP, and MiP, respectively, whereas it was 544.54 ± 110.69 [Formula: see text] in the controls ([Formula: see text]). Fibronectin-positive areas were 438.24 ± 109.05, 336.97 ± 80.22, and 311.62 ± 88.66 [Formula: see text] for NP, MaP, and MiP, respectively, while they were 318.82 ± 52.56 [Formula: see text] for the controls ([Formula: see text]). The results indicate that surface roughness (Ra) did not significantly affect cell proliferation, cytotoxicity, or ECM protein expression. Thus, under these in vitro conditions, we observed no detectable detrimental effect of surface roughness on fibroblast metabolic activity, cytotoxicity, or ECM protein expression, suggesting that extensive polishing steps may not be essential for achieving cytocompatibility of Ti-6Al-4V mesh components in devices designed for stoma patients, although further preclinical studies are required before any clinical recommendations can be made.",
+      "authors": [
+        "Maleeha Al Hamadani",
+        "Arshiya Banu",
+        "Karolina Wieczorek",
+        "Carlo Seneci",
+        "Hassna Irzan",
+        "LC García-Peraza-Herrera",
+        "Devy F. Garna",
+        "Samantha Ya Terry",
+        "Lucy Di‐Silvio",
+        "Prashant Jha",
+        "Sebastien Ourselin"
+      ],
+      "first_author_affiliation": "Research Department of Surgical and Interventional Engineering, School of Biomedical Engineering & Imaging Sciences, King's College London, Westminster Bridge, SE1 7EH, London, UK. maleeha.al-hamadani@kcl.ac.uk",
+      "corresponding_authors": [
+        {
+          "name": "Maleeha Al Hamadani",
+          "affiliation": "Research Department of Surgical and Interventional Engineering, School of Biomedical Engineering & Imaging Sciences, King's College London, Westminster Bridge, SE1 7EH, London, UK. maleeha.al-hamadani@kcl.ac.uk"
+        }
+      ],
+      "venue": "Scientific Reports",
+      "year": 2026,
+      "date": "2026-06-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1038/s41598-026-46836-9",
+      "cited_by_count": 0,
+      "concepts": [
+        "Titanium",
+        "Biomedical engineering",
+        "Surface roughness",
+        "Fibroblast",
+        "Adhesion",
+        "Materials science",
+        "Implant",
+        "Surface finish",
+        "Immunocytochemistry",
+        "Cell adhesion",
+        "Titanium alloy",
+        "Cell",
+        "In vitro",
+        "Biocompatibility",
+        "Cytotoxicity",
+        "Osseointegration",
+        "Metabolic activity",
+        "Biomaterial",
+        "Biophysics"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "polishing"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文仅研究表面粗糙度对成纤维细胞的影响，未涉及力学性能，与增材制造Ti-6Al-4V后处理控制疲劳/力学性能的方向无关。",
+        "why_not_core": "This paper reports an in vitro cell study on Ti-6Al-4V mesh with different surface finishes, but it contains no mechanical testing (fatigue, tensile) and no evaluation of post-processing effects on mechanical performance.",
+        "validation_kind": "in_vitro",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "surface roughness",
+          "polishing",
+          "in vitro",
+          "fibroblast",
+          "cytocompatibility"
+        ],
+        "summary_zh": {
+          "motivation": "评估表面粗糙度对用于造口患者的钛合金网植入物成纤维细胞的影响",
+          "method": "制备非抛光、哑光抛光和镜面抛光的Ti-6Al-4V样品，进行细胞代谢活性、细胞毒性和免疫细胞化学分析",
+          "result": "表面粗糙度对细胞增殖、细胞毒性和细胞外基质蛋白表达无显著影响",
+          "validation": "通过体外成纤维细胞实验验证"
+        },
+        "summary_en": {
+          "motivation": "To evaluate the effect of surface roughness on fibroblast cell behavior for a Ti-6Al-4V mesh implant designed for stoma patients.",
+          "method": "Three surface finishes (non-polished, matte polished, mirror polished) were applied to Ti-6Al-4V samples and assessed via metabolic activity, cytotoxicity, and immunocytochemistry assays using normal human dermal fibroblasts.",
+          "result": "No significant differences in cell proliferation, cytotoxicity, or extracellular matrix protein expression were observed among the surface finishes.",
+          "validation": "In vitro cell-based assays with adult normal human dermal fibroblasts."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "polishing",
+            "zh": "抛光"
+          },
+          {
+            "en": "fibroblast",
+            "zh": "成纤维细胞"
+          },
+          {
+            "en": "cytocompatibility",
+            "zh": "细胞相容性"
+          },
+          {
+            "en": "in vitro",
+            "zh": "体外实验"
+          },
+          {
+            "en": "mesh implant",
+            "zh": "网状植入物"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-09T08:08:01Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7163162844",
+      "doi": "10.1007/s10845-026-02889-1",
+      "title": "Physics-informed few-shot learning for cross-material relative density prediction in laser powder bed fusion",
+      "abstract": "Abstract Laser Powder Bed Fusion (LPBF) enables metal additive manufacturing, but achieving high Relative Density (RD) in new alloys requires extensive process parameter optimization. This, however, is highly constrained by sparse, imbalanced datasets and high experimental costs. State-of-the-art data-driven methods struggle to generalize across materials due to limited datasets. This study introduces Physics-Informed K-Nearest Neighbors (PIKNN), a training-free few-shot learning approach that leverages an eight-dimensional physics-constrained feature space incorporating process parameters, energy deposition metrics, and material-specific thermal diffusivities to enable cross-material RD prediction without parametric optimization. Using a publicly available dataset of 1,579 LPBF prints across six alloys, we evaluate PIKNN in a rigorous cross-material paradigm: training on four source alloys (1,244 samples) and testing on unseen Ti6Al4V and CuCrZr (335 samples). RD measurements are binned into four physics-guided quality classes. PIKNN, implemented as 1-nearest-neighbor classification in the standardized physics space, is benchmarked against a Prototypical Network and a classical SVM baseline that share identical features and episodic protocols (4-way, 1–10 shots). Results demonstrate PIKNN lifting accuracy to 58.0% on Ti6Al4V (10-shot) and 52.0% on CuCrZr (1-shot), yielding gains up to 18.3 percentage points over the trained baseline while matching Ti6Al4V 1-shot performance within 0.5 points. Ablations confirm the critical role of physics-derived features like energy density, while separability analyses (clustering metrics, linear probes, t-SNE) reveal that physics features preserve class structure better than learned embeddings. Together, these results indicate that explicit physics encoding captures cross-material transferable structure that learned embeddings fail to represent, creating a viable path for rapid LPBF material screening with a limited dataset and thus serving as a rapid screening and parameter-space reduction tool for early-stage material qualification.",
+      "authors": [
+        "Prashant Dhakal",
+        "Jae Gwang Kim",
+        "Aolin Hou",
+        "Xiaofei Wu",
+        "Shiren Wang"
+      ],
+      "first_author_affiliation": "Department of Industrial and Systems Engineering, Texas A&M University, College Station, TX, 77843, USA",
+      "corresponding_authors": [
+        {
+          "name": "Shiren Wang",
+          "affiliation": "Department of Industrial and Systems Engineering, Texas A&M University, College Station, TX, 77843, USA"
+        }
+      ],
+      "venue": "Journal of Intelligent Manufacturing",
+      "year": 2026,
+      "date": "2026-06-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s10845-026-02889-1",
+      "cited_by_count": 0,
+      "concepts": [
+        "Parametric statistics",
+        "Fusion",
+        "Process (computing)",
+        "Artificial intelligence",
+        "Matching (statistics)",
+        "Titanium alloy",
+        "Computer science",
+        "Feature (linguistics)",
+        "Baseline (sea)",
+        "Margin (machine learning)",
+        "Support vector machine",
+        "Energy (signal processing)",
+        "Machine learning",
+        "Structured prediction",
+        "Parameter space",
+        "Feature vector",
+        "Quality (philosophy)",
+        "Constraint (computer-aided design)",
+        "Pattern recognition (psychology)",
+        "Materials science",
+        "Deposition (geology)",
+        "Space (punctuation)",
+        "Calibration",
+        "Stability (learning theory)",
+        "Laser"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文关注LPBF过程中Ti-6Al-4V的相对密度预测，但未涉及力学性能或疲劳行为，与研究方向的核心（力学与疲劳）关联性较低。",
+        "why_not_core": "The paper predicts relative density via cross-material few-shot learning but does not characterize or model mechanical properties (tensile, fatigue, etc.) or fatigue behavior of Ti-6Al-4V.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "relative density",
+          "Ti6Al4V",
+          "few-shot learning",
+          "physics-informed machine learning"
+        ],
+        "summary_zh": {
+          "motivation": "为新型合金在有限数据下快速预测LPBF相对密度。",
+          "method": "提出物理信息KNN，利用八维物理约束特征空间实现跨材料预测。",
+          "result": "PIKNN在Ti6Al4V上10-shot准确率达58%，优于基线方法。",
+          "validation": "使用公开的六种合金1579个LPBF样本进行跨材料验证。"
+        },
+        "summary_en": {
+          "motivation": "Enable rapid relative density prediction for new alloys in LPBF with limited experimental data.",
+          "method": "Propose Physics-Informed K-Nearest Neighbors (PIKNN) using an eight-dimensional physics-constrained feature space for cross-material prediction.",
+          "result": "PIKNN achieves 58.0% accuracy on Ti6Al4V (10-shot) and outperforms prototypical networks and SVM baselines.",
+          "validation": "Validated on a public dataset of 1,579 LPBF prints across six alloys under a cross-material paradigm."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "relative density",
+            "zh": "相对密度"
+          },
+          {
+            "en": "physics-informed few-shot learning",
+            "zh": "物理信息少样本学习"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "cross-material prediction",
+            "zh": "跨材料预测"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-09T08:08:01Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7163207495",
+      "doi": "10.1038/s44455-026-00030-z",
+      "title": "Statistical average strain energy density fatigue estimation of strut-based metamaterials via synthetic as-built CAD digital twins",
+      "abstract": "The limited and scattered fatigue performances and their difficult predictability remain critical barriers for the widespread adoption of Laser-based Powder Bed Fusion (L-PBF) metamaterials in engineering applications, as fatigue damage initiation is highly sensitive to manufacturing-induced geometric imperfections. While X-ray computed tomography (CT) provides high-fidelity as-built reconstructions fundamental for metamaterials' structural health monitoring, its cost and complexity hinder routine integration into fatigue assessment workflows at the design stage. In this work, we propose a computationally efficient framework for the development of synthetic as-built CAD models, serving as digital twins for fatigue life and failure location prediction. The proposed model is herein reported for L-PBF Ti-6Al-4V struts, the elemental building blocks of metamaterial architectures, manufactured at different building orientations. Leveraging stereomicroscopy input images, a modular reconstruction pipeline capturing orientation-dependent surface morphology and partially fused particles allows the generation of as-built CAD models that retain the geometric variability governing fatigue behaviour, without reliance on volumetric imaging. Synthetic models are coupled with finite element analyses and a statistical strain energy density criterion to identify failure-critical locations. Validation against CT-derived counterparts demonstrates close morphological agreement and, since the design stage, the ability to estimate fatigue life and predict experimental failure locations within established scatter bands.",
+      "authors": [
+        "Simone Murchio",
+        "Raffaele De Biasi",
+        "Marcello Laurenti",
+        "Nicolò Bonato",
+        "Simone Carmignato",
+        "M. Benedetti",
+        "Filippo Berto"
+      ],
+      "first_author_affiliation": "Department of Chemical Engineering Materials Environment, La Sapienza University of Rome, Roma, Italy",
+      "corresponding_authors": [
+        {
+          "name": "Simone Murchio",
+          "affiliation": "Department of Chemical Engineering Materials Environment, La Sapienza University of Rome, Roma, Italy"
+        },
+        {
+          "name": "M. Benedetti",
+          "affiliation": "Department of Industrial Engineering, University of Trento, Trento, Italy"
+        }
+      ],
+      "venue": "npj Metamaterials",
+      "year": 2026,
+      "date": "2026-06-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1038/s44455-026-00030-z",
+      "cited_by_count": 0,
+      "concepts": [
+        "Modular design",
+        "Pipeline (software)",
+        "CAD",
+        "Workflow",
+        "Metamaterial",
+        "Computer science",
+        "Strain energy density function",
+        "Finite element method",
+        "Structural engineering",
+        "Energy (signal processing)",
+        "Computer Aided Design",
+        "Statistical model",
+        "Predictability",
+        "Deformation (meteorology)",
+        "Probabilistic logic",
+        "Kinematics",
+        "Reliability engineering",
+        "Materials science",
+        "Sensor fusion"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "powder bed fusion",
+          "fatigue",
+          "fatigue life"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对L-PBF Ti-6Al-4V点阵结构的疲劳性能预测，提出了一种基于合成数字孪生的高效方法，与用户关注的力学和疲劳方向高度相关。",
+        "why_not_core": "The paper focuses on strut-level metamaterial fatigue rather than bulk solid Ti-6Al-4V mechanical properties, but it remains within the L1 scope for additive manufacturing Ti-6Al-4V fatigue.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "L-PBF",
+          "Ti-6Al-4V",
+          "fatigue life",
+          "digital twin",
+          "synthetic as-built CAD",
+          "strain energy density",
+          "metamaterials",
+          "strut-based"
+        ],
+        "summary_zh": {
+          "motivation": "为克服L-PBF制造Ti-6Al-4V点阵结构疲劳性能预测的困难。",
+          "method": "提出基于立体显微镜图像的合成CAD数字孪生框架，结合有限元分析和统计应变能密度准则。",
+          "result": "合成模型与CT重建形貌吻合，能有效估计疲劳寿命和预测失效位置。",
+          "validation": "与CT重建结果及已有实验疲劳数据对比验证。"
+        },
+        "summary_en": {
+          "motivation": "To address the challenge of predicting fatigue performance in L-PBF Ti-6Al-4V lattice structures due to manufacturing imperfections.",
+          "method": "The authors propose a framework using stereomicroscopy images to generate synthetic as-built CAD digital twins, coupled with finite element analysis and a statistical strain energy density criterion.",
+          "result": "The synthetic models show close morphological agreement with CT-based reconstructions and can estimate fatigue life and failure locations within experimental scatter bands.",
+          "validation": "Validation is performed by comparing synthetic models to CT reconstructions and against experimental fatigue data from literature."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
+          },
+          {
+            "en": "strain energy density",
+            "zh": "应变能密度"
+          },
+          {
+            "en": "digital twin",
+            "zh": "数字孪生"
+          },
+          {
+            "en": "as-built CAD",
+            "zh": "实际制造CAD"
+          },
+          {
+            "en": "strut-based metamaterials",
+            "zh": "杆基点阵材料"
+          },
+          {
+            "en": "synthetic model",
+            "zh": "合成模型"
+          },
+          {
+            "en": "stereomicroscopy",
+            "zh": "立体显微镜"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-09T08:08:01Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7163132270",
+      "doi": "10.3390/ma19112347",
+      "title": "Effects of Ambient Oxygen Concentration on Microstructural Evolution and Mechanical Properties of Wire Arc Additively Manufactured Ti-6Al-4V Thin-Walled Components",
+      "abstract": "Ti-6Al-4V thin-walled specimens were fabricated by gas tungsten arc welding-based wire arc additive manufacturing under controlled oxygen concentrations of 1, 500 and 1000 ppm, with ambient air used as a severe oxygen-exposure reference. The effects of oxygen concentration on oxygen uptake, microstructure, oxidation behavior and mechanical properties were investigated. Within the controlled range, the internal oxygen content increased from 0.07 to 0.15 wt.%, remaining below the ASTM B381-2013 limit. These specimens retained sound interlayer bonding and were mainly composed of α-Ti with a small amount of β-Ti, without detectable crystalline TiO2 by X-ray diffraction. Controlled oxygen uptake refined the α lamellae and increased deformation resistance through interstitial solid-solution strengthening, increasing hardness from approximately 320 HV to 330–350 HV and tensile strength from 880 to 940 MPa, while reducing elongation from 11.5% to 9.5%. In contrast, the ambient-air specimen reached an oxygen content of 0.36 wt.%, developed an approximately 90 μm oxidation-affected layer and showed TiO2-related oxides, α-colony aggregation and interface weakening. Its tensile strength and elongation decreased sharply to 295 MPa and 1.9%, respectively. These results indicate that atmosphere control in WAAM Ti-6Al-4V should prevent the transition from controlled oxygen strengthening to excessive oxygen-induced embrittlement.",
+      "authors": [
+        "Shuo Meng",
+        "Zhe Zhao",
+        "Hongwei Ji",
+        "Guangkuo Qin",
+        "Yefei Zhou",
+        "Weidong Ma",
+        "Xiaolei Xing"
+      ],
+      "first_author_affiliation": "College of Mechanical Engineering, Yanshan University, Qinhuangdao 066004, China",
+      "corresponding_authors": [
+        {
+          "name": "Shuo Meng",
+          "affiliation": "College of Mechanical Engineering, Yanshan University, Qinhuangdao 066004, China"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2026,
+      "date": "2026-06-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma19112347",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Elongation",
+        "Ultimate tensile strength",
+        "Oxygen",
+        "Composite material",
+        "Tungsten",
+        "Limiting oxygen concentration",
+        "Metallurgy",
+        "Deformation (meteorology)",
+        "Arc (geometry)",
+        "Layer (electronics)",
+        "Tensile testing",
+        "Microstructure"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "wire arc additive",
+          "microstructure",
+          "tensile strength",
+          "elongation"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了WAAM Ti-6Al-4V中氧浓度对显微组织和拉伸性能的影响，属于L1方向但不涉及疲劳性能。",
+        "why_not_core": "No fatigue life or S-N data; focuses on tensile properties and microstructure under varying oxygen levels, not cyclic loading or fatigue crack initiation/growth.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "WAAM",
+          "Ti-6Al-4V",
+          "oxygen concentration",
+          "tensile properties",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "探究WAAM Ti-6Al-4V中环境氧浓度对显微组织和力学性能的影响",
+          "method": "在可控氧浓度（1,500,1000 ppm）及空气环境下制备薄壁WAAM试样并进行表征与拉伸测试",
+          "result": "控氧范围内氧含量增加使强度上升、塑性下降；空气环境导致严重氧化和性能急剧劣化",
+          "validation": "通过OM、SEM、XRD和拉伸、硬度实验验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate how ambient oxygen concentration during WAAM of Ti-6Al-4V affects its microstructure and mechanical properties.",
+          "method": "Thin-walled WAAM specimens were fabricated under controlled oxygen levels (1, 500, 1000 ppm) and in ambient air, followed by microstructural characterization and tensile/hardness testing.",
+          "result": "Controlled oxygen uptake increased tensile strength (880→940 MPa) and hardness (320→350 HV) while reducing elongation (11.5%→9.5%); ambient air caused severe embrittlement (295 MPa, 1.9%).",
+          "validation": "Experimental validation via OM, SEM, XRD, tensile tests, and hardness measurements."
+        },
+        "key_terms": [
+          {
+            "en": "wire arc additive manufacturing (WAAM)",
+            "zh": "电弧增材制造"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "oxygen concentration",
+            "zh": "氧浓度"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "oxygen content",
+            "zh": "氧含量"
+          },
+          {
+            "en": "elongation",
+            "zh": "伸长率"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-09T08:08:01Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7163176634",
+      "doi": "10.3390/ma19112369",
+      "title": "Analysis of Al2O3 Single-Bead Deposition Behavior and Microstructure on a Ti-6Al-4V Substrate Using the Laser-Directed Energy Deposition (DED-LB) Process",
+      "abstract": "Al2O3 single beads were deposited on a Ti-6Al-4V (Ti64) substrate by laser-directed energy deposition (DED-LB) to establish baseline process conditions for ceramic protective layers and future Ti64/Al2O3 functionally graded materials (FGMs). These ceramic-containing surface layers are applicable to titanium components requiring improved oxidation, wear, and thermal resistance in aerospace, automotive, and high-temperature structural applications. Laser power (300–700 W) and scan speed (300–700 mm/min) were varied, and bead geometry was quantified from cross-sectional observations; energy density and dilution ratio were calculated. Melt pool depth increased with higher power and lower speed, indicating increased heat input and substrate melting. Crack formation in the melt zone was more sensitive to laser power than to scan speed. In contrast, bead height showed a non-monotonic response to energy density, which may be associated with possible coupled effects such as recoil pressure-driven melt pool disturbance, powder scattering, and insufficient powder melting at high scan speeds. Dilution-based optimization identified 300 W laser power and 400 mm/min scan speed, with a powder feed rate of 3 g/min, as the most suitable condition within the investigated process window, giving the lowest practical dilution ratio of approximately 40.27%. SEM–EDS and XRD analyses were conducted to examine the interfacial microstructure and phase characteristics under the selected condition. Overall, this study provides fundamental process guidelines and mechanistic insight into bead formation, dilution behavior, and interface formation, supporting the future application of DED-LB-based ceramic protective or graded layers on Ti64 surfaces.",
+      "authors": [
+        "Tae‐Hyeon Kim",
+        "Jin-Soo Lee",
+        "S J Kim",
+        "Su-Han Bae",
+        "Changjong Kim",
+        "Se-Yun Kim"
+      ],
+      "first_author_affiliation": "Department of Mechatronics Engineering, Kyungnam University, Changwon 51767, Republic of Korea",
+      "corresponding_authors": [
+        {
+          "name": "Tae‐Hyeon Kim",
+          "affiliation": "Department of Mechatronics Engineering, Kyungnam University, Changwon 51767, Republic of Korea"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2026,
+      "date": "2026-06-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma19112369",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Ceramic",
+        "Deposition (geology)",
+        "Substrate (aquarium)",
+        "Composite material",
+        "Dilution",
+        "Laser power scaling",
+        "Titanium",
+        "Power density",
+        "Surface energy",
+        "Thermal",
+        "Ion beam-assisted deposition",
+        "Laser",
+        "Bead",
+        "Phase (matter)",
+        "Thermal energy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "directed energy deposition",
+          "DED",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "论文主要研究在Ti-6Al-4V基板上沉积Al2O3陶瓷的工艺与微观结构，而非Ti-6Al-4V本身的力学或疲劳性能，与方向焦点无关。",
+        "why_not_core": "The paper does not investigate the mechanical or fatigue properties of additively manufactured Ti-6Al-4V; it focuses on ceramic bead deposition on a Ti-6Al-4V substrate.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser-directed energy deposition",
+          "Al2O3 coating",
+          "Ti-6Al-4V substrate",
+          "dilution",
+          "process optimization"
+        ],
+        "summary_zh": {
+          "motivation": "探索在Ti-6Al-4V上沉积Al2O3陶瓷层的工艺基础",
+          "method": "通过DED-LB工艺改变激光功率和扫描速度，分析单道沉积的几何形貌、稀释率和微观结构",
+          "result": "确定了最佳工艺参数为300 W激光功率和400 mm/min扫描速度，稀释率约40.27%",
+          "validation": "利用SEM-EDS和XRD对界面微观结构和物相进行了表征"
+        },
+        "summary_en": {
+          "motivation": "This study establishes baseline process conditions for depositing Al2O3 protective layers on Ti-6Al-4V substrates via DED-LB.",
+          "method": "Single Al2O3 beads were deposited at varying laser power (300–700 W) and scan speed (300–700 mm/min), and bead geometry, dilution, and microstructure were characterized.",
+          "result": "Optimal parameters (300 W, 400 mm/min, 3 g/min powder feed) yielded the lowest practical dilution of ~40.27% with acceptable bead morphology.",
+          "validation": "Microstructural and phase analyses (SEM-EDS, XRD) confirmed the interfacial characteristics under the selected condition."
+        },
+        "key_terms": [
+          {
+            "en": "laser-directed energy deposition (DED-LB)",
+            "zh": "激光定向能量沉积"
+          },
+          {
+            "en": "Al2O3 single bead",
+            "zh": "Al2O3单道沉积"
+          },
+          {
+            "en": "Ti-6Al-4V substrate",
+            "zh": "Ti-6Al-4V基板"
+          },
+          {
+            "en": "dilution ratio",
+            "zh": "稀释率"
+          },
+          {
+            "en": "melt pool depth",
+            "zh": "熔池深度"
+          },
+          {
+            "en": "process optimization",
+            "zh": "工艺优化"
+          },
+          {
+            "en": "crack formation",
+            "zh": "裂纹形成"
+          },
+          {
+            "en": "SEM-EDS",
+            "zh": "扫描电镜-能谱分析"
+          },
+          {
+            "en": "XRD",
+            "zh": "X射线衍射"
+          },
+          {
+            "en": "bead geometry",
+            "zh": "焊道几何形貌"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-09T08:08:01Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7163132906",
+      "doi": "10.3390/ma19112362",
+      "title": "Geometry and Surface Feature Evaluation in E-PBF Process Using In-Operando Electron Emission Signal",
+      "abstract": "Electron beam powder bed fusion (E-PBF) requires reliable in situ process monitoring, and electron emission signals offer a promising avenue for this purpose. Most prior studies have relied on dedicated beam scans performed before or after melting, leaving open the question of whether the signal acquired during the melt itself can directly indicate geometric and topographical features of the fabricated part. In this work, the in-operando electron emission signal was recorded during spot-melting of a Ti-6Al-4V spur gear and evaluated for its ability to reconstruct geometric features and surface topography, with optical microscopy and profilometry serving as ground truth. A melt-pool dilation correction was applied to compensate for the geometric expansion of individual melt spots. After correction, the in-operando reconstruction reached agreement deviation values below 2.2% across the tooth tips, tooth bases, and chord widths, which are comparable to or better than those obtained from post-melt ELO imaging. Comparison with profilometer height profiles confirmed strong correlation with surface topography (Pearson 0.67–0.87 across all four profiles, p &lt; 0.05 for all), indicating that the signal captures meaningful surface-topography variation in addition to geometric boundaries. The results demonstrate that the in-operando electron emission signal shows strong potential for in situ geometric and topographical assessment of complex parts in E-PBF, supporting its future integration into closed-loop process monitoring.",
+      "authors": [
+        "Abdulaziz Alfaifi",
+        "Omer A. Alshammery",
+        "Toan D. Truong",
+        "Haojun You",
+        "Mohsen Taheri Andani"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, Texas A&M University, College Station, TX 77843, USA",
+      "corresponding_authors": [
+        {
+          "name": "Abdulaziz Alfaifi",
+          "affiliation": "Department of Mechanical Engineering, Texas A&M University, College Station, TX 77843, USA"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2026,
+      "date": "2026-06-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma19112362",
+      "cited_by_count": 0,
+      "concepts": [
+        "Profilometer",
+        "SIGNAL (programming language)",
+        "Materials science",
+        "Optics",
+        "Cathode ray",
+        "Geometry",
+        "Process (computing)",
+        "Electron",
+        "Fusion",
+        "Surface (topology)",
+        "Surface finish",
+        "Surface reconstruction",
+        "In situ",
+        "Feature (linguistics)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "powder bed fusion"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要关注E-PBF过程中的原位监测方法，而非Ti-6Al-4V的力学或疲劳性能。",
+        "why_not_core": "The paper focuses on in-situ process monitoring for geometry and surface topography reconstruction, not on mechanical or fatigue properties of Ti-6Al-4V.",
+        "validation_kind": "in_vitro",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "in-situ monitoring",
+          "electron beam powder bed fusion",
+          "Ti-6Al-4V",
+          "geometry reconstruction",
+          "surface topography"
+        ],
+        "summary_zh": {
+          "motivation": "探索E-PBF过程中利用电子发射信号原位监测几何与表面形貌的可行性。",
+          "method": "记录点熔过程中的电子发射信号，并应用熔池膨胀校正重建几何特征。",
+          "result": "重建误差低于2.2%，与轮廓仪高度剖面相关性达0.67-0.87。",
+          "validation": "通过光学显微镜和轮廓仪测量作为真值验证信号重建准确性。"
+        },
+        "summary_en": {
+          "motivation": "To investigate whether the in-operando electron emission signal during E-PBF spot-melting can directly indicate geometric and topographical features of fabricated parts.",
+          "method": "The electron emission signal was recorded during spot-melting of a Ti-6Al-4V spur gear, and a melt-pool dilation correction was applied to reconstruct geometry and surface topography.",
+          "result": "After correction, the reconstruction achieved agreement deviations below 2.2% at key features and showed strong correlation (Pearson 0.67–0.87) with profilometer height profiles.",
+          "validation": "Ground truth optical microscopy and profilometry measurements were used to validate the signal-based reconstructions."
+        },
+        "key_terms": [
+          {
+            "en": "electron beam powder bed fusion",
+            "zh": "电子束粉末床熔融"
+          },
+          {
+            "en": "in-situ monitoring",
+            "zh": "原位监测"
+          },
+          {
+            "en": "electron emission signal",
+            "zh": "电子发射信号"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "geometry reconstruction",
+            "zh": "几何重建"
+          },
+          {
+            "en": "surface topography",
+            "zh": "表面形貌"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-09T08:08:01Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7163140803",
+      "doi": "10.3390/jfb17060275",
+      "title": "The Influence of Mechanical and Microstructural Characteristics on the Durability of a Femoral Implant Made of Different Alloys",
+      "abstract": "The long-term success of orthopedic implants is fundamentally dependent on the synergy between mechanical performance and biological integration. Thus, a comprehensive investigation of both mechanical characteristics and microstructural parameters is essential for the development of reliable implant systems in hip arthroplasty, both in human medicine and veterinary practice. The present study provides a detailed analysis of the mechanical properties, microstructure, and chemical composition of a Ti-6Al-4V-based femoral implant using nanoindentation, scanning electron and optical microscopy, and energy-dispersive X-ray spectroscopy. Then, using finite element analysis, the influence of Young’s modulus on the stress–strain state of the endoprosthesis was evaluated. Dynamic loading conditions were considered by analyzing an impact on a cantilever beam, simulating an animal’s jump onto a supporting limb. For reliable numerical simulation, the model geometry was constructed utilizing computed X-ray microtomography. The numerical simulations were performed for three material cases: reference Ti-6Al-4V, experimentally characterized Ti-6Al-4V (with properties determined by nanoindentation), and CoCrMo alloy, which is also widely used in endoprosthetic applications. The influence of the founded mechanical characteristics on the stress–strain state of the prostheses was assessed. In particular, the results indicate that under dynamic loading conditions, the load-bearing capacity of CoCrMo is lower by approximately 30% and 21% compared to the reference and experimentally characterized Ti-6Al-4V, respectively.",
+      "authors": [
+        "Ivan Panfilov",
+        "EVGENIY SADYRIN",
+        "A. L. Nikolaev",
+        "Pavel Antipov",
+        "Andrey Vasiliev",
+        "Il'ya Vilkovyskiy",
+        "Andrei Pantiulin",
+        "Оxana Ananova",
+        "Бесарион Месхи"
+      ],
+      "first_author_affiliation": "Department of Theoretical and Applied Mechanics, Agribusiness Faculty, Don State Technical University, 1 Gagarin Square, 344003 Rostov-on-Don, Russia",
+      "corresponding_authors": [
+        {
+          "name": "Ivan Panfilov",
+          "affiliation": "Department of Theoretical and Applied Mechanics, Agribusiness Faculty, Don State Technical University, 1 Gagarin Square, 344003 Rostov-on-Don, Russia"
+        }
+      ],
+      "venue": "Journal of Functional Biomaterials",
+      "year": 2026,
+      "date": "2026-06-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/jfb17060275",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Durability",
+        "Finite element method",
+        "Composite material",
+        "Cantilever",
+        "Modulus",
+        "Implant",
+        "Young's modulus",
+        "Material properties",
+        "Elastic modulus",
+        "Scanning electron microscope",
+        "Nanoindentation",
+        "Microstructure"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "这篇论文是关于股骨植入物的，未涉及增材制造，与用户研究方向不相关。",
+        "why_not_core": "This paper does not focus on additively manufactured Ti-6Al-4V; it investigates a femoral implant made from conventional Ti-6Al-4V and CoCrMo alloys, with no additive manufacturing processing.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "femoral implant",
+          "finite element analysis",
+          "nanoindentation",
+          "mechanical properties",
+          "CoCrMo"
+        ],
+        "summary_zh": {
+          "motivation": "研究股骨植入体的力学与微观结构特征对其耐久性的影响。",
+          "method": "利用纳米压痕、SEM、EDS等实验表征Ti-6Al-4V和CoCrMo合金，并通过有限元分析评估动态载荷下的应力应变状态。",
+          "result": "动态载荷下CoCrMo的承载能力比Ti-6Al-4V低约30%和21%。",
+          "validation": "实验表征结合有限元模拟，但未涉及增材制造验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the influence of mechanical and microstructural characteristics on the durability of a femoral implant made of Ti-6Al-4V and CoCrMo alloys.",
+          "method": "Nanoindentation, SEM, EDS, and finite element analysis were used to characterize and simulate the mechanical response under dynamic loading.",
+          "result": "Under dynamic loading, the load-bearing capacity of CoCrMo is approximately 30% and 21% lower than that of reference and experimentally characterized Ti-6Al-4V, respectively.",
+          "validation": "The study combined experimental characterization (nanoindentation, microscopy) with numerical simulation, but no additive manufacturing context was considered."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "femoral implant",
+            "zh": "股骨植入物"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "nanoindentation",
+            "zh": "纳米压痕"
+          },
+          {
+            "en": "Young's modulus",
+            "zh": "杨氏模量"
+          },
+          {
+            "en": "CoCrMo",
+            "zh": "钴铬钼合金"
+          },
+          {
+            "en": "dynamic loading",
+            "zh": "动态载荷"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-09T08:08:01Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 7,
+    "by_source": {
+      "openalex": 7
+    },
+    "after_dedup": 7,
+    "after_routing": 7,
+    "by_direction": {
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 6
+    },
+    "routed_by_source": {
+      "openalex": 7
+    },
+    "scored": 7,
+    "priority_counts": {
+      "Exclude": 2,
+      "Low": 3,
+      "High": 1,
+      "Medium": 1
+    }
+  }
+}
