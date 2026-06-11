@@ -1111,26 +1111,141 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-06-10T08:31:48Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7164004978",
+      "doi": "10.1016/j.jallcom.2026.189110",
+      "title": "Strength, toughness, and fatigue properties including crack growth rates of Ti-6Al-4V fabricated using laser powder bed fusion",
+      "abstract": "",
+      "authors": [
+        "Nemanja Kljestan",
+        "Marko Knežević"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Nemanja Kljestan",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Journal of Alloys and Compounds",
+      "year": 2026,
+      "date": "2026-06-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.jallcom.2026.189110",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Fusion",
+        "Paris' law",
+        "Composite material",
+        "Laser",
+        "Inertial confinement fusion",
+        "Growth rate",
+        "Microstructure",
+        "Metallurgy",
+        "Fatigue testing"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了激光粉末床熔融Ti-6Al-4V的强度、韧性和疲劳性能，包括裂纹扩展速率。",
+        "why_not_core": "This paper covers the core mechanical and fatigue properties of LPBF Ti-6Al-4V; it does not focus on post-processing treatments or implant applications.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "LPBF",
+          "Ti-6Al-4V",
+          "mechanical properties",
+          "fatigue",
+          "crack growth",
+          "toughness"
+        ],
+        "summary_zh": {
+          "motivation": "表征激光粉末床熔融Ti-6Al-4V的力学和疲劳性能。",
+          "method": "通过实验测试强度、韧性、疲劳寿命和裂纹扩展速率。",
+          "result": "获得了该材料的拉伸、疲劳和断裂韧性数据。",
+          "validation": "基于标准力学实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To characterize the mechanical and fatigue performance of Ti-6Al-4V fabricated via laser powder bed fusion.",
+          "method": "Experimental testing of tensile strength, toughness, fatigue life, and crack growth rates was conducted.",
+          "result": "Comprehensive data on strength, toughness, and fatigue behavior of LPBF Ti-6Al-4V were obtained.",
+          "validation": "Validation was performed through standard mechanical testing procedures."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "toughness",
+            "zh": "韧性"
+          },
+          {
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
+          },
+          {
+            "en": "crack growth rate",
+            "zh": "裂纹扩展速率"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-11T08:59:11Z"
     }
   ],
   "counts": {
-    "fetched_total": 9,
+    "fetched_total": 10,
     "by_source": {
-      "openalex": 9
+      "openalex": 10
     },
-    "after_dedup": 9,
-    "after_routing": 9,
+    "after_dedup": 10,
+    "after_routing": 10,
     "by_direction": {
       "ti6al4v_postprocess": 1,
-      "ti6al4v_base_mechanical_fatigue": 8
+      "ti6al4v_base_mechanical_fatigue": 9
     },
     "routed_by_source": {
-      "openalex": 9
+      "openalex": 10
     },
-    "scored": 9,
+    "scored": 10,
     "priority_counts": {
       "Medium": 2,
-      "High": 2,
+      "High": 3,
       "Low": 1,
       "Exclude": 4
     }
