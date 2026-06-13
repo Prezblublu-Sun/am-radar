@@ -1,0 +1,150 @@
+{
+  "schema_version": "v2",
+  "date": "2026-06-10",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7164133318",
+      "doi": "10.1007/s00170-026-18443-5",
+      "title": "Effect of TiN- and TiC- tool coatings on wear, surface roughness, and chip morphology in machining Ti-6Al-4V titanium alloy",
+      "abstract": "",
+      "authors": [
+        "Hafiz Muhammad Abdullah",
+        "Muhammad Farhan Ausaf",
+        "Samiul Hasan"
+      ],
+      "first_author_affiliation": "HITEC University, Taxila, Pakistan",
+      "corresponding_authors": [
+        {
+          "name": "Samiul Hasan",
+          "affiliation": "Artificial Intelligence for Mechanical Systems (AIMS) Lab, School of Interdisciplinary Engineering and Sciences, National University of Sciences and Technology, H-12, Islamabad, 44000, Pakistan"
+        }
+      ],
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "year": 2026,
+      "date": "2026-06-10",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s00170-026-18443-5",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Machining",
+        "Surface roughness",
+        "Metallurgy",
+        "Tool wear",
+        "Titanium alloy",
+        "Surface finish",
+        "Carbide",
+        "Lubrication",
+        "Tin",
+        "Titanium carbide",
+        "Alloy",
+        "Titanium",
+        "Chip formation",
+        "Cutting tool",
+        "Cutting fluid",
+        "Composite material",
+        "Chip",
+        "Limiting",
+        "Corrosion"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V钛合金加工中刀具涂层的影响，未涉及增材制造或后处理对疲劳性能的调控。",
+        "why_not_core": "This paper focuses on tool coatings and machining parameters (wear, surface roughness, chip morphology) rather than the effect of post-processing on fatigue or mechanical performance of AM Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "machining",
+          "tool coatings",
+          "surface roughness",
+          "chip morphology"
+        ],
+        "summary_zh": {
+          "motivation": "研究TiN和TiC涂层刀具对Ti-6Al-4V加工性能的影响。",
+          "method": "通过实验比较不同涂层刀具的磨损、表面粗糙度和切屑形态。",
+          "result": "不同涂层对加工质量和刀具寿命有显著影响。",
+          "validation": "通过测量磨损和粗糙度验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of TiN and TiC tool coatings on wear, surface roughness, and chip morphology during machining of Ti-6Al-4V.",
+          "method": "Experimental comparison of TiN- and TiC-coated tools in turning Ti-6Al-4V, measuring tool wear, surface roughness, and chip morphology.",
+          "result": "Tool coating type significantly influenced tool wear, surface finish, and chip formation.",
+          "validation": "Experimental measurements of wear and roughness were performed."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "tool coating",
+            "zh": "刀具涂层"
+          },
+          {
+            "en": "wear",
+            "zh": "磨损"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "chip morphology",
+            "zh": "切屑形态"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-13T08:01:44Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

@@ -1226,28 +1226,668 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-06-11T08:59:11Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7164397235",
+      "doi": "10.1016/j.jmrt.2026.06.102",
+      "title": "Synergistic effects of hBN and ZnO nanofluids coupled with vortex-tube cooling during milling of selective laser melted Ti-6Al-4V alloy: A thermo-tribological assessment",
+      "abstract": "Selective laser melted (SLM) Ti-6Al-4V components are widely used in aerospace, biomedical and defense applications, but their as-built parts inherently exhibit poor surface quality, high residual stresses and a heterogeneous, martensitic α′-dominated microstructure that complicates secondary machining. The present study investigates a hybrid eco-friendly cooling/lubrication strategy in which hexagonal boron nitride (hBN) and zinc oxide (ZnO) nanofluids prepared at 0.6 vol.% in a biodegradable vegetable-based synthetic oil are coupled with Ranque–Hilsch vortex-tube (VT) cooling during the milling of SLM Ti-6Al-4V. Eight machining environments were compared: dry, MQL, VT, MQL+VT, hBN-MQL, ZnO-MQL, hBN-MQL+VT and ZnO-MQL+VT, at constant cutting parameters ( vc = 90 m/min, f = 0.1 mm/rev, a p = 0.8 mm, a e = 12 mm ). The nanofluids were characterized in terms of pH, dynamic viscosity and thermal conductivity, and machining performance was assessed through cutting temperature (Tc), average surface roughness (Ra), flank wear progression (VB), power consumption (P), coefficient of friction (CoF) and specific wear rate. Tool wear mechanisms were further elucidated through SEM imaging and EDX point analysis. Compared with the dry baseline (Tc ≈ 474 °C, Ra ≈ 0.326 μm, VB ≈ 542 μm, P ≈ 490 W, CoF ≈ 0.539), the ZnO-MQL+VT hybrid produced the largest improvements: Tc, Ra, VB, P and CoF were reduced by 24.7%, 44.5%, 53.1%, 39.4% and 52.3%, respectively, while the specific wear rate decreased by 31.0%. SEM/EDX analysis confirmed that adhesion, diffusion and built-up edge (BUE)/built-up layer (BUL) formation, accompanied by coating delamination, were the dominant wear modes in dry and partially cooled conditions, whereas these mechanisms were strongly suppressed under hybrid nanofluid+VT environments. The findings provide a coherent thermo-tribological framework for designing sustainable hybrid cooling/lubrication strategies tailored to the specific challenges of additively manufactured titanium alloys.",
+      "authors": [
+        "Çağrı Vakkas Yıldırım",
+        "Şenol Şirin",
+        "Mahmut Çelik",
+        "Muhammed İkbal Kara",
+        "Turgay Kıvak",
+        "Murat Sarıkaya"
+      ],
+      "first_author_affiliation": "Aviation Research and Application Center, Erciyes University, Kayseri, Türkiye",
+      "corresponding_authors": [
+        {
+          "name": "Çağrı Vakkas Yıldırım",
+          "affiliation": "Aviation Research and Application Center, Erciyes University, Kayseri, Türkiye"
+        }
+      ],
+      "venue": "Journal of Materials Research and Technology",
+      "year": 2026,
+      "date": "2026-06-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.jmrt.2026.06.102",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Nanofluid",
+        "Machining",
+        "Surface roughness",
+        "Microstructure",
+        "Composite material",
+        "Surface finish",
+        "Metallurgy",
+        "Boron nitride",
+        "Coating",
+        "Martensitic stainless steel",
+        "Oxide",
+        "Viscosity",
+        "Tool wear",
+        "Residual stress",
+        "Nitriding",
+        "Laser power scaling",
+        "Layer (electronics)",
+        "Zinc",
+        "Diffusion",
+        "Surface integrity"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "SLM",
+          "microstructure",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文涉及SLM Ti-6Al-4V的铣削后处理，但未评估力学性能（疲劳/拉伸），仅关注加工性能。",
+        "why_not_core": "This paper does not assess mechanical performance (fatigue, tensile) of post-processed Ti-6Al-4V; it focuses on machining performance (temperature, surface roughness, tool wear) under hybrid cooling/lubrication.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "selective laser melting",
+          "milling",
+          "nanofluids",
+          "vortex-tube cooling",
+          "surface roughness",
+          "tool wear"
+        ],
+        "summary_zh": {
+          "motivation": "改善SLM Ti-6Al-4V合金铣削加工时的冷却润滑效果。",
+          "method": "采用hBN和ZnO纳米流体与涡流管冷却耦合的混合润滑策略进行铣削实验。",
+          "result": "ZnO-MQL+VT混合冷却使切削温度、表面粗糙度、刀具磨损等指标显著降低。",
+          "validation": "通过SEM/EDX分析刀具磨损机理，并与干切等条件对比验证。"
+        },
+        "summary_en": {
+          "motivation": "To enhance cooling and lubrication during milling of selective laser melted Ti-6Al-4V, which suffers from poor surface quality and residual stresses.",
+          "method": "Hybrid cooling/lubrication using hBN and ZnO nanofluids combined with vortex-tube cooling was evaluated in milling experiments of SLM Ti-6Al-4V.",
+          "result": "The ZnO-MQL+VT hybrid reduced cutting temperature, surface roughness, tool wear, power consumption, and coefficient of friction by up to 53% compared to dry conditions.",
+          "validation": "Tool wear mechanisms were validated via SEM/EDX analysis, confirming suppression of adhesion, diffusion, and built-up edge under hybrid cooling."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "milling",
+            "zh": "铣削"
+          },
+          {
+            "en": "nanofluids",
+            "zh": "纳米流体"
+          },
+          {
+            "en": "vortex-tube cooling",
+            "zh": "涡流管冷却"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "tool wear",
+            "zh": "刀具磨损"
+          },
+          {
+            "en": "hybrid lubrication",
+            "zh": "混合润滑"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-13T08:01:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7164152024",
+      "doi": "10.1016/j.msea.2026.150601",
+      "title": "Elevated-Temperature Tensile Behavior of Additive Friction Stir Deposition-Processed Ti-6Al-4V: Gradient Microstructure and Deformation Mechanisms",
+      "abstract": "",
+      "authors": [
+        "Haohan Zhang",
+        "Wenxiao Li",
+        "Wenquan Wang",
+        "Xinge Zhang",
+        "Xiaosong Feng",
+        "Bo Sun",
+        "Meihua Fan",
+        "Linchao Xu"
+      ],
+      "first_author_affiliation": "Key Laboratory of AutomobileMaterials (Ministry of Education), School of Materials Science and Engineering, Jilin University, No. 5988 Renmin Street, Changchun 130012, China",
+      "corresponding_authors": [
+        {
+          "name": "Haohan Zhang",
+          "affiliation": "Key Laboratory of AutomobileMaterials (Ministry of Education), School of Materials Science and Engineering, Jilin University, No. 5988 Renmin Street, Changchun 130012, China"
+        },
+        {
+          "name": "Wenquan Wang",
+          "affiliation": "Key Laboratory of AutomobileMaterials (Ministry of Education), School of Materials Science and Engineering, Jilin University, No. 5988 Renmin Street, Changchun 130012, China"
+        },
+        {
+          "name": "Xinge Zhang",
+          "affiliation": "Key Laboratory of AutomobileMaterials (Ministry of Education), School of Materials Science and Engineering, Jilin University, No. 5988 Renmin Street, Changchun 130012, China"
+        }
+      ],
+      "venue": "Materials Science and Engineering A",
+      "year": 2026,
+      "date": "2026-06-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.msea.2026.150601",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Deformation (meteorology)",
+        "Ultimate tensile strength",
+        "Composite material",
+        "Deformation mechanism",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "本文直接研究增材制造Ti-6Al-4V的高温拉伸行为，符合L1层力学与疲劳方向的核心关注点。",
+        "why_not_core": "no reason to exclude; paper is fully within scope",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "additive friction stir deposition",
+          "elevated-temperature tensile",
+          "Ti-6Al-4V",
+          "gradient microstructure",
+          "deformation mechanisms"
+        ],
+        "summary_zh": {
+          "motivation": "研究增材制造Ti-6Al-4V在高温下的力学行为与微观结构演变。",
+          "method": "采用AFSD工艺制备试样，进行高温拉伸测试及微观表征。",
+          "result": "揭示了梯度微观结构对高温拉伸性能的影响及变形机制。",
+          "validation": "通过实验拉伸数据和微观组织分析验证结果。"
+        },
+        "summary_en": {
+          "motivation": "This study aims to characterize the elevated-temperature tensile behavior and microstructural evolution of additively manufactured Ti-6Al-4V via additive friction stir deposition.",
+          "method": "Specimens were prepared by AFSD and subjected to tensile tests at elevated temperatures with microstructural characterization.",
+          "result": "The influence of gradient microstructure on high-temperature tensile properties and deformation mechanisms was revealed.",
+          "validation": "Experimental tensile data and microstructural analysis were used to validate the findings."
+        },
+        "key_terms": [
+          {
+            "en": "additive friction stir deposition",
+            "zh": "搅拌摩擦沉积增材制造"
+          },
+          {
+            "en": "elevated-temperature tensile",
+            "zh": "高温拉伸"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "gradient microstructure",
+            "zh": "梯度微观结构"
+          },
+          {
+            "en": "deformation mechanisms",
+            "zh": "变形机制"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-13T08:01:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7164156970",
+      "doi": "10.1088/1742-6596/3256/1/012028",
+      "title": "Lightweight design of aircraft front wheel fork additive manufacturing based on topology optimization and honeycomb structure",
+      "abstract": "Abstract Metal Additive Manufacturing (MAM) can realize topology optimization and integrated material-structure-function manufacturing of aerospace components, which can significantly improve the performance and promote the innovation of design paradigms. In this paper, taking the front fork of a certain helicopter as an object, for the problem of low material utilization of traditional CNC milling (CNC), combined with topology optimization and honeycomb cellular structure x structural design, based on the selective laser melting process of Ti-6Al-4V (ELI) material, a prototype of a lightweight front fork structure is proposed, and the topology optimization and multi-curvature honeycomb integration in the scaled design domain are completed with the help of Altair Solid Thinking Inspire® software. Altair Solid Thinking Inspire® software served as the tool for implementing the integrated design of topology optimization and multi-curvature honeycomb structures within a scaled design domain. Finite element analysis (FEA) was performed to assess the mechanical properties of the optimized structure under typical loads, with component manufacturability analyzed in parallel to this evaluation. Test findings show that the optimized titanium alloy structure reduces weight by roughly 25% compared to the original aluminum alloy CNC-machined component, while still fully meeting the specified strength requirements. This study offers practical insights for combining advanced design methods with additive manufacturing technologies, laying a foundation for achieving weight reduction and performance optimization of aerospace components.",
+      "authors": [
+        "Longhai Wang",
+        "Na Tan",
+        "Haolan Wang",
+        "Jie Yang",
+        "Jiajun Jian"
+      ],
+      "first_author_affiliation": "Chongqing Jiaotong University",
+      "corresponding_authors": [],
+      "venue": "Journal of Physics Conference Series",
+      "year": 2026,
+      "date": "2026-06-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1088/1742-6596/3256/1/012028",
+      "cited_by_count": 0,
+      "concepts": [
+        "Topology optimization",
+        "Aerospace",
+        "Design for manufacturability",
+        "Honeycomb",
+        "Process (computing)",
+        "Topology (electrical circuits)",
+        "Mechanical engineering",
+        "Honeycomb structure",
+        "Finite element method",
+        "Computer science",
+        "Engineering design process",
+        "Domain (mathematical analysis)",
+        "Integrated design",
+        "Design process",
+        "Engineering",
+        "Reduction (mathematics)",
+        "Selective laser melting",
+        "Component (thermodynamics)",
+        "Network topology",
+        "Structural engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "selective laser melting"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V增材制造及拓扑优化，但未提供基础力学或疲劳性能数据，与方向核心（力学与疲劳表征）关联较弱。",
+        "why_not_core": "This paper is a structural design case study for an aircraft part, not a fundamental mechanical or fatigue characterization of AM Ti-6Al-4V; it reports no tensile, fatigue, or anisotropy data.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "topology optimization",
+          "honeycomb structure",
+          "lightweight design",
+          "aircraft front fork",
+          "selective laser melting",
+          "Ti-6Al-4V ELI",
+          "finite element analysis"
+        ],
+        "summary_zh": {
+          "motivation": "为直升机前叉轻量化设计，提高材料利用率。",
+          "method": "结合拓扑优化与蜂窝结构，在Altair软件中完成一体化设计并通过有限元分析验证。",
+          "result": "优化后钛合金结构重量减少约25%，满足强度要求。",
+          "validation": "有限元仿真分析评估力学性能。"
+        },
+        "summary_en": {
+          "motivation": "To achieve weight reduction of a helicopter front fork by improving material utilization through additive manufacturing and advanced design methods.",
+          "method": "Topology optimization and honeycomb cellular structure were integrated in a scaled design domain using Altair Solid Thinking Inspire software, followed by finite element analysis of mechanical performance.",
+          "result": "The optimized Ti-6Al-4V ELI structure achieved approximately 25% weight reduction compared to the original aluminum alloy CNC-machined part while meeting all strength requirements.",
+          "validation": "Finite element simulation was used to evaluate mechanical properties under typical loads."
+        },
+        "key_terms": [
+          {
+            "en": "topology optimization",
+            "zh": "拓扑优化"
+          },
+          {
+            "en": "honeycomb structure",
+            "zh": "蜂窝结构"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "Ti-6Al-4V ELI",
+            "zh": "Ti-6Al-4V ELI"
+          },
+          {
+            "en": "lightweight design",
+            "zh": "轻量化设计"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "aircraft front fork",
+            "zh": "飞机前叉"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-13T08:01:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7164207387",
+      "doi": "10.3126/jiee.v9i1.90526",
+      "title": "Analytical and FEA-based evaluation of natural frequencies of aircraft power turbine blades for resonance zone identification and comparative material suitability assessment",
+      "abstract": "Natural frequencies strongly influence the vibration response of aircraft power turbine blades operating at high rotational speeds and elevated temperatures. Resonance under such conditions can lead to excessive vibration, fatigue damage, and blade failure. In this study, the natural frequencies of a power turbine blade are evaluated using an analytical beam-based approach that includes centrifugal stiffening and temperature-dependent material properties. The analytical results are validated through finite element modal analysis. Three materials Titanium Alloys- Ti6Al4V, Inconel-738, and CM-247 LC are examined at an operating temperature of 850 °C and rotational speeds up to 32,000 rpm. The comparison shows good agreement between analytical and numerical results. The study highlights the influence of material stiffness degradation at high temperature and demonstrates that CM-247 LC offers the most stable vibrational performance under combined thermal and rotational loading.",
+      "authors": [
+        "Jivan Pokhrel",
+        "Kamal Pokharel",
+        "Rajiv Kumar Khadka"
+      ],
+      "first_author_affiliation": "Department of Automobile and Mechanical Engineering, Thapathali Campus, Institute of Engineering,Tribhuvan University, Thapathali, Kathmandu, Nepal",
+      "corresponding_authors": [],
+      "venue": "Journal of Innovations in Engineering Education",
+      "year": 2026,
+      "date": "2026-06-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.3126/jiee.v9i1.90526",
+      "cited_by_count": 0,
+      "concepts": [
+        "Vibration",
+        "Modal analysis",
+        "Finite element method",
+        "Blade (archaeology)",
+        "Turbine blade",
+        "Stiffness",
+        "Rotational speed",
+        "Stiffening",
+        "Natural frequency",
+        "Turbine",
+        "Structural engineering",
+        "Power (physics)",
+        "Resonance (particle physics)",
+        "Modal",
+        "Thermal",
+        "Engineering",
+        "Mechanical engineering",
+        "Materials science",
+        "Modal testing",
+        "Material properties"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要研究涡轮叶片的固有频率，不涉及增材制造钛合金的力学或疲劳性能。",
+        "why_not_core": "The paper does not concern additively manufactured Ti-6Al-4V; it analyzes turbine blade vibration using conventional materials and does not involve additive manufacturing processes.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [],
+        "summary_zh": {
+          "motivation": "评估涡轮叶片在高速高温下的共振风险，避免疲劳失效。",
+          "method": "采用梁理论解析模型和有限元法计算叶片固有频率。",
+          "result": "比较了Ti6Al4V、Inconel-738和CM-247 LC三种材料的振动性能，CM-247 LC最稳定。",
+          "validation": "通过有限元分析验证解析模型结果。"
+        },
+        "summary_en": {
+          "motivation": "Natural frequencies of aircraft power turbine blades are evaluated to identify resonance zones and prevent fatigue failure under high-speed and high-temperature operation.",
+          "method": "An analytical beam model incorporating centrifugal stiffening and temperature-dependent properties is used, validated by finite element modal analysis.",
+          "result": "Among Ti6Al4V, Inconel-738, and CM-247 LC, CM-247 LC exhibits the most stable vibrational performance at 850°C and up to 32,000 rpm.",
+          "validation": "Analytical natural frequencies are validated against finite element results."
+        },
+        "key_terms": [
+          {
+            "en": "natural frequencies",
+            "zh": "固有频率"
+          },
+          {
+            "en": "turbine blade",
+            "zh": "涡轮叶片"
+          },
+          {
+            "en": "resonance",
+            "zh": "共振"
+          },
+          {
+            "en": "centrifugal stiffening",
+            "zh": "离心刚化"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "Inconel 738",
+            "zh": "Inconel-738镍基合金"
+          },
+          {
+            "en": "CM-247 LC",
+            "zh": "CM-247 LC镍基合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-13T08:01:44Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7164153847",
+      "doi": "10.1016/j.powtec.2026.122809",
+      "title": "Sustainable upcycling of Ti-6Al-4V machining chips into low-oxygen powder: Synergistic surface purification and phase-transformation kinetics",
+      "abstract": "",
+      "authors": [
+        "Hao Yu",
+        "Xinqi Ning",
+        "Rui Liu",
+        "Yajun Han",
+        "Zhanglai Pan",
+        "Ce Zhang",
+        "Xin Lu"
+      ],
+      "first_author_affiliation": "Institute of Engineering Technology, National Engineering Research Center for Advanced Rolling Technology, National Engineering Research Center for Flat Rolling Equipment, University of Science and Technology Beijing, Beijing 100083, China",
+      "corresponding_authors": [
+        {
+          "name": "Hao Yu",
+          "affiliation": "Institute of Engineering Technology, National Engineering Research Center for Advanced Rolling Technology, National Engineering Research Center for Flat Rolling Equipment, University of Science and Technology Beijing, Beijing 100083, China"
+        },
+        {
+          "name": "Ce Zhang",
+          "affiliation": "China State Key Laboratory of Powder Metallurgy, Central South University, Changsha 410083, China"
+        },
+        {
+          "name": "Xin Lu",
+          "affiliation": "Institute of Engineering Technology, National Engineering Research Center for Advanced Rolling Technology, National Engineering Research Center for Flat Rolling Equipment, University of Science and Technology Beijing, Beijing 100083, China"
+        }
+      ],
+      "venue": "Powder Technology",
+      "year": 2026,
+      "date": "2026-06-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.powtec.2026.122809",
+      "cited_by_count": 0,
+      "concepts": [
+        "Kinetics",
+        "Machining",
+        "Materials science",
+        "Chemical engineering",
+        "Response surface methodology",
+        "Metallurgy",
+        "Surface (topology)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文关注Ti-6Al-4V切屑回收制粉，而非AM部件的后处理，与用户方向无关。",
+        "why_not_core": "No post-processing of AM Ti-6Al-4V; focuses on recycling machining chips into powder, not on heat treatment, surface modification, or fatigue/mechanical performance of AM parts.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "recycling",
+          "powder production",
+          "machining chips"
+        ],
+        "summary_zh": {
+          "motivation": "提出Ti-6Al-4V切屑回收制粉方法",
+          "method": "表面净化与相变动力学协同",
+          "result": "获得低氧含量粉末",
+          "validation": "材料表征"
+        },
+        "summary_en": {
+          "motivation": "To develop a sustainable method for upcycling Ti-6Al-4V machining chips into low-oxygen powder.",
+          "method": "Synergistic surface purification and phase-transformation kinetics.",
+          "result": "Low-oxygen powder suitable for AM feedstock is produced.",
+          "validation": "Material characterization including XRD, SEM, and oxygen analysis."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "machining chips",
+            "zh": "切屑"
+          },
+          {
+            "en": "upcycling",
+            "zh": "升级回收"
+          },
+          {
+            "en": "powder metallurgy",
+            "zh": "粉末冶金"
+          },
+          {
+            "en": "surface purification",
+            "zh": "表面净化"
+          },
+          {
+            "en": "phase transformation",
+            "zh": "相变"
+          },
+          {
+            "en": "oxygen content",
+            "zh": "氧含量"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-13T08:01:44Z"
     }
   ],
   "counts": {
-    "fetched_total": 10,
+    "fetched_total": 15,
     "by_source": {
-      "openalex": 10
+      "openalex": 15
     },
-    "after_dedup": 10,
-    "after_routing": 10,
+    "after_dedup": 15,
+    "after_routing": 15,
     "by_direction": {
-      "ti6al4v_postprocess": 1,
-      "ti6al4v_base_mechanical_fatigue": 9
+      "ti6al4v_postprocess": 3,
+      "ti6al4v_base_mechanical_fatigue": 12
     },
     "routed_by_source": {
-      "openalex": 10
+      "openalex": 15
     },
-    "scored": 10,
+    "scored": 15,
     "priority_counts": {
-      "Medium": 2,
-      "High": 3,
-      "Low": 1,
-      "Exclude": 4
+      "Medium": 3,
+      "High": 4,
+      "Low": 2,
+      "Exclude": 6
     }
   }
 }
