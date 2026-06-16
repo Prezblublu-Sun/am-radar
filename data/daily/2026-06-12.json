@@ -1,0 +1,143 @@
+{
+  "schema_version": "v2",
+  "date": "2026-06-12",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7164507428",
+      "doi": "10.3390/jfb17060292",
+      "title": "Exploiting Adiabatic Softening for Defect-Free Hot Forging of Ti-6Al-4V Femoral Stems",
+      "abstract": "Hot forging of Ti-6Al-4V is extensively utilized in the manufacture of orthopedic implants; however, the coupled influence of strain rate and temperature on ductile damage evolution during the forging of femoral stems remains insufficiently quantified. In this study, a finite element framework is developed to analyze and optimize the hot forging process, incorporating strain rate- and temperature-dependent plasticity, as well as the Johnson–Cook damage criterion. Mesh convergence is established, and the assumption of quasi-adiabatic conditions is substantiated via Péclet number analysis. A full factorial design is implemented by varying the ram velocity (0.1–0.5 m/s) and initial billet temperature (850–950 °C) to evaluate the forging load, stress triaxiality, equivalent plastic strain, and damage accumulation. Results indicate that process kinetics govern the mechanical response: increasing the ram velocity enhances strain-rate hardening, resulting in higher peak loads, while explicitly reducing stress triaxiality and suppressing ductile damage evolution. Conversely, temperature exhibits a secondary influence within the investigated domain. Validation of the damage criterion confirms safe operating windows, identifying low-velocity forging as a high-risk condition for localized defect formation. These findings provide practical guidelines for the strain-rate-based optimization of thermomechanical processing parameters for Ti-6Al-4V femoral stems.",
+      "authors": [
+        "Víctor Tuninetti",
+        "Josué Castro",
+        "Rodrigo Valle",
+        "César Garrido",
+        "Ángelo Oñate"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, Universidad de La Frontera, Temuco 4811230, Chile",
+      "corresponding_authors": [],
+      "venue": "Journal of Functional Biomaterials",
+      "year": 2026,
+      "date": "2026-06-12",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/jfb17060292",
+      "cited_by_count": 0,
+      "concepts": [
+        "Forging",
+        "Materials science",
+        "Softening",
+        "Adiabatic process",
+        "Finite element method",
+        "Composite material",
+        "Stress (linguistics)",
+        "Strain rate",
+        "Effective stress",
+        "Strain (injury)",
+        "Process (computing)",
+        "Stress–strain curve",
+        "Fractional factorial design",
+        "Fibre-reinforced plastic"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "defect"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V热锻造，而非增材制造，因此与用户研究方向无关。",
+        "why_not_core": "This paper concerns conventional hot forging of Ti-6Al-4V femoral stems, not additive manufacturing (LPBF/SLM/EBM/DED) of Ti-6Al-4V, so it does not meet the directional requirement for L1.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "hot forging",
+          "femoral stem",
+          "finite element",
+          "Johnson-Cook damage"
+        ],
+        "summary_zh": {
+          "motivation": "研究热锻过程中应变率和温度对Ti-6Al-4V股骨柄延性损伤的影响。",
+          "method": "建立有限元框架，结合Johnson-Cook损伤准则，全因子分析不同工艺参数。",
+          "result": "高冲压速度抑制损伤，低速度导致局部缺陷。",
+          "validation": "通过损伤准则验证确定安全工艺窗口。"
+        },
+        "summary_en": {
+          "motivation": "To quantify the coupled influence of strain rate and temperature on ductile damage evolution during hot forging of Ti-6Al-4V femoral stems.",
+          "method": "A finite element framework incorporating strain rate- and temperature-dependent plasticity and the Johnson-Cook damage criterion was developed and analyzed via full factorial design.",
+          "result": "Increasing ram velocity enhances strain-rate hardening and reduces damage, while temperature has a secondary effect.",
+          "validation": "Damage criterion validation confirmed safe operating windows."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "hot forging",
+            "zh": "热锻"
+          },
+          {
+            "en": "femoral stem",
+            "zh": "股骨柄"
+          },
+          {
+            "en": "Johnson-Cook damage",
+            "zh": "Johnson-Cook损伤"
+          },
+          {
+            "en": "strain-rate hardening",
+            "zh": "应变率强化"
+          },
+          {
+            "en": "ductile damage",
+            "zh": "延性损伤"
+          },
+          {
+            "en": "finite element",
+            "zh": "有限元"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-16T09:40:08Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}
