@@ -1,0 +1,540 @@
+{
+  "schema_version": "v2",
+  "date": "2026-06-15",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7164815339",
+      "doi": "10.1088/2053-1591/ae7d98",
+      "title": "Effect of Scan Length on the Thermal and Structural Revolution of Pure Tantalum during Selective Laser Melting: A Simulation Study",
+      "abstract": "Abstract As a refractory metal with excellent biocompatibility and high temperature resistance, the conventional fabrication of pure tantalum (Ta) is challenging, and selective laser melting (SLM) has emerged as a promising alternative. In this study, the effect of scan length (2-10 mm) on Ta thin-walled components is investigated by means of a three-dimensional thermal-structural coupled finite element model incorporating a simplified Gaussian heat source and temperature-dependent material properties. The results validated with existing literature indicate that, owing to its high thermal conductivity, tantalum exhibits a near-circular molten pool with an aspect ratio of only approximately 1.29 during the SLM process, which is unlike other alloys such as Ti6Al4V which form teardrop-shaped molten pools. As the scan length increases, the secondary peak temperatures at various positions decrease monotonically while remaining below the melting point (3290 K). Short scan lengths (2-6 mm) effectively alleviate compressive stress in the Y and Z directions, whereas long scan lengths (&gt;6 mm) reduce tensile stress. As the scan length decreases from 6 mm to 2 mm, the compressive stresses at Node 2 in the Y- and Z-directions decrease from 350 MPa to 284 MPa and from 885 MPa to 209 MPa, respectively. Compared with the case of a 2 mm scan length, the tensile stresses at Node 2 in all three directions each decrease with the longer scan lengths of 6-10 mm by more than 40 MPa. Overall, an optimal scan length of 6 mm was found. This study provides data support for optimizing the SLM process parameters of pure tantalum thin-walled components. It is recommended that a segmented scanning strategy be adopted in practical production to control the scan length.",
+      "authors": [
+        "Kaifei Zhang",
+        "Tao Zhou",
+        "L M Liu",
+        "Shuai Ma",
+        "Kanglai Tang"
+      ],
+      "first_author_affiliation": "The First Affiliated Hospital of Army Medical University",
+      "corresponding_authors": [],
+      "venue": "Materials Research Express",
+      "year": 2026,
+      "date": "2026-06-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1088/2053-1591/ae7d98",
+      "cited_by_count": 0,
+      "concepts": [
+        "Tantalum",
+        "Materials science",
+        "Selective laser melting",
+        "Ultimate tensile strength",
+        "Refractory metals",
+        "Composite material",
+        "Laser",
+        "Horizontal scan rate",
+        "Melting point",
+        "Thermal",
+        "Fabrication",
+        "Finite element method",
+        "Compressive strength",
+        "Stress (linguistics)",
+        "Niobium",
+        "Residual stress",
+        "Tungsten"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "selective laser melting",
+          "SLM"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究对象为纯钽，而非Ti-6Al-4V，与用户关注点无关。",
+        "why_not_core": "The paper studies pure tantalum, not Ti-6Al-4V, and thus falls outside the specified material scope for this direction.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "pure tantalum",
+          "selective laser melting",
+          "simulation",
+          "thermal-structural analysis"
+        ],
+        "summary_zh": {
+          "motivation": "纯钽难加工，SLM工艺需优化扫描长度。",
+          "method": "建立三维热-结构耦合有限元模型模拟不同扫描长度。",
+          "result": "发现6 mm为最优扫描长度，短扫描长度缓解压应力。",
+          "validation": "通过与文献数据对比验证模型。"
+        },
+        "summary_en": {
+          "motivation": "The difficulty in fabricating pure tantalum components motivates the optimization of SLM process parameters such as scan length.",
+          "method": "A three-dimensional thermal-structural coupled finite element model with a Gaussian heat source and temperature-dependent properties was developed to simulate scan lengths from 2 to 10 mm.",
+          "result": "An optimal scan length of 6 mm was identified; short scan lengths (2-6 mm) reduce compressive stresses while long scan lengths (>6 mm) decrease tensile stresses.",
+          "validation": "The simulation results were validated against existing literature data for molten pool geometry and stress trends."
+        },
+        "key_terms": [
+          {
+            "en": "pure tantalum",
+            "zh": "纯钽"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "scan length",
+            "zh": "扫描长度"
+          },
+          {
+            "en": "thermal-structural coupled model",
+            "zh": "热-结构耦合模型"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "finite element simulation",
+            "zh": "有限元模拟"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-17T09:18:24Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7164853746",
+      "doi": "10.36922/msam026030001",
+      "title": "Gas versus plasma atomized powder in laser powder bed fusion of Grade 5 Ti6Al4V: Processing characteristics and mechanical properties",
+      "abstract": "Additive manufacturing (AM) of metal components by laser powder bed fusion (L-PBF) has become a viable method of manufacturing in various industries. However, new challenges are emerging, including the high cost of powder feedstock and concerns associated with its reuse. Here, L-PBF was performed with two commercial sources of Grade 5 Ti6Al4V, including commercial plasma-atomized (PA) and gas-atomized (GA) powders. The overall objective was to evaluate differences in the quality, spatial variations in mechanical properties of metal produced with the PA and GA powders over a series of six builds, and to assess if GA powder could be used to replace PA powder for cost savings. The mechanical properties were characterized in uniaxial tension considering powder type, reuse and location within the build envelope. Results showed that the yield and ultimate tensile strength of metal produced with GA powder were significantly lower than that produced with PA powder (p &amp;le; 0.05). In addition, spatial variation in the mechanical properties was greatest for the GA powder. The lower strength and greater spatial variation in printing with GA powder appears related to the larger quantity of fines and powder particle satellites, which promote porosity. Overall, the findings indicate that components built with GA powder would: (i) require separate optimization of the printing parameters relative to those used for PA powder, and/or (ii) require additional post-processing to achieve the same performance as those built with PA powder.",
+      "authors": [
+        "Jordan Hatch",
+        "Alex Hicker",
+        "Chris Liu",
+        "A. Montelione",
+        "Reid Schur",
+        "Cory Cunningham",
+        "M. Ramulu",
+        "Dwayne Arola"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Dwayne Arola",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Materials Science in Additive Manufacturing",
+      "year": 2026,
+      "date": "2026-06-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.36922/msam026030001",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Raw material",
+        "Fusion",
+        "Metal powder",
+        "Ultimate tensile strength",
+        "Powder metallurgy",
+        "Composite material",
+        "Particle size",
+        "Selective laser melting",
+        "Laser",
+        "Metallurgy",
+        "Tension (geology)",
+        "Reuse",
+        "Powder mixture",
+        "Selective laser sintering",
+        "Porosity",
+        "Yield (engineering)",
+        "Particle (ecology)",
+        "Metal",
+        "Material properties",
+        "Inertial confinement fusion"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "tensile strength",
+          "ultimate tensile strength",
+          "porosity"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "post-processing"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文未涉及任何后处理工艺，仅比较不同粉末的Ti-6Al-4V增材制造态性能，与后处理控制方向无关。",
+        "why_not_core": "Does not study any post-processing treatment; compares as-built properties of different powders only.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": true,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "gas atomized powder",
+          "plasma atomized powder",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "评估气体雾化和等离子雾化Ti6Al4V粉末在激光粉末床熔融中的性能差异，探索成本节约可能性。",
+          "method": "分别使用气体雾化和等离子雾化粉末进行六次构建，测试拉伸性能并分析空间变异性。",
+          "result": "气体雾化粉末制件强度显著低于等离子雾化，且空间变异性更大，归因于细粉和卫星颗粒导致的孔隙。",
+          "validation": "通过单轴拉伸实验验证力学性能差异，并进行统计分析。"
+        },
+        "summary_en": {
+          "motivation": "To evaluate differences in print quality and mechanical properties between gas-atomized and plasma-atomized Ti6Al4V powders in L-PBF, aiming to assess potential cost savings by replacing PA powder with GA powder.",
+          "method": "L-PBF was performed with commercial PA and GA powders over six builds; uniaxial tensile tests were conducted to characterize mechanical properties considering powder type, reuse, and location within the build envelope.",
+          "result": "GA powder resulted in significantly lower yield and ultimate tensile strength compared to PA powder, with greater spatial variation attributed to increased fines and particle satellites promoting porosity.",
+          "validation": "Mechanical properties were validated through uniaxial tension testing with statistical significance testing (p ≤ 0.05)."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "gas atomized powder",
+            "zh": "气体雾化粉末"
+          },
+          {
+            "en": "plasma atomized powder",
+            "zh": "等离子雾化粉末"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "拉伸强度"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-17T09:18:24Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7164862451",
+      "doi": "10.1007/s00170-026-18465-z",
+      "title": "Surface roughness prediction in dry turning of Ti-6Al-4V: benchmarking six machine learning algorithms under cutting force integration with a Lichtenberg-optimised ELM",
+      "abstract": "Abstract This study presents a systematic comparison of six machine learning algorithms for surface roughness ( $$\\varvec{Ra}$$ ) prediction in dry turning of Ti-6Al-4V across two nose radii ( $$\\varvec{r}_{\\varvec{\\varepsilon }} \\varvec{= 0.4}$$ mm and $$\\varvec{r}_{\\varvec{\\varepsilon }} \\varvec{= 0.8}$$ mm) using a central composite design with 38 experiments. The algorithms evaluated are Support Vector Regression, Random Forest, XGBoost, Gaussian Process Regression, Extreme Learning Machine, and a Lichtenberg-Optimised ELM in which the Lichtenberg Algorithm replaces random weight initialisation with a structured fractal search. All models are trained on $$\\varvec{\\log (Ra)}$$ and validated by leave-one-out cross-validation under two feature configurations: process parameters only and process parameters augmented with cutting force measurements. GPR achieves the highest accuracy ( $$\\varvec{R}^{\\varvec{2}} \\varvec{= 0.922}$$ ); under the present conditions, process parameters alone prove sufficient — force signals degrade four of six models due to collinearity with feed rate, confirmed by variance inflation factors exceeding 10 for $$\\varvec{\\bar{F}}_{\\varvec{f}}$$ and $$\\varvec{\\bar{F}}_{\\varvec{p}}$$ . A polynomial regression baseline reaches $$\\varvec{R}^{\\varvec{2}} \\varvec{= 0.920}$$ , matching GPR; ML advantages lie in uncertainty quantification, localised nonlinearity capture, and robustness to broader conditions. LA-ELM records the largest force-induced gain ( $$\\varvec{\\Delta R}^{\\varvec{2}} \\varvec{= +0.074}$$ ), reaching $$\\varvec{R}^{\\varvec{2}} \\varvec{= 0.895}$$ and surpassing Random Forest and XGBoost. Results confirm that the Lichtenberg Algorithm is an effective weight optimisation strategy for ELM in small-dataset manufacturing regression.",
+      "authors": [
+        "Francielle Da Silva Leandro",
+        "Alex Fernandes de Souza",
+        "Paulo Henrique da Silva Campos",
+        "Filipe Alves Neto Verri",
+        "Pedro Paulo Balestrassi"
+      ],
+      "first_author_affiliation": "Institute of Industrial Engineering and Management, Federal University of Itajubá, Itajubá, Brazil",
+      "corresponding_authors": [
+        {
+          "name": "Francielle Da Silva Leandro",
+          "affiliation": "Institute of Industrial Engineering and Management, Federal University of Itajubá, Itajubá, Brazil"
+        },
+        {
+          "name": "Paulo Henrique da Silva Campos",
+          "affiliation": "Institute of Industrial Engineering and Management, Federal University of Itajubá, Itajubá, Brazil"
+        },
+        {
+          "name": "Pedro Paulo Balestrassi",
+          "affiliation": "Institute of Industrial Engineering and Management, Federal University of Itajubá, Itajubá, Brazil"
+        }
+      ],
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "year": 2026,
+      "date": "2026-06-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s00170-026-18465-z",
+      "cited_by_count": 0,
+      "concepts": [
+        "Algorithm",
+        "Random forest",
+        "Extreme learning machine",
+        "Artificial intelligence",
+        "Machine learning",
+        "Engineering",
+        "Surface roughness",
+        "Support vector machine",
+        "Robustness (evolution)",
+        "Gaussian process",
+        "Kriging",
+        "Polynomial regression",
+        "Computer science",
+        "Polynomial"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究车削加工中的表面粗糙度预测，而非增材制造Ti-6Al-4V的力学性能。",
+        "why_not_core": "The paper focuses on conventional machining (dry turning) and surface roughness prediction using ML, not on additively manufactured Ti-6Al-4V mechanical or fatigue properties.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "conventional machining",
+          "surface roughness",
+          "machine learning",
+          "Ti-6Al-4V",
+          "turning"
+        ],
+        "summary_zh": {
+          "motivation": "比较机器学习算法在干燥车削Ti-6Al-4V中预测表面粗糙度的性能。",
+          "method": "使用六种ML算法，包括Lichtenberg优化ELM，基于工艺参数和切削力进行预测。",
+          "result": "高斯过程回归以R²=0.922最高，工艺参数足够，切削力因共线性降低性能。",
+          "validation": "通过留一交叉验证和中心复合设计实验数据进行验证。"
+        },
+        "summary_en": {
+          "motivation": "A systematic comparison of six machine learning algorithms for predicting surface roughness in dry turning of Ti-6Al-4V was performed.",
+          "method": "Support Vector Regression, Random Forest, XGBoost, Gaussian Process Regression, Extreme Learning Machine, and a Lichtenberg-optimised ELM were trained using log(Ra) with two feature sets (process parameters only and with cutting force).",
+          "result": "GPR achieved the highest accuracy (R²=0.922) and process parameters alone were sufficient; cutting force degraded model performance due to collinearity with feed rate.",
+          "validation": "Models were validated by leave-one-out cross-validation on 38 experiments from a central composite design."
+        },
+        "key_terms": [
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "dry turning",
+            "zh": "干式车削"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "machine learning",
+            "zh": "机器学习"
+          },
+          {
+            "en": "Gaussian Process Regression",
+            "zh": "高斯过程回归"
+          },
+          {
+            "en": "Lichtenberg algorithm",
+            "zh": "利希滕贝格算法"
+          },
+          {
+            "en": "extreme learning machine",
+            "zh": "极限学习机"
+          },
+          {
+            "en": "cutting force",
+            "zh": "切削力"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-17T09:18:24Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7164813947",
+      "doi": "10.17212/1994-6309-2026-28.2-157-178",
+      "title": "Computer simulation and process engineering for machining thin-walled titanium hemispheres as part of a hybrid robotic module",
+      "abstract": "Introduction. In aerospace engineering, thin-walled titanium spherical pressure vessels for high-pressure helium storage are manufactured by welding two precision-machined hemispheres. The geometric accuracy of the spherical surfaces and weld edge preparation determine leak tightness and service life under operating pressures up to 34 MPa and temperatures down to −196 °C. Due to their low stiffness, thin-walled hemispheres make machining critically dependent on locating charts, clamping forces, and cutting conditions. In the context of Industry 4.0 and the growing demand for hybrid equipment that integrates mechanical and surface-thermal operations, the development of modular robotic cells providing multifunctional machining with fewer re-clamping operations and increased flexibility has become highly relevant. However, existing design methodologies often fail to account for the multitasking nature, the complexity of preliminary studies, and the requirements for modularity and flexibility. The purpose of this work is to develop a machining process for thin-walled titanium hemispheres of spherical pressure vessels using computer simulation that ensures compliance with spherical surface accuracy and weld edge preparation requirements, and to improve machining efficiency by minimizing deformation risk, reducing the number of re clamping operations, and shortening process planning time when integrating the process into a modular robotic cell. Methods. Design and manufacturing requirements for the hemispheres were analyzed; cutting conditions were calculated taking into account the specific features of the titanium alloy Ti-6Al-4V machining; equipment was selected through a comparative assessment based on production efficiency criteria; and the proposed process was verified in the SprutCAM computer-aided process planning (CAPP) system, considering equipment kinematics. Results and Discussion. Surface finish and accuracy requirements were established: Ra 0.8 µm for the inner spherical surface and Ra 3.2 µm for the outer spherical surface. A process route sheet was developed to minimize re-clamping operations and reduce the risk of thin-walled shell deformation. Based on production efficiency criteria, the DN Solutions PUMA VTS 1214M vertical turn-mill center was selected, enabling combined turning and milling operations in a single setup, consistent with integral machining on a CNC lathe platform. A locating chart using a special ring-type axial clamping fixture was developed and visualized. Machining simulation confirmed the feasibility of the process route, correct setup planning, and the absence of tool–workpiece–fixture collisions, and indicated the potential for rapid process implementation. Conclusions. The results contribute to the development of theoretical foundations and conceptual approaches for designing hybrid machine tools that integrate mechanical and surface-thermal processing operations.",
+      "authors": [
+        "A. D. Zhargalova",
+        "V Yu Skeeba",
+        "Gleb Drach",
+        "Alexey MOROZOV",
+        "Kristina Titova",
+        "Semyon Papko",
+        "Ivan Yulusov"
+      ],
+      "first_author_affiliation": "Bauman Moscow State Technical University, Russian Federation",
+      "corresponding_authors": [],
+      "venue": "Metal Working and Material Science",
+      "year": 2026,
+      "date": "2026-06-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.17212/1994-6309-2026-28.2-157-178",
+      "cited_by_count": 0,
+      "concepts": [
+        "Machining",
+        "Clamping",
+        "Modular design",
+        "Mechanical engineering",
+        "Process (computing)",
+        "Context (archaeology)",
+        "Welding",
+        "Surface integrity",
+        "Aerospace",
+        "Engineering",
+        "Robot",
+        "Automation",
+        "Enhanced Data Rates for GSM Evolution",
+        "Flexibility (engineering)",
+        "Computer science",
+        "Numerical control",
+        "Machine tool",
+        "Surface roughness",
+        "Engineering drawing",
+        "Drill",
+        "Robot welding",
+        "Abrasive"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V半球机械加工，但无增材制造或后处理对疲劳性能的影响，与研究方向无关。",
+        "why_not_core": "The paper is about conventional machining of thin-walled titanium hemispheres, not about additive manufacturing or post-processing treatments (heat treatment, HIP, surface treatments) that modify fatigue/mechanical performance of AM Ti-6Al-4V.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "machining",
+          "thin-walled hemispheres",
+          "process planning",
+          "computer simulation"
+        ],
+        "summary_zh": {
+          "motivation": "提高薄壁钛合金半球加工精度与效率",
+          "method": "利用SprutCAM模拟加工过程并优化装夹方案",
+          "result": "验证了工艺路线与无碰撞可行性",
+          "validation": "仅有计算机仿真验证，无实验数据"
+        },
+        "summary_en": {
+          "motivation": "To enhance machining accuracy and efficiency of thin-walled titanium hemispheres by developing a process plan.",
+          "method": "Computer simulation in SprutCAM for process planning, fixture design, and collision detection.",
+          "result": "The proposed process route was verified feasible with no collisions.",
+          "validation": "Validation was limited to computer simulation without experimental confirmation."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "thin-walled hemispheres",
+            "zh": "薄壁半球壳"
+          },
+          {
+            "en": "machining simulation",
+            "zh": "加工仿真"
+          },
+          {
+            "en": "computer-aided process planning",
+            "zh": "计算机辅助工艺规划"
+          },
+          {
+            "en": "turn-mill center",
+            "zh": "车铣复合加工中心"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-17T09:18:24Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 4,
+    "by_source": {
+      "openalex": 4
+    },
+    "after_dedup": 4,
+    "after_routing": 4,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 2,
+      "ti6al4v_postprocess": 2
+    },
+    "routed_by_source": {
+      "openalex": 4
+    },
+    "scored": 4,
+    "priority_counts": {
+      "Exclude": 3,
+      "Low": 1
+    }
+  }
+}

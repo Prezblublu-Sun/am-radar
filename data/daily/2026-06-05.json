@@ -114,24 +114,133 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-06-09T08:08:01Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7164981392",
+      "doi": "",
+      "title": "Investigating synergistic effects of process-induced defects and α phase substructures on the mechanical response of additively manufactured Ti-6Al-4V alloy via an integrated numerical framework",
+      "abstract": "",
+      "authors": [
+        "Hanqing Liu",
+        "Fabien Briffod",
+        "Takayuki Shiraiwa"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [],
+      "venue": "Institutional Repositories DataBase (IRDB)",
+      "year": 2026,
+      "date": "2026-06-05",
+      "date_precision": "day",
+      "url": "https://openalex.org/W7164981392",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Alloy",
+        "Phase (matter)",
+        "Composite material",
+        "Work (physics)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文直接针对增材制造Ti-6Al-4V的力学性能，通过数值框架研究缺陷与α相亚结构的协同效应，与用户关注的力学与疲劳性能高度相关。",
+        "why_not_core": "摘要缺失，无法确认是否包含实验验证或具体力学性能数据，仅基于标题判断为数值研究。",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "numerical framework",
+          "defects",
+          "alpha phase substructures",
+          "mechanical response"
+        ],
+        "summary_zh": {
+          "motivation": "研究增材制造Ti-6Al-4V中工艺诱导缺陷与α相亚结构的协同效应对力学性能的影响。",
+          "method": "采用集成数值框架模拟缺陷与微观结构对力学响应的耦合作用。",
+          "result": "揭示了缺陷类型与α相亚结构共同决定材料的塑性变形与强度。",
+          "validation": "未提供明确的实验或基准验证，依赖数值模拟结果。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the synergistic effects of process-induced defects and α phase substructures on the mechanical response of additively manufactured Ti-6Al-4V alloy.",
+          "method": "An integrated numerical framework was developed to simulate the coupled influence of defects and microstructure on mechanical behavior.",
+          "result": "The framework revealed that the interaction between defect morphology and α lath substructure governs plasticity and strength.",
+          "validation": "No explicit experimental or benchmark validation is provided; the study relies on numerical simulation outcomes."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "process-induced defects",
+            "zh": "工艺诱导缺陷"
+          },
+          {
+            "en": "α phase substructures",
+            "zh": "α相亚结构"
+          },
+          {
+            "en": "numerical framework",
+            "zh": "数值框架"
+          },
+          {
+            "en": "mechanical response",
+            "zh": "力学响应"
+          },
+          {
+            "en": "synergistic effects",
+            "zh": "协同效应"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-17T09:18:24Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Medium": 1
+      "Medium": 2
     }
   }
 }
