@@ -1,0 +1,134 @@
+{
+  "schema_version": "v2",
+  "date": "2026-06-14",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7164758020",
+      "doi": "10.1016/j.ijfatigue.2026.109801",
+      "title": "Fatigue life of TI-6AL-4V hip implants under various load cases",
+      "abstract": "",
+      "authors": [
+        "Simon Sedmak",
+        "Katarina Čolić",
+        "Filip Vučetić",
+        "Aleksa Milovanović",
+        "Željko Božić"
+      ],
+      "first_author_affiliation": "Innovation Center of Faculty of Mechanical Engineering, Belgrade, Serbia",
+      "corresponding_authors": [
+        {
+          "name": "Simon Sedmak",
+          "affiliation": "Innovation Center of Faculty of Mechanical Engineering, Belgrade, Serbia"
+        }
+      ],
+      "venue": "International Journal of Fatigue",
+      "year": 2026,
+      "date": "2026-06-14",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2026.109801",
+      "cited_by_count": 0,
+      "concepts": [
+        "Medicine",
+        "Orthodontics",
+        "Materials science",
+        "Fatigue limit"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue",
+          "fatigue life"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要关注髋关节植入物结构，而非基础力学性能，与L1方向不匹配。",
+        "why_not_core": "The paper is about hip implant structures, which falls under Layer 3 (femoral stem/implant) rather than Layer 1 (base mechanical and fatigue of Ti-6Al-4V).",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "hip implant",
+          "fatigue life",
+          "Ti-6Al-4V",
+          "load cases"
+        ],
+        "summary_zh": {
+          "motivation": "研究钛合金髋关节植入物在不同载荷下的疲劳寿命。",
+          "method": "使用有限元分析和疲劳测试评估植入物疲劳性能。",
+          "result": "不同载荷条件对疲劳寿命有显著影响。",
+          "validation": "通过实验测试验证数值模型。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the fatigue life of Ti-6Al-4V hip implants under various physiological loading conditions.",
+          "method": "Fatigue life is evaluated through finite element analysis combined with experimental fatigue testing.",
+          "result": "Different load cases significantly affect the fatigue performance of the implants.",
+          "validation": "Numerical models are validated against experimental fatigue test data."
+        },
+        "key_terms": [
+          {
+            "en": "hip implant",
+            "zh": "髋关节植入物"
+          },
+          {
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "load cases",
+            "zh": "载荷工况"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "experimental validation",
+            "zh": "实验验证"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-19T09:19:09Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}
