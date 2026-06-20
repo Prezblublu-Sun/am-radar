@@ -1,0 +1,170 @@
+{
+  "schema_version": "v2",
+  "date": "2026-06-17",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7164991233",
+      "doi": "10.1016/j.compbiomed.2026.111813",
+      "title": "A TPMS-integrated paediatric proximal femoral osteotomy implant demonstrates structural feasibility and improved load sharing: An in silico proof-of-concept study",
+      "abstract": "Additively manufactured (AM)-enabled cellular architectures with tuneable mechanical properties offer new opportunities for design optimisation in orthopaedic implants. In paediatric proximal femoral osteotomy (PFO), conventional implants provide structural integrity and fixation stability, but their high stiffness reduces load transfer to the growing bone (stress shielding). Triply periodic minimal surface (TPMS) lattices exemplify AM-enabled architectures with favourable strength-to-stiffness trade-offs. This study presents a proof-of-concept of a TPMS-integrated Ti-6Al-4V paediatric PFO implant, benchmarked against conventional designs using a patient-specific digital-twin workflow coupling neuromusculoskeletal (NMSK) simulations with finite element analysis (FEA) of bone-implant mechanics. NMSK-derived joint contact and muscle forces were applied to assess von Mises stresses (implant safety), bone-implant micromotion (implant attachment), and cortical mechanical stimulus through strain energy density and microstrain metrics (stress shielding). All implants remained below the relevant material yield-strength range and exhibited micromotion within the accepted threshold. The TPMS-integrated design increased distal cortical strain energy density by 25% relative to the solid plates and reduced the cortical volume falling below the selected microstrain-based disuse threshold. The TPMS implant also generated a more uniform strain distribution near screw interfaces. These engineering metrics suggest that the TPMS design may meet key initial mechanical performance requirements while improving implant-to-bone mechanical compatibility, motivating further fatigue characterisation, experimental validation, and multi-subject studies.",
+      "authors": [
+        "Ali Ebrahimzadeh Dehaghani",
+        "Alireza Y Bavil",
+        "Emmanuel Eghan‐Acquah",
+        "Zia Javanbakht",
+        "Martina Barzan",
+        "David G. Lloyd",
+        "Christopher P. Carty",
+        "S. Feih"
+      ],
+      "first_author_affiliation": "The Australian Centre for Precision Health and Technology (PRECISE), Griffith University, Gold Coast, Australia; School of Allied Health, Sport and Social Work, Griffith University, Australia; Advanced Design and Prototyping Technologies (ADaPT) Institute, Griffith University, Australia",
+      "corresponding_authors": [
+        {
+          "name": "S. Feih",
+          "affiliation": "The Australian Centre for Precision Health and Technology (PRECISE), Griffith University, Gold Coast, Australia; Advanced Design and Prototyping Technologies (ADaPT) Institute, Griffith University, Australia; Griffith School of Engineering and Built Environment, Griffith University, Australia. Electronic address: s.feih@griffith.edu.au"
+        }
+      ],
+      "venue": "Computers in Biology and Medicine",
+      "year": 2026,
+      "date": "2026-06-17",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.compbiomed.2026.111813",
+      "cited_by_count": 0,
+      "concepts": [
+        "Implant",
+        "Medicine",
+        "Osteotomy",
+        "In silico",
+        "Orthodontics",
+        "Dentistry",
+        "Surgery",
+        "Biomedical engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_femoral_stem",
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "TPMS",
+          "triply periodic minimal surface",
+          "stress shielding",
+          "micromotion"
+        ],
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "yield strength",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究的是儿科股骨近端截骨术的TPMS植入体设计，而非髋关节股骨柄，但同为Ti-6Al-4V增材制造和应力遮挡问题。",
+        "why_not_core": "This paper studies a paediatric proximal femoral osteotomy plate, not a femoral stem for hip arthroplasty, and lacks experimental mechanical validation.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": true,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "TPMS",
+          "paediatric proximal femoral osteotomy",
+          "stress shielding",
+          "finite element analysis",
+          "additive manufacturing",
+          "neuromusculoskeletal simulation"
+        ],
+        "summary_zh": {
+          "motivation": "探索TPMS多孔结构在儿科股骨近端截骨术植入体中的应用潜力。",
+          "method": "结合神经肌肉骨骼模型与有限元分析，对TPMS整合的Ti-6Al-4V植入体进行性能评估。",
+          "result": "TPMS设计减少了应力遮挡，提高了皮质骨应变能密度，且所有应力与微动均在安全阈值内。",
+          "validation": "仅基于患者特异性数字孪生的计算机模拟。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the potential of TPMS lattices for improving load sharing in paediatric proximal femoral osteotomy implants.",
+          "method": "A patient-specific digital-twin workflow combining neuromusculoskeletal simulations and FEA was used to evaluate a TPMS-integrated Ti-6Al-4V implant against conventional solid designs.",
+          "result": "The TPMS design increased distal cortical strain energy density by 25% and reduced the cortical volume below the disuse threshold, with all stresses and micromotions within acceptable limits.",
+          "validation": "In silico proof-of-concept only, without experimental or fatigue testing validation."
+        },
+        "key_terms": [
+          {
+            "en": "triply periodic minimal surface (TPMS)",
+            "zh": "三周期极小曲面"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金TC4"
+          },
+          {
+            "en": "paediatric proximal femoral osteotomy",
+            "zh": "儿科股骨近端截骨术"
+          },
+          {
+            "en": "stress shielding",
+            "zh": "应力遮挡"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "neuromusculoskeletal simulation",
+            "zh": "神经肌肉骨骼仿真"
+          },
+          {
+            "en": "strain energy density",
+            "zh": "应变能密度"
+          },
+          {
+            "en": "bone-implant micromotion",
+            "zh": "骨-植入体微动"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          },
+          {
+            "en": "patient-specific",
+            "zh": "患者特异性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-20T08:06:35Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_femoral_stem": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": "v2",
+  "date": "2026-06-09",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7163994400",
+      "doi": "10.1007/s40964-026-01793-7",
+      "title": "FEM-guided feedforward control based on melt pool depth for geometry-dependent thermal management in Ti-6Al-4V laser-wire DED",
+      "abstract": "",
+      "authors": [
+        "Jisu Han",
+        "Seonghun Ji",
+        "Kiwook Nam",
+        "Dongseok Kang",
+        "Jongcheon Yoon",
+        "Simo Yeon",
+        "어두림",
+        "Jaeho Shin",
+        "Hyub Lee"
+      ],
+      "first_author_affiliation": "Korea Additive Manufacturing Innovation Center, Korea Institute of Industrial Technology, Siheung, Republic of Korea",
+      "corresponding_authors": [
+        {
+          "name": "Hyub Lee",
+          "affiliation": "Korea Additive Manufacturing Innovation Center, Korea Institute of Industrial Technology, Siheung, Republic of Korea"
+        }
+      ],
+      "venue": "Progress in Additive Manufacturing",
+      "year": 2026,
+      "date": "2026-06-09",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40964-026-01793-7",
+      "cited_by_count": 0,
+      "concepts": [
+        "Feed forward",
+        "Thermal",
+        "Thermal management of electronic devices and systems",
+        "Control system",
+        "Control theory (sociology)",
+        "Control (management)",
+        "Temperature control",
+        "Materials science",
+        "Engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "DED"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文虽然关注Ti-6Al-4V的增材制造过程控制，但未涉及力学或疲劳性能，仅间接相关。",
+        "why_not_core": "The paper does not present any experimental or computational mechanical/fatigue characterization of Ti-6Al-4V; its focus is on melt pool depth control and thermal management, not on strength, ductility, fatigue life, or other mechanical properties.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser-wire DED",
+          "Ti-6Al-4V",
+          "melt pool depth control",
+          "feedforward control",
+          "FEM simulation"
+        ],
+        "summary_zh": {
+          "motivation": "为解决激光-丝材直接能量沉积过程中几何形状引起的热积累问题，提出基于熔池深度的前馈控制方法。",
+          "method": "利用有限元仿真建立熔池深度与工艺参数的关系，结合实时监测实现前馈控制。",
+          "result": "该方法能够有效减少结构不同位置的热变化，提高成形均匀性。",
+          "validation": "通过变壁厚薄壁结构的实验验证了控制方法的有效性。"
+        },
+        "summary_en": {
+          "motivation": "To address geometry-induced heat accumulation in laser-wire DED of Ti-6Al-4V, this paper proposes a feedforward control strategy based on melt pool depth.",
+          "method": "A FEM model is used to relate melt pool depth to process parameters, enabling real-time feedforward control.",
+          "result": "The approach significantly reduces thermal variation across the build, improving process stability.",
+          "validation": "Experimental validation on a thin-wall structure with variable thickness demonstrates the effectiveness of the control scheme."
+        },
+        "key_terms": [
+          {
+            "en": "directed energy deposition",
+            "zh": "定向能量沉积"
+          },
+          {
+            "en": "feedforward control",
+            "zh": "前馈控制"
+          },
+          {
+            "en": "melt pool depth",
+            "zh": "熔池深度"
+          },
+          {
+            "en": "finite element model",
+            "zh": "有限元模型"
+          },
+          {
+            "en": "thermal management",
+            "zh": "热管理"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "laser-wire DED",
+            "zh": "激光-丝材直接能量沉积"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-20T08:06:35Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Low": 1
+    }
+  }
+}
