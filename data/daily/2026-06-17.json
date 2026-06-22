@@ -147,24 +147,146 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-06-20T08:06:35Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7164998346",
+      "doi": "10.1016/j.compstruct.2026.120546",
+      "title": "Microstructural evolution and high-temperature tribological properties of in situ-synthesized TiC/TiBx-reinforced Ti-6Al-4V functionally graded coatings by laser directed energy deposition",
+      "abstract": "",
+      "authors": [
+        "Wenlong Wang",
+        "Kai Zhang",
+        "Weijun Liu",
+        "Y Zhang",
+        "Hao Yi",
+        "Wenchao Xi",
+        "H Wang"
+      ],
+      "first_author_affiliation": "School of Mechanical Engineering, Shenyang University of Technology, Shenyang, Liaoning 110870, China",
+      "corresponding_authors": [
+        {
+          "name": "Kai Zhang",
+          "affiliation": "Instrumental Analysis Center, Shenyang University of Chemical Technology, Shenyang, Liaoning 110142, China"
+        }
+      ],
+      "venue": "Composite Structures",
+      "year": 2026,
+      "date": "2026-06-17",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.compstruct.2026.120546",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Tribology",
+        "Composite material",
+        "Laser",
+        "Deposition (geology)",
+        "Microstructure",
+        "Pulsed laser deposition",
+        "Functionally graded material",
+        "Metallurgy",
+        "Energy (signal processing)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "directed energy deposition"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "本文研究Ti-6Al-4V基涂层的高温摩擦性能，而非基体力学或疲劳性能，与研究方向关联较弱。",
+        "why_not_core": "No tensile, yield, or fatigue data; focuses on tribological properties of coatings, not bulk mechanical/fatigue performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser directed energy deposition",
+          "Ti-6Al-4V",
+          "TiC/TiBx",
+          "functionally graded coatings",
+          "high-temperature tribology"
+        ],
+        "summary_zh": {
+          "motivation": "研究TiC/TiBx增强Ti-6Al-4V涂层的显微组织演变与高温摩擦性能。",
+          "method": "采用激光定向能量沉积制备功能梯度涂层，进行微观结构和摩擦学测试。",
+          "result": "实现了高温耐磨性的显著提升。",
+          "validation": "通过高温摩擦磨损实验验证性能。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the microstructural evolution and high-temperature tribological performance of in situ-synthesized TiC/TiBx-reinforced Ti-6Al-4V functionally graded coatings.",
+          "method": "Laser directed energy deposition was used to fabricate the coatings, followed by microstructural characterization and tribological testing at elevated temperatures.",
+          "result": "The coatings exhibited significantly improved high-temperature wear resistance due to the in situ-formed reinforcements.",
+          "validation": "Validation was performed through high-temperature pin-on-disc tribological tests."
+        },
+        "key_terms": [
+          {
+            "en": "laser directed energy deposition",
+            "zh": "激光定向能量沉积"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "TiC/TiBx",
+            "zh": "TiC/TiBx增强相"
+          },
+          {
+            "en": "functionally graded coatings",
+            "zh": "功能梯度涂层"
+          },
+          {
+            "en": "high-temperature tribology",
+            "zh": "高温摩擦学"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "microstructural evolution",
+            "zh": "微观组织演变"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-22T10:21:13Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_femoral_stem": 1
+      "ti6al4v_femoral_stem": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Low": 1
+      "Low": 2
     }
   }
 }
