@@ -1,0 +1,157 @@
+{
+  "schema_version": "v2",
+  "date": "2026-06-22",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7165477904",
+      "doi": "10.52923/vmfs.jstm.062026.124.05",
+      "title": "Effect of heat treatment regimes on microstructure and hardness of Ti-6Al-4V alloy",
+      "abstract": "This study investigates the effects of various heat treatment regimes on the microstructure and hardness of Ti-6Al-4V alloy. By utilizing JMatPro software, the b-transus temperature, martensite start temperature, and phase constitution of the alloy were determined at various cooling rates of 0.1 °C/s, 30 °C/s, and 600 °C/s. X-ray diffraction (XRD) and optical microscopy (OM) were employed to characterize the specimens under different conditions: annealing, air cooling, quenching from b regime (1020 oC), dual-phase quenching (860 oC), and tempering at 600 oC. The lowest hardness (280 HV) was observed in the annealed sample, which exhibited a coarse-grained equilibrium microstructure. Upon quenching from 1020 oC, the prior b phase transforms entirely into acicular martensite with the hardness to 400 HV. Precipitation hardening induced by tempering at 600 oC leads to a significant increase in hardness, reaching a value of 539 HV. Furthermore, air cooling of the thin 2 mm specimen also promotes an ultra-fine basket-weave Widmanstätten and martensitic structure.",
+      "authors": [],
+      "first_author_affiliation": "",
+      "corresponding_authors": [],
+      "venue": "Journal of Science and Technology of Metal",
+      "year": 2026,
+      "date": "2026-06-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.52923/vmfs.jstm.062026.124.05",
+      "cited_by_count": 0,
+      "concepts": [
+        "Tempering",
+        "Materials science",
+        "Martensite",
+        "Microstructure",
+        "Quenching (fluorescence)",
+        "Metallurgy",
+        "Alloy",
+        "Acicular",
+        "Optical microscope",
+        "Heat treating",
+        "Hardening (computing)",
+        "Indentation hardness",
+        "Slow cooling",
+        "Air cooling",
+        "Phase (matter)",
+        "Precipitation",
+        "Knoop hardness test",
+        "Annealing (glass)",
+        "Precipitation hardening",
+        "Composite material"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess",
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment",
+          "annealing"
+        ],
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文研究Ti-6Al-4V合金的热处理对显微组织和硬度的影响，但未明确针对增材制造材料，因此对AM后处理控制方向具有参考价值而非直接对应。",
+        "why_not_core": "This paper does not explicitly study additively manufactured Ti-6Al-4V; its heat treatment regimes and hardness results are for conventionally processed material, missing the as-built microstructure and the link to fatigue or tensile performance of AM parts.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "heat treatment",
+          "Ti-6Al-4V",
+          "microstructure",
+          "hardness",
+          "martensite",
+          "annealing",
+          "quenching",
+          "tempering"
+        ],
+        "summary_zh": {
+          "motivation": "揭示不同热处理工艺对Ti-6Al-4V合金显微组织和硬度的影响规律",
+          "method": "通过JMatPro计算相变温度，结合XRD和光学显微镜表征退火、空冷、淬火及回火后的组织与硬度",
+          "result": "淬火获得针状马氏体（硬度400 HV），600℃回火析出强化使硬度升至539 HV，退火后粗晶组织硬度最低（280 HV）",
+          "validation": "实验采用XRD、光学显微镜及维氏硬度测试验证组织与性能关系"
+        },
+        "summary_en": {
+          "motivation": "The study aims to elucidate the effects of different heat treatment regimes on the microstructure and hardness of Ti-6Al-4V alloy.",
+          "method": "JMatPro software was used to calculate phase transformation temperatures, and X-ray diffraction (XRD) and optical microscopy (OM) characterized specimens after annealing, air cooling, quenching, and tempering.",
+          "result": "Quenching produced acicular martensite (400 HV), tempering at 600°C induced precipitation hardening reaching 539 HV, while annealing resulted in coarse grains with the lowest hardness of 280 HV.",
+          "validation": "Validation was performed through experimental hardness measurements and microstructural characterization using XRD and OM."
+        },
+        "key_terms": [
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "Ti-6Al-4V alloy",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "microstructure",
+            "zh": "显微组织"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          },
+          {
+            "en": "martensite",
+            "zh": "马氏体"
+          },
+          {
+            "en": "annealing",
+            "zh": "退火"
+          },
+          {
+            "en": "quenching",
+            "zh": "淬火"
+          },
+          {
+            "en": "tempering",
+            "zh": "回火"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-23T08:03:27Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Medium": 1
+    }
+  }
+}
