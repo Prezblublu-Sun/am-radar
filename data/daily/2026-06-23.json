@@ -1,0 +1,397 @@
+{
+  "schema_version": "v2",
+  "date": "2026-06-23",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7165672405",
+      "doi": "10.3389/fmats.2026.1816072",
+      "title": "On the detection of re-entrant features from metal additively manufactured samples and their correlations with manufacturing parameters",
+      "abstract": "Metal additive manufacturing (AM), particularly laser powder bed fusion (L-PBF), often yields complex surface topographies that include re-entrant features—undercut geometries that cannot be detected or quantified using conventional surface metrology based on single-valued height functions. These features influence key functional properties such as wettability, fatigue strength, and tribological behavior, and may also serve as indicators of sub-optimal processing conditions. In this work, we present a systematic methodology for the detection and quantification of re-entrant features from cross-sectional profiles obtained via high-resolution X-ray micro-computed tomography (microCT). Titanium alloy samples (Ti-6Al-4V) were manufactured using 20 combinations of laser power and scanning speed. From each reconstructed volume, profiles were extracted and analyzed using a geometric algorithm based on B-spline form fitting and projection tracking. Two quantitative metrics were introduced to describe the share of re-entrant features with respect to both the total profile length and its fitted form. Statistical evaluation using two-way ANOVA revealed that laser power has a significant effect on re-entrant feature intensity (p &amp;lt; 0.05), whereas scanning speed showed no meaningful influence within the tested range. Linear regression confirmed a strong correlation (R 2 &amp;gt; 0.9) between both metrics and laser power. The results demonstrate that insufficient energy input promotes the formation of re-entrant geometries through incomplete melting and particle bonding. The proposed method enables quantitative assessment of complex AM surface features that are inaccessible to traditional instruments, offering a pathway toward improved process control, surface quality evaluation, and functional performance optimization in metal AM. The geometry-based nature of the method suggests its applicability to a broader range of materials and additive manufacturing processes, provided appropriate imaging resolution is achieved.",
+      "authors": [
+        "Tomasz Bartkowiak",
+        "Michał Jakubowicz",
+        "Patryk Mietliński",
+        "Michał Wieczorowski"
+      ],
+      "first_author_affiliation": "Institute of Mechanical Technology, Poznań University of Technology",
+      "corresponding_authors": [
+        {
+          "name": "Tomasz Bartkowiak",
+          "affiliation": "Institute of Mechanical Technology, Poznań University of Technology"
+        }
+      ],
+      "venue": "Frontiers in Materials",
+      "year": 2026,
+      "date": "2026-06-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3389/fmats.2026.1816072",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Selective laser melting",
+        "Metrology",
+        "Laser power scaling",
+        "Laser",
+        "Laser scanning",
+        "Titanium alloy",
+        "Projection (relational algebra)",
+        "Fusion",
+        "Response surface methodology",
+        "Particle (ecology)",
+        "Biological system",
+        "Feature (linguistics)",
+        "Linear regression",
+        "Surface (topology)",
+        "Metal powder",
+        "Statistical power",
+        "Power (physics)",
+        "Design of experiments",
+        "Surface metrology",
+        "Titanium",
+        "Intensity (physics)",
+        "Structured-light 3D scanner"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "fatigue",
+          "fatigue strength"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究Ti-6Al-4V的再入表面特征与工艺参数的关系，未涉及力学或疲劳性能测试，但对理解影响疲劳的表面形貌有背景价值。",
+        "why_not_core": "This paper does not present any mechanical or fatigue testing of Ti-6Al-4V; it focuses solely on surface geometry characterization and its correlation with process parameters.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "re-entrant features",
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "microCT",
+          "surface topography",
+          "process parameters"
+        ],
+        "summary_zh": {
+          "motivation": "研究激光粉末床熔融Ti-6Al-4V样品中再入特征与制造参数的相关性。",
+          "method": "利用显微CT获取截面轮廓，基于B样条拟合和投影跟踪的几何算法检测再入特征。",
+          "result": "激光功率显著影响再入特征强度，扫描速度影响不显著。",
+          "validation": "通过双因素方差分析和线性回归验证统计显著性。"
+        },
+        "summary_en": {
+          "motivation": "To detect and quantify re-entrant features on additively manufactured Ti-6Al-4V surfaces and correlate them with manufacturing parameters.",
+          "method": "High-resolution microCT cross-sectional profiles analyzed with a B-spline fitting and projection tracking algorithm to identify undercut geometries.",
+          "result": "Laser power significantly affects re-entrant feature intensity (p<0.05) with strong correlation (R^2>0.9), while scanning speed shows no effect.",
+          "validation": "Statistical validation using two-way ANOVA and linear regression on 20 parameter combinations."
+        },
+        "key_terms": [
+          {
+            "en": "re-entrant features",
+            "zh": "再入特征"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "micro-computed tomography",
+            "zh": "显微计算机断层扫描"
+          },
+          {
+            "en": "surface topography",
+            "zh": "表面形貌"
+          },
+          {
+            "en": "process parameters",
+            "zh": "工艺参数"
+          },
+          {
+            "en": "B-spline",
+            "zh": "B样条"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-25T07:59:41Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7165638549",
+      "doi": "10.5281/zenodo.20807428",
+      "title": "Microstructure–Mechanical Property Correlation in Impulse Pressure-Assisted Diffusion Bonded Ti-6Al-4V and Austenitic Stainless-Steel Joints",
+      "abstract": "The diffusion bonding process was used to join two Ti-6Al-4V alloy and 316L austenitic stainless steel specimens with a square cross-section of 25 mm × 25 mm. The influence of bonding temperature on mechanical behavior of the dissimilar joints was systematically investigated to gain optimal bonding conditions. Microstructural examination, microhardness measurement and tensile testing were used to evaluate the microstructural characteristics and integrity of the bonds, respectively. The bond interface was analyzed in detail and reaction layers were identified in the diffusion zone. The energy-dispersive spectroscopy (EDS) showed that these layers consisted mainly of Fe₂Ti and FeTi intermetallic compounds. These phases were also confirmed using X-ray diffraction (XRD) techniques. The tensile testing showed that the best performance of the joints was obtained at 950 °C bonding temperature, with a maximum tensile strength of 180 MPa. But the overall tensile strength of the diffusion bonded joints was still not sufficient because mechanically, the brittle Fe-Ti intermetallic compounds formed at the interface of the diffusion bonded joints had a negative effect.",
+      "authors": [
+        "Gaurav Sharma"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Gaurav Sharma",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "year": 2026,
+      "date": "2026-06-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.5281/zenodo.20807428",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Intermetallic",
+        "Diffusion bonding",
+        "Ultimate tensile strength",
+        "Brittleness",
+        "Composite material",
+        "Indentation hardness",
+        "Alloy",
+        "Tensile testing",
+        "Austenite",
+        "Diffusion",
+        "Diffusion welding",
+        "Metallurgy",
+        "Diffusion process",
+        "Austenitic stainless steel",
+        "Diffusion layer",
+        "Microstructure"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "tensile strength"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是扩散连接而非增材制造，与方向L1的增材制造Ti-6Al-4V力学性能无关。",
+        "why_not_core": "This paper is about diffusion bonding of Ti-6Al-4V to stainless steel, not about additively manufactured Ti-6Al-4V mechanical or fatigue properties, which is the core focus of L1.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "diffusion bonding",
+          "Ti-6Al-4V",
+          "316L stainless steel",
+          "intermetallics",
+          "tensile strength"
+        ],
+        "summary_zh": {
+          "motivation": "研究扩散连接温度对Ti-6Al-4V与316L异种接头力学性能的影响。",
+          "method": "采用扩散连接工艺，通过显微组织观察、显微硬度测试和拉伸试验评估接头性能。",
+          "result": "最佳连接温度为950°C，最高抗拉强度180 MPa，但脆性Fe-Ti金属间化合物降低了整体强度。",
+          "validation": "通过拉伸试验和微观分析验证了连接质量。"
+        },
+        "summary_en": {
+          "motivation": "Investigate the effect of bonding temperature on mechanical behavior of diffusion-bonded Ti-6Al-4V to 316L stainless steel joints.",
+          "method": "Diffusion bonding was employed, and microstructural examination, microhardness measurement, and tensile testing were used to evaluate bond integrity.",
+          "result": "Optimal bonding at 950°C yielded a maximum tensile strength of 180 MPa, but brittle Fe-Ti intermetallics compromised overall joint performance.",
+          "validation": "Mechanical testing and microstructural analysis validated the bond quality."
+        },
+        "key_terms": [
+          {
+            "en": "diffusion bonding",
+            "zh": "扩散连接"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "316L stainless steel",
+            "zh": "316L奥氏体不锈钢"
+          },
+          {
+            "en": "intermetallic compounds",
+            "zh": "金属间化合物"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-25T07:59:41Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7165612044",
+      "doi": "10.5281/zenodo.20807429",
+      "title": "Microstructure–Mechanical Property Correlation in Impulse Pressure-Assisted Diffusion Bonded Ti-6Al-4V and Austenitic Stainless-Steel Joints",
+      "abstract": "The diffusion bonding process was used to join two Ti-6Al-4V alloy and 316L austenitic stainless steel specimens with a square cross-section of 25 mm × 25 mm. The influence of bonding temperature on mechanical behavior of the dissimilar joints was systematically investigated to gain optimal bonding conditions. Microstructural examination, microhardness measurement and tensile testing were used to evaluate the microstructural characteristics and integrity of the bonds, respectively. The bond interface was analyzed in detail and reaction layers were identified in the diffusion zone. The energy-dispersive spectroscopy (EDS) showed that these layers consisted mainly of Fe₂Ti and FeTi intermetallic compounds. These phases were also confirmed using X-ray diffraction (XRD) techniques. The tensile testing showed that the best performance of the joints was obtained at 950 °C bonding temperature, with a maximum tensile strength of 180 MPa. But the overall tensile strength of the diffusion bonded joints was still not sufficient because mechanically, the brittle Fe-Ti intermetallic compounds formed at the interface of the diffusion bonded joints had a negative effect.",
+      "authors": [
+        "Gaurav Sharma"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Gaurav Sharma",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "year": 2026,
+      "date": "2026-06-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.5281/zenodo.20807429",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Intermetallic",
+        "Diffusion bonding",
+        "Ultimate tensile strength",
+        "Brittleness",
+        "Composite material",
+        "Indentation hardness",
+        "Alloy",
+        "Tensile testing",
+        "Austenite",
+        "Diffusion",
+        "Diffusion welding",
+        "Metallurgy",
+        "Diffusion process",
+        "Austenitic stainless steel",
+        "Diffusion layer",
+        "Microstructure"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "tensile strength"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是Ti-6Al-4V与不锈钢的扩散连接，而非增材制造Ti-6Al-4V的力学性能。",
+        "why_not_core": "This paper does not involve additive manufacturing (LPBF/SLM/EBM/DED) of Ti-6Al-4V; it focuses on diffusion bonding of dissimilar metals.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "diffusion bonding",
+          "Ti-6Al-4V",
+          "stainless steel",
+          "intermetallic compounds",
+          "tensile testing"
+        ],
+        "summary_zh": {
+          "motivation": "优化Ti-6Al-4V与不锈钢扩散连接的工艺参数。",
+          "method": "在不同温度下进行扩散连接，进行微观表征和力学测试。",
+          "result": "950°C时接头抗拉强度最高达180 MPa，但Fe-Ti金属间化合物导致脆性。",
+          "validation": "通过拉伸测试和微观分析验证连接质量。"
+        },
+        "summary_en": {
+          "motivation": "To optimize the diffusion bonding parameters for joining Ti-6Al-4V and stainless steel.",
+          "method": "Diffusion bonding was performed at various temperatures, followed by microstructural characterization and mechanical testing.",
+          "result": "The highest tensile strength of 180 MPa was achieved at 950°C, but brittle Fe-Ti intermetallic compounds limited performance.",
+          "validation": "Joint integrity was validated through tensile testing and microstructural analysis."
+        },
+        "key_terms": [
+          {
+            "en": "diffusion bonding",
+            "zh": "扩散连接"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "316L stainless steel",
+            "zh": "316L不锈钢"
+          },
+          {
+            "en": "intermetallic compounds",
+            "zh": "金属间化合物"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-25T07:59:41Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 3,
+    "by_source": {
+      "openalex": 3
+    },
+    "after_dedup": 3,
+    "after_routing": 3,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 3
+    },
+    "routed_by_source": {
+      "openalex": 3
+    },
+    "scored": 3,
+    "priority_counts": {
+      "Low": 1,
+      "Exclude": 2
+    }
+  }
+}
