@@ -373,25 +373,155 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-06-25T07:59:41Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7165644657",
+      "doi": "10.1038/s41598-026-57355-y",
+      "title": "Hybrid Firefly Algorithm-based optimization of reverse EDM for machining of titanium superalloys for high-precision biomedical applications",
+      "abstract": "Titanium alloy Grade 5 (Ti-6Al-4V) is widely used for biomedical applications due to its high strength and high corrosion resistance. In this work, the reverse electric discharge machining (R-EDM) for the fabrication of macro-pillared array structures on Ti-6Al-4V work piece is carried out using tungsten, copper and copper-tungsten electrodes. The effect of pulse-on time (Ton), flushing pressure (Fp), peak current (I), voltage (U), duty factor (τ) and electrode material on surface roughness, microhardness, recast layer thickness and surface crack density is investigated. A Box Behnken design of response surface methodology (RSM) is used to assess the significance of the parameters and their interaction effects. A meticulous scanning electron microscopy (SEM) analysis is carried out to evaluate the machined surface quality. Multi-response optimization is carried out using the additive ratio assessment (ARAS) method and is coupled with the Firefly Algorithm (FA) to achieve the optimum results. The optimum machining condition is validated by conducting a confirmative test showing an improvement of 6.86 percentage. The proposed work is useful for selecting ideal process conditions while machining Titanium (Ti-6Al-4V) work piece for biomedical application.",
+      "authors": [
+        "Renu K. Shastri",
+        "Chinmaya P. Mohanty",
+        "Kishore Kumar Mahato",
+        "Pravat Ranjan Pati"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, MIT Academy of Engineering, Alandi, Pune, 412105, India",
+      "corresponding_authors": [
+        {
+          "name": "Chinmaya P. Mohanty",
+          "affiliation": "School of Mechanical Engineering, Vellore Institute of Technology, Vellore, Tamil Nadu, 632014, India. cprasad.mohanty@vit.ac.in"
+        }
+      ],
+      "venue": "Scientific Reports",
+      "year": 2026,
+      "date": "2026-06-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1038/s41598-026-57355-y",
+      "cited_by_count": 0,
+      "concepts": [
+        "Superalloy",
+        "Machining",
+        "Materials science",
+        "Firefly protocol",
+        "Firefly algorithm",
+        "Titanium alloy",
+        "Titanium",
+        "Metallurgy",
+        "Electrical discharge machining",
+        "Mechanical engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "layer thickness",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是针对锻造Ti-6Al-4V的反向电火花加工工艺优化，未涉及增材制造或相关后处理对疲劳/力学性能的影响。",
+        "why_not_core": "Paper does not address additive manufacturing or any post-processing treatment (heat treatment, HIP, surface treatment) applied to AM Ti-6Al-4V; it focuses on machining of wrought material.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "reverse EDM",
+          "surface roughness",
+          "microhardness",
+          "biomedical"
+        ],
+        "summary_zh": {
+          "motivation": "优化反向电火花加工参数以提高钛合金表面质量。",
+          "method": "使用响应面法结合萤火虫算法对加工参数进行多目标优化。",
+          "result": "最优条件验证实验显示表面粗糙度等指标改善6.86%。",
+          "validation": "通过实验验证优化参数的加工效果。"
+        },
+        "summary_en": {
+          "motivation": "To optimize reverse electrical discharge machining parameters for improved surface integrity of Ti-6Al-4V workpieces.",
+          "method": "Response surface methodology (Box-Behnken design) coupled with Firefly Algorithm for multi-response optimization of machining parameters.",
+          "result": "Confirmatory tests under optimal conditions showed a 6.86% improvement in combined surface quality metrics.",
+          "validation": "Experimental validation of the predicted optimal parameter set."
+        },
+        "key_terms": [
+          {
+            "en": "reverse electric discharge machining (R-EDM)",
+            "zh": "反向电火花加工"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "response surface methodology",
+            "zh": "响应面法"
+          },
+          {
+            "en": "Firefly Algorithm",
+            "zh": "萤火虫算法"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "recast layer thickness",
+            "zh": "重铸层厚度"
+          },
+          {
+            "en": "surface crack density",
+            "zh": "表面裂纹密度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-26T08:06:58Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 4,
     "by_source": {
-      "openalex": 3
+      "openalex": 4
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 3
+      "ti6al4v_base_mechanical_fatigue": 3,
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 3
+      "openalex": 4
     },
-    "scored": 3,
+    "scored": 4,
     "priority_counts": {
       "Low": 1,
-      "Exclude": 2
+      "Exclude": 3
     }
   }
 }
