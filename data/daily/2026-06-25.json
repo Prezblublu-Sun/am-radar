@@ -1,0 +1,441 @@
+{
+  "schema_version": "v2",
+  "date": "2026-06-25",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7165943375",
+      "doi": "10.1007/s40964-026-01780-y",
+      "title": "Effect of in-situ heat treatment on flow stress behavior of additive manufacturing of Ti–6Al–4V alloy under quasi-static and dynamic deformation: a comparative study through experimental and modelling through J–C model and ANN approach",
+      "abstract": "Abstract Ti6Al4V is considered a promising candidate material for bioimplant applications, including bone implants, skull covers, and surgical equipment, due to its high specific strength and non-reactive nature with human body fluids. The aim of this study is to understand the effect of in-situ heat treatment on flow stress behavior, thereby to eliminate the need for traditional heat treatment methods, thereby reducing costs associated with equipment, time, and energy consumption. In the present study, the flow stress behavior of Additive Manufacturing (AM) Ti–6Al–4V alloy was investigated using two different sample preparation methods: single scanning and in-situ heat treatment (double scanning), aimed at controlling the mechanical properties during fabrication via the selective laser melting (SLM) process. Using analytical techniques such as Field emission scanning electron microscopy (FESEM) and Electron Backscatter Diffraction (EBSD) images the phase present such as α, β, α′, and α + β and their evolution mechanisms were discussed critically in single scanned and in-situ heat treatment. The uniaxial tensile tests were carried out at different quasi-static strain rates in a range of 0.001 to 1 s −1 and dynamic strain rates in the range of 10 to 500 s −1 . Further, improved version of the Johnson–Cook model has been formulated by using the experimental parameters for the Ti6Al4V alloy, furthermore, an artificial neural network-based (ANN) predictive model was established to evaluate the flow stress response of the Ti–6Al–4V alloy across diverse loading conditions. The results demonstrated that the AI-based ANN model performs comparably to the modified Johnson–Cook model, with the predicted flow stress values showing strong agreement with those obtained using the Johnson–Cook (J–C) formulation.",
+      "authors": [
+        "Pai Chen Lin",
+        "H. H. Liu",
+        "Pei-Cheng Wu",
+        "Zhi-Hong Zhang",
+        "Chi-Wei Wang",
+        "Akram Alfantazi",
+        "Venkat Chilla",
+        "B N Yadav",
+        "Y.T. Lee",
+        "Hung‐Wei Yen"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering & Advanced Institute of Manufacturing with High-tech Innovations, National Chung Cheng University, Chiayi, Taiwan",
+      "corresponding_authors": [
+        {
+          "name": "Pai Chen Lin",
+          "affiliation": "Department of Mechanical Engineering & Advanced Institute of Manufacturing with High-tech Innovations, National Chung Cheng University, Chiayi, Taiwan"
+        }
+      ],
+      "venue": "Progress in Additive Manufacturing",
+      "year": 2026,
+      "date": "2026-06-25",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40964-026-01780-y",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Flow stress",
+        "Titanium alloy",
+        "Alloy",
+        "Ultimate tensile strength",
+        "Stress (linguistics)",
+        "Scanning electron microscope",
+        "Composite material",
+        "Flow (mathematics)",
+        "Electron backscatter diffraction",
+        "Material properties",
+        "Selective laser melting",
+        "Strain rate",
+        "Thermography",
+        "Stress field",
+        "Range (aeronautics)",
+        "Metallurgy",
+        "Digital image correlation"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "additive manufacturing",
+          "selective laser melting",
+          "SLM"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了原位热处理对Ti-6Al-4V合金流动应力行为的影响，虽然未直接涉及疲劳，但提供了后处理控制的相关数据。",
+        "why_not_core": "The paper does not directly address post-processing fatigue performance; it studies in-situ heat treatment during fabrication and focuses on flow stress rather than fatigue life.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "in-situ heat treatment",
+          "flow stress",
+          "Johnson-Cook model",
+          "ANN",
+          "selective laser melting"
+        ],
+        "summary_zh": {
+          "motivation": "为消除传统热处理方法，降低设备、时间和能耗成本。",
+          "method": "通过单次扫描和原位热处理（双扫描）制备试样，进行准静态和动态拉伸试验，并建立改进的J-C模型和ANN预测模型。",
+          "result": "ANN模型与改进J-C模型预测的流动应力值吻合良好。",
+          "validation": "通过场发射扫描电镜和电子背散射衍射分析微观结构，并通过不同应变率下的拉伸实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To eliminate the need for post-build heat treatment and reduce costs by applying in-situ heat treatment during SLM of Ti-6Al-4V.",
+          "method": "Single-scan and in-situ heat-treated (double-scan) samples were fabricated, and tensile tests at quasi-static and dynamic strain rates were performed; modified Johnson-Cook and ANN models were developed.",
+          "result": "The ANN model showed comparable prediction accuracy to the modified Johnson-Cook model for flow stress.",
+          "validation": "Microstructural analysis via FESEM/EBSD and experimental tensile testing at various strain rates validated the models."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "in-situ heat treatment",
+            "zh": "原位热处理"
+          },
+          {
+            "en": "flow stress",
+            "zh": "流动应力"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
+          },
+          {
+            "en": "Johnson-Cook model",
+            "zh": "Johnson-Cook模型"
+          },
+          {
+            "en": "artificial neural network",
+            "zh": "人工神经网络"
+          },
+          {
+            "en": "quasi-static deformation",
+            "zh": "准静态变形"
+          },
+          {
+            "en": "dynamic deformation",
+            "zh": "动态变形"
+          },
+          {
+            "en": "electron backscatter diffraction",
+            "zh": "电子背散射衍射"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-27T07:34:38Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7165859306",
+      "doi": "10.1038/s41467-026-74069-x",
+      "title": "Rare-Earth modified biodegradable Zn alloys with high strength and enhanced osteogenesis",
+      "abstract": "Achieving high strength and robust osteogenesis simultaneously remains a challenge for biodegradable orthopedic materials. Here we show that incorporating trace rare-earth (RE) elements into a Zn-Li-Mn system bridges this gap. By forming REZn11-13 intermetallic phases, we engineer a bimodal grain structure that elevates tensile strength to 772 MPa and bending strength to 1207 MPa, approaching the level of medical-grade titanium alloy (Ti-6Al-4V) while retaining biodegradability. Crucially, these phases act as “potential-buffering” electrodes, ensuring uniform degradation and controlled zinc ion release. This optimized ion concentration activates the Rap1 signaling pathway, resulting in twofold greater bone regeneration compared to titanium alloy implants. By integrating ultrahigh mechanical strength with potent bioactivity, this Zn-Li-Mn-Y alloy provides a superior platform for next-generation load-bearing implants, offering a degradable alternative to permanent metallic fixations. Low mechanical strength limits biodegradable orthopaedic implant use. Here, the authors develop a biodegradable Zn-Li-Mn-Y alloy approaching the strength of medical grade titanium alloy implants that promotes bone healing by controlled ion release.",
+      "authors": [
+        "J Shi",
+        "Mingyu Qu",
+        "Chaoyang Sun",
+        "S Y Li",
+        "Jialian Xu",
+        "Ting Zhang",
+        "Xinhua Qu",
+        "Hongtao Yang",
+        "Yufeng Zheng"
+      ],
+      "first_author_affiliation": "School of Materials Science and Engineering Peking University, Beijing, PR China",
+      "corresponding_authors": [
+        {
+          "name": "Xinhua Qu",
+          "affiliation": "Department of Bone and Joint Surgery, Department of Orthopedics, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, PR China"
+        },
+        {
+          "name": "Hongtao Yang",
+          "affiliation": "School of Engineering Medicine, Beihang University, Beijing, PR China"
+        },
+        {
+          "name": "Yufeng Zheng",
+          "affiliation": "School of Materials Science and Engineering Peking University, Beijing, PR China"
+        }
+      ],
+      "venue": "Nature Communications",
+      "year": 2026,
+      "date": "2026-06-25",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1038/s41467-026-74069-x",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Alloy",
+        "Ultimate tensile strength",
+        "Titanium alloy",
+        "Intermetallic",
+        "Titanium",
+        "Zinc",
+        "Composite material",
+        "Mechanical strength",
+        "Metallurgy",
+        "Biomedical engineering",
+        "Compressive strength",
+        "Regeneration (biology)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "tensile strength"
+        ],
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "orthopaedic implant"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "本文研究的是可降解Zn合金而非Ti-6Al-4V股骨柄设计，与用户方向无关。",
+        "why_not_core": "This paper focuses on biodegradable Zn alloys, not on Ti-6Al-4V femoral stem design, additive manufacturing, or any structural/mechanical analysis relevant to orthopedic implant stems.",
+        "validation_kind": "animal",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "biodegradable",
+          "Zn alloy",
+          "rare-earth",
+          "osteogenesis",
+          "titanium alloy comparison"
+        ],
+        "summary_zh": {
+          "motivation": "开发兼具高强度和促骨再生能力的可降解Zn合金",
+          "method": "向Zn-Li-Mn体系添加微量稀土元素形成REZn11-13相，构建双峰晶粒组织",
+          "result": "合金抗拉强度达772 MPa，弯曲强度1207 MPa，骨再生能力为钛合金的两倍",
+          "validation": "通过动物实验验证骨再生效果，并与钛合金植入物对比"
+        },
+        "summary_en": {
+          "motivation": "Developing biodegradable Zn alloys that combine high strength with enhanced osteogenesis for orthopedic implants.",
+          "method": "Trace rare-earth elements were added to a Zn-Li-Mn system to form REZn11-13 intermetallic phases, creating a bimodal grain structure.",
+          "result": "The alloy achieved a tensile strength of 772 MPa and bending strength of 1207 MPa, with twofold greater bone regeneration compared to titanium alloy implants.",
+          "validation": "In vivo animal experiments were performed to evaluate bone regeneration, with comparison to titanium alloy implants."
+        },
+        "key_terms": [
+          {
+            "en": "biodegradable Zn alloys",
+            "zh": "可降解锌合金"
+          },
+          {
+            "en": "rare-earth elements",
+            "zh": "稀土元素"
+          },
+          {
+            "en": "osteogenesis",
+            "zh": "成骨"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "bending strength",
+            "zh": "弯曲强度"
+          },
+          {
+            "en": "intermetallic phases",
+            "zh": "金属间化合物"
+          },
+          {
+            "en": "grain structure",
+            "zh": "晶粒组织"
+          },
+          {
+            "en": "titanium alloy",
+            "zh": "钛合金"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-27T07:34:38Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7165957853",
+      "doi": "10.1016/j.optlastec.2026.115761",
+      "title": "Effect of laser shock peening parameters on electrochemical and tribocorrosion behaviour of Ti-6Al-4V alloy in simulated body fluid",
+      "abstract": "",
+      "authors": [
+        "Dileep Madapana",
+        "Harikrishnan Ramadas",
+        "Ashish Kumar Nath",
+        "Jyotsna Dutta Majumdar"
+      ],
+      "first_author_affiliation": "Department of Metallurgical and Materials Engineering, Indian Institute of Technology Kharagpur, Kharagpur, West Bengal 721302, India",
+      "corresponding_authors": [
+        {
+          "name": "Jyotsna Dutta Majumdar",
+          "affiliation": "Department of Metallurgical and Materials Engineering, Indian Institute of Technology Kharagpur, Kharagpur, West Bengal 721302, India"
+        }
+      ],
+      "venue": "Optics & Laser Technology",
+      "year": 2026,
+      "date": "2026-06-25",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.115761",
+      "cited_by_count": 0,
+      "concepts": [
+        "Tribocorrosion",
+        "Materials science",
+        "Laser peening",
+        "Peening",
+        "Simulated body fluid",
+        "Indentation hardness",
+        "Coating",
+        "Alloy",
+        "Metallurgy",
+        "Composite material",
+        "Laser",
+        "Passivation",
+        "Corrosion",
+        "Anode",
+        "Grain size",
+        "Shock (circulatory)",
+        "Current density",
+        "Electrochemistry",
+        "Pulsed laser deposition",
+        "Compressive strength",
+        "Shot peening",
+        "Pulse duration"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser shock peening"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "虽然采用了激光冲击强化（LSP）后处理，但关注的是电化学和摩擦腐蚀行为，而非疲劳或力学性能。",
+        "why_not_core": "The paper investigates laser shock peening but focuses on electrochemical and tribocorrosion properties, not fatigue or mechanical performance as required by the direction focus.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser shock peening",
+          "Ti-6Al-4V",
+          "tribocorrosion",
+          "simulated body fluid",
+          "electrochemical behavior"
+        ],
+        "summary_zh": {
+          "motivation": "探究激光冲击强化参数对Ti-6Al-4V在模拟体液中电化学和摩擦腐蚀行为的影响",
+          "method": "采用不同参数的激光冲击强化处理，随后进行电化学和摩擦腐蚀测试",
+          "result": "激光冲击强化提高了耐腐蚀性并减少了磨损-腐蚀协同作用",
+          "validation": "通过实验测试验证电化学和摩擦腐蚀性能变化"
+        },
+        "summary_en": {
+          "motivation": "To investigate how laser shock peening parameters influence the electrochemical and tribocorrosion behavior of Ti-6Al-4V in simulated body fluid.",
+          "method": "The alloy was subjected to laser shock peening with varying parameters, followed by electrochemical and tribocorrosion tests.",
+          "result": "Laser shock peening improved corrosion resistance and reduced wear-corrosion synergy in simulated body fluid.",
+          "validation": "Validation was performed through experimental electrochemical and tribocorrosion measurements."
+        },
+        "key_terms": [
+          {
+            "en": "laser shock peening",
+            "zh": "激光冲击强化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "tribocorrosion",
+            "zh": "摩擦腐蚀"
+          },
+          {
+            "en": "simulated body fluid",
+            "zh": "模拟体液"
+          },
+          {
+            "en": "electrochemical behavior",
+            "zh": "电化学行为"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-06-27T07:34:38Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 3,
+    "by_source": {
+      "openalex": 3
+    },
+    "after_dedup": 3,
+    "after_routing": 3,
+    "by_direction": {
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_femoral_stem": 1
+    },
+    "routed_by_source": {
+      "openalex": 3
+    },
+    "scored": 3,
+    "priority_counts": {
+      "Medium": 1,
+      "Exclude": 1,
+      "Low": 1
+    }
+  }
+}
