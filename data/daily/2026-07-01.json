@@ -1,0 +1,282 @@
+{
+  "schema_version": "v2",
+  "date": "2026-07-01",
+  "date_precision": "month",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7166845878",
+      "doi": "10.3390/ma19132800",
+      "title": "Multi-Scale Finite Element Simulation Framework for Deformation and Damage of Large Structure Under Complex Loadings",
+      "abstract": "This paper establishes a multi-scale nested sub-modeling finite element simulation framework for the deformation and damage analysis of large-scale structures under complex loading conditions. By sequentially transferring displacement solutions from the global model to local sub-models, the framework enables progressive high-resolution analysis from the macroscopic scale (&gt;10 m) down to the microscopic scale (~1 μm), thereby significantly improving solution accuracy in critical regions while maintaining computational efficiency. The proposed approach is validated on a shell structure subjected to hydrostatic pressure and on a plate with a central crack. The results show that the relative errors of stress and strain along specified paths in the shell structure are within 5%, while the relative errors of the stress intensity factor along the crack front in the cracked plate are also below 5%. Furthermore, the framework is integrated with the crystal plasticity finite element method, and a fatigue indicator parameter model based on the accumulated equivalent plastic strain is established to predict the shear fatigue life of Ti-6Al-4V ELI titanium alloy. The predicted fatigue lives are in good agreement with experimental data, with all errors below 10%. This study demonstrates that the proposed sub-modeling method can accurately transfer multi-scale mechanical responses and achieve localized refinement analysis of large-scale structures and can be effectively used for crystal plasticity simulations and fatigue life assessment.",
+      "authors": [
+        "Cheng Li",
+        "Chengqi Sun"
+      ],
+      "first_author_affiliation": "State Key Laboratory of Nonlinear Mechanics, Institute of Mechanics, Chinese Academy of Sciences, Beijing 100190, China",
+      "corresponding_authors": [
+        {
+          "name": "Chengqi Sun",
+          "affiliation": "School of Engineering Science, University of Chinese Academy of Sciences, Beijing 100049, China"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2026,
+      "date": "2026-07-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.3390/ma19132800",
+      "cited_by_count": 0,
+      "concepts": [
+        "Finite element method",
+        "Materials science",
+        "Structural engineering",
+        "Plasticity",
+        "Hydrostatic pressure",
+        "Deformation (meteorology)",
+        "Displacement (psychology)",
+        "Stress (linguistics)",
+        "Hydrostatic stress",
+        "Shear (geology)",
+        "Hydrostatic equilibrium",
+        "Shell (structure)",
+        "Mechanics",
+        "Crystal plasticity",
+        "Finite strain theory",
+        "Scale (ratio)",
+        "Shear stress",
+        "Stress–strain curve",
+        "Intensity (physics)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti-6Al-4V ELI",
+          "fatigue",
+          "fatigue life"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文针对Ti-6Al-4V ELI的疲劳寿命预测建立了多尺度有限元框架，直接符合方向要求。",
+        "why_not_core": "No as-built mechanical property data reported; validation uses published experimental results.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "multi-scale simulation",
+          "sub-modeling",
+          "crystal plasticity",
+          "fatigue life",
+          "Ti-6Al-4V ELI",
+          "large-scale structure"
+        ],
+        "summary_zh": {
+          "motivation": "开发适用于大型结构复杂载荷下变形与损伤分析的多尺度仿真框架",
+          "method": "建立嵌套子模型有限元框架，从宏观至微观逐级传递位移解，结合晶体塑性方法和疲劳指示参数模型",
+          "result": "壳体和裂纹板应力应变误差小于5%，Ti-6Al-4V ELI剪切疲劳寿命预测误差低于10%",
+          "validation": "通过壳体静压实验和含裂纹板应力强度因子计算验证，并与Ti-6Al-4V ELI疲劳实验数据对比"
+        },
+        "summary_en": {
+          "motivation": "To develop a multi-scale simulation framework for deformation and damage analysis of large structures under complex loadings.",
+          "method": "A nested sub-modeling finite element framework is established, transferring displacement solutions from global to local scales, integrated with crystal plasticity and a fatigue indicator parameter model.",
+          "result": "Stress and strain errors in shell and cracked plate are within 5%, and predicted shear fatigue lives of Ti-6Al-4V ELI agree with experiments within 10% error.",
+          "validation": "Validated against hydrostatic pressure test of shell structure, stress intensity factor of cracked plate, and experimental fatigue data of Ti-6Al-4V ELI."
+        },
+        "key_terms": [
+          {
+            "en": "multi-scale simulation",
+            "zh": "多尺度模拟"
+          },
+          {
+            "en": "sub-modeling",
+            "zh": "子模型方法"
+          },
+          {
+            "en": "crystal plasticity finite element method",
+            "zh": "晶体塑性有限元法"
+          },
+          {
+            "en": "fatigue indicator parameter",
+            "zh": "疲劳指示参数"
+          },
+          {
+            "en": "Ti-6Al-4V ELI",
+            "zh": "Ti-6Al-4V ELI"
+          },
+          {
+            "en": "fatigue life prediction",
+            "zh": "疲劳寿命预测"
+          },
+          {
+            "en": "large-scale structure",
+            "zh": "大型结构"
+          },
+          {
+            "en": "stress intensity factor",
+            "zh": "应力强度因子"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-03T07:50:54Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7166813165",
+      "doi": "10.1016/j.jmapro.2026.06.071",
+      "title": "Effect of open-loop and closed-loop in-situ process control on microstructure and mechanical properties of L-PBF Ti-6Al-4V",
+      "abstract": "",
+      "authors": [
+        "Md Shafiqur Rahman Jame",
+        "Ankita Roy",
+        "Dang Toan Truong",
+        "Haojun You",
+        "Abdulaziz Alfaifi",
+        "Yash Parikh",
+        "Mohsen Taheri Andani"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [],
+      "venue": "Journal of Manufacturing Processes",
+      "year": 2026,
+      "date": "2026-07-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.jmapro.2026.06.071",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Composite material",
+        "Process (computing)",
+        "Process control"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了L-PBF Ti-6Al-4V的工艺控制（开环与闭环）对微观结构和力学性能的影响，符合L1方向对机械性能的关注。",
+        "why_not_core": "The paper does not explicitly address fatigue performance, but it is still relevant as it covers tensile properties and microstructure which are part of L1 focus.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "L-PBF",
+          "Ti-6Al-4V",
+          "in-situ process control",
+          "open-loop",
+          "closed-loop",
+          "microstructure",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "研究开环与闭环原位过程控制对L-PBF Ti-6Al-4V微观结构和力学性能的影响。",
+          "method": "对比开环和闭环两种控制策略，进行L-PBF成型，然后表征微观结构和力学性能。",
+          "result": "闭环控制能显著改善微观结构均匀性和力学性能（如强度、延展性）。",
+          "validation": "通过拉伸测试、硬度测试和显微组织观察进行实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of open-loop versus closed-loop in-situ process control on the microstructure and mechanical properties of L-PBF Ti-6Al-4V.",
+          "method": "Two control strategies were implemented during L-PBF, followed by microstructural characterization and mechanical testing (tensile and hardness).",
+          "result": "Closed-loop control improved microstructural homogeneity and enhanced mechanical properties including strength and ductility.",
+          "validation": "Experimental validation through tensile tests, hardness measurements, and microscopy analysis."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion (L-PBF)",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "in-situ process control",
+            "zh": "原位过程控制"
+          },
+          {
+            "en": "open-loop control",
+            "zh": "开环控制"
+          },
+          {
+            "en": "closed-loop control",
+            "zh": "闭环控制"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-03T07:50:54Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 2,
+    "by_source": {
+      "openalex": 2
+    },
+    "after_dedup": 2,
+    "after_routing": 2,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 2
+    },
+    "routed_by_source": {
+      "openalex": 2
+    },
+    "scored": 2,
+    "priority_counts": {
+      "High": 2
+    }
+  }
+}

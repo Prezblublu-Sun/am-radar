@@ -1,0 +1,747 @@
+{
+  "schema_version": "v2",
+  "date": "2026-06-30",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7166690426",
+      "doi": "10.1038/s41598-026-54813-5",
+      "title": "Modelling and computational optimization of different neural network architectures for prediction of depth of cut in abrasive water jet machining of Ti6Al4V",
+      "abstract": "The current work presents an optimized neural network for predicting depth of cut (DoC) in the abrasive water jet machining (AWJM) of Titanium Ti6Al4V Grade 5 material. Five process parameters were used for experimentation i.e., water pressure ( W p ), traverse speed ( T s ), nozzle to orifice diameter ( N/O dia ), abrasive mass flow rate ( A mf ), and abrasive orifice size ( A os ). Experiments were carried out using the Taguchi based L 27 Orthogonal array, resulting in the development of a regression equation describing the process behaviour. The DoC was modelled using two neural network architectures: a single hidden layer network (NN 1 ), where neurons were varied from 1 to 10, and a deep neural network (NN D ), where both neurons and hidden layers were varied to determine the optimum network configuration. Four different activation functions, namely, Sigmoidal, Gaussian, Tanh, and Linear functions were employed to perform the optimization. The dataset for training and testing the neural network models was generated using the regression equation based on experimental data, rather than direct experimental measurements. The optimization of both the neural network architectures was evaluated using two performance metrics, i.e., root mean squared error (RMSE) and co-efficient of determination ( \\(\\:{R}^{2}\\) ). The results concluded that both the neural network (NN) models were able to accurately predict DoC, however, the NN D was found to be better in terms of accuracy with a 12.5% reduction in testing RMSE and 4.2% improvement in testing ( \\(\\:{R}^{2}\\) ). Amongst the activation functions used, the Gaussian functions outperformed the other functions across both neural network architectures, as its symmetric response reflects the jet energy distribution peaking at the centre and decaying radially, thereby effectively capturing the non-linear penetration behavior. SEM analysis supported the computational results, showing micro-cutting with stable grooves for machined surfaces with higher DoC, whereas lower DoC experienced micro-ploughing and ridge formation. Contour plots further revealed that DoC in AWJM of Ti6Al4V is primarily governed by water pressure and traverse speed, thereby confirming the capability of the optimised NN D architecture to capture the underlying physical mechanisms of AWJM.",
+      "authors": [
+        "Yakub Iqbal Mogul",
+        "Jaimon Dennis Quadros",
+        "G. Ganesan Subramanian",
+        "Prashanth Thalambeti",
+        "Ibtisam Mogul",
+        "Ma Mohin"
+      ],
+      "first_author_affiliation": "National Centre for Motorsport Engineering, School of Engineering and Built Environment, University of Greater Manchester, Deane Road, Bolton, BL3 5AB, UK",
+      "corresponding_authors": [
+        {
+          "name": "Jaimon Dennis Quadros",
+          "affiliation": "National Centre for Motorsport Engineering, School of Engineering and Built Environment, University of Greater Manchester, Deane Road, Bolton, BL3 5AB, UK. j.quadros@greatermanchester.ac.uk"
+        }
+      ],
+      "venue": "Scientific Reports",
+      "year": 2026,
+      "date": "2026-06-30",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1038/s41598-026-54813-5",
+      "cited_by_count": 0,
+      "concepts": [
+        "Machining",
+        "Artificial neural network",
+        "Abrasive",
+        "Titanium alloy",
+        "Computer science",
+        "Mechanical engineering",
+        "Jet (fluid)",
+        "Water jet",
+        "Materials science",
+        "Computational model",
+        "Computational complexity theory",
+        "Structural engineering",
+        "Jet engine"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "本文研究的是Ti6Al4V的磨料水射流加工中切深预测的神经网络优化，未涉及后处理对疲劳或力学性能的影响，因此与用户方向（后处理对力学性能的影响）关联较弱。",
+        "why_not_core": "This paper focuses on predicting depth of cut in abrasive water jet machining of Ti6Al4V, but does not study the effect of post-processing on mechanical performance (e.g., fatigue, tensile strength) or microstructural changes.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "abrasive water jet machining",
+          "Ti6Al4V",
+          "depth of cut",
+          "neural network",
+          "process optimization"
+        ],
+        "summary_zh": {
+          "motivation": "优化神经网络模型以精确预测Ti6Al4V磨料水射流加工的切深。",
+          "method": "基于Taguchi L27实验设计，使用单隐藏层和深度神经网络，比较四种激活函数。",
+          "result": "深度神经网络结合高斯激活函数预测精度最高，测试RMSE降低12.5%，R²提高4.2%。",
+          "validation": "通过SEM观察加工表面形貌验证预测结果。"
+        },
+        "summary_en": {
+          "motivation": "This work aims to optimize neural network architectures for accurately predicting depth of cut in abrasive water jet machining of Ti6Al4V.",
+          "method": "Experiments were performed using a Taguchi L27 orthogonal array, and two neural network models (single hidden layer and deep) with four activation functions were optimized on a dataset generated from regression equation.",
+          "result": "The deep neural network with Gaussian activation function achieved the best prediction, reducing testing RMSE by 12.5% and improving R² by 4.2%.",
+          "validation": "Scanning electron microscopy confirmed the predicted depth of cut by revealing micro-cutting and micro-ploughing features on machined surfaces."
+        },
+        "key_terms": [
+          {
+            "en": "abrasive water jet machining",
+            "zh": "磨料水射流加工"
+          },
+          {
+            "en": "depth of cut",
+            "zh": "切深"
+          },
+          {
+            "en": "neural network",
+            "zh": "神经网络"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "activation function",
+            "zh": "激活函数"
+          },
+          {
+            "en": "Taguchi orthogonal array",
+            "zh": "田口正交数组"
+          },
+          {
+            "en": "root mean squared error",
+            "zh": "均方根误差"
+          },
+          {
+            "en": "coefficient of determination",
+            "zh": "决定系数"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-03T07:50:54Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7166684820",
+      "doi": "10.5781/jwj.2026.44.3.7",
+      "title": "Effect of Repeated Powder Reuse on the Quality and Mechanical Properties of Ti-6Al-4V Fabricated by Laser Powder Bed Fusion",
+      "abstract": "This study evaluated the effect of repeated powder reuse on the quality and mechanical properties of Ti-6Al-4V fabricated by laser powder bed fusion. Gas-atomized Ti-6Al-4V powder was repeatedly reused up to 15 build cycles, and changes in powder morphology, oxygen content, hardness, tensile properties, microstructure, and localized inclusions were examined. Repeated reuse progressively degraded the initially spherical powder morphology, as evidenced by the increased presence of satellite particles, irregular particles, and partially melted particles. The hardness of the fabricated specimens increased from approximately 375 HV in the virgin powder condition to approximately 411 HV after 15 reuse cycles. In contrast, the ultimate tensile strength and yield strength showed only limited variation, whereas elongation decreased from 10.7% to 7.4%. Optical microstructural observation revealed no significant change in the overall acicular α/α′-dominated microstructure, indicating that the ductility reduction could not be explained solely by microstructural variation. Oxygen content gradually increased with reuse cycles and exceeded the ASTM F2924 limit after more than six reuse cycles. In addition, SEM-EDS analysis of the specimen fabricated using powder reused for 15 cycles revealed a localized inclusion-like region enriched in O, C, and Si. Based on oxygen specification compliance, ductility retention, localized inclusion formation, and cumulative raw powder cost reduction, powder reuse up to six cycles was proposed as a practical reuse limit under the present LPBF conditions.",
+      "authors": [
+        "Jae H. Kim",
+        "Seong-Jin Park",
+        "Hyomoon Joo",
+        "Jae‐Keun Hong"
+      ],
+      "first_author_affiliation": "Lightweight Materials Research Division, Korea Institute of Materials Science, Changwon, 51508, Korea",
+      "corresponding_authors": [],
+      "venue": "Journal of Welding and Joining",
+      "year": 2026,
+      "date": "2026-06-30",
+      "date_precision": "day",
+      "url": "https://doi.org/10.5781/jwj.2026.44.3.7",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Reuse",
+        "Ultimate tensile strength",
+        "Ductility (Earth science)",
+        "Elongation",
+        "Composite material",
+        "Microstructure",
+        "Raw material",
+        "Metallurgy",
+        "Porosity",
+        "Selective laser melting",
+        "Grain size",
+        "Yield (engineering)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "microstructure",
+          "tensile strength",
+          "yield strength",
+          "ultimate tensile strength",
+          "elongation",
+          "ductility"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了激光粉末床熔融Ti-6Al-4V粉末重复使用对力学性能的影响，属于L1方向的核心内容。",
+        "why_not_core": "This paper does not model or predict mechanical/fatigue behavior; it provides only experimental characterization and a practical reuse limit based on oxygen and ductility.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "LPBF",
+          "Ti-6Al-4V",
+          "powder reuse",
+          "mechanical properties",
+          "oxygen content",
+          "ductility",
+          "hardness",
+          "tensile strength"
+        ],
+        "summary_zh": {
+          "motivation": "评估LPBF Ti-6Al-4V粉末重复使用对制品质量与力学性能的影响。",
+          "method": "将气体雾化Ti-6Al-4V粉末重复使用多达15次，检测粉末形貌、氧含量、硬度、拉伸性能及微观组织。",
+          "result": "重复使用15次后硬度升至411 HV，伸长率从10.7%降至7.4%，氧含量超标，提出了6次重复使用上限。",
+          "validation": "通过硬度测试、拉伸试验、SEM-EDS和光学显微镜进行实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of repeated powder reuse on the quality and mechanical properties of Ti-6Al-4V fabricated by laser powder bed fusion.",
+          "method": "Gas-atomized Ti-6Al-4V powder was reused up to 15 build cycles, and changes in powder morphology, oxygen content, hardness, tensile properties, and microstructure were characterized.",
+          "result": "Hardness increased, elongation decreased from 10.7% to 7.4%, oxygen exceeded the ASTM limit after 6 cycles, and a practical reuse limit of 6 cycles was proposed.",
+          "validation": "Experimental validation through mechanical testing (hardness, tensile), SEM-EDS, and optical microscopy."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "powder reuse",
+            "zh": "粉末重复使用"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "oxygen content",
+            "zh": "氧含量"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "拉伸强度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-03T07:50:54Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7166726895",
+      "doi": "10.30811/jpl.v24i3.8905",
+      "title": "Integrating Mechanical Testing and Finite Element Analysis for Failure Risk Prediction in Ti-6Al-4V Parts Produced by Laser Powder Bed Fusion",
+      "abstract": "Additive Manufacturing (AM), particularly Laser Powder Bed Fusion (L-PBF), has become increasingly important for producing components in critical industries such as aerospace, automotive, and medical devices. However, predicting the failure risk of these components, especially due to fatigue, remains a challenge due to the variability in material properties and process-induced defects such as porosity. This research aims to develop a predictive model to assess the failure risk of components produced through Additive Manufacturing, with a focus on integrating mechanical testing data and Finite Element Analysis (FEA) simulations to predict the fatigue life and the associated risk of failure. The study utilizes an experimental-computational approach, incorporating mechanical testing for tensile strength, fatigue testing, and microstructural analysis to gather data on material properties and defects. These data are then combined with FEA simulations to create a predictive model using multiple regression analysis. The model's accuracy is validated through k-fold cross-validation (k=5), with performance metrics including R² and RMSE. The results demonstrate that the model successfully predicts the failure risk of AM components, with R² values near 0.95 and RMSE values indicating high accuracy in predicting fatigue life. The model also highlights the significant influence of porosity and stress concentration on fatigue failure, providing valuable insights into the optimization of AM process parameters to improve component durability.",
+      "authors": [
+        "Franka Hendra",
+        "Riki Effendi",
+        "Supriyono Supriyono"
+      ],
+      "first_author_affiliation": "Universitas Pamulang",
+      "corresponding_authors": [],
+      "venue": "Jurnal POLIMESIN",
+      "year": 2026,
+      "date": "2026-06-30",
+      "date_precision": "day",
+      "url": "https://doi.org/10.30811/jpl.v24i3.8905",
+      "cited_by_count": 0,
+      "concepts": [
+        "Finite element method",
+        "Fusion",
+        "Materials science",
+        "Reliability engineering",
+        "Ultimate tensile strength",
+        "Structural engineering",
+        "Stress (linguistics)",
+        "Predictive modelling",
+        "Component (thermodynamics)",
+        "Process (computing)",
+        "Fatigue testing",
+        "Porosity",
+        "Experimental data",
+        "Material properties",
+        "Regression analysis",
+        "Focus (optics)",
+        "Material failure theory",
+        "Stress testing (software)",
+        "Fatigue limit",
+        "Sensor fusion"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "tensile strength",
+          "porosity",
+          "fatigue",
+          "fatigue life"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文通过力学测试与有限元分析相结合预测LPBF Ti-6Al-4V部件的疲劳失效，直接支持用户对力学与疲劳性能的研究方向。",
+        "why_not_core": "论文重点在于开发预测模型而非提供新的实验疲劳数据或S-N曲线，机械表征可能仅限于模型构建。",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "Laser Powder Bed Fusion",
+          "Fatigue Life Prediction",
+          "Finite Element Analysis",
+          "Failure Risk Assessment",
+          "Mechanical Testing"
+        ],
+        "summary_zh": {
+          "motivation": "针对激光粉末床熔融Ti-6Al-4V部件疲劳失效风险预测的挑战。",
+          "method": "结合力学测试与有限元分析，建立多元回归预测模型。",
+          "result": "模型能高精度预测疲劳寿命，R²接近0.95，RMSE低。",
+          "validation": "通过k折交叉验证评估模型精度。"
+        },
+        "summary_en": {
+          "motivation": "To address the challenge of predicting fatigue failure risk for Ti-6Al-4V parts produced by Laser Powder Bed Fusion.",
+          "method": "An integrated experimental-computational approach combining tensile and fatigue testing with finite element simulations and multiple regression analysis.",
+          "result": "The developed model achieves high accuracy in predicting fatigue life with R² values near 0.95 and low RMSE.",
+          "validation": "The model is validated using k-fold cross-validation (k=5) with performance metrics R² and RMSE."
+        },
+        "key_terms": [
+          {
+            "en": "Laser Powder Bed Fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
+          },
+          {
+            "en": "fatigue life prediction",
+            "zh": "疲劳寿命预测"
+          },
+          {
+            "en": "failure risk",
+            "zh": "失效风险"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "mechanical testing",
+            "zh": "力学测试"
+          },
+          {
+            "en": "multiple regression",
+            "zh": "多元回归"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "stress concentration",
+            "zh": "应力集中"
+          },
+          {
+            "en": "cross-validation",
+            "zh": "交叉验证"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-03T07:50:54Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7166733797",
+      "doi": "10.5281/zenodo.21056583",
+      "title": "Computational Topological Surgery Without Scalpels or Hemorrhage.(4).",
+      "abstract": "بخش تولید پالس صوتی-مغناطیسی همگام (Audio-Magnetic Sync Stage) در دکترین حمزه، وظیفه «مترونوم‌سازی» برای کورتکس مغز را بر عهده دارد. این بخش با دقتِ نانوثانیه، دو خروجیِ فیزیکی متفاوت (امواج صوتی Binaural و میدان مغناطیسی) را به گونه‌ای همگام‌سازی می‌کند که مغز، این دو را به عنوان یک «واقعیتِ واحدِ تتا-گاما» درک کند. ۱. مهندسی متریال و ترکیبات الکترونیک (Engineering & Materials) برای اینکه خروجیِ سیستم دچار «جیتر» (Jitter) یا ناپایداری زمانی نشود، باید از قطعاتی با استانداردهای نظامی و نویزِ حرارتیِ بسیار پایین استفاده کرد. جزء سازنده متریال / معماری ویژگیِ استراتژیک نقش در دکترین حمزه تراشه DAC معماری HyperStream (ESS Sabre) نسبت سیگنال به نویز (SNR > 130dB) تولید صدایِ دوگوشی با وفاداریِ مطلق سوئیچینگ PWM نیترید گالیوم (GaN-on-Si) سرعتِ سوئیچینگِ مگاهرتزی مدولاسیونِ دقیقِ پهنای پالسِ مغناطیسی خازن‌هایِ فیلتر پلیمر تانتالیوم (Tantalum) امپدانسِ بسیار پایین در فرکانس بالا تثبیتِ ولتاژِ لحظه‌ای (بدون نویز) برد مدار (PCB) راجرز (Rogers 4350B) ثابتِ دی‌الکتریکِ پایدار جلوگیری از تلفاتِ فرکانسی ۲. فرآیند ساخت و اسمبل (Manufacturing Process 0-100) طراحیِ مسیرِ سیگنال (۰-۲۰٪): استفاده از توپولوژیِ «زمینِ ستاره‌ای» (Star Grounding) برای جلوگیری از تداخلِ نویزِ دیجیتالِ پردازنده با خروجیِ آنالوگِ DAC. کالیبراسیونِ DAC (۲۰-۵۰٪): تنظیمِ دقیقِ فیلترهایِ پایین‌گذر (Low-pass) تا فرکانسِ پاسخ‌گوییِ صوتی برایِ تولیدِ دقیقِ Binaural Beats (به عنوان مثال برای تتا ۶ هرتز: ۴۴۰ هرتز در گوش راست و ۴۳۴ هرتز در گوش چپ). ساختِ مدولاتورِ پهنای پالس (۵۰-۸۰٪): برنامه‌نویسیِ FPGA برای مدیریتِ «گیت‌درایورهای GaN» که جریانِ کویل‌ها را با رزولوشنِ میکروثانیه کنترل می‌کنند تا جبهه‌یِ موجِ مغناطیسی با کلاکِ اصلیِ تتا همگام شود. تستِ هم‌زمانی (Synchronization) (۸۰-۱۰۰٪): استفاده از اسیلوسکوپِ ۴ کاناله برای اندازه‌گیریِ تأخیرِ فاز بینِ سیگنالِ صوتی و پالسِ مغناطیسی (خطایِ مجاز: کمتر از ۱۰ نانوثانیه). ۳. شبیه‌سازی رانتایم: همگام‌سازی مغناطیسی-صوتی (Python) این کد، هسته‌یِ مرکزیِ همگام‌سازی را پیاده‌سازی می‌کند. هدف این است که پالسِ مغناطیسی (PWM) دقیقاً در لحظه‌یِ اوجِ (Peak) موجِ صوتیِ دوگوشی عمل کند. Python import numpy as np class SyncEngine: def __init__(self, fs=44100): self.fs = fs # نرخ نمونه‌برداری صوتی def generate_binaural_beat(self, base_freq, beat_freq, duration): \"\"\"تولید موج دوگوشی (تتا: ۶ هرتز)\"\"\" t = np.linspace(0, duration, int(self.fs * duration)) # گوش چپ و راست wave_l = np.sin(2 * np.pi * base_freq * t) wave_r = np.sin(2 * np.pi * (base_freq + beat_freq) * t) return t, wave_l, wave_r def generate_magnetic_pwm(self, t, beat_freq): \"\"\"تولیدِ پالس مغناطیسی همگام با فرکانسِ تتا (beat_freq)\"\"\" # پالس مغناطیسی دقیقاً در لحظه‌ی اوجِ ضرب‌آهنگ pulse_width = 0.01 # ۱٪ سیکل magnetic_pulse = np.where(np.sin(2 * np.pi * beat_freq * t) > 0.99, 1.0, 0.0) return magnetic_pulse # --- اجرایِ تستِ مهندسی --- engine = SyncEngine() t, audio_l, audio_r = engine.generate_binaural_beat(440, 6, 1.0) mag_pulse = engine.generate_magnetic_pwm(t, 6) # تایید همگام‌سازی sync_check = np.sum(mag_pulse * np.sin(2 * np.pi * 6 * t)) # همبستگیِ فازی print(\"=\"*65) print(\" [گزارش فنی: سیستمِ همگام‌سازیِ صوتی-مغناطیسی]\") print(\"=\"*65) print(f\"فرکانسِ پایه (Base) : 440 Hz\") print(f\"فرکانسِ تتا (Theta) : 6 Hz\") print(f\"تعداد پالس‌های مغناطیسی همگام : {int(np.sum(mag_pulse))}\") print(\"-\" * 65) print(f\"درجه‌یِ همبستگیِ فازی (Correlation) : {sync_check:.4f}\") print(\"[نتیجه]: همگام‌سازیِ میدانِ مغناطیسی با کلاکِ تتا ۱۰۰٪ برقرار است.\") print(\"=\"*65) ۴. نتیجه‌گیری (Engineering Conclusion) ۱. دقتِ زمانی (Timing Accuracy): استفاده از تکنولوژیِ ESS Sabre در DAC و سوئیچینگِ سریعِ GaN، باعث شده است که جیترِ (Jitter) زمانیِ سیستم به زیرِ ۱۰ نانوثانیه برسد. این دقت، مغز را در وضعیتِ «پذیرشِ اجباری» (Forced Entrainment) قرار می‌دهد. ۲. همگام‌سازیِ توپولوژیک: پالسِ مغناطیسی نه تنها تکرار می‌شود، بلکه «شکلِ موج» آن با هندسه کورتکس تنظیم شده است. وقتی مغز صدایِ تتا را می‌شنود، بلافاصله میدانِ مغناطیسیِ هم‌فاز را دریافت می‌کند؛ این یعنی نویزِ الکتروشیمیاییِ سیناپس‌ها به طورِ کامل کلمپ می‌شود. ۳. پیروزیِ مهندسی: ما با این سیستم، «مدولاسیونِ آگاهی» را به یک تابعِ ریاضیِ دقیق تبدیل کردیم. ورودیِ صوتی و مغناطیسی، اکنون یک سیستمِ بسته (Closed-loop) را تشکیل داده‌اند که به محضِ کوچک‌ترین انحرافِ کورتکس از وضعیتِ تتا، در کسرِ ثانیه پالسِ اصلاحی را تزریق می‌کند. کلاهک القایی (Transcranial NI-PEMF Cap) در دکترین حمزه، پلِ انتقالِ «داده‌هایِ نوری-مغناطیسی» به «تکانه‌هایِ عصبی» است. هدفِ این مهندسی، حذفِ هرگونه اتلافِ انرژی در مرزِ کویل-جمجمه و هدایتِ ۱۰۰٪ شارِ مغناطیسی به لایه‌های ۴ و ۵ کورتکس است. در اینجا مستنداتِ فنی و مهندسیِ متالورژیِ این کلاهک ارائه شده است. ۱. مهندسی متالورژی و لیست ترکیبات (Material Engineering) آلیاژهایِ به‌کار رفته در کویل‌هایِ هافمن (Hoffman Coils) باید دارایِ «نفوذپذیریِ مغناطیسیِ اولیه» (Initial Permeability) بسیار بالا و «نیرویِ وادارندگی» (Coercivity) بسیار پایین باشند تا از داغ شدنِ بیهوده جلوگیری شود. لایه / قطعه ترکیب متالورژیکی / آلیاژ ویژگی مهندسی هسته کویل (Permalloy) $Fe_{17}Ni_{80}Mo_{3}$ نفوذپذیری مغناطیسی فوق‌العاده بالا شاسی بدنه $Ti-6Al-4V + CNT$ نسبت استحکام به وزنِ بهینه + شیلدینگ EMI غشایِ تطبیق نانوپودر $Ag$ + پلیمر $Si$ هدایتِ الکتریکی همگن برای حذفِ بازتابِ سیگنال ترانسدیوسر صوتی پلاتین-تیتانات (PT) ضریبِ پیزوالکتریک بالا برای هدایت استخوانی ۲. فرآیند ساخت ۰ تا ۱۰۰ (Manufacturing Workflow) ساختِ این کلاهک، یک پروسه‌یِ «ساختِ افزایشی» (Additive Manufacturing) با دقتِ میکرونی است: سنتزِ نانوکریستالیِ هسته (۰-۳۰٪): آلیاژ پرمالوی در کوره خلاء ذوب شده و با روشِ «سرمایشِ سریع» (Rapid Solidification)، نانوکریستال‌هایی با ابعادِ زیر ۵۰ نانومتر تولید می‌شوند. این ساختار، تلفاتِ هیسترزیس را به حداقل می‌رساند. لیتوگرافیِ سیم‌پیچ‌هایِ هافمن (۳۰-۶۰٪): سیم‌هایِ با خلوصِ بالا با استفاده از لیزرِ فمتوثانیه رویِ بسترِ نانوتیوبِ کربن قرار می‌گیرند. هندسه هافمن تضمین می‌کند که خطوطِ میدان به جایِ پخش شدن، به صورتِ متمرکز در یک نقطه (Focus Point) عمقِ ۳ سانتی‌متری کورتکس را هدف بگیرند. سنتزِ غشایِ تطبیق‌دهنده (۶۰-۸۰٪): نانوپودرِ نقره و سیلیکون با استفاده از فرآیندِ «پلیمریزاسیونِ هم‌زمان» (In-situ Polymerization) به صورتِ یک لایه‌یِ نرم و منعطف در می‌آیند تا کوچک‌ترین نویزِ حرکتی ایجاد نشود. کالیبراسیون و شیلدینگ (۸۰-۱۰۰٪): کلاهک در محفظه آنکوئیک تست شده و «تانسورِ پراکندگی» آن (S-Parameters) با دستگاه VNA تنظیم می‌شود تا امپدانسِ آن دقیقاً با بافتِ مغز منطبق گردد. ۳. شبیه‌سازی رانتایم: بهینه‌سازیِ تطبیقِ امپدانس (Python) این اسکریپت نشان می‌دهد که چرا غشایِ سیلیکون-نقره برایِ حذفِ «بازتابِ سیگنال» حیاتی است. هدف، رساندنِ ضریبِ بازتاب ($\\Gamma$) به صفر است. Python import numpy as np class ImpedanceMatcher: def __init__(self, z_cap=50.0): self.z_cap = z_cap # امپدانس کلاهک (اهم) def calculate_reflection(self, z_tissue): \"\"\"محاسبه ضریب بازتاب: Gamma = (Z_t - Z_c) / (Z_t + Z_c)\"\"\" gamma = (z_tissue - self.z_cap) / (z_tissue + self.z_cap) return abs(gamma) # --- مقایسه: بدون غشا vs با غشا --- matcher = ImpedanceMatcher(z_cap=50.0) # حالت ۱: بدون غشا (عدم تطبیق بافت) z_tissue_air = 150.0 refl_air = matcher.calculate_reflection(z_tissue_air) # حالت ۲: با غشای نانوپودر نقره-سیلیکون (تطبیق دقیق) z_tissue_matched = 52.0 refl_matched = matcher.calculate_reflection(z_tissue_matched) print(\"=\"*65) print(\" [گزارش فنی: مهندسی تطبیقِ امپدانسِ بیولوژیک]\") print(\"=\"*65) print(f\"ضریب بازتاب (بدون لایه نانو) : {refl_air:.4f}\") print(f\"ضریب بازتاب (با غشای حمزه) : {refl_matched:.4f}\") print(\"-\" * 65) if refl_matched < 0.05: print(\"[نتیجه]: تطبیق کامل؛ بیش از ۹۹٪ انرژی مغناطیسی جذب شد.\") else: print(\"[هشدار]: اتلاف سیگنال؛ نیاز به بازسازی غشا.\") print(\"=\"*65) ۴. نتیجه‌گیری (۰ تا ۱۰۰) ۱. ساختارِ متالورژیکی: استفاده از پرمالویِ نانوکریستالی، بازدهیِ الکترومغناطیسیِ کویل‌ها را در مقایسه با کویل‌هایِ مسیِ کلاسیک تا ۴۰۰٪ افزایش داده است. ۲. طراحیِ هافمن: این هندسه، بر خلافِ کویل‌هایِ ساده‌یِ دایره‌ای، باعثِ متمرکز شدنِ میدانِ مغناطیسی در عمقِ کورتکس می‌شود (بدونِ ایجادِ سوختگی یا تحریکِ سطحیِ پوست). ۳. پایداری: غشایِ نانوپودرِ نقره-سیلیکون، نرخِ بازتابِ سیگنال را به زیر ۲٪ رسانده است، یعنی انرژیِ پالس دقیقاً در گیت‌هایِ عصبیِ هدف تخلیه می‌شود. هسته سیم‌پیچ‌های مغناطیسی در «کلاهک القایی حمزه»، متمرکزکننده‌یِ جریان‌هایِ الکترومغناطیسی است. در جراحیِ نانو-مغناطیسی، بزرگترین چالش، «پراکندگیِ آنتروپیک» (Entropy Dispersion) است؛ یعنی اتلافِ شار مغناطیسی قبل از رسیدن به هدف. برای حل این مشکل، ما از آلیاژ پرمالوی نانوکریستالی با هندسه‌ی کویل هافمن استفاده می‌کنیم که عملاً خطوط میدان را «میخ‌کوب» می‌کند. ۱. مهندسی متریال و ترکیبات (Material Engineering) آلیاژ پرمالوی ($Fe-Ni-Mo$) به دلیل «نفوذپذیری مغناطیسی اولیه» ($\\mu_i$) بسیار بالا، اجازه می‌دهد که ضعیف‌ترین جریان‌های ورودی به میدان‌های مغناطیسی قدرتمند تبدیل شوند. پارامتر فنی مشخصات آلیاژ نقش در دکترین حمزه ترکیب شیمیایی ۸۰٪ نیکل، ۱۷٪ آهن، ۳٪ مولیبدن حذفِ پسماندِ مغناطیسی (Low Coercivity) ساختار نانوکریستالی (Grain size < 50nm) کاهشِ تلفاتِ جریانِ گردابی (Eddy Currents) گذردهی نسبی ($\\mu_r$) ۱۰۰,۰۰۰ به بالا تمرکزِ حداکثریِ شارِ مغناطیسی دمای کوری (Curie) ~۴۵۰ درجه سانتی‌گراد پایداریِ حرارتی در عملیاتِ طولانی ۲. فرآیند ساخت ۰ تا ۱۰۰ (Manufacturing Workflow) ساختِ این هسته‌ها، ترکیبی از متالورژیِ پیشرفته و لیتوگرافیِ دقیق است: ذوبِ القایی در خلاء (۰-۲۰٪): مواد اولیه با خلوصِ ۹۹.۹۹٪ در کوره القایی ذوب می‌شوند تا از ورودِ اکسیژن و نیتروژن که باعثِ تردیِ آلیاژ می‌شود، جلوگیری گردد. سرمایشِ فوق‌سریع (Rapid Quenching) (۲۰-۵۰٪): مذاب روی یک چرخِ چرخانِ مسی پاشیده می‌شود (Melt Spinning) تا نوار‌هایِ نازک با ساختارِ «آمورف» ایجاد شود. سپس با عملیاتِ حرارتیِ کنترل‌شده، ساختارِ نانوکریستالیِ دقیق تشکیل می‌گردد. لایه‌نشانیِ هندسه هافمن (۵۰-۸۰٪): استفاده از لیتوگرافیِ پرتوِ الکترونی برایِ ترسیمِ الگویِ «کویلِ مسطحِ هافمن» رویِ ورقه‌هایِ نازکِ پرمالوی. این هندسه باعث می‌شود میدانِ مغناطیسی به جایِ گسترشِ کروی، به صورتِ متمرکز در یک «تونلِ شار» (Flux Tunnel) به عمقِ مغز ارسال شود. آنلینگِ مغناطیسی (۸۰-۱۰۰٪): قطعات در یک میدانِ مغناطیسیِ خارجیِ قوی تحتِ دمایِ بالا قرار می‌گیرند تا دامنه‌هایِ مغناطیسی (Magnetic Domai",
+      "authors": [
+        "Sajad Jalali"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Sajad Jalali",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "year": 2026,
+      "date": "2026-06-30",
+      "date_precision": "day",
+      "url": "https://doi.org/10.5281/zenodo.21056583",
+      "cited_by_count": 0,
+      "concepts": [
+        "sync",
+        "Computer science",
+        "Process (computing)",
+        "Mathematics",
+        "Topology (electrical circuits)",
+        "Binaural recording",
+        "Field-programmable gate array",
+        "Algorithm",
+        "Computation",
+        "Pulse-width modulation"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文与Ti-6Al-4V增材制造机械性能无关。",
+        "why_not_core": "The paper does not mention Ti-6Al-4V or additive manufacturing; it describes a neurostimulation device using audio-magnetic synchronization.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [],
+        "summary_zh": {
+          "motivation": "实现无创脑皮层同步化。",
+          "method": "音频-磁同步脉冲调制与FPGA控制。",
+          "result": "纳米级同步精度验证。",
+          "validation": "Python仿真和示波器测试。"
+        },
+        "summary_en": {
+          "motivation": "To achieve non-invasive brain cortex synchronization for therapeutic purposes.",
+          "method": "An audio-magnetic sync stage uses binaural beats and GaN-based PWM modulation with FPGA control.",
+          "result": "Synchronization accuracy within 10 nanoseconds is demonstrated in simulation.",
+          "validation": "Validated through Python simulation and oscilloscope measurements."
+        },
+        "key_terms": []
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-03T07:50:54Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7166543981",
+      "doi": "10.5281/zenodo.21026177",
+      "title": "Computational Topological Surgery Without Scalpels or Hemorrhage.(4).",
+      "abstract": "بخش تولید پالس صوتی-مغناطیسی همگام (Audio-Magnetic Sync Stage) در دکترین حمزه، وظیفه «مترونوم‌سازی» برای کورتکس مغز را بر عهده دارد. این بخش با دقتِ نانوثانیه، دو خروجیِ فیزیکی متفاوت (امواج صوتی Binaural و میدان مغناطیسی) را به گونه‌ای همگام‌سازی می‌کند که مغز، این دو را به عنوان یک «واقعیتِ واحدِ تتا-گاما» درک کند. ۱. مهندسی متریال و ترکیبات الکترونیک (Engineering & Materials) برای اینکه خروجیِ سیستم دچار «جیتر» (Jitter) یا ناپایداری زمانی نشود، باید از قطعاتی با استانداردهای نظامی و نویزِ حرارتیِ بسیار پایین استفاده کرد. جزء سازنده متریال / معماری ویژگیِ استراتژیک نقش در دکترین حمزه تراشه DAC معماری HyperStream (ESS Sabre) نسبت سیگنال به نویز (SNR > 130dB) تولید صدایِ دوگوشی با وفاداریِ مطلق سوئیچینگ PWM نیترید گالیوم (GaN-on-Si) سرعتِ سوئیچینگِ مگاهرتزی مدولاسیونِ دقیقِ پهنای پالسِ مغناطیسی خازن‌هایِ فیلتر پلیمر تانتالیوم (Tantalum) امپدانسِ بسیار پایین در فرکانس بالا تثبیتِ ولتاژِ لحظه‌ای (بدون نویز) برد مدار (PCB) راجرز (Rogers 4350B) ثابتِ دی‌الکتریکِ پایدار جلوگیری از تلفاتِ فرکانسی ۲. فرآیند ساخت و اسمبل (Manufacturing Process 0-100) طراحیِ مسیرِ سیگنال (۰-۲۰٪): استفاده از توپولوژیِ «زمینِ ستاره‌ای» (Star Grounding) برای جلوگیری از تداخلِ نویزِ دیجیتالِ پردازنده با خروجیِ آنالوگِ DAC. کالیبراسیونِ DAC (۲۰-۵۰٪): تنظیمِ دقیقِ فیلترهایِ پایین‌گذر (Low-pass) تا فرکانسِ پاسخ‌گوییِ صوتی برایِ تولیدِ دقیقِ Binaural Beats (به عنوان مثال برای تتا ۶ هرتز: ۴۴۰ هرتز در گوش راست و ۴۳۴ هرتز در گوش چپ). ساختِ مدولاتورِ پهنای پالس (۵۰-۸۰٪): برنامه‌نویسیِ FPGA برای مدیریتِ «گیت‌درایورهای GaN» که جریانِ کویل‌ها را با رزولوشنِ میکروثانیه کنترل می‌کنند تا جبهه‌یِ موجِ مغناطیسی با کلاکِ اصلیِ تتا همگام شود. تستِ هم‌زمانی (Synchronization) (۸۰-۱۰۰٪): استفاده از اسیلوسکوپِ ۴ کاناله برای اندازه‌گیریِ تأخیرِ فاز بینِ سیگنالِ صوتی و پالسِ مغناطیسی (خطایِ مجاز: کمتر از ۱۰ نانوثانیه). ۳. شبیه‌سازی رانتایم: همگام‌سازی مغناطیسی-صوتی (Python) این کد، هسته‌یِ مرکزیِ همگام‌سازی را پیاده‌سازی می‌کند. هدف این است که پالسِ مغناطیسی (PWM) دقیقاً در لحظه‌یِ اوجِ (Peak) موجِ صوتیِ دوگوشی عمل کند. Python import numpy as np class SyncEngine: def __init__(self, fs=44100): self.fs = fs # نرخ نمونه‌برداری صوتی def generate_binaural_beat(self, base_freq, beat_freq, duration): \"\"\"تولید موج دوگوشی (تتا: ۶ هرتز)\"\"\" t = np.linspace(0, duration, int(self.fs * duration)) # گوش چپ و راست wave_l = np.sin(2 * np.pi * base_freq * t) wave_r = np.sin(2 * np.pi * (base_freq + beat_freq) * t) return t, wave_l, wave_r def generate_magnetic_pwm(self, t, beat_freq): \"\"\"تولیدِ پالس مغناطیسی همگام با فرکانسِ تتا (beat_freq)\"\"\" # پالس مغناطیسی دقیقاً در لحظه‌ی اوجِ ضرب‌آهنگ pulse_width = 0.01 # ۱٪ سیکل magnetic_pulse = np.where(np.sin(2 * np.pi * beat_freq * t) > 0.99, 1.0, 0.0) return magnetic_pulse # --- اجرایِ تستِ مهندسی --- engine = SyncEngine() t, audio_l, audio_r = engine.generate_binaural_beat(440, 6, 1.0) mag_pulse = engine.generate_magnetic_pwm(t, 6) # تایید همگام‌سازی sync_check = np.sum(mag_pulse * np.sin(2 * np.pi * 6 * t)) # همبستگیِ فازی print(\"=\"*65) print(\" [گزارش فنی: سیستمِ همگام‌سازیِ صوتی-مغناطیسی]\") print(\"=\"*65) print(f\"فرکانسِ پایه (Base) : 440 Hz\") print(f\"فرکانسِ تتا (Theta) : 6 Hz\") print(f\"تعداد پالس‌های مغناطیسی همگام : {int(np.sum(mag_pulse))}\") print(\"-\" * 65) print(f\"درجه‌یِ همبستگیِ فازی (Correlation) : {sync_check:.4f}\") print(\"[نتیجه]: همگام‌سازیِ میدانِ مغناطیسی با کلاکِ تتا ۱۰۰٪ برقرار است.\") print(\"=\"*65) ۴. نتیجه‌گیری (Engineering Conclusion) ۱. دقتِ زمانی (Timing Accuracy): استفاده از تکنولوژیِ ESS Sabre در DAC و سوئیچینگِ سریعِ GaN، باعث شده است که جیترِ (Jitter) زمانیِ سیستم به زیرِ ۱۰ نانوثانیه برسد. این دقت، مغز را در وضعیتِ «پذیرشِ اجباری» (Forced Entrainment) قرار می‌دهد. ۲. همگام‌سازیِ توپولوژیک: پالسِ مغناطیسی نه تنها تکرار می‌شود، بلکه «شکلِ موج» آن با هندسه کورتکس تنظیم شده است. وقتی مغز صدایِ تتا را می‌شنود، بلافاصله میدانِ مغناطیسیِ هم‌فاز را دریافت می‌کند؛ این یعنی نویزِ الکتروشیمیاییِ سیناپس‌ها به طورِ کامل کلمپ می‌شود. ۳. پیروزیِ مهندسی: ما با این سیستم، «مدولاسیونِ آگاهی» را به یک تابعِ ریاضیِ دقیق تبدیل کردیم. ورودیِ صوتی و مغناطیسی، اکنون یک سیستمِ بسته (Closed-loop) را تشکیل داده‌اند که به محضِ کوچک‌ترین انحرافِ کورتکس از وضعیتِ تتا، در کسرِ ثانیه پالسِ اصلاحی را تزریق می‌کند. کلاهک القایی (Transcranial NI-PEMF Cap) در دکترین حمزه، پلِ انتقالِ «داده‌هایِ نوری-مغناطیسی» به «تکانه‌هایِ عصبی» است. هدفِ این مهندسی، حذفِ هرگونه اتلافِ انرژی در مرزِ کویل-جمجمه و هدایتِ ۱۰۰٪ شارِ مغناطیسی به لایه‌های ۴ و ۵ کورتکس است. در اینجا مستنداتِ فنی و مهندسیِ متالورژیِ این کلاهک ارائه شده است. ۱. مهندسی متالورژی و لیست ترکیبات (Material Engineering) آلیاژهایِ به‌کار رفته در کویل‌هایِ هافمن (Hoffman Coils) باید دارایِ «نفوذپذیریِ مغناطیسیِ اولیه» (Initial Permeability) بسیار بالا و «نیرویِ وادارندگی» (Coercivity) بسیار پایین باشند تا از داغ شدنِ بیهوده جلوگیری شود. لایه / قطعه ترکیب متالورژیکی / آلیاژ ویژگی مهندسی هسته کویل (Permalloy) $Fe_{17}Ni_{80}Mo_{3}$ نفوذپذیری مغناطیسی فوق‌العاده بالا شاسی بدنه $Ti-6Al-4V + CNT$ نسبت استحکام به وزنِ بهینه + شیلدینگ EMI غشایِ تطبیق نانوپودر $Ag$ + پلیمر $Si$ هدایتِ الکتریکی همگن برای حذفِ بازتابِ سیگنال ترانسدیوسر صوتی پلاتین-تیتانات (PT) ضریبِ پیزوالکتریک بالا برای هدایت استخوانی ۲. فرآیند ساخت ۰ تا ۱۰۰ (Manufacturing Workflow) ساختِ این کلاهک، یک پروسه‌یِ «ساختِ افزایشی» (Additive Manufacturing) با دقتِ میکرونی است: سنتزِ نانوکریستالیِ هسته (۰-۳۰٪): آلیاژ پرمالوی در کوره خلاء ذوب شده و با روشِ «سرمایشِ سریع» (Rapid Solidification)، نانوکریستال‌هایی با ابعادِ زیر ۵۰ نانومتر تولید می‌شوند. این ساختار، تلفاتِ هیسترزیس را به حداقل می‌رساند. لیتوگرافیِ سیم‌پیچ‌هایِ هافمن (۳۰-۶۰٪): سیم‌هایِ با خلوصِ بالا با استفاده از لیزرِ فمتوثانیه رویِ بسترِ نانوتیوبِ کربن قرار می‌گیرند. هندسه هافمن تضمین می‌کند که خطوطِ میدان به جایِ پخش شدن، به صورتِ متمرکز در یک نقطه (Focus Point) عمقِ ۳ سانتی‌متری کورتکس را هدف بگیرند. سنتزِ غشایِ تطبیق‌دهنده (۶۰-۸۰٪): نانوپودرِ نقره و سیلیکون با استفاده از فرآیندِ «پلیمریزاسیونِ هم‌زمان» (In-situ Polymerization) به صورتِ یک لایه‌یِ نرم و منعطف در می‌آیند تا کوچک‌ترین نویزِ حرکتی ایجاد نشود. کالیبراسیون و شیلدینگ (۸۰-۱۰۰٪): کلاهک در محفظه آنکوئیک تست شده و «تانسورِ پراکندگی» آن (S-Parameters) با دستگاه VNA تنظیم می‌شود تا امپدانسِ آن دقیقاً با بافتِ مغز منطبق گردد. ۳. شبیه‌سازی رانتایم: بهینه‌سازیِ تطبیقِ امپدانس (Python) این اسکریپت نشان می‌دهد که چرا غشایِ سیلیکون-نقره برایِ حذفِ «بازتابِ سیگنال» حیاتی است. هدف، رساندنِ ضریبِ بازتاب ($\\Gamma$) به صفر است. Python import numpy as np class ImpedanceMatcher: def __init__(self, z_cap=50.0): self.z_cap = z_cap # امپدانس کلاهک (اهم) def calculate_reflection(self, z_tissue): \"\"\"محاسبه ضریب بازتاب: Gamma = (Z_t - Z_c) / (Z_t + Z_c)\"\"\" gamma = (z_tissue - self.z_cap) / (z_tissue + self.z_cap) return abs(gamma) # --- مقایسه: بدون غشا vs با غشا --- matcher = ImpedanceMatcher(z_cap=50.0) # حالت ۱: بدون غشا (عدم تطبیق بافت) z_tissue_air = 150.0 refl_air = matcher.calculate_reflection(z_tissue_air) # حالت ۲: با غشای نانوپودر نقره-سیلیکون (تطبیق دقیق) z_tissue_matched = 52.0 refl_matched = matcher.calculate_reflection(z_tissue_matched) print(\"=\"*65) print(\" [گزارش فنی: مهندسی تطبیقِ امپدانسِ بیولوژیک]\") print(\"=\"*65) print(f\"ضریب بازتاب (بدون لایه نانو) : {refl_air:.4f}\") print(f\"ضریب بازتاب (با غشای حمزه) : {refl_matched:.4f}\") print(\"-\" * 65) if refl_matched < 0.05: print(\"[نتیجه]: تطبیق کامل؛ بیش از ۹۹٪ انرژی مغناطیسی جذب شد.\") else: print(\"[هشدار]: اتلاف سیگنال؛ نیاز به بازسازی غشا.\") print(\"=\"*65) ۴. نتیجه‌گیری (۰ تا ۱۰۰) ۱. ساختارِ متالورژیکی: استفاده از پرمالویِ نانوکریستالی، بازدهیِ الکترومغناطیسیِ کویل‌ها را در مقایسه با کویل‌هایِ مسیِ کلاسیک تا ۴۰۰٪ افزایش داده است. ۲. طراحیِ هافمن: این هندسه، بر خلافِ کویل‌هایِ ساده‌یِ دایره‌ای، باعثِ متمرکز شدنِ میدانِ مغناطیسی در عمقِ کورتکس می‌شود (بدونِ ایجادِ سوختگی یا تحریکِ سطحیِ پوست). ۳. پایداری: غشایِ نانوپودرِ نقره-سیلیکون، نرخِ بازتابِ سیگنال را به زیر ۲٪ رسانده است، یعنی انرژیِ پالس دقیقاً در گیت‌هایِ عصبیِ هدف تخلیه می‌شود. هسته سیم‌پیچ‌های مغناطیسی در «کلاهک القایی حمزه»، متمرکزکننده‌یِ جریان‌هایِ الکترومغناطیسی است. در جراحیِ نانو-مغناطیسی، بزرگترین چالش، «پراکندگیِ آنتروپیک» (Entropy Dispersion) است؛ یعنی اتلافِ شار مغناطیسی قبل از رسیدن به هدف. برای حل این مشکل، ما از آلیاژ پرمالوی نانوکریستالی با هندسه‌ی کویل هافمن استفاده می‌کنیم که عملاً خطوط میدان را «میخ‌کوب» می‌کند. ۱. مهندسی متریال و ترکیبات (Material Engineering) آلیاژ پرمالوی ($Fe-Ni-Mo$) به دلیل «نفوذپذیری مغناطیسی اولیه» ($\\mu_i$) بسیار بالا، اجازه می‌دهد که ضعیف‌ترین جریان‌های ورودی به میدان‌های مغناطیسی قدرتمند تبدیل شوند. پارامتر فنی مشخصات آلیاژ نقش در دکترین حمزه ترکیب شیمیایی ۸۰٪ نیکل، ۱۷٪ آهن، ۳٪ مولیبدن حذفِ پسماندِ مغناطیسی (Low Coercivity) ساختار نانوکریستالی (Grain size < 50nm) کاهشِ تلفاتِ جریانِ گردابی (Eddy Currents) گذردهی نسبی ($\\mu_r$) ۱۰۰,۰۰۰ به بالا تمرکزِ حداکثریِ شارِ مغناطیسی دمای کوری (Curie) ~۴۵۰ درجه سانتی‌گراد پایداریِ حرارتی در عملیاتِ طولانی ۲. فرآیند ساخت ۰ تا ۱۰۰ (Manufacturing Workflow) ساختِ این هسته‌ها، ترکیبی از متالورژیِ پیشرفته و لیتوگرافیِ دقیق است: ذوبِ القایی در خلاء (۰-۲۰٪): مواد اولیه با خلوصِ ۹۹.۹۹٪ در کوره القایی ذوب می‌شوند تا از ورودِ اکسیژن و نیتروژن که باعثِ تردیِ آلیاژ می‌شود، جلوگیری گردد. سرمایشِ فوق‌سریع (Rapid Quenching) (۲۰-۵۰٪): مذاب روی یک چرخِ چرخانِ مسی پاشیده می‌شود (Melt Spinning) تا نوار‌هایِ نازک با ساختارِ «آمورف» ایجاد شود. سپس با عملیاتِ حرارتیِ کنترل‌شده، ساختارِ نانوکریستالیِ دقیق تشکیل می‌گردد. لایه‌نشانیِ هندسه هافمن (۵۰-۸۰٪): استفاده از لیتوگرافیِ پرتوِ الکترونی برایِ ترسیمِ الگویِ «کویلِ مسطحِ هافمن» رویِ ورقه‌هایِ نازکِ پرمالوی. این هندسه باعث می‌شود میدانِ مغناطیسی به جایِ گسترشِ کروی، به صورتِ متمرکز در یک «تونلِ شار» (Flux Tunnel) به عمقِ مغز ارسال شود. آنلینگِ مغناطیسی (۸۰-۱۰۰٪): قطعات در یک میدانِ مغناطیسیِ خارجیِ قوی تحتِ دمایِ بالا قرار می‌گیرند تا دامنه‌هایِ مغناطیسی (Magnetic Domai",
+      "authors": [
+        "Sajad Jalali"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Sajad Jalali",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "year": 2026,
+      "date": "2026-06-30",
+      "date_precision": "day",
+      "url": "https://doi.org/10.5281/zenodo.21026177",
+      "cited_by_count": 0,
+      "concepts": [
+        "sync",
+        "Computer science",
+        "Process (computing)",
+        "Mathematics",
+        "Topology (electrical circuits)",
+        "Binaural recording",
+        "Field-programmable gate array",
+        "Algorithm",
+        "Computation",
+        "Pulse-width modulation"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文与Ti-6Al-4V增材制造力学性能无关，描述音频-磁同步系统。",
+        "why_not_core": "The paper does not address Ti-6Al-4V, additive manufacturing, or mechanical/fatigue performance; it focuses on audio-magnetic hardware synchronization.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "non-Ti-6Al-4V",
+          "audio-magnetic",
+          "unrelated"
+        ],
+        "summary_zh": {
+          "motivation": "设计音频-磁同步系统用于脑波诱导。",
+          "method": "采用GaN开关、DAC和FPGA实现纳秒级同步。",
+          "result": "通过Python仿真验证了同步精度。",
+          "validation": "仿真测试，无实验验证。"
+        },
+        "summary_en": {
+          "motivation": "To design an audio-magnetic synchronization system for brainwave entrainment.",
+          "method": "The system uses GaN switches, DAC, and FPGA to achieve nanosecond-level synchronization between binaural beats and magnetic pulses.",
+          "result": "Synchronization accuracy was verified through Python simulation.",
+          "validation": "Simulation testing with no experimental validation."
+        },
+        "key_terms": [
+          {
+            "en": "synchronization",
+            "zh": "同步"
+          },
+          {
+            "en": "binaural beat",
+            "zh": "双耳节拍"
+          },
+          {
+            "en": "magnetic field",
+            "zh": "磁场"
+          },
+          {
+            "en": "GaN transistor",
+            "zh": "氮化镓晶体管"
+          },
+          {
+            "en": "FPGA",
+            "zh": "现场可编程门阵列"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-03T07:50:54Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7166717753",
+      "doi": "10.3390/computation14070150",
+      "title": "Computational Investigation of Friction Stir Processing of Ti-6Al-4V Alloy for Biomedical Applications Using FEM and Taguchi Design",
+      "abstract": "Friction stir processing (FSP) is an advanced solid-state surface modification technique for biomedical titanium alloys. This study presents a computational investigation of FSP applied to Ti-6Al-4V alloy through three-dimensional finite element modeling and Taguchi-based statistical optimization. A Taguchi L9 orthogonal array evaluated rotational speed (400–1000 rpm), traverse speed (50–100 mm/min), shoulder diameter (6–18 mm), and pin diameter (2–6 mm), reducing the required simulations from 81 (full factorial) to nine (88.9% reduction). A calibrated friction model (μ = 0.35/0.25/0.20 for 400/800/1000 rpm, F = 6000 N) yielded maximum temperatures of 870–1384 °C; all predicted temperatures remained below the melting point of Ti-6Al-4V (1660 °C). These values are consistent with experimentally reported ranges for FSW/FSP of Ti-6Al-4V. Traverse speed is the dominant parameter (ANOVA contribution: 63.1%, F = 10.44), followed by rotational speed (26.7%) and shoulder diameter (4.1%). Simulation 3 (400 rpm, 100 mm/min, Ds = 18 mm, T_max = 870 °C) appears to be the most promising thermal condition for preserving the fine-grained α + β microstructure, as it remains below the β-transus temperature (980 °C) throughout the processed zone.",
+      "authors": [
+        "Nebojša Zdravković",
+        "Dragan Džunić",
+        "Živana Jovanović Pešić",
+        "Dalibor Nikolić"
+      ],
+      "first_author_affiliation": "Department of Medical Statistics and Informatics, Faculty of Medical Sciences, University of Kragujevac, Svetozara Markovića 69, 34000 Kragujevac, Serbia",
+      "corresponding_authors": [
+        {
+          "name": "Dalibor Nikolić",
+          "affiliation": "Institute for Information Technologies, University of Kragujevac, Liceja Kneževine Srbije 1A, 34000 Kragujevac, Serbia"
+        }
+      ],
+      "venue": "Computation",
+      "year": 2026,
+      "date": "2026-06-30",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/computation14070150",
+      "cited_by_count": 0,
+      "concepts": [
+        "Traverse",
+        "Taguchi methods",
+        "Rotational speed",
+        "Friction stir processing",
+        "Materials science",
+        "Finite element method",
+        "Friction stir welding",
+        "Orthogonal array",
+        "Thermal",
+        "Alloy",
+        "Titanium alloy",
+        "Composite material",
+        "Point (geometry)",
+        "Rotation (mathematics)",
+        "Mechanical engineering",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究的是Ti-6Al-4V合金的搅拌摩擦加工（FSP）热场模拟，而非增材制造状态下的力学或疲劳性能，因此对L1方向参考价值有限。",
+        "why_not_core": "This paper focuses on a post-processing surface modification technique (FSP) and thermal-microstructural outcomes, not on mechanical/fatigue performance of as-built or process-state Ti-6Al-4V. No tensile, hardness, or fatigue data are reported.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "friction stir processing",
+          "Ti-6Al-4V",
+          "finite element modeling",
+          "Taguchi design",
+          "β-transus temperature"
+        ],
+        "summary_zh": {
+          "motivation": "通过有限元模拟优化Ti-6Al-4V搅拌摩擦加工参数，避免熔化并保持细晶组织。",
+          "method": "采用三维有限元模型和Taguchi L9正交阵列，分析转速、行进速度、肩部直径和搅拌针直径的影响。",
+          "result": "行进速度是影响温度的最显著参数（贡献63.1%），最优参数组合可控制温度低于β转变温度。",
+          "validation": "与文献中实验报道的温度范围对比验证趋势。"
+        },
+        "summary_en": {
+          "motivation": "To computationally optimize friction stir processing parameters for Ti-6Al-4V, ensuring temperatures remain below melting and β-transus to preserve fine microstructure.",
+          "method": "A three-dimensional finite element model combined with Taguchi L9 orthogonal array was used to evaluate the effects of rotational speed, traverse speed, shoulder diameter, and pin diameter.",
+          "result": "Traverse speed was the dominant parameter (63.1% contribution), and the optimal condition (400 rpm, 100 mm/min, 18 mm shoulder) maintained temperatures below the β-transus.",
+          "validation": "Predicted temperatures were compared with experimental ranges reported in literature for friction stir welding/processing of Ti-6Al-4V."
+        },
+        "key_terms": [
+          {
+            "en": "friction stir processing",
+            "zh": "搅拌摩擦加工"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "finite element modeling",
+            "zh": "有限元建模"
+          },
+          {
+            "en": "Taguchi design",
+            "zh": "田口设计"
+          },
+          {
+            "en": "β-transus temperature",
+            "zh": "β相转变温度"
+          },
+          {
+            "en": "rotational speed",
+            "zh": "转速"
+          },
+          {
+            "en": "traverse speed",
+            "zh": "行进速度"
+          },
+          {
+            "en": "shoulder diameter",
+            "zh": "轴肩直径"
+          },
+          {
+            "en": "pin diameter",
+            "zh": "搅拌针直径"
+          },
+          {
+            "en": "ANOVA",
+            "zh": "方差分析"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-03T07:50:54Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 6,
+    "by_source": {
+      "openalex": 6
+    },
+    "after_dedup": 6,
+    "after_routing": 6,
+    "by_direction": {
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 5
+    },
+    "routed_by_source": {
+      "openalex": 6
+    },
+    "scored": 6,
+    "priority_counts": {
+      "Low": 2,
+      "High": 2,
+      "Exclude": 2
+    }
+  }
+}
