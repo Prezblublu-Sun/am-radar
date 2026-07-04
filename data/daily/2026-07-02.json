@@ -1,0 +1,160 @@
+{
+  "schema_version": "v2",
+  "date": "2026-07-02",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7167077206",
+      "doi": "10.1007/s40192-026-00467-0",
+      "title": "Impact of Segmentation Methods on Predicting Fatigue-Initiating Pores from X-ray Computed Tomography Data",
+      "abstract": "Abstract X-ray Micro Computed Tomography (X-µCT) is increasingly regarded as the gold standard for inspecting additively manufactured components used in fatigue-critical applications. However, segmentation of X-µCT data remains inconsistent across users and applications. Additionally, it is unclear if voxel-wise metrics of segmentation quality, such as the Dice coefficient or Intersection over Union (IoU), are relevant to fatigue performance. In this work, we evaluated global binary thresholding, adaptive thresholding, hysteresis thresholding, and a 2.5D U-Net on X-µCT scans of Powder Bed Fusion – Laser Beam manufactured Ti-6Al-4V rotating bending fatigue specimens from the NIST AMBench 2025 challenge (AMB2025-03-FL) to quantify segmentation-induced measurement bias and assess its impact on predicting the fatigue-initiating pore. To identify the fatigue-initiating pore, the Murakami $$\\sqrt{A}$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:msqrt> <mml:mi>A</mml:mi> </mml:msqrt> </mml:math> parameter was modified using beam theory to account for the stress gradient due to bending. This modification enables localization of the most critical pore, independent of the applied stress. Using the modified $$\\sqrt{A}$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:msqrt> <mml:mi>A</mml:mi> </mml:msqrt> </mml:math> metric, the global binary thresholding, adaptive thresholding, and hysteresis thresholding predicted the fatigue-initiating pore correctly for three out of the four test cases. The 2.5D U-Net was able to predict the fatigue-initiating pore in all four cases despite having a lower Dice coefficient and IoU values when compared to the other segmentation models. In fatigue-critical applications, these limitations are most consequential for small, near-surface pores, where X-ray reflection artifacts cause threshold-based methods to underestimate pore size. Such pores can occur even in high-density PBF-LB parts. Consequently, voxel-wise metrics such as Dice coefficient or IoU do not indicate whether a segmentation approach can identify the true fatigue-initiating pore, as they weight all pixels equally, highlighting the need for fatigue-aware, feature-based methods for segmentation of X-µCT data.",
+      "authors": [
+        "Justin P. Miner",
+        "Michelle Hobdari",
+        "Henry Stanton",
+        "Sneha Prabha Narra"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA, 15213, USA",
+      "corresponding_authors": [
+        {
+          "name": "Sneha Prabha Narra",
+          "affiliation": "Department of Mechanical Engineering, Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA, 15213, USA"
+        }
+      ],
+      "venue": "Integrating materials and manufacturing innovation",
+      "year": 2026,
+      "date": "2026-07-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40192-026-00467-0",
+      "cited_by_count": 0,
+      "concepts": [
+        "Segmentation",
+        "Sørensen–Dice coefficient",
+        "Artificial intelligence",
+        "Intersection (aeronautics)",
+        "Thresholding",
+        "Computer science",
+        "Pattern recognition (psychology)",
+        "Image segmentation",
+        "Dice",
+        "Ground truth",
+        "Computer vision",
+        "Materials science",
+        "Correlation coefficient",
+        "NIST"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "powder bed fusion",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究增材制造Ti-6Al-4V疲劳起裂孔的CT图像分割方法，对疲劳性能预测具有实际意义。",
+        "why_not_core": "该论文专注于分割方法的影响，未涉及疲劳寿命数值或S-N曲线等标准机械性能数据。",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "X-ray computed tomography",
+          "segmentation",
+          "fatigue-initiating pores",
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "Murakami sqrt(A)",
+          "rotating bending fatigue",
+          "NIST AMBench"
+        ],
+        "summary_zh": {
+          "motivation": "评估不同CT图像分割方法对增材制造Ti-6Al-4V疲劳起裂孔预测的影响。",
+          "method": "采用四种分割方法处理旋转弯曲疲劳试样的X-µCT数据，并用修正Murakami参数识别临界孔。",
+          "result": "2.5D U-Net在所有案例中正确预测起裂孔，而体素指标Dice不反映疲劳相关性。",
+          "validation": "基于NIST AMBench 2025挑战的四组已知疲劳起裂孔案例进行验证。"
+        },
+        "summary_en": {
+          "motivation": "This study evaluates how different X-ray computed tomography segmentation methods affect the prediction of fatigue-initiating pores in additively manufactured Ti-6Al-4V.",
+          "method": "Four segmentation methods (global binary, adaptive, hysteresis, 2.5D U-Net) were applied to X-µCT scans of PBF-LB Ti-6Al-4V rotating bending fatigue specimens, using a modified √A parameter accounting for the bending stress gradient to locate the critical pore.",
+          "result": "Threshold-based methods predicted the fatigue-initiating pore correctly in three of four cases, while the U-Net succeeded in all four, demonstrating that voxel-wise metrics like Dice coefficient do not correlate with fatigue relevance.",
+          "validation": "The approach was validated against four test cases from the NIST AMBench 2025 challenge with known fatigue-initiating pores."
+        },
+        "key_terms": [
+          {
+            "en": "X-ray micro computed tomography",
+            "zh": "X射线显微计算机断层扫描"
+          },
+          {
+            "en": "segmentation",
+            "zh": "分割"
+          },
+          {
+            "en": "fatigue-initiating pore",
+            "zh": "疲劳起裂孔"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "Murakami √A parameter",
+            "zh": "村上√A参数"
+          },
+          {
+            "en": "rotating bending fatigue",
+            "zh": "旋转弯曲疲劳"
+          },
+          {
+            "en": "Dice coefficient",
+            "zh": "Dice系数"
+          },
+          {
+            "en": "intersection over union",
+            "zh": "交并比"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-04T07:23:34Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "High": 1
+    }
+  }
+}

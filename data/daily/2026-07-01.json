@@ -259,24 +259,428 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-07-03T07:50:54Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7166840298",
+      "doi": "10.1002/pssr.70218",
+      "title": "Structural and Morphological Analysis of Shot Peening Effects on Tribological Wear of DMLS‐Manufactured Ti6Al4V Titanium Alloy",
+      "abstract": "The tribological performance of additively manufactured Ti6Al4V alloy is strongly influenced by its metastable microstructure and surface condition. This work investigates the effect of shot peening with ceramic beads and CrNi steel shots on the friction and wear behavior of DMLS‐fabricated Ti6Al4V under technically dry sliding conditions using a ball‐on‐disc configuration with an Al 2 O 3 counterbody. Shot peening led to a significant increase in surface hardness (up to ∼42%) and a reduction in surface roughness, resulting in lower friction coefficient and wear rate compared to the as‐built condition. Despite similar hardness and roughness levels, distinct tribological responses were observed depending on the peening media. SEM and EDS analyses revealed phase‐dependent wear mechanisms, indicating that shot‐induced redistribution of the metastable α′ and β phases plays a key role in governing wear behavior.",
+      "authors": [
+        "Wojciech Okuniewski",
+        "Mariusz Walczak",
+        "David Vališ",
+        "Kamil Pasierbiewicz"
+      ],
+      "first_author_affiliation": "Department of Materials Engineering Faculty of Mechanical Engineering Lublin University of Technology  Lublin Poland",
+      "corresponding_authors": [
+        {
+          "name": "Wojciech Okuniewski",
+          "affiliation": "Department of Materials Engineering Faculty of Mechanical Engineering Lublin University of Technology  Lublin Poland"
+        },
+        {
+          "name": "Mariusz Walczak",
+          "affiliation": "Department of Materials Engineering Faculty of Mechanical Engineering Lublin University of Technology  Lublin Poland"
+        }
+      ],
+      "venue": "physica status solidi (RRL) - Rapid Research Letters",
+      "year": 2026,
+      "date": "2026-07-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1002/pssr.70218",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Tribology",
+        "Shot peening",
+        "Metallurgy",
+        "Titanium alloy",
+        "Microstructure",
+        "Peening",
+        "Alloy",
+        "Surface roughness",
+        "Galling",
+        "Ceramic",
+        "Surface finish",
+        "Metastability",
+        "Titanium",
+        "Shot (pellet)",
+        "Composite material",
+        "Hardness",
+        "Friction coefficient",
+        "Characterization (materials science)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "additively manufactured",
+          "microstructure",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "shot peening"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了喷丸处理对DMLS制造Ti6Al4V合金表面硬度、粗糙度和摩擦磨损性能的影响，虽然未直接针对疲劳性能，但喷丸作为后处理工艺对表面状态的改善与疲劳性能密切相关。",
+        "why_not_core": "Does not include fatigue or tensile testing; focuses on tribological wear rather than the tensile/fatigue properties emphasized in the direction focus.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "shot peening",
+          "Ti-6Al-4V",
+          "DMLS",
+          "tribological wear",
+          "surface hardness",
+          "roughness reduction"
+        ],
+        "summary_zh": {
+          "motivation": "研究喷丸处理对增材制造Ti6Al4V合金摩擦磨损性能的影响",
+          "method": "采用陶瓷珠和CrNi钢珠对DMLS制备的Ti6Al4V进行喷丸，通过球盘摩擦试验评估耐磨性",
+          "result": "喷丸使表面硬度提高约42%，粗糙度降低，摩擦系数和磨损率显著下降，且不同喷丸介质导致不同的磨损机制",
+          "validation": "通过SEM和EDS分析验证喷丸诱导的相相关磨损机制"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of shot peening on the tribological performance of additively manufactured Ti6Al4V alloy.",
+          "method": "Shot peening with ceramic beads and CrNi steel shots was applied to DMLS-fabricated Ti6Al4V, and wear behavior was evaluated using ball-on-disc tests with an Al2O3 counterbody under dry sliding conditions.",
+          "result": "Shot peening increased surface hardness by up to 42% and reduced roughness, leading to lower friction coefficients and wear rates, with distinct wear mechanisms depending on peening media.",
+          "validation": "Validation was performed through SEM and EDS analyses correlating wear mechanisms with phase redistribution."
+        },
+        "key_terms": [
+          {
+            "en": "shot peening",
+            "zh": "喷丸处理"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "direct metal laser sintering (DMLS)",
+            "zh": "直接金属激光烧结"
+          },
+          {
+            "en": "tribological wear",
+            "zh": "摩擦磨损"
+          },
+          {
+            "en": "surface hardness",
+            "zh": "表面硬度"
+          },
+          {
+            "en": "ball-on-disc test",
+            "zh": "球盘摩擦试验"
+          },
+          {
+            "en": "dry sliding",
+            "zh": "干滑动"
+          },
+          {
+            "en": "phase redistribution",
+            "zh": "相再分布"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-04T07:23:34Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7167053581",
+      "doi": "10.1051/epjconf/202637603001/pdf",
+      "title": "Structural Analysis of Formula 1 Halo Protection Device",
+      "abstract": "The Formula 1 Halo is a lifesaving technology in the engineering of motorsport vehicles, as it offers protection to the driver without compromising the motorsport performance. This is a structural, aerodynamic and vibrational examination of the F1 Halo that incorporates the multidisciplinary design validation. The Halo is verified to meet the requirements of FIA safety with maximum stress of 399.14 MPa (yield strength: 1030 MPa) and deformation of 2.687 mm (limit: 3.0 mm) under 125 kN vertical and 0 separation forces. Calculation fluid dynamics demonstrates 0.368-0.841 coefficients of aerodynamic drag at 30 m /s and 80 m /s and forces are about 1-2 percent of total drag on the vehicle. The modal analysis determines six natural frequencies that are between 63.81 Hz and 373.9 Hz, which proves that they effectively separate resonance frequencies that are associated with natural frequencies and those involved in operation. Grade 5 Titanium (Ti-6Al-4V) showed a high-end performance feature, which proved the structural performance and aerodynamic viability. This combined method shows that the strict computational design can prove the multi-objective design optimization of safety-critical.",
+      "authors": [
+        "Nitin Ambhore",
+        "Nitin Bhorse",
+        "Nandika Joshi",
+        "Aman Naranje",
+        "Paritosh Musmade",
+        "Armaan Mujawar",
+        "Jahnvi Nadkarni"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering , Vishwakarma Institute of Technology , Pune 411037 , MS , India",
+      "corresponding_authors": [],
+      "venue": "Springer Link (Chiba Institute of Technology)",
+      "year": 2026,
+      "date": "2026-07-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1051/epjconf/202637603001/pdf",
+      "cited_by_count": 0,
+      "concepts": [
+        "Halo",
+        "Aerodynamics",
+        "Drag",
+        "Modal analysis",
+        "Natural frequency",
+        "Aerodynamic force",
+        "Vibration",
+        "Deformation (meteorology)",
+        "Engineering",
+        "Structural engineering",
+        "Resonance (particle physics)",
+        "Drag coefficient",
+        "Mechanical engineering",
+        "Physics",
+        "Modal"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "grade 5 titanium",
+          "yield strength"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文未涉及增材制造，仅使用Ti-6Al-4V材料进行结构分析，与方向无关。",
+        "why_not_core": "No additive manufacturing content; the paper is a conventional structural analysis of a safety device, not a study of AM Ti-6Al-4V mechanical or fatigue properties.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Formula 1 Halo",
+          "Ti-6Al-4V",
+          "structural analysis",
+          "FEA",
+          "CFD",
+          "modal analysis"
+        ],
+        "summary_zh": {
+          "motivation": "验证F1 Halo保护装置的结构、空气动力学和振动性能。",
+          "method": "使用有限元分析和计算流体动力学进行多学科设计验证。",
+          "result": "最大应力399.14 MPa，变形2.687 mm，满足安全要求。",
+          "validation": "通过FIA安全标准数值验证。"
+        },
+        "summary_en": {
+          "motivation": "To validate the structural, aerodynamic, and vibrational performance of the Formula 1 Halo protection device.",
+          "method": "Multidisciplinary design validation using finite element analysis and computational fluid dynamics.",
+          "result": "Maximum stress of 399.14 MPa and deformation of 2.687 mm, meeting safety requirements.",
+          "validation": "Numerical validation against FIA safety standards."
+        },
+        "key_terms": [
+          {
+            "en": "Formula 1 Halo",
+            "zh": "F1头盔保护装置"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "computational fluid dynamics",
+            "zh": "计算流体动力学"
+          },
+          {
+            "en": "modal analysis",
+            "zh": "模态分析"
+          },
+          {
+            "en": "yield strength",
+            "zh": "屈服强度"
+          },
+          {
+            "en": "aerodynamic drag",
+            "zh": "气动阻力"
+          },
+          {
+            "en": "safety-critical",
+            "zh": "安全关键"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-04T07:23:34Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7167075337",
+      "doi": "10.1007/s11837-026-08527-8",
+      "title": "Heat Treatment of Powder Metallurgy Ti-6Al-4V-2Mo-2Fe Alloy: Microstructural Evolution and Resulting Mechanical Properties",
+      "abstract": "",
+      "authors": [
+        "Zhenhong Du",
+        "Shangxing Qiu",
+        "Fang Yang",
+        "Yuping Dong",
+        "Kehan Liu",
+        "Xin Li",
+        "H Pan",
+        "X He",
+        "Cunguang Chen",
+        "Zhimeng Guo",
+        "Xinhua Liu"
+      ],
+      "first_author_affiliation": "Institute for Advanced Materials and Technology, Shunde Innovation School, University of Science and Technology Beijing, Beijing, 100083, China",
+      "corresponding_authors": [
+        {
+          "name": "Fang Yang",
+          "affiliation": "Institute for Advanced Materials and Technology, Shunde Innovation School, University of Science and Technology Beijing, Beijing, 100083, China"
+        },
+        {
+          "name": "Cunguang Chen",
+          "affiliation": "Institute for Advanced Materials and Technology, Shunde Innovation School, University of Science and Technology Beijing, Beijing, 100083, China"
+        },
+        {
+          "name": "Xinhua Liu",
+          "affiliation": "Institute for Advanced Materials and Technology, Shunde Innovation School, University of Science and Technology Beijing, Beijing, 100083, China"
+        }
+      ],
+      "venue": "JOM",
+      "year": 2026,
+      "date": "2026-07-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1007/s11837-026-08527-8",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Powder metallurgy",
+        "Metallurgy",
+        "Titanium alloy",
+        "Ultimate tensile strength",
+        "Microstructure",
+        "Alloy",
+        "Titanium",
+        "Specific strength",
+        "Deformation (meteorology)",
+        "Precipitation",
+        "Corrosion",
+        "Deformation mechanism",
+        "Strengthening mechanisms of materials",
+        "Volume fraction",
+        "Superplasticity",
+        "Acicular"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "这篇论文涉及粉末冶金Ti-6Al-4V-2Mo-2Fe合金的热处理，而非增材制造Ti-6Al-4V，因此与L2方向不符。",
+        "why_not_core": "The paper focuses on powder metallurgy (not additive manufacturing) and uses a modified alloy (Ti-6Al-4V-2Mo-2Fe), not standard Ti-6Al-4V, so it does not address the L2 focus on post-processing of AM Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "powder metallurgy",
+          "heat treatment",
+          "Ti-6Al-4V-2Mo-2Fe",
+          "microstructural evolution",
+          "mechanical properties"
+        ],
+        "summary_zh": {
+          "motivation": "研究粉末冶金Ti-6Al-4V-2Mo-2Fe合金热处理后微观结构及力学性能变化。",
+          "method": "对合金进行不同热处理并表征。",
+          "result": "热处理影响相组成和力学性能。",
+          "validation": "通过实验测试验证。"
+        },
+        "summary_en": {
+          "motivation": "Investigate the effect of heat treatment on microstructural evolution and mechanical properties of powder metallurgy Ti-6Al-4V-2Mo-2Fe alloy.",
+          "method": "Different heat treatment schedules were applied and characterized.",
+          "result": "Heat treatment alters phase composition and mechanical behavior.",
+          "validation": "Experimental mechanical testing."
+        },
+        "key_terms": [
+          {
+            "en": "powder metallurgy",
+            "zh": "粉末冶金"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "Ti-6Al-4V-2Mo-2Fe",
+            "zh": "Ti-6Al-4V-2Mo-2Fe合金"
+          },
+          {
+            "en": "microstructural evolution",
+            "zh": "微观结构演变"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-04T07:23:34Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 5,
     "by_source": {
-      "openalex": 2
+      "openalex": 5
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 5,
+    "after_routing": 5,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 2
+      "ti6al4v_base_mechanical_fatigue": 3,
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 5
     },
-    "scored": 2,
+    "scored": 5,
     "priority_counts": {
-      "High": 2
+      "High": 2,
+      "Medium": 1,
+      "Exclude": 2
     }
   }
 }
