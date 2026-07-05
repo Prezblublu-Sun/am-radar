@@ -134,24 +134,133 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-06-23T08:03:27Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7167284686",
+      "doi": "10.14429/dsj.21427",
+      "title": "Predictive Analytics for Productivity and Hole Geometry in Electrical Discharge Drilling of Ti-alloy Using ANFIS",
+      "abstract": "Titanium alloys are widely used in aerospace and medical fields because of their high strength-to-density ratio and excellent mechanical and biocompatible qualities. However, traditional machining techniques struggle to produce tiny features in Ti-6Al-4V sheets for high-precision parts due to the material’s low thermal conductivity, high chemical reactivity, and rapid tool wear. Achieving high productivity while ensuring dimensional accuracy in electrical discharge drilling (EDD) of Ti-alloy remains a significant challenge. Therefore, this study aims to develop precise predictive models for metal removal rate (MRR) and hole taper (HT) during EDD of Ti-6Al-4V, as well as to examine how key process parameters affect drilling performance. In this work, EDD experiments were performed to create miniature holes, and adaptive neuro-fuzzy inference system (ANFIS) models were developed to forecast MRR and HT. The effects of discharge current, pulse-on time, pulse-off time, and dielectric pressure were systematically studied to understand the process behavior. The developed ANFIS models showed good agreement between experimental and predicted results, with prediction errors as low as 1.7 % for MRR and 1.3 % for HT, demonstrating the effectiveness of the approach for predicting productivity and hole quality in precision EDD of Ti-6Al-4V.",
+      "authors": [
+        "Md. Tasnim Arif",
+        "Amit Sharma"
+      ],
+      "first_author_affiliation": "Mechanical Engineering Department, Jaypee University of Engineering and Technology, Guna – 473 226, India",
+      "corresponding_authors": [],
+      "venue": "Defence Science Journal",
+      "year": 2026,
+      "date": "2026-06-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.14429/dsj.21427",
+      "cited_by_count": 0,
+      "concepts": [
+        "Electrical discharge machining",
+        "Adaptive neuro fuzzy inference system",
+        "Machining",
+        "Drilling",
+        "Mechanical engineering",
+        "Aerospace",
+        "Process (computing)",
+        "Engineering",
+        "Predictive modelling",
+        "Productivity",
+        "Automotive engineering",
+        "Near net shape"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文关于电火花钻孔的预测模型，未涉及增材制造后处理。",
+        "why_not_core": "The paper does not address any post-processing treatment of additively manufactured Ti-6Al-4V; it focuses on conventional electrical discharge drilling of Ti-alloy sheets.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "electrical discharge drilling",
+          "Ti-6Al-4V",
+          "ANFIS",
+          "predictive model"
+        ],
+        "summary_zh": {
+          "motivation": "提高Ti-6Al-4V电火花钻孔的生产率和孔几何精度。",
+          "method": "使用自适应神经模糊推理系统(ANFIS)预测金属去除率和锥度。",
+          "result": "ANFIS模型预测误差低至1.7%和1.3%。",
+          "validation": "通过实验数据验证模型预测精度。"
+        },
+        "summary_en": {
+          "motivation": "To improve productivity and hole geometry accuracy in electrical discharge drilling of Ti-6Al-4V.",
+          "method": "Adaptive neuro-fuzzy inference system (ANFIS) models are developed to predict metal removal rate and hole taper.",
+          "result": "The ANFIS models achieve prediction errors as low as 1.7% for MRR and 1.3% for HT.",
+          "validation": "The models are validated against experimental drilling data."
+        },
+        "key_terms": [
+          {
+            "en": "electrical discharge drilling",
+            "zh": "电火花钻孔"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "metal removal rate",
+            "zh": "金属去除率"
+          },
+          {
+            "en": "hole taper",
+            "zh": "孔锥度"
+          },
+          {
+            "en": "ANFIS",
+            "zh": "自适应神经模糊推理系统"
+          },
+          {
+            "en": "predictive model",
+            "zh": "预测模型"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-05T07:43:21Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Medium": 1
+      "Medium": 1,
+      "Exclude": 1
     }
   }
 }

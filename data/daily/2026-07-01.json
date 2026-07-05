@@ -660,27 +660,144 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-07-04T07:23:34Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7167251530",
+      "doi": "10.1016/j.mtla.2026.102816",
+      "title": "Strength and corrosion behavior of Zn/Ti-6Al-4V interpenetrating phase composites: Effect of heat treatment of the LPBF Ti-6Al-4V",
+      "abstract": "",
+      "authors": [
+        "Ramavath Suman",
+        "D. Mohanta",
+        "D. Punera",
+        "M. Ramakrishna",
+        "Srikant Gollapudi"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [],
+      "venue": "Materialia",
+      "year": 2026,
+      "date": "2026-07-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.mtla.2026.102816",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Corrosion",
+        "Composite material",
+        "Phase (matter)",
+        "Metallurgy",
+        "Izod impact strength test"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "LPBF"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "涉及Ti-6Al-4V的热处理，但主要研究的是复合材料而非单独Ti-6Al-4V的疲劳/力学性能。",
+        "why_not_core": "Focuses on strength and corrosion behavior of Zn/Ti-6Al-4V composite, not on fatigue or mechanical performance of Ti-6Al-4V alone after post-processing.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "heat treatment",
+          "interpenetrating phase composites",
+          "corrosion",
+          "LPBF Ti-6Al-4V",
+          "Zn infiltration"
+        ],
+        "summary_zh": {
+          "motivation": "研究热处理对LPBF Ti-6Al-4V基Zn复合材料的强度与腐蚀行为的影响。",
+          "method": "LPBF制备Ti-6Al-4V骨架经热处理后浸渗Zn形成互穿相复合材料。",
+          "result": "热处理改变了Ti-6Al-4V的微观结构，进而影响复合材料的力学和腐蚀性能。",
+          "validation": "通过拉伸测试和腐蚀实验验证材料性能。"
+        },
+        "summary_en": {
+          "motivation": "This study investigates how heat treatment of LPBF Ti-6Al-4V affects the mechanical strength and corrosion behavior of Zn/Ti-6Al-4V interpenetrating phase composites.",
+          "method": "Ti-6Al-4V scaffolds were fabricated by LPBF, heat-treated under different conditions, and then infiltrated with Zn to form interpenetrating phase composites.",
+          "result": "The heat treatment altered the Ti-6Al-4V microstructure, which significantly influenced the composite's tensile strength and corrosion resistance.",
+          "validation": "Mechanical testing (tensile) and corrosion experiments were performed to validate the material properties."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "interpenetrating phase composite",
+            "zh": "互穿相复合材料"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "corrosion behavior",
+            "zh": "腐蚀行为"
+          },
+          {
+            "en": "mechanical strength",
+            "zh": "力学强度"
+          },
+          {
+            "en": "Zn infiltration",
+            "zh": "锌浸渗"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-05T07:43:21Z"
     }
   ],
   "counts": {
-    "fetched_total": 5,
+    "fetched_total": 6,
     "by_source": {
-      "openalex": 5
+      "openalex": 6
     },
-    "after_dedup": 5,
-    "after_routing": 5,
+    "after_dedup": 6,
+    "after_routing": 6,
     "by_direction": {
       "ti6al4v_base_mechanical_fatigue": 3,
-      "ti6al4v_postprocess": 2
+      "ti6al4v_postprocess": 3
     },
     "routed_by_source": {
-      "openalex": 5
+      "openalex": 6
     },
-    "scored": 5,
+    "scored": 6,
     "priority_counts": {
       "High": 2,
       "Medium": 1,
-      "Exclude": 2
+      "Exclude": 2,
+      "Low": 1
     }
   }
 }

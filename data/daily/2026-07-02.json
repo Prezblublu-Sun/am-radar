@@ -137,24 +137,160 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-07-04T07:23:34Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7167234947",
+      "doi": "10.1177/02670836261463942",
+      "title": "Effect of wall thickness on the microstructure and properties of Ti-6Al-4V schwarz diamond structure prepared by selective laser melting",
+      "abstract": "The influence of wall thickness on the microstructure and mechanical properties of Ti-6Al-4V schwarz diamond structures prepared by selective laser melting was studied. The study selected schwarz diamond structures with different wall thicknesses. The experimental results show that the actual porosity of the molded part differs from the design value by 10.88%-12.12%;The microstructure of molded parts with different wall thicknesses is composed of needle shaped α martensite; With the increase of wall thickness, the tensile strength is enhanced. The tensile strength of 0.3 mm wall thickness is 68.06 MPa and the tensile strength of 0.6 mm wall thickness is 165.42 MPa. As the wall thickness increases, the compressive strength of the molded part gradually increases. As the wall thickness increases, the impact energy absorption capacity of the molded part increases.",
+      "authors": [
+        "Xinyu Zhang",
+        "Chun Guo",
+        "WenQing Li",
+        "Guangcan Huang",
+        "Qingcheng Lin",
+        "Chi Qin"
+      ],
+      "first_author_affiliation": "Anhui Science and Technology University",
+      "corresponding_authors": [
+        {
+          "name": "Chun Guo",
+          "affiliation": "Anhui Science and Technology University"
+        }
+      ],
+      "venue": "Materials Science and Technology",
+      "year": 2026,
+      "date": "2026-07-02",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1177/02670836261463942",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Ultimate tensile strength",
+        "Composite material",
+        "Selective laser melting",
+        "Compressive strength",
+        "Porosity",
+        "Diamond",
+        "Laser"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "selective laser melting",
+          "microstructure",
+          "tensile strength",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "这篇论文直接研究了SLM制备的Ti-6Al-4V金刚石结构的力学性能，与层1关注的基本机械性能高度相关。",
+        "why_not_core": "No fatigue life or S-N data; only monotonic mechanical properties (tensile, compression, impact) are reported.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "selective laser melting",
+          "Ti-6Al-4V",
+          "schwarz diamond structure",
+          "wall thickness",
+          "tensile strength",
+          "compressive strength",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "研究壁厚对SLM制备的Ti-6Al-4V schwarz金刚石结构性能的影响。",
+          "method": "制备不同壁厚的schwarz金刚石结构，进行微观组织和力学性能测试。",
+          "result": "壁厚增加提高了拉伸、压缩和冲击性能，0.6mm壁厚拉伸强度达165.42 MPa。",
+          "validation": "通过实验测试验证力学性能与微观结构关系。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of wall thickness on the microstructure and mechanical properties of Ti-6Al-4V schwarz diamond structures fabricated by selective laser melting.",
+          "method": "Schwarz diamond structures with varying wall thicknesses (0.3-0.6 mm) were manufactured and characterized for porosity, microstructure, and mechanical properties under tensile, compressive, and impact loading.",
+          "result": "Increasing wall thickness enhanced tensile strength (from 68.06 to 165.42 MPa), compressive strength, and impact energy absorption, with needle-like α' martensite microstructure throughout.",
+          "validation": "Experimental mechanical testing and microstructure analysis were performed on the fabricated samples."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "选择性激光熔化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "schwarz diamond structure",
+            "zh": "schwarz金刚石结构"
+          },
+          {
+            "en": "wall thickness",
+            "zh": "壁厚"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "拉伸强度"
+          },
+          {
+            "en": "compressive strength",
+            "zh": "抗压强度"
+          },
+          {
+            "en": "impact energy",
+            "zh": "冲击能量"
+          },
+          {
+            "en": "defects/porosity",
+            "zh": "缺陷/孔隙率"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-05T07:43:21Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "High": 1
+      "High": 2
     }
   }
 }
