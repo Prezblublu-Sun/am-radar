@@ -776,28 +776,430 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-07-05T07:43:21Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7167367190",
+      "doi": "10.1016/j.jmrt.2026.07.017",
+      "title": "LPBF-fabricated superelastic Ti-Zr-Nb open cell lattice structures for orthopedic implants: Process optimization, geometric conformity, microstructure, static and fatigue mechanical behavior",
+      "abstract": "Additively manufactured orthopedic implants are required to simultaneously offer a high geometric accuracy, a low elastic modulus, and an excellent fatigue resistance. In this study, we optimized laser powder bed fusion (LPBF) process parameters to fabricate three open cell lattice structures from a superelastic Ti-Zr-Nb alloy: a rhombic dodecahedron, a sheet gyroid, and a Voronoi polyhedral. In these structures, the strut thickness ranged between 200 and 400 μm and the functional porosity, between 65 and 80%. Geometric conformity and defect porosity were quantified using microcomputed tomography, revealing that the optimized processing limited the maximum deviations in functional porosity to 9%, with the gyroid architecture demonstrating the highest dimensional accuracy. At the same time, the defect porosity in all the structures did not exceed 0.2%. After the heat treatment, microstructural analysis and mechanical testing confirmed the presence in these structures of metastable β-phase. Under quasi-static compression, the lattice specimens manifested a yield plateau associated with stress-induced martensitic transformation. Fatigue testing of Ti-Zr-Nb structures demonstrated a stable cyclic performance and competitive fatigue resistance up to 5×10 6 cycles as compared to their benchmark Ti-6Al-4V counterparts. The results obtained highlight the potential of LPBF-fabricated superelastic Ti-Zr-Nb lattice specimens for load-bearing implant applications, owing to their reduced stiffness and enhanced long-term mechanical durability.",
+      "authors": [
+        "V. Sheremetyev",
+        "V. Lezin",
+        "К. Лукашевич",
+        "S. Chernyshikhin",
+        "V. Cheverikin",
+        "A. Tvorogov",
+        "M. Derkach",
+        "S. Prokoshkin",
+        "V. Brailovski"
+      ],
+      "first_author_affiliation": "National University of Science and Technology MISIS, Leninsky Prospect 4s1, Moscow, 119049, Russian Federation",
+      "corresponding_authors": [],
+      "venue": "Journal of Materials Research and Technology",
+      "year": 2026,
+      "date": "2026-07-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.jmrt.2026.07.017",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Porosity",
+        "Composite material",
+        "Gyroid",
+        "Pseudoelasticity",
+        "Shape-memory alloy",
+        "Stiffness",
+        "Lattice (music)",
+        "Martensite",
+        "Diamond cubic",
+        "Elastic modulus",
+        "Fusion",
+        "Indentation",
+        "Miniaturization",
+        "Metastability",
+        "Hexahedron"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "microstructure",
+          "porosity",
+          "defect",
+          "fatigue"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "heat treatment"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "论文使用Ti-Zr-Nb合金而非Ti-6Al-4V，且聚焦于骨科植入物晶格结构，与Ti-6Al-4V后处理方向无关。",
+        "why_not_core": "The paper does not concern Ti-6Al-4V; it uses a Ti-Zr-Nb alloy, which is outside the required material scope for this direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "LPBF",
+          "Ti-Zr-Nb",
+          "lattice structures",
+          "post-processing",
+          "heat treatment",
+          "fatigue",
+          "orthopedic implants"
+        ],
+        "summary_zh": {
+          "motivation": "优化LPBF工艺参数制造骨科植入用超弹性Ti-Zr-Nb晶格结构，同时保证几何精度、低弹性模量和优异疲劳性能。",
+          "method": "采用LPBF制造三种晶格结构（菱形十二面体、薄片螺旋面、Voronoi多面体），进行显微CT表征和热处理后力学测试。",
+          "result": "优化工艺将功能孔隙度偏差控制在9%以内，缺陷孔隙度低于0.2%；热处理后获得亚稳β相，疲劳性能优于Ti-6Al-4V对照。",
+          "validation": "通过显微CT验证几何精度，准静态压缩和疲劳测试验证力学性能。"
+        },
+        "summary_en": {
+          "motivation": "The study aims to optimize LPBF parameters to fabricate superelastic Ti-Zr-Nb lattice structures for orthopedic implants with high geometric accuracy, low elastic modulus, and excellent fatigue resistance.",
+          "method": "Three open cell lattice structures (rhombic dodecahedron, sheet gyroid, Voronoi polyhedral) were fabricated by LPBF, characterized by micro-CT, and subjected to heat treatment followed by quasi-static and fatigue mechanical tests.",
+          "result": "Optimized processing limited functional porosity deviation to 9% and defect porosity below 0.2%; heat-treated structures exhibited metastable β-phase and competitive fatigue performance up to 5×10^6 cycles compared to Ti-6Al-4V benchmarks.",
+          "validation": "Geometric conformity was validated via micro-CT, and mechanical performance through quasi-static compression and fatigue testing."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-Zr-Nb alloy",
+            "zh": "Ti-Zr-Nb合金"
+          },
+          {
+            "en": "lattice structures",
+            "zh": "晶格结构"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "fatigue resistance",
+            "zh": "疲劳抗力"
+          },
+          {
+            "en": "orthopedic implants",
+            "zh": "骨科植入物"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-08T06:44:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7167427111",
+      "doi": "10.1016/j.matchar.2026.116740",
+      "title": "Effect of trace boron addition on microstructure and fatigue crack propagation in laser powder bed fused Ti-6Al-4V",
+      "abstract": "",
+      "authors": [
+        "Yifeng Xiong",
+        "Zefeng Wu",
+        "Yin Tao",
+        "Faming Zhang",
+        "Shuyan Zhang"
+      ],
+      "first_author_affiliation": "Centre of Excellence for Advanced Materials, Dongguan, Guangdong, 523808, China",
+      "corresponding_authors": [
+        {
+          "name": "Zefeng Wu",
+          "affiliation": "Centre of Excellence for Advanced Materials, Dongguan, Guangdong, 523808, China"
+        },
+        {
+          "name": "Shuyan Zhang",
+          "affiliation": "Centre of Excellence for Advanced Materials, Dongguan, Guangdong, 523808, China"
+        }
+      ],
+      "venue": "Materials Characterization",
+      "year": 2026,
+      "date": "2026-07-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.matchar.2026.116740",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Composite material",
+        "TRACE (psycholinguistics)",
+        "Boron",
+        "Laser",
+        "Metallurgy",
+        "Fatigue testing",
+        "Fracture mechanics",
+        "Fractography"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究激光粉末床熔融Ti-6Al-4V的疲劳裂纹扩展，与用户关注的力学与疲劳方向高度相关。",
+        "why_not_core": "The paper focuses on the effect of boron addition on fatigue crack propagation, which is a specific modification; it does not cover the baseline mechanical properties or standard fatigue characterization of as-built Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "boron addition",
+          "fatigue crack propagation",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "探究微量硼添加对LPBF Ti-6Al-4V疲劳裂纹扩展行为的影响。",
+          "method": "制备不同硼含量的LPBF试样，进行疲劳裂纹扩展速率测试与微观组织表征。",
+          "result": "微量硼通过细化晶粒和减少缺陷提高了疲劳裂纹扩展抗力。",
+          "validation": "通过实验疲劳裂纹扩展数据与显微组织分析验证。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the effect of trace boron addition on the fatigue crack propagation behavior of laser powder bed fused Ti-6Al-4V.",
+          "method": "Specimens with varying boron contents were fabricated via LPBF and subjected to fatigue crack growth tests along with microstructural characterization.",
+          "result": "Trace boron enhanced fatigue crack propagation resistance by grain refinement and reduction of defect density.",
+          "validation": "Experimental fatigue crack growth rate measurements and microstructural analysis."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金"
+          },
+          {
+            "en": "boron addition",
+            "zh": "硼添加"
+          },
+          {
+            "en": "fatigue crack propagation",
+            "zh": "疲劳裂纹扩展"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "fatigue crack growth rate",
+            "zh": "疲劳裂纹扩展速率"
+          },
+          {
+            "en": "grain refinement",
+            "zh": "晶粒细化"
+          },
+          {
+            "en": "defect density",
+            "zh": "缺陷密度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-08T06:44:47Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7167412636",
+      "doi": "10.18066/revistaunivap.v32i74.4715",
+      "title": "EVALUATION OF COATED TI-6AL-4V ALLOY WITH WC-CO-CR BY CO2 LASER POWDER BED FUSION (L-PBF)",
+      "abstract": "The Ti-6Al-4V alloy with tungsten carbide as a coating combines the unique properties of these two materials to creating a surface of high strength and durability. In this paper, the deposition of cobalt bonded tungsten carbide composite (WC-Co-Cr) was sprayed through the pneumatic gun on titanium-based alloy (Ti-6Al-4V) substrate and after irradiated by CO2 laser; by laser powder bed fusion (L-PBF) method. In order to evaluate the operating parameters and coating mechanical and physical-elemental properties. To this end, a 70 W CO2 laser was used to irradiate the pre-deposited WC-Co-Cr powder with an energy density of 7x104 W/cm². Considering laser parameters, the best results were obtained for beam scanning velocity about 30 mm/s. Where, was observed the metallurgical bond occurrence, between coating and substrate, promoting a strong adhesion between then. In addition, regions with fully dense deposited layer with thickness of approximately 20 μm was observed. However, presence of pores due to trapped WC decarburization gases was verified. Despite, this issue and others, such as cracks, the coating showed a substantial increase in surface hardness. While a high decrease in friction coefficient and a significant reduction in wear rate",
+      "authors": [
+        "Silvelene Alessandra Silva",
+        "Vitor Ribeiro Jardim",
+        "Paulo Paiva Oliveira Leite Dyer",
+        "Renê Martins Volú",
+        "Ana Cláudia Costa de Oliveira",
+        "Getúlio de Vasconcelos"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [],
+      "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "year": 2026,
+      "date": "2026-07-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.18066/revistaunivap.v32i74.4715",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Coating",
+        "Tungsten carbide",
+        "Alloy",
+        "Metallurgy",
+        "Decarburization",
+        "Tungsten",
+        "Composite material",
+        "Carbide",
+        "Layer (electronics)",
+        "Fusion",
+        "Deposition (geology)",
+        "Laser",
+        "Gas dynamic cold spray",
+        "Composite number",
+        "Substrate (aquarium)",
+        "Cermet",
+        "Inertial confinement fusion",
+        "Scanning electron microscope",
+        "Adhesion",
+        "Levitation",
+        "Metal powder",
+        "Powder coating",
+        "Stellite",
+        "Chromium carbide"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V基体上的WC-Co-Cr涂层，未直接报告Ti-6Al-4V本身的力学或疲劳性能。",
+        "why_not_core": "This paper focuses on coating deposition and tribological properties, not on bulk mechanical or fatigue characterization of Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "WC-Co-Cr coating",
+          "laser powder bed fusion",
+          "wear resistance",
+          "hardness"
+        ],
+        "summary_zh": {
+          "motivation": "提高Ti-6Al-4V合金的表面硬度和耐磨性",
+          "method": "利用CO2激光粉末床熔融将WC-Co-Cr涂层沉积在Ti-6Al-4V基体上",
+          "result": "涂层与基体形成冶金结合，表面硬度显著增加，摩擦系数降低，磨损率降低",
+          "validation": "通过硬度测试和磨损试验验证涂层性能"
+        },
+        "summary_en": {
+          "motivation": "To enhance the surface hardness and wear resistance of Ti-6Al-4V alloy by depositing a wear-resistant coating.",
+          "method": "WC-Co-Cr powder was pre-placed on Ti-6Al-4V substrate and irradiated by a CO2 laser to form a dense coating via laser powder bed fusion.",
+          "result": "A metallurgical bond formed between coating and substrate, resulting in a significant increase in surface hardness and a substantial reduction in friction coefficient and wear rate.",
+          "validation": "Mechanical testing including hardness measurements and wear tests were conducted to evaluate the coating performance."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "WC-Co-Cr coating",
+            "zh": "WC-Co-Cr涂层"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "surface hardness",
+            "zh": "表面硬度"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "CO2 laser",
+            "zh": "CO2激光器"
+          },
+          {
+            "en": "metallurgical bond",
+            "zh": "冶金结合"
+          },
+          {
+            "en": "friction coefficient",
+            "zh": "摩擦系数"
+          },
+          {
+            "en": "wear rate",
+            "zh": "磨损率"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-08T06:44:47Z"
     }
   ],
   "counts": {
-    "fetched_total": 6,
+    "fetched_total": 9,
     "by_source": {
-      "openalex": 6
+      "openalex": 9
     },
-    "after_dedup": 6,
-    "after_routing": 6,
+    "after_dedup": 9,
+    "after_routing": 9,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 3,
-      "ti6al4v_postprocess": 3
+      "ti6al4v_base_mechanical_fatigue": 5,
+      "ti6al4v_postprocess": 4
     },
     "routed_by_source": {
-      "openalex": 6
+      "openalex": 9
     },
-    "scored": 6,
+    "scored": 9,
     "priority_counts": {
-      "High": 2,
+      "High": 3,
       "Medium": 1,
-      "Exclude": 2,
-      "Low": 1
+      "Exclude": 3,
+      "Low": 2
     }
   }
 }

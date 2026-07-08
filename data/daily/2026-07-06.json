@@ -1,0 +1,158 @@
+{
+  "schema_version": "v2",
+  "date": "2026-07-06",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7167459544",
+      "doi": "10.1007/s11665-026-14470-1",
+      "title": "Microstructural Optimization Achieving Strength–Ductility Synergy in Ti-6Al-4V Alloy via Multi-Pass Hot Rolling and Annealing",
+      "abstract": "",
+      "authors": [
+        "魏芬绒",
+        "Yi-Xiang Wang",
+        "Qianglong Liang",
+        "Xiangdong Ding"
+      ],
+      "first_author_affiliation": "State Key Laboratory for Mechanical Behavior of Materials, Xi’an Jiaotong University, Xi’an, 710049, Shaanxi, China",
+      "corresponding_authors": [
+        {
+          "name": "Qianglong Liang",
+          "affiliation": "State Key Laboratory for Mechanical Behavior of Materials, Xi’an Jiaotong University, Xi’an, 710049, Shaanxi, China"
+        }
+      ],
+      "venue": "Journal of Materials Engineering and Performance",
+      "year": 2026,
+      "date": "2026-07-06",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s11665-026-14470-1",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Misorientation",
+        "Annealing (glass)",
+        "Ultimate tensile strength",
+        "Microstructure",
+        "Recrystallization (geology)",
+        "Alloy",
+        "Metallurgy",
+        "Grain boundary",
+        "Composite material",
+        "Elongation",
+        "Grain size",
+        "Dislocation",
+        "Grain boundary strengthening",
+        "Tensile testing",
+        "Titanium alloy",
+        "Homogenization (climate)",
+        "Slip (aerodynamics)",
+        "Dynamic recrystallization"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "ductility"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "annealing"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究通过多道次热轧和退火优化Ti-6Al-4V的微观结构，但与增材制造后处理无关，因此与用户方向不相关。",
+        "why_not_core": "This paper does not involve additive manufacturing; it studies conventional hot rolling and annealing of Ti-6Al-4V, not post-processing of AM Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "hot rolling",
+          "annealing",
+          "microstructure",
+          "strength-ductility"
+        ],
+        "summary_zh": {
+          "motivation": "通过多道次热轧和退火优化Ti-6Al-4V合金的微观组织以实现强度-塑性协同。",
+          "method": "采用多道次热轧和后续退火处理。",
+          "result": "实现了微观组织优化和强度-塑性协同提升。",
+          "validation": "通过力学测试验证了性能改善。"
+        },
+        "summary_en": {
+          "motivation": "To optimize the microstructure of Ti-6Al-4V alloy for strength-ductility synergy through multi-pass hot rolling and annealing.",
+          "method": "Multi-pass hot rolling followed by annealing was applied.",
+          "result": "Microstructural optimization and enhanced strength-ductility synergy were achieved.",
+          "validation": "Mechanical testing validated the property improvements."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "hot rolling",
+            "zh": "热轧"
+          },
+          {
+            "en": "annealing",
+            "zh": "退火"
+          },
+          {
+            "en": "microstructural optimization",
+            "zh": "微观组织优化"
+          },
+          {
+            "en": "strength-ductility synergy",
+            "zh": "强度-塑性协同"
+          },
+          {
+            "en": "strength",
+            "zh": "强度"
+          },
+          {
+            "en": "ductility",
+            "zh": "塑性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-08T06:44:47Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}
