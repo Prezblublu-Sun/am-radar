@@ -1,0 +1,154 @@
+{
+  "schema_version": "v2",
+  "date": "2026-07-07",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7167595480",
+      "doi": "10.1016/j.optlastec.2026.115900",
+      "title": "Combined laser shock peening and shot peening for improving fretting wear and low-cycle fatigue performance of Ti-6Al-4V",
+      "abstract": "",
+      "authors": [
+        "Zhiguo Wang",
+        "Jianxin Liu",
+        "Ke Li",
+        "Xiuyang Fang",
+        "Magd Abdel Wahab",
+        "Zhenbing Cai"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [],
+      "venue": "Optics & Laser Technology",
+      "year": 2026,
+      "date": "2026-07-07",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.115900",
+      "cited_by_count": 0,
+      "concepts": [
+        "Shot peening",
+        "Materials science",
+        "Peening",
+        "Fretting",
+        "Shock (circulatory)",
+        "Metallurgy",
+        "Laser peening",
+        "Laser",
+        "Fatigue limit",
+        "Composite material",
+        "Shot (pellet)",
+        "Residual stress"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess",
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "shot peening",
+          "laser shock peening"
+        ],
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了Ti-6Al-4V的喷丸和激光冲击喷丸复合后处理对低周疲劳和微动磨损的影响，完全符合后处理控制方向。",
+        "why_not_core": "This paper does not cover other common post-processing treatments like heat treatment, HIP, or machining, and does not include microstructure characterization or porosity analysis.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser shock peening",
+          "shot peening",
+          "Ti-6Al-4V",
+          "fretting wear",
+          "low-cycle fatigue",
+          "post-processing"
+        ],
+        "summary_zh": {
+          "motivation": "探索复合喷丸工艺提升Ti-6Al-4V抗微动磨损和低周疲劳性能。",
+          "method": "对Ti-6Al-4V试样先后进行激光冲击喷丸和机械喷丸处理。",
+          "result": "复合处理显著改善了表面完整性并提高了疲劳寿命。",
+          "validation": "通过微动磨损和低周疲劳实验验证效果。"
+        },
+        "summary_en": {
+          "motivation": "To investigate combined laser shock peening and shot peening for enhancing fretting wear and low-cycle fatigue resistance of Ti-6Al-4V.",
+          "method": "Ti-6Al-4V specimens were sequentially treated by laser shock peening and shot peening.",
+          "result": "The combined treatment significantly improved surface integrity and increased fatigue life.",
+          "validation": "Validation was performed through fretting wear and low-cycle fatigue mechanical tests."
+        },
+        "key_terms": [
+          {
+            "en": "laser shock peening",
+            "zh": "激光冲击喷丸"
+          },
+          {
+            "en": "shot peening",
+            "zh": "喷丸"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "fretting wear",
+            "zh": "微动磨损"
+          },
+          {
+            "en": "low-cycle fatigue",
+            "zh": "低周疲劳"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          },
+          {
+            "en": "surface integrity",
+            "zh": "表面完整性"
+          },
+          {
+            "en": "fatigue life",
+            "zh": "疲劳寿命"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-09T07:59:18Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "High": 1
+    }
+  }
+}
