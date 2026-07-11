@@ -1,0 +1,154 @@
+{
+  "schema_version": "v2",
+  "date": "2026-07-09",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7167845378",
+      "doi": "10.21275/sr26215224734",
+      "title": "Experimental and ANN-Based Multi-Response Milling Parameter Optimization for Ti-6Al-4V Tire Mold Surface Quality Enhancement",
+      "abstract": "Titanium alloy Ti-6Al-4V is widely utilized in high-performance engineering applications because of its excellent strength-to-weight ratio, corrosion resistance, and thermal stability. To improve surface finish and functional performance, its use in the production of tyre molds necessitates exact control over machining settings. Nevertheless, systematic milling optimization of Ti-6Al-4V for this particular application is the subject of few investigations. This study examines how surface roughness, material removal rate (MRR), and surface hardness are affected by spindle speed, feed rate, and depth of cut. Grey Relational Analysis (GRA) was used for multi-response optimization, while the Taguchi approach was used for experimental design. To forecast surface roughness from machining parameters and identify ideal circumstances for a particular surface finish, an Artificial Neural Network (ANN) model was created in Python. Surface integrity was greatly enhanced while manufacturing efficiency was maintained by the combined experimental, statistical, and artificial intelligence framework. The suggested method offers a dependable and clever way to maximize Ti-6Al-4V milling in tire mold production applications.",
+      "authors": [
+        "Arul Raja R A",
+        "Sankar E",
+        "Anilkumar S"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [],
+      "venue": "International Journal of Science and Research (IJSR)",
+      "year": 2026,
+      "date": "2026-07-09",
+      "date_precision": "day",
+      "url": "https://doi.org/10.21275/sr26215224734",
+      "cited_by_count": 0,
+      "concepts": [
+        "Mold",
+        "Surface roughness",
+        "Machining",
+        "Materials science",
+        "Taguchi methods",
+        "Artificial neural network",
+        "Mechanical engineering",
+        "Surface finish",
+        "Surface (topology)",
+        "Grey relational analysis",
+        "Surface integrity",
+        "Response surface methodology",
+        "Process engineering",
+        "Quality (philosophy)",
+        "Titanium alloy",
+        "Metallurgy",
+        "Composite material",
+        "Batch production",
+        "Surface finishing"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess",
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining",
+          "surface integrity"
+        ],
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "论文研究的是Ti-6Al-4V的铣削参数优化，而非增材制造后的后处理工艺，与用户关注的后处理对疲劳/力学性能的影响无关。",
+        "why_not_core": "This paper deals with conventional milling optimization for surface quality, not with post-processing treatments (e.g., heat treatment, HIP, shot peening) applied to additive-manufactured Ti-6Al-4V components to modify fatigue/mechanical performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "milling",
+          "surface roughness",
+          "ANN",
+          "GRA",
+          "Taguchi"
+        ],
+        "summary_zh": {
+          "motivation": "优化Ti-6Al-4V轮胎模具的铣削工艺以提高表面质量",
+          "method": "使用Taguchi实验设计、GRA多响应优化和ANN预测表面粗糙度",
+          "result": "提出的方法在保持加工效率的同时显著改善了表面完整性",
+          "validation": "通过实验测量表面粗糙度、材料去除率和硬度进行验证"
+        },
+        "summary_en": {
+          "motivation": "To systematically optimize milling parameters for Ti-6Al-4V tire molds to enhance surface finish and functional performance.",
+          "method": "Taguchi design, Grey Relational Analysis for multi-response optimization, and an Artificial Neural Network model in Python to predict surface roughness.",
+          "result": "The combined experimental, statistical, and AI framework improved surface integrity while maintaining manufacturing efficiency.",
+          "validation": "Experimental validation through surface roughness, material removal rate, and hardness measurements."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "milling",
+            "zh": "铣削"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "material removal rate",
+            "zh": "材料去除率"
+          },
+          {
+            "en": "Grey Relational Analysis",
+            "zh": "灰色关联分析"
+          },
+          {
+            "en": "Taguchi method",
+            "zh": "田口方法"
+          },
+          {
+            "en": "Artificial Neural Network",
+            "zh": "人工神经网络"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-11T06:33:19Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

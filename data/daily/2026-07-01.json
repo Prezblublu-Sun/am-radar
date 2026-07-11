@@ -1414,28 +1414,158 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-07-09T07:59:18Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7167830811",
+      "doi": "10.1016/j.amf.2026.200361",
+      "title": "Ti-6Al-4V/ Ti-5Al-2.5Sn gradient titanium alloy thin wall fabricated by resistive thermal fusion interface: Microstructure, mechanical property and fracture mechanism",
+      "abstract": "",
+      "authors": [
+        "Jiawen Lv",
+        "Bobo Li",
+        "Yitao Chen",
+        "Jiacheng Zhang",
+        "Bingheng Lu"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [],
+      "venue": "Additive Manufacturing Frontiers",
+      "year": 2026,
+      "date": "2026-07-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.amf.2026.200361",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Titanium alloy",
+        "Fracture (geology)",
+        "Alloy",
+        "Mechanism (biology)",
+        "Fusion",
+        "Resistive touchscreen",
+        "Nickel alloy",
+        "Thermal",
+        "Fracture toughness",
+        "Metallurgy",
+        "Titanium",
+        "Thermography"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V，但主要关于梯度合金薄壁，且采用非典型增材制造工艺，与L1层常规AM Ti-6Al-4V力学/疲劳焦点相关性弱。",
+        "why_not_core": "The paper focuses on a gradient Ti-6Al-4V/Ti-5Al-2.5Sn thin wall fabricated by resistive thermal fusion, which is not a standard Ti-6Al-4V AM process and does not isolate Ti-6Al-4V mechanical/fatigue performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "resistive thermal fusion",
+          "gradient alloy",
+          "thin wall",
+          "Ti-6Al-4V",
+          "Ti-5Al-2.5Sn",
+          "microstructure",
+          "mechanical property",
+          "fracture mechanism",
+          "additive manufacturing"
+        ],
+        "summary_zh": {
+          "motivation": "研究电阻热熔界面制备Ti-6Al-4V/Ti-5Al-2.5Sn梯度钛合金薄壁的微观结构与力学性能。",
+          "method": "采用电阻热熔界面工艺制备梯度薄壁，进行微观表征与力学测试。",
+          "result": "揭示了梯度界面的微观组织、力学性能及断裂机制。",
+          "validation": "通过力学测试验证了梯度薄壁的性能。"
+        },
+        "summary_en": {
+          "motivation": "To investigate the microstructure, mechanical properties, and fracture mechanism of a gradient Ti-6Al-4V/Ti-5Al-2.5Sn thin wall fabricated by a novel resistive thermal fusion interface. ",
+          "method": "A gradient thin wall was fabricated using resistive thermal fusion, and its microstructure and mechanical properties were characterized.",
+          "result": "The study revealed the gradient interface's microstructure, mechanical properties, and fracture mechanism.",
+          "validation": "Mechanical testing was performed to validate the gradient thin wall's performance."
+        },
+        "key_terms": [
+          {
+            "en": "resistive thermal fusion",
+            "zh": "电阻热熔"
+          },
+          {
+            "en": "gradient alloy",
+            "zh": "梯度合金"
+          },
+          {
+            "en": "thin wall",
+            "zh": "薄壁"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "Ti-5Al-2.5Sn",
+            "zh": "Ti-5Al-2.5Sn"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "mechanical property",
+            "zh": "力学性能"
+          },
+          {
+            "en": "fracture mechanism",
+            "zh": "断裂机制"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-11T06:33:19Z"
     }
   ],
   "counts": {
-    "fetched_total": 11,
+    "fetched_total": 12,
     "by_source": {
-      "openalex": 11
+      "openalex": 12
     },
-    "after_dedup": 11,
-    "after_routing": 11,
+    "after_dedup": 12,
+    "after_routing": 12,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 6,
+      "ti6al4v_base_mechanical_fatigue": 7,
       "ti6al4v_postprocess": 5
     },
     "routed_by_source": {
-      "openalex": 11
+      "openalex": 12
     },
-    "scored": 11,
+    "scored": 12,
     "priority_counts": {
       "High": 3,
       "Medium": 1,
       "Exclude": 4,
-      "Low": 3
+      "Low": 4
     }
   }
 }
