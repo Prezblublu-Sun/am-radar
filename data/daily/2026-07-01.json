@@ -1544,27 +1544,398 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-07-11T06:33:19Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7167854049",
+      "doi": "10.1016/j.mtcomm.2026.115701",
+      "title": "Porosity and elevated-temperature tensile response of PBF-LB/M Ti-6Al-4V across laser beam profiles mapped using a spot-size-aware energy metric",
+      "abstract": "Laser beam shaping in PBF-LB/M modifies the spatial laser energy distribution, affecting melt-pool evolution, defect formation, and mechanical response. Ti-6Al-4V was processed using Gaussian, core–ring, and ring-dominated beam profiles. Measured beam maps were used to determine the effective beam diameter in a modified energy metric (VED M , J mm⁻² s⁻¹/²) for cross-mode comparison. Densification and pore characteristics were assessed in cubes and tensile specimens. Core–ring and ring-dominated profiles transitioned from lack-of-fusion defects at low input to near-full density at higher input, whereas Gaussian shifted toward keyhole-type porosity at the highest input. At VED M = 332 J mm⁻² s⁻¹/², the µCT-scanned tensile gauge regions showed lower relative density for Gaussian (~98.6%) than for core–ring and ring-dominated conditions (~99.8%). Tensile specimens produced with Gaussian and ring-dominated beams were tested at RT, 200 °C, and 400 °C. All conditions showed temperature-dependent softening. However, at high VED M and 400 °C, the ring-dominated condition retained higher ductility (~10%) than the Gaussian condition (~7%), while maintaining a comparable peak stress. Fractography showed pore-assisted initiation in the Gaussian condition and ductile tearing with pronounced necking in the ring-dominated condition. Overall, elevated-temperature tensile performance was primarily associated with pore type and severity, while VED M provides a practical framework for cross-mode comparison.",
+      "authors": [
+        "Abid Ullah",
+        "Amjad Iqbal",
+        "Kai Zhang",
+        "Tingting Liu",
+        "Dirk Herzog",
+        "Alexander Medvedev",
+        "Andrey Molotnikov",
+        "Ingomar Kelbassa",
+        "Milan Brandt"
+      ],
+      "first_author_affiliation": "Institute for Industrialization of Smart Materials, Hamburg University of Technology, D-21079, Hamburg, Germany",
+      "corresponding_authors": [
+        {
+          "name": "Abid Ullah",
+          "affiliation": "Institute for Industrialization of Smart Materials, Hamburg University of Technology, D-21079, Hamburg, Germany"
+        },
+        {
+          "name": "Milan Brandt",
+          "affiliation": "RMIT Centre for Additive Manufacturing, School of Engineering, RMIT University, Melbourne, VIC 3000, Australia"
+        }
+      ],
+      "venue": "Materials Today Communications",
+      "year": 2026,
+      "date": "2026-07-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.mtcomm.2026.115701",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Porosity",
+        "Ultimate tensile strength",
+        "Composite material",
+        "Laser",
+        "Beam (structure)",
+        "Energy (signal processing)",
+        "Metric (unit)",
+        "Laser beams",
+        "Optics"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "ductility",
+          "porosity",
+          "defect"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了增材制造Ti-6Al-4V的力学性能（拉伸），符合L1层要求。",
+        "why_not_core": "No fatigue testing or fatigue data reported; focuses on tensile properties only.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "PBF-LB/M",
+          "Ti-6Al-4V",
+          "laser beam shaping",
+          "porosity",
+          "tensile response",
+          "elevated temperature"
+        ],
+        "summary_zh": {
+          "motivation": "探究激光光束形状对PBF-LB/M Ti-6Al-4V孔隙率和拉伸性能的影响",
+          "method": "使用高斯、芯环和环主导光束轮廓，基于修正能量密度进行跨模式比较，并进行室温和高温拉伸测试",
+          "result": "环主导轮廓在高温下保持更高的延展性（约10%）而强度相当，高斯轮廓则因孔隙导致早期断裂",
+          "validation": "通过μCT孔隙率表征和拉伸断口形貌分析验证"
+        },
+        "summary_en": {
+          "motivation": "To investigate how different laser beam profiles (Gaussian, core-ring, ring-dominated) affect porosity and tensile response of PBF-LB/M Ti-6Al-4V at room and elevated temperatures.",
+          "method": "Ti-6Al-4V samples were fabricated with three beam profiles, characterized using a spot-size-aware energy metric (VED_M), and tested in tension at 25°C, 200°C, and 400°C with μCT porosity analysis.",
+          "result": "The ring-dominated beam profile achieved higher ductility (~10%) at 400°C while maintaining comparable peak stress relative to the Gaussian profile, attributed to reduced keyhole porosity and more uniform deformation.",
+          "validation": "Experimental tensile testing with μCT quantification of porosity and fractographic analysis confirmed the relationship between pore type and mechanical performance."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "beam shaping",
+            "zh": "光束整形"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "tensile properties",
+            "zh": "拉伸性能"
+          },
+          {
+            "en": "elevated temperature",
+            "zh": "高温"
+          },
+          {
+            "en": "energy density",
+            "zh": "能量密度"
+          },
+          {
+            "en": "fractography",
+            "zh": "断口形貌"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          },
+          {
+            "en": "micro-computed tomography",
+            "zh": "微计算机断层扫描"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-12T07:07:23Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7167911275",
+      "doi": "10.1016/j.vacuum.2026.115643",
+      "title": "Enhanced impact fatigue resistance and high-speed cutting performance of AlTiBN coatings for Ti-6Al-4V machining via gradient architecture design",
+      "abstract": "",
+      "authors": [
+        "Wei Fang",
+        "Xi’an Chen",
+        "Xiaochen Yang",
+        "Xiaoyu Ye",
+        "Langlang Tao",
+        "蔡飞",
+        "S W Zhang"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [],
+      "venue": "Vacuum",
+      "year": 2026,
+      "date": "2026-07-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.vacuum.2026.115643",
+      "cited_by_count": 0,
+      "concepts": [
+        "Machining",
+        "Materials science",
+        "Impact resistance",
+        "Composite material",
+        "Mechanical engineering",
+        "Metallurgy",
+        "Fatigue limit",
+        "Architecture"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是用于加工Ti-6Al-4V的涂层，而非Ti-6Al-4V本身的后处理工艺。",
+        "why_not_core": "The paper studies coatings for machining Ti-6Al-4V tools, not post-processing treatments of Ti-6Al-4V components; no additive manufacturing or post-processing of Ti-6Al-4V is involved.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "coatings",
+          "machining",
+          "Ti-6Al-4V",
+          "impact fatigue",
+          "gradient architecture"
+        ],
+        "summary_zh": {
+          "motivation": "开发用于Ti-6Al-4V高速切削的耐磨涂层。",
+          "method": "通过梯度结构设计制备AlTiBN涂层。",
+          "result": "涂层提升了冲击疲劳抗力和切削性能。",
+          "validation": "通过高速切削实验验证涂层性能。"
+        },
+        "summary_en": {
+          "motivation": "To develop wear-resistant coatings for high-speed machining of Ti-6Al-4V alloys.",
+          "method": "AlTiBN coatings with gradient architecture were designed and fabricated.",
+          "result": "The gradient coating exhibited enhanced impact fatigue resistance and cutting performance.",
+          "validation": "Performance was validated through high-speed cutting experiments."
+        },
+        "key_terms": [
+          {
+            "en": "AlTiBN coatings",
+            "zh": "AlTiBN涂层"
+          },
+          {
+            "en": "gradient architecture",
+            "zh": "梯度结构"
+          },
+          {
+            "en": "impact fatigue resistance",
+            "zh": "冲击疲劳抗力"
+          },
+          {
+            "en": "high-speed cutting",
+            "zh": "高速切削"
+          },
+          {
+            "en": "Ti-6Al-4V machining",
+            "zh": "Ti-6Al-4V加工"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-12T07:07:23Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7167892590",
+      "doi": "10.1111/jcmm.71254",
+      "title": "The Correlation of Enhanced Osteogenic Capability in Titanium Alloy Implants Through Modulation of the Runx2/ <scp>BSP</scp> Pathway",
+      "abstract": "ABSTRACT We investigated the mechanical properties, biocompatibility and osteogenic potential of titanium alloy implants (Ti6Al4V group) compared to conventional alloy implants (Ti4Al2V group). The mechanical performance tests, including ultimate tensile strength, elongation at break, yield strength and ultimate compressive strength, demonstrated superior results for the titanium alloy implants. In vitro cell experiments, comprising CCK‐8 assay and ALP (alkaline phosphatase) staining, revealed significantly higher cell viability and osteogenic activity in the Ti6Al4V group. Additionally, in vivo animal experiments, including HE staining, flow cytometry, immunofluorescence assay. Ti‐6Al‐4V implants exhibited superior mechanical properties compared with conventional alloy implants, with a higher ultimate tensile strength (1200 ± 50 vs. 950 ± 45 MPa), greater elongation at break (15.2% ± 2.1% vs. 9.8% ± 1.7%), higher compressive yield strength (850 ± 40 vs. 720 ± 35 MPa) and higher ultimate compressive strength (1300 ± 60 vs. 1100 ± 50 MPa) (all p &lt; 0.05). The elastic modulus of Ti‐6Al‐4V (10.8 ± 0.15 GPa) was lower than that of the conventional alloy (16.2 ± 0.18 GPa), closer to cancellous bone (~4 GPa), suggesting reduced stress shielding. In vitro, Ti‐6Al‐4V implants supported significantly higher MC3T3‐E1 proliferation at 48 h ( p &lt; 0.01) and enhanced osteogenic differentiation, with ALP staining intensity of 450 ± 35 vs. 320 ± 28 and a higher percentage of ALP‐positive cells (85% ± 4% vs. 60% ± 5%) compared with controls (both p &lt; 0.05). In vivo, H&amp;E staining showed more abundant and better‐organised bone trabeculae around Ti‐6Al‐4V implants, while flow cytometry revealed reduced apoptosis in peri‐implant tissues ( p &lt; 0.05). At the molecular level, Ti‐6Al‐4V implants significantly upregulated osteogenic markers: Runx2 protein expression was increased by 33% and BSP by 42% relative to the control alloy, accompanied by higher levels of osteocalcin (OCN) and collagen type I alpha 1 (COL1A1) (all p &lt; 0.05). Ti4Al2V groupTi4Al2V group. These findings suggest that titanium alloy implants exhibit better biocompatibility and osteogenic capacity than conventional alloy implants, providing a strong foundation for their potential application in clinical settings.",
+      "authors": [
+        "Zhuo Wang",
+        "Huayan Guo"
+      ],
+      "first_author_affiliation": "Department of Stomatology Shanghai East Hospital, School of Medicine, Tongji University  Shanghai China",
+      "corresponding_authors": [],
+      "venue": "Journal of Cellular and Molecular Medicine",
+      "year": 2026,
+      "date": "2026-07-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1111/jcmm.71254",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Ultimate tensile strength",
+        "Titanium alloy",
+        "Biocompatibility",
+        "Alloy",
+        "Elongation",
+        "Cancellous bone",
+        "Compressive strength",
+        "Biomedical engineering",
+        "Titanium",
+        "In vivo",
+        "Tensile testing",
+        "Elastic modulus",
+        "Composite material",
+        "Flow cytometry",
+        "Viability assay"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "tensile strength",
+          "yield strength",
+          "ultimate tensile strength",
+          "elongation"
+        ],
+        "ti6al4v_femoral_stem": [
+          "Ti6Al4V",
+          "stress shielding"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文主要比较Ti-6Al-4V与传统合金的力学和生物性能，但未涉及股骨柄结构设计或相关力学分析。",
+        "why_not_core": "It does not address any femoral stem structural design, lattice architecture, stress shielding analysis, or stem fatigue testing; it is a general material comparison study with biological focus.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "mechanical properties",
+          "osteogenic capability",
+          "Runx2/BSP pathway",
+          "biocompatibility"
+        ],
+        "summary_zh": {
+          "motivation": "探究钛合金植入物相比传统合金的力学与成骨性能优势",
+          "method": "通过力学测试、体外细胞实验和体内动物实验，结合分子通路分析",
+          "result": "Ti-6Al-4V具有更好的力学性能、细胞活力和成骨分化能力",
+          "validation": "力学测试、体外细胞实验和体内动物实验验证"
+        },
+        "summary_en": {
+          "motivation": "To compare the mechanical properties and osteogenic capability of Ti-6Al-4V implants with conventional alloy implants.",
+          "method": "Mechanical tests, in vitro cell assays (CCK-8, ALP), and in vivo animal experiments with molecular analysis of Runx2/BSP pathway.",
+          "result": "Ti-6Al-4V exhibited superior mechanical properties, enhanced cell viability, and upregulated osteogenic markers.",
+          "validation": "Mechanical testing, in vitro cellular assays, and in vivo animal histological and molecular analyses."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "osteogenic capability",
+            "zh": "成骨能力"
+          },
+          {
+            "en": "Runx2/BSP pathway",
+            "zh": "Runx2/BSP通路"
+          },
+          {
+            "en": "mechanical properties",
+            "zh": "力学性能"
+          },
+          {
+            "en": "biocompatibility",
+            "zh": "生物相容性"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-12T07:07:23Z"
     }
   ],
   "counts": {
-    "fetched_total": 12,
+    "fetched_total": 15,
     "by_source": {
-      "openalex": 12
+      "openalex": 15
     },
-    "after_dedup": 12,
-    "after_routing": 12,
+    "after_dedup": 15,
+    "after_routing": 15,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 7,
-      "ti6al4v_postprocess": 5
+      "ti6al4v_base_mechanical_fatigue": 8,
+      "ti6al4v_postprocess": 6,
+      "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "openalex": 12
+      "openalex": 15
     },
-    "scored": 12,
+    "scored": 15,
     "priority_counts": {
-      "High": 3,
+      "High": 4,
       "Medium": 1,
-      "Exclude": 4,
+      "Exclude": 6,
       "Low": 4
     }
   }

@@ -1,0 +1,165 @@
+{
+  "schema_version": "v2",
+  "date": "2026-07-10",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7167892627",
+      "doi": "10.1007/s40964-026-01827-0",
+      "title": "Correlating microstructure and residual stress improvement in HIP-processed PBF-LB Ti-6Al-4V using nanoindentation property mapping",
+      "abstract": "Integrating microscale mechanical mapping with microstructural and residual-stress analysis provides a robust approach to establishing process–structure–property relationships at a fine scale in additively manufactured (AM) metals. This study examines the microscale mechanical response of Ti-6Al-4V fabricated by laser powder bed fusion (PBF-LB), followed by hot isostatic pressing (HIP) as a post-process, alongside a wrought (WR) sample as a baseline reference for wrought material. Microstructural and nanoindentation mapping, combined with porosity analysis, showed that the as-printed (AP) samples exhibited higher hardness (5.74 GPa), which correlates with the presence of a fine α′ martensitic microstructure, despite a relatively higher porosity level (1.927%). HIP reduced porosity to 0.014% and transformed the microstructure to a coarsened α + β phase, yielding a comparable average hardness of 5.61 GPa. The WR condition displayed negligible porosity, a fine equiaxed α + β microstructure, and the lowest hardness (4.79 GPa). A coefficient of variation (CV%) analysis further revealed greater hardness variability in HIP than in AP, attributable to their differing β-phase fractions. Residual stress measurements indicated high tensile stress in AP (0.275 GPa), a uniform, near-stress-free state with minimal tensile stress in HIP (~ 0.02 GPa), and moderate tensile stress in WR (0.129 GPa). The experimental results fell within the simulated range, reflecting trend alignment between the two approaches. Both experimental and simulated residual stress indicate similar behavior across processing conditions, while combined nanoindentation–EBSD mapping is used to assess spatial variations in microscale mechanical response relative to microstructural features.",
+      "authors": [
+        "Lutfun Nipa",
+        "Darshpreet Kaur Saini",
+        "Bibhudutta Rout",
+        "Héctor R. Siller"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, University of North Texas, Denton, USA",
+      "corresponding_authors": [
+        {
+          "name": "Héctor R. Siller",
+          "affiliation": "Department of Mechanical Engineering, University of North Texas, Denton, USA"
+        }
+      ],
+      "venue": "Progress in Additive Manufacturing",
+      "year": 2026,
+      "date": "2026-07-10",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40964-026-01827-0",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Hot isostatic pressing",
+        "Nanoindentation",
+        "Residual stress",
+        "Microscale chemistry",
+        "Microstructure",
+        "Porosity",
+        "Ultimate tensile strength",
+        "Equiaxed crystals",
+        "Composite material",
+        "Stress (linguistics)",
+        "Metallurgy",
+        "Indentation hardness",
+        "Tensile testing"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "microstructure",
+          "porosity",
+          "residual stress"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "hot isostatic pressing",
+          "post-process"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "本文直接研究热等静压（HIP）对激光粉末床熔融Ti-6Al-4V微观结构、残余应力和纳米硬度的影响，完全符合L2后处理控制的研究方向。",
+        "why_not_core": "This paper does not include fatigue testing or long-term mechanical performance data, focusing instead on nanoindentation hardness, residual stress, and porosity as indicators.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "hot isostatic pressing",
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "nanoindentation",
+          "residual stress",
+          "microstructure",
+          "porosity"
+        ],
+        "summary_zh": {
+          "motivation": "建立增材制造Ti-6Al-4V经热等静压后微观力学性能与微观结构、残余应力的关联。",
+          "method": "结合纳米压痕映射、EBSD和残余应力测量分析微观力学行为。",
+          "result": "热等静压将孔隙率降至0.014%，微观结构由α′转变为α+β，残余应力几乎消除，硬度保持5.61 GPa。",
+          "validation": "通过实验纳米压痕、孔隙率和残余应力测量并与模拟结果对比验证。"
+        },
+        "summary_en": {
+          "motivation": "To establish structure-property correlations at the microscale in additively manufactured Ti-6Al-4V after hot isostatic pressing by mapping mechanical response alongside microstructural and residual stress changes.",
+          "method": "Nanoindentation property mapping combined with EBSD and residual stress analysis was performed on as-printed, HIP-treated, and wrought Ti-6Al-4V samples.",
+          "result": "HIP reduced porosity to 0.014%, transformed the fine α′ martensite to a coarsened α+β microstructure, eliminated tensile residual stress, and maintained a high hardness of 5.61 GPa.",
+          "validation": "Experimental nanoindentation, porosity measurements, and residual stress data were compared with simulation results, showing good trend alignment."
+        },
+        "key_terms": [
+          {
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "nanoindentation",
+            "zh": "纳米压痕"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观结构"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-12T07:07:23Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "High": 1
+    }
+  }
+}
