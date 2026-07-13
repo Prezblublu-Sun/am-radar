@@ -1914,29 +1914,149 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-07-12T07:07:23Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7168039323",
+      "doi": "10.1016/j.wear.2026.206886",
+      "title": "Multiscale ploughing behavior of additively manufactured Ti-6Al-4V alloy and TiC/Ti-6Al-4V composite during scratching",
+      "abstract": "",
+      "authors": [
+        "A.V. Panin",
+        "A.R. Shugurov",
+        "A. I. Dmitriev",
+        "M.S. Kazachenok",
+        "G.M. Eremina",
+        "A. Yu. Nikonov"
+      ],
+      "first_author_affiliation": "National Research Tomsk Polytechnic University, Tomsk, 634050, Russia",
+      "corresponding_authors": [
+        {
+          "name": "A.V. Panin",
+          "affiliation": "National Research Tomsk Polytechnic University, Tomsk, 634050, Russia"
+        }
+      ],
+      "venue": "Wear",
+      "year": 2026,
+      "date": "2026-07-01",
+      "date_precision": "month",
+      "url": "https://doi.org/10.1016/j.wear.2026.206886",
+      "cited_by_count": 0,
+      "concepts": [
+        "Scratch",
+        "Materials science",
+        "Scratching",
+        "Indentation",
+        "Composite material",
+        "Abrasive",
+        "Composite number",
+        "Deformation (meteorology)",
+        "Alloy",
+        "Abrasion (mechanical)",
+        "Tungsten carbide",
+        "Carbide",
+        "Titanium alloy",
+        "Plasticity",
+        "Nanoindentation",
+        "Scanning electron microscope",
+        "Dislocation",
+        "Metal matrix composite"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及增材制造Ti-6Al-4V的刮擦行为，但核心是磨损而非力学/疲劳性能。",
+        "why_not_core": "Focuses on scratching/ploughing behavior rather than tensile/fatigue properties, and includes TiC composite not pure Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "additive manufacturing",
+          "scratching",
+          "ploughing",
+          "TiC composite"
+        ],
+        "summary_zh": {
+          "motivation": "研究增材制造Ti-6Al-4V及其复合材料在刮擦中的多尺度犁削行为。",
+          "method": "进行多尺度刮擦实验，分析犁削机制。",
+          "result": "揭示了不同尺度下的犁削行为特征。",
+          "validation": "通过实验刮擦测试验证。"
+        },
+        "summary_en": {
+          "motivation": "This study investigates the multiscale ploughing behavior of additively manufactured Ti-6Al-4V alloy and TiC/Ti-6Al-4V composite during scratching.",
+          "method": "Multiscale scratching experiments were conducted to analyze the ploughing mechanisms.",
+          "result": "The ploughing behavior was characterized at different scales, revealing distinct mechanisms.",
+          "validation": "Validation was performed through experimental scratching tests."
+        },
+        "key_terms": [
+          {
+            "en": "additively manufactured Ti-6Al-4V",
+            "zh": "增材制造Ti-6Al-4V"
+          },
+          {
+            "en": "TiC/Ti-6Al-4V composite",
+            "zh": "TiC/Ti-6Al-4V复合材料"
+          },
+          {
+            "en": "scratching",
+            "zh": "刮擦"
+          },
+          {
+            "en": "ploughing",
+            "zh": "犁削"
+          },
+          {
+            "en": "wear",
+            "zh": "磨损"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-13T07:47:38Z"
     }
   ],
   "counts": {
-    "fetched_total": 15,
+    "fetched_total": 16,
     "by_source": {
-      "openalex": 15
+      "openalex": 16
     },
-    "after_dedup": 15,
-    "after_routing": 15,
+    "after_dedup": 16,
+    "after_routing": 16,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 8,
+      "ti6al4v_base_mechanical_fatigue": 9,
       "ti6al4v_postprocess": 6,
       "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "openalex": 15
+      "openalex": 16
     },
-    "scored": 15,
+    "scored": 16,
     "priority_counts": {
       "High": 4,
       "Medium": 1,
       "Exclude": 6,
-      "Low": 4
+      "Low": 5
     }
   }
 }
