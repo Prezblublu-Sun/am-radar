@@ -1,0 +1,162 @@
+{
+  "schema_version": "v2",
+  "date": "2026-07-13",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7168159216",
+      "doi": "10.1007/s40430-026-06575-4",
+      "title": "Multi-response optimization of ultrasonic-assisted drilling for ımproving hole quality in Al 7075 and Ti6Al4V alloys",
+      "abstract": "Abstract This study investigates the dimensional accuracy and surface integrity problems encountered during the drilling of Al 7075 and Ti-6Al-4 V alloys, which are widely used in the aerospace industry, and presents a systematic evaluation of ultrasonic-assisted drilling (UAD) under different amplitude levels (60%, 80%, and 100%) at constant frequency conditions. The experiments were conducted to compare conventional drilling and UAD in terms of hole diameter deviation, circularity, cylindricity, surface roughness, and burr formation. The results showed that UAD significantly improved hole quality for both materials. Hole diameter deviation decreased by 69% for Al 7075 and 59% for Ti-6Al-4 V compared with conventional drilling. Circularity deviation was reduced by 40% for Al 7075, while cylindricity error decreased by 34% for Al 7075 and up to 54% for Ti-6Al-4 V. Surface roughness values were improved to 0.957 μm for Al 7075 and 0.573 μm for Ti-6Al-4 V. In addition, burr formation at the hole exit was substantially suppressed; the maximum burr height in Al 7075 decreased from 1479 to 160 μm at 100% amplitude, whereas the minimum maximum burr height obtained for Ti-6Al-4 V under UAD conditions was 263 μm. Multi-response optimization using the sequential least squares programming (SLSQP) algorithm identified the parameter combinations providing the best overall performance. The optimal condition for Ti-6Al-4 V was determined as 15 m/min cutting speed, 0.06 mm/rev feed rate, and 100% amplitude, corresponding to the highest desirability value of 0.626. The results demonstrate that UAD effectively suppresses dimensional and geometric error mechanisms in difficult-to-machine aerospace alloys and provides a statistically supported optimization framework for precision drilling operations. The proposed approach offers a reliable basis for industrial process planning and future data-driven predictive modeling studies.",
+      "authors": [
+        "Abdurrahman Cetin",
+        "Sinan Serdar ÖZKAN",
+        "Caner Erden",
+        "Furkan Korkmaz",
+        "Ahmet Kolip"
+      ],
+      "first_author_affiliation": "Vocational School of Sakarya, Machinery and Metal Technology, Sakarya University of Applied Sciences, Sakarya, Türkiye",
+      "corresponding_authors": [
+        {
+          "name": "Abdurrahman Cetin",
+          "affiliation": "Vocational School of Sakarya, Machinery and Metal Technology, Sakarya University of Applied Sciences, Sakarya, Türkiye"
+        },
+        {
+          "name": "Sinan Serdar ÖZKAN",
+          "affiliation": "Department of Mechatronics Engineering, Faculty of Technology, Sakarya University of Applied Sciences, Sakarya, Türkiye"
+        },
+        {
+          "name": "Caner Erden",
+          "affiliation": "Department of Computer Engineering, Faculty of Technology, Sakarya University of Applied Sciences, Sakarya, Türkiye"
+        },
+        {
+          "name": "Furkan Korkmaz",
+          "affiliation": "Electronic and Automation Department, Sakarya Vocational School, Sakarya University of Applied Sciences, Sakarya, Türkiye"
+        },
+        {
+          "name": "Ahmet Kolip",
+          "affiliation": "Mechanical Engineering Department, Faculty of Technology, Sakarya University of Applied Sciences, Sakarya, Türkiye"
+        }
+      ],
+      "venue": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+      "year": 2026,
+      "date": "2026-07-13",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40430-026-06575-4",
+      "cited_by_count": 0,
+      "concepts": [
+        "Drilling",
+        "Materials science",
+        "Surface roughness",
+        "Aerospace",
+        "Amplitude",
+        "Surface finish",
+        "Tool wear",
+        "Standard deviation",
+        "Surface (topology)",
+        "Quality (philosophy)",
+        "Response surface methodology",
+        "Titanium alloy",
+        "Absolute deviation",
+        "Metallurgy",
+        "Mechanical engineering",
+        "Machining"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "surface roughness"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti6Al4V",
+          "surface integrity"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究传统Al7075和Ti6Al4V合金的超声辅助钻孔工艺，不涉及增材制造Ti-6Al-4V的后处理。",
+        "why_not_core": "This paper does not study AM Ti-6Al-4V nor any post-processing treatment relevant to AM (heat treatment, HIP, surface peening, etc.); it focuses on ultrasonic-assisted drilling of wrought alloys for hole quality.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "drilling",
+          "ultrasonic-assisted",
+          "Ti6Al4V",
+          "hole quality",
+          "optimization"
+        ],
+        "summary_zh": {
+          "motivation": "提高航空航天铝合金和钛合金的钻孔质量",
+          "method": "通过超声辅助钻孔实验对比不同振幅，并用SLSQP优化参数",
+          "result": "超声辅助钻孔显著改善了孔的直径偏差、圆度、圆柱度、表面粗糙度和毛刺",
+          "validation": "实验测量与统计优化"
+        },
+        "summary_en": {
+          "motivation": "To improve dimensional accuracy and surface integrity of drilled holes in aerospace aluminum and titanium alloys.",
+          "method": "Ultrasonic-assisted drilling experiments with varying amplitude levels were conducted, and multi-response optimization was performed using sequential least squares programming (SLSQP).",
+          "result": "Ultrasonic-assisted drilling significantly reduced hole diameter deviation, circularity, cylindricity, surface roughness, and burr formation for both Al 7075 and Ti6Al4V.",
+          "validation": "Experimental measurements and statistical optimization."
+        },
+        "key_terms": [
+          {
+            "en": "ultrasonic-assisted drilling",
+            "zh": "超声辅助钻孔"
+          },
+          {
+            "en": "hole quality",
+            "zh": "孔质量"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V钛合金"
+          },
+          {
+            "en": "Al 7075",
+            "zh": "Al 7075铝合金"
+          },
+          {
+            "en": "sequential least squares programming",
+            "zh": "序列最小二乘规划"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-15T06:35:28Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}
