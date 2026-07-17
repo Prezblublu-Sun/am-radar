@@ -1,0 +1,432 @@
+{
+  "schema_version": "v2",
+  "date": "2026-07-15",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7168372134",
+      "doi": "10.1007/s40964-026-01805-6",
+      "title": "Influence of strut tapering and joint-node height on mechanical response of BCC lattices",
+      "abstract": "Abstract This study investigates the tensile response of body-centered cubic (BCC) lattice structures with tapered struts manufactured from Ti6Al4V powder using a laser-beam powder bed fusion (PBF-LB) process. It quantifies how the end diameter $$(d_\\textrm{end}$$ ), mid-span diameter $$(d_\\textrm{mid}$$ ), and joint-node height $$(h)$$ affect Young’s modulus $$(E$$ ), 0.2% proof stress $$(R_\\mathrm{p0.2}$$ ), and ultimate tensile strength $$(R_\\textrm{m}$$ ). Experimental tensile tests performed on lattice specimens were combined with simulations based on the finite element method (FEM). A parametric dataset was created using results from finite element simulations and used to develop response surface regression models. The elastic and early plastic responses estimated numerically showed high agreement with experimentally observed responses, whereas the post-peak regime exhibited larger discrepancies associated with progressive failure and fabrication-induced variability. Increases in $$d_\\textrm{mid}$$ and $$d_\\textrm{end}$$ led to higher E , $$R_\\mathrm{p0.2}$$ , and $$R_\\textrm{m}$$ , with the largest gains observed when both diameters increased simultaneously. This indicates a strong geometric interaction. Joint-node height showed a secondary and geometry-dependent influence. All developed regression models explained more than 99% of the variability in FEM-estimated $$E$$ , $$R_\\mathrm{p0.2}$$ , and $$R_\\textrm{m}$$ , capturing nonlinear diameter effects and their interaction. When compared with experimentally determined $$E$$ , $$R_\\mathrm{p0.2}$$ , and $$R_\\textrm{m}$$ , the models explained 85%, 90%, and 88% of the variability in experimentally determined mechanical properties, respectively. Overall, the proposed framework and the developed regression models may serve as useful tools for early-stage unit-cell geometry screening in lattice structures with tapered struts within the investigated design space, while broader experimental validation remains necessary.",
+      "authors": [
+        "David Liović",
+        "Emanuele Vaglio",
+        "Federico Scalzo",
+        "Marina Franulović",
+        "Giovanni Totis",
+        "Marco Sortino"
+      ],
+      "first_author_affiliation": "University of Rijeka, Faculty of Engineering, Vukovarska 58, 51000 Rijeka, Croatia",
+      "corresponding_authors": [
+        {
+          "name": "David Liović",
+          "affiliation": "University of Rijeka, Faculty of Engineering, Vukovarska 58, 51000 Rijeka, Croatia"
+        }
+      ],
+      "venue": "Progress in Additive Manufacturing",
+      "year": 2026,
+      "date": "2026-07-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40964-026-01805-6",
+      "cited_by_count": 0,
+      "concepts": [
+        "Ultimate tensile strength",
+        "Materials science",
+        "Tapering",
+        "Finite element method",
+        "Parametric statistics",
+        "Modulus",
+        "Lattice (music)",
+        "Structural engineering",
+        "Composite material",
+        "Young's modulus",
+        "Material properties",
+        "Elastic modulus",
+        "Fusion",
+        "Titanium alloy",
+        "Tensile testing",
+        "Linear regression",
+        "Nonlinear regression",
+        "Linear elasticity",
+        "Regression analysis"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "powder bed fusion",
+          "tensile strength",
+          "ultimate tensile strength"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究Ti6Al4V点阵结构的力学性能，属于增材制造Ti-6Al-4V的力学表征，但未涉及疲劳性能。",
+        "why_not_core": "Focuses on lattice structures with tapered struts and static tensile properties only, no fatigue data or S-N curves.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti6Al4V",
+          "lattice structures",
+          "PBF-LB",
+          "mechanical properties",
+          "finite element method",
+          "regression models"
+        ],
+        "summary_zh": {
+          "motivation": "研究变截面杆径和节点高度对BCC点阵结构力学响应的影响。",
+          "method": "结合实验拉伸测试和有限元模拟，建立响应面回归模型。",
+          "result": "中间直径和端部直径增大同时提高弹性模量和强度，节点高度影响次要且与几何相关。",
+          "validation": "实验验证了弹性及早期塑性阶段的预测，后峰值阶段偏差较大。"
+        },
+        "summary_en": {
+          "motivation": "To quantify the influence of strut tapering and joint-node height on the tensile mechanical properties of BCC lattices made from Ti6Al4V by PBF-LB.",
+          "method": "Experimental tensile tests combined with finite element simulations were used to generate a parametric dataset and develop response surface regression models.",
+          "result": "Increasing mid-span and end diameters simultaneously provided the greatest improvements in Young's modulus and strengths, with joint-node height playing a secondary role.",
+          "validation": "The regression models explained over 85% of experimental variability in E, Rp0.2, and Rm, though post-peak behavior showed larger discrepancies."
+        },
+        "key_terms": [
+          {
+            "en": "body-centered cubic (BCC) lattice",
+            "zh": "体心立方点阵"
+          },
+          {
+            "en": "tapered struts",
+            "zh": "变截面杆"
+          },
+          {
+            "en": "laser-beam powder bed fusion (PBF-LB)",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Young's modulus",
+            "zh": "杨氏模量"
+          },
+          {
+            "en": "0.2% proof stress",
+            "zh": "0.2%屈服强度"
+          },
+          {
+            "en": "ultimate tensile strength",
+            "zh": "极限抗拉强度"
+          },
+          {
+            "en": "finite element method",
+            "zh": "有限元法"
+          },
+          {
+            "en": "response surface regression",
+            "zh": "响应面回归"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "Ti6Al4V"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-17T06:36:06Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7168425486",
+      "doi": "10.1115/1.4072349",
+      "title": "Enhancement of the Wear and Corrosion Performance of Laser Powder Bed Fusion Ti-6Al-4V via in-situ Laser Surface Remelting Under a Nitrogen Atmosphere",
+      "abstract": "Abstract Laser powder bed fusion (LPBF) enables the fabrication of Ti-6Al-4V components with complex geometries for biomedical and aerospace applications; however, the as-built surfaces often require additional post-processing to meet wear and corrosion performance requirements. In this study, an in-situ nitrogen-assisted laser surface remelting step is integrated into the LPBF workflow to enhance near-surface performance without external coatings or secondary treatments. The effect of this process intervention on surface integrity and functional response is systematically evaluated. Electron backscatter diffraction (EBSD) reveals pronounced grain refinement and texture modification within the remelted surface layer, while Fourier transform infrared (FTIR) spectroscopy is employed solely as a qualitative tool to indicate nitrogen-related surface bonding. As a result of the remelting process under a nitrogen environment, significant improvements in functional performance are achieved, with the wear volume reduced by 54% and the nanohardness increased by 18–22% compared to the as-built condition. Electrochemical measurements further indicate enhanced corrosion resistance, reflected by a 14% reduction in corrosion current density (Icorr). These results demonstrate that in-situ laser remelting under a nitrogen atmosphere can serve as an effective manufacturing strategy for improving the surface durability of LPBF Ti-6Al-4V components.",
+      "authors": [
+        "Ankit Porwal",
+        "Santanu Dhara",
+        "Cheruvu Siva Kumar"
+      ],
+      "first_author_affiliation": "E3-309 MS Hall IIT Kharagpur Kharagpur, West Bengal 721302 India",
+      "corresponding_authors": [],
+      "venue": "Journal of Tribology",
+      "year": 2026,
+      "date": "2026-07-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1115/1.4072349",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Corrosion",
+        "Metallurgy",
+        "Laser",
+        "Texture (cosmology)",
+        "Scanning electron microscope",
+        "Fusion",
+        "Surface modification",
+        "Fabrication",
+        "Composite material",
+        "Grain boundary",
+        "Nitrogen",
+        "Volume (thermodynamics)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "post-processing",
+          "surface integrity"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究了Ti-6Al-4V的后处理（激光表面重熔）对磨损和腐蚀性能的影响，属于L2方向的直接贡献。",
+        "why_not_core": "The paper does not investigate fatigue or tensile properties, focusing instead on wear and corrosion performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "in-situ laser surface remelting",
+          "nitrogen atmosphere",
+          "wear resistance",
+          "corrosion resistance",
+          "surface modification"
+        ],
+        "summary_zh": {
+          "motivation": "改善激光粉末床熔融Ti-6Al-4V的耐磨和耐腐蚀性能",
+          "method": "在LPBF过程中集成氮气辅助激光表面重熔步骤",
+          "result": "磨损体积减少54%，纳米硬度提高18-22%，腐蚀电流密度降低14%",
+          "validation": "通过磨损测试、纳米压痕和电化学测量进行实验验证"
+        },
+        "summary_en": {
+          "motivation": "To enhance the wear and corrosion performance of as-built LPBF Ti-6Al-4V surfaces without external coatings.",
+          "method": "An in-situ nitrogen-assisted laser surface remelting step was integrated into the LPBF workflow.",
+          "result": "Wear volume reduced by 54%, nanohardness increased by 18-22%, and corrosion current density decreased by 14% compared to as-built condition.",
+          "validation": "Experimental validation via wear testing, nanoindentation, and electrochemical measurements."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "in-situ laser surface remelting",
+            "zh": "原位激光表面重熔"
+          },
+          {
+            "en": "nitrogen atmosphere",
+            "zh": "氮气气氛"
+          },
+          {
+            "en": "wear resistance",
+            "zh": "耐磨性"
+          },
+          {
+            "en": "corrosion resistance",
+            "zh": "耐腐蚀性"
+          },
+          {
+            "en": "nanohardness",
+            "zh": "纳米硬度"
+          },
+          {
+            "en": "grain refinement",
+            "zh": "晶粒细化"
+          },
+          {
+            "en": "electron backscatter diffraction",
+            "zh": "电子背散射衍射"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-17T06:36:06Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7168422170",
+      "doi": "10.1177/14644207261458340",
+      "title": "Investigating crystallographic parameters and their impact on mechanical properties of Ti6Al4V alloy from selective Laser melting",
+      "abstract": "Selective Laser Melting (SLM) is a highly adaptable additive manufacturing method notable for its feature accuracy and flexibility. Processing Ti-6Al-4V alloy using SLM is particularly advantageous because of the alloy's unique structural features and thermal characteristics, making it well-suited for demanding applications where lightweight design, strength, and durability are essential. However, prohibitively large number of process parameters and complex thermo-physical phenomenon significantly influence the microstructural features, which in turn affect the torsional performance of printed Ti-6Al-4V components. In this study, the crystallographic structural features behavior of SLM-processed Ti-6Al-4V alloy components was investigated for high-performance loading applications. X-ray diffraction (XRD) analysis of the 3D-printed SLM Ti-6Al-4V alloy specimens revealed crystallite sizes ranging from 687 to 2376 nm along the printed surface in the horizontal position (XY plane) and from 500 to 3747 nm along the part-building direction (Z-axis). Due to the associated microstrain effect, the printed surfaces in the horizontal position exhibited a region of tensile strain (2.440 × 10 −4 ), whereas those parallel to the part-building direction exhibited region of compressive strain (−0.3057 × 10 −4 ) during layer deposition. The printed surfaces demonstrated a higher degree of crystallinity in the vertical-position (96.9%) while the horizontal position exhibited a more amorphous structure (67.5%), suggesting that greater crystalline region develops along the part-building direction of the SLM process. Furthermore, the tensile and torsional yield strengths in the horizontal orientation (550 MPa and 308 MPa, respectively) were slightly higher than those in the vertical directions (540 MPa and 306 MPa, respectively), indicating a marginally better mechanical resistance in the horizontally oriented features compared to the vertically oriented ones.",
+      "authors": [
+        "Kidu Gebrecherkos Weldeanenia",
+        "Janaki Ramulu Perumalla",
+        "Samuel Kinde Kassegne"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, San Diego State University, San Diego, CA, USA",
+      "corresponding_authors": [
+        {
+          "name": "Kidu Gebrecherkos Weldeanenia",
+          "affiliation": "Department of Mechanical Engineering, San Diego State University, San Diego, CA, USA"
+        }
+      ],
+      "venue": "Proceedings of the Institution of Mechanical Engineers Part L Journal of Materials Design and Applications",
+      "year": 2026,
+      "date": "2026-07-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1177/14644207261458340",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Selective laser melting",
+        "Ultimate tensile strength",
+        "Composite material",
+        "Alloy",
+        "Crystallinity",
+        "Crystallite",
+        "Titanium alloy",
+        "Amorphous solid",
+        "Yield (engineering)",
+        "Laser",
+        "Diffraction",
+        "Layer (electronics)",
+        "Thermal",
+        "Position (finance)"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti6Al4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "selective laser melting",
+          "3D printed",
+          "SLM"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文聚焦于激光选区熔化Ti-6Al-4V合金的晶体学参数与力学性能（拉伸和扭转），符合方向L1对增材制造Ti-6Al-4V力学性能的要求。",
+        "why_not_core": "The paper does not address fatigue performance, S-N curves, or crack behavior, which are central to the fatigue focus of Layer 1, though it covers tensile and torsional mechanical properties.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "SLM",
+          "Ti-6Al-4V",
+          "crystallographic parameters",
+          "mechanical properties",
+          "XRD",
+          "tensile strength",
+          "torsional strength"
+        ],
+        "summary_zh": {
+          "motivation": "研究SLM工艺参数对Ti-6Al-4V合金晶体结构及力学性能的影响。",
+          "method": "通过XRD分析晶体尺寸和微应变，并进行拉伸和扭转力学测试。",
+          "result": "水平方向拉伸和扭转屈服强度略高于垂直方向，结晶度在垂直方向更高。",
+          "validation": "实验力学测试与XRD表征验证了晶体参数与性能的关系。"
+        },
+        "summary_en": {
+          "motivation": "To investigate how crystallographic parameters (crystallite size, microstrain, crystallinity) influence the mechanical properties of SLM-processed Ti-6Al-4V alloy.",
+          "method": "X-ray diffraction was used to quantify crystallite size and microstrain, and tensile and torsional tests were performed to evaluate mechanical properties in horizontal and vertical orientations.",
+          "result": "Horizontal orientation exhibited slightly higher tensile (550 MPa) and torsional (308 MPa) yield strengths than vertical (540 MPa and 306 MPa), and vertical orientation had higher crystallinity (96.9%) compared to horizontal (67.5%).",
+          "validation": "Experimental validation through mechanical testing and XRD analysis of printed specimens."
+        },
+        "key_terms": [
+          {
+            "en": "selective laser melting",
+            "zh": "激光选区熔化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "crystallite size",
+            "zh": "晶粒尺寸"
+          },
+          {
+            "en": "microstrain",
+            "zh": "微应变"
+          },
+          {
+            "en": "X-ray diffraction",
+            "zh": "X射线衍射"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "torsional strength",
+            "zh": "扭转强度"
+          },
+          {
+            "en": "crystallinity",
+            "zh": "结晶度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-17T06:36:06Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 3,
+    "by_source": {
+      "openalex": 3
+    },
+    "after_dedup": 3,
+    "after_routing": 3,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 2,
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 3
+    },
+    "scored": 3,
+    "priority_counts": {
+      "Medium": 2,
+      "High": 1
+    }
+  }
+}
