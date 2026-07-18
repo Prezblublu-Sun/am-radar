@@ -407,25 +407,182 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-07-17T06:36:06Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7169006738",
+      "doi": "10.3390/ma19143049",
+      "title": "Laser Powder Bed Fusion Processing of Ti-6Al-4V Powders with Offsize and Wide Particle Size Distributions—Process Optimization",
+      "abstract": "The considerable expense associated with metal additive manufacturing (AM), partly attributed to the high costs of raw materials, forms a significant obstacle hindering the widespread adoption and scaling of this technology. In response to this challenge, this study endeavors to explore and optimize the laser powder bed fusion (LPBF) process parameters for Ti-6Al-4V powders with offsize (45–106 µm) and wide (15–106 µm) particle size distribution (PSD) which are more cost-effective. The outcomes will be compared to those of the same alloy with a standard 15–53 µm PSD. The primary focus of this investigation revolves around two key objectives: firstly, establishing correlations between the laser powder bed fusion process parameters and the resulting density, hardness, and roughness. This objective is achieved by investigating the impact of process parameters within the context of the contour–skin–core method. Secondly, the porosity, microstructure, elemental composition, and dimensional fidelity of several components made from the offsize and wide powders were investigated, utilizing the optimized process parameters for density. To this end, an efficient multi-step experimental design and optimization process was adopted. The findings resulted in the identification of correlations between the significant process parameters and the studied responses, enabling the achievement of 98.7% density and 40.6 HRC hardness for offsize powder and 98.7% density and 40 HRC hardness for wide powder. A separate set of optimized process parameters for larger geometries produced densities exceeding 99.9% in both as-built and HIP conditions across all three powders. Additionally, the results confirmed the higher sensitivity of the roughness to powder size, with the optimized values fluctuating between 9.5 µm and 15.7 µm. Comprehensive microstructural investigation reveals no significant differences in phase evolution or grain structure resulting from the use of offsize or wide powders. This study confirms the viability of utilizing powders containing a higher portion of large particles to mitigate the costs associated with LPBF processes.",
+      "authors": [
+        "Farzad Liravi",
+        "Mahyar Hasanabadi",
+        "Tatevik Minasyan",
+        "Pablo D. Enrique",
+        "Sebastian Soo",
+        "Farima Liravi",
+        "Mahdi Habibnejad-Korayem",
+        "Ehsan Toyserkani"
+      ],
+      "first_author_affiliation": "Multi-Scale Additive Manufacturing Laboratory, Department of Mechanical and Mechatronics Engineering, University of Waterloo, 200 University Ave. W., Waterloo, ON N2L 3G1, Canada",
+      "corresponding_authors": [
+        {
+          "name": "Tatevik Minasyan",
+          "affiliation": "Department of Mechanical and Industrial Engineering, Tallinn University of Technology, 19086 Tallinn, Estonia"
+        },
+        {
+          "name": "Ehsan Toyserkani",
+          "affiliation": "Multi-Scale Additive Manufacturing Laboratory, Department of Mechanical and Mechatronics Engineering, University of Waterloo, 200 University Ave. W., Waterloo, ON N2L 3G1, Canada"
+        }
+      ],
+      "venue": "Materials",
+      "year": 2026,
+      "date": "2026-07-15",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/ma19143049",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Fusion",
+        "Context (archaeology)",
+        "Particle size",
+        "Particle-size distribution",
+        "Process (computing)",
+        "Laser",
+        "Alloy",
+        "Particle (ecology)",
+        "Process optimization",
+        "Metal powder",
+        "Surface roughness",
+        "Composite material",
+        "Process engineering",
+        "Raw material",
+        "Surface finish",
+        "Sensitivity (control systems)",
+        "Design of experiments",
+        "Scaling",
+        "Fabrication",
+        "Metallurgy",
+        "Process variable",
+        "Process window",
+        "Bulk density",
+        "Response surface methodology"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "microstructure",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了非标粒径Ti-6Al-4V粉末的LPBF工艺优化，提供了硬度、密度等基础力学性能数据，但与疲劳性能无直接关联。",
+        "why_not_core": "This paper does not provide mechanical/fatigue properties such as tensile strength, ductility, or fatigue life; it focuses on process optimization for cost reduction rather than detailed mechanical characterization.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "particle size distribution",
+          "process optimization",
+          "hardness",
+          "density",
+          "surface roughness",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "降低粉末成本，优化非标粒径Ti-6Al-4V粉末的LPBF工艺参数。",
+          "method": "采用多步实验设计，优化轮廓-核心-表皮策略下的工艺参数，并对比标准粉末。",
+          "result": "获得密度>99.9%、硬度~40 HRC、粗糙度9.5-15.7 μm的成形件。",
+          "validation": "通过密度、硬度、显微组织表征验证工艺可行性。"
+        },
+        "summary_en": {
+          "motivation": "To reduce raw material costs by using offsize and wide particle size distribution Ti-6Al-4V powders in laser powder bed fusion.",
+          "method": "A multi-step experimental design optimized LPBF parameters within a contour–skin–core strategy, correlating parameters with density, hardness, and roughness.",
+          "result": "Densities exceeding 99.9% and hardness around 40 HRC were achieved for both as-built and HIP conditions, with roughness between 9.5 and 15.7 μm.",
+          "validation": "Experimental measurements of density, hardness, surface roughness, and microstructural analysis validated the results."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "particle size distribution",
+            "zh": "粒径分布"
+          },
+          {
+            "en": "process optimization",
+            "zh": "工艺优化"
+          },
+          {
+            "en": "density",
+            "zh": "密度"
+          },
+          {
+            "en": "hardness",
+            "zh": "硬度"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "microstructure",
+            "zh": "显微组织"
+          },
+          {
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-18T06:27:49Z"
     }
   ],
   "counts": {
-    "fetched_total": 3,
+    "fetched_total": 4,
     "by_source": {
-      "openalex": 3
+      "openalex": 4
     },
-    "after_dedup": 3,
-    "after_routing": 3,
+    "after_dedup": 4,
+    "after_routing": 4,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 2,
+      "ti6al4v_base_mechanical_fatigue": 3,
       "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 3
+      "openalex": 4
     },
-    "scored": 3,
+    "scored": 4,
     "priority_counts": {
-      "Medium": 2,
+      "Medium": 3,
       "High": 1
     }
   }
