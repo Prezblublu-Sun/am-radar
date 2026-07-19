@@ -1,0 +1,160 @@
+{
+  "schema_version": "v2",
+  "date": "2026-07-17",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7169527149",
+      "doi": "10.1007/s00170-026-18664-8",
+      "title": "Integrating ANOVA and grey synthetic relational degree for energy-efficiency decisions in tangential milling under linear and sinusoidal tool paths",
+      "abstract": "Abstract Energy efficiency in machining is a key dimension of manufacturing sustainability, given the contribution of machine tools to industrial electricity demand. This study proposes and validates a hierarchical decision logic that integrates Analysis of Variance, ANOVA, and Grey Synthetic Relational Degree, GSRD, to interpret and prioritize cutting parameter effects on energy efficiency in tangential side milling of Ti-6Al-4V. A full 2³ factorial design was conducted for two toolpath strategies, linear and sinusoidal, by varying cutting speed, feed per tooth, and radial depth of cut, while electrical energy consumption was monitored using a dedicated power analyzer. The results showed that ANOVA identified radial depth of cut as the structurally dominant factor for both tool paths by exhibiting the largest variance contribution and by remaining statistically significant in the sinusoidal case with a ρ value of 0.001. GSRD refined operational prioritization by ranking parameters according to relational proximity to an ideal energy efficiency response, confirming radial depth of cut as the primary lever for the linear path while prioritizing cutting speed for the sinusoidal path with a relational degree of 0.5686 as the first tuning lever for incremental gains. Across all tested conditions, average improvements of approximately 80 cubic millimeters per watt hour were achieved, corresponding to electricity consumption reductions of up to 15%, indicating that tool path geometry shifts parameter sensitivity through changes in tool workpiece engagement conditions. The proposed framework supports tool path assessment and provides actionable guidance for parameter tuning toward improved energy efficiency in CNC milling.",
+      "authors": [
+        "Marie Madeleine Sarzi Inácio",
+        "Igor Cézar Pereira",
+        "Amauri Hassui",
+        "Rodrigo Henriques Lopes da Silva"
+      ],
+      "first_author_affiliation": "Department of Manufacturing and Materials Engineering, School of Mechanical Engineering, University of Campinas – UNICAMP, 200 Mendeleyev St., Barão Geraldo,  Campinas, São Paulo, 13083-860, Brazil",
+      "corresponding_authors": [
+        {
+          "name": "Marie Madeleine Sarzi Inácio",
+          "affiliation": "Department of Manufacturing and Materials Engineering, School of Mechanical Engineering, University of Campinas – UNICAMP, 200 Mendeleyev St., Barão Geraldo,  Campinas, São Paulo, 13083-860, Brazil"
+        }
+      ],
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "year": 2026,
+      "date": "2026-07-17",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s00170-026-18664-8",
+      "cited_by_count": 0,
+      "concepts": [
+        "Grey relational analysis",
+        "Energy (signal processing)",
+        "Dimension (graph theory)",
+        "Electricity",
+        "Tool path",
+        "Variance (accounting)",
+        "Machining",
+        "Energy consumption",
+        "Degree (music)",
+        "Path (computing)",
+        "Mathematics",
+        "Efficient energy use",
+        "Sensitivity (control systems)",
+        "Power (physics)",
+        "Ranking (information retrieval)",
+        "Mathematical optimization",
+        "Factorial experiment",
+        "Factorial",
+        "Cutting tool",
+        "Electricity generation",
+        "Computer science",
+        "Algorithm",
+        "Engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文关注铣削加工能效优化，与AM Ti-6Al-4V的后处理对疲劳/力学性能的影响无关。",
+        "why_not_core": "This paper studies energy efficiency in machining rather than post-processing treatments (e.g., heat treatment, HIP, surface finishing) and their effect on fatigue or mechanical performance of AM Ti-6Al-4V.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "milling",
+          "energy efficiency",
+          "ANOVA",
+          "grey relational analysis"
+        ],
+        "summary_zh": {
+          "motivation": "提高铣削加工能效以促进制造可持续性",
+          "method": "集成ANOVA和灰色综合关联度分析切削参数对能效的影响",
+          "result": "径向切深和切削速度分别是线性与正弦路径的能效关键参数",
+          "validation": "通过全因子实验和功率分析仪测量验证决策逻辑"
+        },
+        "summary_en": {
+          "motivation": "To improve energy efficiency in milling by understanding and prioritizing cutting parameter effects.",
+          "method": "A hierarchical decision logic combining ANOVA and Grey Synthetic Relational Degree (GSRD) was used to interpret parameter sensitivities for linear and sinusoidal tool paths.",
+          "result": "Radial depth of cut dominated for linear paths while cutting speed was primary for sinusoidal paths, yielding up to 15% electricity reduction.",
+          "validation": "Full 2³ factorial experiments with power analyzer monitoring validated the parameter prioritization framework."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "tangential milling",
+            "zh": "切向铣削"
+          },
+          {
+            "en": "energy efficiency",
+            "zh": "能效"
+          },
+          {
+            "en": "ANOVA",
+            "zh": "方差分析"
+          },
+          {
+            "en": "grey synthetic relational degree",
+            "zh": "灰色综合关联度"
+          },
+          {
+            "en": "cutting parameters",
+            "zh": "切削参数"
+          },
+          {
+            "en": "tool path",
+            "zh": "刀具路径"
+          },
+          {
+            "en": "power consumption",
+            "zh": "功耗"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-19T07:03:48Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 1,
+    "by_source": {
+      "openalex": 1
+    },
+    "after_dedup": 1,
+    "after_routing": 1,
+    "by_direction": {
+      "ti6al4v_postprocess": 1
+    },
+    "routed_by_source": {
+      "openalex": 1
+    },
+    "scored": 1,
+    "priority_counts": {
+      "Exclude": 1
+    }
+  }
+}

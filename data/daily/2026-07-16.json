@@ -150,24 +150,169 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-07-18T06:27:49Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7169183694",
+      "doi": "10.1016/j.msea.2026.150773",
+      "title": "Regulating microstructure and enhancing mechanical property of LPBF TiB/Ti-6Al-4V composites by solution and ageing treatment",
+      "abstract": "",
+      "authors": [
+        "Runkai Guo",
+        "Shuting Fu",
+        "Jingshi Zhang",
+        "Huijing Zhang",
+        "Weiwei Zhu",
+        "Ying Han",
+        "Xu Ran"
+      ],
+      "first_author_affiliation": "Jilin Provincial Key Laboratory of Advanced Materials Processing and Application for Rail Transit, Changchun University of Technology, Changchun, 130012, China",
+      "corresponding_authors": [
+        {
+          "name": "Jingshi Zhang",
+          "affiliation": "Jilin Provincial Key Laboratory of Advanced Materials Processing and Application for Rail Transit, Changchun University of Technology, Changchun, 130012, China"
+        },
+        {
+          "name": "Ying Han",
+          "affiliation": "Jilin Provincial Key Laboratory of Advanced Materials Processing and Application for Rail Transit, Changchun University of Technology, Changchun, 130012, China"
+        }
+      ],
+      "venue": "Materials Science and Engineering A",
+      "year": 2026,
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.msea.2026.150773",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Acicular",
+        "Composite material",
+        "Grain boundary",
+        "Precipitation hardening",
+        "Elongation",
+        "Precipitation",
+        "Homogenization (climate)",
+        "Ultimate tensile strength",
+        "Strengthening mechanisms of materials",
+        "Hardening (computing)",
+        "Grain boundary strengthening",
+        "Dislocation",
+        "Texture (cosmology)",
+        "Grain size",
+        "Metallurgy",
+        "Deformation (meteorology)",
+        "Strain hardening exponent",
+        "Porosity"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "LPBF",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文主要关注TiB/Ti-6Al-4V复合材料的固溶时效处理，属于后处理工艺，与L1层关注的Ti-6Al-4V基体力学/疲劳性能直接相关性较弱。",
+        "why_not_core": "The paper focuses on post-processing heat treatment of a TiB-reinforced Ti-6Al-4V composite, not on the as-built or process-state mechanical/fatigue characterization of the Ti-6Al-4V alloy itself, and is thus outside the core scope of L1.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "LPBF",
+          "Ti-6Al-4V",
+          "TiB",
+          "composite",
+          "solution treatment",
+          "ageing",
+          "mechanical properties",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "通过热处理调控LPBF TiB/Ti-6Al-4V复合材料的微观组织以提升力学性能",
+          "method": "对LPBF制备的TiB/Ti-6Al-4V复合材料进行固溶和时效处理",
+          "result": "热处理后复合材料的强度和塑性得到改善",
+          "validation": "力学测试（拉伸等）验证性能提升"
+        },
+        "summary_en": {
+          "motivation": "To regulate the microstructure of LPBF-fabricated TiB/Ti-6Al-4V composites via heat treatment for enhanced mechanical properties.",
+          "method": "Solution and ageing treatments were applied to LPBF TiB/Ti-6Al-4V composites, and the resulting microstructure and mechanical properties were characterized.",
+          "result": "The heat treatment improved both strength and ductility of the composite compared to the as-built state.",
+          "validation": "Mechanical testing (e.g., tensile tests) was used to validate the property enhancement."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "TiB",
+            "zh": "TiB增强相"
+          },
+          {
+            "en": "composite",
+            "zh": "复合材料"
+          },
+          {
+            "en": "solution treatment",
+            "zh": "固溶处理"
+          },
+          {
+            "en": "ageing",
+            "zh": "时效处理"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          },
+          {
+            "en": "mechanical property",
+            "zh": "力学性能"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-19T07:03:48Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 1,
+      "ti6al4v_base_mechanical_fatigue": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 1,
+      "Low": 1
     }
   }
 }
