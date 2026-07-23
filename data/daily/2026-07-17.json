@@ -278,26 +278,173 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-07-22T07:08:41Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7169506623",
+      "doi": "10.1016/j.matdes.2026.116617",
+      "title": "Systematic study of the interplay between laser beam shape, energy input, and hatch spacing in PBF-LB/M of Ti-6Al-4V: experiments and numerical modeling",
+      "abstract": "Programmable laser beam shaping tailors the spatial irradiance distribution in laser powder bed fusion (PBF-LB/M), enabling control over melt-pool geometry and defect formation. However, the coupled effects of beam shape, hatch spacing (track overlap), and energy input on densification and microstructural development remain insufficiently understood. Accordingly, Ti-6Al-4 V is studied using single-track experiments, cube builds, and 3D transient multiphysics simulations across three ring-type beam profiles ranging from relatively core-weighted to strongly ring-dominated. Single tracks spanning a power–speed matrix (linear energy density, P / v ) quantified melt-pool width, depth, and molten area and mapped stability regimes (fragmentation, necking, stable) and transition thresholds with increasing energy input. Cube specimens mapped relative density versus beam mode, areal energy density A E D h = P / ( v h ) (J/mm 2 ), hatch spacing h , and geometric ratios h / d ( d : effective beam diameter) and W / h ( W : melt-pool width). Near-full density (∼99.9%) was achieved for all profiles at A E D h ≥ 2.8 –3.0 J/mm 2 ; relatively more core-weighted profiles reached this at lower A E D h , whereas ring-dominated profiles required higher input to suppress lack-of-fusion. Density dropped when h / d ≳ 1 , while W / h ≳ 1.2 preserved high density. Microstructure and Vickers microhardness (HV 0.2 ) were assessed across A E D h . All conditions exhibited martensitic α′ microstructures, and microhardness remained ≈360–395 HV 0.2 , converging once near-full density was reached. Simulations showed that ring-dominated density loss arises from insufficient inter-track remelting depth (cusp formation) despite lateral overlap, requiring higher overlap ratios for full fusion. Thermal gradients (G) and solidification rates (R) placed all cases in the columnar growth regime; higher G/R in more core-weighted profiles is consistent with stronger grain continuity than the more refined ring-dominated structures.",
+      "authors": [
+        "Abid Ullah",
+        "Reshad Bakhtari",
+        "Jan Johannsen",
+        "Philipp Kohlwes",
+        "Kai Zhang",
+        "Tingting Liu",
+        "Amjad Iqbal",
+        "Dirk Herzog",
+        "Alexander Medvedev",
+        "Andrey Molotnikov",
+        "Ingomar Kelbassa",
+        "Milan Brandt"
+      ],
+      "first_author_affiliation": "Institute for Industrialization of Smart Materials, Hamburg University of Technology, D-21079 Hamburg, Germany",
+      "corresponding_authors": [
+        {
+          "name": "Abid Ullah",
+          "affiliation": "Institute for Industrialization of Smart Materials, Hamburg University of Technology, D-21079 Hamburg, Germany"
+        },
+        {
+          "name": "Milan Brandt",
+          "affiliation": "RMIT Centre for Additive Manufacturing, School of Engineering, RMIT University, Melbourne, VIC 3000, Australia"
+        }
+      ],
+      "venue": "Materials & Design",
+      "year": 2026,
+      "date": "2026-07-17",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.matdes.2026.116617",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Numerical modeling",
+        "Beam (structure)",
+        "Energy (signal processing)",
+        "Laser beams",
+        "Laser",
+        "Optics",
+        "Computer simulation",
+        "Numerical models",
+        "Mechanics"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "microstructure",
+          "defect"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文研究了Ti-6Al-4V的激光粉末床熔融工艺参数对致密化和显微硬度的影响，但缺少关键的拉伸和疲劳性能数据。",
+        "why_not_core": "This paper focuses on process parameters, densification, and microstructure, but provides no tensile or fatigue characterization, which is the core of Layer 1 mechanical/fatigue focus.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "beam shaping",
+          "hatch spacing",
+          "density",
+          "microhardness",
+          "melt-pool simulation"
+        ],
+        "summary_zh": {
+          "motivation": "探索激光束形状、能量输入和扫描间距对Ti-6Al-4V致密化和显微组织的影响",
+          "method": "采用单道实验、立方体试块和3D瞬态多物理场模拟，研究三种环状光束轮廓",
+          "result": "所有光束轮廓在面能量密度≥2.8-3.0 J/mm²时达到近全密度，显微硬度稳定在360-395 HV0.2",
+          "validation": "通过单道实验和立方体密度测量验证模拟结果"
+        },
+        "summary_en": {
+          "motivation": "To systematically understand the coupled effects of laser beam shape, hatch spacing, and energy input on densification and microstructure in PBF-LB/M of Ti-6Al-4V.",
+          "method": "Single-track experiments, cube builds, and 3D transient multiphysics simulations were conducted for three ring-type beam profiles from core-weighted to ring-dominated.",
+          "result": "Near-full density (~99.9%) was achieved for all profiles at areal energy density ≥2.8–3.0 J/mm², and microhardness converged to 360–395 HV0.2 once density was high.",
+          "validation": "Experimental single-track and cube density measurements validated the simulation predictions for melt-pool geometry and lack-of-fusion defects."
+        },
+        "key_terms": [
+          {
+            "en": "laser beam shaping",
+            "zh": "激光束整形"
+          },
+          {
+            "en": "hatch spacing",
+            "zh": "扫描间距"
+          },
+          {
+            "en": "areal energy density",
+            "zh": "面能量密度"
+          },
+          {
+            "en": "melt-pool geometry",
+            "zh": "熔池几何形态"
+          },
+          {
+            "en": "relative density",
+            "zh": "相对密度"
+          },
+          {
+            "en": "microhardness",
+            "zh": "显微硬度"
+          },
+          {
+            "en": "columnar growth",
+            "zh": "柱状生长"
+          },
+          {
+            "en": "lack-of-fusion",
+            "zh": "未熔合"
+          },
+          {
+            "en": "single track",
+            "zh": "单道"
+          },
+          {
+            "en": "multiphysics simulation",
+            "zh": "多物理场模拟"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-23T07:07:56Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
       "ti6al4v_postprocess": 1,
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
       "Exclude": 1,
-      "Medium": 1
+      "Medium": 2
     }
   }
 }
