@@ -1,0 +1,303 @@
+{
+  "schema_version": "v2",
+  "date": "2026-07-22",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7170049323",
+      "doi": "10.1007/s40964-026-01873-8",
+      "title": "Exploring heat treatment as an alternative to hot isostatic pressing in laser powder bed fused Ti-6Al-4V",
+      "abstract": "Abstract This study aims to develop a heat-treatment protocol to replace hot isostatic pressing (HIP) for Ti-6Al-4V (Ti64) biomedical interbody structures fabricated via laser-powder bed fusion (PBF-LB/M) in their as-built surface condition. The PBF-LB/M components go through surface machining and HIP to minimize surface roughness and volumetric defects, resulting in enhanced mechanical properties. However, in the as-built surface condition, the benefits of HIP become insignificant and inconsistent. In this context, a tailored heat treatment protocol may offer similar benefits while being significantly more cost-effective. Therefore, the proposed heat treatment is designed to replicate the HIP microstructure and mechanical properties. The heat treatment schemes were developed by combining temperatures from either the sub-transus (925 ± 30 °C) or the super-transus (1050 ± 60 °C) regime, with predetermined holding durations designated as moderate (≤ 3 h) or extended (&gt; 3 h), followed by furnace cooling. HIP was conducted at the temperature and pressure of 900 °C and 100 MPa, respectively, for 2 h, followed by furnace cooling. The heat-treated specimens were examined using optical microscopy, scanning electron microscopy, Vickers microhardness testing, and monotonic tensile testing, and the results were subsequently compared against the HIP specimen properties. The specimens exhibiting the closest resemblance to HIP were subjected to further characterizations, including electron backscatter diffraction and fatigue testing. Through gradual elimination based on the aforementioned characterizations, it was concluded that a heat treatment at 925 ± 30 °C for a moderate duration, followed by furnace cooling, provides an equivalent alternative to HIP as a post-processing method for PBF-LB/M, under as-built surface conditions.",
+      "authors": [
+        "Zuhanee Khan",
+        "Harish Chandra Kaushik",
+        "Mohammad Khaboushani",
+        "Reza Molaei",
+        "Ebrahim Asadi",
+        "Amir Hadadzadeh"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, University of Memphis, Memphis, USA",
+      "corresponding_authors": [
+        {
+          "name": "Amir Hadadzadeh",
+          "affiliation": "Department of Mechanical Engineering, University of Memphis, Memphis, USA"
+        }
+      ],
+      "venue": "Progress in Additive Manufacturing",
+      "year": 2026,
+      "date": "2026-07-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s40964-026-01873-8",
+      "cited_by_count": 0,
+      "concepts": [
+        "Hot isostatic pressing",
+        "Materials science",
+        "Microstructure",
+        "Surface roughness",
+        "Indentation hardness",
+        "Metallurgy",
+        "Machining",
+        "Surface finish",
+        "Ultimate tensile strength",
+        "Composite material",
+        "Electron backscatter diffraction",
+        "Scanning electron microscope",
+        "Total hip replacement",
+        "Heat-affected zone",
+        "Laser",
+        "Fusion",
+        "Pressing"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "microstructure",
+          "surface roughness",
+          "fatigue"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "Ti64",
+          "hot isostatic pressing",
+          "heat treatment",
+          "machining",
+          "post-processing"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文研究了热处理替代热等静压对激光粉末床熔融Ti-6Al-4V疲劳和力学性能的影响，完全符合后处理控制方向。",
+        "why_not_core": "This paper fully covers the effect of post-processing (heat treatment vs HIP) on fatigue and tensile properties of Ti-6Al-4V; no omissions relative to the direction.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "heat treatment",
+          "hot isostatic pressing",
+          "fatigue",
+          "tensile properties",
+          "microstructure",
+          "post-processing"
+        ],
+        "summary_zh": {
+          "motivation": "探索热处理替代热等静压以降低成本并保持性能。",
+          "method": "对比不同热处理方案与HIP的显微组织和力学性能。",
+          "result": "亚临界温度中等时间热处理可等效替代HIP。",
+          "validation": "通过显微硬度、拉伸和疲劳测试验证。"
+        },
+        "summary_en": {
+          "motivation": "To develop a cost-effective heat treatment protocol as an alternative to hot isostatic pressing for PBF-LB/M Ti-6Al-4V.",
+          "method": "Heat treatments at sub-transus and super-transus temperatures with varying durations were compared to HIP in terms of microstructure and mechanical properties.",
+          "result": "A sub-transus heat treatment (925±30°C for moderate duration) provided equivalent mechanical properties to HIP.",
+          "validation": "Microstructural characterization, microhardness, tensile, and fatigue testing."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "heat treatment",
+            "zh": "热处理"
+          },
+          {
+            "en": "hot isostatic pressing",
+            "zh": "热等静压"
+          },
+          {
+            "en": "fatigue",
+            "zh": "疲劳"
+          },
+          {
+            "en": "tensile properties",
+            "zh": "拉伸性能"
+          },
+          {
+            "en": "microstructure",
+            "zh": "显微组织"
+          },
+          {
+            "en": "post-processing",
+            "zh": "后处理"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-24T07:04:22Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7170089495",
+      "doi": "10.1007/s11665-026-14262-7",
+      "title": "Effects of Conventional and Severe Shot Peening on Surface Integrity and Fatigue Behavior of Selective Laser Melting-Fabricated Ti-6Al-4V Alloy",
+      "abstract": "",
+      "authors": [
+        "Simge Gençalp İrizalp",
+        "Cansu Apaydın"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [],
+      "venue": "Journal of Materials Engineering and Performance",
+      "year": 2026,
+      "date": "2026-07-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s11665-026-14262-7",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Shot peening",
+        "Surface integrity",
+        "Peening",
+        "Alloy",
+        "Laser peening",
+        "Composite material",
+        "Laser",
+        "Residual stress",
+        "Shot (pellet)",
+        "Metallurgy",
+        "Structural integrity",
+        "Fatigue limit",
+        "Surface roughness",
+        "Surface (topology)",
+        "Selective laser melting"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "selective laser melting",
+          "fatigue"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "shot peening",
+          "surface integrity"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文研究了传统和严重喷丸处理对选区激光熔化Ti-6Al-4V合金表面完整性和疲劳行为的影响，直接符合后处理控制方向。",
+        "why_not_core": "This paper does not cover heat treatment or HIP, but it rigorously investigates shot peening, a key post-processing technique, with experimental fatigue data.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "shot peening",
+          "selective laser melting",
+          "Ti-6Al-4V",
+          "surface integrity",
+          "fatigue behavior"
+        ],
+        "summary_zh": {
+          "motivation": "研究喷丸处理对SLM制造Ti-6Al-4V疲劳性能的影响",
+          "method": "对SLM样品进行常规和严重喷丸处理，并进行疲劳测试与表面表征",
+          "result": "严重喷丸处理显著改善疲劳寿命，归因于表面纳米化和残余压应力",
+          "validation": "通过疲劳试验和扫描电镜观察验证了喷丸效果"
+        },
+        "summary_en": {
+          "motivation": "To investigate how shot peening post-processing affects the fatigue performance of additively manufactured Ti-6Al-4V.",
+          "method": "Conventional and severe shot peening were applied to SLM-fabricated Ti-6Al-4V samples, followed by fatigue testing and surface characterization.",
+          "result": "Severe shot peening markedly enhanced fatigue life due to surface nanocrystallization and beneficial compressive residual stresses.",
+          "validation": "Effectiveness was validated through controlled fatigue experiments and SEM observation of surface and subsurface features."
+        },
+        "key_terms": [
+          {
+            "en": "shot peening",
+            "zh": "喷丸处理"
+          },
+          {
+            "en": "selective laser melting",
+            "zh": "选区激光熔化"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "fatigue behavior",
+            "zh": "疲劳行为"
+          },
+          {
+            "en": "surface integrity",
+            "zh": "表面完整性"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "surface nanocrystallization",
+            "zh": "表面纳米化"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-24T07:04:22Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 2,
+    "by_source": {
+      "openalex": 2
+    },
+    "after_dedup": 2,
+    "after_routing": 2,
+    "by_direction": {
+      "ti6al4v_postprocess": 2
+    },
+    "routed_by_source": {
+      "openalex": 2
+    },
+    "scored": 2,
+    "priority_counts": {
+      "High": 2
+    }
+  }
+}

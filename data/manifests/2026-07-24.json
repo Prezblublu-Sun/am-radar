@@ -1,0 +1,98 @@
+{
+  "run_id": "2026-07-24T07:04:22+00:00",
+  "git_commit": "b434922",
+  "run_status": "success",
+  "quality_flags": [
+    "pubmed_returned_zero"
+  ],
+  "config": {
+    "directions_yaml": "sha256:4f5dfbcc7b4df27e",
+    "scorer_prompt": "sha256:8318d55913b80a2c",
+    "scorer_prompt_file": "scorer_v3.txt"
+  },
+  "llm": {
+    "model_alias": "deepseek-v4-flash",
+    "model_snapshot_observed": "deepseek-v4-flash",
+    "base_url": "https://api.deepseek.com",
+    "temperature": 0.2
+  },
+  "packages": {
+    "arxiv": "4.0.0",
+    "openai": "2.48.0",
+    "pyzotero": "1.13.2",
+    "requests": "2.33.1",
+    "PyYAML": "6.0.3"
+  },
+  "sources_used": {
+    "arxiv": {
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "days_back": 1
+    },
+    "openalex": {
+      "keywords": [
+        "TPMS lattice hip implant titanium",
+        "Ti-6Al-4V EBM",
+        "Ti-6Al-4V HIP fatigue",
+        "Ti-6Al-4V LPBF",
+        "Ti-6Al-4V SLM",
+        "Ti-6Al-4V additive manufacturing",
+        "Ti-6Al-4V annealing",
+        "Ti-6Al-4V directed energy deposition",
+        "Ti-6Al-4V electron beam melting",
+        "Ti-6Al-4V fatigue",
+        "Ti-6Al-4V femoral stem",
+        "Ti-6Al-4V heat treatment",
+        "Ti-6Al-4V hip implant lattice",
+        "Ti-6Al-4V hot isostatic pressing",
+        "Ti-6Al-4V laser powder bed fusion",
+        "Ti-6Al-4V laser shock peening",
+        "Ti-6Al-4V machining surface",
+        "Ti-6Al-4V mechanical properties",
+        "Ti-6Al-4V microstructure additive",
+        "Ti-6Al-4V porous hip stem",
+        "Ti-6Al-4V post-processing",
+        "Ti-6Al-4V selective laser melting",
+        "Ti-6Al-4V shot peening",
+        "Ti-6Al-4V stem stress shielding",
+        "Ti-6Al-4V stress relief",
+        "Ti-6Al-4V surface treatment",
+        "Ti-6Al-4V tensile additive",
+        "Ti-6Al-4V wire arc additive",
+        "additively manufactured femoral stem",
+        "graded porous femoral stem"
+      ],
+      "concepts": [],
+      "days_back": 1
+    },
+    "pubmed": {
+      "terms": [
+        "Ti-6Al-4V additive manufacturing",
+        "Ti-6Al-4V heat treatment additive manufacturing",
+        "additive manufacturing femoral stem titanium"
+      ],
+      "days_back": 1
+    }
+  },
+  "counts": {
+    "fetched": 126,
+    "after_dedup": 35,
+    "after_routing": 2,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 0,
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_femoral_stem": 0
+    },
+    "priority_counts": {
+      "High": 2,
+      "Medium": 0,
+      "Low": 0,
+      "Exclude": 0
+    },
+    "touched_dates": {
+      "2026-07-22": 2
+    },
+    "papers_with_missing_date": 0
+  }
+}
