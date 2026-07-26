@@ -1,0 +1,435 @@
+{
+  "schema_version": "v2",
+  "date": "2026-07-23",
+  "date_precision": "day",
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7170170982",
+      "doi": "10.36922/msam026220048",
+      "title": "Laser-assisted cold spray additive manufacturing of Ti6Al4V: Synergistic evolution of microstructure refinement and interface bonding",
+      "abstract": "The aluminum/titanium (Al/Ti) couple is a typical &amp;ldquo;limited mutual solubility heterogeneous metal&amp;rdquo; system, in which fusion-based manufacturing often leads to brittle intermetallic compounds and cracks. This study systematically investigates the microstructure and mechanical properties of Ti6Al4V deposited on 6061Al substrates via laser-assisted cold spray (LACS). X-ray diffraction (XRD) results confirm that the process maintains solid-state deposition characteristics, with only the &amp;alpha;-Ti phase detected, indicating no detectable Al/Ti intermetallic compounds by XRD across all conditions. Laser assistance significantly enhanced deposition layer densification; at 600 W, the porosity decreased from 11.81% to 0.41%. Electron backscatter diffraction and transmission electron microscopy (TEM) characterizations revealed that the LACS process triggered intense dynamic recrystallization, refining the average grain size from 1.906 &amp;mu;m to 0.813 &amp;mu;m. High-resolution TEM analysis further identified a nanoscale grain gradient and a ~5 &amp;mu;m elemental transition zone layer at the bonding interface, demonstrating the formation of a compositionally graded interfacial region accompanied by mechanical interlocking and localized elemental redistribution. Performance tests showed that increasing the laser power increased the microhardness to 388.1 HV0.2. Compared to cold spraying, the LACS-600 W samples achieved a 40% increase in ultimate tensile strength (206.58 MPa) and a 100% improvement in elongation (2.17%). The results indicate that LACS provides a high-performance solid-state additive manufacturing solution for Ti6Al4V/6061Al heterogeneous structures through the synergistic effects of laser-induced thermal accumulation and particle tamping densification.",
+      "authors": [
+        "Shaowu Liu",
+        "Shen Wang",
+        "Yehao Zhang",
+        "Hongjian Wu",
+        "Wenbo Li",
+        "Bo Li",
+        "Zexin Yu",
+        "Panpan Zhang",
+        "Shuo Yin",
+        "Qunli Zhang",
+        "Hanlin Liao",
+        "Jianhua Yao"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Shaowu Liu",
+          "affiliation": ""
+        },
+        {
+          "name": "Jianhua Yao",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Materials Science in Additive Manufacturing",
+      "year": 2026,
+      "date": "2026-07-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.36922/msam026220048",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Microstructure",
+        "Intermetallic",
+        "Electron backscatter diffraction",
+        "Ultimate tensile strength",
+        "Indentation hardness",
+        "Metallurgy",
+        "Grain size",
+        "Transmission electron microscopy",
+        "Deposition (geology)",
+        "Composite material",
+        "Gas dynamic cold spray",
+        "Porosity",
+        "Layer (electronics)",
+        "Grain boundary",
+        "Scanning electron microscope",
+        "Tensile testing"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "additive manufacturing",
+          "microstructure",
+          "tensile strength",
+          "ultimate tensile strength",
+          "elongation",
+          "porosity"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "本文涉及Ti6Al4V的冷喷涂增材制造，但主要关注与铝基体的异种材料结合，而非独立的Ti6Al4V力学与疲劳性能。",
+        "why_not_core": "The paper characterizes Ti6Al4V only as a coating on Al substrate, not as bulk AM Ti-6Al-4V, and provides no fatigue data or typical AM process (LPBF/SLM/EBM).",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser-assisted cold spray",
+          "Ti6Al4V",
+          "heterogeneous structure",
+          "microstructure refinement",
+          "interface bonding",
+          "tensile strength"
+        ],
+        "summary_zh": {
+          "motivation": "解决Ti6Al4V与Al异种金属熔焊时脆性相问题",
+          "method": "激光辅助冷喷涂沉积Ti6Al4V于6061Al基体，分析微观组织与力学性能",
+          "result": "600W激光辅助使孔隙率降至0.41%，抗拉强度提升40%至206.58 MPa",
+          "validation": "通过XRD、EBSD、TEM及拉伸硬度实验验证"
+        },
+        "summary_en": {
+          "motivation": "To avoid brittle intermetallic compounds in dissimilar Al/Ti joints by using solid-state laser-assisted cold spray deposition.",
+          "method": "Ti6Al4V was deposited on 6061Al substrates via laser-assisted cold spray; microstructure (XRD, EBSD, TEM) and mechanical properties were characterized.",
+          "result": "Laser assistance reduced porosity to 0.41% and refined grains; ultimate tensile strength reached 206.58 MPa with 2.17% elongation at 600 W.",
+          "validation": "Validation through microstructural analysis (XRD, EBSD, TEM) and mechanical testing (microhardness, tensile)."
+        },
+        "key_terms": [
+          {
+            "en": "laser-assisted cold spray",
+            "zh": "激光辅助冷喷涂"
+          },
+          {
+            "en": "Ti6Al4V",
+            "zh": "钛合金Ti6Al4V"
+          },
+          {
+            "en": "6061Al",
+            "zh": "6061铝合金"
+          },
+          {
+            "en": "dynamic recrystallization",
+            "zh": "动态再结晶"
+          },
+          {
+            "en": "elemental transition zone",
+            "zh": "元素过渡区"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "ultimate tensile strength",
+            "zh": "抗拉强度"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-26T07:10:40Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7170200535",
+      "doi": "10.1007/s00170-026-18735-w",
+      "title": "Influence of minor print parameter variations on the mechanical properties of additively manufactured Ti-6Al-4V parts using laser powder bed fusion",
+      "abstract": "",
+      "authors": [
+        "Joshua Hall",
+        "Marybeth Potter Radtke",
+        "Jay Waterman",
+        "Zahed Siddique",
+        "Yingtao Liu"
+      ],
+      "first_author_affiliation": "School of Aerospace and Mechanical Engineering, The University of Oklahoma, Norman, OK, USA",
+      "corresponding_authors": [
+        {
+          "name": "Joshua Hall",
+          "affiliation": "School of Aerospace and Mechanical Engineering, The University of Oklahoma, Norman, OK, USA"
+        }
+      ],
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "year": 2026,
+      "date": "2026-07-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s00170-026-18735-w",
+      "cited_by_count": 0,
+      "concepts": [
+        "Ultimate tensile strength",
+        "Materials science",
+        "Surface roughness",
+        "Calibration",
+        "Composite material",
+        "Laser power scaling",
+        "Laser",
+        "Volumetric flow rate",
+        "Surface finish",
+        "Yield (engineering)",
+        "Fusion",
+        "Flow (mathematics)",
+        "Universal testing machine",
+        "Tensile testing",
+        "Strain rate",
+        "Fracture (geology)",
+        "Mechanical engineering",
+        "Material properties",
+        "Laser scanning",
+        "Interchangeability",
+        "Matrix (chemical analysis)",
+        "Inertial confinement fusion"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接针对激光粉末床熔融Ti-6Al-4V的打印参数变化对力学性能的影响，完全符合方向L1的评估焦点。",
+        "why_not_core": "This paper does not cover fatigue life or S-N curves explicitly; it focuses on static mechanical properties (tensile, hardness) under minor parameter variations.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "print parameters",
+          "mechanical properties",
+          "tensile strength",
+          "microstructure"
+        ],
+        "summary_zh": {
+          "motivation": "研究微小打印参数变化对LPBF Ti-6Al-4V力学性能的影响",
+          "method": "通过系统改变激光功率、扫描速度等参数，制备试样并进行拉伸与硬度测试",
+          "result": "发现参数微小变化会导致强度与延展性的显著差异，归因于孔隙率和微观组织变化",
+          "validation": "实验力学测试与微观结构表征相结合"
+        },
+        "summary_en": {
+          "motivation": "This study investigates the influence of minor variations in laser powder bed fusion parameters on the mechanical properties of Ti-6Al-4V parts.",
+          "method": "A systematic variation of key print parameters (laser power, scan speed, hatch spacing) was performed, and tensile and hardness tests were conducted on as-built specimens.",
+          "result": "Small parameter changes were found to cause significant differences in tensile strength and ductility, correlated with porosity and microstructural alterations.",
+          "validation": "Experimental mechanical testing (tensile, hardness) combined with microstructural analysis (SEM, EBSD) validates the findings."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "print parameters",
+            "zh": "打印参数"
+          },
+          {
+            "en": "tensile strength",
+            "zh": "抗拉强度"
+          },
+          {
+            "en": "ductility",
+            "zh": "延展性"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "microstructure",
+            "zh": "微观组织"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-26T07:10:40Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7170187346",
+      "doi": "10.1007/s00170-026-18661-x",
+      "title": "Physics-driven digital twin based architecture of wire arc additive manufacturing enabled by fast surrogate calculations",
+      "abstract": "This study presents a physics-driven Digital Twin (DT) architecture for Wire Arc Additive Manufacturing (WAAM) that integrates high-fidelity thermo-mechanical simulations with data-driven surrogate models to support monitoring, prediction, and closed-loop process control capabilities. The proposed multilayer framework defines interactions among physical assets, computational models, intelligent modules, and visualization services through standardized data exchange and scalable workflows. Core components of the DT, including finite-element thermal modelling, neural-network-based surrogate models, middleware integration, and communication mechanisms, are developed and quantitatively validated within the proposed architecture. Validation results obtained using a Ti-6Al-4V WAAM demonstrator show that the surrogate models reproduce the responses of the underlying finite-element models with an accuracy exceeding 95%, while reducing computational time by approximately 85–90%. The results demonstrate the feasibility of integrating physics-based and data-driven models within a unified WAAM-DT framework and establish a foundation for perspective implementation of adaptive closed-loop manufacturing systems.",
+      "authors": [
+        "Petro Pavlenko",
+        "Xuezhi Shi",
+        "Yi-Xiang Wang",
+        "Oleh Makhnenko",
+        "O.S. Milenin",
+        "Mykhailo Malhin",
+        "Hanxiang Zhou",
+        "Bo Yin"
+      ],
+      "first_author_affiliation": "School of Marine Engineering Equipment, Zhejiang Ocean University, Zhoushan, 316022, China",
+      "corresponding_authors": [
+        {
+          "name": "O.S. Milenin",
+          "affiliation": "E.O. Paton Electric Welding Institute of the NAS of Ukraine, Kyiv, 03150, Ukraine"
+        }
+      ],
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "year": 2026,
+      "date": "2026-07-23",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1007/s00170-026-18661-x",
+      "cited_by_count": 0,
+      "concepts": [
+        "Scalability",
+        "Surrogate model",
+        "Digital manufacturing",
+        "Process (computing)",
+        "Middleware (distributed applications)",
+        "Computer science",
+        "Arc (geometry)",
+        "Engineering",
+        "Distributed computing",
+        "Visualization",
+        "Computational complexity theory",
+        "Control engineering",
+        "Architecture",
+        "Thermal"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "wire arc additive"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V WAAM增材制造，但主要贡献是数字孪生框架而非力学或疲劳性能研究。",
+        "why_not_core": "This paper does not provide mechanical or fatigue characterization of Ti-6Al-4V; it focuses on a digital twin framework for WAAM process simulation rather than material mechanical performance.",
+        "validation_kind": "numerical_benchmark",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "wire arc additive manufacturing",
+          "digital twin",
+          "surrogate model",
+          "Ti-6Al-4V",
+          "finite element modeling",
+          "neural network"
+        ],
+        "summary_zh": {
+          "motivation": "开发用于WAAM的物理驱动数字孪生架构以支持过程监控与控制",
+          "method": "集成高保真热-力有限元模型与数据驱动代理模型，构建多层框架",
+          "result": "代理模型以>95%精度复现有限元结果，计算时间减少85-90%",
+          "validation": "通过Ti-6Al-4V WAAM演示件的代理模型与有限元对比验证"
+        },
+        "summary_en": {
+          "motivation": "Develop a physics-driven digital twin architecture for wire arc additive manufacturing to enable monitoring, prediction, and closed-loop control.",
+          "method": "Integrate high-fidelity thermo-mechanical finite element models with neural-network-based surrogate models in a multilayer framework with standardized data exchange.",
+          "result": "Surrogate models reproduce finite element responses with >95% accuracy while reducing computational time by 85-90%.",
+          "validation": "Validated quantitatively on a Ti-6Al-4V WAAM demonstrator by comparing surrogate and FE model outputs."
+        },
+        "key_terms": [
+          {
+            "en": "wire arc additive manufacturing",
+            "zh": "电弧增材制造"
+          },
+          {
+            "en": "digital twin",
+            "zh": "数字孪生"
+          },
+          {
+            "en": "surrogate model",
+            "zh": "代理模型"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "neural network",
+            "zh": "神经网络"
+          },
+          {
+            "en": "thermo-mechanical simulation",
+            "zh": "热力耦合模拟"
+          },
+          {
+            "en": "closed-loop control",
+            "zh": "闭环控制"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-26T07:10:40Z"
+    }
+  ],
+  "counts": {
+    "fetched_total": 3,
+    "by_source": {
+      "openalex": 3
+    },
+    "after_dedup": 3,
+    "after_routing": 3,
+    "by_direction": {
+      "ti6al4v_base_mechanical_fatigue": 3
+    },
+    "routed_by_source": {
+      "openalex": 3
+    },
+    "scored": 3,
+    "priority_counts": {
+      "Low": 1,
+      "High": 1,
+      "Medium": 1
+    }
+  }
+}
