@@ -259,26 +259,149 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-07-23T07:07:56Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7169885802",
+      "doi": "10.1016/j.bioadv.2026.215072",
+      "title": "TaN/CrN/ZrN functionally graded thin-film coatings on Ti-6Al-4V for load-bearing biomedical applications: Microstructure, wettability, and nanomechanical properties",
+      "abstract": "",
+      "authors": [
+        "Zahid Mukhtar",
+        "Nitika Kundan",
+        "Abhijit Dey"
+      ],
+      "first_author_affiliation": "Department of Metallurgical & Materials Engineering, National Institute of Technology Srinagar, J&K, 190006, India",
+      "corresponding_authors": [
+        {
+          "name": "Zahid Mukhtar",
+          "affiliation": "Department of Metallurgical & Materials Engineering, National Institute of Technology Srinagar, J&K, 190006, India"
+        }
+      ],
+      "venue": "Biomaterials Advances",
+      "year": 2026,
+      "date": "2026-07-21",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.bioadv.2026.215072",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Nanoindentation",
+        "Composite material",
+        "Coating",
+        "Substrate (aquarium)",
+        "Sputter deposition",
+        "Crystallinity",
+        "Surface roughness",
+        "Adhesion",
+        "Raman spectroscopy",
+        "Sputtering",
+        "Elastic modulus",
+        "Brittleness",
+        "Modulus",
+        "Surface finish"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "microstructure"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文研究的是Ti-6Al-4V基体上的涂层，而非增材制造Ti-6Al-4V本身的力学或疲劳性能，与用户关注的增材制造Ti-6Al-4V力学性能方向不直接相关。",
+        "why_not_core": "This paper does not address additive manufacturing of Ti-6Al-4V; it studies coatings on wrought Ti-6Al-4V and reports nanomechanical properties rather than bulk mechanical or fatigue performance relevant to AM Ti-6Al-4V.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "coating",
+          "Ti-6Al-4V",
+          "nanomechanical",
+          "wettability",
+          "biomedical"
+        ],
+        "summary_zh": {
+          "motivation": "开发用于承重生物医学应用的梯度涂层",
+          "method": "利用磁控溅射沉积TaN/CrN/ZrN梯度薄膜",
+          "result": "涂层改善了表面润湿性和纳米力学性能",
+          "validation": "通过扫描电镜、接触角测量和纳米压痕进行表征"
+        },
+        "summary_en": {
+          "motivation": "To develop functionally graded thin-film coatings for load-bearing biomedical Ti-6Al-4V implants",
+          "method": "TaN/CrN/ZrN coatings were deposited by magnetron sputtering",
+          "result": "The coatings improved surface wettability and nanomechanical properties",
+          "validation": "Microstructural, wettability, and nanoindentation characterization"
+        },
+        "key_terms": [
+          {
+            "en": "functionally graded coating",
+            "zh": "功能梯度涂层"
+          },
+          {
+            "en": "TaN/CrN/ZrN",
+            "zh": "氮化钽/氮化铬/氮化锆"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          },
+          {
+            "en": "magnetron sputtering",
+            "zh": "磁控溅射"
+          },
+          {
+            "en": "nanomechanical properties",
+            "zh": "纳米力学性能"
+          },
+          {
+            "en": "wettability",
+            "zh": "润湿性"
+          },
+          {
+            "en": "load-bearing biomedical applications",
+            "zh": "承重生物医学应用"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-27T08:00:03Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1,
+      "ti6al4v_base_mechanical_fatigue": 2,
       "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
       "Medium": 1,
-      "Low": 1
+      "Low": 1,
+      "Exclude": 1
     }
   }
 }

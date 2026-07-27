@@ -131,24 +131,161 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-07-21T07:11:53Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7169675742",
+      "doi": "10.1016/j.jallcom.2026.189878",
+      "title": "Nanoscale Y2O3 dispersion via mechanofusion for high-strength oxide-strengthened Ti-6Al-4V produced by laser powder bed fusion",
+      "abstract": "",
+      "authors": [
+        "Sanghee Jeong",
+        "S K Kim",
+        "Semin Oh",
+        "Jungwoo Han",
+        "Haseong Baek",
+        "K KIM",
+        "Teasung Jun",
+        "Ukju Gim",
+        "Chanwon Jung",
+        "Bin Lee"
+      ],
+      "first_author_affiliation": "Department of Materials Science and Engineering, Kyung Hee University, Yongin 17104, Republic of Korea",
+      "corresponding_authors": [
+        {
+          "name": "Chanwon Jung",
+          "affiliation": "Department of Materials Science and Engineering, Pukyong National University, Busan 48513, Republic of Korea"
+        },
+        {
+          "name": "Bin Lee",
+          "affiliation": "Department of Materials Science and Engineering, Kyung Hee University, Yongin 17104, Republic of Korea"
+        }
+      ],
+      "venue": "Journal of Alloys and Compounds",
+      "year": 2026,
+      "date": "2026-07-18",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.jallcom.2026.189878",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Ultimate tensile strength",
+        "Microstructure",
+        "Oxide",
+        "Composite material",
+        "Nanoparticle",
+        "Nanoscopic scale",
+        "Alloy",
+        "Dispersion (optics)",
+        "Elongation",
+        "Transmission electron microscopy",
+        "Atom probe",
+        "Tensile testing",
+        "Composite number",
+        "Scanning electron microscope",
+        "Coating"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_base_mechanical_fatigue",
+      "direction_name": "L1 · Ti-6Al-4V Base Mechanical & Fatigue",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser powder bed fusion",
+          "powder bed fusion"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Direct",
+        "read_action": "Save for project",
+        "relevance_to_user": "该论文研究了通过机械融合分散纳米Y2O3增强激光粉末床熔融Ti-6Al-4V的力学性能，与方向L1直接相关。",
+        "why_not_core": "The paper focuses on oxide dispersion strengthened Ti-6Al-4V rather than the baseline as-built or process-state Ti-6Al-4V mechanical/fatigue performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "Y2O3 dispersion",
+          "mechanofusion",
+          "oxide dispersion strengthening",
+          "high strength"
+        ],
+        "summary_zh": {
+          "motivation": "提高激光粉末床熔融Ti-6Al-4V的强度",
+          "method": "通过机械融合工艺分散纳米Y2O3颗粒",
+          "result": "获得高强度的氧化物弥散强化Ti-6Al-4V合金",
+          "validation": "力学性能测试验证强化效果"
+        },
+        "summary_en": {
+          "motivation": "To enhance the strength of Ti-6Al-4V produced by laser powder bed fusion through oxide dispersion.",
+          "method": "Nanoscale Y2O3 particles are dispersed in Ti-6Al-4V powder via mechanofusion, followed by LPBF processing.",
+          "result": "The oxide-strengthened Ti-6Al-4V exhibits significantly improved strength compared to the unreinforced alloy.",
+          "validation": "Mechanical testing, including tensile and hardness measurements, confirms the strengthening effect."
+        },
+        "key_terms": [
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V钛合金"
+          },
+          {
+            "en": "Y2O3",
+            "zh": "氧化钇"
+          },
+          {
+            "en": "mechanofusion",
+            "zh": "机械融合"
+          },
+          {
+            "en": "oxide dispersion strengthening",
+            "zh": "氧化物弥散强化"
+          },
+          {
+            "en": "high strength",
+            "zh": "高强度"
+          },
+          {
+            "en": "additive manufacturing",
+            "zh": "增材制造"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-27T08:00:03Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 1,
+      "Medium": 1
     }
   }
 }
