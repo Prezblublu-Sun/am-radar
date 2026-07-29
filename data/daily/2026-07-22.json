@@ -280,24 +280,158 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-07-24T07:04:22Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7169854918",
+      "doi": "10.5281/zenodo.21479658",
+      "title": "The Effect of Volumetric Energy Density on Gyroid Structures Manufactured by Additive Manufacturing",
+      "abstract": "This review investigates the effect of Volumetric Energy Density (VED) on porosity in gyroid structures based on Triply Periodic Minimal Surfaces (TPMS) manufactured by Laser Powder Bed Fusion (LPBF). Ti6Al4V alloy was considered the focal material in this review because of its widespread use in biomedical implant applications, attributed to its high biocompatibility, excellent corrosion resistance, and superior mechanical properties. It is emphasized that VED optimization is a considerably more critical role in the production of complex lattice structures with thin walls, such as gyroid structures, compared to conventional bulk components. The fundamental principles of the LPBF process, melt pool dynamics, and key process parameters (laser power, scan speed, hatch spacing, and layer thickness) are discussed in detail. Examination of LPBF-produced Ti6Al4V components in the literature reveals that insufficient VED values lead to lack-of-fusion porosity, while excessively high VED values result in keyhole-type porosity and thermal stresses. Furthermore, it is stated that the VED parameter must be optimized specifically according to the geometry in order for gyroid structures to achieve the desired mechanical strength, controlled porosity, and osseointegration performance in biomedical implant applications. This review highlights the importance of process optimization in the LPBF manufacturing of complex TPMS structures and provides a comprehensive reference for future studies in the field.",
+      "authors": [
+        "Zeynep Öztürk",
+        "Sadri Şen"
+      ],
+      "first_author_affiliation": "Atatürk University",
+      "corresponding_authors": [],
+      "venue": "DergiPark (Istanbul University)",
+      "year": 2026,
+      "date": "2026-07-22",
+      "date_precision": "day",
+      "url": "https://doi.org/10.5281/zenodo.21479658",
+      "cited_by_count": 0,
+      "concepts": [
+        "Gyroid",
+        "Materials science",
+        "Porosity",
+        "Titanium alloy",
+        "Fusion",
+        "Composite material",
+        "Selective laser melting",
+        "Osseointegration",
+        "Energy density",
+        "Mechanical engineering",
+        "Alloy",
+        "Process (computing)",
+        "Thermal",
+        "Machining",
+        "Compressibility",
+        "Material properties"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti6Al4V",
+          "additive manufacturing",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "LPBF",
+          "layer thickness",
+          "porosity"
+        ],
+        "ti6al4v_femoral_stem": [
+          "Ti6Al4V",
+          "TPMS"
+        ]
+      },
+      "llm": {
+        "priority": "Low",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "此综述探讨了体积能量密度对Gyroid结构的影响，但未涉及具体的股骨柄设计或力学性能验证。",
+        "why_not_core": "No specific femoral stem design, no structural mechanics, no stress shielding or fatigue analysis.",
+        "validation_kind": "none",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": true
+        },
+        "tags": [
+          "TPMS",
+          "gyroid",
+          "volumetric energy density",
+          "laser powder bed fusion",
+          "Ti-6Al-4V",
+          "porosity",
+          "biomedical implants"
+        ],
+        "summary_zh": {
+          "motivation": "优化Gyroid结构制造工艺",
+          "method": "综述LPBF参数对孔隙率的影响",
+          "result": "VED需根据几何结构优化",
+          "validation": "无实验验证，文献综述"
+        },
+        "summary_en": {
+          "motivation": "To review the effect of volumetric energy density on porosity in gyroid structures.",
+          "method": "Comprehensive literature review on LPBF process parameters for Ti6Al4V.",
+          "result": "VED optimization is critical for achieving desired mechanical and biological performance.",
+          "validation": "No experimental validation; review of existing studies."
+        },
+        "key_terms": [
+          {
+            "en": "volumetric energy density",
+            "zh": "体积能量密度"
+          },
+          {
+            "en": "gyroid",
+            "zh": "Gyroid结构"
+          },
+          {
+            "en": "triply periodic minimal surfaces",
+            "zh": "三周期极小曲面"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V合金"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙率"
+          },
+          {
+            "en": "process parameters",
+            "zh": "工艺参数"
+          },
+          {
+            "en": "biomedical implants",
+            "zh": "生物医用植入物"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-29T07:17:04Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_postprocess": 2
+      "ti6al4v_postprocess": 2,
+      "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
-      "High": 2
+      "High": 2,
+      "Low": 1
     }
   }
 }

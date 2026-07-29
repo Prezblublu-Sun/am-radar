@@ -131,24 +131,157 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-07-26T07:10:40Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7171297820",
+      "doi": "10.3390/automation7040115",
+      "title": "Sustainable and Intelligent Automation Framework for Aerospace Alloys Using Multi-Agent Deep Reinforcement Learning",
+      "abstract": "Advanced aerospace alloys such as titanium alloy (Ti-6Al-4V) are widely employed in critical applications owing to their excellent strength-to-weight ratio and corrosion resistance. However, machining these alloys remains challenging due to significant tool wear, poor material removal rates, and surface integrity concerns. This research offers a sustainable and intelligent machining framework for a 3 mm thick Ti-6Al-4V alloy, utilizing coated wire electrical discharge machining (WEDM) linked with Multi-Agent Deep Reinforcement Learning (MADRL). A Box–Behnken experimental design was adopted to gather baseline data for pulse-on time, pulse-off time, servo voltage, and peak current. The MADRL architecture combines cooperative agents to improve MRR, surface roughness, and kerf width concurrently. Beyond performance increase, the sustainability parameters of energy consumption, dielectric fluid use, and wire consumption were also studied. The proposed MADRL significantly improved the material removal rate (MRR) from 1.00 to 1.28 mm3/min and reduced the average surface roughness (Ra) from 1.95 to 1.66 µm, the kerf width from 0.27 to 0.24 mm, and the energy consumption from 122 to 107 J. The results show the potential of the proposed framework for adaptive, sustainable, and high-performance aerospace manufacturing.",
+      "authors": [
+        "Nagadeepan Anbazhagan",
+        "V. Senthilkumar",
+        "K. K. Ilavenil"
+      ],
+      "first_author_affiliation": "Department of Mechanical Engineering, SRM TRP Engineering College, Trichy 621105, Tamil Nadu, India",
+      "corresponding_authors": [],
+      "venue": "Automation",
+      "year": 2026,
+      "date": "2026-07-24",
+      "date_precision": "day",
+      "url": "https://doi.org/10.3390/automation7040115",
+      "cited_by_count": 0,
+      "concepts": [
+        "Aerospace",
+        "Machining",
+        "Surface roughness",
+        "Energy consumption",
+        "Mechanical engineering",
+        "Materials science",
+        "Aerospace materials",
+        "Automation",
+        "Electrical discharge machining",
+        "Corrosion",
+        "Metalworking",
+        "Surface finish",
+        "Surface integrity",
+        "Robotics",
+        "Robot",
+        "Process engineering",
+        "Titanium alloy",
+        "Efficient energy use",
+        "Manufacturing engineering",
+        "Engineering",
+        "Intelligent control",
+        "Reinforcement learning",
+        "Automotive engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_postprocess",
+        "ti6al4v_base_mechanical_fatigue"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "machining",
+          "surface integrity"
+        ],
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "surface roughness"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Ignore",
+        "relevance_to_user": "该论文涉及Ti-6Al-4V但非增材制造，研究电火花加工而非后处理，与用户关注方向无关。",
+        "why_not_core": "This paper studies wire EDM machining of Ti-6Al-4V, not additive manufacturing or any post-processing treatment relevant to AM Ti-6Al-4V mechanical performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "wire EDM",
+          "machining",
+          "deep reinforcement learning",
+          "sustainability"
+        ],
+        "summary_zh": {
+          "motivation": "针对航空航天合金加工难题，提出智能可持续加工框架。",
+          "method": "结合涂层线电火花加工与多智能体深度强化学习，优化加工参数。",
+          "result": "提高材料去除率，降低表面粗糙度和能耗。",
+          "validation": "通过Box-Behnken实验设计验证模型性能。"
+        },
+        "summary_en": {
+          "motivation": "To address machining challenges of aerospace alloys, a sustainable and intelligent framework is proposed.",
+          "method": "A multi-agent deep reinforcement learning (MADRL) architecture is integrated with coated wire electrical discharge machining (WEDM) to optimize process parameters.",
+          "result": "The framework improves material removal rate, reduces surface roughness and kerf width, and lowers energy consumption.",
+          "validation": "Experimental data from a Box-Behnken design validate the model's performance."
+        },
+        "key_terms": [
+          {
+            "en": "wire electrical discharge machining",
+            "zh": "线放电加工"
+          },
+          {
+            "en": "multi-agent deep reinforcement learning",
+            "zh": "多智能体深度强化学习"
+          },
+          {
+            "en": "material removal rate",
+            "zh": "材料去除率"
+          },
+          {
+            "en": "surface roughness",
+            "zh": "表面粗糙度"
+          },
+          {
+            "en": "kerf width",
+            "zh": "切缝宽度"
+          },
+          {
+            "en": "energy consumption",
+            "zh": "能耗"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "Ti-6Al-4V"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-29T07:17:04Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_postprocess": 1
+      "ti6al4v_postprocess": 2
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Medium": 1
+      "Medium": 1,
+      "Exclude": 1
     }
   }
 }
