@@ -263,25 +263,178 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-07-29T07:17:04Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7171494929",
+      "doi": "10.36922/msam026210047",
+      "title": "Microstructural gradients and associated mechanical and fatigue behavior in DED Ti-6Al-4V across the build height",
+      "abstract": "Directed energy deposition enables efficient fabrication of complex Ti-6Al-4V components, yet process-induced microstructural gradients and porosity across the build height remain poorly understood with respect to their effects on mechanical and fatigue performance. In this study, we investigate the relationships between directed energy deposition process parameters, the resulting microstructure, and anisotropic mechanical behavior. The study expands the current understanding of directed energy deposition-processed Ti-6Al-4V by providing a detailed analysis of microstructural evolution in both build directions and presenting new insights into fatigue properties. The microstructural and mechanical characteristics of the alloy are systematically described with an emphasis on their mutual relationship. The material exhibited a predominantly &amp;alpha;&amp;rsquo; martensitic microstructure, with no significant variation in phase fraction as a function of distance from the build platform, consistent with the measured hardness. Electron backscatter diffraction analysis did not reveal a pronounced crystallographic texture, whereas transmission electron microscopy observations identified deformation twins within the &amp;alpha;&amp;rsquo; phase. Porosity was mainly oriented perpendicular to the build direction. The combination of a martensitic microstructure and the presence of pores resulted in low ductility. Under cyclic loading, pores acted as crack initiation sites, while their planar orientation limited their effect on crack propagation, indicating that the mechanical response was governed primarily by the martensitic microstructure rather than pore-assisted crack growth. Overall, the results highlight the critical role of microstructure and inherent defects in controlling the mechanical behavior of additively manufactured components and provide a basis for process optimization and post-processing strategies such as heat treatment or hot isostatic pressing.",
+      "authors": [
+        "Andrea Školáková",
+        "Jan Pinc",
+        "Hana Lesáková",
+        "Ondřej Kovářík",
+        "Karel Tesař",
+        "Orsolya Molnárová",
+        "Michal Jambor",
+        "M. Lebeda",
+        "Pavel Hutař",
+        "Dalibor Vojtěch"
+      ],
+      "first_author_affiliation": "",
+      "corresponding_authors": [
+        {
+          "name": "Jan Pinc",
+          "affiliation": ""
+        }
+      ],
+      "venue": "Materials Science in Additive Manufacturing",
+      "year": 2026,
+      "date": "2026-07-24",
+      "date_precision": "day",
+      "url": "https://doi.org/10.36922/msam026210047",
+      "cited_by_count": 0,
+      "concepts": [
+        "Microstructure",
+        "Materials science",
+        "Electron backscatter diffraction",
+        "Martensite",
+        "Hot isostatic pressing",
+        "Deformation (meteorology)",
+        "Porosity",
+        "Composite material",
+        "Deposition (geology)",
+        "Anisotropy",
+        "Titanium alloy",
+        "Transmission electron microscopy",
+        "Plasticity",
+        "Fabrication",
+        "Phase (matter)",
+        "Metallurgy",
+        "Alloy",
+        "Deformation mechanism",
+        "Physical vapor deposition"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additively manufactured",
+          "directed energy deposition",
+          "DED",
+          "microstructure",
+          "build direction",
+          "ductility",
+          "porosity",
+          "fatigue"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "hot isostatic pressing",
+          "heat treatment",
+          "post-processing"
+        ]
+      },
+      "llm": {
+        "priority": "Exclude",
+        "relevance_level": "Peripheral",
+        "read_action": "Background only",
+        "relevance_to_user": "该论文研究了DED成形Ti-6Al-4V的微观结构和疲劳性能，但未涉及任何后处理工艺，属于第一层（as-built）研究。",
+        "why_not_core": "The paper studies as-built DED Ti-6Al-4V without applying any post-processing treatment, so it does not address the effect of post-processing on mechanical/fatigue performance.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "DED",
+          "Ti-6Al-4V",
+          "microstructural gradients",
+          "fatigue",
+          "porosity",
+          "martensite"
+        ],
+        "summary_zh": {
+          "motivation": "理解DED Ti-6Al-4V构件沿高度的微观结构梯度及其对力学和疲劳性能的影响。",
+          "method": "通过EBSD、TEM和力学测试系统表征不同高度的微观结构及拉伸/疲劳行为。",
+          "result": "组织为马氏体α'，孔隙垂直于构建方向，疲劳裂纹源于孔隙但扩展受马氏体控制，延性低。",
+          "validation": "通过拉伸和疲劳试验验证微观结构-性能关系。"
+        },
+        "summary_en": {
+          "motivation": "To understand how process-induced microstructural gradients and porosity across build height affect the mechanical and fatigue performance of DED Ti-6Al-4V components.",
+          "method": "Systematic characterization of microstructure via EBSD, TEM, and mechanical testing (tensile and fatigue) at different build heights.",
+          "result": "The alloy exhibits a martensitic α' microstructure with no significant texture, porosity oriented perpendicular to build direction, and fatigue crack initiation at pores, while crack propagation is governed by the martensitic phase.",
+          "validation": "Experimental validation through mechanical testing including tensile and fatigue tests."
+        },
+        "key_terms": [
+          {
+            "en": "directed energy deposition (DED)",
+            "zh": "定向能量沉积"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "microstructural gradient",
+            "zh": "微观结构梯度"
+          },
+          {
+            "en": "fatigue",
+            "zh": "疲劳"
+          },
+          {
+            "en": "porosity",
+            "zh": "孔隙"
+          },
+          {
+            "en": "martensite",
+            "zh": "马氏体"
+          },
+          {
+            "en": "electron backscatter diffraction (EBSD)",
+            "zh": "电子背散射衍射"
+          },
+          {
+            "en": "transmission electron microscopy (TEM)",
+            "zh": "透射电子显微镜"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-30T07:11:55Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
-      "ti6al4v_postprocess": 2
+      "ti6al4v_postprocess": 3
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
       "Medium": 1,
-      "Exclude": 1
+      "Exclude": 2
     }
   }
 }
