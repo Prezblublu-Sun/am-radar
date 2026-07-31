@@ -138,24 +138,180 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-07-29T07:17:04Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7171436960",
+      "doi": "10.1016/j.triboint.2026.112523",
+      "title": "Mechanism-informed prediction of fretting fatigue crack initiation in Ti-6Al-4V dovetail joints strengthened by shot and laser shock peening under coupled high-low cycle loading",
+      "abstract": "",
+      "authors": [
+        "Zhiguo Wang",
+        "K W Li",
+        "Can Wang",
+        "Xiuyang Fang",
+        "Magd Abdel Wahab",
+        "Zhenbing Cai"
+      ],
+      "first_author_affiliation": "Soete Laboratory, Department of Electrical energy, metals, mechanical constructions and systems, Faculty of Engineering and Architecture, Ghent University, Belgium",
+      "corresponding_authors": [
+        {
+          "name": "Magd Abdel Wahab",
+          "affiliation": "Scientific Computing Laboratory, Jožef Stefan Institute, Jamova cesta 39, Ljubljana SI-1000, Slovenia"
+        },
+        {
+          "name": "Zhenbing Cai",
+          "affiliation": "Tribology Research Institute, Key Lab of Advanced Technologies of Materials, Southwest Jiaotong University, Chengdu, 610031, China"
+        }
+      ],
+      "venue": "Tribology International",
+      "year": 2026,
+      "date": "2026-07-27",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1016/j.triboint.2026.112523",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Peening",
+        "Fretting",
+        "Residual stress",
+        "Shot peening",
+        "Shock (circulatory)",
+        "Microstructure",
+        "Composite material",
+        "Slip (aerodynamics)",
+        "Fatigue testing",
+        "Fatigue limit",
+        "Lüders band",
+        "Dislocation",
+        "Structural engineering",
+        "Laser",
+        "Laser peening",
+        "Grain size",
+        "Stress concentration",
+        "Crack closure",
+        "Stress (linguistics)",
+        "Metallurgy"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_postprocess"
+      ],
+      "direction": "ti6al4v_postprocess",
+      "direction_name": "L2 · Ti-6Al-4V Post-processing Control",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "fatigue",
+          "fatigue crack initiation"
+        ],
+        "ti6al4v_postprocess": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "laser shock peening"
+        ]
+      },
+      "llm": {
+        "priority": "High",
+        "relevance_level": "Direct",
+        "read_action": "Read now",
+        "relevance_to_user": "该论文直接研究喷丸和激光冲击强化对Ti-6Al-4V燕尾接头微动疲劳行为的影响，属于后处理调控疲劳性能的核心方向。",
+        "why_not_core": "It focuses solely on peening-based post-processing and does not cover other L2 treatments such as heat treatment, HIP, machining, or coatings.",
+        "validation_kind": "simulation_case",
+        "flags": {
+          "has_experimental_validation": false,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "Ti-6Al-4V",
+          "shot peening",
+          "laser shock peening",
+          "fretting fatigue",
+          "crack initiation",
+          "dovetail joint",
+          "high-low cycle loading",
+          "residual stress",
+          "fatigue life prediction"
+        ],
+        "summary_zh": {
+          "motivation": "针对喷丸与激光冲击强化钛合金燕尾接头的微动疲劳裂纹萌生进行预测建模。",
+          "method": "基于机理的预测方法，耦合高-低循环载荷并考虑喷丸与激光冲击引入的残余应力。",
+          "result": "实现了对强化后接头疲劳裂纹萌生位置的定量预测。",
+          "validation": "通过典型燕尾接头工况的数值模拟进行验证。"
+        },
+        "summary_en": {
+          "motivation": "To predict fretting fatigue crack initiation in Ti-6Al-4V dovetail joints strengthened by shot and laser shock peening under coupled high-low cycle loading.",
+          "method": "A mechanism-informed modeling approach that incorporates residual stress fields induced by peening into a fretting fatigue crack initiation criterion.",
+          "result": "The model provides quantitative predictions of crack initiation location and life for peened dovetail joint configurations.",
+          "validation": "The prediction framework is demonstrated through numerical simulation of a representative dovetail joint case."
+        },
+        "key_terms": [
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "shot peening",
+            "zh": "喷丸强化"
+          },
+          {
+            "en": "laser shock peening",
+            "zh": "激光冲击强化"
+          },
+          {
+            "en": "fretting fatigue",
+            "zh": "微动疲劳"
+          },
+          {
+            "en": "crack initiation",
+            "zh": "裂纹萌生"
+          },
+          {
+            "en": "dovetail joint",
+            "zh": "燕尾接头"
+          },
+          {
+            "en": "high-low cycle loading",
+            "zh": "高低周复合载荷"
+          },
+          {
+            "en": "residual stress",
+            "zh": "残余应力"
+          },
+          {
+            "en": "fatigue life prediction",
+            "zh": "疲劳寿命预测"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-07-31T07:22:12Z"
     }
   ],
   "counts": {
-    "fetched_total": 1,
+    "fetched_total": 2,
     "by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "after_dedup": 1,
-    "after_routing": 1,
+    "after_dedup": 2,
+    "after_routing": 2,
     "by_direction": {
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 1,
+      "ti6al4v_postprocess": 1
     },
     "routed_by_source": {
-      "openalex": 1
+      "openalex": 2
     },
-    "scored": 1,
+    "scored": 2,
     "priority_counts": {
-      "Exclude": 1
+      "Exclude": 1,
+      "High": 1
     }
   }
 }
