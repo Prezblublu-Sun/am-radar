@@ -272,26 +272,162 @@
       "schema_version": "v2",
       "scorer_version": "v3",
       "first_seen_at": "2026-08-01T07:01:45Z"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7171637102",
+      "doi": "10.1080/17452759.2026.2686063",
+      "title": "Additive manufacturing of functionally graded thickness in TPMS lattice structures with optimised mechanical strength",
+      "abstract": "Additively manufactured (AM) triply periodic minimal surface (TPMS) lattice structures are widely used because of their superior mechanical strength-to-weight ratio, high surface area, and design freedom for engineered porosity. Additionally, the complex geometry, design flexibility, and no need for sacrificial support renders AM as the ideal processing approach for TPMS structures. This study aims to establish a gradient-based optimisation method to design and fabricate TPMS structures with functionally graded thickness for mechanical strength and mass constraints. Ti-6Al-4V lattice beams were fabricated through laser powder bed fusion (L-PBF) and investigated through flexural testing with digital image correlation and finite element analysis (FEA). Findings show that the graded beams redistributed regions of high stress to maintain a more uniform strain distribution across the beam, allowing these beams to withstand prolonged higher loads. Specifically, the graded beams were able to withstand on average a 35% higher load as compared to the beams with uniform thickness. The presented design method effectively combines design optimisation and AM constraints to generate functionally graded lattice structures with superior mechanical strength. Findings from this study can be seamlessly applied to mechanical products that benefit from higher stiffness-to-weight ratios, and other TPMS applications such as heat exchangers.",
+      "authors": [
+        "Kaitlyn Hartman",
+        "Sy Nguyen-Van",
+        "Jacklyn Griffis",
+        "Avez Shaikh",
+        "Lan-Hsuan Huang",
+        "Matthew Lear",
+        "Julian Norato",
+        "Guha Manogharan"
+      ],
+      "first_author_affiliation": "Pennsylvania State University",
+      "corresponding_authors": [],
+      "venue": "Virtual and Physical Prototyping",
+      "year": 2026,
+      "date": "2026-07-29",
+      "date_precision": "day",
+      "url": "https://doi.org/10.1080/17452759.2026.2686063",
+      "cited_by_count": 0,
+      "concepts": [
+        "Materials science",
+        "Composite material",
+        "Lattice (music)",
+        "Mechanical strength",
+        "Structural engineering",
+        "Engineering drawing",
+        "Ultimate tensile strength",
+        "Material properties",
+        "Mechanical engineering"
+      ],
+      "categories": [],
+      "raw_type": "article",
+      "directions": [
+        "ti6al4v_base_mechanical_fatigue",
+        "ti6al4v_femoral_stem"
+      ],
+      "direction": "ti6al4v_femoral_stem",
+      "direction_name": "L3 · Ti-6Al-4V Femoral Stem Design",
+      "routing_matches": {
+        "ti6al4v_base_mechanical_fatigue": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "additive manufacturing",
+          "additively manufactured",
+          "laser powder bed fusion",
+          "powder bed fusion",
+          "porosity"
+        ],
+        "ti6al4v_femoral_stem": [
+          "Ti-6Al-4V",
+          "Ti 6Al 4V",
+          "graded lattice",
+          "TPMS",
+          "triply periodic minimal surface"
+        ]
+      },
+      "llm": {
+        "priority": "Medium",
+        "relevance_level": "Transferable",
+        "read_action": "Skim only",
+        "relevance_to_user": "该论文虽未直接研究股骨柄，但其Ti-6Al-4V梯度TPMS点阵的力学优化方法可迁移至多孔股骨柄的结构设计。",
+        "why_not_core": "The paper does not study a femoral/hip stem or implant structure; it focuses on generic TPMS lattice beams, lacking stem-specific geometry, stress shielding, or ISO fatigue assessment.",
+        "validation_kind": "mechanical_testing",
+        "flags": {
+          "has_experimental_validation": true,
+          "has_uncertainty_quantification": false,
+          "is_patient_specific": false,
+          "is_review": false
+        },
+        "tags": [
+          "TPMS lattice",
+          "functionally graded thickness",
+          "Ti-6Al-4V",
+          "laser powder bed fusion",
+          "flexural testing",
+          "digital image correlation",
+          "finite element analysis",
+          "mechanical strength"
+        ],
+        "summary_zh": {
+          "motivation": "建立梯度优化方法，设计兼具强度与质量效率的TPMS点阵结构。",
+          "method": "采用基于梯度的优化结合增材制造约束，通过L-PBF制备Ti-6Al-4V点阵梁，并开展弯曲测试、DIC与FEA分析。",
+          "result": "梯度梁应力分布更均匀，平均承载能力比均匀厚度梁提高35%。",
+          "validation": "通过弯曲实验、数字图像相关和有限元分析进行验证。"
+        },
+        "summary_en": {
+          "motivation": "To establish a gradient-based optimisation method for designing TPMS lattice structures with functionally graded thickness, aiming to improve mechanical strength while managing mass constraints.",
+          "method": "Gradient-based optimisation combined with AM constraints was used to design Ti-6Al-4V TPMS lattice beams, which were fabricated via laser powder bed fusion and evaluated through flexural testing with digital image correlation and finite element analysis.",
+          "result": "The graded beams redistributed high-stress regions to achieve a more uniform strain distribution and withstood on average 35% higher loads compared to uniform-thickness beams.",
+          "validation": "The findings were validated experimentally via flexural testing with digital image correlation, supported by finite element analysis."
+        },
+        "key_terms": [
+          {
+            "en": "TPMS lattice",
+            "zh": "三周期极小曲面点阵"
+          },
+          {
+            "en": "functionally graded thickness",
+            "zh": "功能梯度厚度"
+          },
+          {
+            "en": "Ti-6Al-4V",
+            "zh": "钛合金Ti-6Al-4V"
+          },
+          {
+            "en": "laser powder bed fusion",
+            "zh": "激光粉末床熔融"
+          },
+          {
+            "en": "flexural testing",
+            "zh": "弯曲测试"
+          },
+          {
+            "en": "digital image correlation",
+            "zh": "数字图像相关"
+          },
+          {
+            "en": "finite element analysis",
+            "zh": "有限元分析"
+          },
+          {
+            "en": "stress redistribution",
+            "zh": "应力再分布"
+          }
+        ]
+      },
+      "schema_version": "v2",
+      "scorer_version": "v3",
+      "first_seen_at": "2026-08-02T07:09:50Z"
     }
   ],
   "counts": {
-    "fetched_total": 2,
+    "fetched_total": 3,
     "by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "after_dedup": 2,
-    "after_routing": 2,
+    "after_dedup": 3,
+    "after_routing": 3,
     "by_direction": {
       "ti6al4v_postprocess": 1,
-      "ti6al4v_base_mechanical_fatigue": 1
+      "ti6al4v_base_mechanical_fatigue": 1,
+      "ti6al4v_femoral_stem": 1
     },
     "routed_by_source": {
-      "openalex": 2
+      "openalex": 3
     },
-    "scored": 2,
+    "scored": 3,
     "priority_counts": {
       "Exclude": 1,
-      "Medium": 1
+      "Medium": 2
     }
   }
 }
