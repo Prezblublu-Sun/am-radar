@@ -1,0 +1,179 @@
+version: 1
+# Three-layer AM Ti-6Al-4V radar. All three layers are HARD-anchored to
+# Ti-6Al-4V (must_pair_with ti6al4v_terms), so non-Ti-6Al-4V noise (other
+# alloys, ceramics, ferroelectric "fatigue", clinical orthopaedics) cannot
+# route in. Layers are conceptually nested (L3 subset L2 subset L1) but
+# processed in parallel; deeper layers carry more/heavier specific keywords,
+# biasing boundary papers toward the DEEPEST applicable layer, and the router
+# assigns the deepest matched layer as primary (stem > post-process > base).
+#
+# RECALL-FIRST (2026-06): openalex_keywords are broad 2-3 word queries and L1
+# strong_keywords include broad AM-process/microstructure terms, so any
+# Ti-6Al-4V additive-manufacturing paper routes in (defaulting to L1) even if
+# it does not hit a specific mechanical/fatigue keyword. Over-collection is
+# intentional: the Ti-6Al-4V must_pair anchor blocks other-alloy noise, and the
+# LLM scorer sorts marginal papers to Low/Exclude (they sink in the queue).
+exclusions:
+  hard_exclude_if_only_about:
+    - "case report"
+    - "case series"
+    - "surgical technique"
+    - "preoperative templating"
+
+ti6al4v_terms: &ti6al4v
+  - "Ti-6Al-4V"
+  - "Ti6Al4V"
+  - "Ti 6Al 4V"
+  - "TC4"
+  - "Ti-6Al-4V ELI"
+  - "grade 5 titanium"
+  - "Ti64"
+
+directions:
+  ti6al4v_base_mechanical_fatigue:
+    display_name: "L1 · Ti-6Al-4V Base Mechanical & Fatigue"
+    color: "#2E7D6B"
+    llm_prompt_focus: |
+      Layer 1 (base): mechanical and fatigue performance of ADDITIVELY MANUFACTURED Ti-6Al-4V (LPBF/SLM/EBM/DED). In scope: tensile/yield/ultimate strength, ductility, elongation, hardness, anisotropy, layer-thickness & build-orientation effects, defects/porosity, surface roughness, residual stress, microstructure, fatigue life, S-N, fatigue crack initiation/growth. BOTH experimental and computational/modeling work count and must NOT be penalized for being simulation-only. The paper MUST concern Ti-6Al-4V specifically. This layer is also the DEFAULT layer for any Ti-6Al-4V additive-manufacturing paper that does not clearly belong to post-processing (L2) or femoral stem (L3); such papers are in scope here even if their main result is microstructure, process, corrosion, or another AM property rather than a headline mechanical number.
+      Direct (High if novel + substantive): as-built or process-state Ti-6Al-4V mechanical/fatigue characterization or modeling.
+      Medium: reviews; incremental studies; microstructure/process papers without a strong mechanical result.
+      Low/Exclude: not Ti-6Al-4V, or only tangentially about Ti-6Al-4V AM.
+      NOTE: if the paper's main point is a POST-PROCESSING treatment (HIP, heat treatment, shot peening, etc.) it belongs to Layer 2; if it is about a FEMORAL STEM / implant structure it belongs to Layer 3.
+    sources:
+      arxiv_categories: ["cond-mat.mtrl-sci"]
+      openalex_concepts: []
+      openalex_keywords:
+        - "Ti-6Al-4V additive manufacturing"
+        - "Ti-6Al-4V laser powder bed fusion"
+        - "Ti-6Al-4V selective laser melting"
+        - "Ti-6Al-4V electron beam melting"
+        - "Ti-6Al-4V directed energy deposition"
+        - "Ti-6Al-4V fatigue"
+        - "Ti-6Al-4V mechanical properties"
+        - "Ti-6Al-4V microstructure additive"
+        - "Ti-6Al-4V tensile additive"
+        - "Ti-6Al-4V SLM"
+        - "Ti-6Al-4V EBM"
+        - "Ti-6Al-4V LPBF"
+        - "Ti-6Al-4V wire arc additive"
+      pubmed_terms:
+        - "Ti-6Al-4V additive manufacturing"
+    strong_keywords:
+      - "additive manufacturing"
+      - "additively manufactured"
+      - "laser powder bed fusion"
+      - "powder bed fusion"
+      - "selective laser melting"
+      - "electron beam melting"
+      - "directed energy deposition"
+      - "wire arc additive"
+      - "3D printing"
+      - "3D printed"
+      - "SLM"
+      - "EBM"
+      - "LPBF"
+      - "DED"
+      - "microstructure"
+      - "build direction"
+      - "build orientation"
+      - "tensile strength"
+      - "yield strength"
+      - "ultimate tensile strength"
+      - "elongation"
+      - "ductility"
+      - "mechanical anisotropy"
+      - "layer thickness"
+      - "porosity"
+      - "defect"
+      - "surface roughness"
+      - "residual stress"
+      - "fatigue"
+      - "fatigue life"
+      - "fatigue strength"
+      - "s-n curve"
+      - "high cycle fatigue"
+      - "fatigue crack initiation"
+      - "fatigue crack growth"
+    must_pair_with: *ti6al4v
+
+  ti6al4v_postprocess:
+    display_name: "L2 · Ti-6Al-4V Post-processing Control"
+    color: "#8A6D3B"
+    llm_prompt_focus: |
+      Layer 2 (post-processing): how POST-PROCESSING modifies fatigue / mechanical performance of AM Ti-6Al-4V. In scope: heat treatment, stress relief, annealing, solution/aging, hot isostatic pressing (HIP = hot isostatic pressing, NOT hip joint), machining, polishing, shot peening, laser shock peening, hirtisation, surface coatings. BOTH experimental and modeling work count. The paper MUST concern Ti-6Al-4V AND a post-processing treatment.
+      Direct (High if novel + substantive): effect of a post-processing route on Ti-6Al-4V microstructure / porosity closure / tensile / fatigue.
+      Medium: reviews; modest single-treatment studies.
+      Low/Exclude: not Ti-6Al-4V, or no post-processing angle (pure as-built -> that is Layer 1).
+      NOTE: if the paper is about a FEMORAL STEM / implant structure it belongs to Layer 3.
+    sources:
+      arxiv_categories: ["cond-mat.mtrl-sci"]
+      openalex_concepts: []
+      openalex_keywords:
+        - "Ti-6Al-4V hot isostatic pressing"
+        - "Ti-6Al-4V heat treatment"
+        - "Ti-6Al-4V shot peening"
+        - "Ti-6Al-4V laser shock peening"
+        - "Ti-6Al-4V machining surface"
+        - "Ti-6Al-4V annealing"
+        - "Ti-6Al-4V post-processing"
+        - "Ti-6Al-4V surface treatment"
+        - "Ti-6Al-4V stress relief"
+        - "Ti-6Al-4V HIP fatigue"
+      pubmed_terms:
+        - "Ti-6Al-4V heat treatment additive manufacturing"
+    strong_keywords:
+      - "hot isostatic pressing"
+      - "heat treatment"
+      - "stress relief"
+      - "annealing"
+      - "solution treatment"
+      - "aging treatment"
+      - "machining"
+      - "polishing"
+      - "shot peening"
+      - "laser shock peening"
+      - "hirtisation"
+      - "surface coating"
+      - "surface treatment"
+      - "post-processing"
+      - "post-process"
+      - "surface integrity"
+    must_pair_with: *ti6al4v
+
+  ti6al4v_femoral_stem:
+    display_name: "L3 · Ti-6Al-4V Femoral Stem Design"
+    color: "#3F51B5"
+    llm_prompt_focus: |
+      Layer 3 (application): structural design and service performance of Ti-6Al-4V orthopaedic implants / femoral (hip) stems made by additive manufacturing. In scope: porous stem, graded lattice, TPMS, stress shielding, Gruen zones, primary stability, micromotion, ISO fatigue testing of stems, FEA combined with experimental validation. BOTH experimental and computational work count. The paper MUST concern a Ti-6Al-4V femoral/hip stem or comparable implant structure.
+      Direct (High if novel + substantive mechanical/biomechanical analysis): stem/implant structural design, lattice/porous architecture, stress shielding, or stem fatigue/strength.
+      Medium: reviews; FE-only stem studies; design studies with modest results.
+      Low/Exclude: general clinical/surgical hip arthroplasty papers with no stem design or mechanics; not Ti-6Al-4V.
+    sources:
+      arxiv_categories: ["cond-mat.mtrl-sci"]
+      openalex_concepts: []
+      openalex_keywords:
+        - "Ti-6Al-4V femoral stem"
+        - "Ti-6Al-4V porous hip stem"
+        - "Ti-6Al-4V stem stress shielding"
+        - "additively manufactured femoral stem"
+        - "TPMS lattice hip implant titanium"
+        - "graded porous femoral stem"
+        - "Ti-6Al-4V hip implant lattice"
+      pubmed_terms:
+        - "additive manufacturing femoral stem titanium"
+    strong_keywords:
+      - "femoral stem"
+      - "hip stem"
+      - "porous stem"
+      - "graded lattice"
+      - "lattice structure"
+      - "TPMS"
+      - "triply periodic minimal surface"
+      - "stress shielding"
+      - "Gruen zone"
+      - "primary stability"
+      - "micromotion"
+      - "orthopaedic implant"
+      - "orthopedic implant"
+      - "stem design"
+    must_pair_with: *ti6al4v
